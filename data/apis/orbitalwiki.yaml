@@ -1,0 +1,66 @@
+id: orbitalwiki
+name: OrbitalWiki
+url: https://orbitalwiki.com/developers
+category: Science & Math
+description: Catalog of 16,000+ satellites merging CelesTrak, GCAT, Wikidata; free tier included
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: OrbitalWiki
+  url: https://orbitalwiki.com/developers
+  category: Science & Math
+link_status: alive
+data_license: 'ODbL-1.0 (OrbitalWiki database); upstream: CelesTrak (reuse licence not stated), GCAT CC-BY 4.0, Wikidata CC0, SatNOGS CC BY-SA 4.0'
+commercial_use: paid-only
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://orbitalwiki.com/licensing
+api_terms_url: https://orbitalwiki.com/terms
+commercial_use_scope: paid
+cache_limit: Sensible caching OK; no mirroring or rebuilding a substantial part of the catalog
+attribution_text: OrbitalWiki (orbitalwiki.com), original database structure and contributions, ODbL-1.0; plus upstream source credits
+share_alike: 'yes'
+rate_limits: Free 1,000 requests/day (non-commercial); Builder 50,000/day; Business 250,000/day
+evidence:
+- field: commercial_use
+  url: https://orbitalwiki.com/terms
+  quote: using free-tier access for commercial products, paid services, client deliverables, or organisation workflows, which require a paid plan
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://orbitalwiki.com/terms
+  quote: You may show the data to your own users as part of what you have built.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://orbitalwiki.com/terms
+  quote: systematically downloading, mirroring, or caching the catalog in order to rebuild a substantial part of it outside the Service
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://orbitalwiki.com/licensing
+  quote: Attribution to include
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://orbitalwiki.com/licensing
+  quote: 'Share-alike : if you publicly use the database or a derivative, you must offer that database under ODbL-1.0'
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://orbitalwiki.com/developers
+  quote: Free tier 1,000 10/sec burst · 1 active key · non-commercial evaluation
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://orbitalwiki.com/licensing
+  quote: OrbitalWiki ODbL-1.0 CelesTrak CelesTrak usage policy; reuse licence not stated
+  checked_at: '2026-11-21'
+notes: 'Aggregator: merges CelesTrak, GCAT, Wikidata (and SatNOGS) data, so upstream terms may be stricter; the terms say upstream rules still apply and a paid plan cannot grant rights OrbitalWiki does
+  not hold (CelesTrak reuse licence is "not stated"). Free tier is non-commercial only; Builder (paid) allows commercial use in your own product and showing data to your users but no republishing as dataset/API
+  (that needs Business). ODbL share-alike applies if the database or a derivative is used publicly. Early-access prototype run by one person; terms updated 4 Nov 2026.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

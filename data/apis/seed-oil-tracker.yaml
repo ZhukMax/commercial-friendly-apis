@@ -1,0 +1,72 @@
+id: seed-oil-tracker
+name: Seed Oil Tracker
+url: https://seedoiltracker.com/ai-tool
+category: Food & Drink
+description: Seed-oil/PUFA grades and cooking oil data for 512 US restaurant chains
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: Seed Oil Tracker
+  url: https://seedoiltracker.com/ai-tool
+  category: Food & Drink
+link_status: alive
+data_license: CC-BY-4.0 (chain-level open data files only); rest (c) Seed Oil Tracker
+commercial_use: ambiguous
+storage_caching: ambiguous
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: 'yes'
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://seedoiltracker.com/open-data
+api_terms_url: https://seedoiltracker.com/terms
+commercial_use_scope: any
+attribution_text: Cite Seed Oil Tracker and link the report_card URL returned with each answer
+share_alike: unknown
+rate_limits: None stated; no key required
+evidence:
+- field: data_license
+  url: https://seedoiltracker.com/terms
+  quote: The chain-level files on our open data page are licensed under CC BY 4.0, as stated there.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://seedoiltracker.com/terms
+  quote: You may not use bots, scrapers, or other automated tools to copy the menu database, report cards,
+    or API responses in bulk
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://seedoiltracker.com/terms
+  quote: You may not use bots, scrapers, or other automated tools to copy the menu database, report cards,
+    or API responses in bulk
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://seedoiltracker.com/terms
+  quote: Quote, screenshot, and link to any page freely, including in articles, videos, and social posts,
+    with attribution to Seed Oil Tracker
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://seedoiltracker.com/ai-tool
+  quote: Please cite Seed Oil Tracker and link the report_card URL returned with each answer.
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://seedoiltracker.com/open-data
+  quote: Released under Creative Commons Attribution 4.0 (CC BY 4.0) — use it anywhere, just credit Seed
+    Oil Tracker and link back.
+  checked_at: '2026-11-21'
+notes: 'Read ai-tool page, Terms of Use & Data Attribution and open-data page (server returned 503 ''busy''
+  at first; later reads succeeded). Two tiers: chain-level CSV/JSON open data is CC BY 4.0 (commercial
+  reuse fine with credit); the live API/AI-tool responses and item-level data are (c) Seed Oil Tracker
+  - bulk copying via API and building a competing database are forbidden, item-level data is non-commercial
+  on request. So a commercial site relying on the open-data files is fine, relying on API storage is unclear:
+  ambiguous. Values are estimates built from published nutrition data (not medical advice).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Terms (updated 2026-11-05) give no explicit commercial grant for API data; quoting
+  with attribution allowed.

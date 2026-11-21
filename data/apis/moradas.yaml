@@ -1,0 +1,49 @@
+id: moradas
+name: Moradas
+url: https://moradas.dev/docs
+category: Geocoding
+description: Portuguese address autocomplete and 7-digit postal codes (CP7)
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Moradas
+  url: https://moradas.dev/docs
+  category: Geocoding
+link_status: alive
+data_license: unknown
+commercial_use: 'yes'
+storage_caching: limited
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://moradas.dev/docs
+commercial_use_scope: any
+cache_limit: Cache what you need, but never store the art_id (changes on each weekly data refresh)
+rate_limits: About 50 requests per 10 seconds per IP; no availability guarantee (beta)
+evidence:
+- field: commercial_use
+  url: https://moradas.dev/docs
+  quote: Utilização Grátis, incluindo uso comercial.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://moradas.dev/docs
+  quote: Sem garantia de disponibilidade — guarde em cache o que precisar.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://moradas.dev/docs
+  quote: 'Limite: cerca de 50 pedidos por 10 segundos por IP.'
+  checked_at: '2026-11-21'
+notes: Docs page (Portuguese) says use is free "including commercial use", advises caching what you need
+  but warns art_id values are ephemeral and must not be stored. There is no terms-of-service page (/terms
+  and /pricing return 404), the service is marked Beta, and the source of the Portuguese address/CP7 data
+  (CTT or other) and its licence are not stated, so redistribution/display rights and data_license remain
+  unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

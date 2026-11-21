@@ -1,0 +1,26 @@
+id: watson-natural-language-understanding
+name: Watson Natural Language Understanding
+url: https://cloud.ibm.com/apidocs/natural-language-understanding
+category: Text Analysis
+description: Natural language processing for advanced text analysis
+description_source: upstream
+auth: OAuth
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Watson Natural Language Understanding
+  url: https://cloud.ibm.com/apidocs/natural-language-understanding
+  category: Text Analysis
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://cloud.ibm.com/docs/apis/natural-language-understanding

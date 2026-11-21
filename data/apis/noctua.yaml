@@ -1,0 +1,26 @@
+id: noctua
+name: Noctua
+url: https://api.noctuasky.com/api/v1/swaggerdoc/
+category: Science & Math
+description: REST API used to access NoctuaSky features
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Noctua
+  url: https://api.noctuasky.com/api/v1/swaggerdoc/
+  category: Science & Math
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: ConnectError

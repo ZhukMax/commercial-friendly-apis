@@ -1,0 +1,47 @@
+id: new-york-times
+name: New York Times
+url: https://developer.nytimes.com/
+category: News
+description: The New York Times Developer Network
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: New York Times
+  url: https://developer.nytimes.com/
+  category: News
+- list: public-api-lists
+  name: New York Times
+  url: https://developer.nytimes.com/
+  category: News
+link_status: alive
+data_license: unknown
+commercial_use: 'no'
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: high
+link_checked_at: '2026-11-21'
+commercial_use_scope: any
+api_terms_url: https://developer.nytimes.com/terms
+evidence:
+- field: commercial_use
+  url: https://developer.nytimes.com/terms
+  quote: use the NYT APIs for any commercial purpose
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://developer.nytimes.com/terms
+  quote: If your product or service uses or is based upon the NYT APIs, then YOU SHALL comply with the
+    attribution guidelines
+  checked_at: '2026-11-21'
+notes: Read https://developer.nytimes.com/terms via Playwright (SPA; curl 403). Terms prohibit use for
+  any commercial purpose, deriving income from the APIs, training ML/AI and providing archived/cached
+  datasets to others; see the API FAQ for what counts as commercial (not read). Attribution guidelines
+  at developer.nytimes.com/branding (not read). Some APIs may carry supplemental terms.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

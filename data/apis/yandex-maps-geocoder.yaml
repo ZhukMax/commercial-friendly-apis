@@ -1,0 +1,79 @@
+id: yandex-maps-geocoder
+name: Yandex.Maps Geocoder
+url: https://yandex.com/dev/maps/geocoder
+category: Geocoding
+description: Use geocoding to get an object's coordinates from its address
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Yandex.Maps Geocoder
+  url: https://yandex.com/dev/maps/geocoder
+  category: Geocoding
+link_status: redirect
+data_license: unknown
+commercial_use: paid-only
+storage_caching: limited
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: -> https://yandex.com/maps-api/products/geocoder-api
+api_terms_url: https://yandex.ru/legal/maps_api/ru/
+commercial_use_scope: free-tier
+cache_limit: 30 days (temporary caching only)
+attribution_text: Link Yandex as rights holder; keep Yandex copyright, logo and Terms link on the map
+share_alike: unknown
+rate_limits: 'Free: 1000 geocoder requests/day; above that only commercial licence (prices from US$10,000/year)'
+evidence:
+- field: commercial_use
+  url: https://yandex.ru/legal/maps_api/ru/
+  quote: Сервисы не могут использоваться в проектах, требующих оплаты, или иным образом ограничивающих
+    доступ к ним третьих лиц.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://yandex.ru/legal/maps_api/ru/
+  quote: Использование Сервиса с превышением лимитов Запросов допускается только на коммерческой основе
+    на условиях Оферты и тарифов
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://yandex.ru/legal/maps_api/ru/
+  quote: только для использования в рамках возможностей, предоставляемых Сервисами, на срок не более 30
+    дней
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://yandex.ru/legal/maps_api/ru/
+  quote: Пользователю запрещается отображать результаты работы Геокодера в сервисах третьих лиц или на
+    картографических материалах третьих лиц.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://yandex.ru/legal/maps_api/ru/
+  quote: Пользователь обязуется ссылаться на Яндекс, как на правообладателя Сервисов
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://yandex.ru/legal/maps_api/ru/
+  quote: Количество обращений к Геокодеру не должно превышать суммарно 1000 (Одну тысячу) Запросов в сутки.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://yandex.ru/legal/maps_api/ru/
+  quote: возможность использования функциональности указанных сервисов на сайте (-ах) или приложениях
+    Пользователя на некоммерческой основе
+  checked_at: '2026-11-21'
+notes: 'Read the Russian-language ''Terms of use of individual Yandex Maps services'' (the English legal
+  page returned 404) plus the English Geocoder product page (paid licences from $10,000/year, ''Capability
+  to store and modify data'' in the Advanced tier). Free use: only on sites free and open to everyone,
+  1000 requests/day, results only to be shown on a Yandex Maps JS API map (not third-party maps), no storage
+  except 30-day cache. Whether an ad-supported site counts as commercial on the free tier is not spelled
+  out, hence ambiguous. The entry URL redirects to /maps-api/products/geocoder-api. Quotes are in Russian.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Terms define the free Services as usable on a non-commercial basis; other use needs
+  written agreement or commercial Oferta; Free use only on sites open and free to all; results may only
+  be shown on Yandex Maps JS API map | applied: commercial_use=paid-only'

@@ -1,0 +1,50 @@
+id: spotwave
+name: SpotWave
+url: https://spotwave.eu/api-docs
+category: Environment
+description: Day-ahead electricity prices for 40+ European market zones, incl. taxes and VAT
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: SpotWave
+  url: https://spotwave.eu/api-docs
+  category: Environment
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://spotwave.eu/api-docs
+attribution_text: Credit SpotWave with a link to spotwave.eu
+rate_limits: Poll no more than every 15 minutes; rate limited
+evidence:
+- field: storage_caching
+  url: https://spotwave.eu/api-docs
+  quote: poll no more than every 15 minutes, and cache what you fetch.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://spotwave.eu/api-docs
+  quote: If you publish something built on this data, please credit SpotWave with a link to spotwave.eu .
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://spotwave.eu/api-docs
+  quote: If you publish something built on this data, please credit SpotWave with a link to spotwave.eu .
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://spotwave.eu/api-docs
+  quote: poll no more than every 15 minutes, and cache what you fetch.
+  checked_at: '2026-11-21'
+notes: 'Only the API docs page has usage rules (Fair use + Attribution): free keyless API, cache what you fetch, credit with a link if you publish something built on it, no uptime guarantee. No terms page
+  exists (/terms is 404) and nothing says whether commercial/ad-supported use is allowed, so commercial_use is unknown. Taxes and fees in the data are SpotWave estimates; wholesale prices come from ENTSO-E
+  (terms not checked). Wholesale prices come from the ENTSO-E Transparency Platform (stated on the page).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -1,0 +1,65 @@
+id: openafrica
+name: openAFRICA
+url: https://open.africa/
+category: Open Data
+description: Large datasets repository of African open data
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: openAFRICA
+  url: https://africaopendata.org/
+  category: Open Data
+link_status: redirect
+data_license: Per dataset (licence/constraints field); portal default Open Government Licence
+commercial_use: 'yes'
+storage_caching: ambiguous
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: africaopendata.org redirects to open.africa; curl gets Cloudflare 403, read via Playwright
+  in a fresh context
+data_license_url: https://open.africa/about/terms-and-conditions
+api_terms_url: https://open.africa/about/terms-and-conditions
+commercial_use_scope: any
+share_alike: unknown
+notes: 'Portal (CKAN) of Code for Africa. africaopendata.org redirects to open.africa; curl is blocked
+  by Cloudflare (403), so pages were read in Playwright (fresh browser context): /about/terms-and-conditions,
+  /about/faq, /about. Portal-wide statement: terms are those in each dataset''s licence/constraints field,
+  otherwise the Open Government Licence; FAQ says OGL permits commercial use. Datasets are uploaded by
+  many organisations/volunteers and per-dataset licences may differ (none were checked), so storage/display/attribution
+  stay ambiguous/unknown and confidence is low. FAQ/T&C text appears copied from data.gov.uk (refers to
+  data.gov.uk, UK OGL), which adds doubt about which OGL version applies. CfA own content: CC 4.0. Contains
+  the CKAN API (no key needed to read public data).'
+evidence:
+- field: commercial_use
+  url: https://open.africa/about/faq
+  quote: The Open Government License enables you to use all our data for commercial purposes.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://open.africa/about/terms-and-conditions
+  quote: Except where otherwise noted this is Open Government License.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://open.africa/about/terms-and-conditions
+  quote: available under terms described in the “licence” or "constraints" field of individual dataset
+    records (meta-data).
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://open.africa/about/terms-and-conditions
+  quote: available under terms described in the “licence” or "constraints" field of individual dataset
+    records (meta-data).
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Live pages blocked by Cloudflare for curl and browser; could not re-verify; Archived
+  copy matches first pass: dataset licence field, else Open Government Licence'
+license_scope: portal-default

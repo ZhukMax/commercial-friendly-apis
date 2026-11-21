@@ -1,0 +1,43 @@
+id: the-graph
+name: The Graph
+url: https://thegraph.com
+category: Blockchain
+description: Indexing protocol for querying networks like Ethereum with GraphQL
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: The Graph
+  url: https://thegraph.com
+  category: Blockchain
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://thegraph.com/terms-of-service/
+evidence:
+- field: redistribution_display
+  url: https://thegraph.com/terms-of-service/
+  quote: solely for your own internal business purposes, subject to these Gateway Terms.
+  checked_at: '2026-11-21'
+notes: Read https://thegraph.com/terms-of-service/. The Gateway Terms grant a licence to use the Gateway
+  "solely for your own internal business purposes" (unclear whether public display on a website is covered);
+  the general Services terms allow only personal non-commercial use of the downloadable Services. Subgraph
+  data itself is public on-chain data indexed by third-party subgraph authors, whose licences may differ
+  and were not checked. No caching or attribution clause found.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read Gateway Terms: licence ''solely for your own internal business purposes'';
+  restrictions bar resale and use for benefit of others; nothing on public display, caching, attribution.
+  Subgraph data licences are per-subgraph. Stands (unknown).'

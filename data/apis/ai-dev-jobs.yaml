@@ -1,0 +1,47 @@
+id: ai-dev-jobs
+name: AI Dev Jobs
+url: https://aidevboard.com/openapi.yaml
+category: Jobs
+description: AI/ML engineering job aggregator with REST, RSS, and MCP endpoints
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: AI Dev Jobs
+  url: https://aidevboard.com/openapi.yaml
+  category: Jobs
+- list: public-api-lists
+  name: AI Dev Jobs
+  url: https://aidevboard.com/api/v1/jobs
+  category: Jobs
+link_status: alive
+data_license: unknown
+commercial_use: 'yes'
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://aidevboard.com/terms
+commercial_use_scope: any
+rate_limits: Hourly abuse throttles on free open API; optional free API key
+evidence:
+- field: commercial_use
+  url: https://aidevboard.com/terms
+  quote: Data accessed through the API may be used in your applications but may not be resold as a standalone
+    dataset.
+  checked_at: '2026-11-21'
+notes: 'Terms (aidevboard.com/terms) allow using API data in your applications but not reselling it as
+  a standalone dataset, and forbid scraping beyond API rate limits; no mention of ads, caching or attribution.
+  Pricing page: candidate/agent API access is free, the only commercial product is an employer interview
+  pilot. commercial_use=yes is inferred from the application-use permission with no non-commercial restriction
+  (medium-low). Display on a public page is not stated explicitly, so redistribution_display and storage
+  stay unknown, giving verdict unknown. The jobs are aggregated from employers'' pages/other boards, so
+  the listings (descriptions, logos) belong to third parties; upstream terms not assessed.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

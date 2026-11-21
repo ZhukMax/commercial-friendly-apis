@@ -1,0 +1,26 @@
+id: shoof-aflam
+name: Shoof Aflam
+url: https://shoofaflam.tv/api-docs/
+category: Video
+description: Arabic streaming guide — search 14,000+ movies/series, get platform availability across 18
+  services in the Arab world
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: Shoof Aflam
+  url: https://shoofaflam.tv/api-docs/
+  category: Video
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

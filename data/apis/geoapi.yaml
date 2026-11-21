@@ -1,0 +1,55 @@
+id: geoapi
+name: GeoApi
+url: https://api.gouv.fr/api/geoapi.html
+category: Geocoding
+description: French geographical data
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: GeoApi
+  url: https://api.gouv.fr/api/geoapi.html
+  category: Geocoding
+- list: public-api-lists
+  name: GeoApi
+  url: https://api.gouv.fr/api/geoapi.html
+  category: Geocoding
+link_status: redirect
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://www.data.gouv.fr/dataservices
+api_terms_url: https://www.data.gouv.fr/dataservices/api-decoupage-administratif-api-geo
+rate_limits: 50 calls/second per IP
+evidence:
+- field: commercial_use
+  url: https://www.data.gouv.fr/dataservices/api-decoupage-administratif-api-geo
+  quote: Toutes les données utilisées sont sous licences Open Data.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://www.data.gouv.fr/dataservices/api-decoupage-administratif-api-geo
+  quote: L'API est disponible à hauteur de 50 appels par seconde et par adresse IP.
+  checked_at: '2026-11-21'
+notes: The listed URL redirects to the data.gouv.fr dataservice catalogue; the API Geo (geo.api.gouv.fr,
+  administrative divisions + address) entry was read. It says only that all source data is under "Open
+  Data licences" (partners DINUM, INSEE, OpenStreetMap), access is open, without naming a licence per
+  dataset; the OSM component may be ODbL (share-alike). The geo.api.gouv.fr FAQ question about the licence
+  is JS-loaded and its answer was not read. Commercial use therefore ambiguous; storage/display unknown.
+  Address search part is superseded by the Géoplateforme (see adresse-data-gouv-fr).
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Confirmed ambiguous/yellow, low confidence. Admin-division data is probably Licence
+  Ouverte but not shown on a page read; OSM-derived parts may be ODbL. data.gouv.fr site content itself
+  is Open Licence 2.0.
+license_scope: portal-default

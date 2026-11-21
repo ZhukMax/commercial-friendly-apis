@@ -1,0 +1,33 @@
+id: verifyed
+name: VerifyEd
+url: https://verifyed.org/docs
+category: Data Validation
+description: Verify academic credentials — 912K+ schools, 2,592 diploma mills
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: VerifyEd
+  url: https://verifyed.org/docs
+  category: Data Validation
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://verifyed.org/terms
+notes: 'Aggregator of government school registers ("search government registers"; source authority varies
+  by jurisdiction), so upstream licences may be stricter and were not checked. Terms of Service (effective
+  July 23, 2026) read: no reselling, sublicensing or service-bureau use without written permission, no
+  building a competing product from outputs, no automated decisions about individuals; results are screening
+  estimates. Nothing on commercial use of the register data, caching, display or attribution; unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

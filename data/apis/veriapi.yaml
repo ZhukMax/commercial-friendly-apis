@@ -1,0 +1,56 @@
+id: veriapi
+name: VeriApi
+url: https://veriapi.pro/dokumantasyon
+category: Currency Exchange
+description: Turkish exchange rates, gold prices, prayer times, earthquakes and holidays
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: VeriApi
+  url: https://veriapi.pro/dokumantasyon
+  category: Currency Exchange
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+commercial_use_scope: free-tier
+attribution_text: 'Visible link to VeriApi.Pro on the site that shows the data (free plan; requested,
+  not enforced for sites); apps must show "Veriler: VeriApi.Pro"'
+api_terms_url: https://veriapi.pro/kosullar
+evidence:
+- field: commercial_use
+  url: https://veriapi.pro/kosullar
+  quote: ama ticari ölçekte kullanım ücretli paketlerle sürdürülebilir
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://veriapi.pro/kosullar
+  quote: Veriyi gösterdiğiniz sitede görünür bir VeriApi.Pro bağlantısı vermenizi rica ederiz
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://veriapi.pro/dokumantasyon
+  quote: 'Ücretsiz pakette atıf, uygulamada görünen “Veriler: VeriApi.Pro” yazısıdır'
+  checked_at: '2026-11-21'
+notes: 'Terms (/kosullar, Turkish, version 2026-11-08.1): free plan is ''for trials, personal projects,
+  students and small sites''; data is not restricted, ''but commercial-scale use is sustained by paid
+  plans'' - no explicit ban or grant, hence ambiguous. Free plan: 500 units/day, a visible VeriApi.Pro
+  link is requested where data is shown (not enforced for sites; apps must show ''Veriler: VeriApi.Pro'');
+  paid plans need no attribution. No clause on storing data (docs show server-side caching examples).
+  Aggregator: data is compiled ''from licensed and permitted sources'' (unnamed), upstream terms may be
+  stricter; this entry is a multi-topic Turkish data API (FX, gold, prayer times etc.), FX rates are the
+  Kapalıçarşı live feed, reference rates from the central bank.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read /kosullar. Ad site of small scale probably fine, large scale needs paid plan;
+  ambiguous stays.

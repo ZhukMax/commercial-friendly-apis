@@ -1,0 +1,49 @@
+id: transport-for-united-states-nextbus
+name: Transport for United States
+url: http://www.nextbus.com/xmlFeedDocs/NextBusXMLFeed.pdf
+category: Transportation
+description: NextBus API
+description_source: upstream
+auth: none
+https: false
+cors: unknown
+sources:
+- list: public-api-lists
+  name: Transport for United States
+  url: http://www.nextbus.com/xmlFeedDocs/NextBusXMLFeed.pdf
+  category: Transportation
+- list: public-apis
+  name: Transport for United States
+  url: https://retro.umoiq.com/xmlFeedDocs/NextBusXMLFeed.pdf
+  category: Transportation
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: -> https://retro.umoiq.com/xmlFeedDocs/NextBusXMLFeed.pdf
+api_terms_url: https://retro.umoiq.com/xmlFeedDocs/NextBusXMLFeed.pdf
+rate_limits: Poll vehicle locations at most once every 10 seconds; access may be restricted if data is
+  requested too frequently
+evidence:
+- field: rate_limits
+  url: https://retro.umoiq.com/xmlFeedDocs/NextBusXMLFeed.pdf
+  quote: All polling commands such as for obtaining vehicle locations should only be run at the most once
+    every 10 seconds.
+  checked_at: '2026-11-21'
+notes: 'The old nextbus.com URL redirects to retro.umoiq.com (same PDF). Read the Umo IQ Public XML Feed
+  documentation (PDF rev. 1.24, 2021) incl. its Terms & Conditions: a non-exclusive licence "to use the
+  XML Feed and associated data", no support, Umo IQ may terminate or limit access at any time, logos/trademarks
+  not licensed. It says nothing about commercial use, storage/caching, display or attribution, and the
+  data belongs to each transit agency (agency terms not read), so all core fields stay unknown. Merged
+  duplicate entry `transport-for-united-states`.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+aliases:
+- transport-for-united-states

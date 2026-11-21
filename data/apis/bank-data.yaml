@@ -1,0 +1,38 @@
+id: bank-data
+name: Bank Data
+url: https://apilayer.com/marketplace/bank_data-api
+category: Finance
+description: Instant IBAN and SWIFT number validation across the globe
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Bank Data
+  url: https://apilayer.com/marketplace/bank_data-api
+  category: Finance
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://marketplace.apilayer.com/bank_data-api
+api_terms_url: https://www.ideracorp.com/Legal/APILayer/Marketplace-Terms-of-Use
+share_alike: unknown
+evidence:
+- field: data_license
+  url: https://www.ideracorp.com/Legal/APILayer/Marketplace-Terms-of-Use
+  quote: usage of APIs is subject to the license or subscription terms, privacy policies and other applicable terms specified by the Vendor
+  checked_at: '2026-11-21'
+notes: Read APILayer Marketplace Terms of Use (Idera) and the Bank Data listing page (marketplace.apilayer.com, redirect from apilayer.com). Marketplace terms only say usage is governed by the per-API Vendor
+  Terms; the listing shows plans (free 100 requests/month, paid Starter/Pro/Enterprise) but no licence, commercial-use, caching or display terms, and the APILayer API-specific terms page was not found.
+  Underlying data (IBAN/SWIFT or VAT validation) may derive from third-party registers. All unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

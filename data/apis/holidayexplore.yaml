@@ -1,0 +1,73 @@
+id: holidayexplore
+name: HolidayExplore
+url: https://holidayexplore.com/api-docs/
+category: Calendar
+description: Global public holidays and bank closures
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: HolidayExplore
+  url: https://holidayexplore.com/api-docs/
+  category: Calendar
+link_status: alive
+data_license: CC-BY-4.0
+commercial_use: 'yes'
+storage_caching: ambiguous
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://holidayexplore.com/api-docs/
+api_terms_url: https://holidayexplore.com/terms/
+commercial_use_scope: any
+attribution_text: Holiday and banking status provided by HolidayExplore (visible hyperlink to holidayexplore.com
+  or country page)
+share_alike: unknown
+rate_limits: 60 requests/minute per IP
+notes: 'API docs: free for commercial and non-commercial use under CC BY 4.0 with a visible hyperlink
+  back to holidayexplore.com (plain credit). The Terms of Service grant a licence for personal or internal
+  commercial planning of the web interface/ICS exports and bar reselling, redistributing via automated
+  bulk scrapers, or mirroring the core platform; this makes caching/storage of the dataset ambiguous.
+  OpenAPI info.license says ''Open Data Commons / CC BY 4.0'' (slightly different wording). Data compiled
+  from statutory gazettes and central bank circulars (upstream not assessed). Rate limit 60 req/min per
+  IP; 48 countries, 2026-2027.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+evidence:
+- field: data_license
+  url: https://holidayexplore.com/api-docs/
+  quote: free for commercial and non-commercial integrations under Creative Commons Attribution 4.0
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://holidayexplore.com/api-docs/
+  quote: free for commercial and non-commercial integrations under Creative Commons Attribution 4.0
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://holidayexplore.com/api-docs/
+  quote: You must display a visible hyperlink back to https://holidayexplore.com/
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://holidayexplore.com/terms/
+  quote: You may not resell, redistribute automated bulk API scrapers, or mirror the core platform without
+    prior written consent.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://holidayexplore.com/api-docs/
+  quote: 60 requests / minute per IP
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://holidayexplore.com/api-docs/
+  quote: free for commercial and non-commercial integrations under Creative Commons Attribution 4.0
+  checked_at: '2026-11-21'
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read api-docs and terms. Two pages differ in scope (API vs web interface/ICS) rather
+  than contradict; ToS ''may not resell, redistribute automated bulk API scrapers, or mirror the core
+  platform''. Edge cache 3600s suggests short caching accepted; storage ambiguous stands. Upstream: statutory
+  gazettes/central bank circulars not checked.'

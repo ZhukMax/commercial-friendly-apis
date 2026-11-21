@@ -1,0 +1,30 @@
+id: musicbrainz
+name: MusicBrainz
+url: https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2
+category: Music
+description: Music
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: MusicBrainz
+  url: https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2
+  category: Music
+- list: public-api-lists
+  name: MusicBrainz
+  url: https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2
+  category: Music
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://musicbrainz.org/doc/MusicBrainz_API

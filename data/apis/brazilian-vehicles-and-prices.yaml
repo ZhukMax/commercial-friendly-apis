@@ -1,0 +1,37 @@
+id: brazilian-vehicles-and-prices
+name: Brazilian Vehicles and Prices
+url: https://deividfortuna.github.io/fipe/
+category: Vehicle
+description: Vehicles information from Fundação Instituto de Pesquisas Econômicas - Fipe
+description_source: upstream
+auth: none
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Brazilian Vehicles and Prices
+  url: https://deividfortuna.github.io/fipe/
+  category: Vehicle
+- list: public-api-lists
+  name: Brazilian Vehicles and Prices
+  url: https://deividfortuna.github.io/fipe/
+  category: Vehicle
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://fipe.api.br/termos-de-uso
+rate_limits: 'Free: 500 requests/day unauthenticated, 1,000/day with free token (v1 docs page); Pro plan for unlimited'
+notes: Entry page (github.io v1 docs) says the API (parallelum.com.br/fipe) now has daily limits and points to fipe.api.br; same maintainer/repo, so fipe.api.br Termos de Uso (updated 2026-05-01) were read.
+  They say data come from public FIPE sources, are informational and may contain errors, ban reselling/redistributing API access and mass scraping, and give a limited revocable licence to use the API. They
+  say nothing about commercial use, storage/caching, display of data or attribution, and the service is not affiliated with FIPE. FIPE's own terms for its price table (upstream, likely stricter) were not
+  read. All terms unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

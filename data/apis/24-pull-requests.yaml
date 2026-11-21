@@ -1,0 +1,29 @@
+id: 24-pull-requests
+name: 24 Pull Requests
+url: https://24pullrequests.com/api
+category: Development
+description: Project to promote open source collaboration during December
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: 24 Pull Requests
+  url: https://24pullrequests.com/api
+  category: Development
+- list: public-api-lists
+  name: 24 Pull Requests
+  url: https://24pullrequests.com/api
+  category: Development
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

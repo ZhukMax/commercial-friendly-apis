@@ -1,0 +1,65 @@
+id: stormglass
+name: Stormglass
+url: https://docs.stormglass.io/#/
+category: Weather
+description: Weather forecasts & historical data from the world’s most trusted meteorological institutions
+  in one single API
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-api-lists
+  name: Stormglass
+  url: https://docs.stormglass.io/#/
+  category: Weather
+- list: public-apis
+  name: Storm Glass
+  url: https://stormglass.io/
+  category: Weather
+- list: public-api-lists
+  name: Storm Glass
+  url: https://stormglass.io/
+  category: Weather
+link_status: alive
+data_license: proprietary (Storm Glass AB terms; no data licence stated)
+commercial_use: paid-only
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+commercial_use_scope: paid
+api_terms_url: https://stormglass.io/terms-and-conditions/
+notes: Read stormglass.io/terms-and-conditions, /pricing and /faq. Free plan (10 requests/day) is not
+  for commercial use; paid plans from Medium (EUR 49/month) explicitly allow commercial use. The Terms
+  say nothing about caching/storage, display, redistribution or attribution, so those stay unknown. Data
+  is aggregated from third-party institutions (NOAA, ECMWF, Met Office etc.) whose own licences were not
+  checked. Same service as the entries stormglass and storm-glass. Merged duplicate entry `storm-glass`.
+evidence:
+- field: commercial_use
+  url: https://stormglass.io/faq/
+  quote: for commercial use, you need to subscribe to a paid plan (Medium, Large or any of the plans above)
+    which explicitly allow commercial usage.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://stormglass.io/pricing/
+  quote: Not for commercial use
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://stormglass.io/terms-and-conditions/
+  quote: The free test plan is intended solely for evaluation of the Service prior to purchasing a paid
+    plan
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://stormglass.io/terms-and-conditions/
+  quote: The data currently provided via the services from the data sources currently available via the
+    services
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+aliases:
+- storm-glass

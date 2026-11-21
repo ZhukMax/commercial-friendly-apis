@@ -1,0 +1,53 @@
+id: sochain
+name: SoChain
+url: https://sochain.com/docs
+category: Cryptocurrency
+description: Bitcoin, Litecoin, Dogecoin and Zcash addresses, transactions, blocks and fees
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: SoChain
+  url: https://sochain.com/docs
+  category: Cryptocurrency
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: ambiguous
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://sochain.com/terms
+commercial_use_scope: any
+evidence:
+- field: commercial_use
+  url: https://sochain.com/terms
+  quote: we give you a limited, revocable, non-exclusive, non-transferable license to use the Services
+    for your own purposes and in your own applications
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://sochain.com/terms
+  quote: copy, scrape, resell, sublicense or redistribute the Services or their data in bulk
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://sochain.com/terms
+  quote: copy, scrape, resell, sublicense or redistribute the Services or their data in bulk
+  checked_at: '2026-11-21'
+notes: Read https://sochain.com/terms (Block.io, Inc., effective 2026-10-13) and /pricing. Licence is
+  for "your own purposes and in your own applications"; no explicit yes/no on commercial use, ads, caching
+  or showing data on public pages. Bulk copy/scrape/resell/redistribute of data and competing products
+  are prohibited without written permission, so storage and public display are ambiguous. Data is public
+  blockchain data (Bitcoin, Litecoin, Dogecoin, Zcash); no data licence stated. Free plan has request
+  limits; paid plans exist. Needs a written answer from the provider before commercial use at scale.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read sochain.com/terms (Block.io, 2026-10-13): no explicit ads/public display/caching
+  statement; bulk redistribution barred. Ask provider. Stands.'

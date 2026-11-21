@@ -1,0 +1,25 @@
+id: xlsx-inspector
+name: XLSX Inspector
+url: https://api.lifestep.io
+category: Development
+description: 'Inspect XLSX/XLSM structure: sheets, formulas, macros and external links'
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: XLSX Inspector
+  url: https://api.lifestep.io
+  category: Development
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

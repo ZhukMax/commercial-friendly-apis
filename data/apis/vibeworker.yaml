@@ -1,0 +1,31 @@
+id: vibeworker
+name: Vibeworker
+url: https://tryvibeworker.com/docs
+category: Jobs
+description: Upwork job listings with client data and AI fit scores, plus webhooks and RSS
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Vibeworker
+  url: https://tryvibeworker.com/docs
+  category: Jobs
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+notes: 'Read tryvibeworker.com/docs (API key, free keys see jobs only after 24h, paid keys real-time,
+  webhooks on paid plans). No terms of service or licence page found (/terms and /privacy return nothing).
+  The data is Upwork job listings with client data plus AI scores: third-party content from a platform
+  whose own terms (not read) are likely stricter, and listings include client information. All unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

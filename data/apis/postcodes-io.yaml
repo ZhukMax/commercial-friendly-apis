@@ -1,0 +1,57 @@
+id: postcodes-io
+name: Postcodes.io
+url: https://postcodes.io
+category: Geocoding
+description: Postcode lookup & Geolocation for the UK
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Postcodes.io
+  url: https://postcodes.io
+  category: Geocoding
+- list: public-api-lists
+  name: Postcodes.io
+  url: https://postcodes.io
+  category: Geocoding
+link_status: alive
+data_license: MIT (code); OS OpenData licence (GB postcodes); ONSPD licence (NI postcodes)
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: 'yes'
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://postcodes.io/docs/licences
+data_license_url: https://postcodes.io/docs/licences
+commercial_use_scope: any
+evidence:
+- field: data_license
+  url: https://postcodes.io/docs/licences
+  quote: Great Britain postcode data may be used under the terms of the OS OpenData licence.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://postcodes.io/docs/licences
+  quote: Non-commercial use is free. Commercial use requires a licence from NI Land & Property Services.
+  checked_at: '2026-11-21'
+- field: self_host_option
+  url: https://postcodes.io/docs/licences
+  quote: Postcodes.io source code is available under the MIT Licence.
+  checked_at: '2026-11-21'
+notes: 'Pages read: Licences, Overview, home. GB postcode data is under the OS OpenData licence (terms
+  of that licence not opened here; it normally allows commercial use with acknowledgement) and the page
+  lists required Crown copyright / Royal Mail notices; Northern Ireland (BT) postcodes need a commercial
+  licence from NI Land & Property Services, so a site covering the whole UK is ambiguous. No rate limits,
+  caching or display terms found on the pages read. Code is MIT and self-hosting is documented. Maintained
+  by Ideal Postcodes, which sells a paid upgrade.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: No hosted-API terms or rate limits on the docs pages; OS OpenData licence is commercial-friendly
+  with Crown copyright notice, so only NI (BT) postcodes block a UK-wide commercial site.

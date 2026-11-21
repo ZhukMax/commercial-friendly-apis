@@ -1,0 +1,60 @@
+id: flyitalyadsb
+name: FlyItalyADSB
+url: https://flyitalyadsb.com/en/data/api/docs/
+category: Transportation
+description: Live and historical ADS-B and MLAT aircraft positions worldwide, from a community receiver network
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: FlyItalyADSB
+  url: https://flyitalyadsb.com/en/data/api/docs/
+  category: Transportation
+link_status: redirect
+data_license: CC-BY-SA-4.0
+commercial_use: 'yes'
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: high
+link_checked_at: '2026-11-21'
+link_note: -> https://flyitalyadsb.com/data/api/docs/
+api_terms_url: https://flyitalyadsb.com/data/api/docs/commercial-use/
+commercial_use_scope: any
+share_alike: 'yes'
+attribution_text: 'Flight data: FlyItalyADSB (flyitalyadsb.com), CC BY-SA 4.0'
+evidence:
+- field: commercial_use
+  url: https://flyitalyadsb.com/data/api/docs/commercial-use/
+  quote: Commercial use is allowed on every plan, Free included
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://flyitalyadsb.com/data/api/docs/commercial-use/
+  quote: The data is CC BY-SA 4.0.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://flyitalyadsb.com/data/api/docs/commercial-use/
+  quote: A server of your own with a cache that serves only your devices is fine
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://flyitalyadsb.com/data/api/docs/commercial-use/
+  quote: Credit FlyItalyADSB with a link to flyitalyadsb.com where users see it
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://flyitalyadsb.com/data/api/docs/commercial-use/
+  quote: Credit FlyItalyADSB with a link to flyitalyadsb.com where users see it
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://flyitalyadsb.com/data/api/docs/commercial-use/
+  quote: Share-alike covers the data and adapted versions of it, for example a dataset, a feed or an API built from ours
+  checked_at: '2026-11-21'
+notes: Read the 'Commercial use' docs page (curl gets a Cloudflare block; read via Playwright). Commercial use allowed on all plans within quotas; data is CC BY-SA 4.0 (share-alike applies to datasets/feeds/APIs
+  built from it, not to your product). Caching on own server is allowed only to serve own devices (not redistribution), long-term storage not stated, so limited. Resale as API needs agreement. General Terms
+  page (footer) not read. Free-feeder perk is non-commercial only.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

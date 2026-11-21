@@ -1,0 +1,40 @@
+id: 7timer
+name: 7Timer!
+url: http://www.7timer.info/doc.php?lang=en
+category: Weather
+description: Weather, especially for Astroweather
+description_source: upstream
+auth: none
+https: false
+cors: unknown
+sources:
+- list: public-apis
+  name: 7Timer!
+  url: http://www.7timer.info/doc.php?lang=en
+  category: Weather
+- list: public-api-lists
+  name: 7Timer!
+  url: http://www.7timer.info/doc.php?lang=en
+  category: Weather
+link_status: alive
+data_license: unknown
+commercial_use: 'no'
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: high
+link_checked_at: '2026-11-21'
+api_terms_url: http://www.7timer.info/doc.php?lang=en
+commercial_use_scope: any
+evidence:
+- field: commercial_use
+  url: http://www.7timer.info/doc.php?lang=en
+  quote: you can use or redistribute them as long as you are not using them for commercial purpose.
+  checked_at: '2026-11-21'
+notes: Documentation page states the data are free to use or redistribute only if not for commercial purposes; developers are asked to notify the author. Data at your own risk. No licence name or caching
+  terms given.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

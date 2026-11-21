@@ -1,0 +1,34 @@
+id: lianex
+name: Lianex
+url: https://lianex.ai/developers
+category: Shopping
+description: Australian product prices compared across eBay, Amazon, JB Hi-Fi and more, as read-only JSON
+description_source: upstream
+auth: none
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Lianex
+  url: https://lianex.ai/developers
+  category: Shopping
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://lianex.ai/terms
+notes: Read lianex.ai/developers and lianex.ai/terms. Free, keyless, cache-only price API (and MCP) over
+  Lianex's stored catalogue, best-effort, per-caller rate limit; Terms ask only not to overload or break
+  the site/API and do not address reuse, storage, display, commercial use or attribution; the developers
+  page mentions affiliate-link guidance without giving terms. No data licence found. Aggregator of eBay,
+  Amazon AU, JB Hi-Fi, AliExpress, SHEIN, Woolworths, Kogan and others, so upstream terms (especially
+  eBay/Amazon) may be stricter. All core fields unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

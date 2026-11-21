@@ -1,0 +1,80 @@
+id: rafont
+name: raFont
+url: https://rafont.com/api-docs
+category: Art & Design
+description: 1,500+ free downloadable fonts with categories, tags and preview images
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: raFont
+  url: https://rafont.com/api-docs
+  category: Art & Design
+link_status: alive
+data_license: CC-BY-4.0 (catalogue metadata); font files keep their own licences
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: 'yes'
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://creativecommons.org/licenses/by/4.0/
+api_terms_url: https://rafont.com/data
+commercial_use_scope: any
+attribution_text: Credit raFont; link to the font page on raFont
+share_alike: unknown
+rate_limits: 120 requests per minute per IP; no key
+notes: 'Read /data (open-data page), /api-docs, /ai.txt and the CC BY 4.0 deed. CC BY 4.0 applies to catalogue
+  metadata only. Font files keep their own licences and the site footer says ''Fonts are shared for personal
+  use unless the author''s license says otherwise'' while the home page says ''Free for personal and commercial
+  use'': these conflict, so do not assume fonts themselves are commercially usable. No separate ToS page
+  found. AI training disallowed per ai.txt.'
+evidence:
+- field: data_license
+  url: https://rafont.com/data
+  quote: Metadata is CC BY 4.0 — credit raFont. Font files keep their own licenses.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: Adapt — remix, transform, and build upon the material for any purpose, even commercially
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://rafont.com/data
+  quote: Pull the JSON once a day for bulk work; use the API for live queries
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://rafont.com/data
+  quote: When you reuse the metadata, link to the font page on raFont.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://rafont.com/data
+  quote: 'Rate limit: 120 requests per minute per IP; no key needed.'
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://rafont.com/data
+  quote: 1,514 fonts with title, category, tags, summary, preview image and download link.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://rafont.com/data
+  quote: many fonts are free for personal use only.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://rafont.com/data
+  quote: Font files keep their own licenses.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'only catalogue metadata is CC BY; summaries and preview images describe third-party
+  fonts; font files ''many free for personal use only'', site footer says personal use unless author''s
+  licence differs, home page says personal and commercial; conflicting pages | applied: redistribution_display=ambiguous'

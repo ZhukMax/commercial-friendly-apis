@@ -1,0 +1,29 @@
+id: city-helsinki
+name: City, Helsinki
+url: https://hri.fi/en_gb/
+category: Government
+description: Helsinki(FI) City Open Data
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: City, Helsinki
+  url: https://hri.fi/en_gb/
+  category: Government
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: HTTP 403 (blocked for bots, assumed alive)
+notes: hri.fi (Helsinki Region Infoshare) returns HTTP 403 to curl and to the browser pane, including licence pages, so nothing could be read; all terms fields unknown. Not assumed to be CC BY.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

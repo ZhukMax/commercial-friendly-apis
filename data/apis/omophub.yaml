@@ -1,0 +1,74 @@
+id: omophub
+name: OMOPHub
+url: https://docs.omophub.com
+category: Health
+description: Search and map OHDSI OMOP medical vocabularies (SNOMED CT, ICD-10, LOINC, RxNorm)
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: OMOPHub
+  url: https://docs.omophub.com
+  category: Health
+link_status: redirect
+data_license: mixed third-party vocabulary licences (SNOMED CT, LOINC, RxNorm, ICD-10-PCS public domain)
+commercial_use: ambiguous
+storage_caching: ambiguous
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://docs.omophub.com/introduction
+data_license_url: https://omophub.com/terms
+api_terms_url: https://omophub.com/terms
+commercial_use_scope: any
+share_alike: unknown
+rate_limits: 'Free tier: limited monthly usage allowance, standard rate limits (details on pricing page,
+  not read)'
+evidence:
+- field: commercial_use
+  url: https://omophub.com/terms
+  quote: You may incorporate vocabulary data into applications and analyses for your internal use or for
+    end users, subject to applicable license terms
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://omophub.com/terms
+  quote: OMOPHUB DOES NOT GRANT ANY LICENSE RIGHTS IN THIRD-PARTY CONTENT.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://omophub.com/terms
+  quote: You must delete any cached or stored vocabulary data unless retention is permitted by applicable
+    licenses
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://omophub.com/terms
+  quote: You may not sublicense, resell, or redistribute access to the Service or vocabulary data obtained
+    through the Service.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://omophub.com/terms
+  quote: You shall include all attribution notices required by applicable vocabulary licenses
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://omophub.com/terms
+  quote: 'Free Tier: Limited monthly usage allowance, standard rate limits, community support'
+  checked_at: '2026-11-21'
+notes: 'Aggregator: OMOPHub says it ''ACTS SOLELY AS A TECHNICAL INTERMEDIARY AND IS NOT THE LICENSOR
+  OF THIRD-PARTY CONTENT''. Users must hold the licences of each vocabulary themselves (SNOMED CT affiliate
+  licence, LOINC licence, UMLS licence for RxNorm); upstream terms may be stricter and can forbid commercial/storage
+  use. ToS plus Data Use Agreement (effective 1 Dec 2025) allow incorporating vocabulary data into applications
+  for end users subject to those licences, bar resale/sublicensing, require upstream attribution notices,
+  and require deleting cached data on termination unless licences allow retention. Commercial scope of
+  the Free Tier is not stated. Docs URL redirects to /introduction.'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Ambiguous stands: SNOMED/LOINC/UMLS licences are the user''s responsibility and may
+  restrict commercial use/storage; ToS requires attribution notices and bars storing data in a way enabling
+  unauthorized redistribution.'

@@ -1,0 +1,26 @@
+id: reg-vault
+name: REG-Vault
+url: https://regvault.org/docs/api
+category: Games & Comics
+description: Retro-gaming metadata catalog — 91k games across 99 systems (box art, manuals, screenshots,
+  gameplay previews). MCP endpoint at `api.regvault.org/mcp`
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: REG-Vault
+  url: https://regvault.org/docs/api
+  category: Games & Comics
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

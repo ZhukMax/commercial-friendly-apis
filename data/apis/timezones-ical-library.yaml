@@ -1,0 +1,71 @@
+id: timezones-ical-library
+name: TimeZones iCal Library
+url: https://tz.add-to-calendar-technology.com/
+category: Calendar
+description: Database of official time zones and corresponding iCal VTIMEZONE blocks
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-api-lists
+  name: TimeZones iCal Library
+  url: https://tz.add-to-calendar-technology.com/
+  category: Calendar
+link_status: alive
+data_license: IANA tz database (public domain) converted to VTIMEZONE; project code Apache-2.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'no'
+bulk_download: unknown
+self_host_option: 'yes'
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://data.iana.org/time-zones/tzdb/LICENSE
+api_terms_url: https://github.com/add2cal/timezones-ical-library
+commercial_use_scope: any
+share_alike: 'no'
+notes: 'No ToS/usage policy for the hosted API (tz.add-to-calendar-technology.com/api/*.ics); the GitHub
+  README calls it a ''free and open API'' and the project is Apache-2.0 (code; repo is also an npm package,
+  so self-hosting/bundling is easy). Underlying data is the IANA tz database, which declares itself public
+  domain; the VTIMEZONE conversion is the project''s own work (Apache-2.0 notice retention applies if
+  redistributing the code). Hosted-API rate limits/uptime guarantees not stated. Not a typical data-licence
+  entry: it is time-zone reference data, not content.'
+evidence:
+- field: data_license
+  url: https://data.iana.org/time-zones/tzdb/LICENSE
+  quote: all files in the tz code and data (including this LICENSE file) are in the public domain.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://data.iana.org/time-zones/tzdb/LICENSE
+  quote: all files in the tz code and data (including this LICENSE file) are in the public domain.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://data.iana.org/time-zones/tzdb/LICENSE
+  quote: all files in the tz code and data (including this LICENSE file) are in the public domain.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://data.iana.org/time-zones/tzdb/LICENSE
+  quote: all files in the tz code and data (including this LICENSE file) are in the public domain.
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://data.iana.org/time-zones/tzdb/LICENSE
+  quote: all files in the tz code and data (including this LICENSE file) are in the public domain.
+  checked_at: '2026-11-21'
+- field: self_host_option
+  url: https://github.com/add2cal/timezones-ical-library
+  quote: Instead of using this code or the npm package, you could also make use of the free and open API.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://data.iana.org/time-zones/tzdb/LICENSE
+  quote: all files in the tz code and data (including this LICENSE file) are in the public domain.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read tz page, IANA LICENSE quote and repo LICENSE (Apache-2.0). No usage policy
+  for hosted endpoint, no key; also self-hostable via npm. Time-zone reference data, low risk; Apache
+  notice applies only when redistributing the code.

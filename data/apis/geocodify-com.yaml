@@ -1,0 +1,56 @@
+id: geocodify-com
+name: Geocodify.com
+url: https://geocodify.com/
+category: Geocoding
+description: Worldwide geocoding, geoparsing and autocomplete for addresses
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Geocodify.com
+  url: https://geocodify.com/
+  category: Geocoding
+- list: public-api-lists
+  name: Geocodify.com
+  url: https://geocodify.com/
+  category: Geocoding
+link_status: alive
+data_license: unknown
+commercial_use: 'yes'
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://geocodify.com/terms
+commercial_use_scope: any
+cache_limit: 30 days maximum
+attribution_text: Credit Geocodify in your terms or about page (required on the Free plan; paid plans list 'No attribution required')
+rate_limits: 'Free: 30,000 calls/month, 1 request/s'
+notes: 'Pricing page lists ''Commercial use allowed'' on all plans (Free needs attribution). ToS 4.2: may reproduce returned data in applications with credit; no caching/storing beyond 30 days; no scraping
+  for reuse elsewhere; no reselling or redistributing the data. Clause 4.2(d) (''use the Product ... in its products or services'') is unclear. Underlying OSM/OpenAddresses licences are listed on their
+  attribution page (not read).'
+evidence:
+- field: commercial_use
+  url: https://geocodify.com/pricing
+  quote: Commercial use allowed
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://geocodify.com/terms
+  quote: You can not cache / store / persist the data returned from our API for more than 30 days.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://geocodify.com/terms
+  quote: You can reproduce the data returned from the API in your applications, but you need to credit us in your terms or about page.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://geocodify.com/terms
+  quote: you need to credit us in your terms or about page
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

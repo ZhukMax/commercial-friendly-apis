@@ -1,0 +1,71 @@
+id: city-bologna-opendata
+name: City, Bologna Opendata
+url: https://dati.comune.bologna.it
+category: Government
+description: Bologna(IT) City Open Data
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-api-lists
+  name: City, Bologna Opendata
+  url: https://dati.comune.bologna.it
+  category: Government
+link_status: redirect
+data_license: CC-BY-4.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://dati.comune.bologna.it/dati
+commercial_use_scope: any
+share_alike: 'no'
+data_license_url: https://dati.comune.bologna.it/dati
+api_terms_url: https://dati.comune.bologna.it/dati
+evidence:
+- field: data_license
+  url: https://dati.comune.bologna.it/dati
+  quote: Creative Commons Attribuzione 4.0 Internazionale
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://dati.comune.bologna.it/dati
+  quote: il Licenziante concede a Te una licenza per tutto il mondo, gratuita, non sub-licenziabile, non
+    esclusiva e irrevocabile
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://dati.comune.bologna.it/dati
+  quote: riprodurre e Condividere il Materiale Concesso in Licenza, in tutto o in parte
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://dati.comune.bologna.it/dati
+  quote: riprodurre e Condividere il Materiale Concesso in Licenza, in tutto o in parte
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://dati.comune.bologna.it/dati
+  quote: Creative Commons Attribuzione 4.0 Internazionale
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://dati.comune.bologna.it/dati
+  quote: Creative Commons Attribuzione 4.0 Internazionale
+  checked_at: '2026-11-21'
+notes: The only page read from the listed host is a Comune di Bologna page that contains the full Italian
+  text of CC BY 4.0 (the portal licence page); the actual portal is opendata.comune.bologna.it (Opendatasoft,
+  JS-rendered, footer "Terms and conditions" not read). Whether every dataset and the API carry this licence
+  is not confirmed, so confidence is low. Commercial use follows from CC BY 4.0 having no NonCommercial
+  clause.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: Actual portal (opendata.comune.bologna.it) terms never read; Page read is generic CC
+  BY 4.0 legal text, not proof the datasets/API carry it; First pass confidence already low
+verdict_override: yellow
+override_reason: 'Second check: Actual portal (opendata.comune.bologna.it) terms never read; Page read
+  is generic CC BY 4.0 legal text, not proof the datasets/API carry it; First pass confidence already
+  low'

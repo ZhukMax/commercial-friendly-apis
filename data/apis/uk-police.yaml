@@ -1,0 +1,30 @@
+id: uk-police
+name: UK Police
+url: https://data.police.uk/docs/
+category: Security
+description: UK Police data
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: UK Police
+  url: https://data.police.uk/docs/
+  category: Security
+- list: public-api-lists
+  name: UK Police
+  url: https://data.police.uk/docs/
+  category: Security
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: ConnectError

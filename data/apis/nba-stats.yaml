@@ -1,0 +1,50 @@
+id: nba-stats
+name: NBA Stats
+url: https://any-api.com/nba_com/nba_com/docs/API_Description
+category: Sports & Fitness
+description: Current and historical NBA Statistics
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: NBA Stats
+  url: https://any-api.com/nba_com/nba_com/docs/API_Description
+  category: Sports & Fitness
+- list: public-api-lists
+  name: NBA Stats
+  url: https://any-api.com/nba_com/nba_com/docs/API_Description
+  category: Sports & Fitness
+link_status: redirect
+data_license: proprietary (NBA.com Terms of Use, section 9 NBA Statistics)
+commercial_use: 'no'
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://marketplace.apilayer.com/?utm_source=any-api&utm_medium=any-api-redirection&utm_campaign=any-api-redirection
+attribution_text: Prominent attribution to NBA.com
+api_terms_url: https://www.nba.com/termsofuse
+evidence:
+- field: commercial_use
+  url: https://www.nba.com/termsofuse
+  quote: the NBA Statistics may only be used, displayed, or published for legitimate news reporting or private, non-commercial purposes
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.nba.com/termsofuse
+  quote: any use, display, or publication of the NBA Statistics shall include a prominent attribution to NBA.com
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.nba.com/termsofuse
+  quote: the NBA Statistics may not be used in connection with any fantasy game or other commercial product or service
+  checked_at: '2026-11-21'
+notes: The listed url (any-api.com/nba_com/...) now redirects (301) to the unrelated APILayer marketplace home page, so no API-specific terms were read there. The data is NBA.com statistics (unofficial
+  stats.nba.com endpoints); the only terms found are the NBA.com Terms of Use, section 9 "NBA Statistics", which restrict use to news reporting or private non-commercial purposes and bar commercial products,
+  fantasy, gambling and statistics databases. It is not explicitly stated that these terms cover the stats.nba.com endpoints, hence low confidence. Treat as not usable commercially.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

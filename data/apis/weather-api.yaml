@@ -1,0 +1,29 @@
+id: weather-api
+name: weather-api
+url: https://github.com/robertoduessmann/weather-api
+category: Weather
+description: A RESTful free API to check the weather
+description_source: upstream
+auth: none
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: weather-api
+  url: https://github.com/robertoduessmann/weather-api
+  category: Weather
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+notes: 'Open-source Go project (GitHub README: MIT licence covers the code only, self-hostable); the public instance goweather.xyz/v2/weather/ is described in the README but its root returns 404 and no
+  terms page or data-source statement was found. Weather data origin is not stated, so all terms fields stay unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

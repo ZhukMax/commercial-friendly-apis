@@ -1,0 +1,54 @@
+id: chinese-text-project
+name: Chinese Text Project
+url: https://ctext.org/tools/api
+category: Dictionaries
+description: Online open-access digital library for pre-modern Chinese texts
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Chinese Text Project
+  url: https://ctext.org/tools/api
+  category: Dictionaries
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: 'no'
+attribution_required: 'yes'
+bulk_download: 'no'
+self_host_option: unknown
+verdict: red
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://ctext.org/tools/subscribe
+data_license_url: https://ctext.org/faq
+share_alike: unknown
+evidence:
+- field: redistribution_display
+  url: https://ctext.org/faq
+  quote: This website and its content are protected under international copyright law and may not be republished
+    without express written permission.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://ctext.org/tools/subscribe
+  quote: When quoting or citing information from this site, please link to the corresponding page or to
+    http://ctext.org.
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://ctext.org/tools/subscribe
+  quote: the use of automatic download software on this site is strictly prohibited
+  checked_at: '2026-11-21'
+notes: 'FAQ copyright section (read via Playwright): content may not be republished without written permission;
+  private use allowed; copies for non-profit academic use only; reasonable quotation allowed; automatic
+  download software prohibited. The JSON API/Python module is available through institutional subscription
+  (ctext.org/tools/subscribe); the free API page is behind an anti-scraping check. Translations remain
+  under their authors'' copyright; character data from Unihan, fonts and calendar data have third-party
+  notices. commercial_use and storage not stated explicitly (distribution is limited to non-profit academic
+  use), left unknown; verdict red follows from the republishing ban. Data licence not stated on a page
+  read; characterised as: copyright, all rights reserved (site content; translations and source texts
+  have separate rights).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

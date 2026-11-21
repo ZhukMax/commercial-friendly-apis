@@ -1,0 +1,80 @@
+id: freepik
+name: Freepik
+url: https://freepik.com/api
+category: Art & Design
+description: Stock resources(Icons, videos, photos), AI image generation and editing tools
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-api-lists
+  name: Freepik
+  url: https://freepik.com/api
+  category: Art & Design
+link_status: alive
+data_license: proprietary (Magnific/Freepik content licences; API Services T&C)
+commercial_use: ambiguous
+storage_caching: limited
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: HTTP 403 (blocked for bots, assumed alive)
+api_terms_url: https://www.magnific.com/legal/api-services
+commercial_use_scope: paid
+cache_limit: Caching/storing/hosting Magnific Content only for strict technical reasons; download endpoint
+  must be called each time a resource is used by an End User
+attribution_text: Visible 'Powered by Magnific' / 'Powered by [model name]' for proprietary AI model features;
+  free stock content may need creator/website attribution (Terms of Use)
+share_alike: unknown
+notes: 'freepik.com/api is blocked to curl (403) and redirects to the same site; docs.freepik.com redirects
+  to docs.magnific.com (Magnific API docs; the Freepik API appears to live there now, and the docs footer
+  links to Magnific''s Terms of Use and ''API Services Terms and Conditions'', October 2026). The API
+  Services T&C (read via a fresh Playwright page, as curl gets 403) grant a limited, personal, revocable
+  licence to display Magnific Content to end users through a disclosed API client, require an active Subscription
+  with Credits (paid; no explicit statement on a free tier), limit caching/storing to technical needs,
+  forbid reselling/packaging content, restrict the API to the one disclosed client, and require ''Powered
+  by'' attribution for AI-model features. The T&C never states plainly that commercial use is allowed,
+  so commercial_use is ambiguous; stock content licensing (free content attribution, premium licences,
+  per-asset restrictions, third-party contributor rights) is governed by the Terms of Use and was only
+  skimmed. Fix: the entry''s upstream auth apiKey stays correct (x-magnific-api-key).'
+evidence:
+- field: commercial_use
+  url: https://www.magnific.com/legal/api-services
+  quote: provided the Customer holds an active Subscription with available Credits.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.magnific.com/legal/api-services
+  quote: ensure that the caching, storing, or otherwise hosting any Magnific Content will be limited to
+    strict technical reasons.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.magnific.com/legal/api-services
+  quote: to make Magnific Content, the AI Generated Content, the AI Products and the Magnific API available
+    to End Users through the API Client
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.magnific.com/legal/api-services
+  quote: Customer shall not use the API Services to license, resell, distribute or package Magnific Content
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.magnific.com/legal/api-services
+  quote: a visible and legible reference stating “Powered by Magnific” or “Powered by [model name]”
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.magnific.com/legal/api-services
+  quote: to make Magnific Content, the AI Generated Content, the AI Products and the Magnific API available
+    to End Users through the API Client
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read Magnific API Services T&C via Playwright. 5.1 Competitive Use: API ''must
+  not be used to create any standalone service or application with features that directly replicate or
+  compete with the products of Magnific''; attribution ''Powered by Magnific'' for AI models; caching
+  limited to technical reasons. A stock-asset catalog site would risk 5.1. ambiguous/paid-scope stands.'

@@ -1,0 +1,74 @@
+id: fbi-wanted
+name: FBI Wanted
+url: https://www.fbi.gov/wanted/api
+category: Government
+description: Access information on the FBI Wanted program
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: FBI Wanted
+  url: https://www.fbi.gov/wanted/api
+  category: Government
+link_status: alive
+data_license: public domain (DOJ website policy), unless otherwise indicated
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: ambiguous
+attribution_required: 'no'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://www.justice.gov/legalpolicies
+api_terms_url: https://www.fbi.gov/wanted/api
+commercial_use_scope: any
+share_alike: 'no'
+evidence:
+- field: commercial_use
+  url: https://www.justice.gov/legalpolicies
+  quote: Unless otherwise indicated, information on Department of Justice websites is in the public domain
+    and may be copied and distributed without permission.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.justice.gov/legalpolicies
+  quote: Unless otherwise indicated, information on Department of Justice websites is in the public domain
+    and may be copied and distributed without permission.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.justice.gov/legalpolicies
+  quote: Unless otherwise indicated, information on Department of Justice websites is in the public domain
+    and may be copied and distributed without permission.
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://www.justice.gov/legalpolicies
+  quote: Unless otherwise indicated, information on Department of Justice websites is in the public domain
+    and may be copied and distributed without permission.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.justice.gov/legalpolicies
+  quote: Citation of the Department of Justice as source of the information is appreciated, as appropriate.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.justice.gov/legalpolicies
+  quote: Unless otherwise indicated, information on Department of Justice websites is in the public domain
+    and may be copied and distributed without permission.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.justice.gov/legalpolicies
+  quote: Please note that some photos, graphics and other materials used on this website are copyrighted.
+  checked_at: '2026-11-21'
+notes: 'FBI API page (read via Playwright; curl is blocked by a bot challenge) has no terms of its own.
+  Relied on the DOJ legal-policies page (FBI is a DOJ component): public domain unless otherwise indicated,
+  but photos/graphics from third parties may be copyrighted (wanted-poster images need per-item check).
+  fbi.gov/legalnotices itself was not readable. Also consider that showing wanted persons beside ads is
+  a reputational/legal matter outside the terms. Do not use FBI seal/logos.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'No API-specific terms on the FBI Wanted API page; DOJ policy: some photos and graphics
+  are copyrighted by third parties; Wanted-poster images cannot be assumed public domain | applied: redistribution_display=ambiguous'

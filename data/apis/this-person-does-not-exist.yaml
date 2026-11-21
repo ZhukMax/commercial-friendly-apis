@@ -1,0 +1,29 @@
+id: this-person-does-not-exist
+name: This Person Does not Exist
+url: https://thispersondoesnotexist.com
+category: Test Data
+description: Generates real-life faces of people who do not exist
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: This Person Does not Exist
+  url: https://thispersondoesnotexist.com
+  category: Test Data
+- list: public-api-lists
+  name: This Person Does not Exist
+  url: https://thispersondoesnotexist.com
+  category: Test Data
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

@@ -1,0 +1,69 @@
+id: whichtrim
+name: WhichTrim
+url: https://whichtrim.com/developers/
+category: Vehicle
+description: US vehicle recalls, complaints, fuel economy, crash ratings, service bulletins and VIN decoding
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: WhichTrim
+  url: https://whichtrim.com/developers/
+  category: Vehicle
+link_status: alive
+data_license: proprietary compilation (underlying EPA/NHTSA records public domain; 3 datasets CC-BY-4.0)
+commercial_use: paid-only
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: ambiguous
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: high
+link_checked_at: '2026-11-21'
+api_terms_url: https://whichtrim.com/terms/
+commercial_use_scope: paid
+cache_limit: Cached responses expire after 7 days
+attribution_text: Credit WhichTrim (required on free plan and when republishing verdicts)
+share_alike: unknown
+rate_limits: Free 100/day, 2 req/s; Developer 25,000/month; Pro 250,000/month; Business 2,000,000/month
+evidence:
+- field: commercial_use
+  url: https://whichtrim.com/terms/
+  quote: Free-plan use is limited to non-commercial projects and requires attribution.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://whichtrim.com/developers/pricing/
+  quote: Commercial use 3 API keys, separate client IDs
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://whichtrim.com/terms/
+  quote: Cached responses expire after 7 days.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://whichtrim.com/terms/
+  quote: use responses inside your own applications and analyses for the duration of your plan
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://whichtrim.com/terms/
+  quote: When you republish a verdict, keep the weights and the WhichTrim attribution with it.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://whichtrim.com/terms/
+  quote: The underlying federal records (EPA, NHTSA) are public domain and WhichTrim claims no right in
+    them.
+  checked_at: '2026-11-21'
+notes: Free API tier is non-commercial with attribution; pricing page lists "Commercial use" from the
+  Developer plan ($29/mo) up, so paid-only. Terms forbid resale, sublicensing, bulk redistribution and
+  substitute data feeds; cached responses expire after 7 days. Compiled dataset (selection, derived fields,
+  grades, narratives) is proprietary; three datasets (DTC, SGO crash reports, quarterly reports) are CC
+  BY 4.0. Underlying EPA/NHTSA records are public domain; manufacturer press-kit figures are transcribed
+  from official documents (rights not assessed). Whether attribution is needed on paid plans is unclear
+  (ambiguous).
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read /terms via Playwright; paid-only yellow stands.

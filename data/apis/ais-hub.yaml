@@ -1,0 +1,63 @@
+id: ais-hub
+name: AIS Hub
+url: http://www.aishub.net/api
+category: Transportation
+description: Real-time data of any marine and inland vessel equipped with AIS tracking system
+description_source: upstream
+auth: apiKey
+https: false
+cors: unknown
+sources:
+- list: public-apis
+  name: AIS Hub
+  url: http://www.aishub.net/api
+  category: Transportation
+link_status: alive
+data_license: proprietary (AISHub Terms of Use; data from volunteer stations)
+commercial_use: 'yes'
+storage_caching: unknown
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://www.aishub.net/terms
+api_terms_url: https://www.aishub.net/terms
+commercial_use_scope: any
+attribution_text: 'Data: AISHub contributors (link to https://www.aishub.net, clearly visible near the
+  data)'
+share_alike: unknown
+rate_limits: At most one request per minute
+evidence:
+- field: commercial_use
+  url: https://www.aishub.net/terms
+  quote: we encourage you to build new websites, apps, analyses, research and your own products with AISHub
+    data, including for commercial use.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.aishub.net/terms
+  quote: You may show ships on a website or app, and create your own work based on the data
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.aishub.net/terms
+  quote: 'display "Data: AISHub contributors" with a link to https://www.aishub.net , clearly visible
+    near the data.'
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://www.aishub.net/terms
+  quote: The API allows at most one request per minute.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.aishub.net/terms
+  quote: we encourage you to build new websites, apps, analyses, research and your own products with AISHub
+    data, including for commercial use.
+  checked_at: '2026-11-21'
+notes: 'Terms of Use (updated 8 Oct 2026; for new members now, existing members from 1 Jan 2027): commercial
+  use and showing ships on a website/app are allowed with the credit; passing on RAW data (AIS messages,
+  positions, tracks, live or historical) to others is forbidden. Storage/caching duration is not addressed,
+  so unknown. Access catch: an API key is issued only to members who share their own AIS station feed
+  meeting quality standards (10+ vessels, 90% uptime), so the API is not open to anyone. Not for navigation.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

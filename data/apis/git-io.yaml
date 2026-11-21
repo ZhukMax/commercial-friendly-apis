@@ -1,0 +1,26 @@
+id: git-io
+name: Git.io
+url: https://github.blog/2011-11-10-git-io-github-url-shortener/
+category: URL Shorteners
+description: Git.io URL shortener
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Git.io
+  url: https://github.blog/2011-11-10-git-io-github-url-shortener/
+  category: URL Shorteners
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://github.blog/news-insights/the-library/git-io-github-url-shortener/

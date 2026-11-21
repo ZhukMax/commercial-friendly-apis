@@ -1,0 +1,70 @@
+id: university-of-oslo
+name: University of Oslo
+url: https://data.uio.no/
+category: Open Data
+description: Courses, lecture videos, detailed information for courses etc. for the University of Oslo
+  (Norway)
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: University of Oslo
+  url: https://data.uio.no/
+  category: Open Data
+- list: public-api-lists
+  name: University of Oslo
+  url: https://data.uio.no/
+  category: Open Data
+link_status: alive
+data_license: NLOD (Norwegian Licence for Open Government Data); UiO page links version 1.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: http://data.norge.no/nlod/no/1.0
+api_terms_url: https://data.uio.no/
+commercial_use_scope: any
+attribution_text: Name the contributors (University of Oslo) as the NLOD licence requires
+share_alike: unknown
+evidence:
+- field: data_license
+  url: https://data.uio.no/
+  quote: Universitet i Oslo (lisensgiver) gir deg som lisenstaker rett til å bruke dataene fra tjenesten
+    i henhold til Norsk lisens for offentlige data (NLOD)
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://data.norge.no/nlod/no/1.0
+  quote: Denne lisensen gir deg rett til å kopiere , bruke og tilgjengeliggjøre informasjon gitt at du
+    navngir bidragsyterne
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://data.norge.no/nlod/no/1.0
+  quote: gitt at du navngir bidragsyterne og oppfyller de vilkår som er beskrevet i denne lisensen.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://data.norge.no/nlod/en/2.0
+  quote: may use the information for any purpose and in all contexts
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://data.norge.no/nlod/en/2.0
+  quote: copying the information and distributing the information to others
+  checked_at: '2026-11-21'
+notes: 'Read data.uio.no (Norwegian; states the data are used under NLOD, linking to NLOD 1.0 in Norwegian)
+  and the NLOD 1.0 (no) and 2.0 (en) texts. The ''any purpose'' wording is from NLOD 2.0 (English); the
+  page itself links version 1.0, whose intro grants copy/use/make-available with attribution, so the commercial
+  wording is read across versions: medium confidence. No separate API ToS or rate limits found. Services
+  listed: org/v1, syllabus/v1, studies/v1. Some content may contain personal data or third-party material
+  (not assessed). NLOD has no share-alike.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: '''Any purpose'' wording only in NLOD 2.0; v1.0 grant has no commercial restriction.
+  Personal data/third-party material in org data not assessed.'

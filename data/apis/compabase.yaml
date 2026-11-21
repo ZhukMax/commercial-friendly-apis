@@ -1,0 +1,58 @@
+id: compabase
+name: Compabase
+url: https://compabase.com/docs/
+category: Business
+description: 'Polish company data: 3M+ KRS and CEIDG entities with financial statements, people and rankings'
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Compabase
+  url: https://compabase.com/docs/
+  category: Business
+link_status: alive
+data_license: proprietary database (Provider claims sui generis right); sourced from KRS, CEIDG and other
+  public registers
+commercial_use: 'yes'
+storage_caching: ambiguous
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://compabase.com/terms
+commercial_use_scope: paid
+evidence:
+- field: commercial_use
+  url: https://compabase.com/terms
+  quote: purchasing data for professional or commercial purposes.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://compabase.com/terms
+  quote: The User may use exported datasets internally and for legitimate business purposes.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://compabase.com/terms
+  quote: resell raw datasets; create competing databases; redistribute data at scale; provide public mirrors
+    of the datasets
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://compabase.com/terms
+  quote: The Platform and the structured datasets compiled within it constitute a database
+  checked_at: '2026-11-21'
+notes: Read Terms & Conditions (updated Aug 10, 2026; /docs is JS-only). B2B paid service; exported datasets
+  may be used internally and for legitimate business purposes; scraping, reselling, building competing
+  databases, redistributing at scale and public mirrors are banned with EUR 5,000 contractual penalties
+  and watermark data. Public display on ad-supported pages is not clearly allowed, so storage/display
+  are ambiguous (likely restrictive). API needs an account/paid plan; API terms are in 'technical documentation/Price
+  List' that I did not read. Source data is Polish public registers; personal data (GDPR) limits apply.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: API limits are in an unread price list/technical docs. Suggest commercial_use paid-only
+  rather than yes (scope already paid); verdict yellow either way. Public ad-supported display unclear.

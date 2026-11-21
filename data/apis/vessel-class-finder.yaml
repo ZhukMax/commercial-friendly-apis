@@ -1,0 +1,53 @@
+id: vessel-class-finder
+name: Vessel Class Finder
+url: https://vesselclassfinder.com/blog/vessel-classification-api.html
+category: Transportation
+description: IACS class society, class status and survey dates for ships by IMO number
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Vessel Class Finder
+  url: https://vesselclassfinder.com/blog/vessel-classification-api.html
+  category: Transportation
+link_status: alive
+data_license: unknown
+commercial_use: 'yes'
+storage_caching: unknown
+redistribution_display: 'yes'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://vesselclassfinder.com/terms.html
+commercial_use_scope: any
+rate_limits: Free 100 lookups/month; Starter EUR49 5,000; Pro EUR199 50,000
+evidence:
+- field: commercial_use
+  url: https://vesselclassfinder.com/terms.html
+  quote: You may use the API to build applications, enrich your data, and serve your customers.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://vesselclassfinder.com/terms.html
+  quote: You may use the API to build applications, enrich your data, and serve your customers.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://vesselclassfinder.com/terms.html
+  quote: 'Free: 100 lookups per month'
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://vesselclassfinder.com/terms.html
+  quote: Scrape, crawl, or systematically download the entire dataset.
+  checked_at: '2026-11-21'
+notes: 'Read Terms of Service (Sept 2026) and the blog post. Allowed: build applications, enrich your
+  data, serve your customers (free tier included). Prohibited: reselling raw data dumps as a standalone
+  product and systematically downloading the whole dataset; caching/storing individual results is not
+  addressed, so storage_caching unknown. No attribution requirement stated (left unknown). Data is an
+  aggregation of IACS public publications; IACS terms of use for the underlying data were not found (404
+  on guessed pages) so upstream terms may be stricter. Small single-operator service (WeAreFabbrik).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

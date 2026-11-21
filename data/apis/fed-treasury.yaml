@@ -1,0 +1,70 @@
+id: fed-treasury
+name: Fed Treasury
+url: https://fiscaldata.treasury.gov/api-documentation/
+category: Finance
+description: U.S. Department of the Treasury Data
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Fed Treasury
+  url: https://fiscaldata.treasury.gov/api-documentation/
+  category: Finance
+link_status: alive
+data_license: 'US Treasury Bureau of the Fiscal Service open data: free, without restriction'
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'no'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: high
+link_checked_at: '2026-11-21'
+data_license_url: https://fiscaldata.treasury.gov/api-documentation/
+api_terms_url: https://fiscaldata.treasury.gov/api-documentation/
+commercial_use_scope: any
+share_alike: 'no'
+evidence:
+- field: commercial_use
+  url: https://fiscaldata.treasury.gov/api-documentation/
+  quote: The data is offered free, without restriction, and available to copy, adapt, redistribute, or
+    otherwise use for non-commercial or commercial purposes.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://fiscaldata.treasury.gov/api-documentation/
+  quote: The data is offered free, without restriction, and available to copy, adapt, redistribute, or
+    otherwise use for non-commercial or commercial purposes.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://fiscaldata.treasury.gov/api-documentation/
+  quote: The data is offered free, without restriction, and available to copy, adapt, redistribute, or
+    otherwise use for non-commercial or commercial purposes.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://fiscaldata.treasury.gov/api-documentation/
+  quote: The data is offered free, without restriction, and available to copy, adapt, redistribute, or
+    otherwise use for non-commercial or commercial purposes.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://fiscaldata.treasury.gov/api-documentation/
+  quote: The data is offered free, without restriction, and available to copy, adapt, redistribute, or
+    otherwise use for non-commercial or commercial purposes.
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://fiscaldata.treasury.gov/api-documentation/
+  quote: The data is offered free, without restriction, and available to copy, adapt, redistribute, or
+    otherwise use for non-commercial or commercial purposes.
+  checked_at: '2026-11-21'
+notes: Read the "License and Authorization" section of the API documentation (JS-heavy page, text present
+  via curl). One statement covers commercial use, copying, redistribution; no attribution duty is stated
+  ("without restriction"), so attribution_required=no, but citing Treasury is good practice. Individual
+  datasets may republish third-party content (not assessed). Rate limits not checked.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Individual datasets may republish third-party content (not assessed). Rate limits not
+  stated on the page.

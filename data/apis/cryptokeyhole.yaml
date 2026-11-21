@@ -1,0 +1,86 @@
+id: cryptokeyhole
+name: CryptoKeyhole
+url: https://cryptokeyhole.com/data-access/
+category: Cryptocurrency
+description: On-chain and market metrics for Bitcoin, Ethereum and more, computed from self-hosted nodes
+description_source: upstream
+auth: none
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: CryptoKeyhole
+  url: https://cryptokeyhole.com/data-access/
+  category: Cryptocurrency
+link_status: alive
+data_license: CC-BY-4.0
+commercial_use: ambiguous
+storage_caching: 'yes'
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://cryptokeyhole.com/terms/
+data_license_url: https://creativecommons.org/licenses/by/4.0/
+commercial_use_scope: free-tier
+attribution_text: 'Source: CryptoKeyhole, with a link to the chart'
+share_alike: 'no'
+evidence:
+- field: commercial_use
+  url: https://cryptokeyhole.com/terms/
+  quote: you may reuse them for any purpose, including commercial use, crediting CryptoKeyhole with a
+    link.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://cryptokeyhole.com/data-access/
+  quote: Free charts' data is licensed under CC BY 4.0
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://cryptokeyhole.com/terms/
+  quote: you may reuse them for any purpose, including commercial use, crediting CryptoKeyhole with a
+    link.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://cryptokeyhole.com/terms/
+  quote: you may reuse them for any purpose, including commercial use, crediting CryptoKeyhole with a
+    link.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://cryptokeyhole.com/terms/
+  quote: you may reuse them for any purpose, including commercial use, crediting CryptoKeyhole with a
+    link.
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://cryptokeyhole.com/terms/
+  quote: you may reuse them for any purpose, including commercial use, crediting CryptoKeyhole with a
+    link.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://cryptokeyhole.com/data-access/
+  quote: On every plan, raw exchange data and other third-party data are not licensed for redistribution.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://cryptokeyhole.com/terms/
+  quote: On every plan, raw exchange data and other third-party data are not licensed for redistribution.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://cryptokeyhole.com/data-access/
+  quote: Hourly and 10-minute data and the charts above the Free view need an API key from a plan that
+    includes them
+  checked_at: '2026-11-21'
+notes: 'Read ToS and data-access page. Free charts and what the free API returns without a key are CC
+  BY 4.0 (commercial use ok with credit+link). Plus/Pro plans are personal only; republishing or using
+  data in a product from those tiers needs the API & Team plan, which covers CryptoKeyhole''s own derived
+  series but not reselling as a dataset. Limit: only charts visible in full without a paid plan are CC
+  BY; raw exchange and other third-party data are not licensed for redistribution. Verify the chart you
+  use is a free one.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'terms: raw exchange data and other third-party data are not licensed for redistribution
+  on any plan; free API serves daily price series (e.g. ETH price) that likely derive from third-party
+  exchange data, so CC BY scope is unclear | applied: redistribution_display=ambiguous, commercial_use=ambiguous'

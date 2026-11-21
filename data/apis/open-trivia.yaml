@@ -1,0 +1,29 @@
+id: open-trivia
+name: Open Trivia
+url: https://opentdb.com/api_config.php
+category: Games & Comics
+description: Trivia Questions
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Open Trivia
+  url: https://opentdb.com/api_config.php
+  category: Games & Comics
+- list: public-api-lists
+  name: Open Trivia
+  url: https://opentdb.com/api_config.php
+  category: Games & Comics
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

@@ -1,0 +1,55 @@
+id: open-government-norway
+name: Open Government, Norway
+url: https://data.norge.no/dataservices
+category: Government
+description: Norwegian Government Open Data
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Open Government, Norway
+  url: https://data.norge.no/dataservices
+  category: Government
+link_status: redirect
+data_license: NLOD-2.0 (varies per dataset)
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://data.norge.no/nb/search/data-services
+data_license_url: https://data.norge.no/nlod/en/2.0
+api_terms_url: https://data.norge.no/en/about
+share_alike: unknown
+evidence:
+- field: commercial_use
+  url: https://data.norge.no/en/about
+  quote: The content on Data.norge.no is provided the organizations themselves.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://data.norge.no/en/about
+  quote: The catalog also promotes fair terms of competition by enabling the reuse of data for both commercial
+    and non-commercial purposes.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://data.norge.no/nlod/en/2.0
+  quote: may use the information for any purpose and in all contexts
+  checked_at: '2026-11-21'
+notes: data.norge.no is a catalogue of datasets/APIs registered by public bodies; each publisher sets
+  its own terms. Many use NLOD 2.0 (any purpose, incl. commercial, with attribution) but the catalogue
+  says some data is protected/restricted, so commercial_use is ambiguous at catalogue level. Read /en/about
+  and the NLOD 2.0 text only; no catalogue API ToS read, so storage/display/attribution left unknown here.
+  Check the specific dataset licence.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read data.norge.no/en/about and NLOD 2.0. Leaning yes for NLOD-licensed datasets;
+  catalogue also lists restricted data, so ambiguous at catalogue level.
+license_scope: portal-default

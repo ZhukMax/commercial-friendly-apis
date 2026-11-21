@@ -1,0 +1,26 @@
+id: rss-feed-to-json
+name: RSS feed to JSON
+url: https://rss-to-json-serverless-api.vercel.app
+category: Development
+description: Returns RSS feed in JSON format using feed URL
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: RSS feed to JSON
+  url: https://rss-to-json-serverless-api.vercel.app
+  category: Development
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: HTTP 402

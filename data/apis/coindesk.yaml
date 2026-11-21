@@ -1,0 +1,30 @@
+id: coindesk
+name: CoinDesk
+url: http://www.coindesk.com/api/
+category: Cryptocurrency
+description: Bitcoin Price Index
+description_source: upstream
+auth: none
+https: false
+cors: unknown
+sources:
+- list: public-api-lists
+  name: CoinDesk
+  url: http://www.coindesk.com/api/
+  category: Cryptocurrency
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: coindesk.com/api/ returns 404 (read in browser; curl got 429); api.coindesk.com does not resolve
+notes: 'The free Bitcoin Price Index API documented at coindesk.com/api/ is gone: the page is a 404 and the old host api.coindesk.com/v1/bpi no longer resolves. CoinDesk now sells a separate commercial
+  data product at developers.coindesk.com (Terms of Use at coindesk.com/terms); because that site does not say it replaces the BPI API, its terms were not transferred. All terms unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

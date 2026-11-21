@@ -1,0 +1,43 @@
+id: kegg
+name: KEGG
+url: https://www.kegg.jp/kegg/rest/keggapi.html
+category: Science & Math
+description: Genes, pathways, compounds and reactions
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: KEGG
+  url: https://www.kegg.jp/kegg/rest/keggapi.html
+  category: Science & Math
+link_status: alive
+data_license: proprietary (Kanehisa Laboratories copyright)
+commercial_use: paid-only
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://www.kegg.jp/kegg/legal.html
+api_terms_url: https://www.kegg.jp/kegg/legal.html
+commercial_use_scope: paid
+share_alike: unknown
+evidence:
+- field: commercial_use
+  url: https://www.kegg.jp/kegg/legal.html
+  quote: Non-academic use of KEGG requires a commercial license.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.kegg.jp/kegg/legal.html
+  quote: KEGG is an original database product, copyright Kanehisa Laboratories.
+  checked_at: '2026-11-21'
+notes: 'Copyright and Disclaimer page read (kegg.jp/kegg/legal.html, updated 2024-10-01): academic users may use the website freely, academic services should get a service-provider licence, non-academic
+  use needs a commercial licence from Pathway Solutions. The REST API manual itself states no terms; the legal page speaks of KEGG as a whole, so applying it to rest.kegg.jp is an inference (medium confidence).
+  Caching, display, attribution not addressed.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

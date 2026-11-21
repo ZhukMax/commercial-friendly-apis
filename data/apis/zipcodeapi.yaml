@@ -1,0 +1,66 @@
+id: zipcodeapi
+name: ZipCodeAPI
+url: https://www.zipcodeapi.com
+category: Geocoding
+description: US zip code distance, radius and location API
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: ZipCodeAPI
+  url: https://www.zipcodeapi.com
+  category: Geocoding
+- list: public-api-lists
+  name: ZipCodeAPI
+  url: https://www.zipcodeapi.com
+  category: Geocoding
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: limited
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.zipcodeapi.com/TermsOfUse
+commercial_use_scope: any
+cache_limit: 24 hours
+share_alike: unknown
+rate_limits: 'Free: 10 requests/hour, 240/day; paid from $199/year'
+evidence:
+- field: commercial_use
+  url: https://www.zipcodeapi.com/TermsOfUse
+  quote: You may use the API as-is for any purposes.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.zipcodeapi.com/TermsOfUse
+  quote: The data provided may be cached locally for performance, but for no longer than 24 hours.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.zipcodeapi.com/TermsOfUse
+  quote: You may use the API as-is for any purposes.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://www.zipcodeapi.com
+  quote: You can try ZipCodeAPI and get 10 API requests per hour for free forever.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.zipcodeapi.com/Contract
+  quote: who use the Service solely in support of your internal business operations
+  checked_at: '2026-11-21'
+notes: 'Read Terms of Use (last modified 2012-08-27) and the home page. Short terms: use ''for any purposes'',
+  cache max 24 hours. Display on own pages is not mentioned explicitly (covered only by ''any purposes''),
+  hence ambiguous. A separate customer contract exists (/Contract, not assessed). Data provenance not
+  stated. Terms are old; check before use.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Subscription Agreement limits use to your internal business operations, not for benefit
+  of third parties; Agreement bans copying, distributing or exploiting any portion of the Service; Terms
+  of Use (2012) say any purposes; the two documents conflict | applied: commercial_use=ambiguous'

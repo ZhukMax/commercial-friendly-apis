@@ -1,0 +1,35 @@
+id: opentiendas
+name: OpenTiendas
+url: https://opentiendas.dev/redocusaurus/plugin-redoc-0.yaml
+category: Shopping
+description: Official e-commerce API and webhooks
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: OpenTiendas
+  url: https://opentiendas.dev/redocusaurus/plugin-redoc-0.yaml
+  category: Shopping
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+notes: 'Not a public data source: account-scoped e-commerce API for managing a merchant''s own OpenTiendas
+  store (products, orders, customers). Docs say API access is only for Store Manager role or higher on
+  eShop/eBusiness plans. Read https://opentiendas.dev/docs/api and the OpenAPI spec; no API terms, data
+  licence or ToS page found (/terms is 404; www.opentiendas.com only has a Spanish legal notice that was
+  not API-specific). All terms fields left unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

@@ -1,0 +1,68 @@
+id: discgolf
+name: DiscGolf
+url: https://discgolfapi.com/docs/
+category: Sports & Fitness
+description: Structured disc golf course data
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: DiscGolf
+  url: https://discgolfapi.com/docs/
+  category: Sports & Fitness
+- list: public-api-lists
+  name: DiscGolf
+  url: https://discgolfapi.com/docs/
+  category: Sports & Fitness
+link_status: alive
+data_license: DiscGolfAPI Open Data Licence
+commercial_use: ambiguous
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://discgolfapi.com/licence/
+commercial_use_scope: any
+attribution_text: Course data supplied by DiscGolfAPI. (visible, near the data, link to discgolfapi.com
+  where possible)
+api_terms_url: https://discgolfapi.com/terms/
+evidence:
+- field: data_license
+  url: https://discgolfapi.com/licence/
+  quote: DiscGolfAPI Open Data Licence & Attribution Requirements
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://discgolfapi.com/licence/
+  quote: For commercial use or questions, get in touch.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://discgolfapi.com/docs/
+  quote: Cache responses where practical
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://discgolfapi.com/licence/
+  quote: You can use the public API and JSON outputs freely.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://discgolfapi.com/licence/
+  quote: you must include visible attribution
+  checked_at: '2026-11-21'
+notes: 'Licence page allows free use in websites, apps, maps, directories, dashboards with visible attribution,
+  but forbids republishing the full dataset as a competing service and says "For commercial use or questions,
+  get in touch" without defining commercial use, so commercial use is ambiguous. Docs encourage caching.
+  Data aggregates third-party/external sources (terms page: no ownership claimed of third-party source
+  material); upstream terms (e.g. OpenStreetMap-type) not listed.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read licence, terms, docs, use-our-data pages. Docs ''Fair use'': public endpoints
+  intended for apps, websites, maps, directories; cache where practical; do not mirror full dataset as
+  competing service. No explicit commercial ban or grant; terms say some data originates from external
+  sources (not named). Ambiguity remains, leaning permissive for ordinary sites; yellow stands.'

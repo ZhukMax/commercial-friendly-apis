@@ -1,0 +1,25 @@
+id: tebex
+name: Tebex
+url: https://docs.tebex.io/plugin/
+category: Games & Comics
+description: Tebex API for information about game purchases
+description_source: upstream
+auth: other
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Tebex
+  url: https://docs.tebex.io/plugin/
+  category: Games & Comics
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

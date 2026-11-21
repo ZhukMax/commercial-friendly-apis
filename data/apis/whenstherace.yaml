@@ -1,0 +1,64 @@
+id: whenstherace
+name: WhensTheRace
+url: https://whenstherace.com/f1-schedule-json/
+category: Sports & Fitness
+description: F1 season schedule with UTC session start times as JSON, RSS and iCal
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: WhensTheRace
+  url: https://whenstherace.com/f1-schedule-json/
+  category: Sports & Fitness
+link_status: alive
+data_license: CC-BY-4.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://whenstherace.com/f1-schedule-json/
+api_terms_url: https://whenstherace.com/f1-schedule-json/
+commercial_use_scope: any
+attribution_text: Credit When’s the Race, F1DB and sportstimes/f1 with links back to whenstherace.com
+  and the two projects
+rate_limits: No key; no per-visitor rate limit beyond ordinary CDN abuse protection
+evidence:
+- field: commercial_use
+  url: https://whenstherace.com/f1-schedule-json/
+  quote: You may use it freely, including commercially, provided you credit
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://whenstherace.com/f1-schedule-json/
+  quote: The feed is published under CC BY 4.0.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://whenstherace.com/f1-schedule-json/
+  quote: You may use it freely, including commercially, provided you credit
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+notes: Own page states the feed is CC BY 4.0, built from F1DB (CC BY 4.0) and session times from sportstimes/f1
+  (MIT). Storage/display rest on the CC BY 4.0 deed, which the page says applies. Schedule facts only;
+  site says it is unofficial, not affiliated with Formula 1 (do not present as official; F1 marks not
+  licensed). No separate ToS page found (/terms/ returned an empty page). Credit three parties.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read feed page, /terms/ (exists, first pass saw empty), F1DB and sportstimes LICENSE
+  files. Site /terms says 'personal, non-commercial purposes' for the site but explicitly says feed reuse
+  is governed by the schedule API page terms. Credit three parties; unofficial, F1 marks not licensed;
+  site carries AdSense itself.

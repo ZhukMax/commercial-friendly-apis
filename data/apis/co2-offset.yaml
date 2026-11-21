@@ -1,0 +1,31 @@
+id: co2-offset
+name: CO2 Offset
+url: https://co2offset.io/api.html
+category: Environment
+description: API calculates and validates the carbon footprint
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: CO2 Offset
+  url: https://co2offset.io/api.html
+  category: Environment
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://corrently.io/books/susscope2-framework-fur-co2-emissionen-strombezug
+api_terms_url: https://co2offset.io/api.html
+notes: https://co2offset.io/api.html redirects (302) to a Corrently IO book page "SusScope2 - Framework fuer CO2-Emissionen (Strombezug)", a documentation page that does not describe or replace the CO2
+  Offset API and has no terms. Terms not transferred; all fields unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

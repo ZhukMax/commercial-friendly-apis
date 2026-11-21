@@ -1,0 +1,67 @@
+id: edgepedia
+name: Edgepedia
+url: https://www.edgechat.ai/developers
+category: Open Data
+description: Search and read Edgepedia, a free and growing encyclopedia with citations
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Edgepedia
+  url: https://www.edgechat.ai/developers
+  category: Open Data
+link_status: redirect
+data_license: Edgepedia Community License 1.0 (custom; free incl. commercial, except very large organisations)
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: high
+link_checked_at: '2026-11-21'
+link_note: -> https://www.edgepedia.org/developers
+data_license_url: https://www.edgepedia.org/edgepedia/license
+api_terms_url: https://www.edgepedia.org/edgepedia/license
+commercial_use_scope: any
+attribution_text: Credit Edgepedia (www.edgepedia.org), link to the article or /edgepedia/license, say
+  if you changed the text, point to the licence
+share_alike: unknown
+rate_limits: 600 requests/minute and 100,000/day per IP address
+evidence:
+- field: data_license
+  url: https://www.edgepedia.org/edgepedia/license
+  quote: This license lets almost everyone use the Edgepedia encyclopedia articles freely, including commercially.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.edgepedia.org/edgepedia/license
+  quote: to copy, share, adapt, and build on the Articles, for any purpose, including commercial use
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.edgepedia.org/edgepedia/license
+  quote: to copy, share, adapt, and build on the Articles, for any purpose, including commercial use
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.edgepedia.org/edgepedia/license
+  quote: to copy, share, adapt, and build on the Articles, for any purpose, including commercial use
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.edgepedia.org/edgepedia/license
+  quote: credit Edgepedia (www.edgepedia.org) , link to the article or to https://www.edgepedia.org/edgepedia
+    where a link is practical
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://www.edgepedia.org/developers
+  quote: Limits 600 requests a minute and 100,000 a day per IP address
+  checked_at: '2026-11-21'
+notes: 'Read /developers (redirected from edgechat.ai) and the Edgepedia Community License 1.0. Free incl.
+  commercial use with credit, but section 3 excludes organisations with >USD 100M revenue or >100M monthly
+  active users (they need a separate licence). Images, apps and the rest of the site are all rights reserved
+  and not covered. Licence governed by Texas law. share_alike: no SA clause present (not quoted).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed

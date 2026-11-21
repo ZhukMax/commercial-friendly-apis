@@ -1,0 +1,36 @@
+id: actinia-grass-gis
+name: Actinia Grass GIS
+url: https://actinia.mundialis.de/api_docs/
+category: Geocoding
+description: Actinia is an open source REST API for geographical data that uses GRASS GIS
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Actinia Grass GIS
+  url: https://actinia.mundialis.de/api_docs/
+  category: Geocoding
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: 'yes'
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://redocly.github.io/redoc/?url=https://actinia.mundialis.de/api/v3/swagger.json
+api_terms_url: https://actinia.mundialis.de/
+evidence:
+- field: self_host_option
+  url: https://actinia.mundialis.de/
+  quote: actinia is free and open source software, available on GitHub
+  checked_at: '2026-11-21'
+notes: The project site describes a geoprocessing platform that you run yourself; the API docs link is only the Swagger/ReDoc spec (redirect). No terms of use for the hosted mundialis instance (needs credentials),
+  nor any data licence, were found (page only has Impressum/Datenschutz links). Software licence (not read) is not a data licence. All terms fields unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

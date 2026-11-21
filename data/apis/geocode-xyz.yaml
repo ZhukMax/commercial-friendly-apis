@@ -1,0 +1,73 @@
+id: geocode-xyz
+name: Geocode.xyz
+url: https://geocode.xyz/api
+category: Geocoding
+description: Provides worldwide forward/reverse geocoding, batch geocoding and geoparsing
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Geocode.xyz
+  url: https://geocode.xyz/api
+  category: Geocoding
+- list: public-api-lists
+  name: Geocode.xyz
+  url: https://geocode.xyz/
+  category: Geocoding
+link_status: alive
+data_license: Open data sources (OpenStreetMap, GeoNames, openaddresses.io, etc.; per-source licences
+  not assessed)
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://geocode.xyz/legal
+commercial_use_scope: any
+rate_limits: 'Unauthenticated: throttled to ~1 request/s combined; API key: up to 10 requests/s'
+notes: 'Data Policy on /legal: results may be cached, stored, displayed on any map and used commercially,
+  but not resold as-is (reseller licences on request). Attribution and share-alike of the underlying open
+  datasets (OSM ODbL etc.) are not mentioned, so attribution_required/share_alike stay unknown; this is
+  a doubt for green.'
+evidence:
+- field: commercial_use
+  url: https://geocode.xyz/legal
+  quote: use them however you want, even commercially - unless you wish to resell our services
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://geocode.xyz/legal
+  quote: You may cache our geocodes, display results on any map, store them however you want for as long
+    as you want
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://geocode.xyz/legal
+  quote: You may cache our geocodes, display results on any map, store them however you want for as long
+    as you want
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://geocode.xyz/legal
+  quote: Geocode.xyz uses only open data sources
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://geocode.xyz/api
+  quote: response times on the free ports are normally throttled to no more than 1 request per second
+    for all un-authenticated users combined
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://geocode.xyz/legal
+  quote: including but not limited to OpenStreetMap, Geonames, Osmnames, openaddresses.io, UK Ordnance
+    Survey
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Claims ''however you want'' use but data comes from OSM (ODbL), GeoNames (CC-BY),
+  OS and others whose attribution/share-alike duties are not addressed; Free port throttled to 1 request/second
+  combined for all unauthenticated users | applied: redistribution_display=ambiguous'

@@ -1,0 +1,74 @@
+id: uk-companies-house
+name: UK Companies House
+url: https://developer.company-information.service.gov.uk/
+category: Government
+description: UK Companies House Data from the UK government
+description_source: upstream
+auth: OAuth
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: UK Companies House
+  url: https://developer.company-information.service.gov.uk/
+  category: Government
+link_status: alive
+data_license: 'Public register: no conditions imposed (Crown copyright; CH-produced material under OGL
+  v3.0)'
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://www.gov.uk/government/publications/companies-house-accreditation-to-information-fair-traders-scheme/public-task-copyright-and-crown-copyright
+api_terms_url: https://developer.company-information.service.gov.uk/developer-guidelines
+commercial_use_scope: any
+attribution_text: Credit Companies House as the source of the information
+share_alike: unknown
+rate_limits: 600 requests per 5 minutes per default; 429 after that; higher limit on request
+evidence:
+- field: commercial_use
+  url: https://www.gov.uk/government/publications/companies-house-accreditation-to-information-fair-traders-scheme/public-task-copyright-and-crown-copyright
+  quote: Companies House imposes no rules or requirements on how the information on the public register
+    is used.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.gov.uk/government/publications/companies-house-accreditation-to-information-fair-traders-scheme/public-task-copyright-and-crown-copyright
+  quote: Companies House imposes no rules or requirements on how the information on the public register
+    is used.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.gov.uk/government/publications/companies-house-accreditation-to-information-fair-traders-scheme/public-task-copyright-and-crown-copyright
+  quote: Companies House imposes no rules or requirements on how the information on the public register
+    is used.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.gov.uk/government/publications/companies-house-accreditation-to-information-fair-traders-scheme/public-task-copyright-and-crown-copyright
+  quote: is made available on GOV.UK under the Open Government Licence v3.0, except where otherwise stated.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.gov.uk/government/publications/companies-house-accreditation-to-information-fair-traders-scheme/public-task-copyright-and-crown-copyright
+  quote: the customer must credit Companies House as the source of the information
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://developer.company-information.service.gov.uk/developer-guidelines
+  quote: You can make up to 600 requests within a 5 minute period.
+  checked_at: '2026-11-21'
+notes: 'Companies House public task / Crown copyright statement (GOV.UK): no rules on use of public-register
+  information; users must take own advice on third-party copyright, cannot reproduce Crown insignia, and
+  must credit Companies House as source (this last list is framed around customers of bulk/purchased data,
+  applied here to the API conservatively). The developer hub (developer.company-information.service.gov.uk)
+  has no separate API terms/licence page that I could find; "Policies" footer links to the register search
+  guidance. Requires an API key / OAuth app. Officer and PSC records are personal data: GDPR duties remain
+  with the reuser (not assessed). Secondary web sources that conflict (OGL vs none) were not used.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Register includes officer personal data (names, addresses): UK GDPR duties fall on
+  the reuser, not covered by the licence. The ''credit Companies House'' line concerns guidance notes/website/publications,
+  so attribution for register data is not clearly required.'

@@ -1,0 +1,83 @@
+id: realtime-sports
+name: Realtime Sports
+url: https://www.realtimesportsapi.com/docs
+category: Sports & Fitness
+description: Live scores, play-by-play, schedules and odds for NFL, NBA, MLB, NHL, NCAA and soccer
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Realtime Sports
+  url: https://www.realtimesportsapi.com/docs
+  category: Sports & Fitness
+link_status: alive
+data_license: Proprietary (Realtime Sports API Terms of Service); data aggregated from public sources
+commercial_use: ambiguous
+storage_caching: ambiguous
+redistribution_display: 'yes'
+attribution_required: 'no'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://www.realtimesportsapi.com/terms
+api_terms_url: https://www.realtimesportsapi.com/terms
+commercial_use_scope: any
+share_alike: unknown
+rate_limits: Free 125 calls/month (1,000 first month), 1 call/s; Starter 10,000/month, 5/s; up to Scale
+  500,000/month
+notes: 'Read /terms (updated 2026-11-05), /faq and /pricing and docs. The FAQ (provider''s own page) states
+  commercial use is allowed on all plans incl. Free, storing/caching allowed with no deletion deadline,
+  no attribution needed; forbidden: reselling/redistributing the raw feed or re-exposing it as an API,
+  and use on live-streaming/pirate streaming sites. ToS 4.2/7.1 only say ''resell or redistribute API
+  data without authorization'' and ''may not ... create competing services'' so the generous commitments
+  rest on the FAQ rather than the formal ToS text (medium confidence). Aggregator of public sources: the
+  service holds no league licence, is not affiliated with any league, and team names/logos/league marks
+  you display are your own responsibility (upstream league/odds data rights may be stricter). Data includes
+  betting odds; informational only, 20-30 s delay, no SLA.'
+evidence:
+- field: commercial_use
+  url: https://www.realtimesportsapi.com/faq
+  quote: Commercial use is allowed on every plan, including Free, and you can charge your own users for
+    what you build.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.realtimesportsapi.com/faq
+  quote: You can cache and store responses in your own systems for use in your product
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.realtimesportsapi.com/faq
+  quote: Apps, websites, alerts, fantasy and pick'em tools, dashboards, bots, and your own models, forecasts
+    and analytics.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.realtimesportsapi.com/faq
+  quote: No attribution to Realtime Sports API is required.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.realtimesportsapi.com/terms
+  quote: Sports data provided through the Service, including but not limited to scores, statistics, schedules,
+    and team information, is aggregated from publicly available sources.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.realtimesportsapi.com/terms
+  quote: Resell or redistribute API data without authorization
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.realtimesportsapi.com/faq
+  quote: This is plain-language guidance; the Terms of Service govern if anything differs.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.realtimesportsapi.com/faq
+  quote: We hold no league licence and are not affiliated with any league or team
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Generous permissions rest on FAQ, which says ToS govern if they differ; ToS bans redistribution
+  ''without authorization''; Upstream source unnamed; no league licence; includes betting odds | applied:
+  commercial_use=ambiguous, storage_caching=ambiguous'

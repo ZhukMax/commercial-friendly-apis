@@ -1,0 +1,63 @@
+id: city-nantes-open-data
+name: City, Nantes Open Data
+url: https://data.nantesmetropole.fr/pages/home/
+category: Government
+description: Nantes(FR) City Open Data
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: City, Nantes Open Data
+  url: https://data.nantesmetropole.fr/pages/home/
+  category: Government
+- list: public-api-lists
+  name: City, Nantes Opendata
+  url: https://data.nantesmetropole.fr/pages/home/
+  category: Government
+link_status: alive
+data_license: unknown
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+commercial_use_scope: any
+share_alike: unknown
+data_license_url: https://data.nantesmetropole.fr/pages/mentions-legales/
+api_terms_url: https://data.nantesmetropole.fr/pages/mentions-legales/
+evidence:
+- field: commercial_use
+  url: https://data.nantesmetropole.fr/pages/mentions-legales/
+  quote: strictement réservées à un usage personnel excluant tout usage à des fins publicitaires, commerciales
+    ou d'information
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Licence_Ouverte.pdf
+  quote: Exploiter « l’Information » à titre commercial, par exemple en la combinant avec d’autres « Informations
+    »
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Licence_Ouverte.pdf
+  quote: Reproduire, copier, publier et transmettre « l’Information »
+  checked_at: '2026-11-21'
+notes: 'Read via Playwright (Opendatasoft/Huwise site is JS-rendered). The "Modalités d''utilisation"
+  page covers the Site itself and its presentation/content: reproduction only for strictly personal use,
+  no advertising or commercial use. It says nothing about dataset licences; datasets are published by
+  Nantes Métropole, the Département, the Région and partners, each with its own licence (not read). The
+  mutualised charter PDF (charte des usages) was not read. Upstream auth apiKey not verified. Ambiguous:
+  site terms restrictive, data terms unverified.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Mentions legales restriction covers the website''s own content, not datasets; Catalogue
+  metadata: 547 of 592 datasets Licence Ouverte, 43 ODbL; Licence Ouverte expressly allows commercial
+  exploitation; API works without a key (auth should be none) | applied: commercial_use=yes, storage_caching=yes'
+verdict_override: yellow
+override_reason: Second check resolved some fields; unconfirmed storage/display keeps it at yellow.

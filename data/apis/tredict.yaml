@@ -1,0 +1,41 @@
+id: tredict
+name: Tredict
+url: https://www.tredict.com/blog/oauth_docs/
+category: Sports & Fitness
+description: Get and set activities, health data and more
+description_source: upstream
+auth: OAuth
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Tredict
+  url: https://www.tredict.com/blog/oauth_docs/
+  category: Sports & Fitness
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.tredict.com/termsofuse/
+share_alike: unknown
+rate_limits: Activity upload 8 req/s, activity download 10 req/s, token endpoint 20 req/s (per IP)
+notes: 'Not a public data source: account-scoped OAuth2/Personal-API for a user''s own training data (activities,
+  health data, plans). Read the OAuth docs and Terms of Use (/termsofuse/). No API licence, commercial-use,
+  caching or display terms are stated; the docs say Tredict does not issue OAuth2 credentials to apps
+  that merely fetch activity/health data for their own processing, ''is not a data proxy and does not
+  allow automated data forwarding of other parties'', and Personal API tokens are for personal use. Terms
+  of Use only say external interfaces may be used within normal intended scope. All terms fields left
+  unknown. Unsuitable for a commercial content site.'
+evidence: []
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

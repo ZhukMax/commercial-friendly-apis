@@ -1,0 +1,26 @@
+id: whoisjsonapi
+name: WhoisJSONApi
+url: https://whoisjsonapi.com/
+category: Security
+description: Domain WHOIS information to detect and prevent online threats, enhancing overall online safety
+  for individuals and organizations
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-api-lists
+  name: WhoisJSONApi
+  url: https://whoisjsonapi.com/
+  category: Security
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

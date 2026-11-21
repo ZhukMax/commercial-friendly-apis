@@ -1,0 +1,26 @@
+id: unicum
+name: Unicum
+url: https://unicum.gg/docs
+category: Games & Comics
+description: World of Tanks player, clan and tank stats, ratings and leaderboards for EU, NA and Asia
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Unicum
+  url: https://unicum.gg/docs
+  category: Games & Comics
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: HTTP 403 (blocked for bots, assumed alive)

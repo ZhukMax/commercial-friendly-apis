@@ -1,0 +1,57 @@
+id: congressinvests
+name: CongressInvests
+url: https://congressinvests.com
+category: Finance
+description: Real-time U.S. congressional stock trade disclosures from Senate EFD and House Clerk
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: CongressInvests
+  url: https://congressinvests.com
+  category: Finance
+link_status: alive
+data_license: unknown
+commercial_use: 'no'
+storage_caching: unknown
+redistribution_display: 'no'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://congressinvests.com/
+rate_limits: 'Free: 100 requests/day; Pro $29/mo'
+evidence:
+- field: commercial_use
+  url: https://congressinvests.com/
+  quote: Redistribution for commercial solicitation or advertising is prohibited per House Clerk usage
+    terms.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://congressinvests.com/
+  quote: Redistribution for commercial solicitation or advertising is prohibited per House Clerk usage
+    terms.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.law.cornell.edu/uscode/text/5/13107
+  quote: for any commercial purpose, other than by news and communications media for dissemination to
+    the general public
+  checked_at: '2026-11-21'
+notes: Only the marketing/landing page was found (/terms returns 404); no API terms of service. Its disclaimer
+  relays an upstream restriction (House Clerk usage terms) that forbids redistribution for commercial
+  solicitation or advertising, so an ad/affiliate site is at best unclear. Pricing mentions white-label/embedding
+  rights only on a custom enterprise tier. Free plan caps at 100 req/day. Upstream House Clerk / Senate
+  EFD terms were not read, so conditions may be stricter.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Upstream statute 5 U.S.C. 13107(c) makes it unlawful to obtain or use these financial-disclosure
+  reports for any commercial purpose other than news and communications media; Vendor itself relays the
+  House Clerk ban on redistribution for commercial solicitation or advertising; No vendor terms page exists
+  (/terms, /privacy, /tos, /api return 404), so nothing grants commercial rights | applied: commercial_use=no,
+  redistribution_display=no'

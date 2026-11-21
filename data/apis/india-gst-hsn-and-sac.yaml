@@ -1,0 +1,71 @@
+id: india-gst-hsn-and-sac
+name: India GST HSN & SAC
+url: https://gst-hsn-sac-api.vercel.app/docs
+category: Finance
+description: Indian GST HSN and SAC classification code lookup and search
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: India GST HSN & SAC
+  url: https://gst-hsn-sac-api.vercel.app/docs
+  category: Finance
+link_status: alive
+data_license: MIT (QuantumByteStudios/gst-hsn-sac-codes dataset)
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://raw.githubusercontent.com/QuantumByteStudios/gst-hsn-sac-codes/main/LICENSE
+api_terms_url: https://gst-hsn-sac-api.vercel.app/docs
+commercial_use_scope: any
+share_alike: 'no'
+evidence:
+- field: data_license
+  url: https://gst-hsn-sac-api.vercel.app/docs
+  quote: Data comes from the MIT-licensed QuantumByteStudios/gst-hsn-sac-codes dataset
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://raw.githubusercontent.com/QuantumByteStudios/gst-hsn-sac-codes/main/LICENSE
+  quote: to deal in the Software without restriction, including without limitation the rights to use,
+    copy, modify, merge, publish, distribute, sublicense, and/or sell copies
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://raw.githubusercontent.com/QuantumByteStudios/gst-hsn-sac-codes/main/LICENSE
+  quote: to deal in the Software without restriction, including without limitation the rights to use,
+    copy, modify, merge, publish, distribute, sublicense, and/or sell copies
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://raw.githubusercontent.com/QuantumByteStudios/gst-hsn-sac-codes/main/LICENSE
+  quote: to deal in the Software without restriction, including without limitation the rights to use,
+    copy, modify, merge, publish, distribute, sublicense, and/or sell copies
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://raw.githubusercontent.com/QuantumByteStudios/gst-hsn-sac-codes/main/LICENSE
+  quote: The above copyright notice and this permission notice shall be included in all copies or substantial
+    portions of the Software.
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://raw.githubusercontent.com/QuantumByteStudios/gst-hsn-sac-codes/main/LICENSE
+  quote: to deal in the Software without restriction, including without limitation the rights to use,
+    copy, modify, merge, publish, distribute, sublicense, and/or sell copies
+  checked_at: '2026-11-21'
+notes: Terms inferred from the MIT licence of the upstream dataset the API says it serves (LICENSE file
+  read on raw.githubusercontent.com); the API page itself has no separate terms of service. Community-maintained
+  snapshot (6 Jun 2026), classification only, no tax rates. The codes originate from Indian government
+  tariff/GST classifications; whether the MIT-licensing community maintainer can license them was not
+  verified. No SLA; check against official GST sources.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'MIT LICENSE of QuantumByteStudios dataset verified on raw.githubusercontent.com. Residual
+  risk, unverified: the codes/descriptions derive from government/WCO HS classification and the maintainer''s
+  MIT grant may not clear them; one-person snapshot project with no terms page.'

@@ -1,0 +1,41 @@
+id: sthan-io-address-verification
+name: sthan.io Address Verification
+url: https://sthan.io/products/address-verification-usa
+category: Data Validation
+description: Validate and standardize US addresses, with ZIP+4 and deliverability status
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: sthan.io Address Verification
+  url: https://sthan.io/products/address-verification-usa
+  category: Data Validation
+link_status: alive
+data_license: unknown
+commercial_use: 'yes'
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://sthan.io/home/terms
+commercial_use_scope: any
+evidence:
+- field: commercial_use
+  url: https://sthan.io/home/terms
+  quote: You may build the Services into your own products, including products you sell to your customers,
+    and you may resell access to the Services.
+  checked_at: '2026-11-21'
+notes: 'Terms of Service (effective Sept 2026) read in full. Building the Services into your own products
+  and reselling access is expressly allowed, so commercial_use is yes. Storage/display of results is not
+  addressed except the prohibition on using the Services "to build a copy of our data, for example by
+  querying them in bulk to create your own address or location database or dataset", so storage_caching
+  and redistribution_display stay unknown and the verdict stays unknown. Upstream address data sources
+  (USPS or others) were not identified; their terms not checked. '
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

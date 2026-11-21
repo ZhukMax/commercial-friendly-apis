@@ -1,0 +1,31 @@
+id: citi
+name: Citi
+url: https://sandbox.developerhub.citi.com/api-catalog-list
+category: Finance
+description: All Citigroup account and statement data APIs
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Citi
+  url: https://sandbox.developerhub.citi.com/api-catalog-list
+  category: Finance
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://partner.citi.com/home
+api_terms_url: https://partner.citi.com/home
+notes: URL redirects to partner.citi.com (Citi developer/partner portal, API catalog needs sign-in). Account/statement APIs are for Citi customers and partners under an agreement; no public API
+  terms page was reachable (only the generic Terms & Conditions link in the footer, not read). Not an open data API. All fields unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

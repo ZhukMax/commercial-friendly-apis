@@ -1,0 +1,37 @@
+id: untappd
+name: Untappd
+url: https://untappd.com/api/docs
+category: Food & Drink
+description: Social beer sharing
+description_source: upstream
+auth: OAuth
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Untappd
+  url: https://untappd.com/api/docs
+  category: Food & Drink
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://untappd.com/terms
+rate_limits: 100 calls per hour per key by default
+evidence:
+- field: rate_limits
+  url: https://untappd.com/api/docs
+  quote: The default limit for API access is 100 calls per hour per key.
+  checked_at: '2026-11-21'
+notes: Read the API docs (no terms section) and the general site Terms (untappd.com/terms), which grant only 'personal, non-commercial' use of the Site and Content. The API's own terms/registration (untappd.com/api/register)
+  are behind a login and could not be read, so every core field stays unknown (a site-wide clause is not taken as the API licence). Data is mostly user-generated check-in content (user-supplied content
+  licensed to Untappd).
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

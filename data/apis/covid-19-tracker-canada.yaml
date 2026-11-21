@@ -1,0 +1,71 @@
+id: covid-19-tracker-canada
+name: COVID-19 Tracker Canada
+url: https://api.covid19tracker.ca/docs/1.0/overview
+category: Health
+description: Details on Covid-19 cases across Canada
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: COVID-19 Tracker Canada
+  url: https://api.covid19tracker.ca/docs/1.0/overview
+  category: Health
+link_status: alive
+data_license: CC-BY-4.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: 'yes'
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://covid19tracker.ca/licensing.html
+data_license_url: https://covid19tracker.ca/licensing.html
+commercial_use_scope: any
+attribution_text: N. Little. COVID-19 Tracker Canada (2020), COVID19Tracker.ca
+share_alike: 'no'
+link_note: API docs page is JS-only; licensing read at covid19tracker.ca/licensing.html
+evidence:
+- field: data_license
+  url: https://covid19tracker.ca/licensing.html
+  quote: The COVID19Tracker.ca Dataset is licensed under a Creative Commons Attribution 4.0 International
+    License
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://covid19tracker.ca/licensing.html
+  quote: anyone is able to share and/or adapt the dataset for any purpose (even commercially)
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://covid19tracker.ca/licensing.html
+  quote: anyone is able to share and/or adapt the dataset for any purpose (even commercially)
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://covid19tracker.ca/licensing.html
+  quote: anyone is able to share and/or adapt the dataset for any purpose (even commercially)
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://covid19tracker.ca/licensing.html
+  quote: with the condition that appropriate credit is given
+  checked_at: '2026-11-21'
+- field: self_host_option
+  url: https://covid19tracker.ca/licensing.html
+  quote: The COVID19Tracker.ca API source code is licensed under an MIT License
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://covid19tracker.ca/licensing.html
+  quote: The COVID19Tracker.ca Dataset is licensed under a Creative Commons Attribution 4.0 International
+    License
+  checked_at: '2026-11-21'
+notes: 'Read the project''s Licensing page (dataset CC BY 4.0, API and website code MIT) and About page;
+  the API docs URL renders only via JS and was not readable. Per the site homepage (read via Playwright)
+  the dataset is no longer updated since Aug 2024 and remains as a historical resource. Data was compiled
+  from provincial/territorial releases (upstream terms not checked, CC BY claim is the project''s own).
+  Share-alike: CC BY has none.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed

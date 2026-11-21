@@ -1,0 +1,29 @@
+id: google-safe-browsing
+name: Google Safe Browsing
+url: https://developers.google.com/safe-browsing/
+category: Anti-Malware
+description: Google Link/Domain Flagging
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Google Safe Browsing
+  url: https://developers.google.com/safe-browsing/
+  category: Anti-Malware
+- list: public-api-lists
+  name: Google Safe Browse
+  url: https://developers.google.com/safe-browsing/
+  category: Anti-Malware
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

@@ -1,0 +1,50 @@
+id: binance
+name: Binance
+url: https://github.com/binance/binance-spot-api-docs
+category: Cryptocurrency
+description: Exchange for Trading Cryptocurrencies based in China
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Binance
+  url: https://github.com/binance/binance-spot-api-docs
+  category: Cryptocurrency
+- list: public-api-lists
+  name: Binance
+  url: https://github.com/binance-exchange/binance-official-api-docs
+  category: Cryptocurrency
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: 'yes'
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.binance.com/en/about-legal/terms
+share_alike: unknown
+evidence:
+- field: bulk_download
+  url: https://raw.githubusercontent.com/binance/binance-public-data/master/TERMS_AND_CONDITIONS.md
+  quote: Commercial licensing is strictly excluded under this agreement; any commercial utilization requires
+    a separate, written enterprise data license agreement executed with Binance.
+  checked_at: '2026-11-21'
+notes: 'Listed URL is the GitHub docs repo (MIT-licensed docs, not the service terms). The service terms
+  are the Binance Terms of Use (https://www.binance.com/en/about-legal/terms); the page loaded only as
+  an empty shell (nav/footer) in Playwright and curl returned HTTP 202 with no body, so the live Spot
+  API/market-data terms were NOT read: core fields stay unknown. Separate finding: historical datasets
+  on data.binance.vision are under ''Binance Vision Dataset Terms'' (v1.0, 2026-08-26), CC BY-NC-SA 4.0
+  with commercial use excluded (evidence quote, https://github.com/binance/binance-public-data/blob/master/TERMS_AND_CONDITIONS.md)
+  - that is red for bulk historical data only. Public market-data-only endpoints (data-api.binance.vision)
+  need no key per faqs/market_data_only.md. Needs manual read of the Terms of Use (market data display/redistribution
+  clauses) before any verdict. Merged duplicate entry `binance-github`.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+aliases:
+- binance-github

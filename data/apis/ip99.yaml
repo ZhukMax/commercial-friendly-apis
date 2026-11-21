@@ -1,0 +1,47 @@
+id: ip99
+name: IP99
+url: https://ip99.com/api
+category: Geocoding
+description: IP geolocation with proxy, VPN and datacenter risk and the age of the evidence
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: IP99
+  url: https://ip99.com/api
+  category: Geocoding
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: 'no'
+self_host_option: 'yes'
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://ip99.com/terms
+share_alike: unknown
+rate_limits: 'Free anonymous: 500/day per IP (60/min); free logged-in: 5,000/day; enterprise by contract'
+notes: Read the Chinese-language Terms of Service (effective 2026-09-11, translated by me) and the English API reference. Terms say per-query service only, not bulk data licence (bulk/offline use needs
+  the paid private deployment), forbid systematically crawling to rebuild or resell the database, key sharing and quota evasion; enterprise terms are by separate contract. Nothing states whether commercial
+  use, caching or display of results on your own site is allowed (API doc only advises "query at decision time rather than caching verdicts"). All core fields unknown. Private deployment (Tide/Pulse) is
+  a separate priced product.
+evidence:
+- field: bulk_download
+  url: https://ip99.com/terms
+  quote: 本服务提供的是逐次查询， 不是批量数据授权；批量与离线使用走 私有化部署 。
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://ip99.com/terms
+  quote: 免费 · 未注册 ：每日 500 次，按来访 IP 计。
+  checked_at: '2026-11-21'
+- field: self_host_option
+  url: https://ip99.com/terms
+  quote: 批量与离线使用走 私有化部署
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

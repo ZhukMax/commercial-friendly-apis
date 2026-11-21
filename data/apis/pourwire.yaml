@@ -1,0 +1,62 @@
+id: pourwire
+name: PourWire
+url: https://github.com/Tintin-Intellegence-Limited/us-liquor-license-applications
+category: Government
+description: New restaurant and bar liquor license applications in 7 US metros (TX, NY, Los Angeles)
+description_source: upstream
+auth: none
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: PourWire
+  url: https://github.com/Tintin-Intellegence-Limited/us-liquor-license-applications#free-json-api
+  category: Government
+link_status: alive
+data_license: CC-BY-4.0 (stated in GitHub README; conflicts with ToS)
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://pourwire.com/terms
+commercial_use_scope: any
+attribution_text: PourWire (pourwire.com)
+rate_limits: Keep to a few requests per metro per day (cached 1 hour); API rate limits must not be circumvented
+evidence:
+- field: data_license
+  url: https://api.github.com/repos/Tintin-Intellegence-Limited/us-liquor-license-applications
+  quote: CSV, CC BY 4.0.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://raw.githubusercontent.com/Tintin-Intellegence-Limited/us-liquor-license-applications/main/README.md
+  quote: Please credit "PourWire (pourwire.com)".
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://pourwire.com/terms
+  quote: Don't resell or republish the feed, or build a competing data product from it.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://pourwire.com/terms
+  quote: 'Use the data for your own business: prospecting, research and your own CRM.'
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://raw.githubusercontent.com/Tintin-Intellegence-Limited/us-liquor-license-applications/main/README.md
+  quote: please keep it to a few requests per metro per day.
+  checked_at: '2026-11-21'
+notes: 'Conflict: the GitHub dataset/README says data is CC BY 4.0 (credit PourWire), but the PourWire
+  Terms of Service (covering the API) say use the data for your own business and do not resell or republish
+  the feed. Which governs the free public JSON API is unclear, so ambiguous (yellow). The README names
+  22 metros while the entry description says 7. Underlying filings are government records (not assessed).
+  LICENSE file is missing in the repo (404).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Evidence leans: free no-key API described in README as CC BY 4.0 (credit PourWire);
+  ToS binds trial/subscription users of the paid feed. A public ad-supported site republishing lists is
+  only safe under the README licence; no LICENSE file. Ambiguity not resolved by the owner.'

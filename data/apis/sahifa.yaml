@@ -1,0 +1,25 @@
+id: sahifa
+name: Sahifa
+url: https://sahifa.dev/en/docs
+category: Documents & Productivity
+description: HTML/URL to PDF and screenshots with Arabic and right-to-left support; free tier
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Sahifa
+  url: https://sahifa.dev/en/docs
+  category: Documents & Productivity
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

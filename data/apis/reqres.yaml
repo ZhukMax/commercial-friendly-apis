@@ -1,0 +1,29 @@
+id: reqres
+name: ReqRes
+url: https://reqres.in/
+category: Development
+description: A hosted REST-API ready to respond to your AJAX requests
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: ReqRes
+  url: https://reqres.in/
+  category: Development
+- list: public-api-lists
+  name: ReqRes
+  url: https://reqres.in/
+  category: Development
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

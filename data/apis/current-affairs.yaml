@@ -1,0 +1,30 @@
+id: current-affairs
+name: Current Affairs
+url: https://rapidapi.com/malaithiru370/api/current-affairs-of-india
+category: Education
+description: Current International Affairs, quizzes and more
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-api-lists
+  name: Current Affairs
+  url: https://rapidapi.com/malaithiru370/api/current-affairs-of-india
+  category: Education
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+notes: Only the RapidAPI listing description was read (international and Indian current affairs, daily
+  quiz, today in history for exam prep). No terms or licence stated; content is presumably derived from
+  news/third-party sources (unstated) and RapidAPI marketplace terms were not assessed. All unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -1,0 +1,37 @@
+id: us-per-diem
+name: US Per Diem
+url: https://us-per-diem-api.narwhalapis.workers.dev
+category: Government
+description: GSA lodging and M&IE per diem rates for US cities by ZIP, state and fiscal year
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: US Per Diem
+  url: https://us-per-diem-api.narwhalapis.workers.dev
+  category: Government
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://narwhalthepong.github.io/gumroad-license-check/free-tax-finance-api
+rate_limits: Free; keep request rates reasonable, use batch endpoints for bulk (hosted on a free plan)
+notes: 'Third-party wrapper around GSA per diem rates (sources listed in /v1/meta: gsa.gov per-diem, open.gsa.gov API). Read the root JSON, /v1/meta and the author''s doc page: they say only ''Free to use;
+  please keep request rates reasonable'' and that results are planning estimates, not tax advice. No licence, commercial-use, caching or attribution statement, so those stay unknown. Underlying GSA data
+  is a US government source; GSA''s open.gsa.gov page says API use is subject to GSA.gov Developer Resources ToS (not read), and this wrapper is not GSA''s API. Also listed on RapidAPI (not read).'
+evidence:
+- field: rate_limits
+  url: https://narwhalthepong.github.io/gumroad-license-check/free-tax-finance-api
+  quote: Please keep request rates reasonable and use the batch endpoints for bulk work.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

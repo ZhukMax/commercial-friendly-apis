@@ -1,0 +1,69 @@
+id: stadiq
+name: Stadiq
+url: https://stadiq.app/developers
+category: Transportation
+description: Road works, transit disruptions and air quality for Antwerp and Flanders
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Stadiq
+  url: https://stadiq.app/developers
+  category: Transportation
+link_status: alive
+data_license: proprietary (Stadiq terms); upstream public data under their own licences, e.g. Modellicentie
+  Gratis Hergebruik Vlaanderen v1.0 (GIPOD)
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+data_license_url: https://stadiq.app/voorwaarden
+api_terms_url: https://stadiq.app/voorwaarden
+commercial_use_scope: paid
+share_alike: unknown
+attribution_text: Show the attribution text carried in every API response wherever you republish the data.
+rate_limits: Free Developer plan 100 calls/day; API plan 29 EUR/month 10,000 calls/day
+evidence:
+- field: commercial_use
+  url: https://stadiq.app/voorwaarden
+  quote: het betalende API-plan is bestemd voor ondernemingen.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://stadiq.app/developers
+  quote: Production volume, including GIPOD history with revisions.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://stadiq.app/developers
+  quote: every response carries the attribution text, which you show wherever you republish the data.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://stadiq.app/developers
+  quote: every response carries the attribution text, which you show wherever you republish the data.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://stadiq.app/voorwaarden
+  quote: De onderliggende openbare gegevens blijven van hun respectieve bronnen, onder hun eigen licentievoorwaarden.
+  checked_at: '2026-11-21'
+notes: Read the developer page and the Dutch terms (voorwaarden, read via Playwright because the page
+  is JS-rendered). Stadiq aggregates public data (GIPOD road works, De Lijn realtime, IRCELINE air quality,
+  Antwerp open data); the terms say the underlying data stay with their sources under their own licences,
+  so upstream conditions apply and may be stricter. The free Developer plan is "build and evaluate", the
+  paid plan (29 EUR/month, for businesses) is "production volume"; no explicit commercial-use sentence,
+  hence ambiguous. Terms ban reselling the data as your own product or building a service that directly
+  replaces Stadiq. Caching not addressed.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read developers page and Dutch terms. Terms ban reselling data as own product and
+  building a replacement service; underlying public data stays under sources' licences; responses carry
+  attribution text to show on republishing. Attempts to read the Flemish model licence text via curl returned
+  empty/404, so upstream licence terms are unverified; De Lijn, IRCELINE and Antwerp open-data licences
+  not

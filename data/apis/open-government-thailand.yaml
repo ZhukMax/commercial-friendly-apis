@@ -1,0 +1,31 @@
+id: open-government-thailand
+name: Open Government, Thailand
+url: https://data.go.th/
+category: Government
+description: Thailand Government Open Data
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Open Government, Thailand
+  url: https://data.go.th/
+  category: Government
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: HTTP 403 (blocked for bots, assumed alive)
+evidence: []
+notes: 'Could not read any terms: data.go.th returns HTTP 403 / ''Access Denied'' (security block) to curl and to a fresh Playwright context, on the home page and on guessed terms paths. No licence or API
+  terms seen. Left unknown; not bypassing the block. Re-check from a normal browser.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

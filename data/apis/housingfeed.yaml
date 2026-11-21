@@ -1,0 +1,70 @@
+id: housingfeed
+name: HousingFeed
+url: https://housingfeed.com/docs
+category: Open Data
+description: US rental listings from property managers' own websites, verified weekly
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: HousingFeed
+  url: https://housingfeed.com/docs
+  category: Open Data
+link_status: alive
+verdict: red
+confidence: medium
+link_checked_at: '2026-11-21'
+notes: 'Read the docs and Terms of Service (28 Sep 2026). The public Data API (via Apify, paid per row)
+  and the keyless sample are for internal use/analytics/research only and do not grant display rights;
+  showing listings on a website requires a separate paid Display Feed licence (display, attribution, source
+  links, delisting terms live on a separate licence page, not read). Raw feed resale/republishing is barred.
+  So a site with ads/affiliate links needs the paid Display Feed: commercial_use paid-only, display ambiguous
+  pending those licence terms. Caching terms not read.'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+data_license: proprietary (display only under a separate paid Display Feed licence)
+api_terms_url: https://housingfeed.com/terms
+commercial_use: paid-only
+commercial_use_scope: paid
+storage_caching: unknown
+redistribution_display: 'no'
+attribution_required: 'yes'
+rate_limits: 'Data API: max 25,000 rows per run; priced $3 per 1,000 rows on Apify; keyless /api/v1/sample
+  preview of up to 10 records'
+bulk_download: unknown
+self_host_option: unknown
+evidence:
+- field: data_license
+  url: https://housingfeed.com/docs
+  quote: The public Data API and its credentials do not grant display rights.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://housingfeed.com/docs
+  quote: Showing them to your users needs a Display Feed licence
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://housingfeed.com/docs
+  quote: The public Data API and its credentials do not grant display rights.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://housingfeed.com/docs
+  quote: Keep attribution with the listing.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://housingfeed.com/terms
+  quote: You may not resell, redistribute, or republish the raw feed as a standalone dataset
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://housingfeed.com/docs
+  quote: Each run returns at most 25,000 rows.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://housingfeed.com/terms
+  quote: you may not display it publicly or redistribute it, whether by a person or by an agent.
+  checked_at: '2026-11-21'
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'ToS forbids public display and redistribution under the data API; display needs separate
+  paid Display Feed licence (not read). | applied: redistribution_display=no'

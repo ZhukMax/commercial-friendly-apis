@@ -1,0 +1,68 @@
+id: bolet-n-oficial-del-estado-boe
+name: Boletín Oficial del Estado (BOE)
+url: https://www.boe.es/datosabiertos/
+category: Government
+description: 'Official Spanish State Gazette open data: laws, summaries and XML/JSON APIs'
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Boletín Oficial del Estado (BOE)
+  url: https://www.boe.es/datosabiertos/
+  category: Government
+link_status: redirect
+data_license: BOE reuse conditions (Resolución AEBOE, 27 June 2024)
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+confidence: high
+link_checked_at: '2026-11-21'
+link_note: -> https://www.boe.es/datosabiertos/api/api.php
+data_license_url: https://www.boe.es/informacion/aviso_legal/index.php
+api_terms_url: https://www.boe.es/informacion/aviso_legal/index.php
+commercial_use_scope: any
+attribution_text: '"Fuente de los datos: Agencia Estatal Boletín Oficial del Estado" with link to https://www.boe.es
+  (or "Basado en datos de la ..." for derived works)'
+evidence:
+- field: commercial_use
+  url: https://www.boe.es/informacion/aviso_legal/index.php
+  quote: Las presentes condiciones permiten la reutilización de los documentos sometidos a ellas para
+    fines comerciales y no comerciales
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.boe.es/informacion/aviso_legal/index.php
+  quote: La copia, reproducción, distribución y difusión pública de la información.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.boe.es/informacion/aviso_legal/index.php
+  quote: La copia, reproducción, distribución y difusión pública de la información.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.boe.es/informacion/aviso_legal/index.php
+  quote: Debe citarse la fuente de los documentos objeto de la reutilización
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.boe.es/datosabiertos/api/api.php
+  quote: la reutilización de la información supone la aceptación de las condiciones de reutilización
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.boe.es/informacion/aviso_legal/index.php
+  quote: conforme a la licencia tipo aprobada por Resolución de la Agencia de fecha 27 de junio de 2024
+  checked_at: '2026-11-21'
+notes: 'API page says reuse implies acceptance of the AEBOE reuse conditions (Aviso legal). Conditions:
+  cite the source with link, do not distort meaning, do not suggest official status or BOE endorsement,
+  consolidated legislation must be labelled as informative text only, mention last-update date, keep metadata.
+  Not covered: site design/logos and the Biblioteca Jurídica Digital (CC BY-NC-ND 4.0). Personal data
+  in documents remain subject to GDPR. Share-alike not stated (unknown).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: green
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Consolidated legislation must be labelled informative text only; no framing. API page
+  says reuse means accepting the conditions.

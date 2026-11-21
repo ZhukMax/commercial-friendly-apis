@@ -1,0 +1,53 @@
+id: smartcar
+name: Smartcar
+url: https://smartcar.com/docs/
+category: Vehicle
+description: Lock and unlock vehicles and get data like odometer reading and location. Works on most new
+  cars
+description_source: upstream
+auth: OAuth
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Smartcar
+  url: https://smartcar.com/docs/
+  category: Vehicle
+- list: public-api-lists
+  name: Smartcar
+  url: https://smartcar.com/docs/
+  category: Vehicle
+link_status: redirect
+data_license: unknown
+commercial_use: 'yes'
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://smartcar.com/docs/getting-started/introduction
+api_terms_url: https://smartcar.com/legal/terms
+commercial_use_scope: any
+evidence:
+- field: commercial_use
+  url: https://smartcar.com/legal/terms
+  quote: permit you to develop applications or websites (collectively, “Developer Applications”) and offer
+    those Developer Applications to Developer Customers
+  checked_at: '2026-11-21'
+notes: 'Not a public data source: Smartcar is an OAuth, account-scoped vehicle connectivity API (data
+  and commands for vehicles whose owners consent). Developer ToS (effective 2025-01-28) let developers
+  build applications and offer them to Developer Customers/End Users; resale of the Smartcar services
+  standalone is prohibited. Storage, display and attribution rules were not found in the ToS text read
+  (data handling is tied to End User consent), so left unknown; Free pricing plan is described as for
+  individuals exploring (1 connected vehicle). OEMs may restrict data at will. commercial_use=yes is low
+  confidence for a site with ads, since the data is private user data, not publishable content. Link redirects
+  to /docs/getting-started/introduction. Data licence not stated on a page read; characterised as: proprietary
+  (Smartcar Developer Terms of Service).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

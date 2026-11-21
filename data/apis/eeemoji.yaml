@@ -1,0 +1,79 @@
+id: eeemoji
+name: eeemoji
+url: https://eeemoji.com/api
+category: Art & Design
+description: 'Emoji metadata: names, keywords, categories, shortcodes and skin tones'
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: eeemoji
+  url: https://eeemoji.com/api
+  category: Art & Design
+link_status: alive
+data_license: MIT (names/keywords/shortcodes derive from Unicode CLDR via emojibase; Unicode notice applies)
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: ambiguous
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: HTTP 429 (blocked for bots, assumed alive)
+data_license_url: https://eeemoji.com/api
+api_terms_url: https://eeemoji.com/api
+commercial_use_scope: any
+attribution_text: Credit to eeemoji.com welcome, not required; Unicode licence notice should accompany
+  redistributed data
+share_alike: 'no'
+rate_limits: 120 requests/minute per IP; avoid parallel fan-out (host may return 403 challenge for ~90
+  s)
+notes: 'curl/WebFetch hit a Vercel security checkpoint (429); read via a fresh Playwright page (eeemoji.com/api,
+  /terms). The API page has a Licence and attribution section: MIT, commercial use fine, credit optional.
+  Data are Unicode CLDR-derived emoji metadata (names, keywords, categories, shortcodes; NOT the emoji
+  artwork, which belongs to vendors), and the Unicode licence notice reproduced on the API page should
+  travel with redistributed data. The general Terms of Service (/terms) forbid copying/redistributing
+  the ''service'' and its written content without permission and excessive automated use; the API page''s
+  MIT grant is more specific for API data, but the two are not reconciled, hence medium confidence.'
+evidence:
+- field: data_license
+  url: https://eeemoji.com/api
+  quote: MIT. Use it in anything, including commercially.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://eeemoji.com/api
+  quote: MIT. Use it in anything, including commercially.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://eeemoji.com/api
+  quote: MIT. Use it in anything, including commercially.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://eeemoji.com/api
+  quote: take the whole set through /emojis?limit=500 and cache it your side rather than querying per
+    emoji.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://eeemoji.com/api
+  quote: A credit to eeemoji.com is welcome but not required by the licence, and a link is never required.
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://eeemoji.com/api
+  quote: MIT here keeps the same terms the data already carries rather than layering a different licence
+    on top of them.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://eeemoji.com/api
+  quote: 120 requests per minute per IP
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: General ToS forbids copying/redistributing 'the service' without permission (no API
+  carve-out); API page grant is specific. Metadata only, not vendor artwork. Read via fresh Playwright
+  context. /api/datasets/ chart data is not covered by the licence.

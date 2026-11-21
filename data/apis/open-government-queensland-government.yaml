@@ -1,0 +1,70 @@
+id: open-government-queensland-government
+name: Open Government, Queensland Government
+url: https://www.data.qld.gov.au/
+category: Government
+description: Queensland Government Open Data
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Open Government, Queensland Government
+  url: https://www.data.qld.gov.au/
+  category: Government
+link_status: alive
+data_license: CC-BY-4.0 (default; some datasets differ)
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+commercial_use_scope: any
+share_alike: 'no'
+data_license_url: https://www.qld.gov.au/legal/copyright
+api_terms_url: https://www.qld.gov.au/legal/copyright
+attribution_text: Keep the copyright notice and attribute the State of Queensland as source
+evidence:
+- field: data_license
+  url: https://www.qld.gov.au/legal/copyright
+  quote: all copyright material available on or through this website is licensed under a Creative Commons
+    Attribution 4.0 International licence (CC BY 4.0)
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.qld.gov.au/legal/copyright
+  quote: You are free to use copyright material available on or through this website that is covered by
+    a CC BY licence
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.qld.gov.au/legal/copyright
+  quote: You are free to use copyright material available on or through this website that is covered by
+    a CC BY licence
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.qld.gov.au/legal/copyright
+  quote: You are free to use copyright material available on or through this website that is covered by
+    a CC BY licence
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.qld.gov.au/legal/copyright
+  quote: You must keep the copyright notice on the copyright material and attribute the State of Queensland
+    as the source of the copyright material.
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://www.qld.gov.au/legal/copyright
+  quote: all copyright material available on or through this website is licensed under a Creative Commons
+    Attribution 4.0 International licence (CC BY 4.0)
+  checked_at: '2026-11-21'
+notes: 'Whole-of-government Queensland copyright statement (linked from data.qld.gov.au footer): CC BY
+  4.0 unless otherwise noted. Not available under CC: logos/coat of arms, trade marks, third-party IP,
+  material under other specified licences, so individual datasets may carry other licences (check dataset
+  page). CKAN API; no separate API ToS found. Commercial use follows from CC BY (no NC clause).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Copyright page verified; CKAN: 188229 of 188905 datasets CC-BY-4.0, few NC/SA.'

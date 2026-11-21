@@ -1,0 +1,34 @@
+id: block
+name: Block
+url: https://block.io/docs/basic
+category: Cryptocurrency
+description: Bitcoin Payment, Wallet & Transaction Data
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Block
+  url: https://block.io/docs/basic
+  category: Cryptocurrency
+- list: public-api-lists
+  name: Block
+  url: https://www.block.io/docs/basic
+  category: Cryptocurrency
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: block.io and block.io/docs/basic redirect (302) to https://sochain.com/
+notes: block.io (including /docs/basic, /terms, /tos) redirects to sochain.com. The SoChain page read does not mention Block.io or say it replaces/is the same service, so SoChain terms were NOT transferred;
+  Block.io's own terms could not be read. All terms unknown. Also a wallet/payment API (account-scoped), not primarily a data source.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

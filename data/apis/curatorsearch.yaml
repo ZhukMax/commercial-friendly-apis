@@ -1,0 +1,60 @@
+id: curatorsearch
+name: CuratorSearch
+url: https://curatorsearch.com/developers
+category: Jobs
+description: Museum and gallery jobs from 400+ institutions' own careers pages, with advertised salaries
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: CuratorSearch
+  url: https://curatorsearch.com/developers
+  category: Jobs
+link_status: alive
+data_license: CC-BY-4.0 (Curatorial Pay Archive and Hiring Index only; job descriptions belong to institutions)
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://curatorsearch.com/developers
+data_license_url: https://curatorsearch.com/developers
+attribution_text: Cite as "CuratorSearch Curatorial Pay Archive, curatorsearch.com/salaries" with date
+  or DOI 10.5281/zenodo.22544232
+evidence:
+- field: data_license
+  url: https://curatorsearch.com/developers
+  quote: 'The Curatorial Pay Archive and the Hiring Index are published under CC BY 4.0 : free for any
+    purpose, with attribution.'
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://curatorsearch.com/developers
+  quote: 'The Curatorial Pay Archive and the Hiring Index are published under CC BY 4.0 : free for any
+    purpose, with attribution.'
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://curatorsearch.com/developers
+  quote: Job descriptions belong to the institutions that wrote them. Link to the role page rather than
+    republishing the text.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://curatorsearch.com/developers
+  quote: 'The Curatorial Pay Archive and the Hiring Index are published under CC BY 4.0 : free for any
+    purpose, with attribution.'
+  checked_at: '2026-11-21'
+notes: 'Read the Data & API page. CC BY 4.0 covers only the salary archive and hiring index datasets (commercial
+  use free with attribution). The live job listings via API/MCP/RSS are institution-authored text: page
+  asks to link rather than republish, and bulk scrapers that republish listings are blocked; a keyed partner
+  feed exists on request. Hence ambiguous for the listings. No separate terms page found (/terms 404).
+  Storage unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Developers page re-read in full; no terms page (/terms short/404).

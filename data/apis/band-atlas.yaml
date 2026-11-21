@@ -1,0 +1,72 @@
+id: band-atlas
+name: Band Atlas
+url: https://www.aiotrf.com/en/ai/band-atlas/developers/
+category: Open Data
+description: Cellular IoT bands, 2G/3G sunsets and device compatibility for 46 countries
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Band Atlas
+  url: https://www.aiotrf.com/en/ai/band-atlas/developers/
+  category: Open Data
+link_status: alive
+data_license: CC-BY-4.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: 'yes'
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://creativecommons.org/licenses/by/4.0/
+api_terms_url: https://www.aiotrf.com/en/ai/band-atlas/developers/
+commercial_use_scope: any
+attribution_text: Hyper Nexus · Band Atlas
+share_alike: 'no'
+rate_limits: None stated (static JSON files, free, no key)
+notes: Read the developers/API page (states data is CC BY 4.0 and open, free, no key, static JSON) and
+  the CC BY 4.0 deed. No separate ToS page found (/terms 404; only a privacy notice). Operator Beijing
+  Hyper Nexus sells cellular devices (band-compatibility verdicts may favour its own products; data carries
+  confidence/sources fields). Page says 172 countries (upstream description said 46). Per-source data
+  licences (regulator band plans) not checked. Auth none confirmed (no key).
+evidence:
+- field: data_license
+  url: https://www.aiotrf.com/en/ai/band-atlas/developers/
+  quote: Data is CC BY 4.0; please credit “Hyper Nexus · Band Atlas”.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.aiotrf.com/en/ai/band-atlas/developers/
+  quote: Data is CC BY 4.0; please credit “Hyper Nexus · Band Atlas”.
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://www.aiotrf.com/en/ai/band-atlas/developers/
+  quote: Static files, free, no key, cross-origin enabled, with an OpenAPI 3.0.3 description
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: remix, transform, and build upon the material for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: The licensor cannot revoke these freedoms as long as you follow the license terms.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Residual risk: dataset aggregates 564 third-party sources (incl. GSMA list, trade
+  press); upstream licences unverified and no blocker shown. Credit text: Hyper Nexus Band Atlas. Some
+  /en/ API paths return 403 to curl; paths without /en work.'

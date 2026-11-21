@@ -1,0 +1,81 @@
+id: deepdna
+name: DeepDNA
+url: https://deepdna.ai/docs/
+category: Health
+description: Cited gene, variant and CPIC drug-gene lookups for developers and AI agents
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: DeepDNA
+  url: https://deepdna.ai/docs/
+  category: Health
+link_status: alive
+data_license: proprietary (DeepDNA records; cited upstream sources keep their own licences)
+commercial_use: ambiguous
+storage_caching: ambiguous
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: 'no'
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+data_license_url: https://deepdna.ai/terms/
+api_terms_url: https://deepdna.ai/terms/
+commercial_use_scope: any
+attribution_text: Keep the cited sources and the medical disclaimer that come with each response.
+share_alike: unknown
+rate_limits: No key or fee; responses cacheable for an hour
+evidence:
+- field: redistribution_display
+  url: https://deepdna.ai/terms/
+  quote: show or quote their responses, keeping the cited sources and the disclaimer that comes with them
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://deepdna.ai/terms/
+  quote: keeping the cited sources and the disclaimer that comes with them
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://deepdna.ai/docs/
+  quote: Responses are JSON, UTF-8, CORS-open, and cacheable for an hour.
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://deepdna.ai/terms/
+  quote: Resell or republish the knowledge base as a whole, or a substantial part of it, as your own dataset
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://deepdna.ai/terms/
+  quote: remain the work of their authors and are governed by their own licences and terms
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://deepdna.ai/terms/
+  quote: No fee applies. The knowledge endpoints, the MCP server and the local package are free.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.clinpgx.org/page/dataUsagePolicy
+  quote: ClinPGx/PharmGKB grants use of its data and contents under the Creative Commons Attribution-ShareAlike
+    4.0 International License
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.clinpgx.org/page/dataUsagePolicy
+  quote: not with any intent to offer all or any part of the data for sale as a commercial item
+  checked_at: '2026-11-21'
+notes: 'Free, keyless API (docs: no account, no key; auth fixed none). Terms of Service license users
+  to call the endpoints and show or quote responses, keeping cited sources and the disclaimer, and forbid
+  reselling or republishing the knowledge base as a whole or a substantial part. Terms do not mention
+  commercial use either way (ambiguous); they say ''No fee applies''. Long-term storage not addressed
+  beyond the 1-hour HTTP cache hint. Responses must not be presented as medical advice or diagnosis. Records
+  aggregate ClinVar, PharmGKB, CPIC, DPWG, dbSNP, OMIM etc., whose own licences may be stricter (explicitly
+  not changed by DeepDNA). Terms last updated 14 Nov 2026.'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Upstream PharmGKB/ClinPGx licence is CC BY-SA 4.0 (share-alike) and forbids offering
+  the data for sale as a commercial item; DeepDNA cites PharmGKB and OMIM as sources; DeepDNA ToS says
+  cited databases stay under their own licences and its summaries do not change those terms, so the ''yes''
+  on display ignores upstream conditions; OMIM content has its own restrictive agreement (page not retrievable
+  here, not verified) | applied: redistribution_display=ambiguous'

@@ -1,0 +1,57 @@
+id: iso-3166-2-api
+name: ISO 3166-2 API
+url: https://iso3166-2-api.vercel.app/api
+category: Geocoding
+description: Access all of the world's subdivision/regional ISO 3166-2 codes
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-api-lists
+  name: ISO 3166-2 API
+  url: https://iso3166-2-api.vercel.app/api
+  category: Geocoding
+link_status: alive
+data_license: MIT (repository licence); underlying ISO 3166 data from ISO, ISO terms not assessed
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://iso3166-2-api.vercel.app/api
+data_license_url: https://github.com/amckenna41/iso3166-2-api/blob/main/LICENSE
+rate_limits: /api/coords 30 req/min; /api/all 300 req/min; other endpoints not rate limited
+evidence:
+- field: commercial_use
+  url: https://raw.githubusercontent.com/amckenna41/iso3166-2-api/main/LICENSE
+  quote: to deal in the Software without restriction, including without limitation the rights to use,
+    copy, modify, merge, publish, distribute
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://raw.githubusercontent.com/amckenna41/iso3166-2-api/main/LICENSE
+  quote: Permission is hereby granted, free of charge, to any person obtaining a copy of this software
+    and associated documentation files
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://iso3166-2-api.vercel.app/api
+  quote: Two endpoints are rate limited per caller and return a 429 once the limit is exceeded
+  checked_at: '2026-11-21'
+notes: Hobby project hosted on Vercel with no API terms of use. The GitHub repo is MIT-licensed (read
+  the LICENSE file), which covers the software and documentation files; the README says the data is compiled
+  from the ISO Online Browsing Platform and other sources, and ISO claims copyright over ISO 3166 content,
+  which the MIT file does not address. Commercial use is therefore ambiguous rather than yes. /api/coords
+  proxies OSM Nominatim (its own policy applies). Storage, display and attribution duties not stated for
+  the hosted API.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read the API page and README. Data comes from ISO Online Browsing Platform / newsletters
+  (and OSM Nominatim for /coords in the 3166-2 API). iso.org returned Cloudflare 403 to curl and the OBP
+  page rendered nothing usable in Playwright; the generic ISO licence-agreement page found is for purchased
+  publications and says nothing about OBP data. So no demonstrable stricter upstream licence, no bloc

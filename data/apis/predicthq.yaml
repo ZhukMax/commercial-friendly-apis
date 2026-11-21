@@ -1,0 +1,50 @@
+id: predicthq
+name: PredictHQ
+url: https://docs.predicthq.com/
+category: Disasters
+description: Events and natural disasters data
+description_source: upstream
+auth: OAuth
+https: true
+cors: unknown
+sources:
+- list: public-api-lists
+  name: PredictHQ
+  url: https://docs.predicthq.com/
+  category: Disasters
+link_status: alive
+data_license: proprietary (PredictHQ Terms of Service)
+commercial_use: paid-only
+storage_caching: 'no'
+redistribution_display: 'yes'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://www.predicthq.com/legal/terms
+api_terms_url: https://www.predicthq.com/legal/terms
+commercial_use_scope: paid
+evidence:
+- field: commercial_use
+  url: https://www.predicthq.com/legal/terms
+  quote: for Commercial Use unless and until Customer has subscribed to a (paid) Premium Plan or a (paid) Starter Plan
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.predicthq.com/legal/terms
+  quote: cache, store, download, scrape, or retain a copy of or a method of accessing
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.predicthq.com/legal/terms
+  quote: use, display, frame, transmit and make available that PredictHQ Data solely in respect of Customer's own internal business use, products and services
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.predicthq.com/legal/terms
+  quote: solely in respect of Customer's own internal business use, products and services
+  checked_at: '2026-11-21'
+notes: Read PredictHQ Terms of Service section 3.7 (API use and restrictions). 14-day trial and complimentary plans may not be used commercially; paid Starter/Premium plans can. Caching/storing/retaining
+  copies is prohibited unless agreed in writing (Permitted Use Extensions in an Order Form can change this). Derivative works and replicating PredictHQ functionality also barred. Display is allowed only
+  for the customer's own products and services. Event data is aggregated from many third-party sources (upstream terms not read). No attribution clause found (unknown).
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

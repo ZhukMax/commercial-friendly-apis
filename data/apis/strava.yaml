@@ -1,0 +1,81 @@
+id: strava
+name: Strava
+url: https://strava.github.io/api/
+category: Sports & Fitness
+description: Connect with athletes, activities and more
+description_source: upstream
+auth: OAuth
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Strava
+  url: https://strava.github.io/api/
+  category: Sports & Fitness
+- list: public-api-lists
+  name: Strava
+  url: https://strava.github.io/api/
+  category: Sports & Fitness
+link_status: alive
+data_license: Proprietary (Strava API Agreement and API Policy, effective 1 Jun 2026)
+commercial_use: ambiguous
+storage_caching: limited
+redistribution_display: 'no'
+attribution_required: ambiguous
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: high
+link_checked_at: '2026-11-21'
+data_license_url: https://www.strava.com/legal/api
+api_terms_url: https://www.strava.com/legal/api_policy
+commercial_use_scope: any
+cache_limit: Cache max 7 days; delete when resource removed; no persistent index
+share_alike: unknown
+rate_limits: Per-app limits on developer site; Standard tier limited to 10 or 9,999 registered users,
+  subscription requirements apply
+notes: 'Not a general data source: account-scoped OAuth API. Read API Agreement and API Policy (both effective
+  1 Jun 2026) and the brand guidelines. Data of a user may be shown only to that same user (even publicly
+  viewable data of others may not be shown), cache max 7 days, no bulk export/persistent index, no analytics/aggregation,
+  no AI/ML use, no resale. Apps may carry ads but Strava Data may not be used in ads, and charging end
+  users for access to Strava functionality is barred (charging for non-duplicative extra functionality
+  is allowed), so commercial_use is ambiguous. ''Powered by Strava''/''View on Strava'' branding optional
+  per brand guidelines; Garmin-sourced data needs Garmin attribution. Useless for a public content site
+  with stored/displayed third-party data.'
+evidence:
+- field: redistribution_display
+  url: https://www.strava.com/legal/api_policy
+  quote: Strava Data provided by a specific Strava user may be displayed or disclosed in your Developer
+    Application only to that user.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.strava.com/legal/api_policy
+  quote: You may not retain Strava Data in your cache for longer than seven (7) days.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.strava.com/legal/api_policy
+  quote: You may not charge end users, in any manner, for access to or use of the Strava API Materials
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.strava.com/legal/api_policy
+  quote: You may include advertisements in your Developer Application, but you may not use Strava Data
+    in any advertisement without Strava's express written consent.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.strava.com/legal/api_policy
+  quote: If your Developer Application displays information derived from Garmin-sourced data, you must
+    display attribution to Garmin
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.strava.com/legal/api
+  quote: Use of Strava’s API is a privilege granted to you by Strava, not a right.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read API Policy (2026-06-01): quotes verified (same-user display, seven days).
+  Not usable for public content site. Red stands.'
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

@@ -1,0 +1,52 @@
+id: voidly
+name: Voidly
+url: https://voidly.ai/api-docs
+category: Open Data
+description: Internet censorship measurements, incidents, and ISP-level blocking data across 126 countries
+description_source: upstream
+auth: none
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Voidly
+  url: https://voidly.ai/api-docs
+  category: Open Data
+link_status: alive
+data_license: CC-BY-4.0 for Voidly research data; upstream OONI/Citizen Lab CC-BY-NC-SA-4.0
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://voidly.ai/terms
+evidence:
+- field: data_license
+  url: https://voidly.ai/api-docs
+  quote: 'Research data: CC BY 4.0'
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://voidly.ai/api-docs
+  quote: Voidly-original summaries and upstream measurements have different licenses; check each dataset
+    and source before reuse.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://voidly.ai/terms
+  quote: Give the attribution required by the dataset license
+  checked_at: '2026-11-21'
+notes: Read API docs and Terms of Service (sections 4 and 9; page lives at voidly.ai/c/terms). Datasets
+  marked CC BY 4.0 may be used under that licence, but the docs warn upstream OONI / Citizen Lab data
+  is CC BY-NC-SA 4.0 and each dataset must be checked, so commercial use cannot be confirmed per endpoint.
+  Storage and display not addressed beyond the dataset licences. Terms also cover a separate Voidpay marketplace
+  API (not assessed).
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read Terms sections 4 and 9. Commercial use cannot be confirmed per endpoint; non-commercial
+  upstream data is a real blocker for some endpoints. Ambiguous stands, low confidence.
+license_scope: portal-default

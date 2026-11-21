@@ -1,0 +1,30 @@
+id: covid-19
+name: Covid-19
+url: https://covid19api.com/
+category: Health
+description: Covid 19 spread, infection and recovery
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Covid-19
+  url: https://covid19api.com/
+  category: Health
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: covid19api.com redirects to https://www.dae.mn/ (unrelated consultancy); api.covid19api.com does not respond
+notes: covid19api.com now redirects to dae.mn, a technology consultancy site that does not mention the Covid API or say it replaces it, so no terms transferred; api.covid19api.com did not respond to curl
+  (connection failed). The service appears gone; all terms unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

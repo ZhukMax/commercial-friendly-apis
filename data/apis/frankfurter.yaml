@@ -1,0 +1,65 @@
+id: frankfurter
+name: Frankfurter
+url: https://frankfurter.dev
+category: Currency Exchange
+description: Exchange rates, currency conversion and time series
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Frankfurter
+  url: https://frankfurter.dev
+  category: Currency Exchange
+link_status: alive
+data_license: public reference rates from central banks and official sources; per-provider terms apply
+  (Frankfurter code is MIT)
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: 'yes'
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://frankfurter.dev/license
+commercial_use_scope: any
+api_terms_url: https://frankfurter.dev/license
+evidence:
+- field: commercial_use
+  url: https://frankfurter.dev
+  quote: Is the API free for commercial use? Yes.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://frankfurter.dev
+  quote: Storing daily observations locally for caching or historical analytics is encouraged to keep
+    API traffic light.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://frankfurter.dev/license
+  quote: Frankfurter doesn't own the rates, so it can't give you rights the provider doesn't.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://frankfurter.dev/license
+  quote: If a provider publishes terms of use, they apply.
+  checked_at: '2026-11-21'
+- field: self_host_option
+  url: https://frankfurter.dev
+  quote: The project is open source, so you can also self-host for full control.
+  checked_at: '2026-11-21'
+notes: 'Homepage FAQ: free for commercial use (blended rates are Frankfurter''s own calculation; direct
+  provider-endpoint queries remain subject to each provider''s terms), storing rates locally encouraged.
+  License page: data are public reference rates from ~112 central banks/official sources; Frankfurter
+  ''can''t give you rights the provider doesn''t'' and lists each provider''s terms (many ''None published'',
+  some with Terms links, not individually checked). Hence display/redistribution = ambiguous (depends
+  on upstream provider), attribution unknown (the ''Provider Attribution'' heading only describes the
+  expand=providers option). Code MIT, self-hosting possible.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read homepage FAQ and /license. Providers list includes ECB, Bank of England, FRED
+  etc. with own terms; many 'None published'. Display of provider-direct data depends on upstream; blended
+  rates are Frankfurter's own calculation. Ambiguity on display stands.

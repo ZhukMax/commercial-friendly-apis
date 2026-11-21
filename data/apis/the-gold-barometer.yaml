@@ -1,0 +1,65 @@
+id: the-gold-barometer
+name: The Gold Barometer
+url: https://thegoldbarometer.com/data/
+category: Finance
+description: Daily gold buying-conditions score, 0-100, with open history back to 1971
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: The Gold Barometer
+  url: https://thegoldbarometer.com/data/
+  category: Finance
+link_status: alive
+data_license: CC-BY-4.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: high
+link_checked_at: '2026-11-21'
+data_license_url: https://thegoldbarometer.com/data/
+api_terms_url: https://thegoldbarometer.com/terms/
+commercial_use_scope: any
+attribution_text: 'Source: The Gold Barometer, thegoldbarometer.com (link to the address)'
+share_alike: unknown
+rate_limits: No rate limit; fetch at most once a day
+evidence:
+- field: data_license
+  url: https://thegoldbarometer.com/data/
+  quote: released under Creative Commons Attribution 4.0.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://thegoldbarometer.com/data/
+  quote: You may republish and adapt them, including for commercial use, with credit.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://thegoldbarometer.com/data/
+  quote: You may republish and adapt them, including for commercial use, with credit.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://thegoldbarometer.com/data/
+  quote: Please cache on your side and fetch no more than once a day
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://thegoldbarometer.com/data/
+  quote: 'Suggested: Source: The Gold Barometer, thegoldbarometer.com .'
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://thegoldbarometer.com/data/
+  quote: There is no rate limit.
+  checked_at: '2026-11-21'
+notes: 'CC BY 4.0 covers the published numbers (score, parts, zones, summaries). The data page says third-party
+  raw inputs keep their own terms and the grant does not cover the underlying raw series. Terms of use
+  page (section 4) also lets you reuse daily scores and images with a credit, and forbids presenting the
+  number as advice or endorsement. Pages read: /data/, /terms/.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: CC grant excludes underlying third-party raw series ('keep their own terms').

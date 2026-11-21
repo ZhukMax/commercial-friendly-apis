@@ -1,0 +1,35 @@
+id: coincap
+name: CoinCap
+url: https://docs.coincap.io/
+category: Cryptocurrency
+description: Real time Cryptocurrency prices through a RESTful API
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: CoinCap
+  url: https://docs.coincap.io/
+  category: Cryptocurrency
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://pro.coincap.io/api-docs
+evidence:
+- field: rate_limits
+  url: https://pro.coincap.io/api-docs
+  quote: Rate limits vary by tier, from 5 API calls per minute on the Free tier up to 900 on Enterprise.
+  checked_at: '2026-11-21'
+notes: 'docs.coincap.io redirects to pro.coincap.io/api-docs (v3: "All API calls require a bearer token", free tier 500 credits/month, so auth corrected to apiKey; old keyless API replaced). The linked
+  terms page coincap.io/terms returned 404 so no terms read; all terms unknown. Prices are aggregated from exchanges (upstream terms may be stricter).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -1,0 +1,46 @@
+id: rainviewer
+name: RainViewer
+url: https://www.rainviewer.com/api.html
+category: Weather
+description: Radar data collected from different websites across the Internet
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: RainViewer
+  url: https://www.rainviewer.com/api.html
+  category: Weather
+link_status: alive
+data_license: proprietary (RainViewer API terms; radar owners can withdraw data)
+commercial_use: 'no'
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: medium
+link_checked_at: '2026-11-21'
+commercial_use_scope: free-tier
+attribution_text: Weather data by RainViewer, with a link to https://www.rainviewer.com/
+api_terms_url: https://www.rainviewer.com/api.html
+notes: 'Read rainviewer.com/api.html (Terms of Use and FAQ). Free API: personal, educational and small-scale community use only; commercial integration or high-volume use needs bespoke terms arranged case
+  by case (no published paid tier). Images may be modified freely; the FAQ recommends caching responses. Radar owners may withdraw data at any time. For an ad-supported site the free API does not fit; red
+  unless a commercial agreement is obtained.'
+evidence:
+- field: commercial_use
+  url: https://www.rainviewer.com/api.html
+  quote: This API is available for personal and educational use only.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.rainviewer.com/api.html
+  quote: Attribution is mandatory under the free terms of use
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.rainviewer.com/api.html
+  quote: We do not conclude contracts with owners of this data.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

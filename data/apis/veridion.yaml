@@ -1,0 +1,79 @@
+id: veridion
+name: Veridion
+url: https://www.veridionmarkets.com/data-api/docs
+category: Government
+description: US congressional stock-trade disclosures and the President's OGE reports, linked to each
+  filing
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Veridion
+  url: https://www.veridionmarkets.com/data-api/docs
+  category: Government
+link_status: alive
+data_license: US government public-domain filings; Veridion's own collection/normalisation licensed under
+  API licence page
+commercial_use: 'yes'
+storage_caching: ambiguous
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: 'no'
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://www.veridionmarkets.com/data-api/license
+api_terms_url: https://www.veridionmarkets.com/data-api/license
+commercial_use_scope: any
+attribution_text: 'Data: Veridion Markets — veridionmarkets.com (keep government-source link on each row)'
+share_alike: unknown
+rate_limits: 'Free: 25 rows/request, 60 req/hour, 1,000 rows/day, last 30 days only; Developer $99.99/mo:
+  5,000 rows/day, 12 months'
+notes: 'Read /data-api/license (API licence), /terms and /data-api. Licence says free tier is ''With attribution''
+  for anyone (last 30 days, 1,000 rows/day); Developer key (.99/mo) for individuals/companies under $1M
+  revenue inside own app; investment firms managing outside money need a licence. Showing rows in own
+  product with attribution is allowed; redistribution/resale of the served corpus is not; bulk/full archive
+  only under signed licence. Caching/storage of rows is not addressed (history windows are limited), so
+  ambiguous. Congressional amounts are ranges: do not present midpoints as exact amounts or infer motive.
+  The main ToS clause banning redistribution refers to the website; it points to the API licence for API
+  data. Upstream auth said none; keyless free tier exists, key optional.'
+evidence:
+- field: commercial_use
+  url: https://www.veridionmarkets.com/data-api/license
+  quote: It is for individuals and for companies with under $1M in annual revenue, inside their own application.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.veridionmarkets.com/data-api/license
+  quote: Showing individual rows inside your own product, with attribution, is not redistribution.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.veridionmarkets.com/data-api/license
+  quote: Attribution is required wherever the data is shown.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.veridionmarkets.com/data-api/license
+  quote: Republishing, reselling or sublicensing the served rows as a dataset is outside every current
+    plan.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.veridionmarkets.com/data-api/license
+  quote: United States government records carry no copyright. Veridion does not claim the filings.
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://www.veridionmarkets.com/data-api/license
+  quote: The full archive and bulk files are available only under a signed desk or firm-wide licence.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://www.veridionmarkets.com/data-api/license
+  quote: up to 25 rows a request, 60 requests an hour and 1,000 rows a day.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read /data-api/license. Free tier open to anyone with attribution, last 30 days
+  only; Developer key limited to companies under $1M revenue; investment firms managing outside money
+  need a licence. Underlying US government filings are public domain. Storage unaddressed.

@@ -1,0 +1,64 @@
+id: icons8
+name: Icons8
+url: https://img.icons8.com/
+category: Art & Design
+description: Icons (find "search icon" hyperlink in page)
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Icons8
+  url: https://img.icons8.com/
+  category: Art & Design
+link_status: alive
+data_license: proprietary (Icons8 free licence with mandatory backlink; paid licence without)
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://icons8.com/license
+api_terms_url: https://img.icons8.com/
+commercial_use_scope: any
+attribution_text: Link to icons8.com on all pages using the content (footer link is fine)
+share_alike: unknown
+rate_limits: 'Free: PNG up to 512px; all formats/sizes need a licence or the paid API'
+notes: Read img.icons8.com (OMG-IMG hotlink service) and icons8.com/license (read via a fresh Playwright
+  page; icons8.com is behind a Cloudflare check for curl). Free use is conditional on a visible link to
+  icons8.com on every page using the icons (website footer acceptable), or a paid licence; the full licence
+  text ('Read full license') and Terms and Conditions (/terms 404, link in footer) were not read, so commercial
+  use of the free licence is not stated explicitly (commercial_use ambiguous) and storage/caching is not
+  addressed (the OMG-IMG page only says you do not need to store icons). The mandatory backlink on all
+  pages makes this at best yellow. Free output is limited to PNG up to 512px; app/web service integrations
+  are pointed to the paid API.
+evidence:
+- field: attribution_required
+  url: https://icons8.com/license
+  quote: Add a link to icons8.com on all pages using our content. If that's most pages, a link in your
+    footer is fine.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://img.icons8.com/
+  quote: Icons are created by Icons8 . Please either add a backlink or get a license .
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://icons8.com/license
+  quote: We share our assets with you, you set a link to icons8.com wherever you use them.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://icons8.com/license
+  quote: you set a link to icons8.com wherever you use them.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Read icons8.com/license and the full Universal Multimedia License Agreement (intercom.help,
+  via Playwright). Websites need a link to icons8.com; paid plan removes it. Agreement defines free holders
+  as personal use, so commercial_use stays ambiguous. Leans allowed with backlink.

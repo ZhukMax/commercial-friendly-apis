@@ -1,0 +1,81 @@
+id: open-government-victoria-state-government
+name: Open Government, Victoria State Government
+url: https://www.data.vic.gov.au/
+category: Government
+description: Victoria State Government Open Data
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Open Government, Victoria State Government
+  url: https://www.data.vic.gov.au/
+  category: Government
+link_status: alive
+data_license: CC-BY-4.0 (default; per-dataset licences may differ)
+commercial_use: ambiguous
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+commercial_use_scope: any
+share_alike: 'no'
+data_license_url: https://www.data.vic.gov.au/copyright-datavic
+api_terms_url: https://www.data.vic.gov.au/copyright-datavic
+evidence:
+- field: data_license
+  url: https://www.data.vic.gov.au/copyright-datavic
+  quote: All material provided on this website is provided under a Creative Commons Attribution 4.0 International
+    licence
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.data.vic.gov.au/copyright-datavic
+  quote: All material provided on this website is provided under a Creative Commons Attribution 4.0 International
+    licence
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.data.vic.gov.au/copyright-datavic
+  quote: All material provided on this website is provided under a Creative Commons Attribution 4.0 International
+    licence
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.data.vic.gov.au/copyright-datavic
+  quote: All material provided on this website is provided under a Creative Commons Attribution 4.0 International
+    licence
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.data.vic.gov.au/copyright-datavic
+  quote: All material provided on this website is provided under a Creative Commons Attribution 4.0 International
+    licence
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://www.data.vic.gov.au/copyright-datavic
+  quote: All material provided on this website is provided under a Creative Commons Attribution 4.0 International
+    licence
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.data.vic.gov.au/copyright-datavic
+  quote: It is essential that you check the record page of a dataset for the licensing terms which apply
+    to that dataset and its contents.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.data.vic.gov.au/copyright-datavic
+  quote: It is essential that you check the record page of a dataset for the licensing terms which apply
+    to that dataset and its contents.
+  checked_at: '2026-11-21'
+notes: 'Copyright page of data.vic.gov.au: site material is CC BY 4.0 (not images/branding/third-party
+  content); the page says to check the dataset record for its licence and that some datasets have different
+  or additional conditions. Commercial use follows from CC BY (no NC clause). DataVic Access Policy (principle:
+  data under flexible licences) also read. CKAN API; no separate API ToS read.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Site CC BY 4.0 default but page says each dataset record may carry different licence;
+  Images, branding, third-party content excluded | applied: commercial_use=ambiguous'
+license_scope: portal-default

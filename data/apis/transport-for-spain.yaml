@@ -1,0 +1,64 @@
+id: transport-for-spain
+name: Transport for Spain
+url: https://data.renfe.com/api/1/util/snippet/api_info.html?resource_id=a2368cff-1562-4dde-8466-9635ea3a572a
+category: Transportation
+description: Public trains of Spain
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Transport for Spain
+  url: https://data.renfe.com/api/1/util/snippet/api_info.html?resource_id=a2368cff-1562-4dde-8466-9635ea3a572a
+  category: Transportation
+link_status: alive
+data_license: CC-BY-4.0 (per-dataset metadata); Renfe reuse conditions
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://creativecommons.org/licenses/by/4.0/
+api_terms_url: https://data.renfe.com/legal
+commercial_use_scope: any
+attribution_text: 'Origen de los datos: Renfe Operadora'
+share_alike: unknown
+evidence:
+- field: commercial_use
+  url: https://data.renfe.com/legal
+  quote: permiten la reutilización de los documentos sometidos a ellas para fines comerciales y no comerciales.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://data.renfe.com/legal
+  quote: La reutilización autorizada incluye, a modo ilustrativo, actividades como la copia, difusión,
+    modificación, adaptación
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://data.renfe.com/legal
+  quote: autorizándose la realización de actividades de reproducción, distribución, comunicación pública
+    o transformación
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://data.renfe.com/legal
+  quote: Debe citarse la fuente de los documentos objeto de la reutilización.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://data.renfe.com/api/3/action/package_search?rows=100
+  quote: Creative Commons Attribution 4.0
+  checked_at: '2026-11-21'
+notes: Renfe Data portal legal page allows commercial and non-commercial reuse with source citation, not
+  distorting the information, and keeping the update date and metadata. All 44 datasets listed through
+  the CKAN API showed Creative Commons Attribution 4.0 as licence (checked by API metadata), but the listed
+  resource page itself only describes the API; per-dataset licences could change.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Citation format ''Origen de los datos: Renfe Operadora''. Per-dataset licence is CC
+  BY 4.0 in portal metadata per first pass.'
+license_scope: portal-default

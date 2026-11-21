@@ -1,0 +1,31 @@
+id: melek
+name: MELEK
+url: https://witness.melek.salon/dev/melek
+category: Blockchain
+description: Graphene social blockchain (Steem family) with a keyless condenser_api JSON-RPC
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: MELEK
+  url: https://witness.melek.salon/dev/melek
+  category: Blockchain
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+evidence: []
+notes: 'Read the dev page https://witness.melek.salon/dev/melek: describes keyless public RPC (melek.salon/rpc),
+  no terms or licence found. Public Steem-family blockchain posts are user-authored content; user content
+  rights not assessed.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

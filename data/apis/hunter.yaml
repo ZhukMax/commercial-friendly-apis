@@ -1,0 +1,25 @@
+id: hunter
+name: Hunter
+url: https://hunter.io/api
+category: Development
+description: API for domain search, professional email finder, author finder and email verifier
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Hunter
+  url: https://hunter.io/api
+  category: Development
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

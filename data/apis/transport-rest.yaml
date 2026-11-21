@@ -1,0 +1,37 @@
+id: transport-rest
+name: transport.rest
+url: https://transport.rest
+category: Transportation
+description: Community maintained, developer-friendly public transport API
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: transport.rest
+  url: https://transport.rest
+  category: Transportation
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://transport.rest
+rate_limits: 100 requests/minute (v6.vbb.transport.rest)
+evidence:
+- field: rate_limits
+  url: https://v6.vbb.transport.rest/
+  quote: There's a rate limit of 100 requests/minute set up.
+  checked_at: '2026-11-21'
+notes: Read transport.rest landing page and v6.vbb.transport.rest docs home. transport.rest is a hobbyist hub pointing to several separate APIs (DB, VBB, BVG, Poland, Flixbus, Nottingham); v6.db.transport.rest
+  did not respond to curl at check time. No terms of use or data licence found on any page read. These APIs wrap upstream apps' APIs (e.g. VBB mobile app API) whose terms were not read and may be stricter.
+  All terms fields unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

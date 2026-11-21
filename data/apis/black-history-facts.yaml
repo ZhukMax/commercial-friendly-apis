@@ -1,0 +1,55 @@
+id: black-history-facts
+name: Black History Facts
+url: https://www.blackhistoryapi.io/docs
+category: Open Data
+description: Contribute or search one of the largest black history fact databases on the web
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Black History Facts
+  url: https://www.blackhistoryapi.io/docs
+  category: Open Data
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: ambiguous
+redistribution_display: ambiguous
+attribution_required: 'no'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.blackhistoryapi.io/termsOfService
+attribution_text: Attribution to the Black History API encouraged, not required
+evidence:
+- field: attribution_required
+  url: https://www.blackhistoryapi.io/termsOfService
+  quote: we encourage (but do not require) attribution to the Black History API.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.blackhistoryapi.io/termsOfService
+  quote: Resell, redistribute, or sublicense API access
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.blackhistoryapi.io/termsOfService
+  quote: You may not copy, modify, or create derivative works of the API without our express written permission.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.blackhistoryapi.io/termsOfService
+  quote: Resell, redistribute, or sublicense API access
+  checked_at: '2026-11-21'
+notes: Read /termsOfService (updated 2026-01-23); /docs is just a shell. ToS never mentions commercial
+  use, caching or display of facts on third-party pages. It bans reselling/redistributing/sublicensing
+  API access and copying/creating derivative works of 'the API' (software, text, graphics) without written
+  permission, so showing facts on a monetised site is unclear. No data licence given. Ask the owner (ParteeLabs)
+  before relying on it.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read ToS (updated 2026-01-23). Attribution encouraged not required. No data licence.
+  Ambiguity stands; ask owner.

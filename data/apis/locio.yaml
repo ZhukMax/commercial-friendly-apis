@@ -1,0 +1,84 @@
+id: locio
+name: Locio
+url: https://locio.com.au/docs/
+category: Geocoding
+description: Australian address autocomplete, validation and geocoding from the G-NAF national register
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Locio
+  url: https://locio.com.au/docs/
+  category: Geocoding
+link_status: alive
+data_license: CC-BY-4.0 (G-NAF, Geoscape Australia); localities GeoNames CC BY 4.0; places OpenStreetMap
+  ODbL
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://locio.com.au/legal/
+data_license_url: https://creativecommons.org/licenses/by/4.0/
+commercial_use_scope: any
+attribution_text: Incorporates or developed using G-NAF © Geoscape Australia licensed by the Commonwealth
+  of Australia under the Open Geo-coded National Address File (G-NAF) End User Licence Agreement.
+rate_limits: 'Free: 10,000 lookups/month, 10/second; paid plans from AUD 19/month'
+evidence:
+- field: data_license
+  url: https://locio.com.au/legal/
+  quote: published by Geoscape Australia and distributed through data.gov.au under the Creative Commons
+    Attribution 4.0 licence
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://locio.com.au/legal/
+  quote: The licence is attribution, so you may use the data commercially, store it, and build on it.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://locio.com.au/legal/
+  quote: The licence is attribution, so you may use the data commercially, store it, and build on it.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://locio.com.au/legal/
+  quote: The licence is attribution, so you may use the data commercially, store it, and build on it.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://locio.com.au/legal/
+  quote: If you display addresses that came from here, say where they came from
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://locio.com.au/pricing/
+  quote: Free for the first 10,000 lookups a month, no card.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://data.gov.au/data/dataset/geocoded-national-address-file-g-naf
+  quote: The open G-NAF data must not be used for the generation of an address or the compilation of an
+    address for the sending of mail
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://data.gov.au/data/dataset/geocoded-national-address-file-g-naf
+  quote: End users must only use the data in ways that are consistent with the Australian Privacy Principles
+  checked_at: '2026-11-21'
+notes: Read /legal/ (Licensing and terms), /pricing/ and /docs/. Address data is G-NAF (CC BY 4.0, plus
+  the G-NAF EULA which was not read in full); the attribution duty belongs to the data (footer line naming
+  G-NAF and Geoscape Australia), not to Locio. Localities come from GeoNames (CC BY 4.0) and places from
+  OpenStreetMap and operator feeds (ODbL, share-alike not assessed), so share_alike left unknown. The
+  free tier has the same data as paid plans. Medium confidence because the G-NAF EULA and the ODbL layer
+  were not reviewed.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Upstream G-NAF EULA adds a mailing restriction and privacy-principles condition that
+  first pass did not read; Locio page paraphrases it as ''the licence is attribution'' only | applied:
+  attribution_required=yes'
+verdict_override: yellow
+override_reason: 'Second check: Upstream G-NAF EULA adds a mailing restriction and privacy-principles
+  condition that first pass did not read; Locio page paraphrases it as ''the licence is attribution''
+  only'

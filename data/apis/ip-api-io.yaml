@@ -1,0 +1,41 @@
+id: ip-api-io
+name: IP-API.io
+url: https://ip-api.io
+category: Geocoding
+description: IP geolocation with VPN/proxy/Tor detection, reputation and risk score
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: IP-API.io
+  url: https://ip-api.io
+  category: Geocoding
+- list: public-api-lists
+  name: IP-API.io
+  url: https://ip-api.io
+  category: Geocoding
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://ip-api.io/terms
+share_alike: unknown
+rate_limits: 'Paid plans: 100,000 (EUR 10/mo), 300,000 (EUR 20/mo), 1,000,000 (EUR 49/mo) geo IP requests per month'
+notes: Only the homepage/pricing section was readable. The footer links /terms and /privacy, but both return HTTP 404 (checked via curl, 2026-11-21), so the ToS could not be read; no commercial/caching/display
+  statement found. Paid-only API (EUR 10-49/month tiers, API key required); no free tier seen. Core terms left unknown.
+evidence:
+- field: rate_limits
+  url: https://ip-api.io/
+  quote: 100,000 geo IP requests / month
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

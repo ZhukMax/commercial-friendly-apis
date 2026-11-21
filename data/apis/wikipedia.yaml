@@ -1,0 +1,70 @@
+id: wikipedia
+name: Wikipedia
+url: https://www.mediawiki.org/wiki/API:Main_page
+category: Open Data
+description: Mediawiki Encyclopedia
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Wikipedia
+  url: https://www.mediawiki.org/wiki/API:Main_page
+  category: Open Data
+- list: public-api-lists
+  name: Wikipedia
+  url: https://www.mediawiki.org/wiki/API:Main_page
+  category: Open Data
+link_status: alive
+verdict: yellow
+confidence: high
+link_checked_at: '2026-11-21'
+notes: 'Read the Wikimedia Terms of Use (sections 7 Licensing and 12 API Terms), the API:Etiquette page and the CC BY-SA 4.0 deed. API terms incorporate the User-Agent Policy, Robot Policy and API:Etiquette
+  (not all read; descriptive User-Agent required in practice, high-volume use should use dumps or Wikimedia Enterprise). Text is CC BY-SA 4.0: commercial use, caching and display allowed with attribution;
+  derivatives/adaptations must be shared under the same licence (yellow). Images/files and some extracts carry their own licences; Wikidata is CC0 (not covered here). The URL listed is the MediaWiki API
+  docs page.'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+data_license: CC-BY-SA-4.0 (text; files/images have their own licences)
+data_license_url: https://creativecommons.org/licenses/by-sa/4.0/deed.en
+api_terms_url: https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use
+commercial_use: 'yes'
+commercial_use_scope: any
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+attribution_text: Attribute the authors/Wikipedia and link the licence (CC BY-SA 4.0); indicate changes
+share_alike: 'yes'
+rate_limits: No hard limit on reads; be considerate, send descriptive User-Agent, make requests in series
+bulk_download: unknown
+self_host_option: unknown
+evidence:
+- field: data_license
+  url: https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use
+  quote: Creative Commons Attribution-ShareAlike 4.0 International License
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use
+  quote: these licenses do allow commercial uses of your contributions, as long as such uses are compliant with the terms of the respective licenses
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://creativecommons.org/licenses/by-sa/4.0/deed.en
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://creativecommons.org/licenses/by-sa/4.0/deed.en
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use
+  quote: so long as that use is properly attributed and the same freedom to reuse and redistribute is granted to any derivative works
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://creativecommons.org/licenses/by-sa/4.0/deed.en
+  quote: ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://www.mediawiki.org/wiki/API:Etiquette
+  quote: There is no hard speed limit on read requests, but be considerate and try not to take a site down.
+  checked_at: '2026-11-21'

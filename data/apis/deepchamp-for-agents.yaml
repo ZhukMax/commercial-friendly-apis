@@ -1,0 +1,65 @@
+id: deepchamp-for-agents
+name: DeepChamp for Agents
+url: https://deepchampai.com/docs/agents
+category: Sports & Fitness
+description: Free sports slate and matchup research context for AI agents, over REST and MCP; research
+  only
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: DeepChamp for Agents
+  url: https://deepchampai.com/docs/agents
+  category: Sports & Fitness
+link_status: alive
+data_license: proprietary (DeepChamp Beta API Terms)
+commercial_use: ambiguous
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+commercial_use_scope: any
+cache_limit: Outputs may be kept up to 24 hours after their as_of time for display; no database/archive/index
+attribution_text: Compliance Object (age gate, helpline, AI-generated notice) and any attribution in the
+  Output must stay visible
+api_terms_url: https://deepchampai.com/terms/api
+evidence:
+- field: commercial_use
+  url: https://deepchampai.com/terms/api
+  quote: You will not use Outputs to promote a sportsbook or any other betting service, to earn a referral
+    fee
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://deepchampai.com/terms/api
+  quote: you may keep an Output for up to 24 hours after its as_of time
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://deepchampai.com/terms/api
+  quote: show or relay them to End Users inside your Application, in the form returned
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://deepchampai.com/terms/api
+  quote: any attribution or notice in the Output kept attached and visible
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://deepchampai.com/terms/api
+  quote: resell, rent, lease, sublicense, syndicate or republish Outputs or access to the API
+  checked_at: '2026-11-21'
+notes: 'Beta API Terms (separate from the consumer ToS, which allow personal non-commercial use only).
+  API is sold to developers and businesses and Outputs may be shown to end users in your Application,
+  but: cache limited to 24h, no archive/database, no training, no use for sportsbooks/operators, betting
+  affiliates or referral fees, 21+ only, mandatory compliance notices. Free tools need no key; paid tools
+  not yet open. Sports data from third-party providers carries flow-down terms (Schedule A). Commercial
+  use ambiguous for ad/affiliate sites.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Verified exact at deepchampai.com/terms/api; affiliate scenario likely blocked, hence
+  ambiguous.

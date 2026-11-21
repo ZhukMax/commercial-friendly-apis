@@ -1,0 +1,83 @@
+id: open-government-luxembourg
+name: Open Government, Luxembourg
+url: https://data.public.lu
+category: Government
+description: Luxembourgish Government Open Data
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Open Government, Luxembourg
+  url: https://data.public.lu
+  category: Government
+link_status: redirect
+data_license: CC0-1.0 (State-published content; contributor datasets have own licences)
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'no'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: -> https://data.public.lu/fr/
+commercial_use_scope: any
+share_alike: 'no'
+data_license_url: https://data.public.lu/en/pages/legal/terms
+api_terms_url: https://data.public.lu/en/pages/api-tutorial
+attribution_text: Not required; State asks reusers to follow its Data Use Guide
+evidence:
+- field: data_license
+  url: https://data.public.lu/en/pages/legal/terms
+  quote: unless otherwise indicated, without restriction, under the terms of the Universal Transfer in
+    the Public Domain Creative Commons CC0 1.0
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://data.public.lu/en/pages/legal/terms
+  quote: unless otherwise indicated, without restriction, under the terms of the Universal Transfer in
+    the Public Domain Creative Commons CC0 1.0
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://data.public.lu/en/pages/legal/terms
+  quote: unless otherwise indicated, without restriction, under the terms of the Universal Transfer in
+    the Public Domain Creative Commons CC0 1.0
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://data.public.lu/en/pages/legal/terms
+  quote: unless otherwise indicated, without restriction, under the terms of the Universal Transfer in
+    the Public Domain Creative Commons CC0 1.0
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://data.public.lu/en/pages/legal/terms
+  quote: unless otherwise indicated, without restriction, under the terms of the Universal Transfer in
+    the Public Domain Creative Commons CC0 1.0
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://data.public.lu/en/pages/legal/terms
+  quote: unless otherwise indicated, without restriction, under the terms of the Universal Transfer in
+    the Public Domain Creative Commons CC0 1.0
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://data.public.lu/en/pages/legal/terms
+  quote: respect the relevant stipulations of the licence attached to such data
+  checked_at: '2026-11-21'
+- field: auth
+  url: https://data.public.lu/en/pages/api-tutorial
+  quote: In order to perform write operations, you must first be authenticated and obtain an API key in
+    your profile settings.
+  checked_at: '2026-11-21'
+notes: 'Terms of use of data.public.lu section 3: site elements and information published by the State
+  are CC0 unless otherwise indicated; logos/photos may have own licences. The portal also hosts datasets
+  from other contributors, and the terms say re-users must respect the licence attached to each dataset,
+  so check per dataset. The API tutorial says an API key is needed for write operations only (upstream
+  auth apiKey applies to writes; reads not stated as keyless). Entry URL redirects to /fr/; read the English
+  pages via curl.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: CC0 default for State content verified; contributor datasets keep own licences.
+license_scope: portal-default

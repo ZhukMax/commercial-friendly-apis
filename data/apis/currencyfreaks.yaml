@@ -1,0 +1,69 @@
+id: currencyfreaks
+name: CurrencyFreaks
+url: https://currencyfreaks.com/
+category: Currency Exchange
+description: Provides current and historical currency exchange rates with free plan 1K requests/month
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: CurrencyFreaks
+  url: https://currencyfreaks.com/
+  category: Currency Exchange
+- list: public-api-lists
+  name: CurrencyFreaks
+  url: https://currencyfreaks.com/
+  category: Currency Exchange
+link_status: alive
+data_license: proprietary (CurrencyFreaks Terms of Service)
+commercial_use: unknown
+storage_caching: ambiguous
+redistribution_display: ambiguous
+attribution_required: 'no'
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://currencyfreaks.com/tos
+attribution_text: Optional clickable link to www.CurrencyFreaks.com ("highly appreciated")
+rate_limits: Free plan 1,000 calls/month; paid plans from monthly quotas
+evidence:
+- field: storage_caching
+  url: https://currencyfreaks.com/tos
+  quote: 'You shall not: reproduce, copy, modify, distribute, market, display, transfer'
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://currencyfreaks.com/tos
+  quote: permitted to receive, process, and display CurrencyFreaks API Data & Services to individual end-users
+    of your application(s)
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://currencyfreaks.com/tos
+  quote: otherwise post or distribute CurrencyFreaks API Data & Services in any public forum
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://currencyfreaks.com/tos
+  quote: Your inclusion of a clickable hyperlink to the CurrencyFreaks API website at www.CurrencyFreaks.com
+    would be highly appreciated.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://currencyfreaks.com/tos
+  quote: permitted to receive, process, and display CurrencyFreaks API Data & Services to individual end-users
+    of your application(s)
+  checked_at: '2026-11-21'
+notes: 'Read https://currencyfreaks.com/tos. The licence permits receiving, processing and displaying
+  the data to end users of your application for their own personal use, but forbids end users to store/distribute
+  it, forbids reproducing/copying/displaying/transferring "except as expressly provided", and forbids
+  posting data in any public forum "including internet". Those clauses conflict for a public website,
+  so storage and display are ambiguous. Commercial use is neither granted nor forbidden in the ToS; the
+  pricing page is JS-only and was not read, so commercial_use is unknown (verdict unknown). Attribution
+  is only requested ("highly appreciated"). Aggregator: data collected from financial institutions/market
+  sources; upstream terms unchecked.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: commercial_use stays unknown; ToS re-read.

@@ -1,0 +1,29 @@
+id: diabetes
+name: Diabetes
+url: http://predictbgl.com/api/
+category: Health
+description: Logging and retrieving diabetes information
+description_source: upstream
+auth: none
+https: false
+cors: unknown
+sources:
+- list: public-api-lists
+  name: Diabetes
+  url: http://predictbgl.com/api/
+  category: Health
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: HTTP 403 (blocked for bots, assumed alive)
+notes: predictbgl.com/api/ returns 403 AccessDenied (S3-style XML) to both curl and a Playwright page; nothing readable, no terms found. All terms fields unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

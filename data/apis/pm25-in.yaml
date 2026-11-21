@@ -1,0 +1,29 @@
+id: pm25-in
+name: PM25.in
+url: http://www.pm25.in/api_doc
+category: Environment
+description: Air quality of China
+description_source: upstream
+auth: apiKey
+https: false
+cors: unknown
+sources:
+- list: public-apis
+  name: PM25.in
+  url: http://www.pm25.in/api_doc
+  category: Environment
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: 'Domain parked: page shows "Contact the domain owner here"; API docs no longer served'
+notes: http://www.pm25.in/api_doc now returns a parked-domain page (checked with a fresh Playwright context; curl returned the same ~200 bytes). The service appears gone, so terms stay unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

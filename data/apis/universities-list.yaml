@@ -1,0 +1,83 @@
+id: universities-list
+name: Universities List
+url: https://github.com/Hipo/university-domains-list
+category: Open Data
+description: University names, countries and domains
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Universities List
+  url: https://github.com/Hipo/university-domains-list
+  category: Open Data
+- list: public-api-lists
+  name: Universities List
+  url: https://github.com/Hipo/university-domains-list
+  category: Open Data
+link_status: alive
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+notes: 'Repo is MIT (LICENSE.txt, applies to the repo including world_universities_and_domains.json) and
+  README invites using the JSON file freely. The hosted API (universities.hipolabs.com) has no terms page;
+  README only says it is sponsored by Hipo, free, and asks big projects to host their own instance. Practical
+  path for a commercial site: self-host or ship the JSON. Data are public facts (names/domains/URLs),
+  accuracy is community-maintained.'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+data_license: MIT
+data_license_url: https://raw.githubusercontent.com/Hipo/university-domains-list/master/LICENSE.txt
+api_terms_url: https://raw.githubusercontent.com/Hipo/university-domains-list/master/README.md
+commercial_use: 'yes'
+commercial_use_scope: any
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+share_alike: 'no'
+attribution_text: Keep the MIT copyright and permission notice (Hipo)
+bulk_download: 'yes'
+self_host_option: 'yes'
+evidence:
+- field: data_license
+  url: https://raw.githubusercontent.com/Hipo/university-domains-list/master/LICENSE.txt
+  quote: The MIT License (MIT) Copyright (c) 2014-2025 Hipo
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://raw.githubusercontent.com/Hipo/university-domains-list/master/LICENSE.txt
+  quote: including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense,
+    and/or sell copies of the Software
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://raw.githubusercontent.com/Hipo/university-domains-list/master/LICENSE.txt
+  quote: including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense,
+    and/or sell copies of the Software
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://raw.githubusercontent.com/Hipo/university-domains-list/master/LICENSE.txt
+  quote: including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense,
+    and/or sell copies of the Software
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://raw.githubusercontent.com/Hipo/university-domains-list/master/LICENSE.txt
+  quote: The above copyright notice and this permission notice shall be included in all copies or substantial
+    portions of the Software.
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://raw.githubusercontent.com/Hipo/university-domains-list/master/LICENSE.txt
+  quote: The above copyright notice and this permission notice shall be included in all copies or substantial
+    portions of the Software.
+  checked_at: '2026-11-21'
+- field: self_host_option
+  url: https://raw.githubusercontent.com/Hipo/university-domains-list/master/README.md
+  quote: Use the tiny Python app to serve a fast API that you can query data.
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://raw.githubusercontent.com/Hipo/university-domains-list/master/README.md
+  quote: Use the JSON file as your data source and do whatever you like with your favourite programming
+    language.
+  checked_at: '2026-11-21'
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Hosted API has no terms and README asks big projects to self-host; ship the JSON.

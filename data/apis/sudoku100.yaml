@@ -1,0 +1,25 @@
+id: sudoku100
+name: Sudoku100
+url: https://www.sudoku100.com/api
+category: Games & Comics
+description: Free Sudoku puzzle generation and embedding with images, solver links and interactive games
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Sudoku100
+  url: https://www.sudoku100.com/api
+  category: Games & Comics
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

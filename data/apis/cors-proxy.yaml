@@ -1,0 +1,25 @@
+id: cors-proxy
+name: CORS Proxy
+url: https://github.com/burhanuday/cors-proxy
+category: Development
+description: Get around the dreaded CORS error by using this proxy as a middle man
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: CORS Proxy
+  url: https://github.com/burhanuday/cors-proxy
+  category: Development
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

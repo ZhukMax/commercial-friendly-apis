@@ -1,0 +1,77 @@
+id: fastballapi
+name: FastballAPI
+url: https://fastballapi.com/docs
+category: Sports & Fitness
+description: 'MLB since 2015 plus college baseball: pitches, plate appearances, box scores and sportsbook
+  odds'
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: FastballAPI
+  url: https://fastballapi.com/docs
+  category: Sports & Fitness
+link_status: alive
+data_license: proprietary (service terms); open-licensed datasets such as nflverse (CC BY 4.0) keep their
+  own licence
+commercial_use: 'yes'
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://fastballapi.com/terms
+commercial_use_scope: any
+share_alike: unknown
+evidence:
+- field: commercial_use
+  url: https://fastballapi.com/terms
+  quote: You may use the Service for personal projects, research, analysis, and commercial apps, websites
+    and tools you build.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://fastballapi.com/terms
+  quote: Showing data, including individual odds, to your own end users in your own app, website or dashboard
+    is fine
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://fastballapi.com/terms
+  quote: and so are storing it, deriving values from it and using it for research or model training
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://fastballapi.com/terms
+  quote: Data we label as open-licensed (for example nflverse) stays under its own license
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://fastballapi.com/docs/timing-and-rights
+  quote: It doesn't cover a product that keeps serving users on the data
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://fastballapi.com/docs/timing-and-rights
+  quote: league rights, marks and the league's own reports aren't ours to grant.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://fastballapi.com/terms
+  quote: Some sources limit how their data may be used; you agree to pass those limits on to your own
+    users
+  checked_at: '2026-11-21'
+notes: 'Read the FastballAPI Terms of Service (section 7 Acceptable use, section 9 Data sources). Commercial
+  apps/websites allowed; showing data to own end users, storing and deriving values allowed; forbidden:
+  reselling or redistributing data as a standalone product, feed, file, dataset or API, and redistributing
+  raw odds/lines/prices as a bulk feed because third-party sources limit their use. ''Some sources limit
+  how their data may be used; you agree to pass those limits on to your own users'': upstream/sportsbook
+  terms may be stricter and the service tells users when they apply. Do not imply league endorsement;
+  logos and marks not licensed. No general attribution duty found except crediting nflverse if its data
+  is republished. Sister service of DunkAPI/FastballAPI/NoPunt (same operator template). MLB/college baseball.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'storage only while account is open; cannot keep serving a product on stored data after
+  cancelling; no league rights granted; sources undisclosed, some sources limit use and limits must be
+  passed on; grant is revocable and only ''to the extent we are allowed to give it'' | applied: storage_caching=limited'

@@ -1,0 +1,34 @@
+id: postcodedata-nl
+name: PostcodeData.nl
+url: http://api.postcodedata.nl/v1/postcode/?postcode=1211EP&streetnumber=60&type=json
+category: Geocoding
+description: Provide geolocation data based on postcode for Dutch addresses
+description_source: upstream
+auth: other
+https: false
+cors: unknown
+sources:
+- list: public-apis
+  name: PostcodeData.nl
+  url: http://api.postcodedata.nl/v1/postcode/?postcode=1211EP&streetnumber=60&ref=domeinnaam.nl&type=json
+  category: Geocoding
+- list: public-api-lists
+  name: PostcodeData.nl
+  url: http://api.postcodedata.nl/v1/postcode/?postcode=1211EP&streetnumber=60&ref=domeinnaam.nl&type=json
+  category: Geocoding
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+evidence: []
+notes: The domain postcodedata.nl redirects to free.bedrijfsdata.nl (HTTP 404); the API URL still answers but returned {"status":"error","errormessage":"no ref (ref=domain.nl)"}, so a ref (calling domain)
+  parameter is required (auth set to other). No terms, licence or limits page was reachable. All terms fields unknown; Dutch address data provenance (BAG/PDOK?) unconfirmed.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

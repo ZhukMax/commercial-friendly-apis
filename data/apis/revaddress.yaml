@@ -1,0 +1,34 @@
+id: revaddress
+name: RevAddress
+url: https://revaddress.com/docs/
+category: Data Validation
+description: US address standardization, congressional and state legislative districts, Census data; free
+  tier
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: RevAddress
+  url: https://revaddress.com/docs/
+  category: Data Validation
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://revaddress.com/legal/terms/
+notes: 'US address standardization (USPS-derived) and Census district data. Terms of Service (version
+  2026-10-01) read: "You may integrate RevAddress into your own authorized workflows and applications";
+  reselling access as a competing standalone RevAddress or USPS API product needs written permission;
+  you remain responsible for "provider requirements" (upstream USPS/Census terms not checked). Nothing
+  explicit on commercial use, storing or displaying results, or attribution; unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

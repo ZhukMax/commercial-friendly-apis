@@ -1,0 +1,60 @@
+id: helious
+name: Helious
+url: https://helious.io/developers/
+category: Finance
+description: US Treasury auction results with the tail and bidder split, plus scored economic releases
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Helious
+  url: https://helious.io/developers/
+  category: Finance
+link_status: alive
+data_license: proprietary
+commercial_use: paid-only
+storage_caching: 'yes'
+redistribution_display: unknown
+attribution_required: ambiguous
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://helious.io/developers/
+commercial_use_scope: paid
+attribution_text: Credit Helious and link back (cite_as string in every response)
+rate_limits: 'Sample (no key): 30 calls/min shared; Free key: 100 credits/month, 60/min; Starter $14.99/mo:
+  1,500 credits'
+evidence:
+- field: commercial_use
+  url: https://helious.io/developers/
+  quote: 'Ultimate is the commercial plan: it covers your own commercial use, allows redistribution by
+    separate written agreement'
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://helious.io/developers/
+  quote: Attribution is what we ask for in return.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://helious.io/developers/
+  quote: Attribution is what we ask for in return.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://helious.io/developers/
+  quote: Cache anything you fetch twice, name yourself in the User-Agent header, and credit Helious.
+  checked_at: '2026-11-21'
+notes: Only the developer page and plans table were readable; no terms-of-service or licence page was
+  found (/terms, /legal, /tos return 404). The page names the $99/month Ultimate plan as "the commercial
+  plan"; lower plans are not described as commercial, so commercial_use=paid-only. Redistribution needs
+  a separate written agreement. Attribution is requested ("please credit Helious and link back"), not
+  clearly mandatory. Caching and display rights are not stated. Treasury auction/market data may carry
+  upstream restrictions.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Developers page explicitly encourages caching, which the first pass left unknown.
+  | applied: storage_caching=yes'

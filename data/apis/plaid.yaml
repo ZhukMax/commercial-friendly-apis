@@ -1,0 +1,65 @@
+id: plaid
+name: Plaid
+url: https://www.plaid.com/docs
+category: Finance
+description: Connect with user's bank accounts and access transaction data
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Plaid
+  url: https://www.plaid.com/docs
+  category: Finance
+- list: public-api-lists
+  name: Plaid
+  url: https://plaid.com/
+  category: Finance
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: limited
+redistribution_display: 'no'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://plaid.com/legal/#developer-policy
+commercial_use_scope: any
+notes: Plaid returns end-user consented bank data (not public data). Developer Policy (effective 2026-04-19,
+  on plaid.com/legal) restricts storage to what is needed and as authorised by the end user, and forbids
+  selling/renting End User Data. Commercial use by integrators is the product purpose but is governed
+  by the signed customer agreement/order form (not read); developer policy does not state it. Not usable
+  for the public ads/affiliate-site scenario.
+evidence:
+- field: storage_caching
+  url: https://plaid.com/legal/
+  quote: Any End User Data in your possession must be stored securely and in accordance with applicable
+    laws.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://plaid.com/legal/
+  quote: sell or rent End User Data to marketers or any other third party
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://plaid.com/legal/
+  quote: access or use the Services or End User Data for any unlawful, infringing, threatening, abusive,
+    obscene, harassing, defamatory, deceptive, or fraudulent purpose
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://plaid.com/legal/
+  quote: transfer, syndicate, or otherwise distribute the Services or End User Data without express prior
+    written permission from Plaid
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Developer policy bans transferring or distributing End User Data without Plaid permission;
+  Not public data; unusable for public ad or affiliate site | applied: redistribution_display=no'
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

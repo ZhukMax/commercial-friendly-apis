@@ -1,0 +1,56 @@
+id: vat-validation
+name: VAT Validation
+url: https://www.abstractapi.com/vat-validation-rates-api
+category: Finance
+description: Validate VAT numbers and calculate VAT rates
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: VAT Validation
+  url: https://www.abstractapi.com/vat-validation-rates-api
+  category: Finance
+link_status: redirect
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: ambiguous
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://www.abstractapi.com/api/vat-validation-rates-api
+api_terms_url: https://www.abstractapi.com/legal/legal
+commercial_use_scope: any
+evidence:
+- field: commercial_use
+  url: https://www.abstractapi.com/legal/legal
+  quote: Use the Site or the Content to advertise or offer to sell goods and services or to identify any
+    household, street address, or individual.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.abstractapi.com/legal/legal
+  quote: Systematically retrieve data or other content from the Site to create or compile, directly or
+    indirectly, a collection, compilation, database, or directory
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.abstractapi.com/legal/legal
+  quote: or make available to any third party, the Site, or any Content not owned by you
+  checked_at: '2026-11-21'
+notes: 'The entry redirects (www.abstractapi.com/vat-validation-rates-api -> /api/vat-validation-rates-api);
+  same Abstract API service. Read the Abstract-wide Terms of Service (/legal/legal): paid subscription
+  plans with request quotas (the product page advertises a free API key), but the terms are written for
+  the "Site"/"Content" and do not say how API output may be used commercially, stored or shown; the listed
+  prohibitions (compiling databases, making Content available to third parties, using Content to advertise)
+  are broad and ambiguous for API results. VAT validation data comes from upstream government registers
+  (EU VIES etc.), whose terms may be stricter and were not read. Free vs paid plan terms not distinguished.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read /legal/legal. No API-output or commercial-use clause; plans are paid with quota,
+  free key exists. Upstream VIES/government registers unread. Ambiguous stands, low confidence.

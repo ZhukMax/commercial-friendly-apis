@@ -1,0 +1,30 @@
+id: xrpl-to
+name: XRPL.to
+url: https://xrpl.to/docs
+category: Cryptocurrency
+description: XRP Ledger token prices, holders, trades and NFT data
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: XRPL.to
+  url: https://xrpl.to/docs
+  category: Cryptocurrency
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+evidence: []
+notes: https://xrpl.to/docs and /terms return HTTP 403 "Sorry, you have been blocked" (Cloudflare) to
+  curl. Not bypassed. No terms page read, so all fields unknown. Needs manual check in a normal browser.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

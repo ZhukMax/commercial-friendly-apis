@@ -1,0 +1,30 @@
+id: wttr-in
+name: wttr.in
+url: https://wttr.in/:help
+category: Weather
+description: Weather in your terminal, supports JSON output
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: wttr.in
+  url: https://wttr.in/:help
+  category: Weather
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://wttr.in/:help
+notes: 'Read https://wttr.in/:help and the project README (github chubin/wttr.in): they describe usage only; no terms of use, licence for the weather data, commercial-use or caching statement found. README
+  mentions data from WorldWeatherOnline and self-hosting, not verified for terms. All terms fields unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

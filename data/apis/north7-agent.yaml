@@ -1,0 +1,42 @@
+id: north7-agent
+name: NORTH7 Agent
+url: https://north7.ai/v1/docs
+category: Finance
+description: Trading signals, market analysis and geopolitical intelligence
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: NORTH7 Agent
+  url: https://north7.ai/v1/docs
+  category: Finance
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://north7.ai/agb.html
+rate_limits: 'Free key: 1,000 credits, 10 requests/min; paid packs 60-300 requests/min'
+notes: AGB (German, v2.0 of 2026-08-10) forbid copying or redistributing platform content without permission
+  and automated scraping; it is general to the platform, API-specific licence not found, so display/redistribution
+  of API output is ambiguous. Commercial use not stated. Newsletter lists upstream sources (Reuters, Bloomberg,
+  Yahoo Finance etc.), whose terms may be stricter. Docs page /v1/docs is Swagger UI only.
+evidence:
+- field: redistribution_display
+  url: https://north7.ai/agb.html
+  quote: Inhalte der Plattform ohne Genehmigung zu kopieren oder weiterzuverbreiten
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Unknown stands. Upstream sources named on homepage include Reuters, Bloomberg, Yahoo
+  Finance. No API-specific licence found on /agb.html or developer page.

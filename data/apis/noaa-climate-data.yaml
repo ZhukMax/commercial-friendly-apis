@@ -1,0 +1,36 @@
+id: noaa-climate-data
+name: NOAA Climate Data
+url: https://www.ncdc.noaa.gov/cdo-web/
+category: Weather
+description: Weather and climate data
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-api-lists
+  name: NOAA Climate Data
+  url: https://www.ncdc.noaa.gov/cdo-web/
+  category: Weather
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+rate_limits: 5 requests/second and 10,000 requests/day per token (token required)
+api_terms_url: https://www.ncdc.noaa.gov/cdo-web/webservices/v2
+notes: Read the CDO web services v2 page and the CDO landing page; no licence or reuse statement was found there. The NOAA disclaimer pages (noaa.gov) are blocked for bots (403) and ncei.noaa.gov/about/disclaimer
+  is 404, so no page confirming public-domain status of CDO data was read; terms left unknown even though NOAA data is generally US-government data. Read the NCEI privacy/data-use pages manually.
+evidence:
+- field: rate_limits
+  url: https://www.ncdc.noaa.gov/cdo-web/webservices/v2
+  quote: each token will be limited to five requests per second and 10,000 requests per day
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -1,0 +1,28 @@
+id: aero-key-india
+name: Aero Key, India
+url: https://aerokey-api.vercel.app/
+category: Transportation
+description: Indian Domestic Airport Data
+description_source: upstream
+auth: none
+https: true
+cors: 'no'
+sources:
+- list: public-api-lists
+  name: Aero Key, India
+  url: https://aerokey-api.vercel.app/
+  category: Transportation
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+notes: Only an API endpoint-documentation page (author Abhishek Jain) was found at the listed URL; it has no licence, terms, attribution or usage rules, and the data origin is not stated. All terms unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

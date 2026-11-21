@@ -1,0 +1,36 @@
+id: bing-maps
+name: Bing Maps
+url: https://www.microsoft.com/maps/
+category: Geocoding
+description: Create/customize digital maps based on Bing Maps data
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Bing Maps
+  url: https://www.microsoft.com/maps/
+  category: Geocoding
+- list: public-api-lists
+  name: Bing Maps
+  url: https://www.microsoft.com/maps/
+  category: Geocoding
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://azure.microsoft.com/en-us/products/azure-maps/
+notes: microsoft.com/maps returns 403 to curl (Microsoft anti-bot page) and redirects to Azure Maps (azure.microsoft.com/products/azure-maps). Azure Maps FAQ says a licence is required to use Azure Maps
+  and that usage terms sit in the licensing "use rights" for each programme; the Microsoft product-terms page (microsoft.com/licensing/terms/...) also returned 403, and learn.microsoft.com only states that
+  Azure Maps is pay-as-you-go with a free monthly tier of transactions. No usable terms read on caching, display or commercial use, so everything is unknown. Bing Maps for Enterprise users are directed
+  to migrate to Azure Maps.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

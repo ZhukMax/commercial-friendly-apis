@@ -1,0 +1,35 @@
+id: stanza-vat-validator
+name: Stanza VAT Validator
+url: https://stanzaapi.com/tools/vat-validator
+category: Finance
+description: Validate EU and UK VAT numbers with country formats, checksums, and VIES status
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Stanza VAT Validator
+  url: https://stanzaapi.com/tools/vat-validator
+  category: Finance
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://stanzaapi.com/terms
+notes: 'Syntax/checksum validation microservice (with VIES status); Terms of Service (2026-09-12) cover
+  accounts, acceptable use (no reselling API keys), billing and disclaimers, but say nothing on licence/use/storage/display
+  of outputs or attribution. VIES data upstream is from the EU Commission (terms not read). Core fields
+  unknown. Page read: /terms.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

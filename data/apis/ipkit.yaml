@@ -1,0 +1,37 @@
+id: ipkit
+name: IPKit
+url: https://ipkit.dev/docs
+category: Geocoding
+description: IP lookup with location, ASN/ISP and VPN/proxy/Tor signals
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: IPKit
+  url: https://ipkit.dev/docs
+  category: Geocoding
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://ipkit.dev/docs
+rate_limits: 300 requests per 60 seconds per connecting client IP; no SLA
+evidence:
+- field: rate_limits
+  url: https://ipkit.dev/docs
+  quote: Lookups are limited to 300 requests per 60 seconds per connecting client IP.
+  checked_at: '2026-11-21'
+notes: Read https://ipkit.dev/docs (the only legal-ish page; /terms and /pricing return 404, /privacy exists but is privacy only). Docs call it "a free public tool, not a contracted API" and give no commercial-use,
+  caching, display or attribution terms. Underlying data comes from the ipregistry provider (source=ipregistry) or Cloudflare request metadata; the provider licence was not assessed. All core terms left
+  unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

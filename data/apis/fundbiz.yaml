@@ -1,0 +1,74 @@
+id: fundbiz
+name: FundBiz
+url: https://fundbiz.co.uk/data/api/
+category: Finance
+description: UK specialty business finance lender terms, typical rates and decision times
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: FundBiz
+  url: https://fundbiz.co.uk/data/api/
+  category: Finance
+link_status: alive
+data_license: CC-BY-4.0
+commercial_use: ambiguous
+storage_caching: 'yes'
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://creativecommons.org/licenses/by/4.0/
+api_terms_url: https://fundbiz.co.uk/data/api/
+commercial_use_scope: any
+attribution_text: Attribute FundBiz and link back to the Lender Index
+share_alike: 'no'
+evidence:
+- field: data_license
+  url: https://fundbiz.co.uk/data/api/
+  quote: Read-only and free under CC BY 4.0
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://fundbiz.co.uk/data/api/
+  quote: attribute FundBiz and link back to the Lender Index
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://fundbiz.co.uk/terms
+  quote: Scrape, copy, republish or resell site content commercially without our written permission.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://fundbiz.co.uk/terms
+  quote: Any other reproduction, bulk copying or commercial republication requires our prior written permission.
+  checked_at: '2026-11-21'
+notes: The API/MCP page itself says the data is free under CC BY 4.0 with attribution; commercial use,
+  copying and display follow from the CC BY 4.0 deed (cited together with that statement). No separate
+  ToS for the API was found. Data is a compiled lender index ("compiled from public sources"); typical_rate
+  figures are published headline bands, not quotes, and there is a financial-promotion/accuracy caveat.
+  share_alike=no because CC BY has no share-alike term.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Site Terms forbid commercial republishing and bulk copying of site data without permission,
+  conflicting with API page CC BY 4.0 | applied: commercial_use=ambiguous, redistribution_display=ambiguous'

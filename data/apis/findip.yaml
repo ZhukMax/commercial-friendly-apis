@@ -1,0 +1,36 @@
+id: findip
+name: FindIP
+url: https://www.findip.net/Docs/api-response
+category: Geocoding
+description: IP geolocation with VPN, proxy, Tor, datacenter and malicious IP detection, free
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: FindIP
+  url: https://www.findip.net/Docs/api-response
+  category: Geocoding
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.findip.net/terms
+rate_limits: Currently free, no request limits (may change with notice)
+notes: ToS (updated 16 Aug 2026) read. It grants a limited right to use the Service 'for your own purposes', forbids reselling/redistributing raw API access or bulk data, and says nothing on commercial
+  use, storage or display. All terms fields unknown. Underlying IP data sources not stated.
+evidence:
+- field: rate_limits
+  url: https://www.findip.net/terms
+  quote: The Service is currently free with no daily, monthly, or lifetime request limits.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

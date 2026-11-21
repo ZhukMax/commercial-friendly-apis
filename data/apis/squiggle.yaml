@@ -1,0 +1,50 @@
+id: squiggle
+name: Squiggle
+url: https://api.squiggle.com.au
+category: Sports & Fitness
+description: Fixtures, results and predictions for Australian Football League matches
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Squiggle
+  url: https://api.squiggle.com.au
+  category: Sports & Fitness
+link_status: alive
+data_license: unknown
+commercial_use: 'yes'
+storage_caching: ambiguous
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+commercial_use_scope: any
+api_terms_url: https://api.squiggle.com.au
+evidence:
+- field: commercial_use
+  url: https://api.squiggle.com.au
+  quote: Use the API for commercial purposes, bearing in mind this is a hobby project that could disappear
+    without warning
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://api.squiggle.com.au
+  quote: Cache and re-use data appropriately.
+  checked_at: '2026-11-21'
+notes: 'Requirements section of the API page: commercial use explicitly allowed (hobby project, no warranty).
+  Must send an identifying User-Agent with contact email, cache/re-use data appropriately, and not build
+  sites where visitors fetch from the API directly (the builder must fetch). No explicit statement on
+  displaying or redistributing data on own pages, and no attribution text, so those stay unknown. Data
+  is basic AFL fixtures/scores plus model predictions; league (AFL) rights in the underlying data not
+  addressed.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read Requirements: ''You may: Use the API for commercial purposes''; builder must
+  fetch (visitors may not call API directly; referred browser requests refused); ''Cache and re-use data
+  appropriately''. Display/attribution unaddressed. Verdict unknown stands.'

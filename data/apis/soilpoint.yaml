@@ -1,0 +1,52 @@
+id: soilpoint
+name: SoilPoint
+url: https://soilpoint.dev/docs
+category: Environment
+description: 'US soil properties at a lat/lon from USDA SSURGO: texture, drainage, pH, organic matter'
+description_source: upstream
+auth: none
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: SoilPoint
+  url: https://soilpoint.dev/docs
+  category: Environment
+link_status: alive
+data_license: public-domain (USDA-NRCS SSURGO, per SoilPoint site)
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://soilpoint.dev/
+rate_limits: Keyless 60 req/min and 1,000/day per IP; keyed 300/min and 20,000/day
+evidence:
+- field: data_license
+  url: https://soilpoint.dev/
+  quote: USDA-NRCS SSURGO, the detailed US soil survey (public domain).
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://soilpoint.dev/
+  quote: Free while we find out who needs this. No key required yet. If you'd use it commercially, tell
+    us .
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://soilpoint.dev/docs
+  quote: Keyless (per IP) 60 req 1,000 req Keyed (per key) 300 req 20,000 req
+  checked_at: '2026-11-21'
+notes: 'No terms-of-service page exists (/terms is 404). The homepage says the data is USDA-NRCS SSURGO
+  (public domain) and the service is "free, for now", asking commercial users to get in touch, so commercial
+  use is neither granted nor forbidden: ambiguous. Caching/display of SoilPoint responses not addressed.
+  The public-domain claim concerns the USDA source data, stated by SoilPoint and not verified at USDA.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read homepage and /docs: no licence/ToS/attribution rules; service caches responses
+  in memory itself. Tried NRCS disclaimer pages, which returned empty to curl, so the USDA public-domain
+  claim stays unverified. Commercial use neither granted nor forbidden; ambiguous stands.'

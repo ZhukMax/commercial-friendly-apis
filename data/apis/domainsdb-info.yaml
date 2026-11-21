@@ -1,0 +1,36 @@
+id: domainsdb-info
+name: Domainsdb.info
+url: https://domainsdb.info/
+category: Business
+description: Registered Domain Names Search
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Domainsdb.info
+  url: https://domainsdb.info/
+  category: Business
+- list: public-api-lists
+  name: Domainsdb.info
+  url: https://domainsdb.info/
+  category: Business
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://domainsdb.info/terms
+notes: 'Terms page read via Playwright (JS single-page app). It lists generic API rules (lawful use, rate limits and credits, no reselling of API access, no competing service, no scraping beyond API use,
+  no derivative works of the API) but no statement on commercial use of the data, storage, display or licence; data is ''as is'' and informational. auth updated: the API now requires an API key (anonymous
+  access disabled).'
+evidence: []
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -1,0 +1,56 @@
+id: pumpfundata
+name: PumpFunData
+url: https://pumpfundata.com/docs
+category: Cryptocurrency
+description: Historical Pump.fun and PumpSwap AMM swap data as hourly Parquet files
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: PumpFunData
+  url: https://pumpfundata.com/docs
+  category: Cryptocurrency
+link_status: alive
+data_license: proprietary (purchased datasets, internal-use licence)
+commercial_use: paid-only
+storage_caching: 'yes'
+redistribution_display: 'no'
+attribution_required: unknown
+bulk_download: 'yes'
+self_host_option: unknown
+verdict: red
+confidence: high
+link_checked_at: '2026-11-21'
+commercial_use_scope: paid
+api_terms_url: https://pumpfundata.com/terms
+evidence:
+- field: redistribution_display
+  url: https://pumpfundata.com/terms
+  quote: you may not publicly host, publish, upload, mirror, share, resell, sublicense, or otherwise redistribute
+    the supplied data outside these permitted internal uses
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://pumpfundata.com/terms
+  quote: You may retain and back up downloaded files indefinitely on private systems
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://pumpfundata.com/terms
+  quote: Purchased datasets are licensed for internal use by individuals, companies, and institutions.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://pumpfundata.com/terms
+  quote: Purchased datasets are licensed for internal use by individuals, companies, and institutions.
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://pumpfundata.com/terms
+  quote: You may retain and back up downloaded files indefinitely on private systems
+  checked_at: '2026-11-21'
+notes: 'ToS section 7: paid (credit) datasets for internal use only; public hosting or making data available
+  via a website/API is forbidden, derived or reformatted copies included; only aggregate statistics, research
+  findings and model outputs may be published if they do not disclose source records. So showing the data
+  on a public commercial site is not allowed without written permission: red. Underlying data is public
+  Solana/Pump.fun on-chain activity.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

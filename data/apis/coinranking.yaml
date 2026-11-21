@@ -1,0 +1,41 @@
+id: coinranking
+name: CoinRanking
+url: https://developers.coinranking.com/api/documentation
+category: Cryptocurrency
+description: Live Cryptocurrency data
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: CoinRanking
+  url: https://developers.coinranking.com/api/documentation
+  category: Cryptocurrency
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: -> https://coinranking.com/api/documentation
+api_terms_url: https://support.coinranking.com/article/131-api-terms-conditions
+evidence:
+- field: redistribution_display
+  url: https://support.coinranking.com/article/131-api-terms-conditions
+  quote: solely for the purpose of accessing, analyzing, or displaying cryptocurrency market data
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://support.coinranking.com/article/131-api-terms-conditions
+  quote: must also clearly indicate within their application that the data originates from Coinranking
+  checked_at: '2026-11-21'
+notes: Read API Terms & Conditions (support.coinranking.com article 131; developers.* redirects to coinranking.com/api/documentation). Data may be displayed and shared publicly with Coinranking credited;
+  reselling needs written consent (reseller rules with per-party keys); competing apps barred; Coinranking can order data removed. The terms do not state commercial use explicitly (mention "internal applications");
+  caching not addressed, so those stay unknown; plan-specific licences on pricing page not read.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

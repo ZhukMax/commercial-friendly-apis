@@ -1,0 +1,33 @@
+id: mygene-info
+name: MyGene.info
+url: https://docs.mygene.info/
+category: Science & Math
+description: Gene annotation queries and ID lookup
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: MyGene.info
+  url: https://docs.mygene.info/
+  category: Science & Math
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://docs.mygene.info/en/latest/
+api_terms_url: https://docs.mygene.info/en/latest/terms.html
+evidence: []
+notes: Terms of Use read (docs.mygene.info/en/latest/terms.html, operated by TSRI/Scripps). They authorise access and use of the site and data 'under the conditions set forth' but never mention commercial
+  use, caching, redistribution or a data licence; one condition is retaining copyright/proprietary notices in copies. FAQ page has no licence info. Data is aggregated from many third-party sources (NCBI,
+  Ensembl, etc.), so upstream terms may be stricter. Left unknown. Redirect docs.mygene.info -> /en/latest/ is the same site.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

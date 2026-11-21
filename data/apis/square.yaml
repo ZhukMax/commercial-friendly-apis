@@ -1,0 +1,67 @@
+id: square
+name: Square
+url: https://developer.squareup.com/reference/square
+category: Business
+description: Easy way to take payments, manage refunds, and help customers checkout online
+description_source: upstream
+auth: OAuth
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Square
+  url: https://developer.squareup.com/reference/square
+  category: Business
+link_status: alive
+data_license: Seller-owned content (Square sellers retain rights)
+commercial_use: 'yes'
+storage_caching: 'no'
+redistribution_display: 'no'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://squareup.com/us/en/legal/general/developers
+commercial_use_scope: any
+cache_limit: Only with the Square seller's consent; never store card numbers/CVV
+evidence:
+- field: commercial_use
+  url: https://squareup.com/us/en/legal/general/developers
+  quote: in connection with the applications, websites, products or services you operate and offer that
+    interact with Developer Tools
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://squareup.com/us/en/legal/general/developers
+  quote: Don’t access or store a Square seller’s information unless that seller allows it.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://squareup.com/us/en/legal/general/developers
+  quote: copy, translate, modify, create derivative work of, sell, lease, sublicense, distribute or publicly
+    display any of such Square Seller’s Content
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://squareup.com/us/en/legal/general/developers
+  quote: Square sellers retain rights to their content.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://squareup.com/us/en/legal/general/developers
+  quote: scrape, access, download, store, build databases or otherwise create permanent copies of any
+    Square Seller’s Content
+  checked_at: '2026-11-21'
+notes: 'Read Square Developer Terms of Service (squareup.com legal). Not a public-data API: it accesses
+  a seller''s own account data and payment services via OAuth. Apps you operate may use the API commercially,
+  but storing or publicly displaying a seller''s Content needs that seller''s express consent, so it does
+  not fit a public catalog/ad site scenario. Other Square terms (General, Payment) not read. Attribution
+  rules not checked.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Square developer terms forbid storing or publicly displaying a seller''s Content without
+  that seller''s express consent; Data is seller account data, not public data | applied: storage_caching=no,
+  redistribution_display=no'
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

@@ -1,0 +1,81 @@
+id: open-brewery-db
+name: Open Brewery DB
+url: https://www.openbrewerydb.org
+category: Food & Drink
+description: Breweries, Cideries and Craft Beer Bottle Shops
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Open Brewery DB
+  url: https://www.openbrewerydb.org
+  category: Food & Drink
+- list: public-api-lists
+  name: Open Brewery DB
+  url: https://www.openbrewerydb.org
+  category: Food & Drink
+link_status: alive
+data_license: MIT (GitHub dataset repo licence)
+commercial_use: ambiguous
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: 'yes'
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://github.com/openbrewerydb/openbrewerydb
+api_terms_url: https://www.openbrewerydb.org/faq
+commercial_use_scope: any
+attribution_text: Credit to Open Brewery DB
+share_alike: 'no'
+rate_limits: No rate limits or keys stated ("No sign-ups, API keys, or rate limits")
+evidence:
+- field: commercial_use
+  url: https://www.openbrewerydb.org/faq
+  quote: At this time, I recommend using the API for personal projects.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.openbrewerydb.org/faq
+  quote: You are welcome to use the dataset for any projects with credit to Open Brewery DB.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.openbrewerydb.org/faq
+  quote: You are welcome to use the dataset for any projects with credit to Open Brewery DB.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.openbrewerydb.org/faq
+  quote: You are welcome to use the dataset for any projects with credit to Open Brewery DB.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.openbrewerydb.org/faq
+  quote: You are welcome to use the dataset for any projects with credit to Open Brewery DB.
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://www.openbrewerydb.org/documentation
+  quote: Need the whole dataset? Download it directly instead of enumerating API requests or scraping
+    pages.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://github.com/openbrewerydb/openbrewerydb
+  quote: MIT license
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://github.com/openbrewerydb/openbrewerydb
+  quote: MIT license
+  checked_at: '2026-11-21'
+notes: 'Read FAQ, documentation and the GitHub repo page. FAQ answers the for-profit question softly:
+  recommends the API for personal projects (community-run, no SLA) but welcomes the dataset in any project
+  with credit - hence commercial_use ambiguous; use the downloadable dataset (breweries.json/csv/sql)
+  for production. Repo page shows an MIT licence. FAQ states data was initially scraped from the Brewers
+  Association (2018) and later community-edited: upstream rights not assessed. No standalone ToS page
+  exists (/terms 404). Share-alike: no (MIT).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Leans to yes for the downloadable dataset; ambiguous only for the hosted API. Upstream
+  (2018 Brewers Association scrape) rights unassessed.

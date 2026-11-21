@@ -1,0 +1,47 @@
+id: latlng
+name: LatLng
+url: https://www.latlng.work/docs
+category: Geocoding
+description: Geocoding, reverse geocoding, places, and static maps
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: LatLng
+  url: https://www.latlng.work/docs
+  category: Geocoding
+link_status: alive
+data_license: ODbL (OpenStreetMap data)
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.latlng.work/terms
+data_license_url: https://www.openstreetmap.org/copyright
+attribution_text: © OpenStreetMap contributors
+rate_limits: 'Free: geocoding 3,000/day, reverse 300/day, places 100/day, static maps 100/day'
+evidence:
+- field: data_license
+  url: https://www.latlng.work/terms
+  quote: Geographic and map data is provided under the Open Database License (ODbL) from OpenStreetMap contributors.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.latlng.work/terms
+  quote: You must include appropriate attribution ("© OpenStreetMap contributors") in any public-facing application using our map or geocoding services.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://www.latlng.work/terms
+  quote: Geocoding (forward) 3,000 / day 1,000,000 / month
+  checked_at: '2026-11-21'
+notes: 'Read /terms (April 2026) and /docs. The API needs an API key (docs: "All API requests require an API key"), so auth corrected from none. The Terms never state whether commercial use is allowed on
+  the Free tier, nor caching/storage or display rights; they only require OSM attribution in public-facing apps, prohibit scraping to build a competing dataset and allow one free account per entity. ODbL
+  share-alike/produced-work implications not assessed. Pricing page /pricing is 404.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

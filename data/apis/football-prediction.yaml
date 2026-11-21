@@ -1,0 +1,30 @@
+id: football-prediction
+name: Football Prediction
+url: https://boggio-analytics.com/fp-api/
+category: Sports & Fitness
+description: Predictions for upcoming football matches, odds, results and stats
+description_source: upstream
+auth: other
+https: true
+cors: unknown
+sources:
+- list: public-api-lists
+  name: Football Prediction
+  url: https://boggio-analytics.com/fp-api/
+  category: Sports & Fitness
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+evidence: []
+notes: 'Only the product page was available: access is through RapidAPI (key required, free plan with limitations, a 30-day trial of the MEGA plan for app/website development). No terms of service, licence,
+  or data-rights page found on boggio-analytics.com (/terms is 404); RapidAPI marketplace terms not read. Underlying odds/results come from third parties. Nothing confirmed, all unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

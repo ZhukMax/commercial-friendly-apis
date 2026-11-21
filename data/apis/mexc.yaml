@@ -1,0 +1,39 @@
+id: mexc
+name: Mexc
+url: https://www.mexc.com/api-docs
+category: Cryptocurrency
+description: Cryptocurrency info, place order
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Mexc
+  url: https://www.mexc.com/api-docs
+  category: Cryptocurrency
+- list: public-api-lists
+  name: MEXC Global
+  url: https://www.mexc.com/mexc-api
+  category: Cryptocurrency
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.mexc.com/api-docs/spot-v3/introduction
+notes: 'Read API docs intro (browser; curl is 403): describes key setup and endpoints, no licence or data-usage
+  terms. mexc.com/user-agreement returned 404 in the browser and no other terms page was read. All terms
+  fields unknown. Exchange trading API; market data may carry its own redistribution limits. Merged duplicate
+  entry `mexc-global`.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+evidence: []
+aliases:
+- mexc-global

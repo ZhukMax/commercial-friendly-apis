@@ -1,0 +1,35 @@
+id: datascreeniq
+name: DataScreenIQ
+url: https://datascreeniq.com
+category: Data Validation
+description: Screen data for schema drift, type mismatches, and null rate anomalies
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: DataScreenIQ
+  url: https://datascreeniq.com
+  category: Data Validation
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://datascreeniq.com/terms.html
+notes: 'Not a data source: a data-quality screening API that analyses payloads you submit. Terms of Service
+  (March 2026) read in full: they do not address commercial use, storage/display of results, attribution
+  or a data licence (only: no reselling access without written permission, you keep rights to submitted
+  data, raw payloads are not stored by the service). All core fields left unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

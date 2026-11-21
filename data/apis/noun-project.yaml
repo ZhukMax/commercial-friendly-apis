@@ -1,0 +1,54 @@
+id: noun-project
+name: Noun Project
+url: http://api.thenounproject.com/index.html
+category: Art & Design
+description: Icons
+description_source: upstream
+auth: OAuth
+https: false
+cors: unknown
+sources:
+- list: public-apis
+  name: Noun Project
+  url: http://api.thenounproject.com/index.html
+  category: Art & Design
+- list: public-api-lists
+  name: Noun Project
+  url: http://api.thenounproject.com/index.html
+  category: Art & Design
+link_status: alive
+data_license: unknown
+commercial_use: 'yes'
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://thenounproject.com/legal/terms-of-use/
+commercial_use_scope: any
+share_alike: unknown
+rate_limits: 'Free trial: 1,000 service calls/day, 150 icon calls/month; pay-per-use from $25/month: 200,000/day'
+notes: 'Read API landing page (thenounproject.com/api/), API docs (api.thenounproject.com getting_started.html),
+  and site Terms of Use (which defer to separate API terms on /developers/api-documentation/; the detailed
+  ''Icon API terms & license details'' page is on help.thenounproject.com, which is behind Cloudflare
+  and was not readable). Marketing page says icons via the API are royalty-free for commercial use; docs
+  list ''Distributing icons, including for free'' and AI-training use as unacceptable. Whether icons may
+  be stored/cached or what attribution is required was not found, so those stay unknown. API needs a key
+  (OAuth 1.0a signing); pricing is a free trial (30 days / $5 cap) then pay-per-use from $25/month; the
+  real licence is per-plan, so check help-center terms before use. Redistribution_display left unknown:
+  the unacceptable-use list forbids distributing icons but displaying them in an app is the API''s purpose
+  and not explicitly addressed.'
+evidence:
+- field: commercial_use
+  url: https://thenounproject.com/api/
+  quote: All icons include royalty-free, commercial use
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://api.thenounproject.com/getting_started.html
+  quote: Distributing icons, including for free.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

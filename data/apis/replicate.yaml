@@ -1,0 +1,29 @@
+id: replicate
+name: Replicate
+url: https://replicate.com/docs/reference/http
+category: Machine Learning
+description: Run open-source AI models in the cloud including image generation, LLMs and audio models
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Replicate
+  url: https://replicate.com/docs/reference/http
+  category: Machine Learning
+- list: public-api-lists
+  name: Replicate
+  url: https://replicate.com/docs/reference/http
+  category: Machine Learning
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

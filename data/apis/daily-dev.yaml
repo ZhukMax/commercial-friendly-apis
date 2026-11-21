@@ -1,0 +1,57 @@
+id: daily-dev
+name: daily.dev
+url: https://docs.daily.dev/public-api/
+category: News
+description: Developer news feeds, posts, bookmarks, tags and search from daily.dev
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: daily.dev
+  url: https://docs.daily.dev/public-api/
+  category: News
+link_status: alive
+data_license: unknown
+commercial_use: 'no'
+storage_caching: 'no'
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: high
+link_checked_at: '2026-11-21'
+commercial_use_scope: any
+api_terms_url: https://daily.dev/tos/#public-api
+evidence:
+- field: commercial_use
+  url: https://daily.dev/tos/#public-api
+  quote: 'solely: (i) for your personal internal use in connection with your Account'
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://daily.dev/tos/#public-api
+  quote: bulk-export, harvest, or create a standing copy, archive, index, or dataset of the Application
+    Content
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://daily.dev/tos/#public-api
+  quote: with attribution to daily.dev and a link to the original source, is permitted
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://daily.dev/tos/#public-api
+  quote: serve, resell, or make available any data returned by the Public API to any person other than
+    the holder of the Account
+  checked_at: '2026-11-21'
+notes: Read daily.dev ToS section 18 Public API. Licence is for personal internal use or per-user tools
+  using each end-user own token; serving API data to others, resale, standing copies/caching beyond need,
+  ML training and competing products are banned. Section 18.3(vi) permits displaying titles/summaries/tags
+  with attribution and source link, which conflicts with the ban on making data available to others, so
+  display is ambiguous. Not usable for a public commercial site.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Section 18 re-read in full; red is justified for a public commercial site (18.3(vi)
+  allows titles/summaries with attribution only inside permitted use).

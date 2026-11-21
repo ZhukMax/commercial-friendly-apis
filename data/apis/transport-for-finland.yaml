@@ -1,0 +1,74 @@
+id: transport-for-finland
+name: Transport for Finland
+url: https://digitransit.fi/en/developers/
+category: Transportation
+description: Finnish transport API
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Transport for Finland
+  url: https://digitransit.fi/en/developers/
+  category: Transportation
+- list: public-api-lists
+  name: Transport for Finland
+  url: https://digitransit.fi/en/developers/
+  category: Transportation
+link_status: alive
+data_license: CC-BY-4.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: HTTP 403 (blocked for bots, assumed alive)
+api_terms_url: https://digitransit.fi/en/developers/apis/7-terms-of-use/
+data_license_url: https://digitransit.fi/en/developers/apis/7-terms-of-use/
+commercial_use_scope: any
+attribution_text: © Digitransit (with date and time of receiving the data)
+evidence:
+- field: data_license
+  url: https://digitransit.fi/en/developers/apis/7-terms-of-use/
+  quote: Digitransit makes the data available based on JHS-189 [permission to use the open data] and Creative
+    Commons name 4.0 (CC BY) licensing.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://digitransit.fi/en/developers/apis/7-terms-of-use/
+  quote: CC BY is global, gratuitous, non-exclusive, and non-revocable right to use the data to any purpose,
+    including right to copy, rework and distribute.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://digitransit.fi/en/developers/apis/7-terms-of-use/
+  quote: CC BY is global, gratuitous, non-exclusive, and non-revocable right to use the data to any purpose,
+    including right to copy, rework and distribute.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://digitransit.fi/en/developers/apis/7-terms-of-use/
+  quote: CC BY is global, gratuitous, non-exclusive, and non-revocable right to use the data to any purpose,
+    including right to copy, rework and distribute.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://digitransit.fi/en/developers/apis/7-terms-of-use/
+  quote: the User is required to give Digitransit an attribution as author for data
+  checked_at: '2026-11-21'
+- field: auth
+  url: https://digitransit.fi/en/developers/
+  quote: Use of the APIs requires registration and API keys.
+  checked_at: '2026-11-21'
+notes: Read Digitransit Terms of use (registered usage), pages fetched via Playwright (curl gets 403).
+  Data is CC BY 4.0, free of charge. OpenStreetMap-based routing/geocoding/map data is under ODbL (share-alike
+  may apply to those parts) and city bike data is owned by City Bike Finland; not assessed further. Digitransit
+  may change licensing of new data. Upstream auth was 'none', now API key required (registration at portal-api.digitransit.fi).
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Parts of routing/geocoding/map data are OpenStreetMap (ODbL, share-alike may apply)
+  and city bike data is owned by City Bike Finland; Digitransit may change licensing of new data. API
+  key now required.

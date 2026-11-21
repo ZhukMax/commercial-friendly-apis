@@ -1,0 +1,25 @@
+id: openshield
+name: openshield
+url: https://www.openshield.dev/docs
+category: Security
+description: Image and text moderation, plus fraud scoring for sign-ups, logins and payments
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: openshield
+  url: https://www.openshield.dev/docs
+  category: Security
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

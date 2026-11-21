@@ -1,0 +1,76 @@
+id: transport-for-switzerland
+name: Transport for Switzerland
+url: https://opentransportdata.swiss/en/
+category: Transportation
+description: Official Swiss Public Transport Open Data
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Transport for Switzerland
+  url: https://opentransportdata.swiss/en/
+  category: Transportation
+- list: public-api-lists
+  name: Transport for Switzerland
+  url: https://opentransportdata.swiss/en/
+  category: Transportation
+link_status: alive
+data_license: Open Data Terms of Use of opentransportdata.swiss (open data, free to use with source citation)
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://opentransportdata.swiss/en/terms-of-use/
+api_terms_url: https://opentransportdata.swiss/en/terms-of-use/
+commercial_use_scope: any
+share_alike: unknown
+attribution_text: Cite the URL opentransportdata.swiss as the source for raw data in publications and
+  analyses; publish processed data under your own name.
+rate_limits: Free below a request limit set per service; higher volume needs a paid contract with SBB
+evidence:
+- field: data_license
+  url: https://opentransportdata.swiss/en/terms-of-use/
+  quote: 'Open data: data that are freely available for anyone to use.'
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://opentransportdata.swiss/en/terms-of-use/
+  quote: 'Data user: a private individual or company that obtains ODMCH data.'
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://opentransportdata.swiss/en/terms-of-use/
+  quote: ODMCH data must be updated regularly and at the same frequency as the underlying raw data.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://opentransportdata.swiss/en/terms-of-use/
+  quote: The data obtained can be processed, analysed and published, including incorporating additional
+    data.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://opentransportdata.swiss/en/terms-of-use/
+  quote: The URL opentransportdata.swiss must be cited as the source for raw data in publications and
+    analyses that make use of ODMCH data.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://opentransportdata.swiss/en/terms-of-use/
+  quote: Use of the data service is free of charge below the limit.
+  checked_at: '2026-11-21'
+notes: Read the General Terms and Conditions of Use of the Swiss Open data platform mobility (SBB operates
+  it for FOT). Data are open for any "private individual or company", may be processed and published,
+  only source citation and authorship rules apply; service-based data (APIs) need free registration and
+  have request limits. The terms do not use the word "commercial" and do not state a share-alike duty,
+  and caching is only implied by the duty to update, so those readings are inferred; confidence medium.
+  Some linked datasets (e.g. third-party TDP data, FEDRO) have their own terms.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Word 'commercial' does not appear in terms; permission to companies and publication
+  is explicit. ASTRA/FEDRO traffic data is under separate terms. Per-dataset restrictions not seen.
+license_scope: portal-default

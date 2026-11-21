@@ -1,0 +1,61 @@
+id: katalis
+name: Katalis
+url: https://meetkatalis.com/apis
+category: Business
+description: 'UK company checks: payment practices, contracts won, registers, filed accounts, change feed'
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Katalis
+  url: https://meetkatalis.com/apis
+  category: Business
+link_status: alive
+data_license: Open Government Licence v3.0 (UK public sector sources; some sources have own licences,
+  e.g. Environment Agency Conditional Licence)
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://meetkatalis.com/apis/terms
+rate_limits: 60 requests/minute per key; metered in credits (1 to 25+ credits per call)
+evidence:
+- field: data_license
+  url: https://meetkatalis.com/apis/terms
+  quote: Company data contains public sector information licensed under the Open Government Licence v3.0
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://meetkatalis.com/apis/terms
+  quote: you must keep that attribution and licence link if you pass the data on
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://meetkatalis.com/apis/terms
+  quote: 'you must not: rebuild or redistribute a bulk copy of an underlying source'
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://meetkatalis.com/apis/terms
+  quote: Requests rejected by the per-key rate ceiling (currently 60 requests/minute) never consume credits.
+  checked_at: '2026-11-21'
+notes: 'Read API Terms of Use (https://meetkatalis.com/apis/terms, 14 Oct 2026) and site terms. Aggregator:
+  data derive from Companies House, Environment Agency, SRA, CQC, Charity Commission etc.; upstream conditions
+  travel with the data (each reply carries an attribution field) and some sources (Environment Agency,
+  SRA) have their own conditions that may be stricter. Passing data on is allowed with attribution; bulk
+  mirroring and reselling raw responses as a competing dataset are forbidden. The terms do not say anything
+  explicit about commercial use of the free plan (free plan is described as for one person trying the
+  APIs; site terms say the service is sold to businesses for business use), nor about storage/caching
+  duration. commercial_use and storage_caching left unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: No blocker found. Upstream licences named in the terms are all commercial-compatible
+  (OGL v3.0; Environment Agency Conditional Licence and SRA need their own acknowledgement carried). Terms
+  do not say whether the free plan may feed a monetised site, so commercial_use/storage_caching remain
+  unknown as in first pass.

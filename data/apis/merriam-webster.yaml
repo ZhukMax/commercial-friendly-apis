@@ -1,0 +1,70 @@
+id: merriam-webster
+name: Merriam-Webster
+url: https://dictionaryapi.com/
+category: Dictionaries
+description: Dictionary and Thesaurus Data
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Merriam-Webster
+  url: https://dictionaryapi.com/
+  category: Dictionaries
+- list: public-api-lists
+  name: Merriam-Webster
+  url: https://dictionaryapi.com/
+  category: Dictionaries
+link_status: alive
+data_license: unknown
+commercial_use: paid-only
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://dictionaryapi.com/info/terms-of-service
+attribution_text: Merriam-Webster logo must feature in applications using the API
+rate_limits: 1000 queries/day per API key, max two reference APIs (free licence)
+evidence:
+- field: commercial_use
+  url: https://dictionaryapi.com/
+  quote: please contact us directly so we can approve use and develop business terms on a case-by-case
+    basis
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://dictionaryapi.com/info/terms-of-service
+  quote: Your website or application is non-commercial
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://dictionaryapi.com/info/branding-guidelines
+  quote: All applications using the Merriam-Webster API must feature the Merriam-Webster logo.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://dictionaryapi.com/
+  quote: usage does not exceed 1000 queries per day per API key
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://dictionaryapi.com/info/terms-of-service
+  quote: Merriam-Webster staff will then respond to arrange terms and payment.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://dictionaryapi.com/info/terms-of-service
+  quote: use the Service for commercial use
+  checked_at: '2026-11-21'
+notes: 'The free API licence is explicitly non-commercial (ToS: "use the Service for commercial use" is
+  prohibited; apps monetised via ads or paid fee must contact Merriam-Webster for case-by-case approval
+  and business terms). No public commercial price/terms, so commercial_use=ambiguous (approval route exists
+  but is unpublished). Storage/caching and display rules were not found in the ToS or brand guidelines
+  read, left unknown; brand guidelines require the MW logo wherever content is displayed. Data licence
+  not stated on a page read; characterised as: proprietary (Merriam-Webster, Incorporated).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Licence agreement is titled non-commercial; ads or fees require case-by-case approval
+  and payment terms; Business terms unpublished, so route is negotiated paid | applied: commercial_use=paid-only'

@@ -1,0 +1,78 @@
+id: ai-trainer-work
+name: AI Trainer Work
+url: https://aitrainer.work/open-data
+category: Jobs
+description: Open AI training jobs (RLHF, data annotation, expert evaluation) from 20+ platforms, with
+  pay
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: AI Trainer Work
+  url: https://aitrainer.work/open-data#api
+  category: Jobs
+link_status: alive
+data_license: CC-BY-4.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: 'yes'
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://aitrainer.work/open-data
+api_terms_url: https://aitrainer.work/terms
+commercial_use_scope: any
+attribution_text: Data from aitrainer.work/open-data, licensed under CC BY 4.0 (link to the Open Data
+  page)
+share_alike: 'no'
+evidence:
+- field: data_license
+  url: https://aitrainer.work/open-data
+  quote: 'License: CC BY 4.0 Free to use for commercial and non-commercial research, reporting, or applications.'
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://aitrainer.work/terms
+  quote: You may copy, redistribute and use them commercially, provided you credit aitrainer.work with
+    a link to the Open Data page.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://aitrainer.work/terms
+  quote: You may copy, redistribute and use them commercially, provided you credit aitrainer.work with
+    a link to the Open Data page.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://aitrainer.work/terms
+  quote: You may copy, redistribute and use them commercially, provided you credit aitrainer.work with
+    a link to the Open Data page.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://aitrainer.work/open-data
+  quote: Attribution with a link to this page is required.
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://aitrainer.work/terms
+  quote: are licensed under CC BY 4.0
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://aitrainer.work/open-data
+  quote: The whole board is also one file at /data/jobs.json
+  checked_at: '2026-11-21'
+notes: 'Terms say the rest of the site is personal, non-commercial viewing only, but the datasets and
+  feeds on the Open Data page (incl. /api/jobs.json and /data/jobs.json) are CC BY 4.0, usable commercially
+  with credit and a link to the open-data page. The licence applies to the listed endpoints only (not
+  the rest of the site). Content is aggregated job listings from 30+ AI-training platforms; their own
+  rights in the listing text/logos are not covered by this licence and upstream terms may be stricter.
+  CC BY has no share-alike (share_alike=no inferred from the licence name). Pages read: /open-data and
+  /terms via curl.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Rest of site is personal non-commercial viewing only; only the listed feeds are open.
+  Extra condition: if you show listings, link each to its url. Listings are scraped from 30+ third-party
+  platforms; their rights in listing text not covered by the CC BY grant (not demonstrably stricter).'

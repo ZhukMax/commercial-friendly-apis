@@ -1,0 +1,25 @@
+id: tinyurl
+name: TinyURL
+url: https://tinyurl.com/app/dev
+category: URL Shorteners
+description: Shorten long URLs
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: TinyURL
+  url: https://tinyurl.com/app/dev
+  category: URL Shorteners
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

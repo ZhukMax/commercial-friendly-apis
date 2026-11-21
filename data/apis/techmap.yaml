@@ -1,0 +1,71 @@
+id: techmap
+name: Techmap
+url: https://api.techmap.io/jobs-api
+category: Jobs
+description: Job postings from 185 sources in 250 countries and territories, with an archive since 2020
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Techmap
+  url: https://api.techmap.io/jobs-api
+  category: Jobs
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://jobdatafeeds.com/pricing
+commercial_use_scope: any
+rate_limits: 'RapidAPI BASIC free: 100 requests (1,000 postings)/month; Pro $29/month 3,000 requests'
+evidence:
+- field: commercial_use
+  url: https://jobdatafeeds.com/pricing
+  quote: Can I show the jobs on my job board? Yes.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://jobdatafeeds.com/pricing
+  quote: Public display on job portals is allowed, as is storing the postings in your own database for
+    matching, enrichment and analytics.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://jobdatafeeds.com/pricing
+  quote: Public display on job portals is allowed, as is storing the postings in your own database for
+    matching, enrichment and analytics.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://jobdatafeeds.com/pricing
+  quote: Reselling the raw job postings to third parties is not.
+  checked_at: '2026-11-21'
+- field: api_terms_url
+  url: https://jobdatafeeds.com/terms
+  quote: API subscriptions via RapidAPI are governed by the applicable RapidAPI terms.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://api.techmap.io/jobs-api
+  quote: The job postings are sourced directly through web crawling and scraping from a diverse range
+    of platforms
+  checked_at: '2026-11-21'
+notes: 'Only the vendor FAQ on jobdatafeeds.com/pricing was found to address use: showing postings on
+  a job board and storing them in your own DB is allowed, reselling raw postings to third parties is not.
+  The binding terms are NOT on the vendor site: its Terms of Service (jobdatafeeds.com/terms, v1.2.0)
+  govern only the website and state that API subscriptions via RapidAPI are governed by the RapidAPI terms
+  and your subscription agreement, AWS data by the AWS Data Subscription Agreement, and direct deals by
+  a signed contract. Those were not read (RapidAPI listing is JS/behind login), so confidence is low.
+  Postings are crawled/scraped from third-party portals, ATS pages, employment offices and LinkedIn, so
+  upstream rights and terms may be stricter. Free BASIC plan exists on RapidAPI. Attribution not addressed.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Binding terms (RapidAPI terms/subscription) were not read; vendor site terms explicitly
+  do not govern the API; Postings scraped from LinkedIn, Monster, Dice etc.; upstream rights unaddressed
+  | applied: commercial_use=unknown, storage_caching=unknown, redistribution_display=unknown'

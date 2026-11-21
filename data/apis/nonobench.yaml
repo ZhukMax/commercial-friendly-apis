@@ -1,0 +1,25 @@
+id: nonobench
+name: Nonobench
+url: https://www.nonobench.com/how-it-works
+category: Machine Learning
+description: Open-source benchmark of how well LLMs solve nonogram puzzles
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Nonobench
+  url: https://www.nonobench.com/how-it-works
+  category: Machine Learning
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

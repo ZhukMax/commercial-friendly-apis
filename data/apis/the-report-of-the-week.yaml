@@ -1,0 +1,38 @@
+id: the-report-of-the-week
+name: The Report of the Week
+url: https://github.com/andyklimczak/TheReportOfTheWeek-API
+category: Food & Drink
+description: Food & Drink Reviews
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: The Report of the Week
+  url: https://github.com/andyklimczak/TheReportOfTheWeek-API
+  category: Food & Drink
+- list: public-api-lists
+  name: The Report of the Week
+  url: https://github.com/andyklimczak/TheReportOfTheWeek-API
+  category: Food & Drink
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: 'yes'
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+evidence:
+- field: self_host_option
+  url: https://raw.githubusercontent.com/andyklimczak/TheReportOfTheWeek-API/HEAD/LICENSE
+  quote: Permission is hereby granted, free of charge, to any person obtaining a copy
+  checked_at: '2026-11-21'
+notes: Read the GitHub README and LICENSE (https://github.com/andyklimczak/TheReportOfTheWeek-API). The repo is MIT and ships the full data as data/reports.json (self-hostable), but the data are reviews/ratings
+  of products from The Report of the Week YouTube channel (a third party); the repo does not state data rights or whether the channel owner permits reuse. Commercial use, storage, display, attribution unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

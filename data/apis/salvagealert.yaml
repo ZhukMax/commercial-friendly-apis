@@ -1,0 +1,66 @@
+id: salvagealert
+name: SalvageAlert
+url: https://salvagealert.com/developers/docs
+category: Vehicle
+description: IAA, Copart and GovDeals salvage auction lots, VIN history and buyer-fee estimates
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: SalvageAlert
+  url: https://salvagealert.com/developers/docs
+  category: Vehicle
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: ambiguous
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://salvagealert.com/legal/terms
+rate_limits: 'Per account: Free 60 req/min, Starter 120, Unlimited 300; credit-based billing'
+evidence:
+- field: storage_caching
+  url: https://salvagealert.com/legal/terms
+  quote: systematically extract, collect, index or bulk-download lot listings, prices, bids, photos, VINs,
+    vehicle histories or any other data from the Service
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://salvagealert.com/legal/terms
+  quote: Access through the API is governed by your plan and the API documentation.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://salvagealert.com/developers/docs
+  quote: the cheap, stable way to mirror every crawled source onto your own site
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://salvagealert.com/developers/docs
+  quote: Free 60 requests per minute, Starter 120, Unlimited 300.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://salvagealert.com/legal/terms
+  quote: Access through the API is governed by your plan and the API documentation.
+  checked_at: '2026-11-21'
+notes: 'Conflicting pages. ToS section 6 (updated 2026-11-16) bans scraping and, without written permission,
+  using data from the Service (incl. its API and data) to build any database/product or to resell, redistribute
+  or publish it; but says API access is governed by plan + API docs, and the API docs invite mirroring
+  the archived inventory onto your own site and sell credits for lots, images, VIN history. No page states
+  whether commercial display/storage on third-party sites is allowed, so commercial_use/storage/display
+  = ambiguous (not read: refund/plan pages). Data is IAA/Copart/GovDeals auction content (lots, photos,
+  VIN history) whose owners likely have stricter terms; SalvageAlert states it is not affiliated with
+  them. Account-scoped key required. Data licence not stated on a page read; characterised as: proprietary
+  / unknown (auction data from IAA, Copart, GovDeals).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read ToS s6 (raw HTML): ''use data obtained from the Service to build, feed or
+  train any database, dataset, product ... or resell, redistribute or publish it'' without written permission,
+  vs API docs ''mirror every crawled source onto your own site''. Binding ToS leans restrictive; no resolution
+  without written permission. Ambiguous/yellow stands, lean no for public display.'

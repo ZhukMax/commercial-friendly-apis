@@ -1,0 +1,43 @@
+id: ipsnapshot
+name: IPSnapshot
+url: https://ipsnapshot.com/ip-lookup-api
+category: Geocoding
+description: IP geolocation, ASN and ISP, plus VPN, datacenter and Tor detection for IPv4 and IPv6
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: IPSnapshot
+  url: https://ipsnapshot.com/ip-lookup-api
+  category: Geocoding
+link_status: alive
+data_license: CC-BY-4.0 (DB-IP Lite underlying data)
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://ipsnapshot.com/terms
+data_license_url: https://creativecommons.org/licenses/by/4.0/
+rate_limits: 'Keyless: 100 requests/day and 30/min per IP; free IPNOVA key: 5,000 lookups/month'
+evidence:
+- field: data_license
+  url: https://ipsnapshot.com/about
+  quote: Geolocation and network data come from DB-IP Lite (CC BY 4.0)
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://ipsnapshot.com/terms
+  quote: currently 100 requests a day per IP address
+  checked_at: '2026-11-21'
+notes: 'Read ipsnapshot.com/terms, /about, /ip-lookup-api and the IPNOVA API portal terms (api.ipnova.com/terms). The keyless-API terms do not say whether commercial use is allowed; they ask to cache responses,
+  forbid reselling the free keyless API as your own service and circumventing limits. The portal terms say free allowances "permit commercial use only where expressly stated" and the API page advertises
+  paid plans "with a commercial licence", so commercial use of the keyless/free tier is unconfirmed: commercial_use left unknown. Underlying data is DB-IP Lite (CC BY 4.0 requires attribution) but the page
+  read does not state attribution duties for API users, so attribution_required left unknown. Storage/display not addressed.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

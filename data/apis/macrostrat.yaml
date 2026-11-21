@@ -1,0 +1,67 @@
+id: macrostrat
+name: Macrostrat
+url: https://macrostrat.org/api
+category: Science & Math
+description: Geologic maps, rock columns and stratigraphy data
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Macrostrat
+  url: https://macrostrat.org/api
+  category: Science & Math
+link_status: alive
+data_license: CC-BY-4.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://creativecommons.org/licenses/by/4.0/
+api_terms_url: https://macrostrat.org/about
+commercial_use_scope: any
+attribution_text: Attribute Macrostrat and the original data sources; cite the Macrostrat paper
+share_alike: 'no'
+evidence:
+- field: data_license
+  url: https://macrostrat.org/about
+  quote: 'Data are licensed CC BY 4.0 : attribute Macrostrat and the original data sources.'
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://macrostrat.org/about
+  quote: 'Data are licensed CC BY 4.0 : attribute Macrostrat and the original data sources.'
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://macrostrat.org/api
+  quote: '"license": "CC-BY 4.0. More info at /meta"'
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://macrostrat.org/api
+  quote: '"license": "CC-BY 4.0. More info at /meta"'
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://macrostrat.org/api
+  quote: '"license": "CC-BY 4.0. More info at /meta"'
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://macrostrat.org/api
+  quote: '"license": "CC-BY 4.0. More info at /meta"'
+  checked_at: '2026-11-21'
+notes: 'About page and API root read: data licensed CC BY 4.0 with attribution to Macrostrat and the original
+  data sources (it integrates third-party geologic maps and databases, so upstream source terms may be
+  stricter and per-source attribution is needed). Commercial/storage/display permissions follow from CC
+  BY 4.0 as declared by the API itself (no separate API terms page; /terms is 404). Medium confidence.
+  Rate limits not stated.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: '/api and /api/meta (license: ''All data are licensed under Creative Commons BY 4.0
+  International'') plus About page. Residual risk: v2/defs/sources lists 876 third-party map/geology sources
+  and none exposes a licence field, so upstream rights are not cleared; /fossils comes from PBDB.'

@@ -1,0 +1,34 @@
+id: pink-agentic-ai-payments
+name: Pink Agentic AI Payments
+url: https://pinkwallet.com/agentic/developers/
+category: Finance
+description: 'Approval layer for AI agent payments: per-agent budgets, rules, single-use credentials,
+  sandbox'
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Pink Agentic AI Payments
+  url: https://pinkwallet.com/agentic/developers/
+  category: Finance
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+notes: Read the developers page only (MCP/REST approval layer for AI agent payments, early access, not
+  a data API); /terms returns a generic page. No terms for API/data use found. All fields unknown.
+evidence: []
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

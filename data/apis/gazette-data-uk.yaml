@@ -1,0 +1,81 @@
+id: gazette-data-uk
+name: Gazette Data, UK
+url: https://www.thegazette.co.uk/data
+category: Government
+description: UK official public record API
+description_source: upstream
+auth: OAuth
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Gazette Data, UK
+  url: https://www.thegazette.co.uk/data
+  category: Government
+link_status: alive
+data_license: OGL-UK-3.0
+commercial_use: 'yes'
+storage_caching: limited
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+api_terms_url: https://www.thegazette.co.uk/data
+commercial_use_scope: any
+attribution_text: Contains public sector information licensed under the Open Government Licence v3.0 (acknowledge
+  The Gazette as source, link to licence)
+share_alike: unknown
+rate_limits: 'Fair use policy for bots/APIs: max 5 requests per 10 seconds, crawl 9pm-7am UK, identifiable
+  User-Agent with contact'
+notes: 'Read /data (re-use page), /terms-and-conditions, /fair-use-policy and the OGL v3.0 text. Gazette
+  content is OGL v3.0 unless stated otherwise, but OGL does NOT cover personal data: insolvency, probate
+  and similar notices name individuals, so storing/displaying them on a commercial site raises UK GDPR
+  issues the licence does not resolve. Free linked-data API (SPARQL/JSON/XML; docs on GitHub TheGazette/DevDocs)
+  plus a paid subscription Data Service with separate T&Cs (not assessed in depth). Auth listed as OAuth
+  upstream; fair-use page governs bot access. Not legal advice.'
+evidence:
+- field: data_license
+  url: https://www.thegazette.co.uk/data
+  quote: free for you to use under the Open Government Licence. However, please note that this licence
+    does not cover the re-use of personal data.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+  quote: exploit the Information commercially and non-commercially for example, by combining it with other
+    Information, or by including it in your own product or application.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+  quote: publish, distribute and transmit the Information
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+  quote: publish, distribute and transmit the Information
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+  quote: acknowledge the source of the Information in your product or application
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://www.thegazette.co.uk/fair-use-policy
+  quote: Limit requests to 5 request every 10 seconds.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://www.thegazette.co.uk/fair-use-policy
+  quote: Carry out crawling in non-business hours between 9pm and 7am UK.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.thegazette.co.uk/data
+  quote: However, please note that this licence does not cover the re-use of personal data.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Fair use policy restricts bots/APIs to 5 requests per 10s and crawling to 9pm-7am
+  UK, and allows access blocking; OGL excludes personal data; insolvency/probate notices name individuals
+  | applied: storage_caching=limited, redistribution_display=ambiguous'

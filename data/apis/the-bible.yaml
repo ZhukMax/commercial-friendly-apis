@@ -1,0 +1,53 @@
+id: the-bible
+name: The Bible
+url: https://docs.api.bible
+category: Books
+description: Everything you need from the Bible in one discoverable place
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: The Bible
+  url: https://docs.api.bible
+  category: Books
+link_status: alive
+data_license: unknown
+commercial_use: paid-only
+storage_caching: limited
+redistribution_display: unknown
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://docs.api.bible/quick-start/licensing-and-access/
+commercial_use_scope: paid
+cache_limit: Fewer than 500 consecutive verses; clear cache every 14 days or less
+attribution_text: Include the copyright information alongside all Scripture displayed
+share_alike: unknown
+rate_limits: Starter 5K/month up to Pro 150K/month
+evidence:
+- field: commercial_use
+  url: https://docs.api.bible/quick-start/licensing-and-access/
+  quote: all licenses require a monthly cost when used commercially
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://docs.api.bible/common-questions/
+  quote: you may only use API response data for non-commercial purposes
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://docs.api.bible/common-questions/
+  quote: You can cache data, but we request that you limit it to fewer than 500 consecutive verses.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://docs.api.bible/common-questions/
+  quote: please include the copyright information along side all of the Scripture you display.
+  checked_at: '2026-11-21'
+notes: 'Read Licensing & Access, Common Questions and Fair Use pages on docs.api.bible (ABS API.Bible); the signed Terms of Service itself (referenced for the commercial/non-commercial agreement) was not
+  read. Free Starter plan: non-commercial, up to 3 licensed Bibles; open-access Bibles on all plans. Ads or in-app purchases count as commercial. Web apps must report usage via FUMS. Sub-licensing is not
+  permitted. Each translation has its own publisher licence, so rights differ per Bible.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

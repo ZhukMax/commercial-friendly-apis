@@ -1,0 +1,76 @@
+id: usgs-earthquake-hazards-program
+name: USGS Earthquake Hazards Program
+url: https://earthquake.usgs.gov/fdsnws/event/1/
+category: Science & Math
+description: Earthquakes data real-time
+description_source: upstream
+auth: none
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: USGS Earthquake Hazards Program
+  url: https://earthquake.usgs.gov/fdsnws/event/1/
+  category: Science & Math
+- list: public-api-lists
+  name: USGS
+  url: https://earthquake.usgs.gov/fdsnws/event/1/
+  category: Disasters
+link_status: alive
+data_license: public-domain
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'no'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits
+api_terms_url: https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits
+commercial_use_scope: any
+attribution_text: Credit the U.S. Geological Survey as source (requested, not required)
+share_alike: 'no'
+rate_limits: Max 20000 events per query (HTTP 400 beyond); no per-key rate limit documented on the page
+  read
+notes: USGS-authored data is public domain; credit requested. Third-party content on usgs.gov may be copyrighted.
+  Earthquake catalog also contains contributed-network data (not assessed). No API-specific ToS found;
+  fdsnws docs page lists only the 20000 limit. Attribution "requested" but treated as not required; verify
+  wording if strictness matters. bulk_download left unknown (not verified).
+evidence:
+- field: data_license
+  url: https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits
+  quote: USGS-authored or produced data and information are considered to be in the U.S. Public Domain.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits
+  quote: we ask that proper credit be given.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://earthquake.usgs.gov/fdsnws/event/1/
+  quote: The service limits queries to 20000, and any that exceed this limit will generate a HTTP response
+    code "400 Bad Request".
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits
+  quote: USGS-authored or produced data and information are considered to be in the U.S. Public Domain.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits
+  quote: USGS-authored or produced data and information are considered to be in the U.S. Public Domain.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits
+  quote: USGS-authored or produced data and information are considered to be in the U.S. Public Domain.
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits
+  quote: USGS-authored or produced data and information are considered to be in the U.S. Public Domain.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Third-party content on usgs.gov may be copyrighted; contributed-network catalog data
+  not assessed.

@@ -1,0 +1,44 @@
+id: spatial-india
+name: Spatial India
+url: https://api.spatialindia.com
+category: Government
+description: 'District-level data for India: Census, NFHS-5, NCRB, RBI and more, reconciled onto one map'
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Spatial India
+  url: https://api.spatialindia.com
+  category: Government
+link_status: alive
+data_license: unknown
+commercial_use: 'no'
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+confidence: high
+link_checked_at: '2026-11-21'
+commercial_use_scope: free-tier
+api_terms_url: https://api.spatialindia.com/terms
+evidence:
+- field: commercial_use
+  url: https://api.spatialindia.com
+  quote: Personal and non-commercial, with attribution. Commercial is not open yet.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://api.spatialindia.com
+  quote: Not yet. The default licence in our terms is personal and non-commercial, and this API ships under it.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://api.spatialindia.com
+  quote: Personal and non-commercial, with attribution. Commercial is not open yet.
+  checked_at: '2026-11-21'
+notes: Keyless API is licensed for personal and non-commercial use only; a commercial licence (bulk table, resale) is announced but not yet available. The Terms page says paid-tier licences can widen the
+  grant, but no commercial tier exists for the API yet. Underlying government sources (Census, NFHS-5, etc.) have their own licences, not assessed.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: red

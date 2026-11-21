@@ -1,0 +1,30 @@
+id: nationnode
+name: NationNode
+url: https://nationnode.vercel.app
+category: Education
+description: Used to fetch the specific details about a country
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: NationNode
+  url: https://nationnode.vercel.app
+  category: Education
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+notes: 'Read nationnode.vercel.app (JS single-page app, via Playwright): marketing text only ("free API
+  ... country-specific data"), no terms, licence or data-source statement; the search widget showed an
+  error. Underlying country data source unknown. All unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

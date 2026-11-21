@@ -1,0 +1,71 @@
+id: epo
+name: EPO
+url: https://developers.epo.org/
+category: Patent
+description: European patent search system api
+description_source: upstream
+auth: OAuth
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: EPO
+  url: https://developers.epo.org/
+  category: Patent
+- list: public-api-lists
+  name: EPO
+  url: https://developers.epo.org/
+  category: Patent
+link_status: alive
+data_license: proprietary (EPO OPS licence, non-exclusive, non-transferable)
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: HTTP 403 (blocked for bots, assumed alive)
+data_license_url: https://www.epo.org/en/service-support/ordering/terms-and-conditions/ops-terms-and-conditions
+api_terms_url: https://www.epo.org/en/service-support/ordering/terms-and-conditions/ops-terms-and-conditions
+commercial_use_scope: any
+rate_limits: Free up to 4 GB/week; above that EUR 2,800 annual subscription; Fair use charter applies
+evidence:
+- field: commercial_use
+  url: https://www.epo.org/en/service-support/ordering/terms-and-conditions/ops-terms-and-conditions
+  quote: No royalties are due to the EPO from the sale or licensing by users of products they have developed
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.epo.org/en/service-support/ordering/terms-and-conditions/ops-terms-and-conditions
+  quote: Users may use and include these data in their own machine-readable databases, products and services
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.epo.org/en/service-support/ordering/terms-and-conditions/ops-terms-and-conditions
+  quote: Users are not permitted to make the data as such available to the public or to copy and/or distribute
+    the data as such.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.epo.org/en/service-support/ordering/terms-and-conditions/ops-terms-and-conditions
+  quote: the user receives a non-exclusive, non-transferable, worldwide licence to access OPS and use
+    the data obtained via OPS as specified below.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://www.epo.org/en/searching-for-patents/data/web-services/ops
+  quote: Up to 4 GB of data per week
+  checked_at: '2026-11-21'
+notes: 'Read OPS Terms and Conditions (3.1-3.3, 4.7) and the OPS overview page. Products built on the
+  data may distribute it, but the raw data "as such" may not be made public: redistribution_display is
+  ambiguous (derived/displayed content inside a product seems allowed, a raw mirror is not). Registration
+  + contract acceptance (EPO accepts by email) required; fair use charter and weekly volume cap apply.
+  No attribution clause found in the OPS terms (unknown). developers.epo.org returned a Cloudflare 403
+  to curl; not bypassed; terms read on epo.org.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read OPS T&C 3.1-3.3, 4.7. 3.1 allows including data in own products/databases;
+  3.2 bans making data as such available to the public; fair use charter and weekly free threshold apply.
+  A public site displaying patent data sits between the two: display ambiguous stands. developers.epo.org
+  Cloudflare-blocked; terms read on epo.org.'

@@ -1,0 +1,50 @@
+id: solematica
+name: Solematica
+url: https://www.solematica.it/sviluppatori
+category: Environment
+description: Compare Italian solar (photovoltaic) installer offers, energy prices (PUN/ARERA) and satellite roof data
+description_source: upstream
+auth: none
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Solematica
+  url: https://www.solematica.it/sviluppatori
+  category: Environment
+link_status: alive
+data_license: proprietary (free public endpoint with mandatory link back; no named licence)
+commercial_use: unknown
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.solematica.it/sviluppatori
+cache_limit: 24 hours
+attribution_text: Dati offerte fotovoltaico forniti da Solematica - Confronto Offerte Fotovoltaico (visible link to https://www.solematica.it/confronto-offerte, no nofollow)
+evidence:
+- field: storage_caching
+  url: https://www.solematica.it/sviluppatori
+  quote: Puoi cachare i dati fino a 24 ore, ma non oltre
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.solematica.it/sviluppatori
+  quote: se usi i dati nel tuo sito, app o servizio, devi includere un link visibile a Solematica nella pagina che mostra i dati
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.solematica.it/sviluppatori
+  quote: se usi i dati nel tuo sito, app o servizio, devi includere un link visibile a Solematica nella pagina che mostra i dati
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.solematica.it/sviluppatori
+  quote: Questo endpoint è gratuito e pubblico
+  checked_at: '2026-11-21'
+notes: 'Developer page (Italian) describes the free public provider-offers endpoint: free, visible non-nofollow link required, cache up to 24 h, no misleading modification. It says nothing explicit about
+  commercial/ad-supported use, so commercial_use stays unknown. The estimate endpoints work either lead-based (user contact data passed to installer partners, GDPR consent) or with prepaid credits. The
+  general Terms and Conditions (/termini) cover the portal and forbid use of Contents beyond the stated purposes without written authorisation; they were read but do not address the API.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

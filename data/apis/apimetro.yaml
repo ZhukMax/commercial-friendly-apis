@@ -1,0 +1,35 @@
+id: apimetro
+name: Apimetro
+url: https://apimetro.dev/swagger/index.html
+category: Transportation
+description: Geospatial data for Mexico City public transport system (Metro, Metrobús, Cablebús, RTP, etc.)
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Apimetro
+  url: https://apimetro.dev/swagger/index.html
+  category: Transportation
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: 'yes'
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://apimetro.dev/
+evidence:
+- field: self_host_option
+  url: https://apimetro.dev/
+  quote: Corre Apimetro en tu propia infraestructura.
+  checked_at: '2026-11-21'
+notes: 'Read apimetro.dev home page and the GitHub LICENSE. No terms of use or data licence for the hosted API or the underlying transport data were found. The repo code is under BSL 1.1 (not open source):
+  free for non-commercial use, but offering it as a hosted/managed service for a fee is excluded; that governs the code, not the data. All core fields unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -1,0 +1,42 @@
+id: invowerk
+name: invowerk
+url: https://invowerk.dev/docs
+category: Data Validation
+description: Validate e-invoices (ZUGFeRD, Factur-X, XRechnung, Peppol BIS) and get a validation report
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: invowerk
+  url: https://invowerk.dev/docs
+  category: Data Validation
+link_status: alive
+data_license: unknown
+commercial_use: 'yes'
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://invowerk.dev/terms
+commercial_use_scope: any
+evidence:
+- field: commercial_use
+  url: https://invowerk.dev/terms
+  quote: 'invowerk richtet sich an Unternehmer im Sinne von § 14 BGB: an alle, die Rechnungen gewerblich
+    oder selbständig beruflich ausstellen oder empfangen.'
+  checked_at: '2026-11-21'
+notes: 'Not a data source: validates e-invoices you submit and returns a report. Terms (German, updated
+  20.11.2026) say the service is offered to businesses (Unternehmer), not consumers, so business use is
+  intended; they say nothing on storing or displaying results, attribution or a data licence, so those
+  stay unknown (verdict unknown). Free and anonymous use is rate-limited; paid plans bill through Polar.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

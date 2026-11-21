@@ -1,0 +1,56 @@
+id: quotelinks-sec-fundamentals
+name: Quotelinks SEC Fundamentals
+url: https://www.quotelinks.com/api/sec-fundamentals/
+category: Finance
+description: Standardized financial statements, profiles and filings for 21,000+ companies from SEC EDGAR
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Quotelinks SEC Fundamentals
+  url: https://www.quotelinks.com/api/sec-fundamentals/
+  category: Finance
+link_status: alive
+data_license: proprietary (Quotelinks Terms of Service; underlying data from SEC EDGAR)
+commercial_use: 'no'
+storage_caching: 'no'
+redistribution_display: 'no'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: high
+link_checked_at: '2026-11-21'
+data_license_url: https://www.quotelinks.com/tos.html
+api_terms_url: https://www.quotelinks.com/tos.html
+commercial_use_scope: any
+rate_limits: Fair use about 10 requests per second per IP address
+share_alike: unknown
+evidence:
+- field: commercial_use
+  url: https://www.quotelinks.com/tos.html
+  quote: Commercial use is permitted only with our prior written agreement.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.quotelinks.com/tos.html
+  quote: redistribute, resell, sublicense, publish, broadcast or otherwise make available any Content obtained from the Services, in whole or in part, in any form
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.quotelinks.com/tos.html
+  quote: store or cache Content in order to serve it to others
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://www.quotelinks.com/tos.html
+  quote: exceed the published fair-use limit of the APIs (about 10 requests per second per IP address)
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.quotelinks.com/tos.html
+  quote: Commercial use is permitted only with our prior written agreement.
+  checked_at: '2026-11-21'
+notes: 'ToS (updated 2026-11-17) allow personal, non-commercial use only; any use that gives others access to the Content counts as commercial and needs a prior written agreement (no paid self-serve
+  plan seen on the pages read). API page FAQ repeats: "No. The API is for personal, non-commercial use". Underlying data is SEC EDGAR (public), and ToS section 7 says users keep rights to obtain
+  public data directly from the source, but the derived/standardized Content is restricted. Pages read: /tos.html, /api/sec-fundamentals/.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

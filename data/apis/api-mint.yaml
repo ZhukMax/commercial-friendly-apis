@@ -1,0 +1,26 @@
+id: api-mint
+name: api-mint
+url: https://api-mint.hoiwan.workers.dev
+category: Currency Exchange
+description: 'Free utility APIs: timezone, forex rates, crypto prices, page metadata'
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: api-mint
+  url: https://api-mint.hoiwan.workers.dev
+  category: Currency Exchange
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: HTTP 404

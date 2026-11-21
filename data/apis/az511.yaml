@@ -1,0 +1,36 @@
+id: az511
+name: AZ511
+url: https://www.az511.com/developers/doc
+category: Transportation
+description: Access traffic data from the ADOT API
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: AZ511
+  url: https://www.az511.com/developers/doc
+  category: Transportation
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+rate_limits: Ten calls every 60 seconds
+api_terms_url: https://www.az511.com/terms
+evidence:
+- field: rate_limits
+  url: https://www.az511.com/developers/doc
+  quote: Throttling is enabled. Ten calls every 60 seconds.
+  checked_at: '2026-11-21'
+notes: 'Read the developer doc page: API key required, throttled to ten calls per 60 seconds, intended to let developers create mobile traffic apps for Arizona. The site terms page (/terms) renders an empty
+  body without login/JS (checked with curl and Playwright), so no terms text could be read. All core fields unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

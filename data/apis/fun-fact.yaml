@@ -1,0 +1,25 @@
+id: fun-fact
+name: Fun Fact
+url: https://api.aakhilv.me
+category: Entertainment
+description: A simple HTTPS api that can randomly select and return a fact from the FFA database
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Fun Fact
+  url: https://api.aakhilv.me
+  category: Entertainment
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

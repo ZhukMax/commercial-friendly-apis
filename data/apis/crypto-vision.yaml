@@ -1,0 +1,45 @@
+id: crypto-vision
+name: Crypto Vision
+url: https://cryptocurrency.cv/developers
+category: Cryptocurrency
+description: Free crypto news aggregator with market context, JSON REST and RSS
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Crypto Vision
+  url: https://cryptocurrency.cv/developers
+  category: Cryptocurrency
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: 'no'
+bulk_download: unknown
+self_host_option: 'yes'
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://cryptocurrency.cv/terms
+rate_limits: 'Free: 100 req/min, 30 days history, no key'
+evidence:
+- field: attribution_required
+  url: https://cryptocurrency.cv/terms
+  quote: we appreciate (but do not require) attribution to Crypto Vision News (cryptocurrency.cv)
+  checked_at: '2026-11-21'
+- field: self_host_option
+  url: https://cryptocurrency.cv/terms
+  quote: The FCN platform source code is open source and licensed under the terms specified in our LICENSE file.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://cryptocurrency.cv/developers
+  quote: Rate Limit 100 req/min
+  checked_at: '2026-11-21'
+notes: Pages are JS-rendered; read via Playwright (fresh context). Service is an aggregator of third-party publishers' RSS headlines/metadata ("All original content remains the property of respective publishers"),
+  plus market data from third parties such as CoinGecko, so upstream terms may be stricter. ToS forbids reselling raw API data without attribution or transformation, mirroring as a competing service, and
+  scraping/redistributing in violation of publishers' terms. No explicit statement on commercial use, caching or display, so those stay unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

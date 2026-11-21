@@ -1,0 +1,37 @@
+id: klarna
+name: Klarna
+url: https://docs.klarna.com/klarna-payments/
+category: Finance
+description: Klarna payment and shopping service
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Klarna
+  url: https://docs.klarna.com/klarna-payments/
+  category: Finance
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://docs.klarna.com/acquirer/klarna/get-started/what-is-klarna-payments/
+api_terms_url: https://docs.klarna.com/acquirer/klarna/get-started/what-is-klarna-payments/
+notes: Docs URL redirects to https://docs.klarna.com/acquirer/klarna/get-started/what-is-klarna-payments/
+  (same Klarna Payments docs). This is a merchant payments API used under a Klarna merchant contract/onboarding;
+  the docs link various product terms (Boost features, Search and Compare etc.) but no data licence for
+  the Payments API. Not a data feed; commercial/storage/display terms not stated on the pages read, so
+  unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

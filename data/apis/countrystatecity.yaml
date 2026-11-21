@@ -1,0 +1,72 @@
+id: countrystatecity
+name: CountryStateCity
+url: https://countrystatecity.in/
+category: Geocoding
+description: World countries, states, regions, provinces, cities & towns in JSON, SQL, XML, YAML, & CSV format
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: CountryStateCity
+  url: https://countrystatecity.in/
+  category: Geocoding
+link_status: alive
+data_license: ODbL-1.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: 'yes'
+self_host_option: 'yes'
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://github.com/dr5hn/countries-states-cities-database/blob/master/LICENSE
+api_terms_url: https://countrystatecity.in/faqs/
+commercial_use_scope: any
+attribution_text: Data by Countries States Cities Database
+share_alike: 'yes'
+rate_limits: 'Community free plan: 3,000 requests/month, 100/day; paid plans from $5/month'
+notes: 'Data is ODbL-1.0: commercial use, storage and redistribution allowed with attribution; derivatives must be shared under the same licence (share-alike, so yellow). The hosted API has plans (Community
+  free, ''for personal projects and exploration''); no separate API ToS page was found (/terms is empty), so API-level conditions are unverified. Offline snapshots and SQL/CSV exports exist.'
+evidence:
+- field: commercial_use
+  url: https://countrystatecity.in/faqs/
+  quote: Yes. The geographic database and offline data packages use ODbL-1.0, which permits commercial use with its attribution and applicable share-alike requirements.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://github.com/dr5hn/countries-states-cities-database
+  quote: Licensed under the Open Database License (ODbL v1.0)
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://github.com/dr5hn/countries-states-cities-database
+  quote: Commercial use, modification, and redistribution all permitted.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://github.com/dr5hn/countries-states-cities-database
+  quote: Commercial use, modification, and redistribution all permitted.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://github.com/dr5hn/countries-states-cities-database
+  quote: Attribution is required
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://github.com/dr5hn/countries-states-cities-database
+  quote: derivatives must be shared under the same license
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://countrystatecity.in/
+  quote: Use the hosted API or download an offline snapshot.
+  checked_at: '2026-11-21'
+- field: self_host_option
+  url: https://countrystatecity.in/pricing
+  quote: Happy to self-host the full open dataset.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://countrystatecity.in/pricing
+  quote: 3,000 requests / month · 100 / day
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -1,0 +1,65 @@
+id: mboum-api
+name: Mboum API
+url: https://docs.mboum.com
+category: Finance
+description: Real-time Stock market and Options Data
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-api-lists
+  name: Mboum API
+  url: https://docs.mboum.com
+  category: Finance
+link_status: alive
+data_license: proprietary (Terms and Conditions)
+commercial_use: paid-only
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://mboum.com/pages/terms-and-conditions
+evidence:
+- field: commercial_use
+  url: https://mboum.com/pages/terms-and-conditions
+  quote: Our Basic and Investor plans are strictly for personal use unless explicitly stated otherwise.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://mboum.com/pages/terms-and-conditions
+  quote: you may not publish, resell, or share the data or derived results with anyone else without written
+    approval from Mboum
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://mboum.com/pages/terms-and-conditions
+  quote: Our Basic and Investor plans are strictly for personal use unless explicitly stated otherwise.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://docs.mboum.com
+  quote: Plans differ by monthly request allowance and by whether commercial use is allowed.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://docs.mboum.com
+  quote: Commercial use lets you use the APIs in your own products, services, and internal tools.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://docs.mboum.com
+  quote: Redistributing our data in raw form is not included.
+  checked_at: '2026-11-21'
+notes: 'Terms (last revised March 2024): Basic and Investor plans are personal-use only, not even internal
+  business use without written approval; publishing, reselling or sharing data or derived results needs
+  written approval. Higher plans and a commercial licence are not described on the pages read, hence commercial_use
+  ambiguous; displaying data on a public site is not allowed on the plans described. Market data is licensed
+  from exchanges/third parties (not checked).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Current docs/pricing: commercial use is a plan feature (included from Developer plan,
+  about 180 USD/month), not absent; Docs say commercial use covers your own products and services, but
+  raw redistribution is not included; ToS (Mar 2024) still bans publishing data or derived results without
+  approval: conflict with newer docs | applied: commercial_use=paid-only, redistribution_display=ambiguous'

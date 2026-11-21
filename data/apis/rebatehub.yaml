@@ -1,0 +1,77 @@
+id: rebatehub
+name: RebateHub
+url: https://rebatehub.ca/data
+category: Open Data
+description: Canadian home energy rebate, grant and loan programs with status, deadlines and official
+  sources
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: RebateHub
+  url: https://rebatehub.ca/data
+  category: Open Data
+link_status: alive
+data_license: CC-BY-4.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: 'yes'
+self_host_option: unknown
+verdict: green
+confidence: high
+link_checked_at: '2026-11-21'
+data_license_url: https://rebatehub.ca/data
+api_terms_url: https://rebatehub.ca/terms
+commercial_use_scope: any
+attribution_text: 'Source: RebateHub.ca, CC BY 4.0 (link RebateHub.ca to https://rebatehub.ca/data; say
+  if data was changed)'
+share_alike: unknown
+evidence:
+- field: data_license
+  url: https://rebatehub.ca/data
+  quote: The dataset is free to copy, share and adapt, including commercially, under the Creative Commons
+    Attribution 4.0 licence
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://rebatehub.ca/data
+  quote: The dataset is free to copy, share and adapt, including commercially, under the Creative Commons
+    Attribution 4.0 licence
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://rebatehub.ca/data
+  quote: The dataset is free to copy, share and adapt, including commercially, under the Creative Commons
+    Attribution 4.0 licence
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://rebatehub.ca/data
+  quote: The dataset is free to copy, share and adapt, including commercially, under the Creative Commons
+    Attribution 4.0 licence
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://rebatehub.ca/data
+  quote: 'Use this line wherever you show the data: Source: RebateHub.ca, CC BY 4.0'
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://rebatehub.ca/data
+  quote: Download CSV Download JSON
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://rebatehub.ca/terms
+  quote: The program dataset is available under the Creative Commons Attribution 4.0 licence through our
+    open data API
+  checked_at: '2026-11-21'
+notes: 'Pages read: /data and /terms (12 Oct 2026). CSV/JSON open dataset under CC BY 4.0 (explicitly
+  commercial); terms confirm. Guide text, design, images and logo are NOT covered. Program amounts/deadlines
+  change, link users to official program sites; do not present the data as coming from government. Underlying
+  program facts come from official sources (not assessed). Data is downloadable files rather than a query
+  API.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Must not present data as government-sourced; amounts are 'up to' estimates. Underlying
+  program facts from official sources.

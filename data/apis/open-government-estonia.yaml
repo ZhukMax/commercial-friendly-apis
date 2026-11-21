@@ -1,0 +1,50 @@
+id: open-government-estonia
+name: Open Government, Estonia
+url: https://avaandmed.eesti.ee/instructions/opendata-dataset-api
+category: Government
+description: Estonia Government Open Data
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Open Government, Estonia
+  url: https://avaandmed.eesti.ee/instructions/opendata-dataset-api
+  category: Government
+link_status: redirect
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://andmed.eesti.ee/instructions/opendata-dataset-api
+api_terms_url: https://abi.ria.ee/teabevarav/andmete-teabevarava-uldjuhend
+evidence:
+- field: commercial_use
+  url: https://abi.ria.ee/teabevarav/andmete-teabevarava-uldjuhend
+  quote: Kasutuslitsents Andmetele kohalduv kasutuslitsents, kui see on määratud.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://abi.ria.ee/teabevarav/avaandmete-litsentsimise-juhend-ja-litsent-creativ
+  quote: Avaandmed antakse taaskasutamisse üldjuhul tingimusteta ehk litsentsita.
+  checked_at: '2026-11-21'
+notes: 'Estonian Data Portal (andmed.eesti.ee) is a catalogue of datasets from many publishers: each dataset
+  carries its own ''use licence'' field (if set), so terms vary per dataset. The RIA help centre says
+  open data is generally given for reuse without conditions/licence and that CC licences are recommended,
+  but that is guidance to publishers, not a portal-wide grant. The old API-instructions URL now shows
+  a ''page not found'' in the portal; the portal is a JS app (read via Playwright and the abi.ria.ee help
+  centre). Whether the portal API needs a key for reading was not verified.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: yellow
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Guide is addressed to publishers, not a portal-wide grant; evidence URL for the 'tingimusteta'
+  quote is abi.ria.ee/teabevarav/avaandmete-litsentsimise-juhend-ja-litsent-creativ. Old API URL dead,
+  key requirement unverified. Yellow stands.
+license_scope: portal-default

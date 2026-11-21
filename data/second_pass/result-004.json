@@ -1,0 +1,419 @@
+[
+ {
+  "id": "greek-mythology",
+  "outcome": "confirmed",
+  "reasons": [
+   "Re-read licence section; wording matches, no other terms page"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Licence text re-read at /api/; CC BY 4.0, commercial allowed. Hobby site, no uptime guarantee; 'attested_in_ancient_sources:false' entries are fictional."
+ },
+ {
+  "id": "gtfs-scorecard",
+  "outcome": "confirmed",
+  "reasons": [
+   "docs/api.md licence section matches; endpoint gtfsscorecard.org live"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Scorecard data CC-BY-4.0 and live catalog.json carries license field. Underlying GTFS feed licences (some may be share-alike per license_notice) are not cleared by the grant; the scores are derived metrics, agency names/feed URLs come from third parties."
+ },
+ {
+  "id": "hexplace",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms page and API attribution field both say CC BY 4.0, commercial OK"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://hexplace.org/terms/",
+    "quote": "also for commercial use, as long as you credit hexplace and link the page the data comes from",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {},
+  "note": "Read /terms/ (updated 7 Nov 2026) and the live API response: attribution.note says free to reuse commercially with credit and link; sources list is CC BY/CC0/PD/CDLA-Permissive plus OSM (ODbL, share-alike applies to OSM values) and a few 'free with credit' sources (SNS Lei 26/2016, TEMIS)."
+ },
+ {
+  "id": "hong-kong-observatory",
+  "outcome": "confirmed",
+  "reasons": [
+   "data.gov.hk terms (read via Playwright) allow commercial use with source acknowledgement"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://data.gov.hk/en/terms-and-conditions",
+    "quote": "You shall indemnify the Government and the Relevant Organisations against any allegations or claims of infringement",
+    "field": "notes"
+   }
+  ],
+  "suggested": {},
+  "note": "Terms v1.2 (26 May 2025): commercial use free of charge allowed on conditions, incl. attribution to Government/organisations and an indemnity clause. HKO dataset page on data.gov.hk links the HKO API doc PDF which contains no extra terms. HKO's own copyright page 404s."
+ },
+ {
+  "id": "icd-10-codes",
+  "outcome": "disputed",
+  "reasons": [
+   "CDC page requires attribution, disclaimer and no substantive change when reusing public-domain content",
+   "First pass left attribution_required unknown and ignored these conditions"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://www.cdc.gov/other/agencymaterials.html",
+    "quote": "The following requirements must be followed to utilize CDC’s public domain content: 1) Attribution to the agency that developed the material must be provided",
+    "field": "attribution_required"
+   },
+   {
+    "url": "https://www.cdc.gov/other/agencymaterials.html",
+    "quote": "3) You may not change the substantive content of the materials",
+    "field": "redistribution_display"
+   }
+  ],
+  "suggested": {
+   "attribution_required": "yes"
+  },
+  "note": "The CDC page the first pass itself cites (read via Playwright) imposes conditions: attribution, a non-endorsement disclaimer, no change to substantive content, state material is free at agency site. NLM FAQ also bars use of NLM/NIH names for endorsement and says some datasets have own terms. Not a commercial ban; verdict at best yellow-ish/needs attribution_required=yes and a note, no ICD-10-CM-specific licence page found."
+ },
+ {
+  "id": "india-gst-hsn-and-sac",
+  "outcome": "confirmed",
+  "reasons": [
+   "Upstream repo LICENSE is MIT as claimed; API page states data source"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "MIT LICENSE of QuantumByteStudios dataset verified on raw.githubusercontent.com. Residual risk, unverified: the codes/descriptions derive from government/WCO HS classification and the maintainer's MIT grant may not clear them; one-person snapshot project with no terms page."
+ },
+ {
+  "id": "inspirehep-net",
+  "outcome": "disputed",
+  "reasons": [
+   "ToS item 1 says service is free for educational and informational use; item 5 gives CC0 for metadata",
+   "Internal conflict on commercial use; abstract/keyword reuse limited to listed sources"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://help.inspirehep.net/knowledge-base/terms-of-use/",
+    "quote": "INSPIRE is provided free of charge for educational and informational use.",
+    "field": "commercial_use"
+   },
+   {
+    "url": "https://help.inspirehep.net/knowledge-base/terms-of-use/",
+    "quote": "The download of email addresses is not permitted.",
+    "field": "redistribution_display"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "ambiguous"
+  },
+  "note": "Same ToS page read in full. Item 5 grants CC0 reuse of metadata with caveats (no emails, abstracts only if source arXiv/CERN, keywords restricted), but item 1 frames the service as educational/informational, and item 4 requires respecting copyright/licence conditions. Reasonable reading is commercial metadata reuse OK, yet the conflict is real; at best yellow with ambiguous commercial_use."
+ },
+ {
+  "id": "instatus",
+  "outcome": "disputed",
+  "reasons": [
+   "Not a data source: write/manage API for the customer's own status page",
+   "Terms grant use for own internal business purposes only, within plan limits",
+   "Quotes do not support commercial use of third-party data or display of Instatus data"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://instatus.com/policies/terms",
+    "quote": "you may use the Service for your own internal business purposes and to communicate with your customers and users",
+    "field": "commercial_use"
+   },
+   {
+    "url": "https://instatus.com/policies/terms",
+    "quote": "resell, sublicense or provide the Service to third parties as a standalone service",
+    "field": "redistribution_display"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "ambiguous",
+   "redistribution_display": "ambiguous"
+  },
+  "note": "ToS (22 KB) re-read: API is part of the paid/plan-limited Service (s4.5 rate limits, key revocation); 'You own your data' covers customer data only. Green in a catalog of data APIs is misleading; entry should be out of scope or unknown."
+ },
+ {
+  "id": "itis",
+  "outcome": "confirmed",
+  "reasons": [
+   "Copyright page confirms public domain and free copying; citation only requested"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://www.itis.gov/privacy.html",
+    "quote": "Information presented on the ITIS website is considered public information and may be distributed or copied.",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {},
+  "note": "Re-read itis.gov/privacy.html: data free of known copyright restrictions, citation requested. Caveat: some pages/linked data are third-party copyrighted; no API-specific terms."
+ },
+ {
+  "id": "japan-neighborhoods",
+  "outcome": "confirmed",
+  "reasons": [
+   "Developers page and ToS confirm CC BY 4.0; no commercial restriction found"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://japanneighborhoods.com/developers",
+    "quote": "All data is available under CC BY 4.0 (Creative Commons Attribution).",
+    "field": "data_license"
+   }
+  ],
+  "suggested": {},
+  "note": "Developers page says all data CC BY 4.0 with required attribution to japanneighborhoods.com and the Tokyo Metropolitan source; ToS credits TMPD data under Tokyo Open Data CC BY 4.0. Census/MLIT-derived fields not individually verified. No rate limit currently."
+ },
+ {
+  "id": "japan-places",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms s3 grant explicitly allows store, cache, commercial use, redistribute with attribution"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://japan-places.local-connect-design.trade/terms",
+    "quote": "Store, cache, and modify the data Use commercially Redistribute with attribution Sublicense",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {},
+  "note": "Read /terms in full: free tier CC BY 4.0, visible attribution required, per-record upstream licences must be preserved; free tier limited to 60 req/min and 1,000 req/month via RapidAPI plan; automated scraping beyond fair use may lead to key revocation. Young self-run service."
+ },
+ {
+  "id": "kanari",
+  "outcome": "confirmed",
+  "reasons": [
+   "API page (Playwright) confirms CC BY 4.0 and credit; no other terms page"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read /en/api: free, no key, 'Only requirement: credit kanari.io with a link', cache responses. Caveats: signals endpoint includes third-party social/press testimonies (posts[] with urls) which kanari cannot relicense; upstream NASA FIRMS/NOAA/EUMETSAT terms not read; young service."
+ },
+ {
+  "id": "knmi",
+  "outcome": "confirmed",
+  "reasons": [
+   "Fair-use policy and FAQ (Playwright) say free incl. commercial, most datasets CC BY 4.0"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://developer.dataplatform.knmi.nl/faq",
+    "quote": "All datasets on this portal are free of charge (also for commercial use)",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {},
+  "note": "Requires registered API key (anonymous key shared/expiring); key must not be embedded client-side, proxy and cache via backend; do not re-download datasets; per-dataset licences in catalogue, some third-party. Attribution 'Source: KNMI' required."
+ },
+ {
+  "id": "kurtaxe",
+  "outcome": "confirmed",
+  "reasons": [
+   "API page says CC BY 4.0, commercial use OK with credit 'Keyset, keyset.cloud/kurtaxe'"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://keyset.cloud/kurtaxe/api/",
+    "quote": "Ja, auch kommerziell, unter CC BY 4.0 mit der Nennung „Keyset, keyset.cloud/kurtaxe“.",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {},
+  "note": "Verbatim FAQ answer found. Data are quoted municipal statute figures; no separate terms/AUP page found. Not tax advice."
+ },
+ {
+  "id": "kvartiry-phuket",
+  "outcome": "confirmed",
+  "reasons": [
+   "Open-data page confirms CC BY 4.0 for /ceny/ datasets and charts"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Green holds only for CC BY datasets; the API also serves guides/districts/FAQ which are not CC but may be quoted/reprinted with an active source link (canonical required on full reprints); official condo rates keep source terms; OSM parts ODbL; photos excluded."
+ },
+ {
+  "id": "land-transport-authority-datamall-singapore",
+  "outcome": "confirmed",
+  "reasons": [
+   "Singapore Open Data Licence and separate API Terms of Service both allow commercial use"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://datamall.lta.gov.sg/content/datamall/en/api-terms-of-service.html",
+    "quote": "you can use, access, call, command, query or request the API, whether commercially or non-commercially",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {},
+  "note": "First pass missed the API ToS (datamall.lta.gov.sg/content/datamall/en/api-terms-of-service.html), now read: commercial and non-commercial use OK, threshold 10M calls/day, indemnity, no IP rights over third-party content, per-API extra terms possible. Site Terms of Use say contents are personal non-commercial, but the licence governs datasets. Account key required."
+ },
+ {
+  "id": "locio",
+  "outcome": "disputed",
+  "reasons": [
+   "Upstream G-NAF EULA adds a mailing restriction and privacy-principles condition that first pass did not read",
+   "Locio page paraphrases it as 'the licence is attribution' only"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://data.gov.au/data/dataset/geocoded-national-address-file-g-naf",
+    "quote": "The open G-NAF data must not be used for the generation of an address or the compilation of an address for the sending of mail",
+    "field": "commercial_use"
+   },
+   {
+    "url": "https://data.gov.au/data/dataset/geocoded-national-address-file-g-naf",
+    "quote": "End users must only use the data in ways that are consistent with the Australian Privacy Principles",
+    "field": "redistribution_display"
+   }
+  ],
+  "suggested": {
+   "attribution_required": "yes"
+  },
+  "note": "Does not block a display/ads site, but the upstream EULA is stricter than the Locio summary; also free tier is 10,000 lookups/month with key, keys found in public repos may be revoked, and OSM layer is ODbL. Suggest yellow or at least notes on EULA conditions."
+ },
+ {
+  "id": "macrostrat",
+  "outcome": "confirmed",
+  "reasons": [
+   "API root and /meta both declare CC BY 4.0"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://macrostrat.org/about",
+    "quote": "Data are licensed CC BY 4.0 : attribute Macrostrat and the original data sources.",
+    "field": "data_license"
+   }
+  ],
+  "suggested": {},
+  "note": "/api and /api/meta (license: 'All data are licensed under Creative Commons BY 4.0 International') plus About page. Residual risk: v2/defs/sources lists 876 third-party map/geology sources and none exposes a licence field, so upstream rights are not cleared; /fossils comes from PBDB."
+ },
+ {
+  "id": "medlineplus-genetics",
+  "outcome": "confirmed",
+  "reasons": [
+   "Using-content page lists Genetics summaries as public domain"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://medlineplus.gov/about/using/usingcontent/",
+    "quote": "You may reproduce, redistribute, and link freely to non-copyrighted content, including on social media.",
+    "field": "redistribution_display"
+   }
+  ],
+  "suggested": {},
+  "note": "Re-read usingcontent page: government work, may reproduce/redistribute freely; acknowledgement requested. Images/stock art and licensed third-party content excluded."
+ },
+ {
+  "id": "meteorologisk-institutt",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToS (rev. 2026-11-05) requires UA and attribution only; CC BY 4.0 / NLOD"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://api.met.no/doc/TermsOfService",
+    "quote": "All open data require attribution as specified in the CC BY 4.0 license",
+    "field": "attribution_required"
+   }
+  ],
+  "suggested": {},
+  "note": "Read ToS via Playwright: attribution per CC BY 4.0, identifying User-Agent, <=20 req/s, cache per Expires header, no Yr name/logo. No commercial ban found."
+ },
+ {
+  "id": "microlink-io",
+  "outcome": "disputed",
+  "reasons": [
+   "Not a data licence: outputs are third-party website content the terms do not clear",
+   "AUP forbids infringing others' IP; user responsible for results",
+   "Free plan only 25 requests/day"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://microlink.io/terms",
+    "quote": "You are responsible for the URLs you send to the Services and for how you use the results.",
+    "field": "redistribution_display"
+   },
+   {
+    "url": "https://microlink.io/terms",
+    "quote": "break any law, or infringe the rights of others, including intellectual property and privacy rights",
+    "field": "storage_caching"
+   }
+  ],
+  "suggested": {
+   "storage_caching": "ambiguous",
+   "redistribution_display": "ambiguous"
+  },
+  "note": "First-pass quote ('You keep all rights to ... outputs you receive') covers only Microlink's own claim, not the extracted metadata/screenshots of source sites. Terms mention API keys, free-tier auth likely stale. Green overstates; yellow/ambiguous."
+ },
+ {
+  "id": "national-park-service-us",
+  "outcome": "disputed",
+  "reasons": [
+   "Disclaimer requires a US Government work notice when NPS material is published commercially",
+   "First pass set attribution_required=no"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://www.nps.gov/aboutus/disclaimer.htm",
+    "quote": "published or republished commercially, in part or in full, the copyright notice must include a reference to the original U.S. Government work",
+    "field": "attribution_required"
+   }
+  ],
+  "suggested": {
+   "attribution_required": "yes"
+  },
+  "note": "Same disclaimer page also says 'not all materials' are public domain (third-party photos, NPS marks). No API-specific terms page found (developer terms-of-use 404); API needs a key. Not a blocker but a mandatory notice on commercial republication."
+ },
+ {
+  "id": "noaa-co-ops",
+  "outcome": "confirmed",
+  "reasons": [
+   "Disclaimers page says public domain, freely usable; attribution only requested"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html",
+    "quote": "may be used freely by the public",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {},
+  "note": "Re-read tidesandcurrents.noaa.gov/disclaimers.html: data 'shall not be modified in content and then presented as official government material', 'unless specifically annotated otherwise'. No API-specific terms found."
+ },
+ {
+  "id": "nobel-prize",
+  "outcome": "confirmed",
+  "reasons": [
+   "API terms say CC0; conditions are non-alteration and no endorsement claims"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://www.nobelprize.org/about/terms-of-use-for-api-nobelprize-org-and-data-nobelprize-org/",
+    "quote": "The Services are free to use according to the Creative Commons Zero (CC0) license.",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {},
+  "note": "Terms say they prevail over CC0 in conflict; must not discredit persons or imply endorsement; access revocable at will; use a local cache."
+ },
+ {
+  "id": "oliver-s-mtor-atlas",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms confirm CC BY 4.0 including commercial use for data and API"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://mtor-atlas.org/terms/",
+    "quote": "You may copy, adapt and reuse them, including commercially, if you credit the Atlas.",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {},
+  "note": "Terms (20 Oct 2026) call the Atlas 'non-commercial' as the operator's self-description, but licence grant says commercial reuse allowed with credit. Titles/abstracts/findings of studies belong to their authors, so reusing abstract text is not covered. Hobby project, no uptime guarantee."
+ }
+]

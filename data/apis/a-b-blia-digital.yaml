@@ -1,0 +1,26 @@
+id: a-b-blia-digital
+name: A Bíblia Digital
+url: https://www.abibliadigital.com.br/en
+category: Books
+description: Do not worry about managing the multiple versions of the Bible
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: A Bíblia Digital
+  url: https://www.abibliadigital.com.br/en
+  category: Books
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: HTTP 503

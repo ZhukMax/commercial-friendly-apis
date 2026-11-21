@@ -1,0 +1,40 @@
+id: php-noise
+name: PHP-Noise
+url: https://php-noise.com/
+category: Art & Design
+description: Noise Background Image Generator
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: PHP-Noise
+  url: https://php-noise.com/
+  category: Art & Design
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: 'yes'
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://php-noise.com/
+notes: 'Read php-noise.com home page, GitHub repo and LICENSE. The hosted service has no terms page; the
+  script is MIT-licensed (so self-hosting for commercial use is permitted by the MIT licence of the code),
+  but nothing states terms for the hosted API or for generated images, so core fields stay unknown. Not
+  a data source: random noise image generator; generated files are stored only 10 minutes.'
+evidence:
+- field: self_host_option
+  url: https://php-noise.com/
+  quote: PHP-Noise is a free and Open Source «Noise Background Image» generator
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

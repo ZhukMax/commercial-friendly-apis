@@ -1,0 +1,74 @@
+id: stock-sentiment
+name: Stock Sentiment
+url: https://api.adanos.org/docs
+category: Finance
+description: Reddit & X/Twitter sentiment analysis for stocks with buzz scores
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: Stock Sentiment
+  url: https://api.adanos.org/docs
+  category: Finance
+link_status: redirect
+data_license: proprietary (Adanos API Data licence, plan-scoped); upstream Reddit/X/news Source Content
+commercial_use: paid-only
+storage_caching: limited
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: -> https://api.adanos.com/docs (terms at https://adanos.com/terms)
+api_terms_url: https://adanos.com/terms
+commercial_use_scope: paid
+cache_limit: cache/store only as reasonably necessary for permitted internal use, minimise Source Content
+share_alike: unknown
+rate_limits: Free 250 req/month; Hobby 250,000/month; Professional 2,500,000/month
+evidence:
+- field: commercial_use
+  url: https://adanos.com/terms
+  quote: Free and Hobby plans are limited to non-commercial use.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://adanos.com/terms
+  quote: A Professional plan is required where API Data or the Service is used in a product or service
+    offered to others
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://adanos.com/terms
+  quote: You may cache and durably store lawfully obtained API Data to the extent reasonably necessary
+    for your permitted internal use
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://adanos.com/terms
+  quote: Professional commercial use permits integration into your application, not resale of the underlying
+    feed.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://adanos.com/terms
+  quote: Adanos grants you a limited, non-exclusive, non-transferable licence to access, copy, store and
+    use API Data
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://adanos.com/terms
+  quote: 'Free: 250 requests per month, 100 requests per minute and up to 30 days of historical queries.'
+  checked_at: '2026-11-21'
+notes: 'Read ToS sections 5, 6, 8, 9, 12 on adanos.com (the /docs page links there; api.adanos.com/terms
+  is 404). Free and Hobby are non-commercial; a Professional plan is needed for customer-facing/commercial
+  use. Storage is allowed only for permitted internal use; publishing or exposing Source Content/Raw Mention
+  Data to unrelated third parties and redistribution as a data feed are prohibited, so public display
+  is ambiguous. Aggregator of Reddit, X/Twitter, news and Polymarket content: upstream platform terms
+  may be stricter and the ToS says you must assess onward use of Source Content yourself.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read adanos.com/terms s5, s6: s5.2 requires Professional for customer-facing functionality;
+  s6.2 ''Storage does not expand your right to publish, redistribute or commercially exploit third-party
+  material''. Upstream Reddit/X/news terms are not read and likely stricter; Aggregated Data (scores)
+  is the safer display layer. Paid-only/limited/ambiguous verdict stands.'

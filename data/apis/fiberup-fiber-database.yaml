@@ -1,0 +1,85 @@
+id: fiberup-fiber-database
+name: FiberUp Fiber Database
+url: https://fiberup.app/data/
+category: Food & Drink
+description: Dietary fiber per serving and per 100 g, split into soluble and insoluble, for ~200 common
+  foods
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: FiberUp Fiber Database
+  url: https://fiberup.app/data/
+  category: Food & Drink
+link_status: alive
+data_license: CC-BY-4.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: 'yes'
+self_host_option: unknown
+verdict: yellow
+confidence: high
+link_checked_at: '2026-11-21'
+data_license_url: https://creativecommons.org/licenses/by/4.0/
+api_terms_url: https://fiberup.app/data/
+commercial_use_scope: any
+attribution_text: Credit FiberUp with a link to https://fiberup.app/data/
+share_alike: 'no'
+evidence:
+- field: commercial_use
+  url: https://fiberup.app/data/
+  quote: you can copy, change, and use it commercially, as long as you credit FiberUp with a link to this
+    page.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://fiberup.app/data/
+  quote: you can copy, change, and use it commercially, as long as you credit FiberUp with a link to this
+    page.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://fiberup.app/data/
+  quote: you can copy, change, and use it commercially, as long as you credit FiberUp with a link to this
+    page.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://fiberup.app/data/
+  quote: Use it in apps, research, classes, spreadsheets, or articles.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://fiberup.app/data/
+  quote: you can copy, change, and use it commercially, as long as you credit FiberUp with a link to this
+    page.
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://fiberup.app/data/
+  quote: you can copy, change, and use it commercially, as long as you credit FiberUp with a link to this
+    page.
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://fiberup.app/data/
+  quote: The same data as CSV
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://fiberup.app/terms
+  quote: You may not reproduce, distribute, or create derivative works from the app or its content without
+    written permission.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://fiberup.app/terms
+  quote: Fiber values come from public nutrition databases (including USDA FoodData Central and Open Food
+    Facts)
+  checked_at: '2026-11-21'
+notes: 'Read https://fiberup.app/data/ (open data page: CC BY 4.0, CSV/JSON download, keyless static JSON
+  API). Values come from USDA FoodData Central and standard references, matched to typical servings. The
+  app''s separate Terms of Use (fiberup.app/terms) cover the app, not this dataset.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Site Terms forbid reproduction of site content without written permission, conflicting
+  with /data/ CC BY page; Terms say values come partly from Open Food Facts (ODbL, share-alike), while
+  /data/ cites only USDA | applied: redistribution_display=ambiguous'

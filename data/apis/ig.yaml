@@ -1,0 +1,41 @@
+id: ig
+name: IG
+url: https://labs.ig.com/gettingstarted
+category: Finance
+description: Spreadbetting and CFD Market Data
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: IG
+  url: https://labs.ig.com/gettingstarted
+  category: Finance
+- list: public-api-lists
+  name: IG
+  url: https://labs.ig.com/gettingstarted
+  category: Finance
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://labs.ig.com/gettingstarted
+rate_limits: 'Per-app non-trading requests/min: 60; per-account non-trading requests/min: 30; historical price points: 10,000/week'
+evidence:
+- field: rate_limits
+  url: https://labs.ig.com/faq.html
+  quote: 'Per-app non-trading requests per minute: 60'
+  checked_at: '2026-11-21'
+notes: 'Read IG Labs getting-started, home and FAQ pages: the API needs a live IG trading account and API key; no fees at default quotas ("we reserve the right to change this policy"). No API terms of use,
+  market-data licence or statement on commercial use, storage or display was found on those pages (/apiterms returned an error). Market data is licensed from exchanges and likely restricted to account holders;
+  all terms unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

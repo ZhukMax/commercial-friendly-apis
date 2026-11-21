@@ -1,0 +1,55 @@
+id: shopsavvy
+name: ShopSavvy
+url: https://shopsavvy.com/data
+category: Shopping
+description: Product pricing and price history across thousands of retailers
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: ShopSavvy
+  url: https://shopsavvy.com/data
+  category: Shopping
+link_status: alive
+data_license: unknown
+commercial_use: paid-only
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://shopsavvy.com/terms/api
+commercial_use_scope: paid
+rate_limits: 1,000 requests per rolling hour per account; plans from $49/month, credit-metered
+evidence:
+- field: commercial_use
+  url: https://shopsavvy.com/terms/api
+  quote: Customer may display, store and use the product, offer, price and history data the Cloud Service returns inside Customer's own applications, websites
+  checked_at: '2026-11-21'
+- field: commercial_use_scope
+  url: https://shopsavvy.com/data
+  quote: You need a free tier. Plans start at $49 a month, with a 14-day trial on Starter.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://shopsavvy.com/terms/api
+  quote: Customer may display, store and use the product, offer, price and history data the Cloud Service returns inside Customer's own applications, websites
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://shopsavvy.com/terms/api
+  quote: Customer may display, store and use the product, offer, price and history data the Cloud Service returns inside Customer's own applications, websites
+  checked_at: '2026-11-21'
+- field: upstream_terms
+  url: https://shopsavvy.com/terms/api
+  quote: This does not cover data that originates from third parties, such as retailer listings, prices, product descriptions and images.
+  checked_at: '2026-11-21'
+notes: 'No free tier (page lists ''You need a free tier'' under ''Not a fit if''); paid plans from $49/month under the ShopSavvy B2B Terms (shopsavvy.com/terms/api). The order-form terms explicitly allow
+  displaying and storing returned data inside the customer''s own apps, websites and for its end users, but bar reselling or redistributing it in bulk or as a standalone dataset/feed or building a competing
+  service. paid-only because the permission is a B2B subscription term, not a statement that commercial use is allowed on any free access. Attribution requirement not found (unknown). Aggregator of retailer/marketplace
+  data: upstream retailer rights are not covered (the provider disclaims third-party data), so stricter upstream terms may apply. Rate limit from the pricing/summary page; the data page was read via curl.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -1,0 +1,25 @@
+id: mailrambo
+name: MailRambo
+url: https://www.mailrambo.com/developers
+category: Email
+description: Verify email deliverability with a strict yes/no, disposable and catch-all detection
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: MailRambo
+  url: https://www.mailrambo.com/developers
+  category: Email
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

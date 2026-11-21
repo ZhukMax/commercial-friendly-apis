@@ -1,0 +1,55 @@
+id: jobspipe
+name: JobsPipe
+url: https://docs.jobspipe.dev
+category: Jobs
+description: Live job postings from 30+ ATS feeds and job boards in one normalized JSON schema
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: JobsPipe
+  url: https://docs.jobspipe.dev
+  category: Jobs
+- list: public-api-lists
+  name: JobsPipe
+  url: https://jobspipe.dev
+  category: Jobs
+link_status: alive
+data_license: proprietary (JobsPipe Terms of Service / Acceptable Use Policy)
+commercial_use: 'yes'
+storage_caching: unknown
+redistribution_display: 'yes'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://jobspipe.dev/terms
+commercial_use_scope: any
+evidence:
+- field: commercial_use
+  url: https://jobspipe.dev/acceptable-use
+  quote: Job search, job boards and job alerts that send applicants to the original posting.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://jobspipe.dev/terms
+  quote: When you display a posting, keep the link to the original posting.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://jobspipe.dev/acceptable-use
+  quote: Job search, job boards and job alerts that send applicants to the original posting.
+  checked_at: '2026-11-21'
+notes: 'Read terms (jobspipe.dev/terms.md twin of /terms) and acceptable-use policy. Job boards are a
+  listed permitted use; no non-commercial restriction found, but terms never say "commercial" or address
+  storage/caching (only "delete data you no longer need"), so storage unknown and verdict unknown. Banned:
+  reselling or redistributing data in bulk or as a competing dataset/feed/API, removing the link to the
+  original posting. Postings belong to employers; aggregates LinkedIn/Indeed etc., so upstream terms may
+  be stricter. Free plan is 1,000 credits one-time. Same vendor as the sibling entry. Merged duplicate
+  entry `jobspipe-jobspipe`.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+aliases:
+- jobspipe-jobspipe

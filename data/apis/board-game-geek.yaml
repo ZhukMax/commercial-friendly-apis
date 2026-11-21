@@ -1,0 +1,26 @@
+id: board-game-geek
+name: Board Game Geek
+url: https://boardgamegeek.com/wiki/page/BGG_XML_API2
+category: Games & Comics
+description: Board games, RPG and videogames
+description_source: upstream
+auth: none
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Board Game Geek
+  url: https://boardgamegeek.com/wiki/page/BGG_XML_API2
+  category: Games & Comics
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: HTTP 403 (blocked for bots, assumed alive)

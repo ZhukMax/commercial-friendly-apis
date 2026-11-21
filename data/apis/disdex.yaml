@@ -1,0 +1,25 @@
+id: disdex
+name: disdex
+url: https://disdex.io/api
+category: Social
+description: Search public Discord servers by name, language, guild tag and size, with member history
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: disdex
+  url: https://disdex.io/api
+  category: Social
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

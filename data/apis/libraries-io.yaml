@@ -1,0 +1,65 @@
+id: libraries-io
+name: Libraries.io
+url: https://libraries.io/api
+category: Open Source Projects
+description: Metadata, dependencies and release history for open-source packages across 30+ managers
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Libraries.io
+  url: https://libraries.io/api
+  category: Open Source Projects
+link_status: alive
+data_license: CC-BY-SA-4.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://libraries.io/terms
+api_terms_url: https://libraries.io/terms
+commercial_use_scope: any
+attribution_text: includes data gathered by Libraries.io (or 'powered by Libraries.io' if providing a service)
+share_alike: 'yes'
+rate_limits: 60 requests/minute per API key (free registered users)
+evidence:
+- field: data_license
+  url: https://libraries.io/terms
+  quote: Data provided by the Service is licensed to you under version 4.0 of the Creative Commons Attribution, Share Alike license
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://libraries.io/terms
+  quote: This license grants permissive rights for users to use the data commercially, and to create and distribute derivative works
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://creativecommons.org/licenses/by-sa/4.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://creativecommons.org/licenses/by-sa/4.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://libraries.io/terms
+  quote: by using the text 'includes data gathered by Libraries.io' in your publication or 'powered by Libraries.io' if providing a service
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://libraries.io/terms
+  quote: places certain conditions on redistribution of the data, including on attribution and the terms the data can be redistributed under
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://libraries.io/api
+  quote: All requests are subject to a 60 request/minute rate limit based on your API key
+  checked_at: '2026-11-21'
+notes: Terms and Conditions page states the data is CC BY-SA 4.0 and the footer repeats 'Data is available under CC-BY-SA 4.0 license'; the CC BY-SA 4.0 deed was read for the copy/redistribute grant. Free
+  API needs a registered account and key; larger-scale access is sold by Tidelift. Libraries.io Terms also say the name/logos are Tidelift trademarks and may not be used without permission. Data is 'scraped
+  from the internet and not validated' (data page), including package licence fields drawn from upstream registries whose own terms were not checked. Share-alike makes this yellow.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

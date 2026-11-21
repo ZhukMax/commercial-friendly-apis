@@ -1,0 +1,94 @@
+id: mapbox-mapbox
+name: Mapbox
+url: https://www.mapbox.com/developers/
+category: Geocoding
+description: Create/customize beautiful digital maps
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-api-lists
+  name: Mapbox
+  url: https://www.mapbox.com/developers/
+  category: Geocoding
+- list: public-apis
+  name: Mapbox
+  url: https://docs.mapbox.com/
+  category: Geocoding
+- list: public-apis
+  name: Mapbox
+  url: https://docs.mapbox.com/api/
+  category: Tracking
+link_status: alive
+data_license: unknown
+commercial_use: 'yes'
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.mapbox.com/legal/tos
+commercial_use_scope: any
+cache_limit: 'Geocoding: temporary results may not be cached; permanent storage needs permanent=true plus
+  a credit card on file or enterprise contract; map tiles not for offline/bulk caching (not verified)'
+attribution_text: Mapbox logo and text attribution (© Mapbox, © OpenStreetMap, Improve this map)
+evidence:
+- field: commercial_use
+  url: https://www.mapbox.com/legal/tos
+  quote: you must purchase a separate commercial license under an active order before accessing or using
+    Services in your Licensed Application for any production use.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://docs.mapbox.com/api/search/geocoding/
+  quote: Temporary results are not allowed to be cached, while Permanent results are allowed to be cached
+    and stored indefinitely.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://docs.mapbox.com/api/search/geocoding/
+  quote: Using Permanent storage with the Geocoding API requires that you have a valid credit card on
+    file or an active enterprise contract.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.mapbox.com/legal/tos
+  quote: make the Services as incorporated in Licensed Applications available to End Users
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://docs.mapbox.com/help/dive-deeper/attribution/
+  quote: Maps using Mapbox map styles or data supplied by Mapbox must display both the Mapbox logo and
+    text attribution.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.mapbox.com/legal/tos
+  quote: If your Licensed Application is related to business intelligence or analytics, sales performance
+    management, cloud database management systems, or real estate
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.mapbox.com/pricing
+  quote: Sign up and start building with meaningful free tiers for most products.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.mapbox.com/legal/tos
+  quote: you must purchase a separate commercial license under an active order before accessing or using
+    Services in your Licensed Application
+  checked_at: '2026-11-21'
+notes: Read the Mapbox Terms of Service (mapbox.com/legal/tos), the Geocoding API docs (storage section)
+  and the attribution guide. Mapbox is a paid pay-as-you-go service with a free usage tier; the ToS license
+  incorporating the Services into applications for end users, but require a separate commercial licence
+  for production use in business intelligence/analytics, sales performance management, cloud database
+  management, real estate and vehicle-related apps, hence ambiguous for general commercial use (no explicit
+  "commercial use allowed" sentence found, and the Product Terms page that defines Licensed Applications
+  and per-product restrictions could not be read in full). Geocoding storage depends on the permanent
+  parameter. Logo and attribution required on maps. Merged duplicate entry `mapbox`.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'First-pass commercial_use quote omits the vertical condition; ToS does not require
+  a commercial licence for all production use; Pricing: free tiers and pay-as-you-go for most products;
+  Ambiguity resolved toward yes (with vertical exclusions) | applied: commercial_use=yes'
+aliases:
+- mapbox

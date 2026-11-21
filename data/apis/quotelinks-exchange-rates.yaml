@@ -1,0 +1,66 @@
+id: quotelinks-exchange-rates
+name: Quotelinks Exchange Rates
+url: https://www.quotelinks.com/api/exchange-rates/
+category: Currency Exchange
+description: ECB daily euro reference rates for 30 currencies since 1999, with conversion; Frankfurter
+  v1 format
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Quotelinks Exchange Rates
+  url: https://www.quotelinks.com/api/exchange-rates/
+  category: Currency Exchange
+link_status: alive
+data_license: ECB euro reference rates (reuse allowed with source credit per ECB policy); Quotelinks API
+  itself personal non-commercial only
+commercial_use: 'no'
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: high
+link_checked_at: '2026-11-21'
+commercial_use_scope: any
+attribution_text: 'Source: European Central Bank reference rates, via Quotelinks'
+api_terms_url: https://www.quotelinks.com/tos.html
+evidence:
+- field: commercial_use
+  url: https://www.quotelinks.com/tos.html
+  quote: Commercial use is permitted only with our prior written agreement.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.quotelinks.com/api/exchange-rates/
+  quote: Commercial use and redistribution of the data are not allowed
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.quotelinks.com/tos.html
+  quote: You may not redistribute, resell or republish data obtained from Quotelinks.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.quotelinks.com/api/exchange-rates/
+  quote: 'When you show the rates, add a credit such as: Source: European Central Bank reference rates,
+    via Quotelinks'
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.quotelinks.com/api/exchange-rates/
+  quote: Under the ECB's statistics reuse policy the ECB allows its statistics to be reused provided the
+    source is quoted.
+  checked_at: '2026-11-21'
+notes: 'Quotelinks Terms of Service (updated 2026-11-17): the services and free APIs are for personal,
+  non-commercial use only; commercial use needs a prior written agreement; no redistribution/resale/republishing.
+  The API page repeats this. The underlying ECB reference rates are reusable with credit under the ECB''s
+  own policy, but the Quotelinks API does not pass that on, so use the ECB feed directly for commercial
+  sites (Frankfurter-compatible alternatives exist). Display in non-commercial projects is allowed with
+  credit (hence ambiguous, not no). Caching is requested for fair use but storage rules are not stated.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read ToS and API page. s7 allows commercial use only for datasets where docs/response
+  name an open licence as Open Data (CC BY: World Bank/OECD); the ECB rates page states commercial use
+  and redistribution are not allowed. Red stands; use ECB directly.'

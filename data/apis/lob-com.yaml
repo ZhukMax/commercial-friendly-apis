@@ -1,0 +1,47 @@
+id: lob-com
+name: Lob.com
+url: https://lob.com/
+category: Data Validation
+description: US Address Verification
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Lob.com
+  url: https://lob.com/
+  category: Data Validation
+- list: public-api-lists
+  name: Lob.com
+  url: https://lob.com/
+  category: Data Validation
+link_status: alive
+data_license: proprietary (Lob Terms of Service)
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.lob.com/terms
+evidence:
+- field: data_license
+  url: https://www.lob.com/service-specific-terms
+  quote: All data obtained from Customer’s use of Lob’s address verification service is subject to the
+    license to access and use Lob Services
+  checked_at: '2026-11-21'
+notes: 'Not an open data source: Lob is a print/mail platform; address verification is one product. Master
+  Terms grant a limited licence "for its business purposes" and bar using the service with or to provide
+  any site, product or service other than on Customer Applications; address verification output is governed
+  by that licence, and it is provided for informational purposes only. Commercial use, caching and display
+  of results are not stated clearly, so left unknown. Upstream USPS data terms not checked. Read: /terms
+  and /service-specific-terms.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

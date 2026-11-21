@@ -1,0 +1,47 @@
+id: front-accounting-apis
+name: Front Accounting APIs
+url: https://frontaccounting.com/fawiki/index.php?n=Devel.SimpleAPIModule
+category: Finance
+description: Front accounting is multilingual and multicurrency software for small businesses
+description_source: upstream
+auth: OAuth
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Front Accounting APIs
+  url: https://frontaccounting.com/fawiki/index.php?n=Devel.SimpleAPIModule
+  category: Finance
+link_status: alive
+data_license: GPL-3.0-or-later (software, FrontAccounting)
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: 'yes'
+verdict: unknown
+confidence: medium
+link_checked_at: '2026-11-21'
+commercial_use_scope: self-hosted
+evidence:
+- field: data_license
+  url: https://frontaccounting.com/fawiki/index.php?n=Main.License
+  quote: FrontAccounting is released under the terms of the GNU General Public License, GPL, as published
+    by the Free Software Foundation
+  checked_at: '2026-11-21'
+- field: self_host_option
+  url: https://frontaccounting.com/fawiki/index.php?n=Main.License
+  quote: FrontAccounting is released under the terms of the GNU General Public License, GPL, as published
+    by the Free Software Foundation
+  checked_at: '2026-11-21'
+notes: 'Not a data API: the page documents a SimpleAPI module of the self-hosted FrontAccounting accounting
+  software (GPL licence read on the project wiki License page). The "data" is whatever the installing
+  business keeps in its own instance, so none of the commercial/storage/display/attribution fields can
+  be established from published terms; left unknown. There is no hosted public service to evaluate. The
+  auth value (OAuth) was not re-verified.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

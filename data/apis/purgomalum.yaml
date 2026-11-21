@@ -1,0 +1,38 @@
+id: purgomalum
+name: PurgoMalum
+url: http://www.purgomalum.com
+category: Data Validation
+description: Content validator against profanity & obscenity
+description_source: upstream
+auth: none
+https: false
+cors: unknown
+sources:
+- list: public-apis
+  name: PurgoMalum
+  url: http://www.purgomalum.com
+  category: Data Validation
+- list: public-api-lists
+  name: PurgoMalum
+  url: http://www.purgomalum.com
+  category: Data Validation
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+notes: Profanity filter web service that processes text you submit (not a dataset). The service page documents
+  parameters and examples only; it has no terms of use, licence or fair-use statement (only a contact
+  e-mail), and /service paths return no terms. Nothing to base commercial/storage/display values on; unknown.
+  Old pages (last update notes date from 2022) but still responding.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

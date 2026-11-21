@@ -1,0 +1,35 @@
+id: verifyum
+name: Verifyum
+url: https://verifyum.com/agents
+category: Blockchain
+description: File timestamp proofs anchored on Solana from a locally computed commitment, no file upload
+description_source: upstream
+auth: none
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Verifyum
+  url: https://verifyum.com/agents
+  category: Blockchain
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://verifyum.com/terms
+evidence: []
+notes: 'Not a data source (file timestamp proofs anchored on Solana). Read https://verifyum.com/terms
+  (5 Nov 2026): free for now with rate limits, no commercial-use, caching or display clause; verification
+  code and local MCP server are MIT licensed. Proof records are public on Solana.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

@@ -1,0 +1,63 @@
+id: open-government-act
+name: Open Government, ACT
+url: https://www.data.act.gov.au/
+category: Government
+description: Australian Capital Territory Open Data
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Open Government, ACT
+  url: https://www.data.act.gov.au/
+  category: Government
+link_status: alive
+data_license: CC-BY-4.0 (portal default; individual datasets show their own licence)
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://www.act.gov.au/copyright
+api_terms_url: https://www.act.gov.au/copyright
+commercial_use_scope: any
+share_alike: unknown
+evidence:
+- field: data_license
+  url: https://www.act.gov.au/copyright
+  quote: the copyright of content on this website is owned by the Australian Capital Territory (ACT) and
+    licensed under a Creative Commons Attribution 4.0 licence.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.act.gov.au/copyright
+  quote: This means you can use most content on the site if you give appropriate attribution.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+notes: 'Portal (Socrata) footer ''Copyright'' links to the ACT Government copyright page (read via Playwright,
+  curl got 403): content is CC BY 4.0 unless stated otherwise, with exceptions listed there. Commercial/caching/display
+  rows rest on the CC BY 4.0 deed. The metadata of one dataset (Cyclist Crashes) also showed licence id
+  CC_40_BY, but datasets can carry other licences: check each. No API-specific terms or rate limits read
+  (Socrata SODA API; app token advisable but not verified).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'act.gov.au copyright page re-read: CC BY 4.0 unless stated otherwise; data.act.gov.au
+  footer links to it. Per-dataset licences not enumerable; check each.'
+license_scope: portal-default

@@ -1,0 +1,62 @@
+id: w-system-eu-business-data
+name: W System EU Business Data
+url: https://api.wsystem.dev/docs
+category: Business
+description: EU VAT (VIES) and EORI validation, company registers, EU/UN/OFAC/UK sanctions screening
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: W System EU Business Data
+  url: https://api.wsystem.dev/docs
+  category: Business
+link_status: alive
+data_license: Mixed upstream licences (EC Decision 2011/833/EU, OGL, Etalab, CC0, CC BY, NLOD, etc.),
+  see data-sources page
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://wsystem.dev/terms
+data_license_url: https://wsystem.dev/data-sources
+rate_limits: 'Free tier: 20 calls/day per IP; paid via x402 or monthly plans'
+evidence:
+- field: data_license
+  url: https://wsystem.dev/data-sources
+  quote: This page lists each upstream source, who owns it, the licence or terms we reuse it under, and
+    the attribution that goes with it.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://wsystem.dev/data-sources
+  quote: This page lists each upstream source, who owns it, the licence or terms we reuse it under, and
+    the attribution that goes with it.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://api.wsystem.dev/llms.txt
+  quote: 'Free tier: 20 calls/day per IP, no API key or signup.'
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://wsystem.dev/data-sources
+  quote: 'Source: Finnish Patent and Registration Office (PRH), YTJ open data, CC BY 4.0.'
+  checked_at: '2026-11-21'
+notes: Read ToS v2 (wsystem.dev/terms), the Data sources and licences page and llms.txt. Aggregator of
+  official sources (VIES, EORI, sanctions lists, company registers), each with its own licence and attribution
+  rule (some, e.g. UN list, have no explicit open licence; VAT data belongs to member states), so upstream
+  terms may be stricter. ToS bans reselling raw access without permission but is silent on commercial
+  use of results, storage and display; paid plans are business-only. Core terms left unknown, attribution
+  ambiguous (per-source).
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'data-sources page shows per-source licences with required attributions (CC BY, OGL,
+  NLOD, Etalab), so attribution is required rather than ambiguous; ToS read in full: no clause bans commercial
+  use of results; only reselling raw access; paid plans are business-only; Open upstream licences found;
+  UN list and ARES/Polish sources have no explicit open licence | applied: attribution_required=yes'

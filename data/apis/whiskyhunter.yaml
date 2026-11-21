@@ -1,0 +1,58 @@
+id: whiskyhunter
+name: WhiskyHunter
+url: https://whiskyhunter.net/api/
+category: Food & Drink
+description: Past online whisky auctions statistical data
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: WhiskyHunter
+  url: https://whiskyhunter.net/api/
+  category: Food & Drink
+- list: public-api-lists
+  name: WhiskyHunter
+  url: https://whiskyhunter.net/api/
+  category: Food & Drink
+link_status: alive
+data_license: proprietary (Whisky Hunter Terms and Conditions)
+commercial_use: 'no'
+storage_caching: 'no'
+redistribution_display: 'no'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://whiskyhunter.net/terms-of-use/
+commercial_use_scope: any
+share_alike: unknown
+evidence:
+- field: commercial_use
+  url: https://whiskyhunter.net/terms-of-use/
+  quote: are for User’s personal and non-commercial use only
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://whiskyhunter.net/terms-of-use/
+  quote: may not be reproduced, duplicated, copied, sold, resold, visited, or otherwise exploited for any commercial purpose without express prior written consent of the Provider
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://whiskyhunter.net/terms-of-use/
+  quote: The User shall not archive, reproduce, distribute, modify, display, perform, publish, license
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://whiskyhunter.net/terms-of-use/
+  quote: The User shall not archive, reproduce, distribute, modify, display, perform, publish, license
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://whiskyhunter.net/terms-of-use/
+  quote: are for User’s personal and non-commercial use only
+  checked_at: '2026-11-21'
+notes: Read the site-wide Terms and Conditions (updated 2026-06-12), which say the Service (including the API and MCP server per section 1.2) and its content are for personal non-commercial use, no resale/commercial
+  use, no archiving/displaying, without prior written consent. The /api/ and /pricing/ pages state no separate API licence; paid membership 'removes restrictions' but nothing says commercial use is then
+  allowed. Red on the general ToS; a written licence from the provider could change this. Data originates from third-party auction houses (site is 'not affiliated'), so upstream rights may be stricter.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

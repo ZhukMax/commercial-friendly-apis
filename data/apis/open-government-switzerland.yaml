@@ -1,0 +1,56 @@
+id: open-government-switzerland
+name: Open Government, Switzerland
+url: https://handbook.opendata.swiss/de/content/nutzen/api-nutzen.html
+category: Government
+description: Switzerland Government Open Data
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Open Government, Switzerland
+  url: https://handbook.opendata.swiss/de/content/nutzen/api-nutzen.html
+  category: Government
+link_status: alive
+data_license: 'per-dataset terms of use (4 levels: open / source required / permission for commercial
+  use)'
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: ambiguous
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://opendata.swiss/en/terms-of-use
+commercial_use_scope: any
+evidence:
+- field: commercial_use
+  url: https://opendata.swiss/en/terms-of-use
+  quote: The symbols next to each dataset indicate what use is permitted.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://opendata.swiss/en/terms-of-use
+  quote: Open use. Use for commercial purposes requires permission of the data owner.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://opendata.swiss/en/terms-of-use
+  quote: Open use. Must provide the source.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://opendata.swiss/en/terms-of-use
+  quote: The symbols next to each dataset indicate what use is permitted.
+  checked_at: '2026-11-21'
+notes: opendata.swiss publishes a CKAN metadata API; each dataset carries one of four terms (open; open
+  + source; commercial needs permission; both), so verdict depends on the dataset ('rights' field per
+  resource). Portal-wide answer is ambiguous (yellow at best). API handbook page (German) read; no rate
+  limits stated. Terms page cites federal authorities' datasets; cantonal/communal data may differ.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Sampled 300 datasets from ckan.opendata.swiss: resource rights mostly open/by/cc-zero/cc-by-sa,
+  ~8% ''terms_by_ask'' (commercial needs permission). Share-alike appears often. Stays ambiguous per dataset.'
+license_scope: portal-default

@@ -1,0 +1,70 @@
+id: aqicn
+name: AQICN
+url: https://aqicn.org/api/
+category: Weather
+description: Air Quality Index Data for over 1000 cities
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: AQICN
+  url: https://aqicn.org/api/
+  category: Weather
+- list: public-api-lists
+  name: AQICN
+  url: http://aqicn.org/api
+  category: Environment
+link_status: alive
+data_license: unknown
+commercial_use: 'no'
+storage_caching: 'no'
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: high
+link_checked_at: '2026-11-21'
+api_terms_url: https://aqicn.org/api/tos/
+commercial_use_scope: any
+attribution_text: Attribution to the World Air Quality Index Project and the originating EPA
+share_alike: unknown
+rate_limits: Default quota 1000 requests/minute (burst 60)
+evidence:
+- field: commercial_use
+  url: https://aqicn.org/api/tos/
+  quote: The data can not be used in paid applications or services.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://aqicn.org/api/tos/
+  quote: Public usage by for-profit corporations requires explicit agreement wit the World Air Quality
+    Index team.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://aqicn.org/api/tos/
+  quote: The data can not be redistributed as cached or archived data.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://aqicn.org/api/tos/
+  quote: The data can not be sold or included in sold packages.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://aqicn.org/api/tos/
+  quote: Attribution to the World Air Quality Index Project as well as originating EPA is mandatory.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://aqicn.org/api/tos/
+  quote: The default quota is max 1000 (one thousand) requests per minute (~16RPS) and with burst up to
+    60 requests.
+  checked_at: '2026-11-21'
+notes: Read the API Terms of Service page. Free API; data may not be sold, used in paid apps/services
+  or redistributed as cached/archived data; public use by for-profit corporations needs explicit agreement.
+  A private agreement with the AQICN team could lift this, so the red verdict assumes no such agreement.
+  The page footer is dated 2019 but it is the live ToS.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read /api/tos/: all quotes verified exactly. Red stands.'

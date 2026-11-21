@@ -1,0 +1,61 @@
+id: nuvinty
+name: Nuvinty
+url: https://nuvinty.com/api-docs
+category: Shopping
+description: UK luxury list prices, price history, increases and partner pre-owned asking prices
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Nuvinty
+  url: https://nuvinty.com/api-docs
+  category: Shopping
+link_status: alive
+data_license: 'proprietary (free API: reuse with credit, no resale)'
+commercial_use: ambiguous
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+attribution_text: Data from Nuvinty (nuvinty.com), with a link to the page given in each result
+rate_limits: Fair use, about 60 requests per minute
+api_terms_url: https://nuvinty.com/terms
+evidence:
+- field: redistribution_display
+  url: https://nuvinty.com/terms
+  quote: You may use the data in your own apps, articles and AI answers, on these conditions
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://nuvinty.com/terms
+  quote: keep to fair use (about 60 requests a minute) and cache results
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://nuvinty.com/terms
+  quote: link to the page given in each result
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://nuvinty.com/terms
+  quote: You may use the data in your own apps, articles and AI answers, on these conditions
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://nuvinty.com/terms
+  quote: These terms cover your use of nuvinty.com, our price API and our MCP server.
+  checked_at: '2026-11-21'
+notes: 'Read nuvinty.com/terms (updated 22 Oct 2026), section 6 ''Our free API and MCP server'', and /api-docs.
+  Free, keyless, read-only. Conditions: credit ''Data from Nuvinty (nuvinty.com)'' and link the result
+  page, ~60 requests/min, cache results, do not resell as a feed/database or present as your own, do not
+  imply endorsement; bulk scraping other than via the API is banned. No explicit non-commercial restriction
+  nor explicit ''commercial use allowed'' sentence, hence commercial_use=ambiguous (yellow). Prices are
+  brands'' list prices and retailers'' asking prices from partner retailers (upstream rights not assessed).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Conflict inside one ToS keeps commercial_use ambiguous; storage/display/attribution
+  confirmed by section 6.

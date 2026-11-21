@@ -1,0 +1,45 @@
+id: russian-calendar
+name: Russian Calendar
+url: https://github.com/egno/work-calendar
+category: Calendar
+description: Check if a date is a Russian holiday or not
+description_source: upstream
+auth: none
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Russian Calendar
+  url: https://github.com/egno/work-calendar
+  category: Calendar
+- list: public-api-lists
+  name: Russian Calendar
+  url: https://github.com/egno/work-calendar
+  category: Calendar
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: 'yes'
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://github.com/egno/work-calendar
+commercial_use_scope: self-hosted
+notes: 'GitHub project egno/work-calendar (archived, last push 2021): a small service you run yourself
+  (docker); there is no public hosted API in the repo (examples use my_host). Code is under LGPL-3.0,
+  but the data it fetches comes from data.gov.ru, whose licence could not be read (site not reachable
+  from this session), so data terms are unknown. Not a data source in itself.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+evidence:
+- field: self_host_option
+  url: https://raw.githubusercontent.com/egno/work-calendar/master/README.md
+  quote: Simply use docker or docker-compose
+  checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

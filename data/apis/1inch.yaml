@@ -1,0 +1,47 @@
+id: 1inch
+name: 1inch
+url: https://business.1inch.com/portal/documentation
+category: Cryptocurrency
+description: API for querying decentralize exchange
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: 1inch
+  url: https://business.1inch.com/portal/documentation
+  category: Cryptocurrency
+link_status: alive
+data_license: unknown
+commercial_use: paid-only
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://business.1inch.com/portal/terms-of-service
+commercial_use_scope: paid
+rate_limits: 'Public API: max 60 requests per minute (non-commercial only)'
+evidence:
+- field: commercial_use
+  url: https://business.1inch.com/portal/terms-of-service
+  quote: If you wish to use our API for commercial purposes, you must select a subscription plan in accordance with Commercial API Terms of Use.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://business.1inch.com/portal/terms-of-service
+  quote: The Public API is provided solely for limited, non-commercial use.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://business.1inch.com/portal/terms-of-service
+  quote: The Public API usage cannot exceed sixty (60) requests per minute.
+  checked_at: '2026-11-21'
+notes: 'Read via Playwright: 1inch Business Terms of Use and Commercial API Terms of Use (Aug 2026, aimed at professional enterprises only; individuals prohibited). Public API is non-commercial only (personal,
+  short-term evaluation; any business/profit-generating use is ''expressly prohibited''); commercial use needs a paid subscription under the Commercial API Terms. Not a data feed: DEX swap/aggregation APIs
+  (swap quotes, orders, unsigned transactions); caching, display/redistribution of quote data and attribution were not located in the parts read (Commercial Terms are 72k characters and only keyword-scanned),
+  so those stay unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

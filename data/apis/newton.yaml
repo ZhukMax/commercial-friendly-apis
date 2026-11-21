@@ -1,0 +1,47 @@
+id: newton
+name: Newton
+url: https://newton.vercel.app
+category: Science & Math
+description: Symbolic and Arithmetic Math Calculator
+description_source: upstream
+auth: none
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Newton
+  url: https://newton.vercel.app
+  category: Science & Math
+- list: public-api-lists
+  name: Newton
+  url: https://newton.now.sh/
+  category: Science & Math
+link_status: alive
+data_license: GPL-3.0 (source code only; not a data licence)
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: 'yes'
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+evidence:
+- field: self_host_option
+  url: https://raw.githubusercontent.com/aunyks/newton-api/master/README.md
+  quote: Licensed under the GNU GPLv3 license.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://raw.githubusercontent.com/aunyks/newton-api/master/README.md
+  quote: Licensed under the GNU GPLv3 license.
+  checked_at: '2026-11-21'
+notes: The only licence found is for the SOURCE CODE (GNU GPLv3, stated in the aunyks/newton-api README),
+  which is not a terms of use for the hosted API or its outputs. No terms/legal page on newton.vercel.app
+  (the root returns 404; the API endpoint /api/v2/derive/x%5E2 answers 200). Hosted-API terms for commercial
+  use, caching, display are therefore unknown. Self-hosting is possible under GPLv3. Duplicate of entry
+  "newton-newton" (newton.now.sh redirects here). Merged duplicate entry `newton-newton`.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+aliases:
+- newton-newton

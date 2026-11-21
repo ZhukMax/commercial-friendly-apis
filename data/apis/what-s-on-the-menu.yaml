@@ -1,0 +1,40 @@
+id: what-s-on-the-menu
+name: What's on the menu?
+url: http://nypl.github.io/menus-api/
+category: Food & Drink
+description: NYPL human-transcribed historical menu collection
+description_source: upstream
+auth: apiKey
+https: false
+cors: unknown
+sources:
+- list: public-apis
+  name: What's on the menu?
+  url: http://nypl.github.io/menus-api/
+  category: Food & Drink
+- list: public-api-lists
+  name: What's on the menu?
+  url: http://nypl.github.io/menus-api/
+  category: Food & Drink
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+rate_limits: 5000 requests/day per token or IP, 2 requests/second
+evidence:
+- field: rate_limits
+  url: http://nypl.github.io/menus-api/
+  quote: We limit requests to 5000 per day either per token or per IP address and to 2 requests per second .
+  checked_at: '2026-11-21'
+notes: 'Read the API docs page (nypl.github.io/menus-api): it has no licence or terms section; token is obtained by emailing NYPL (beta API; docs say ''Beta API v1''). The data page menus.nypl.org (linked
+  from the docs) sits behind an Incapsula bot wall and redirected to www.nypl.org/research/support/whats-on-the-menu, which returned no readable content; not bypassed. Terms/licence of the NYPL menus data
+  therefore unconfirmed (do not infer from NYPL''s general open-data policy). The api.menus.nypl.org host also uncertain/possibly retired.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

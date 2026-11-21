@@ -1,0 +1,30 @@
+id: btcturk
+name: BtcTurk
+url: https://docs.btcturk.com/
+category: Cryptocurrency
+description: Real-time cryptocurrency data, graphs and API that allows buy&sell
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: BtcTurk
+  url: https://docs.btcturk.com/
+  category: Cryptocurrency
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+evidence: []
+notes: Only docs.btcturk.com general-information page found (says API requires an exchange account for market data, trading and account endpoints; no licence text). No terms page located. Exchange API;
+  all terms unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

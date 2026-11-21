@@ -1,0 +1,29 @@
+id: telegram-mtproto
+name: Telegram MTProto
+url: https://core.telegram.org/api
+category: Social
+description: Read and write Telegram data
+description_source: upstream
+auth: OAuth
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Telegram MTProto
+  url: https://core.telegram.org/api#getting-started
+  category: Social
+- list: public-api-lists
+  name: Telegram MTProto
+  url: https://core.telegram.org/api#getting-started
+  category: Social
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

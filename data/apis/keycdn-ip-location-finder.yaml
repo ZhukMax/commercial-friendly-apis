@@ -1,0 +1,26 @@
+id: keycdn-ip-location-finder
+name: keycdn IP Location Finder
+url: https://tools.keycdn.com/geo
+category: Geocoding
+description: Get the IP geolocation data through the simple REST API. All the responses are JSON encoded
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: keycdn IP Location Finder
+  url: https://tools.keycdn.com/geo
+  category: Geocoding
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: ConnectError

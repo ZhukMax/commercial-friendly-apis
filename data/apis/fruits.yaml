@@ -1,0 +1,33 @@
+id: fruits
+name: Fruits
+url: https://fruits-api.netlify.app/graphql
+category: Open Data
+description: Information of fruit trees of the world
+description_source: upstream
+auth: none
+https: true
+cors: 'no'
+sources:
+- list: public-api-lists
+  name: Fruits
+  url: https://fruits-api.netlify.app/graphql
+  category: Open Data
+link_status: dead
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: 301 to an unrelated shop page (honesy.eu); API no longer reachable at the listed URL
+notes: https://fruits-api.netlify.app/graphql answers 301 to an unrelated online shop product page (honesy.eu
+  CBD oil); the root of the netlify site returned a Cloudflare 'Just a moment' challenge (403) to curl.
+  No terms page of the API could be read, the original service appears gone or hijacked. All terms fields
+  left unknown.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+evidence: []
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown

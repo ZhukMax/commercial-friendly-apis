@@ -1,0 +1,34 @@
+id: fanline-wire
+name: FanLine Wire
+url: https://fanlinewire.com/docs
+category: Sports & Fitness
+description: Real-time FanDuel Sportsbook odds — live & in-play and pre-match, with a keyless public snapshot
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: FanLine Wire
+  url: https://fanlinewire.com/docs
+  category: Sports & Fitness
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://fanlinewire.com/terms
+evidence: []
+notes: 'Read the full Terms of Service (updated 2026-09-14) and the docs. The terms are short: only ''Do
+  not share or resell feed access, attempt to circumvent limits, attack the service, or publish credentials.''
+  Nothing is said about commercial use, storage, display or attribution, so all unknown. The service republishes
+  FanDuel Sportsbook odds (not affiliated with FanDuel): upstream/FanDuel terms for the data were not
+  read and are likely stricter. Free plan needs no card; keyless public snapshot per the description.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

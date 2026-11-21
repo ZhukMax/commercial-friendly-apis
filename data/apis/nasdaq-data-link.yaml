@@ -1,0 +1,92 @@
+id: nasdaq-data-link
+name: Nasdaq Data Link
+url: https://data.nasdaq.com/
+category: Open Data
+description: Stock market data
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Nasdaq Data Link
+  url: https://data.nasdaq.com/
+  category: Open Data
+- list: public-api-lists
+  name: Quandl
+  url: https://www.quandl.com/
+  category: Open Data
+link_status: alive
+data_license: proprietary (Nasdaq Data License Terms and Conditions + per-order Service Order; third-party
+  provider terms apply)
+commercial_use: paid-only
+storage_caching: limited
+redistribution_display: 'no'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://data.nasdaq.com/termsandconditions
+commercial_use_scope: paid
+evidence:
+- field: commercial_use
+  url: https://data.nasdaq.com/termsandconditions
+  quote: Such usage shall be for internal business purposes only unless otherwise detailed in the applicable
+    Service Order.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://data.nasdaq.com/termsandconditions
+  quote: a limited, non-exclusive, non-transferable, non-sublicensable, license to receive, use, process
+    and store within the Territory
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://data.nasdaq.com/termsandconditions
+  quote: Derived Data can only be used for internal business purposes except as otherwise detailed in
+    the Service Order or upon Provider’s prior written approval
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://data.nasdaq.com/termsandconditions
+  quote: Client shall comply with any Third Party Provider terms and conditions applicable to the Nasdaq
+    Information
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://data.nasdaq.com/termsandconditions
+  quote: sell, lease, rent, furnish, retransmit, redistribute, disseminate, divert, release, license,
+    sublicense or otherwise permit or provide access
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://data.nasdaq.com/termsandconditions
+  quote: Such usage shall be for internal business purposes only unless otherwise detailed in the applicable
+    Service Order.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://data.nasdaq.com/terms
+  quote: sell, lease, rent, furnish, retransmit, redistribute, disseminate, divert, release, license,
+    sublicense or otherwise permit or provide access to the Nasdaq Information
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://data.nasdaq.com/terms
+  quote: a limited, non-exclusive, non-transferable, non-sublicensable, license to receive, use, process
+    and store within the Territory the data
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://data.nasdaq.com/terms
+  quote: Such usage shall be for internal business purposes only unless otherwise detailed in the applicable
+    Service Order.
+  checked_at: '2026-11-21'
+notes: 'Read the Data License Terms and Conditions via Playwright (JS app; /terms redirects to /termsandconditions;
+  page only partly read, first ~2,500 chars). Default is a negotiated licence: internal business use only,
+  non-sublicensable, unless a Service Order says otherwise; so displaying data on a public monetised site
+  needs a specific order or written approval. Many datasets come from third-party providers with their
+  own terms; some free datasets may differ (not assessed). Rate limits and the rest of the terms (sections
+  1.4 onward) not read. Merged duplicate entry `quandl`.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Terms restrict use to internal business purposes; public dissemination forbidden without
+  Service Order; Derived data also internal only | applied: redistribution_display=no, storage_caching=limited'
+aliases:
+- quandl

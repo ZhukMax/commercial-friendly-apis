@@ -1,0 +1,29 @@
+id: tronald-dump
+name: Tronald Dump
+url: https://www.tronalddump.io/
+category: Games & Comics
+description: The dumbest things Donald Trump has ever said
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Tronald Dump
+  url: https://www.tronalddump.io/
+  category: Games & Comics
+- list: public-api-lists
+  name: tronalddump.io
+  url: https://www.tronalddump.io
+  category: Personality
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

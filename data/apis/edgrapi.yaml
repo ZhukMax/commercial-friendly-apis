@@ -1,0 +1,39 @@
+id: edgrapi
+name: Edgrapi
+url: https://edgrapi.com/docs
+category: Government
+description: 'US government data as JSON: SAM.gov contract opportunities, USAspending awards, Grants.gov grants'
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Edgrapi
+  url: https://edgrapi.com/docs
+  category: Government
+link_status: alive
+data_license: unknown (data derived from public SEC EDGAR filings)
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://edgrapi.com/terms
+evidence:
+- field: acceptable_use
+  url: https://edgrapi.com/terms
+  quote: Don't abuse the service, attempt to bypass rate limits, resell raw access, or use it to break the law.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://edgrapi.com/terms
+  quote: Data originates from public SEC EDGAR filings and is provided "as is", without warranty.
+  checked_at: '2026-11-21'
+notes: Read /terms (short plain-language ToS) and /docs. The terms forbid reselling raw access but say nothing about commercial use, caching or displaying data on a site, so those stay unknown. Underlying
+  SEC data is public (see sec-edgar-data entry) but the service's own terms were not clear. Requires an API key; paid plans exist (pricing page not read).
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

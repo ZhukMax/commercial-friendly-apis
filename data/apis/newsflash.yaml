@@ -1,0 +1,59 @@
+id: newsflash
+name: Newsflash
+url: https://newsflash.sh/docs
+category: News
+description: Deduplicated news events from 260+ sources with corroboration/confidence scores for AI agents
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Newsflash
+  url: https://newsflash.sh/docs
+  category: News
+link_status: alive
+data_license: proprietary (Newsflash ToS; underlying content belongs to publishers)
+commercial_use: 'yes'
+storage_caching: unknown
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://newsflash.sh/terms
+api_terms_url: https://newsflash.sh/terms
+commercial_use_scope: any
+attribution_text: Keep the links/attribution to the original publishers provided in responses
+rate_limits: keyless test 50/day per IP; free key 1,000/day, 30-day lookback; premium 50,000/day, 5-year
+  archive (/mo)
+evidence:
+- field: commercial_use
+  url: https://newsflash.sh/terms
+  quote: You may build products, agents, and analyses on Newsflash output — that's the point.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://newsflash.sh/terms
+  quote: You may not resell or redistribute the corpus wholesale as a substitute for the service itself
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://newsflash.sh/terms
+  quote: When your product displays news items, keep the links/attribution to the original publishers
+    that our responses provide.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://newsflash.sh/terms
+  quote: The underlying news content belongs to its publishers; we index metadata (headlines, summaries,
+    links) and always link back.
+  checked_at: '2026-11-21'
+notes: 'Terms of Service (updated 19 Jul 2026, JS-rendered SPA, read with Playwright in a fresh context):
+  you may build products on the output, but not resell or redistribute the corpus wholesale or bulk-export
+  the archive to offer a competing news API; keep publisher links/attribution when displaying items. Does
+  not state a caching/storage rule (only the bulk-export ban), so storage_caching=unknown, and no explicit
+  "ads allowed" sentence; commercial_use=yes rests on building products. Aggregator of publishers feeds:
+  headlines, summaries and links only; upstream publisher rights belong to them. Free tier has no commercial
+  restriction in the terms. verify_quotes will report unfetchable (SPA).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

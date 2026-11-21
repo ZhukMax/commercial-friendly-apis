@@ -1,0 +1,35 @@
+id: nownodes
+name: Nownodes
+url: https://nownodes.io/
+category: Blockchain
+description: Blockchain-as-a-service solution that provides high-quality connection via API
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Nownodes
+  url: https://nownodes.io/
+  category: Blockchain
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://nownodes.io/assets/data/TOS.pdf
+evidence: []
+notes: Read https://nownodes.io/assets/data/TOS.pdf (4 pages via pdftotext). Generic service terms for
+  a paid blockchain node/API service; no clause on commercial use, caching or display of returned data
+  found. Pricing page not read.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

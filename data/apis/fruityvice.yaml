@@ -1,0 +1,29 @@
+id: fruityvice
+name: Fruityvice
+url: https://www.fruityvice.com
+category: Food & Drink
+description: Data about all kinds of fruit
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Fruityvice
+  url: https://www.fruityvice.com
+  category: Food & Drink
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+notes: 'Read https://www.fruityvice.com: says only that the webservice is ''completely free to use and contribute to''. No terms, licence or attribution page was found (docs page is JS-rendered with no
+  terms link). Data source of the fruit values not stated. All terms unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

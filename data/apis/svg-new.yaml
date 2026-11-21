@@ -1,0 +1,62 @@
+id: svg-new
+name: svg.new
+url: https://svg.new
+category: Art & Design
+description: AI-powered image to SVG vectorization
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: svg.new
+  url: https://svg.new
+  category: Art & Design
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://svg.new/terms
+commercial_use_scope: any
+notes: 'Read svg.new/terms (general Terms of Use; no separate API terms found, /docs 404). Not a data
+  source: image-to-SVG conversion service; the terms cover the user''s own generated Assets. Free account
+  gets 3/day, Pro 1,000/month (home page). Users also grant SVG.new a broad perpetual licence to inputs
+  and Assets, and automated access is forbidden ''except for permitted use of our API''. Plan-level (free
+  vs paid) commercial scope not distinguished in the terms.'
+evidence:
+- field: commercial_use
+  url: https://svg.new/terms
+  quote: we hereby assign to you all rights, title and interest in and to such Assets for your personal
+    or commercial use.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://svg.new/terms
+  quote: we hereby assign to you all rights, title and interest in and to such Assets for your personal
+    or commercial use.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://svg.new/terms
+  quote: we hereby assign to you all rights, title and interest in and to such Assets for your personal
+    or commercial use.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://svg.new/terms
+  quote: You must not modify, create derivative works based on or in any manner commercially exploit the
+    Website or Services
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Not a data source: image-to-SVG conversion tool; terms cover the user''s own generated
+  assets; ToS also says you must not commercially exploit the Website or Services | applied: commercial_use=ambiguous'
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

@@ -1,0 +1,62 @@
+id: countdownshq
+name: CountdownsHQ
+url: https://countdownshq.com/developers
+category: Calendar
+description: Dates and timezone-correct countdowns for 150+ holidays and observances in 18 countries
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: CountdownsHQ
+  url: https://countdownshq.com/developers
+  category: Calendar
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://countdownshq.com/terms
+commercial_use_scope: any
+attribution_text: CountdownsHQ — https://countdownshq.com (visible link; rel="nofollow" is fine)
+share_alike: unknown
+rate_limits: No hard limit; avoid polling /countdown more than about once a minute per visitor
+notes: 'Developer API page: free, no key; display requires a visible credit link (nofollow allowed); asks
+  you to cache list/detail responses on your side. The site Terms of Use (July 2026) say the site provides
+  information ''for personal, informational use'' and forbid scraping or republishing content at scale
+  and mention ads on the site, which is not clearly compatible with commercial reuse of the API data,
+  hence commercial use is ambiguous. Holiday data may rely on upstream official sources (not assessed).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+evidence:
+- field: commercial_use
+  url: https://countdownshq.com/terms
+  quote: CountdownsHQ provides holiday and event information and countdowns for personal, informational
+    use.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://countdownshq.com/developers
+  quote: please cache list and detail responses on your side
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://countdownshq.com/developers
+  quote: If you display the data, please credit CountdownsHQ with a visible link
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://countdownshq.com/developers
+  quote: If you display the data, please credit CountdownsHQ with a visible link
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://countdownshq.com/developers
+  quote: No hard rate limit is enforced today
+  checked_at: '2026-11-21'
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Evidence leans to usable via API page, but site ToS wording keeps it ambiguous.

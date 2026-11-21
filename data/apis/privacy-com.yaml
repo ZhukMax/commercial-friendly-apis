@@ -1,0 +1,26 @@
+id: privacy-com
+name: Privacy.com
+url: https://privacy.com/developer/docs
+category: Security
+description: Generate merchant-specific and one-time use credit card numbers that link back to your bank
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Privacy.com
+  url: https://privacy.com/developer/docs
+  category: Security
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://developers.privacy.com/docs/getting-started

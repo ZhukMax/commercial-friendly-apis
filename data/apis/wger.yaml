@@ -1,0 +1,80 @@
+id: wger
+name: Wger
+url: https://wger.de/en/software/api
+category: Sports & Fitness
+description: Workout manager data as exercises, muscles or equipment
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Wger
+  url: https://wger.de/en/software/api
+  category: Sports & Fitness
+- list: public-api-lists
+  name: Wger
+  url: https://wger.de/en/software/api
+  category: Sports & Fitness
+link_status: alive
+data_license: CC-BY-SA-3.0 (initial exercise and ingredient data only); software AGPL-3.0
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: 'yes'
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+data_license_url: https://creativecommons.org/licenses/by-sa/3.0/
+api_terms_url: https://wger.readthedocs.io/en/latest/
+commercial_use_scope: any
+attribution_text: Appropriate credit, link to the CC BY-SA licence, indicate changes
+share_alike: 'yes'
+rate_limits: Ingredient list 120/min, ingredient detail 300/min, ingredient-sync 600/min; exercise creation
+  20/hour; other endpoints unthrottled
+notes: 'wger.de (hosted site, ToS, API page and about pages) sits behind an Anubis proof-of-work bot challenge
+  for curl; not bypassed, so hosted-service terms were NOT read. Read the project docs on wger.readthedocs.io
+  (API usage, licence section): public endpoints such as exercises and ingredients need no authentication
+  (upstream ''apiKey'' is only for user-owned data, so auth set to none); rate limits listed. Licence
+  statement covers only the ''initial'' exercise/ingredient data (CC-BY-SA 3.0, stated by the project);
+  licence of later community-contributed exercises and of ingredient data (likely imported from other
+  sources) and wger.de''s own terms were not verified, hence commercial_use=ambiguous and confidence low.
+  The CC deed (3.0) itself permits commercial use with attribution and share-alike, and some images come
+  from Wikipedia with separate licences. Self-hosting is supported (AGPL software, Docker). Share-alike
+  applies to adaptations you distribute.'
+evidence:
+- field: data_license
+  url: https://wger.readthedocs.io/en/latest/
+  quote: The initial exercise and ingredient data is licensed additionally under a Creative Commons Attribution
+    Share-Alike 3.0 (CC-BY-SA 3.0)
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://creativecommons.org/licenses/by-sa/3.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://creativecommons.org/licenses/by-sa/3.0/
+  quote: Attribution — You must give appropriate credit
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://creativecommons.org/licenses/by-sa/3.0/
+  quote: ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions
+    under the same license
+  checked_at: '2026-11-21'
+- field: self_host_option
+  url: https://wger.readthedocs.io/en/latest/
+  quote: The application is licenced under the Affero GNU General Public License 3 or at your choice any
+    later version (AGPL 3+).
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://creativecommons.org/licenses/by-sa/3.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Ambiguity narrowed toward permissive: CC-BY-SA applies to initial data, later contributions
+  not verified. Share-alike keeps verdict yellow.'

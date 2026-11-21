@@ -1,0 +1,52 @@
+id: swanum-comps
+name: Swanum Comps
+url: https://swanum.com/comps/docs
+category: Shopping
+description: Sold resale prices from Vinted (7 European countries) and eBay US, with median and price
+  range
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Swanum Comps
+  url: https://swanum.com/comps/docs
+  category: Shopping
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://swanum.com/terms
+rate_limits: 'Free beta: 1,000 API requests a month, 5 a second'
+evidence:
+- field: redistribution_display
+  url: https://swanum.com/terms
+  quote: You may not resell, redistribute, or use the Service to build a competing data product without
+    prior written permission.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://swanum.com/comps/pricing
+  quote: 1,000 API requests a month, 5 a second
+  checked_at: '2026-11-21'
+notes: 'Site-wide Terms of use (updated 2026-10-31) are a short generic text: lawful use only; no reselling,
+  redistributing or building a competing data product without written permission; data from ''public listings
+  and official databases'', no accuracy guarantee. Nothing explicit on commercial use, caching/storage
+  or displaying the figures on a third-party site, so commercial_use and storage unknown and display ambiguous
+  (redistribution banned, display not addressed). Pro plan ($29/month) announced but not open. Sold prices
+  are derived by watching Vinted/eBay listings; Vinted has no official API and the page says it is not
+  affiliated with Vinted, so upstream marketplace terms are unaddressed and may be stricter.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read swanum.com/terms (short, generic). Upstream: Vinted T&Cs prohibit users to
+  ''data mine, screen scrape, crawl'' and commercialise site content (applies to Vinted users, so a real
+  risk to Swanum''s supply of data). Commercial/storage stay unknown; verdict unknown stands.'

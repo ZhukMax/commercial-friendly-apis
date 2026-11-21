@@ -1,0 +1,89 @@
+id: us-zipcode
+name: US ZipCode
+url: https://www.smarty.com/docs/cloud/us-zipcode-api
+category: Geocoding
+description: Validate and append data for any US ZipCode
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: US ZipCode
+  url: https://www.smarty.com/docs/cloud/us-zipcode-api
+  category: Geocoding
+- list: public-api-lists
+  name: US ZipCode
+  url: https://smartystreets.com/docs/cloud/us-zipcode-api
+  category: Geocoding
+link_status: redirect
+data_license: proprietary (Smarty subscription licence; USPS data under USPS terms)
+commercial_use: paid-only
+storage_caching: limited
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: -> https://www.smarty.com/docs/apis/us-zipcode-api/reference
+api_terms_url: https://www.smarty.com/legal/terms-of-service
+commercial_use_scope: paid
+rate_limits: 'Free trial: 42 days, 1,000 address lookups; paid plans from 12K lookups/year'
+evidence:
+- field: commercial_use
+  url: https://www.smarty.com/pricing
+  quote: Free trial $0 42 days 1,000 address lookups
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.smarty.com/legal/terms-of-service
+  quote: Internal Business Purposes do not include resale, sublicensing, redistribution, or any other
+    commercial exploitation
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.smarty.com/legal/terms-of-service
+  quote: a non-exclusive, non-transferable, and non-sublicensable license to use and store the Data Products
+    and Output Data subscribed to under the applicable Sales Order
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.smarty.com/legal/terms-of-service
+  quote: This may include embedding permitted API Products into Subscriber’s website or application
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://www.smarty.com/pricing
+  quote: Free trial $0 42 days 1,000 address lookups
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.smarty.com/legal/terms-of-service
+  quote: a non-exclusive, non-transferable, and non-sublicensable license to use and store the Data Products
+    and Output Data subscribed to under the applicable Sales Order
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.smarty.com/legal/terms-of-service
+  quote: Absent a Perpetual Retention Right, Subscriber shall immediately cease all use of such data,
+    delete or destroy all copies within thirty (30) days
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.smarty.com/legal/terms-of-service
+  quote: provided the API functions only in the background to process data and deliver results to end-users
+    interacting with Subscriber’s interface
+  checked_at: '2026-11-21'
+notes: 'Pages read: Smarty Subscription Agreement (legal/terms-of-service, incl. Exhibit A product terms)
+  and pricing page. Only a 42-day / 1,000-lookup free trial exists; ongoing use needs a paid subscription
+  (hence paid-only). The licence allows use and storage of Output Data for "Internal Business Purposes"
+  (as limited by the Sales Order; some products require deletion or a perpetual licence), which includes
+  embedding the API in your website or app so results reach end users interacting with your interface.
+  It excludes resale, sublicensing, redistribution, "other commercial exploitation" and making bulk Output
+  Data available to third parties, so showing data on an ad/affiliate site is a grey area (redistribution_display
+  ambiguous). Attribution not required in the terms read (left unknown). Same terms apply to both smarty.com
+  and smartystreets.com entries (smartystreets.com redirects to smarty.com). Merged duplicate entry `us-zipcode-smartystreets`.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Absent a Perpetual Retention Right, stored data must be deleted within 30 days after
+  term; Embedding allowed only if API works in background; bulk Output Data to third parties banned |
+  applied: storage_caching=limited'
+aliases:
+- us-zipcode-smartystreets

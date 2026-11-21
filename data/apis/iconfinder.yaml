@@ -1,0 +1,39 @@
+id: iconfinder
+name: Iconfinder
+url: https://developer.iconfinder.com
+category: Art & Design
+description: Icons
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Iconfinder
+  url: https://developer.iconfinder.com
+  category: Art & Design
+- list: public-api-lists
+  name: Iconfinder
+  url: https://developer.iconfinder.com
+  category: Art & Design
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: developer.iconfinder.com -> docs.freepik.com/api-reference/icons/icons-api -> docs.magnific.com/api-reference/icons/icons-api;
+  www.iconfinder.com -> www.freepik.com/icons
+notes: developer.iconfinder.com 301-redirects (via docs.freepik.com) to the Magnific/Freepik Icons API
+  docs, and iconfinder.com redirects to freepik.com/icons. The landed docs page never mentions Iconfinder
+  or says it replaces the old Iconfinder API, so no terms are transferred; the Iconfinder API itself could
+  not be read (www.iconfinder.com returns 403 to curl). Terms left unknown. The Magnific Icons API is
+  a separate keyed (x-magnific-api-key) product; see the freepik entry for Freepik/Magnific API terms.
+evidence: []
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

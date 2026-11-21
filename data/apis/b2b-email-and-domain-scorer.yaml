@@ -1,0 +1,25 @@
+id: b2b-email-and-domain-scorer
+name: B2B Email & Domain Scorer
+url: https://rapidapi.com/MohamedBahaa/api/b2b-email-domain-scorer
+category: Email
+description: 'Email verification: MX, disposable/free/role detection, typo fix and a keep/fix/drop action'
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: B2B Email & Domain Scorer
+  url: https://rapidapi.com/MohamedBahaa/api/b2b-email-domain-scorer
+  category: Email
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

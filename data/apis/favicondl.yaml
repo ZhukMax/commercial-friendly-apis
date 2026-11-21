@@ -1,0 +1,50 @@
+id: favicondl
+name: Favicondl
+url: https://favicondl.com/documentation.html
+category: Art & Design
+description: Get any website's favicon by URL (SVG/PNG/ICO), with JSON metadata and fallbacks
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Favicondl
+  url: https://favicondl.com/documentation.html
+  category: Art & Design
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: 'yes'
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://favicondl.com/documentation.html
+commercial_use_scope: any
+share_alike: unknown
+rate_limits: No fixed quota (fair use); no bulk crawling
+notes: Read the documentation page (includes Rate Limits and a 'Commercial Use' paragraph) and the privacy
+  page; no ToS or licence page exists. The service is free, no key, no paid tier; the docs recommend caching/storing
+  icons yourself but never state that commercial use is licensed, hence commercial_use ambiguous. Returned
+  icons are the favicons of third-party websites (logos/trademarks owned by those sites), so display rights
+  are not covered by the service and stay unknown. Bulk crawling discouraged.
+evidence:
+- field: commercial_use
+  url: https://favicondl.com/documentation.html
+  quote: There is no paid tier or SLA. For high-volume or business-critical use, store the icons you need
+    in your own storage.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://favicondl.com/documentation.html
+  quote: Please cache icons on your side and avoid bulk crawling
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read docs and FAQ: no ToS; FAQ says favicons are usually part of owner''s logo/trademark,
+  fine to show which site a link points to, not as own branding. ambiguous/unknown stands.'

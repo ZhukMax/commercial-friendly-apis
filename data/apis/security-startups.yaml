@@ -1,0 +1,70 @@
+id: security-startups
+name: Security Startups
+url: https://securitystartups.com/for-agents
+category: Open Data
+description: Curated directory of young security companies with proof-of-life signals
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Security Startups
+  url: https://securitystartups.com/for-agents
+  category: Open Data
+link_status: alive
+data_license: CC-BY-4.0 (stats API/charts only); directory catalogue licence not stated
+commercial_use: ambiguous
+storage_caching: ambiguous
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: 'yes'
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://securitystartups.com/terms
+commercial_use_scope: any
+attribution_text: Security Startups (securitystartups.com) with a link (stats)
+share_alike: unknown
+rate_limits: 60 requests per minute per IP (MCP); shared per-IP budget on API routes
+evidence:
+- field: data_license
+  url: https://securitystartups.com/for-agents
+  quote: 'CC BY 4.0: credit "Security Startups (securitystartups.com)" with a link.'
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://securitystartups.com/for-agents
+  quote: 'CC BY 4.0: credit "Security Startups (securitystartups.com)" with a link.'
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://securitystartups.com/for-agents
+  quote: 'Limit: 60 requests per minute per IP.'
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://securitystartups.com/for-agents
+  quote: GET https://securitystartups.com/api/startups.json
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://securitystartups.com/terms
+  quote: Directory content is provided as-is for discovery; we do not endorse listed companies.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://securitystartups.com/terms
+  quote: Directory content is provided as-is for discovery; we do not endorse listed companies.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://securitystartups.com/terms
+  quote: Directory content is provided as-is for discovery; we do not endorse listed companies.
+  checked_at: '2026-11-21'
+notes: 'Pages read: /for-agents, /terms ("Listing terms"), /legal. Only the five aggregate stats charts
+  (/api/v1/stats) are explicitly CC BY 4.0. The company catalogue (/api/search, /api/startups.json, MCP)
+  has no licence or reuse statement; the terms page only covers listings and says content is provided
+  as-is. Catalogue entries are public company facts but descriptions are the site''s own; listings are
+  paid by companies. Confirm with the operator before republishing the catalogue.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read via Playwright: terms say content ''as-is for discovery''; no reuse grant
+  for the catalogue.'

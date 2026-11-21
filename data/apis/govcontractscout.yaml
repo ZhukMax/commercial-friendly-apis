@@ -1,0 +1,66 @@
+id: govcontractscout
+name: GovContractScout
+url: https://scout.govbidportals.com
+category: Government
+description: 'US state & local government contracts: search, details, NAICS lookup and AI match scoring'
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: GovContractScout
+  url: https://scout.govbidportals.com
+  category: Government
+link_status: alive
+data_license: unknown
+commercial_use: paid-only
+storage_caching: ambiguous
+redistribution_display: 'yes'
+attribution_required: unknown
+bulk_download: 'no'
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://scout.govbidportals.com/api-terms
+commercial_use_scope: paid
+share_alike: unknown
+rate_limits: Free 30/min, 100 req/month (evaluation only); Starter 60/min 10,000/month ($99); Growth 300/min
+  50,000/month ($199)
+notes: Read /api-terms (updated 2026-09-09) and /docs/api. Commercial use allowed on paid tiers; free
+  key is evaluation only (no production/automated collection), hence paid-only. Caching/storage not addressed
+  except a ban on mirroring/exporting to rebuild the database, so ambiguous. Underlying data comes from
+  public procurement portals whose own terms are the user's responsibility per the terms. Attribution
+  not mentioned.
+evidence:
+- field: commercial_use
+  url: https://scout.govbidportals.com/api-terms
+  quote: You may use the API commercially. Build it into your own product, internal tools, workflows,
+    and client work.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://scout.govbidportals.com/api-terms
+  quote: Run automated or production data collection on the free tier. The free tier is for evaluation
+    and testing
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://scout.govbidportals.com/api-terms
+  quote: Using the data to inform, enrich, or power your own product or service is fine. Redistributing
+    the data itself as a product is not.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://scout.govbidportals.com/api-terms
+  quote: Scrape, mirror, or systematically export the API in order to rebuild or replicate the underlying
+    database.
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://scout.govbidportals.com/api-terms
+  quote: Resell or redistribute the raw contract dataset as a competing data feed, API, or bulk database.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Terms also make user responsible for upstream portal ToS and bar mirroring; ambiguity
+  on storage remains.

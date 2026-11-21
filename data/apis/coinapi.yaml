@@ -1,0 +1,37 @@
+id: coinapi
+name: CoinAPI
+url: https://docs.coinapi.io/
+category: Cryptocurrency
+description: All Currency Exchanges integrate under a single api
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: CoinAPI
+  url: https://docs.coinapi.io/
+  category: Cryptocurrency
+- list: public-api-lists
+  name: CoinAPI
+  url: https://docs.coinapi.io/
+  category: Cryptocurrency
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://www.coinapi.io/docs
+api_terms_url: https://www.coinapi.io/legal
+evidence: []
+notes: 'coinapi.io now belongs to API Bricks Ltd (f/k/a CoinAPI Ltd); docs.coinapi.io redirects to coinapi.io/docs. Read Customer Agreement and Acceptable Usage Policy: AUP bans re-selling the Services;
+  Customer Agreement says external Data Sources "may be subject to restrictions of use and require additional license agreements with the third party" (aggregator of 300+ exchanges, upstream terms may be
+  stricter). No explicit commercial-use, caching, display or attribution terms for data; plan-specific licences not read. All core fields unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

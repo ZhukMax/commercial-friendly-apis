@@ -1,0 +1,62 @@
+id: data-parliament-uk
+name: Data.parliament.uk
+url: https://explore.data.parliament.uk/?learnmore=Members
+category: Government
+description: Contains live datasets including information about petitions, bills, MP votes, attendance
+  and more
+description_source: upstream
+auth: none
+https: false
+cors: unknown
+sources:
+- list: public-apis
+  name: Data.parliament.uk
+  url: https://explore.data.parliament.uk/?learnmore=Members
+  category: Government
+link_status: alive
+data_license: OPL-3.0 (Open Parliament Licence v3.0)
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://www.parliament.uk/site-information/copyright-parliament/open-parliament-licence/
+api_terms_url: https://developer.parliament.uk/
+commercial_use_scope: any
+attribution_text: Contains Parliamentary information licensed under the Open Parliament Licence v3.0.
+evidence:
+- field: data_license
+  url: https://developer.parliament.uk/
+  quote: All data is made available under the Open Parliament Licence.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.parliament.uk/site-information/copyright-parliament/open-parliament-licence/
+  quote: exploit the information commercially and non-commercially, for example, by combining it with
+    other information, or by including it in your own product or application
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.parliament.uk/site-information/copyright-parliament/open-parliament-licence/
+  quote: copy, publish, distribute and transmit the information
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.parliament.uk/site-information/copyright-parliament/open-parliament-licence/
+  quote: copy, publish, distribute and transmit the information
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.parliament.uk/site-information/copyright-parliament/open-parliament-licence/
+  quote: Contains Parliamentary information licensed under the Open Parliament Licence v3.0.
+  checked_at: '2026-11-21'
+notes: Parliament developer hub states all API data is under the Open Parliament Licence (read in full
+  via Playwright because curl hit a bot challenge). OPL excludes personal data in the information, the
+  Royal Arms/Crowned Portcullis and third-party rights; MP/Lords personal details need care. No rate limits
+  or separate API terms found on the hub. The entry URL (explore.data.parliament.uk) was not itself read.
+  share_alike not stated in OPL text read, left unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Entry URL explore.data.parliament.uk itself not read; MP personal details need care.

@@ -1,0 +1,73 @@
+id: purple-air
+name: Purple Air
+url: https://www2.purpleair.com/
+category: Science & Math
+description: Real Time Air Quality Monitoring
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Purple Air
+  url: https://www2.purpleair.com/
+  category: Science & Math
+link_status: redirect
+data_license: Proprietary PurpleAir Data License (Terms of Service s.4, Data License page)
+commercial_use: ambiguous
+storage_caching: limited
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: -> https://www.purpleair.com/
+data_license_url: https://www.purpleair.com/license
+api_terms_url: https://www.purpleair.com/policies/terms-of-service
+commercial_use_scope: any
+cache_limit: Only on your own internal servers, as necessary to run your Licensee Product
+attribution_text: Per http://www.purpleair.com/attribution
+evidence:
+- field: commercial_use
+  url: https://www.purpleair.com/policies/terms-of-service
+  quote: to distribute or use the Licensee Product for any commercial purpose or in any manner intended
+    to generate revenue, solely to End Users
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.purpleair.com/policies/terms-of-service
+  quote: to store a copy of all or any portion of the PurpleAir Data and Data Derivatives on one or more
+    internal servers
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.purpleair.com/policies/terms-of-service
+  quote: Licensee shall not distribute or otherwise make available the PurpleAir Data or the PurpleAir
+    API to any third-party except as expressly authorized herein
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.purpleair.com/policies/terms-of-service
+  quote: Any distribution, display, or performance of the Licensee Products shall be accompanied by conspicuous
+    attribution
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.purpleair.com/license
+  quote: cannot resell data or an API modeled from PurpleAir data
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.purpleair.com/license
+  quote: cannot resell data or an API modeled from PurpleAir data
+  checked_at: '2026-11-21'
+notes: 'Read via Playwright (JS pages): api.purpleair.com (links to terms and "data license"), www.purpleair.com/license,
+  and the Terms of Service s.4 (updated July 2022). Commercial distribution is allowed only to End Users
+  and "subject to your provision of written notice" to PurpleAir; End Users must use it for internal,
+  non-commercial, non-public use, which is unclear for a public ad-supported site; there is a grantback
+  licence (s.4.4), a Fair Use Policy (Exhibit A) and a one-level-removed distribution limit. PurpleAir
+  invites licensing enquiries for other uses. The API now needs an API key (auth was listed as none).
+  Quotes are from the rendered page text.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'PurpleAir license page: a viewer of a map or app user is allowed, but public ad-supported
+  display not explicit; licensing enquiry invited. Ambiguity stands.'

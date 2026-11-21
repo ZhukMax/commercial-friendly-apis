@@ -1,0 +1,69 @@
+id: bayan
+name: Bayan
+url: https://bayan.alwa7i.com/api
+category: Books
+description: 'Arabic Islamic encyclopedia: hadith with grades and takhrij, Quran with tafsir, narrators'
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Bayan
+  url: https://bayan.alwa7i.com/api
+  category: Books
+link_status: alive
+data_license: 'mixed: book texts CC BY-NC-SA 4.0 (OpenITI); Quran text from Tanzil; Bayan articles with
+  source credit'
+commercial_use: 'no'
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://bayan.alwa7i.com/api
+commercial_use_scope: any
+attribution_text: Show each text with its source "Bayan" and its link next to it
+share_alike: 'yes'
+rate_limits: 120 requests/minute and 5000/day per IP
+evidence:
+- field: commercial_use
+  url: https://bayan.alwa7i.com/api
+  quote: نصوص الكتب من مشروع OpenITI برخصة CC BY-NC-SA 4.0 (لغير الأغراض التجارية، مع ذكر المصدر، وبالرخصة
+    نفسها)
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://bayan.alwa7i.com/api
+  quote: يُعرض كل نص مع مصدره «البيان» ورابطه (link) بجانبه.
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://bayan.alwa7i.com/api
+  quote: نصوص الكتب من مشروع OpenITI برخصة CC BY-NC-SA 4.0 (لغير الأغراض التجارية، مع ذكر المصدر، وبالرخصة
+    نفسها)
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://bayan.alwa7i.com/api
+  quote: 120 طلبًا في الدقيقة و5000 في اليوم لكل عنوان IP.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://bayan.alwa7i.com/api
+  quote: نصوص الكتب من مشروع OpenITI برخصة CC BY-NC-SA 4.0 (لغير الأغراض التجارية، مع ذكر المصدر، وبالرخصة
+    نفسها)
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://bayan.alwa7i.com/api
+  quote: يُعرض كل نص مع مصدره «البيان» ورابطه (link) بجانبه.
+  checked_at: '2026-11-21'
+notes: 'Read the API self-description (JSON ''terms'' field on /api, in Arabic). Mixed content: book texts
+  (hadith books) come from OpenITI under CC BY-NC-SA 4.0 (non-commercial, attribution, share-alike), Quran
+  text from Tanzil (verbatim with credit), Bayan''s own articles with credit and link. A commercial site
+  could use only the non-NC parts, so ambiguous. Upstream Tanzil terms and OpenITI per-text licences were
+  not read. Storage/display not addressed beyond showing source next to text.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Hadith book texts are CC BY-NC-SA 4.0; Core content non-commercial | applied: commercial_use=no'

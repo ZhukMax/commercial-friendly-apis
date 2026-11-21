@@ -1,0 +1,32 @@
+id: ip-app
+name: ip.app
+url: https://ip.app
+category: Geocoding
+description: IP, ASN, geolocation, timezone, security, user-agent in plain text, JSON or HTTP headers
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: ip.app
+  url: https://ip.app
+  category: Geocoding
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://ip.app/
+share_alike: unknown
+notes: https://ip.app/ returns only the caller IP as plain text (HTTP 200, CORS *, no-cache headers); no terms, licence, docs, about or privacy page found (/terms, /api, /tos, /legal 404; /docs redirects
+  to /; /about, /privacy, /ip.json return 403 to curl). No evidence for any terms field, so all stay unknown.
+evidence: []
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

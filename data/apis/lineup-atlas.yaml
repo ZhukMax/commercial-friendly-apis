@@ -1,0 +1,54 @@
+id: lineup-atlas
+name: Lineup Atlas
+url: https://lineupatlas.com/en/data-partners
+category: Events
+description: Club nights, festivals and artist tour dates worldwide
+description_source: upstream
+auth: none
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Lineup Atlas
+  url: https://lineupatlas.com/en/data-partners
+  category: Events
+link_status: alive
+data_license: unknown
+commercial_use: 'yes'
+storage_caching: unknown
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+commercial_use_scope: any
+api_terms_url: https://lineupatlas.com/en/data-partners
+attribution_text: Credit "Lineup Atlas" with a link to the date's or city's page, next to the dates shown
+rate_limits: 60 to 120 calls per minute per IP depending on endpoint
+notes: 'Read /en/data-partners (via Playwright; curl returned an empty shell) and the Terms of sale &
+  use (no API clause). The partner page offers a free, keyless API/widget for hotels, tourist offices,
+  local media etc. with credit-and-link as the only condition, no reselling as is, no altering dates/venues/prices;
+  "Cache responses for an hour" is advice, not a stated limit, so storage is left unknown. Commercial
+  use is inferred from the partner use cases and "only condition" wording (not an explicit ads clause):
+  medium confidence. Event data from organisers/ticketing pages may have upstream rights.'
+evidence:
+- field: commercial_use
+  url: https://lineupatlas.com/en/data-partners
+  quote: Free, no account and no key, for a website, an app, a lobby screen or a newsletter.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://lineupatlas.com/en/data-partners
+  quote: Don't resell the data as is, and don't change a date, a venue or a price.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://lineupatlas.com/en/data-partners
+  quote: Credit "Lineup Atlas" with a link to the date's or city's page, next to the dates shown.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://lineupatlas.com/en/data-partners
+  quote: A limit per IP address (60 to 120 calls a minute depending on the endpoint)
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -1,0 +1,50 @@
+id: transport-for-atlanta-us
+name: Transport for Atlanta, US
+url: http://www.itsmarta.com/app-developer-resources.aspx
+category: Transportation
+description: Marta
+description_source: upstream
+auth: apiKey
+https: false
+cors: unknown
+sources:
+- list: public-apis
+  name: Transport for Atlanta, US
+  url: http://www.itsmarta.com/app-developer-resources.aspx
+  category: Transportation
+- list: public-api-lists
+  name: Transport for Atlanta, US
+  url: http://www.itsmarta.com/app-developer-resources.aspx
+  category: Transportation
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://itsmarta.com/terms-and-conditions.aspx
+evidence:
+- field: commercial_use
+  url: https://itsmarta.com/terms-and-conditions.aspx
+  quote: Commercial use of this information is prohibited without the written permission of MARTA.
+  checked_at: '2026-11-21'
+notes: 'Read the developer resources page (GTFS, GTFS-realtime, Rail Realtime REST API; rail API needs
+  a signup key, GTFS feeds need none) and the MARTA website Terms and Conditions. The developer page states
+  no data licence and no caching/display/attribution rules; it only forbids use of MARTA logos/trademarks.
+  The site-wide terms ban commercial use of "this information" without written permission, but they speak
+  about the website, so whether they cover the API/GTFS data is unclear: ambiguous, not confirmed. Storage,
+  display and attribution left unknown. Ask MARTA in writing before using for an ad-supported site.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read /terms (''Commercial use of this information is prohibited without the written
+  permission of MARTA'', in the context of mirroring texts/graphics of the Site), developer resources,
+  developer FAQ (purpose: let others build web and mobile apps) and the rail API-key EULA (free, no commercial
+  restriction, ''your use or publication of the Data''). Evidence leans permissive for the GTFS/realtime
+  feed'

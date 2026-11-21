@@ -1,0 +1,65 @@
+id: boxerbook
+name: Boxerbook
+url: https://boxerbook.com/developers
+category: Sports & Fitness
+description: 'Professional boxing: boxers, bouts, schedule, results, world titles and rankings'
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Boxerbook
+  url: https://boxerbook.com/developers
+  category: Sports & Fitness
+link_status: alive
+data_license: proprietary (Boxerbook terms of use and data licence, since 2026-11-03; earlier ODbL 1.0)
+commercial_use: paid-only
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: 'no'
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+commercial_use_scope: paid
+attribution_text: Data from Boxerbook (https://boxerbook.com) with a link
+api_terms_url: https://boxerbook.com/terms
+evidence:
+- field: commercial_use
+  url: https://boxerbook.com/terms
+  quote: Commercial use of the data through the API (in an app, website or service) requires a paid plan
+    (App or Business) or a separate agreement
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://boxerbook.com/terms
+  quote: You may quote and cite facts and records from it in articles, apps, broadcasts and AI answers,
+    with the credit below.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://boxerbook.com/terms
+  quote: 'Credit Boxerbook with a link: Data from Boxerbook'
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://boxerbook.com/terms
+  quote: Boxerbook does not provide bulk downloads
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://boxerbook.com/terms
+  quote: Until then the database and its bulk files were published under the Open Database License (ODbL)
+    v1.0
+  checked_at: '2026-11-21'
+notes: Terms of use and data licence (effective 3 Nov 2026). Free API keys are for personal, non-commercial
+  and testing use; commercial use via API needs a paid App/Business plan or agreement. Quoting facts with
+  credit is allowed, but copying the database or a substantial part in bulk, and commercial use of the
+  database itself, need a written agreement. Caching/storage not addressed (bulk copying banned). Data
+  compiled from Wikidata (CC0), Wikipedia (CC BY-SA - share-alike may apply to text/tables), official
+  results; older copies stay under ODbL. Plan prices not read.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Terms and /developers re-read: commercial use via API needs App ($19/mo) or Business
+  ($99/mo) plan; credit with link required; bulk copying needs agreement; Wikipedia-derived text is CC
+  BY-SA. Paid-only confirmed.'

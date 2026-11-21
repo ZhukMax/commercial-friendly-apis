@@ -1,0 +1,35 @@
+id: srp-energy
+name: Srp Energy
+url: https://srpenergy-api-client-python.readthedocs.io/en/latest/api.html
+category: Environment
+description: Hourly usage energy report for Srp customers
+description_source: upstream
+auth: other
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Srp Energy
+  url: https://srpenergy-api-client-python.readthedocs.io/en/latest/api.html
+  category: Environment
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+notes: 'The linked page is unofficial documentation of a Python client: it logs in to myaccount.srpnet.com
+  with the customer''s own username and password and scrapes the account usage endpoint (hourly usage
+  of that customer). This is not a public API, auth is account credentials (not an API key). SRP''s own
+  terms of use could not be read (srpnet.com returned "Access Denied" to curl). Data is a customer''s
+  private usage, not an open dataset; no terms confirmed, all unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

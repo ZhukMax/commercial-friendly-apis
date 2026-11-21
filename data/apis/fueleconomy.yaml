@@ -1,0 +1,65 @@
+id: fueleconomy
+name: FuelEconomy
+url: https://www.fueleconomy.gov/feg/ws/index.shtml
+category: Vehicle
+description: US EPA fuel economy data by year, make and model
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: FuelEconomy
+  url: https://www.fueleconomy.gov/feg/ws/index.shtml
+  category: Vehicle
+link_status: alive
+data_license: US Government work (DOE/ORNL); rights not asserted
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'no'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://www.fueleconomy.gov/feg/disclaimer.shtml
+api_terms_url: https://www.fueleconomy.gov/feg/disclaimer.shtml
+commercial_use_scope: any
+attribution_text: Courtesy of FuelEconomy.gov, U.S. Dept. of Energy.
+evidence:
+- field: commercial_use
+  url: https://www.fueleconomy.gov/feg/disclaimer.shtml
+  quote: Unless otherwise noted, we will not assert its rights in the documents against you
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.fueleconomy.gov/feg/disclaimer.shtml
+  quote: Unless otherwise noted, we will not assert its rights in the documents against you
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.fueleconomy.gov/feg/disclaimer.shtml
+  quote: Unless otherwise noted, we will not assert its rights in the documents against you
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.fueleconomy.gov/feg/disclaimer.shtml
+  quote: we request the following credit line be used when data, documents, or figures (excluding photographs)
+    are used elsewhere
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.fueleconomy.gov/feg/disclaimer.shtml
+  quote: the U.S. Government retains an irrevocable, nonexclusive, royalty-free license to publish, reproduce,
+    prepare derivative works
+  checked_at: '2026-11-21'
+notes: 'Read the site Disclaimer (Copyright Status). The government will not assert its rights in documents
+  against users; a credit line is requested (not mandatory) when data are used elsewhere; photographs
+  are owned by manufacturers/WardsAuto or third parties and may not be reused. No explicit API terms page
+  or rate limit text found (ws/index.shtml read: only endpoint docs); the disclaimer is the site-wide
+  statement, applied to the web services and downloads by scope of "data, documents, or figures". Avoid
+  implying DOE/EPA endorsement.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Live web service responds (menu/year). Photographs are owned by manufacturers and excluded.
+  Wording is 'unless otherwise noted, we will not assert its rights' (work sponsored under contract with
+  UT-Battelle) not a formal licence; no API-specific terms page.

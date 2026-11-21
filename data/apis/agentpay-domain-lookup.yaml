@@ -1,0 +1,26 @@
+id: agentpay-domain-lookup
+name: AgentPay Domain Lookup
+url: https://agentpay-lookup.agentpay-apis.workers.dev
+category: Development
+description: DNS records, WHOIS/RDAP, IP ownership and domain reports for AI agents, paid per call via
+  x402
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: AgentPay Domain Lookup
+  url: https://agentpay-lookup.agentpay-apis.workers.dev
+  category: Development
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

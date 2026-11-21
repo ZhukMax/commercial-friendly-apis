@@ -1,0 +1,53 @@
+id: legal-sandbox-georgia
+name: Legal Sandbox Georgia
+url: https://legal.ge/api/openapi.json
+category: Business
+description: Find verified legal specialists in Georgia from natural-language queries
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Legal Sandbox Georgia
+  url: https://legal.ge/api/openapi.json
+  category: Business
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://legal.ge/en/terms
+notes: 'Platform Master Terms (legal.ge/en/terms) read: section 5.2.4 ''Commercial Misuse'' bars unauthorized
+  commercial purposes and reselling/redistributing Platform services, without defining what is authorized.
+  The OpenAPI file says API access needs no licence for read-only use and links to the same terms; its
+  law-text endpoints ask agents to cite the canonical URL and name the official source (matsne). No rules
+  on caching/storage or display found, so unknown/ambiguous. Specialist data includes personal information
+  about lawyers.'
+evidence:
+- field: commercial_use
+  url: https://legal.ge/en/terms
+  quote: Use the Platform for unauthorized commercial purposes
+  checked_at: '2026-11-21'
+- field: api_terms_url
+  url: https://legal.ge/api/openapi.json
+  quote: API access — no licence required for read-only use
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://legal.ge/en/terms
+  quote: Resell or redistribute Platform services.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read legal.ge/en/terms and the openapi.json. API description says 'Designed for
+  AI agents ... and third-party integrations' and licence 'API access — no licence required for read-only
+  use', but terms still ban unauthorized commercial use without defining authorized. Evidence mildly permissive
+  for law text, unclear for specialist directory (personal data of lawyers). First pass stands.

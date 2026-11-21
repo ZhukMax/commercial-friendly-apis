@@ -1,0 +1,31 @@
+id: breezometer-pollen
+name: BreezoMeter Pollen
+url: https://docs.breezometer.com/api-documentation/pollen-api/v2/
+category: Environment
+description: Daily Forecast pollen conditions data for a specific location
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: BreezoMeter Pollen
+  url: https://docs.breezometer.com/api-documentation/pollen-api/v2/
+  category: Environment
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://mapsplatform.google.com/maps-products/#environment-section
+api_terms_url: https://docs.breezometer.com/api-documentation/pollen-api/v2/
+notes: docs.breezometer.com redirects (301) to the Google Maps Platform products page (https://mapsplatform.google.com/maps-products/#environment-section). That page was not read for terms and does not
+  state that it is the same service, so no terms transferred. All fields unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

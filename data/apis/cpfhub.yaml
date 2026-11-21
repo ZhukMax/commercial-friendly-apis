@@ -1,0 +1,71 @@
+id: cpfhub
+name: CPFHub
+url: https://cpfhub.io
+category: Government
+description: Brazilian CPF lookup — returns full name, birth date, and gender for any CPF
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: CPFHub
+  url: https://cpfhub.io
+  category: Government
+link_status: alive
+data_license: Proprietary (licensed private-provider and public-source data); personal data under LGPD
+commercial_use: ambiguous
+storage_caching: limited
+redistribution_display: 'no'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://cpfhub.io/termos-de-uso
+commercial_use_scope: paid
+cache_limit: Keep results only as long as needed for the lawful purpose
+rate_limits: 'Free: 50 credits/month; default 30 requests/min on simple lookup'
+evidence:
+- field: commercial_use
+  url: https://cpfhub.io/termos-de-uso
+  quote: Você pode integrar a API ao seu software, sistema ou SaaS e oferecer a consulta aos seus próprios
+    clientes
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://cpfhub.io/termos-de-uso
+  quote: Marketing, prospecção e montagem de listas de contatos estão fora do escopo do serviço.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://cpfhub.io/termos-de-uso
+  quote: guarda os resultados apenas pelo tempo necessário para a sua finalidade e com segurança adequada
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://cpfhub.io/termos-de-uso
+  quote: Guardar resultados para montar e vender bases ou listas de dados pessoais não faz parte do programa.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://cpfhub.io/termos-de-uso
+  quote: Usamos dados licenciados de provedores privados e fontes
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://cpfhub.io/termos-de-uso
+  quote: A CPFHub.io existe para ajudar empresas a confirmar que uma pessoa é quem diz ser.
+  checked_at: '2026-11-21'
+notes: Identity-verification (KYC/anti-fraud) service returning personal data (name, birth date, gender)
+  per CPF. Terms allow integrating the API into your own product for your own customers but restrict use
+  to legitimate LGPD purposes (marketing, prospecting and contact lists are out of scope), require you
+  to keep results only as long as needed, and exclude building/selling databases. Publishing such data
+  on content pages or using it for ads/affiliate sites does not fit the stated purposes; ambiguous at
+  best. Whether the free credits tier allows commercial use is not stated (pricing page not read).
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: red
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'ToS s2 lists permitted purposes (KYC, anti-fraud, authentication, risk analysis, data
+  hygiene of existing records); marketing, prospecting and contact lists are out of scope; Output is personal
+  data (name, birth date) under LGPD; ToS makes the customer controller and limits retention to what the
+  purpose needs; Showing such data on public content pages or ad/affiliate sites is not any listed purpose;
+  results may not be used to build or sell data lists | applied: commercial_use=ambiguous (suggested no,
+  needs human review), redistribution_display=no'

@@ -1,0 +1,76 @@
+id: transport-for-hessen-germany
+name: Transport for Hessen, Germany
+url: https://opendata.rmv.de/site/start.html
+category: Transportation
+description: RMV API (Public Transport in Hessen)
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Transport for Hessen, Germany
+  url: https://opendata.rmv.de/site/start.html
+  category: Transportation
+link_status: redirect
+data_license: proprietary (RMV API Nutzungsbedingungen; infrastructure/stop data under a broad copy/redistribute
+  right)
+commercial_use: ambiguous
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: -> https://www.rmv.de/s/de/rmv-open-data
+data_license_url: https://www.rmv.de/s/de/rmv-open-data/nutzungsbedingung
+api_terms_url: https://www.rmv.de/s/de/rmv-open-data/nutzungsbedingung
+commercial_use_scope: any
+cache_limit: Only single timetable queries for end users; storing a substantial part of the timetable
+  is forbidden
+share_alike: unknown
+attribution_text: Name RMV as data source, with logo; show deep links to RMV systems if returned.
+rate_limits: 600 single queries/hour and 5,000/day
+evidence:
+- field: commercial_use
+  url: https://www.rmv.de/s/de/rmv-open-data/nutzungsbedingung
+  quote: Der API-Lizenznehmer darf alle über die RMV-Auskunft-API bereitgestellten Fahrplanauskünfte ausschließlich
+    zu Zwecken der Fahrgastinformation nutzen.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.rmv.de/s/de/rmv-open-data/nutzungsbedingung
+  quote: Es ist deswegen untersagt, die Daten in einem solchen Umfang zu speichern, sonst zu vervielfältigen
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.rmv.de/s/de/rmv-open-data/nutzungsbedingung
+  quote: das nicht ausschließliche, übertragbare und widerrufliche Recht zur Speicherung und Wiedergabe
+    gegenüber dem Endnutzer
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.rmv.de/s/de/rmv-open-data/nutzungsbedingung
+  quote: das weltweite, übertragbare, unwiderrufliche und zeitlich unbegrenzte Recht ein, einzelne Teile
+    oder den gesamten Bestand hiervon nach eigenem Ermessen in jeglicher Weise zu kopieren
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.rmv.de/s/de/rmv-open-data/nutzungsbedingung
+  quote: indem er den RMV als Datenquelle nennt (mit Logo)
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://www.rmv.de/s/de/rmv-open-data/nutzungsbedingung
+  quote: von bis zu maximal 600 Einzelabfragen pro Stunde und bis zu 5000 Einzelabfragen pro Tag
+  checked_at: '2026-11-21'
+notes: 'Link redirects to rmv.de/s/de/rmv-open-data; API access needs a registered key (form with intended
+  purpose; no entitlement to a key), so auth is apiKey. Read the German API Nutzungsbedingungen: timetable
+  results may be used only for passenger information, only as single queries shown to end users (natural
+  persons), storage/copying of a substantial part is forbidden, RMV must be credited with logo, test version
+  must be given to RMV. Terms never say outright whether ads/commercial sites are allowed (only that ads
+  on the same page must be lawful), so commercial_use is ambiguous. The downloadable stop list has a broad
+  copy/distribute right limited to the declared purpose.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read Nutzungsbedingung. Section 7a only requires ads on the same page to be lawful,
+  which implies commercial pages are tolerated; passenger-info purpose and storage ban keep it yellow.

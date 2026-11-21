@@ -1,0 +1,57 @@
+id: apiverket
+name: Apiverket
+url: https://apiverket.se/docs
+category: Government
+description: Unified API for Swedish public data — weather, transport, companies, and 30+ agencies
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: Apiverket
+  url: https://apiverket.se/docs
+  category: Government
+link_status: alive
+data_license: unknown
+commercial_use: paid-only
+storage_caching: ambiguous
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+confidence: medium
+link_checked_at: '2026-11-21'
+commercial_use_scope: paid
+api_terms_url: https://apiverket.se/terms
+evidence:
+- field: commercial_use
+  url: https://apiverket.se/terms
+  quote: 'Free tier: Grants a non-exclusive, non-transferable license for personal, non-commercial use
+    including evaluation, prototyping, and educational projects.'
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://apiverket.se/terms
+  quote: license for both personal and commercial use, including integrating API data into commercial
+    applications, SaaS products
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://apiverket.se/terms
+  quote: Store or redistribute government data in ways that violate the originating agency's license terms.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://apiverket.se/terms
+  quote: The underlying government data is subject to each originating agency's open data license
+  checked_at: '2026-11-21'
+notes: 'Free tier is non-commercial; paid tiers (Starter, Pro, Business, Enterprise) allow commercial
+  use. All tiers: no reselling raw API access or building a competing aggregation service. Storage/display
+  depend on each originating agency''s licence (SCB, SMHI, Bolagsverket, etc.), which were not checked
+  here, hence ambiguous. Pricing page not read.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: yellow
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read /terms s4-5 and /pricing (Free/Starter/Pro). paid-only confirmed. Upstream
+  agency licences (SCB, SMHI etc.) not individually read; ToS says they are typically free for commercial
+  reuse. Yellow stands.

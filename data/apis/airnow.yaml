@@ -1,0 +1,45 @@
+id: airnow
+name: AirNow
+url: https://docs.airnowapi.org/
+category: Environment
+description: US EPA air quality data and forecasts
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: AirNow
+  url: https://docs.airnowapi.org/
+  category: Environment
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://docs.airnowapi.org/docs/DataUseGuidelines.pdf
+attribution_text: Credit the source agencies and the EPA AirNow program; mark observations as preliminary
+evidence:
+- field: storage_caching
+  url: https://docs.airnowapi.org/faq
+  quote: we recommend users cache daily or hourly air quality observation or forecast data retrieved via web services
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://docs.airnowapi.org/docs/DataUseGuidelines.pdf
+  quote: displayed on web pages, or used for other programs or products, the analysis results, displays, or products must indicate that these data are preliminary
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://docs.airnowapi.org/docs/DataUseGuidelines.pdf
+  quote: Credit should first be given to the appropriate source—federal, state, local, and tribal air quality agencies and the EPA AirNow program
+  checked_at: '2026-11-21'
+notes: 'Read the AirNow API FAQ and the AirNow Data Exchange Guidelines (PDF, Aug 2025, read via pdftotext). Conditions: credit the source agencies and EPA AirNow, do not alter values/forecasts, show the
+  official AQI colours, label observations as preliminary, tell the agencies about products. Caching hourly/daily is recommended; filling your own database through the web services needs contact with the
+  AirNow DMC (hence limited). No sentence states whether commercial use is allowed, so commercial_use is unknown (verdict unknown) even though nothing prohibits it.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

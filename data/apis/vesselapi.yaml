@@ -1,0 +1,59 @@
+id: vesselapi
+name: VesselAPI
+url: https://vesselapi.com/docs
+category: Transportation
+description: Vessel positions, vessel search, port events, port lookup and EU MRV emissions by IMO or
+  MMSI
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: VesselAPI
+  url: https://vesselapi.com/docs
+  category: Transportation
+link_status: alive
+data_license: proprietary
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: 'no'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://vesselapi.com/terms-and-conditions
+rate_limits: Free 150 calls/month; basic 1,500; starter 15,000; growth 30,000; pro millions/month (short-window
+  limits apply)
+evidence:
+- field: redistribution_display
+  url: https://vesselapi.com/terms-and-conditions
+  quote: The data is for internal use only and may not be shared without consent.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://vesselapi.com/terms-and-conditions
+  quote: Mirroring or redistributing our data
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://vesselapi.com/terms-and-conditions
+  quote: Public display of raw data
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://vesselapi.com/terms-and-conditions
+  quote: VesselAPI operates as a data aggregator .
+  checked_at: '2026-11-21'
+notes: 'Read Terms & Conditions (section 5 Terms of Usage and License) and pricing. Data is for internal
+  use only; prohibited: mirroring/redistributing data, public display of raw data, creating similar APIs.
+  A public ad/affiliate site displaying the data is therefore not allowed without consent -> red for the
+  target scenario; internal commercial use on paid plans is not excluded, so commercial_use is ambiguous.
+  Storage/caching not addressed separately (unknown). VesselAPI is an aggregator (AIS, government databases,
+  third-party providers); upstream terms may be stricter. Redistribution rights could be negotiated (''without
+  consent'').'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read T&C section 5. Red verdict for public ad/affiliate site stands; commercial_use
+  ambiguous only for internal use. Redistribution allowed only with consent.

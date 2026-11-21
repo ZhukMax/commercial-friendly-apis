@@ -1,0 +1,80 @@
+id: '221'
+name: '221'
+url: https://221.orvlabs.com/documentation
+category: Open Data
+description: 'Senegal reference data: public holidays, mobile operators, banks, communes, legal forms'
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: '221'
+  url: https://221.orvlabs.com/documentation
+  category: Open Data
+link_status: alive
+data_license: 'Per dataset: CC-BY-4.0 (ANSD geography); most others ''public data, licence not specified'''
+commercial_use: ambiguous
+storage_caching: ambiguous
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: 'yes'
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://221.orvlabs.com/sources
+api_terms_url: https://221.orvlabs.com/conditions-utilisation
+share_alike: unknown
+rate_limits: 'Data calls/day: no key 100 per IP; account 1,000; verified account 10,000'
+notes: 'Read /conditions-utilisation (updated 2026-11-14, French; sections 5, 8, 10), /sources and docs
+  home. API/data access is free; reuse is governed per dataset. Only the ANSD geography set is CC BY 4.0;
+  jours feries, operator prefixes, banks, transport, institutions, health, etc. are ''données publiques,
+  licence non précisée'' and 221 states it cannot relicense them, so commercial use, caching and redisplay
+  are ambiguous per dataset (verdict yellow, not usable as a blanket green). Also: do not present data
+  as official/certified by 221; personal data in sources makes the reuser a controller (Senegal law 2008-12;
+  no re-identification or unsolicited prospecting); extraction beyond quotas and resale of API access/keys
+  prohibited. Operator Orvene Labs also runs a payments product (221 Pay), whose terms are irrelevant
+  here.'
+evidence:
+- field: data_license
+  url: https://221.orvlabs.com/conditions-utilisation
+  quote: Chaque jeu de données est réutilisable selon la licence indiquée dans sa fiche et dans la page
+    Licences et sources.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://221.orvlabs.com/sources
+  quote: 221 ne peut pas relicencier des données dont la licence n’est pas précisée par leur source.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://221.orvlabs.com/conditions-utilisation
+  quote: L’Utilisateur respecte cette licence, notamment l’attribution à la source
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://221.orvlabs.com/conditions-utilisation
+  quote: Les jeux de données sont téléchargeables au format CSV et consultables par l’API.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://221.orvlabs.com/conditions-utilisation
+  quote: Les appels à l’API de données sont limités par jour selon le palier d’accès
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://221.orvlabs.com/conditions-utilisation
+  quote: Le téléchargement ne transfère aucun droit au-delà de la licence du jeu concerné.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://221.orvlabs.com/conditions-utilisation
+  quote: Chaque jeu de données est réutilisable selon la licence indiquée dans sa fiche et dans la page
+    Licences et sources.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://221.orvlabs.com/conditions-utilisation
+  quote: ne présente pas une Donnée comme officielle ou certifiée par 221
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read /conditions-utilisation s5,8,10 and /sources (updated 2026-11-14). No non-commercial
+  clause; ambiguity is genuine (221 cannot relicense unlicensed sources). Yellow stands.
+license_scope: portal-default

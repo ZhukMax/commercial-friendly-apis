@@ -1,0 +1,37 @@
+id: mapbase
+name: Mapbase
+url: https://mapbase.dev/
+category: Geocoding
+description: Location registry API for official locations, zones, hierarchy, and geometry
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: Mapbase
+  url: https://mapbase.dev/
+  category: Geocoding
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://mapbase.dev/terms
+rate_limits: 'Free: 1,000 credits/day (10k credits/month), 5 ops/s'
+evidence:
+- field: rate_limits
+  url: https://mapbase.dev/pricing
+  quote: 01 Free 1,000 credits/day limit 1 project 90-day data retention
+  checked_at: '2026-11-21'
+notes: Read mapbase.dev home, /terms, /pricing and /data. The Terms of Service only grant a revocable licence to access the Service while subscribed and forbid reselling/sublicensing the Service; they say
+  nothing about commercial use, storage/caching or display of returned data, and no data licence or upstream sources (the registry covers ~30 European countries) are stated on the pages read. All core terms
+  unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

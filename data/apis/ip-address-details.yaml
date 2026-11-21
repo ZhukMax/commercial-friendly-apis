@@ -1,0 +1,78 @@
+id: ip-address-details
+name: IP Address Details
+url: https://ipinfo.io/
+category: Geocoding
+description: Find geolocation with ip address
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: IP Address Details
+  url: https://ipinfo.io/
+  category: Geocoding
+- list: public-api-lists
+  name: IP Address Details
+  url: https://ipinfo.io/
+  category: Geocoding
+link_status: alive
+data_license: CC-BY-SA-4.0 (IPinfo Lite free tier); paid plans proprietary
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: 'yes'
+self_host_option: 'yes'
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://ipinfo.io/lite
+api_terms_url: https://ipinfo.io/terms-of-service
+commercial_use_scope: free-tier
+attribution_text: Place a link to IPinfo on the website, application or social account that uses the data
+share_alike: 'yes'
+rate_limits: 'IPinfo Lite: unlimited requests, free (country-level + ASN); Core from $26/mo (150k-5M req/mo); Max from $163/mo'
+notes: 'Read /lite (IPinfo Lite page and FAQ), /pricing and the Terms of Service (updated 2024-06-03). The free tier is IPinfo Lite: country-level geolocation + ASN only, CC BY-SA 4.0 with mandatory attribution;
+  share-alike makes the verdict yellow. City-level data (Core/Max) is paid; the pricing comparison lists a "Commercial License ... Attribution required" row, but the table cell values per plan were not
+  readable, so paid-plan terms are unconfirmed. The Terms of Service cover the website content: internal business use only, external commercial use needs contact with IPinfo. The old keyless access no longer
+  applies: an access token is required (auth changed to apiKey). Lite is also downloadable as a database (bulk/self-host).'
+evidence:
+- field: data_license
+  url: https://ipinfo.io/lite
+  quote: License Released under Creative Commons Attribution-ShareAlike 4.0 International License .
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://ipinfo.io/lite
+  quote: The only requirement is that you provide attribution to IPinfo as your data source.
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://ipinfo.io/lite
+  quote: License Released under Creative Commons Attribution-ShareAlike 4.0 International License .
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://ipinfo.io/terms-of-service
+  quote: You can use content obtained from the Site for your internal business purposes.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://ipinfo.io/lite
+  quote: allows you to freely use and incorporate the data into commercial and non-commercial applications.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://ipinfo.io/lite
+  quote: allows you to freely use and incorporate the data into commercial and non-commercial applications.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://ipinfo.io/lite
+  quote: allows you to freely use and incorporate the data into commercial and non-commercial applications.
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://ipinfo.io/lite
+  quote: Database Download or API Choose the best ingestion method for your infrastructure.
+  checked_at: '2026-11-21'
+- field: self_host_option
+  url: https://ipinfo.io/lite
+  quote: Database Download or API Choose the best ingestion method for your infrastructure.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

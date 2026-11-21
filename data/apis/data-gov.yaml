@@ -1,0 +1,78 @@
+id: data-gov
+name: Data.gov
+url: https://api.data.gov/
+category: Government
+description: US Government Data
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Data.gov
+  url: https://api.data.gov/
+  category: Government
+- list: public-api-lists
+  name: Data.gov
+  url: https://api.data.gov/
+  category: Government
+link_status: alive
+data_license: public-domain (most federal datasets; per-dataset exceptions)
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'no'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://data.gov/privacy-policy/
+api_terms_url: https://data.gov/privacy-policy/
+commercial_use_scope: any
+attribution_text: Data retrieved from Data.gov (https://www.data.gov/)
+share_alike: 'no'
+rate_limits: 'api.data.gov default: 1,000 requests per hour per API key across all api.data.gov APIs;
+  individual agencies may differ'
+notes: 'api.data.gov is a key-management/proxy layer for agency APIs; the data license is set per dataset/agency.
+  Data.gov policy: most federal data free and without restriction, but check "Access & Use Information"
+  per dataset; non-federal data on Data.gov may carry other licenses. Yellow because terms cannot be confirmed
+  for the API as a whole. No standalone api.data.gov ToS page found (/terms-of-service/ is 404). bulk_download
+  left unknown (not verified).'
+evidence:
+- field: data_license
+  url: https://data.gov/privacy-policy/
+  quote: In most cases, U.S. Federal data available through Data.gov is offered free and without restriction.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://data.gov/privacy-policy/
+  quote: In most cases, federal data accessed through Data.gov do not, and should not, include controls
+    over its end use.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://data.gov/privacy-policy/
+  quote: While not required, when using content, data, documentation, code, and related materials from
+    Data.gov in your own work, we ask that proper credit be given.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://api.data.gov/docs/developer-manual/
+  quote: 'Hourly Limit: 1,000 requests per hour'
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://data.gov/privacy-policy/
+  quote: In most cases, U.S. Federal data available through Data.gov is offered free and without restriction.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://data.gov/privacy-policy/
+  quote: In most cases, U.S. Federal data available through Data.gov is offered free and without restriction.
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://data.gov/privacy-policy/
+  quote: In most cases, U.S. Federal data available through Data.gov is offered free and without restriction.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+verdict_override: yellow
+override_reason: Licensing is set per dataset; federal data is usually unrestricted but non-federal datasets
+  may carry other terms.
+license_scope: portal-default

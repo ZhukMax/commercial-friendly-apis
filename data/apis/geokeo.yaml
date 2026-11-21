@@ -1,0 +1,49 @@
+id: geokeo
+name: Geokeo
+url: https://geokeo.com
+category: Geocoding
+description: Geokeo geocoding service- with 2500 free api requests daily
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Geokeo
+  url: https://geokeo.com
+  category: Geocoding
+- list: public-api-lists
+  name: Geokeo
+  url: https://geokeo.com/
+  category: Geocoding
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://geokeo.com/termsofservice.php
+rate_limits: 'Free: 2,500 requests/day'
+notes: 'Docs say results may be stored indefinitely and used anywhere. The ToS page is short (no illegal use, 18+, may change limits or stop free usage) and does not mention commercial use, so commercial_use
+  stays unknown (verdict unknown). Data is from OpenStreetMap, OpenAddresses and other open sources (credits page); their attribution/share-alike terms not addressed. Auth corrected: API key required (docs:
+  ''api'' parameter).'
+evidence:
+- field: storage_caching
+  url: https://geokeo.com/documentation.php
+  quote: Caching Policy is very generous and you can store the results as long as you want.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://geokeo.com/documentation.php
+  quote: The stored results can be used anywhere as per your requirements.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://geokeo.com/pricing.php
+  quote: 2,500 api requests daily
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

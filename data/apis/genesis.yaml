@@ -1,0 +1,73 @@
+id: genesis
+name: GENESIS
+url: https://www.destatis.de/EN/Service/OpenData/api-webservice.html
+category: Open Data
+description: Federal Statistical Office Germany
+description_source: upstream
+auth: OAuth
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: GENESIS
+  url: https://www.destatis.de/EN/Service/OpenData/api-webservice.html
+  category: Open Data
+link_status: alive
+data_license: Data licence Germany - attribution - Version 2.0 (dl-de/by-2-0)
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: 'yes'
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://www.govdata.de/dl-de/by-2-0
+api_terms_url: https://www.destatis.de/EN/Service/OpenData/api-webservice.html
+commercial_use_scope: any
+attribution_text: 'Source note: provider name (Statistisches Bundesamt (Destatis)), "dl-de/by-2-0" with
+  licence link, dataset URI; mark changes'
+share_alike: unknown
+evidence:
+- field: data_license
+  url: https://www.destatis.de/EN/Service/Legal-Notice/_node.html
+  quote: Data licence Germany - attribution - version 2.0
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.govdata.de/dl-de/by-2-0
+  quote: The data and meta-data provided may, for commercial and non-commercial use, in particular be
+    copied, printed, presented, altered, processed and transmitted to third parties
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.govdata.de/dl-de/by-2-0
+  quote: be integrated in internal and external business processes, products and applications in public
+    and non-public electronic networks.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.govdata.de/dl-de/by-2-0
+  quote: The data and meta-data provided may, for commercial and non-commercial use, in particular be
+    copied, printed, presented, altered, processed and transmitted to third parties
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.govdata.de/dl-de/by-2-0
+  quote: 'The user must ensure that the source note contains the following information: the name of the
+    provider'
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://www.destatis.de/EN/Service/OpenData/api-webservice.html
+  quote: the tables containing results can be downloaded from there.
+  checked_at: '2026-11-21'
+notes: 'Read the Destatis API/webservice page, the legal notice (Genesis-Online database falls under dl-de/by-2.0)
+  and the dl-de/by-2-0 licence text. The page says GENESIS-Online is free of charge and usable without
+  registering. The detailed web service terms live in GENESIS-Online (information page on the webservice)
+  and were not read; the upstream ''auth: OAuth'' was not verified and the web service may require an
+  account/token and have its own usage limits. Rate limits unknown. Table downloads (XLSX/CSV) are offered;
+  bulk set to yes on that basis only.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Web service requires login (username/password or personal token) per the user guide
+  (registration needed, parallel request limits, section 1.7); auth is not none. Source note and change
+  note required by dl-de/by-2.0.

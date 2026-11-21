@@ -1,0 +1,31 @@
+id: ganjoor
+name: Ganjoor
+url: https://api.ganjoor.net
+category: Books
+description: Classic Persian poetry works including access to related manuscripts, recitations and music tracks
+description_source: upstream
+auth: OAuth
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Ganjoor
+  url: https://api.ganjoor.net
+  category: Books
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://api.ganjoor.net/index.html
+notes: 'Read the Swagger UI (api.ganjoor.net/index.html, Playwright) and the swagger.json: termsOfService points to ganjoor.net/contact, which contains only contact guidance, no licence or terms. ganjoor.net
+  FAQ was skimmed with no clear licence statement found (not exhaustive). Classic poems are old, but recitations, music, manuscripts and some editions/commentary have separate rights; nothing confirmed.
+  Login (OAuth) is needed for protected endpoints. All core fields unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

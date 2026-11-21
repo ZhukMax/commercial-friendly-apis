@@ -1,0 +1,56 @@
+id: ambee
+name: Ambee
+url: https://www.getambee.com/api/natural-disasters
+category: Disasters
+description: Natural Disasters API
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-api-lists
+  name: Ambee
+  url: https://www.getambee.com/api/natural-disasters
+  category: Disasters
+link_status: alive
+data_license: proprietary (Ambee Terms and Conditions)
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: 'no'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: low
+link_checked_at: '2026-11-21'
+data_license_url: https://www.getambee.com/terms-and-conditions
+api_terms_url: https://www.getambee.com/terms-and-conditions
+commercial_use_scope: any
+evidence:
+- field: commercial_use
+  url: https://www.getambee.com/terms-and-conditions
+  quote: non-exclusive, non-commercial, revocable, non-transferable, limited license to freely access
+    and use the Platform and Services solely for your personal or internal business purpose
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.getambee.com/terms-and-conditions
+  quote: You do not have the right to duplicate, distribute, creative derivative works of display, or
+    commercially exploit our Intellectual Property
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.getambee.com/terms-and-conditions
+  quote: non-exclusive, non-commercial, revocable, non-transferable, limited license to freely access
+    and use the Platform and Services solely for your personal or internal business purpose
+  checked_at: '2026-11-21'
+notes: Read the Ambee Terms and Conditions. The licence is described as non-commercial and limited to
+  personal or internal business purpose, and duplicating, distributing or commercially exploiting Ambee
+  IP needs prior written permission; on termination all copies must be removed. Showing the data on a
+  public ad or affiliate site is therefore doubtful (ambiguous, probably needs a negotiated plan). Storage/caching
+  not addressed (unknown). Pricing/plan pages were not checked for a commercial licence. Natural-disaster
+  data is built from upstream sources (upstream terms not read).
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Licence is non-commercial, personal/internal only and bars displaying the IP; pricing
+  is sales-only | applied: redistribution_display=no'

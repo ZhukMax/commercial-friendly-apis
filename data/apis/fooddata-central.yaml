@@ -1,0 +1,73 @@
+id: fooddata-central
+name: FoodData Central
+url: https://fdc.nal.usda.gov/
+category: Health
+description: National Nutrient Database for Standard Reference
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: FoodData Central
+  url: https://fdc.nal.usda.gov/
+  category: Health
+link_status: alive
+data_license: CC0-1.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'no'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: high
+link_checked_at: '2026-11-21'
+data_license_url: https://fdc.nal.usda.gov/api-guide/
+api_terms_url: https://fdc.nal.usda.gov/api-guide/
+commercial_use_scope: any
+attribution_text: 'Requested: U.S. Department of Agriculture, Agricultural Research Service. FoodData
+  Central, 2019. fdc.nal.usda.gov'
+share_alike: 'no'
+rate_limits: 1,000 requests/hour per IP per API key (default); DEMO_KEY has much lower limits
+evidence:
+- field: data_license
+  url: https://fdc.nal.usda.gov/api-guide/
+  quote: USDA FoodData Central data are in the public domain and they are not copyrighted.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://fdc.nal.usda.gov/api-guide/
+  quote: No permission is needed for their use, but we request that users list FoodData Central as the
+    source of the data
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://fdc.nal.usda.gov/api-guide/
+  quote: USDA FoodData Central data are in the public domain and they are not copyrighted.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://fdc.nal.usda.gov/api-guide/
+  quote: USDA FoodData Central data are in the public domain and they are not copyrighted.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://fdc.nal.usda.gov/api-guide/
+  quote: No permission is needed for their use, but we request that users list FoodData Central as the
+    source of the data
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://fdc.nal.usda.gov/api-guide/
+  quote: FoodData Central currently limits the number of API requests to a default rate of 1,000 requests
+    per hour per IP address
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://fdc.nal.usda.gov/api-guide/
+  quote: USDA FoodData Central data are in the public domain and they are not copyrighted.
+  checked_at: '2026-11-21'
+notes: 'API Guide Licensing section: data are public domain, CC0 1.0. Attribution and notifying FDC are
+  requested, not required. A free data.gov API key is required in each request. Branded-food entries come
+  from manufacturers'' label data, which USDA also publishes under the same CC0 statement; not separately
+  assessed.'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Branded foods are covered by same CC0 statement on the page. Attribution only requested.

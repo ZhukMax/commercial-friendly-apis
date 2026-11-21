@@ -1,0 +1,59 @@
+id: transport-for-washington-us
+name: Transport for Washington, US
+url: https://developer.wmata.com/
+category: Transportation
+description: Washington Metro transport API
+description_source: upstream
+auth: OAuth
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Transport for Washington, US
+  url: https://developer.wmata.com/
+  category: Transportation
+- list: public-api-lists
+  name: Transport for Washington, US
+  url: https://developer.wmata.com/
+  category: Transportation
+link_status: alive
+data_license: proprietary (WMATA Transit Data Terms of Use)
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: 'yes'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://developer.wmata.com/license
+evidence:
+- field: commercial_use
+  url: https://developer.wmata.com/license
+  quote: grants you a limited, non-exclusive, non-assignable, non-transferrable, non-sublicensable, revocable
+    license to download, use, reproduce, and redistribute
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://developer.wmata.com/license
+  quote: grants you a limited, non-exclusive, non-assignable, non-transferrable, non-sublicensable, revocable
+    license to download, use, reproduce, and redistribute
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://developer.wmata.com/license
+  quote: grants you a limited, non-exclusive, non-assignable, non-transferrable, non-sublicensable, revocable
+    license to download, use, reproduce, and redistribute
+  checked_at: '2026-11-21'
+notes: 'Read WMATA Transit Data Terms of Use (rev. 2019). Licence covers use and redistribution of Transit
+  Data ''within your Application'' (software application, website, product or service); commercial vs
+  non-commercial is not stated, so ambiguous. No wording on how long data may be stored (only: delete
+  stored data on termination), so storage unknown. Attribution not required, but implying WMATA affiliation
+  is prohibited; re-use through own API needs written authorisation; free of charge but WMATA may charge
+  later.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read WMATA licence page. No non-commercial restriction found anywhere; 'Application'
+  includes website/product/service; GTFS under CC BY 4.0. Evidence leans permissive but commercial remains
+  unstated, so ambiguous stands.

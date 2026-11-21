@@ -1,0 +1,70 @@
+id: airportmiles
+name: AirportMiles
+url: https://airportmiles.com/api
+category: Transportation
+description: Airport codes, distances, routes and passenger numbers as static JSON files
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: AirportMiles
+  url: https://airportmiles.com/api
+  category: Transportation
+link_status: alive
+data_license: CC0-1.0 for airport, city, country and distance fields; traffic/punctuality/fare fields
+  keep per-source terms (some need source credit; Aerocivil is CC BY-SA 4.0)
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'no'
+bulk_download: 'yes'
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://airportmiles.com/api
+api_terms_url: https://airportmiles.com/api
+commercial_use_scope: any
+share_alike: unknown
+rate_limits: No key and no quota; keep requests reasonable; send a User-Agent naming your app
+evidence:
+- field: data_license
+  url: https://airportmiles.com/api
+  quote: 'Airport, city, country and distance fields: CC0 , use them for anything, no attribution needed.'
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://airportmiles.com/api
+  quote: 'Airport, city, country and distance fields: CC0 , use them for anything, no attribution needed.'
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://airportmiles.com/api
+  quote: 'Airport, city, country and distance fields: CC0 , use them for anything, no attribution needed.'
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://airportmiles.com/api
+  quote: 'Airport, city, country and distance fields: CC0 , use them for anything, no attribution needed.'
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://airportmiles.com/api
+  quote: No key and no quota. Cache what you fetch, keep requests reasonable, and send a User-Agent that
+    names your app.
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://airportmiles.com/api
+  quote: /routes.json All 20,767 routes in one download (about 10 MB)
+  checked_at: '2026-11-21'
+notes: 'Licence and fair-use section on the API page: core fields CC0, no key, caching encouraged. Caveat:
+  traffic, punctuality and fare fields keep their source licences (US DOT/BTS public domain, Eurostat,
+  UK DESNZ, StatCan, ANAC, Incheon etc. need the source named; Aerocivil Colombia is CC BY-SA 4.0 and
+  needs share-alike), and time zones are withheld because of ODbL. Verdict reflects the CC0 core fields
+  only; check each response''s sources list before showing passenger/fare figures. share_alike left unknown
+  because it depends on the field.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Verdict valid for core fields only. Traffic/fare fields carry source licences (Aerocivil
+  CC BY-SA 4.0 share-alike; others need source named); time zones excluded (ODbL). Check each response's
+  sources list.

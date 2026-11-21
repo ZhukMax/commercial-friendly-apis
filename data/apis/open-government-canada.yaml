@@ -1,0 +1,71 @@
+id: open-government-canada
+name: Open Government, Canada
+url: http://open.canada.ca/en
+category: Government
+description: Canadian Government Open Data
+description_source: upstream
+auth: none
+https: false
+cors: unknown
+sources:
+- list: public-apis
+  name: Open Government, Canada
+  url: http://open.canada.ca/en
+  category: Government
+- list: public-api-lists
+  name: Open Government, Canada
+  url: http://open.canada.ca/en
+  category: Government
+link_status: alive
+data_license: Open Government Licence - Canada
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://open.canada.ca/en/open-government-licence-canada
+api_terms_url: https://open.canada.ca/en/open-government-licence-canada
+commercial_use_scope: any
+attribution_text: Contains information licensed under the Open Government Licence – Canada.
+notes: Read the Open Government Licence - Canada page via Playwright (curl is blocked by a WAF). Excludes
+  personal information, third-party rights and official logos. Individual datasets on the portal can carry
+  other licences (not checked per dataset); portal API terms not read. Storage inferred from "copy ...
+  use the Information in any medium"; share-alike not addressed.
+evidence:
+- field: commercial_use
+  url: https://open.canada.ca/en/open-government-licence-canada
+  quote: grants you a worldwide, royalty-free, perpetual, non-exclusive licence to use the Information,
+    including for commercial purposes
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://open.canada.ca/en/open-government-licence-canada
+  quote: grants you a worldwide, royalty-free, perpetual, non-exclusive licence to use the Information,
+    including for commercial purposes
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://open.canada.ca/en/open-government-licence-canada
+  quote: Copy, modify, publish, translate, adapt, distribute or otherwise use the Information in any medium,
+    mode or format for any lawful purpose.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://open.canada.ca/en/open-government-licence-canada
+  quote: Copy, modify, publish, translate, adapt, distribute or otherwise use the Information in any medium,
+    mode or format for any lawful purpose.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://open.canada.ca/en/open-government-licence-canada
+  quote: Acknowledge the source of the Information by including any attribution statement specified by
+    the Information Provider(s)
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+share_alike: unknown
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'OGL-Canada re-read: commercial use allowed with attribution; excludes personal info,
+  logos, third-party rights. Per-dataset licences not checked.'
+license_scope: portal-default

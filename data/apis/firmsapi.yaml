@@ -1,0 +1,52 @@
+id: firmsapi
+name: FIRMSapi
+url: https://docs.firmsapi.com/
+category: Government
+description: Look up, search and validate US CBP FIRMS facility codes for ports, warehouses and FTZs
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: FIRMSapi
+  url: https://docs.firmsapi.com/
+  category: Government
+link_status: alive
+data_license: proprietary service terms; underlying FIRMS list is CBP public data (we do not claim ownership of it)
+commercial_use: 'yes'
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://firmsapi.com/terms/
+api_terms_url: https://firmsapi.com/terms/
+commercial_use_scope: any
+cache_limit: No bulk copy of the dataset; no building a copy by iterating the API
+share_alike: unknown
+evidence:
+- field: commercial_use
+  url: https://firmsapi.com/terms/
+  quote: You may use FIRMSapi results in your own products, services and filings
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://firmsapi.com/terms/
+  quote: including showing individual results to your own users as part of something you built
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://firmsapi.com/terms/
+  quote: Don’t scrape the website or iterate through the API to build a copy of the dataset, or to build a competing product.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://firmsapi.com/terms/
+  quote: We don’t claim ownership of CBP’s underlying public data.
+  checked_at: '2026-11-21'
+notes: 'ToS version 2026-10-24: results may be used in your own products/services and shown to your own users; prohibited: reselling/redistributing the FIRMS data or a substantial part as dataset/feed/API,
+  bulk-copying or iterating the API to build a copy, circumventing limits, implying CBP endorsement. Free plan exists; terms do not limit commercial use by plan. Per-result caching is not addressed: only
+  bulk copying is banned, so storage is limited. Data come from CBP FIRMS list (US government source); no attribution clause found. Quotas per plan are on pricing page (not captured).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

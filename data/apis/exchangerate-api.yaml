@@ -1,0 +1,76 @@
+id: exchangerate-api
+name: ExchangeRate-API
+url: https://www.exchangerate-api.com
+category: Currency Exchange
+description: Free currency conversion
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: ExchangeRate-API
+  url: https://www.exchangerate-api.com
+  category: Currency Exchange
+- list: public-api-lists
+  name: ExchangeRate-API
+  url: https://www.exchangerate-api.com
+  category: Currency Exchange
+link_status: alive
+data_license: 'proprietary (ExchangeRate-API Terms: limited, non-transferable licence to use the service)'
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: ambiguous
+attribution_required: 'no'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+commercial_use_scope: any
+attribution_text: 'Open (keyless) endpoint only: <a href="https://www.exchangerate-api.com">Rates By Exchange
+  Rate API</a> on pages using the rates'
+api_terms_url: https://www.exchangerate-api.com/terms
+evidence:
+- field: commercial_use
+  url: https://www.exchangerate-api.com/terms
+  quote: both Free Plan and paid ExchangeRate-API accounts are suitable for either commercial or personal
+    use.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.exchangerate-api.com/terms
+  quote: Users are given permission to store & re-use any data retrieved from our API.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.exchangerate-api.com/terms
+  quote: To further clarify, this license does not permit re-distribution of our data.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.exchangerate-api.com/terms
+  quote: may only be used for your end purposes and not in any product or service that offers programmatic
+    or automatic access to exchange rate data
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.exchangerate-api.com/docs/free
+  quote: Free API API Key Required No Attribution Updates Once Per Day 1.5k Requests p/m
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.exchangerate-api.com/terms
+  quote: These Terms grant you a non-transferable, non-exclusive, revocable and limited license to use
+    ExchangeRate-API.
+  checked_at: '2026-11-21'
+notes: 'Terms page: free and paid keyed plans both allowed for commercial use; storing/re-using retrieved
+  data permitted (''caching is for customer end-use only''). Redistribution of the data is not permitted,
+  data only for end purposes, not in a service offering programmatic access to rates. Displaying rates
+  in your own store/site is the advertised use case (localized pricing), but the ''no re-distribution''
+  wording leaves public display ambiguous, so redistribution_display=ambiguous (yellow). Attribution:
+  keyed Free/Pro plans need none; the keyless open-access endpoint requires a link (docs/free). Data is
+  blended from central banks and commercial sources (per homepage), upstream terms not checked.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read terms. 'This license does not permit re-distribution of our data' and data
+  only for end purposes, not in a service offering programmatic access to rates. Showing rates on own
+  pages is the normal use case; public-display ambiguity stands. Upstream sources (central banks/commercial)
+  not detailed.

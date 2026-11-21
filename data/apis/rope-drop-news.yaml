@@ -1,0 +1,74 @@
+id: rope-drop-news
+name: Rope Drop News
+url: https://ropedropnews.com/developers
+category: Open Data
+description: Live Disney and Universal theme park wait times, ride reliability, crowds, and Lightning
+  Lane prices
+description_source: upstream
+auth: none
+https: true
+cors: 'no'
+sources:
+- list: public-api-lists
+  name: Rope Drop News
+  url: https://ropedropnews.com/developers
+  category: Open Data
+link_status: alive
+data_license: CC-BY-4.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: 'yes'
+self_host_option: unknown
+verdict: green
+confidence: high
+link_checked_at: '2026-11-21'
+data_license_url: https://creativecommons.org/licenses/by/4.0/
+api_terms_url: https://ropedropnews.com/terms
+commercial_use_scope: any
+attribution_text: Data from Rope Drop News (https://ropedropnews.com), CC BY 4.0
+share_alike: unknown
+rate_limits: No key, no stated limit; live JSON refreshes about once a minute, please cache at least 60
+  s
+evidence:
+- field: data_license
+  url: https://ropedropnews.com/developers
+  quote: Everything here is released under Creative Commons Attribution 4.0
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://ropedropnews.com/developers
+  quote: Use it, adapt it, republish it, even commercially. The only ask is a credit back.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://ropedropnews.com/developers
+  quote: Live JSON refreshes about once a minute. Please cache for at least 60 seconds.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://ropedropnews.com/developers
+  quote: Use it, adapt it, republish it, even commercially.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://ropedropnews.com/developers
+  quote: Data from Rope Drop News (https://ropedropnews.com), CC BY 4.0
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://ropedropnews.com/terms
+  quote: You can use them for anything, including commercial projects, as long as you credit Rope Drop
+    News with a link.
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://ropedropnews.com/terms
+  quote: If you want our data in bulk, the open data downloads are the right place to get it.
+  checked_at: '2026-11-21'
+notes: 'Pages read: /developers and /terms. All API/CSV datasets are CC BY 4.0 and the terms confirm commercial
+  use with credit; data is first-party to Rope Drop News. The site terms ask not to scrape the website
+  and to use the open data downloads for bulk. Not affiliated with Disney/Universal (park names and ride
+  names are trademarks of their owners). Site articles/guides are separate content, not covered by the
+  CC BY grant. Wait-time data is live and may be inaccurate.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Site calls data first-party; live wait times may originate from park operators (Disney/Universal
+  trademarks disclaimed) - not verifiable here. Site articles are not under CC BY.

@@ -1,0 +1,72 @@
+id: open-government-sweden
+name: Open Government, Sweden
+url: https://www.dataportal.se/en/dataservice/91_29789/api-for-the-statistical-database
+category: Government
+description: Sweden Government Open Data
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Open Government, Sweden
+  url: https://www.dataportal.se/en/dataservice/91_29789/api-for-the-statistical-database
+  category: Government
+link_status: redirect
+data_license: CC0-1.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'no'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: high
+link_checked_at: '2026-11-21'
+link_note: -> https://www.dataportal.se/dataservice/91_29789
+data_license_url: https://www.scb.se/en/services/open-data-api/
+api_terms_url: https://www.scb.se/en/services/open-data-api/
+commercial_use_scope: any
+attribution_text: 'Optional: "Source: Statistics Sweden"; if data carries another agency as source, state
+  that'
+share_alike: 'no'
+rate_limits: Max 10 calls per 10 seconds per IP; max 100,000 values per table
+evidence:
+- field: data_license
+  url: https://www.scb.se/en/services/open-data-api/
+  quote: We use the licence CC0 for this data
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.scb.se/en/services/open-data-api/
+  quote: you may use and disseminate or provide such data without any requirement to state the source
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.scb.se/en/services/open-data-api/
+  quote: you may use and disseminate or provide such data without any requirement to state the source
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.scb.se/en/services/open-data-api/
+  quote: you may use and disseminate or provide such data without any requirement to state the source
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.scb.se/en/services/open-data-api/
+  quote: you may use and disseminate or provide such data without any requirement to state the source
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://www.scb.se/en/services/open-data-api/
+  quote: We use the licence CC0 for this data
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://www.scb.se/en/services/open-data-api/
+  quote: You may perform a maximum of ten call-ups in a 10-second period from an IP address.
+  checked_at: '2026-11-21'
+notes: 'The listed API is the Statistics Sweden (SCB) Statistical Database API; terms read on the SCB
+  open-data page (the dataportal.se entry page is JS-only and was not read). Restrictions: no malware,
+  must not present a service as official cooperation with SCB. Statistics from other agencies in the database
+  should be sourced to them. Do not cite SCB as source if you processed the data yourself.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Other agencies' statistics in the DB should be sourced to them (page says so); API
+  'as it is', 10 calls/10 s/IP.

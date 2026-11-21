@@ -1,0 +1,29 @@
+id: colorado-data-engine
+name: Colorado Data Engine
+url: http://codataengine.org/
+category: Government
+description: Formatted and geolocated Colorado public data
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-api-lists
+  name: Colorado Data Engine
+  url: http://codataengine.org/
+  category: Government
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: Domain now hosts an unrelated generic article/blog site (Codataengine); the Colorado open-data service is gone
+notes: codataengine.org returns 200 but the home page is a generic multi-category content site (automotive, cooking, finance, etc.) with no API or Colorado public data. Service appears gone; terms unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: unknown

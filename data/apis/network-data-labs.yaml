@@ -1,0 +1,42 @@
+id: network-data-labs
+name: Network Data Labs
+url: https://www.networkdatalabs.com/docs
+category: Geocoding
+description: IP geolocation with accuracy radius, ASN, and flags for Tor exits, known VPN networks and hosting
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Network Data Labs
+  url: https://www.networkdatalabs.com/docs
+  category: Geocoding
+link_status: alive
+data_license: unknown
+commercial_use: paid-only
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.networkdatalabs.com/terms
+commercial_use_scope: paid
+rate_limits: 'Free: 1,000 requests/month, 1 req/s; paid from 100,000/month'
+evidence:
+- field: commercial_use
+  url: https://www.networkdatalabs.com/terms
+  quote: The Free plan is for personal and non-commercial use only. Commercial use requires a paid plan.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://www.networkdatalabs.com/docs
+  quote: Free is 1 request/second with no burst, and a hard 1,000 requests per UTC calendar month
+  checked_at: '2026-11-21'
+notes: Read /terms (23 Sep 2026), /pricing and /docs. Free plan is personal/non-commercial only; Starter ($9/mo), Growth and Scale plans include "Commercial use". Terms also forbid resale or redistribution
+  "that violates law or these terms" without specifying what is allowed. Caching, storage and display of results, and the origin/licence of the underlying IP geolocation data, are not addressed, so those
+  stay unknown. New service (v0 API).
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

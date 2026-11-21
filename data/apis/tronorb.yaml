@@ -1,0 +1,53 @@
+id: tronorb
+name: TronOrb
+url: https://tronorb.com/developers/api
+category: Cryptocurrency
+description: 'TRON data: USDT TRC-20 fees, address checks, Tether freezes, dApp and exchange rankings'
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: TronOrb
+  url: https://tronorb.com/developers/api
+  category: Cryptocurrency
+link_status: alive
+data_license: unknown
+commercial_use: 'yes'
+storage_caching: unknown
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://tronorb.com/developers/api
+commercial_use_scope: any
+attribution_text: Credit TronOrb as the source with a link to tronorb.com
+rate_limits: 120 requests/min per IP; address checks 10/min
+evidence:
+- field: commercial_use
+  url: https://tronorb.com/developers/api
+  quote: Yes — credit TronOrb as the source with a link, and stay within the rate limits.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://tronorb.com/developers/api
+  quote: When you show the data, credit TronOrb with a link to tronorb.com
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://tronorb.com/developers/api
+  quote: When you show the data, credit TronOrb with a link to tronorb.com
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://tronorb.com/developers/api
+  quote: 120 requests per minute per IP; address checks 10 per minute.
+  checked_at: '2026-11-21'
+notes: 'Read https://tronorb.com/developers/api (FAQ: "Can I use it in a commercial project? Yes"). No
+  separate ToS page (404 at /terms). Caching/storage by the user is not addressed (the API itself caches
+  ~1 minute), so storage_caching is unknown and the verdict stays unknown. Data derives from TRON chain,
+  TRONSCAN risk flags and Tether contract reads; upstream (TRONSCAN) terms not checked and may be stricter.
+  Page says information only, not investment advice.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

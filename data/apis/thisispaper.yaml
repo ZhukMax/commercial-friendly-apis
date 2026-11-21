@@ -1,0 +1,41 @@
+id: thisispaper
+name: Thisispaper
+url: https://www.thisispaper.com/intelligence/api-docs
+category: Art & Design
+description: Curated architecture, design, photography and art projects with visual-similarity and taste metadata
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Thisispaper
+  url: https://www.thisispaper.com/intelligence/api-docs
+  category: Art & Design
+link_status: alive
+data_license: unknown
+commercial_use: paid-only
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.thisispaper.com/intelligence/api-docs
+commercial_use_scope: paid
+rate_limits: 'Free: 200 calls/month, max 3 keys per email; Studio 5,000/month; Pro 25,000/month'
+notes: Read the API docs page (pricing section); the free tier is labelled 'Personal use and evaluation', Studio and Pro 'Commercial use'. No dedicated ToS/licence page found (/terms 404). Content is a
+  publication's curated archive (projects and images by photographers/architects), so underlying image copyright is likely held by third parties; storage, display and attribution not addressed.
+evidence:
+- field: commercial_use
+  url: https://www.thisispaper.com/intelligence/api-docs
+  quote: API Studio €29 /mo 5,000 calls / month Commercial use.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://www.thisispaper.com/intelligence/api-docs
+  quote: 'Free tier: 200 calls/month, max 3 keys per email.'
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

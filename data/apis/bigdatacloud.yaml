@@ -1,0 +1,50 @@
+id: bigdatacloud
+name: BigDataCloud
+url: https://www.bigdatacloud.com/docs
+category: Geocoding
+description: Provides fast and accurate IP geolocation APIs along with security checks and confidence
+  area
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: BigDataCloud
+  url: https://www.bigdatacloud.com/docs
+  category: Geocoding
+link_status: alive
+data_license: unknown
+commercial_use: 'yes'
+storage_caching: ambiguous
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.bigdatacloud.com/terms-and-conditions
+commercial_use_scope: free-tier
+cache_limit: Clause 3.12 (Unlimited Subscription) bans storing the data; unclear whether it applies to
+  other plans
+notes: Commercial use is stated for the keyless client-side Free API package (marketing page, fair use).
+  For the keyed Key Packages the ToS (updated 25 Oct 2025) gives free Base Access and paid subscriptions,
+  forbids reselling, derivative works and using data to offer location services to third parties; the
+  no-storage sentence sits in the Unlimited Subscription clause 3.12 so scope is unclear. Display/attribution
+  not addressed on pages read. Flat Data downloads have a separate licence (not read).
+evidence:
+- field: commercial_use
+  url: https://www.bigdatacloud.com/free-api
+  quote: Free for both commercial and non-commercial applications under our fair use policy.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.bigdatacloud.com/terms-and-conditions
+  quote: the data received may not be stored, scraped, downloaded or offered for reuse by third parties
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read ToS (3.5-3.13) and /free-api: Base Access has no commercial restriction; 3.12
+  no-storage clause is in the Unlimited Subscription terms. Unknown verdict stands.'

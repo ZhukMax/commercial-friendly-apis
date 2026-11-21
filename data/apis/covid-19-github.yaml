@@ -1,0 +1,39 @@
+id: covid-19-github
+name: Covid-19
+url: https://github.com/M-Media-Group/Covid-19-API
+category: Health
+description: Covid 19 cases, deaths and recovery per country
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Covid-19
+  url: https://github.com/M-Media-Group/Covid-19-API
+  category: Health
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://github.com/M-Media-Group/Covid-19-API
+rate_limits: Rate limiter applied; cache responses at least 10 minutes
+evidence:
+- field: rate_limits
+  url: https://raw.githubusercontent.com/M-Media-Group/Covid-19-API/master/README.md
+  quote: Please cache the API responses with a lifetime of at least 10 minutes
+  checked_at: '2026-11-21'
+notes: Only the GitHub repo (archived 19 Oct 2022, AGPL-3.0 code) was read. README says the API runs at
+  covid-api.mmediagroup.fr/v1 and lists data sources (JHU CSSE GitHub, an ArcGIS feed, govex/COVID-19);
+  no data licence or terms for the hosted API. It asks users not to build APIs that merely relay this
+  API. At check time covid-api.mmediagroup.fr returned HTTP 403 / 'Missing Authentication Token', so the
+  hosted API may be gone or key-gated. All terms fields unknown. Upstream JHU terms not read.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

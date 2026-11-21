@@ -1,0 +1,25 @@
+id: compliance-assessment-tool
+name: Compliance Assessment Tool
+url: https://banks.complianceassessmenttool.com/docs
+category: Security
+description: 'PCI DSS self-assessment for merchants: picks the SAQ type, returns filled SAQ + AoC PDFs'
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Compliance Assessment Tool
+  url: https://banks.complianceassessmenttool.com/docs
+  category: Security
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

@@ -1,0 +1,65 @@
+id: noaa-co-ops
+name: NOAA CO-OPS
+url: https://api.tidesandcurrents.noaa.gov/api/prod/
+category: Weather
+description: US coastal tides, water levels, currents and meteorological observations
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: NOAA CO-OPS
+  url: https://api.tidesandcurrents.noaa.gov/api/prod/
+  category: Weather
+link_status: alive
+data_license: public-domain
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'no'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://tidesandcurrents.noaa.gov/disclaimers.html
+api_terms_url: https://tidesandcurrents.noaa.gov/disclaimers.html
+commercial_use_scope: any
+attribution_text: 'Requested, not required: attribute NOAA/NOS as source; do not present modified data
+  as official'
+share_alike: unknown
+evidence:
+- field: data_license
+  url: https://tidesandcurrents.noaa.gov/disclaimers.html
+  quote: The information on government servers are in the public domain, unless specifically annotated
+    otherwise, and may be used freely by the public.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://tidesandcurrents.noaa.gov/disclaimers.html
+  quote: NOS requests that attribution be given whenever NOS material is reproduced and re-disseminated.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://tidesandcurrents.noaa.gov/disclaimers.html
+  quote: This information shall not be modified in content and then presented as official government material.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://tidesandcurrents.noaa.gov/disclaimers.html
+  quote: The information on government servers are in the public domain, unless specifically annotated
+    otherwise, and may be used freely by the public.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://tidesandcurrents.noaa.gov/disclaimers.html
+  quote: The information on government servers are in the public domain, unless specifically annotated
+    otherwise, and may be used freely by the public.
+  checked_at: '2026-11-21'
+notes: Commercial use, caching and display are not mentioned explicitly; verdict rests on the public-domain
+  'used freely by the public' statement. Attribution is requested, not mandated. Raw data is not quality
+  controlled; do not present modified data as official. API-specific rate limits not checked.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read tidesandcurrents.noaa.gov/disclaimers.html: data ''shall not be modified in
+  content and then presented as official government material'', ''unless specifically annotated otherwise''.
+  No API-specific terms found.'

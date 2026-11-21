@@ -1,0 +1,56 @@
+id: company-enrichment
+name: Company Enrichment
+url: https://dataandapis.com/apis/companies
+category: Business
+description: Domain, URL or email to company name, industry, size, HQ, tickers and socials, 125k companies
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Company Enrichment
+  url: https://dataandapis.com/apis/companies
+  category: Business
+link_status: alive
+data_license: 'Underlying: Wikidata CC0 and SEC EDGAR (US Government work); service terms separate'
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://dataandapis.com/terms-of-service
+rate_limits: 'Free key: 500 tokens/month (1 token per call)'
+evidence:
+- field: commercial_use
+  url: https://dataandapis.com/terms-of-service
+  quote: Using the Services for unauthorized commercial purposes
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://dataandapis.com/terms-of-service
+  quote: Copying or distributing any part of the Services
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://dataandapis.com/apis/companies
+  quote: 'two free, commercially usable sources: Wikidata (CC0)'
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://dataandapis.com/apis/companies
+  quote: A free key includes 500 tokens a month
+  checked_at: '2026-11-21'
+notes: 'Read the product page and the (very short) Terms of Service. Dataset is built from Wikidata (CC0)
+  and the SEC EDGAR registry (page''s own licence column: US Government work), but the ToS forbids ''unauthorized
+  commercial purposes'' and ''copying or distributing any part of the Services'' without defining them,
+  so commercial use and redistribution are ambiguous; storage unknown. Needs an API key.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Ambiguity not resolvable from vendor pages; leans permissive (CC0 Wikidata + SEC EDGAR,
+  plans from $6.99) but ToS wording is a real blocker for storing/displaying. Note logo_url points to
+  Wikimedia Commons files whose licences vary per file (not CC0). Pricing page lists no per-plan commercial
+  rights. Verdict yellow/low stands.

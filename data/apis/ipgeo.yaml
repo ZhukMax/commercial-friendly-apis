@@ -1,0 +1,35 @@
+id: ipgeo
+name: IPGEO
+url: https://api.techniknews.net/ipgeo/
+category: Geocoding
+description: Unlimited free IP Address API with useful information
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: IPGEO
+  url: https://api.techniknews.net/ipgeo/
+  category: Geocoding
+- list: public-api-lists
+  name: IPGEO
+  url: https://api.techniknews.net/
+  category: Development
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://api.techniknews.net/ipgeo/77.46.228.215
+evidence: []
+notes: api.techniknews.net root lists the available APIs (IP, IPgeo, radio, speedtest) with no terms, licence, data-source or limit statement; the techniknews.net/ipgeo pages are 404 and the site pages
+  read are the news blog (ads-funded) only. Endpoint answers JSON without a key. Underlying geolocation database not stated. All terms fields unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -1,0 +1,25 @@
+id: yomi
+name: Yomi
+url: https://github.com/ookii-tsuki/yomi
+category: Text Analysis
+description: Japanese tokenizer and morphological analysis web API
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: Yomi
+  url: https://github.com/ookii-tsuki/yomi
+  category: Text Analysis
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

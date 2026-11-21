@@ -1,0 +1,31 @@
+id: connectmeguru
+name: ConnectMeGuru
+url: https://www.connectmeguru.com/api/mcp
+category: Transportation
+description: Search and purchase prepaid travel eSIM data plans across 190+ countries
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: ConnectMeGuru
+  url: https://www.connectmeguru.com/api/mcp
+  category: Transportation
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.connectmeguru.com/terms
+evidence: []
+notes: Endpoint is an MCP gateway for an eSIM catalog/purchase shop (no data licence stated). Site Terms of Service were read (orders, refunds, wholesaler integration, price protection); they contain no
+  terms on reusing, caching or displaying catalog data by third parties. All core fields unknown. Partner/wholesale offers exist at partner.connectmeguru.com (not read).
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

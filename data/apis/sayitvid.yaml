@@ -1,0 +1,51 @@
+id: sayitvid
+name: SayItVid
+url: https://sayitvid.com
+category: Dictionaries
+description: English video pronunciation search with timestamps, IPA phonetics and subtitle context
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: SayItVid
+  url: https://sayitvid.com
+  category: Dictionaries
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://sayitvid.com/terms
+rate_limits: Free tier 100 requests/day (API docs)
+evidence:
+- field: commercial_use
+  url: https://sayitvid.com/terms
+  quote: You agree to use SayItVid only for lawful educational and personal purposes.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://sayitvid.com/api-docs
+  quote: Standard free tier includes 100 requests/day.
+  checked_at: '2026-11-21'
+notes: 'Website Terms limit use to "lawful educational and personal purposes" and ban automated harvesting
+  without written consent, while the API docs advertise a developer platform for "language learning applications,
+  browser extensions, bots, and educational platforms" with free and production keys but no commercial/storage/attribution
+  terms. Conflicting/vague, so commercial_use=ambiguous; other fields unknown. Results are deep links
+  to YouTube videos embedded under YouTube terms (third-party rights). Separate Widget Terms (/terms/widget)
+  not read. Needs account/API key. Data licence not stated on a page read; characterised as: proprietary
+  / unknown; video content is third-party YouTube.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read /terms s6 ('lawful educational and personal purposes') and /terms/widget (licence
+  to display videos to end-users with mandatory SayItVid branding backlink; bans bulk scraping). API-specific
+  terms not found (/developers 404; /api-docs has quotas only). Commercial use ambiguous; storage effectively
+  barred. Stands.

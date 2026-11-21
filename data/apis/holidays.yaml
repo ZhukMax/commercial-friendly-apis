@@ -1,0 +1,56 @@
+id: holidays
+name: Holidays
+url: https://holidayapi.com/
+category: Calendar
+description: Historical data regarding holidays
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Holidays
+  url: https://holidayapi.com/
+  category: Calendar
+- list: public-api-lists
+  name: Holidays
+  url: https://holidayapi.com/
+  category: Calendar
+link_status: alive
+data_license: unknown
+commercial_use: paid-only
+storage_caching: limited
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://holidayapi.com/terms
+api_terms_url: https://holidayapi.com/terms
+commercial_use_scope: paid
+cache_limit: 'free: 24 hours; paid: while the subscription is active'
+rate_limits: 'Paid plans: 1,000,000 requests/month'
+notes: 'Holiday API (Gravity Boulevard LLC). Pricing page lists ''Commercial use'' on the paid plans (Countries
+  $249/yr, States & Provinces $399/yr); the free plan is not described as commercial, so commercial =
+  paid-only (free-plan terms for commercial use not stated). Terms: storage on your servers is allowed,
+  free accounts may persist data for 24 hours, premium accounts for the duration of the subscription (purge
+  on non-renewal). Terms and FAQ do not address display/attribution, so those are unknown. Data comes
+  from many sources; upstream terms not assessed.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+evidence:
+- field: commercial_use
+  url: https://holidayapi.com/pricing
+  quote: Countries $249 per year All our standard features Commercial use Holidays for years 1-2050+
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://holidayapi.com/terms
+  quote: free accounts may only persist data for 24 hours; (b) premium accounts may persist data for the
+    duration of their active subscription.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://holidayapi.com/pricing
+  quote: No request throttling 1,000,000 requests per month.
+  checked_at: '2026-11-21'

@@ -1,0 +1,52 @@
+id: bible-api
+name: Bible-api
+url: https://bible-api.com/
+category: Books
+description: Free Bible API with multiple languages
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Bible-api
+  url: https://bible-api.com/
+  category: Books
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: 'no'
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://bible-api.com/
+rate_limits: 15 requests per 30 seconds per IP
+evidence:
+- field: commercial_use
+  url: https://bible-api.com/
+  quote: This service is free for anyone to use as long as you don't abuse my server.
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://bible-api.com/
+  quote: Do not use this API to download an entire bible
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://bible-api.com/
+  quote: This service is rate limited to 15 requests every 30 seconds
+  checked_at: '2026-11-21'
+notes: Read the single page; its 'Terms of Use' say only that the service is free as long as it is not
+  abused (no explicit commercial/storage/attribution wording, hobby project, no availability guarantee).
+  Site says it removed translations of unclear status (e.g. in 2026), implying only public-domain or freely
+  licensed translations are offered; per-translation licences not individually read. Self-hosting the
+  code/data is mentioned on the page but not verified, so self_host_option left unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read bible-api.com: terms only forbid abuse and downloading a whole Bible; the
+  page states translations must be public domain or freely licensed and removed unclear ones in Nov 2026.
+  Ambiguity (silence) stands; confidence low.'

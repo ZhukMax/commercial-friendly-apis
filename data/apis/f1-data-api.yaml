@@ -1,0 +1,32 @@
+id: f1-data-api
+name: F1 Data API
+url: https://github.com/Jacobbrewer1/f1-data
+category: Sports & Fitness
+description: Formula 1 data API that delivers data from the F1 Archive dating back to 1950
+description_source: upstream
+auth: none
+https: true
+cors: 'no'
+sources:
+- list: public-api-lists
+  name: F1 Data API
+  url: https://github.com/Jacobbrewer1/f1-data
+  category: Sports & Fitness
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+evidence: []
+notes: 'Read the GitHub repo page: Go server source under GPL-3.0 that ''serves the F1 Archive'' (hosted
+  at api.bthree.uk/f1/v1). GPL covers the code only; the origin and licence of the F1 data are not stated,
+  and F1 data is typically owned by Formula One. The hosted API host did not respond to curl from this
+  session. No terms page found; all unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

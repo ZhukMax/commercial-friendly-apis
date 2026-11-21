@@ -1,0 +1,31 @@
+id: gr-nstromindex
+name: GrünstromIndex
+url: https://gruenstromindex.de/
+category: Environment
+description: Green Power Index for Germany (Grünstromindex/GSI)
+description_source: upstream
+auth: none
+https: false
+cors: 'yes'
+sources:
+- list: public-apis
+  name: GrünstromIndex
+  url: https://gruenstromindex.de/
+  category: Environment
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://gruenstromindex.de/
+notes: gruenstromindex.de (JS-rendered, read via Playwright) shows a CC BY-NC-SA badge image linking to creativecommons.org/licenses/by-nc-sa/4.0/ in the footer, data credited to STROMDAO GmbH, but there
+  is no text stating which content or API it covers, and no terms page was found; the API docs on corrently.io were not conclusive. An NC badge may point to non-commercial limits; not asserted. All terms
+  fields unknown. Note the site is https now (auth/https field says http only).
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

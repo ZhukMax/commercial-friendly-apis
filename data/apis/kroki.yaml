@@ -1,0 +1,25 @@
+id: kroki
+name: Kroki
+url: https://kroki.io
+category: Development
+description: Creates diagrams from textual descriptions
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Kroki
+  url: https://kroki.io
+  category: Development
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

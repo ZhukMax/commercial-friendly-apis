@@ -1,0 +1,37 @@
+id: socrata
+name: Socrata
+url: https://dev.socrata.com/
+category: Open Data
+description: Access to Open Data from Governments, Non-profits and NGOs around the world
+description_source: upstream
+auth: OAuth
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Socrata
+  url: https://dev.socrata.com/
+  category: Open Data
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://dev.socrata.com/
+rate_limits: 'Without app token: shared pool throttled by IP address; app token gives higher limit'
+evidence:
+- field: rate_limits
+  url: https://dev.socrata.com/docs/app-tokens.html
+  quote: requests that aren’t using an application token come from a shared pool via IP address
+  checked_at: '2026-11-21'
+notes: Socrata is a platform (Tyler Technologies) hosting datasets of many governments; licence is set per dataset by each publisher, so there is no single answer. dev.socrata.com says it is itself 'Licensed
+  by Tyler Technologies under CC BY-NC-SA 3.0' but that covers the developer docs site, not the data. No API terms of use for data consumers were found (dev.socrata.com/terms is 404; tylertech.com/terms
+  is general site terms, not read for API). Verdict unknown; check each dataset's licence and the publisher's portal terms.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

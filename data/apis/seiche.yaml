@@ -1,0 +1,48 @@
+id: seiche
+name: Seiche
+url: https://seiche.info/developers
+category: Finance
+description: Free public funding, FX and capital-market evidence with source clocks
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Seiche
+  url: https://seiche.info/developers
+  category: Finance
+link_status: alive
+data_license: per-source (upstream publishers keep their terms; Seiche code AGPL-3.0-or-later)
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+data_license_url: https://seiche.info/terms
+api_terms_url: https://seiche.info/terms
+evidence:
+- field: redistribution_display
+  url: https://seiche.info/terms
+  quote: Rights and redistribution conditions for underlying source data remain those of each source;
+    this site cannot grant rights it does not own.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://seiche.info/terms
+  quote: The Seiche source code is offered under AGPL-3.0-or-later.
+  checked_at: '2026-11-21'
+notes: 'Aggregator of official data (Fed, NY Fed, OFR, Treasury, CFTC, ECB...). Terms of Use (marked "operational
+  draft pending legal review", 2026-10-06) grant no commercial-use or storage rights for the data; API
+  consumers must carry provenance and redistribution limits returned with each response, and the developers
+  page says upstream data keeps its own redistribution terms. Upstream terms may be stricter. Commercial
+  use and storage not addressed, so unknown. Pages read: /terms, /developers.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Developers page: ''upstream data keeps its own redistribution terms''; terms permit
+  quotation/indexing with attribution only. unknown stands.'

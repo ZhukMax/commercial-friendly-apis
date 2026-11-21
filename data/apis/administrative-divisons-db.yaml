@@ -1,0 +1,68 @@
+id: administrative-divisons-db
+name: administrative-divisons-db
+url: https://github.com/kamikazechaser/administrative-divisions-db
+category: Geocoding
+description: Get all administrative divisions of a country
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: administrative-divisons-db
+  url: https://github.com/kamikazechaser/administrative-divisions-db
+  category: Geocoding
+- list: public-api-lists
+  name: administrative-divisons-db
+  url: https://github.com/kamikazechaser/administrative-divisions-db
+  category: Geocoding
+link_status: alive
+data_license: Unlicense (repo/JSON files); underlying GeoNames data is CC-BY-4.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://download.geonames.org/export/dump/readme.txt
+api_terms_url: https://raw.githubusercontent.com/kamikazechaser/administrative-divisions-db/master/README.md
+commercial_use_scope: any
+attribution_text: Give credit to GeoNames with a link or other reference to GeoNames
+share_alike: unknown
+rate_limits: None stated (static JSON served via GitHub/githack CDN)
+notes: 'Read repo README (Unlicense, data sourced from GeoNames), GitHub licence metadata, geonames.org/export
+  and the GeoNames dump readme. The repo is static JSON files, not a service: the Unlicense covers the
+  repo, but the data comes from GeoNames, which requires CC BY 4.0 credit, so attribution_required=yes.
+  Storage/display rest on the CC BY 4.0 grant for the GeoNames data. Served via third-party githack CDN
+  (no SLA; can be self-hosted from the repo). Original README is silent on attribution.'
+evidence:
+- field: data_license
+  url: https://raw.githubusercontent.com/kamikazechaser/administrative-divisions-db/master/README.md
+  quote: 'Data is sourced from [GeoNames](http://www.geonames.org/). ## License The Unlicense'
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: http://www.geonames.org/export/
+  quote: commercial usage is allowed
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: http://www.geonames.org/export/
+  quote: You should give credit to GeoNames when using data or web services with a link or another reference
+    to GeoNames.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://download.geonames.org/export/dump/readme.txt
+  quote: This work is licensed under a Creative Commons Attribution 4.0 License
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://download.geonames.org/export/dump/readme.txt
+  quote: This work is licensed under a Creative Commons Attribution 4.0 License
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Attribution to GeoNames is required (README silent). CDN is third-party, no SLA. No
+  blocker found.

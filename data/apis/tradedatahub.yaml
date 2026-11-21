@@ -1,0 +1,47 @@
+id: tradedatahub
+name: TradeDataHub
+url: https://www.tradedatahub.net
+category: Business
+description: U.S. contractor datasets with a free discovery API for coverage, pricing and masked previews
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: TradeDataHub
+  url: https://www.tradedatahub.net
+  category: Business
+link_status: alive
+data_license: unknown
+commercial_use: paid-only
+storage_caching: unknown
+redistribution_display: 'no'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.tradedatahub.net/terms/
+commercial_use_scope: paid
+rate_limits: 'Paid API: 1 credit per contractor row; Starter 5,000 credits/month, Agency 25,000/month. Free discovery endpoints return counts and masked previews only'
+evidence:
+- field: commercial_use
+  url: https://www.tradedatahub.net/terms/
+  quote: non-exclusive, non-transferable license to use the purchased dataset for your own internal business purposes
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.tradedatahub.net/terms/
+  quote: No resale, redistribution, republication, or syndication of the raw data or substantially similar derivatives.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://www.tradedatahub.net/api-plans/
+  quote: 1 API credit = 1 contractor row returned.
+  checked_at: '2026-11-21'
+notes: 'Read Terms of Service (https://www.tradedatahub.net/terms/), API plans (https://www.tradedatahub.net/api-plans/) and developer page (https://www.tradedatahub.net/developers/). The free API only
+  gives counts, pricing and masked previews; real records need a paid purchase/API subscription, licensed for the buyer''s internal business purposes with no republication, so a public site displaying records
+  is out of scope. Doubt: the Terms are written for purchased CSV datasets and no separate API-subscription terms were found (the API plans page links to the same Terms). Records are business listings (some
+  individuals) compiled from public sources; TCPA/CAN-SPAM duties on the buyer. Storage/caching not addressed.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

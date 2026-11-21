@@ -1,0 +1,25 @@
+id: api-snap
+name: API Snap
+url: https://api-snap.com
+category: Development
+description: Free utility API platform. QR codes, screenshots, PDFs, image resize, hashing, and more
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: API Snap
+  url: https://api-snap.com
+  category: Development
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

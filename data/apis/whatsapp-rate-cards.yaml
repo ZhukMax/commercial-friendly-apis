@@ -1,0 +1,77 @@
+id: whatsapp-rate-cards
+name: WhatsApp Rate Cards
+url: https://github.com/tobachat/whatsapp-api-rates
+category: Open Data
+description: Meta's WhatsApp Business API per-message rates per country in 16 currencies, checked weekly
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: WhatsApp Rate Cards
+  url: https://github.com/tobachat/whatsapp-api-rates#json
+  category: Open Data
+link_status: alive
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+notes: Read the repo README (licence section) and LICENSE (CC BY 4.0). The data/compilation is CC BY 4.0;
+  the rates themselves are Meta's published prices and the README says the dataset is not affiliated with
+  Meta - Meta's own terms on its pricing pages were not read, so the right to republish Meta's figures
+  is only as good as the compiler's licence. Static files on GitHub (no API server, no rate limit stated,
+  only raw files); hosted API at tobachat.com not read.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+data_license: CC-BY-4.0 (compilation by Tobachat; underlying rates are Meta's published prices)
+data_license_url: https://raw.githubusercontent.com/tobachat/whatsapp-api-rates/main/README.md
+api_terms_url: https://raw.githubusercontent.com/tobachat/whatsapp-api-rates/main/README.md
+commercial_use: 'yes'
+commercial_use_scope: any
+storage_caching: 'yes'
+redistribution_display: ambiguous
+attribution_required: 'yes'
+share_alike: 'no'
+bulk_download: 'yes'
+self_host_option: unknown
+evidence:
+- field: data_license
+  url: https://raw.githubusercontent.com/tobachat/whatsapp-api-rates/main/README.md
+  quote: '"license": "CC-BY-4.0", "attribution": "Data: Meta rate cards, compiled by Tobachat'
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://raw.githubusercontent.com/tobachat/whatsapp-api-rates/main/README.md
+  quote: '"license": "CC-BY-4.0", "attribution": "Data: Meta rate cards, compiled by Tobachat'
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://creativecommons.org/licenses/by/4.0/deed.en
+  quote: copy and redistribute the material in any medium or format for any purpose, even commercially
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://creativecommons.org/licenses/by/4.0/deed.en
+  quote: copy and redistribute the material in any medium or format for any purpose, even commercially
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://creativecommons.org/licenses/by/4.0/deed.en
+  quote: copy and redistribute the material in any medium or format for any purpose, even commercially
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://raw.githubusercontent.com/tobachat/whatsapp-api-rates/main/README.md
+  quote: '"license": "CC-BY-4.0", "attribution": "Data: Meta rate cards, compiled by Tobachat'
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://raw.githubusercontent.com/tobachat/whatsapp-api-rates/main/README.md
+  quote: '"license": "CC-BY-4.0", "attribution": "Data: Meta rate cards, compiled by Tobachat'
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://raw.githubusercontent.com/tobachat/whatsapp-api-rates/main/README.md
+  quote: Meta's per-message rates for the WhatsApp Business Platform as clean, versioned CSV and JSON
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://github.com/tobachat/whatsapp-api-rates
+  quote: raw/<date>/ Meta's original workbooks for that rate card
+  checked_at: '2026-11-21'
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Upstream Meta terms unread; repo also redistributes Meta''s original workbooks; Compiler''s
+  CC BY cannot grant rights over Meta''s own material | applied: redistribution_display=ambiguous'

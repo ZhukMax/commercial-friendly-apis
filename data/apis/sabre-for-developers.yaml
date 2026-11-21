@@ -1,0 +1,50 @@
+id: sabre-for-developers
+name: Sabre for Developers
+url: https://developer.sabre.com/
+category: Transportation
+description: Travel Search - Limited usage
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Sabre for Developers
+  url: https://developer.sabre.com/
+  category: Transportation
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://developer.sabre.com/terms-and-conditions
+commercial_use_scope: free-tier
+evidence:
+- field: commercial_use
+  url: https://developer.sabre.com/terms-and-conditions
+  quote: for development and testing of applications in Sabre’s test or certification environment (not
+    in a production environment)
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://developer.sabre.com/terms-and-conditions
+  quote: this license does not include license for any resale or commercial use of the Sabre Developer
+    Hub site, its contents or applications developed by you
+  checked_at: '2026-11-21'
+notes: Developer Hub terms (read via Playwright) limit the free hub to information and development/testing
+  in the test/certification environment, and state the licence does not include resale or commercial use
+  of the hub, its contents or apps developed related to the account. Production use needs separate Sabre
+  customer agreements that are not public. So commercial use is unclear, not confirmed allowed; storage
+  and display terms unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Developer Hub licence is for test/certification only and explicitly excludes resale
+  or commercial use; content may not be transferred for use in any commercial enterprise. | applied: commercial_use=ambiguous
+  (suggested no, needs human review)'

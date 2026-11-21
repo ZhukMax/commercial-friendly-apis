@@ -1,0 +1,68 @@
+id: goldprice-dev
+name: Goldprice.dev
+url: https://goldprice.dev/docs
+category: Finance
+description: Cross-validated gold, silver & copper spot, futures & 30-year history in 13 currencies
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Goldprice.dev
+  url: https://goldprice.dev/docs
+  category: Finance
+link_status: alive
+data_license: proprietary (goldprice.dev Terms of Service)
+commercial_use: 'yes'
+storage_caching: unknown
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://goldprice.dev/terms
+commercial_use_scope: free-tier
+attribution_text: Visible credit link to goldprice.dev near the prices shown (Free tier)
+rate_limits: 'Free/keyless: same prices 15 minutes delayed; paid tiers live (Basic $19, Plus $39, Pro
+  $89 per month)'
+evidence:
+- field: commercial_use
+  url: https://goldprice.dev/terms
+  quote: 'Free tier: commercial use is permitted with a visible credit link to goldprice.dev near the
+    prices shown.'
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://goldprice.dev/terms
+  quote: Free requires a visible credit link to goldprice.dev near the prices shown.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://goldprice.dev/terms
+  quote: You may show prices, and values you derive from them
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://goldprice.dev/terms
+  quote: No plan, including Free, permits redistribution or resale of the data without a separate written
+    agreement.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://goldprice.dev/terms
+  quote: Free and keyless access receive the same prices 15 minutes late.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://goldprice.dev/terms
+  quote: Their terms allow us to display prices to our customers, but do not allow customers to pass them
+    on as data.
+  checked_at: '2026-11-21'
+notes: 'Read the full Terms of Service v0.7.3 (section 6 Commercial Use and Redistribution). Displaying
+  prices to your own end users is allowed on every plan; Free needs a visible credit link, paid plans
+  none. Hard limits: no resale/redistribution of raw or derived data through your own API, SDK, feed,
+  file export or dataset; no bulk export beyond tier limits. Caching/storage is not addressed explicitly,
+  so storage_caching stays unknown (hence verdict unknown under the project rules, although display use
+  looks fine). Upstream spot prices come from licensed market-data providers whose terms are stricter
+  ("do not allow customers to pass them on as data"); users of investment products may need their own
+  benchmark/exchange licences. Data is not an official benchmark.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

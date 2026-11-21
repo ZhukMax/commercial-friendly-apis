@@ -1,0 +1,26 @@
+id: google-gemini
+name: Google Gemini
+url: https://ai.google.dev/gemini-api/docs
+category: Machine Learning
+description: Multimodal generative AI for text, vision, and code generation
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Google Gemini
+  url: https://ai.google.dev/gemini-api/docs
+  category: Machine Learning
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://aistudio.google.com/docs

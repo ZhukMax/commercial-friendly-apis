@@ -1,0 +1,69 @@
+id: coronavirus-in-the-uk
+name: Coronavirus in the UK
+url: https://coronavirus.data.gov.uk/details/developers-guide
+category: Health
+description: UK Government coronavirus data, including deaths and cases by region
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Coronavirus in the UK
+  url: https://coronavirus.data.gov.uk/details/developers-guide
+  category: Health
+link_status: redirect
+data_license: OGL-UK-3.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: 'yes'
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: -> https://ukhsa-dashboard.data.gov.uk
+api_terms_url: https://ukhsa-dashboard.data.gov.uk/access-our-data
+data_license_url: https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+commercial_use_scope: any
+attribution_text: Contains public sector information licensed under the Open Government Licence v3.0.
+share_alike: unknown
+evidence:
+- field: data_license
+  url: https://ukhsa-dashboard.data.gov.uk/access-our-data
+  quote: All content is available under the Open Government Licence v3.0 , except where otherwise stated
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+  quote: exploit the Information commercially and non-commercially
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+  quote: copy , publish, distribute and transmit the Information
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+  quote: copy , publish, distribute and transmit the Information
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+  quote: Contains public sector information licensed under the Open Government Licence v3.0.
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://ukhsa-dashboard.data.gov.uk/covid-19-archive-data-download
+  quote: The full dataset is 1.4 GB.
+  checked_at: '2026-11-21'
+notes: 'The listed URL (coronavirus.data.gov.uk/details/developers-guide) now 301-redirects to the new
+  UKHSA data dashboard; its COVID-19 archive page refers to the ''decommissioned Coronavirus (COVID-19)
+  in the UK dashboard'', so the old API is retired and the UKHSA dashboard API (api.ukhsa-dashboard.data.gov.uk)
+  is the successor. Terms read are those of the new service: all content OGL v3.0 except where otherwise
+  stated; OGL text read at nationalarchives.gov.uk. The old dashboard''s API itself is no longer available;
+  the entry''s data now means the new API/archive downloads (COVID-19 archive 1.4 GB). Statement ''except
+  where otherwise stated'' means individual datasets could carry other terms (not checked). Rate limits
+  not read.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Individual datasets may be marked otherwise; old URL now redirects.

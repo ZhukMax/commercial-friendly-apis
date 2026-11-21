@@ -1,0 +1,26 @@
+id: fishwatch
+name: FishWatch
+url: https://www.fishwatch.gov/developers
+category: Animals
+description: Information and pictures about individual fish species
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: FishWatch
+  url: https://www.fishwatch.gov/developers
+  category: Animals
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://www.fisheries.noaa.gov/topic/sustainable-seafood

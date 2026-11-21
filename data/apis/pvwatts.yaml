@@ -1,0 +1,30 @@
+id: pvwatts
+name: PVWatts
+url: https://developer.nrel.gov/docs/solar/pvwatts/v6/
+category: Environment
+description: Energy production photovoltaic (PV) energy systems
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: PVWatts
+  url: https://developer.nrel.gov/docs/solar/pvwatts/v6/
+  category: Environment
+- list: public-api-lists
+  name: PVWatts
+  url: https://developer.nrel.gov/docs/solar/pvwatts/v6/
+  category: Environment
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: ConnectError

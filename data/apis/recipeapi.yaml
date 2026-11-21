@@ -1,0 +1,56 @@
+id: recipeapi
+name: RecipeAPI
+url: https://recipeapi.io
+category: Food & Drink
+description: Recipes, ingredients, nutrition data and cooking instructions
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: RecipeAPI
+  url: https://recipeapi.io
+  category: Food & Drink
+- list: public-api-lists
+  name: RecipeAPI
+  url: https://recipeapi.io
+  category: Food & Drink
+link_status: alive
+data_license: proprietary (Recipe API terms)
+commercial_use: paid-only
+storage_caching: limited
+redistribution_display: unknown
+attribution_required: 'no'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://recipeapi.io/legal/terms-of-service
+commercial_use_scope: paid
+cache_limit: Cached/stored data may be used commercially only while a paid subscription is active
+share_alike: unknown
+rate_limits: 'Paid: 50,000 / 300,000 / 1,000,000 requests per month ($29.99 / $99.99 / $249.99); Free plan non-commercial'
+evidence:
+- field: commercial_use
+  url: https://recipeapi.io/legal/terms-of-service
+  quote: may be used for commercial purposes only while you hold an active paid subscription plan
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://recipeapi.io/legal/terms-of-service
+  quote: you must cease all commercial use of the data, including any data previously retrieved, cached, or stored by you
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://recipeapi.io/legal/terms-of-service
+  quote: Attribution to Recipe API is appreciated but not required unless specified in your subscription plan
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://recipeapi.io/legal/terms-of-service
+  quote: may be used for commercial purposes only while you hold an active paid subscription plan
+  checked_at: '2026-11-21'
+notes: 'Read the Terms of Service (last updated 2026-10-11) and the pricing/FAQ on the homepage. Commercial use allowed only on an active paid plan (free trial counts while running); Free plan is personal/academic/non-commercial.
+  On lapse all commercial use of data, including cached data, must stop - so storage is tied to the subscription (limited). No explicit display/redistribution clause beyond a ban on reselling/sublicensing
+  API access: left unknown. Data provenance (recipes) not stated; upstream rights unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

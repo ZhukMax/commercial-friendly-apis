@@ -1,0 +1,72 @@
+id: rijksmuseum-rijksmuseum
+name: Rijksmuseum
+url: https://www.rijksmuseum.nl/en/api
+category: Art & Design
+description: Art
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-api-lists
+  name: Rijksmuseum
+  url: https://www.rijksmuseum.nl/en/api
+  category: Art & Design
+link_status: redirect
+data_license: CC0-1.0 / Public Domain (most items); CC-BY-4.0 where copyright applies; some items restricted
+commercial_use: 'yes'
+storage_caching: ambiguous
+redistribution_display: ambiguous
+attribution_required: ambiguous
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: -> https://www.rijksmuseum.nl/en/research/conduct-research/data
+data_license_url: https://data.rijksmuseum.nl/policy
+api_terms_url: https://data.rijksmuseum.nl/policy
+commercial_use_scope: any
+attribution_text: Credit the Rijksmuseum as source (requested; mandatory only for CC BY items)
+share_alike: unknown
+notes: 'Read data.rijksmuseum.nl/policy (Information and Data Policy summary) and the Rijksmuseum Data
+  landing page the old /en/api URL redirects to. Policy: much of the data is free incl. commercial, with
+  per-item exceptions (copyright photos, CC BY items), so storage/display/attribution are item-dependent
+  (ambiguous). The old key-based API (auth: apiKey) is superseded by the new data services at data.rijksmuseum.nl;
+  whether keys are still needed was not verified (auth left as is). Full policy PDF not read.'
+evidence:
+- field: commercial_use
+  url: https://data.rijksmuseum.nl/policy
+  quote: can be freely used, including for commercial purposes, without needing to request permission.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://data.rijksmuseum.nl/policy
+  quote: you will find a Public Domain or Creative Commons Zero (CC0) Public Domain Dedication under the
+    copyright notice
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://data.rijksmuseum.nl/policy
+  quote: In some cases, however, usage restrictions apply, which are clearly indicated on our collection
+    website.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://data.rijksmuseum.nl/policy
+  quote: In some cases, however, usage restrictions apply, which are clearly indicated on our collection
+    website.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://data.rijksmuseum.nl/policy
+  quote: If so, a Creative Commons BY 4.0 (CC BY 4.0) licence is indicated.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://data.rijksmuseum.nl/policy
+  quote: you credit the Rijksmuseum (and, where possible, our staff) as the original creator, even if
+    this is not required.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read data.rijksmuseum.nl/policy: commercial use free for much of the data, CC0/CC
+  BY items, some copyright photos restricted. Item-dependent so ambiguity stands; auth/key status not
+  verified.'

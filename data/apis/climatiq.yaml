@@ -1,0 +1,46 @@
+id: climatiq
+name: Climatiq
+url: https://docs.climatiq.io
+category: Environment
+description: Calculate the environmental footprint created by a broad range of emission-generating activities
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Climatiq
+  url: https://docs.climatiq.io
+  category: Environment
+link_status: redirect
+data_license: proprietary
+commercial_use: 'no'
+storage_caching: unknown
+redistribution_display: 'no'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: -> https://www.climatiq.io/docs
+api_terms_url: https://www.climatiq.io/terms
+commercial_use_scope: any
+evidence:
+- field: commercial_use
+  url: https://www.climatiq.io/terms
+  quote: Services shall be used exclusively internally, for the purpose of calculating emissions or climate impact assessment for reporting and/or disclosure
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.climatiq.io/terms
+  quote: is not entitled to make Services available to third parties
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.climatiq.io/terms
+  quote: is not entitled to make Services available to third parties
+  checked_at: '2026-11-21'
+notes: Read Climatiq General Terms and Conditions (updated 22 April 2026), section 4 "Prohibition of Commercial Use" and 5.3. Unless otherwise agreed, the Services are for internal emissions calculation/reporting
+  only; using them for or to the advantage of third parties for commercial advantage is prohibited, resale/distribution of Services or extraction of content outside the contract purpose is forbidden, and
+  AI training is forbidden. "Unless otherwise agreed" means a negotiated deal could differ. docs.climatiq.io redirects to www.climatiq.io/docs.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

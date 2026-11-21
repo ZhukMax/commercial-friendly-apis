@@ -1,0 +1,27 @@
+id: compliapi
+name: CompliAPI
+url: https://docs.compliapi.com
+category: Security
+description: Screen crypto addresses, emails, websites, IDs and countries against OFAC, EU, UK sanctions
+  lists
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: CompliAPI
+  url: https://docs.compliapi.com
+  category: Security
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://docs.compliapi.com/introduction

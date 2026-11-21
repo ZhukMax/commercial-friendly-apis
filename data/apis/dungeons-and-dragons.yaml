@@ -1,0 +1,30 @@
+id: dungeons-and-dragons
+name: Dungeons and Dragons
+url: https://www.dnd5eapi.co/docs/
+category: Games & Comics
+description: Reference for 5th edition spells, classes, monsters, and more
+description_source: upstream
+auth: none
+https: false
+cors: 'no'
+sources:
+- list: public-apis
+  name: Dungeons and Dragons
+  url: https://www.dnd5eapi.co/docs/
+  category: Games & Comics
+- list: public-api-lists
+  name: Dungeons and Dragons
+  url: http://www.dnd5eapi.co/
+  category: Games & Comics
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://docs.dnd5eapi.co

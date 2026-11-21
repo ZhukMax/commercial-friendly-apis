@@ -1,0 +1,29 @@
+id: trace-moe
+name: Trace Moe
+url: https://soruly.github.io/trace.moe-api/#/
+category: Anime
+description: A useful tool to get the exact scene of an anime from a screenshot
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Trace Moe
+  url: https://soruly.github.io/trace.moe-api/#/
+  category: Anime
+- list: public-api-lists
+  name: What Anime
+  url: https://soruly.github.io/trace.moe-api/#/
+  category: Anime
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

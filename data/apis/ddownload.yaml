@@ -1,0 +1,26 @@
+id: ddownload
+name: ddownload
+url: https://ddownload.com/api
+category: Cloud Storage & File Sharing
+description: File Sharing and Storage
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: ddownload
+  url: https://ddownload.com/api
+  category: Cloud Storage & File Sharing
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://ddownload.com/login?redirect=https%3A%2F%2Fddownload.com%2Fapi

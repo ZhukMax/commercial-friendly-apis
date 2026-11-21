@@ -1,0 +1,77 @@
+id: pan-africa-data
+name: Pan Africa Data
+url: https://panafricadata.com
+category: Open Data
+description: Macroeconomic and subnational income distribution data for all 54 African countries
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Pan Africa Data
+  url: https://panafricadata.com
+  category: Open Data
+link_status: alive
+data_license: proprietary (aggregation); underlying World Bank WDI CC BY 4.0, IMF, UN data sources
+commercial_use: paid-only
+storage_caching: ambiguous
+redistribution_display: 'no'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://panafricadata.com/terms
+commercial_use_scope: paid
+attribution_text: Attribution to original sources as specified in each record metadata
+share_alike: unknown
+rate_limits: Monthly data allowance per plan (Professional US$600, Teams US$1,500, Corporate US$3,500
+  at on-demand rates); free trial 7 days limited data
+evidence:
+- field: commercial_use
+  url: https://panafricadata.com/terms
+  quote: Data you obtain through our platform may be used for your internal business purposes, research
+    and analysis.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://panafricadata.com/terms
+  quote: You may include data in reports and presentations provided you include appropriate attribution.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://panafricadata.com/terms
+  quote: Scrape, bulk download or systematically extract data beyond your subscription limits
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://panafricadata.com/terms
+  quote: you must include attribution to the original sources as specified in the metadata included with
+    each data record.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://panafricadata.com/terms
+  quote: You may not resell or redistribute the data as a standalone data product without our written
+    consent.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://panafricadata.com/terms
+  quote: You are purchasing our aggregation, cleaning, structuring, gap filling and delivery service —
+    not the raw underlying data.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://panafricadata.com/terms
+  quote: Data you obtain through our platform may be used for your internal business purposes, research
+    and analysis.
+  checked_at: '2026-11-21'
+notes: 'Pages read: /terms (3 Oct 2026) and home page. Only a 7-day limited trial is free; full API needs
+  a paid subscription or per-cell purchase. Licence is for internal business use, research and analysis
+  and for use in reports/presentations with attribution; no standalone resale/redistribution. Publishing
+  the data on public web pages (ads/affiliate) is not addressed, so display is ambiguous. Free country
+  factbook downloads exist (email required; terms not separately read). Source data: World Bank CC BY
+  4.0, IMF, UN.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Licence limited to internal business purposes, research, analysis and reports; Public
+  publishing on ad site not covered; no standalone redistribution | applied: redistribution_display=no'

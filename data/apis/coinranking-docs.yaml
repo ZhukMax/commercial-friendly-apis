@@ -1,0 +1,56 @@
+id: coinranking-docs
+name: CoinRanking
+url: https://docs.coinranking.com/
+category: Cryptocurrency
+description: Live Cryptocurrency data
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-api-lists
+  name: CoinRanking
+  url: https://docs.coinranking.com/
+  category: Cryptocurrency
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://coinranking.com/api/documentation
+api_terms_url: https://support.coinranking.com/article/131-api-terms-conditions
+evidence:
+- field: redistribution_display
+  url: https://support.coinranking.com/article/131-api-terms-conditions
+  quote: The data retrieved via the API is primarily for the User’s internal use only, but may be shared
+    publicly.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://support.coinranking.com/article/131-api-terms-conditions
+  quote: The API User must also clearly indicate within their application that the data originates from
+    Coinranking.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://support.coinranking.com/article/131-api-terms-conditions
+  quote: solely for the purpose of accessing, analyzing, or displaying cryptocurrency market data, as
+    permitted in the agreement
+  checked_at: '2026-11-21'
+notes: 'Pages read: coinranking.com/api/documentation (redirect target of the listed URL; same Coinranking
+  API docs) and the API Terms & Conditions article. Docs say you create an account and use an API key,
+  so auth fixed to apiKey. Terms grant a non-exclusive right to use the data for ''accessing, analyzing,
+  or displaying'' market data, but never address commercial use, caching/storage or attribution; reselling
+  needs written consent; Coinranking may require removal of data on request. Plan-level (paid tier) terms
+  not read. Aggregates market data from exchanges; upstream terms may be stricter.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'API Terms (read in full) require attribution within the application that data originates
+  from Coinranking; Terms permit displaying market data and say data may be shared publicly; first pass
+  missed both | applied: attribution_required=yes, redistribution_display=yes'

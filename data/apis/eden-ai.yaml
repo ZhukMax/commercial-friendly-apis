@@ -1,0 +1,25 @@
+id: eden-ai
+name: Eden AI
+url: https://www.edenai.co/docs/v3/quickstart/first-llm-call
+category: Machine Learning
+description: Unified API for 500+ LLMs and expert models for OCR, speech and translation
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Eden AI
+  url: https://www.edenai.co/docs/v3/quickstart/first-llm-call
+  category: Machine Learning
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

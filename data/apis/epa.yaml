@@ -1,0 +1,55 @@
+id: epa
+name: EPA
+url: https://www.epa.gov/developers/data-data-products
+category: Government
+description: Web services and data sets from the US Environmental Protection Agency
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: EPA
+  url: https://www.epa.gov/developers/data-data-products#apis
+  category: Government
+- list: public-api-lists
+  name: EPA
+  url: https://www.epa.gov/developers
+  category: Government
+link_status: redirect
+data_license: public domain for EPA geospatial data unless specified; other documents may carry copyright
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: -> https://www.epa.gov/developers/widgets
+data_license_url: https://www.epa.gov/web-policies-and-procedures/epa-disclaimers
+api_terms_url: https://www.epa.gov/web-policies-and-procedures/epa-disclaimers
+evidence:
+- field: data_license
+  url: https://www.epa.gov/web-policies-and-procedures/epa-disclaimers
+  quote: geospatial data produced by the EPA is by default in the public domain and is not subject to
+    domestic copyright protection
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.epa.gov/web-policies-and-procedures/epa-disclaimers
+  quote: These documents may be freely distributed and used for non-commercial, scientific and educational
+    purposes.
+  checked_at: '2026-11-21'
+notes: 'Read EPA disclaimers (copyright status) and the Developer Central page (redirects to widgets listing).
+  The disclaimer says documents are free for non-commercial use and commercial use may be protected by
+  copyright, while geospatial data is public domain by default: conflicting/vague for ''web services and
+  data sets'' as a whole, so ambiguous (at best yellow). Individual datasets/APIs (Envirofacts, ECHO etc.)
+  may state their own terms; not checked. Not a single API: entry covers an umbrella of services.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Actively checked data.epa.gov/enviro web-services and /data pages: no licence statement
+  that resolves the conflict. Ambiguous stands (government data is mostly public domain in practice, but
+  the site''s own wording is non-commercial for documents).'

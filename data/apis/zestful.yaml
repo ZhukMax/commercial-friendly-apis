@@ -1,0 +1,67 @@
+id: zestful
+name: Zestful
+url: https://zestfuldata.com/
+category: Food & Drink
+description: Parse recipe ingredients
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Zestful
+  url: https://zestfuldata.com/
+  category: Food & Drink
+- list: public-api-lists
+  name: Zestful
+  url: https://zestfuldata.com/
+  category: Food & Drink
+link_status: alive
+data_license: proprietary (Zestful terms; results free to store and resell)
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'no'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: high
+link_checked_at: '2026-11-21'
+api_terms_url: https://zestfuldata.com/terms-of-service/
+commercial_use_scope: any
+share_alike: unknown
+rate_limits: 'Trial: 30 ingredient parses per day; Professional $0.02 per ingredient'
+evidence:
+- field: commercial_use
+  url: https://zestfuldata.com/terms-of-service/
+  quote: Zestful grants you a non-exclusive, non-transferable, revocable license to access and use our
+    website and API services for commercial and non-commercial purposes.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://zestfuldata.com/terms-of-service/
+  quote: Zestful grants you the right to store the results from our API for an unrestricted length of
+    time.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://zestfuldata.com/terms-of-service/
+  quote: Zestful grants you the right to resell data from our API or derived from our API.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://zestfuldata.com/terms-of-service/
+  quote: You are permitted to, but not required to, credit Zestful as the source.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://zestfuldata.com/terms-of-service/
+  quote: Zestful grants you the right to store the results from our API for an unrestricted length of
+    time.
+  checked_at: '2026-11-21'
+notes: 'Read the Terms of Use page. Zestful parses the caller''s own ingredient strings and returns structured
+  data (with USDA FDC matches); terms are explicit on commercial use, unlimited retention, resale and
+  no attribution. Share-alike: no such condition in the terms (set ''no'' from absence on a short complete
+  ToS: low doubt). Terms may be revised without notice. USDA data inside responses is US public data (not
+  separately checked).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: License is revocable/non-transferable; Zestful may end service anytime; trial 30 parses/day.

@@ -1,0 +1,55 @@
+id: ipstack
+name: IPstack
+url: https://ipstack.com/
+category: Geocoding
+description: Locate and identify website visitors by IP address
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: IPstack
+  url: https://ipstack.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers
+  category: Geocoding
+- list: public-apis
+  name: ipstack
+  url: https://ipstack.com/
+  category: Geocoding
+- list: public-api-lists
+  name: ipstack
+  url: https://ipstack.com/
+  category: Geocoding
+link_status: alive
+data_license: unknown
+commercial_use: paid-only
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.ideracorp.com/legal/APILayer
+commercial_use_scope: paid
+rate_limits: 'Free: 100 requests/month; paid from 50,000/month'
+evidence:
+- field: commercial_use
+  url: https://ipstack.com/faq
+  quote: The IPstack Free Plan provides a way to test the API and its capabilities on a non-production website or application.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://ipstack.com/pricing
+  quote: Commercial Use ✓ Time Zone Module ✓
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://ipstack.com/pricing
+  quote: Free Try it out 100 Request/mo. $0
+  checked_at: '2026-11-21'
+notes: 'IPstack is now part of APILayer (Idera). Pricing page lists "Commercial Use" as not included on the Free plan (100 requests/month) and included on paid plans; the FAQ says the free plan is for testing
+  on a non-production site. Read the APILayer Master SaaS Subscription Agreement (6-page PDF via ideracorp.com/legal/APILayer, two-column, skimmed with pdftotext): it says Freeware is provided for testing
+  only and a commercial subscription brings the full agreement; I found no explicit clause on caching/storage or on displaying results to end users, so storage_caching and redistribution_display stay unknown.
+  Free plan returns location fields only.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -1,0 +1,71 @@
+id: opencorporates
+name: OpenCorporates
+url: http://api.opencorporates.com/documentation/API-Reference
+category: Open Data
+description: Data on corporate entities and directors in many countries
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: OpenCorporates
+  url: http://api.opencorporates.com/documentation/API-Reference
+  category: Open Data
+- list: public-api-lists
+  name: OpenCorporates
+  url: http://api.opencorporates.com/documentation/API-Reference
+  category: Open Data
+link_status: alive
+data_license: ODbL-1.0 (share-alike) for free/open keys; paid non-share-alike licence available
+commercial_use: paid-only
+storage_caching: unknown
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: 'yes'
+self_host_option: unknown
+verdict: yellow
+confidence: high
+link_checked_at: '2026-11-21'
+data_license_url: https://opencorporates.com/terms-of-use-2/
+api_terms_url: https://opencorporates.com/terms-of-use-2/
+commercial_use_scope: paid
+attribution_text: Hyperlink reading "from OpenCorporates" linking to the page for the information (not smaller than 70% of the largest related font or 7px)
+share_alike: 'yes'
+rate_limits: Depends on account type/plan (not stated on terms page)
+notes: Read OpenCorporates Terms of Use (opencorporates.com/terms-of-use-2/), the legal-information hub and the API reference (v0.4.8). Free API keys are only for 'Permitted Users' (journalists, NGOs, academics
+  doing public-benefit research; corporations/financial institutions are explicitly excluded) and are share-alike (ODbL; must show contribution back under an open licence). Commercial/proprietary use requires
+  a paid non-share-alike key or subscriber contract (Self-serve/Enterprise API ToS documents are linked from /legal-information/ but were not read), so commercial_use=paid-only. Storage/caching not addressed
+  on the pages read. Scraping prohibited except search-engine indexing. API reference page says an API key is required (auth apiKey correct). The commercial licence's own terms may differ from the share-alike
+  ones read here.
+evidence:
+- field: data_license
+  url: https://opencorporates.com/terms-of-use-2/
+  quote: The OpenCorporates database is licensed under the Open Database License .
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://opencorporates.com/terms-of-use-2/
+  quote: Use of any data must be accompanied by a hyperlink reading “from OpenCorporates”
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://opencorporates.com/terms-of-use-2/
+  quote: if you combine the information with your own data, the resultant information must be published under the Attribution Share-Alike ODbL.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://opencorporates.com/terms-of-use-2/
+  quote: If you are making the information available via your own API you need to make sure your users comply with all these conditions
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://opencorporates.com/terms-of-use-2/
+  quote: As a bulk download – contact us if you wish to access the data this way
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://opencorporates.com/terms-of-use-2/
+  quote: you must enter into a separate contract with us to purchase the right and permission to use OpenCorporates and access or use company data.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://opencorporates.com/terms-of-use-2/
+  quote: for a fee under our non-share-alike API terms (“non-share-alike API keys”), for example for use in commercial or proprietary applications.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

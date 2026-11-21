@@ -1,0 +1,65 @@
+id: parlay
+name: Parlay
+url: https://parlay-api.com/docs
+category: Sports & Fitness
+description: Real-time sports odds and player props from 45+ sportsbooks and sources across 90+ sports
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Parlay
+  url: https://parlay-api.com/docs
+  category: Sports & Fitness
+- list: public-api-lists
+  name: ParlayAPI
+  url: https://parlay-api.com/docs
+  category: Sports & Fitness
+link_status: alive
+data_license: Proprietary (ParlayAPI Terms of Service); output licensed for internal use only
+commercial_use: 'no'
+storage_caching: limited
+redistribution_display: 'no'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: high
+link_checked_at: '2026-11-21'
+data_license_url: https://parlay-api.com/terms
+api_terms_url: https://parlay-api.com/terms
+commercial_use_scope: any
+cache_limit: No longer than 90 days for line-level pricing data without written consent
+share_alike: unknown
+rate_limits: Free tier 1,000 credits/month; credit-based per endpoint
+notes: Read ToS (last updated 14 Oct 2026) sections 1-5. Free tier = personal/non-commercial; paid self-serve = internal business analysis only. Public display, customer-facing apps, commercial derived
+  products, redistribution require a separate signed written agreement (so a public ad/affiliate site is not permitted on any self-serve plan). Cache limited to 90 days for line-level data and only for
+  internal use. Aggregates sportsbook odds from upstream books (upstream terms not checked). Attribution requirement not addressed (4.2(d) only forbids removing marks present in output).
+evidence:
+- field: commercial_use
+  url: https://parlay-api.com/terms
+  quote: Free access is for personal evaluation and non-commercial research.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://parlay-api.com/terms
+  quote: This grant does not include making Output or products derived from Output available to customers, clients, subscribers, or the public.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://parlay-api.com/terms
+  quote: use Output to populate a publicly accessible or customer-facing website, application, browser extension, chatbot, alert service, or other product
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://parlay-api.com/terms
+  quote: cache, mirror, or persist Output beyond the period reasonably necessary for the Customer's internal use
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://parlay-api.com/terms
+  quote: in no event longer than ninety (90) days for line-level pricing data without our prior written consent
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://parlay-api.com/terms
+  quote: Paid self-serve access also permits internal business analysis within the single customer legal entity.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

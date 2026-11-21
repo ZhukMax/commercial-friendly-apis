@@ -1,0 +1,446 @@
+{
+ "per_list": {
+  "public-apis": {
+   "parsed": 2466,
+   "shape_samples": [],
+   "rows_seen": 2466
+  },
+  "public-api-lists": {
+   "parsed": 837,
+   "shape_samples": [],
+   "rows_seen": 837
+  }
+ },
+ "total_rows": 3303,
+ "unique_entries": 2801,
+ "duplicates_removed": 502,
+ "in_both_lists": 491,
+ "same_domain_different_name": {
+  "developers.google.com": [
+   "Google Safe Browsing",
+   "Google Books",
+   "Gmail",
+   "Google Analytics",
+   "Google Calendar",
+   "Google Drive",
+   "Google Docs",
+   "Google Fonts",
+   "Google Keep",
+   "Google PageSpeed Insights",
+   "Google Sheets",
+   "Google Slides",
+   "Google Earth Engine",
+   "Google Maps",
+   "Google Photos",
+   "Blogger",
+   "YouTube"
+  ],
+  "dataandapis.com": [
+   "Company Enrichment",
+   "Sanctions Screening",
+   "NPI Lookup",
+   "IP Intelligence",
+   "Barcode Lookup"
+  ],
+  "rankfabrik.com": [
+   "RankFabrik Places",
+   "RankFabrik Verify",
+   "RankFabrik Jobs",
+   "RankFabrik Captions"
+  ],
+  "tenders.guru": [
+   "Tenders in Hungary",
+   "Tenders in Poland",
+   "Tenders in Romania",
+   "Tenders in Spain",
+   "Tenders in Ukraine"
+  ],
+  "apilayer.com": [
+   "Checkiday - National Holiday",
+   "Smart Image Enhancement",
+   "Bank Data",
+   "Tax Data",
+   "Image Upload"
+  ],
+  "abstractapi.com": [
+   "Public Holidays",
+   "Screenshot",
+   "Email Validation",
+   "VAT Validation",
+   "IP Geolocation",
+   "Phone Validation",
+   "Abstract API"
+  ],
+  "docs.microsoft.com": [
+   "Azure DevOps Health",
+   "Azure DevOps",
+   "LinkedIn",
+   "Microsoft Graph"
+  ],
+  "intel.degenscan.io": [
+   "Degenscan Intel",
+   "Degenscan Intel Macro"
+  ],
+  "mexc.com": [
+   "Mexc",
+   "MEXC Global"
+  ],
+  "quotelinks.com": [
+   "Quotelinks Exchange Rates",
+   "Quotelinks SEC Fundamentals"
+  ],
+  "sthan.io": [
+   "sthan.io Address Autocomplete",
+   "sthan.io Address Parser",
+   "sthan.io Address Verification",
+   "sthan.io India PIN Code Autocomplete",
+   "sthan.io IP Geolocation",
+   "sthan.io Reverse Geocoding"
+  ],
+  "smarty.com": [
+   "US Autocomplete",
+   "US Extract",
+   "US Street Address",
+   "US ZipCode"
+  ],
+  "beeceptor.com": [
+   "Beeceptor",
+   "Beeceptor's CRUD APIs"
+  ],
+  "developer.atlassian.com": [
+   "Bitbucket",
+   "JIRA"
+  ],
+  "developers.cloudflare.com": [
+   "Cloudflare",
+   "Cloudflare Radar"
+  ],
+  "bettip.co.za": [
+   "Fair Draw",
+   "BetTip"
+  ],
+  "cloud.ibm.com": [
+   "IBM Text to Speech",
+   "Watson Natural Language Understanding"
+  ],
+  "ipinfo.io": [
+   "IPinfo",
+   "IP Address Details"
+  ],
+  "cloudmersive.com": [
+   "Cloudmersive Document and Data Conversion",
+   "Cloudmersive Validate",
+   "Cloudmersive",
+   "Cloudmersive Natural Language Processing"
+  ],
+  "kiprio.com": [
+   "Kiprio Email Validate",
+   "Kiprio UK Postcode",
+   "Kiprio Translate",
+   "Kiprio Email Validation",
+   "Kiprio IP Lookup",
+   "Kiprio OG Image",
+   "Kiprio Screenshot",
+   "Kiprio HTML to PDF",
+   "Kiprio AI Content Detector",
+   "Kiprio SSL Inspector"
+  ],
+  "open-meteo.com": [
+   "Open-Meteo",
+   "Open-Meteo Ensemble",
+   "Open-Meteo Marine"
+  ],
+  "polygon.io": [
+   "Polygon",
+   "Polygon.io"
+  ],
+  "stanzaapi.com": [
+   "Stanza VAT Validator",
+   "Stanza DSCSA Verifier",
+   "Stanza UDI Decoder"
+  ],
+  "developer.edamam.com": [
+   "Edamam nutrition",
+   "Edamam recipes",
+   "Edamam"
+  ],
+  "ip-api.com": [
+   "ip-api",
+   "IP Location"
+  ],
+  "ip2location.com": [
+   "IP2Location",
+   "IP2Proxy"
+  ],
+  "ipapi.co": [
+   "ipapi.co",
+   "ipapi.co IP Location"
+  ],
+  "yandex.com": [
+   "Yandex.Maps Geocoder",
+   "Yandex.Weather"
+  ],
+  "data.gov.in": [
+   "Open Government, India",
+   "Transport for India"
+  ],
+  "cloud.google.com": [
+   "Dialogflow",
+   "Google Cloud Natural"
+  ],
+  "core.telegram.org": [
+   "Telegram Bot",
+   "Telegram MTProto"
+  ],
+  "developers.decathlon.com": [
+   "Sport List & Data",
+   "Sport Places",
+   "Sport Vision"
+  ],
+  "docs.sportmonks.com": [
+   "Sportmonks Cricket",
+   "Sportmonks Football"
+  ],
+  "developer.postnord.com": [
+   "PostNord",
+   "Sweden"
+  ],
+  "sprytools.com": [
+   "SpryTools Email Validation",
+   "SpryTools Screenshot",
+   "SpryTools Web Scraping"
+  ],
+  "smartystreets.com": [
+   "US Autocomplete",
+   "US Extract",
+   "US Street Address",
+   "US ZipCode"
+  ],
+  "fungenerators.com": [
+   "QR Code",
+   "Random Facts"
+  ],
+  "v.recipes": [
+   "v.recipes DNS Accelerator",
+   "v.recipes Get IP"
+  ]
+ },
+ "categories": [
+  [
+   "Development",
+   302
+  ],
+  [
+   "Government",
+   158
+  ],
+  [
+   "Finance",
+   143
+  ],
+  [
+   "Geocoding",
+   141
+  ],
+  [
+   "Games & Comics",
+   139
+  ],
+  [
+   "Cryptocurrency",
+   131
+  ],
+  [
+   "Transportation",
+   113
+  ],
+  [
+   "Open Data",
+   106
+  ],
+  [
+   "Sports & Fitness",
+   84
+  ],
+  [
+   "Security",
+   76
+  ],
+  [
+   "Documents & Productivity",
+   75
+  ],
+  [
+   "Social",
+   73
+  ],
+  [
+   "Video",
+   72
+  ],
+  [
+   "Machine Learning",
+   66
+  ],
+  [
+   "Business",
+   64
+  ],
+  [
+   "Science & Math",
+   64
+  ],
+  [
+   "Health",
+   57
+  ],
+  [
+   "Jobs",
+   54
+  ],
+  [
+   "Weather",
+   50
+  ],
+  [
+   "Email",
+   48
+  ],
+  [
+   "Test Data",
+   47
+  ],
+  [
+   "Photography",
+   42
+  ],
+  [
+   "Currency Exchange",
+   41
+  ],
+  [
+   "Shopping",
+   40
+  ],
+  [
+   "Environment",
+   39
+  ],
+  [
+   "Food & Drink",
+   39
+  ],
+  [
+   "Music",
+   39
+  ],
+  [
+   "Art & Design",
+   37
+  ],
+  [
+   "Personality",
+   36
+  ],
+  [
+   "Books",
+   33
+  ],
+  [
+   "Calendar",
+   33
+  ],
+  [
+   "Animals",
+   29
+  ],
+  [
+   "News",
+   28
+  ],
+  [
+   "Data Validation",
+   27
+  ],
+  [
+   "Vehicle",
+   25
+  ],
+  [
+   "Text Analysis",
+   24
+  ],
+  [
+   "URL Shorteners",
+   24
+  ],
+  [
+   "Anime",
+   23
+  ],
+  [
+   "Cloud Storage & File Sharing",
+   23
+  ],
+  [
+   "Anti-Malware",
+   21
+  ],
+  [
+   "Entertainment",
+   21
+  ],
+  [
+   "Blockchain",
+   20
+  ],
+  [
+   "Dictionaries",
+   17
+  ],
+  [
+   "Open Source Projects",
+   12
+  ],
+  [
+   "Tracking",
+   12
+  ],
+  [
+   "Phone",
+   10
+  ],
+  [
+   "Authentication & Authorization",
+   8
+  ],
+  [
+   "Continuous Integration",
+   7
+  ],
+  [
+   "Events",
+   7
+  ],
+  [
+   "Programming",
+   7
+  ],
+  [
+   "Patent",
+   5
+  ],
+  [
+   "Education",
+   4
+  ],
+  [
+   "Disasters",
+   3
+  ],
+  [
+   "Fraud Prevention",
+   2
+  ]
+ ]
+}

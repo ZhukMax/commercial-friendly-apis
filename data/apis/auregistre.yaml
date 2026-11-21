@@ -1,0 +1,74 @@
+id: auregistre
+name: Auregistre
+url: https://auregistre.fr/api
+category: Open Data
+description: French company history from the official gazette (BODACC) since 2008, with insolvency counts
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Auregistre
+  url: https://auregistre.fr/api
+  category: Open Data
+- list: public-api-lists
+  name: Auregistre
+  url: https://auregistre.fr/api
+  category: Business
+link_status: alive
+data_license: Licence Ouverte 2.0 (Etalab)
+commercial_use: 'yes'
+storage_caching: ambiguous
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://raw.githubusercontent.com/etalab/licence-ouverte/master/open-licence.md
+api_terms_url: https://auregistre.fr/cgu
+commercial_use_scope: any
+attribution_text: Cite the source and the date of last update; both are in the attribution field of every
+  API response
+rate_limits: 30 requests per 60 seconds per IP address
+evidence:
+- field: data_license
+  url: https://auregistre.fr/api
+  quote: The data comes from the BODACC, the French official gazette of civil and commercial announcements,
+    published under the Licence Ouverte 2.0
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://auregistre.fr/api
+  quote: Reusing it requires citing the source and the date it was last updated.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://raw.githubusercontent.com/etalab/licence-ouverte/master/open-licence.md
+  quote: To exploit it for commercial purposes
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://raw.githubusercontent.com/etalab/licence-ouverte/master/open-licence.md
+  quote: To share, disseminate, redistribute, publish and transmit it.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://auregistre.fr/cgu
+  quote: Extraire massivement le contenu du site par des moyens automatisés
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://auregistre.fr/api
+  quote: The limit is 30 requests per 60 seconds per IP address.
+  checked_at: '2026-11-21'
+notes: 'Read /api, /cgu and the Licence Ouverte 2.0 PDF. Data is BODACC/Sirene/INPI data under Licence
+  Ouverte 2.0 (commercial reuse allowed with attribution). The site''s own CGU forbids mass automated
+  extraction of site content (pointing users to the original producers for bulk downloads) and use of
+  personal data for canvassing, so storage/caching is ambiguous: normal API use is fine but bulk copying
+  of the whole dataset via this API is not. Personal data (officers'' names) has extra restrictions. Share-alike,
+  bulk_download and self-host not confirmed (left unset). Licence text quoted from the official Etalab
+  GitHub repository (English version of Licence Ouverte 2.0).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read /cgu: forbids mass extraction and requires citing source; no commercial ban.
+  Yellow (storage ambiguous) stands.'

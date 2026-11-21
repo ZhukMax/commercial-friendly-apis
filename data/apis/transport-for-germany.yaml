@@ -1,0 +1,26 @@
+id: transport-for-germany
+name: Transport for Germany
+url: http://data.deutschebahn.com/dataset/api-fahrplan
+category: Transportation
+description: Deutsche Bahn (DB) API
+description_source: upstream
+auth: apiKey
+https: false
+cors: unknown
+sources:
+- list: public-apis
+  name: Transport for Germany
+  url: http://data.deutschebahn.com/dataset/api-fahrplan
+  category: Transportation
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: HTTP 404

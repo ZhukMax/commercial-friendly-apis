@@ -1,0 +1,46 @@
+id: bitquery-bitquery
+name: Bitquery
+url: https://bitquery.io/
+category: Cryptocurrency
+description: Bitquery provides blockchain data, offering real-time streaming APIs for 40+ chains, NFT APIs, and a money flow investigation tool
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-api-lists
+  name: Bitquery
+  url: https://bitquery.io/
+  category: Cryptocurrency
+link_status: alive
+data_license: unknown
+commercial_use: paid-only
+storage_caching: unknown
+redistribution_display: 'yes'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://bitquery.io/terms-of-service
+commercial_use_scope: paid
+evidence:
+- field: commercial_use
+  url: https://bitquery.io/pricing
+  quote: Personal-use license no commercial use
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://bitquery.io/terms-of-service
+  quote: use the Services and any data or results obtained through the Services for any lawful commercial or non-commercial purpose
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://bitquery.io/terms-of-service
+  quote: inclusion in Subscriber’s own products, services, reports, or applications
+  checked_at: '2026-11-21'
+notes: 'Read Terms of Service (Subscriber agreement) and the pricing page. Pricing: Personal plan ($29/mo) is ''Personal-use license, no commercial use''; Pro/Scale plans list a ''Commercial-use license'';
+  free tier is a 7-day trial only. ToS 3.2-3.3: paid subscribers may use data for any lawful commercial purpose incl. inclusion in own products/applications, within Scope Limitations; forbidden: using the
+  Services in a way that directly substitutes for the Services for a third party or competes with Bitquery. Caching/storage and attribution not addressed. Blockchain data is public chain data; Prediction-market/perps
+  feeds may have upstream terms. Aggregator of chain data. data_license left unknown: proprietary terms, no named licence.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

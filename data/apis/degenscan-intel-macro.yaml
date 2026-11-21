@@ -1,0 +1,31 @@
+id: degenscan-intel-macro
+name: Degenscan Intel Macro
+url: https://intel.degenscan.io/docs
+category: Finance
+description: U.S. Treasury auctions, stablecoin supply, Brazil crypto-dollar premium vs BCB PTAX; free trial key
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Degenscan Intel Macro
+  url: https://intel.degenscan.io/docs
+  category: Finance
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://intel.degenscan.io/docs
+notes: 'Read the docs index, one docs page and llms.txt: pricing is pay-per-call in USDC (x402) or API key with 100 free calls/day/IP; the footer says "Marbella Collins LLC · MIT · not investment advice"
+  without saying what MIT covers (code vs data), and /terms is 404. Normalises ~40 primary sources (SEC, Fed, ECB, Nasdaq halts, DefiLlama, Polymarket, Hyperliquid), whose own terms may be stricter. No
+  usable terms for commercial use, storage or display, so all unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

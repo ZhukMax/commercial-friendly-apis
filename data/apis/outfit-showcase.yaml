@@ -1,0 +1,42 @@
+id: outfit-showcase
+name: Outfit Showcase
+url: https://github.com/hanchenxing1/outfit-showcase-card-api
+category: Shopping
+description: Issue a 30-day, 100-use virtual clothing try-on showcase link per request
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Outfit Showcase
+  url: https://github.com/hanchenxing1/outfit-showcase-card-api
+  category: Shopping
+link_status: alive
+data_license: MIT (API contract document in the repository only)
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://github.com/hanchenxing1/outfit-showcase-card-api
+evidence:
+- field: data_license
+  url: https://raw.githubusercontent.com/hanchenxing1/outfit-showcase-card-api/main/README.md
+  quote: '_License: MIT. Full field values including the live key are kept in a private repository by
+    the operator'
+  checked_at: '2026-11-21'
+notes: 'Not a data source: the repository documents a card-key vending endpoint that issues one 30-day,
+  100-use virtual try-on showcase link per order (idempotent by orderId), for sellers on card/voucher
+  platforms. Requires an operator-issued key; README says there is no self-service sign-up and no public
+  free tier. MIT licence applies to the contract document, not to any data. Commercial use, storage and
+  display of anything returned are not addressed. Read README and GitHub licence metadata only.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

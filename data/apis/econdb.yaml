@@ -1,0 +1,31 @@
+id: econdb
+name: Econdb
+url: https://www.econdb.com/api/
+category: Finance
+description: Global macroeconomic data
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Econdb
+  url: https://www.econdb.com/api/
+  category: Finance
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.econdb.com/pricing/
+notes: 'No terms of service or licence page found: /terms, /terms-of-use, /tos, /legal/terms all return 404; the main site and pricing page (read with a browser) contain no legal links. The site now sells
+  paid container-shipping data subscriptions (EUR 40/month, API and CSV included); https://www.econdb.com/api/series/ now returns 401, so the former no-auth API needs credentials (auth updated). Macro data
+  is aggregated from national statistical sources whose terms may be stricter. Core fields left unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

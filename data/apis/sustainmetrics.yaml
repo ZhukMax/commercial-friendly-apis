@@ -1,0 +1,42 @@
+id: sustainmetrics
+name: SustainMetrics
+url: https://www.sustainmetrics.net/api
+category: Environment
+description: 18,000+ GHG emission factors from DEFRA, EPA, ADEME, Ember
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: SustainMetrics
+  url: https://www.sustainmetrics.net/api
+  category: Environment
+link_status: alive
+data_license: 'mixed upstream licences: UK DEFRA OGL v3.0, US EPA public domain, ADEME Licence Ouverte v2.0, Ember CC-BY-4.0 (per site)'
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+data_license_url: https://www.sustainmetrics.net/terms
+api_terms_url: https://www.sustainmetrics.net/terms
+rate_limits: Free 50 requests/day; Pro 1,000/day; Business 100,000/day
+evidence:
+- field: data_license
+  url: https://www.sustainmetrics.net/terms
+  quote: Emission factor data is sourced from government publications and is subject to their respective licenses.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://www.sustainmetrics.net/docs
+  quote: Free 50 $0 Pro 1,000 $29/mo Business 100,000 $99/mo
+  checked_at: '2026-11-21'
+notes: Terms of Service (kazak.dev) say only that API use is subject to plan rate limits and that factor data is subject to the original licences; they do not state commercial use, caching or display rights.
+  The home page lists the upstream licences (DEFRA Open Government Licence v3.0, EPA public domain, ADEME Licence Ouverte v2.0, Ember CC-BY-4.0); those were not individually read, so nothing is inferred
+  from them. Free plan needs an account and API key.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

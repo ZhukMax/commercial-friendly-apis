@@ -1,0 +1,33 @@
+id: covid-19-philippines
+name: Covid-19 Philippines
+url: https://github.com/Simperfy/Covid-19-API-Philippines-DOH
+category: Health
+description: Unofficial Covid-19 Web API for Philippines from data collected by DOH
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Covid-19 Philippines
+  url: https://github.com/Simperfy/Covid-19-API-Philippines-DOH
+  category: Health
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: repo's host covid19-api-philippines.herokuapp.com returns Heroku 'No such app'
+api_terms_url: https://github.com/Simperfy/Covid-19-API-Philippines-DOH
+notes: Repo page (MIT code licence only) read; no data licence or terms. The hosted app linked in the
+  repo, covid19-api-philippines.herokuapp.com, returns Heroku's 'No such app' page, so the service appears
+  gone (repo itself is still online). Data is unofficial, collected from Philippine DOH releases (upstream
+  terms not read). Terms left unknown.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

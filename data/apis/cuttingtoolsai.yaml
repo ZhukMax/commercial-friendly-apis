@@ -1,0 +1,76 @@
+id: cuttingtoolsai
+name: CuttingToolsAI
+url: https://cuttingtoolsai.eu/api
+category: Open Data
+description: Cross-brand carbide insert grade equivalents by ISO application class
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: CuttingToolsAI
+  url: https://cuttingtoolsai.eu/api
+  category: Open Data
+link_status: alive
+data_license: proprietary; free for commercial and non-commercial use (no formal licence named)
+commercial_use: ambiguous
+storage_caching: ambiguous
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: 'no'
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://cuttingtoolsai.eu/api
+commercial_use_scope: any
+attribution_text: If you surface the data in a product, credit cuttingtoolsai.eu so a user can check the
+  source
+rate_limits: No key, no quota form; asked not to hammer the endpoint
+evidence:
+- field: commercial_use
+  url: https://cuttingtoolsai.eu/api
+  quote: Free for commercial and non-commercial use. No key, no quota form.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://cuttingtoolsai.eu/api
+  quote: cache responses rather than hammering the endpoint
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://cuttingtoolsai.eu/api
+  quote: if you surface the data in a product, credit cuttingtoolsai.eu so a user can check the source.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://cuttingtoolsai.eu/api
+  quote: if you surface the data in a product, credit cuttingtoolsai.eu so a user can check the source.
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://cuttingtoolsai.eu/terms
+  quote: Scrape, bulk download, or export data without permission
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://cuttingtoolsai.eu/api
+  quote: Free for commercial and non-commercial use.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://cuttingtoolsai.eu/terms
+  quote: Scrape, bulk download, or export data without permission
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://cuttingtoolsai.eu/terms
+  quote: limited, non-exclusive, non-transferable license to use the platform for personal and professional
+    tool selection
+  checked_at: '2026-11-21'
+notes: 'Read /api (''Use and attribution'' section) and /terms. API page: free for commercial use, caching
+  encouraged, credit requested. Platform ToS separately bans scraping, bulk download or export of data
+  without permission and ''systematic tool data farming'', so bulk use of the dataset is not covered;
+  the two pages are not reconciled. Brand names/grade codes are third-party trademarks used for identification
+  only. No formal licence for the data.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: '/terms bans scraping, bulk download or export without permission; /terms licence is
+  only for personal and professional tool selection; API page and ToS conflict, not reconciled | applied:
+  commercial_use=ambiguous, storage_caching=ambiguous'

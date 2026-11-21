@@ -1,0 +1,51 @@
+id: marketaux
+name: MarketAux
+url: https://www.marketaux.com/
+category: News
+description: Live stock market news with tagged tickers + sentiment and stats JSON API
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: MarketAux
+  url: https://www.marketaux.com/
+  category: News
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.marketaux.com/tos
+commercial_use_scope: any
+evidence:
+- field: commercial_use
+  url: https://www.marketaux.com/tos
+  quote: The Site may not be used in connection with any commercial endeavors except those that are specifically
+    endorsed or approved by us.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.marketaux.com/tos
+  quote: solely for your personal, non-commercial use
+  checked_at: '2026-11-21'
+notes: 'Only a generic website Terms of Use exists (marketaux.com/tos); it bars use of the Site for commercial
+  endeavors unless endorsed or approved by Marketaux, but does not mention API data, caching, display
+  or attribution. Pricing page (free plan 100 requests/day, paid Basic to Pro 50K plans) says nothing
+  about licence scope, and the documentation has no terms section; no FAQ page exists (404). So commercial_use=ambiguous;
+  storage/display/attribution unknown. Aggregator of financial news from 5,000+ sources with entity tagging
+  and sentiment: upstream publisher rights may be stricter. Ask Marketaux for written confirmation before
+  commercial use.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Site ToS licenses Content only for personal, non-commercial use (not cited by first
+  pass); Plus ban on commercial endeavors unless approved; no API licence page | applied: commercial_use=ambiguous
+  (suggested no, needs human review)'

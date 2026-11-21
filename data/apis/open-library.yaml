@@ -1,0 +1,76 @@
+id: open-library
+name: Open Library
+url: https://openlibrary.org/developers/api
+category: Books
+description: Books, book covers and related data
+description_source: upstream
+auth: none
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Open Library
+  url: https://openlibrary.org/developers/api
+  category: Books
+- list: public-api-lists
+  name: Open Library
+  url: https://openlibrary.org/developers/api
+  category: Books
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: 'yes'
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: 'yes'
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://openlibrary.org/developers/licensing
+api_terms_url: https://openlibrary.org/developers/api
+commercial_use_scope: any
+rate_limits: 1 req/s default; 3 req/s with User-Agent and email
+evidence:
+- field: commercial_use
+  url: https://openlibrary.org/developers/api
+  quote: These APIs are not intended to serve as a bulk data backend or high-traffic commercial infrastructure.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://openlibrary.org/developers/api
+  quote: Use Open Library as a backend for high-traffic commercial services
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://openlibrary.org/developers/api
+  quote: Due to limited resources, they are not intended to serve as a data backend for third-party services.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://openlibrary.org/developers/api
+  quote: Cache responses whenever possible
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://openlibrary.org/developers/licensing
+  quote: The Internet Archive does not assert any new copyright or other proprietary rights over any of
+    the material in the Open Library database.
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://openlibrary.org/developers/api
+  quote: For bulk access, please download our free monthly data dumps
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://openlibrary.org/developers/api
+  quote: 'Identified requests (with User-Agent and email ): 3 requests per second'
+  checked_at: '2026-11-21'
+notes: 'No explicit data licence: the Licensing page only says the Internet Archive asserts no new rights,
+  and warns of possible existing rights issues on contributions. The API page says APIs serve open/mission-aligned,
+  human-centered lookup and are not for high-traffic commercial infrastructure (no outright ban on commercial
+  use). Small ad/affiliate site is a grey area; heavy use should use monthly data dumps or contact openlibrary@archive.org.
+  Page last edited 2026-11-17. Cached responses are encouraged. Attribution not stated on pages read.
+  Cover images have separate per-image rights, not checked.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read developers/api and /licensing; archive.org/about/terms (rendered via browser)
+  has no 'commercial' wording. Small ad/affiliate site is a grey area; heavy use must use monthly dumps.
+  Keep yellow.

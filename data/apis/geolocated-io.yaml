@@ -1,0 +1,49 @@
+id: geolocated-io
+name: Geolocated.io
+url: https://geolocated.io/
+category: Geocoding
+description: 'Free IP Geolocation API: 2000 daily lookups, multiple servers worldwide'
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: Geolocated.io
+  url: https://geolocated.io/
+  category: Geocoding
+link_status: alive
+data_license: unknown
+commercial_use: 'yes'
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://geolocated.io/terms-of-services.html
+commercial_use_scope: any
+notes: FAQ welcomes commercial projects but forbids reselling the data or services as a standalone offering;
+  ToS limits use to 'your own internal business purposes', bans building geolocation services and says
+  unauthorised reproduction/distribution/display of the content is prohibited (unclear for showing a visitor's
+  country on a public page). Storage/caching and attribution not addressed.
+evidence:
+- field: commercial_use
+  url: https://geolocated.io/faq.html
+  quote: We encourage the use of our services in your commercial projects, under the condition that it
+    aligns with our terms of service.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://geolocated.io/terms-of-services.html
+  quote: The Services are to be accessed and used solely for your own internal business purposes.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Confirmed (unknown). Conflict between FAQ ('commercial use is welcomed') and ToS ('unauthorised
+  ... display of the content of the Services' is an offence) unresolved; showing a visitor's own country
+  is arguably internal. Also bans building geolocation services, and requires consent before linking to
+  the site.

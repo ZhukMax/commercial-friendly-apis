@@ -1,0 +1,40 @@
+id: fulusly
+name: Fulusly
+url: https://fulusly.soft9.us/developers
+category: Currency Exchange
+description: Exchange rates for 144 currencies with daily history back to the 1990s, English and Arabic
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Fulusly
+  url: https://fulusly.soft9.us/developers
+  category: Currency Exchange
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+attribution_text: Please attribute Fulusly when republishing; the embeddable widget adds a small "powered
+  by" link
+api_terms_url: https://fulusly.soft9.us/terms
+evidence:
+- field: attribution_required
+  url: https://fulusly.soft9.us/developers
+  quote: Data is for informational purposes only. Please attribute Fulusly when republishing.
+  checked_at: '2026-11-21'
+notes: 'Read: /developers, /terms (two-sentence informational disclaimer, no licence), /methodology. No
+  statement on commercial use, caching or display; only a polite request to attribute when republishing
+  (recorded as attribution=yes, wording is ''please''). Rates are a blend of central-bank reference rates
+  via the open-source Frankfurter API plus a fallback feed (upstream terms apply, see frankfurter entry),
+  so upstream terms may be stricter.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

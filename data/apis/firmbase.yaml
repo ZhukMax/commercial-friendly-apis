@@ -1,0 +1,50 @@
+id: firmbase
+name: Firmbase
+url: https://firmbase.be/en/api/docs
+category: Business
+description: Belgian company register (KBO/CBE), Official Gazette notices and VAT validation
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Firmbase
+  url: https://firmbase.be/en/api/docs
+  category: Business
+link_status: alive
+data_license: unknown
+commercial_use: 'yes'
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://firmbase.be/en/terms
+commercial_use_scope: any
+cache_limit: Caching for your own users allowed; rebuilding a copy of the register not allowed
+notes: Firmbase Terms read. Data comes from the Belgian KBO/CBE and National Bank annual accounts; the terms say source data 'is subject to their reuse terms' (upstream not checked) and the site footer
+  says no contact details of sole traders, as the KBO licence requires. Terms prohibit offering responses as a database/extract to outside parties, reselling, and republishing as a competing API. Commercial-use
+  wording is 'your own product', no explicit non-commercial clause; plan-limited (free plan has a daily cap).
+evidence:
+- field: commercial_use
+  url: https://firmbase.be/en/terms
+  quote: Use the API for your own product or internal work, within your plan.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://firmbase.be/en/terms
+  quote: Caching responses for your own users is allowed.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://firmbase.be/en/terms
+  quote: Querying systematically in order to rebuild a copy of the register or of the annual accounts is not.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://firmbase.be/en/terms
+  quote: 'Showing the data to your own users inside your own product is allowed: that is what the API is for.'
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

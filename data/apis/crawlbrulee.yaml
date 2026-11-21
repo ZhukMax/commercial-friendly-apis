@@ -1,0 +1,26 @@
+id: crawlbrulee
+name: crawlbrulee
+url: https://crawlbrulee.com/docs
+category: Development
+description: 'EU-native web scraping for AI agents & developers: turn any page into markdown, screenshots
+  and more'
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: crawlbrulee
+  url: https://crawlbrulee.com/docs
+  category: Development
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

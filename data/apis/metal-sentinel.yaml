@@ -1,0 +1,41 @@
+id: metal-sentinel
+name: Metal Sentinel
+url: https://metal-sentinel.com/endpoints
+category: Finance
+description: Live and historical precious and base metal prices in 180+ currencies
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Metal Sentinel
+  url: https://metal-sentinel.com/endpoints
+  category: Finance
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://metal-sentinel.com/terms
+notes: 'Own ToS (updated 2026-10-28) read: API is accessed via RapidAPI (free and paid tiers, RapidAPI
+  terms also apply, not read). Raw API data may not be resold/redistributed without consent; showing derived/displayed
+  prices not addressed. Commercial use and caching not stated. Data comes from third-party market data
+  providers whose terms may be stricter.'
+evidence:
+- field: redistribution_display
+  url: https://metal-sentinel.com/terms
+  quote: You may not resell, redistribute, or sublicense raw API data without prior written consent.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: verdict unknown stands. Site offers free embeddable widgets, but the API terms say
+  nothing about display of derived prices.

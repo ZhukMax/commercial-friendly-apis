@@ -1,0 +1,70 @@
+id: sololuck
+name: SoloLuck
+url: https://sololuck.io/api
+category: Cryptocurrency
+description: Bitcoin solo mining pool stats, per-address miner stats and an open dataset of solo-mined
+  blocks
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: SoloLuck
+  url: https://sololuck.io/api
+  category: Cryptocurrency
+link_status: alive
+data_license: 'CC-BY-4.0 (solo-mined block dataset only; pool-stats endpoints: no licence stated)'
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+data_license_url: https://creativecommons.org/licenses/by/4.0/
+api_terms_url: https://sololuck.io/terms
+evidence:
+- field: data_license
+  url: https://sololuck.io/api
+  quote: as open data under CC BY 4.0
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://sololuck.io/api
+  quote: as open data under CC BY 4.0
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: You must give appropriate credit
+  checked_at: '2026-11-21'
+notes: Read https://sololuck.io/api and https://sololuck.io/terms (effective 2026-07-02). Only the Solo
+  Block Record dataset (/api/legends/v1/blocks.json|csv) is labelled "open data under CC BY 4.0" (CC BY
+  allows commercial use with attribution, but the page quote does not spell that out). The pool/miner
+  stats endpoints carry no licence statement and the site Terms cover only the mining service (acceptable
+  use, liability), not data reuse, so commercial_use is ambiguous overall and storage/display/attribution
+  are left unknown. Pool stats are operational data of a mining pool, not a licensed dataset.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'API page labels the Solo Block Record ''open data under CC BY 4.0''; JSON license
+  field says CC BY 4.0 with cite_as; CC BY 4.0 deed explicitly permits commercial use, copying, redistribution
+  with credit | applied: commercial_use=yes, storage_caching=yes, redistribution_display=yes, attribution_required=yes'
+verdict_override: yellow
+override_reason: 'Second check: API page labels the Solo Block Record ''open data under CC BY 4.0''; JSON
+  license field says CC BY 4.0 with cite_as; CC BY 4.0 deed explicitly permits commercial use, copying,
+  redistribution with credit'

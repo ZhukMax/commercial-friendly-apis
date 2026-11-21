@@ -1,0 +1,26 @@
+id: ai-engine
+name: AI Engine
+url: https://ai-engine.net/apis/all-in-one
+category: Machine Learning
+description: '36+ AI endpoints: OCR, face detection, background removal, object detection, NSFW moderation,
+  face swap, image generation'
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: AI Engine
+  url: https://ai-engine.net/apis/all-in-one
+  category: Machine Learning
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

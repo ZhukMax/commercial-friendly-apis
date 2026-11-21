@@ -1,0 +1,48 @@
+id: mapquest
+name: MapQuest
+url: https://developer.mapquest.com/
+category: Geocoding
+description: To access tools and resources to map the world
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: MapQuest
+  url: https://developer.mapquest.com/
+  category: Geocoding
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: limited
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://developer.mapquest.com/legal
+cache_limit: Storing geocodes off-map needs the paid 'Extended Rights Geocoding' licence (select plans)
+notes: 'The developer site''s legal page is the System1 website Terms of Use (personal, non-commercial
+  use of the website; commercial exploitation needs an agreement). No separate API terms were found, so
+  whether API use in a commercial site is allowed is unclear. Pricing page: 50,000 one-time free transactions,
+  then paid tiers; storing geocodes needs Extended Rights. Display/attribution not verified.'
+evidence:
+- field: commercial_use
+  url: https://developer.mapquest.com/legal
+  quote: This Web site is made available for your personal, non-commercial use only.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://developer.mapquest.com/plans
+  quote: Extended Rights Geocoding is a license that allows storage and use of geocodes off-map under
+    the applicable terms.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-opened /legal (lands on system1.com/terms/terms-of-use), /plans and hello.mapquest.com/terms-of-use
+  via Playwright. No API-specific licence located, so ambiguity cannot be resolved either way; commercial
+  display of API results is not clearly permitted. Yellow with low confidence stands.

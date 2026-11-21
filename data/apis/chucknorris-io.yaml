@@ -1,0 +1,29 @@
+id: chucknorris-io
+name: chucknorris.io
+url: https://api.chucknorris.io
+category: Entertainment
+description: JSON API for hand curated Chuck Norris jokes
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: chucknorris.io
+  url: https://api.chucknorris.io
+  category: Entertainment
+- list: public-api-lists
+  name: chucknorris.io
+  url: https://api.chucknorris.io
+  category: Personality
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

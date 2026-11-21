@@ -1,0 +1,39 @@
+id: liftradar
+name: LiftRadar
+url: https://liftradar.eu/api
+category: Sports & Fitness
+description: 'Ski resorts across Europe: open lifts and slopes, snow depth and avalanche level'
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: LiftRadar
+  url: https://liftradar.eu/api
+  category: Sports & Fitness
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: medium
+link_checked_at: '2026-11-21'
+evidence:
+- field: attribution_required
+  url: https://liftradar.eu/api
+  quote: 'false where they don''t and null where we haven''t checked: treat it as true'
+  checked_at: '2026-11-21'
+notes: 'Read the API page, About and Data sources pages: free JSON, no key, CORS open, but no licence
+  or terms of use for the data were found (no /terms page). It is an aggregator of resort and regional
+  reports (source_details lists each source) and the per-resort attribution_required flag tells to treat
+  unchecked as true, so upstream terms may be stricter; the site admits some sources'' terms don''t allow
+  reading. Only the ski map layer is stated under ODbL (OpenSkiData, (c) OpenStreetMap contributors).
+  Commercial use, storage and display are not stated: unknown. Contact: owner email on the API page for
+  ''a use we should know about''.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

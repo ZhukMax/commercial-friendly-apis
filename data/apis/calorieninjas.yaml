@@ -1,0 +1,60 @@
+id: calorieninjas
+name: CalorieNinjas
+url: https://calorieninjas.com/api
+category: Food & Drink
+description: Nutrition and calorie data for foods and recipes
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: CalorieNinjas
+  url: https://calorieninjas.com/api
+  category: Food & Drink
+link_status: alive
+data_license: unknown
+commercial_use: paid-only
+storage_caching: ambiguous
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://calorieninjas.com/tos
+commercial_use_scope: paid
+rate_limits: 'Free: 10,000 calls/month'
+evidence:
+- field: commercial_use
+  url: https://calorieninjas.com/pricing
+  quote: No commercial use
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://calorieninjas.com/pricing
+  quote: Yes commercial use
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://calorieninjas.com/tos
+  quote: Systematically retrieve data or other content from the Site to create or compile, directly or
+    indirectly, a collection, compilation, database
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://calorieninjas.com/pricing
+  quote: 10,000 API calls/month
+  checked_at: '2026-11-21'
+notes: 'Read https://calorieninjas.com/pricing (Free plan: ''No commercial use''; Novice/Startup/Business
+  plans: ''Yes commercial use'') and the general Terms of Service (updated April 2023, which also says
+  the Site ''may not be used in connection with any commercial endeavors except those specifically endorsed
+  or approved by us'' and forbids compiling databases without permission; hence storage_caching ambiguous,
+  display unknown). The API docs page says CalorieNinjas ''is being turned down this year'' and moves
+  to API Ninjas; API Ninjas terms were not read and are not assumed to be the same. Nutrition data source
+  not stated.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'API docs banner: CalorieNinjas is being turned down this year. Successor API Ninjas
+  ToS (read) allows commercial use on paid plans only and pricing table lists data caching/storing per
+  plan (not on cheapest tiers); successor terms differ. Consider noting shutdown.'

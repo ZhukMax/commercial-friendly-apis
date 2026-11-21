@@ -1,0 +1,37 @@
+id: softoteca
+name: Softoteca
+url: https://softoteca.com.br/v1
+category: Business
+description: Catalog of Brazilian software with the source of each data point and prices in BRL
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Softoteca
+  url: https://softoteca.com.br/v1
+  category: Business
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+rate_limits: 120 requests/minute per IP (API and MCP combined); no key
+evidence:
+- field: rate_limits
+  url: https://softoteca.com.br/v1
+  quote: 120 consultas por minuto por IP, somadas a API e o servidor MCP.
+  checked_at: '2026-11-21'
+notes: 'Read the API index (https://softoteca.com.br/v1), the OpenAPI file, the methodology page, llms.txt, the privacy page and the vendor terms (https://softoteca.com.br/area-do-fornecedor/termos). No
+  public terms/licence for API consumers was found: the vendor terms only say vendors authorise Softoteca to display and redistribute declared information on the site, API, MCP server and open dataset ''under
+  the licence conditions published with each'' (no such licence page found: /dados, /licenca return 404). The API only asks to cite the canonical URL and the data source URL (a request, not a licence).
+  Much data are copied from vendors'' own pages (''editorial'' source level), so vendors'' site terms are upstream. Reviews/complaints are user content. All core fields unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

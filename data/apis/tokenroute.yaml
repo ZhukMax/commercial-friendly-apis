@@ -1,0 +1,25 @@
+id: tokenroute
+name: TokenRoute
+url: https://tokenroute.app/docs/quickstart
+category: Machine Learning
+description: One OpenAI-compatible endpoint for hundreds of LLMs, with a free tier and per-token pricing
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: TokenRoute
+  url: https://tokenroute.app/docs/quickstart
+  category: Machine Learning
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

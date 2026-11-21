@@ -1,0 +1,29 @@
+id: digitalocean-status
+name: DigitalOcean Status
+url: https://status.digitalocean.com/api
+category: Development
+description: Status of all DigitalOcean services
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: DigitalOcean Status
+  url: https://status.digitalocean.com/api
+  category: Development
+- list: public-api-lists
+  name: DigitalOcean Status
+  url: https://status.digitalocean.com/api/v2
+  category: Development
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

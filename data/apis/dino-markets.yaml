@@ -1,0 +1,73 @@
+id: dino-markets
+name: Dino.markets
+url: https://dino.markets/docs
+category: Finance
+description: Matched Kalshi and Polymarket prediction-market data, cross-venue spreads
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Dino.markets
+  url: https://dino.markets/docs
+  category: Finance
+link_status: alive
+data_license: proprietary (Terms of Service)
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'no'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://dino.markets/terms/
+commercial_use_scope: any
+rate_limits: Plan-based requests per month and per minute; Free plan needs no card
+evidence:
+- field: commercial_use
+  url: https://dino.markets/terms/
+  quote: You may use and cache responses internally and display raw or derived data in your own websites,
+    apps, reports or AI assistants, including paid products.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://dino.markets/terms/
+  quote: You may use and cache responses internally and display raw or derived data in your own websites,
+    apps, reports or AI assistants, including paid products.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://dino.markets/terms/
+  quote: You may use and cache responses internally and display raw or derived data in your own websites,
+    apps, reports or AI assistants, including paid products.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://dino.markets/terms/
+  quote: No attribution link is required.
+  checked_at: '2026-11-21'
+- field: commercial_use_scope
+  url: https://dino.markets/terms/
+  quote: These rights apply equally to every plan.
+  checked_at: '2026-11-21'
+- field: redistribution_limits
+  url: https://dino.markets/terms/
+  quote: you may not resell or redistribute raw or derived data through an API, SDK, feed, file export
+    or dataset, or build a competing data product
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://dino.markets/terms/
+  quote: You may use and cache responses internally and display raw or derived data in your own websites,
+    apps, reports or AI assistants, including paid products.
+  checked_at: '2026-11-21'
+notes: 'ToS (effective 12 Nov 2026) clearly allow caching internally and displaying raw/derived data on
+  own sites and paid products, on every plan incl. Free, without attribution. Restriction: no resale/redistribution
+  via API, SDK, feed, file export or dataset, no competing data product, no use for trade execution/settlement/regulatory
+  reporting. Data is Kalshi and Polymarket prediction-market data: this is an aggregator and upstream
+  venue terms (not checked) may be stricter. cache window is described only as "internally"; treat bulk
+  storage cautiously.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Upstream Kalshi/Polymarket terms not checked; caching described as 'internally' only.

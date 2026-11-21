@@ -1,0 +1,42 @@
+id: queimadas-inpe
+name: Queimadas INPE
+url: https://terrabrasilis.dpi.inpe.br/queimadas/portal/
+category: Geocoding
+description: Access to heat focus data (probable wildfire)
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Queimadas INPE
+  url: https://terrabrasilis.dpi.inpe.br/queimadas/portal/
+  category: Geocoding
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: 'yes'
+bulk_download: 'yes'
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://terrabrasilis.dpi.inpe.br/queimadas/portal/pages/secao_informacoes/faq/
+attribution_text: 'Cite as: INPE. Banco de Dados de queimadas. Disponivel em: http://www.inpe.br/queimadas/bdqueimadas (ABNT NBR 6023)'
+evidence:
+- field: attribution_required
+  url: https://terrabrasilis.dpi.inpe.br/queimadas/portal/pages/secao_informacoes/faq/
+  quote: Todo material online citado, deve ser devidamente referenciado
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://terrabrasilis.dpi.inpe.br/queimadas/portal/pages/secao_downloads/dados-abertos/
+  quote: Esses dados estão disponíveis nos formatos CSV (Comma-Separated Values) e KML (Keyhole Markup Language).
+  checked_at: '2026-11-21'
+notes: 'Pages read (Portuguese, via Playwright for the portal home and curl for FAQ and open-data pages): Programa Queimadas FAQ and Dados Abertos page. The FAQ says all data and products are freely accessible
+  at no cost and asks that INPE data be cited per ABNT NBR 6023 (attribution, shown as a citation format). No licence (CC BY etc.), commercial-use, caching or redistribution statement found, so those fields
+  stay unknown. Data is downloadable as CSV/KML/GPKG/TIFF and OGC WMS/WFS geoservices (bulk_download yes). Fire-hotspot data partly derives from NASA satellites (not assessed). Free access quote: "Todos
+  os dados e produtos ficam disponíveis para acesso livre sem nenhum custo após sua geração" (FAQ).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

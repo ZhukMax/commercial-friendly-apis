@@ -1,0 +1,26 @@
+id: quarantine
+name: Quarantine
+url: https://quarantine.country/coronavirus/api/
+category: Health
+description: Coronavirus API with free COVID-19 live updates
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Quarantine
+  url: https://quarantine.country/coronavirus/api/
+  category: Health
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: ConnectError

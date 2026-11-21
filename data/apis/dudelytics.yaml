@@ -1,0 +1,59 @@
+id: dudelytics
+name: Dudelytics
+url: https://dudelytics.com/en/dpmi/data/
+category: Cryptocurrency
+description: Productive crypto indices, daily benchmarks, sector indices and market-stress data
+description_source: upstream
+auth: none
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Dudelytics
+  url: https://dudelytics.com/en/dpmi/data/
+  category: Cryptocurrency
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: ambiguous
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://dudelytics.com/en/licenses/
+attribution_text: 'Source: "Dudelytics DPMI", link to dudelytics.com/en/dpmi/'
+evidence:
+- field: redistribution_display
+  url: https://dudelytics.com/en/dpmi/data/
+  quote: Their public availability is not a blanket data-redistribution license
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://dudelytics.com/en/dpmi/data/
+  quote: cite individual DPMI index levels and editorial statements derived from them with the source
+    “Dudelytics DPMI”
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://dudelytics.com/en/dpmi/data/
+  quote: 'Not covered by this permission: mirroring or re-hosting the JSON files, selling or white-labeling
+    the data feed'
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://dudelytics.com/en/dpmi/data/
+  quote: cite individual DPMI index levels and editorial statements derived from them with the source
+    “Dudelytics DPMI”
+  checked_at: '2026-11-21'
+notes: 'Pages read: dudelytics.com/en/dpmi/data/ (Use and source rights) and /en/licenses/. Individual
+  values may be quoted with attribution; mirroring/re-hosting the JSON, selling or white-labelling the
+  feed and re-licensing third-party raw data are outside the permission. Commercial use is not addressed
+  at all. Underlying market data comes from CoinGecko, whose own terms remain unaffected and may be stricter
+  (an embed widget is held back pending that licensing). Public JSON files, no key.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read /dpmi/data and /licenses. Page says public availability is not a blanket redistribution
+  licence; individual levels may be cited with 'Dudelytics DPMI'. Underlying raw data from CoinGecko et
+  al. whose rights Dudelytics cannot grant. No blocker beyond that; unknown/ambiguous stands.

@@ -1,0 +1,71 @@
+id: best-buy
+name: Best Buy
+url: https://bestbuyapis.github.io/api-documentation/
+category: Shopping
+description: Products, Buying Options, Categories, Recommendations, Stores and Commerce
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Best Buy
+  url: https://bestbuyapis.github.io/api-documentation/#overview
+  category: Shopping
+- list: public-api-lists
+  name: Best Buy
+  url: https://bestbuyapis.github.io/api-documentation/#overview
+  category: Shopping
+link_status: alive
+data_license: proprietary (Best Buy Developer API Terms of Service)
+commercial_use: ambiguous
+storage_caching: limited
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+commercial_use_scope: any
+cache_limit: 72 hours, temporary only
+api_terms_url: https://developer.bestbuy.com/legal
+attribution_text: Best Buy logo must appear on every page/screen where the API is used (Branding Guidelines)
+evidence:
+- field: commercial_use
+  url: https://developer.bestbuy.com/legal
+  quote: in connection with offers to sell or sales of our products and services
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://developer.bestbuy.com/legal
+  quote: store or cache any Content except on a temporary basis not to exceed seventy-two (72) hours
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://developer.bestbuy.com/legal
+  quote: you will not reproduce, modify, sell, distribute, download, transmit, or create derivative works
+    of the Service or the Content
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://developer.bestbuy.com/legal
+  quote: must feature the Best Buy logo on any page, screen, widget, or application where a Best Buy API
+    has a presence
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://developer.bestbuy.com/legal
+  quote: The Service, and all intellectual property rights in it (the "Best Buy Property"), is owned by
+    Best Buy
+  checked_at: '2026-11-21'
+notes: Read developer.bestbuy.com/legal (API ToS, last updated 23 Feb 2021) in full. Licence is limited,
+  revocable and covers apps or websites you operate 'in connection with offers to sell or sales of' Best
+  Buy products (affiliate-style); a generic ad-supported site or use for the benefit of third parties/other
+  retailers is not covered, hence commercial_use=ambiguous. Content for Games, CDs, DVDs and Blu-ray titles
+  is excluded unless Affiliate or separately signed. Caching max 72 h (docs say links expire after 7 days).
+  Branding guidelines require the Best Buy logo. Display on your own site is granted but with no modification
+  and no removal of ads; kept ambiguous. Data is a retailer's own catalogue.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'API ToS re-read: licence limited to apps/websites ''in connection with offers to sell
+  or sales'' of Best Buy products, 72h cache, logo attribution required; page dated 2021. Display on own
+  site is granted with attribution.'

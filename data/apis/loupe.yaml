@@ -1,0 +1,35 @@
+id: loupe
+name: Loupe
+url: https://loupe.legal/data
+category: Government
+description: 'US case citations: does one exist, which case does it name, is the pin cite inside the opinion'
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Loupe
+  url: https://loupe.legal/data#agents
+  category: Government
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://loupe.legal/terms
+evidence:
+- field: commercial_use
+  url: https://loupe.legal/terms
+  quote: A licence is a key. It is yours to use and not yours to publish or resell.
+  checked_at: '2026-11-21'
+notes: Terms page covers the citation-checking product (subscriptions, uploads, keys) and says nothing about reuse of API responses. Data page says the public API is free with no account or key, and it
+  draws on public sources (CourtListener, GovInfo, etc., each with own terms). No licence for the API output found; all core fields unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

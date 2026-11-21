@@ -1,0 +1,48 @@
+id: bitculator
+name: Bitculator
+url: https://bitculator.com/en/documentation/api/v1
+category: Cryptocurrency
+description: Crypto prices, OHLCV history, sentiment, technical indicators, exchanges and liquidations
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Bitculator
+  url: https://bitculator.com/en/documentation/api/v1
+  category: Cryptocurrency
+link_status: redirect
+data_license: unknown
+commercial_use: paid-only
+storage_caching: unknown
+redistribution_display: 'yes'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: documentation URL redirects to /en/documentation/crypto-api/v1
+api_terms_url: https://bitculator.com/en/terms-of-service
+commercial_use_scope: paid
+evidence:
+- field: commercial_use
+  url: https://bitculator.com/en/terms-of-service
+  quote: The free tier of the data API and the MCP server is for personal, non-commercial use; commercial use of those needs a paid plan.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://bitculator.com/en/terms-of-service
+  quote: Use it in your own product or page, not as a copy of ours.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://bitculator.com/en/terms-of-service
+  quote: resell it, redistribute it, publish it as a dataset, mirror it in bulk
+  checked_at: '2026-11-21'
+notes: 'Terms of Service (bitculator.com/en/terms-of-service) and the crypto-api marketing page read via Playwright (Cloudflare blocks curl with a 403 challenge; normal browser load worked, no bypass attempted;
+  verify_quotes will likely report unfetchable). Free tier = personal, non-commercial; commercial use needs a paid plan (plan comparison has a ''Commercial use'' row). Display in your own product/page allowed;
+  reselling, redistributing, publishing as a dataset, bulk mirroring and building a competing market-data product are forbidden, so keep any storage to cache-like use (not addressed explicitly -> unknown).
+  Widgets must keep a ''Powered by'' credit (embed widgets only, not the data API). Third-party content passed through (headlines, brand names) stays with its owner; prices are aggregated from exchanges,
+  upstream terms not assessed. data_license left unknown: proprietary terms, no named licence.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

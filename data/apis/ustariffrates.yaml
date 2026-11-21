@@ -1,0 +1,68 @@
+id: ustariffrates
+name: USTariffRates
+url: https://api.ustariffrates.com/openapi.json
+category: Finance
+description: US HTS lookup and origin-specific tariff breakdowns with source context
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: USTariffRates
+  url: https://api.ustariffrates.com/openapi.json
+  category: Finance
+link_status: alive
+data_license: proprietary (compilation); underlying USITC HTS and government sources public
+commercial_use: ambiguous
+storage_caching: ambiguous
+redistribution_display: 'no'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://ustariffrates.com/terms
+commercial_use_scope: paid
+share_alike: unknown
+rate_limits: First 50 requests/month per IP anonymous; then API key
+evidence:
+- field: commercial_use
+  url: https://ustariffrates.com/terms
+  quote: we grant you a limited, non-exclusive, non-transferable, revocable right to use the Service for
+    your internal business and informational purposes.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://ustariffrates.com/terms
+  quote: resell, sublicense, republish, or create a substitute database from paid content or API output
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://ustariffrates.com/terms
+  quote: resell, sublicense, republish, or create a substitute database from paid content or API output
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://api.ustariffrates.com/openapi.json
+  quote: Proprietary
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://api.ustariffrates.com/openapi.json
+  quote: The first 50 requests/month from any IP are anonymous and unauthenticated
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://ustariffrates.com/terms
+  quote: limited, non-exclusive, non-transferable, revocable right to use the Service for your internal
+    business and informational purposes
+  checked_at: '2026-11-21'
+notes: curl is blocked by Cloudflare on ustariffrates.com; the terms page was read with Playwright in
+  a fresh context. The licence is for internal business and informational purposes only and forbids republishing
+  paid content/API output or building a substitute database; public display on an ad-supported site is
+  therefore unclear (ambiguous). OpenAPI info lists the licence as Proprietary. Underlying HTS data is
+  published by USITC (government source) but the compiled duty stacks are the vendor's. Free-tier terms
+  not separately stated.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Licence is internal business and informational purposes only; Republishing paid content
+  or API output is banned | applied: redistribution_display=no'

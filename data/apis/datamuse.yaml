@@ -1,0 +1,53 @@
+id: datamuse
+name: Datamuse
+url: https://www.datamuse.com/api/
+category: Open Source Projects
+description: Word-finding query engine
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Datamuse
+  url: https://www.datamuse.com/api/
+  category: Open Source Projects
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: ambiguous
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.datamuse.com/api/
+rate_limits: Up to 100,000 requests/day without a key until 2027-02-01; from then API key required, 100,000/day
+  per key
+evidence:
+- field: attribution_required
+  url: https://www.datamuse.com/api/
+  quote: If you use the API within a publicly available app, kindly acknowledge the Datamuse API within
+    your app's documentation.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://www.datamuse.com/api/
+  quote: you can use this service without restriction and without an API key for up to 100,000 requests
+    per day.
+  checked_at: '2026-11-21'
+notes: 'Only the API docs page exists (no ToS, no licence page; /terms is 404). ''Usage limits'' section:
+  free up to 100,000 requests/day; for a ''customer-facing application'' or custom needs, describe the
+  application to the operator by message (unclear whether permission is required). Acknowledgement of
+  Datamuse is requested (''kindly''), not mandated, so attribution is ambiguous. Notice on page: from
+  1 Feb 2027 an API key will be required and access limited to 100,000 requests/day per key (auth will
+  then be apiKey; stays none today). Data sources listed include CMU dict, Google Books Ngrams, word2vec,
+  Paraphrase Database, WordNet, OneLook-crawled dictionaries and Wiktionary, whose licences may impose
+  their own conditions. Commercial use, storage and display not stated: unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Upstream sources (WordNet, Wiktionary, Google Ngrams etc.) not shown stricter; unknown
+  stands.

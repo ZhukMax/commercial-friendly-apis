@@ -1,0 +1,60 @@
+id: stockfit
+name: StockFit
+url: https://api.stockfit.io/docs
+category: Finance
+description: SEC filings, financial statements, earnings, ETF holdings and ownership data
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: StockFit
+  url: https://api.stockfit.io/docs
+  category: Finance
+link_status: alive
+data_license: proprietary (plan-scoped API Data licence); derived from public SEC filings
+commercial_use: paid-only
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: high
+link_checked_at: '2026-11-21'
+api_terms_url: https://developer.stockfit.io/terms
+commercial_use_scope: paid
+cache_limit: no persistent storage beyond subscription; delete copies when licence ends; no bulk storage outside reasonable application use
+share_alike: unknown
+link_note: docs at https://api.stockfit.io/docs/; terms/pricing on developer.stockfit.io
+evidence:
+- field: commercial_use
+  url: https://developer.stockfit.io/terms
+  quote: 'Free plan: personal, non-commercial use only'
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://developer.stockfit.io/terms
+  quote: 'Paid plan with a Commercial license: commercial and non-commercial use, within your business or as integrated within your own applications'
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://developer.stockfit.io/terms
+  quote: display API Data to the users of your own applications, sites and products, as part of those products and not as a standalone dataset
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://developer.stockfit.io/terms
+  quote: Second Dot LLC grants you a non-exclusive, non-transferable, revocable license to access and use the Service and the data obtained from it
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://developer.stockfit.io/terms
+  quote: delete any copies you have stored, unless you hold a separate written license that allows you to keep them.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://developer.stockfit.io/terms
+  quote: Redistributing API Data to your own users or customers, or keeping API Data after your subscription ends, requires a separate written license
+  checked_at: '2026-11-21'
+notes: 'Read ToS (developer.stockfit.io/terms, updated 2026-11-15) and pricing. Free and Personal licences are non-commercial; a paid Commercial licence allows commercial use and displaying data to users
+  of your own apps/sites, not as a standalone dataset, feed, file or API. Stored copies must be deleted when the subscription ends (so storage is limited to the active subscription); bulk storage of substantial
+  portions prohibited. Derived data (calculations, scores) is allowed. Attribution not mentioned: unknown. Underlying data is public SEC filings.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

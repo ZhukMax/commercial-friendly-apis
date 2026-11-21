@@ -1,0 +1,41 @@
+id: charity-search
+name: Charity Search
+url: http://charityapi.orghunter.com/
+category: Business
+description: Non-profit charity data
+description_source: upstream
+auth: apiKey
+https: false
+cors: unknown
+sources:
+- list: public-apis
+  name: Charity Search
+  url: http://charityapi.orghunter.com/
+  category: Business
+- list: public-api-lists
+  name: Charity Search
+  url: http://charityapi.orghunter.com/
+  category: Business
+link_status: redirect
+data_license: proprietary
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://charityapi.com/
+api_terms_url: https://orghunter.com/general/terms.aspx
+evidence:
+- field: data_license
+  url: https://orghunter.com/general/terms.aspx
+  quote: are and will remain the exclusive property of Make My Donation, Inc., OrgHunter LLC, and/or its licensors.
+  checked_at: '2026-11-21'
+notes: 'charityapi.com (redirect target of the old host, same OrgHunter Charity API) has no terms page; plans are on a 3scale portal I did not read. Read the orghunter.com website Terms and the charityapi.com
+  FAQ/home: free during development, no fee for the affiliate program, but no API-specific terms on commercial use, caching or display were found. Underlying data comes from the IRS and other government
+  sources, but the service content is claimed as proprietary. All core terms unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

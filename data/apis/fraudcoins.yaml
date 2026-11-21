@@ -1,0 +1,79 @@
+id: fraudcoins
+name: FraudCoins
+url: https://fraudcoins.com/data/
+category: Cryptocurrency
+description: On-chain top-10 holder concentration and contract permissions for crypto tokens
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: FraudCoins
+  url: https://fraudcoins.com/data/
+  category: Cryptocurrency
+link_status: alive
+data_license: CC-BY-4.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+commercial_use_scope: any
+data_license_url: https://fraudcoins.com/data/
+api_terms_url: https://fraudcoins.com/data/
+rate_limits: No key, no registration, no rate limit (static JSON)
+attribution_text: FraudCoins.com (2026). On-chain holder-concentration dataset. https://doi.org/10.5281/zenodo.22494421
+evidence:
+- field: data_license
+  url: https://fraudcoins.com/data/
+  quote: The dataset is published under Creative Commons Attribution 4.0 International (CC BY 4.0)
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://fraudcoins.com/data/
+  quote: You may copy, redistribute, adapt and build upon it, including commercially, provided you give
+    appropriate credit and link back to the source.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://fraudcoins.com/data/
+  quote: You may copy, redistribute, adapt and build upon it, including commercially, provided you give
+    appropriate credit and link back to the source.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://fraudcoins.com/data/
+  quote: You may copy, redistribute, adapt and build upon it, including commercially, provided you give
+    appropriate credit and link back to the source.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://fraudcoins.com/data/
+  quote: It is free to use with attribution.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://fraudcoins.com/data/
+  quote: No key, no registration, no rate limit
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://fraudcoins.com/terms/
+  quote: Market data is supplied by third parties (primarily CoinGecko) and is subject to their terms.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://fraudcoins.com/terms/
+  quote: Do not reproduce or redistribute substantial portions of the content without permission.
+  checked_at: '2026-11-21'
+notes: 'Pages read: fraudcoins.com/data/ (dataset licence page) and /terms/. Dataset (static JSON, CC
+  BY 4.0, archived on Zenodo) permits commercial use, copying and redistribution with credit and link.
+  The site Terms say ''Do not reproduce or redistribute substantial portions of the content without permission'',
+  which concerns website content and is more general than the dataset-specific CC BY grant (minor tension,
+  hence medium). Derived from public on-chain and third-party market data (Terms sec. 5: market data supplied
+  by third parties), whose terms were not checked. Risk ratings are opinions, not advice.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'dataset built on CoinGecko market data (site footer and Terms section 5), whose terms
+  were not cleared; Terms section 4 forbids redistributing substantial portions of content without permission,
+  only the data page grants CC BY; assets flagged as risky: opinion/defamation exposure | applied: redistribution_display=ambiguous'

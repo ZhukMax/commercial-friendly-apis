@@ -1,0 +1,34 @@
+id: rappi
+name: Rappi
+url: https://dev-portal.rappi.com/
+category: Shopping
+description: Manage orders from Rappi's app
+description_source: upstream
+auth: OAuth
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Rappi
+  url: https://dev-portal.rappi.com/
+  category: Shopping
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+notes: Read dev-portal.rappi.com overview only. It is an ally-only (restaurant/store partner) integration
+  portal for managing orders, menus, availability and store data of the partner's own account via OAuth;
+  it is not a public data source. No terms of use, data licence or reuse conditions were found on the
+  pages read (Legal documents not located), so all core fields unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

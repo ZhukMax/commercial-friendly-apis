@@ -1,0 +1,43 @@
+id: nutritionix
+name: Nutritionix
+url: https://developer.nutritionix.com/
+category: Health
+description: Worlds largest verified nutrition database
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Nutritionix
+  url: https://developer.nutritionix.com/
+  category: Health
+- list: public-api-lists
+  name: Nutritionix
+  url: https://developer.nutritionix.com/
+  category: Health
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: 'yes'
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://developer.nutritionix.com/
+evidence:
+- field: bulk_download
+  url: https://www.nutritionix.com/
+  quote: Receive a monthly export of our entire database in CSV format
+  checked_at: '2026-11-21'
+notes: No public API terms found. developer.nutritionix.com says there is no longer a public free-access
+  tier ('we are no longer able to maintain a public free-access tier'); trials are by sales request for
+  commercial/research/enterprise use (company now part of Syndigo; docs at docx.syndigo.com). nutritionix.com
+  shows Legal/Terms of Use links in the footer but the site is 'temporarily offline' and /terms returns
+  the home page; /pricing 404. The marketing page offers paid bulk database licensing (monthly CSV export).
+  All terms fields stay unknown. Auth still apiKey.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

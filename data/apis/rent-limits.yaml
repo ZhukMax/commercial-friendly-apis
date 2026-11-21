@@ -1,0 +1,41 @@
+id: rent-limits
+name: Rent Limits
+url: https://glazeddata.com/rent-limits/api/
+category: Government
+description: HUD Fair Market Rents by US ZIP; paid tiers add tax-credit and Section 8 limits
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Rent Limits
+  url: https://glazeddata.com/rent-limits/api/
+  category: Government
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://glazeddata.com/terms
+rate_limits: Max 10,000 calls/day per account (UTC) plus monthly plan allowances
+evidence:
+- field: rate_limits
+  url: https://glazeddata.com/terms
+  quote: Each account can make at most ten thousand calls a day (UTC), and the service has an overall daily ceiling.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://glazeddata.com/rent-limits/api/
+  quote: This product uses the HUD User Data API but is not endorsed or certified by HUD User.
+  checked_at: '2026-11-21'
+notes: Read the Glazed Data Terms and the API page. Terms cover accounts, billing, key sharing and liability but say nothing about commercial use, storing or displaying the figures, or licence of the data
+  (underlying HUD figures are published government data; HUD API terms not read). Free plan = HUD FMR/SAFMR; paid plans add LIHTC, Section 8 limits and agency payment standards (also on RapidAPI). All core
+  fields unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

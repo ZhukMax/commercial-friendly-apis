@@ -1,0 +1,31 @@
+id: portfolio-optimizer
+name: Portfolio Optimizer
+url: https://portfoliooptimizer.io/
+category: Finance
+description: Portfolio analysis and optimization
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Portfolio Optimizer
+  url: https://portfoliooptimizer.io/
+  category: Finance
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://portfoliooptimizer.io/terms-of-service
+notes: 'Terms of Service (updated 2020-10-27) read: only disclaimers, API limits may change without notice, API key not to be shared. No statement on commercial use, storage or display of results; no pricing
+  page found (/pricing 404). Docs: anonymous use with strict limits, key for higher limits. All core fields unknown.'
+evidence: []
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

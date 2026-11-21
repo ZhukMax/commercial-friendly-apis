@@ -1,0 +1,76 @@
+id: floorguard
+name: FloorGuard
+url: https://floorguard-kappa.vercel.app/api/
+category: Finance
+description: Sourced prop firm daily-loss and max-drawdown rules, plus a drawdown-room check
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: FloorGuard
+  url: https://floorguard-kappa.vercel.app/api/
+  category: Finance
+link_status: alive
+data_license: MIT
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://raw.githubusercontent.com/kburrus64-max/prop-firm-rules/main/LICENSE
+api_terms_url: https://floorguard-kappa.vercel.app/api/
+commercial_use_scope: free-tier
+share_alike: 'no'
+rate_limits: about 60 requests/min per IP (free tier, best effort)
+evidence:
+- field: data_license
+  url: https://floorguard-kappa.vercel.app/api/
+  quote: The data is the MIT-licensed prop-firm-rules dataset.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://raw.githubusercontent.com/kburrus64-max/prop-firm-rules/main/LICENSE
+  quote: to deal in the Software without restriction, including without limitation the rights to use,
+    copy, modify, merge, publish, distribute, sublicense, and/or sell copies
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://raw.githubusercontent.com/kburrus64-max/prop-firm-rules/main/LICENSE
+  quote: to deal in the Software without restriction, including without limitation the rights to use,
+    copy, modify, merge, publish, distribute, sublicense, and/or sell copies
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://raw.githubusercontent.com/kburrus64-max/prop-firm-rules/main/LICENSE
+  quote: to deal in the Software without restriction, including without limitation the rights to use,
+    copy, modify, merge, publish, distribute, sublicense, and/or sell copies
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://raw.githubusercontent.com/kburrus64-max/prop-firm-rules/main/LICENSE
+  quote: The above copyright notice and this permission notice shall be included in all copies or substantial
+    portions of the Software.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://floorguard-kappa.vercel.app/api/
+  quote: about 60 requests per minute per IP, best effort
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://raw.githubusercontent.com/kburrus64-max/prop-firm-rules/main/LICENSE
+  quote: to deal in the Software without restriction, including without limitation the rights to use,
+    copy, modify, merge, publish, distribute, sublicense, and/or sell copies
+  checked_at: '2026-11-21'
+notes: Terms inferred from the MIT licence of the underlying dataset (API page states the data is that
+  dataset; LICENSE read on raw.githubusercontent.com). No separate ToS for the hosted API was found (/terms
+  404). The dataset describes third-party prop firms' rules (facts, with source links); firm names are
+  trademarks of their owners; API responses carry a disclaimer field ("informational only, not financial
+  advice"). MIT requires keeping the copyright notice. Small hobby service; paid x402 access "may be added
+  later".
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Hobby service with 60 req/min best effort, may add paid x402 later. Dataset reports
+  third-party firms' rules (facts, trademarks not licensed). Keep MIT notice.

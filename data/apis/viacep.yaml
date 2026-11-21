@@ -1,0 +1,42 @@
+id: viacep
+name: ViaCep
+url: https://viacep.com.br
+category: Geocoding
+description: Brazil RESTful zip codes API
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: ViaCep
+  url: https://viacep.com.br
+  category: Geocoding
+- list: public-api-lists
+  name: ViaCep
+  url: https://viacep.com.br
+  category: Geocoding
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: 'no'
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+rate_limits: No numeric limit; mass use for validating local databases may get access blocked indefinitely
+evidence:
+- field: rate_limits
+  url: https://viacep.com.br
+  quote: Uso massivo para validação de bases de dados locais, poderá automaticamente bloquear seu acesso por tempo indeterminado.
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://viacep.com.br
+  quote: Não distribuímos ou comercializamos bases de dados.
+  checked_at: '2026-11-21'
+notes: Homepage has no terms of use, licence or attribution statement. Only usage warning and a statement that they do not distribute or sell databases. All core fields unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

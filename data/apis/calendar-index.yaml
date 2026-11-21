@@ -1,0 +1,31 @@
+id: calendar-index
+name: Calendar Index
+url: https://www.calendarindex.com/
+category: Calendar
+description: Worldwide Holidays and Working Days
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: Calendar Index
+  url: https://www.calendarindex.com/
+  category: Calendar
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://calendarific.com/
+notes: calendarindex.com 301-redirects to calendarific.com. The target pages do not say that they replace
+  or are the same service as Calendar Index (no mention of the name), so no terms were transferred from
+  Calendarific; all core fields unknown. See entry calendarific for that service's terms.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

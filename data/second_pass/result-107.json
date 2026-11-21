@@ -1,0 +1,390 @@
+[
+ {
+  "id": "icons8",
+  "outcome": "confirmed",
+  "reasons": [
+   "Free licence page allows websites with footer link; no commercial ban seen",
+   "Full agreement defines Free Account Holder as 'personal use' - conflict stays"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://icons8.com/license",
+    "quote": "Add a link to icons8.com on all pages using our content. If that's most pages, a link in your footer is fine.",
+    "field": "attribution_required"
+   }
+  ],
+  "suggested": {},
+  "note": "Read icons8.com/license and the full Universal Multimedia License Agreement (intercom.help, via Playwright). Websites need a link to icons8.com; paid plan removes it. Agreement defines free holders as personal use, so commercial_use stays ambiguous. Leans allowed with backlink."
+ },
+ {
+  "id": "india-public-holidays",
+  "outcome": "confirmed",
+  "reasons": [
+   "No upstream reuse terms found; india.gov.in disclaimer/terms pages have no copyright text",
+   "Repo has no LICENSE file, MIT only claimed in README"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "india.gov.in/disclaimer and /terms-conditions read via Playwright: no reuse/commercial clause. Community API on free host, no SLA."
+ },
+ {
+  "id": "jobs2careers",
+  "outcome": "confirmed",
+  "reasons": [
+   "Search API only for approved Talroo publishers (6 months traffic, US-only)",
+   "Publisher agreement not public; no storage/display rules readable"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read publisher-program, how-to-apply and FAQ. Monetised use is the intended model but gated."
+ },
+ {
+  "id": "jobven",
+  "outcome": "disputed",
+  "reasons": [
+   "Terms say 'internal business purposes' but docs promote job boards and storing in own DB",
+   "Docs resolve storage toward yes; commercial/display still conflicts with ToS"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://jobven.com/docs/guides/how-to-build-a-job-board",
+    "quote": "Store jobs in your own database. Don't call the Jobven API on every page load.",
+    "field": "storage_caching"
+   },
+   {
+    "url": "https://jobven.com/terms",
+    "quote": "You may use the data obtained through the Service for your internal business purposes.",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {
+   "storage_caching": "yes"
+  },
+  "note": "Docs 'Build a Job Board' guide: sync to own DB, monetisation via affiliate clicks; ToS: internal business purposes, no raw redistribution, no commercial exploitation beyond plan. Commercial_use and display remain ambiguous; storage yes per docs."
+ },
+ {
+  "id": "jooble",
+  "outcome": "confirmed",
+  "reasons": [
+   "Own ToS bans republication and bots; API page invites posting results; conflict unresolved",
+   "No API-specific terms exist"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read jooble.org/info/terms (curl). Site content may not be copied for republication without written permission; API page says to post results on your site. Unknown stays."
+ },
+ {
+  "id": "kraken",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToS bars scraping and third-party apps on 'Our Content' without consent; API not carved out",
+   "No separate API/market-data licence found"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://www.kraken.com/legal/global-terms",
+    "quote": "develop any third-party applications that interact with Our Content without our prior written consent",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {},
+  "note": "Re-read global-terms: 'Our Content' = services, platforms and content. Evidence leans restrictive but public REST endpoints are documented for use; ambiguous stands."
+ },
+ {
+  "id": "kucoin",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToU forbid commercial use of Platform content; API applicability unstated",
+   "No API-specific terms found (docs-new Terms is a glossary)"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read terms-of-use (updated 10/29/2026) and docs-new. Leans restrictive; ambiguous stands."
+ },
+ {
+  "id": "level",
+  "outcome": "confirmed",
+  "reasons": [
+   "No licence/terms for the REST API; site terms say nothing against reuse",
+   "Developers page invites showing results with link back"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read /developers and /terms. Listings are aggregated from employer ATS boards (upstream rights). No blocker, no grant: unknown stands."
+ },
+ {
+  "id": "marketaux",
+  "outcome": "disputed",
+  "reasons": [
+   "Site ToS licenses Content only for personal, non-commercial use (not cited by first pass)",
+   "Plus ban on commercial endeavors unless approved; no API licence page"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://www.marketaux.com/tos",
+    "quote": "solely for your personal, non-commercial use",
+    "field": "commercial_use"
+   },
+   {
+    "url": "https://www.marketaux.com/tos",
+    "quote": "The Site may not be used in connection with any commercial endeavors except those that are specifically endorsed or approved by us.",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "no"
+  },
+  "note": "Only terms are the generic site ToS, which the pricing page and docs do not override. Evidence points to no; kept as lean because applicability to paid API plans is not stated. Upstream news publishers (5,000+ sources) may be stricter."
+ },
+ {
+  "id": "mercadolibre",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms 7.2 allow publishing Content only inside your own Application",
+   "7.4 bans storing Content only for competing/unpermitted purposes; ads/affiliate not addressed"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read Spanish developer T&C. Storage and display ambiguous as before; account-scoped seller API, not a public data feed."
+ },
+ {
+  "id": "merriam-webster",
+  "outcome": "disputed",
+  "reasons": [
+   "Licence agreement is titled non-commercial; ads or fees require case-by-case approval and payment terms",
+   "Business terms unpublished, so route is negotiated paid"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://dictionaryapi.com/info/terms-of-service",
+    "quote": "Merriam-Webster staff will then respond to arrange terms and payment.",
+    "field": "commercial_use"
+   },
+   {
+    "url": "https://dictionaryapi.com/info/terms-of-service",
+    "quote": "use the Service for commercial use",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "paid-only"
+  },
+  "note": "Free tier is non-commercial; commercial route is approval plus negotiated terms and payment (not a flat no). Suggest paid-only."
+ },
+ {
+  "id": "metabase",
+  "outcome": "confirmed",
+  "reasons": [
+   "Not a data API; self-hosted BI software, AGPL/commercial licence",
+   "No blocker for the self-hosted use case"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Entry should arguably be excluded as not a data source; terms as first pass."
+ },
+ {
+  "id": "monerometrics",
+  "outcome": "confirmed",
+  "reasons": [
+   "No terms/data licence page; MIT is a code licence",
+   "Prices derive from CoinGecko/Kraken upstream"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Nothing new found; ambiguous stands."
+ },
+ {
+  "id": "mycryptosignal",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToS requires attribution and bars resale/commercialising data without written agreement",
+   "Ambiguous for ad-supported display; Enterprise tier has redistribution licence"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read terms and pricing; unchanged."
+ },
+ {
+  "id": "nager-date",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToS: commercial purposes require active sponsorship; own holiday portal forbidden",
+   "README: self-host Docker/NuGet needs a licence key; MIT code only"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://nagerholidays.com/legal/termsofservice",
+    "quote": "It is not allowed to use the holiday information to publish or operate your own holiday portal.",
+    "field": "redistribution_display"
+   }
+  ],
+  "suggested": {},
+  "note": "Re-read nagerholidays.com ToS and GitHub README. Paid-only stands; display on a holiday-focused site is blocked by the portal clause."
+ },
+ {
+  "id": "nager-date-nagerholidays",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToS: commercial purposes require active sponsorship; own holiday portal forbidden",
+   "README: self-host Docker/NuGet needs a licence key; MIT code only"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://nagerholidays.com/legal/termsofservice",
+    "quote": "It is not allowed to use the holiday information to publish or operate your own holiday portal.",
+    "field": "redistribution_display"
+   }
+  ],
+  "suggested": {},
+  "note": "Re-read nagerholidays.com ToS and GitHub README. Paid-only stands; display on a holiday-focused site is blocked by the portal clause."
+ },
+ {
+  "id": "nansen",
+  "outcome": "disputed",
+  "reasons": [
+   "API Terms (prevail over guidelines) limit licence to internal business purposes",
+   "API Terms ban cached copies beyond documented timeframes and raw redistribution without consent"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://www.nansen.ai/legal/api",
+    "quote": "Create permanent or cached copies of any API Services or Nansen Data beyond timeframes specified in the documentation",
+    "field": "storage_caching"
+   },
+   {
+    "url": "https://www.nansen.ai/legal/api",
+    "quote": "solely for your internal business purposes in accordance with the documentation provided by Nansen",
+    "field": "commercial_use"
+   },
+   {
+    "url": "https://www.nansen.ai/legal/api",
+    "quote": "Redistribution of raw, bulk, or aggregated Nansen Data is prohibited without our prior written consent",
+    "field": "redistribution_display"
+   }
+  ],
+  "suggested": {
+   "storage_caching": "limited"
+  },
+  "note": "Redistribution Guidelines allow display per endpoint, but the API Terms (nansen.ai/legal/api) are stricter and state they prevail. Storage should be limited; commercial/display stay ambiguous."
+ },
+ {
+  "id": "news",
+  "outcome": "confirmed",
+  "reasons": [
+   "Free plan dev/test only; production needs paid Business plan",
+   "Third-party content not licensed; no competing database"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read terms and pricing; unchanged."
+ },
+ {
+  "id": "newsdata",
+  "outcome": "disputed",
+  "reasons": [
+   "Terms grant external business use, but pricing labels free plan 'testing & personal projects'",
+   "Aggregator: third-party content rights not granted"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://newsdata.io/pricing",
+    "quote": "For testing & personal projects",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "paid-only"
+  },
+  "note": "Terms say Data Derivatives usable for internal and external business purposes; pricing page frames Free as personal/testing. Safest reading: paid plan for commercial site."
+ },
+ {
+  "id": "newsmesh",
+  "outcome": "confirmed",
+  "reasons": [
+   "Free plan excludes commercial use; paid plans include it",
+   "Resale/redistribution without authorization banned; caching unaddressed"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read terms; unchanged."
+ },
+ {
+  "id": "nexchange",
+  "outcome": "confirmed",
+  "reasons": [
+   "Only site ToS (personal non-commercial) found; API/partner terms not public",
+   "Partner/white-label/affiliate programmes exist separately"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Not a data source; ambiguous stands."
+ },
+ {
+  "id": "nhl-records-and-stats",
+  "outcome": "confirmed",
+  "reasons": [
+   "Unofficial undocumented endpoints; NHL ToS allow only non-commercial personal use and ban unauthorized scraping",
+   "No NHL data licence exists"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://www.nhl.com/info/terms-of-service",
+    "quote": "Engage in unauthorized spidering, scraping, or harvesting of content or information",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {},
+  "note": "Evidence leans no in practice, but ToS applicability to the stats endpoints is unstated; ambiguous stands, treat as unsafe."
+ },
+ {
+  "id": "nuvinty",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms section 9 says 'Nuvinty is free and for personal use', conflicting with section 6",
+   "Section 6 allows use in own apps/articles with credit and caching; no resale"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://nuvinty.com/terms",
+    "quote": "Nuvinty is free and for personal use.",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {},
+  "note": "Conflict inside one ToS keeps commercial_use ambiguous; storage/display/attribution confirmed by section 6."
+ },
+ {
+  "id": "odds-api",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToS: commercial resale/redistribution needs written licence; no statement on monetised sites",
+   "No blocker for own display found; odds copying only banned for betting operators"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://odds-api.io/terms",
+    "quote": "If you wish to resell or redistribute our data commercially, you must contact us in writing",
+    "field": "redistribution_display"
+   }
+  ],
+  "suggested": {},
+  "note": "Re-read terms; unknown stands."
+ },
+ {
+  "id": "oddsmagnet",
+  "outcome": "confirmed",
+  "reasons": [
+   "Only site T&Cs: personal non-commercial use; commercial use needs written permission",
+   "API page empty; applicability to data unstated"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://oddsmagnet.com/terms-and-conditions",
+    "quote": "You may, for your own personal, non-commercial use only, do the following",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {},
+  "note": "Re-read via Playwright (curl 403 CloudFront). Leans no; ambiguous stands."
+ }
+]

@@ -1,0 +1,47 @@
+id: trello
+name: Trello
+url: https://developers.trello.com/
+category: Business
+description: Boards, lists and cards to help you organize and prioritize your projects
+description_source: upstream
+auth: OAuth
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Trello
+  url: https://developers.trello.com/
+  category: Business
+- list: public-api-lists
+  name: Trello
+  url: https://developers.trello.com/
+  category: Business
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: limited
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: -> https://developer.atlassian.com/cloud/trello/?
+api_terms_url: https://developer.atlassian.com/cloud/trello/developer-terms/
+cache_limit: End User Data only as permitted by the end user
+notes: 'Trello Developer Terms read (developer.atlassian.com/cloud/trello/developer-terms/). Per-user
+  OAuth/API-key data API: end-user data may be stored only as the end user permits and must be kept up
+  to date. The terms do not state a commercial-use allowance or prohibition, nor display rights, so those
+  stay unknown. Trello marks may be used only per the Trello Brand Guide. atlassian.com/legal pages were
+  JS-only and not read.'
+evidence:
+- field: storage_caching
+  url: https://developer.atlassian.com/cloud/trello/developer-terms/
+  quote: You may not store or use End User Data except as expressly permitted by the end user.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

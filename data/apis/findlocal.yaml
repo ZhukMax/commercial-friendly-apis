@@ -1,0 +1,66 @@
+id: findlocal
+name: FindLocal
+url: https://findlocal.community/docs
+category: Events
+description: 'Hyper-local US events: concerts, trivia, open mics, readings, storytimes'
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: FindLocal
+  url: https://findlocal.community/docs
+  category: Events
+link_status: alive
+data_license: 'Proprietary: Find Local compiled dataset; event names, images and descriptions belong to
+  their owners'
+commercial_use: paid-only
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+commercial_use_scope: paid
+cache_limit: 24 hours
+api_terms_url: https://findlocal.community/terms
+attribution_text: 'Free plan: visible text link "Event data by FindLocal" pointing to https://findlocal.community
+  (paid plans exempt)'
+notes: ToS (4 Nov 2026) section 4 for developer-account keys. Free plan is for evaluation and personal
+  projects, and signs of commercial/production use may lead to a request to move to a paid plan (so commercial
+  = paid plan, inferred from that sentence; the paid plan terms themselves are the same ToS). Cache max
+  24 hours; no reselling or redistributing the dataset or mirroring it into a competing event database;
+  the free plan requires the attribution link, paid plans are exempt. Images may carry CC credit lines
+  that must be displayed. Event data are collected from venue calendars/ticketing pages, so upstream rights
+  may be stricter.
+evidence:
+- field: commercial_use
+  url: https://findlocal.community/terms
+  quote: Free is for evaluation and personal projects.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://findlocal.community/terms
+  quote: we may ask you to move to a paid plan
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://findlocal.community/terms
+  quote: You may cache responses for up to 24 hours.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://findlocal.community/terms
+  quote: You may display, filter and combine the data in your own apps, sites and agents.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://findlocal.community/terms
+  quote: display a visible text link reading "Event data by FindLocal" (or equivalent wording) pointing
+    to https://findlocal.community
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://findlocal.community/terms
+  quote: Event names, images and descriptions belong to their respective owners
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

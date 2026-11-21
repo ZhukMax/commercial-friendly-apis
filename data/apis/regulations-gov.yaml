@@ -1,0 +1,37 @@
+id: regulations-gov
+name: Regulations.gov
+url: https://open.gsa.gov/api/regulationsgov/
+category: Government
+description: US federal rulemaking comments and dockets
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Regulations.gov
+  url: https://open.gsa.gov/api/regulationsgov/
+  category: Government
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://open.gsa.gov/api/regulationsgov/#terms-of-participation
+rate_limits: 'Comment API: 50 req/min and 500 req/hour; GET limits per api.data.gov'
+notes: Read the Regulations.gov API page on open.gsa.gov. The Terms of Participation only govern the comment-submission (POST) API. No licence or reuse terms for the GET data (documents, dockets, comments)
+  were found; regulations.gov itself returns 403 to curl. Federal documents are generally public, but comments may contain third-party/personal content; not assessed, so unknown.
+evidence:
+- field: rate_limits
+  url: https://open.gsa.gov/api/regulationsgov/
+  quote: Commenting API is restricted to 50 requests per minute with a secondary limit of 500 requests per hour.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+share_alike: unknown

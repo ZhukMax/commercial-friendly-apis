@@ -1,0 +1,29 @@
+id: advice-slip
+name: Advice Slip
+url: http://api.adviceslip.com/
+category: Personality
+description: Generate random advice slips
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Advice Slip
+  url: http://api.adviceslip.com/
+  category: Personality
+- list: public-api-lists
+  name: Advice Slip
+  url: http://api.adviceslip.com/
+  category: Personality
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

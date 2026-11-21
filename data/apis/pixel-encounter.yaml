@@ -1,0 +1,33 @@
+id: pixel-encounter
+name: Pixel Encounter
+url: https://pixelencounter.com/api
+category: Art & Design
+description: SVG Icon Generator
+description_source: upstream
+auth: none
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Pixel Encounter
+  url: https://pixelencounter.com/api
+  category: Art & Design
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://pixelencounter.com/api
+link_note: Domain serves a fake 'human verification' page that asks visitors to paste a command into a
+  terminal (malicious pattern). Do not visit; excluded from the catalogue.
+notes: 'No terms read: the site redirected to a suspicious third-party page (fake verification asking
+  the user to paste a command into a terminal); not followed. All terms fields unknown. Recommend re-checking
+  manually or treating as dead/compromised.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

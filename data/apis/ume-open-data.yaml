@@ -1,0 +1,49 @@
+id: ume-open-data
+name: Umeå Open Data
+url: https://opendata.umea.se/api/
+category: Open Data
+description: Open data of the city Umeå in northen Sweden
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Umeå Open Data
+  url: https://opendata.umea.se/api/
+  category: Open Data
+link_status: redirect
+data_license: Per-dataset licences (mostly unspecified or CC0; a few CC BY-NC-ND 4.0)
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://opendata.umea.se/api-console/explore/v2.1/
+api_terms_url: https://opendata.umea.se/terms/terms-and-conditions/
+commercial_use_scope: any
+evidence:
+- field: commercial_use
+  url: https://opendata.umea.se/terms/terms-and-conditions/
+  quote: You can use data from Open Data Umeå as long as you follow the terms of its licence.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://opendata.umea.se/terms/terms-and-conditions/
+  quote: You can use data from Open Data Umeå as long as you follow the terms of its licence.
+  checked_at: '2026-11-21'
+notes: 'Link redirects to https://opendata.umea.se/api-console/explore/v2.1/ (Huwise/Opendatasoft portal).
+  Pages read: portal Terms and Conditions (short: use data per each dataset''s licence; no guarantee of
+  updates/uptime). The portal itself sets no default licence. Querying the public catalog API (first 100
+  of 334 datasets) showed licence field: 76 empty, 22 CC0, 2 CC BY-NC-ND 4.0. So terms depend entirely
+  on each dataset; no blanket conclusion. Core fields left unknown/ambiguous. Not a licence guarantee.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: No new blocker. Per-dataset licences decide; blanket verdict impossible. Unlicensed
+  datasets are not safe to assume open.
+license_scope: portal-default

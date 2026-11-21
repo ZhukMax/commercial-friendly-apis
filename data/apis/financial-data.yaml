@@ -1,0 +1,56 @@
+id: financial-data
+name: Financial Data
+url: https://financialdata.net/
+category: Finance
+description: Stock Market and Financial Data
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-api-lists
+  name: Financial Data
+  url: https://financialdata.net/
+  category: Finance
+link_status: alive
+data_license: proprietary (Legal Terms)
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: HTTP 403 (blocked for bots, assumed alive)
+api_terms_url: https://financialdata.net/terms-of-service
+evidence:
+- field: commercial_use
+  url: https://financialdata.net/terms-of-service
+  quote: may not be used in connection with any commercial endeavors except those that are specifically
+    permitted by these Legal Terms or your applicable subscription plan
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://financialdata.net/terms-of-service
+  quote: If your applicable subscription plan explicitly permits data redistribution, we grant you a non-exclusive,
+    non-transferable, revocable license to redistribute portions of the Content
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://financialdata.net/terms-of-service
+  quote: may not be used in connection with any commercial endeavors except those that are specifically
+    permitted by these Legal Terms or your applicable subscription plan
+  checked_at: '2026-11-21'
+notes: 'curl is blocked (HTTP 403), so the Terms of Service (last revised Dec 2024) were read with a headless
+  browser. Commercial use and redistribution depend on the subscription plan: redistribution to clients/end
+  users only if the plan explicitly permits, never as a replica/competing service or resale; public display
+  otherwise forbidden. Which plans permit it is not stated in the terms (pricing page not read). Data
+  derives from SEC/FINRA etc.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Confirmed ambiguous/yellow. Terms say Content provided 'for your personal or commercial
+  use in accordance with these Legal Terms' but no public display or redistribution except as the plan
+  permits; plan-level permissions not stated in the terms (could not open the Commercial tab). Upstream
+  SEC/FINRA data.

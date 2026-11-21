@@ -1,0 +1,44 @@
+id: baconmockup
+name: BaconMockup
+url: https://baconmockup.com/
+category: Food & Drink
+description: Resizable bacon placeholder images
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: BaconMockup
+  url: https://baconmockup.com/
+  category: Food & Drink
+link_status: alive
+data_license: per-image 'Some rights reserved' (licences not stated on page)
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: 'yes'
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://baconmockup.com/attribution/
+evidence:
+- field: attribution_required
+  url: https://baconmockup.com/attribution/
+  quote: When using these images you should provide correct attribution.
+  checked_at: '2026-11-21'
+- field: self_host_option
+  url: https://raw.githubusercontent.com/petenelson/gga-dynamic-placeholder-images/master/readme.txt
+  quote: 'License: GPLv2 or later'
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://baconmockup.com/attribution/
+  quote: Some rights reserved
+  checked_at: '2026-11-21'
+notes: 'Read https://baconmockup.com/ and https://baconmockup.com/attribution/. The service serves third-party photos (credited per image, each marked ''Some rights reserved'' without naming the licence),
+  so commercial use/display/storage cannot be confirmed; no terms page found. Self-host: the WordPress plugin (gga-dynamic-placeholder-images, GPLv2+) is what runs the site, but the photos are not licensed
+  by the plugin licence.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

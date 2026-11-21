@@ -1,0 +1,44 @@
+id: openregistry
+name: OpenRegistry
+url: https://openregistry.sophymarine.com
+category: Government
+description: Real-time queries to 80+ national company registries (UK, FR, DE, IT, ES, KR and more)
+description_source: upstream
+auth: OAuth
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: OpenRegistry
+  url: https://openregistry.sophymarine.com
+  category: Government
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.sophymarine.com/terms
+notes: Read Sophymarine Terms of Service, clause 8 (Openregistry). The customer must comply with the licence
+  and fair-use terms of each registry queried and is solely responsible for retention, redistribution
+  and resale. So rights vary per country (80+ registries) and are not stated centrally; paid plans/pricing
+  not assessed. Auth is OAuth (MCP).
+evidence:
+- field: commercial_use
+  url: https://www.sophymarine.com/terms
+  quote: the Customer will comply with the terms, licensing conditions and fair-use policies of each Registry
+    whose data the Customer requests through Openregistry
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+share_alike: unknown
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read sophymarine.com/terms. No central licence; upstream registries (80+) vary and
+  some restrict commercial redisplay. Clause 2.5 (no automated scripts/scrapers) likely targets the website,
+  not MCP/API, but is unclear.

@@ -1,0 +1,53 @@
+id: city-bikes
+name: City Bikes
+url: https://api.citybik.es/v2/
+category: Sports & Fitness
+description: City Bikes around the world
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: City Bikes
+  url: https://api.citybik.es/v2/
+  category: Sports & Fitness
+- list: public-api-lists
+  name: City Bikes
+  url: http://api.citybik.es/v2/
+  category: Sports & Fitness
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+attribution_text: Clear, noticeable statement on app/website naming the source with a link to the CityBikes
+  project page (and PyBikes if used)
+api_terms_url: https://api.citybik.es/v2/
+evidence:
+- field: commercial_use
+  url: https://api.citybik.es/v2/
+  quote: this is not exactly open data as we adquire this information using many tricks
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://api.citybik.es/v2/
+  quote: 'There''s just one restriction: if your project is using this API you should indicate it on your
+    app and website'
+  checked_at: '2026-11-21'
+notes: 'API docs page has a short Terms of Service: free service, only restriction is a visible attribution
+  with a link. It does not mention commercial use, storage or display explicitly, and states the data
+  is "not exactly open data" because it is acquired from bike-share operators by scraping/many means;
+  upstream operator terms (JCDecaux, etc.) are not covered and may be stricter. Aggregator of many networks.
+  Commercial use therefore ambiguous.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'API page re-read: only restriction is visible attribution link; operator data acquired
+  by scraping and ''not exactly open data''; upstream operator terms not covered. Ambiguous stays.'

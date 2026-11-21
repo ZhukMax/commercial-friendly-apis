@@ -1,0 +1,35 @@
+id: harry-potter-api
+name: Harry Potter API
+url: https://github.com/fedeperin/potterapi
+category: Books
+description: API to get data from Harry Potter books, movies, characters and spells
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: Harry Potter API
+  url: https://github.com/fedeperin/potterapi
+  category: Books
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: 'yes'
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://github.com/fedeperin/potterapi
+evidence:
+- field: self_host_option
+  url: https://raw.githubusercontent.com/fedeperin/potterapi/main/LICENSE
+  quote: Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files
+  checked_at: '2026-11-21'
+notes: Read the GitHub README and LICENSE. The repo code is MIT (Express.js app, so self-hosting is possible), but neither page states a licence or terms for the data (book/character/spell text and images
+  about a copyrighted franchise) or for the hosted API. All core terms left unknown; the MIT notice covers the software, not clearly the content.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

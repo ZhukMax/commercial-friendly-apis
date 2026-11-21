@@ -1,0 +1,56 @@
+id: himalayas
+name: Himalayas
+url: https://himalayas.app/api
+category: Jobs
+description: Remote job board and search engine
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: Himalayas
+  url: https://himalayas.app/api
+  category: Jobs
+link_status: alive
+data_license: proprietary (Himalayas API terms, section on API Users)
+commercial_use: 'yes'
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: high
+link_checked_at: '2026-11-21'
+cache_limit: remove jobs once they expire; caching encouraged
+share_alike: unknown
+commercial_use_scope: any
+api_terms_url: https://himalayas.app/terms
+attribution_text: Visible link to the Himalayas job or to himalayas.app as source; use applicationLink unchanged for every Apply button
+rate_limits: 'With free key: 60 requests/min and 10,000/day; lower without key'
+evidence:
+- field: commercial_use
+  url: https://himalayas.app/terms
+  quote: You may use the API in personal and commercial integrations, including showing Himalayas jobs on your own job board, website or app.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://himalayas.app/terms
+  quote: You may use the API in personal and commercial integrations, including showing Himalayas jobs on your own job board, website or app.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://himalayas.app/terms
+  quote: Cache job data where you can, stay within your request limits, and remove jobs once they expire.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://himalayas.app/terms
+  quote: Clearly identify Himalayas as the source of the jobs, with a visible link to the Himalayas job or to himalayas.app.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://himalayas.app/terms
+  quote: You may use the API in personal and commercial integrations, including showing Himalayas jobs on your own job board, website or app.
+  checked_at: '2026-11-21'
+notes: 'Read API Users clause of https://himalayas.app/terms (also linked as /terms#api from the API page). Conditions: unchanged applicationLink on every Apply, visible source link, show jobs only on sites
+  you operate (no feeds/aggregators/Google Jobs/LinkedIn), remove expired jobs. Storage marked limited because jobs must be removed on expiry. Upstream postings belong to employers.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

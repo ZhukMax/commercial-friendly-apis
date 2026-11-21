@@ -1,0 +1,58 @@
+id: fast-data-job-search
+name: Fast Data Job Search
+url: https://apify.com/fast_data_asap/job-search-api
+category: Jobs
+description: Jobs from Arbeitsagentur, Arbeitnow, Remote OK and company ATS boards as one deduplicated
+  JSON list
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Fast Data Job Search
+  url: https://apify.com/fast_data_asap/job-search-api
+  category: Jobs
+link_status: alive
+data_license: Actor output owned by the Apify user (Apify Actor Terms); underlying job data is third-party
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: ambiguous
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://docs.apify.com/legal/actor-terms-and-conditions
+attribution_text: Remote OK and Himalayas jobs must link back to the original postings
+evidence:
+- field: data_license
+  url: https://docs.apify.com/legal/actor-terms-and-conditions
+  quote: you retain all intellectual property rights that subsist in your Actor Input and Actor Output.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://apify.com/fast_data_asap/job-search-api
+  quote: Jobs from Remote OK and Himalayas link back to the original postings on those sites, as their
+    API terms require.
+  checked_at: '2026-11-21'
+notes: 'Not a data source in itself: an Apify Actor (scraper/aggregator run on your own Apify account
+  with an API token, pay-per-result; there is also an x402 route). Aggregates Arbeitsagentur, Arbeitnow,
+  Remote OK, Himalayas and company ATS boards. Apify Actor Terms say the user retains IP rights in Actor
+  Output, but that does not grant any rights in the third-party job content. The Actor page only claims
+  the data is legal to use (marketing) and says Remote OK and Himalayas postings must link back as those
+  sources API terms require; each upstream source (e.g. Bundesagentur Jobsuche API, Arbeitnow, Remote
+  OK) has its own terms, not read here. Commercial use, caching and display therefore unknown; attribution
+  flagged ambiguous (required for some upstream sources only).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Checked upstreams: Remote OK API legal text requires a followed link back and naming
+  Remote OK as source or API access is suspended; Himalayas API page says jobs only on sites you operate,
+  no passing to Google Jobs/aggregators, remove expired jobs. Actor page only claims data is legal to
+  use. No upstream ban on commercial display found for those two; Arbeitsagentur/Arbeitnow not read. unknown
+  stan'
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

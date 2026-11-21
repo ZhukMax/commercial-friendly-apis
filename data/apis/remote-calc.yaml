@@ -1,0 +1,31 @@
+id: remote-calc
+name: Remote Calc
+url: https://github.com/elizabethadegbaju/remotecalc
+category: Science & Math
+description: Decodes base64 encoding and parses it to return a solution to the calculation in JSON
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Remote Calc
+  url: https://github.com/elizabethadegbaju/remotecalc
+  category: Science & Math
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: GitHub repo is alive (MIT licence) but the hosted app remote-calc.herokuapp.com returns Heroku "No such app" (404) on 2026-11-21.
+evidence: []
+notes: 'Repo README (github.com/elizabethadegbaju/remotecalc) is an MIT-licensed Django calculator; the hosted endpoint no longer exists (Heroku: No such app), so there is no service whose terms could be
+  assessed. MIT only covers the source code (self-hosting). Terms for any hosted service: unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

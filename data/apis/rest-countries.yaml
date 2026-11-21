@@ -1,0 +1,62 @@
+id: rest-countries
+name: REST Countries
+url: https://restcountries.com
+category: Geocoding
+description: Get information about countries via a RESTful API
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: REST Countries
+  url: https://restcountries.com
+  category: Geocoding
+- list: public-api-lists
+  name: REST Countries
+  url: https://restcountries.com
+  category: Geocoding
+link_status: alive
+data_license: proprietary
+commercial_use: paid-only
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: high
+link_checked_at: '2026-11-21'
+data_license_url: https://restcountries.com/docs/countries/data-sources
+api_terms_url: https://restcountries.com/legal/terms-of-service
+commercial_use_scope: paid
+cache_limit: 3 days
+attribution_text: Reasonable attribution to "REST Countries" with a link to restcountries.com in credits, about page, footer or equivalent.
+share_alike: unknown
+rate_limits: Free plan 1,000 requests/month; paid from 50,000 requests/month ($15/mo)
+evidence:
+- field: commercial_use
+  url: https://restcountries.com/legal/terms-of-service
+  quote: The Free plan is intended for prototyping, evaluation, and non-commercial use.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://restcountries.com/legal/terms-of-service
+  quote: for a maximum of three (3) days from the time the response was issued.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://restcountries.com/legal/terms-of-service
+  quote: you agree to provide reasonable attribution to "REST Countries" with a link to restcountries.com in your credits, about page, footer, or equivalent.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://restcountries.com/legal/terms-of-service
+  quote: You can call our APIs and use the responses inside your own product.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://restcountries.com/legal/terms-of-service
+  quote: You cannot redistribute the dataset, resell it, or use it to train AI models for resale.
+  checked_at: '2026-11-21'
+notes: 'The service was rebuilt: restcountries.com now requires an API key (v5 at api.restcountries.com; the old v3.1 free no-key API is not what the site documents now). Terms of Service last updated 23
+  Oct 2026: free plan is non-commercial, any revenue-generating site (ads included) needs a paid plan; cached data may be kept max 3 days, no storing beyond that; no redistribution of the dataset. Display
+  in own product is allowed. Upstream sources are stated to be public-domain/CC0/cleared open data, but the API terms govern. The source list entry said auth none; changed to apiKey.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

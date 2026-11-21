@@ -1,0 +1,26 @@
+id: atomic-mail
+name: Atomic Mail
+url: https://atomic-mail.github.io/atomic-mail-agentic/
+category: Email
+description: 'Email for AI agents: programmatic inbox creation and send/receive over JMAP'
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Atomic Mail
+  url: https://atomic-mail.github.io/atomic-mail-agentic/
+  category: Email
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> http://docs.atomicmail.ai/

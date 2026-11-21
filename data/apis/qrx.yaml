@@ -1,0 +1,25 @@
+id: qrx
+name: QRX
+url: https://qrx.codes/developers
+category: Development
+description: Artistic, branded QR codes from a text prompt and a link, checked to scan
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: QRX
+  url: https://qrx.codes/developers
+  category: Development
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

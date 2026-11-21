@@ -1,0 +1,80 @@
+id: spaceflight-news
+name: Spaceflight News
+url: https://spaceflightnewsapi.net
+category: News
+description: Spaceflight related news 🚀
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Spaceflight News
+  url: https://spaceflightnewsapi.net
+  category: News
+link_status: alive
+data_license: Free to use (The Space Devs terms of use; no SPDX licence)
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: ambiguous
+attribution_required: 'no'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://raw.githubusercontent.com/TheSpaceDevs/Tutorials/main/faqs/faq_TSD.md
+api_terms_url: https://raw.githubusercontent.com/TheSpaceDevs/Tutorials/main/faqs/faq_TSD.md
+commercial_use_scope: any
+attribution_text: Not mandatory, encouraged
+share_alike: unknown
+evidence:
+- field: commercial_use
+  url: https://raw.githubusercontent.com/TheSpaceDevs/Tutorials/main/faqs/faq_SNAPI.md
+  quote: SNAPI is fully free to use for everyone.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://raw.githubusercontent.com/TheSpaceDevs/Tutorials/main/faqs/faq_SNAPI.md
+  quote: if you are using SNAPI in a commercial project, we would appreciate if you consider supporting
+    the project
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://raw.githubusercontent.com/TheSpaceDevs/Tutorials/main/faqs/faq_TSD.md
+  quote: You are free to use the data in any way, shape, or form, and share what you create with it.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://raw.githubusercontent.com/TheSpaceDevs/Tutorials/main/faqs/faq_TSD.md
+  quote: we **heavily** encourage you to cache the output on your side
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://raw.githubusercontent.com/TheSpaceDevs/Tutorials/main/faqs/faq_TSD.md
+  quote: Attribution is not mandatory, but is encouraged and appreciated.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://raw.githubusercontent.com/TheSpaceDevs/Tutorials/main/faqs/faq_TSD.md
+  quote: You are free to use the data in any way, shape, or form, and share what you create with it.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://raw.githubusercontent.com/TheSpaceDevs/Tutorials/main/faqs/faq_TSD.md
+  quote: Please refrain from forwarding it without adding value.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://raw.githubusercontent.com/TheSpaceDevs/Tutorials/main/faqs/faq_SNAPI.md
+  quote: All professional space-related news sources are allowed in SNAPI for the `articles` endpoint.
+  checked_at: '2026-11-21'
+notes: 'No terms on spaceflightnewsapi.net itself (docs site/OpenAPI say only that the API is free to
+  use). Terms found in The Space Devs FAQ on GitHub (Terms of use section), which state they apply to
+  the Launch Library 2 API and the Spaceflight News API: free use in any way, attribution optional, forward
+  only with added value. SNAPI FAQ: free for everyone, a commercial project is only asked to consider
+  donating. Caching: the FAQ heavily encourages caching on your side (written for TSD APIs generally).
+  Caveat: the data are titles, summaries, links and images of articles aggregated from 35+ third-party
+  news sites (NASA, NYT, Reuters, WSJ etc.), whose own copyright/terms are upstream and may be stricter;
+  informal GitHub FAQ rather than a formal ToS, so confidence is medium. Pages read: the SNAPI FAQ, TSD
+  FAQ, GitHub README, OpenAPI info.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Content is titles, summaries, links and images of articles from 40+ third-party publishers
+  (NYT, WSJ, Reuters, CNBC...); service cannot license their copyright; TSD terms are an informal FAQ
+  and ask not to forward data without added value | applied: redistribution_display=ambiguous'

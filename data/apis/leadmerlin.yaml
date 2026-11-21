@@ -1,0 +1,32 @@
+id: leadmerlin
+name: LeadMerlin
+url: https://leadmerlin.com/docs/
+category: Business
+description: Local business leads from Google Maps with owner names, checked emails and website tech stack
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: LeadMerlin
+  url: https://leadmerlin.com/docs/
+  category: Business
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://leadmerlin.com/terms
+notes: Terms of Service read (short). They prohibit reselling raw LeadMerlin data as a standalone data product and using data to send spam, but do not state commercial-use, storage or display rights. Data
+  is compiled from Google Maps listings, business websites and third-party providers (upstream terms, including Google's, may be stricter and were not checked). Contains personal contact data (owner names,
+  emails).
+evidence: []
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

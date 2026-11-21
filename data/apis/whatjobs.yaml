@@ -1,0 +1,60 @@
+id: whatjobs
+name: WhatJobs
+url: https://www.whatjobs.com/affiliates
+category: Jobs
+description: Job search engine
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: WhatJobs
+  url: https://www.whatjobs.com/affiliates
+  category: Jobs
+link_status: alive
+data_license: unknown
+commercial_use: 'yes'
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: HTTP 403 (blocked for bots, assumed alive)
+commercial_use_scope: any
+cache_limit: Refresh displayed jobs within 2 hours of receiving the latest feed; collect feed at least
+  4 times per 24 hours
+api_terms_url: https://www.whatjobs.com/info/legal/publisher-program-terms/
+attribution_text: Display jobs as delivered (frames, footers, text, URLs and the tracking ID supplied
+  by WhatJobs)
+notes: Rights apply to approved affiliates/publishers (registration and an Insertion Order Agreement;
+  pay per click or revenue share) using the FeedAPI/XML feed; there is no open self-serve licence. Publishers
+  must not alter job data, must present it with WhatJobs-supplied links/tracking, may not pass WhatJobs
+  data to LinkedIn, Google for Jobs, Facebook or similar services without consent, and must prevent scraping.
+  Pages read via Playwright (curl returns 403 on affiliates page). Jobs are third-party advertiser content.
+evidence:
+- field: commercial_use
+  url: https://www.whatjobs.com/affiliates
+  quote: The publisher program allows you to make money from your website whilst offering a quality service
+    to your users.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.whatjobs.com/info/legal/publisher-program-terms/
+  quote: The Publisher agrees to refresh the jobs it displays to its users within 2 hours of receiving
+    the latest job content from WhatJobs.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.whatjobs.com/info/legal/publisher-program-terms/
+  quote: WhatJobs grants the non-exclusive right to the Publisher to use its job advert information, brand
+    names, and logos for the Services described above.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.whatjobs.com/info/legal/publisher-program-terms/
+  quote: will store and present the jobs provided by WhatJobs on its website(s) in the way WhatJobs deliver
+    them.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

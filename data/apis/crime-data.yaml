@@ -1,0 +1,67 @@
+id: crime-data
+name: Crime Data
+url: https://crimedata.dev/docs
+category: Government
+description: 'US police-reported incidents for 12 cities: radius search, stats, GeoJSON, MCP'
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Crime Data
+  url: https://crimedata.dev/docs
+  category: Government
+link_status: alive
+data_license: per-city open-data portal licences (ODC PDDL, CC0, CC BY 4.0, ODC-BY, public domain, local
+  codes)
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://crimedata.dev/terms
+data_license_url: https://crimedata.dev/docs
+commercial_use_scope: any
+attribution_text: Show the source and licence for each city whose data you display
+rate_limits: 'Basic free 500 calls/month; Pro $29/mo 20,000; Ultra $79/mo 100,000 (over quota: 429)'
+share_alike: unknown
+evidence:
+- field: data_license
+  url: https://crimedata.dev/docs
+  quote: 'Licences: each city keeps its portal''s licence'
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://crimedata.dev/terms
+  quote: 'Pass attribution on: show the source and licence for each city you display'
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://crimedata.dev/terms
+  quote: 'Pass attribution on: show the source and licence for each city you display'
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://crimedata.dev/terms
+  quote: You must not use, combine, or furnish this data to assess an identifiable person's eligibility
+    for housing, employment, credit, insurance
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://crimedata.dev/docs
+  quote: Basic free, 500 calls a month
+  checked_at: '2026-11-21'
+notes: 'Read /terms (updated 2026-11-07), /docs and home page. Terms do not state whether commercial use
+  is allowed (paid plans exist; no ban on commercial display), so ambiguous. Hard restrictions: no FCRA/eligibility
+  screening of individuals, no tenant/employment/credit/insurance decisions, no victim identification,
+  no fair-housing-violating steering. Attribution of source + licence per city is mandatory. Each city
+  keeps its own portal licence (mixed: PDDL, CC0, CC BY, ODC-BY, city codes), so downstream conditions
+  vary by city; share-alike/storage not addressed. Free key (apiKey) 500 calls/month.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Ambiguity is only that ToS never states commercial use explicitly; no blocker found.
+  Leans yes with attribution; downstream share-alike none seen (ODC-BY/CC BY are attribution only). Stays
+  yellow/ambiguous until vendor states commercial use.

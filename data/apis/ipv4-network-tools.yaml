@@ -1,0 +1,25 @@
+id: ipv4-network-tools
+name: ipv4 Network Tools
+url: https://ipv4.fr/docs.html
+category: Development
+description: DNS, WHOIS, SSL, email validation, IP geolocation and blacklist lookups
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: ipv4 Network Tools
+  url: https://ipv4.fr/docs.html
+  category: Development
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

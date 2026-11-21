@@ -1,0 +1,25 @@
+id: snoopscan
+name: SnoopScan
+url: https://snoopscan.com/docs
+category: Development
+description: Scrape, crawl, map and search the web as clean markdown or JSON, with a free monthly tier
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: SnoopScan
+  url: https://snoopscan.com/docs
+  category: Development
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

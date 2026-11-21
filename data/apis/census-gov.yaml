@@ -1,0 +1,68 @@
+id: census-gov
+name: Census.gov
+url: https://www.census.gov/data/developers/data-sets.html
+category: Government
+description: The US Census Bureau provides various APIs and data sets on demographics and businesses
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Census.gov
+  url: https://www.census.gov/data/developers/data-sets.html
+  category: Government
+- list: public-api-lists
+  name: Census.gov
+  url: https://www.census.gov/data/developers/data-sets.html
+  category: Government
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.census.gov/data/developers/about/terms-of-service.html
+attribution_text: This product uses the Census Bureau Data API but is not endorsed or certified by the
+  Census Bureau.
+share_alike: unknown
+rate_limits: API key required for all data queries; max 50 variables per query; TOS says calls may be
+  limited, no numeric daily cap published on the pages read
+notes: 'API ToS permits building a service to search/display/analyze data and has no commercial-use ban,
+  but never says "commercial use is allowed" and says nothing on caching/storage; no explicit data license
+  (public domain not stated on pages read). Required prominent non-endorsement notice; must not modify
+  content and still cite Census as source; no re-identification of respondents. Auth corrected to apiKey:
+  an API key is required for all data queries per the Query Limits page. storage_caching set to unknown:
+  the ToS is silent on caching.'
+evidence:
+- field: redistribution_display
+  url: https://www.census.gov/data/developers/about/terms-of-service.html
+  quote: You may use the Census Bureau API to develop a service or service to search, display, analyze,
+    retrieve, view and otherwise "get" information
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.census.gov/data/developers/about/terms-of-service.html
+  quote: '"This product uses the Census Bureau Data API but is not endorsed or certified by the Census
+    Bureau."'
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.census.gov/data/developers/about/terms-of-service.html
+  quote: You may not use the Census Bureau name, or the like to imply endorsement of any product, service,
+    or entity, not-for-profit, commercial or otherwise.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://www.census.gov/data/developers/guidance/api-user-guide.Query_Limits.html
+  quote: An API key must be used with all data queries made to the Census Data API.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read ToS fully: only endorsement-implication restriction mentions ''commercial''.
+  Required non-endorsement notice and no-modification rule. Evidence leans yes for commercial display
+  (US federal statistical data), but no explicit public-domain quote located, so ambiguous stays.'

@@ -1,0 +1,70 @@
+id: iban-analyzer
+name: IBAN Analyzer
+url: https://iban-analyzer.com/free-iban-api
+category: Finance
+description: Resolve an IBAN to its bank name, BIC, city and address for 60+ countries
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: IBAN Analyzer
+  url: https://iban-analyzer.com/free-iban-api
+  category: Finance
+link_status: alive
+data_license: proprietary (compiled database; database right asserted)
+commercial_use: 'yes'
+storage_caching: limited
+redistribution_display: ambiguous
+attribution_required: ambiguous
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://iban-analyzer.com/terms
+commercial_use_scope: any
+cache_limit: Caching your own lookups for your own operational use is fine; no assembling a copy of the
+  database
+rate_limits: 'Free public API: 60 lookups/hour per network; free account 50 bank lookups/month; paid from
+  $9/month'
+evidence:
+- field: commercial_use
+  url: https://iban-analyzer.com/terms
+  quote: You may use the data to validate accounts, look up banks and process your own payments, including
+    inside your own products.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://iban-analyzer.com/terms
+  quote: Caching the answers to your own lookups for your own operational use is fine and expected.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://iban-analyzer.com/terms
+  quote: re-sell, redistribute, publish or sublicense the data, or make it available as a dataset, feed,
+    lookup service or download to anyone else
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://iban-analyzer.com/terms
+  quote: strip the attribution from data that carries it
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://iban-analyzer.com/pricing
+  quote: 60 lookups an hour per network, no key, CORS enabled.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://iban-analyzer.com/terms
+  quote: is a database compiled, verified and maintained by us
+  checked_at: '2026-11-21'
+notes: Read the Terms (version 2026-11-04), pricing, free-API and data-sources pages. Data may be used
+  inside your own products for validating/looking up banks, with caching for your own operational use,
+  but not extracted in bulk, re-published, resold, offered as a dataset/lookup service, or used to train
+  models. Publishing lookup results on public SEO pages could count as "publish", so redistribution_display
+  is ambiguous; attribution is only required where the data carries it. Reference data is compiled from
+  national registers (Bundesbank, OeNB, NBU, Banco de Espana, BCB, GLEIF, etc.) whose own terms may be
+  stricter.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Public SEO pages of lookup results would likely breach 'publish'.

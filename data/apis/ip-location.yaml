@@ -1,0 +1,52 @@
+id: ip-location
+name: IP Location
+url: http://ip-api.com/
+category: Geocoding
+description: Find location with ip address
+description_source: upstream
+auth: none
+https: false
+cors: unknown
+sources:
+- list: public-api-lists
+  name: IP Location
+  url: http://ip-api.com/
+  category: Geocoding
+link_status: alive
+data_license: proprietary (multiple sources incl. BGP/RIR, data sharing, GeoLite2 fallback)
+commercial_use: paid-only
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: high
+link_checked_at: '2026-11-21'
+data_license_url: http://ip-api.com/docs/legal
+api_terms_url: http://ip-api.com/docs/legal
+commercial_use_scope: paid
+share_alike: unknown
+rate_limits: 'Free: 45 requests/min per IP (ban up to 1h if repeatedly exceeded); Pro: unlimited'
+notes: Read ip-api.com/docs/legal (Terms apply to anonymous free users) and the Pro pricing page members.ip-api.com. The free endpoint forbids commercial use, with examples (geo-targeted ads, local currency
+  for shops, fraud prevention all forbidden; personal blog, ad-supported free game allowed). Pro plan "Commercial use allowed" but the Pro/Enterprise terms of service were not read, so caching/display/attribution
+  are unknown. A site with ads/affiliate links needs Pro. Free endpoint is HTTP only.
+evidence:
+- field: commercial_use
+  url: http://ip-api.com/docs/legal
+  quote: The use of the API is strictly limited for a non-commercial purpose and in a non-commercial environment.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: http://ip-api.com/docs/legal
+  quote: Only members with a pro subscription can use the API in a commercial environment.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: http://ip-api.com/docs/legal
+  quote: For some IP ranges we fallback to GeoLite2 data created by MaxMind, available from www.maxmind.com
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: http://ip-api.com/docs/legal
+  quote: If you exceed the usage limit of 45 requests per minute your access to the API will be temporarily blocked.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

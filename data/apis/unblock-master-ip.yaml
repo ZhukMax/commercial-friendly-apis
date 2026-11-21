@@ -1,0 +1,51 @@
+id: unblock-master-ip
+name: Unblock Master IP
+url: https://www.unblockmaster.com/free-ip-api/
+category: Geocoding
+description: IP geolocation plus datacenter and VPN detection for any IPv4 or IPv6 address
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Unblock Master IP
+  url: https://www.unblockmaster.com/free-ip-api/
+  category: Geocoding
+link_status: alive
+data_license: unknown
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: unknown
+attribution_required: 'no'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.unblockmaster.com/free-ip-api/
+commercial_use_scope: any
+share_alike: unknown
+rate_limits: 60 requests/minute per client; no key
+evidence:
+- field: commercial_use
+  url: https://www.unblockmaster.com/free-ip-api/
+  quote: Free for personal and commercial use.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.unblockmaster.com/free-ip-api/
+  quote: No attribution required
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.unblockmaster.com/free-ip-api/
+  quote: Cache results on your side where you can.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://www.unblockmaster.com/free-ip-api/
+  quote: The limit is 60 requests per minute per client.
+  checked_at: '2026-11-21'
+notes: Only terms are the 'Fair use' paragraph on the API page. The site's /terms page is the VPN app
+  EULA and does not cover the API. Display/redistribution of results and data provenance/licence not stated,
+  so unknown. Best-effort service, no uptime guarantee; a link back is welcome but not required.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

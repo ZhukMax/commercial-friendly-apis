@@ -1,0 +1,25 @@
+id: onlinecompiler
+name: OnlineCompiler
+url: https://onlinecompiler.io/docs
+category: Programming
+description: Compile and run code in 46 languages, with test-case judging and a Judge0-compatible endpoint
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: OnlineCompiler
+  url: https://onlinecompiler.io/docs?utm_source=public-apis
+  category: Programming
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

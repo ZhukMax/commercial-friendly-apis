@@ -1,0 +1,42 @@
+id: ducks-unlimited
+name: Ducks Unlimited
+url: https://gis.ducks.org/datasets/du-university-chapters/api
+category: Geocoding
+description: API explorer that gives a query URL with a JSON response of locations and cities
+description_source: upstream
+auth: none
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Ducks Unlimited
+  url: https://gis.ducks.org/datasets/du-university-chapters/api
+  category: Geocoding
+link_status: alive
+data_license: CC-BY-NC-4.0
+commercial_use: 'no'
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: http://creativecommons.org/licenses/by-nc/4.0/
+api_terms_url: https://gis.ducks.org/api/search/v1/collections/all/items?q=university%20chapters
+commercial_use_scope: any
+share_alike: unknown
+notes: 'gis.ducks.org is a JS-rendered ArcGIS Hub page (empty to curl), so the dataset licence was read from the Hub search API JSON for the item "DU University Chapters" (licenseInfo field). Licence: CC
+  BY-NC 4.0, so not usable on a site with ads/affiliate links. Only this dataset checked; other DU datasets on the hub may differ. Site terms at ducks.org/terms-of-use did not mention data licensing.'
+evidence:
+- field: commercial_use
+  url: https://gis.ducks.org/api/search/v1/collections/all/items?q=university%20chapters
+  quote: Creative Commons Attribution-NonCommercial 4.0 International License
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://gis.ducks.org/api/search/v1/collections/all/items?q=university%20chapters
+  quote: Creative Commons Attribution-NonCommercial 4.0 International License
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

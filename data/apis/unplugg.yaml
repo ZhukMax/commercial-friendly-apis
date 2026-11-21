@@ -1,0 +1,29 @@
+id: unplugg
+name: Unplugg
+url: https://unplu.gg/test_api.html
+category: Machine Learning
+description: Forecasting API for timeseries data
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Unplugg
+  url: https://unplu.gg/test_api.html
+  category: Machine Learning
+- list: public-api-lists
+  name: Unplugg
+  url: https://unplu.gg/test_api.html
+  category: Machine Learning
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

@@ -1,0 +1,37 @@
+id: terrace-weather
+name: Terrace Weather
+url: https://terrace.javiermateo.dev/swagger-ui.html
+category: Weather
+description: Terrace open/closed verdict for restaurants, from the weather forecast
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Terrace Weather
+  url: https://terrace.javiermateo.dev/swagger-ui.html
+  category: Weather
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://terrace.javiermateo.dev/swagger-ui/index.html
+rate_limits: 60 requests/minute per IP
+api_terms_url: https://terrace.javiermateo.dev/swagger-ui/index.html
+notes: 'swagger-ui.html redirects to /swagger-ui/index.html; the root returns 404 and no terms page was found. The OpenAPI description says the weather data is "Weather data by Open-Meteo.com (CC BY 4.0)":
+  the free Open-Meteo API is non-commercial only (see open-meteo entry), which may restrict this service. Terms of this API itself are not stated; all terms fields unknown.'
+evidence:
+- field: rate_limits
+  url: https://terrace.javiermateo.dev/v3/api-docs
+  quote: 'Limit: 60 requests/minute per IP.'
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

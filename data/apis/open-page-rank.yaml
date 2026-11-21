@@ -1,0 +1,26 @@
+id: open-page-rank
+name: Open Page Rank
+url: https://www.domcop.com/openpagerank/
+category: Development
+description: API for calculating and comparing metrics of different websites using Page Rank algorithm
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Open Page Rank
+  url: https://www.domcop.com/openpagerank/
+  category: Development
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://keywordseverywhere.com/openpagerank

@@ -1,0 +1,25 @@
+id: html2pdf
+name: Html2PDF
+url: https://html2pdf.app/
+category: Documents & Productivity
+description: HTML/URL to PDF
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Html2PDF
+  url: https://html2pdf.app/
+  category: Documents & Productivity
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

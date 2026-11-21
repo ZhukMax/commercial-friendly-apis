@@ -1,0 +1,26 @@
+id: opensubtitles
+name: OpenSubtitles
+url: https://www.opensubtitles.com/
+category: Video
+description: Search and download subtitles for movies and TV shows
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: OpenSubtitles
+  url: https://www.opensubtitles.com/
+  category: Video
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: HTTP 403 (blocked for bots, assumed alive)

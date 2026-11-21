@@ -1,0 +1,78 @@
+id: federal-register
+name: Federal Register
+url: https://www.federalregister.gov/reader-aids/developer-resources/rest-api
+category: Government
+description: The Daily Journal of the United States Government
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Federal Register
+  url: https://www.federalregister.gov/reader-aids/developer-resources/rest-api
+  category: Government
+- list: public-api-lists
+  name: Federal Register
+  url: https://www.federalregister.gov/reader-aids/developer-resources
+  category: Government
+link_status: alive
+data_license: public domain (no restrictions on republication, 1 CFR 2.6)
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'no'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: high
+link_checked_at: '2026-11-21'
+data_license_url: https://www.federalregister.gov/reader-aids/government-policy-and-ofr-procedures/about-this-site
+api_terms_url: https://www.federalregister.gov/reader-aids/developer-resources/rest-api
+commercial_use_scope: any
+share_alike: 'no'
+evidence:
+- field: commercial_use
+  url: https://www.federalregister.gov/reader-aids/government-policy-and-ofr-procedures/about-this-site
+  quote: There are no restrictions regarding what is reproduced, who can reproduce it, or where it can
+    be reproduced.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.federalregister.gov/reader-aids/government-policy-and-ofr-procedures/about-this-site
+  quote: Any person may reproduce or republish any material appearing in any regular or special edition
+    of the Federal Register (1 CFR 2.6).
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.federalregister.gov/reader-aids/government-policy-and-ofr-procedures/about-this-site
+  quote: Any person may reproduce or republish any material appearing in any regular or special edition
+    of the Federal Register (1 CFR 2.6).
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://www.federalregister.gov/reader-aids/government-policy-and-ofr-procedures/about-this-site
+  quote: There are no restrictions regarding what is reproduced, who can reproduce it, or where it can
+    be reproduced.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.federalregister.gov/reader-aids/developer-resources/rest-api
+  quote: Republishers of Federal Register material are not permitted to use official NARA or OFR logos
+    or seals.
+  checked_at: '2026-11-21'
+- field: auth
+  url: https://www.federalregister.gov/reader-aids/developer-resources/rest-api
+  quote: No API keys are needed; all you need is an HTTP client or browser.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.federalregister.gov/reader-aids/government-policy-and-ofr-procedures/about-this-site
+  quote: There are no restrictions regarding what is reproduced, who can reproduce it, or where it can
+    be reproduced.
+  checked_at: '2026-11-21'
+notes: 'Read via Playwright (curl gets a CAPTCHA wall; no CAPTCHA was solved or bypassed). Copyright section
+  of About This Site: no restrictions on reproduction. API page: no key, CORS, only the first 2000 results
+  per query; no logos/seals of NARA/OFR. Attribution is not required (quote shows only the logo restriction).
+  Public-inspection documents may omit graphics. No rate limit stated on pages read.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Original documents public domain (1 CFR 2.6). Pages read via browser by first pass;
+  curl hits a bot wall. Images/graphics in public inspection docs may differ.

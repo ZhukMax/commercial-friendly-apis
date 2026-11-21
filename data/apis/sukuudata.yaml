@@ -1,0 +1,32 @@
+id: sukuudata
+name: SukuuData
+url: https://sukuudata.com/quickstart
+category: Government
+description: Ghana's schools, 2026 SHS placement register and CSSPS choice validation
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: SukuuData
+  url: https://sukuudata.com/quickstart
+  category: Government
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+rate_limits: Free 1,000 requests/month; paid plans (50k/250k/1M+) by request
+notes: Read sukuudata.com home, /quickstart and the OpenAPI JSON (api.sukuudata.com/docs/json). No terms of service, licence or acceptable-use page found (/terms is 404; no link in nav or footer). Site
+  footer credits OpenStreetMap for school locations (suggests ODbL-derived data needing attribution) and the API has a /data-quality endpoint listing per-source licences and a /exports endpoint for CSV/GeoJSON
+  'with attribution intact', but no statement on commercial use, caching or redisplay was read. All terms fields unknown.
+evidence: []
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

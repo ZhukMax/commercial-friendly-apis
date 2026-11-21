@@ -1,0 +1,59 @@
+id: radar-cnpj
+name: Radar CNPJ
+url: https://radar-cnpj.com/api/
+category: Government
+description: Brazilian companies (CNPJ) lookup and search, with a market check by area and monitoring
+description_source: upstream
+auth: none
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Radar CNPJ
+  url: https://radar-cnpj.com/api/
+  category: Government
+link_status: alive
+data_license: ODbL-1.0 (public company data under /empresas/)
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://radar-cnpj.com/termos
+api_terms_url: https://radar-cnpj.com/termos
+commercial_use_scope: any
+share_alike: 'yes'
+attribution_text: Credit to Radar CNPJ with a link to the source page
+notes: 'Read the termos page (Portuguese). Public company data under /empresas/ is ODbL 1.0: use, share, adapt, also commercially, with credit and link; a derived database you publish must keep the same
+  licence (share-alike). Licence excludes personal data (LGPD applies; partner names are masked) and paid resources. Whether the /api/ routes beyond /empresas/ are covered is not explicit.'
+evidence:
+- field: data_license
+  url: https://radar-cnpj.com/termos
+  quote: Os dados públicos de /empresas/ estão sob a licença ODbL 1.0
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://radar-cnpj.com/termos
+  quote: Use, compartilhe e adapte, até para fins comerciais, com crédito ao Radar CNPJ e link para a página de origem.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://radar-cnpj.com/termos
+  quote: Use, compartilhe e adapte, até para fins comerciais, com crédito ao Radar CNPJ e link para a página de origem.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://radar-cnpj.com/termos
+  quote: Use, compartilhe e adapte, até para fins comerciais, com crédito ao Radar CNPJ e link para a página de origem.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://radar-cnpj.com/termos
+  quote: Use, compartilhe e adapte, até para fins comerciais, com crédito ao Radar CNPJ e link para a página de origem.
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://radar-cnpj.com/termos
+  quote: A base derivada que você publicar segue a mesma licença.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -1,0 +1,25 @@
+id: leekcf-hinter
+name: LeekCF Hinter
+url: https://leekcf-hinter-api.leekcf.workers.dev
+category: Programming
+description: Graded hints for Codeforces problems, from a small nudge to the full solution
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: LeekCF Hinter
+  url: https://leekcf-hinter-api.leekcf.workers.dev
+  category: Programming
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

@@ -1,0 +1,29 @@
+id: randomdog
+name: RandomDog
+url: https://random.dog/woof.json
+category: Animals
+description: Random pictures of dogs
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: RandomDog
+  url: https://random.dog/woof.json
+  category: Animals
+- list: public-api-lists
+  name: RandomDog
+  url: https://random.dog/woof.json
+  category: Animals
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

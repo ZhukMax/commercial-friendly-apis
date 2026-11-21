@@ -1,0 +1,53 @@
+id: alchemy-ethereum
+name: Alchemy Ethereum
+url: https://www.alchemy.com/docs/
+category: Cryptocurrency
+description: Ethereum Node-as-a-Service Provider
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Alchemy Ethereum
+  url: https://www.alchemy.com/docs/
+  category: Cryptocurrency
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://legal.alchemy.com/
+commercial_use_scope: any
+evidence:
+- field: commercial_use
+  url: https://legal.alchemy.com/
+  quote: the right to Use the Services solely for your internal business purposes
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://legal.alchemy.com/
+  quote: sell, resell, rent or lease use of the Services to any other Third Party
+  checked_at: '2026-11-21'
+notes: 'Not a data source in the licensing sense: Ethereum node/RPC infrastructure (SaaS) returning public
+  blockchain data; the ToS (legal.alchemy.com, Terms of Service v3.0) licenses use of the Services, not
+  the data. Services licensed for internal business purposes and for building applications used by End
+  Users; no explicit commercial/non-commercial split found, free-tier clause (2.11) only disclaims warranty.
+  Resale of the service itself to third parties is prohibited. No caching/storage or attribution clause
+  found, so unknown. commercial_use left ambiguous (business use implied, not stated). Legal page is the
+  only source read; pricing page not read.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Full ToS re-read: internal business purposes + apps for End Users; free tier clause
+  only disclaims warranty; no ad/commercial ban found; Free vs Pay-As-You-Go pricing says free is for
+  development and low-traffic apps.'
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

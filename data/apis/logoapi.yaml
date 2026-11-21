@@ -1,0 +1,71 @@
+id: logoapi
+name: Logoapi
+url: https://logoapi.sh/docs
+category: Business
+description: Free SVG company logos by domain, plus search by name. No signup
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Logoapi
+  url: https://logoapi.sh/docs
+  category: Business
+link_status: alive
+data_license: CC0 for source logo files (gilbarbara/logos, simple-icons); brand trademarks remain with
+  their owners
+commercial_use: ambiguous
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'no'
+bulk_download: 'no'
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://logoapi.sh/terms
+commercial_use_scope: free-tier
+rate_limits: 2M requests/month per site (free); Pro $49/month
+notes: Terms page read. Caching, embedding and no-attribution are explicit. Commercial use is not stated
+  either way; the terms say logos are trademarks of their owners shown for identification only, so using
+  them beyond identifying a company (e.g. in ads/affiliate contexts) is trademark-risky; recorded as ambiguous.
+  Catalogue mixes CC0 sets with hand-curated logos from brand pages and Wikimedia Commons, whose licences
+  may differ.
+evidence:
+- field: data_license
+  url: https://logoapi.sh/terms
+  quote: The public GitHub repo holds the open gilbarbara/logos files (CC0).
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://logoapi.sh/terms
+  quote: They are shown for informational and educational purposes only, so you can identify a company,
+    nothing more.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://logoapi.sh/terms
+  quote: You may use and cache our logos in your app or site.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://logoapi.sh/terms
+  quote: Embed our logos and use our search API in your site or app, free.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://logoapi.sh/terms
+  quote: No attribution required.
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://logoapi.sh/terms
+  quote: You may not bulk-download them to build or feed another logo service.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://logoapi.sh/terms
+  quote: 2M requests a month per site.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: No blocker beyond trademark wording. First-pass quotes verified exactly on logoapi.sh/terms.
+  Ambiguity on commercial_use stands (identification-only); leans yes for ordinary display of a company
+  logo next to its name.

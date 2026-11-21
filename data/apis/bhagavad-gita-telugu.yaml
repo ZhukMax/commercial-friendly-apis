@@ -1,0 +1,29 @@
+id: bhagavad-gita-telugu
+name: Bhagavad Gita telugu
+url: https://gita-api.vercel.app
+category: Books
+description: Bhagavad Gita API in telugu and odia languages
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Bhagavad Gita telugu
+  url: https://gita-api.vercel.app
+  category: Books
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+notes: 'Read the landing page (GitaTeluguAPI on Vercel, FastAPI docs at /docs): no licence or terms. Source repo github.com/naveennamani/gita-telugu-api returned 404 (so licence not readable). Scripture
+  is ancient but the Telugu/Odia translations have their own authors; provenance not stated. All core fields unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

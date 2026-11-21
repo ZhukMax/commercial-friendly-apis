@@ -1,0 +1,25 @@
+id: go-module-proxy
+name: Go Module Proxy
+url: https://go.dev/ref/mod
+category: Development
+description: Go module versions and source metadata
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Go Module Proxy
+  url: https://go.dev/ref/mod#goproxy-protocol
+  category: Development
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

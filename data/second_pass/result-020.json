@@ -1,0 +1,205 @@
+[
+ {
+  "id": "votepredictor",
+  "outcome": "confirmed",
+  "reasons": [
+   "No ToS exists; only 'free with attribution' statement; no blocker found",
+   "Upstream polls VoteHub/538 are CC BY; member net-worth source unread"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Read /developers, /api/v1 JSON, /methodology. Ambiguity (storage, explicit commercial) unresolved: operator silent. Yellow/low stands."
+ },
+ {
+  "id": "w-system-eu-business-data",
+  "outcome": "disputed",
+  "reasons": [
+   "data-sources page shows per-source licences with required attributions (CC BY, OGL, NLOD, Etalab), so attribution is required rather than ambiguous",
+   "ToS read in full: no clause bans commercial use of results; only reselling raw access; paid plans are business-only",
+   "Open upstream licences found; UN list and ARES/Polish sources have no explicit open licence"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://wsystem.dev/data-sources",
+    "quote": "Source: Finnish Patent and Registration Office (PRH), YTJ open data, CC BY 4.0.",
+    "field": "attribution_required"
+   }
+  ],
+  "suggested": {
+   "attribution_required": "yes"
+  },
+  "note": "Core fields commercial/storage/display remain unknown: ToS silent, no explicit grant. Verdict unknown stands; evidence leans permissive. Data may include sole-trader personal data (GDPR)."
+ },
+ {
+  "id": "wallstreetbets",
+  "outcome": "confirmed",
+  "reasons": [
+   "API page explicitly allows commercial incl. ad-supported apps with credit link",
+   "General ToS (Oct 2025) bans scraping/copying but is a site-wide ToS; API page is the specific grant",
+   "Storage not addressed; upstream Reddit terms unread and likely stricter"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read tradestie API page and ToS. Specific grant likely prevails over generic ToS, but not stated. Verdict unknown stands."
+ },
+ {
+  "id": "watercare-igc-nz",
+  "outcome": "confirmed",
+  "reasons": [
+   "Conflict persists: ToS says non-commercial free use, republish needs asking; agents page says free to read and cite with attribution",
+   "GitHub repo README: 'Free to use and cite with attribution'; no licence file",
+   "Upstream Watercare price schedule terms unread"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Read terms, /agents, GitHub org repos and README. Evidence leans to permissive for the API endpoint but no explicit commercial clause; ambiguous/yellow stands."
+ },
+ {
+  "id": "wealthnow",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToS bans scraping, mirroring, reselling or redistributing the Service or protected content",
+   "API is credit/plan based; institutional upstream data (TRACE, CDS) likely has display limits",
+   "No API-specific licence found in docs, llms.txt or pricing-and-credits"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Read ToS (10 Nov 2026), docs intro, llms.txt, pricing-and-credits.md. No commercial/display grant; unknown stands, display more likely restricted."
+ },
+ {
+  "id": "weatherbit",
+  "outcome": "confirmed",
+  "reasons": [
+   "Free/Hobbyist plans are CC BY-NC-SA, non-commercial",
+   "Commercial plans may use and display data; storage listed as needing a paid subscription; reselling banned without custom licence",
+   "Directing users to non-commercial accounts for commercial apps is prohibited"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read /terms. No retention limit or explicit attribution rule found for paid plans; yellow stands."
+ },
+ {
+  "id": "weatherstack",
+  "outcome": "confirmed",
+  "reasons": [
+   "Licence permits display to end users for personal reference only; forbids posting data in any public forum incl. internet",
+   "Free plan non-commercial; Standard+ commercial",
+   "No own-storage clause, only end-user storage ban"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read /terms. Public-page display of stored weather data likely breaches the licence; live display inside an app is allowed. Ambiguous/yellow stands."
+ },
+ {
+  "id": "website-and-web-app-cost-data",
+  "outcome": "confirmed",
+  "reasons": [
+   "CC BY 4.0 stated for public dataset files /api/cost-data and rates CSV",
+   "ToS section 6 lists engines, UI, blog content as protected; scraping ban sits in AUP",
+   "Keyed estimate API has no licence"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read ToS and api-docs. Specific CC BY grant for the dataset likely prevails; use dataset files only. Ambiguity not fully resolvable without operator."
+ },
+ {
+  "id": "what3words",
+  "outcome": "confirmed",
+  "reasons": [
+   "Licence allows displaying 3 word addresses in your products but not alongside coordinates",
+   "Storage: unlimited without coordinates, capped/temporary with coordinates",
+   "Free plan has no conversion; paid Business plan required",
+   "Attribution is only 'communicate functionality per reasonable instructions', not a fixed credit"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read the API licence agreement in full for clauses 4-7. yellow stands."
+ },
+ {
+  "id": "windsock",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToS applies expressly to APIs on windsock.ai and limits use to internal business use",
+   "ToS forbids copying, republishing, displaying or mirroring Contents without written permission",
+   "Industry API pricing is marketing only; no licence for public display"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-verified ToS via Playwright in a fresh context (37k chars). A written enterprise licence could change this; red under standard ToS."
+ },
+ {
+  "id": "world-time-and-weather",
+  "outcome": "confirmed",
+  "reasons": [
+   "Operator grants commercial use, link requested",
+   "Weather comes from Open-Meteo, whose free API is non-commercial (ads/subscriptions count as commercial); data is CC BY 4.0",
+   "Unknown whether operator uses a paid Open-Meteo plan"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read operator terms and open-meteo.com/en/terms. Time-zone layer is operator's own; weather fields ambiguous."
+ },
+ {
+  "id": "worms",
+  "outcome": "confirmed",
+  "reasons": [
+   "Text CC-BY permitting unrestricted use if cited; images default CC BY-NC-SA",
+   "Whole-database redistribution needs written agreement",
+   "Pages may state otherwise; REST docs have no own terms"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read /about.php terms of use. No blocker for per-record use."
+ },
+ {
+  "id": "xfinlab",
+  "outcome": "confirmed",
+  "reasons": [
+   "API terms (draft, not lawyer-reviewed) allow display in customer's product with attribution and caching for a reasonable period",
+   "Bans standalone/competing resale and uses breaching upstream provider terms",
+   "No explicit commercial wording; upstream sources (SEC, FINRA etc.) mostly public"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read in full. Draft status and undetermined jurisdiction keep confidence low."
+ },
+ {
+  "id": "yandex-maps-geocoder",
+  "outcome": "disputed",
+  "reasons": [
+   "Terms define the free Services as usable on a non-commercial basis; other use needs written agreement or commercial Oferta",
+   "Free use only on sites open and free to all; results may only be shown on Yandex Maps JS API map"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://yandex.ru/legal/maps_api/ru/",
+    "quote": "возможность использования функциональности указанных сервисов на сайте (-ах) или приложениях Пользователя на некоммерческой основе",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "paid-only"
+  },
+  "note": "Free tier defined as non-commercial; commercial use via paid tariffs. Verdict yellow stays."
+ },
+ {
+  "id": "zipcodeapi",
+  "outcome": "disputed",
+  "reasons": [
+   "Subscription Agreement limits use to your internal business operations, not for benefit of third parties",
+   "Agreement bans copying, distributing or exploiting any portion of the Service",
+   "Terms of Use (2012) say any purposes; the two documents conflict"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://www.zipcodeapi.com/Contract",
+    "quote": "who use the Service solely in support of your internal business operations",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "ambiguous"
+  },
+  "note": "Terms of Use point to the Contract as the customer contract. Display of results on public pages is unclear. Cache 24h stands."
+ }
+]

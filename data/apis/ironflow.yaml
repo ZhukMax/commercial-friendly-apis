@@ -1,0 +1,54 @@
+id: ironflow
+name: Ironflow
+url: https://docs.ironflow.sh
+category: Cryptocurrency
+description: Hyperliquid trades, liquidations, candles, funding and wallet data, plus SQL; no key to start
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Ironflow
+  url: https://docs.ironflow.sh
+  category: Cryptocurrency
+link_status: redirect
+data_license: proprietary (Ironflow Terms sec. 15.2)
+commercial_use: paid-only
+storage_caching: unknown
+redistribution_display: 'yes'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: -> https://docs.ironflow.sh/introduction
+commercial_use_scope: paid
+api_terms_url: https://ironflow.sh/terms
+evidence:
+- field: commercial_use
+  url: https://ironflow.sh/terms
+  quote: (b) on the Builder, Pro, and Enterprise plans, also for commercial use, meaning use by or for a business
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://ironflow.sh/terms
+  quote: only for personal projects, research, demos, and prototypes (non-commercial use)
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://ironflow.sh/terms
+  quote: including showing the data or figures derived from it to your users
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://ironflow.sh/terms
+  quote: you may not resell, sublicense, or redistribute the data in bulk or as a substantially similar data service
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://ironflow.sh/terms
+  quote: What you may use the data for depends on your plan
+  checked_at: '2026-11-21'
+notes: 'Page read: ironflow.sh/terms sec. 15.2 (Data API, SDKs, MCP server). Keyless, free-key, Explorer and x402 pay-per-call usage is non-commercial only (for accounts created before 14 Nov 2026 this
+  applies from 28 Nov 2026); Builder/Pro/Enterprise allow commercial use incl. showing data to users. Bulk resale or a similar data service is forbidden on every plan. Caching/storage and attribution are
+  not addressed (unknown). Data are Hyperliquid on-chain/exchange data; upstream terms not checked.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

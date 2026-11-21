@@ -1,0 +1,26 @@
+id: gzw-data
+name: GZW Data
+url: https://gzw-data.vercel.app/docs/
+category: Games & Comics
+description: Gray Zone Warfare weapons, missions, loot, armor and game data
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: GZW Data
+  url: https://gzw-data.vercel.app/docs/
+  category: Games & Comics
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://gzw-data.dev/docs/

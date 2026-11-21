@@ -1,0 +1,30 @@
+id: tasty
+name: Tasty
+url: https://rapidapi.com/apidojo/api/tasty/
+category: Food & Drink
+description: API to query data about recipe, plan, ingredients
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Tasty
+  url: https://rapidapi.com/apidojo/api/tasty/
+  category: Food & Drink
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+notes: 'Only the RapidAPI listing (apidojo/tasty, loaded via Playwright) was read: plans BASIC $0 / PRO $10 / ULTRA $30 / MEGA $300, endpoints, ''as on official site''. No terms of use, licence or data-origin
+  statement for the Tasty (BuzzFeed) content was visible; RapidAPI''s marketplace terms were not read. Provider is unofficial third party (Api Dojo) exposing Tasty recipe data: rights unclear. All core
+  fields unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

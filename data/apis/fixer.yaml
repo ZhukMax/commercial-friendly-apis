@@ -1,0 +1,45 @@
+id: fixer
+name: Fixer
+url: https://fixer.io
+category: Currency Exchange
+description: Exchange rates and currency conversion
+description_source: upstream
+auth: apiKey
+https: false
+cors: unknown
+sources:
+- list: public-apis
+  name: Fixer
+  url: https://fixer.io?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers
+  category: Currency Exchange
+- list: public-api-lists
+  name: Fixer.io
+  url: http://fixer.io
+  category: Currency Exchange
+link_status: alive
+data_license: unknown
+commercial_use: paid-only
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+commercial_use_scope: paid
+api_terms_url: https://fixer.io/terms
+evidence:
+- field: commercial_use
+  url: https://fixer.io/
+  quote: Basic — includes commercial use with up to 10,000 requests.
+  checked_at: '2026-11-21'
+notes: 'Pricing page: Free plan lists ''Non-Commercial Use''; Basic and higher ''includes commercial use''.
+  Own site terms page read is only the generic Idera website Terms of Use (informational/noncommercial
+  use of site Materials, no API-specific data clauses); the APILayer Master SaaS Subscription Agreement
+  PDF (ideracorp.com/legal/APILayer) was read via pdftotext and has no explicit data-reuse/caching/display
+  clause for the data (licence ''to use the SaaS Service'' only, ''Licensed Data'' accuracy disclaimed),
+  so storage/display/attribution stay unknown. Marketing text says rates come from multiple sources (upstream
+  not checked).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

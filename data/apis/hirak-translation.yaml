@@ -1,0 +1,25 @@
+id: hirak-translation
+name: Hirak Translation
+url: https://translate.hirak.site/
+category: Text Analysis
+description: Translate between 21 of most used languages, accurate, unlimited requests
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Hirak Translation
+  url: https://translate.hirak.site/
+  category: Text Analysis
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

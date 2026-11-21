@@ -1,0 +1,30 @@
+id: product-page-extractor
+name: Product Page Extractor
+url: https://rapidapi.com/MohamedBahaa/api/product-page-extractor
+category: Shopping
+description: Product name, price, currency, stock and offers from store pages via JSON-LD and OpenGraph
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Product Page Extractor
+  url: https://rapidapi.com/MohamedBahaa/api/product-page-extractor
+  category: Shopping
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://rapidapi.com/page/terms
+notes: 'Read via Playwright: RapidAPI listing (plans BASIC $0, PRO $9.99, ULTRA $29.99) and the RapidAPI marketplace Terms of Service (https://rapidapi.com/page/terms). No provider-specific terms are published
+  on the listing. It extracts product data from arbitrary third-party store pages (JSON-LD/microdata/OpenGraph), so each store''s own rights apply and may be stricter. All terms fields unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

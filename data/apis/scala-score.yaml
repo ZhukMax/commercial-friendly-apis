@@ -1,0 +1,49 @@
+id: scala-score
+name: SCALA Score
+url: https://score.get-scala.com
+category: Business
+description: Search 250M+ company records across 50+ countries with revenue, employees, and credit scores
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-api-lists
+  name: SCALA Score
+  url: https://score.get-scala.com
+  category: Business
+link_status: alive
+data_license: 'Mixed: public-registry data not owned by S.C.A.L.A.; per-country upstream licences (e.g. CC BY-SA 4.0 for Colombia); dataset downloads CC-BY-NC-4.0'
+commercial_use: paid-only
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://score.get-scala.com/terms
+data_license_url: https://score.get-scala.com/sources
+commercial_use_scope: paid
+rate_limits: Plans by calls/month (e.g. 500 / 5,000 / 50,000 per month; free tier exists)
+evidence:
+- field: commercial_use
+  url: https://score.get-scala.com/terms
+  quote: Free data may be used for personal and research purposes. Commercial use requires an API subscription.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://score.get-scala.com/terms
+  quote: Underlying company data from public registries is not subject to our copyright.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://score.get-scala.com/api/
+  quote: If you redistribute the data you must keep the attribution statements of the countries concerned.
+  checked_at: '2026-11-21'
+notes: 'Read https://score.get-scala.com/terms (2 Oct 2026) and the API page https://score.get-scala.com/api/. Free data: personal and research use only; commercial use requires a paid API subscription
+  (the data-shop page says the downloadable datasets are CC-BY-NC-4.0 and ''Commercial use requires Enterprise API plan'', so which paid plan suffices is unclear). Aggregator of 250M+ records from national
+  registries: each API response includes a data_licences object; some countries are share-alike (CC BY-SA 4.0 for Colombian records: ''share them under the same license'') and countries marked to_verify
+  must not be redistributed, so upstream terms can be stricter than the API terms. Scores must not be presented as credit/solvency judgments. Storage/caching and public display of data were not addressed
+  beyond these conditions: left unknown. The ''Data sources & licences'' page (/sources) was not read.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -1,0 +1,81 @@
+id: cityalert
+name: CityAlert
+url: https://cityalert.live/developers
+category: Open Data
+description: 'Live public-safety incidents: crime, fire, disaster, weather and news from 650+ official
+  feeds'
+description_source: upstream
+auth: none
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: CityAlert
+  url: https://cityalert.live/developers
+  category: Open Data
+link_status: alive
+data_license: proprietary aggregation of upstream open-data feeds (each incident carries its source)
+commercial_use: paid-only
+storage_caching: ambiguous
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://cityalert.live/licensing
+commercial_use_scope: paid
+attribution_text: Cite CityAlert.live and the underlying source listed in each incident's source field
+rate_limits: Free 500 requests/day (15-min delayed snapshot); Developer 5,000/day; Pro 50,000/day
+evidence:
+- field: commercial_use
+  url: https://cityalert.live/licensing
+  quote: 'Free tier: personal and evaluation use with attribution'
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://cityalert.live/terms
+  quote: Commercial or bulk use requires prior written permission
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://cityalert.live/licensing
+  quote: 'Paid API tiers: commercial use in your product or internal tooling'
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://cityalert.live/licensing
+  quote: republishing raw incident data at volume — e.g. a competing feed or a public dataset resale —
+    needs a written license
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://cityalert.live/terms
+  quote: exist for reasonable personal, research and light-integration use, consistent with their cache
+    headers
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://cityalert.live/developers
+  quote: 'Attribution: cite CityAlert.live and the underlying source listed in each incident''s source
+    field.'
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://cityalert.live/licensing
+  quote: Free 500 requests/day
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://cityalert.live/licensing
+  quote: 'Redistribution: republishing raw incident data at volume — e.g. a competing feed or a public
+    dataset resale — needs a written license'
+  checked_at: '2026-11-21'
+notes: 'Read /licensing, /terms and /developers. Two levels: the free tier is personal/evaluation only
+  (commercial/bulk needs written permission per /terms); paid tiers ($99 Developer, $499 Pro per month)
+  allow commercial use in a product. Raw-data republishing at volume needs a separate written licence;
+  caching/storage is not stated beyond ''consistent with cache headers'', hence ambiguous. Upstream feeds
+  are police/fire/media reports with their own licences (not assessed). ''Free'' widget/Atom feeds with
+  attribution may be a lighter route (not assessed). Redistribution of media-sourced incidents must keep
+  the approximate-location caveat.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Two pages conflict mildly; the more specific licensing page grants paid-tier commercial
+  use. Raw republishing at volume needs written licence; upstream police/media licences unassessed. Yellow
+  stands.

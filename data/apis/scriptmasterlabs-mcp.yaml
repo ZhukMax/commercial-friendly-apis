@@ -1,0 +1,35 @@
+id: scriptmasterlabs-mcp
+name: ScriptMasterLabs MCP
+url: https://mcp-x402.onrender.com
+category: Cryptocurrency
+description: Model Context Protocol server with web search, social search & LLM chat paid via x402
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: ScriptMasterLabs MCP
+  url: https://mcp-x402.onrender.com
+  category: Cryptocurrency
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://scriptmasterlabs.com/terms
+notes: 'Not a data source: a pay-per-call (x402, USDC) MCP/agent service offering web search, social search,
+  RPC, prices and LLM chat (aggregates third-party providers). ToS at scriptmasterlabs.com/terms read:
+  no clause on commercial reuse, caching, display or licence of returned data; section 6 says third-party
+  data sources stay subject to their owners terms. All terms fields unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

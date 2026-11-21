@@ -1,0 +1,65 @@
+id: india-public-holidays
+name: India Public Holidays
+url: https://calendar-api-web.vercel.app/docs
+category: Calendar
+description: Official Indian public holidays for the Central government and 36 states/UTs
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: India Public Holidays
+  url: https://calendar-api-web.vercel.app/docs
+  category: Calendar
+link_status: alive
+data_license: MIT (declared by the project; upstream data from india.gov.in, terms not read)
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://calendar-api-web.vercel.app/docs
+commercial_use_scope: any
+attribution_text: Attribution to the National Portal of India retained on every record
+share_alike: unknown
+rate_limits: 100 queries per 15 minutes per IP
+notes: 'Community open-source API (hosted on a free Render server) serving holidays from the National
+  Portal of India (india.gov.in/calendar). Docs and README say the project is MIT-licensed, but the repo
+  has no LICENSE file (GitHub reports none, raw LICENSE returns 404) and the upstream portal''s own reuse
+  terms were not read, so commercial use is marked ambiguous. README: attribution to the National Portal
+  of India is retained on every record. Rate limit: 100 queries per 15 min per IP. Cold-start delays on
+  the free server.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+evidence:
+- field: commercial_use
+  url: https://calendar-api-web.vercel.app/docs
+  quote: Released under the MIT License.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://raw.githubusercontent.com/shrinivas-sn/calendar-api/main/README.md
+  quote: Holiday dates and names are factual government information republished from india.gov.in with
+    attribution to the National Portal of India retained on every record.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://calendar-api-web.vercel.app/docs
+  quote: Your IP exceeded 100 queries within a 15-minute window.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://calendar-api-web.vercel.app/docs
+  quote: Released under the MIT License.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://raw.githubusercontent.com/shrinivas-sn/calendar-api/main/README.md
+  quote: Holiday dates and names are factual government information republished from india.gov.in with
+    attribution to the National Portal of India retained on every record.
+  checked_at: '2026-11-21'
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'india.gov.in/disclaimer and /terms-conditions read via Playwright: no reuse/commercial
+  clause. Community API on free host, no SLA.'

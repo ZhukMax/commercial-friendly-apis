@@ -1,0 +1,62 @@
+id: 5dollarfootball
+name: 5DollarFootball
+url: https://5dollarfootballapi.com/
+category: Sports & Fitness
+description: Football fixtures, results, standings and historical odds with corner and card lines
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: 5DollarFootball
+  url: https://5dollarfootballapi.com/
+  category: Sports & Fitness
+link_status: alive
+data_license: proprietary (5DollarFootballAPI Terms of Service, section 4)
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+commercial_use_scope: any
+attribution_text: Football data by 5DollarFootballAPI (linked to 5dollarfootballapi.com), required on
+  Free and Community Access plans
+api_terms_url: https://5dollarfootballapi.com/terms
+evidence:
+- field: commercial_use
+  url: https://5dollarfootballapi.com/terms
+  quote: You may use the data in your own commercial products — websites, apps, models and internal tools
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://5dollarfootballapi.com/terms
+  quote: you may cache API responses to serve them faster
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://5dollarfootballapi.com/terms
+  quote: including displaying scores, statistics and odds to your end users
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://5dollarfootballapi.com/terms
+  quote: Attribution is optional on Pro, Ultra and Business
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://5dollarfootballapi.com/terms
+  quote: What you may not do is resell or redistribute the raw data itself as a competing data feed
+  checked_at: '2026-11-21'
+notes: Read the ToS section 4 (Data). Commercial use, display to end users and caching are explicit. Attribution
+  (visible link) is required on Free and Community Access plans only; optional on paid plans. Raw-data
+  resale/redistribution as a competing feed is forbidden. Caching is allowed without a stated time limit;
+  unlimited long-term storage is not spelled out. Data (esp. odds) comes from upstream partners, whose
+  terms may be stricter; the ToS does not discuss them.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Looked for resale limits, odds upstream, plan restrictions: only raw-feed resale is
+  banned. Attribution link required on Free/Community/Education plans. Upstream data/odds sources undisclosed
+  (Bet365 odds shown), not a stated limit. Free plan 100 req/day.'

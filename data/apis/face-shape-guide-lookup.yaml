@@ -1,0 +1,35 @@
+id: face-shape-guide-lookup
+name: Face Shape Guide Lookup
+url: https://myfaceshapechart.com/openapi.json
+category: Art & Design
+description: Read-only lookup for published face-shape guide records
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Face Shape Guide Lookup
+  url: https://myfaceshapechart.com/openapi.json
+  category: Art & Design
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://myfaceshapechart.com/ai/
+notes: Read openapi.json, /ai/ agent index and /privacy of myfaceshapechart.com. No terms of use or licence
+  for the lookup API or its guide text was found (/terms returns the home page). The service returns the
+  site's own articles about face-shape styling (a site lookup helper for agents, not a data source). All
+  terms fields left unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

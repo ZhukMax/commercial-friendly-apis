@@ -1,0 +1,65 @@
+id: twelve-data
+name: Twelve Data
+url: https://twelvedata.com/
+category: Finance
+description: Stock market data (real-time & historical)
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Twelve Data
+  url: https://twelvedata.com/
+  category: Finance
+link_status: alive
+data_license: proprietary (Twelve Data Terms of Use, tier-based)
+commercial_use: paid-only
+storage_caching: limited
+redistribution_display: 'no'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://twelvedata.com/terms
+evidence:
+- field: commercial_use
+  url: https://twelvedata.com/terms
+  quote: (l) Use Free Tier data for commercial purposes
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://twelvedata.com/terms
+  quote: (g) Store or cache Data beyond permitted timeframes specified in the Documentation
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://twelvedata.com/terms
+  quote: Redistribute or provide external display of Data only if and as expressly authorized by a Redistribution
+    Rights Add-On or separate written agreement with Twelve Data
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://twelvedata.com/terms
+  quote: (l) Use Free Tier data for commercial purposes
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://twelvedata.com/terms
+  quote: Use Free Tier data for commercial purposes
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://twelvedata.com/terms
+  quote: Redistribute or provide external display of Data only if and as expressly authorized by a Redistribution
+    Rights Add-On
+  checked_at: '2026-11-21'
+notes: 'Terms (updated 2026-01-01) list among prohibited acts using Free Tier data commercially, caching
+  beyond documented timeframes, and redistribution; external display needs a tier/add-on or separate agreement.
+  Pricing page shows a Personal vs Commercial use toggle and says the free Basic plan data cannot be displayed
+  to users or used in production; the Commercial plan content did not render without JavaScript and was
+  not read, so commercial_use is ambiguous rather than paid-only. Exchange data carries third-party terms
+  (section 3). Pages read: /terms, /pricing.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Terms ban using Free Tier data commercially; External display only with Redistribution
+  Rights Add-On or agreement | applied: commercial_use=paid-only, redistribution_display=no'

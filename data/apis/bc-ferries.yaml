@@ -1,0 +1,35 @@
+id: bc-ferries
+name: BC Ferries
+url: https://www.bcferriesapi.ca
+category: Transportation
+description: Sailing times and capacities for BC Ferries
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: BC Ferries
+  url: https://www.bcferriesapi.ca
+  category: Transportation
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: 'yes'
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://github.com/samuel-pratt/bc-ferries-api/blob/master/README.md
+evidence:
+- field: self_host_option
+  url: https://github.com/samuel-pratt/bc-ferries-api/blob/master/README.md
+  quote: Requires Docker with Docker Compose.
+  checked_at: '2026-11-21'
+notes: Unofficial third-party API run by one developer that fetches/caches data published by BC Ferries (README says it is unofficial and data can be delayed). No terms of use found on bcferriesapi.ca (/terms
+  is 404). The GitHub repo code is MIT, which covers code only, not the BC Ferries schedule/capacity data, whose own terms were not read. All core fields unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

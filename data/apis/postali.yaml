@@ -1,0 +1,60 @@
+id: postali
+name: Postali
+url: https://postali.app/api
+category: Geocoding
+description: Mexico Zip Codes API
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Postali
+  url: https://postali.app/api
+  category: Geocoding
+- list: public-api-lists
+  name: Postali
+  url: https://postali.app/api
+  category: Geocoding
+link_status: alive
+data_license: 'Mexico: Sepomex (non-commercial condition); Colombia/Spain: GeoNames CC-BY-4.0'
+commercial_use: 'no'
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://postali.app/terminos
+commercial_use_scope: any
+attribution_text: Cite the original source and Postali with a link to postali.app
+rate_limits: No API key or monthly quota; automatic per-IP limits; /bulk for batches
+evidence:
+- field: commercial_use
+  url: https://postali.app/terminos
+  quote: Sepomex lo ofrece de forma gratuita e indica que no está permitida su comercialización, total o parcial.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://postali.app/terminos
+  quote: Esa condición es de la fuente y se mantiene para quien reutilice los datos que obtenga de Postali.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://postali.app/terminos
+  quote: Si reutilizas los datos, te pedimos citar la fuente original y a Postali con un enlace a postali.app
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://postali.app/terminos
+  quote: Hay límites automáticos por IP para proteger el servicio
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://postali.app/terminos
+  quote: 'Colombia y España: GeoNames , bajo licencia CC BY 4.0'
+  checked_at: '2026-11-21'
+notes: 'Pages read (Spanish): Terminos de uso, API page, MX data page. For Mexico (the product focus, "Mexico Zip Codes API"), Postali relays that Sepomex forbids commercialisation in whole or in part and
+  says that condition carries over to anyone reusing the data, so a commercial/ad-supported site is not covered (red). Colombia and Spain data come from GeoNames (CC BY 4.0, attribution to GeoNames): those
+  would be fine commercially, but that is outside the Mexico use case. The Sepomex page itself was not opened (relayed by Postali). Caching is encouraged ("guarda en cache lo que consultes seguido") but
+  moot for the verdict.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

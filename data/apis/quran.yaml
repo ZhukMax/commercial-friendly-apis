@@ -1,0 +1,31 @@
+id: quran
+name: Quran
+url: https://quran.api-docs.io/
+category: Books
+description: RESTful Quran API with multiple languages
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Quran
+  url: https://quran.api-docs.io/
+  category: Books
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://api-docs.io/
+api_terms_url: https://quran.api-docs.io/
+notes: https://quran.api-docs.io/ redirects to the generic api-docs.io (Stoplight Elements preview) landing page, which does not mention a Quran API, so the original docs are no longer there; nothing about
+  this service's terms could be read. Redirect target is a different service and was not used as evidence. Possibly dead; all terms unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

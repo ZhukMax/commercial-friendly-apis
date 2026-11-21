@@ -1,0 +1,64 @@
+id: open-government-portugal
+name: Open Government, Portugal
+url: https://dados.gov.pt/en/recursos/desenvolvimento/referencia-api
+category: Government
+description: Portugal Government Open Data
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Open Government, Portugal
+  url: https://dados.gov.pt/en/recursos/desenvolvimento/referencia-api
+  category: Government
+link_status: alive
+data_license: CC-BY-4.0 (default for state bodies; datasets may differ)
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://dados.gov.pt/pt/termos-de-utilizacao
+api_terms_url: https://dados.gov.pt/pt/termos-de-utilizacao
+commercial_use_scope: any
+share_alike: unknown
+rate_limits: Not stated on the API reference page; the API is described as free and open
+evidence:
+- field: data_license
+  url: https://dados.gov.pt/pt/termos-de-utilizacao
+  quote: publicados ao abrigo de uma licença Creative Commons CC BY 4.0, exceto se houver uma especificação
+    em contrário.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: You must give appropriate credit
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+notes: 'Read dados.gov.pt terms of use (Portuguese) and the API reference page (free, open REST API; key
+  only for writes). Terms: state bodies'' data default to CC BY 4.0 unless a dataset says otherwise; other
+  participants may pick other open licences, so each dataset''s own licence must be checked before use.
+  Commercial/storage/display rows rest on the CC BY 4.0 deed (creativecommons.org) for the default licence,
+  not on a portal-specific statement. Share-alike not stated: unknown. Reuser must also respect personal-data
+  law and any IP restrictions flagged in dataset docs.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: CC BY 4.0 default for state bodies verified; datasets may differ.
+license_scope: portal-default

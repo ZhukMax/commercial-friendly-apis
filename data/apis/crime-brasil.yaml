@@ -1,0 +1,36 @@
+id: crime-brasil
+name: Crime Brasil
+url: https://crimebrasil.com.br
+category: Government
+description: Brazilian public-safety data — 3M geocoded crime incidents, PRF highway accidents, DATASUS violence (CC BY 4.0)
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-api-lists
+  name: Crime Brasil
+  url: https://crimebrasil.com.br
+  category: Government
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://crimebrasil.com.br/termos
+evidence:
+- field: data_license
+  url: https://crimebrasil.com.br/termos
+  quote: Os dados brutos são de +50 fontes oficiais e seguem a licença de cada órgão.
+  checked_at: '2026-11-21'
+notes: 'Read /termos (Terms of Use, Oct 2026) and /servicos/api. No self-service API: access is by contract (''sob orçamento''), no key button. Terms say brand/text/visualisations are theirs and raw data
+  follows each source agency''s licence (50+ agencies, not checked individually). The CC BY 4.0 in the upstream description was not seen on any page read. Commercial use, caching and display of their API
+  output are not addressed: unknown. Auth is effectively contract-only.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -1,0 +1,26 @@
+id: random-stuff
+name: Random Stuff
+url: https://api-docs.pgamerx.com/
+category: Development
+description: Can be used to get AI Response, jokes, memes, and much more at lightning-fast speed
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Random Stuff
+  url: https://api-docs.pgamerx.com/
+  category: Development
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: ConnectError

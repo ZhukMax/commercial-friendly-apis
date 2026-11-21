@@ -1,0 +1,36 @@
+id: octopart
+name: Octopart
+url: https://octopart.com/api/v4/reference
+category: Shopping
+description: Electronic part data for manufacturing, design, and sourcing
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Octopart
+  url: https://octopart.com/api/v4/reference
+  category: Shopping
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: HTTP 403 (blocked for bots, assumed alive)
+api_terms_url: https://octopart.com/terms
+notes: 'Octopart API v4 is now the ''Nexar Legacy API'' (docs say Nexar API is the up-to-date version;
+  plans on nexar.com/compare-plans are tiered by matched parts: free evaluation 100, Standard 2,000, Pro
+  15,000, Enterprise). Read octopart.com/terms: it covers the website (''intended for personal and commercial
+  use'') and is not the API licence, so I did not use it as evidence. No API/Nexar terms of use, data
+  licence or display/caching rules could be found (no terms link on nexar.com/api; nexar.com/terms 404).
+  Part data and offers come from distributors and manufacturers, so upstream terms apply. All core fields
+  unknown. Needs API token.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

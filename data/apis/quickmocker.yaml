@@ -1,0 +1,26 @@
+id: quickmocker
+name: QuickMocker
+url: https://quickmocker.com
+category: Test Data
+description: API mocking tool to generate contextual, fake or random data
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: QuickMocker
+  url: https://quickmocker.com
+  category: Test Data
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: ConnectError

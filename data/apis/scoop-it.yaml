@@ -1,0 +1,51 @@
+id: scoop-it
+name: Scoop.it
+url: http://www.scoop.it/dev
+category: Open Data
+description: Content Curation Service
+description_source: upstream
+auth: apiKey
+https: false
+cors: unknown
+sources:
+- list: public-apis
+  name: Scoop.it
+  url: http://www.scoop.it/dev
+  category: Open Data
+- list: public-api-lists
+  name: Scoop.it
+  url: http://www.scoop.it/dev
+  category: Open Data
+link_status: alive
+data_license: proprietary
+commercial_use: 'no'
+storage_caching: unknown
+redistribution_display: 'no'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.scoop.it/terms-of-use
+commercial_use_scope: any
+share_alike: unknown
+evidence:
+- field: commercial_use
+  url: https://www.scoop.it/terms-of-use
+  quote: limited license to access and use the Websites and Services for your own non-commercial entertainment purposes
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.scoop.it/terms-of-use
+  quote: distribute, frame, reproduce, republish, download, scrape, display, post, transmit, transfer, license or sublicense, publicly display, or sell in any form
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.scoop.it/terms-of-use
+  quote: limited license to access and use the Websites and Services for your own non-commercial entertainment purposes
+  checked_at: '2026-11-21'
+notes: The /dev page is a JS app (read with Playwright); it needs a registered application and OAuth tokens. The general Terms of Use (now operated by Meltwater; the page redirects to /policy#termsofuse)
+  define "Services" to include API services, grant only a personal licence for "non-commercial entertainment purposes" and forbid reproducing, republishing, displaying or scraping Materials without written
+  permission. No separate API terms or commercial API plan were found on the developer pages, so a commercial arrangement may exist but was not found. Red until proven otherwise. Quotes come from the rendered
+  page; plain curl returns a JS shell.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

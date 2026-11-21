@@ -1,0 +1,51 @@
+id: carapi
+name: CarAPI
+url: https://carapi.dev/
+category: Vehicle
+description: Vehicle specs, VIN decoder, and market data for 21+ million vehicles
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-api-lists
+  name: CarAPI
+  url: https://carapi.dev/
+  category: Vehicle
+link_status: alive
+data_license: proprietary (CarAPI Terms of Service)
+commercial_use: paid-only
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://carapi.dev/terms
+api_terms_url: https://carapi.dev/terms
+cache_limit: Cache only for your own app/end users; retain no more than 24 hours; no persistent repository
+commercial_use_scope: paid
+evidence:
+- field: commercial_use
+  url: https://carapi.dev/terms
+  quote: sustained production use of the Service within a commercial product or service requires a paid plan.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://carapi.dev/terms
+  quote: Cached API responses must not be retained for more than 24 hours
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://carapi.dev/terms
+  quote: to deliver API-derived results to your own end users through your own product or service
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://carapi.dev/terms
+  quote: a limited, non-exclusive, non-transferable, revocable license to access and use our APIs
+  checked_at: '2026-11-21'
+notes: 'Read Terms of Service sec. 5 and 5.1. Free plan: evaluation, development, testing, personal or small-scale projects; sustained commercial production use needs a paid plan. Results may be shown to
+  your own end users; no redistributing/reselling API access; caching only for own app, max 24 h unless cache-control says shorter, no standalone repository; delete cache within 30 days of termination.
+  The terms contain a template placeholder ("[Your State/Location]"). No attribution clause found. Upstream vehicle data sources not assessed.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

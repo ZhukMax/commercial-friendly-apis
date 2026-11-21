@@ -1,0 +1,56 @@
+id: xoomar
+name: XOOMAR
+url: https://xoomar.com/markets/api
+category: Finance
+description: 'US market data from SEC, FINRA, CFTC and the Fed: filings, insiders, earnings dates, short interest'
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: XOOMAR
+  url: https://xoomar.com/markets/api
+  category: Finance
+link_status: alive
+data_license: proprietary (XOOMAR Terms of Service; free licence personal/academic/internal, paid commercial licence for 20 datasets)
+commercial_use: paid-only
+storage_caching: unknown
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://xoomar.com/terms
+commercial_use_scope: paid
+attribution_text: 'Data: XOOMAR, with a link to the dataset page or xoomar.com'
+rate_limits: 10 requests/min without key, 30/min with free key
+evidence:
+- field: commercial_use
+  url: https://xoomar.com/terms
+  quote: Pro, Ultra and Enterprise plans include a commercial licence for the datasets whose sources allow commercial reuse
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://xoomar.com/terms
+  quote: use the data for personal, academic and internal purposes
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://xoomar.com/terms
+  quote: you may use the Licensed Datasets in your own products, services, research and publications, including ones you charge for
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://xoomar.com/terms
+  quote: republish excerpts, charts and figures, with a visible credit to XOOMAR and a link to the dataset page or to xoomar.com
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://xoomar.com/markets/api
+  quote: 10 requests a minute without a key, 30 with a free key
+  checked_at: '2026-11-21'
+notes: 'Read https://xoomar.com/terms (updated 29 Sep 2026) via curl. Free licence is limited to personal, academic and internal use and does not allow offering data in a paid product. Commercial licence
+  needs Pro/Ultra/Enterprise and covers only ''Licensed Datasets'' (20 listed on the pricing page, not read); other datasets (FINRA short interest/volume, funding rates, ETF holdings etc.) stay non-commercial
+  on every plan. Wholesale redistribution is excluded from Pro/Ultra. storage_caching left unknown: the free licence says ''store it'' only for personal/internal use; paid terms allow ''create and keep
+  derived works''. Aggregates SEC, FINRA, CFTC, Fed data and others; upstream terms apply too.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

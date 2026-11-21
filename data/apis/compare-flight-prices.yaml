@@ -1,0 +1,32 @@
+id: compare-flight-prices
+name: Compare Flight Prices
+url: https://rapidapi.com/obryan-software-obryan-software-default/api/compare-flight-prices/
+category: Transportation
+description: API for comparing flight prices across platforms
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Compare Flight Prices
+  url: https://rapidapi.com/obryan-software-obryan-software-default/api/compare-flight-prices/
+  category: Transportation
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://rapidapi.com/obryan-software-obryan-software-default/api/compare-flight-prices/
+evidence: []
+notes: Only the RapidAPI marketplace listing was read (free BASIC tier limited to 1 request/s; paid tiers $19.99-$129.99). No provider terms, licence, caching or commercial-use statement. The
+  API aggregates live prices from Expedia, Kayak, Priceline, SkyScanner and other travel sites, so upstream terms are very likely stricter (scraping/display restrictions); not verified. All terms
+  unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

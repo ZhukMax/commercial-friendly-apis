@@ -1,0 +1,25 @@
+id: green-screen-memes
+name: Green Screen Memes
+url: https://api.greenscreenmemes.app/docs
+category: Entertainment
+description: Search 2,000+ green screen meme video clips, most with sound, new clips daily
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Green Screen Memes
+  url: https://api.greenscreenmemes.app/docs
+  category: Entertainment
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

@@ -1,0 +1,58 @@
+id: i6eal-open-ai-data
+name: i6eal Open AI Data
+url: https://i6eal.de/en/tools/data/
+category: Open Data
+description: Open datasets on AI policy, regulation and public-sector adoption in Germany and the EU
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: i6eal Open AI Data
+  url: https://i6eal.de/en/tools/data/
+  category: Open Data
+link_status: alive
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+notes: Read the data hub page ('Rights & reuse' notes per dataset). Only the i6eal compilation/original
+  descriptions are CC BY 4.0; procurement records, budget titles etc. come from TED, Datenservice Oeffentlicher
+  Einkauf, Bundeshaushalt and others and remain under each source's terms (some marked 'mixed terms').
+  Source terms were not read, so commercial use, caching and display are ambiguous. Downloadable JSON/CSV/Atom
+  files, no key.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+data_license: CC-BY-4.0 for the i6eal compilation and original descriptions only; underlying official
+  records keep their source terms
+api_terms_url: https://i6eal.de/en/tools/data/
+commercial_use: ambiguous
+storage_caching: ambiguous
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+evidence:
+- field: data_license
+  url: https://i6eal.de/en/tools/data/
+  quote: CC BY 4.0 applies only to the i6eal compilation and original descriptions. It does not grant
+    rights to underlying datasets.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://i6eal.de/en/tools/data/
+  quote: Procurement records remain subject to the reuse terms of each official source.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://i6eal.de/en/tools/data/
+  quote: CC BY 4.0 applies only to the i6eal compilation and original descriptions. It does not grant
+    rights to underlying datasets.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://i6eal.de/en/tools/data/
+  quote: CC BY 4.0 applies only to the i6eal compilation and original descriptions. It does not grant
+    rights to underlying datasets.
+  checked_at: '2026-11-21'
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Upstream terms unread; stays ambiguous.
+license_scope: portal-default

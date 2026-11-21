@@ -1,0 +1,41 @@
+id: smklog
+name: SMKlog
+url: https://smklog.com/openapi.json
+category: Transportation
+description: Live parcel shipping rates and labels from a plain-words item description
+description_source: upstream
+auth: none
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: SMKlog
+  url: https://smklog.com/openapi.json
+  category: Transportation
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: 'yes'
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://smklog.com/terms
+rate_limits: About 80 quote requests per hour per client
+evidence:
+- field: storage_caching
+  url: https://smklog.com/openapi.json
+  quote: quotes cost real money to produce, so cache on your side and do not poll.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://smklog.com/openapi.json
+  quote: Rate limited per client (about 80 quote requests per hour)
+  checked_at: '2026-11-21'
+notes: Read the OpenAPI description, the developers page and the SMKlog Terms (the terms cover label purchases and carrier adjustments; they say nothing about reuse of API quote data, commercial
+  display or attribution). The OpenAPI text explicitly invites caching quotes. This is a shipping-quote/checkout API for US-origin parcels; rates come from USPS/UPS/FedEx/DHL and carriers' own
+  rules may apply. Commercial use, display and licence not stated, so unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

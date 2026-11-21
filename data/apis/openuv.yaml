@@ -1,0 +1,71 @@
+id: openuv
+name: OpenUV
+url: https://www.openuv.io
+category: Weather
+description: Real-time UV Index Forecast
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: OpenUV
+  url: https://www.openuv.io
+  category: Weather
+- list: public-api-lists
+  name: OpenUV
+  url: https://www.openuv.io
+  category: Weather
+link_status: alive
+data_license: proprietary (OpenUV.io Terms of Service)
+commercial_use: ambiguous
+storage_caching: 'no'
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.openuv.io/kb/tos
+notes: 'Terms read via browser (the site is a JS app): licence allows receiving, processing and displaying
+  data to end users of your application(s), end users may use it for personal and commercial purposes,
+  but end users may not store or distribute it, and a blanket list prohibits reproducing, copying, displaying
+  and transferring the data "in any other manner". Contradictory wording and no clear statement on public
+  ad-supported websites, so ambiguous. Free plan 50 requests/day; paid Start-Up plan USD 15/month (pricing
+  page); no separate free-tier commercial restriction was found. Attribution not stated (only that legal
+  notices must not be removed).'
+evidence:
+- field: commercial_use
+  url: https://www.openuv.io/kb/tos
+  quote: such end users use OpenUV.io Data & Services strictly for their own personal and commercial use
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.openuv.io/kb/tos
+  quote: You do not permit your end users to store, distribute, or otherwise exploit OpenUV.io Data &
+    Services for any other purposes.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.openuv.io/kb/tos
+  quote: You are hereby permitted to receive, process, and display OpenUV.io Data & Services to individual
+    end-users of your application(s)
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.openuv.io/kb/tos
+  quote: This is the grant of a license, not a transfer of title
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.openuv.io/kb/tos
+  quote: Upon terminating your viewing of these materials or upon the termination of this license, You
+    must destroy any downloaded materials in your possession
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.openuv.io/kb/tos
+  quote: You are permitted solely to use OpenUV.io Data & Services for reference by Your end users.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'ToS licence limited to reference use by end users inside your application; Bans reproduce,
+  copy, transfer outside the app; destroy downloaded materials at end | applied: storage_caching=no'

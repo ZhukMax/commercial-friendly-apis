@@ -1,0 +1,60 @@
+id: openf1
+name: OpenF1
+url: https://openf1.org/
+category: Sports & Fitness
+description: Real-time and historical Formula 1 data including laps, car telemetry and positions
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: OpenF1
+  url: https://openf1.org/
+  category: Sports & Fitness
+link_status: alive
+data_license: CC BY-NC-SA 4.0
+commercial_use: 'no'
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: 'no'
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+api_terms_url: https://openf1.org/
+commercial_use_scope: any
+share_alike: 'yes'
+rate_limits: Free tier 3 req/s and 30 req/min; live data (30 min before to 30 min after a session) needs sponsorship
+notes: Only the homepage/FAQ and footer were read (no separate ToS page; /terms is a 404). Site says use is for non-commercial purposes and other uses need a licensing discussion by contact; footer says
+  CC BY-NC-SA 4.0. Underlying F1 data is aggregated from public sources and the project disclaims ownership of F1 data, trademarks and broadcasts (upstream rights likely stricter). Storage/display not addressed
+  beyond the NC licence, left unknown. Credit not required (NC-SA licence text itself would require attribution, not checked).
+evidence:
+- field: commercial_use
+  url: https://openf1.org/
+  quote: OpenF1 is intended for educational purposes, personal learning projects, research, and non-commercial fan engagement.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://openf1.org/
+  quote: is intended solely for non-commercial analysis and fan engagement.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://openf1.org/
+  quote: Licensed under CC BY-NC-SA 4.0
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://openf1.org/
+  quote: No, credits are not required in your project.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://openf1.org/
+  quote: The free tier allows 3 req/s and 30 req/min
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://openf1.org/
+  quote: Licensed under CC BY-NC-SA 4.0
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

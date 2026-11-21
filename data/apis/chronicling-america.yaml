@@ -1,0 +1,39 @@
+id: chronicling-america
+name: Chronicling America
+url: http://chroniclingamerica.loc.gov/about/api/
+category: News
+description: Provides access to millions of pages of historic US newspapers from the Library of Congress
+description_source: upstream
+auth: none
+https: false
+cors: unknown
+sources:
+- list: public-apis
+  name: Chronicling America
+  url: http://chroniclingamerica.loc.gov/about/api/
+  category: News
+- list: public-api-lists
+  name: Chronicling America
+  url: http://chroniclingamerica.loc.gov/about/api/
+  category: News
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: HTTP 403 (blocked for bots, assumed alive)
+api_terms_url: https://www.loc.gov/legal/
+evidence: []
+notes: 'Old URL redirects to loc.gov collection technical information (read via browser; curl 403). Read
+  https://www.loc.gov/legal/: LoC says it generally does not own rights in collection items and users
+  must determine copyright/public-domain status per item. No API-specific commercial/caching terms found,
+  so unknown; many pre-1929 newspapers are likely public domain but this was not verified from a page.
+  Newer loc.gov API pages not fully read.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

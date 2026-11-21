@@ -1,0 +1,67 @@
+id: revcardata
+name: RevCarData
+url: https://revcardata.com
+category: Vehicle
+description: 86,000+ global vehicle specifications and EV metrics
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: RevCarData
+  url: https://revcardata.com
+  category: Vehicle
+link_status: alive
+data_license: proprietary (RevCarData data license; plan-based)
+commercial_use: paid-only
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: high
+link_checked_at: '2026-11-21'
+data_license_url: https://revcardata.com/data-license/
+api_terms_url: https://revcardata.com/terms-page/
+commercial_use_scope: paid
+cache_limit: Caching for normal application performance; no permanent copy of the full dataset; delete
+  cached copies when subscription ends
+attribution_text: Vehicle data by RevCarData (link to https://revcardata.com) on public-facing uses, where
+  practicable
+share_alike: unknown
+rate_limits: Developer free 100 req/month; Pro 10,000; Business 50,000; Enterprise 500,000 (pricing page)
+evidence:
+- field: commercial_use
+  url: https://revcardata.com/data-license/
+  quote: Yes, under the plan or license you purchased.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://revcardata.com/data-license/
+  quote: You may not create a permanent copy of the full dataset or distribute a cache as a data product
+    without written permission.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://revcardata.com/data-license/
+  quote: Display vehicle specifications and decoded VIN results in your own application.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://revcardata.com/data-license/
+  quote: Public-facing uses should credit “Vehicle data by RevCarData” with a link to https://revcardata.com
+    where practicable.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://revcardata.com/terms-page/
+  quote: We grant you a limited, non-exclusive, non-transferable, and revocable license to use our API
+    and datasets in accordance with your selected pricing plan.
+  checked_at: '2026-11-21'
+notes: 'Read Terms of Service, Data license page and pricing page. Free sample/Developer tier is for evaluation;
+  commercial use requires a paid plan or written licence (data-license FAQ: "Commercial use, redistribution
+  or resale requires a paid plan or written license"). Resale, competing database, publishing a substantial
+  extract are prohibited; license ends with subscription and cached copies must be deleted. Some records
+  come from official registers or commercial suppliers with their own upstream terms (restricted fields
+  identified on request). CSV database is a separate paid product (bulk_download yes, local hosting licence
+  on annual plans). Attribution is "should ... where practicable", recorded as yes.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

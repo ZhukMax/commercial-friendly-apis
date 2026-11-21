@@ -1,0 +1,40 @@
+id: mercedes-benz
+name: Mercedes-Benz
+url: https://developer.mercedes-benz.com/apis
+category: Vehicle
+description: Telematics data, remotely access vehicle functions, car configurator, locate service dealers
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Mercedes-Benz
+  url: https://developer.mercedes-benz.com/apis
+  category: Vehicle
+- list: public-api-lists
+  name: Mercedes-Benz
+  url: https://developer.mercedes-benz.com/apis
+  category: Vehicle
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: https://developer.mercedes-benz.com/apis -> https://developer.mercedes-benz.com/products
+notes: 'Mercedes-Benz Developer products page (JS, read with Playwright): data products (Car Configurator,
+  Fleet APIs, Electric Vehicle Status, Pay As You Drive etc.) are sold as paid plans ("View plans", "Buy
+  now", contact sales) and most are account/vehicle-consent scoped (telematics, remote functions). No
+  licence, ToS or API terms text was reachable from the pages read, so all terms are unknown. Not a free
+  general data source.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

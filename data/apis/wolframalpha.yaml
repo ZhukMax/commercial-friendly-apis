@@ -1,0 +1,25 @@
+id: wolframalpha
+name: WolframAlpha
+url: https://products.wolframalpha.com/api/
+category: Machine Learning
+description: Provides specific answers to questions using data and algorithms
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: WolframAlpha
+  url: https://products.wolframalpha.com/api/
+  category: Machine Learning
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

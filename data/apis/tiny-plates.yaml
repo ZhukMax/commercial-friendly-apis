@@ -1,0 +1,83 @@
+id: tiny-plates
+name: Tiny Plates
+url: https://www.tinyplates.dev/docs
+category: Food & Drink
+description: Structured recipes, semantic search, serving adjustments and shopping lists
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Tiny Plates
+  url: https://www.tinyplates.dev/docs
+  category: Food & Drink
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: limited
+redistribution_display: ambiguous
+attribution_required: 'no'
+bulk_download: 'no'
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.tinyplates.dev/terms
+commercial_use_scope: any
+cache_limit: Cache with a TTL (refresh every few weeks suggested); delete if recipe removed upstream;
+  no systematic copying of the index
+share_alike: unknown
+rate_limits: 'Free: 50 requests/day, 300/week'
+evidence:
+- field: commercial_use
+  url: https://www.tinyplates.dev/terms
+  quote: You can display, translate and adapt the recipes you get from the API, including in commercial
+    apps.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.tinyplates.dev/terms
+  quote: Images and other media are the exception. They belong to their publishers.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.tinyplates.dev/terms
+  quote: Caching what your users request is welcome, and so is caching the versions you translate.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.tinyplates.dev/terms
+  quote: Please don’t keep cached recipes forever, though.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.tinyplates.dev/terms
+  quote: Attribution isn’t required
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://www.tinyplates.dev/terms
+  quote: If you want the dataset in bulk, ask us at chris@pullpanda.io rather than taking it a page at
+    a time
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://www.tinyplates.dev/terms
+  quote: On the free plan your account gets 50 requests a day and 300 a week across all of its keys.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.tinyplates.dev/terms
+  quote: We do not promise that the recipes are free of anyone else’s rights, or that using them won’t
+    infringe them.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.tinyplates.dev/docs
+  quote: A read API for over 12,000 recipes scraped from the web and normalized into one model.
+  checked_at: '2026-11-21'
+notes: Read the Terms of service (JS-rendered; read via Playwright in a fresh context) and the docs intro.
+  Recipes are 'scraped from the web' (docs); terms disclaim that content is free of anyone's rights and
+  make the developer responsible and indemnifying, so upstream publisher rights may be stricter. Text
+  display in commercial apps is allowed; images/media need the publisher's permission - hence display
+  ambiguous. Removed recipes must be deleted from cache. Training models counts as bulk use.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Recipes are scraped from third-party sites; operator disclaims that they are free
+  of others'' rights; Commercial display grant comes from an operator that cannot license publishers''
+  content; media need publisher permission | applied: commercial_use=ambiguous'

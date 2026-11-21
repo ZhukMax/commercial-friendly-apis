@@ -1,0 +1,26 @@
+id: istanbul-i-bb-open-data
+name: Istanbul (İBB) Open Data
+url: https://data.ibb.gov.tr
+category: Government
+description: Data sets from the İstanbul Metropolitan Municipality (İBB)
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Istanbul (İBB) Open Data
+  url: https://data.ibb.gov.tr
+  category: Government
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: ConnectTimeout

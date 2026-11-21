@@ -1,0 +1,32 @@
+id: nba-data
+name: NBA Data
+url: https://rapidapi.com/api-sports/api/api-nba/
+category: Sports & Fitness
+description: All NBA Stats DATA, Games, Livescore, Standings, Statistics
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: NBA Data
+  url: https://rapidapi.com/api-sports/api/api-nba/
+  category: Sports & Fitness
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: RapidAPI listing now shows 'API not found' (checked 2026-11-21 via browser); no terms readable
+notes: The RapidAPI listing https://rapidapi.com/api-sports/api/api-nba/ (with and without trailing slash) returns RapidAPI's 'Page Not Found / API not found' page in a browser, so the listing is gone or
+  hidden and no provider terms could be read. All terms fields left unknown. The provider (API-Sports) may offer API-NBA on its own site under separate terms, but those were not read and are not transferred
+  here. NBA stats/odds-type data is typically sports-league upstream data with stricter rights.
+evidence: []
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -1,0 +1,52 @@
+id: econpulse
+name: EconPulse
+url: https://econpulse.io
+category: Finance
+description: Live economic data — CPI, PPI, energy, treasury rates, BTC premium
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: EconPulse
+  url: https://econpulse.io
+  category: Finance
+link_status: alive
+data_license: proprietary (Terms of Service); data from FRED, EIA, BLS, Indeed Hiring Lab and other public
+  sources
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://econpulse.io/terms
+rate_limits: 'Free: 10,000 cached calls/month; Pro $49/mo'
+evidence:
+- field: redistribution_display
+  url: https://econpulse.io/terms
+  quote: Resell or sublicense raw API data without written permission
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://econpulse.io/terms
+  quote: Redistribution of derived analytics (charts, summaries, signals) is permitted.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://econpulse.io/terms
+  quote: Resell or sublicense raw API data without written permission
+  checked_at: '2026-11-21'
+notes: 'Short ToS (updated May 2026): raw API data may not be resold or sublicensed without written permission
+  and may not be scraped or mirrored for competitive purposes; derived analytics (charts, summaries, signals)
+  may be redistributed. Commercial use, caching and attribution are not addressed, and showing raw values
+  on a page is unclear, so redistribution is ambiguous and the rest unknown. Upstream sources (FRED has
+  some series with third-party copyright, EIA, BLS, Indeed) may impose their own terms; not checked.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'No page resolves commercial use. Unknown/ambiguous stands; new upstream finding: FRED-sourced
+  series flagged ''Copyright'' need owner permission, so raw-value display is risky. Verdict unknown stands.'

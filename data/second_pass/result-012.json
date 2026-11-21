@@ -1,0 +1,358 @@
+[
+ {
+  "id": "europe-pmc",
+  "outcome": "confirmed",
+  "reasons": [
+   "Re-read /Copyright and /downloads via Playwright: per-article licences, no blanket grant",
+   "No API-specific terms page exists; no blocker beyond first pass"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Confirmed ambiguous/yellow. Page says services (RESTful, OAI, FTP) are the only allowed automated route; articles keep publisher licences (CC or similar, not uniform), abstracts/metadata come from publishers. Commercial reuse only for the CC0/CC BY subset; per-record check needed."
+ },
+ {
+  "id": "eurovalidate",
+  "outcome": "confirmed",
+  "reasons": [
+   "Re-read ToS and AUP: embedding in own product fine, commercial purpose stated",
+   "AUP bans reselling raw API and building derivative database"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Confirmed (verdict unknown). AUP: 'Resell the raw API without a written reseller agreement. Embedding the API in your own product is fine'. Intended use is KYB/invoicing/checkout validation, not public data display; free tier only 100 req/month. Upstream VIES/EORI/HMRC/GLEIF licences still unchecked; sole-trader identifiers are personal data (AUP restricts profiling)."
+ },
+ {
+  "id": "exchangerate-host",
+  "outcome": "disputed",
+  "reasons": [
+   "storage_caching=no is not supported by the quote: it only restricts END USERS storing data",
+   "Terms expressly permit processing and displaying data to end users of your app"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://exchangerate.host/terms",
+    "quote": "You are hereby permitted to receive, process, and display exchangeratehost API Data & Services to individual end-users of your application(s)",
+    "field": "storage_caching"
+   }
+  ],
+  "suggested": {
+   "storage_caching": "ambiguous"
+  },
+  "note": "Display to end users is permitted, but only for their personal use and 'for reference'; the same terms bar reproduce/distribute/exploit and storage after termination. Nothing says the site may not cache rates. Storage should be ambiguous, not no. Verdict stays yellow (display-only, paid key, no explicit commercial grant). Page is the only terms page; no commercial-use sentence either way."
+ },
+ {
+  "id": "fec",
+  "outcome": "confirmed",
+  "reasons": [
+   "Re-read FEC sale-or-use page: ban on commercial use applies only to individual-contributor data",
+   "No licence or ToS on the API page; api.data.gov terms page now 404"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Confirmed ambiguous/yellow. FEC page: restriction does not apply to newspapers/books/similar if principal purpose is not solicitation or commercial activity; an ad-monetised donor lookup would be risky. Committee/candidate/total data not covered. GitHub repo openFEC is MIT code, not a data licence."
+ },
+ {
+  "id": "fertilityclinics",
+  "outcome": "disputed",
+  "reasons": [
+   "redistribution_display=yes overreaches: editorial records are 'All rights reserved'",
+   "Developer page only says each record keeps its source licence; Terms page silent on API reuse"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://fertilityclinics.fyi/developers",
+    "quote": "Keep a source's license when you reuse its records.",
+    "field": "redistribution_display"
+   }
+  ],
+  "suggested": {
+   "redistribution_display": "ambiguous"
+  },
+  "note": "Developer page asks for a credit line and 'Keep a source's license when you reuse its records.' /api/v1/sources lists CDC NASS public domain, editors 'All rights reserved', enrichment 'source'. Display of the CDC subset is fine; the rest has no grant. commercial_use ambiguous stands. Verdict stays yellow."
+ },
+ {
+  "id": "filingfirehose",
+  "outcome": "confirmed",
+  "reasons": [
+   "Re-read ToS: grant limited to internal use and published research citing source",
+   "No grant for public ad-supported display; bulk republishing banned"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Confirmed ambiguous/yellow, evidence leans restrictive: a public monetised site is neither 'internal' nor clearly 'published research'. Underlying SEC filings are public domain (could be taken from EDGAR directly). ToS also forbids reselling API access."
+ },
+ {
+  "id": "financial-data",
+  "outcome": "confirmed",
+  "reasons": [
+   "Re-read ToS and pricing: pricing page has Personal Use / Commercial Use tabs",
+   "Public display forbidden unless the subscription plan explicitly permits redistribution"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Confirmed ambiguous/yellow. Terms say Content provided 'for your personal or commercial use in accordance with these Legal Terms' but no public display or redistribution except as the plan permits; plan-level permissions not stated in the terms (could not open the Commercial tab). Upstream SEC/FINRA data."
+ },
+ {
+  "id": "financial-modeling-prep",
+  "outcome": "disputed",
+  "reasons": [
+   "Pricing page says displaying or redistributing FMP data needs a separate Data Display and Licensing Agreement",
+   "ToS Data Display clause bans showing data on websites without specific agreement, free or paid"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://site.financialmodelingprep.com/pricing-plans",
+    "quote": "Displaying or redistributing data sourced from FMP requires a specific Data Display and Licensing Agreement with FMP.",
+    "field": "redistribution_display"
+   },
+   {
+    "url": "https://site.financialmodelingprep.com/terms-of-service",
+    "quote": "Without a specific agreement with FMP, customers are prohibited from showcasing FMP Services or Data on platforms including but not limited to websites",
+    "field": "redistribution_display"
+   }
+  ],
+  "suggested": {
+   "redistribution_display": "no"
+  },
+  "note": "Display on a public website is not permitted under any self-serve plan; also ToS lists 'association with a company' as Commercial Use barred under the Personal licence. Verdict should be red unless a separate agreement is signed (redistribution_display=no). commercial_use ambiguous/paid-only plans exist (Commercial Use tab) but display is the blocker."
+ },
+ {
+  "id": "food-info",
+  "outcome": "confirmed",
+  "reasons": [
+   "Re-read T&C and developer page: no API licence; site T&C allow reference only for personal non-commercial use",
+   "Upstream mix includes ODbL (OFF) and CC BY (Ciqual), unassessed"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Confirmed ambiguous/yellow, low confidence, leaning restrictive. Page 'Full attribution' footer says only OGL v3 for public sector info. No API terms page exists (/api-terms returns only footer). Paid plans only raise Developer API limits; no commercial-use grant."
+ },
+ {
+  "id": "foreca",
+  "outcome": "confirmed",
+  "reasons": [
+   "Re-read terms and pricing: licence only against paid fees, Freemium non-commercial",
+   "Use limited to what the Service Description allows; no display/caching rules found"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Confirmed paid-only/yellow. Pricing FAQ: 'Freemium is a plan strictly only for non-commercial use'. Mandatory 'Powered by Foreca' attribution. Service Description rules on caching not published."
+ },
+ {
+  "id": "fred",
+  "outcome": "confirmed",
+  "reasons": [
+   "Re-read API Terms of Use: no blocker beyond what first pass noted",
+   "Third-party copyrighted series need owner permission; must destroy copies on termination"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Confirmed ambiguous/yellow. API terms also bar apps that replicate FRED's user experience and require the notice 'This product uses the FRED API but is not endorsed or certified'. Per-series copyright status decides."
+ },
+ {
+  "id": "freelancer",
+  "outcome": "confirmed",
+  "reasons": [
+   "Re-read API T&Cs: may charge for app; cache for performance only, refresh every 24h",
+   "Storing Data otherwise barred; first-pass 'limited' fits"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Confirmed yellow. Terms last modified 2017; Freelancer may publish your name/logo; marketplace user content with own privacy limits; display of Data is not explicitly granted."
+ },
+ {
+  "id": "funding-signals",
+  "outcome": "confirmed",
+  "reasons": [
+   "Re-read ToS (marked DRAFT): licence only for internal business purposes and outreach",
+   "Redistribution of raw responses as competing product barred"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Confirmed ambiguous/yellow, leaning restrictive for public display. Underlying facts from SEC Form D (public) plus news sources not checked. Terms say they should be lawyer-reviewed, so reliability is low."
+ },
+ {
+  "id": "futures-clock",
+  "outcome": "disputed",
+  "reasons": [
+   "The open-data page states commercial reuse is permitted with attribution - first pass left commercial_use unknown",
+   "Licence still excludes exchange facts, which stay with exchanges (upstream unchecked)"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://futuresclock.com/en/data/",
+    "quote": "You may reuse the data, including commercially, under the Futures Clock compilation license with attribution to futuresclock.com.",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "yes",
+   "redistribution_display": "yes",
+   "attribution_required": "yes"
+  },
+  "note": "Open-data page (futuresclock.com/en/data/) section 'Use our data' says reuse including commercially under the compilation licence with attribution to futuresclock.com; attribution is a link, rel=nofollow allowed. Not covered: exchange facts/notices; their licence terms were not checked, so verdict at best yellow, confidence low. Free JSON/CSV downloads, no key, so bulk_download yes."
+ },
+ {
+  "id": "gbif",
+  "outcome": "confirmed",
+  "reasons": [
+   "Re-read /terms and /terms/data-user: per-dataset licence prevails; CC BY-NC explicitly excluded from commercial use",
+   "Live API facet: ~83% of 3.9B occurrence records are CC0/CC BY, ~17% CC BY-NC"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Confirmed ambiguous/yellow. GBIF /terms says broader readings of commercial include 'websites displaying advertisements'; filter by licence (CC0, CC BY) to stay safe. Minor fix: first-pass commercial_use quote is garbled ('provided provided'); exact wording is '...provided that attribution is appropriately given and provided the use is not for commercial purposes'. DSI benefit-sharing clause also applies."
+ },
+ {
+  "id": "gbif-api",
+  "outcome": "confirmed",
+  "reasons": [
+   "Same as gbif: per-dataset licences, CC BY-NC records unusable commercially",
+   "Facet query re-run: CC_BY_4_0 2.75B, CC_BY_NC_4_0 0.68B, CC0_1_0 0.48B"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Confirmed ambiguous/yellow. Filtering the API by license=CC0_1_0 and CC_BY_4_0 leaves 3.23B of 3.91B records. Duplicate of gbif entry; consider merging."
+ },
+ {
+  "id": "geoapi",
+  "outcome": "confirmed",
+  "reasons": [
+   "Re-read data.gouv.fr dataservice page: only 'licences Open Data', no named licence",
+   "geo.api.gouv.fr FAQ is JS-only and its licence answer is not obtainable; GitHub repo licence MIT is code only"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Confirmed ambiguous/yellow, low confidence. Admin-division data is probably Licence Ouverte but not shown on a page read; OSM-derived parts may be ODbL. data.gouv.fr site content itself is Open Licence 2.0."
+ },
+ {
+  "id": "geodb-cities",
+  "outcome": "confirmed",
+  "reasons": [
+   "Re-read ToS, pricing, FAQ: no commercial prohibition, 24h cache for Wirefree-owned data",
+   "Upstream GeoNames is CC BY 4.0 (geonames.org/about) and WikiData CC0"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Confirmed unknown. Neither the ToS nor FAQ addresses commercial use/display/attribution; upstream licences are permissive with attribution, but who owns which field is undefined, so caching limit uncertain. Access via RapidAPI plans."
+ },
+ {
+  "id": "geolocated-io",
+  "outcome": "confirmed",
+  "reasons": [
+   "Re-read ToS and FAQ: ToS limits use to own internal business purposes, bans display/distribution of Services content",
+   "FAQ welcomes commercial projects but bans reselling"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Confirmed (unknown). Conflict between FAQ ('commercial use is welcomed') and ToS ('unauthorised ... display of the content of the Services' is an offence) unresolved; showing a visitor's own country is arguably internal. Also bans building geolocation services, and requires consent before linking to the site."
+ },
+ {
+  "id": "geoplugin",
+  "outcome": "disputed",
+  "reasons": [
+   "AUP bans saving lookup data for more than 24 hours",
+   "AUP: incorporation into a 'commercial package' needs prior authorisation and may cost money"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://www.geoplugin.com/aup",
+    "quote": "or by saving the data obtained from lookups for greater than 24 hours.",
+    "field": "storage_caching"
+   },
+   {
+    "url": "https://www.geoplugin.com/aup",
+    "quote": "Incorporation of geoPlugin’s services into a commercial package requires prior authorisation from geoPlugin whereby costs may be incurred.",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {
+   "storage_caching": "limited"
+  },
+  "note": "First pass missed both clauses in the same AUP. Storage is limited to 24h. A monetised site is plausibly not a 'commercial package' but the wording is vague, so commercial_use stays ambiguous, leaning no without authorisation. Free use is 'normal use' only (real visitor lookups). Data is MaxMind GeoLite under CC BY-SA 3.0 as stated; verdict stays yellow."
+ },
+ {
+  "id": "globalentity",
+  "outcome": "confirmed",
+  "reasons": [
+   "Re-read ToS section 7 and pricing: API only from Enterprise tier; redistribution only under Partner/OEM agreement",
+   "Partner tier (EUR 390/month) is a paid route to embedding"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Confirmed red for self-serve tiers. Maintainers may consider yellow via Partner tier since 7.4 permits embedding data in own product with written agreement; upstream register licences remain unchecked."
+ },
+ {
+  "id": "gmail",
+  "outcome": "disputed",
+  "reasons": [
+   "Google API Services User Data Policy (Limited Use) bans transfers and ad use of Gmail user data",
+   "Policy also bans transferring user data to third parties except narrow cases"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://developers.google.com/terms/api-services-user-data-policy",
+    "quote": "Transferring, selling, or using user data for serving ads, including retargeting, personalized or interest-based advertising.",
+    "field": "redistribution_display"
+   },
+   {
+    "url": "https://developers.google.com/terms/api-services-user-data-policy",
+    "quote": "Transferring or selling user data to third parties like advertising platforms, data brokers, or any information resellers.",
+    "field": "redistribution_display"
+   }
+  ],
+  "suggested": {
+   "redistribution_display": "no"
+  },
+  "note": "Gmail data is the authorising user's private mail; the Limited Use rules prohibit using it for ads and transferring it, so public display/redistribution on a commercial site is not allowed. Commercial use of the API itself is not barred, so commercial_use stays unknown. Verdict stays unknown/red-leaning for this catalog's use case."
+ },
+ {
+  "id": "google-analytics",
+  "outcome": "confirmed",
+  "reasons": [
+   "Re-read Google APIs ToS clause 4e: unless permitted by content owner",
+   "No GA-specific API terms page found; data is the user's own analytics"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Confirmed unknown. Per-user OAuth data API, not a public dataset. Generic ToS applies to storage/display; GA Provisioning terms page is unrelated. Not a candidate for a data catalogue use case."
+ },
+ {
+  "id": "google-books",
+  "outcome": "disputed",
+  "reasons": [
+   "Branding Guidelines require attribution whenever Google results or content are displayed",
+   "Also require prominent links to Google Books and no alteration of results"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://developers.google.com/books/branding",
+    "quote": "Google must be given attribution, using the appropriate text or brand elements, whenever you display Google results, previews, or other content",
+    "field": "attribution_required"
+   }
+  ],
+  "suggested": {
+   "attribution_required": "yes"
+  },
+  "note": "First pass left attribution unknown; the Books Branding Guidelines (linked from the API ToS) make it mandatory. Fee clause (no charging users) and Google APIs ToS cache/display limits as in first pass; ads not a user fee. Verdict stays yellow."
+ },
+ {
+  "id": "google-maps",
+  "outcome": "disputed",
+  "reasons": [
+   "Maps Platform Terms 3.2.3(d) bans use in a listings or directory service or to create/augment an advertising product",
+   "3.2.3 also bans pre-fetching/storing/indexing content and using it with non-Google maps"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://cloud.google.com/maps-platform/terms",
+    "quote": "use the Google Maps Core Services in a listings or directory service or to create or augment an advertising product",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "ambiguous"
+  },
+  "note": "First pass said commercial_use yes (paid contract), but the same terms prohibit the exact programmatic-SEO/ad-monetised directory scenario this catalogue targets. Ordinary map/geocode features in an app with independent value remain allowed (Google ads can be shown at customer's option). Suggest ambiguous; verdict stays yellow (arguably red for directory/ad use)."
+ }
+]

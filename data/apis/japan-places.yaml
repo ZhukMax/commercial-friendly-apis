@@ -1,0 +1,74 @@
+id: japan-places
+name: Japan Places
+url: https://japan-places.local-connect-design.trade/
+category: Geocoding
+description: 'Japan POI datasets and derived signals: municipality census, station catchments, chains,
+  grants'
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Japan Places
+  url: https://japan-places.local-connect-design.trade/
+  category: Geocoding
+link_status: alive
+data_license: CC-BY-4.0 (free-tier derived signals; upstream sources keep their own licences)
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://japan-places.local-connect-design.trade/terms
+data_license_url: https://japan-places.local-connect-design.trade/attribution
+commercial_use_scope: any
+attribution_text: 'Source: koteihi-lab Japan Data Foundry, derived from OpenPOI'
+rate_limits: 'Free/BASIC: 1,000 requests/month, 60 req/min; paid tiers up to 5,000,000/month'
+evidence:
+- field: data_license
+  url: https://japan-places.local-connect-design.trade/terms
+  quote: Free Tier (CC BY 4.0) Subject to these Terms, we grant you a worldwide, non-exclusive, royalty-free
+    license to
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://japan-places.local-connect-design.trade/terms
+  quote: Store, cache, and modify the data Use commercially Redistribute with attribution Sublicense
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://japan-places.local-connect-design.trade/terms
+  quote: Store, cache, and modify the data Use commercially Redistribute with attribution Sublicense
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://japan-places.local-connect-design.trade/terms
+  quote: Store, cache, and modify the data Use commercially Redistribute with attribution Sublicense
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://japan-places.local-connect-design.trade/terms
+  quote: 'All uses (free or paid) must include visible attribution: Source: koteihi-lab Japan Data Foundry,
+    derived from OpenPOI'
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://japan-places.local-connect-design.trade/terms
+  quote: Free / BASIC 60 1,000
+  checked_at: '2026-11-21'
+notes: 'Read /terms (updated 2026-10-21), /attribution, /limitations and the home page. Free tier (CC
+  BY 4.0) explicitly allows storing, caching, modifying, commercial use and redistribution with attribution;
+  the attribution page repeats this ("Storage & caching: Permitted (unlike Google Places)"). Per-record
+  upstream licences and attributions (Overture CDLA-Permissive/Apache/CC0, Japanese municipal CC BY/PDL,
+  MLIT, e-Stat, custom licences for MOJ registry maps and block-level reference) must be preserved when
+  redistributing raw POI data, so downstream obligations vary by record. Only the municipality and quality
+  endpoints are free; paid signals need a paid plan or x402 payment. New service (young, self-run), hence
+  medium confidence.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Read /terms in full: free tier CC BY 4.0, visible attribution required, per-record
+  upstream licences must be preserved; free tier limited to 60 req/min and 1,000 req/month via RapidAPI
+  plan; automated scraping beyond fair use may lead to key revocation. Young self-run service.'
+license_scope: portal-default

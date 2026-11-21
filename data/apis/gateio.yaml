@@ -1,0 +1,50 @@
+id: gateio
+name: Gateio
+url: https://www.gate.io/api2
+category: Cryptocurrency
+description: API provides spot, margin and futures trading operations
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Gateio
+  url: https://www.gate.io/api2
+  category: Cryptocurrency
+- list: public-api-lists
+  name: Gates.io
+  url: https://www.gate.io/api2
+  category: Cryptocurrency
+link_status: redirect
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://www.gate.com/api2
+api_terms_url: https://www.gate.com/user-agreement
+evidence:
+- field: commercial_use
+  url: https://www.gate.com/user-agreement
+  quote: use the Services and/or the Sites for resale or commercial purposes, including Transactions on
+    behalf of other persons or entities
+  checked_at: '2026-11-21'
+notes: 'Page read: Gate User Agreement (gate.com/legal/user-agreement, via Playwright; listed URL redirects
+  to gate.com/api2). Its definition of Services includes the API at gate.com/gate-api. The clause bans
+  using Services for resale or commercial purposes (incl. trading for others) without written consent,
+  and the Agreement also bans data scraping and unauthorized API use; no separate market-data licence
+  found, so commercial use of public price data is ambiguous. Caching/display/attribution not addressed.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read gate.com user agreement via Playwright: clause (d) ''use the Services and/or
+  the Sites for resale or commercial purposes, including Transactions on behalf of other persons'' sits
+  in account-holder conduct rules; also bans data scraping/unauthorized API use. Public market-data endpoints
+  need no account, so applicability unclear. gate.io/api2 and apiv4 docs 403 to curl. ambiguous stands.'

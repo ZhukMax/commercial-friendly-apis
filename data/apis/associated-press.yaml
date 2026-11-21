@@ -1,0 +1,37 @@
+id: associated-press
+name: Associated Press
+url: https://developer.ap.org/
+category: News
+description: Search for news and metadata from Associated Press
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Associated Press
+  url: https://developer.ap.org/
+  category: News
+- list: public-api-lists
+  name: Associated Press
+  url: https://developer.ap.org/
+  category: News
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.ap.org/terms-and-conditions/
+evidence: []
+notes: developer.ap.org is a contact-sales portal for licensed AP products (Media API, Elections API,
+  metadata); no public API terms or pricing. ap.org terms page (read via browser) covers the website and
+  AP Works generally with a licence-requirements section, not assessed in detail. Commercial licence agreement
+  needed for AP content; treat as not self-serve.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

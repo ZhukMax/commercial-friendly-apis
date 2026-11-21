@@ -1,0 +1,73 @@
+id: transport-for-bordeaux-france
+name: Transport for Bordeaux, France
+url: https://opendata.bordeaux-metropole.fr/explore/
+category: Transportation
+description: Bordeaux Métropole public transport and more (France)
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Transport for Bordeaux, France
+  url: https://opendata.bordeaux-metropole.fr/explore/
+  category: Transportation
+- list: public-api-lists
+  name: Transport for Bordeaux, France
+  url: https://opendata.bordeaux-metropole.fr/explore/
+  category: Transportation
+link_status: alive
+data_license: per-dataset (Licence Ouverte or a specific licence chosen by Bordeaux Métropole)
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: unknown
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+data_license_url: https://opendata.bordeaux-metropole.fr/terms/terms-and-conditions/
+api_terms_url: https://opendata.bordeaux-metropole.fr/terms/terms-and-conditions/
+evidence:
+- field: commercial_use
+  url: https://opendata.bordeaux-metropole.fr/terms/terms-and-conditions/
+  quote: 'LICENCE PARTICULIERE : désigne le type de LICENCE spécifique applicable aux JEUX DE DONNEES
+    publiés par la Société via son DOMAINE.'
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://opendata.bordeaux-metropole.fr/terms/terms-and-conditions/
+  quote: 'Le droit d’utilisation inclut : la reproduction, la réutilisation, la publication, la diffusion,
+    l’adaptation, la modification, l’extraction, l’exploitation des JEUX DE DONNEES.'
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Licence_Ouverte.pdf
+  quote: Exploiter « l’Information » à titre commercial, par exemple en la combinant avec d’autres « Informations
+    »
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://opendata.bordeaux-metropole.fr/terms/terms-and-conditions/
+  quote: 'Le droit d’utilisation inclut : la reproduction, la réutilisation, la publication, la diffusion,
+    l’adaptation, la modification, l’extraction, l’exploitation des JEUX DE DONNEES.'
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Licence_Ouverte.pdf
+  quote: 'Mentionner la paternité de « l’Information » : sa source'
+  checked_at: '2026-11-21'
+notes: Portal-level terms only (Opendatasoft-hosted portal; JS site, terms read via fresh Playwright context
+  at /terms/terms-and-conditions/). The CGU say each dataset is published under either a "Licence ouverte"
+  (which allows reproduction, publication, adaptation, exploitation) or a "Licence particulière" set per
+  dataset, and that API access requires accepting the dataset licence. No transport dataset (e.g. TBM
+  real-time feeds) was opened, so the actual licence and any commercial/attribution conditions are unconfirmed;
+  an API key may be needed for some datasets. Not a basis for green.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Transport datasets (GTFS, GTFS-RT, SIRI-Lite, SAEIV) are published under Licence Ouverte,
+  which allows commercial exploitation with source credit; Portal CGU grant free worldwide right to reproduce,
+  publish, distribute, exploit Licence Ouverte datasets | applied: commercial_use=yes, storage_caching=yes,
+  attribution_required=yes'
+verdict_override: yellow
+override_reason: Second check resolved some fields; unconfirmed storage/display keeps it at yellow.
+license_scope: portal-default

@@ -1,0 +1,30 @@
+id: open-government-finland
+name: Open Government, Finland
+url: https://www.avoindata.fi/en
+category: Government
+description: Finland Government Open Data
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Open Government, Finland
+  url: https://www.avoindata.fi/en
+  category: Government
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: HTTP 403 (blocked for bots, assumed alive)
+notes: avoindata.fi returns HTTP 403 to every automated request (curl, a browser session, CKAN API path), so no terms/licence page could be read in this session. Terms left unknown. Dataset licences on
+  this CKAN portal are set per dataset by publishers.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: unknown

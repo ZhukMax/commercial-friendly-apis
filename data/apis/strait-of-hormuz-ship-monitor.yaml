@@ -1,0 +1,68 @@
+id: strait-of-hormuz-ship-monitor
+name: Strait of Hormuz Ship Monitor
+url: https://hormuz.data-tracking.net/llms.txt
+category: Transportation
+description: Live AIS vessel traffic, crossings and oil flow through the Strait of Hormuz
+description_source: upstream
+auth: none
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Strait of Hormuz Ship Monitor
+  url: https://hormuz.data-tracking.net/llms.txt
+  category: Transportation
+link_status: alive
+data_license: 'CC-BY-4.0 (exceptions: OpenSanctions-derived sanctions matches CC BY-NC 4.0; UKMTO reports
+  OGL; inventories keep publishers terms)'
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://hormuz.data-tracking.net/llms.txt
+data_license_url: https://creativecommons.org/licenses/by/4.0/
+commercial_use_scope: any
+share_alike: unknown
+attribution_text: Attribution to hormuz.data-tracking.net
+evidence:
+- field: data_license
+  url: https://hormuz.data-tracking.net/llms.txt
+  quote: Data from this site may be reused, including commercially, under CC BY 4.0
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://hormuz.data-tracking.net/llms.txt
+  quote: Data from this site may be reused, including commercially, under CC BY 4.0
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://hormuz.data-tracking.net/llms.txt
+  quote: with attribution to hormuz.data-tracking.net
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://hormuz.data-tracking.net/llms.txt
+  quote: sanctions matches (/api/sanctioned_vessels) are built from OpenSanctions data, which is licensed
+    CC BY-NC 4.0
+  checked_at: '2026-11-21'
+notes: 'Read the site''s llms.txt Licence section: data reusable including commercially under CC BY 4.0
+  with attribution; storage/display derived from the CC BY 4.0 deed given that licence applies. Exceptions:
+  /api/sanctioned_vessels (OpenSanctions, CC BY-NC) must not be used commercially; UKMTO incident reports
+  under OGL (attribution required); inventory series keep publishers'' terms. Verdict applies to the core
+  AIS/crossing data only.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Verdict covers core endpoints only; /api/sanctioned_vessels must not be used commercially.
+  Upstream AIS source not named on pages read (only 'terrestrial AIS'), so its terms could not be checked.

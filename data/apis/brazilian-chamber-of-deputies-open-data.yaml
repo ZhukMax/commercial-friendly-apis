@@ -1,0 +1,62 @@
+id: brazilian-chamber-of-deputies-open-data
+name: Brazilian Chamber of Deputies Open Data
+url: https://dadosabertos.camara.leg.br/swagger/api.html
+category: Government
+description: Provides legislative information in Apis XML and JSON, as well as files in various formats
+description_source: upstream
+auth: none
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Brazilian Chamber of Deputies Open Data
+  url: https://dadosabertos.camara.leg.br/swagger/api.html
+  category: Government
+link_status: alive
+data_license: public-domain (per Câmara portal terms; scope to dados abertos subsite not explicit)
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+data_license_url: https://www2.camara.leg.br/termo-de-uso-e-politica-de-privacidade
+api_terms_url: https://www2.camara.leg.br/termo-de-uso-e-politica-de-privacidade
+commercial_use_scope: any
+attribution_text: Cite the source "Câmara dos Deputados" and the author, when there is one
+share_alike: unknown
+evidence:
+- field: data_license
+  url: https://www2.camara.leg.br/termo-de-uso-e-politica-de-privacidade
+  quote: Todas as informações publicadas no Portal da Câmara são de domínio público, gratuitas e podem
+    ser reproduzidas
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www2.camara.leg.br/termo-de-uso-e-politica-de-privacidade
+  quote: Você pode reproduzir gratuitamente dados, imagens e infografias publicados no portal da Câmara,
+    desde que citada a fonte
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www2.camara.leg.br/termo-de-uso-e-politica-de-privacidade
+  quote: podem ser reproduzidas desde que citada a fonte
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www2.camara.leg.br/termo-de-uso-e-politica-de-privacidade
+  quote: Todas as informações publicadas no Portal da Câmara são de domínio público, gratuitas e podem
+    ser reproduzidas
+  checked_at: '2026-11-21'
+notes: Read the open-data portal home, FAQ and 'sobre dados abertos' (data free of charge, no registration,
+  no API terms/rate limits stated) and the Câmara's general Terms of Use (termo-de-uso-e-politica-de-privacidade),
+  which says portal information is public domain and may be reproduced with source citation. The open-data
+  subsite has no licence page of its own, so applying the portal terms to it is an inference; commercial
+  use is not mentioned explicitly, hence ambiguous. Personal data of deputies/staff is excluded from the
+  dataset (Ato da Mesa 45/2012 limits what is published). Storage/caching not addressed.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Evidence points toward yes (public domain + reproduction allowed). Dados Abertos site
+  itself has no licence page; kept yellow for scope inference and unaddressed storage.

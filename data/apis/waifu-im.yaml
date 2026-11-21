@@ -1,0 +1,26 @@
+id: waifu-im
+name: Waifu.im
+url: https://waifu.im/docs
+category: Anime
+description: Get waifu pictures from an archive of over 4000 images and multiple tags
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Waifu.im
+  url: https://waifu.im/docs
+  category: Anime
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: HTTP 404

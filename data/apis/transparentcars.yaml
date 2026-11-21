@@ -1,0 +1,65 @@
+id: transparentcars
+name: TransparentCars
+url: https://transparent.pt/en/api
+category: Vehicle
+description: Fair-price valuation and yearly road tax (IUC) for used cars in Portugal
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: TransparentCars
+  url: https://transparent.pt/en/api
+  category: Vehicle
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: 'yes'
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://transparent.pt/en/api
+attribution_text: Visible, crawlable (not nofollow) link to transparent.pt next to displayed results,
+  e.g. "ISV calculator by transparent.pt"
+rate_limits: /valuation ~20 requests/minute per IP; fair-use per-IP limits; 429 with Retry-After
+share_alike: unknown
+evidence:
+- field: redistribution_display
+  url: https://transparent.pt/en/api
+  quote: when you display results from the hosted API in your own integration on a public page
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://transparent.pt/en/api
+  quote: keep a visible, crawlable link to transparent.pt next to the result
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://transparent.pt/en/terms
+  quote: Reproduction, distribution, public communication, transformation or any other commercial use
+    of the website content without prior written authorization from the Company is prohibited.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://transparent.pt/en/api
+  quote: '/valuation : ~20 requests/minute per IP (it queries live market data)'
+  checked_at: '2026-11-21'
+- field: self_host_option
+  url: https://transparent.pt/en/api
+  quote: Self-host the open-source calculators ( source ) — no attribution, no rate limit, no terms.
+  checked_at: '2026-11-21'
+notes: 'Developer API page: free, key-free, fair-use, display allowed if a visible crawlable credit link
+  is kept; also keep the "estimate, confirm on official AT simulator" note. Site Terms (updated Aug 2026)
+  forbid commercial use of website content without authorisation and say the API is provided "on a fair-use
+  basis ... may change or be unavailable at any time"; neither page says outright that ads/affiliate sites
+  may use API results, nor addresses storage, so commercial_use=ambiguous, storage unknown. Self-hosting
+  applies to the open-source calculators (ISV/IUC), not necessarily the valuation data (built from live
+  Portuguese listings, third-party rights not assessed). Open-data page /en/open-data returned 404. Data
+  licence not stated on a page read; characterised as: proprietary / unknown (no data licence stated).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read /en/api and /en/terms; conflict unresolved, ambiguous stays.

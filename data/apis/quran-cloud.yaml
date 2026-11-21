@@ -1,0 +1,68 @@
+id: quran-cloud
+name: Quran Cloud
+url: https://alquran.cloud/api
+category: Books
+description: A RESTful Quran API to retrieve an Ayah, Surah, Juz or the entire Holy Quran
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Quran Cloud
+  url: https://alquran.cloud/api
+  category: Books
+link_status: alive
+data_license: Quran text free to use unchanged; translations/recitations remain copyright of translators
+  and reciters
+commercial_use: ambiguous
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: ambiguous
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://alquran.cloud/terms-and-conditions
+commercial_use_scope: any
+attribution_text: Credit the text source (see Credits page); credit the translator by name when republishing
+  a translation
+share_alike: unknown
+rate_limits: Soft per-IP requests-per-second limit (details on site)
+evidence:
+- field: storage_caching
+  url: https://alquran.cloud/terms-and-conditions
+  quote: You may use, store and show the text freely.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://alquran.cloud/terms-and-conditions
+  quote: You may use, store and show the text freely.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://alquran.cloud/terms-and-conditions
+  quote: Translations and recitations remain the copyright of their translators and reciters.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://alquran.cloud/terms-and-conditions
+  quote: If you put them in a commercial product, the reciters may ask you to remove them.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://alquran.cloud/terms-and-conditions
+  quote: If you republish it, please credit its source.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://alquran.cloud/terms-and-conditions
+  quote: Translations and recitations remain the copyright of their translators and reciters.
+  checked_at: '2026-11-21'
+notes: 'Read the Terms & Conditions (updated 2026-11-13; JS-rendered, read via Playwright in a fresh context)
+  and the API reference. Arabic Quran text: use, store, show freely, unchanged, credit requested. Translations
+  and recitations stay copyright of their authors; no blanket commercial licence for them is given (recitations:
+  personal/educational, commercial product may be asked to remove) - so commercial_use is ambiguous and
+  depends on the edition used. Individual edition licences on the Credits page were not read.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Commercial use is fine for Arabic text; edition-dependent for translations. Per edition
+  licences on Credits page not read.

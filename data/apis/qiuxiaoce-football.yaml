@@ -1,0 +1,74 @@
+id: qiuxiaoce-football
+name: QiuXiaoCe Football
+url: https://www.qiuxiaoce.com/data-docs/
+category: Sports & Fitness
+description: Football teams, leagues, standings, scorers and match intelligence data
+description_source: upstream
+auth: none
+https: unknown
+cors: unknown
+sources:
+- list: public-apis
+  name: QiuXiaoCe Football
+  url: https://www.qiuxiaoce.com/data-docs/
+  category: Sports & Fitness
+link_status: alive
+data_license: Proprietary (site content, all rights reserved; match data from third-party public sources)
+commercial_use: ambiguous
+storage_caching: ambiguous
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://www.qiuxiaoce.com/user-agreement/
+api_terms_url: https://www.qiuxiaoce.com/user-agreement/
+commercial_use_scope: any
+attribution_text: 球小策 www.qiuxiaoce.com (for personal non-commercial quotation)
+share_alike: unknown
+rate_limits: Points-based (credits); 429 on too-fast requests, honour Retry-After
+notes: 'Read the user agreement (Chinese, effective 2026-11-01) and the data-docs page. Section 6.2: no
+  copying, republishing, selling or commercial use of service content without written permission; only
+  personal non-commercial quotation with credit. 4.1 forbids bulk scraping/mirroring. The API docs (data-docs)
+  describe a points-billed data API and even suggest local caching with TTLs, which conflicts with the
+  agreement''s copy ban, so storage_caching=ambiguous; the agreement does not carve out API data for commercial
+  use. Match data comes from third-party public sources (6.4); upstream rights remain with original owners.
+  Service is football analytics tied to Chinese lottery products (no betting advice).'
+evidence:
+- field: commercial_use
+  url: https://www.qiuxiaoce.com/user-agreement/
+  quote: 未经我们书面许可，你不得复制、转载、汇编、传播、出售本服务内容，不得用于商业用途
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.qiuxiaoce.com/user-agreement/
+  quote: 未经我们书面许可，你不得复制、转载、汇编、传播、出售本服务内容
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.qiuxiaoce.com/user-agreement/
+  quote: 个人非商业的合理引用应注明来源「球小策 www.qiuxiaoce.com」。
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.qiuxiaoce.com/user-agreement/
+  quote: 使用爬虫、脚本、自动化工具批量抓取、复制、镜像本服务的数据或内容，或规避访问频率限制
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.qiuxiaoce.com/user-agreement/
+  quote: 本服务使用的赛事数据来源于第三方公开渠道，相关权利归原始权利人所有。
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.qiuxiaoce.com/data-docs/
+  quote: 所有生成的研报、前瞻长文、短视频文案、早报卡片底部，必须按规范附带球小策权威来源声明
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.qiuxiaoce.com/data-docs/
+  quote: 所有生成的研报、前瞻长文、短视频文案、早报卡片底部，必须按规范附带球小策权威来源声明
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'User agreement s6.2 bans commercial use, but the API docs tell creators to publish
+  articles/videos with mandatory credit; Docs conflict with agreement; auth is actually an API key (X-API-Key),
+  not none | applied: commercial_use=ambiguous, redistribution_display=ambiguous, attribution_required=yes'

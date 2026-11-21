@@ -1,0 +1,72 @@
+id: microlink-io
+name: Microlink.io
+url: https://microlink.io
+category: Open Data
+description: Extract structured data from any website
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Microlink.io
+  url: https://microlink.io
+  category: Open Data
+- list: public-api-lists
+  name: Microlink.io
+  url: https://microlink.io
+  category: Open Data
+link_status: alive
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+notes: 'Read the Terms of Service (30 Oct 2026) and pricing. Terms contain no non-commercial restriction
+  on the Free plan (25 requests/day) and give the user all rights to the outputs received; the user is
+  responsible for the URLs sent and how results are used (AUP: no law-breaking, no bypassing logins/paywalls,
+  no quota evasion). The grant covers Microlink''s own service; the extracted metadata/screenshots belong
+  to the source websites, whose rights the terms do not clear (so green is conditional on how the extracted
+  content is used). Terms mention API keys identifying accounts (section 2), so the upstream auth value
+  ''none'' may be stale (not verified here).'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+api_terms_url: https://microlink.io/terms
+commercial_use: 'yes'
+commercial_use_scope: any
+storage_caching: ambiguous
+redistribution_display: ambiguous
+attribution_required: unknown
+rate_limits: Free 25 requests/day; Pro $49/month 46,000 requests/month (paid tiers higher)
+bulk_download: unknown
+self_host_option: unknown
+evidence:
+- field: commercial_use
+  url: https://microlink.io/terms
+  quote: You keep all rights to the content and data you send to the Services and to the outputs you receive.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://microlink.io/terms
+  quote: You keep all rights to the content and data you send to the Services and to the outputs you receive.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://microlink.io/terms
+  quote: You keep all rights to the content and data you send to the Services and to the outputs you receive.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://microlink.io/pricing
+  quote: $ 0 /month 25 requests per day
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://microlink.io/terms
+  quote: You are responsible for the URLs you send to the Services and for how you use the results.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://microlink.io/terms
+  quote: break any law, or infringe the rights of others, including intellectual property and privacy
+    rights
+  checked_at: '2026-11-21'
+data_license: unknown
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Not a data licence: outputs are third-party website content the terms do not clear;
+  AUP forbids infringing others'' IP; user responsible for results; Free plan only 25 requests/day | applied:
+  storage_caching=ambiguous, redistribution_display=ambiguous'

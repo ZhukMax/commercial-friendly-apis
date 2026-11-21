@@ -1,0 +1,30 @@
+id: world-trading-data
+name: World Trading Data
+url: https://www.worldtradingdata.com/
+category: Finance
+description: Market data provider
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-api-lists
+  name: World Trading Data
+  url: https://www.worldtradingdata.com/
+  category: Finance
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://marketstack.com/
+notes: worldtradingdata.com returns HTTP 301 to marketstack.com. The marketstack page read does not state that it replaces or is the same service as World Trading Data, so no terms were transferred. Nothing
+  read about World Trading Data itself; all terms unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

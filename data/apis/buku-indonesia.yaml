@@ -1,0 +1,65 @@
+id: buku-indonesia
+name: Buku Indonesia
+url: https://github.com/khrlanamm/buku-indonesia
+category: Books
+description: Open data for Indonesian books by ISBN, author, and category
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Buku Indonesia
+  url: https://github.com/khrlanamm/buku-indonesia#api
+  category: Books
+link_status: alive
+data_license: CC0-1.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'no'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://github.com/khrlanamm/buku-indonesia
+data_license_url: https://github.com/khrlanamm/buku-indonesia
+commercial_use_scope: any
+share_alike: 'no'
+evidence:
+- field: data_license
+  url: https://github.com/khrlanamm/buku-indonesia
+  quote: The data in data/ is dedicated to the public domain under CC0 1.0.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://github.com/khrlanamm/buku-indonesia
+  quote: The data in data/ is dedicated to the public domain under CC0 1.0.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://github.com/khrlanamm/buku-indonesia
+  quote: The data in data/ is dedicated to the public domain under CC0 1.0.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://github.com/khrlanamm/buku-indonesia
+  quote: The data in data/ is dedicated to the public domain under CC0 1.0.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://github.com/khrlanamm/buku-indonesia
+  quote: A link back is welcome but not required.
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://github.com/khrlanamm/buku-indonesia
+  quote: The data in data/ is dedicated to the public domain under CC0 1.0.
+  checked_at: '2026-11-21'
+notes: 'Read the GitHub README (licence and credits). Data is CC0, code MIT, hosted as static JSON on
+  GitHub Pages (hobby, 2 commits, 1 star: durability risk). README says facts come from Open Library,
+  Wikipedia infoboxes and hand checks; covers (coverUrl) point to Open Library and are not part of the
+  dataset. Upstream sources'' terms were not checked; CC0 declaration is by the maintainer. self_host_option
+  set from the repo being open (build instructions in README) - not a quoted claim.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Minor: some facts from Wikipedia infoboxes (CC BY-SA, facts only); cover URLs point
+  to Open Library and are not covered. Hobby repo, durability risk.'

@@ -1,0 +1,65 @@
+id: sunrise-and-sunset
+name: Sunrise and Sunset
+url: https://sunrise-sunset.org/api
+category: Science & Math
+description: Sunset and sunrise times for a given latitude and longitude
+description_source: upstream
+auth: none
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Sunrise and Sunset
+  url: https://sunrise-sunset.org/api
+  category: Science & Math
+- list: public-api-lists
+  name: Sunrise and Sunset
+  url: https://sunrise-sunset.org/api
+  category: Science & Math
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://sunrise-sunset.org/terms
+commercial_use_scope: free-tier
+attribution_text: 'Visible link to sunrise-sunset.org next to the data (screen devices: "Sun data by Sunrise-Sunset.org")'
+rate_limits: Free for reasonable request volumes; HTTP 429 with Retry-After when too fast
+evidence:
+- field: attribution_required
+  url: https://sunrise-sunset.org/api
+  quote: The API is free of charge for reasonable request volumes. Attribution is required.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://sunrise-sunset.org/api
+  quote: the times for a given date never change , so save the response and reuse it instead of asking
+    again
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://sunrise-sunset.org/api
+  quote: display a visible link to sunrise-sunset.org in the app or page where you show the data
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://sunrise-sunset.org/terms
+  quote: This site is for personal use only.
+  checked_at: '2026-11-21'
+notes: Read the API v2 page (April 2026) and the general Terms of use. The API page allows free use with
+  a visible-link attribution and explicitly encourages saving/reusing responses, but never mentions commercial
+  use. The generic site Terms say "This site is for personal use only" and forbid automated extraction
+  from the site (apparently aimed at the website, not the API) - conflicting, so commercial_use is ambiguous.
+  Consider asking the operator.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read API page and /terms. API page: ''The API is free of charge for reasonable
+  request volumes. Attribution is required.'' and lists website/app/device/no-screen attribution forms,
+  never mentions commercial use or forbids it. Terms of use: ''This site is for personal use only.'' plus
+  ''Do not use automated scripts or programs to extract data from this site'' (website scope). Evidence
+  leans permissive'

@@ -1,0 +1,82 @@
+id: pick-an-agency
+name: Pick an Agency
+url: https://www.pickanagency.com/developers
+category: Business
+description: Search 47,000+ marketing agencies by service, location and rating
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Pick an Agency
+  url: https://www.pickanagency.com/developers
+  category: Business
+link_status: alive
+data_license: CC-BY-4.0
+commercial_use: ambiguous
+storage_caching: 'yes'
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://creativecommons.org/licenses/by/4.0/
+api_terms_url: https://www.pickanagency.com/developers
+commercial_use_scope: any
+attribution_text: Credit Pick an Agency with a link to pickanagency.com or the agency's profile_url when
+  displaying data publicly
+rate_limits: No key; keep well under a few requests per second
+evidence:
+- field: data_license
+  url: https://www.pickanagency.com/developers
+  quote: The API is free for apps, research, journalism and AI tools under CC BY 4.0
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.pickanagency.com/developers
+  quote: when you display the data publicly, credit Pick an Agency with a link to pickanagency.com or
+    to the agency's profile_url
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.pickanagency.com/developers
+  quote: when you display the data publicly, credit Pick an Agency with a link to pickanagency.com or
+    to the agency's profile_url
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.pickanagency.com/developers
+  quote: responses are CDN-cached, so cache on your side too
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://www.pickanagency.com/developers
+  quote: keep it well under a few requests per second
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.pickanagency.com/methodology
+  quote: Review data is aggregated from Clutch, Google Maps and agency websites
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.pickanagency.com/terms
+  quote: Agency listings may include information sourced from public data, user submissions, and third-party
+    platforms.
+  checked_at: '2026-11-21'
+notes: 'Read the developer page (https://www.pickanagency.com/developers) and site Terms (https://www.pickanagency.com/terms,
+  Mar 2026). API data licensed CC BY 4.0 with link-back; CC deed says commercial use allowed. Caching
+  is encouraged; no retention limit stated, but bulk data needs a request by email and the site ToS bans
+  scraping beyond normal use. share_alike=no: CC BY is not share-alike (deed read). Doubt: directory listings
+  include information sourced from public data, user submissions and third-party platforms (per ToS) and
+  client reviews, so upstream/third-party rights (review text, logos belong to owners) may be stricter;
+  whether the CC BY claim covers review text was not verified.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Aggregated review data comes from Clutch and Google Maps, whose terms the operator
+  cannot relicense under CC BY; API returns recent client reviews; Site ToS: content owned or licensed
+  to Pick an Agency, bans scraping beyond normal use; first pass flagged this doubt but did not resolve
+  it | applied: redistribution_display=ambiguous, commercial_use=ambiguous'

@@ -1,0 +1,25 @@
+id: voxell-forge
+name: Voxell Forge
+url: https://voxell.ai/docs/
+category: Machine Learning
+description: OpenAI-compatible text embeddings API, free-forever model with no credit card required
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Voxell Forge
+  url: https://voxell.ai/docs/#forge
+  category: Machine Learning
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

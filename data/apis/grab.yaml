@@ -1,0 +1,45 @@
+id: grab
+name: Grab
+url: https://developer.grab.com/docs/
+category: Transportation
+description: Track deliveries, ride fares, payments and loyalty points
+description_source: upstream
+auth: OAuth
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Grab
+  url: https://developer.grab.com/docs/
+  category: Transportation
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: ambiguous
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://developer.grab.com/pages/terms-of-use
+evidence:
+- field: attribution_required
+  url: https://developer.grab.com/pages/terms-of-use
+  quote: You will display any attribution(s) required by Grab as described in the documentation for the
+    Grab Developer Content
+  checked_at: '2026-11-21'
+notes: Grab API Terms of Use / Platform Development Agreement (read via Playwright, dated 11 Nov 2022)
+  are a partner agreement for payments, delivery and other APIs behind OAuth partner accounts; they forbid
+  copying/creating derivative works of Grab Developer Content and defer to Specific API Terms and separate
+  agreements. No public data licence on commercial display or caching; this is not an open data API. Core
+  fields unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: All core fields correctly unknown.
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

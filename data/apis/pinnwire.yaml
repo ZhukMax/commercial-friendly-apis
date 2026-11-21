@@ -1,0 +1,31 @@
+id: pinnwire
+name: PinnWire
+url: https://pinnwire.com/docs.html
+category: Sports & Fitness
+description: Real-time Pinnacle odds for 13 sports — live and prematch over REST, WebSocket and SSE drop alerts
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: PinnWire
+  url: https://pinnwire.com/docs.html
+  category: Sports & Fitness
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+notes: 'Read docs.html, homepage (pricing section) and llms-full.txt: no commercial-use, storage, display or attribution terms stated. No terms/privacy page found (guessed /terms.html and /pricing.html
+  return JSON not_found in a browser; some paths gave a JS/cookie challenge to curl, not bypassed). All terms fields unknown. Service republishes Pinnacle sportsbook odds (''Pinnacle-attributed odds'');
+  upstream rights and operator terms likely restrict public display/resale (not verified). Playwright used once to confirm the pages.'
+evidence: []
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

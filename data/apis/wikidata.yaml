@@ -1,0 +1,81 @@
+id: wikidata
+name: Wikidata
+url: https://www.wikidata.org/w/api.php?action=help
+category: Open Data
+description: Collaboratively edited knowledge base operated by the Wikimedia Foundation
+description_source: upstream
+auth: OAuth
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Wikidata
+  url: https://www.wikidata.org/w/api.php?action=help
+  category: Open Data
+- list: public-api-lists
+  name: Wikidata
+  url: https://www.wikidata.org/w/api.php?action=help
+  category: Open Data
+link_status: alive
+data_license: CC0-1.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'no'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: high
+link_checked_at: '2026-11-21'
+link_note: HTTP 429 (blocked for bots, assumed alive)
+data_license_url: https://www.wikidata.org/wiki/Wikidata:Licensing
+api_terms_url: https://www.mediawiki.org/wiki/API:Etiquette
+commercial_use_scope: any
+share_alike: 'no'
+rate_limits: No fixed numeric limit documented in the page read; must follow API:Etiquette (User-Agent,
+  serial requests, maxlag); write requests rate-limited
+evidence:
+- field: data_license
+  url: https://www.wikidata.org/wiki/Wikidata:Licensing
+  quote: All structured data (i.e. the main, Property, Lexeme, and EntitySchema namespaces) is released
+    into the public domain under Creative Commons Zero.
+  checked_at: '2026-11-21'
+- field: api_terms_url
+  url: https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use
+  quote: By using our APIs, you agree to abide by all applicable policies governing the use of the APIs
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.wikidata.org/wiki/Wikidata:Licensing
+  quote: All structured data (i.e. the main, Property, Lexeme, and EntitySchema namespaces) is released
+    into the public domain under Creative Commons Zero.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.wikidata.org/wiki/Wikidata:Licensing
+  quote: All structured data (i.e. the main, Property, Lexeme, and EntitySchema namespaces) is released
+    into the public domain under Creative Commons Zero.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.wikidata.org/wiki/Wikidata:Licensing
+  quote: All structured data (i.e. the main, Property, Lexeme, and EntitySchema namespaces) is released
+    into the public domain under Creative Commons Zero.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.wikidata.org/wiki/Wikidata:Licensing
+  quote: All structured data (i.e. the main, Property, Lexeme, and EntitySchema namespaces) is released
+    into the public domain under Creative Commons Zero.
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://www.wikidata.org/wiki/Wikidata:Licensing
+  quote: All structured data (i.e. the main, Property, Lexeme, and EntitySchema namespaces) is released
+    into the public domain under Creative Commons Zero.
+  checked_at: '2026-11-21'
+notes: 'Structured data (items, properties, lexemes) is CC0: commercial use, storage and display allowed
+  without attribution. Text in other namespaces (talk pages etc.) is CC BY-SA 4.0. API use is subject
+  to the Wikimedia Terms of Use, User-Agent Policy, Robot Policy and API:Etiquette (identify your client,
+  no abuse); the Wikidata Query Service has separate limits not checked here. Read access needs no auth;
+  OAuth only for edits.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Other namespaces CC BY-SA; follow API:Etiquette/User-Agent policy; WDQS limits separate.

@@ -1,0 +1,56 @@
+id: florida-man
+name: Florida Man
+url: https://github.com/juliayxhuang/florida-man-api
+category: News
+description: Static JSON dataset of 10,000+ Florida Man headlines by date
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Florida Man
+  url: https://github.com/juliayxhuang/florida-man-api#readme
+  category: News
+link_status: alive
+data_license: MIT (repo licence; README also says non-commercial intent)
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://github.com/juliayxhuang/florida-man-api/blob/main/LICENSE
+api_terms_url: https://github.com/juliayxhuang/florida-man-api
+attribution_text: Give credit (MIT)
+commercial_use_scope: any
+evidence:
+- field: data_license
+  url: https://github.com/juliayxhuang/florida-man-api
+  quote: MIT — free to use, just give credit.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://github.com/juliayxhuang/florida-man-api
+  quote: MIT — free to use, just give credit.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://github.com/juliayxhuang/florida-man-api
+  quote: This dataset is intended for personal, educational, and non-commercial use
+  checked_at: '2026-11-21'
+notes: 'Static JSON dataset on GitHub Pages. The README conflicts with itself: licence section says MIT
+  (free to use), while Notes say the dataset is intended for personal, educational and non-commercial
+  use, hence commercial_use=ambiguous (verdict yellow at best). Dataset consists of headlines scraped
+  from third-party news sites (title + link to original), so upstream publishers keep their rights; not
+  assessed. Storage/display not addressed explicitly beyond MIT, left unknown. Pages read: repo README
+  and repo page via curl; GitHub API reports MIT.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Verified LICENSE file exists (raw 200) and README says 'MIT - free to use, just give
+  credit' plus 'intended for personal, educational, and non-commercial use'. MIT grants rights over the
+  compilation; the headlines are scraped from news sites (foxnews.com etc.) whose rights are not licensable
+  by the repo author. Ambiguity stands, leaning allowed for the compilation only.

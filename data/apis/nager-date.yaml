@@ -1,0 +1,65 @@
+id: nager-date
+name: Nager.Date
+url: https://date.nager.at
+category: Calendar
+description: Public holidays for more than 90 countries
+description_source: upstream
+auth: none
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Nager.Date
+  url: https://date.nager.at
+  category: Calendar
+- list: public-api-lists
+  name: Nager.Date
+  url: https://nagerholidays.com
+  category: Calendar
+link_status: redirect
+data_license: unknown
+commercial_use: paid-only
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: -> https://nagerholidays.com/
+api_terms_url: https://nagerholidays.com/legal/termsofservice
+commercial_use_scope: paid
+share_alike: unknown
+rate_limits: 'Stated: no rate limits'
+notes: 'Entry URL date.nager.at 301-redirects to nagerholidays.com, whose pages are branded ''Nager.Date''
+  / Nager.Holidays and describe the same open-source holiday API, so the nagerholidays.com terms were
+  applied (see also entry nager-date-nagerholidays). Nager.Date / Nager.Holidays hosted API (nagerholidays.com).
+  Terms of Service (last updated 2023-09-15): API usable for private or non-profit projects; commercial
+  purposes require active sponsorship (so commercial = paid-only, sponsorship amount not stated on the
+  pages read). Also forbids using the holiday information to publish or operate your own holiday portal,
+  which makes display on a holiday-focused site ambiguous. Caching and attribution not addressed. API
+  page says no rate limits. Data licence not stated; holiday data comes from public sources (not assessed).  Merged
+  duplicate entry `nager-date-nagerholidays`.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+evidence:
+- field: commercial_use
+  url: https://nagerholidays.com/legal/termsofservice
+  quote: The Web API can be used for private or non-profit projects. For commercial purposes we require
+    active sponsorship.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://nagerholidays.com/legal/termsofservice
+  quote: It is not allowed to use the holiday information to publish or operate your own holiday portal.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://nagerholidays.com/api
+  quote: No Rate Limits Unlimited queries
+  checked_at: '2026-11-21'
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read nagerholidays.com ToS and GitHub README. Paid-only stands; display on a holiday-focused
+  site is blocked by the portal clause.
+aliases:
+- nager-date-nagerholidays

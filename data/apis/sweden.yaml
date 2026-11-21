@@ -1,0 +1,25 @@
+id: sweden
+name: Sweden
+url: https://developer.postnord.com/docs2
+category: Tracking
+description: Provides information about parcels in transport
+description_source: upstream
+auth: apiKey
+https: false
+cors: unknown
+sources:
+- list: public-api-lists
+  name: Sweden
+  url: https://developer.postnord.com/docs2
+  category: Tracking
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

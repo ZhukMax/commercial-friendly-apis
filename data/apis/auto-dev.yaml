@@ -1,0 +1,64 @@
+id: auto-dev
+name: Auto.dev
+url: https://auto.dev
+category: Vehicle
+description: VIN decode, vehicle listings, payments, recalls, specs via REST API, CLI, SDK, or MCP
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-api-lists
+  name: Auto.dev
+  url: https://auto.dev
+  category: Vehicle
+link_status: alive
+data_license: proprietary (Auto.dev Terms of Service)
+commercial_use: paid-only
+storage_caching: ambiguous
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://www.auto.dev/terms
+api_terms_url: https://www.auto.dev/terms
+commercial_use_scope: any
+rate_limits: Free plan 1,000 calls/month; Growth $299/mo, Scale $599/mo plus usage fees
+evidence:
+- field: commercial_use
+  url: https://www.auto.dev/terms
+  quote: Build automotive-related software products and services
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.auto.dev/terms
+  quote: You may not create derivative databases or competing data products
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.auto.dev/terms
+  quote: Resell, redistribute, or sublicense our Automotive Data to third parties
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.auto.dev/terms
+  quote: You receive a limited, non-exclusive license to use Automotive Data solely for your internal
+    business purposes
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.auto.dev/terms
+  quote: are not for production systems serving end users
+  checked_at: '2026-11-21'
+notes: 'Read Terms of Service sec. 2, 4 (last updated 2026-09-16). Permitted: integrate data into applications,
+  build automotive software products, legitimate business purposes (no non-commercial restriction on the
+  Free plan was found). But the data licence is "solely for your internal business purposes", reselling/redistributing
+  data to third parties is banned, and no derivative databases. That makes public display, storage and
+  caching on an ad/affiliate site ambiguous; there is no explicit caching rule on the page. Listings/photos
+  data come from upstream dealers/marketplaces (not assessed). No attribution clause found, brand/logo
+  use needs written permission.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Free plan is not for production systems serving end users; commercial use effectively
+  paid-only | applied: commercial_use=paid-only'

@@ -1,0 +1,38 @@
+id: intellibook
+name: Intellibook
+url: https://www.intellibookai.com/docs
+category: Calendar
+description: Appointment booking and availability API for salons and clinics
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Intellibook
+  url: https://www.intellibookai.com/docs
+  category: Calendar
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.intellibookai.com/terms
+rate_limits: 100 requests/minute per IP
+notes: 'Not a data source: Intellibook AI is an appointment-booking / WhatsApp receptionist SaaS; its
+  API (search registered businesses, slots, booking) operates on businesses'' own account data. Read the
+  Terms of Service (https://www.intellibookai.com/terms): licence to use the platform for bookings and
+  WhatsApp communications; forbids scraping customer data of other users on the marketplace and reselling
+  access. No statement on commercial reuse, caching or display of API data, so core fields unknown. Public
+  endpoints need no key (100 req/min per IP).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

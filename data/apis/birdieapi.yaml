@@ -1,0 +1,73 @@
+id: birdieapi
+name: BirdieAPI
+url: https://birdieapi.com/docs
+category: Sports & Fitness
+description: 'PGA Tour golf since 2001: leaderboards, hole-by-hole scores, courses, ratings and major
+  winner odds'
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: BirdieAPI
+  url: https://birdieapi.com/docs
+  category: Sports & Fitness
+link_status: alive
+data_license: proprietary (BirdieAPI Terms of Service, OWSH Unlimited LLC)
+commercial_use: 'yes'
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+commercial_use_scope: any
+api_terms_url: https://birdieapi.com/terms
+evidence:
+- field: commercial_use
+  url: https://birdieapi.com/terms
+  quote: You may use the Service for personal projects, research, analysis, and commercial apps, websites
+    and tools you build.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://birdieapi.com/terms
+  quote: Showing data, including individual odds, to your own end users in your own app, website or dashboard
+    is fine, and so are storing it
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://birdieapi.com/terms
+  quote: Showing data, including individual odds, to your own end users in your own app, website or dashboard
+    is fine
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://birdieapi.com/terms
+  quote: resell, repackage or redistribute the data as a standalone product, feed, file, dataset or API
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://birdieapi.com/docs/timing-and-rights
+  quote: It doesn't cover a product that keeps serving users on the data
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://birdieapi.com/docs/timing-and-rights
+  quote: league rights, marks and the league's own reports aren't ours to grant.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://birdieapi.com/terms
+  quote: Some sources limit how their data may be used; you agree to pass those limits on to your own
+    users
+  checked_at: '2026-11-21'
+notes: 'Terms of Service (effective Oct 17 2026). Commercial apps/sites, display and storing are explicit;
+  standalone/bulk redistribution forbidden. Section 9: data compiled from public websites, open datasets
+  and paid providers, BirdieAPI is not an official PGA Tour data provider and "some sources limit how
+  their data may be used" - upstream (tour/league) terms may be stricter and are not listed. Attribution
+  not mentioned (unknown). Same operator and template as AcesAPI.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'storage only while account is open; cannot keep serving a product on stored data after
+  cancelling; no league rights granted; sources undisclosed, some sources limit use and limits must be
+  passed on; grant is revocable and only ''to the extent we are allowed to give it'' | applied: storage_caching=limited'

@@ -1,0 +1,40 @@
+id: sales-tax-calculator
+name: Sales Tax Calculator
+url: https://salestaxcalculatorapi.com
+category: Finance
+description: Computes exact sales tax amounts and breakdowns for checkout and billing
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Sales Tax Calculator
+  url: https://salestaxcalculatorapi.com
+  category: Finance
+link_status: alive
+data_license: unknown
+commercial_use: 'yes'
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://salestaxcalculatorapi.com/terms
+commercial_use_scope: paid
+evidence:
+- field: commercial_use
+  url: https://salestaxcalculatorapi.com/terms
+  quote: Customers may use the API for qualified sales tax calculation workflows, including supported
+    VAT, GST, and related indirect-tax use cases.
+  checked_at: '2026-11-21'
+notes: 'Calculation service (not a data licence): terms cover accounts, billing and plan limits and permit
+  use in tax calculation workflows (checkout/billing). Nothing on the Terms or Acceptable use pages about
+  storing, caching or displaying results to third parties, or attribution, so those stay unknown. Acceptable
+  use forbids scraping or reconstructing protected tax content. Free-tier terms not read; plan limits
+  are in the selected plan.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

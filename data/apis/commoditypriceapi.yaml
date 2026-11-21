@@ -1,0 +1,63 @@
+id: commoditypriceapi
+name: CommodityPriceAPI
+url: https://commoditypriceapi.com/
+category: Finance
+description: Real-time & historical commodity prices (metals, energy, etc)
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-api-lists
+  name: CommodityPriceAPI
+  url: https://commoditypriceapi.com/
+  category: Finance
+link_status: alive
+data_license: proprietary (plan-scoped licence); derived broker mid-prices, not a direct exchange feed
+commercial_use: paid-only
+storage_caching: limited
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: high
+link_checked_at: '2026-11-21'
+api_terms_url: https://commoditypriceapi.com/terms
+commercial_use_scope: paid
+cache_limit: in-memory caching only on Basic/Standard/Advanced; permanent DB only on Enterprise
+share_alike: unknown
+evidence:
+- field: commercial_use
+  url: https://commoditypriceapi.com/terms
+  quote: Basic, and the legacy Lite and Plus plans, are for internal use only.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://commoditypriceapi.com/terms
+  quote: requires Standard, Advanced or Enterprise
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://commoditypriceapi.com/terms
+  quote: you may cache API responses in memory or in RAM only
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://commoditypriceapi.com/terms
+  quote: Showing the data itself to your users, or redistributing or reselling it, requires an Enterprise
+    distribution licence.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://commoditypriceapi.com/terms
+  quote: The data is derived, not a direct exchange feed.
+  checked_at: '2026-11-21'
+notes: Read full Terms & Conditions (section 5). Basic is internal use only; Standard/Advanced allow commercial
+  products showing "something of your own built from" the data; showing the price data itself to users
+  (e.g. prices on a website) needs the Enterprise distribution licence. Storage is in-memory only except
+  on Enterprise. So a price-display site needs Enterprise (contact sales) = ambiguous/yellow. Prices are
+  broker mid-market prices derived from exchange-traded futures (ICE, NYMEX), not exchange feeds; no exchange
+  redistribution licence is stated.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read Terms 5.1-5.5. A price-display site needs Enterprise (custom pricing); yellow/paid-only
+  stands. Upstream exchange (ICE/NYMEX) licence not stated.

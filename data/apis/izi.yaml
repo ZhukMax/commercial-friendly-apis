@@ -1,0 +1,61 @@
+id: izi
+name: Izi
+url: http://api-docs.izi.travel/
+category: Transportation
+description: Audio guide for travellers
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Izi
+  url: http://api-docs.izi.travel/
+  category: Transportation
+- list: public-api-lists
+  name: Izi
+  url: http://api-docs.izi.travel/
+  category: Transportation
+link_status: alive
+data_license: proprietary (izi.TRAVEL API licence; content from third-party Content Providers)
+commercial_use: paid-only
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://izi.travel/en/legal_api
+api_terms_url: https://izi.travel/en/legal_api
+commercial_use_scope: paid
+cache_limit: 3 days
+attribution_text: Attribute every piece of Content to its Source as delivered in the Content License
+share_alike: unknown
+evidence:
+- field: commercial_use
+  url: https://izi.travel/en/legal_api
+  quote: The use of the Licensed Materials in accordance with this Agreement is free for usage below the threshold, primarily for testing.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://izi.travel/en/legal_api
+  quote: Under no circumstances will Licensee or Licensee Product store or cache Content for longer than three (3) days
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://izi.travel/en/legal_api
+  quote: use the Content in Licensee Products; and/or sublicense, deliver and/or distribute the Content with and/or as part of Licensee Products
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://izi.travel/en/legal_api
+  quote: Licensee Product(s) shall not display any Content without attribution to the Source (if available), as delivered in the Content License.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://izi.travel/en/legal_api
+  quote: the Content Providers have granted a license to izi.TRAVEL to give access to third parties to their Content included in the izi.TRAVEL Database
+  checked_at: '2026-11-21'
+notes: 'License Terms of the izi.TRAVEL API (1 Jan 2026): free only below 10,000 Content Object usages per month "primarily for testing and onboarding"; above that a monthly per-user fee applies (from EUR
+  100/month), and paid content needs a content partner agreement, so commercial_use = paid-only. Cache limit 3 days (violation cancels the licence). Article 29 forbids adding advertisements or sponsored
+  material to the displayed Content without izi.TRAVEL written consent, which matters for an ad-supported site. Content Providers may request that parts not be displayed.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

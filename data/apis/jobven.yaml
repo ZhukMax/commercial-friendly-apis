@@ -1,0 +1,55 @@
+id: jobven
+name: Jobven
+url: https://jobven.com/docs/getting-started
+category: Jobs
+description: Job postings tracked as roles open and close, with webhooks on changes, from employer career
+  pages
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Jobven
+  url: https://jobven.com/docs/getting-started
+  category: Jobs
+link_status: alive
+data_license: proprietary (Jobven Terms of Service)
+commercial_use: ambiguous
+storage_caching: 'yes'
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://jobven.com/terms
+evidence:
+- field: commercial_use
+  url: https://jobven.com/terms
+  quote: You may use the data obtained through the Service for your internal business purposes.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://jobven.com/terms
+  quote: Resell or redistribute the raw data to third parties without authorization.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://jobven.com/terms
+  quote: You may use the data obtained through the Service for your internal business purposes.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://jobven.com/docs/guides/how-to-build-a-job-board
+  quote: Store jobs in your own database. Don't call the Jobven API on every page load.
+  checked_at: '2026-11-21'
+notes: Read https://jobven.com/terms (last updated Nov 29 2025). Data may be used for "internal business
+  purposes"; reselling/redistributing raw data and commercial exploitation beyond the plan need written
+  consent. Whether public display on an ad-supported job board is covered is unclear (docs have a Build
+  a Job Board guide, not read in detail). Storage/attribution not addressed. Jobs are collected from employer
+  career pages (upstream terms not assessed).
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Terms say ''internal business purposes'' but docs promote job boards and storing in
+  own DB; Docs resolve storage toward yes; commercial/display still conflicts with ToS | applied: storage_caching=yes'

@@ -1,0 +1,70 @@
+id: ipgeolocation
+name: ipgeolocation
+url: https://ipgeolocation.io/
+category: Geocoding
+description: IP Geolocation AP with free plan 30k requests per month
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: ipgeolocation
+  url: https://ipgeolocation.io/
+  category: Geocoding
+link_status: alive
+data_license: proprietary (IPGeolocation.io Terms of Service; licence type depends on plan)
+commercial_use: 'yes'
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: 'yes'
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://ipgeolocation.io/tos.html
+api_terms_url: https://ipgeolocation.io/tos.html
+commercial_use_scope: any
+share_alike: unknown
+rate_limits: 'Free: 1,000 credits/day; paid plans higher'
+notes: 'Read homepage (Free plan: 1,000 credits/day "for life", "You can use it in production") and the
+  full Terms of Service. The default End-User License (internal operations) allows displaying information
+  to individual end users of your application, but does not permit external exposure of raw lookup results;
+  the Commercial (SaaS) licence covers customer-facing products. Whether a free-plan site that shows results
+  to visitors falls under the default licence is unclear (ambiguous). Caching/storage and attribution
+  rules not found for the API (database licences are separate and downloadable). Self-host option = purchased
+  downloadable databases.'
+evidence:
+- field: commercial_use
+  url: https://ipgeolocation.io/
+  quote: Production and commercial use within 1,000 credits a day
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://ipgeolocation.io/tos.html
+  quote: you are hereby permitted to receive, process, and display information retrieved from IPGeolocation.io
+    API or Database to individual end-users of your application(s).
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://ipgeolocation.io/tos.html
+  quote: It does not permit external exposure of raw lookup results, public tools, white-labeling, or
+    providing direct or indirect raw lookup results to third parties.
+  checked_at: '2026-11-21'
+- field: self_host_option
+  url: https://ipgeolocation.io/tos.html
+  quote: IPGeolocation.io offers the following license types for its API and Database Services.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://ipgeolocation.io/tos.html
+  quote: Each license type defines your permitted scope of use, deployment rights, and redistribution
+    rights
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read tos.html. Ambiguity on display resolved: evidence points to ''yes, but only
+  per-visitor results inside your app'' (not public lookup tools, not shared raw data). Storage by end
+  users is forbidden (''do not permit your end users to store, distribute''); site-operator storage still
+  not addressed, so storage_caching stays unknown. Free-plan commercial sentence is stronger than the
+  first-pass home'

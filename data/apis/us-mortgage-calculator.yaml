@@ -1,0 +1,78 @@
+id: us-mortgage-calculator
+name: US Mortgage Calculator
+url: https://www.usmortgagecalc.com/developers/api
+category: Finance
+description: Mortgage payment, amortization, affordability and 50-state property tax data
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: US Mortgage Calculator
+  url: https://www.usmortgagecalc.com/developers/api
+  category: Finance
+link_status: alive
+data_license: CC-BY-4.0 (published reference datasets); API calculator outputs not separately licensed
+commercial_use: ambiguous
+storage_caching: 'yes'
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: 'yes'
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+data_license_url: https://www.usmortgagecalc.com/datasets
+api_terms_url: https://www.usmortgagecalc.com/terms
+commercial_use_scope: any
+share_alike: unknown
+rate_limits: Fair-use rate limits; optional key raises them
+evidence:
+- field: data_license
+  url: https://www.usmortgagecalc.com/datasets
+  quote: Free under CC BY 4.0
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.usmortgagecalc.com/datasets
+  quote: Free to reuse — including commercially — as long as you credit where it came from.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.usmortgagecalc.com/datasets
+  quote: Free to reuse — including commercially — as long as you credit where it came from.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.usmortgagecalc.com/datasets
+  quote: Free to reuse — including commercially — as long as you credit where it came from.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.usmortgagecalc.com/datasets
+  quote: Free to reuse — including commercially — as long as you credit where it came from.
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://www.usmortgagecalc.com/datasets
+  quote: Open mortgage datasets The reference data behind every calculator on this site, as CSV and JSON.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.usmortgagecalc.com/terms
+  quote: Republish the state data tables or written guides as your own, or present output from the calculators
+    as an official assessment
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.usmortgagecalc.com/terms
+  quote: The written guides, the state-by-state explanatory content, the page designs and the calculator
+    implementations are the property of DevScriptify
+  checked_at: '2026-11-21'
+notes: 'The CC BY 4.0 grant is stated on the Open datasets page for the reference data behind the calculators
+  (state property tax rates, loan limits, etc., CSV/JSON). The /developers/api page and Terms of Use give
+  no separate licence for API calculation responses (Terms: do not scrape/bulk-download at unreasonable
+  load or republish the state tables as your own; calculator output may not be presented as a lender quote).
+  Green is therefore for the datasets; API outputs likely covered but not stated. Underlying figures come
+  from Census/FHFA/etc. Pages read: /datasets, /terms, /developers/api.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Terms of Use conflict with datasets page; no licence for API output; Terms reserve
+  calculator implementations and forbid republishing state tables as own | applied: commercial_use=ambiguous,
+  redistribution_display=ambiguous'

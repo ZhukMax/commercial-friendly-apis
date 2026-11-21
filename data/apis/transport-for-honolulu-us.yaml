@@ -1,0 +1,33 @@
+id: transport-for-honolulu-us
+name: Transport for Honolulu, US
+url: http://hea.thebus.org/api_info.asp
+category: Transportation
+description: Honolulu Transportation Information
+description_source: upstream
+auth: apiKey
+https: false
+cors: unknown
+sources:
+- list: public-apis
+  name: Transport for Honolulu, US
+  url: http://hea.thebus.org/api_info.asp
+  category: Transportation
+- list: public-api-lists
+  name: Transport for Honolulu, US
+  url: http://hea.thebus.org/api_info.asp
+  category: Transportation
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+notes: 'Only the API info page (hea.thebus.org/api_info.asp) was read: API needs an AppID via registration; no terms of use, licence or usage conditions on the page (registration page and docs not read).
+  Served over plain HTTP. All unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

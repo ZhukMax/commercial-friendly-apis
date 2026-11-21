@@ -1,0 +1,55 @@
+id: trendsagi
+name: TrendsAGI
+url: https://trendsagi.com/api-docs
+category: Business
+description: Trending topic volume, velocity and growth with AI insights; free plan of 100 calls/day
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: TrendsAGI
+  url: https://trendsagi.com/api-docs
+  category: Business
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: 'no'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://trendsagi.com/terms
+evidence:
+- field: commercial_use
+  url: https://trendsagi.com/terms
+  quote: limited, non-exclusive, non-transferable right to access and use TrendsAGI for your internal
+    business purposes while your subscription is active
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://trendsagi.com/terms
+  quote: You may not resell, sublicense, scrape, reverse engineer, or use the service to build a competing
+    product
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://trendsagi.com/terms
+  quote: right to access and use TrendsAGI for your internal business purposes while your subscription
+    is active
+  checked_at: '2026-11-21'
+notes: Read Terms of Service (https://trendsagi.com/terms, 2 Nov 2026) and the API reference (https://trendsagi.com/api-docs/reference).
+  Use is licensed for internal business purposes while the subscription is active; resale, sublicensing
+  and scraping are banned; the terms say nothing on public display of trend data on a consumer site, caching
+  duration or attribution, and say API use is subject to plan limits and fair-use rules. The pricing page
+  URL returned 404 and the free plan (100 calls/day per the listing) was not verified, nor whether it
+  carries different terms. Trend data derive from social platforms (X, Instagram, YouTube, TikTok per
+  the footer), so upstream platform terms may be stricter.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Licence is for internal business purposes only; Public display on a consumer site
+  is not internal use | applied: redistribution_display=no'

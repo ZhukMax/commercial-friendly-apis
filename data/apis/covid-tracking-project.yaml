@@ -1,0 +1,66 @@
+id: covid-tracking-project
+name: Covid Tracking Project
+url: https://covidtracking.com/data/api/version-2
+category: Health
+description: Covid-19  data for the US
+description_source: upstream
+auth: none
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Covid Tracking Project
+  url: https://covidtracking.com/data/api/version-2
+  category: Health
+link_status: alive
+data_license: 'Conflicting: CC-BY-4.0 (license page) vs CC-BY-NC-4.0 (Terms & Conditions, June 2020)'
+commercial_use: ambiguous
+storage_caching: ambiguous
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://covidtracking.com/terms-and-conditions
+data_license_url: https://covidtracking.com/about-data/license
+attribution_text: The COVID Tracking Project at The Atlantic (with licence type)
+evidence:
+- field: data_license
+  url: https://covidtracking.com/about-data/license
+  quote: data and website content is published under a Creative Commons CC BY 4.0 license
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://covidtracking.com/about-data/license
+  quote: which requires users to attribute the source and license type (CC BY 4.0) when sharing our data
+    or website content.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://covidtracking.com/terms-and-conditions
+  quote: The Sites are provided solely for journalistic, research, academic, medical, healthcare, and/or
+    non-commercial use.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://covidtracking.com/terms-and-conditions
+  quote: nor transfer to or store any data residing or exchanged over the Sites in any electronic network
+    for commercial use.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://covidtracking.com/terms-and-conditions
+  quote: subject to the Creative Commons Attribution-NonCommercial 4.0 International License
+  checked_at: '2026-11-21'
+notes: 'Conflicting terms on the same site: the Data License page (page footer (c) 2022) says CC BY 4.0,
+  while the Terms and Conditions (last updated 2 June 2020) restrict the sites to journalistic/research/non-commercial
+  use, ban commercial storage/sale of data and point to CC BY-NC 4.0 (with a carve-out for healthcare/public-health
+  use incl. for-profit). The newer licence page suggests CC BY 4.0 was adopted later, but the T&C was
+  not updated, so ambiguous. Project stopped collecting data in March 2021 (not verified on a page read
+  here); API v2 is a static historical archive. Data aggregated from US state dashboards; upstream state
+  terms not checked.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Conflict is real and unresolved by the vendor. Conservative reading for an ad/affiliate
+  site: treat as non-commercial until The Atlantic clarifies. Ambiguous stands; the stricter T&C quote
+  on storage (''store any data ... for commercial use'') is the main blocker.'

@@ -1,0 +1,37 @@
+id: indian-msp-benchmarks
+name: Indian MSP Benchmarks
+url: https://msp-benchmarks-api.vercel.app/docs
+category: Government
+description: Statutory Minimum Support Prices and CACP production cost benchmarks across 28 Indian crops
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Indian MSP Benchmarks
+  url: https://msp-benchmarks-api.vercel.app/docs
+  category: Government
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://msp-benchmarks-api.vercel.app/docs
+rate_limits: 100 requests per 15 minutes per IP
+notes: 'Read /docs and the home page: no licence, terms of use or attribution statement found, only rate limits and "free/keyless". All terms fields left unknown. Underlying data comes from Indian government
+  (CACP/CCEA) publications, not assessed.'
+evidence:
+- field: rate_limits
+  url: https://msp-benchmarks-api.vercel.app/docs
+  quote: Standard limit is 100 requests per 15 minutes per IP.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+share_alike: unknown

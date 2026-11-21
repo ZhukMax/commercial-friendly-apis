@@ -1,0 +1,37 @@
+id: open-government-czech-republic
+name: Open Government, Czech Republic
+url: https://data.gov.cz/english/
+category: Government
+description: Czech Republic Government Open Data
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Open Government, Czech Republic
+  url: https://data.gov.cz/english/
+  category: Government
+link_status: alive
+data_license: unknown (site content CC BY 4.0; datasets carry publishers' own licences)
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+data_license_url: https://data.gov.cz/english/
+api_terms_url: https://data.gov.cz/english/
+evidence:
+- field: data_license
+  url: https://data.gov.cz/english/
+  quote: the copyrighted content present on this website (including sui generis database rights) is licensed under CC BY 4.0
+  checked_at: '2026-11-21'
+notes: Read data.gov.cz English home and the 'for users' page (Czech). The only licence statement covers the portal website's own content (CC BY 4.0, attribute and link the licence). The National Open Data
+  Catalogue (NKOD) is an index of datasets published by many providers; no catalogue-wide licence or API terms were found, and per-dataset licences were not checked, so commercial use, caching and display
+  are unknown. Check each dataset's licence on its provider page. Verdict unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

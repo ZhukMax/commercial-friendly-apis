@@ -1,0 +1,53 @@
+id: transport-for-los-angeles-us
+name: Transport for Los Angeles, US
+url: https://developer.metro.net/api/
+category: Transportation
+description: Data about positions of Metro vehicles in real time and travel their routes
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Transport for Los Angeles, US
+  url: https://developer.metro.net/api/
+  category: Transportation
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://developer.metro.net/terms-conditions/
+evidence:
+- field: redistribution_display
+  url: https://developer.metro.net/terms-conditions/
+  quote: You may display the Transport Information provided in the Services in conjunction with other
+    information You provide to end-users.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://developer.metro.net/terms-conditions/
+  quote: not integrate Transport Information as part of any advertisement
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://developer.metro.net/terms-conditions/
+  quote: acknowledge Metro as the provider of the Transport Information as set forth in the Web Services
+    Developer Guidelines
+  checked_at: '2026-11-21'
+notes: 'Metro developer Terms & Conditions: rights are limited to accessing and displaying the Transport
+  Information; no modification, accurate reproduction only, no integration into any advertisement (conflicts
+  with ad-supported pages), no use of Metro trademark, remove data on termination, unauthorised redistribution
+  prohibited. No explicit commercial-use or caching statement, and the Web Services Developer Guidelines
+  were not found. Real-time feeds are served by Swiftly and need a Swiftly API key (listing says auth
+  none); Swiftly terms not read.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read developer.metro.net T&C. Ad-integration ban is a real blocker for ad-supported
+  display; ambiguity unresolved; Swiftly real-time terms not read. Stays ambiguous/yellow, low confidence.

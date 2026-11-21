@@ -1,0 +1,26 @@
+id: bitcoincharts
+name: BitcoinCharts
+url: https://bitcoincharts.com/about/exchanges/
+category: Cryptocurrency
+description: Financial and Technical Data related to the Bitcoin Network
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: BitcoinCharts
+  url: https://bitcoincharts.com/about/exchanges/
+  category: Cryptocurrency
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: ConnectTimeout

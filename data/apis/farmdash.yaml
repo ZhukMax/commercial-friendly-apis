@@ -1,0 +1,30 @@
+id: farmdash
+name: FarmDash
+url: https://www.farmdash.one/agents
+category: Finance
+description: DeFi intelligence, protocol risk, yield simulation plus 84 MCP agent tools, free Scout tier
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: FarmDash
+  url: https://www.farmdash.one/agents
+  category: Finance
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.farmdash.one/terms
+notes: Read the agents page and Terms of Service (service and DeFi risk disclosure). Terms are mostly zero-custody, risk and liability language; no clause on commercial use, caching or display of API data.
+  Free Scout tier is keyless and limited to 30 requests per 24 hours per IP; paid tiers and x402 pay-per-call exist. Data is derived from public on-chain/protocol data (not checked). Core fields left unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

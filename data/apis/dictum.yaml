@@ -1,0 +1,26 @@
+id: dictum
+name: Dictum
+url: https://github.com/fisenkodv/dictum
+category: Personality
+description: API to get access to the collection of the most inspiring expressions of mankind
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Dictum
+  url: https://github.com/fisenkodv/dictum
+  category: Personality
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://github.com/bitcldr/dictum

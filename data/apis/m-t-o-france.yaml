@@ -1,0 +1,51 @@
+id: m-t-o-france
+name: Météo-France
+url: https://portail-api.meteofrance.fr/
+category: Weather
+description: French weather forecasts and alerts
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Météo-France
+  url: https://portail-api.meteofrance.fr/
+  category: Weather
+link_status: redirect
+data_license: per-API licence (Météo-France; open data APIs described as freely reusable)
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://portail-api.meteofrance.fr/web/
+api_terms_url: https://portail-api.meteofrance.fr/web/cpu
+notes: Portal (portail-api.meteofrance.fr, JS app, read via browser) redirects /web. The special terms
+  of use (/web/cpu, French) say each API has its own licence shown on the API page and at order; some
+  APIs are free public-service (open data) and others are paid. The home page says the open data APIs
+  are "free of charge and freely reusable", but no per-API licence page (e.g. Etalab/attribution) was
+  read, so commercial_use/storage/display remain unconfirmed. Mixed free and paid offers; check the licence
+  of each API.
+evidence:
+- field: commercial_use
+  url: https://portail-api.meteofrance.fr/web/cpu
+  quote: Chaque API est soumise à un engagement de licence et des conditions d’utilisation que l’Utilisateur
+    s’engage à respecter.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://portail-api.meteofrance.fr/web/en/
+  quote: Access to Météo-France public data APIs, free of charge and freely reusable
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read /web/fr/cpu (section 3.2) and portal home. The Etalab 2.0 statement (meteo.data.gouv.fr:
+  ''sous licence etalab-2.0'') points to commercial reuse with attribution for open-data datasets, but
+  it is not stated for each API behind the portal, so no field can be upgraded. No blocker found; fields
+  stand.'

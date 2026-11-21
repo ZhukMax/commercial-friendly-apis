@@ -1,0 +1,42 @@
+id: woocommerce
+name: WooCommerce
+url: https://woocommerce.github.io/woocommerce-rest-api-docs/
+category: Shopping
+description: WooCommerce REST APIS to create, read, update, and delete data on wordpress website in JSON
+  format
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: WooCommerce
+  url: https://woocommerce.github.io/woocommerce-rest-api-docs/
+  category: Shopping
+link_status: alive
+data_license: GPL-2.0 (WooCommerce software; no data licence)
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+data_license_url: https://github.com/woocommerce/woocommerce/blob/trunk/license.txt
+evidence:
+- field: data_license
+  url: https://github.com/woocommerce/woocommerce/blob/trunk/license.txt
+  quote: GNU GENERAL PUBLIC LICENSE Version 2, June 1991
+  checked_at: '2026-11-21'
+notes: 'Not a data source: the WooCommerce REST API (woocommerce.github.io/woocommerce-rest-api-docs)
+  is the interface of a self-hosted WordPress store and returns that store owner''s own data (key/secret
+  created by the store admin). The software licence is GPL (GitHub licence file; GitHub reports GPL-2.0).
+  GPL does not itself say anything about the data held by a given store, and the docs page carries no
+  terms, so commercial use/storage/display are left unknown rather than inferred.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

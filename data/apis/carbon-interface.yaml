@@ -1,0 +1,36 @@
+id: carbon-interface
+name: Carbon Interface
+url: https://docs.carboninterface.com/
+category: Environment
+description: API to calculate carbon (C02) emissions estimates for common C02 emitting activities
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Carbon Interface
+  url: https://docs.carboninterface.com/
+  category: Environment
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.carboninterface.com/terms
+rate_limits: 'Hobby (free): 200 requests/month'
+evidence:
+- field: rate_limits
+  url: https://www.carboninterface.com/
+  quote: Hobby Free 200 requests / month
+  checked_at: '2026-11-21'
+notes: Read the Terms of Use (updated 7/19/2020) and the home page pricing. The terms cover accounts, user content and conduct (no scraping, no excessive load) but say nothing on commercial use of API results,
+  caching or display. Pricing lists free Hobby, paid Startup/Business plans without licence differences. All terms fields unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

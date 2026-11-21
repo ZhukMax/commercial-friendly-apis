@@ -1,0 +1,35 @@
+id: bic-boxtech
+name: BIC-Boxtech
+url: https://docs.bic-boxtech.org/
+category: Transportation
+description: Container technical detail for the global container fleet
+description_source: upstream
+auth: OAuth
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: BIC-Boxtech
+  url: https://docs.bic-boxtech.org/
+  category: Transportation
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: 'no'
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.bic-code.org/api-terms-of-use/
+evidence:
+- field: storage_caching
+  url: https://www.bic-code.org/api-terms-of-use/
+  quote: scrape, build databases or otherwise create copies of any data accessed or obtained using the APIs
+  checked_at: '2026-11-21'
+notes: Read BIC API Terms of Use (linked from bic-boxtech.org/api). Licence to use the APIs is free, limited and revocable; storing/copying data and resale/sublicensing are prohibited. Commercial use, display
+  and attribution are not addressed, so unknown. Verdict per verdict.py is unknown although storage is forbidden; treat as unsuitable for caching/databases.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

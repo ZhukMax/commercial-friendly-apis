@@ -1,0 +1,26 @@
+id: correios
+name: Correios
+url: https://cws.correios.com.br/ajuda
+category: Tracking
+description: Integration to provide information and prepare shipments using Correio's services
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Correios
+  url: https://cws.correios.com.br/ajuda
+  category: Tracking
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://cas.correios.com.br/login?service=https%3A%2F%2Fcws.correios.com.br%2Flogin%2Fcas

@@ -1,0 +1,31 @@
+id: padel-snipe
+name: Padel Snipe
+url: https://padelsnipe.com/fr/world/api
+category: Sports & Fitness
+description: 4,000+ mapped padel clubs across 9 European countries with GPS and courts
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Padel Snipe
+  url: https://padelsnipe.com/fr/world/api
+  category: Sports & Fitness
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: HTTP 429 (blocked for bots, assumed alive)
+notes: 'Could not read any terms: padelsnipe.com (docs page /fr/world/api, /en/world/api, /terms, /fr/terms, /fr/cgu) returns a Vercel Security Checkpoint (bot verification, HTTP 429) to curl; not bypassed
+  per project rules. All terms fields left unknown. Data is a crowd/aggregated database of padel clubs (GPS, courts); upstream sources (e.g. maps/booking platforms) unknown.'
+evidence: []
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

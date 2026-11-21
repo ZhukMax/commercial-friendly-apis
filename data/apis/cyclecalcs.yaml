@@ -1,0 +1,77 @@
+id: cyclecalcs
+name: CycleCalcs
+url: https://www.cyclecalcs.com/api.html
+category: Science & Math
+description: 'Interpreted astronomy: sun and moon times, moon phases, planets, eclipses, seasons'
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: CycleCalcs
+  url: https://www.cyclecalcs.com/api.html
+  category: Science & Math
+link_status: alive
+data_license: 'CC0-1.0 (output rights statement: no copyright or database right asserted)'
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'no'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: high
+link_checked_at: '2026-11-21'
+data_license_url: https://www.cyclecalcs.com/api/terms.html
+api_terms_url: https://www.cyclecalcs.com/api/terms.html
+commercial_use_scope: free-tier
+share_alike: 'no'
+rate_limits: 'Anonymous tier: 300/min, 2,000/hour, 5,000/day; paid tiers via RapidAPI'
+evidence:
+- field: commercial_use
+  url: https://www.cyclecalcs.com/api/terms.html
+  quote: You may use, store, cache, publish, redistribute and build commercial products on them, without
+    restriction, without a license and without attribution.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.cyclecalcs.com/api/terms.html
+  quote: You may use, store, cache, publish, redistribute and build commercial products on them, without
+    restriction, without a license and without attribution.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.cyclecalcs.com/api/terms.html
+  quote: You may use, store, cache, publish, redistribute and build commercial products on them, without
+    restriction, without a license and without attribution.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.cyclecalcs.com/api/terms.html
+  quote: You may use, store, cache, publish, redistribute and build commercial products on them, without
+    restriction, without a license and without attribution.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.cyclecalcs.com/api/terms.html
+  quote: to the extent any such right exists anywhere it is dedicated to the public domain under CC0 1.0
+    Universal.
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://www.cyclecalcs.com/api/terms.html
+  quote: You may use, store, cache, publish, redistribute and build commercial products on them, without
+    restriction, without a license and without attribution.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://www.cyclecalcs.com/api/terms.html
+  quote: The anonymous tier is limited to 300 requests per minute, 2,000 requests per hour and 5,000 requests
+    per day
+  checked_at: '2026-11-21'
+notes: 'Terms of use for the API read in full. Output numbers are computed astronomical facts, explicitly
+  free for commercial use, storage, caching, redistribution without attribution. Exception: /v2/places
+  serves GeoNames data under CC BY 4.0 and requires the credit in meta.attribution.text; some sets (meteor
+  showers, Saros number) are withheld pending licence review. Free tier described as OK for hobby, educational
+  and small-scale commercial use; higher volume needs paid RapidAPI tier. Name/logo not licensed. Not
+  for safety-of-life use.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: /v2/places GeoNames CC BY requires credit; scope free-tier.

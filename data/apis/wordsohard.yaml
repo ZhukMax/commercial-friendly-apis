@@ -1,0 +1,68 @@
+id: wordsohard
+name: WordSoHard
+url: https://wordsohard.com/api
+category: Dictionaries
+description: Word definitions with Scrabble validity and tile score in one call, built for word games
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: WordSoHard
+  url: https://wordsohard.com/api
+  category: Dictionaries
+link_status: alive
+data_license: 'Free to use with attribution to wordsohard.com (definitions: Open English WordNet CC BY
+  4.0 + public-domain Webster 1913)'
+commercial_use: 'yes'
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://wordsohard.com/api
+commercial_use_scope: any
+cache_limit: Reuse of individual lookups via own cache is fine; scraping the dictionary is prohibited
+attribution_text: Definitions by WordSoHard (https://wordsohard.com) / credit line from the attribution
+  field
+share_alike: unknown
+rate_limits: About 60 requests per minute per IP, no key
+evidence:
+- field: commercial_use
+  url: https://wordsohard.com/api
+  quote: It is free for personal and commercial use as long as you credit WordSoHard where the definitions
+    appear.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://wordsohard.com/api
+  quote: Free to use with attribution to wordsohard.com
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://wordsohard.com/api
+  quote: Responses carry long cache headers, so browsers and your own cache layer can reuse a lookup instead
+    of repeating it.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://wordsohard.com/api
+  quote: show the credit line from the attribution field
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://wordsohard.com/api
+  quote: show the credit line from the attribution field
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://wordsohard.com/api
+  quote: stay under roughly 60 requests per minute per IP
+  checked_at: '2026-11-21'
+notes: 'API page says the API is free including commercially with attribution. The site Terms of Service
+  (May 2026, /terms) are about the website: personal non-commercial use of the site, no scraping the dictionary
+  or cached pages, no republishing substantial portions; they do not mention the API, so a minor conflict
+  remains (hence storage=limited and medium confidence). Dictionary: word list from public-domain ENABLE/YAWL,
+  definitions from Open English WordNet (CC BY 4.0) and Webster 1913 (public domain); Scrabble/Wordle
+  trademarks belong to others. Keyless with CORS.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

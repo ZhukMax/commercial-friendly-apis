@@ -1,0 +1,62 @@
+id: kakao-maps
+name: Kakao Maps
+url: https://apis.map.kakao.com
+category: Geocoding
+description: Kakao Maps provide multiple APIs for Korean maps
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Kakao Maps
+  url: https://apis.map.kakao.com
+  category: Geocoding
+link_status: alive
+data_license: proprietary (Kakao)
+commercial_use: ambiguous
+storage_caching: limited
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://developers.kakao.com/terms/latest/ko/site-policies
+cache_limit: Cache only to improve user experience and keep data up to date
+rate_limits: 'Hard limits: 10M API calls/day total, 500k MAU; per-API quotas in separate guide'
+evidence:
+- field: data_license
+  url: https://developers.kakao.com/terms/latest/ko/site-terms
+  quote: 정보(데이터, 비밀 키, 엑세스 토큰 등 포함)를 카카오의 사전 승낙 없이, 복사, 복제, 변경, 번역, 출판, 방송
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://developers.kakao.com/terms/latest/ko/site-policies
+  quote: 허가되지 않은 상업적 목적으로 카카오 플랫폼 서비스를 판매, 거래, 재판매하거나 악용하는 행위
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://developers.kakao.com/terms/latest/ko/site-policies
+  quote: 앱에서 사용자 환경을 개선하기 위한 목적 외 다른 목적으로 카카오에서 받은 데이터를 캐시하거나 캐시 후 최신 데이터로 유지하지 않는 행위
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://developers.kakao.com/terms/latest/ko/site-terms
+  quote: 정보(데이터, 비밀 키, 엑세스 토큰 등 포함)를 카카오의 사전 승낙 없이, 복사, 복제, 변경, 번역, 출판, 방송
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://developers.kakao.com/terms/latest/ko/site-policies
+  quote: 일일 총 API호출 1000만 건 초과 - Hard
+  checked_at: '2026-11-21'
+notes: Read the Kakao Developers service terms and operation policy (Korean). Data obtained via the services
+  may not be copied, republished or given to others without Kakao's prior consent; caching only to improve
+  UX and must be kept fresh; resale for unapproved commercial purposes is prohibited; Kakao trademark/"for
+  Kakao" naming rules apply. Plain use of the map in a commercial (Biz) app is not explicitly allowed
+  or denied, so ambiguous. Map-specific usage guide (quota list) not read.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Both quotes verified via Playwright on developers.kakao.com/terms/ko/site-policies
+  and site-terms. No page found that permits storing or redisplaying Kakao-sourced data outside the map
+  widget, and no explicit non-commercial restriction. Ambiguity unresolved; yellow stands, leaning restrictive
+  for stored/derived data.

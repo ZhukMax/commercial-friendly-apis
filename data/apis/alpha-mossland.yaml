@@ -1,0 +1,50 @@
+id: alpha-mossland
+name: Alpha (Mossland)
+url: https://alpha.moss.land/developers
+category: Cryptocurrency
+description: Korean crypto channel stance + RAG Q&A + canonical entity/topic/event store
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Alpha (Mossland)
+  url: https://alpha.moss.land/developers
+  category: Cryptocurrency
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: 'yes'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://alpha.moss.land/developers
+commercial_use_scope: any
+attribution_text: Alpha by Mossland — alpha.moss.land/[route] (suggested)
+evidence:
+- field: commercial_use
+  url: https://alpha.moss.land/developers
+  quote: Use them in apps, agents, and LLM workflows.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://alpha.moss.land/developers
+  quote: Free quotation welcome — please link the source URL inline.
+  checked_at: '2026-11-21'
+notes: 'Only the developers page (section ''Citation policy & license'') and llms.txt were read; there
+  is no separate ToS. Page says public endpoints are free, no-auth and may be used in apps, agents and
+  LLM workflows, but never mentions commercial or ad-supported use explicitly, hence ambiguous. Quotation
+  is welcome with an inline source link; attribution is only ''suggested'', so attribution_required stays
+  unknown. Caching/storage not addressed. Content is an aggregate/synthesis of Korean crypto channels,
+  news and YouTube creators: page says creator quotes are reproduced under short-quotation fair use, so
+  upstream rights may be stricter. No formal data licence stated.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Developers page re-read: free no-auth, use in apps, quotation with link welcome; no
+  commercial ban nor grant; upstream creator content under fair-use quotation.'

@@ -1,0 +1,75 @@
+id: worldcoinindex
+name: WorldCoinIndex
+url: https://www.worldcoinindex.com/apiservice
+category: Cryptocurrency
+description: Cryptocurrencies Prices
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: WorldCoinIndex
+  url: https://www.worldcoinindex.com/apiservice
+  category: Cryptocurrency
+- list: public-api-lists
+  name: WorldCoinIndex
+  url: https://www.worldcoinindex.com/apiservice
+  category: Cryptocurrency
+link_status: alive
+data_license: proprietary (WorldCoinIndex terms of use)
+commercial_use: 'no'
+storage_caching: ambiguous
+redistribution_display: 'no'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.worldcoinindex.com/terms-of-use
+rate_limits: 1 API key per IP; max 70 requests/hour; data updated every 5 minutes
+evidence:
+- field: commercial_use
+  url: https://www.worldcoinindex.com/terms-of-use
+  quote: You must not use the Content for commercial purposes without first obtaining the express written
+    authority of WORLDCOININDEX.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.worldcoinindex.com/terms-of-use
+  quote: You must not modify, copy, reproduce, republish, frame, download onto a computer, upload to a
+    third party, post, transmit or distribute this Content
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.worldcoinindex.com/terms-of-use
+  quote: You must not modify, copy, reproduce, republish, frame, download onto a computer, upload to a
+    third party, post, transmit or distribute this Content
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://www.worldcoinindex.com/apiservice
+  quote: API request are restricted to 1 API KEY per IP and a maximum of 70 requests per hour.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.worldcoinindex.com/terms-of-use
+  quote: You must not use the Content for commercial purposes without first obtaining the express written
+    authority of WORLDCOININDEX.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.worldcoinindex.com/terms-of-use
+  quote: consents to the use of such tools, watch lists and other content made available on the site for
+    personal and not commercial purposes
+  checked_at: '2026-11-21'
+notes: 'Read https://www.worldcoinindex.com/apiservice ("Our API is free of use", key required, asks users
+  to state purpose) and https://www.worldcoinindex.com/terms-of-use (last updated 2019). The site Terms
+  of Use bar commercial use of the site "Content" without written authority and copying/republishing/distributing
+  it; "commercial purpose" is defined as anything beyond personal and private decision making. The API
+  page does not say whether the API is exempt, so the two pages conflict or at least are unreconciled:
+  ambiguous. Strong risk that an ad-supported site needs written permission; treat as red unless WorldCoinIndex
+  confirms in writing. Prices aggregate exchange data (upstream terms unchecked).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Terms of Use define any use beyond personal private decision making as commercial
+  and bar it without written authority; API page says ''free of use'' but no commercial exemption | applied:
+  commercial_use=no, redistribution_display=no'

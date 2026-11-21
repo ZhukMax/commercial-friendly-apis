@@ -1,0 +1,80 @@
+id: us-street-address
+name: US Street Address
+url: https://www.smarty.com/docs/cloud/us-street-api
+category: Data Validation
+description: Validate and append data for any US postal address
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: US Street Address
+  url: https://www.smarty.com/docs/cloud/us-street-api
+  category: Data Validation
+- list: public-api-lists
+  name: US Street Address
+  url: https://smartystreets.com/docs/cloud/us-street-api
+  category: Data Validation
+link_status: redirect
+data_license: proprietary (Smarty Subscription Agreement; includes USPS data under Smarty USPS licence)
+commercial_use: ambiguous
+storage_caching: limited
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: -> https://www.smarty.com/docs/apis/us-street-api/reference
+api_terms_url: https://www.smarty.com/legal/subscription-agreement
+cache_limit: Licence to use and store Output Data under a Sales Order; retention after the subscription
+  ends only as the Sales Order/Product Terms allow, some data may require deletion and proof of destruction.
+commercial_use_scope: paid
+evidence:
+- field: data_license
+  url: https://www.smarty.com/legal/subscription-agreement
+  quote: grants Subscriber a non-exclusive, non-transferable, and non-sublicensable license to use and
+    store the Data Products and Output Data
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.smarty.com/legal/subscription-agreement
+  quote: Internal Business Purposes do not include resale, sublicensing, redistribution, or any other
+    commercial exploitation
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.smarty.com/legal/subscription-agreement
+  quote: This may include embedding permitted API Products into Subscriber
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.smarty.com/legal/subscription-agreement
+  quote: license to use and store the Data Products and Output Data subscribed to under the applicable
+    Sales Order
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.smarty.com/legal/subscription-agreement
+  quote: provided the API functions only in the background to process data and deliver results to end-users
+    interacting with
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.smarty.com/legal/subscription-agreement
+  quote: making the Subscription Services or bulk Output Data available to any third party
+  checked_at: '2026-11-21'
+notes: 'Smarty Subscription Agreement read in full (paid subscription; free access is a limited Free Trial
+  only). Data use is limited to "Internal Business Purposes": embedding the API in your own website or
+  application to return results to your end users is allowed, but resale, sublicensing, redistribution,
+  other commercial exploitation or making bulk Output Data available to third parties is not; you may
+  store Output Data under the Sales Order. This is ambiguous for an ad/affiliate site, hence yellow. Address
+  output includes USPS data with additional USPS compliance terms (and no creating competing address datasets).
+  The US Street Address product terms in the same agreement set the USPS Data compliance rules. Merged
+  duplicate entry `us-street-address-smartystreets`.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read Smarty Subscription Agreement: embedding in own site to serve end users allowed,
+  resale/redistribution/bulk output to third parties and compiling address databases barred; paid only.
+  Evidence still ambiguous, yellow stands. Not a source of data to store/display as catalog content.'
+aliases:
+- us-street-address-smartystreets

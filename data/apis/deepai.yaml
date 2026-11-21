@@ -1,0 +1,25 @@
+id: deepai
+name: DeepAI
+url: https://deepai.org/
+category: Machine Learning
+description: Provides AI-powered APIs for text generation, image processing, and more
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: DeepAI
+  url: https://deepai.org/
+  category: Machine Learning
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

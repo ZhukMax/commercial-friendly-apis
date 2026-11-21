@@ -1,0 +1,61 @@
+id: open-government-romania
+name: Open Government, Romania
+url: http://data.gov.ro/
+category: Government
+description: Romania Government Open Data
+description_source: upstream
+auth: none
+https: false
+cors: unknown
+sources:
+- list: public-apis
+  name: Open Government, Romania
+  url: http://data.gov.ro/
+  category: Government
+- list: public-api-lists
+  name: Open Government, Romania
+  url: http://data.gov.ro/
+  category: Government
+link_status: alive
+data_license: 'Per dataset: CC BY 4.0 recommended; OGL ROU 1.0 also integrated'
+commercial_use: 'yes'
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+data_license_url: https://data.gov.ro/pages/licence
+api_terms_url: https://data.gov.ro/termeni.html
+commercial_use_scope: any
+evidence:
+- field: data_license
+  url: https://data.gov.ro/pages/licence
+  quote: Secretariatul General al Guvernului recomandă utilizarea licenței Creative Commons Atribuire
+    4.0 Internațional (CC BY 4.0)
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://data.gov.ro/pages/licence
+  quote: Este esențial ca fiecare set de date publicat să aibă o licență deschisă atașată
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://data.gov.ro/api/3/action/package_search?rows=0&facet.field=["license_id"]
+  quote: Creative Commons Attribution 4.0
+  checked_at: '2026-11-21'
+notes: 'Read data.gov.ro Terms (termeni.html: only a disclaimer of liability, no reuse terms) and the
+  ''Licența deschisă'' page. The portal does not impose one licence: each dataset must carry an open licence;
+  CC BY 4.0 is recommended and the OGL ROU 1.0 licence is integrated. Law 179/2022 art. 11 says reuse
+  is not subject to conditions unless objective and proportionate. No explicit statement on commercial
+  use, caching or display at portal level, so commercial_use is ambiguous and the rest unknown; check
+  each dataset''s licence. API terms/rate limits not stated (CKAN API).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Portal CKAN licence facet: 3372 CC-BY-4.0, 1704 OGL-ROU of 5275 datasets; Only 1 CC-BY-NC,
+  62 unspecified | applied: commercial_use=yes'
+verdict_override: yellow
+override_reason: Second check resolved some fields; unconfirmed storage/display keeps it at yellow.
+license_scope: portal-default

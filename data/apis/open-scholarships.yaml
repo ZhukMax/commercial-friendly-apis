@@ -1,0 +1,66 @@
+id: open-scholarships
+name: Open Scholarships
+url: https://scholarships.grudged.io
+category: Open Data
+description: Free, openly-licensed directory of US scholarships and student aid from official sources
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Open Scholarships
+  url: https://scholarships.grudged.io
+  category: Open Data
+link_status: alive
+data_license: CC-BY-4.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: 'yes'
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://creativecommons.org/licenses/by/4.0/
+api_terms_url: https://scholarships.grudged.io
+commercial_use_scope: any
+attribution_text: Open Scholarships by Grudged LLC — https://github.com/Grudged/open-scholarships (CC
+  BY 4.0)
+share_alike: unknown
+evidence:
+- field: data_license
+  url: https://scholarships.grudged.io
+  quote: Licensed CC BY 4.0 .
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://scholarships.grudged.io
+  quote: You may use, remix, and redistribute it — including commercially — as long as you credit it.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://scholarships.grudged.io
+  quote: You may use, remix, and redistribute it — including commercially — as long as you credit it.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://scholarships.grudged.io
+  quote: You may use, remix, and redistribute it — including commercially — as long as you credit it.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://scholarships.grudged.io
+  quote: 'Suggested attribution: Open Scholarships by Grudged LLC'
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://scholarships.grudged.io
+  quote: 'GET /scholarships.json # the full dataset (one fetch)'
+  checked_at: '2026-11-21'
+notes: Only the single landing page was read (no separate ToS page found). It states CC BY 4.0, commercial
+  use and redistribution allowed with credit; no key, no signup. Data is facts gathered from official
+  sources (state agencies, universities, foundations), Nevada first, so coverage is limited; page says
+  to confirm details against each record's source. Small single-operator project (Grudged LLC).
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Small single-operator project (Grudged LLC); stability and coverage (Nevada first)
+  risk only.

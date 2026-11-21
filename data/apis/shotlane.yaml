@@ -1,0 +1,25 @@
+id: shotlane
+name: Shotlane
+url: https://shotlane.dev/docs
+category: Development
+description: Screenshots, PDFs and Markdown of any web page in Chrome, with a free tier
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Shotlane
+  url: https://shotlane.dev/docs
+  category: Development
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

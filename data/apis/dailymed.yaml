@@ -1,0 +1,60 @@
+id: dailymed
+name: DailyMed
+url: https://dailymed.nlm.nih.gov/dailymed/app-support-web-services.cfm
+category: Health
+description: FDA drug labeling and package insert information
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: DailyMed
+  url: https://dailymed.nlm.nih.gov/dailymed/app-support-web-services.cfm
+  category: Health
+link_status: alive
+data_license: US government work where government-authored (not copyrighted); third-party label content
+  may be copyrighted
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: ambiguous
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+data_license_url: https://www.nlm.nih.gov/web_policies.html
+api_terms_url: https://www.nlm.nih.gov/web_policies.html
+share_alike: unknown
+evidence:
+- field: data_license
+  url: https://www.nlm.nih.gov/web_policies.html
+  quote: Works produced by the U.S. government are not subject to copyright protection in the United States.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.nlm.nih.gov/web_policies.html
+  quote: may be freely used or reproduced without permission in the U.S.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.nlm.nih.gov/web_policies.html
+  quote: content contributed by or licensed from private individuals, companies, or organizations that
+    may be protected by U.S. and international copyright laws
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.nlm.nih.gov/web_policies.html
+  quote: Please acknowledge NLM as the source of the information
+  checked_at: '2026-11-21'
+notes: Only the generic NLM web-policy page was read (DailyMed footer 'Copyright' link points to it);
+  the DailyMed web-services page itself has no terms. NLM says government-authored works are free to reuse,
+  but DailyMed hosts drug labels (SPL) submitted by manufacturers, which are not government works and
+  may be copyrighted (non-government content needs the owner's permission beyond fair use). Attribution
+  is requested ('Please acknowledge NLM'), not clearly required. Caching/storage not addressed. Per-label
+  rights not assessed, so ambiguous.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Looked for blockers: none stated, but no affirmative licence for manufacturer-authored
+  label text. Exact attribution text per NLM: ''Courtesy of the National Library of Medicine'' or ''Source:
+  National Library of Medicine'' (requested, not mandatory). Ambiguous stands.'

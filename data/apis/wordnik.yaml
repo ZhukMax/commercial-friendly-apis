@@ -1,0 +1,66 @@
+id: wordnik
+name: Wordnik
+url: https://developer.wordnik.com
+category: Dictionaries
+description: Dictionary Data
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Wordnik
+  url: https://developer.wordnik.com
+  category: Dictionaries
+- list: public-api-lists
+  name: Wordnik
+  url: http://developer.wordnik.com
+  category: Dictionaries
+link_status: alive
+data_license: unknown
+commercial_use: paid-only
+storage_caching: 'no'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://developer.wordnik.com/terms
+commercial_use_scope: paid
+share_alike: unknown
+rate_limits: Free 100 calls/hour; Hobby 1,000/h; Pro 20,000/h; Enterprise 45,000/h
+evidence:
+- field: commercial_use
+  url: https://developer.wordnik.com/pricing
+  quote: 100 calls/hour free for nonprofit or research use free trial for commercial use
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.wordnik.com/terms
+  quote: You are certainly allowed to create commercial services using our API
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://developer.wordnik.com/terms
+  quote: Cache, record, pre-fetch or otherwise make or store local copies of the Wordnik content or Wordnik
+    Data
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://developer.wordnik.com/terms
+  quote: solely for the purpose of displaying the Wordnik Data on Your Site
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://developer.wordnik.com/terms
+  quote: You agree to adhere to the Attribution Requirements set forth at Exhibit A
+  checked_at: '2026-11-21'
+notes: 'Developer ToS forbid caching/storing local copies (only session-based caching of the formatted
+  display), selling the data or running a clone/proxy, and require the Exhibit A attribution (Wordnik
+  logo/credit). Commercial apps are explicitly allowed; "commercial uses" banned in the ToS means charging
+  end users for the data itself. The free Basic plan is described as for nonprofit or research use with
+  only a free trial for commercial use, so commercial use needs a paid plan (Hobby $10/mo and up): marked
+  paid-only, medium confidence. Data is a mix of upstream dictionaries (AHD, Century, Wiktionary, GNU,
+  WordNet) whose own licences may add conditions (not assessed). Data licence not stated on a page read;
+  characterised as: proprietary / mixed upstream (AHD, Century, Wiktionary, GNU International Dictionary,
+  WordNet).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

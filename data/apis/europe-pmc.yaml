@@ -1,0 +1,66 @@
+id: europe-pmc
+name: Europe PMC
+url: https://europepmc.org/RestfulWebService
+category: Science & Math
+description: Life-science literature search with abstracts, citations and full-text links
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Europe PMC
+  url: https://europepmc.org/RestfulWebService
+  category: Science & Math
+link_status: alive
+data_license: Per-article copyright/licence set by publishers and authors (many CC BY; not uniform)
+commercial_use: ambiguous
+storage_caching: ambiguous
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: 'yes'
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: HTTP 403 (blocked for bots, assumed alive)
+data_license_url: https://europepmc.org/Copyright
+api_terms_url: https://europepmc.org/Copyright
+commercial_use_scope: any
+share_alike: unknown
+evidence:
+- field: commercial_use
+  url: https://europepmc.org/Copyright
+  quote: The respective copyright holders retain rights for reproduction, redistribution and reuse.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://europepmc.org/Copyright
+  quote: Bulk downloading of articles from the main Europe PMC site, in any way, is prohibited because
+    of copyright restrictions.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://europepmc.org/Copyright
+  quote: Please refer to the license statement in each article for specific terms of use.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://europepmc.org/Copyright
+  quote: The license terms are not identical for all the articles.
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://europepmc.org/Copyright
+  quote: Europe PMC has implemented OAI, RESTful, SOAP, and bulk download services that may be used for
+    automated retrieval
+  checked_at: '2026-11-21'
+notes: 'curl got 403 on europepmc.org; pages read via Playwright (fresh context): /Copyright and /RestfulWebService.
+  The API has no own terms page found; the Copyright page says everything is third-party copyrighted,
+  reuse depends on each article''s licence (the OA subset is under CC or similar, not uniform). Metadata/abstracts
+  also come from publishers/PubMed. So no blanket green; ambiguous -> yellow. Bulk crawling of the main
+  site is banned, but the API/FTP bulk services are allowed.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Confirmed ambiguous/yellow. Page says services (RESTful, OAI, FTP) are the only allowed
+  automated route; articles keep publisher licences (CC or similar, not uniform), abstracts/metadata come
+  from publishers. Commercial reuse only for the CC0/CC BY subset; per-record check needed.
+license_scope: portal-default

@@ -1,0 +1,54 @@
+id: linkpreview
+name: LinkPreview
+url: https://www.linkpreview.net
+category: Open Data
+description: Get JSON formatted summary with title, description and preview image for any requested URL
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: LinkPreview
+  url: https://www.linkpreview.net
+  category: Open Data
+- list: public-api-lists
+  name: LinkPreview
+  url: https://www.linkpreview.net
+  category: Open Data
+link_status: alive
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+notes: 'Read the pricing section on the home page and the Terms of Service (generic: lawful use, no misuse,
+  as-is; no clause on caching, display or content rights). Pricing lists Free and Basic as ''Personal
+  Use Only'' and Pro/Enterprise as ''Commercial Use'', so commercial use needs a paid plan from $25/month.
+  The service returns metadata (title, description, image) of third-party pages, whose rights belong to
+  those sites; storage/display not addressed. Key required.'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+api_terms_url: https://www.linkpreview.net/terms
+commercial_use: paid-only
+commercial_use_scope: paid
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+rate_limits: Free 60/hour (personal use); Basic $8 200/hour (personal); Pro $25 1000/hour; Enterprise
+  $119 100/minute; max 1 request/second per target domain
+bulk_download: unknown
+self_host_option: unknown
+evidence:
+- field: commercial_use
+  url: https://www.linkpreview.net
+  quote: Pro Plan $ 25 /month Commercial Use 1000 requests per hour
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.linkpreview.net
+  quote: Free Plan $ 0 /month Personal Use Only 60 requests per hour
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://www.linkpreview.net
+  quote: Rate limits per requested domain may apply to protect smaller websites (max 1 request per second
+    per unique domain)
+  checked_at: '2026-11-21'
+data_license: unknown

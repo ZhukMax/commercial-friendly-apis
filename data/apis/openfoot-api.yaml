@@ -1,0 +1,76 @@
+id: openfoot-api
+name: OpenFoot API
+url: https://openfootapi.com/docs
+category: Sports & Fitness
+description: Football fixtures, results, standings, lineups, live events and shot-level xG across 75 competitions
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: OpenFoot API
+  url: https://openfootapi.com/docs
+  category: Sports & Fitness
+link_status: alive
+data_license: Per-competition source licences (e.g. ODbL for OpenLigaDB feed); service does not grant
+  redistribution of providers' feeds
+commercial_use: paid-only
+storage_caching: 'yes'
+redistribution_display: ambiguous
+attribution_required: ambiguous
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://openfootapi.com/terms
+api_terms_url: https://openfootapi.com/terms
+commercial_use_scope: paid
+rate_limits: Free Starter 5,000 req/month, 60/min; Developer 250,000/month; Pro 2,000,000/month
+notes: 'Read ToS (effective 7 Sep 2026) and pricing page. ToS has no commercial-use ban or grant; pricing
+  lists ''Commercial use'' only as a Pro-plan feature, so commercial rights on Starter/Developer are unclear
+  (ambiguous). Caching/retention explicitly allowed. Aggregator: each competition carries its own source
+  licence (meta.sources, /v1/competitions) and those obligations (attribution, share-alike, redistribution
+  limits) apply directly; upstream terms may be stricter. Redistribution of provider feeds not licensed;
+  display of data in an app not explicitly addressed.'
+evidence:
+- field: storage_caching
+  url: https://openfootapi.com/terms
+  quote: We impose no maximum retention period on responses you receive. You may cache them, store the
+    normalised fields
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://openfootapi.com/terms
+  quote: Access to a competition through the service is not a licence to redistribute the underlying provider's
+    feed.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://openfootapi.com/terms
+  quote: Where a source licence imposes obligations of its own — attribution, share-alike, or a restriction
+    on redistribution — those attach to your use directly
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://openfootapi.com/pricing
+  quote: Commercial use & no automatic overages
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://openfootapi.com/pricing
+  quote: 5,000 authenticated requests per month
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://openfootapi.com/terms
+  quote: Access to a competition through the service is not a licence to redistribute the underlying provider's
+    feed.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://openfootapi.com/pricing
+  quote: Ideal for prototyping, side-projects, hackathons and testing integrations.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Pricing page ties ''Commercial use'' to Pro plan only; Starter/Developer positioned
+  for prototyping/side-projects; Upstream ESPN/OpenLigaDB feeds carry own terms (ESPN terms page unreadable)
+  | applied: commercial_use=paid-only'

@@ -1,0 +1,30 @@
+id: mac-address-vendor-lookup
+name: MAC address vendor lookup
+url: https://macaddress.io/api
+category: Development
+description: Retrieve vendor details and other information regarding a given MAC address or an OUI
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: MAC address vendor lookup
+  url: https://macaddress.io/api
+  category: Development
+- list: public-api-lists
+  name: MAC address vendor lookup
+  url: https://macaddress.io
+  category: Development
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: ReadTimeout

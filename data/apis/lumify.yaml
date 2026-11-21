@@ -1,0 +1,51 @@
+id: lumify
+name: Lumify
+url: https://lumify.ai/docs
+category: Sports & Fitness
+description: 'Real-time sports intelligence: scores, odds, betting splits & AI bet analysis across 8 sports'
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Lumify
+  url: https://lumify.ai/docs
+  category: Sports & Fitness
+link_status: alive
+data_license: proprietary (Lumify Terms of Service; aggregates public and licensed sources)
+commercial_use: paid-only
+storage_caching: unknown
+redistribution_display: 'yes'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://lumify.ai/terms-of-service
+commercial_use_scope: paid
+evidence:
+- field: commercial_use
+  url: https://lumify.ai/terms-of-service
+  quote: Lumify grants you a limited, non-exclusive, non-transferable, revocable, non-sublicensable license
+    during your subscription term to access and use the Service
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://lumify.ai/terms-of-service
+  quote: Your application must provide material value beyond simply redistributing Lumify Data.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://lumify.ai/terms-of-service
+  quote: The Service aggregates, normalizes, enriches, analyzes, and generates intelligence from multiple
+    public and licensed data sources.
+  checked_at: '2026-11-21'
+notes: 'Read the Terms of Service (https://lumify.ai/terms-of-service; /terms is 404). The licence is
+  granted subject to payment of fees for the subscription term; permitted uses list websites, dashboards,
+  customer-facing products. Forbidden: reselling/sublicensing as a standalone API or feed, white-label
+  resale, bulk dataset/database exports; the application must add material value beyond redistributing
+  the data. Docs mention an instant trial key but the terms do not say whether trial use is commercial.
+  Storage/caching and attribution not addressed. Data aggregates public and licensed third-party sources
+  (sportsbooks, leagues): upstream terms may be stricter.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

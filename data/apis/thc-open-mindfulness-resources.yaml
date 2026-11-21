@@ -1,0 +1,54 @@
+id: thc-open-mindfulness-resources
+name: THC Open Mindfulness Resources
+url: https://api.theholisticcare.com/docs
+category: Health
+description: Free mindfulness resources and research metadata
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: THC Open Mindfulness Resources
+  url: https://api.theholisticcare.com/docs
+  category: Health
+link_status: alive
+data_license: proprietary (Copyright The Holistic Care, all rights reserved)
+commercial_use: 'no'
+storage_caching: unknown
+redistribution_display: 'no'
+attribution_required: 'no'
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://api.theholisticcare.com/docs
+attribution_text: 'Optional: Source: The Holistic Care, https://www.theholisticcare.com'
+rate_limits: ~60 requests/minute per IP (best effort)
+evidence:
+- field: commercial_use
+  url: https://api.theholisticcare.com/docs
+  quote: free API access does not grant redistribution or commercial-reuse rights over the underlying mindfulness content
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://api.theholisticcare.com/docs
+  quote: free API access does not grant redistribution or commercial-reuse rights over the underlying mindfulness content
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://api.theholisticcare.com/docs
+  quote: Copyright © The Holistic Care, all rights reserved, unless an individual resource explicitly states otherwise.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://api.theholisticcare.com/docs
+  quote: Attribution is appreciated, not required.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://api.theholisticcare.com/docs
+  quote: Requests are throttled to a best-effort ~60 requests/minute per IP address
+  checked_at: '2026-11-21'
+notes: Read the API docs page 'Licensing & usage terms' section. The code is MIT but the content is all rights reserved; free API access explicitly does not grant redistribution or commercial reuse, so
+  a monetised site cannot republish it without separate permission. Full LICENSING.md/USAGE.md in the GitHub repo were not readable (raw 404), so only the docs page summary was used. Responses are cacheable
+  (Cache-Control headers) but this does not grant storage rights; storage_caching left unknown. Individual resources may state otherwise.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

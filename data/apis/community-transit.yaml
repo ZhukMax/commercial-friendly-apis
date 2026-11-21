@@ -1,0 +1,40 @@
+id: community-transit
+name: Community Transit
+url: https://github.com/transitland/transitland-datastore/blob/master/README.md
+category: Transportation
+description: Transitland API
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Community Transit
+  url: https://github.com/transitland/transitland-datastore/blob/master/README.md#api-endpoints
+  category: Transportation
+- list: public-api-lists
+  name: Community Transit
+  url: https://github.com/transitland/transitland-datastore/blob/master/README.md#api-endpoints
+  category: Transportation
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.transit.land/terms
+evidence:
+- field: attribution_required
+  url: https://www.transit.land/terms
+  quote: Users of Transitland APIs, Transitland Feed Archive, and Transitland Datasets are required to provide attribution to Transitland.
+  checked_at: '2026-11-21'
+notes: 'Entry URL is the archived transitland-datastore README (API v1 at transit.land/api/v1, whose README only links to docs). Read transit.land/terms via Playwright (curl gets a Cloudflare challenge):
+  attribution to Transitland is required and consumers must confirm each source feed''s licence; Interline''s Terms of Service also apply (forbid reselling/standalone redistribution of Content). No explicit
+  commercial-use, storage or display statement found, so those stay unknown; per-feed licences vary.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

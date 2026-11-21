@@ -1,0 +1,77 @@
+id: marketplace-fee-data
+name: Marketplace Fee Data
+url: https://www.sellerscalc.com/data
+category: Shopping
+description: Seller fee schedules for 21 e-commerce marketplaces and payment processors as JSON
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Marketplace Fee Data
+  url: https://www.sellerscalc.com/data
+  category: Shopping
+link_status: alive
+data_license: CC-BY-4.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: 'yes'
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://www.sellerscalc.com/data
+api_terms_url: https://www.sellerscalc.com/data
+commercial_use_scope: any
+attribution_text: Fee data by SellersCalc (https://www.sellerscalc.com)
+share_alike: 'no'
+rate_limits: No API key, no rate limit (static JSON files)
+evidence:
+- field: data_license
+  url: https://www.sellerscalc.com/data
+  quote: The datasets are licensed CC BY 4.0
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.sellerscalc.com/data
+  quote: commercially or not — as long as you credit the source with a link.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.sellerscalc.com/data
+  quote: as long as you credit the source with a link.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://www.sellerscalc.com/data
+  quote: all platforms, one document
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://www.sellerscalc.com/data
+  quote: No API key, no rate limit, CORS enabled.
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://www.sellerscalc.com/data
+  quote: The datasets are licensed CC BY 4.0
+  checked_at: '2026-11-21'
+notes: 'Dataset licence is CC BY 4.0 stated on the data page and in each JSON file (license + attribution
+  fields); CC BY 4.0 deed read for storage/display. The values are marketplace fee schedules compiled
+  by SellersCalc from each platform''s published fee pages (officialSource link per platform); the underlying
+  marketplaces'' own terms were not checked, and the site says rates are typical US rates, estimates only,
+  revised without notice. SellersCalc /terms covers calculators (''free for personal and commercial use''),
+  not the data licence. Small single-site dataset, not a general data API. share_alike=no: CC BY, not
+  SA.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Facts: published fee schedules, ''estimates only'', revised without notice; SellersCalc
+  /terms is calculator scope; marketplaces'' own terms unread (facts, low risk). Credit with link required.'

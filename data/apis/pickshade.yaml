@@ -1,0 +1,63 @@
+id: pickshade
+name: PickShade
+url: https://pickshade.com/api
+category: Art & Design
+description: Convert colors, check WCAG and APCA contrast, build palettes, gradients and tokens
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: PickShade
+  url: https://pickshade.com/api
+  category: Art & Design
+link_status: alive
+data_license: unknown
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'no'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://pickshade.com/terms
+commercial_use_scope: any
+notes: Read /terms and /api. Terms ask only not to overload the service with automated requests; no numeric
+  rate limit published. Output is generated colour computations (not third-party data). Short terms page;
+  storage/display inferred from 'yours to use anywhere'.
+evidence:
+- field: commercial_use
+  url: https://pickshade.com/terms
+  quote: You can use PickShade and everything it generates for personal and commercial work, free of charge.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://pickshade.com/terms
+  quote: are yours to use anywhere, without attribution.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://pickshade.com/terms
+  quote: are yours to use anywhere, without attribution.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://pickshade.com/terms
+  quote: are yours to use anywhere, without attribution.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://pickshade.com/terms
+  quote: are yours to use anywhere, without attribution.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'not a data source: colour conversion/contrast calculator; bundled ~30,000 colour-name
+  list has no licence stated; terms page is a short personal/commercial statement'
+verdict_override: yellow
+override_reason: 'Second check: not a data source: colour conversion/contrast calculator; bundled ~30,000
+  colour-name list has no licence stated; terms page is a short personal/commercial statement'
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

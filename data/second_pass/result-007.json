@@ -1,0 +1,386 @@
+[
+ {
+  "id": "right-to-disconnect",
+  "outcome": "confirmed",
+  "reasons": [
+   "Re-read API page: plain grant, no ToS/AUP restricting ads, caching or display found"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Grant is plain-language only, no named licence; content is law summaries by site owner. Storage/display inferred from general grant; 'no rate limit as of this writing' may change."
+ },
+ {
+  "id": "rope-drop-news",
+  "outcome": "confirmed",
+  "reasons": [
+   "Developers page and /terms both state CC BY 4.0 incl. commercial; no ad/affiliate clause",
+   "Terms only ask not to scrape the site; use data downloads"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Site calls data first-party; live wait times may originate from park operators (Disney/Universal trademarks disclaimed) - not verifiable here. Site articles are not under CC BY."
+ },
+ {
+  "id": "searchpincode",
+  "outcome": "confirmed",
+  "reasons": [
+   "Re-read via Playwright: /api says CC BY 4.0 commercial OK; /terms permits copying for business purposes, only bans abusive scraping and spam",
+   "Disclaimer says data curated from India Post open data"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Upstream India Post / data.gov.in licence could not be re-read (data.gov.in returned 503); no evidence it is stricter, but relicensing by SearchPinCode is unverified. Visible footer link required."
+ },
+ {
+  "id": "sec-edgar-data",
+  "outcome": "confirmed",
+  "reasons": [
+   "Re-read sec.gov privacy page: public information, may be copied/distributed without permission",
+   "Fair access: max 10 req/s, declared User-Agent; no ban on commercial use"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "SEC seal, logos, 'SEC'/EDGAR names must not be used; filings may embed third-party content."
+ },
+ {
+  "id": "slf",
+  "outcome": "confirmed",
+  "reasons": [
+   "MIT LICENSE confirmed for repo; data.json still served (HTTP 200, last modified 2022)"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Static word list on GitHub Pages; MIT grant covers 'software and associated documentation files', applied to data.json by reasonable reading. Project dormant since 2022."
+ },
+ {
+  "id": "spotwatts",
+  "outcome": "confirmed",
+  "reasons": [
+   "Re-read /en/api terms: free incl. commercial, visible link required, cache allowed, no bulk/mirroring",
+   "Upstream ENTSO-E: Legal Terms page lists data open for free re-use and refers to CC BY 4.0 (attribution to ENTSO-E)"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Terms say not for trading or where an error could cause harm. ENTSO-E CC BY would also expect ENTSO-E credit; Spotwatts page names ENTSO-E as source."
+ },
+ {
+  "id": "stackrates",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms section 6 and /data/ both grant CC BY 4.0 incl. commercially",
+   "Only extra conditions: do not overload, do not present dataset as your own"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Site has affiliate links but terms do not restrict user-side ads. /ask API has no separate terms page. Prices are provider facts; no rate limit stated."
+ },
+ {
+  "id": "statorigin",
+  "outcome": "disputed",
+  "reasons": [
+   "Compilation is CC BY but each record keeps the original publisher's terms; underlying publishers/licences not assessed",
+   "Records carry quoted publisher sentences; reuse of those is not covered by StatOrigin's grant",
+   "Exports embed 'original source terms', so terms vary per record"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://statorigin.org/terms",
+    "quote": "Their document stays under their terms.",
+    "field": "redistribution_display"
+   },
+   {
+    "url": "https://statorigin.org/docs/api",
+    "quote": "CSV and Excel workbooks include every source field, original source terms and the StatOrigin CC BY 4.0 compilation license.",
+    "field": "data_license"
+   }
+  ],
+  "suggested": {
+   "redistribution_display": "ambiguous",
+   "storage_caching": "ambiguous"
+  },
+  "note": "Commercial use of the compilation itself is permitted (CC BY 4.0); the doubt is the mixed upstream publisher terms behind individual records. Not a blocker for aggregate figures."
+ },
+ {
+  "id": "strait-of-hormuz-ship-monitor",
+  "outcome": "confirmed",
+  "reasons": [
+   "llms.txt licence section re-read: CC BY 4.0 commercial OK for core AIS/crossings data",
+   "Exceptions already excluded: OpenSanctions (CC BY-NC), UKMTO (OGL), inventories (publishers' terms)"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Verdict covers core endpoints only; /api/sanctioned_vessels must not be used commercially. Upstream AIS source not named on pages read (only 'terrestrial AIS'), so its terms could not be checked."
+ },
+ {
+  "id": "tacofancy",
+  "outcome": "disputed",
+  "reasons": [
+   "Entry URL is a GitHub self-host project; no hosted API terms exist",
+   "Old hosted instance (taco-randomizer.herokuapp.com, tacofancy.herokuapp.com) returns HTTP 404, so the hosted service appears gone",
+   "Recipe text is community-contributed; per-contributor rights not verified (Unlicense is repo-level)"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://raw.githubusercontent.com/evz/tacofancy-api/HEAD/README.md",
+    "quote": "API for https://github.com/dansinker/tacofancy",
+    "field": "self_host_option"
+   }
+  ],
+  "suggested": {},
+  "note": "Licences (Unlicense data, MIT code) are fine for self-hosting; this is a self-host-only dataset, not a usable public API. Consider link_status dead for hosted API / verdict yellow with scope self-hosted."
+ },
+ {
+  "id": "the-deploy-log",
+  "outcome": "confirmed",
+  "reasons": [
+   "CC BY 4.0 on dataset page and GitHub README; commercial use via CC deed",
+   "Rows are summaries linking to publishers' own pages; no extra ToS found"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Some rows echo publisher wording (e.g. quoting a Cloudflare announcement); underlying publisher pages not covered. Needs a custom User-Agent."
+ },
+ {
+  "id": "the-gold-barometer",
+  "outcome": "confirmed",
+  "reasons": [
+   "/data/ page: CC BY 4.0 incl. commercial; /terms section 4 allows reuse with credit",
+   "Only prohibition: presenting the score as advice, forecast or endorsement"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://thegoldbarometer.com/data/",
+    "quote": "The Creative Commons grant covers our published numbers, not the underlying raw series.",
+    "field": "data_license"
+   }
+  ],
+  "suggested": {},
+  "note": "CC grant excludes underlying third-party raw series ('keep their own terms')."
+ },
+ {
+  "id": "tradoshi",
+  "outcome": "disputed",
+  "reasons": [
+   "Site ToS contradicts the developers-page CC BY grant: all content incl. data may not be copied or republished without written authorisation",
+   "ToS also bars reproducing the Service for commercial purposes and scraping by automated means"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://tradoshi.com/en/terms",
+    "quote": "You may not copy, reproduce, modify, republish, transmit or distribute these elements without our prior written authorization",
+    "field": "redistribution_display"
+   },
+   {
+    "url": "https://tradoshi.com/en/terms",
+    "quote": "You undertake not to resell or reproduce all or part of the Service for commercial purposes.",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "ambiguous",
+   "storage_caching": "ambiguous",
+   "redistribution_display": "ambiguous"
+  },
+  "note": "Developers page says CC BY 4.0 for API/MCP data; ToS section 8 lists data among protected content. ToS does say reading, indexing, quoting public pages is welcome. Needs owner clarification."
+ },
+ {
+  "id": "transport-for-budapest-hungary",
+  "outcome": "confirmed",
+  "reasons": [
+   "BKK portal page re-read via Playwright: CC BY 4.0 for FUTAR API, GTFS, GTFS-realtime, with required source line",
+   "No ads/commercial clause; only key limits at BKK's discretion"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Real-time needs a free API key (auth should be apiKey). High throughput for business use requires contacting BKK. Commercial use rests on CC BY deed, not on page text."
+ },
+ {
+  "id": "transport-for-finland",
+  "outcome": "confirmed",
+  "reasons": [
+   "Digitransit terms re-read via Playwright: CC BY 4.0, free, any purpose incl. copy and distribute, attribution required",
+   "No ad or affiliate restrictions found"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://digitransit.fi/en/developers/apis/7-terms-of-use/",
+    "quote": "use of Journey Planner OpenStreetMap based geographical and address data is controlled by ODbL-license.",
+    "field": "share_alike"
+   }
+  ],
+  "suggested": {},
+  "note": "Parts of routing/geocoding/map data are OpenStreetMap (ODbL, share-alike may apply) and city bike data is owned by City Bike Finland; Digitransit may change licensing of new data. API key now required."
+ },
+ {
+  "id": "transport-for-london-england",
+  "outcome": "confirmed",
+  "reasons": [
+   "TfL licence re-read via Playwright: commercial exploitation, copy and publish allowed with attribution",
+   "Conditions: 'Powered by TfL Open Data', OS data attribution, branding guidelines, 500 calls/min per feed"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://tfl.gov.uk/corporate/terms-and-conditions/transport-data-service",
+    "quote": "Provide any rights to use the Information after this Licence has ended",
+    "field": "storage_caching"
+   }
+  ],
+  "suggested": {},
+  "note": "Licence may be revised without notice and gives no rights to use data after it ends; Oyster/Congestion Charging/Santander Cycles websites may not be scraped. Caching only implied by copy right."
+ },
+ {
+  "id": "transport-for-norway",
+  "outcome": "confirmed",
+  "reasons": [
+   "New Entur developer portal terms (developer.entur.no/terms-of-service) re-read via Playwright: NLOD, commercial reuse allowed with attribution",
+   "Only prohibitions: circumventing rate limits, fake ET-Client-Name"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://developer.entur.no/terms-of-service",
+    "quote": "NLOD permits free reuse for any purpose, including commercial use, subject to attribution requirements",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {},
+  "note": "Old portal is marked retired; api_terms_url should be developer.entur.no/terms-of-service. Partner services need an agreement. Default attribution text is required."
+ },
+ {
+  "id": "transport-for-paris-france",
+  "outcome": "disputed",
+  "reasons": [
+   "Portal-wide green is overstated: of 16 datasets via catalog API only 13 are Licence Ouverte (Etalab)",
+   "Two datasets are ODbL (share-alike, database rights) and one has no licence set",
+   "RATP network maps stay paid for commercial use"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://data.ratp.fr/api/explore/v2.1/catalog/datasets?limit=100",
+    "quote": "Licence ODbL Version Française",
+    "field": "share_alike"
+   },
+   {
+    "url": "https://data.ratp.fr/pages/faq/",
+    "quote": "Dans le cadre d'une utilisation commerciale, les plans de réseaux et de lignes de la RATP destinés à l'édition resteront payants.",
+    "field": "redistribution_display"
+   }
+  ],
+  "suggested": {},
+  "note": "Etalab datasets (13/16) allow commercial reuse with attribution. ODbL datasets: sanitaires-reseau-ratp, sanisettesparis2011; no licence: defibrillateurs-du-reseau-ratp. Entry should be per-dataset, medium at most; suggest verdict yellow or portal caveat with share_alike unknown."
+ },
+ {
+  "id": "transport-for-spain",
+  "outcome": "confirmed",
+  "reasons": [
+   "Renfe legal page re-read: commercial and non-commercial reuse, copying, distribution allowed with source citation",
+   "Conditions: do not distort, keep update date and metadata, no implied endorsement"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Citation format 'Origen de los datos: Renfe Operadora'. Per-dataset licence is CC BY 4.0 in portal metadata per first pass."
+ },
+ {
+  "id": "transport-for-sweden",
+  "outcome": "confirmed",
+  "reasons": [
+   "Trafiklab realtime APIs page re-read: CC BY 4.0 any purpose incl. commercially; ResRobot CC0 licence page",
+   "Key tiers are rate limits only (Bronze 25/min, 100k/month)"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Upstream operator/Samtrafiken terms and other Trafiklab datasets (KoDa, SL) not assessed; Trafiklab says credit Trafiklab.se."
+ },
+ {
+  "id": "transport-for-switzerland",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms of use re-read: any private individual or company may process and publish the data; only source citation and authorship duties",
+   "Service data needs free registration and has a request limit above which SBB may charge"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Word 'commercial' does not appear in terms; permission to companies and publication is explicit. ASTRA/FEDRO traffic data is under separate terms. Per-dataset restrictions not seen."
+ },
+ {
+  "id": "transport-for-uk",
+  "outcome": "disputed",
+  "reasons": [
+   "Free plan is only 30 hits/day and 'limited and discretionary'; paid terms are in an unread PDF",
+   "Licence is revocable and valid 'during the Term only', which weakens the storage/caching claim",
+   "Some data comes from commercial partners under the same licence; per-source terms unread"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://www.transportapi.com/terms/",
+    "quote": "licence for any purpose of commercial or non-commercial re-use, by the Registered Services User, during the Term only",
+    "field": "storage_caching"
+   },
+   {
+    "url": "https://www.transportapi.com/terms/",
+    "quote": "free access to a limited and discretionary version of",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {
+   "storage_caching": "limited"
+  },
+  "note": "The plain-English summary does say 'You can copy it, display it, store and cache it', so commercial use itself is permitted. Practical commercial use needs a paid plan under unread terms; suggest yellow."
+ },
+ {
+  "id": "uk-carbon-intensity",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms of Use re-read (GitHub): CC BY 4.0, free, no ban on commercial use or ads",
+   "Restrictions: no selling/sublicensing API access, no app substantially replacing NESO experience, no adware/spyware, no implied endorsement"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://raw.githubusercontent.com/carbon-intensity/terms/master/README.md",
+    "quote": "Sell, lease, or sublicense the Carbon Intensity API or access to it.",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {},
+  "note": "Licence is terminable at any time by either party and terms may change without notice. A normal ad-supported site is not 'adware' in context."
+ },
+ {
+  "id": "uk-companies-house",
+  "outcome": "confirmed",
+  "reasons": [
+   "GOV.UK copyright page re-read: no rules on use of register information; OGL v3.0 for CH-produced material",
+   "Rate limit 600 requests per 5 minutes; no API terms page found on developer hub"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://www.gov.uk/government/publications/companies-house-accreditation-to-information-fair-traders-scheme/public-task-copyright-and-crown-copyright",
+    "quote": "Companies House imposes no rules or requirements on how the information on the public register is used.",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {},
+  "note": "Register includes officer personal data (names, addresses): UK GDPR duties fall on the reuser, not covered by the licence. The 'credit Companies House' line concerns guidance notes/website/publications, so attribution for register data is not clearly required."
+ },
+ {
+  "id": "state-new-york-state-opendata",
+  "outcome": "disputed",
+  "reasons": [
+   "Portal default only: OPEN-NY terms say other terms may be imposed on specific content",
+   "Catalog metadata shows datasets with CC BY-SA 4.0 (share-alike), ODC-ODbL and 'See Terms of Use', and many with no licence field",
+   "First pass confidence 'high' overstates a portal-wide default"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://data.ny.gov/dataset/OPEN-NY-Terms-Of-Use/77gx-ii52",
+    "quote": "or may be imposed specifically on specific Content.",
+    "field": "data_license"
+   },
+   {
+    "url": "https://data.ny.gov/api/catalog/v1?limit=100&only=datasets",
+    "quote": "Creative Commons Attribution | Share Alike 4.0 International",
+    "field": "share_alike"
+   }
+  ],
+  "suggested": {},
+  "note": "Terms PDF itself is very permissive (the 'promotion of commercial ventures' ban sits in the public-participation module, not data reuse). Sample of 100 catalog entries: 51 no licence, 18 PD US Gov, 11 CC BY-SA 4.0, 10 Public Domain, 7 'See Terms of Use'. Suggest medium confidence with per-dataset caveat, not high green."
+ }
+]

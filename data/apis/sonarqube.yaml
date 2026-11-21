@@ -1,0 +1,25 @@
+id: sonarqube
+name: SonarQube
+url: https://sonarcloud.io/web_api
+category: Development
+description: SonarQube REST APIs to detect bugs, code smells & security vulnerabilities
+description_source: upstream
+auth: OAuth
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: SonarQube
+  url: https://sonarcloud.io/web_api
+  category: Development
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

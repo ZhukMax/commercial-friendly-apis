@@ -1,0 +1,67 @@
+id: bet-better
+name: Bet Better
+url: https://betbetter.world/api/
+category: Sports & Fitness
+description: Sports model win probabilities and fair odds across 13 leagues
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Bet Better
+  url: https://betbetter.world/api/
+  category: Sports & Fitness
+link_status: alive
+data_license: CC-BY-4.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: high
+link_checked_at: '2026-11-21'
+commercial_use_scope: any
+attribution_text: Bet Better — https://betbetter.world (a link back to betbetter.world is enough)
+data_license_url: https://betbetter.world/api/
+share_alike: 'no'
+api_terms_url: https://betbetter.world/api/
+evidence:
+- field: data_license
+  url: https://betbetter.world/api/
+  quote: Published under CC BY 4.0
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://betbetter.world/api/
+  quote: You may use, transform and redistribute it, including commercially, provided you credit the source.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://betbetter.world/api/
+  quote: Please cache rather than polling in a tight loop.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://betbetter.world/api/
+  quote: You may use, transform and redistribute it, including commercially, provided you credit the source.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://betbetter.world/api/
+  quote: You may use, transform and redistribute it, including commercially, provided you credit the source.
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://betbetter.world/api/
+  quote: You may use, transform and redistribute it, including commercially, provided you credit the source.
+  checked_at: '2026-11-21'
+notes: 'Open Model API page: feed is CC BY 4.0, commercial use allowed with credit. Only Bet Better''s
+  own model output (win probabilities, fair odds); no bookmaker prices because their odds source forbids
+  redistributing the feed. Site Terms & Conditions page (betting-site rules) shows no conflicting data
+  clause. Storage uses CC BY copying right plus the fair-use note to cache (responses cacheable 15 minutes).
+  Free and paid Bet Better Data feeds are separate products.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Site Terms section 07 reserves Platform content (no copying without permission) without
+  an open-API carve-out; the dedicated API page grant is specific and controls, so low risk. Feed excludes
+  bookmaker prices (odds source forbids redistribution). Members' picks are locked.

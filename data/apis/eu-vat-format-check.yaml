@@ -1,0 +1,30 @@
+id: eu-vat-format-check
+name: EU VAT Format Check
+url: https://rapidapi.com/sorobandataworks/eu-vat-number-format-checksum-checker
+category: Data Validation
+description: EU VAT format and check-digit checker for 11 countries (format only, not a registration check)
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: EU VAT Format Check
+  url: https://rapidapi.com/sorobandataworks/eu-vat-number-format-checksum-checker
+  category: Data Validation
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+notes: 'RapidAPI-hosted listing: the API page redirects to a RapidAPI login, so no provider terms or pricing
+  were readable. Format and check-digit checker only (not a registry lookup), a computation on your input
+  rather than a data source. RapidAPI marketplace terms were not read. All core fields unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

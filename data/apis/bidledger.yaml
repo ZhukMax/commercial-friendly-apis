@@ -1,0 +1,62 @@
+id: bidledger
+name: Bidledger
+url: https://jaydemks.github.io/bidledger/api.html
+category: Government
+description: Every open public tender in the European Union, rebuilt daily from the official TED data
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Bidledger
+  url: https://jaydemks.github.io/bidledger/api.html
+  category: Government
+link_status: alive
+data_license: EU Commission reuse policy (TED notices free to reuse)
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: ambiguous
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://ted.europa.eu/en/legal-notice
+api_terms_url: https://jaydemks.github.io/bidledger/api.html
+commercial_use_scope: any
+rate_limits: None stated (static files regenerated daily; cache rather than poll)
+evidence:
+- field: commercial_use
+  url: https://ted.europa.eu/en/legal-notice
+  quote: can be freely reused, for commercial or non-commercial purposes.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://jaydemks.github.io/bidledger/api.html
+  quote: The data comes from TED and is re-used under the European Commission's open data policy; it stays
+    free under the same terms.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://jaydemks.github.io/bidledger/api.html
+  quote: Everything is regenerated once a day, so cache it rather than polling.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://ted.europa.eu/en/legal-notice
+  quote: can be freely reused, for commercial or non-commercial purposes.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://jaydemks.github.io/bidledger/api.html
+  quote: Attribution is appreciated but not required.
+  checked_at: '2026-11-21'
+notes: Static JSON files on GitHub Pages built from TED. Bidledger says attribution is not required and
+  data stays free under the Commission reuse policy; TED legal notice says procurement notices can be
+  freely reused commercially (notices' personal data and third-party rights not covered; CC BY applies
+  to TED's editorial content). Attribution marked ambiguous because the TED page was not shown to waive
+  it. No uptime guarantee or support. Awards dataset on Hugging Face not checked.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Static JSON on GitHub Pages, no SLA. TED notices personal data and third-party rights
+  not covered; Bidledger exposes buyer names, not contacts.

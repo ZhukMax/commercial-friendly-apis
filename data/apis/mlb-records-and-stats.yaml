@@ -1,0 +1,39 @@
+id: mlb-records-and-stats
+name: MLB Records and Stats
+url: https://appac.github.io/mlb-data-api-docs/
+category: Sports & Fitness
+description: Current and historical MLB statistics
+description_source: upstream
+auth: none
+https: false
+cors: unknown
+sources:
+- list: public-apis
+  name: MLB Records and Stats
+  url: https://appac.github.io/mlb-data-api-docs/
+  category: Sports & Fitness
+link_status: alive
+data_license: proprietary (MLB Advanced Media)
+commercial_use: 'no'
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://gdx.mlb.com/components/copyright.txt
+evidence:
+- field: commercial_use
+  url: https://gdx.mlb.com/components/copyright.txt
+  quote: Only individual, non-commercial, non-bulk use of the Materials is permitted
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://gdx.mlb.com/components/copyright.txt
+  quote: Authorized users of the Materials are prohibited from using the Materials in any commercial manner other than as expressly authorized by MLBAM.
+  checked_at: '2026-11-21'
+notes: 'The docs page (community-written, appac.github.io) says all data is property of MLB/MLBAM and to read their terms. API responses carry a copyright notice pointing to gdx.mlb.com/components/copyright.txt:
+  only individual, non-commercial, non-bulk use permitted. In addition, the lookup-service-prod.mlb.com endpoint used in the docs now returns 404 (retired or moved), so the API may no longer work.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

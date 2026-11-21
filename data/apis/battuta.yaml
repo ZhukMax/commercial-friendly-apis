@@ -1,0 +1,38 @@
+id: battuta
+name: Battuta
+url: http://battuta.medunes.net
+category: Geocoding
+description: A (country/region/city) in-cascade location API
+description_source: upstream
+auth: apiKey
+https: false
+cors: unknown
+sources:
+- list: public-apis
+  name: Battuta
+  url: http://battuta.medunes.net
+  category: Geocoding
+- list: public-api-lists
+  name: Battuta
+  url: http://battuta.medunes.net
+  category: Geocoding
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+rate_limits: 500 requests per key (higher quota on request)
+notes: Only the landing/usage page was read; it has no terms of service, licence or data-source statement, so all terms fields stay unknown.
+evidence:
+- field: rate_limits
+  url: http://battuta.medunes.net
+  quote: The max number of API requests is 500 requests.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

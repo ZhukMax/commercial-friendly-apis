@@ -1,0 +1,33 @@
+id: chinese-character-web
+name: Chinese Character Web
+url: http://ccdb.hemiola.com/
+category: Dictionaries
+description: Chinese character definitions and pronunciations
+description_source: upstream
+auth: none
+https: false
+cors: 'no'
+sources:
+- list: public-apis
+  name: Chinese Character Web
+  url: http://ccdb.hemiola.com/
+  category: Dictionaries
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+evidence: []
+notes: Personal API page (Posted 2011, updated 2018; Mod_Security blocks curl, read via Playwright). It
+  says the data comes from the Unihan Database provided by the Unicode Consortium, but states no licence,
+  terms, limits or attribution rule for the service itself. Unicode data files have their own permissive
+  Unicode licence (unicode.org/license.txt) but this page does not say Unihan is distributed under it,
+  so nothing is transferred; all terms unknown. Operator terms must be requested from the author.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

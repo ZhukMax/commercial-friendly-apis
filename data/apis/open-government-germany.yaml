@@ -1,0 +1,56 @@
+id: open-government-germany
+name: Open Government, Germany
+url: https://www.govdata.de/daten/-/details/govdata-metadatenkatalog
+category: Government
+description: Germany Government Open Data
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Open Government, Germany
+  url: https://www.govdata.de/daten/-/details/govdata-metadatenkatalog
+  category: Government
+link_status: redirect
+data_license: varies per dataset (provider decides); many use dl-de/by-2.0
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: ambiguous
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: -> https://www.govdata.de/suche/daten/govdata-metadatenkatalog
+data_license_url: https://www.govdata.de/dl-de/by-2-0
+api_terms_url: https://www.govdata.de/web/guest/nutzungsbestimmungen
+commercial_use_scope: any
+evidence:
+- field: commercial_use
+  url: https://www.govdata.de/web/guest/nutzungsbestimmungen
+  quote: Der Daten- oder Dokumentenanbieter entscheidet eigenständig über die Nutzungsbestimmungen der
+    von ihm angebotenen Daten oder Dokumente.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.govdata.de/dl-de/by-2-0
+  quote: Die bereitgestellten Daten und Metadaten dürfen für die kommerzielle und nicht kommerzielle Nutzung
+    insbesondere vervielfältigt, ausgedruckt, präsentiert, verändert
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.govdata.de/dl-de/by-2-0
+  quote: Bei der Nutzung ist sicherzustellen, dass folgende Angaben als Quellenvermerk enthalten sind
+  checked_at: '2026-11-21'
+notes: 'GovData is a catalogue: each data provider sets its own terms, so no portal-wide answer; the most
+  common licence dl-de/by-2.0 allows commercial and non-commercial use with source note, but individual
+  datasets can differ (check dataset licence field). The CKAN metadata API itself was not tied to a stated
+  licence on pages read (portal texts/icons are CC BY 3.0 DE per the usage notes). Entry URL redirects
+  to the metadata catalogue dataset. Ambiguous => yellow at best.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-verified dl-de/by-2-0 text explicitly permits commercial use and integration into
+  products with attribution; individual datasets can differ. Yellow stands.
+license_scope: portal-default

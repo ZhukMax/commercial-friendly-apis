@@ -1,0 +1,35 @@
+id: gutendex
+name: Gutendex
+url: https://gutendex.com/
+category: Books
+description: Web-API for fetching data from Project Gutenberg Books Library
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Gutendex
+  url: https://gutendex.com/
+  category: Books
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: 'yes'
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://gutendex.com/
+evidence:
+- field: self_host_option
+  url: https://gutendex.com/
+  quote: For long-term use, please run your own server with the code and installation instructions on GitHub
+  checked_at: '2026-11-21'
+notes: 'Read the Gutendex docs page: no licence/terms for the hosted API or its metadata. Underlying data is Project Gutenberg metadata; gutenberg.org policy pages returned a maintenance page during this
+  check, so PG terms were not read. Authors recommend self-hosting for long-term use. The GitHub repo LICENSE could not be fetched (404). All core terms unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

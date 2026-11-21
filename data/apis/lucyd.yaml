@@ -1,0 +1,79 @@
+id: lucyd
+name: Lucyd
+url: https://lucyd.trade/api-docs
+category: Cryptocurrency
+description: 'Bitcoin Up/Down prediction markets on testnet: markets, trades, positions, order books'
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Lucyd
+  url: https://lucyd.trade/api-docs
+  category: Cryptocurrency
+link_status: alive
+data_license: CC-BY-4.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: 'yes'
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+commercial_use_scope: any
+attribution_text: Credit to Lucyd
+share_alike: unknown
+data_license_url: https://lucyd.trade/data
+api_terms_url: https://lucyd.trade/policy
+evidence:
+- field: data_license
+  url: https://lucyd.trade/data
+  quote: 'License: CC BY 4.0'
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://lucyd.trade/data
+  quote: Free for any use, including commercial, with credit to Lucyd.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://lucyd.trade/data
+  quote: Free for any use, including commercial, with credit to Lucyd.
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://lucyd.trade/data
+  quote: Free to download, no API key, no sign-up.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://lucyd.trade/data
+  quote: Free for any use, including commercial, with credit to Lucyd.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://lucyd.trade/data
+  quote: Free for any use, including commercial, with credit to Lucyd.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://lucyd.trade/data
+  quote: Rounds settle on the Pyth BTC/USD price.
+  checked_at: '2026-11-21'
+notes: 'Data page (/data) states CC BY 4.0 for the order-book Parquet files and trades data (JSON/CSV
+  from the API). Storage and display follow from CC BY 4.0 (copy/share/adapt with credit) but the CC deed
+  itself was not opened, so storage/display are inferred from the stated licence, not a separate quote;
+  confidence medium. IMPORTANT: this is a Sepolia TESTNET market (api.testnet.lucyd.trade), so data is
+  not real-money market data. /policy (Terms & Privacy) has no data clause beyond MIT for tooling. Sharing/display
+  claim is covered by CC BY wording, not separately quoted.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: data is from a Sepolia TESTNET exchange (api.testnet.lucyd.trade), not real market
+  data; settlement relies on Pyth price feed whose terms were not checked; licence is stated only on the
+  /data page, /policy has no data clause
+verdict_override: yellow
+override_reason: 'Second check: data is from a Sepolia TESTNET exchange (api.testnet.lucyd.trade), not
+  real market data; settlement relies on Pyth price feed whose terms were not checked; licence is stated
+  only on the /data page, /policy has no data clause'
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

@@ -1,0 +1,25 @@
+id: ssl-labs
+name: SSL Labs
+url: https://github.com/ssllabs/ssllabs-scan/blob/master/ssllabs-api-docs-v3.md
+category: Security
+description: Deep SSL/TLS server analysis with A+ to F grading
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: SSL Labs
+  url: https://github.com/ssllabs/ssllabs-scan/blob/master/ssllabs-api-docs-v3.md
+  category: Security
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

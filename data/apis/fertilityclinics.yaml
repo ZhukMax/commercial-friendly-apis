@@ -1,0 +1,71 @@
+id: fertilityclinics
+name: FertilityClinics
+url: https://fertilityclinics.fyi/developers
+category: Health
+description: US fertility and IVF clinics built from CDC public data
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: FertilityClinics
+  url: https://fertilityclinics.fyi/developers
+  category: Health
+link_status: alive
+data_license: 'mixed per record: CDC NASS public domain; FertilityClinics editorial All rights reserved;
+  enrichment per source'
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+data_license_url: https://fertilityclinics.fyi/developers
+api_terms_url: https://fertilityclinics.fyi/terms
+attribution_text: Data from FertilityClinics (https://fertilityclinics.fyi).
+share_alike: unknown
+rate_limits: 300 requests per 60 seconds per client; free, no key
+evidence:
+- field: data_license
+  url: https://fertilityclinics.fyi/developers
+  quote: Each record keeps the license of its source, listed in meta.sources.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://fertilityclinics.fyi/developers
+  quote: Show this credit line next to the data you display
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://fertilityclinics.fyi/developers
+  quote: Show this credit line next to the data you display
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://fertilityclinics.fyi/developers
+  quote: Each client may send 300 requests in 60 seconds.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://fertilityclinics.fyi/developers
+  quote: Each record keeps the license of its source, listed in meta.sources.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://fertilityclinics.fyi/developers
+  quote: Keep a source's license when you reuse its records.
+  checked_at: '2026-11-21'
+notes: 'Free, keyless API. The developer page requires the credit line and says every record keeps its
+  source licence (/api/v1/sources: CDC NASS ''Public Domain (work of the US federal government)''; FertilityClinics
+  editors ''All rights reserved''; enrichment ''source''). The Terms page does not address API reuse or
+  commercial use. Because part of the data is ''All rights reserved'' and no commercial grant is stated,
+  commercial_use is ambiguous. Caching: only HTTP Cache-Control hints (max-age 60s), no storage policy.
+  The site has affiliate products (not relevant to the data). Per-record licences should be checked via
+  meta.sources.'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'redistribution_display=yes overreaches: editorial records are ''All rights reserved'';
+  Developer page only says each record keeps its source licence; Terms page silent on API reuse | applied:
+  redistribution_display=ambiguous'
+license_scope: portal-default

@@ -1,0 +1,26 @@
+id: sport-vision
+name: Sport Vision
+url: https://developers.decathlon.com/products/sport-vision
+category: Sports & Fitness
+description: Identify sport, brands and gear in an image. Also does image sports captioning
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Sport Vision
+  url: https://developers.decathlon.com/products/sport-vision
+  category: Sports & Fitness
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: ConnectError

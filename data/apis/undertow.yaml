@@ -1,0 +1,30 @@
+id: undertow
+name: Undertow
+url: https://liquilens-undertow.com/developers/
+category: Finance
+description: Public market-depth and sized exit estimates, not executable quotes
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Undertow
+  url: https://liquilens-undertow.com/developers/
+  category: Finance
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+notes: 'Developer page (liquilens-undertow.com/developers/), /pricing.md and /access/ read: free public tier plus paid plans, but no terms/licence page for Undertow found (/terms/ 404). Same operator as
+  LiquiLens, but its terms page names only LiquiLens, so not transferred. Developer page says reuse terms stay with each source (exchange order-book data upstream, likely stricter). All core fields unknown.'
+evidence: []
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

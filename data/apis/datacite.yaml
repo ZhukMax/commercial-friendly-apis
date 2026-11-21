@@ -1,0 +1,70 @@
+id: datacite
+name: DataCite
+url: https://support.datacite.org/docs/rest-api
+category: Science & Math
+description: Search and retrieve DOI metadata for research datasets and publications
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: DataCite
+  url: https://support.datacite.org/docs/rest-api
+  category: Science & Math
+link_status: alive
+data_license: CC0-1.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'no'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: high
+link_checked_at: '2026-11-21'
+data_license_url: https://creativecommons.org/publicdomain/zero/1.0/
+api_terms_url: https://support.datacite.org/docs/harvesting-datacite-doi-metadata
+commercial_use_scope: any
+share_alike: 'no'
+rate_limits: 500 requests/5 min per IP (unidentified), 1000 with email in User-Agent/mailto, 3000 authenticated
+evidence:
+- field: data_license
+  url: https://support.datacite.org/docs/harvesting-datacite-doi-metadata
+  quote: All DataCite metadata is openly available with a CC0 license, meaning it is available to everyone.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://support.datacite.org/docs/harvesting-datacite-doi-metadata
+  quote: to the extent possible under law, DataCite e.V. has waived all copyright and related or neighboring
+    rights.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://support.datacite.org/docs/harvesting-datacite-doi-metadata
+  quote: to the extent possible under law, DataCite e.V. has waived all copyright and related or neighboring
+    rights.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://support.datacite.org/docs/harvesting-datacite-doi-metadata
+  quote: to the extent possible under law, DataCite e.V. has waived all copyright and related or neighboring
+    rights.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://support.datacite.org/docs/harvesting-datacite-doi-metadata
+  quote: All DataCite metadata is openly available with a CC0 license, meaning it is available to everyone.
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://support.datacite.org/docs/harvesting-datacite-doi-metadata
+  quote: All DataCite metadata is openly available with a CC0 license, meaning it is available to everyone.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://support.datacite.org/docs/rate-limit
+  quote: 500 requests per 5 minutes per IP address
+  checked_at: '2026-11-21'
+notes: Read the DataCite support docs (harvesting page for the CC0 statement, rate-limit page). CC0 covers
+  DOI metadata only (not the described datasets/articles). Metadata fields such as abstracts/descriptions
+  are deposited by repositories and may mention third-party rights, but DataCite states all of it is CC0.
+  Harvesting guidance recommends OAI-PMH/public data file for large volumes.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed

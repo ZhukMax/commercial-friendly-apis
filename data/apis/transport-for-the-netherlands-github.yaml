@@ -1,0 +1,39 @@
+id: transport-for-the-netherlands-github
+name: Transport for The Netherlands
+url: https://github.com/skywave/KV78Turbo-OVAPI/wiki
+category: Transportation
+description: OVAPI, country-wide public transport
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Transport for The Netherlands
+  url: https://github.com/skywave/KV78Turbo-OVAPI/wiki
+  category: Transportation
+- list: public-api-lists
+  name: OVAPI Netherlands Transport
+  url: https://github.com/skywave/KV78Turbo-OVAPI/wiki
+  category: Transportation
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: limited
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://github.com/koch-t/KV78Turbo-OVAPI/wiki
+evidence:
+- field: storage_caching
+  url: https://github.com/koch-t/KV78Turbo-OVAPI/wiki
+  quote: It is not allowed to store data for more than 30 minutes.
+  checked_at: '2026-11-21'
+notes: Wiki Home read (redirect target koch-t/KV78Turbo-OVAPI). Etiquette section says the GOVI-1.0 licence applies to the data (licence page openov.nl/license/GOVI-1.0-TravelInfo returned 404, not readable)
+  and storing data for >30 minutes is not allowed; stated not to apply to GVB, HTM and Veolia Haaglanden data. Commercial use/display/attribution unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

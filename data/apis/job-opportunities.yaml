@@ -1,0 +1,64 @@
+id: job-opportunities
+name: Job Opportunities
+url: https://jobopportunitiesapi.org/docs
+category: Jobs
+description: Live jobs from employers' own career sites and ATSs, closed jobs re-checked daily
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Job Opportunities
+  url: https://jobopportunitiesapi.org/docs
+  category: Jobs
+link_status: alive
+data_license: proprietary (Job Opportunities API Terms, "What you may do with the data"); per-source licences
+  apply
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+share_alike: unknown
+commercial_use_scope: any
+api_terms_url: https://jobopportunitiesapi.org/terms
+attribution_text: 'Visible credit "Data: Job Opportunities API" linking to https://jobopportunitiesapi.org
+  when displaying listings publicly'
+evidence:
+- field: commercial_use
+  url: https://jobopportunitiesapi.org/terms
+  quote: Every commercial use is allowed, on any plan, including the free Explore plan.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://jobopportunitiesapi.org/terms
+  quote: You may store, cache and display the records (including to your own users and customers)
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://jobopportunitiesapi.org/terms
+  quote: You may store, cache and display the records (including to your own users and customers)
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://jobopportunitiesapi.org/terms
+  quote: When you display listings publicly, show a visible credit
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://jobopportunitiesapi.org/terms
+  quote: Every commercial use is allowed, on any plan, including the free Explore plan.
+  checked_at: '2026-11-21'
+notes: 'Terms page read. Resale and repackaging explicitly allowed within plan limits. Employers can request
+  removal; you must then remove that employer data (list at /v1/jobs/withdrawn). Aggregates government
+  feeds with their own conditions stated on the same page (NAV attribution, USAJOBS terms, Teaching Vacancies/NHS
+  Jobs under OGL v3.0 incl. a ban on charging fees to candidates, French Open Licence): check per source
+  before use. Medium confidence for that reason.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Conditions to respect: visible credit linking to jobopportunitiesapi.org; remove employer
+  data on request (/v1/jobs/withdrawn); per-source rules (NAV attribution, USAJOBS no seal/endorsement,
+  Teaching Vacancies OGL bans charging candidates fees); free-plan limits cover downstream use.'

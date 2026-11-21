@@ -1,0 +1,27 @@
+id: contextfetch
+name: ContextFetch
+url: https://contextfetch.dev/docs
+category: Machine Learning
+description: Web search for AI agents, each result as Markdown pruned to the passages relevant to the
+  query
+description_source: upstream
+auth: none
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: ContextFetch
+  url: https://contextfetch.dev/docs
+  category: Machine Learning
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: HTTP 503

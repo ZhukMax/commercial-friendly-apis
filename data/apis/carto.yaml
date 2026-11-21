@@ -1,0 +1,35 @@
+id: carto
+name: CARTO
+url: https://carto.com/
+category: Open Data
+description: Location Information Prediction
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: CARTO
+  url: https://carto.com/
+  category: Open Data
+- list: public-api-lists
+  name: CARTO
+  url: https://carto.com/
+  category: Open Data
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+evidence: []
+notes: CARTO is a commercial location-intelligence SaaS platform, not a public data API. /legal lists Platform Terms & Conditions, Basemaps Terms of Service, AI Terms etc., but the T&C page (carto.com/legal/tcs/)
+  only returned a 'Redirecting to CARTO Terms and Conditions' stub to curl and its text was not read; basemap and data terms were not opened. Use depends on a customer plan (free trial/paid) and on each
+  dataset's own licence. All terms unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

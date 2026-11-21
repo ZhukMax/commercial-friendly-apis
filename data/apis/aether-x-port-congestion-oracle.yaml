@@ -1,0 +1,32 @@
+id: aether-x-port-congestion-oracle
+name: Aether-X Port Congestion Oracle
+url: https://rapidapi.com/belegante/api/aether-x-port-congestion-oracle
+category: Transportation
+description: Predictive port congestion, ETA delay and freight volatility signals for 16 global ports
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Aether-X Port Congestion Oracle
+  url: https://rapidapi.com/belegante/api/aether-x-port-congestion-oracle
+  category: Transportation
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://rapidapi.com/belegante/api/aether-x-port-congestion-oracle
+evidence: []
+notes: 'Only the RapidAPI marketplace listing was read (JS page, via fresh Playwright context): plans BASIC $0, PRO $29, ULTRA $199, MEGA. The provider''s "Terms of Use" link was not opened and
+  the listing states no data licence, commercial-use or caching rules. Signals are derived from port/authority sources (e.g. ANTAQ, APPA), whose terms may be stricter. Marketplace-only evidence:
+  all terms unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

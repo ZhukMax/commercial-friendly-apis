@@ -1,0 +1,30 @@
+id: ip-labstack
+name: IP (LabStack)
+url: http://labstack.com/ip
+category: Geocoding
+description: Lookup country, region, city, time-zone, currency and language of an IP
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: IP (LabStack)
+  url: http://labstack.com/ip
+  category: Geocoding
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: labstack.com/ip now shows only a generic "Software Studio" page; api.labstack.com does not resolve; IP API appears discontinued
+notes: labstack.com, labstack.com/ip and labstack.com/docs/ip all return the same generic LabStack Software Studio landing page with no mention of an IP API, and api.labstack.com does not resolve. Service
+  appears discontinued; no terms to read, all unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

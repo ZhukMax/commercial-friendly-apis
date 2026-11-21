@@ -1,0 +1,25 @@
+id: watchmode
+name: Watchmode
+url: https://api.watchmode.com/
+category: Video
+description: API for finding out the streaming availability of movies & shows
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Watchmode
+  url: https://api.watchmode.com/
+  category: Video
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

@@ -1,0 +1,67 @@
+id: apogeoapi
+name: ApogeoAPI
+url: https://apogeoapi.com
+category: Geocoding
+description: Bundled API for countries, states, cities, IP geolocation, and live exchange rates
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: ApogeoAPI
+  url: https://apogeoapi.com
+  category: Geocoding
+- list: public-api-lists
+  name: ApogeoAPI
+  url: https://apogeoapi.com
+  category: Geocoding
+link_status: alive
+data_license: unknown
+commercial_use: 'yes'
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: 'no'
+bulk_download: 'no'
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://apogeoapi.com/terms
+commercial_use_scope: any
+cache_limit: Reasonable periods
+rate_limits: 'Free: 1,000 requests/month, 5 requests/min; paid plans from 15,000/month'
+evidence:
+- field: commercial_use
+  url: https://apogeoapi.com/terms
+  quote: All plans, including free, permit commercial use
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://apogeoapi.com/terms
+  quote: You may cache API responses for reasonable periods
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://apogeoapi.com/terms
+  quote: You may use the data in your applications
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://apogeoapi.com/terms
+  quote: without attribution (though appreciated)
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://apogeoapi.com/terms
+  quote: Automated scraping of the entire dataset
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://apogeoapi.com/terms
+  quote: Geographic data sourced from public and open-source databases retains its original licensing.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://apogeoapi.com/pricing
+  quote: 1,000 requests/month 5 requests/min 1 API key
+  checked_at: '2026-11-21'
+notes: Read Terms of Service sections 4 and 8 and the pricing page. Commercial use allowed on all plans, caching "for reasonable periods" (so limited), no attribution needed, but reselling raw data and
+  scraping the full dataset are prohibited. The underlying geographic data keeps its original (open-source/public) licences, and IP geolocation is served from a local MaxMind database whose licence terms
+  were not checked, so upstream conditions are unverified.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

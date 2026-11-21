@@ -1,0 +1,67 @@
+id: haulierscope
+name: HaulierScope
+url: https://haulierscope.co.uk/developers
+category: Transportation
+description: Great Britain goods vehicle and PSV operator licences, change history and public inquiries
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: HaulierScope
+  url: https://haulierscope.co.uk/developers
+  category: Transportation
+link_status: alive
+data_license: Open Government Licence v3.0 (DVSA source data); HaulierScope database rights reserved
+commercial_use: ambiguous
+storage_caching: ambiguous
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://haulierscope.co.uk/terms
+rate_limits: 60 requests at once, then 1 request/second per connection
+evidence:
+- field: data_license
+  url: https://haulierscope.co.uk/developers
+  quote: Contains public sector information licensed under the Open Government Licence v3.0
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://haulierscope.co.uk/terms
+  quote: You may use our API and MCP server, including through automated tools and AI agents, within the
+    published rate limits and with attribution to HaulierScope.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://haulierscope.co.uk/terms
+  quote: You may use our API and MCP server, including through automated tools and AI agents, within the
+    published rate limits and with attribution to HaulierScope.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://haulierscope.co.uk/developers
+  quote: so caching for longer is fine for most uses
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://haulierscope.co.uk/terms
+  quote: copy, download or re-publish our pages or database in bulk, or build a database, directory or
+    service from them
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://haulierscope.co.uk/developers
+  quote: Each connection can make 60 requests at once, then one request a second.
+  checked_at: '2026-11-21'
+notes: 'Read developers page and Terms of use (Part A). API is free, keyless, usable with attribution
+  within rate limits; but terms forbid bulk copying/republishing or building a database/directory/service
+  from the site or database (they point to DVSA''s own OGL file instead). Commercial use not explicitly
+  addressed (monitoring is sold to businesses); caching up to 5 min recommended, longer ''fine for most
+  uses'' vs no database-building: storage and display ambiguous. Underlying DVSA data is OGL v3.0 and
+  can be taken directly from DVSA.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Developers page: show the OGL statement with the data (attribution yes). Directory-style
+  catalog sites are blocked; plain display OK.'

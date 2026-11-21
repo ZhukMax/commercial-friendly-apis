@@ -1,0 +1,60 @@
+id: pandlens
+name: Pandlens
+url: https://pandlens.nl/docs
+category: Geocoding
+description: Dutch property, building, energy label, 3D roof/solar, parcel and neighbourhood data by postal
+  code
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Pandlens
+  url: https://pandlens.nl/docs
+  category: Geocoding
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: 'no'
+self_host_option: unknown
+verdict: unknown
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://pandlens.nl/voorwaarden
+data_license_url: https://pandlens.nl/bronnen
+rate_limits: 'Free: 100 lookups per month (paid plans announced: Starter 2,500, Pro 15,000)'
+evidence:
+- field: bulk_download
+  url: https://pandlens.nl/voorwaarden
+  quote: Alleen per adres in je applicatie. Geen bulk-download of export.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://pandlens.nl/voorwaarden
+  quote: Gegevens van derden mag je hergebruiken voor zover de bronlicentie dat toestaat
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://pandlens.nl/voorwaarden
+  quote: Je mag de Pandlens-dienst, compilatie en afgeleide waarden niet doorverkopen of als bulkbestand
+    aanbieden.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://pandlens.nl/
+  quote: Gratis tot 100 per maand.
+  checked_at: '2026-11-21'
+notes: 'Pages read (Dutch): API-voorwaarden (voorwaarden), Bronnen & licenties, home/pricing. Terms are
+  very short: service is "as is", energy labels only per address (no bulk), third-party data reusable
+  only as far as each source licence allows (sources are BAG public domain, CBS/RIVM/Politie CC BY 4.0,
+  several CC0, EP-Online with its own terms), no resale of the compilation or derived values. Nothing
+  says whether use on a commercial/ad-supported site is allowed, nor about caching/storage, so those stay
+  unknown. Per-source attribution lines exist on the Bronnen page. Free key: 100 lookups/month; same address
+  within 24 h not counted (cache).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read voorwaarden and bronnen in browser. Third-party data reusable per source licence
+  (many CC BY/CC0, EP-Online own terms). Stays unknown for commercial and storage.

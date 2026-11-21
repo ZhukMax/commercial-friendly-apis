@@ -1,0 +1,25 @@
+id: opper
+name: Opper
+url: https://docs.opper.ai/build/gateway/drop-in-sdks
+category: Machine Learning
+description: EU-hosted OpenAI-compatible gateway to 700+ models from 50+ providers, with free models
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Opper
+  url: https://docs.opper.ai/build/gateway/drop-in-sdks
+  category: Machine Learning
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

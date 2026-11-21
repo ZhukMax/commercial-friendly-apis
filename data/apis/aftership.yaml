@@ -1,0 +1,26 @@
+id: aftership
+name: Aftership
+url: https://developers.aftership.com/reference/quick-start
+category: Tracking
+description: API to update, manage and track shipment efficiently
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Aftership
+  url: https://developers.aftership.com/reference/quick-start
+  category: Tracking
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://www.aftership.com/docs/tracking/quickstart/api-quick-start

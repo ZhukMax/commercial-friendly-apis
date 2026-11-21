@@ -1,0 +1,32 @@
+id: civicfeed
+name: CivicFeed
+url: https://developers.civicfeed.com/
+category: Open Data
+description: News articles and public datasets
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-api-lists
+  name: CivicFeed
+  url: https://developers.civicfeed.com/
+  category: Open Data
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://www.peakmetrics.com/use-cases/news-data
+evidence: []
+notes: 'developers.civicfeed.com now redirects to a PeakMetrics ''News Data'' sales page (''Book a Demo'', single news API for businesses): a commercial, contract-based product with no public terms for
+  a free API. PeakMetrics general /terms is a services agreement (access credentials, confidentiality) and was only skimmed; nothing on reuse or display of data. The original CivicFeed public datasets/free
+  API may be gone, not confirmed. All terms unknown; auth is apiKey as listed.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

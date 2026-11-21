@@ -1,0 +1,37 @@
+id: coinlib
+name: Coinlib
+url: https://coinlib.io/
+category: Cryptocurrency
+description: Crypto Currency Prices
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Coinlib
+  url: https://coinlib.io/
+  category: Cryptocurrency
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: 'no'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://coinlib.io/for-agents
+evidence:
+- field: redistribution_display
+  url: https://coinlib.io/for-agents
+  quote: Those licences let us use the data in our own product but not redistribute it through an API of our own
+  checked_at: '2026-11-21'
+notes: Read /for-agents ('API & AI Agents') and /disclaimer; there is no ToS page (/terms is 404, only Privacy Policy and Disclaimer). Coinlib states its market data (prices, market caps, volumes) is licensed
+  from CoinMarketCap and CoinGecko and cannot be redistributed through an API, so it offers no market-data API and disallows those routes in robots.txt; the old 'Crypto Currency Prices' API appears discontinued.
+  A remaining /api/v1 covers only Coinlib's own analysis/FAQ/newsroom articles (key, licence and reuse terms for them not stated; not assessed). Upstream CMC/CoinGecko terms apply to the price data. Verdict
+  red refers to the price data the listing describes.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -1,0 +1,68 @@
+id: votepredictor
+name: VotePredictor
+url: https://votepredictor.com/developers
+category: Government
+description: US election forecasts, congressional voting records and forecaster accuracy ratings
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: VotePredictor
+  url: https://votepredictor.com/developers
+  category: Government
+link_status: alive
+data_license: Free to use with attribution to votepredictor.com (custom statement)
+commercial_use: 'yes'
+storage_caching: ambiguous
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://votepredictor.com/developers
+commercial_use_scope: any
+attribution_text: Attribution to votepredictor.com
+share_alike: unknown
+rate_limits: 'REST: no meaningful limit stated; MCP: 100 requests/day per address'
+notes: 'Read /developers and the live /api/v1 index JSON; no ToS or licence page exists (/terms 404).
+  The only statement is ''Free to use with attribution'' / ''attribution is the only ask'', which reads
+  as permissive but never says ''commercial'' or addresses storage/caching, so commercial_use=yes is an
+  inference from ''only ask'' (confidence low) and storage is ambiguous. Footer: forecasts by TabPFN;
+  poll data from VoteHub (CC BY 4.0, needs its own credit); member data includes reported net worth from
+  other sources whose terms were not checked. Operator: oconnorventures.com LLC. Asking the operator for
+  a written licence would settle it.'
+evidence:
+- field: data_license
+  url: https://votepredictor.com/api/v1
+  quote: Free to use with attribution to votepredictor.com.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://votepredictor.com/developers
+  quote: Attribution to votepredictor.com is the only ask.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://votepredictor.com/developers
+  quote: Attribution to votepredictor.com is the only ask.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://votepredictor.com/developers
+  quote: Attribution to votepredictor.com is the only ask.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://votepredictor.com/developers
+  quote: the MCP server allows 100 requests a day per address.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://votepredictor.com/developers
+  quote: Attribution to votepredictor.com is the only ask.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Read /developers, /api/v1 JSON, /methodology. Ambiguity (storage, explicit commercial)
+  unresolved: operator silent. Yellow/low stands.'

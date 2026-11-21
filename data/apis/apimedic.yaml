@@ -1,0 +1,26 @@
+id: apimedic
+name: ApiMedic
+url: https://apimedic.com/
+category: Sports & Fitness
+description: ApiMedic offers a medical symptom checker API primarily for patients
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: ApiMedic
+  url: https://apimedic.com/
+  category: Sports & Fitness
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: ConnectTimeout

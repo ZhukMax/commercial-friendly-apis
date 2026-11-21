@@ -1,0 +1,26 @@
+id: zenrows
+name: ZenRows
+url: https://www.zenrows.com/
+category: Development
+description: Web Scraping API that bypasses anti-bot solutions while offering JS rendering, and rotating
+  proxies
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: ZenRows
+  url: https://www.zenrows.com/
+  category: Development
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

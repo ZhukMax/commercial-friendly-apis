@@ -1,0 +1,30 @@
+id: rwanda-locations
+name: Rwanda Locations
+url: https://rapidapi.com/victorkarangwa4/api/rwanda
+category: Geocoding
+description: Rwanda Provences, Districts, Cities, Capital City, Sector, cells, villages and streets
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Rwanda Locations
+  url: https://rapidapi.com/victorkarangwa4/api/rwanda
+  category: Geocoding
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+evidence: []
+notes: 'Page read via Playwright (fresh context): RapidAPI listing. It shows only a free BASIC plan ($0.00), an overview and a "Terms of Use" link that points to RapidAPI''s generic marketplace terms; the
+  provider publishes no licence or data terms and gives no data source. All terms fields unknown. Upstream auth "none" is stale: access needs a RapidAPI key.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

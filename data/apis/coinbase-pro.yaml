@@ -1,0 +1,36 @@
+id: coinbase-pro
+name: Coinbase Pro
+url: https://docs.pro.coinbase.com/
+category: Cryptocurrency
+description: Cryptocurrency Trading Platform
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Coinbase Pro
+  url: https://docs.pro.coinbase.com/#api
+  category: Cryptocurrency
+- list: public-api-lists
+  name: Coinbase Pro
+  url: https://docs.pro.coinbase.com/#api
+  category: Cryptocurrency
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://docs.cdp.coinbase.com/exchange/introduction/welcome
+evidence: []
+notes: 'Listed docs.pro.coinbase.com redirects (301/307/308) to docs.cdp.coinbase.com/exchange/introduction/welcome (Coinbase Exchange API). That page does not say it replaces Coinbase Pro, so no terms
+  were transferred. For information only: the Exchange docs bind users to the Coinbase Market Data Terms of Use (coinbase.com/legal/market_data, updated 7 Aug 2026), which limit use to personal/research
+  purposes and forbid displaying/redistributing data to third parties; if Coinbase Pro is confirmed as the same service this would be red. Left unknown pending that confirmation.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

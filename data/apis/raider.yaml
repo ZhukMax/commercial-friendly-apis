@@ -1,0 +1,26 @@
+id: raider
+name: Raider
+url: https://raider.io/api
+category: Games & Comics
+description: Provides detailed character and guild rankings for Raiding and Mythic+ content in World of
+  Warcraft
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Raider
+  url: https://raider.io/api
+  category: Games & Comics
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

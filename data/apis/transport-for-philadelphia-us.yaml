@@ -1,0 +1,47 @@
+id: transport-for-philadelphia-us
+name: Transport for Philadelphia, US
+url: http://www3.septa.org/hackathon/
+category: Transportation
+description: SEPTA APIs
+description_source: upstream
+auth: none
+https: false
+cors: unknown
+sources:
+- list: public-apis
+  name: Transport for Philadelphia, US
+  url: http://www3.septa.org/hackathon/
+  category: Transportation
+- list: public-api-lists
+  name: Transport for Philadelphia, US
+  url: http://www3.septa.org/hackathon/
+  category: Transportation
+link_status: alive
+data_license: proprietary
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: HTTP 403 (blocked for bots, assumed alive)
+data_license_url: https://www.septa.org/license-agreement/
+api_terms_url: https://www.septa.org/license-agreement/
+evidence:
+- field: data_license
+  url: https://www.septa.org/license-agreement/
+  quote: SEPTA hereby grants to Licensee a non-exclusive, non-assignable, non-transferable, limited and revocable right to use, reproduce and redistribute the datasets
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.septa.org/copyright/
+  quote: use of documents and related graphics available from this Server is for informational and non-commercial purposes only
+  checked_at: '2026-11-21'
+notes: The URL in the source lists (www3.septa.org/hackathon/) returns HTTP 403 to bots and plain HTTP; www3.septa.org now serves a Swagger "SEPTA Developers" API doc (apidoc.json) with no terms text. No
+  terms page specific to the real-time API was found. The Open Data Portal License Agreement (septa.org/license-agreement, fetched via browser; septa.org redirects to wwww.septa.org) grants a revocable
+  right to use, reproduce and redistribute portal datasets, forbids commercial use of SEPTA trademarks/copyrighted materials, and reserves the right to introduce fees; it does not clearly cover the real-time
+  API. The site copyright notice limits website materials to non-commercial use. Unclear whether either applies to API data, so unknown, not red. Suggest asking SEPTA.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

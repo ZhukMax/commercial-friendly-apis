@@ -1,0 +1,62 @@
+id: veabird
+name: Veabird
+url: https://veabird.com/api/v1
+category: Weather
+description: Beach (sargassum, waves, hurricanes) and ski snow forecasts for 1,900+ resorts, no key
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Veabird
+  url: https://veabird.com/api/v1
+  category: Weather
+link_status: alive
+data_license: proprietary (Veabird Terms of use; includes third-party data)
+commercial_use: 'yes'
+storage_caching: ambiguous
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+commercial_use_scope: any
+attribution_text: 'Data: Veabird, linked to the relevant veabird.com resort page'
+api_terms_url: https://veabird.com/terms
+notes: Read veabird.com/terms (OpenAPI links to it) and the "Free JSON API" section of veabird.com/for-resorts/.
+  Commercial use allowed ("personal and commercial planning"); do not scrape abusively, misrepresent forecasts
+  as your own, or remove attribution. Caching is requested but no retention limit is given (ambiguous).
+  The feed contains third-party inputs (NOAA, USF sargassum data, weather models) whose licences were
+  not checked. Site also earns money from affiliate links (disclosed).
+evidence:
+- field: commercial_use
+  url: https://veabird.com/terms
+  quote: You may use Veabird for personal and commercial planning, and embed our widgets
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://veabird.com/for-resorts/
+  quote: Please cache on your side rather than polling more than hourly.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://veabird.com/for-resorts/
+  quote: 'Show "Data: Veabird" with a link to https://veabird.com/resort/tulum/'
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://veabird.com/terms
+  quote: or remove attribution from widgets or data
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://veabird.com/terms
+  quote: Forecasts, grades, sargassum scores and other information are estimates based on models and third-party
+    data.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read veabird.com/terms (updated 2026-09-29): commercial planning allowed, attribution
+  not to be removed. Third-party inputs (NOAA, USF sargassum) upstream not read; NOAA is public domain.
+  Yellow stands.'

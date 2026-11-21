@@ -1,0 +1,57 @@
+id: intrinio
+name: Intrinio
+url: https://intrinio.com/
+category: Finance
+description: A wide selection of financial data feeds
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Intrinio
+  url: https://intrinio.com/
+  category: Finance
+link_status: alive
+data_license: proprietary (Intrinio Terms of Service and Order Form)
+commercial_use: paid-only
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://intrinio.com/terms
+commercial_use_scope: paid
+evidence:
+- field: commercial_use
+  url: https://intrinio.com/terms
+  quote: you may access and use the Services and Intrinio Data solely for your own internal purposes
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://intrinio.com/terms
+  quote: Display, publish, distribute, transmit, or otherwise make any Intrinio Data available to any
+    third party
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://intrinio.com/terms
+  quote: You are responsible for obtaining all necessary approvals from exchanges or third-party vendors
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://intrinio.com/terms
+  quote: you may access and use the Services and Intrinio Data solely for your own internal purposes
+  checked_at: '2026-11-21'
+notes: 'Read the Terms of Service (effective 3 Sep 2026). Without an executed Order Form, data is for
+  internal use only: no display/publication to third parties (websites, apps, APIs), no commercial product
+  or revenue-generating use, no resale. Display and commercial rights come only from a negotiated Order
+  Form (paid), and each data feed may add its own redistribution limits. Customers must obtain exchange/third-party
+  approvals for real-time exchange-sourced data. Because display is forbidden by default but available
+  by contract, redistribution_display=ambiguous (yellow). Caching/storage not addressed in the excerpt
+  read; pricing page not read.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Display needs negotiated Order Form; effectively no for standard use.

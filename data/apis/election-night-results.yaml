@@ -1,0 +1,54 @@
+id: election-night-results
+name: Election Night Results
+url: https://pushbuild.com/apis/election-night-results.html
+category: Government
+description: Live US election results from official state feeds, statewide and by county; free tier
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Election Night Results
+  url: https://pushbuild.com/apis/election-night-results.html
+  category: Government
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: 'no'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://pushbuild.com/terms
+notes: Read Pushbuild Terms of Use (version 2026-11-08), section 4 APIs. The API licence is limited, non-transferable,
+  non-sublicensable and for "internal business purposes"; nothing about public display/redistribution
+  of results on a public site or caching. Underlying data comes from official state feeds (their own terms
+  not checked). Leans restrictive for a public ad-supported site; ask the vendor.
+evidence:
+- field: commercial_use
+  url: https://pushbuild.com/terms
+  quote: non-sublicensable license to call our APIs with the key we issue to you, for your internal business
+    purposes.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://pushbuild.com/terms
+  quote: non-sublicensable license to call our APIs with the key we issue to you, for your internal business
+    purposes.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://pushbuild.com/terms
+  quote: license to call our APIs with the key we issue to you, for your internal business purposes
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+share_alike: unknown
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Pushbuild ToS s4.1: licence to call APIs is for your internal business purposes only;
+  s5(c) bans reselling/white-labelling the APIs; s4.2 puts all third-party terms (state feeds) on the
+  user; nothing permits public display of results on a public site; History mode is CC0 (MIT Election
+  Data and Science Lab), but live results are from state feeds under their own terms | applied: redistribution_display=no'

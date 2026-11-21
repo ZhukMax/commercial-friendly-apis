@@ -1,0 +1,102 @@
+id: zornade
+name: Zornade
+url: https://app.zornade.com/api/
+category: Geocoding
+description: Cadastral parcels, geocoding, OMI valuations, risk and demographics for Italy (85M parcels)
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Zornade
+  url: https://app.zornade.com/api/
+  category: Geocoding
+- list: public-api-lists
+  name: Zornade
+  url: https://zornade.com/api-particelle-catastali
+  category: Government
+link_status: alive
+data_license: Per-source licences (CC BY 4.0, IODL 2.0, ODbL, ISPRA/INGV/Copernicus; OMI quotations under
+  Agenzia Entrate terms)
+commercial_use: 'yes'
+storage_caching: ambiguous
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://zornade.com/terms/
+api_terms_url: https://zornade.com/terms/
+commercial_use_scope: any
+attribution_text: '"Dati elaborati da Zornade" with link to zornade.com (free-plan keys; waivable with
+  commercial licence) plus mandatory source attributions'
+rate_limits: 10,000 requests/hour per token (terms); site marketing says 1,000/hour free
+evidence:
+- field: data_license
+  url: https://zornade.com/terms/
+  quote: Ogni dataset pubblicato indica la licenza della fonte originale
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://zornade.com/terms/
+  quote: 'Puoi usare i servizi per qualsiasi finalità lecita: analisi, integrazioni, prodotti commerciali,
+    ricerca, didattica.'
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://zornade.com/terms/
+  quote: Puoi conservarli per il tempo che serve al tuo servizio e aggiornarli periodicamente.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://zornade.com/terms/
+  quote: puoi mostrare i dati ai tuoi utenti e ai tuoi clienti dentro il tuo prodotto
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://zornade.com/terms/
+  quote: Le chiavi del piano gratuito richiedono di mantenere visibile, nei prodotti che espongono i dati,
+    l'attribuzione
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://zornade.com/terms/
+  quote: Il limite attuale è di 10.000 richieste/ora per token.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://zornade.com/terms/
+  quote: 'Ogni dataset pubblicato indica la licenza della fonte originale: CC BY 4.0, IODL 2.0, ODbL o
+    licenze ISPRA/INGV/Copernicus.'
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://app.zornade.com/api/
+  quote: CC BY 4.0 (HRSL Meta/CIESIN, WorldPop) + ODbL 1.0 (OSM).
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://zornade.com/terms/
+  quote: puoi mostrare i dati ai tuoi utenti e ai tuoi clienti dentro il tuo prodotto, una dashboard,
+    un report o una scheda immobile
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://zornade.com/terms/
+  quote: Le chiavi del piano gratuito richiedono di mantenere visibile, nei prodotti che espongono i dati,
+    l'attribuzione "Dati elaborati da Zornade" con link a zornade.com.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://zornade.com/terms/
+  quote: 'Ogni dataset pubblicato indica la licenza della fonte originale: CC BY 4.0, IODL 2.0, ODbL o
+    licenze ISPRA/INGV/Copernicus.'
+  checked_at: '2026-11-21'
+notes: 'Read the Zornade Terms of Service (updated 31 Oct 2026, Italian). Free plan explicitly allows
+  commercial products, displaying data to own users/customers and storing it as long as needed, with mandatory
+  visible Zornade attribution plus original source attributions (never waivable). Underlying sources carry
+  different licences (some ODbL, OMI under Agenzia delle Entrate terms): share-alike effects not assessed,
+  and "do not resell raw downloaded data without attribution". Rate limit in terms (10,000/h) differs
+  from the marketing page (1,000/h free). Merged duplicate entry `zornade-zornade`.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Upstream ODbL layers (OSM, OpenAddresses) carry share-alike; ToS defers to source
+  licences; Rate limit differs between ToS and marketing | applied: redistribution_display=ambiguous,
+  storage_caching=ambiguous'
+aliases:
+- zornade-zornade

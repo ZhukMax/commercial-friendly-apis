@@ -1,0 +1,84 @@
+id: openvan
+name: OpenVan
+url: https://openvan.camp/docs
+category: Transportation
+description: Fuel prices for 121 countries, food cost index & vanlife weather scores for RV travel
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: OpenVan
+  url: https://openvan.camp/docs
+  category: Transportation
+link_status: alive
+data_license: CC-BY-4.0
+commercial_use: ambiguous
+storage_caching: 'yes'
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: 'yes'
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://openvan.camp/docs
+api_terms_url: https://openvan.camp/docs
+commercial_use_scope: any
+share_alike: unknown
+attribution_text: 'Show a visible link "Data: OpenVan.camp" to https://openvan.camp/ next to the data
+  (the _attribution.attribution_html field).'
+rate_limits: 120 requests/minute per IP (helper endpoints 30-60/min); do not poll more often than every
+  10 minutes
+evidence:
+- field: data_license
+  url: https://openvan.camp/docs
+  quote: No API key. Free to use with attribution (CC BY 4.0).
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://openvan.camp/docs
+  quote: You are free to use it in your apps, bots, and articles.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://creativecommons.org/licenses/by/4.0/legalcode.en
+  quote: reproduce and Share the Licensed Material, in whole or in part
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://openvan.camp/docs
+  quote: You are free to use it in your apps, bots, and articles.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://openvan.camp/docs
+  quote: 'License: CC BY 4.0 — free to use with attribution to OpenVan.camp'
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://openvan.camp/docs
+  quote: daily CSV snapshots
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://openvan.camp/docs
+  quote: Data is cached — please don't poll more often than every 10 minutes.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.exchangerate-api.com/docs/free
+  quote: You are, however, not allowed to re-distribute it.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://openvan.camp/docs
+  quote: 'Source chain: national central banks (RUB/TRY/GEL/UAH/BYN/UZS) for precision, then Fawaz API
+    / ExchangeRate-API / Frankfurter / ECB'
+  checked_at: '2026-11-21'
+notes: 'Read the API docs (OpenAPI description). All data are declared CC BY 4.0 with required visible
+  attribution; no separate terms page found (/terms and /api-terms return 404). CC BY 4.0 legal code read
+  at creativecommons.org. Caveat: OpenVan is an aggregator (fuel prices, visa rules, weather scores, holidays,
+  news etc. compiled from other providers); the docs do not say which upstream sources/licences apply,
+  which may be stricter than CC BY. Hence confidence medium. Docs also advise adding ?source=<your-domain>
+  to every request.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Aggregator: currency rates draw on ExchangeRate-API open endpoint whose terms forbid
+  redistribution, contradicting blanket CC BY; No upstream licences listed for fuel, visa, news, plate
+  data; No ToS page exists | applied: redistribution_display=ambiguous, commercial_use=ambiguous'

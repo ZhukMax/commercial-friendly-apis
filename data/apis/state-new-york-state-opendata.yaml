@@ -1,0 +1,83 @@
+id: state-new-york-state-opendata
+name: State, New York State Opendata
+url: https://data.ny.gov/
+category: Government
+description: New York State Open Data
+description_source: upstream
+auth: OAuth
+https: true
+cors: unknown
+sources:
+- list: public-api-lists
+  name: State, New York State Opendata
+  url: https://data.ny.gov/
+  category: Government
+link_status: alive
+data_license: OPEN-NY Terms of Use (custom, permissive; no attribution or share-alike)
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'no'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: high
+link_checked_at: '2026-11-21'
+commercial_use_scope: any
+share_alike: 'no'
+data_license_url: https://data.ny.gov/dataset/OPEN-NY-Terms-Of-Use/77gx-ii52
+api_terms_url: https://data.ny.gov/dataset/OPEN-NY-Terms-Of-Use/77gx-ii52
+evidence:
+- field: commercial_use
+  url: https://data.ny.gov/dataset/OPEN-NY-Terms-Of-Use/77gx-ii52
+  quote: Then use our government information however you wish, in private sector projects or in government
+    collaborations
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://data.ny.gov/dataset/OPEN-NY-Terms-Of-Use/77gx-ii52
+  quote: You are welcome to freely download and use this Content as long as you abide by these Terms of
+    Use
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://data.ny.gov/dataset/OPEN-NY-Terms-Of-Use/77gx-ii52
+  quote: Then use our government information however you wish, in private sector projects or in government
+    collaborations
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://data.ny.gov/dataset/OPEN-NY-Terms-Of-Use/77gx-ii52
+  quote: The OPEN NY Terms of Service do not contain restrictions requiring members of the public to use
+    attribution
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://data.ny.gov/dataset/OPEN-NY-Terms-Of-Use/77gx-ii52
+  quote: to impose share-alike or technical restrictions
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://data.ny.gov/dataset/OPEN-NY-Terms-Of-Use/77gx-ii52
+  quote: So long as you are not doing anything malicious with NYS data, you may use it as you wish
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://data.ny.gov/dataset/OPEN-NY-Terms-Of-Use/77gx-ii52
+  quote: or may be imposed specifically on specific Content.
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://data.ny.gov/api/catalog/v1?limit=100&only=datasets
+  quote: Creative Commons Attribution | Share Alike 4.0 International
+  checked_at: '2026-11-21'
+notes: 'Terms are a 6-page PDF (OPEN-NY Terms of Use, last modified 2013-03-08) attached as a dataset
+  on data.ny.gov, read via pdftotext of the file download. Only requirement: lawful use (no malware, no
+  illegal purposes); the State may ask you to stop if you violate terms. The terms also say other terms
+  may be imposed on specific Content, so check dataset pages. Socrata (SODA) API; upstream auth OAuth
+  is for optional app tokens/auth, API-level throttling terms not read.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Portal default only: OPEN-NY terms say other terms may be imposed on specific content;
+  Catalog metadata shows datasets with CC BY-SA 4.0 (share-alike), ODC-ODbL and ''See Terms of Use'',
+  and many with no licence field; First pass confidence ''high'' overstates a portal-wide default'
+verdict_override: yellow
+override_reason: 'Second check: Portal default only: OPEN-NY terms say other terms may be imposed on specific
+  content; Catalog metadata shows datasets with CC BY-SA 4.0 (share-alike), ODC-ODbL and ''See Terms of
+  Use'', and many with no licence field; First pass confidence ''high'' overstates a portal-wide default'
+license_scope: portal-default

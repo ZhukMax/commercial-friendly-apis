@@ -1,0 +1,63 @@
+id: livetrafficcam
+name: LiveTrafficCam
+url: https://bzsasson.github.io/traffic-camera-sources/api.html
+category: Transportation
+description: Live US state DOT traffic cameras with verified live status and measured uptime
+description_source: upstream
+auth: none
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: LiveTrafficCam
+  url: https://bzsasson.github.io/traffic-camera-sources/api.html
+  category: Transportation
+link_status: alive
+data_license: CC-BY-4.0 (repo files); camera records carry the operating agency attribution
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+data_license_url: https://creativecommons.org/licenses/by/4.0/
+api_terms_url: https://bzsasson.github.io/traffic-camera-sources/api.html
+attribution_text: 'Keep the per-camera attribution line (e.g. "Camera: WSDOT")'
+rate_limits: Max 200 cameras per query; responses cached at the edge for 60 seconds; send a descriptive
+  User-Agent
+evidence:
+- field: data_license
+  url: https://bzsasson.github.io/traffic-camera-sources/
+  quote: Repo files are CC BY 4.0.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://bzsasson.github.io/traffic-camera-sources/api.html
+  quote: Keep the per-camera attribution line when displaying the data.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://bzsasson.github.io/traffic-camera-sources/api.html
+  quote: Keep the per-camera attribution line when displaying the data.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://bzsasson.github.io/traffic-camera-sources/api.html
+  quote: Responses are cached at the edge for 60 seconds; polling faster returns the same data.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://bzsasson.github.io/traffic-camera-sources/api.html
+  quote: Data aggregated from official agency feeds by LiveTrafficCam .
+  checked_at: '2026-11-21'
+notes: The CC BY 4.0 statement is for the GitHub snapshot files; the live API page only says to keep per-camera
+  attribution. Data is aggregated from many state DOT feeds, each with its own terms (sources.json lists
+  them, not checked), so commercial use is ambiguous. Camera images stay on agency sites (official_url).
+  No explicit commercial-use or storage statement for the API itself.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read api.html, livetrafficcam.com/terms and /sources, and sources.json in the repo
+  (terms_url null for several 511 platforms, Caltrans/Iowa have own conditions). No blocker; the aggregator
+  states it only shows images where the agency feed is published for third-party use. First pass (ambiguous,
+  yellow, attribution yes) stands.

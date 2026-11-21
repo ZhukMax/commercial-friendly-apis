@@ -1,0 +1,31 @@
+id: non-working-days-isdayoff
+name: Non-Working Days
+url: https://isdayoff.ru
+category: Calendar
+description: Simple REST API for checking working, non-working or short days for Russia, CIS, USA and
+  other
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Non-Working Days
+  url: https://isdayoff.ru
+  category: Calendar
+- list: public-api-lists
+  name: Non-working Days
+  url: https://isdayoff.ru
+  category: Calendar
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: ConnectError

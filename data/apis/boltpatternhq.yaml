@@ -1,0 +1,58 @@
+id: boltpatternhq
+name: BoltPatternHQ
+url: https://boltpatternhq.com/mcp/
+category: Vehicle
+description: Vehicle wheel fitment, bolt pattern (PCD), offset, and center bore specifications
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: BoltPatternHQ
+  url: https://boltpatternhq.com/mcp/
+  category: Vehicle
+link_status: alive
+data_license: proprietary (website terms; paid dataset commercial licences)
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+data_license_url: https://boltpatternhq.com/terms/
+api_terms_url: https://boltpatternhq.com/terms/
+commercial_use_scope: paid
+evidence:
+- field: commercial_use
+  url: https://boltpatternhq.com/data/
+  quote: The Business Pro tier includes full multi-project and SaaS commercial rights for unlimited applications,
+    public APIs, and multi-tenant platforms.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://boltpatternhq.com/terms/
+  quote: use the materials for any commercial purpose or for any public display
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://boltpatternhq.com/terms/
+  quote: personal, non-commercial transitory viewing only
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://boltpatternhq.com/terms/
+  quote: use the materials for any commercial purpose or for any public display
+  checked_at: '2026-11-21'
+notes: No API or MCP terms page found. Website ToS (read) allow only personal, non-commercial transitory
+  viewing and forbid commercial purpose, public display and mirroring. The /data/ page sells a CSV dataset
+  ($47 Standard single-project commercial licence, $89 Business Pro with public API/SaaS rights; resale
+  of raw files banned). So commercial use is only through a paid dataset licence, not through the free
+  MCP/API (paid-only; display ambiguous because the free ToS bars public display). Storage not addressed
+  for the free API (unknown).
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'commercial_use paid-only refers to a CSV dataset licence, not the free API/MCP; website
+  ToS bans commercial use and public display | applied: commercial_use=ambiguous'

@@ -1,0 +1,42 @@
+id: aurastream
+name: AuraStream
+url: https://aurastream.unbiased-alpha.com/docs/
+category: Finance
+description: Crypto, FX, macro, COT, SEC filings and alt data from 47 sources through one endpoint and one schema
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: AuraStream
+  url: https://aurastream.unbiased-alpha.com/docs/
+  category: Finance
+link_status: alive
+data_license: unknown (aggregates 47 upstream providers, each with own terms)
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://aurastream.unbiased-alpha.com/docs/
+share_alike: unknown
+rate_limits: 'Free: 500 calls/month, 1 request/second'
+evidence:
+- field: rate_limits
+  url: https://aurastream.unbiased-alpha.com/docs/getting-started/plans-and-limits/
+  quote: 500 per month
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://aurastream.unbiased-alpha.com/docs/
+  quote: Aurastream is a unified financial data API.
+  checked_at: '2026-11-21'
+notes: 'Read the docs (home, Plans & Limits, Data Sources overview, Yahoo page); no terms of service, licence or commercial-use statement found (/terms returns an empty page). Docs only advise caching "locally"
+  to save calls. Aggregator of 47 sources (Yahoo Finance, Binance, FRED, SEC EDGAR, Polygon, etc.): upstream terms may be stricter (Yahoo data is not licensed for redistribution) and some sources require
+  your own key/account. All core fields unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

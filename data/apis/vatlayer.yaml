@@ -1,0 +1,54 @@
+id: vatlayer
+name: VATlayer
+url: https://vatlayer.com/
+category: Data Validation
+description: VAT number validation
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: VATlayer
+  url: https://vatlayer.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers
+  category: Data Validation
+- list: public-api-lists
+  name: vatlayer
+  url: https://vatlayer.com
+  category: Data Validation
+link_status: alive
+data_license: proprietary (apilayer Terms of Use & API License Agreement)
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: 'yes'
+attribution_required: 'no'
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://vatlayer.com/terms
+evidence:
+- field: redistribution_display
+  url: https://vatlayer.com/terms
+  quote: You are hereby permitted to receive, process, and display vatlayer API Data & Services to individual
+    end-users of your application(s)
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://vatlayer.com/terms
+  quote: Your inclusion of a clickable hyperlink to the vatlayer API website at https://vatlayer.com would
+    be highly appreciated.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://vatlayer.com/terms
+  quote: You are permitted solely to use vatlayer API Data & Services for reference by Your end users.
+  checked_at: '2026-11-21'
+notes: apilayer Terms of Use & API License Agreement (last modified 17-02-2018) read; apilayer "Permitted
+  and Prohibited Uses Policy" linked from it not read. Display to end users of your own application is
+  allowed, but only for the end users' personal use; end users may not store or distribute it, and You
+  may not reproduce, copy, distribute or otherwise exploit the data beyond that, nor use or store it after
+  termination. No explicit statement on commercial use or caching during the term, so commercial_use and
+  storage_caching unknown. Attribution link is only "highly appreciated" (optional). Upstream is the EU
+  VIES service (not verified on these pages).
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

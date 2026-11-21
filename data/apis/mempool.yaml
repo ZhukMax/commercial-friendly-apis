@@ -1,0 +1,33 @@
+id: mempool
+name: Mempool
+url: https://mempool.space/api
+category: Cryptocurrency
+description: Bitcoin API Service focusing on the transaction fee
+description_source: upstream
+auth: none
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Mempool
+  url: https://mempool.space/api
+  category: Cryptocurrency
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://mempool.space/docs/api
+api_terms_url: https://mempool.space/terms-of-service
+notes: 'Read via Playwright (JS-rendered page). ToS (updated 2024-07-10) covers the Website "and their
+  associated API services" but contains no clause on commercial use, caching, display or data licence:
+  only warranty/liability, no-advertising on the site, accelerator terms. No API-specific terms page read.
+  All terms fields unknown. The service is open source (self-host possible) but not verified here.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

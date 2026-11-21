@@ -1,0 +1,48 @@
+id: 0x
+name: 0x
+url: https://docs.0x.org/
+category: Cryptocurrency
+description: API for querying token and pool stats across various liquidity pools
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: 0x
+  url: https://docs.0x.org/
+  category: Cryptocurrency
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: 'no'
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://docs.0x.org/docs/introduction/welcome
+api_terms_url: https://0x.org/legal/api-license-agreement
+evidence:
+- field: storage_caching
+  url: https://0x.org/legal/api-license-agreement
+  quote: redistribute, syndicate, copy, store, create derivative works of, assign or otherwise transfer,
+    transmit, or commercialize, in whole or in part, the API or ZeroEx Data
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://0x.org/legal/api-license-agreement
+  quote: redistribute, syndicate, copy, store, create derivative works of, assign or otherwise transfer,
+    transmit, or commercialize, in whole or in part, the API or ZeroEx Data
+  checked_at: '2026-11-21'
+notes: 'Read the 0x API License Agreement (and ToS). Restriction: no selling/redistributing/copying/storing
+  the API or ZeroEx Data "except as permitted herein"; scope of permitted use is set in per-customer Service
+  Terms/pricing page (not read). Swap/trade API, requires a dashboard account (auth likely apiKey now;
+  not verified); description "token and pool stats" is outdated. Commercial use not stated.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Licence grant is only ''in connection with the Service''; copying/storing ZeroEx Data
+  is barred | applied: storage_caching=no'

@@ -1,0 +1,25 @@
+id: pok-wallet
+name: PokéWallet
+url: https://pokewallet.io/api-docs
+category: Games & Comics
+description: 'Pokémon TCG, One Piece and 10 more card games: cards, sets, TCGplayer and Cardmarket prices'
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: PokéWallet
+  url: https://pokewallet.io/api-docs
+  category: Games & Comics
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

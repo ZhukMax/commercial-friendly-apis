@@ -1,0 +1,66 @@
+id: dribbble
+name: Dribbble
+url: https://developer.dribbble.com
+category: Art & Design
+description: Discover the world’s top designers & creatives
+description_source: upstream
+auth: OAuth
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Dribbble
+  url: https://developer.dribbble.com
+  category: Art & Design
+- list: public-api-lists
+  name: Dribbble
+  url: http://developer.dribbble.com/v2/
+  category: Art & Design
+link_status: alive
+data_license: proprietary (members own their content)
+commercial_use: 'yes'
+storage_caching: 'no'
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: high
+link_checked_at: '2026-11-21'
+api_terms_url: https://developer.dribbble.com/terms/
+commercial_use_scope: any
+share_alike: unknown
+verdict_override: red
+override_reason: Terms forbid saving/storing API data and restrict displaying member profiles/portfolios;
+  project rules treat forbidden storage as red.
+notes: Read the API Terms & Guidelines page. Commercial use is allowed unless the app competes with or
+  replaces Dribbble (no designer directories, search, hiring/job tools, portfolio display sites except
+  with OAuth authorisation by the member). Only data exposed via the API may be used and saving/storing
+  it is prohibited; shots must be removed within 24h on request; member content rights stay with members.
+  OAuth needed. Developer docs site itself is CC BY, which is unrelated to the API data. Verdict overridden
+  to red because storage is forbidden and display is restricted to the point a catalog/aggregator site
+  cannot use it.
+evidence:
+- field: commercial_use
+  url: https://developer.dribbble.com/terms/
+  quote: You are free to use the Dribbble API for commercial use, provided that you abide by these terms
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://developer.dribbble.com/terms/
+  quote: Scraping, copying, saving, or storing our data is strictly prohibited and against our Terms of
+    Service .
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://developer.dribbble.com/terms/
+  quote: Dribbble members own all rights to their content
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://developer.dribbble.com/terms/
+  quote: Dribbble members own all rights to their content
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read API terms: storage ban and the list of banned products (designer directories,
+  job/hiring tools, profile display) hold. Red verdict stands.'

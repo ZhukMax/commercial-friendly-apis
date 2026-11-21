@@ -1,0 +1,74 @@
+id: nansen
+name: Nansen
+url: https://docs.nansen.ai/api/overview
+category: Cryptocurrency
+description: Labeled wallets, Smart Money flows, token holders and flows, wallet PnL, perps and Polymarket
+  data
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Nansen
+  url: https://docs.nansen.ai/api/overview
+  category: Cryptocurrency
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: limited
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://docs.nansen.ai/guides/redistribution-guide
+attribution_text: Powered by Nansen API (or a clickable link to Nansen.ai near the data)
+evidence:
+- field: redistribution_display
+  url: https://docs.nansen.ai/guides/redistribution-guide
+  quote: You may freely redistribute this data in your products, services, or applications according to
+    Nansen's Terms of Service.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://docs.nansen.ai/guides/redistribution-guide
+  quote: Redistribution is NOT allowed under any circumstances.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://docs.nansen.ai/guides/redistribution-guide
+  quote: Display "Powered by Nansen API" visibly in your product interface
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://docs.nansen.ai/guides/redistribution-guide
+  quote: You may freely redistribute this data in your products, services, or applications according to
+    Nansen's Terms of Service.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.nansen.ai/legal/api
+  quote: Create permanent or cached copies of any API Services or Nansen Data beyond timeframes specified
+    in the documentation
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.nansen.ai/legal/api
+  quote: solely for your internal business purposes in accordance with the documentation provided by Nansen
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.nansen.ai/legal/api
+  quote: Redistribution of raw, bulk, or aggregated Nansen Data is prohibited without our prior written
+    consent
+  checked_at: '2026-11-21'
+notes: 'Page read: Nansen API Data Redistribution Guidelines (updated 18/11/2025). Status is per endpoint:
+  most endpoints allowed with attribution (not needed for personal/internal use), smart-money holders/perp-positions/inflows
+  need approval plus significant modification, and address/labels, smart-money holdings, leaderboards,
+  smart-money dex/perp trades and DCAs are prohibited for public display. Nansen''s actual Terms of Service
+  (nansen.ai/terms-of-service) returned 404 and plan/pricing terms were not read, so commercial_use stays
+  ambiguous; storage/caching not addressed. Mixed per-endpoint status caps this at yellow.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'API Terms (prevail over guidelines) limit licence to internal business purposes; API
+  Terms ban cached copies beyond documented timeframes and raw redistribution without consent | applied:
+  storage_caching=limited'

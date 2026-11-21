@@ -1,0 +1,51 @@
+id: metro-lisboa
+name: Metro Lisboa
+url: http://app.metrolisboa.pt/status/getLinhas.php
+category: Transportation
+description: Delays in subway lines
+description_source: upstream
+auth: none
+https: false
+cors: 'no'
+sources:
+- list: public-apis
+  name: Metro Lisboa
+  url: http://app.metrolisboa.pt/status/getLinhas.php
+  category: Transportation
+- list: public-api-lists
+  name: Metro Lisboa
+  url: http://app.metrolisboa.pt/status/getLinhas.php
+  category: Transportation
+link_status: alive
+data_license: CC 4.0 (variant not specified) per open-data page; website terms exclude commercial use
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.metrolisboa.pt/termos-e-condicoes-de-utilizacao/
+data_license_url: https://www.metrolisboa.pt/dados-abertos/
+evidence:
+- field: commercial_use
+  url: https://www.metrolisboa.pt/termos-e-condicoes-de-utilizacao/
+  quote: A utilização dos conteúdos deste website para fins comerciais está excluída
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.metrolisboa.pt/dados-abertos/
+  quote: Mais se informa que a licença utilizada é a CC4.0.
+  checked_at: '2026-11-21'
+notes: 'Conflicting signals: the Open Data page says the licence used is "CC4.0" (variant, e.g. BY vs
+  NC, not named) and mentions a free-access API (separate API platform), while the website terms exclude
+  commercial use of website content. The endpoint listed (app.metrolisboa.pt/status/getLinhas.php) is
+  an old unauthenticated JSON status feed; it is not clear which licence covers it. Caching/display/attribution
+  not read for this feed, so unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Conflict not resolvable from pages: the website-terms exclusion likely does not govern
+  the open-data API, but the CC variant is unnamed. Stays ambiguous/yellow, low confidence.'

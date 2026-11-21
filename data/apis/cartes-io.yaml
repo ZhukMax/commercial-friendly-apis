@@ -1,0 +1,43 @@
+id: cartes-io
+name: Cartes.io
+url: https://github.com/M-Media-Group/Cartes.io/wiki/API
+category: Geocoding
+description: Create maps and markers for anything
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Cartes.io
+  url: https://github.com/M-Media-Group/Cartes.io/wiki/API
+  category: Geocoding
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://github.com/M-Media-Group/Cartes.io/wiki/API
+attribution_text: Attribute Cartes.io in a clear and visible manner (and Icons8 if showing category icons)
+share_alike: unknown
+rate_limits: Resource-creation endpoints rate limited; stricter per-minute and per-day limits when unauthenticated
+notes: Read the API wiki page ("Attribution and use policy") and the GitHub repo page (code is GPL-3.0, which covers software, not hosted user data). The wiki imposes mandatory attribution and respect for
+  map privacy (unlisted/private maps must not be indexed or exposed). No statement on commercial use, caching or a data licence; cartes.io /terms and app.cartes.io /terms returned nothing. Maps/markers
+  are community-contributed content with unknown rights, so core fields stay unknown. Self-hosting possible (open source repo); the repo is described as Laravel app.
+evidence:
+- field: attribution_required
+  url: https://github.com/M-Media-Group/Cartes.io/wiki/API
+  quote: In any application you make that uses this API, you must attribute Cartes.io in a clear and visible manner.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://github.com/M-Media-Group/Cartes.io/wiki/API
+  quote: you may not include the map data in indexes, return the data on search pages
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

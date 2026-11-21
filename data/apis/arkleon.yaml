@@ -1,0 +1,53 @@
+id: arkleon
+name: Arkleon
+url: https://arkleon.com
+category: Finance
+description: Point-in-time SEC EDGAR fundamentals over /v1
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Arkleon
+  url: https://arkleon.com
+  category: Finance
+link_status: alive
+data_license: proprietary compilation; underlying SEC EDGAR facts public
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: 'no'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://arkleon.com/terms
+share_alike: unknown
+evidence:
+- field: commercial_use
+  url: https://arkleon.com/terms
+  quote: redistribute, resell, or commercially exploit Service content, including data obtained through
+    the API, without written permission
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://arkleon.com/terms
+  quote: We do not claim ownership of the underlying facts.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://arkleon.com/terms
+  quote: That authorization does not license anything in (e).
+  checked_at: '2026-11-21'
+notes: Read Terms of Service (updated 2026-08-15). Section 6(e) forbids redistributing, reselling or commercially
+  exploiting Service content including API data without written permission, yet a paid API ($49+/month)
+  is sold; whether displaying figures on a commercial site counts is unclear, so ambiguous. Terms also
+  say a separate written agreement can govern API keys. The terms page oddly describes a sentiment dashboard
+  as well. Underlying SEC EDGAR facts are public and the terms say nothing stops you getting them from
+  the SEC. Storage not addressed.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'ToS 6(e) bans commercially exploiting API data; API authorisation explicitly does
+  not cover 6(e) | applied: commercial_use=ambiguous (suggested no, needs human review), redistribution_display=no'

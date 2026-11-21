@@ -1,0 +1,43 @@
+id: upres
+name: UpRes
+url: https://upres.ai/docs/api
+category: Art & Design
+description: AI image upscaling to 8K with 18 models (Real-ESRGAN, SeedVR2, AuraSR)
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: UpRes
+  url: https://upres.ai/docs/api
+  category: Art & Design
+link_status: alive
+data_license: unknown
+commercial_use: paid-only
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://upres.ai/terms
+commercial_use_scope: paid
+notes: 'Read the general Terms of Service (effective April 12, 2026). Free plan: 5 upscales/month, watermarked,
+  no commercial statement; Creator, Studio and pay-as-you-go carry a commercial license (section 5 also
+  says ''Pro, Business'' plans, inconsistent naming). Users keep rights to inputs and outputs; processed
+  results are kept only 7 days. The API docs page is a JS shell with no terms. Not a data source: AI upscaling
+  service. Storage/display of outputs not addressed beyond ownership.'
+evidence:
+- field: commercial_use
+  url: https://upres.ai/terms
+  quote: Creator ($9/month launch deal, was $19) — 50 stills + 20 videos up to 8K per month, no watermark,
+    commercial license
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

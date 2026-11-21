@@ -1,0 +1,50 @@
+id: freehire
+name: freehire
+url: https://freehire.dev/docs/api
+category: Jobs
+description: Open-source search engine aggregating tech jobs from company ATS boards
+description_source: upstream
+auth: none
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: freehire
+  url: https://freehire.dev/docs/api
+  category: Jobs
+link_status: redirect
+data_license: proprietary (freehire Terms of Service, "Data licence for API plans")
+commercial_use: paid-only
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: -> https://freehire.me/docs/api
+commercial_use_scope: paid
+share_alike: unknown
+api_terms_url: https://freehire.me/terms
+evidence:
+- field: commercial_use
+  url: https://freehire.me/terms
+  quote: Without a plan, the API is for personal and non-commercial use
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://freehire.me/terms
+  quote: you may store the data you read through our API and show it in your own product, including a commercial one.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://freehire.me/terms
+  quote: you may store the data you read through our API and show it in your own product, including a commercial one.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://freehire.me/terms
+  quote: Without a plan, the API is for personal and non-commercial use
+  checked_at: '2026-11-21'
+notes: Read https://freehire.me/terms (freehire.dev redirects to freehire.me). Commercial display needs a paid API plan; with a plan you may store and show data in your own product, but not resell/redistribute
+  raw data as dataset/API/feed, and must stop showing postings when the plan ends. Postings belong to employers; terms grant no rights the employer has not given. Pricing page not read.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

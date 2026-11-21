@@ -1,0 +1,26 @@
+id: autochess-vng
+name: Autochess VNG
+url: https://github.com/didadadida93/autochess-vng-api
+category: Games & Comics
+description: Rest Api for Autochess VNG
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Autochess VNG
+  url: https://github.com/didadadida93/autochess-vng-api
+  category: Games & Comics
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://github.com/namakurohman93/autochess-vng-api

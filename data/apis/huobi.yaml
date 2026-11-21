@@ -1,0 +1,35 @@
+id: huobi
+name: Huobi
+url: https://huobiapi.github.io/docs/spot/v1/en/
+category: Cryptocurrency
+description: Seychelles based cryptocurrency exchange
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Huobi
+  url: https://huobiapi.github.io/docs/spot/v1/en/
+  category: Cryptocurrency
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://huobiapi.github.io/docs/spot/v1/en/
+notes: Huobi (now HTX) exchange API. Read the GitHub-pages API docs (no licence or terms of use in them)
+  and HTX support pages (announcements only); no data-usage terms page was found or read, so all terms
+  fields unknown. Exchange market data may carry its own redistribution limits. Account-scoped trading
+  endpoints are not a data source.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

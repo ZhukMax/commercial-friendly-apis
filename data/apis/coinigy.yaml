@@ -1,0 +1,48 @@
+id: coinigy
+name: Coinigy
+url: https://coinigy.docs.apiary.io
+category: Cryptocurrency
+description: Interacting with Coinigy Accounts and Exchange Directly
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Coinigy
+  url: https://coinigy.docs.apiary.io
+  category: Cryptocurrency
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: limited
+redistribution_display: 'no'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.coinigy.com/en/terms/
+cache_limit: only within each Distinct Software Application and subject to Data Owners' restrictions
+rate_limits: 'V1 API: 2 requests/second, burst of 5'
+evidence:
+- field: redistribution_display
+  url: https://www.coinigy.com/en/terms/
+  quote: Customer may not display or make the Data or Third Party Data available in any Data Exchange Format to non-employee users
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.coinigy.com/en/terms/
+  quote: Customer may cache and store the Data and Third Party Data for use within each Distinct Software Application
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://coinigy.docs.apiary.io/
+  quote: API requests are capped at 2 requests per second with an allowed burst of 5 excess requests.
+  checked_at: '2026-11-21'
+notes: 'Terms of Service & End User Agreement read via Playwright (www.coinigy.com/en/terms/; /terms returns a 503 offline page). Data may only be used inside the customer''s own software applications;
+  it may not be displayed or made available to non-employee users, including on public websites; Coinigy''s Historical Data cannot be redistributed. Caching allowed only within each application and per
+  Data Owner restrictions (third-party exchange data). Subscription-based (API access from the 99.99/month Developer Pro plan). The commercial-use field is not stated explicitly -> unknown. NOTE: on 2026-11-21
+  the site showed ''Coinigy is temporarily offline'' after a security incident on 12 Nov 2026 (service possibly unavailable; link_status left alive because docs and /en/ pages still load). Account-scoped
+  trading/portfolio API (exchange accounts) as well as market data. data_license left unknown: proprietary terms, no named licence.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

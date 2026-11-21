@@ -1,0 +1,58 @@
+id: drillr
+name: Drillr
+url: https://drillr.ai/docs/api
+category: Finance
+description: Fundamentals, filings, earnings, ownership and events for US, China and Japan equities
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Drillr
+  url: https://drillr.ai/docs/api
+  category: Finance
+link_status: alive
+data_license: proprietary; licensed third-party data, internal use only
+commercial_use: ambiguous
+storage_caching: 'no'
+redistribution_display: 'no'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://drillr.ai/legal/terms
+evidence:
+- field: commercial_use
+  url: https://drillr.ai/legal/terms
+  quote: to access and use the data provided through the Service solely for your internal business purposes
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://drillr.ai/legal/terms
+  quote: Without drillr’s written consent, cache, mirror, or build a derivative database of drillr data
+    as a substitute for live calls to the Service
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://drillr.ai/legal/terms
+  quote: Redistribute, resell, sublicense, or share raw data, aggregated data, or derivatives that can
+    be reverse-engineered into raw data with any third party
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://drillr.ai/legal/terms
+  quote: to access and use the data provided through the Service solely for your internal business purposes
+  checked_at: '2026-11-21'
+notes: 'Terms of Service (https://drillr.ai/legal/terms): data licence is internal business use only;
+  raw/aggregated data may not be redistributed, cached or mirrored as a substitute for live calls without
+  written consent; section 7 allows showing AI outputs/analysis to end users with disclaimers, but raw
+  data distribution needs a separate commercial agreement. Upstream vendor restrictions apply on top (no
+  redistribution, display and territorial limits) and the more restrictive term controls. Aggregator of
+  SEC, market, news data; upstream terms may be stricter. The /terms redirect leads to a sign-in; the
+  /legal/terms page was readable.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Red verdict stands. s7 allows showing AI outputs to end users with disclaimers, but
+  raw data display needs a separate commercial agreement.

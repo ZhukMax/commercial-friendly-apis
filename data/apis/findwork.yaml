@@ -1,0 +1,29 @@
+id: findwork
+name: Findwork
+url: https://findwork.dev/developers/
+category: Jobs
+description: Job board
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Findwork
+  url: https://findwork.dev/developers/
+  category: Jobs
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://findwork.dev/accounts/login/?next=/developers/
+notes: Developer docs and API key sit behind login (URL redirects to the sign-in page); /terms and /terms-of-service return 404. No terms readable, so unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

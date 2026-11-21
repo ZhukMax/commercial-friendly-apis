@@ -1,0 +1,32 @@
+id: ibge
+name: IBGE
+url: https://servicodados.ibge.gov.br/api/docs/
+category: Geocoding
+description: Aggregate services of IBGE (Brazilian Institute of Geography and Statistics)
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: IBGE
+  url: https://servicodados.ibge.gov.br/api/docs/
+  category: Geocoding
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: HTTP 403 (blocked for bots, assumed alive)
+evidence: []
+notes: curl returns a Cloudflare challenge (403). In the Playwright browser (fresh context, normal navigation) the API docs page (servicodados.ibge.gov.br/api/docs/) loaded and lists the APIs (Agregados,
+  Localidades, Malhas, Nomes...), but it has no terms or licence text. ibge.gov.br links only to a privacy policy ("Termo de Uso e Politica de Privacidade", which is about personal data) and a Dados Abertos
+  page with no licence content. No data-reuse/licence statement found, so all terms fields unknown. Brazilian federal open-data policy might apply but was not read.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

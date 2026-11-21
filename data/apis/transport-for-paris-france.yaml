@@ -1,0 +1,86 @@
+id: transport-for-paris-france
+name: Transport for Paris, France
+url: http://data.ratp.fr/api/v1/console/datasets/1.0/search/
+category: Transportation
+description: RATP Open Data API
+description_source: upstream
+auth: none
+https: false
+cors: unknown
+sources:
+- list: public-apis
+  name: Transport for Paris, France
+  url: http://data.ratp.fr/api/v1/console/datasets/1.0/search/
+  category: Transportation
+- list: public-api-lists
+  name: Transport for Paris, France
+  url: http://data.ratp.fr/api/v1/console/datasets/1.0/search/
+  category: Transportation
+link_status: redirect
+data_license: Licence Ouverte (Etalab) per dataset metadata; individual datasets may differ
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: -> https://data.ratp.fr/api-console/explore/v2.1/
+data_license_url: https://github.com/etalab/licence-ouverte/blob/master/open-licence.md
+api_terms_url: https://data.ratp.fr/pages/faq/
+commercial_use_scope: any
+share_alike: unknown
+evidence:
+- field: commercial_use
+  url: https://data.ratp.fr/pages/faq/
+  quote: Oui, bien sûr, pour nos données ouvertes présentes sur notre plateforme open data uniquement.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://data.ratp.fr/api/explore/v2.1/catalog/datasets?limit=1
+  quote: Licence Ouverte (Etalab)
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://github.com/etalab/licence-ouverte/blob/master/open-licence.md
+  quote: To reproduce it, copy it.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://github.com/etalab/licence-ouverte/blob/master/open-licence.md
+  quote: To share, disseminate, redistribute, publish and transmit it.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://github.com/etalab/licence-ouverte/blob/master/open-licence.md
+  quote: An acknowledgement of the authorship of the
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://github.com/etalab/licence-ouverte/blob/master/open-licence.md
+  quote: To exploit it for commercial purposes, e.g., by combining it with other information
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://data.ratp.fr/api/explore/v2.1/catalog/datasets?limit=100
+  quote: Licence ODbL Version Française
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://data.ratp.fr/pages/faq/
+  quote: Dans le cadre d'une utilisation commerciale, les plans de réseaux et de lignes de la RATP destinés
+    à l'édition resteront payants.
+  checked_at: '2026-11-21'
+notes: Old API URL redirects to the new Opendatasoft console (data.ratp.fr/api-console/explore/v2.1/).
+  Portal FAQ (read via Playwright) says third parties may commercialise services using the open datasets
+  on the platform only; dataset metadata (checked on the first catalog result) shows Licence Ouverte (Etalab),
+  whose licence text (Open Licence 2.0 on GitHub) allows commercial reuse, copying and redistribution
+  with attribution. Per-dataset licences may differ and RATP network maps have a separate licence; real-time
+  data is not open (FAQ).
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Portal-wide green is overstated: of 16 datasets via catalog API only 13 are Licence
+  Ouverte (Etalab); Two datasets are ODbL (share-alike, database rights) and one has no licence set; RATP
+  network maps stay paid for commercial use'
+verdict_override: yellow
+override_reason: 'Second check: Portal-wide green is overstated: of 16 datasets via catalog API only 13
+  are Licence Ouverte (Etalab); Two datasets are ODbL (share-alike, database rights) and one has no licence
+  set; RATP network maps stay paid for commercial use'
+license_scope: portal-default

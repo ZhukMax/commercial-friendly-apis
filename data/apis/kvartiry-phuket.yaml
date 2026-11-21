@@ -1,0 +1,84 @@
+id: kvartiry-phuket
+name: Kvartiry-Phuket
+url: https://kvartiry-phuket.com/otkrytye-dannye/
+category: Open Data
+description: Russian-language Phuket real estate guides, asking prices, condo assessment rates, weather,
+  beaches
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Kvartiry-Phuket
+  url: https://kvartiry-phuket.com/otkrytye-dannye/#english
+  category: Open Data
+link_status: alive
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+notes: 'Read the open-data page (Russian). Datasets under /ceny/ (aggregated CSV/JSON, e.g. asking-price
+  snapshots, climate, observed weather) and charts are CC BY 4.0: commercial use with attribution. Mixed
+  page: guides/articles may be quoted/reprinted only with an active source link (explicitly not CC); official
+  condo assessment rates (Thai Treasury Dept., via NHIC) stay under the source''s terms (Open Data Common,
+  not read); OpenStreetMap-derived pieces are ODbL (share-alike applies there); third-party photos, listing
+  texts and contacts are excluded. Green applies to the CC BY datasets only; per-dataset terms differ.'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+data_license: CC-BY-4.0 for datasets and charts; editorial guides reprintable only with active link (not
+  CC); condo assessment rates keep source terms (Open Data Common); OSM-derived parts ODbL
+data_license_url: https://kvartiry-phuket.com/otkrytye-dannye/
+api_terms_url: https://kvartiry-phuket.com/otkrytye-dannye/
+commercial_use: 'yes'
+commercial_use_scope: any
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+attribution_text: Kvartiry-Phuket, snapshot date, active link to the dataset page, mark changes
+share_alike: unknown
+rate_limits: No key; static JSON files
+bulk_download: 'yes'
+self_host_option: unknown
+evidence:
+- field: data_license
+  url: https://kvartiry-phuket.com/otkrytye-dannye/
+  quote: Наборы данных /ceny/ (агрегированные CSV и JSON) и созданные нами графики — лицензия CC BY 4.0
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://creativecommons.org/licenses/by/4.0/deed.en
+  quote: copy and redistribute the material in any medium or format for any purpose, even commercially
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://kvartiry-phuket.com/otkrytye-dannye/
+  quote: Наборы данных /ceny/ (агрегированные CSV и JSON) и созданные нами графики — лицензия CC BY 4.0
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://creativecommons.org/licenses/by/4.0/deed.en
+  quote: copy and redistribute the material in any medium or format for any purpose, even commercially
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://kvartiry-phuket.com/otkrytye-dannye/
+  quote: Наборы данных /ceny/ (агрегированные CSV и JSON) и созданные нами графики — лицензия CC BY 4.0
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://creativecommons.org/licenses/by/4.0/deed.en
+  quote: copy and redistribute the material in any medium or format for any purpose, even commercially
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://kvartiry-phuket.com/otkrytye-dannye/
+  quote: Наборы данных /ceny/ (агрегированные CSV и JSON) и созданные нами графики — лицензия CC BY 4.0
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://kvartiry-phuket.com/otkrytye-dannye/
+  quote: укажите Kvartiry-Phuket, дату среза, активную ссылку на страницу набора и отметьте изменения
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://kvartiry-phuket.com/otkrytye-dannye/
+  quote: Все ответы — статичные JSON-файлы в кодировке UTF-8 с датой обновления данных.
+  checked_at: '2026-11-21'
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Green holds only for CC BY datasets; the API also serves guides/districts/FAQ which
+  are not CC but may be quoted/reprinted with an active source link (canonical required on full reprints);
+  official condo rates keep source terms; OSM parts ODbL; photos excluded.
+license_scope: portal-default

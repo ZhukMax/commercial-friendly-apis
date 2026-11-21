@@ -1,0 +1,42 @@
+id: isitwater
+name: IsItWater
+url: https://IsItWater.com/
+category: Geocoding
+description: A free API to determine if a lat/lon is on water or land
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: IsItWater
+  url: https://IsItWater.com/
+  category: Geocoding
+link_status: alive
+data_license: ODbL (OpenStreetMap data via Protomaps)
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://isitwater.com/terms
+data_license_url: https://www.openstreetmap.org/copyright
+rate_limits: Pay-as-you-go credits; 1,000 free credits on signup
+evidence:
+- field: data_license
+  url: https://isitwater.com/terms
+  quote: The underlying geographic data is provided by OpenStreetMap contributors under the Open Database License (ODbL).
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://isitwater.com/
+  quote: 1,000 free credits on signup. Pay as you go from there.
+  checked_at: '2026-11-21'
+notes: 'Read isitwater.com home page and /terms (updated Nov 21, 2026). Auth is actually an API key (Authorization: Bearer) with credit-based billing (the old "auth: other" is replaced). Terms permit integrating
+  the API "into your applications, websites, or services" and forbid reselling/redistributing API access, but never mention commercial use, caching/storage or attribution duties, so those stay unknown.
+  Underlying data is OSM (ODbL); ODbL share-alike/attribution implications for derived results not assessed. onwater.io redirects here.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

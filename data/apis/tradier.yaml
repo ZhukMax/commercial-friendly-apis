@@ -1,0 +1,35 @@
+id: tradier
+name: Tradier
+url: https://developer.tradier.com
+category: Finance
+description: US equity/option market data (delayed, intraday, historical)
+description_source: upstream
+auth: OAuth
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Tradier
+  url: https://developer.tradier.com
+  category: Finance
+- list: public-api-lists
+  name: Tradier
+  url: https://developer.tradier.com
+  category: Finance
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://tradier.com/legal/api-agreement
+notes: Read the Tradier API Agreement (PDF behind https://tradier.com/legal/api-agreement; developer.tradier.com is a JS shell). It governs brokerage customers authorising third-party apps; it says quotes
+  come from DTN and Tradier is not responsible for accuracy, but it says nothing on commercial use, storage, or display of market data. Market-data redistribution is normally restricted by exchanges/DTN
+  (not checked); a brokerage account is required for the API. All core fields left unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -1,0 +1,31 @@
+id: meirra
+name: Meirra
+url: https://meirra.com/api
+category: Business
+description: SEO monitoring, email verification, lead generation, and marketing analytics
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Meirra
+  url: https://meirra.com/api
+  category: Business
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.meirra.com/legal/terms-of-service
+notes: Read https://www.meirra.com/legal/terms-of-service (updated 11/02/2026) and https://www.meirra.com/api. The Terms of Service are generic agency/SaaS terms (SEO services, client obligations, deliverables
+  licensed 'for your business purposes' after payment); they say nothing about API response data, commercial use, caching, display or attribution. No separate API terms page found. All core fields unknown.
+  The data are SEO monitoring / email verification results, likely derived from third-party sources whose terms were not checked.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

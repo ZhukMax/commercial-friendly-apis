@@ -1,0 +1,33 @@
+id: open-skills
+name: Open Skills
+url: https://github.com/workforce-data-initiative/skills-api/wiki/API-Overview
+category: Jobs
+description: Job titles, skills and related jobs data
+description_source: upstream
+auth: none
+https: false
+cors: unknown
+sources:
+- list: public-apis
+  name: Open Skills
+  url: https://github.com/workforce-data-initiative/skills-api/wiki/API-Overview
+  category: Jobs
+- list: public-api-lists
+  name: Open Skills
+  url: https://github.com/workforce-data-initiative/skills-api/wiki/API-Overview
+  category: Jobs
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: api.dataatwork.org (base URL in the wiki) does not resolve (NXDOMAIN); dataatwork.org returns 404; repo last pushed 2018
+notes: Wiki page is only API architecture docs; the repository has no licence (GitHub shows NOASSERTION) and the service host api.dataatwork.org no longer resolves, so the API appears dead. Terms unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

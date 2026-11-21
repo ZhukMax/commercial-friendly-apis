@@ -1,0 +1,51 @@
+id: opensky-network
+name: OpenSky Network
+url: https://openskynetwork.github.io/opensky-api/
+category: Transportation
+description: Free real-time ADS-B aviation data
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: OpenSky Network
+  url: https://openskynetwork.github.io/opensky-api/
+  category: Transportation
+link_status: alive
+data_license: 'proprietary (OpenSky Data License Agreement: non-profit research/education only)'
+commercial_use: 'no'
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: high
+link_checked_at: '2026-11-21'
+data_license_url: https://opensky-network.org/about/terms-of-use
+api_terms_url: https://opensky-network.org/about/terms-of-use
+commercial_use_scope: free-tier
+attribution_text: Cite the original OpenSky paper (Schäfer et al., IPSN 2014) and optionally https://opensky-network.org
+evidence:
+- field: commercial_use
+  url: https://opensky-network.org/about/terms-of-use
+  quote: Any use by a for-profit or commercial entity requires written permission and a license granted by the OpenSky Network.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://openskynetwork.github.io/opensky-api/
+  quote: If you want to retrieve live flight information for commercial purposes, please contact us
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://opensky-network.org/about/terms-of-use
+  quote: solely for the purpose of non-profit research and non-profit education.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://openskynetwork.github.io/opensky-api/
+  quote: you should cite the original OpenSky paper as follows
+  checked_at: '2026-11-21'
+notes: Read the API docs and the General Terms of Use & Data License Agreement. The free API/data is licensed only for non-profit research and education; any for-profit use, and any operational
+  use of the REST API in a live product, needs a written licence from OpenSky (contact by email; terms of a commercial licence not published). So the free API is not usable on an ad-supported
+  site; a negotiated commercial licence may exist. Storage/display not evaluated further since commercial use is excluded.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

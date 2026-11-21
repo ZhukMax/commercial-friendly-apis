@@ -1,0 +1,26 @@
+id: forismatic
+name: Forismatic
+url: http://forismatic.com/en/api/
+category: Personality
+description: Inspirational Quotes
+description_source: upstream
+auth: none
+https: false
+cors: unknown
+sources:
+- list: public-apis
+  name: Forismatic
+  url: http://forismatic.com/en/api/
+  category: Personality
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: ReadTimeout

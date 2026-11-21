@@ -1,0 +1,65 @@
+id: instatus
+name: Instatus
+url: https://instatus.com/help/api
+category: Business
+description: Post to and update maintenance and incidents on your status page through an HTTP REST API
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Instatus
+  url: https://instatus.com/help/api
+  category: Business
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: 'yes'
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://instatus.com/policies/terms
+commercial_use_scope: any
+notes: Instatus Terms of Service read. This is a write/manage API for the customer's OWN status page data,
+  not a third-party data source; 'data' here is the customer's own content, so green means 'you may keep
+  and publish your own status content', not reuse of Instatus-owned datasets. Reselling the service as
+  a standalone service is prohibited. Free plan limits not checked.
+evidence:
+- field: commercial_use
+  url: https://instatus.com/policies/terms
+  quote: you may use the Service for your own internal business purposes and to communicate with your
+    customers and users, within the limits of your plan.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://instatus.com/policies/terms
+  quote: You own your data.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://instatus.com/policies/terms
+  quote: Anything you publish to a public status page, widget, feed, badge or API endpoint can be seen,
+    cached and copied by anyone.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://instatus.com/policies/terms
+  quote: you may use the Service for your own internal business purposes and to communicate with your
+    customers and users
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://instatus.com/policies/terms
+  quote: resell, sublicense or provide the Service to third parties as a standalone service
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Not a data source: write/manage API for the customer''s own status page; Terms grant
+  use for own internal business purposes only, within plan limits; Quotes do not support commercial use
+  of third-party data or display of Instatus data | applied: commercial_use=ambiguous, redistribution_display=ambiguous'
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

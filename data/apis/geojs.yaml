@@ -1,0 +1,34 @@
+id: geojs
+name: GeoJS
+url: https://www.geojs.io/
+category: Geocoding
+description: IP geolocation with ChatOps integration
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: GeoJS
+  url: https://www.geojs.io/
+  category: Geocoding
+- list: public-api-lists
+  name: GeoJS
+  url: https://geojs.io/
+  category: Geocoding
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.geojs.io/tos/
+notes: 'ToS read: only ''use for good things'', as-is, no excessive requests (throttling at their discretion). Nothing on commercial use, storage, display or attribution. The landing page says all GeoIP
+  data is sourced from MaxMind GeoLite (its licence/attribution terms not assessed). All terms fields unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

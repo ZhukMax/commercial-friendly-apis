@@ -1,0 +1,60 @@
+id: toolalize
+name: Toolalize
+url: https://toolalize.com/openapi.json
+category: Science & Math
+description: Unit and live currency conversion with NIST SI factors, no key needed
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Toolalize
+  url: https://toolalize.com/openapi.json
+  category: Science & Math
+link_status: alive
+data_license: Free to use with attribution (OpenAPI licence field)
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+data_license_url: https://toolalize.com
+api_terms_url: https://toolalize.com/terms
+commercial_use_scope: any
+attribution_text: Attribute results to toolalize.com
+evidence:
+- field: data_license
+  url: https://toolalize.com/openapi.json
+  quote: Free, no-auth, deterministic unit and currency conversion.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://toolalize.com/openapi.json
+  quote: Attribute results to toolalize.com.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://toolalize.com/terms
+  quote: You may not copy, modify, or distribute our content without permission.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://toolalize.com/terms
+  quote: You may not copy, modify, or distribute our content without permission.
+  checked_at: '2026-11-21'
+notes: 'Pages read: openapi.json (info.description and license "Free to use with attribution") and /terms.
+  The OpenAPI file allows free use with attribution but does not mention commercial use; the generic ToS
+  says content may not be copied or distributed without permission, which conflicts/is vague, so ambiguous.
+  Currency conversion uses "live exchange rates" from an unnamed upstream source (not identified; upstream
+  terms may be stricter). Unit factors are NIST/SI facts. Terms last updated Jan 2026.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read openapi.json (info.license.name ''Free to use with attribution'', description
+  ''Attribute results to toolalize.com.'') and /terms (Intellectual Property: no copy/modify/distribute
+  without permission). API-specific statement is more specific and leans permissive but never mentions
+  commercial use. Minor first-pass issue: the data_license evidence quote does not contain the words ''Free
+  to use wit'

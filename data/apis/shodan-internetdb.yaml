@@ -1,0 +1,25 @@
+id: shodan-internetdb
+name: Shodan InternetDB
+url: https://internetdb.shodan.io/docs
+category: Security
+description: Open ports, hostnames, CPEs, tags and known vulnerabilities for an IP address
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Shodan InternetDB
+  url: https://internetdb.shodan.io/docs
+  category: Security
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

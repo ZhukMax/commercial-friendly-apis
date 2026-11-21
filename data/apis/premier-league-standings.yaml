@@ -1,0 +1,31 @@
+id: premier-league-standings
+name: Premier League Standings
+url: https://rapidapi.com/heisenbug/api/premier-league-live-scores/
+category: Sports & Fitness
+description: All Current Premier League Standings and Statistics
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Premier League Standings
+  url: https://rapidapi.com/heisenbug/api/premier-league-live-scores/
+  category: Sports & Fitness
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: RapidAPI listing now shows 'API not found' (checked 2026-11-21 via browser); no terms readable
+notes: The RapidAPI listing https://rapidapi.com/heisenbug/api/premier-league-live-scores/ returns RapidAPI's 'Page Not Found / API not found' page in a browser, so the listing is gone or hidden and no
+  provider terms could be read. All terms fields left unknown. Premier League data is league/sports-data upstream with likely stricter rights (not verified).
+evidence: []
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

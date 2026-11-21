@@ -1,0 +1,37 @@
+id: bithumb
+name: Bithumb
+url: https://apidocs.bithumb.com/
+category: Cryptocurrency
+description: Cryptocurrency Trading Platform
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-api-lists
+  name: Bithumb
+  url: https://apidocs.bithumb.com/
+  category: Cryptocurrency
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: 'no'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.bithumb.com/react/terms/info-api
+evidence:
+- field: redistribution_display
+  url: https://www.bithumb.com/react/terms/info-api
+  quote: 본건 서비스를 이용해 얻은 투자정보, 시세, 계좌, 체결내역, 잔고 등의 데이터를 타인에게 양도하는 행위
+  checked_at: '2026-11-21'
+notes: 'Bithumb API Terms (빗썸API 이용약관, Korean, in force since 2020-03-27), Article 6, read via Playwright (JS SPA; verify_quotes likely unfetchable). Members must not transfer (''양도'') investment information,
+  price quotes, account, execution and balance data obtained through the API service to others; read conservatively as banning redistribution/public display of exchange data (doubt: ''transfer'' might be
+  read narrower). Terms say nothing explicit about commercial use, caching or attribution. Service is mainly an exchange trading API (member-scoped); apidocs.bithumb.com has no licence/terms page. data_license
+  left unknown: proprietary terms, no named licence.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

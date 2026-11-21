@@ -1,0 +1,25 @@
+id: realbots
+name: RealBots
+url: https://aibots.kaderagha.com/api-docs
+category: Security
+description: Verify whether requests claiming to be GPTBot, ClaudeBot & other AI crawlers are real
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: RealBots
+  url: https://aibots.kaderagha.com/api-docs
+  category: Security
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

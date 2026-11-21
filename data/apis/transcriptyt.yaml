@@ -1,0 +1,25 @@
+id: transcriptyt
+name: TranscriptYT
+url: https://transcript-yt.com/docs
+category: Video
+description: YouTube transcripts as JSON, text, SRT or VTT in 150+ languages, with AI fallback
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: TranscriptYT
+  url: https://transcript-yt.com/docs
+  category: Video
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

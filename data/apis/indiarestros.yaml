@@ -1,0 +1,58 @@
+id: indiarestros
+name: IndiaRestros
+url: https://indiarestros.com/api/docs
+category: Food & Drink
+description: Indian restaurants, menus with rupee prices, dish search and timings across 9,000+ cities
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: IndiaRestros
+  url: https://indiarestros.com/api/docs
+  category: Food & Drink
+link_status: alive
+data_license: mixed upstream (Overture CDLA-Permissive-2.0, OSM ODbL, GeoNames CC BY, Commons photos per
+  credit); no single IndiaRestros licence stated
+commercial_use: 'yes'
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://indiarestros.com/terms
+data_license_url: https://indiarestros.com/sources
+commercial_use_scope: any
+attribution_text: Cite the restaurant URL and the source of the facts you use
+rate_limits: 120 requests/min per IP (no key)
+evidence:
+- field: commercial_use
+  url: https://indiarestros.com/terms
+  quote: You may use the website, API and MCP server for personal and commercial purposes within the published
+    rate limits.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://indiarestros.com/sources
+  quote: OpenStreetMap contributors Names, locations, timings, cuisines, phones ODbL 1.0.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://indiarestros.com/for-agents
+  quote: Cite the restaurant URL and the source of the facts you use.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://indiarestros.com/for-agents
+  quote: 'Reads are free: 120 requests a minute per IP without a key.'
+  checked_at: '2026-11-21'
+notes: 'Read https://indiarestros.com/terms, /for-agents and /sources (Cloudflare-protected: read with
+  Playwright in a fresh tab; the /terms text is short). Terms allow commercial use within rate limits
+  and forbid bulk-copying contact details for unsolicited messages. The dataset is an aggregator: Overture
+  places (CDLA Permissive 2.0), OpenStreetMap (ODbL, share-alike/attribution on derived databases), GeoNames,
+  restaurants'' own sites and listings on other platforms, and Wikimedia Commons photos (credited per
+  photo), so upstream terms may be stricter, especially ODbL for OSM-derived data. Storage/caching and
+  display/redistribution are not addressed by the terms, so unknown (verdict unknown).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

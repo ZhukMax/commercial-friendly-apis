@@ -1,0 +1,25 @@
+id: kaijuconverter
+name: KaijuConverter
+url: https://kaijuconverter.com/api-docs
+category: Documents & Productivity
+description: Convert 201+ file formats, OCR, PDF/A & exact KB compression
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: KaijuConverter
+  url: https://kaijuconverter.com/api-docs
+  category: Documents & Productivity
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

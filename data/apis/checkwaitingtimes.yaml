@@ -1,0 +1,70 @@
+id: checkwaitingtimes
+name: CheckWaitingTimes
+url: https://checkwaitingtimes.co.uk/developers
+category: Health
+description: 'NHS England waiting times by hospital and area: planned care, A&E with live waits, scans,
+  ambulances'
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: CheckWaitingTimes
+  url: https://checkwaitingtimes.co.uk/developers
+  category: Health
+link_status: alive
+data_license: OGL-UK-3.0 (underlying NHS England statistics)
+commercial_use: ambiguous
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://checkwaitingtimes.co.uk/terms
+data_license_url: https://checkwaitingtimes.co.uk/developers
+attribution_text: Cite the CheckWaitingTimes page, data month, 'from NHS England data'
+share_alike: unknown
+rate_limits: Fair use with a named user agent; no fixed numeric limit
+evidence:
+- field: data_license
+  url: https://checkwaitingtimes.co.uk/developers
+  quote: The underlying figures are NHS England statistics under the Open Government Licence v3.0 .
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://checkwaitingtimes.co.uk/developers
+  quote: For heavy or commercial use, get in touch first.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://checkwaitingtimes.co.uk/developers
+  quote: 'Please cache responses: the monthly figures change once a month and the live feed every ten
+    minutes.'
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://checkwaitingtimes.co.uk/developers
+  quote: Please cite the CheckWaitingTimes page a figure came from and its data month
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://checkwaitingtimes.co.uk/terms
+  quote: Figures we republish from government sources stay under their original licence, usually the Open
+    Government Licence.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://checkwaitingtimes.co.uk/terms
+  quote: Our JSON endpoints are free for fair use with a named user agent.
+  checked_at: '2026-11-21'
+notes: Read /developers and /terms. Independent aggregator of NHS England published statistics (OGL v3.0,
+  which itself permits commercial reuse with attribution); the operator asks users with heavy or commercial
+  use to get in touch first, which is a request rather than a prohibition but leaves commercial use ambiguous.
+  Live A&E waits are read from individual trusts' own websites (each trust's own estimate; their terms
+  not checked) and may be stricter. OGL clause texts not quoted, only the operator's statement. Caching
+  explicitly encouraged.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Sources page lists OGL for NHS England/CQC/NHS website and ODbL for OSM-derived hours;
+  live trust feeds have no stated licence.

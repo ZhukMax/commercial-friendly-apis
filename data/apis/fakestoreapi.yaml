@@ -1,0 +1,25 @@
+id: fakestoreapi
+name: FakeStoreAPI
+url: https://fakestoreapi.com/
+category: Test Data
+description: Fake store rest API for your e-commerce or shopping website prototype
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: FakeStoreAPI
+  url: https://fakestoreapi.com/
+  category: Test Data
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

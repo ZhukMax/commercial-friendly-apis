@@ -1,0 +1,30 @@
+id: vk
+name: vk
+url: https://vk.com/dev/sites
+category: Social
+description: Read and write vk data
+description_source: upstream
+auth: OAuth
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: vk
+  url: https://vk.com/dev/sites
+  category: Social
+- list: public-api-lists
+  name: vk
+  url: https://vk.com/dev/sites
+  category: Social
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: HTTP 418

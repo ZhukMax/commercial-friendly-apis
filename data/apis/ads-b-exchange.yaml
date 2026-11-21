@@ -1,0 +1,56 @@
+id: ads-b-exchange
+name: ADS-B Exchange
+url: https://www.adsbexchange.com/data/
+category: Transportation
+description: Access real-time and historical data of any and all airborne aircraft
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: ADS-B Exchange
+  url: https://www.adsbexchange.com/data/
+  category: Transportation
+- list: public-api-lists
+  name: ADS-B Exchange
+  url: https://www.adsbexchange.com/data/
+  category: Transportation
+link_status: redirect
+data_license: proprietary (JETNET LLC terms of use; enterprise subscription)
+commercial_use: 'no'
+storage_caching: unknown
+redistribution_display: 'no'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: -> https://www.adsbexchange.com/data-products/
+data_license_url: https://www.jetnet.com/legal/terms-of-use
+api_terms_url: https://www.adsbexchange.com/terms-of-use/
+commercial_use_scope: paid
+attribution_text: JETNET, LLC (where publication is authorised in writing)
+evidence:
+- field: commercial_use
+  url: https://www.jetnet.com/legal/terms-of-use
+  quote: access or use the Services or Company Data for any purpose other than Customer’s own internal business use.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.jetnet.com/legal/terms-of-use
+  quote: publish, resell, transmit, broadcast, distribute the Services or data acquired from the Services or any Company Data.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.jetnet.com/legal/terms-of-use
+  quote: Where such activity is authorized, Customer shall properly attribute “JETNET, LLC” as the source of such data or information.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.jetnet.com/legal/terms-of-use
+  quote: Access is provided solely on a subscription basis for the applicable Term and solely for Customer’s internal business purposes.
+  checked_at: '2026-11-21'
+notes: adsbexchange.com/terms-of-use redirects to the JETNET Terms of Use (ADS-B Exchange is a JETNET product; its Acceptable Use Policy names that Agreement). Access is subscription-only and for internal
+  business purposes; publishing, reselling or distributing the data is prohibited unless authorised in writing or in the Order Form. A public ad/affiliate website is therefore not covered without a separate
+  written agreement, hence red for the default scenario; a negotiated enterprise licence might permit it. The free community feeder/API tier and its terms were not assessed. URL moved to /data-products/.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

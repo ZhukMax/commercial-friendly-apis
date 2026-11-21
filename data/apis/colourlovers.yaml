@@ -1,0 +1,33 @@
+id: colourlovers
+name: ColourLovers
+url: http://www.colourlovers.com/api
+category: Art & Design
+description: Get various patterns, palettes and images
+description_source: upstream
+auth: none
+https: false
+cors: unknown
+sources:
+- list: public-apis
+  name: ColourLovers
+  url: http://www.colourlovers.com/api
+  category: Art & Design
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: high
+link_checked_at: '2026-11-21'
+link_note: https://www.colourlovers.com/api returns {"error":"gone","message":"The COLOURlovers API closed
+  when the site was rebuilt in 2026."}
+notes: curl gets a Cloudflare managed challenge; read once with a fresh Playwright page (challenge passed
+  by the normal browser load), which shows the API endpoint answering 'The COLOURlovers API closed when
+  the site was rebuilt in 2026.' Service shut down, terms not assessed (unknown).
+evidence: []
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

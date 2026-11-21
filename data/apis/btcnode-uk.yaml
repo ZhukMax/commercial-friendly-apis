@@ -1,0 +1,36 @@
+id: btcnode-uk
+name: btcnode.uk
+url: https://btcnode.uk
+category: Cryptocurrency
+description: Bitcoin blockchain data, fees, mempool, SEC insider trades, Reddit sentiment. x402 micropayments for paid endpoints.
+description_source: upstream
+auth: other
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: btcnode.uk
+  url: https://btcnode.uk
+  category: Cryptocurrency
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+rate_limits: Free tier 5 live calls/day/IP on /api/info and /api/fees; otherwise $0.001 per call
+evidence:
+- field: rate_limits
+  url: https://btcnode.uk/llms.txt
+  quote: 5 live calls per day per IP on /api/info and /api/fees
+  checked_at: '2026-11-21'
+notes: 'Pages read: / and /llms.txt; /terms is 404; no ToS, licence or data-use page found. Pay-per-call API (x402 USDC on Base / L402 Lightning) - auth changed from ''none'' to ''other'' since paid routes
+  need a payment header, no API key. Bitcoin node data plus pass-through of third-party content (SEC Form 4 filings, Reddit posts/comments, URL scraping, AI summaries): Reddit and other upstream terms may
+  be stricter and were not assessed. Nothing says what you may do with the data commercially, so all terms unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

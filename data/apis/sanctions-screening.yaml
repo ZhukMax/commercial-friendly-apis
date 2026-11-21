@@ -1,0 +1,51 @@
+id: sanctions-screening
+name: Sanctions Screening
+url: https://dataandapis.com/apis/sanctions
+category: Finance
+description: Fuzzy name screening against OFAC, UN, EU and UK sanctions lists plus PEPs, with list versions
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Sanctions Screening
+  url: https://dataandapis.com/apis/sanctions
+  category: Finance
+link_status: alive
+data_license: 'Upstream lists: OFAC US Government work (no copyright); EU reuse with source acknowledgement;
+  UK OGL v3.0; UN public use; PEPs from Wikidata CC0'
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: ambiguous
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://dataandapis.com/terms-of-service
+rate_limits: Free key 500 tokens/month (1 token per call); Starter $6.99, Pro $24.99
+evidence:
+- field: data_license
+  url: https://dataandapis.com/apis/sanctions
+  quote: All sources are free and commercially usable.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://dataandapis.com/terms-of-service
+  quote: Using the Services for unauthorized commercial purposes
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://dataandapis.com/apis/sanctions
+  quote: EU public data, reuse permitted with source acknowledgement
+  checked_at: '2026-11-21'
+notes: Aggregator of official sanctions lists (self-hosted dataset refreshed daily); upstream licences
+  are listed on the API page and are open, but the service adds its own Terms. Those Terms (short) forbid
+  "unauthorized commercial purposes" and "copying or distributing any part of the Services" without defining
+  what is authorised, so commercial use is ambiguous. Storage/display not addressed. EU list needs source
+  acknowledgement and UK list OGL attribution. Screening results are compliance data, not legal advice.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: ToS dated 2026-11-21 re-read; short, vague. Ambiguity stands.

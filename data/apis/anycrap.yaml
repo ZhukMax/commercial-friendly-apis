@@ -1,0 +1,25 @@
+id: anycrap
+name: Anycrap
+url: https://anycrap.shop/developers
+category: Entertainment
+description: 35,000+ absurdist AI-generated product concepts with names, descriptions, and images
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Anycrap
+  url: https://anycrap.shop/developers
+  category: Entertainment
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

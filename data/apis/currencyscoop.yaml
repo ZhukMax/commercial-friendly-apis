@@ -1,0 +1,35 @@
+id: currencyscoop
+name: CurrencyScoop
+url: https://currencyscoop.com/api-documentation
+category: Currency Exchange
+description: Real-time and historical currency rates JSON API
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: CurrencyScoop
+  url: https://currencyscoop.com/api-documentation
+  category: Currency Exchange
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://currencybeacon.com/api-documentation
+evidence: []
+notes: 'currencyscoop.com/api-documentation 301-redirects to currencybeacon.com/api-documentation. The
+  CurrencyBeacon pages read (terms, footer) never mention CurrencyScoop or say they replace it, so per
+  project rule no terms were transferred and everything stays unknown. For information only: CurrencyBeacon''s
+  own Terms (4.2) prohibit using the Product in the customer''s own products/services and redistributing
+  data, and state a data cache limit of 8 hours; those are NOT recorded as CurrencyScoop terms. The original
+  CurrencyScoop terms could not be read.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -1,0 +1,68 @@
+id: open-food-facts
+name: Open Food Facts
+url: https://world.openfoodfacts.org/data
+category: Food & Drink
+description: Food Products Database
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Open Food Facts
+  url: https://world.openfoodfacts.org/data
+  category: Food & Drink
+- list: public-api-lists
+  name: Open Food Facts
+  url: https://world.openfoodfacts.org/data
+  category: Food & Drink
+link_status: alive
+data_license: ODbL-1.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: high
+link_checked_at: '2026-11-21'
+data_license_url: https://world.openfoodfacts.org/terms-of-use
+api_terms_url: https://world.openfoodfacts.org/terms-of-use
+commercial_use_scope: any
+attribution_text: Attribute Open Food Facts with a link to https://openfoodfacts.org (or product page) and mention the licence.
+share_alike: 'yes'
+evidence:
+- field: commercial_use
+  url: https://world.openfoodfacts.org/terms-of-use
+  quote: authorize the use and reproduction of the content for all purposes, including commercial use, under certain conditions
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://world.openfoodfacts.org/terms-of-use
+  quote: authorize the use and reproduction of the content for all purposes
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://world.openfoodfacts.org/terms-of-use
+  quote: The Open Food Facts database is available under the Open Database License.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://world.openfoodfacts.org/terms-of-use
+  quote: Individual contents of the database are available under the Database Contents License.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://world.openfoodfacts.org/terms-of-use
+  quote: have to mention the licence and to attribute the authorship to Open Food Facts with a link to https://openfoodfacts.org
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://world.openfoodfacts.org/terms-of-use
+  quote: Derivative works must be shared under the same conditions.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://world.openfoodfacts.org/terms-of-use
+  quote: Products images are available under the Creative Commons Attribution ShareAlike licence.
+  checked_at: '2026-11-21'
+notes: 'Three licences: database ODbL 1.0 (attribution + share-alike for derived databases), individual contents DbCL, product images CC BY-SA 4.0 (may contain third-party-rights graphics). Showing individual
+  facts on a commercial site needs only attribution; share-alike applies if you publish a derived database, and to modified images. Yellow due to share-alike. Bulk download and self-host not checked. API
+  rate limits not read.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

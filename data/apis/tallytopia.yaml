@@ -1,0 +1,55 @@
+id: tallytopia
+name: Tallytopia
+url: https://tallytopia.com/api-docs
+category: Science & Math
+description: Calculators for finance, health, math, space and sports with step-by-step results
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Tallytopia
+  url: https://tallytopia.com/api-docs
+  category: Science & Math
+link_status: alive
+data_license: unknown
+commercial_use: 'yes'
+storage_caching: unknown
+redistribution_display: 'yes'
+attribution_required: 'no'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://tallytopia.com/terms
+commercial_use_scope: any
+rate_limits: 60 requests per minute per IP (HTTP 429 beyond that)
+evidence:
+- field: commercial_use
+  url: https://tallytopia.com/terms
+  quote: You may use the site for any lawful personal or commercial purpose.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://tallytopia.com/api-docs
+  quote: Free for any use, no key needed, CORS open to all origins.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://tallytopia.com/terms
+  quote: You're welcome to link to any page and to share results
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://tallytopia.com/api-docs
+  quote: a link back to the calculator's page on Tallytopia is appreciated but not required
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://tallytopia.com/api-docs
+  quote: 'Rate limit: 60 requests per minute per IP (HTTP 429 beyond that).'
+  checked_at: '2026-11-21'
+notes: 'Pages read: tallytopia.com/api-docs and /terms. Results are calculator outputs (formulas), "informational
+  only, not financial/medical/legal advice". Caching/storage of results is not addressed, hence unknown
+  (verdict unknown). Terms forbid republishing substantial parts of the site as your own and scraping
+  at degrading rates. No uptime guarantee.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

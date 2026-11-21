@@ -1,0 +1,83 @@
+id: big-data-explained
+name: Big Data Explained
+url: https://bigdataexplained.com/data
+category: Open Data
+description: Cloud data warehouse list prices, read daily from AWS and Azure pricing APIs, with price
+  history
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Big Data Explained
+  url: https://bigdataexplained.com/data
+  category: Open Data
+link_status: alive
+data_license: CC-BY-4.0 (compilation); underlying vendor list prices remain subject to each vendor's terms
+commercial_use: ambiguous
+storage_caching: 'yes'
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: 'yes'
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://creativecommons.org/licenses/by/4.0/
+api_terms_url: https://bigdataexplained.com/data
+commercial_use_scope: any
+attribution_text: Big Data Explained, bigdataexplained.com with a link
+share_alike: unknown
+evidence:
+- field: data_license
+  url: https://bigdataexplained.com/data
+  quote: The compilation — the schema, the normalisation, the verification metadata and the observation
+    archive — is offered under CC BY 4.0
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://bigdataexplained.com/data
+  quote: Credit it as Big Data Explained, bigdataexplained.com with a link.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://bigdataexplained.com/data
+  quote: The rates themselves are published by each vendor and remain subject to that vendor's terms
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://bigdataexplained.com/data
+  quote: fetch('https://bigdataexplained.com/api/pricing.json')
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://bigdataexplained.com/data
+  quote: The rates themselves are published by each vendor and remain subject to that vendor's terms
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://bigdataexplained.com/methodology
+  quote: the vendor rates inside it are not this project's to license.
+  checked_at: '2026-11-21'
+notes: 'Read /data (licence and attribution section) and the CC BY 4.0 deed. Compilation under CC BY 4.0,
+  which applies per the site''s statement. Caveat: the underlying list prices come from AWS/Azure pricing
+  APIs and the site says they remain subject to those vendors'' terms (not read). Methodology page checked;
+  no separate API ToS found (/terms 404). CC BY has no share-alike. Bulk: the full dataset is downloadable
+  as pricing.json and history.jsonl.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'CC BY 4.0 covers only the compilation (schema, normalisation, verification metadata);
+  the actual rate values remain under each vendor''s terms, which were not read; Values come from AWS
+  Price List, Azure Retail Prices and hand-copied BigQuery/Snowflake list prices; So commercial use and
+  display of the numbers themselves is not established by the grant | applied: commercial_use=ambiguous,
+  redistribution_display=ambiguous'

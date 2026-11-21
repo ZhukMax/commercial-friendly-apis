@@ -1,0 +1,26 @@
+id: toolsfox-utils
+name: ToolsFox Utils
+url: https://cf-workers-demo.pianfox345.workers.dev
+category: Development
+description: 'Free developer utility API: UUID, timestamps, SHA-256, Base64, URL encode/decode, random
+  strings'
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: ToolsFox Utils
+  url: https://cf-workers-demo.pianfox345.workers.dev
+  category: Development
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

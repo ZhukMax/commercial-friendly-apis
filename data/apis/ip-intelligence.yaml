@@ -1,0 +1,26 @@
+id: ip-intelligence
+name: IP Intelligence
+url: https://dataandapis.com/apis/ip-intelligence
+category: Security
+description: Country, ASN, datacenter, cloud and Tor detection with an explainable risk score for any
+  IP
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: IP Intelligence
+  url: https://dataandapis.com/apis/ip-intelligence
+  category: Security
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

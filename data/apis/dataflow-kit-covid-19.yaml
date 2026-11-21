@@ -1,0 +1,65 @@
+id: dataflow-kit-covid-19
+name: Dataflow Kit COVID-19
+url: https://covid-19.dataflowkit.com
+category: Health
+description: COVID-19 live statistics into sites per hour
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Dataflow Kit COVID-19
+  url: https://covid-19.dataflowkit.com
+  category: Health
+link_status: alive
+data_license: proprietary / unstated (data scraped from Worldometers)
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: 'no'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://covid-19.dataflowkit.com/
+evidence:
+- field: commercial_use
+  url: https://covid-19.dataflowkit.com/
+  quote: Access live statistics data through the DFK COVID-19 API for free. Build widgets, mobile apps,
+    or integrate into other applications.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://covid-19.dataflowkit.com/
+  quote: Embed free COVID-19 live statistics web widget into your site.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://covid-19.dataflowkit.com/
+  quote: Data source Worldometers
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.worldometers.info/disclaimer/
+  quote: © Copyright Worldometers.info - All rights reserved
+  checked_at: '2026-11-21'
+- field: link_status
+  url: https://www.worldometers.info/coronavirus/
+  quote: As of April 13, 2024, the Coronavirus Tracker is no longer being updated
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.worldometers.info/faq/
+  quote: © Copyright Worldometers.info - All rights reserved
+  checked_at: '2026-11-21'
+notes: Read the API landing page, Worldometers disclaimer. The page invites free use in widgets, mobile
+  apps and integrations but states no licence, commercial-use, caching or attribution terms. The data
+  is sourced from Worldometers (copyright all rights reserved, no reuse licence found), so upstream terms
+  may be stricter. Dataflow Kit's general site Terms (a scraping SaaS) was not read in detail and does
+  not obviously cover this free API. Example data dated April 2025; coverage may be stale.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Upstream Worldometers declares itself ''All rights reserved'' and sells counter licences;
+  no reuse licence exists; Worldometers coronavirus tracker stopped updating on 13 April 2024, so the
+  data is frozen; API endpoints now fail: covid-19.dataflowkit.com/v1 redirects (301) to the dataflowkit.com
+  homepage instead of returning JSON, so the service appears dead | applied: redistribution_display=no'

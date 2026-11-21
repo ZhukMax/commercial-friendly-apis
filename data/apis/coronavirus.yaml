@@ -1,0 +1,29 @@
+id: coronavirus
+name: Coronavirus
+url: https://pipedream.com/@pravin/http-api-for-latest-wuhan-coronavirus-data-2019-ncov-p_G6CLVM/readme
+category: Health
+description: HTTP API for Latest Covid-19 Data
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Coronavirus
+  url: https://pipedream.com/@pravin/http-api-for-latest-wuhan-coronavirus-data-2019-ncov-p_G6CLVM/readme
+  category: Health
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+notes: 'Pipedream community workflow by @pravin (last updated 6 years ago; page banner says Pipedream Workflows are shutting down on March 31, 2027). Readme read via Playwright: describes the endpoint and
+  says data comes from a public Google Sheet by JHU CSSE. No licence or terms; JHU terms were not transferred. Endpoint still answers but values are stale. All terms fields unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

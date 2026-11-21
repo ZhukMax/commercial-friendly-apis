@@ -1,0 +1,31 @@
+id: contix
+name: contix
+url: https://contix.es/api/
+category: Finance
+description: 'Spain: IBAN validation with bank and BIC, EU VAT number check (VIES), Modelo 303 VAT sums'
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: contix
+  url: https://contix.es/api/#herramientas
+  category: Finance
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://contix.es/legal/terminos/
+notes: Read https://contix.es/api/ and the Terms of Service (https://contix.es/legal/terminos/, Spanish). The Terms cover the paid invoicing SaaS (12 EUR/month) only; they do not mention the free public
+  tools (IBAN, VIES, NIF, Modelo 303 helpers, no key, 60 req/min per IP). The API page says nothing is stored from submitted data but gives no licence for reusing results. VIES results come from the EU
+  Commission and IBAN/bank data from upstream registers; their terms were not checked. Core terms left unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

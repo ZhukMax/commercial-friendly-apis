@@ -1,0 +1,77 @@
+id: mapa-oswiatowa
+name: Mapa Oswiatowa
+url: https://mapaoswiatowa.pl/dla-deweloperow
+category: Open Data
+description: Polish schools, preschools, nurseries and universities from public registers, with exam results
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Mapa Oswiatowa
+  url: https://mapaoswiatowa.pl/dla-deweloperow
+  category: Open Data
+link_status: alive
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+notes: 'Read the developer page (Polish). FAQ says commercial use is allowed while keeping source licences
+  and crediting Mapa Oswiatowa. Licence depends on the field: OpenStreetMap-derived fields (hours, accessibility,
+  social profiles, whole entries without a register id) are ODbL 1.0 (share-alike for derived data); PRNG/GUS
+  BDL/SIO register listing CC BY 4.0, kindergarten sheet and trades set CC0; photos from Wikimedia Commons
+  keep their licences. The API must not be used to rebuild the site''s database (referenced regulamin
+  not read), so storage is ambiguous. Yellow.'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+data_license: 'mixed by field: SIO CC BY 4.0 / CC0, PRNG and GUS BDL CC BY 4.0, OpenStreetMap ODbL 1.0'
+data_license_url: https://mapaoswiatowa.pl/dla-deweloperow
+api_terms_url: https://mapaoswiatowa.pl/dla-deweloperow
+commercial_use: 'yes'
+commercial_use_scope: any
+storage_caching: ambiguous
+redistribution_display: 'yes'
+attribution_required: 'yes'
+attribution_text: Mapa Oswiatowa as source where fetched data is shown, plus each source licence (e.g.
+  MEN, System Informacji Oswiatowej)
+share_alike: 'yes'
+rate_limits: 120 requests/minute per IP; no key
+bulk_download: unknown
+self_host_option: unknown
+evidence:
+- field: data_license
+  url: https://mapaoswiatowa.pl/dla-deweloperow
+  quote: System Informacji Oświatowej — CC BY 4.0 oraz CC0
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://mapaoswiatowa.pl/dla-deweloperow
+  quote: Czy mogę wykorzystać te dane komercyjnie? Tak, przy zachowaniu licencji źródeł
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://mapaoswiatowa.pl/dla-deweloperow
+  quote: Tak, przy zachowaniu licencji źródeł oraz wskazaniu Mapy Oświatowej jako źródła tam, gdzie prezentujesz
+    pobrane dane.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://mapaoswiatowa.pl/dla-deweloperow
+  quote: wskazaniu Mapy Oświatowej jako źródła tam, gdzie prezentujesz pobrane dane
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://mapaoswiatowa.pl/dla-deweloperow
+  quote: 'Warunkiem korzystania z API pozostaje regulamin: nie służy ono do odtworzenia bazy serwisu.'
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://mapaoswiatowa.pl/dla-deweloperow
+  quote: OpenStreetMap — ODbL 1.0
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://mapaoswiatowa.pl/dla-deweloperow
+  quote: Limit liczony per adres IP.
+  checked_at: '2026-11-21'
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Regulamin sec. 9 forbids extraction and re-use of the whole or a substantial part of
+  the database and repeated systematic extraction of non-substantial parts that harms normal use; sec.
+  5 forbids copying site content for commercial purposes without consent but exempts the public API. Developer
+  FAQ, in contrast, encourages caching responses. Storage stays ambiguous (leaning limited). PRNG data
+  need

@@ -1,0 +1,47 @@
+id: shields
+name: Shields
+url: https://shields.io/
+category: Open Source Projects
+description: Concise, consistent, and legible badges in SVG and raster format
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Shields
+  url: https://shields.io/
+  category: Open Source Projects
+link_status: alive
+data_license: Apache-2.0 (source code; hosted badge service has no published terms)
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: 'yes'
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+data_license_url: https://github.com/badges/shields/blob/master/LICENSE-APACHE
+evidence:
+- field: data_license
+  url: https://github.com/badges/shields/blob/master/LICENSE-APACHE
+  quote: a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license
+    to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute
+    the Work
+  checked_at: '2026-11-21'
+- field: self_host_option
+  url: https://shields.io/
+  quote: Host a shields instance behind your firewall with our docker image
+  checked_at: '2026-11-21'
+notes: 'Not a data source: badge image service. shields.io site only has a Privacy Policy; no terms for
+  the hosted img.shields.io service (rate limits, commercial use, caching) were found, so those fields
+  stay unknown. The Apache-2.0 licence applies to the source code (LICENSE-APACHE in the repo; the repository''s
+  main LICENSE path returned 404). Badge content comes from many upstream services whose terms were not
+  assessed.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

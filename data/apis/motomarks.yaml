@@ -1,0 +1,53 @@
+id: motomarks
+name: Motomarks
+url: https://motomarks.io/docs
+category: Vehicle
+description: 'Car manufacturer logos over an image CDN: badge, wordmark, or full mark by slug'
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-api-lists
+  name: Motomarks
+  url: https://motomarks.io/docs
+  category: Vehicle
+link_status: alive
+data_license: proprietary (Motomarks Terms of Service); logos are third-party trademarks
+commercial_use: unknown
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://motomarks.io/terms
+api_terms_url: https://motomarks.io/terms
+cache_limit: Temporary caching to improve performance; self-hosting and caching permission on Pro plan
+attribution_text: 'Free plan: visible link "Logos provided by Motomarks" on production pages that show logos; not needed on paid plans'
+rate_limits: Free 1,000 requests/day; Startup 10,000/day; Pro 100,000/day
+evidence:
+- field: redistribution_display
+  url: https://motomarks.io/docs/platform/fair-use
+  quote: Displaying brand logos in your application, website, or dashboard.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://motomarks.io/docs/platform/fair-use
+  quote: Caching images temporarily to improve performance for your users.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://motomarks.io/docs/platform/attribution
+  quote: Free plans require a visible link back to Motomarks on your production site.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://motomarks.io/docs/platform/fair-use
+  quote: Motomarks does not claim ownership of the brand logos provided.
+  checked_at: '2026-11-21'
+notes: Read Terms of Service, Fair Use, Attribution, Caching docs and Pricing. Displaying logos on websites/apps is allowed; temporary caching allowed; "bulk scraping for redistribution", competing logo
+  APIs and AI training are banned; free plan needs an attribution link, paid plans do not, Pro adds self-hosting and caching permission. Logos are third-party trademarks and Motomarks does not license them
+  (use subject to each brand's trademark policy). No sentence explicitly permits or bans commercial use (the Free plan is described as for prototypes, personal projects and low-traffic launches; Startup
+  "for production applications"), so commercial_use stays unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

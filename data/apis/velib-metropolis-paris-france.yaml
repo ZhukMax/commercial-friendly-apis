@@ -1,0 +1,70 @@
+id: velib-metropolis-paris-france
+name: Velib metropolis, Paris, France
+url: https://www.velib-metropole.fr/donnees-open-data-gbfs-du-service-velib-metropole
+category: Transportation
+description: Velib Open Data API
+description_source: upstream
+auth: none
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Velib metropolis, Paris, France
+  url: https://www.velib-metropole.fr/donnees-open-data-gbfs-du-service-velib-metropole
+  category: Transportation
+link_status: alive
+data_license: Licence Ouverte / Open Licence (Etalab; version not stated on page)
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: HTTP 403 to curl; page read via Playwright
+api_terms_url: https://www.velib-metropole.fr/donnees-open-data-gbfs-du-service-velib-metropole
+commercial_use_scope: any
+share_alike: unknown
+rate_limits: Datasets refreshed every minute (GBFS 1.0); no key needed
+evidence:
+- field: data_license
+  url: https://www.velib-metropole.fr/donnees-open-data-gbfs-du-service-velib-metropole
+  quote: Vélib’ Métropole a choisi de mettre à disposition ses données sous « Licence Ouverte / Open License
+    ».
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.velib-metropole.fr/donnees-open-data-gbfs-du-service-velib-metropole
+  quote: en autorisant la reproduction, la redistribution, l’adaptation et l’exploitation commerciale
+    des données
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.velib-metropole.fr/donnees-open-data-gbfs-du-service-velib-metropole
+  quote: en autorisant la reproduction, la redistribution, l’adaptation et l’exploitation commerciale
+    des données
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.velib-metropole.fr/donnees-open-data-gbfs-du-service-velib-metropole
+  quote: en autorisant la reproduction, la redistribution, l’adaptation et l’exploitation commerciale
+    des données
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.velib-metropole.fr/donnees-open-data-gbfs-du-service-velib-metropole
+  quote: rendant obligatoire la mention de la paternité
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://www.velib-metropole.fr/donnees-open-data-gbfs-du-service-velib-metropole
+  quote: Ces jeux de données sont actualisés chaque minute selon la norme GBFS 1.0
+  checked_at: '2026-11-21'
+notes: Read the official Velib' Metropole open-data page via Playwright (curl gets 403). It states data
+  are published under the Etalab Licence Ouverte / Open Licence (commercial exploitation, reproduction
+  and redistribution allowed, attribution mandatory). The page's licence summary is informational; only
+  the full licence text is binding (not fetched, version not stated). Real-time station availability only,
+  no separate API terms found. Share-alike not required by Licence Ouverte (per licence design, not quoted).
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Page says its licence summary is informational; full licence text binding (not read).
+  Etalab Licence Ouverte permits commercial reuse. Needed a consent banner in the browser.

@@ -1,0 +1,29 @@
+id: hypixel
+name: Hypixel
+url: https://api.hypixel.net/
+category: Games & Comics
+description: Hypixel player stats
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Hypixel
+  url: https://api.hypixel.net/
+  category: Games & Comics
+- list: public-api-lists
+  name: Hypixel
+  url: https://api.hypixel.net/
+  category: Games & Comics
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

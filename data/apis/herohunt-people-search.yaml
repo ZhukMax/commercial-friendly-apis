@@ -1,0 +1,30 @@
+id: herohunt-people-search
+name: HeroHunt People Search
+url: https://www.herohunt.ai/people-search-api
+category: Jobs
+description: Search 1 billion people profiles across LinkedIn and GitHub for talent sourcing
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: HeroHunt People Search
+  url: https://www.herohunt.ai/people-search-api
+  category: Jobs
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.herohunt.ai/terms
+notes: 'People/candidate profile search (claims LinkedIn and GitHub reach): personal data, upstream platform terms and GDPR apply, likely not displayable on a public site. Read https://www.herohunt.ai/terms
+  (2023 app terms) and /saas-terms-and-conditions: nothing on data reuse, storage, display. All unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -1,0 +1,30 @@
+id: devitjobs-uk
+name: DevITjobs UK
+url: https://devitjobs.uk/job_feed.xml
+category: Jobs
+description: Jobs with GraphQL
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: DevITjobs UK
+  url: https://devitjobs.uk/job_feed.xml
+  category: Jobs
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://devitjobs.jobcopilot.com/signup?utm_source=dot_uk_old
+notes: The feed URL (devitjobs.uk/job_feed.xml) redirects to a JobCopilot sign-up page (devitjobs.jobcopilot.com/signup); no feed, docs or terms reachable and the target page does not say it replaces the
+  DevITjobs UK feed. All unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

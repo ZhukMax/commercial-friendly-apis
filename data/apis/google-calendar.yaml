@@ -1,0 +1,42 @@
+id: google-calendar
+name: Google Calendar
+url: https://developers.google.com/google-apps/calendar/
+category: Calendar
+description: Display, create and modify Google calendar events
+description_source: upstream
+auth: OAuth
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Google Calendar
+  url: https://developers.google.com/google-apps/calendar/
+  category: Calendar
+- list: public-api-lists
+  name: Google Calendar
+  url: https://developers.google.com/google-apps/calendar/
+  category: Calendar
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: -> https://developers.google.com/workspace/calendar
+api_terms_url: https://developers.google.com/terms
+notes: 'Not a data source: the Google Calendar API reads and writes the signed-in user''s own calendars
+  (OAuth, account-scoped). Read the Google APIs Terms of Service (https://developers.google.com/terms):
+  it contains no statement on commercial use, caching or display of calendar data as a catalogue-style
+  data licence, and notes that a user''s non-public content must not be exposed to other users or third
+  parties without that user''s explicit opt-in consent. Core fields therefore stay unknown. Link redirects
+  to developers.google.com/workspace/calendar.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

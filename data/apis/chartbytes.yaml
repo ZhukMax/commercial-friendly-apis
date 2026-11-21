@@ -1,0 +1,26 @@
+id: chartbytes
+name: ChartBytes
+url: https://chartbytes.meridian-digital.pro
+category: Development
+description: 'Chart image API: turn a URL into a PNG or SVG chart (bar, line, area, scatter, pie, donut,
+  stacked)'
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: ChartBytes
+  url: https://chartbytes.meridian-digital.pro
+  category: Development
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

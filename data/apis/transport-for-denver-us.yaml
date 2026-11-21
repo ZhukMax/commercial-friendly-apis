@@ -1,0 +1,31 @@
+id: transport-for-denver-us
+name: Transport for Denver, US
+url: http://www.rtd-denver.com/gtfs-developer-guide.shtml
+category: Transportation
+description: RTD
+description_source: upstream
+auth: none
+https: false
+cors: unknown
+sources:
+- list: public-apis
+  name: Transport for Denver, US
+  url: http://www.rtd-denver.com/gtfs-developer-guide.shtml
+  category: Transportation
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: HTTP 403 (blocked for bots, assumed alive)
+evidence: []
+notes: rtd-denver.com returns 403 to curl and a Cloudflare "you have been blocked" page to a fresh Playwright context (tried /gtfs-developer-guide.shtml and the new /open-records/... URL). Page
+  not readable, no bypass attempted. All terms unknown; check the RTD developer licence manually.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

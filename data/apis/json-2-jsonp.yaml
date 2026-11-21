@@ -1,0 +1,30 @@
+id: json-2-jsonp
+name: JSON 2 JSONP
+url: https://json2jsonp.com/
+category: Development
+description: Convert JSON to JSONP (on-the-fly) for easy cross-domain data requests using client-side
+  JavaScript
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: JSON 2 JSONP
+  url: https://json2jsonp.com/
+  category: Development
+- list: public-api-lists
+  name: JSON 2 JSONP
+  url: https://json2jsonp.com/
+  category: Development
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

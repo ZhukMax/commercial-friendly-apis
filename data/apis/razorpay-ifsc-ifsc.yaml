@@ -1,0 +1,31 @@
+id: razorpay-ifsc-ifsc
+name: Razorpay IFSC
+url: https://ifsc.razorpay.com/
+category: Finance
+description: Indian Financial Systems Code (Bank Branch Codes)
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-api-lists
+  name: Razorpay IFSC
+  url: https://ifsc.razorpay.com/
+  category: Finance
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://ifsc.razorpay.com/
+notes: 'Read the toolkit landing page and the GitHub repo (razorpay/ifsc): the repository code is MIT-licensed, but that licence covers the software; no licence or terms were found for the hosted API at
+  ifsc.razorpay.com or for the dataset (compiled from RBI and NPCI public lists named in the README; their own terms were not checked). Dataset downloads are offered on GitHub releases and a Docker image
+  exists, but self-hosting terms for the data are unstated. All terms unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

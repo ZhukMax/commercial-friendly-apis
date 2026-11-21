@@ -1,0 +1,34 @@
+id: onefindme
+name: OneFindMe
+url: https://onefindme.com/mcp
+category: Shopping
+description: 'Search AliExpress in any language: price, rating and orders for the delivery country'
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: OneFindMe
+  url: https://onefindme.com/mcp
+  category: Shopping
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://onefindme.com/terms
+notes: 'Read onefindme.com/terms (updated 16 March 2026) and /mcp. It is an AliExpress (and, for some
+  countries, eBay Browse API) search aggregator earning affiliate commission; results are affiliate links.
+  Terms: AliExpress terms apply to purchases, product images and descriptions belong to the AliExpress
+  sellers, and users may not use automated tools to scrape or extract data from the Service. No data licence
+  or API reuse terms, so core fields unknown; upstream AliExpress/eBay API terms are likely stricter.
+  No key needed.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

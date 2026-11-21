@@ -1,0 +1,77 @@
+id: leadgen-romania
+name: Leadgen Romania
+url: https://leadgen.adrianhomelab.com/docs
+category: Business
+description: Romanian company registry, ANAF tax status and financial statements
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Leadgen Romania
+  url: https://leadgen.adrianhomelab.com/docs
+  category: Business
+link_status: redirect
+data_license: CC-BY-4.0 (upstream ONRC / Ministry of Finance datasets on data.gov.ro)
+commercial_use: ambiguous
+storage_caching: limited
+redistribution_display: 'no'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: -> https://leadgen-api.adrianhomelab.com/docs
+api_terms_url: https://leadgen.adrianhomelab.com/terms
+data_license_url: https://data.gov.ro
+commercial_use_scope: any
+cache_limit: Max 1,000 company records kept per day
+attribution_text: 'Sursa: ONRC si Ministerul Finantelor, data.gov.ro, CC BY 4.0, prin Leadgen'
+notes: Terms read in Romanian (redirected host leadgen-api.adrianhomelab.com for docs; terms at leadgen.adrianhomelab.com/terms).
+  Licence is for internal purposes (partner checks, due diligence, B2B sales); republishing is limited
+  to excerpts of up to 50 companies per report/article; no resale, embedding in a product offered to third
+  parties, or competing database. The terms say the same official data is available directly from data.gov.ro
+  under CC BY 4.0 (OGL-ROU-1.0 for 2008-2010 financials), which may be a better route for a public site.
+  Not suited to a programmatic public site as-is.
+evidence:
+- field: data_license
+  url: https://leadgen.adrianhomelab.com/terms
+  quote: publicate sub licența CC BY 4.0
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://leadgen.adrianhomelab.com/terms
+  quote: 'Vă acordăm o licență neexclusivă și netransmisibilă de a folosi rezultatele în scopuri interne:
+    verificarea partenerilor, due diligence, vânzare B2B către firme'
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://leadgen.adrianhomelab.com/terms
+  quote: puteți păstra cel mult 1.000 de înregistrări de firmă pe zi
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://leadgen.adrianhomelab.com/terms
+  quote: Puteți publica, cu atribuirea sursei și un link către leadgen.adrianhomelab.com, extrase de cel
+    mult 50 de firme într-un raport sau articol.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://leadgen.adrianhomelab.com/terms
+  quote: dacă redistribuiți date oficiale, menționați sursa și licența
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://leadgen.adrianhomelab.com/terms
+  quote: Licența nu include dreptul de a revinde, sublicenția, închiria sau redistribui către terți serviciul
+    Leadgen, compilația noastră
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://leadgen.adrianhomelab.com/terms
+  quote: extrase de cel mult 50 de firme într-un raport sau articol
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Licence is for internal purposes only and explicitly excludes redistribution to third
+  parties; Public publication limited to excerpts of at most 50 firms per report/article; Programmatic
+  public site would exceed both limits; official CC BY data is available directly from data.gov.ro | applied:
+  redistribution_display=no'

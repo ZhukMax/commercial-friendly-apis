@@ -1,0 +1,25 @@
+id: api-tool-calls
+name: API Tool Calls
+url: https://apitoolcalls.com/api/
+category: Development
+description: 'API Tool Calls: Home cost planners, page to Markdown, SEO checks and recalls'
+description_source: upstream
+auth: none
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: API Tool Calls
+  url: https://apitoolcalls.com/api/
+  category: Development
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

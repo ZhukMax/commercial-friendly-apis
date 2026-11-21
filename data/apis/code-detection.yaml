@@ -1,0 +1,26 @@
+id: code-detection
+name: Code Detection
+url: https://codedetectionapi.runtime.dev
+category: Text Analysis
+description: Detect, label, format and enrich the code in your app or in your data pipeline
+description_source: upstream
+auth: OAuth
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Code Detection
+  url: https://codedetectionapi.runtime.dev
+  category: Text Analysis
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: ConnectError

@@ -1,0 +1,25 @@
+id: unitpost
+name: Unitpost
+url: https://www.unitpost.com/docs/email
+category: Email
+description: Send transactional email, campaigns and SMS; free for 5,000 emails a month
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Unitpost
+  url: https://www.unitpost.com/docs/email
+  category: Email
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

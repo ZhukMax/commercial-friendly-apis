@@ -1,0 +1,83 @@
+id: edamam-recipes
+name: Edamam recipes
+url: https://developer.edamam.com/edamam-docs-recipe-api
+category: Food & Drink
+description: Recipe Search
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Edamam recipes
+  url: https://developer.edamam.com/edamam-docs-recipe-api
+  category: Food & Drink
+link_status: alive
+data_license: proprietary (Edamam API Terms of Use)
+commercial_use: paid-only
+storage_caching: limited
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.edamam.com/terms/api
+attribution_text: Edamam logo and hyperlink to the Site in connection with use of the API/content
+evidence:
+- field: commercial_use
+  url: https://www.edamam.com/terms/api
+  quote: you are prohibited from using the free version of the Edamam API in connection with a commercial
+    or business purpose
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.edamam.com/terms/api
+  quote: You are prohibited from copying or archiving any of Edamam Content and/or collecting any data
+    from Edamam Content
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.edamam.com/terms/api
+  quote: keep cached copies longer than permitted by the cache header
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.edamam.com/terms/api
+  quote: to let your customers use your integration of the Edamam API within your application, web site,
+    or other platform
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.edamam.com/terms/api
+  quote: publicly displaying, republishing, repurposing, selling, trading, or in any way exploiting the
+    Edamam API, Edamam Content
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.edamam.com/terms/api
+  quote: you agree to include and feature any logo provided by Edamam and hyperlink(s) to the Site
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.edamam.com/terms/api
+  quote: Edamam owns all rights, title, and interest, including all intellectual property rights
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://developer.edamam.com/edamam-recipe-api
+  quote: Caching is allowed only of the four nutrients as described and as long as there is an active
+    subscription to this plan.
+  checked_at: '2026-11-21'
+notes: 'Read the Edamam API Terms of Use (https://www.edamam.com/terms/api, revised Feb 28, 2023; JS page
+  read with Playwright in a fresh tab) plus the product docs page. The free version is limited to personal/not-for-profit
+  use; commercial use needs Edamam''s express authorization (heading ''Fees for Commercial Use''), but
+  no page read states what paid plans allow, so commercial_use is ambiguous, not paid-only. Terms forbid
+  copying/archiving Edamam Content without consent (but also refer to cache-header limits), and bar public
+  display/republishing except as expressly authorized, while licensing use in your own website: storage
+  and display left ambiguous. Logo + link attribution is mandatory. Recipe Search API returns web recipes
+  whose copyright Edamam does not hold (docs page: it provides the source URL, not instructions); third-party
+  content rights stay with the owners, so upstream terms may be stricter.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Recipe Search pricing: Basic $9, Core $99, Plus $399 per month, every column ticks
+  ''Commercial use''; free version barred by ToS -> paid-only; Caching limited to recipe ID and name on
+  Basic; Core/Plus add protein, net carbs, total fat, kcal, only while subscription active; Basic/Core
+  return web recipes from third parties whose rights Edamam does not hold; Plus is Edamam-owned content
+  | applied: commercial_use=paid-only, storage_caching=limited'

@@ -1,0 +1,84 @@
+id: europeana
+name: Europeana
+url: https://pro.europeana.eu/resources/apis/search
+category: Art & Design
+description: European Museum and Galleries content
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Europeana
+  url: https://pro.europeana.eu/resources/apis/search
+  category: Art & Design
+- list: public-api-lists
+  name: Europeana
+  url: https://pro.europeana.eu/resources/apis/search
+  category: Art & Design
+link_status: alive
+data_license: CC0-1.0 (metadata); digital objects per item rights statement
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: ambiguous
+attribution_required: 'no'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: HTTP 403 (blocked for bots, assumed alive)
+data_license_url: https://creativecommons.org/publicdomain/zero/1.0/
+api_terms_url: https://www.europeana.eu/en/rights/terms-of-use
+commercial_use_scope: any
+share_alike: 'no'
+rate_limits: Reasonable limits set by Europeana; personal keys non-production, project keys for production
+notes: 'Read Europeana Terms of Use and Usage Guidelines for Metadata (pro.europeana.eu pages are behind
+  a Cloudflare challenge; the same terms are on www.europeana.eu). Aggregator: metadata is CC0, but thumbnails
+  and linked digital objects (images etc.) from thousands of institutions may be used only per each item''s
+  rights statement (edm:rights), which can be stricter (copyright, CC BY-SA, NC), so display is ambiguous.
+  Metadata guidelines are goodwill requests (attribution, re-share on same terms), not a legal contract;
+  share_alike left as not-required (unspecified legally) but flagged here. Personal API keys are non-production
+  only; production needs a Project key. Texts in blogs/exhibitions are CC BY-SA.'
+evidence:
+- field: commercial_use
+  url: https://www.europeana.eu/en/rights/terms-of-use
+  quote: All Metadata available on europeana.eu are published free of restrictions, under the terms of
+    the Creative Commons CC0 1.0 Universal Public Domain Dedication
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.europeana.eu/en/rights/terms-of-use
+  quote: All Metadata available on europeana.eu are published free of restrictions, under the terms of
+    the Creative Commons CC0 1.0 Universal Public Domain Dedication
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.europeana.eu/en/rights/terms-of-use
+  quote: All Metadata available on europeana.eu are published free of restrictions, under the terms of
+    the Creative Commons CC0 1.0 Universal Public Domain Dedication
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.europeana.eu/en/rights/terms-of-use
+  quote: The Digital Objects that are shown on Europeana.eu can only be used in accordance with the rights
+    information displayed alongside them
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.europeana.eu/en/rights/terms-of-use
+  quote: we encourage you to follow the Usage Guidelines for Metadata and to provide attribution to the
+    data sources whenever possible.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://www.europeana.eu/en/rights/terms-of-use
+  quote: Personal API keys are for individual, non-production use and are limited to one per user.
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://www.europeana.eu/en/rights/usage-guidelines-for-metadata
+  quote: Please make the metadata and any improvements thereto freely available under the same terms as
+    Europeana
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read Terms of Use. Metadata CC0; Digital Objects only per edm:rights; personal API
+  keys are non-production, production needs a Project key; Europeana also enriches metadata from additional
+  sources. Display of images remains ambiguous per item; yellow stands.

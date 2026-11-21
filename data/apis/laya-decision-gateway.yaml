@@ -1,0 +1,25 @@
+id: laya-decision-gateway
+name: Laya Decision Gateway
+url: https://laya.harshad.eu.org
+category: Machine Learning
+description: Sub-35ms AI gateway for prompt injection defense, support ticket triage & content moderation
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Laya Decision Gateway
+  url: https://laya.harshad.eu.org
+  category: Machine Learning
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

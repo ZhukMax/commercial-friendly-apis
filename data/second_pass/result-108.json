@@ -1,0 +1,348 @@
+[
+ {
+  "id": "oksurf",
+  "outcome": "confirmed",
+  "reasons": [
+   "Homepage terms bar republishing copyrighted material; scraped Google News content",
+   "No commercial/caching terms anywhere"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read ok.surf terms: no commercial-use, caching or attribution clause; content is third-party Google News (publishers' rights). unknown/ambiguous stands, verdict unknown."
+ },
+ {
+  "id": "open-exchange-rates",
+  "outcome": "confirmed",
+  "reasons": [
+   "Only commercial wording is a consumer-user clause",
+   "Services Agreement is for business customers; paid plans imply business use"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read /terms, /acceptable-use, /services-agreement, /signup. Terms: 'private consumer user ... not for commercial or business purposes'. Services Agreement s2 sells only to business customers and s8 licenses 'reasonable use' per Terms of Website Use and AUP, so paid business use looks intended; free-plan commercial use never stated. Lean: paid plans OK, free tier unclear. Ambiguous stands (yellow). Upstream rate sources unnamed."
+ },
+ {
+  "id": "openaxia",
+  "outcome": "confirmed",
+  "reasons": [
+   "Reuse with attribution stated; commercial use not addressed",
+   "Third-party excerpts inside the data"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read /agent 'Data use and attribution': 'quoted and reused with attribution' and required attribution line. No ToS (404). Commercial/storage not stated; news excerpts are third-party. Stands."
+ },
+ {
+  "id": "openfoot-api",
+  "outcome": "disputed",
+  "reasons": [
+   "Pricing page ties 'Commercial use' to Pro plan only",
+   "Starter/Developer positioned for prototyping/side-projects",
+   "Upstream ESPN/OpenLigaDB feeds carry own terms (ESPN terms page unreadable)"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://openfootapi.com/pricing",
+    "quote": "Commercial use & no automatic overages",
+    "field": "commercial_use"
+   },
+   {
+    "url": "https://openfootapi.com/pricing",
+    "quote": "Ideal for prototyping, side-projects, hackathons and testing integrations.",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "paid-only"
+  },
+  "note": "Pricing page lists commercial use as a Pro-plan feature and describes Starter as prototyping/hackathons, so evidence points to paid-only (Pro), not neutral ambiguity. ToS has no explicit ban. Live feed sources are OpenLigaDB (ODbL, share-alike/attribution) and ESPN (not verifiable; could not read ESPN terms). Verdict yellow unchanged."
+ },
+ {
+  "id": "optimistfi-perps",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToS allows use 'in your own work' with attribution; resale/scraping at scale barred",
+   "Aggregated venue data not licensed upstream-checked"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read ToS s5 and the data page: no explicit commercial/ads/caching statement; attribution to OptimistFi required; venue sources page not found readable. Stands (yellow, low confidence)."
+ },
+ {
+  "id": "pangolinfo-amazon-data",
+  "outcome": "confirmed",
+  "reasons": [
+   "User agreement allows compliant end-user-facing products",
+   "Resale/packaging as data product banned; Amazon rules apply"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read User Agreement s4.7/4.8: use limited to own internal business needs or compliant products facing end-users; must comply with target site's terms (Amazon scraping upstream is the real risk). Caching/display not addressed. Stands."
+ },
+ {
+  "id": "qiuxiaoce-football",
+  "outcome": "disputed",
+  "reasons": [
+   "User agreement s6.2 bans commercial use, but the API docs tell creators to publish articles/videos with mandatory credit",
+   "Docs conflict with agreement; auth is actually an API key (X-API-Key), not none"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://www.qiuxiaoce.com/data-docs/",
+    "quote": "所有生成的研报、前瞻长文、短视频文案、早报卡片底部，必须按规范附带球小策权威来源声明",
+    "field": "attribution_required"
+   },
+   {
+    "url": "https://www.qiuxiaoce.com/data-docs/",
+    "quote": "所有生成的研报、前瞻长文、短视频文案、早报卡片底部，必须按规范附带球小策权威来源声明",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "ambiguous",
+   "redistribution_display": "ambiguous",
+   "attribution_required": "yes"
+  },
+  "note": "Agreement 6.2 forbids commercial use/republishing without written permission (binding), yet the paid creator-API docs prescribe publishing blog/video content built from the data with a mandatory source footer and local caching with TTLs. Real conflict, so 'no' is too strong on the pages read; commercial_use and display ambiguous, attribution mandatory. Also auth should be apiKey (points-billed key). Verdict likely yellow at best; written confirmation needed. Match data is third-party (6.4)."
+ },
+ {
+  "id": "quotelinks-exchange-rates",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToS s2-4: personal non-commercial only; commercial needs written agreement",
+   "API page FAQ repeats ban; s7 Open Data carve-out not applied to ECB feed"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read ToS and API page. s7 allows commercial use only for datasets where docs/response name an open licence as Open Data (CC BY: World Bank/OECD); the ECB rates page states commercial use and redistribution are not allowed. Red stands; use ECB directly."
+ },
+ {
+  "id": "rijksmuseum-rijksmuseum",
+  "outcome": "confirmed",
+  "reasons": [
+   "Policy: much data free incl. commercial; item-level exceptions",
+   "Per-item rights restrictions unresolved"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read data.rijksmuseum.nl/policy: commercial use free for much of the data, CC0/CC BY items, some copyright photos restricted. Item-dependent so ambiguity stands; auth/key status not verified."
+ },
+ {
+  "id": "salahtable",
+  "outcome": "confirmed",
+  "reasons": [
+   "API page: free for any use incl. commercial",
+   "Cache guidance is a recommendation only; CC BY 4.0 release covers data"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read API page and /open-data. Data and docs under CC BY 4.0 (2027 release; same calculation); storage leans yes but the cited licence is release-specific, so ambiguous kept. MUIS/JAKIM tables on some pages: terms not checked. Stands (yellow)."
+ },
+ {
+  "id": "salvagealert",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToS s6 bans using data to build products or resell/redistribute/publish it",
+   "API docs invite mirroring archived inventory: unresolved conflict",
+   "Upstream Copart/IAA/GovDeals rights"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read ToS s6 (raw HTML): 'use data obtained from the Service to build, feed or train any database, dataset, product ... or resell, redistribute or publish it' without written permission, vs API docs 'mirror every crawled source onto your own site'. Binding ToS leans restrictive; no resolution without written permission. Ambiguous/yellow stands, lean no for public display."
+ },
+ {
+  "id": "sayitvid",
+  "outcome": "confirmed",
+  "reasons": [
+   "Website terms: educational and personal purposes only",
+   "Widget terms allow display with mandatory branding; bulk harvesting banned",
+   "YouTube-embedded third-party content"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read /terms s6 ('lawful educational and personal purposes') and /terms/widget (licence to display videos to end-users with mandatory SayItVid branding backlink; bans bulk scraping). API-specific terms not found (/developers 404; /api-docs has quotas only). Commercial use ambiguous; storage effectively barred. Stands."
+ },
+ {
+  "id": "siftsmith-company-jobs",
+  "outcome": "confirmed",
+  "reasons": [
+   "Apify user owns Actor output; employers own the text",
+   "Actor page leaves republishing to the user but warns about employers' terms"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read Actor page and Apify Actor terms. Output belongs to the Apify user, republishing 'is your call', yet descriptions are employers' text and ATS vendors may restrict scraping (not assessed). Verdict unknown stands."
+ },
+ {
+  "id": "sochain",
+  "outcome": "confirmed",
+  "reasons": [
+   "Licence only 'for your own purposes and in your own applications'",
+   "Bulk copy/redistribute of data barred without permission"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read sochain.com/terms (Block.io, 2026-10-13): no explicit ads/public display/caching statement; bulk redistribution barred. Ask provider. Stands."
+ },
+ {
+  "id": "sololuck",
+  "outcome": "disputed",
+  "reasons": [
+   "API page labels the Solo Block Record 'open data under CC BY 4.0'; JSON license field says CC BY 4.0 with cite_as",
+   "CC BY 4.0 deed explicitly permits commercial use, copying, redistribution with credit"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "quote": "copy and redistribute the material in any medium or format for any purpose, even commercially.",
+    "field": "commercial_use"
+   },
+   {
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "quote": "copy and redistribute the material in any medium or format for any purpose, even commercially.",
+    "field": "storage_caching"
+   },
+   {
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "quote": "copy and redistribute the material in any medium or format for any purpose, even commercially.",
+    "field": "redistribution_display"
+   },
+   {
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "quote": "You must give appropriate credit",
+    "field": "attribution_required"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "yes",
+   "storage_caching": "yes",
+   "redistribution_display": "yes",
+   "attribution_required": "yes"
+  },
+  "note": "The listed dataset (solo-mined blocks, blocks.json/csv) carries licence 'CC BY 4.0' and a ready citation string in every response, so commercial use/storage/display/attribution are yes for that dataset (CC BY deed). Pool-stats endpoints remain unlicensed (not the catalogued dataset). Site Terms cover only the mining service. Suggest yes for the blocks dataset; verdict should become green if the entry is scoped to it."
+ },
+ {
+  "id": "squiggle",
+  "outcome": "confirmed",
+  "reasons": [
+   "Commercial use explicitly allowed; cache/re-use required",
+   "AFL rights in underlying fixtures unaddressed"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read Requirements: 'You may: Use the API for commercial purposes'; builder must fetch (visitors may not call API directly; referred browser requests refused); 'Cache and re-use data appropriately'. Display/attribution unaddressed. Verdict unknown stands."
+ },
+ {
+  "id": "strava",
+  "outcome": "confirmed",
+  "reasons": [
+   "API policy: data shown only to the same user; 7-day cache cap",
+   "No charging end users; Strava data not allowed in ads"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read API Policy (2026-06-01): quotes verified (same-user display, seven days). Not usable for public content site. Red stands."
+ },
+ {
+  "id": "swanum-comps",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms ban resale/redistribution/competing data product",
+   "Data derived from Vinted listings; Vinted bans scraping/commercialising content"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read swanum.com/terms (short, generic). Upstream: Vinted T&Cs prohibit users to 'data mine, screen scrape, crawl' and commercialise site content (applies to Vinted users, so a real risk to Swanum's supply of data). Commercial/storage stay unknown; verdict unknown stands."
+ },
+ {
+  "id": "swiftedge",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms: no store/redistribute; no display in another site or app",
+   "Showing data to others only on paid Business plan with link"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read /terms: 'Do not show, relay or resell Swiftedge data ... in another website, app, feed or product'; Business plan allows showing data to others with a visible link. Exchange upstream terms unchecked. paid-only/yellow stands."
+ },
+ {
+  "id": "synonyms",
+  "outcome": "confirmed",
+  "reasons": [
+   "Free tier 100 queries/day; 'premium commercial license' sold separately",
+   "Site Terms ban copying/exploiting content; no API terms page found"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read STANDS4 API page and Synonyms.com Terms of Use: no statement that free tier is commercial; premium commercial licence implies free is not. No separate API terms (stands4.com/api-terms is empty). Ambiguous leaning paid-only; stays yellow."
+ },
+ {
+  "id": "the-graph",
+  "outcome": "confirmed",
+  "reasons": [
+   "Gateway licence only for 'own internal business purposes'",
+   "Restriction (vi): no use for the benefit of anyone other than you"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read Gateway Terms: licence 'solely for your own internal business purposes'; restrictions bar resale and use for benefit of others; nothing on public display, caching, attribution. Subgraph data licences are per-subgraph. Stands (unknown)."
+ },
+ {
+  "id": "the-guardian",
+  "outcome": "disputed",
+  "reasons": [
+   "Free Developer key is 'for any non-commercial usage'; commercial enterprises need the Commercial key",
+   "OP terms allow ads but only under a licence tied to key type"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://open-platform.theguardian.com/access/",
+    "quote": "This key is for any non-commercial usage of the content, such as student dissertations, hackathons, nonprofit app developers.",
+    "field": "commercial_use"
+   },
+   {
+    "url": "https://open-platform.theguardian.com/access/",
+    "quote": "This key is for all use cases by commercial enterprises and developers wishing to utilise Guardian journalism in any manner.",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "paid-only"
+  },
+  "note": "Access page splits keys: Developer key non-commercial; Commercial key 'for all use cases by commercial enterprises'. So commercial display requires the Commercial key (pricing/negotiation not shown on page read, so 'paid-only' is the best fit but price unverified). Other conditions unchanged: 24h refresh, logo, end users personal use only."
+ },
+ {
+  "id": "thenews",
+  "outcome": "confirmed",
+  "reasons": [
+   "Only generic website terms: no commercial endeavors unless approved",
+   "Aggregated publisher content"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read /tos and pricing: 'may not be used in connection with any commercial endeavors except those ... endorsed or approved by us'; applies to the Site, API not covered; pricing has no licence scope. Stands (ambiguous, yellow, low)."
+ },
+ {
+  "id": "things-to-do",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms allow showing events to users; no resale or wholesale copying",
+   "Events aggregated from Eventbrite, Ticketmaster etc. with their own terms"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read terms (6 sentences) and docs/pricing: no commercial, ads or caching statement. Sources named on the homepage (Eventbrite, Ticketmaster, others) have stricter terms. Stands (unknown)."
+ },
+ {
+  "id": "ticketmaster",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms ban deriving revenue 'except as set forth below' but nothing below grants it",
+   "Terms assume advertisers may serve content on apps; caching limited",
+   "Event Content owned by organizers/Ticketmaster"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read general Terms of Use (2023-06-27). Unresolved: revenue ban vs privacy-policy clause that contemplates third-party advertisers on your app. Lean cautious; affiliate programme is the documented monetisation route. Stands (yellow)."
+ }
+]

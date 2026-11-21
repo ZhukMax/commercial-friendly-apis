@@ -1,0 +1,31 @@
+id: patentsview
+name: PatentsView
+url: https://patentsview.org/apis/purpose
+category: Patent
+description: API is intended to explore and visualize trends/patterns across the US innovation landscape
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: PatentsView
+  url: https://patentsview.org/apis/purpose
+  category: Patent
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://data.uspto.gov/support/transition-guide/patentsview (legacy PatentsView site migrated to the USPTO Open Data Portal from 2026-03-20)
+notes: patentsview.org/apis/purpose, /license and the FAQ all redirect to the USPTO Open Data Portal transition guide (JS page, read with Playwright). That guide says the legacy PatentsView website is migrating
+  to ODP from 2026-03-20; ODP now requires a USPTO.gov account (with MFA) and API key. No PatentsView licence text or ODP data terms were found on the pages read, so all terms fields stay unknown. A third
+  party (PatentRef) states PatentsView bulk data is CC BY 4.0, but that is not the source and is not used here. The old keyless PatentsView API appears to be gone (auth likely apiKey via ODP, not confirmed).
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

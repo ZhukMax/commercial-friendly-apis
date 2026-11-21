@@ -1,0 +1,30 @@
+id: here-maps
+name: HERE Maps
+url: https://developer.here.com
+category: Geocoding
+description: Create/customize digital maps based on HERE Maps data
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: HERE Maps
+  url: https://developer.here.com
+  category: Geocoding
+- list: public-api-lists
+  name: HERE Maps
+  url: https://developer.here.com
+  category: Geocoding
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: ConnectError

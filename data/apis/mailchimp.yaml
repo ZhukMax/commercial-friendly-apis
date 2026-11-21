@@ -1,0 +1,42 @@
+id: mailchimp
+name: Mailchimp
+url: https://mailchimp.com/developer/
+category: Business
+description: Send marketing campaigns and transactional mails
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Mailchimp
+  url: https://mailchimp.com/developer/
+  category: Business
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://mailchimp.com/legal/api_use/
+notes: 'Mailchimp Standard Terms of Use and API Use Policy read. API Use Policy: OAuth/API key only, user
+  consent and privacy policy required, delete user data on request, integrations may be distributed to
+  users of your service but standalone API access may not be redistributed, no use of the API to compete.
+  Customer ''Content'' stays the customer''s. No explicit commercial-use, caching or display statement
+  for API data, so unknown. Per-account marketing/transactional API, not a data source.'
+evidence:
+- field: api_terms_url
+  url: https://mailchimp.com/legal/api_use/
+  quote: You will only access a user’s data to the extent permitted by the user and explained in your
+    privacy policy.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

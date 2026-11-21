@@ -1,0 +1,74 @@
+id: soldsignal
+name: SoldSignal
+url: https://www.aiplannermail.com/free-resale-price-api/
+category: Shopping
+description: Weekly resale prices for sneakers, consoles and watches with sample size and fees
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: SoldSignal
+  url: https://www.aiplannermail.com/free-resale-price-api/
+  category: Shopping
+link_status: alive
+data_license: CC-BY-4.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: 'yes'
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.aiplannermail.com/terms/
+data_license_url: https://www.aiplannermail.com/terms/
+commercial_use_scope: any
+attribution_text: SoldSignal (https://www.aiplannermail.com), CC BY 4.0
+share_alike: unknown
+rate_limits: No key or rate plan; do not degrade service; files refresh about weekly (cache them)
+evidence:
+- field: data_license
+  url: https://www.aiplannermail.com/terms/
+  quote: is licensed under the Creative Commons Attribution 4.0 International licence (CC BY 4.0)
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.aiplannermail.com/terms/
+  quote: You may share and adapt it, including commercially, if you give appropriate credit
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.aiplannermail.com/terms/
+  quote: You may share and adapt it, including commercially, if you give appropriate credit
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.aiplannermail.com/terms/
+  quote: You may share and adapt it, including commercially, if you give appropriate credit
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.aiplannermail.com/terms/
+  quote: You may share and adapt it, including commercially, if you give appropriate credit
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://www.aiplannermail.com/free-resale-price-api/
+  quote: publishes its resale price index as static JSON and CSV files
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://www.aiplannermail.com/terms/
+  quote: cache our files; they change about once a week
+  checked_at: '2026-11-21'
+notes: 'Terms of Use section 5: data in downloadable files and API is CC BY 4.0 (commercial use allowed
+  with credit "SoldSignal", licence link, indication of changes); data must not be presented as official
+  marketplace data. Data are aggregated statistics (medians, ranges, counts) computed from public marketplace
+  pages (StockX, GOAT, Mercari, eBay, Chrono24 are named as non-affiliates); those marketplaces'' own
+  terms on scraping are not assessed and could be stricter upstream. Operated by an individual; estimates
+  only, no warranty. Static JSON/CSV files, no key. Not a real-time API.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read /terms/ (v1.0, 1 Nov 2026) and API page. Quotes verified. Caveats (not blockers):
+  single individual operator, may block/stop access at any time, data are weekly medians collected from
+  public marketplace pages (StockX, GOAT, eBay etc.) whose own scraping terms were not assessed; credit
+  must name SoldSignal with link, must not present as official marketplace data.'

@@ -1,0 +1,68 @@
+id: corpstacking
+name: CorpStacking
+url: https://www.corpstacking.com/feed.json
+category: Cryptocurrency
+description: Corporate, government and ETF Bitcoin, Ethereum and Solana treasury disclosures
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: CorpStacking
+  url: https://www.corpstacking.com/feed.json
+  category: Cryptocurrency
+link_status: alive
+data_license: CC BY-NC 4.0 for small downloadable files; otherwise proprietary, paid licence for bulk
+  copying/redistribution
+commercial_use: paid-only
+storage_caching: ambiguous
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.corpstacking.com/licensing
+commercial_use_scope: paid
+attribution_text: 'Data: CorpStacking (corpstacking.com), link to corpstacking.com'
+share_alike: unknown
+evidence:
+- field: commercial_use
+  url: https://www.corpstacking.com/licensing
+  quote: republishing or reselling it (including inside a product, widget or data feed), and training
+    or fine-tuning a model on it.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.corpstacking.com/licensing
+  quote: Client-facing redistribution allowed (with attribution)
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.corpstacking.com/licensing
+  quote: The small downloadable files we publish for reuse (the XRP funds CSV and JSON, and the mNAV CSV)
+    are shared under CC BY-NC 4.0
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.corpstacking.com/licensing
+  quote: Quote or cite any figure in an article, a post or an AI answer, with a link to corpstacking.com.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.corpstacking.com/licensing
+  quote: Cite any figure with a link to corpstacking.com.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.corpstacking.com/licensing
+  quote: Copying or scraping the data in bulk
+  checked_at: '2026-11-21'
+notes: 'Read /licensing and the _rights field of feed.json. Free: read the site and cite figures with
+  link/credit. Needs paid licence: bulk copying/scraping, republishing or reselling incl. inside a product,
+  widget or feed (Data Feed plan $1,500/mo allows client-facing redistribution with attribution; Research
+  $500/mo internal only; page also mentions API Pro $499/mo single-app commercial). The free small files
+  are CC BY-NC (non-commercial). Data derives from SEC filings/news (public sources). No separate ToS
+  page found (/terms 404). Storage of small amounts unclear.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: paid-only is consistent; no separate ToS found (/terms 404).

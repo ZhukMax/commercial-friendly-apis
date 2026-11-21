@@ -1,0 +1,64 @@
+id: xfinlab
+name: XFINLAB
+url: https://www.xfinlab.com/intelligence-api.html
+category: Finance
+description: Market events, sentiment, technical analysis and macro data for stocks
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: XFINLAB
+  url: https://www.xfinlab.com/intelligence-api.html
+  category: Finance
+link_status: alive
+data_license: proprietary (XFINLAB API Terms; upstream provider terms may apply)
+commercial_use: ambiguous
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.xfinlab.com/api-terms.html
+cache_limit: reasonable operational period
+attribution_text: Data by XFINLAB / Powered by XFINLAB, linking to xfinlab.com where practical
+evidence:
+- field: commercial_use
+  url: https://www.xfinlab.com/api-terms.html
+  quote: Resell or redistribute raw API responses as a standalone, competing data feed or API product
+    without a separate written agreement with XFINLAB.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.xfinlab.com/api-terms.html
+  quote: Cache Content for a reasonable operational period (e.g. to reduce redundant calls)
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.xfinlab.com/api-terms.html
+  quote: Display Content to Customer's own End Users as part of Customer's product, provided the attribution
+    requirement in Section 6 is met.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.xfinlab.com/api-terms.html
+  quote: must include reasonably visible attribution
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.xfinlab.com/api-terms.html
+  quote: XFINLAB retains all right, title, and interest in and to the Service, the API, and the underlying
+    models, methodologies, and infrastructure.
+  checked_at: '2026-11-21'
+notes: Read https://www.xfinlab.com/api-terms.html (API Terms of Service, effective July 31, 2026). The
+  page itself says it is an unreviewed working draft. No sentence explicitly permits or forbids commercial
+  use (apps/products of the customer are allowed; competing data feeds are not), so commercial_use is
+  ambiguous. Cache allowed only for a 'reasonable operational period'. The API aggregates upstream public
+  data (SEC, FINRA, EIA, CBOE, FDIC, USDA, CPSC etc.) and the terms forbid uses that make XFINLAB breach
+  its upstream providers' terms, so upstream terms may be stricter. Paid tiers are arranged individually;
+  their terms were not read.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read in full. Draft status and undetermined jurisdiction keep confidence low.

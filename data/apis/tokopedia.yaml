@@ -1,0 +1,33 @@
+id: tokopedia
+name: Tokopedia
+url: https://developer.tokopedia.com/openapi/guide/#/
+category: Shopping
+description: Tokopedia's Official API for integration of various services from Tokopedia
+description_source: upstream
+auth: OAuth
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Tokopedia
+  url: https://developer.tokopedia.com/openapi/guide/#/
+  category: Shopping
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://partner.tiktokshop.com/docv2/page/overview#/
+notes: developer.tokopedia.com/openapi/guide redirects to partner.tiktokshop.com (TikTok Shop Partner
+  Center). The Partner Center overview page I read did not mention Tokopedia and does not say it replaces
+  the Tokopedia API, so no TikTok Shop terms were transferred. It is a seller/partner integration API
+  (orders, products, shops via OAuth), not a public data source. The page of the original Tokopedia terms
+  could not be opened. All core fields unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

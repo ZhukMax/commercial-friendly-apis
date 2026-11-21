@@ -1,0 +1,65 @@
+id: nobel-prize
+name: Nobel Prize
+url: https://www.nobelprize.org/about/developer-zone-2/
+category: Open Data
+description: Open data about nobel prizes and events
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Nobel Prize
+  url: https://www.nobelprize.org/about/developer-zone-2/
+  category: Open Data
+link_status: alive
+data_license: CC0-1.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'no'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: high
+link_checked_at: '2026-11-21'
+data_license_url: https://www.nobelprize.org/about/terms-of-use-for-api-nobelprize-org-and-data-nobelprize-org/
+api_terms_url: https://www.nobelprize.org/about/terms-of-use-for-api-nobelprize-org-and-data-nobelprize-org/
+commercial_use_scope: any
+attribution_text: Citing the Services as data source is encouraged, not required
+share_alike: 'no'
+evidence:
+- field: data_license
+  url: https://www.nobelprize.org/about/terms-of-use-for-api-nobelprize-org-and-data-nobelprize-org/
+  quote: The Services are free to use according to the Creative Commons Zero (CC0) license.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.nobelprize.org/about/terms-of-use-for-api-nobelprize-org-and-data-nobelprize-org/
+  quote: The Services are free to use according to the Creative Commons Zero (CC0) license.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.nobelprize.org/about/terms-of-use-for-api-nobelprize-org-and-data-nobelprize-org/
+  quote: The Services are free to use according to the Creative Commons Zero (CC0) license.
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://www.nobelprize.org/about/terms-of-use-for-api-nobelprize-org-and-data-nobelprize-org/
+  quote: The Services are free to use according to the Creative Commons Zero (CC0) license.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.nobelprize.org/about/terms-of-use-for-api-nobelprize-org-and-data-nobelprize-org/
+  quote: Consider using a local cache instead of performing many API calls.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.nobelprize.org/about/terms-of-use-for-api-nobelprize-org-and-data-nobelprize-org/
+  quote: However, you are encouraged to cite the Services as the data source for your application.
+  checked_at: '2026-11-21'
+notes: 'Read the API/data terms of use (linked from the developer zone). Data is CC0; no key needed. Conditions:
+  do not alter/censor data or mislead users, do not use Nobel Prize Outreach name/logos to imply endorsement,
+  minimise API load, access may be revoked at any time. Terms say they prevail over CC0 in case of conflict.
+  Laureate photos/other site content are not covered by these API terms (not assessed).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Terms say they prevail over CC0 in conflict; must not discredit persons or imply endorsement;
+  access revocable at will; use a local cache.

@@ -1,0 +1,30 @@
+id: telize
+name: Telize
+url: https://rapidapi.com/fcambus/api/telize/
+category: Geocoding
+description: Telize offers location information from any IP address
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Telize
+  url: https://rapidapi.com/fcambus/api/telize/
+  category: Geocoding
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+evidence: []
+notes: 'Page read via Playwright (fresh context): RapidAPI listing for Telize (paid plans BASIC $7, PRO $22, ULTRA $50, MEGA $100 per month). No provider terms, licence, caching or commercial-use statement
+  on the page; only the generic RapidAPI marketplace terms. The IP geolocation data source and its licence are not stated. All terms fields unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

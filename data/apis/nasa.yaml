@@ -1,0 +1,65 @@
+id: nasa
+name: NASA
+url: https://api.nasa.gov
+category: Science & Math
+description: NASA data, including imagery
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: NASA
+  url: https://api.nasa.gov
+  category: Science & Math
+- list: public-apis
+  name: NASA InSight
+  url: https://api.nasa.gov/
+  category: Science & Math
+- list: public-api-lists
+  name: NASA
+  url: https://api.nasa.gov
+  category: Science & Math
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.nasa.gov/nasa-brand-center/images-and-media/
+attribution_text: NASA should be acknowledged as the source of the material
+evidence:
+- field: commercial_use
+  url: https://www.nasa.gov/nasa-brand-center/images-and-media/
+  quote: it must not explicitly or implicitly convey NASA’s endorsement of commercial goods or services.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.nasa.gov/nasa-brand-center/images-and-media/
+  quote: NASA should be acknowledged as the source of the material.
+  checked_at: '2026-11-21'
+- field: auth
+  url: https://api.nasa.gov
+  quote: Generate API Key
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.earthdata.nasa.gov/engage/open-data-services-software-policies/data-use-guidance
+  quote: Unless the content is marked with a use restriction or license, data provided from a NASA-led
+    mission are licensed as Creative Commons Zero (CC0).
+  checked_at: '2026-11-21'
+notes: api.nasa.gov is a JS signup page with no terms text (key via api.data.gov); its API terms and rate
+  limits were not read. The NASA Images and Media Usage Guidelines (general NASA content, not API-specific)
+  say NASA content is generally not copyrighted in the US and may be used commercially if no endorsement
+  is implied, but third-party copyrighted items, logos and identifiable persons need clearance and individual
+  endpoints (APOD, etc.) may carry third-party images. Hence ambiguous/yellow, low confidence. Needs per-endpoint
+  check.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'api.nasa.gov requires an API key (auth field stale); Terms: NASA content generally
+  not copyrighted; CC0 default for NASA-led mission data unless marked | applied: auth=apiKey'

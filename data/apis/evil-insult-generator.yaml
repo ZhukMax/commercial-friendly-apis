@@ -1,0 +1,55 @@
+id: evil-insult-generator
+name: Evil Insult Generator
+url: https://evilinsult.com/api
+category: Open Source Projects
+description: Evil Insults
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Evil Insult Generator
+  url: https://evilinsult.com/api
+  category: Open Source Projects
+- list: public-api-lists
+  name: Evil Insult Generator
+  url: https://evilinsult.com/api
+  category: Open Source Projects
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://evilinsult.com/legal.pdf
+evidence:
+- field: commercial_use
+  url: https://evilinsult.com/legal.pdf
+  quote: Individual reproductions of a work are allowed only for private use, so must not serve either
+    directly or indirectly for earnings.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://evilinsult.com/legal.pdf
+  quote: Individual reproductions of a work are allowed only for private use, so must not serve either
+    directly or indirectly for earnings.
+  checked_at: '2026-11-21'
+notes: 'API docs page has no terms. The site''s ''Legal'' PDF (legal.pdf: legal disclosure + 2016 Terms
+  of Service) has a generic copyright clause saying reproductions of site content are for private use
+  only and must not serve earnings, and that other use needs the rights holder''s consent. It is not API-specific,
+  so ambiguous rather than no. The sample response shows insults are user-submitted/''Sourced from some
+  website'' (comment field), so their provenance and rights are unclear. Joke/offensive content, not suitable
+  data for a commercial site regardless. Storage not addressed.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read legal.pdf (pdftotext): clause says ''Individual reproductions of a work are
+  allowed only for private use, so must not serve either directly or indirectly for earnings'', plus 2016
+  ToS. Not API-specific so ambiguous stands, but evidence leans against commercial use; provenance of
+  content unclear.'

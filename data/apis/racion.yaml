@@ -1,0 +1,82 @@
+id: racion
+name: Racion
+url: https://racion.app/developers
+category: Food & Drink
+description: Weekly meal plans with grocery prices and shopping lists, 22 countries
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Racion
+  url: https://racion.app/developers
+  category: Food & Drink
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: ambiguous
+redistribution_display: 'no'
+attribution_required: ambiguous
+bulk_download: 'no'
+self_host_option: unknown
+verdict: red
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://racion.app/terms
+commercial_use_scope: any
+share_alike: unknown
+rate_limits: 50 requests/hour, 300/day per IP for third-party apps; 600/min overall cap
+evidence:
+- field: commercial_use
+  url: https://racion.app/developers
+  quote: Делать продукт поверх API можно.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://racion.app/terms
+  quote: Их можно использовать лично и некоммерчески
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://racion.app/terms
+  quote: 'Нельзя без нашего письменного разрешения: копировать базу рецептов целиком или большими частями,
+    публиковать наши тексты и фото на других сайтах'
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://racion.app/developers
+  quote: Перепубликовывать базу рецептов и фотографии целиком или большими кусками — нет.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://racion.app/terms
+  quote: Ссылка на страницу рецепта приветствуется.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://racion.app/developers
+  quote: Сторонним приложениям, скриптам и MCP — 50 запросов в час и 300 в сутки с одного адреса
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://racion.app/terms
+  quote: копировать базу рецептов целиком или большими частями
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://racion.app/terms
+  quote: публиковать наши тексты и фото на других сайтах, в приложениях и книгах, использовать их в рекламе
+    или платных продуктах
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://racion.app/developers
+  quote: Показывайте ссылку, а не пересказ списка.
+  checked_at: '2026-11-21'
+notes: 'Read the Russian developer page (/developers) and Terms (/terms, updated 2026-09-19). They conflict:
+  the developer page says building a product on the API is allowed and only republishing the recipe DB/photos
+  wholesale or in large chunks is not; the ToS says recipe texts, photos, collections and the DB are for
+  personal non-commercial use and may not be published on other sites, in advertising or paid products
+  without written permission. Hence ambiguous on all core fields. priceSource must be shown next to prices
+  if a sum is published (developer page). Prices are estimates from official statistics (Rosstat, Eurostat,
+  BLS). Contact info@racion.app for limits/partnership.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'ToS (which the developer page defers to) forbids publishing recipe texts/photos on
+  other sites, in apps, ads or paid products; developer page says show a link, not a retelling. | applied:
+  redistribution_display=no'

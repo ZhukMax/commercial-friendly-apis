@@ -1,0 +1,44 @@
+id: temsor
+name: Temsor
+url: https://api.temsor.com/docs
+category: Data Validation
+description: Validates Turkish national ID, tax number, IBAN, phone, plate and parses addresses
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Temsor
+  url: https://api.temsor.com/docs
+  category: Data Validation
+link_status: alive
+data_license: unknown
+commercial_use: 'yes'
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://temsor.com/terms/
+evidence:
+- field: commercial_use
+  url: https://temsor.com/terms/
+  quote: Temsor is a digital service offered to businesses for use in their trade or business, not to
+    consumers.
+  checked_at: '2026-11-21'
+notes: 'Not a data source: validators for Turkish ID/tax number/IBAN/plate/phone and address parsing (OpenAPI
+  says pure local computation, no upstream service) plus a call/IVR product. The only Terms (temsor.com/terms,
+  Turkish operator) are for the voice-agent/IVR service and say the service, including the ''business
+  data API'' billed per credit, is offered to businesses for use in their trade or business; there is
+  no data licence, caching or display clause, so storage/display/attribution stay unknown. Free plan:
+  500 credits, 1 rps (OpenAPI description); paid plans from $19/month. commercial_use=yes rests on the
+  business-use clause only.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

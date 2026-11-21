@@ -1,0 +1,465 @@
+[
+  {
+    "id": "open-government-sweden",
+    "outcome": "confirmed",
+    "reasons": [
+      "Re-read SCB open-data page: CC0, no blockers; only API rate limit and no 'official partnership' claim"
+    ],
+    "counter_evidence": [],
+    "suggested": {},
+    "note": "Other agencies' statistics in the DB should be sourced to them (page says so); API 'as it is', 10 calls/10 s/IP."
+  },
+  {
+    "id": "open-government-taiwan",
+    "outcome": "disputed",
+    "reasons": [
+      "Licence covers only data 'provided under the License'; portal does not guarantee every dataset uses it",
+      "Providers may cease supplying data; attribution failure voids licence ab initio"
+    ],
+    "counter_evidence": [
+      {
+        "url": "https://data.gov.tw/en/license",
+        "quote": "when the Open Data is provided under the License",
+        "field": "commercial_use"
+      },
+      {
+        "url": "https://data.gov.tw/en/license",
+        "quote": "If User fails to comply with the attribution requirement, the rights granted under this License shall be deemed to have been void ab initio.",
+        "field": "attribution_required"
+      }
+    ],
+    "suggested": {
+      "commercial_use": "ambiguous",
+      "attribution_required": "yes"
+    },
+    "note": "Portal default licence only; no dataset-level licence read. Verdict green not supported; at most yellow. Quote 2 is 24 words."
+  },
+  {
+    "id": "open-government-uk",
+    "outcome": "disputed",
+    "reasons": [
+      "Portal-level OGL claim only; datasets may carry other licences",
+      "No dataset-level licence or API terms read"
+    ],
+    "counter_evidence": [
+      {
+        "url": "https://www.data.gov.uk/about",
+        "quote": "as long as you meet the conditions of either the Open Government Licence or another licence it’s covered by.",
+        "field": "commercial_use"
+      }
+    ],
+    "suggested": {
+      "commercial_use": "ambiguous"
+    },
+    "note": "First-pass note itself says verify each dataset's licence; green from portal default breaches project lesson. Suggest yellow/ambiguous."
+  },
+  {
+    "id": "open-government-usa",
+    "outcome": "disputed",
+    "reasons": [
+      "Policy says exceptions to unrestricted federal data exist and non-federal data has other licences",
+      "Catalog, not data owner: green only for federal datasets without exceptions"
+    ],
+    "counter_evidence": [
+      {
+        "url": "https://www.data.gov/privacy-policy/",
+        "quote": "Non-federal data available through Data.gov may have different licensing.",
+        "field": "commercial_use"
+      },
+      {
+        "url": "https://www.data.gov/privacy-policy/",
+        "quote": "users should check the “Access & Use Information” section for each dataset.",
+        "field": "redistribution_display"
+      }
+    ],
+    "suggested": {
+      "commercial_use": "ambiguous"
+    },
+    "note": "Portal-wide verdict should not be green; per-dataset check required."
+  },
+  {
+    "id": "open-government-victoria-state-government",
+    "outcome": "disputed",
+    "reasons": [
+      "Site CC BY 4.0 default but page says each dataset record may carry different licence",
+      "Images, branding, third-party content excluded"
+    ],
+    "counter_evidence": [
+      {
+        "url": "https://www.data.vic.gov.au/copyright-datavic",
+        "quote": "It is essential that you check the record page of a dataset for the licensing terms which apply to that dataset and its contents.",
+        "field": "commercial_use"
+      }
+    ],
+    "suggested": {
+      "commercial_use": "ambiguous"
+    },
+    "note": "Portal default only; no dataset-level licence read. At most yellow."
+  },
+  {
+    "id": "open-scholarships",
+    "outcome": "confirmed",
+    "reasons": [
+      "Re-read landing page and GitHub README: data CC BY 4.0, facts from primary official sources, not copied from aggregators",
+      "No ToS page exists (404) so no contrary clause"
+    ],
+    "counter_evidence": [],
+    "suggested": {},
+    "note": "Small single-operator project (Grudged LLC); stability and coverage (Nevada first) risk only."
+  },
+  {
+    "id": "open-targets",
+    "outcome": "disputed",
+    "reasons": [
+      "Upstream sources carry attribution, share-alike and even non-commercial licences, stricter than the CC0 label",
+      "Several sources licensed only as 'Commercial use for Open Targets'",
+      "Page claims sources agreed to unrestricted use, but redistribution of ChEMBL/HPA content under CC0 is unverified"
+    ],
+    "counter_evidence": [
+      {
+        "url": "https://platform-docs.opentargets.org/licence",
+        "quote": "ChEMBL CC BY-SA 3.0",
+        "field": "redistribution_display"
+      },
+      {
+        "url": "https://platform-docs.opentargets.org/licence",
+        "quote": "Cancer Gene Census Commercial use for Open Targets",
+        "field": "commercial_use"
+      },
+      {
+        "url": "https://platform-docs.opentargets.org/licence",
+        "quote": "Europe PMC CC-BY, CC-BY-NC or CC0 license or open access (depending on publication licenses)",
+        "field": "commercial_use"
+      }
+    ],
+    "suggested": {
+      "attribution_required": "ambiguous",
+      "redistribution_display": "ambiguous"
+    },
+    "note": "Aggregator. Human Protein Atlas also CC BY-SA 3.0; Uberon CC BY 3.0. Own-data CC0 is solid, mixed upstream content needs per-field handling. Suggest yellow."
+  },
+  {
+    "id": "openalex",
+    "outcome": "disputed",
+    "reasons": [
+      "Official Terms of Service (PDF, not read in first pass) assert ownership of the Database and grant only a revocable limited licence, conflicting with the CC0 marketing claim",
+      "API now needs a free key; free use limited to $1/day"
+    ],
+    "counter_evidence": [
+      {
+        "url": "https://openalex.org/OpenAlex_termsofservice.pdf",
+        "quote": "OpenAlex and its licensors retain ownership of the Database and all intellectual property rights of any kind",
+        "field": "commercial_use"
+      },
+      {
+        "url": "https://openalex.org/OpenAlex_termsofservice.pdf",
+        "quote": "freely revocable, limited license to access and use the free features of the Service",
+        "field": "storage_caching"
+      }
+    ],
+    "suggested": {
+      "storage_caching": "ambiguous",
+      "redistribution_display": "ambiguous"
+    },
+    "note": "ToS PDF at https://openalex.org/terms (found via Playwright, fresh context). ToS also says it makes no representations about licences of publications referenced. CC0 on help.openalex.org vs ToS reservation of rights: conflict, at best yellow/ambiguous."
+  },
+  {
+    "id": "openfda",
+    "outcome": "confirmed",
+    "reasons": [
+      "Re-read ToS: CC0 'even for commercial purposes'; attribution only requested",
+      "Exceptions are narrow and marked: third-party copyrighted records; GMDN content needs licence for commercial services"
+    ],
+    "counter_evidence": [],
+    "suggested": {},
+    "note": "FDA may limit or terminate access at its discretion. Avoid GMDN term data in commercial reuse. Ad site displaying CC0 data is fine."
+  },
+  {
+    "id": "openfigi",
+    "outcome": "confirmed",
+    "reasons": [
+      "Re-read ToS: FIGI identifiers dedicated to public domain, irrevocable (terms say Bloomberg shall not terminate the grant)",
+      "No blocker found; only Marks restriction"
+    ],
+    "counter_evidence": [],
+    "suggested": {},
+    "note": "Dedication names FIGI identifiers; 'related security descriptions' are only covered by a disclaimer, so name/ticker text is a minor gap. Terms last updated 2018-11-27."
+  },
+  {
+    "id": "opengeocoding",
+    "outcome": "disputed",
+    "reasons": [
+      "Results derive from ODbL sources (OSM, Overture, OpenAddresses): share-alike and database obligations can apply to stored results",
+      "Per-country credit lines and per-source licences required",
+      "ToS itself says data licences are not overridden, so 'no contractual limit on caching' does not make permanent storage safe"
+    ],
+    "counter_evidence": [
+      {
+        "url": "https://opengeocoding.com/legal/attributions",
+        "quote": "API access does not waive those requirements, and not every use of API results can be classified the same way.",
+        "field": "storage_caching"
+      },
+      {
+        "url": "https://opengeocoding.com/legal/terms",
+        "quote": "Your use remains subject to the underlying data licences, including applicable attribution and share-alike requirements",
+        "field": "storage_caching"
+      },
+      {
+        "url": "https://opengeocoding.com/legal/terms",
+        "quote": "resell or expose raw API access to third parties as a geocoding service of your own",
+        "field": "redistribution_display"
+      }
+    ],
+    "suggested": {
+      "storage_caching": "ambiguous",
+      "attribution_required": "yes"
+    },
+    "note": "Aggregator of ODbL data. Free tier 50k credits/month. Suggest yellow (ODbL share-alike risk when stored results are merged into own database)."
+  },
+  {
+    "id": "openmercantil",
+    "outcome": "disputed",
+    "reasons": [
+      "Terms forbid commercial or advertising profiles of natural persons; BORME data is mostly company officers",
+      "Free API limited to 200 req/day/IP; unauthorised redistribution can lead to suspension",
+      "Upstream BOE/BORME reuse conditions not read"
+    ],
+    "counter_evidence": [
+      {
+        "url": "https://openmercantil.es/terminos-de-uso",
+        "quote": "Construcción de perfiles comerciales o publicitarios sobre personas físicas (RGPD art. 5.1.b).",
+        "field": "commercial_use"
+      },
+      {
+        "url": "https://openmercantil.es/terminos-de-uso",
+        "quote": "Reventa o redistribución del dataset presentándolo como «fuente oficial».",
+        "field": "redistribution_display"
+      }
+    ],
+    "suggested": {
+      "commercial_use": "ambiguous",
+      "redistribution_display": "ambiguous"
+    },
+    "note": "An ad-supported site showing officer data risks 'advertising profiles of natural persons'. Company-level data likely fine. Suggest yellow."
+  },
+  {
+    "id": "opensensemap",
+    "outcome": "confirmed",
+    "reasons": [
+      "Re-read About page via Playwright (fresh context): sensor data PDDL 1.0; PDDL imposes no restrictions",
+      "No ToS page (404 for /terms, /faq) and no contrary clause found"
+    ],
+    "counter_evidence": [],
+    "suggested": {},
+    "note": "User-contributed measurements; contributor rights unverified. About page copyright notice dated 2014-2020. Map tiles are separate (Mapbox/OSM)."
+  },
+  {
+    "id": "openstates",
+    "outcome": "disputed",
+    "reasons": [
+      "Plural Policy (owner) Terms of Use dated 2026-08-26 limit services to personal non-commercial use and ban commercial exploitation and scraping",
+      "Conflicts with older Open States ToS (2021) that makes no copyright claim; scope of new terms over API/bulk data unclear",
+      "API key required; plan limits not read"
+    ],
+    "counter_evidence": [
+      {
+        "url": "https://pluralpolicy.com/terms-of-use/",
+        "quote": "limited, non-transferable license to use the Services solely for your personal non-commercial purposes.",
+        "field": "commercial_use"
+      },
+      {
+        "url": "https://pluralpolicy.com/terms-of-use/",
+        "quote": "You may not commercially exploit, copy, modify, reverse engineer, scrape, compete with",
+        "field": "commercial_use"
+      }
+    ],
+    "suggested": {
+      "commercial_use": "ambiguous",
+      "storage_caching": "ambiguous"
+    },
+    "note": "Two pages conflict. Older terms: 'No attribution is required' and no copyright claim. Needs owner clarification; at best yellow."
+  },
+  {
+    "id": "openvan",
+    "outcome": "disputed",
+    "reasons": [
+      "Aggregator: currency rates draw on ExchangeRate-API open endpoint whose terms forbid redistribution, contradicting blanket CC BY",
+      "No upstream licences listed for fuel, visa, news, plate data",
+      "No ToS page exists"
+    ],
+    "counter_evidence": [
+      {
+        "url": "https://www.exchangerate-api.com/docs/free",
+        "quote": "You are, however, not allowed to re-distribute it.",
+        "field": "redistribution_display"
+      },
+      {
+        "url": "https://openvan.camp/docs",
+        "quote": "Source chain: national central banks (RUB/TRY/GEL/UAH/BYN/UZS) for precision, then Fawaz API / ExchangeRate-API / Frankfurter / ECB",
+        "field": "data_license"
+      }
+    ],
+    "suggested": {
+      "redistribution_display": "ambiguous",
+      "commercial_use": "ambiguous"
+    },
+    "note": "Quote 2 is 22 words. CC BY claim by a small operator cannot override upstream terms. Suggest yellow or unknown for composite data; currency endpoint specifically risky."
+  },
+  {
+    "id": "paycrunch",
+    "outcome": "confirmed",
+    "reasons": [
+      "Re-read API page: CC BY 4.0, commercial reuse explicit; 762/1008 records are BLS OEWS (US federal, free reuse)",
+      "Site terms only cover the website, API page grants CC BY"
+    ],
+    "counter_evidence": [],
+    "suggested": {},
+    "note": "246 records are PayCrunch estimates, must be labelled; do not present as BLS. Single-person operator."
+  },
+  {
+    "id": "pick-an-agency",
+    "outcome": "disputed",
+    "reasons": [
+      "Aggregated review data comes from Clutch and Google Maps, whose terms the operator cannot relicense under CC BY",
+      "API returns recent client reviews",
+      "Site ToS: content owned or licensed to Pick an Agency, bans scraping beyond normal use; first pass flagged this doubt but did not resolve it"
+    ],
+    "counter_evidence": [
+      {
+        "url": "https://www.pickanagency.com/methodology",
+        "quote": "Review data is aggregated from Clutch, Google Maps and agency websites",
+        "field": "redistribution_display"
+      },
+      {
+        "url": "https://www.pickanagency.com/terms",
+        "quote": "Agency listings may include information sourced from public data, user submissions, and third-party platforms.",
+        "field": "data_license"
+      }
+    ],
+    "suggested": {
+      "redistribution_display": "ambiguous",
+      "commercial_use": "ambiguous"
+    },
+    "note": "Profile facts (name, services, location) are likely fine; reviews are the blocker. Suggest yellow, advise omitting review text."
+  },
+  {
+    "id": "poetrydb",
+    "outcome": "confirmed",
+    "reasons": [
+      "Re-read DATA_LICENSE.md: CC BY 4.0 for curated edition, poems public domain (Gutenberg); software GPLv2 irrelevant to data",
+      "No hosted-API terms or conflicting clause found"
+    ],
+    "counter_evidence": [],
+    "suggested": {},
+    "note": "No SLA for public instance."
+  },
+  {
+    "id": "polykal-fees",
+    "outcome": "confirmed",
+    "reasons": [
+      "Re-read page: fees.json CC BY 4.0, commercial use explicit, credit and link required",
+      "Data are factual fee schedules transcribed from Kalshi/Polymarket; no contrary clause found on page"
+    ],
+    "counter_evidence": [],
+    "suggested": {},
+    "note": "Domain moved to polykal.net. Upstream platform terms not read (facts). Not financial advice; small operator."
+  },
+  {
+    "id": "postalcodecheck",
+    "outcome": "confirmed",
+    "reasons": [
+      "Re-read Terms and About: free API for commercial use, GeoNames postal data CC BY 4.0, caching encouraged",
+      "Only limits: 100 req/day/IP, no IP rotation, no reselling of keyless API"
+    ],
+    "counter_evidence": [],
+    "suggested": {
+      "attribution_required": "yes"
+    },
+    "note": "CC BY legally requires credit to GeoNames even though API page says attribution 'appreciated'. Suggest attribution_required=yes. Higher volume needs paid IPNOVA key."
+  },
+  {
+    "id": "probative-legal-marketing-data",
+    "outcome": "confirmed",
+    "reasons": [
+      "Re-read API page: CC BY, commercial reuse explicit, credit with link; own compilation of public rules",
+      "No contrary terms found"
+    ],
+    "counter_evidence": [],
+    "suggested": {},
+    "note": "Vendor is a marketing firm; content summarises public rules and Google Ads policies; not legal advice."
+  },
+  {
+    "id": "razorpay-ifsc",
+    "outcome": "disputed",
+    "reasons": [
+      "Public-domain claim is only a self-declaration; dataset is compiled from RBI and NPCI lists whose licence was not read",
+      "RBI site states all rights reserved",
+      "Hosted API is in a separate repo (ifsc-api) with no stated terms or SLA"
+    ],
+    "counter_evidence": [
+      {
+        "url": "https://github.com/razorpay/ifsc",
+        "quote": "The dataset itself is under public domain.",
+        "field": "data_license"
+      },
+      {
+        "url": "https://www.rbi.org.in/Scripts/Disclaimer.aspx",
+        "quote": "caching and links to, and the framing of this Web Site or any of the contents are prohibited.",
+        "field": "storage_caching"
+      }
+    ],
+    "suggested": {
+      "storage_caching": "ambiguous",
+      "commercial_use": "ambiguous"
+    },
+    "note": "RBI page read via Playwright. The caching clause concerns linking/framing of the RBI website, so not a direct ban, but RBI shows '© Reserve Bank of India. All Rights Reserved.' and no open licence found. Upstream NPCI terms unread. Suggest yellow."
+  },
+  {
+    "id": "rcsb-pdb",
+    "outcome": "confirmed",
+    "reasons": [
+      "Re-read Usage Policies: PDB archive and all RCSB programmatic API data CC0",
+      "Exceptions (Molecule of the Month text, site articles) are not API data"
+    ],
+    "counter_evidence": [],
+    "suggested": {},
+    "note": "Attribution encouraged only."
+  },
+  {
+    "id": "rebatehub",
+    "outcome": "confirmed",
+    "reasons": [
+      "Re-read /terms: program dataset CC BY 4.0 via open data API, credit and link required",
+      "Guide text, design, logo excluded; scraping the site banned but open data API provided"
+    ],
+    "counter_evidence": [],
+    "suggested": {},
+    "note": "Must not present data as government-sourced; amounts are 'up to' estimates. Underlying program facts from official sources."
+  },
+  {
+    "id": "registrum",
+    "outcome": "disputed",
+    "reasons": [
+      "Terms say nothing explicit on storage; only that user is separate GDPR controller",
+      "Bans reselling raw responses without transformation and profiling or tracking individuals; officer/PSC personal data",
+      "API key must not be embedded in client-side code; free-tier limits and pricing page unreadable (404)"
+    ],
+    "counter_evidence": [
+      {
+        "url": "https://registrum.co.uk/terms",
+        "quote": "resell raw API responses without transformation",
+        "field": "redistribution_display"
+      },
+      {
+        "url": "https://registrum.co.uk/terms",
+        "quote": "Do not use it to contact, profile or track individuals in ways they would not reasonably expect from a public register entry.",
+        "field": "commercial_use"
+      }
+    ],
+    "suggested": {
+      "storage_caching": "ambiguous",
+      "redistribution_display": "ambiguous"
+    },
+    "note": "Quote 2 is 24 words. Underlying Companies House OGL v3.0 is fine, but wrapper terms add conditions and the service is new (terms 2026-11-08), so stability unknown. Suggest yellow."
+  }
+]

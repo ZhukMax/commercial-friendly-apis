@@ -1,0 +1,68 @@
+id: salahtable
+name: SalahTable
+url: https://salahtable.com/prayer-times-api
+category: Calendar
+description: Islamic prayer times for 400+ cities, by day or month, with six calculation methods
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: SalahTable
+  url: https://salahtable.com/prayer-times-api
+  category: Calendar
+link_status: alive
+data_license: 'CC-BY-4.0 (open-data CSV release); API terms: free for any use incl. commercial'
+commercial_use: 'yes'
+storage_caching: ambiguous
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: 'yes'
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://salahtable.com/open-data
+api_terms_url: https://salahtable.com/prayer-times-api
+commercial_use_scope: any
+attribution_text: Visible link to the relevant SalahTable city page, e.g. Karachi prayer times
+share_alike: unknown
+notes: 'No separate ToS page (/terms 404); terms are a short paragraph on the API page, plus the open-data
+  page. Storage: only a recommendation to cache a few minutes is stated, nothing forbids or permits longer
+  storage for the API (the CC BY 4.0 CSV release for 2027 is a separate bulk option), so ambiguous. Credit
+  is a plain visible link to the city page (not dofollow-mandated). Data are calculated (Adhan JS), city
+  metadata adapted from GeoNames; MUIS/JAKIM published tables are used on some live pages (their terms
+  not checked).'
+evidence:
+- field: commercial_use
+  url: https://salahtable.com/prayer-times-api
+  quote: Free for any use, including commercial.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://salahtable.com/prayer-times-api
+  quote: please credit SalahTable with a visible link to the city page
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://salahtable.com/prayer-times-api
+  quote: keep requests reasonable (cache on your side for a few minutes)
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://salahtable.com/open-data
+  quote: Data and documentation are available under CC BY 4.0
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://salahtable.com/open-data
+  quote: Daily prayer times (CSV) — all 307 cities, every date in 2027, using each country's default method.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://salahtable.com/prayer-times-api
+  quote: Free for any use, including commercial.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read API page and /open-data. Data and docs under CC BY 4.0 (2027 release; same
+  calculation); storage leans yes but the cited licence is release-specific, so ambiguous kept. MUIS/JAKIM
+  tables on some pages: terms not checked. Stands (yellow).'

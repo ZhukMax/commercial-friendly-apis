@@ -1,0 +1,29 @@
+id: lastfm
+name: LastFm
+url: https://www.last.fm/api
+category: Music
+description: Music
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: LastFm
+  url: https://www.last.fm/api
+  category: Music
+- list: public-api-lists
+  name: LastFm
+  url: https://www.last.fm/api
+  category: Music
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

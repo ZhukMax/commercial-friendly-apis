@@ -1,0 +1,53 @@
+id: noozra
+name: Noozra
+url: https://noozra.com/api
+category: News
+description: Free news headlines from 200+ curated RSS sources
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Noozra
+  url: https://noozra.com/api
+  category: News
+link_status: alive
+data_license: proprietary (Noozra ToS; headlines belong to their publishers)
+commercial_use: paid-only
+storage_caching: unknown
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://noozra.com/terms
+api_terms_url: https://noozra.com/terms
+commercial_use_scope: paid
+attribution_text: Show each headline with its publisher's name and a link to the original story
+rate_limits: Free key 100 requests/day (personal/non-commercial); API Pro 25,000/day for $9 per 30 days
+evidence:
+- field: commercial_use
+  url: https://noozra.com/terms
+  quote: a site that runs ads, or work for a client — needs API Pro.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://noozra.com/terms
+  quote: Either way, the headlines and descriptions belong to their publishers.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://noozra.com/terms
+  quote: Show each one with its publisher's name and a link to the original story, and don't present them as your own.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://noozra.com/terms
+  quote: Either way, the headlines and descriptions belong to their publishers.
+  checked_at: '2026-11-21'
+notes: 'Terms (noozra.com/terms): free key is for personal and non-commercial projects (100 req/day); anything that earns money, including a site that runs ads, needs API Pro ($9 for 30 days, 25,000 req/day).
+  Headlines/descriptions belong to publishers; show each with publisher name and link, not as your own. Auth is now an API key (account with a saved card required), not none as the upstream list says. Storage/caching
+  of the data is not addressed: unknown; display rule is allowed with the attribution above, but no explicit ''display permitted'' sentence, so redistribution_display is inferred from the show-each-one-with-attribution
+  wording (medium). Aggregator of RSS headlines; public records also served (government source). verdict unknown because storage_caching is unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

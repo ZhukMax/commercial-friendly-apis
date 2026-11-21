@@ -1,0 +1,36 @@
+id: bitfinex
+name: Bitfinex
+url: https://docs.bitfinex.com/docs
+category: Cryptocurrency
+description: Cryptocurrency Trading Platform
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Bitfinex
+  url: https://docs.bitfinex.com/docs
+  category: Cryptocurrency
+link_status: redirect
+data_license: proprietary (Bitfinex Market Trading Data; separate Market Data Terms not retrieved)
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://docs.bitfinex.com/docs/introduction
+api_terms_url: https://www.bitfinex.com/legal/general/api-terms/
+evidence:
+- field: data_license
+  url: https://www.bitfinex.com/legal/general/api-terms/
+  quote: Bitfinex Market Trading Data is proprietary to us and protected by applicable intellectual property laws.
+  checked_at: '2026-11-21'
+notes: 'Read API Terms of Service (updated 2025-01-07): API is for building apps on the exchange; market trading data is governed by a separate "Market Data Terms of Use", which returned 404 at the guessed
+  URL and was not read. Redirect docs.bitfinex.com/docs -> /docs/introduction. Commercial use, caching and display unknown. Exchange API (trading), not a licensed data feed.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

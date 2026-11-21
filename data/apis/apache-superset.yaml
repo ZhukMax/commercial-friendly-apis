@@ -1,0 +1,54 @@
+id: apache-superset
+name: Apache Superset
+url: https://superset.apache.org/docs/api
+category: Business
+description: API to manage your BI dashboards and data sources on Superset
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Apache Superset
+  url: https://superset.apache.org/docs/api
+  category: Business
+link_status: alive
+data_license: Apache-2.0 (software; the API manages the operator's own dashboards and data sources, no
+  third-party dataset)
+commercial_use: 'yes'
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://raw.githubusercontent.com/apache/superset/master/LICENSE.txt
+commercial_use_scope: self-hosted
+evidence:
+- field: commercial_use
+  url: https://raw.githubusercontent.com/apache/superset/master/LICENSE.txt
+  quote: a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license
+    to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute
+    the Work
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://raw.githubusercontent.com/apache/superset/master/LICENSE.txt
+  quote: You must retain, in the Source form of any Derivative Works that You distribute, all copyright,
+    patent, trademark, and attribution notices
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://raw.githubusercontent.com/apache/superset/master/LICENSE.txt
+  quote: Apache License Version 2.0, January 2004
+  checked_at: '2026-11-21'
+notes: 'Not a data source: Superset''s REST API manages dashboards, charts and datasets of your own self-hosted
+  instance; there is no hosted API service from the project. Fields describe the Apache-2.0 software licence
+  (LICENSE.txt read from GitHub master). The docs page https://superset.apache.org/docs/api renders only
+  via JS and was not readable with curl, so the API docs themselves were not read. storage_caching/redistribution_display
+  left unknown because they depend on the connected databases, not on Superset.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

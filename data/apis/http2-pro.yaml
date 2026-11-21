@@ -1,0 +1,30 @@
+id: http2-pro
+name: HTTP2.Pro
+url: https://http2.pro/doc/api
+category: Development
+description: Test endpoints for client and server HTTP/2 protocol support
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: HTTP2.Pro
+  url: https://http2.pro/doc/api
+  category: Development
+- list: public-api-lists
+  name: HTTP2.Pro
+  url: https://http2.pro/doc/api
+  category: Development
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://northwoodsweekly.com

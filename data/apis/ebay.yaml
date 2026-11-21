@@ -1,0 +1,67 @@
+id: ebay
+name: eBay
+url: https://developer.ebay.com/
+category: Shopping
+description: Sell and Buy on eBay
+description_source: upstream
+auth: OAuth
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: eBay
+  url: https://developer.ebay.com/
+  category: Shopping
+link_status: alive
+data_license: proprietary (eBay API License Agreement)
+commercial_use: ambiguous
+storage_caching: limited
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+cache_limit: Delete when no longer public; listing data at most 6 h older than eBay site
+api_terms_url: https://developer.ebay.com/join/api-license-agreement
+evidence:
+- field: commercial_use
+  url: https://developer.ebay.com/join/api-license-agreement
+  quote: You may use and display eBay Content only within your Application during the Term and solely
+    for purposes contemplated and as allowed herein
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://developer.ebay.com/join/api-license-agreement
+  quote: When the eBay Content is no longer publicly available, you must delete it from your Application.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://developer.ebay.com/join/api-license-agreement
+  quote: Displayed item listing information may not be more than six (6) hours older than information
+    displayed on the eBay Site
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://developer.ebay.com/join/api-license-agreement
+  quote: you may display such eBay Content within your Application to promote eBay and enable Your Users
+    to search and browse listings
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://developer.ebay.com/join/api-license-agreement
+  quote: eBay retains all rights, title and interest in and to all intellectual property rights embodied
+    in or associated with the Developer Tools
+  checked_at: '2026-11-21'
+notes: Read the API License Agreement via Playwright (fresh context; curl is blocked by eBay's bot challenge).
+  Public Display is allowed only to promote eBay and let users search/browse listings, must be visually
+  isolated from non-eBay content (no co-mingling), must be kept fresh (6 h for listings, 24 h for other
+  content) and deleted when no longer public. The agreement has no explicit ad/affiliate or 'commercial
+  use' clause and requires Application Growth Check/certifications for some APIs, so commercial_use and
+  display are ambiguous. Attribution/logo rules (Badge Usage Terms) not read. Restricted APIs and Buy
+  API terms may be stricter; not assessed. Also relevant for aggregators reselling eBay data.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read via Playwright (fresh context). Additional blockers not in first pass: Prohibited
+  list says not to ''Use eBay Content or Developer Tools to compete with eBay Services or to design, build,
+  promote or augment any site or service competitive to eBay Services'' and Public Display must be visually
+  isolated from non-eBay content. An ads/affiliate catalog site is at best a weak fit; ambiguity stays'

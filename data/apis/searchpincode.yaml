@@ -1,0 +1,81 @@
+id: searchpincode
+name: SearchPinCode
+url: https://searchpincode.in/api
+category: Geocoding
+description: Indian postal PIN code lookup, post office locator and district data
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: SearchPinCode
+  url: https://searchpincode.in/api
+  category: Geocoding
+link_status: alive
+data_license: CC-BY-4.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://searchpincode.in/api
+data_license_url: https://creativecommons.org/licenses/by/4.0/
+commercial_use_scope: any
+share_alike: 'no'
+attribution_text: PIN Code Data powered by SearchPincode.in (visible clickable link to https://searchpincode.in)
+rate_limits: No rate limits for standard usage (per provider)
+evidence:
+- field: commercial_use
+  url: https://searchpincode.in/api
+  quote: This API is provided 100% free of charge for commercial and non-commercial projects under the
+    Creative Commons Attribution (CC BY 4.0) license.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://searchpincode.in/api
+  quote: This API is provided 100% free of charge for commercial and non-commercial projects under the
+    Creative Commons Attribution (CC BY 4.0) license.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://searchpincode.in/api
+  quote: you must place a visible, clickable link back to https://searchpincode.in in your application's
+    footer
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://searchpincode.in/api
+  quote: This API is provided 100% free of charge for commercial and non-commercial projects under the
+    Creative Commons Attribution (CC BY 4.0) license.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://searchpincode.in/api
+  quote: There are no rate limits for standard usage.
+  checked_at: '2026-11-21'
+notes: 'Page read via Playwright (fresh context; curl got only a redirect shell to /api/): the Usage Terms
+  & Attribution section states CC BY 4.0, free for commercial and non-commercial use, visible clickable
+  link back required, no rate limits. CC BY deed cited for copy/display together with the site statement.
+  Share-alike marked no because CC BY has none (inferred from the stated licence). Caveat: the underlying
+  PIN data originates from India Post (data.gov.in); the provider''s relicensing was not verified against
+  the upstream licence. Single-page terms, no separate ToS found.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Re-read via Playwright: /api says CC BY 4.0 commercial OK; /terms permits copying
+  for business purposes, only bans abusive scraping and spam; Disclaimer says data curated from India
+  Post open data; could not re-verify: India Post/data.gov.in upstream licence could not be read'
+verdict_override: yellow
+override_reason: 'Second check: Re-read via Playwright: /api says CC BY 4.0 commercial OK; /terms permits
+  copying for business purposes, only bans abusive scraping and spam; Disclaimer says data curated from
+  India Post open data; could not re-verify: India Post/data.gov.in upstream licence could not be read'

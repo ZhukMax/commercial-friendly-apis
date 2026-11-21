@@ -1,0 +1,55 @@
+id: city-berlin
+name: City, Berlin
+url: https://daten.berlin.de/
+category: Government
+description: Berlin(DE) City Open Data
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: City, Berlin
+  url: https://daten.berlin.de/
+  category: Government
+link_status: alive
+data_license: 'per dataset (example dataset: cc-by)'
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: HTTP 403 (blocked for bots, assumed alive)
+commercial_use_scope: any
+share_alike: unknown
+data_license_url: https://daten.berlin.de/datensaetze/schulferienkalender-1736422
+api_terms_url: https://daten.berlin.de/
+evidence:
+- field: data_license
+  url: https://daten.berlin.de/datensaetze/schulferienkalender-1736422
+  quote: 'Lizenz: Creative Commons Attribution (cc-by)'
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://daten.berlin.de/datensaetze/schulferienkalender-1736422
+  quote: 'Text für Namensnennung: Senatsverwaltung für Bildung, Jugend und Familie'
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://daten.berlin.de/datensaetze/schulferienkalender-1736422
+  quote: 'Lizenz: Creative Commons Attribution (cc-by)'
+  checked_at: '2026-11-21'
+notes: 'Read via Playwright (curl gets HTTP 403). The portal shows a licence per dataset (one sample dataset
+  read: cc-by with a required attribution text); the portal homepage also lists CC0, CC BY-NC and CC BY-NC-SA
+  only for images/articles. No portal-wide terms of use or API terms page was found (Impressum/Datenschutz
+  only), so commercial use is ambiguous at portal level: check each dataset licence.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Berlin CKAN API (datenregister.berlin.de) facet over 2635 datasets: dl-de-zero-2.0
+  1508, cc-by 865, cc-by-de/3.0 73, cc-zero 52, dl-de-by-2.0 44, cc-by/4.0 40, cc-by-sa 36, other-closed
+  13, ODbL 3, cc-nc 1. Portal-level ambiguous is right; check each dataset.'
+license_scope: portal-default

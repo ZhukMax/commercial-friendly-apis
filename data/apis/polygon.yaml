@@ -1,0 +1,78 @@
+id: polygon
+name: Polygon
+url: https://polygon.io/
+category: Finance
+description: Historical stock market data
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Polygon
+  url: https://polygon.io/
+  category: Finance
+- list: public-api-lists
+  name: Polygon.io
+  url: https://polygon.io/docs/
+  category: Finance
+link_status: redirect
+data_license: unknown
+commercial_use: paid-only
+storage_caching: limited
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: -> https://massive.com/
+api_terms_url: https://massive.com/legal/businesses-terms-of-service
+commercial_use_scope: paid
+cache_limit: Store/use within purchased entitlements, for internal business use and display in own products;
+  no redistribution as a data feed
+notes: 'Polygon.io was renamed Massive.com on 2025-10-30 (blog post confirms same APIs/accounts); polygon.io
+  redirects to massive.com. Terms: individual plans (including free) are personal non-commercial only;
+  business use needs Massive for Businesses plan (Order Form). Business terms allow storing and displaying
+  market data in own websites/apps, but forbid redistribution, data feeds or machine-readable delivery
+  to end users, require third-party-provider attribution/delay labels, and are subject to exchange (Third-Party
+  Provider) agreements and market-data fees; separate Market Data Terms not read. Non-display / derived-data
+  use needs extra licence. Pricing not read. Merged duplicate entry `polygon-io`.'
+evidence:
+- field: commercial_use
+  url: https://massive.com/legal/individuals-terms-of-service
+  quote: solely for your own personal, non-commercial, and non-business purposes
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://massive.com/legal/individuals-terms-of-service
+  quote: you may not use a personal-use plan for that purpose
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://massive.com/legal/businesses-terms-of-service
+  quote: access, receive, process, transmit, store, and use the Information available via the Services
+    solely
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://massive.com/legal/businesses-terms-of-service
+  quote: to display it to Authorized Users or Edge Users within products, services, applications, and
+    websites owned or licensed by Customer
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://massive.com/legal/businesses-terms-of-service
+  quote: fail to display with any Information the attribution, delay label, or other notice that the applicable
+    Third-Party Provider requires
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://massive.com/blog/polygon-is-now-massive
+  quote: We have just renamed Polygon.io to Massive.com, effective today (October 30, 2025)
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read massive.com business and individual ToS (Playwright): personal plans non-commercial;
+  business ToS bars redistribution/dissemination and binds to Third-Party Agreements. Same service as
+  the sibling entry (polygon/polygon-io); consider merging.'
+aliases:
+- polygon-io

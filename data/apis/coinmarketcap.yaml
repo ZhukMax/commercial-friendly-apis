@@ -1,0 +1,43 @@
+id: coinmarketcap
+name: CoinMarketCap
+url: https://coinmarketcap.com/api/
+category: Cryptocurrency
+description: Cryptocurrencies Prices
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: CoinMarketCap
+  url: https://coinmarketcap.com/api/
+  category: Cryptocurrency
+- list: public-api-lists
+  name: CoinMarketCap
+  url: https://coinmarketcap.com/api/
+  category: Cryptocurrency
+link_status: alive
+data_license: unknown
+commercial_use: 'yes'
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+commercial_use_scope: free-tier
+evidence:
+- field: commercial_use
+  url: https://coinmarketcap.com/api/
+  quote: Basic Plan 15K monthly call credits, 50 requests per minute, historical data, commercial use.
+  checked_at: '2026-11-21'
+notes: 'API landing and pricing pages state the free Basic plan (15K credits/month, 50 req/min) and paid
+  plans carry "Commercial use" licence. The actual API agreement/licence (caching, display, attribution,
+  redistribution) was NOT found: coinmarketcap.com/terms is the website ToS (personal, non-commercial;
+  covers Platform/Content, not the API plan) and the FAQ only refers to a "standard commercial agreement".
+  Storage/display left unknown. Note FAQ calls Basic best for personal projects. Some data is third-party
+  (CMC ToS: Third Party Terms apply).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

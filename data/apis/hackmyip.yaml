@@ -1,0 +1,61 @@
+id: hackmyip
+name: HackMyIP
+url: https://hackmyip.com/api
+category: Geocoding
+description: IP geolocation, ISP and privacy/VPN scoring, email breach checks, DNS and WHOIS lookups
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: HackMyIP
+  url: https://hackmyip.com/api
+  category: Geocoding
+- list: public-api-lists
+  name: HackMyIP
+  url: https://hackmyip.com/api
+  category: Security
+link_status: alive
+data_license: unknown (results come from third-party data sources)
+commercial_use: 'yes'
+storage_caching: ambiguous
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://hackmyip.com/terms
+commercial_use_scope: any
+cache_limit: Responses advertised as cacheable for an hour; no stated maximum
+share_alike: unknown
+rate_limits: Keep under 100 requests/min (/api/v1/ capped at 60/min)
+notes: Read /api and /terms (Terms of Service, updated May 21 2026; short, no data-licence or caching
+  clause). Commercial use is explicitly allowed on the API page. Data is from unnamed third-party sources,
+  so display/redistribution rights to that upstream data are unconfirmed, and the "cacheable for an hour"
+  line reads as a hint rather than a limit (ambiguous). An optional "runs on HackMyIP API" badge is offered,
+  not required.
+evidence:
+- field: commercial_use
+  url: https://hackmyip.com/api
+  quote: This API is free for personal and commercial use.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://hackmyip.com/api
+  quote: Results are cacheable for an hour.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://hackmyip.com/terms
+  quote: Results come from third-party data sources and may be incomplete or inaccurate.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://hackmyip.com/api
+  quote: Please keep it under 100 requests per minute
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Upstream data sources unnamed, display rights unconfirmed.

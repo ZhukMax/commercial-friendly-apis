@@ -1,0 +1,82 @@
+id: spotify
+name: Spotify
+url: https://beta.developer.spotify.com/documentation/web-api/
+category: Music
+description: View Spotify music catalog, manage users' libraries, get recommendations and more
+description_source: upstream
+auth: OAuth
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Spotify
+  url: https://beta.developer.spotify.com/documentation/web-api/
+  category: Music
+- list: public-api-lists
+  name: Spotify
+  url: https://beta.developer.spotify.com/documentation/web-api/
+  category: Music
+link_status: redirect
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://developer.spotify.com/documentation/web-api
+api_terms_url: https://developer.spotify.com/policy
+commercial_use_scope: any
+attribution_text: Clearly attribute content as supplied by Spotify using the Spotify Marks; metadata,
+  cover art and preview clips must link back to Spotify.
+evidence:
+- field: commercial_use
+  url: https://developer.spotify.com/policy
+  quote: Except for the limited commercial uses for Non-Streaming SDAs (set out below) commercial uses
+    are not permitted for SDAs.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://developer.spotify.com/policy
+  quote: 'The following are the only permitted commercial uses of Non-Streaming SDAs: the sale of advertising,
+    sponsorships, or promotions on the Non-Streaming SDA'
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://developer.spotify.com/policy
+  quote: If you display any Spotify Content you must clearly attribute the content as being supplied and
+    made available by Spotify
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://developer.spotify.com/policy
+  quote: you must clearly attribute the content as being supplied and made available by Spotify, by using
+    the Spotify Marks.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://developer.spotify.com/terms
+  quote: Do not locally cache any Spotify Content, except as strictly necessary to enhance the performance
+    of your SDA and its functionality
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://developer.spotify.com/terms
+  quote: Do not store Spotify Content indefinitely.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://developer.spotify.com/documentation/web-api/concepts/quota-modes
+  quote: Up to 5 authenticated Spotify users can use an app that is in development mode
+  checked_at: '2026-11-21'
+notes: Developer Policy (https://developer.spotify.com/policy; old beta URL redirects to developer.spotify.com/documentation/web-api).
+  A non-streaming app (metadata display) may sell advertising and e-commerce; streaming apps may not monetise.
+  Metadata/cover art must not be offered as a standalone product and must link back to Spotify. Policy
+  bans using Spotify Content to train ML/AI models. Policy does not address storing/caching Spotify Content
+  (only user personal data), so storage_caching unknown; the separate Developer Terms of Service and quota
+  rules (development mode limits, extended-quota review) were not read. Spotify requires per-app approval
+  for larger audiences; treat as a restricted, not open, data source.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Developer Terms (not read by first pass) restrict caching: only temporary caching
+  of metadata and cover art; Policy limits commercial use to non-streaming apps; dev-mode apps limited
+  to 5 users, extended quota needs a registered org with 250k MAU | applied: storage_caching=limited'

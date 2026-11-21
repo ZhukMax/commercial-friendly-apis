@@ -1,0 +1,37 @@
+id: lapis
+name: LAPIS
+url: https://cov-spectrum.ethz.ch/public
+category: Health
+description: SARS-CoV-2 genomic sequences from public sources
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: LAPIS
+  url: https://cov-spectrum.ethz.ch/public
+  category: Health
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://cov-spectrum.org/public
+api_terms_url: https://lapis.cov-spectrum.org/open/v2/docs/
+evidence:
+- field: data_license
+  url: https://cov-spectrum.org/about
+  quote: CoV-Spectrum uses data from INSDC (GenBank, ENA, and DDBJ) and Germany's RKI, ingested from Nextstrain.
+  checked_at: '2026-11-21'
+notes: Read LAPIS docs home, instance root and llms.txt, and cov-spectrum.org/about (via Playwright; SPA). The LAPIS software is open source and the 'open' instance serves INSDC (GenBank/ENA/DDBJ) and RKI
+  sequence data ingested from Nextstrain; GISAID data was removed on 23 Dec 2025. No terms of use or data licence statement for API users was found on any page read, so all terms fields stay unknown (the
+  evidence entry only records the data source). Upstream INSDC/RKI/Nextstrain terms not read. Redirect cov-spectrum.ethz.ch -> cov-spectrum.org is the same project.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

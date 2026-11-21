@@ -1,0 +1,26 @@
+id: opengraphr
+name: OpenGraphr
+url: https://opengraphr.com/docs/1.0/overview
+category: Development
+description: Really simple API to retrieve Open Graph data from an URL
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: OpenGraphr
+  url: https://opengraphr.com/docs/1.0/overview
+  category: Development
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://heine.familiedeelstra.com/

@@ -1,0 +1,50 @@
+id: sthan-io-ip-geolocation
+name: sthan.io IP Geolocation
+url: https://sthan.io/products/ip-geolocation
+category: Geocoding
+description: Look up the geographic location of any IPv4 or IPv6 address
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: sthan.io IP Geolocation
+  url: https://sthan.io/products/ip-geolocation
+  category: Geocoding
+link_status: alive
+data_license: unknown
+commercial_use: 'yes'
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: 'no'
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://sthan.io/home/terms
+commercial_use_scope: any
+rate_limits: 'IP Geolocation: 50,000 free requests/month; paid $4.50/mo for 100,000'
+evidence:
+- field: commercial_use
+  url: https://sthan.io/home/terms
+  quote: You may build the Services into your own products, including products you sell to your customers,
+    and you may resell access to the Services.
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://sthan.io/home/terms
+  quote: Use the Services to build a copy of our data
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://sthan.io/home/terms
+  quote: 50,000 free every month
+  checked_at: '2026-11-21'
+notes: 'Page read: sthan.io Terms of Service (effective Sept 25, 2026; /home/terms) and the product/pricing
+  pages. Terms allow building the Services into your own products and reselling access, on free or paid
+  plans, so commercial use is yes. They forbid querying in bulk to build your own address/location database;
+  nothing is said about storing or displaying individual results, the data sources/licences behind the
+  data, or attribution, so storage_caching, redistribution_display and attribution stay unknown (verdict
+  unknown). Free plan is limited to one account per person/org.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

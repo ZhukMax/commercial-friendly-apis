@@ -1,0 +1,76 @@
+id: acrelens
+name: AcreLens
+url: https://www.acrelens.com
+category: Open Data
+description: 'Land suitability scoring API for any US property: off-grid, rural, recreational, investment'
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: AcreLens
+  url: https://www.acrelens.com
+  category: Open Data
+link_status: alive
+data_license: proprietary reports (derived from public data + AI synthesis); third-party source attribution
+  retained
+commercial_use: 'yes'
+storage_caching: ambiguous
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: 'no'
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.acrelens.com/legal/terms
+commercial_use_scope: paid
+attribution_text: Retain attribution for cited third-party sources (NREL, USGS, FEMA, etc.) when redistributing
+  outputs
+share_alike: unknown
+rate_limits: 'Pay-as-you-go per report (Pro plan $49/mo: 150 reports/month, API included); free tier 3
+  reports/month without API'
+notes: Read /legal/terms (updated 2026-04-30), /pricing and home. API is paid (pay-as-you-go balance;
+  pricing page says API access on Pro and up), so effectively a paid service; the free tier has no API.
+  Outputs may be incorporated into your own products with source attribution kept; no reselling/redistributing
+  API access, no bulk scraping/mirroring for a competing product, no FCRA-type regulated decisions. Storage/caching
+  of outputs is not explicit (terms mention internal analysis and incorporation into products), so ambiguous.
+  Reports are partly AI-synthesised from USGS/NREL/FEMA/USDA/OSM/county GIS; those sources' licences (e.g.
+  OSM ODbL) not checked. docs.acrelens.com not read.
+evidence:
+- field: commercial_use
+  url: https://www.acrelens.com/legal/terms
+  quote: incorporate them into products or services you build, subject to the acceptable-use restrictions
+    in Section 5
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.acrelens.com/legal/terms
+  quote: incorporate them into products or services you build, subject to the acceptable-use restrictions
+    in Section 5
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.acrelens.com/legal/terms
+  quote: where Outputs cite a third-party data source (NREL, USGS, FEMA, etc.), retain the attribution
+    when redistributed.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.acrelens.com/legal/terms
+  quote: Use automated means to scrape, mirror, or replicate the AcreLens API in bulk for the purpose
+    of building a competing data product.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.acrelens.com/legal/terms
+  quote: The structured reports we return (the “Outputs”) are derived from public data and AI synthesis.
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://www.acrelens.com/legal/terms
+  quote: Resell, sublicense, or otherwise redistribute access to the API without a written commercial
+    agreement with AcreLens.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read /legal/terms s5 and s10: no commercial ban, only resale of API access and
+  bulk mirroring for competing product. Storage not explicit. Yellow stands (paid, attribution passthrough).'

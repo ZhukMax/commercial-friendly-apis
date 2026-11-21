@@ -1,0 +1,57 @@
+id: liquilens
+name: LiquiLens
+url: https://liquilens.in/developers/
+category: Finance
+description: Public-record bank and lender failure-risk evidence
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: LiquiLens
+  url: https://liquilens.in/developers/
+  category: Finance
+link_status: alive
+data_license: unknown
+commercial_use: paid-only
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://liquilens.in/terms/
+commercial_use_scope: free-tier
+rate_limits: Without key 60 req/min and 200/day; free key 120/min and 2,000/day
+notes: 'Terms page (liquilens.in/terms/) covers public site and public API endpoints: allowed for research
+  and evaluation; commercial feed is a separate product (ask). So a monetised site is not clearly covered:
+  ambiguous. Resale of raw feeds prohibited. Page also says reuse terms stay with each source (RBI/FDIC
+  filings etc.), and some deeper reads need a paid plan where all sources permit sale. Caching/storage
+  not addressed. Signed pilot or commercial agreement supersedes terms.'
+evidence:
+- field: commercial_use
+  url: https://liquilens.in/terms/
+  quote: You may read, link, quote with attribution, and call the public endpoints for research and evaluation.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://liquilens.in/terms/
+  quote: If you want a commercial feed, ask; that is what the product is.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://liquilens.in/terms/
+  quote: Do not hammer the endpoints, resell raw feeds, misrepresent outputs as ratings
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://liquilens.in/terms/
+  quote: You may read, link, quote with attribution, and call the public endpoints for research and evaluation.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Terms limit public endpoints to research and evaluation; A commercial feed is explicitly
+  a separate product to ask for; Monetised site is therefore not permitted by the free/public tier | applied:
+  commercial_use=paid-only'

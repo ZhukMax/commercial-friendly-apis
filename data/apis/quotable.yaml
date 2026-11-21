@@ -1,0 +1,29 @@
+id: quotable
+name: Quotable
+url: https://github.com/lukePeavey/quotable
+category: Development
+description: Random quotes with authors and tags
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Quotable
+  url: https://github.com/lukePeavey/quotable
+  category: Development
+- list: public-apis
+  name: Quotable Quotes
+  url: https://github.com/lukePeavey/quotable
+  category: Personality
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

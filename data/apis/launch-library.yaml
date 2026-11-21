@@ -1,0 +1,32 @@
+id: launch-library
+name: Launch Library
+url: https://launchlibrary.net/docs/1.3/api.html
+category: Science & Math
+description: Upcoming Space Launches
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-api-lists
+  name: Launch Library
+  url: https://launchlibrary.net/docs/1.3/api.html
+  category: Science & Math
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: launchlibrary.net redirects to thespacedevs.com, whose page says Launch Library 2 is the official successor of the original Launch Library API (v1.3 documented at the listed URL).
+evidence: []
+notes: 'Read thespacedevs.com home and /llapi pages plus the LL2 OpenAPI schema: data is free for up to 15 unauthenticated requests per hour, higher rates via Patreon API key; schema lists ''Apache License
+  2.0'' (applies to the API definition/software) and images carry per-image licences (single_use flag). No terms of service or data licence for commercial use was found (/terms 404). The listed v1.3 docs
+  are for the legacy API, replaced by LL2; terms of LL2 not assumed to apply to v1.3 beyond the successor statement. Left unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

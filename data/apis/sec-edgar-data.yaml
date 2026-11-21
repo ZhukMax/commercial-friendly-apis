@@ -1,0 +1,83 @@
+id: sec-edgar-data
+name: SEC EDGAR Data
+url: https://www.sec.gov/edgar/sec-api-documentation
+category: Finance
+description: API to access annual reports of public US companies
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: SEC EDGAR Data
+  url: https://www.sec.gov/edgar/sec-api-documentation
+  category: Finance
+link_status: alive
+data_license: public-domain (SEC states public information, copy without permission)
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'no'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: HTTP 403 (blocked for bots, assumed alive)
+data_license_url: https://www.sec.gov/about/privacy-information
+api_terms_url: https://www.sec.gov/search-filings/edgar-search-assistance/accessing-edgar-data
+commercial_use_scope: any
+attribution_text: Please consider appropriate citation to the SEC as the source.
+share_alike: 'no'
+rate_limits: Max 10 requests/second per user regardless of machines; must declare User-Agent header (e.g.
+  "Company Name AdminContact@domain.com"); no unclassified bots crawling; excess IPs may be blocked for
+  10 minutes
+notes: 'Required header: User-Agent with company name and contact email (plus Accept-Encoding gzip, deflate,
+  Host). Do not use SEC seal, EDGAR logo or "SEC" name to imply endorsement. SEC says information is public
+  and copyable without permission; individual filings may embed third-party content (not assessed). Fair-access
+  page /search-filings/edgar-search-assist/accessing-edgar-data returned 503 to curl, read via redirect
+  target /edgar-search-assistance/. bulk_download left unknown (not verified).'
+evidence:
+- field: commercial_use
+  url: https://www.sec.gov/about/privacy-information
+  quote: Information presented on sec.gov is considered public information and may be copied or further
+    distributed by users of the web site without the SEC’s permission.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.sec.gov/about/privacy-information
+  quote: Please consider appropriate citation to the SEC as the source.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://www.sec.gov/search-filings/edgar-search-assistance/accessing-edgar-data
+  quote: 'Current max request rate: 10 requests/second.'
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://www.sec.gov/search-filings/edgar-search-assistance/accessing-edgar-data
+  quote: Please declare your user agent in request headers
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.sec.gov/about/privacy-information
+  quote: Information presented on sec.gov is considered public information and may be copied or further
+    distributed by users of the web site without the SEC’s permission.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.sec.gov/about/privacy-information
+  quote: Information presented on sec.gov is considered public information and may be copied or further
+    distributed by users of the web site without the SEC’s permission.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.sec.gov/about/privacy-information
+  quote: Information presented on sec.gov is considered public information and may be copied or further
+    distributed by users of the web site without the SEC’s permission.
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://www.sec.gov/about/privacy-information
+  quote: Information presented on sec.gov is considered public information and may be copied or further
+    distributed by users of the web site without the SEC’s permission.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: SEC seal, logos, 'SEC'/EDGAR names must not be used; filings may embed third-party
+  content.

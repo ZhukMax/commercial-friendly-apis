@@ -1,0 +1,57 @@
+id: coinxview
+name: CoinXview
+url: https://coinxview.com/en/api-mien-phi
+category: Cryptocurrency
+description: Real-time crypto prices aggregated from 22 exchanges, OHLC, market stats, Fear & Greed
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: CoinXview
+  url: https://coinxview.com/en/api-mien-phi
+  category: Cryptocurrency
+link_status: redirect
+data_license: unknown
+commercial_use: 'yes'
+storage_caching: unknown
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://coinxview.com/free-crypto-api
+api_terms_url: https://coinxview.com/free-crypto-api
+commercial_use_scope: any
+attribution_text: 'Data: CoinXview (link to coinxview.com) wherever data is displayed'
+rate_limits: 60 requests/minute per IP; no key
+evidence:
+- field: commercial_use
+  url: https://coinxview.com/free-crypto-api
+  quote: 'All endpoints are free for personal and commercial use, as long as you show “Data: CoinXview”
+    with a link to coinxview.com.'
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://coinxview.com/free-crypto-api
+  quote: 'Attribution Required: show “Data: CoinXview” with a link to coinxview.com wherever you display
+    the data.'
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://coinxview.com/free-crypto-api
+  quote: 'Attribution Required: show “Data: CoinXview” with a link to coinxview.com wherever you display
+    the data.'
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://coinxview.com/free-crypto-api
+  quote: 60 requests per minute per IP.
+  checked_at: '2026-11-21'
+notes: url redirects (en/api-mien-phi -> /free-crypto-api, read). Page grants free commercial use with
+  attribution; "No reselling the raw data as your own API". Caching by user not addressed (server caches
+  30-300 s), so storage unknown. Separate Terms of use page not retrieved (/terms 404). Data aggregated
+  from 22 exchanges (upstream exchange terms may be stricter). Single marketing/docs page only, so confidence
+  low.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

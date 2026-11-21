@@ -1,0 +1,67 @@
+id: logokit
+name: LogoKit
+url: https://logokit.com
+category: Business
+description: Logo API for brands, stocks, and cryptocurrencies
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-api-lists
+  name: LogoKit
+  url: https://logokit.com
+  category: Business
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://logokit.com/terms
+commercial_use_scope: any
+cache_limit: Hotlink only; server-side caching only on Enterprise plan, refresh/delete within 30 days
+notes: Terms and conditions read (Useful Collective s.r.o.). Business users only; logos are trademarks
+  of rights holders provided for identification/informational purposes only, no endorsement implied, may
+  not be modified or shown more prominently than the user's own brand. Caching/server-side copies only
+  with an Enterprise subscription (30-day refresh); others must hotlink. Commercial use ambiguous because
+  of the identification-only wording.
+evidence:
+- field: commercial_use
+  url: https://logokit.com/terms
+  quote: The Company provides access to these Logo Assets for identification and informational purposes
+    only.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://logokit.com/terms
+  quote: Logo Assets must be displayed through direct hotlinking using the URLs provided by the Service
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://logokit.com/terms
+  quote: Cached Logo Assets must be refreshed from the Service or deleted within thirty (30) days of retrieval.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://logokit.com/terms
+  quote: The Service is designed to enable developers to integrate these Logo Assets into their applications,
+    websites, and services
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://logokit.com/pricing
+  quote: Attribution required
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://logokit.com/pricing
+  quote: Embed brand logos in production.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Pricing page marks the Free plan ''Attribution required''; no-attribution only from
+  paid Startup plan; Startup plan is the one described as ''Embed brand logos in production''; First pass
+  left attribution_required unknown | applied: attribution_required=yes'

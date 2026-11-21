@@ -1,0 +1,32 @@
+id: ufcalendar-fight-data
+name: UFCalendar Fight Data
+url: https://api.ufcalendar.com/docs
+category: Sports & Fitness
+description: UFC, PFL, OKTAGON, BKFC and RIZIN events, results, round stats, rankings history
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: UFCalendar Fight Data
+  url: https://api.ufcalendar.com/docs
+  category: Sports & Fitness
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://api.ufcalendar.com/docs
+evidence: []
+notes: API docs read (no key). No API terms of service or commercial-use / caching / display clause found (api.ufcalendar.com/terms is 404; the ufcalendar.com site terms only cover the website). Docs state
+  the service is an independent aggregator compiled from public sources, "not an official or rights-cleared feed", not licensed by UFC/Zuffa/TKO or any promotion, so upstream rights may be stricter.
+  Fighter images come from Wikimedia Commons and the licence/artist credit must be displayed. Free plan 100 requests/month; paid from $19/mo; pricing page not found.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

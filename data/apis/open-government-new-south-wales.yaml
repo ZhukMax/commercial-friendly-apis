@@ -1,0 +1,44 @@
+id: open-government-new-south-wales
+name: Open Government, New South Wales
+url: https://api.nsw.gov.au/
+category: Government
+description: New South Wales Government Open Data
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Open Government, New South Wales
+  url: https://api.nsw.gov.au/
+  category: Government
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://api.nsw.gov.au/Home/Terms
+evidence:
+- field: commercial_use
+  url: https://api.nsw.gov.au/Home/Terms
+  quote: Use of information from this service may be governed by terms and conditions stipulated by the
+    authority administering the licence or information.
+  checked_at: '2026-11-21'
+notes: Portal terms (api.nsw.gov.au/Home/Terms) say nothing about commercial use, caching or display;
+  they defer to the terms of each data owner/API (per-API licence varies). Portal terms also say access
+  can be revoked. No portal-wide data licence found on the pages read. Per-API terms must be checked before
+  use.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: yellow
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read api.nsw.gov.au/Home/Terms: ''Use of information from this service may be governed
+  by terms and conditions stipulated by the authority administering the licence or information.'' No blocker,
+  no resolution; per-API check needed.'
+license_scope: portal-default

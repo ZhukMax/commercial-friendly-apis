@@ -1,0 +1,76 @@
+id: exchangerate-host
+name: Exchangerate.host
+url: https://exchangerate.host
+category: Currency Exchange
+description: Foreign exchange & crypto rates API (keyless access ended 2023)
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Exchangerate.host
+  url: https://exchangerate.host?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers
+  category: Currency Exchange
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: ambiguous
+redistribution_display: ambiguous
+attribution_required: 'no'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://exchangerate.host/terms
+commercial_use_scope: paid
+attribution_text: Optional clickable link to https://exchangeratehost.com
+share_alike: unknown
+rate_limits: Per subscription plan; free plan advertised as 100 monthly requests
+evidence:
+- field: redistribution_display
+  url: https://exchangerate.host/terms
+  quote: You are hereby permitted to receive, process, and display exchangeratehost API Data & Services
+    to individual end-users of your application(s)
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://exchangerate.host/terms
+  quote: reproduce, copy, modify, distribute, market, display, transfer, sublicense, assign, prepare derivative
+    work(s)
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://exchangerate.host/terms
+  quote: You do not permit Your end users to store, distribute, or otherwise exploit exchangeratehost
+    API Data & Services for any other purposes.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://exchangerate.host/terms
+  quote: Your inclusion of a clickable hyperlink to the exchangeratehost API website at https://exchangeratehost.com
+    would be highly appreciated.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://exchangerate.host/terms
+  quote: You are hereby permitted to receive, process, and display exchangeratehost API Data & Services
+    to individual end-users of your application(s)
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://exchangerate.host/terms
+  quote: You are hereby permitted to receive, process, and display exchangeratehost API Data & Services
+    to individual end-users of your application(s)
+  checked_at: '2026-11-21'
+notes: Official terms at https://exchangerate.host/terms (service run by apilayer, Austria; the text names
+  exchangeratehost.com). Keyless access ended in 2023; an API key is required and limits depend on subscription
+  plan (home page advertises a free 100 requests/month plan). Terms grant a limited, revocable licence
+  to display data to end users 'for their own personal use' and 'for reference'; the restrictions list
+  contradictorily forbids to 'reproduce, copy ... display ... exploit' the data, forbids storing after
+  termination, and forbids end users storing/distributing it. No explicit ban or grant of commercial use
+  of the site. Internal conflict and vague wording = ambiguous; caching/storing rates in own DB appears
+  not permitted, so treat as display-only live proxying at best. Attribution is only 'highly appreciated'.
+  Consider ECB-based Frankfurter instead.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'storage_caching=no is not supported by the quote: it only restricts END USERS storing
+  data; Terms expressly permit processing and displaying data to end users of your app | applied: storage_caching=ambiguous'

@@ -1,0 +1,67 @@
+id: zippopotam-us
+name: Zippopotam.us
+url: http://www.zippopotam.us
+category: Geocoding
+description: Get information about place such as country, city, state, etc
+description_source: upstream
+auth: none
+https: false
+cors: unknown
+sources:
+- list: public-apis
+  name: Zippopotam.us
+  url: http://www.zippopotam.us
+  category: Geocoding
+- list: public-api-lists
+  name: Zippopotam
+  url: http://www.zippopotam.us
+  category: Geocoding
+link_status: alive
+data_license: ODbL-1.0 (database), DbCL-1.0 (contents)
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: http://opendatacommons.org/licenses/odbl/1.0/
+api_terms_url: https://zippopotam.us/
+commercial_use_scope: any
+share_alike: 'yes'
+evidence:
+- field: data_license
+  url: https://zippopotam.us/
+  quote: This Zippopotam.us API is made available under the Open Database License
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://zippopotam.us/
+  quote: Data adapted from the fine folks at geonames.org
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://opendatacommons.org/licenses/odbl/summary/
+  quote: 'To share : To copy, distribute and use the database.'
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://opendatacommons.org/licenses/odbl/summary/
+  quote: 'To share : To copy, distribute and use the database.'
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://opendatacommons.org/licenses/odbl/summary/
+  quote: 'To share : To copy, distribute and use the database.'
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://opendatacommons.org/licenses/odbl/summary/
+  quote: You must attribute any public use of the database, or works produced from the database
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://opendatacommons.org/licenses/odbl/summary/
+  quote: you must also offer that adapted database under the ODbL
+  checked_at: '2026-11-21'
+notes: The site (homepage www fetch returns empty; read https://zippopotam.us/) states the API is under ODbL, contents under DbCL, data adapted from GeoNames (itself CC BY 4.0 - upstream not checked). ODbL
+  permits commercial use, copying and display with attribution; share-alike applies to adapted databases. No separate API terms, rate limits or uptime guarantee stated; project says 'under new management'.
+  Verdict yellow due to share-alike.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

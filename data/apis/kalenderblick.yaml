@@ -1,0 +1,62 @@
+id: kalenderblick
+name: Kalenderblick
+url: https://kalenderblick.de/api/
+category: Calendar
+description: Public holidays and school holidays for Germany, Austria and Switzerland as static JSON
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Kalenderblick
+  url: https://kalenderblick.de/api/
+  category: Calendar
+link_status: alive
+data_license: 'custom permission: free incl. commercial use with credit "kalenderblick.de"'
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://kalenderblick.de/api/
+api_terms_url: https://kalenderblick.de/api/
+commercial_use_scope: any
+attribution_text: kalenderblick.de
+share_alike: unknown
+notes: 'API page FAQ (German): data may be used free of charge, also commercially, with credit ''kalenderblick.de'';
+  files are static JSON and can be cached (fetching once a day is enough). Public holidays are computed
+  from holiday laws; school holidays come from the Kultusministerkonferenz overview (upstream terms not
+  assessed). No separate terms/licence page found (404 on /lizenz, /nutzungsbedingungen); only Impressum
+  and Datenschutz exist.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+evidence:
+- field: commercial_use
+  url: https://kalenderblick.de/api/
+  quote: Ja, kostenlos, auch gewerblich, mit Quellenangabe „kalenderblick.de“.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://kalenderblick.de/api/
+  quote: Ja, kostenlos, auch gewerblich, mit Quellenangabe „kalenderblick.de“.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://kalenderblick.de/api/
+  quote: sie ist klein und lässt sich zwischenspeichern
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://kalenderblick.de/api/
+  quote: Ohne Schlüssel, ohne Anmeldung, mit Quellenangabe frei nutzbar.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://kalenderblick.de/api/
+  quote: Ja, kostenlos, auch gewerblich, mit Quellenangabe „kalenderblick.de“.
+  checked_at: '2026-11-21'
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Only a FAQ sentence, no formal licence page. School holidays come from KMK overview
+  (upstream terms not read; dates are facts). 'Keine Gewahr' disclaimer.

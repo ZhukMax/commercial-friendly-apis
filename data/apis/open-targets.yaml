@@ -1,0 +1,85 @@
+id: open-targets
+name: Open Targets
+url: https://platform-docs.opentargets.org/
+category: Health
+description: Gene-disease-drug target associations
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Open Targets
+  url: https://platform-docs.opentargets.org/
+  category: Health
+link_status: alive
+data_license: CC0-1.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: ambiguous
+attribution_required: ambiguous
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+commercial_use_scope: any
+share_alike: 'no'
+data_license_url: https://platform-docs.opentargets.org/licence
+api_terms_url: https://platform-docs.opentargets.org/licence
+notes: 'Licence page read: Platform data is marked CC0 1.0, code Apache-2.0; citing the publication is
+  requested, not required. Aggregator: the page lists upstream licences (e.g. ChEMBL CC BY-SA 3.0, EMBL-EBI
+  terms of use, Cancer Gene Census and PanelApp ''Commercial use for Open Targets'') and states all listed
+  sources agreed to unrestricted use by Open Targets users; stricter upstream terms might still apply
+  to onward redistribution. The /terms-of-use page returned 404 to curl. API (GraphQL) endpoint and rate
+  limits not verified.'
+evidence:
+- field: commercial_use
+  url: https://platform-docs.opentargets.org/licence
+  quote: This dedicates the data to the public domain, allowing downstream users to consume the data without
+    restriction.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://platform-docs.opentargets.org/licence
+  quote: This dedicates the data to the public domain, allowing downstream users to consume the data without
+    restriction.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://platform-docs.opentargets.org/licence
+  quote: This dedicates the data to the public domain, allowing downstream users to consume the data without
+    restriction.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://platform-docs.opentargets.org/licence
+  quote: This dedicates the data to the public domain, allowing downstream users to consume the data without
+    restriction.
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://platform-docs.opentargets.org/licence
+  quote: This dedicates the data to the public domain, allowing downstream users to consume the data without
+    restriction.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://platform-docs.opentargets.org/licence
+  quote: If you use our code and/or our data, please cite our latest publication.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://platform-docs.opentargets.org/licence
+  quote: ChEMBL CC BY-SA 3.0
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://platform-docs.opentargets.org/licence
+  quote: Cancer Gene Census Commercial use for Open Targets
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://platform-docs.opentargets.org/licence
+  quote: Europe PMC CC-BY, CC-BY-NC or CC0 license or open access (depending on publication licenses)
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Upstream sources carry attribution, share-alike and even non-commercial licences,
+  stricter than the CC0 label; Several sources licensed only as ''Commercial use for Open Targets''; Page
+  claims sources agreed to unrestricted use, but redistribution of ChEMBL/HPA content under CC0 is unverified
+  | applied: attribution_required=ambiguous, redistribution_display=ambiguous'

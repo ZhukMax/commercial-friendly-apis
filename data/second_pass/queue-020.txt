@@ -1,0 +1,15 @@
+votepredictor
+w-system-eu-business-data
+wallstreetbets
+watercare-igc-nz
+wealthnow
+weatherbit
+weatherstack
+website-and-web-app-cost-data
+what3words
+windsock
+world-time-and-weather
+worms
+xfinlab
+yandex-maps-geocoder
+zipcodeapi

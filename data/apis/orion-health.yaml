@@ -1,0 +1,42 @@
+id: orion-health
+name: Orion Health
+url: https://developer.orionhealth.io/
+category: Health
+description: Medical platform which allows the development of applications for different healthcare scenarios
+description_source: upstream
+auth: OAuth
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Orion Health
+  url: https://developer.orionhealth.io/
+  category: Health
+link_status: alive
+data_license: unknown
+commercial_use: 'no'
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://developer.orionhealth.io/knowledge-hub/terms/
+data_license_url: https://developer.orionhealth.io/knowledge-hub/terms/
+commercial_use_scope: any
+evidence:
+- field: commercial_use
+  url: https://developer.orionhealth.io/knowledge-hub/terms/
+  quote: use the Developer Portal, the DP Content, these Terms, and any content of any of the foregoing
+    for any commercial or monetary purpose whatsoever
+  checked_at: '2026-11-21'
+notes: 'Not an open data API: Orion Health''s developer portal exposes healthcare-platform APIs, tried
+  via sandboxes after contacting Orion. Its Terms and Conditions (for the portal as available on the website,
+  ''not sandbox platform''), cover the APIs, docs and DP Content and bar any commercial or monetary use
+  without prior written consent. Storage, display and attribution terms are not specified. Platform/production
+  API terms are contractual and were not available. The clause begins ''except with our prior written
+  consent''.'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

@@ -1,0 +1,59 @@
+id: is-it-safe-to-travel
+name: Is It Safe to Travel
+url: https://isitsafetotravel.org/en/api/
+category: Open Data
+description: Daily travel-safety scores and 5 risk pillars for 248 countries, from gov advisories and indices
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: Is It Safe to Travel
+  url: https://isitsafetotravel.org/en/api/
+  category: Open Data
+link_status: alive
+verdict: red
+confidence: high
+link_checked_at: '2026-11-21'
+notes: Read the API page. All data is CC BY-NC 4.0 (non-commercial only), so a site with ads or affiliate links is out; no commercial licence option was found on the page. Free, keyless, daily snapshot.
+  The display field reflects the NC licence allowing sharing for non-commercial use.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+data_license: CC-BY-NC-4.0
+data_license_url: https://isitsafetotravel.org/en/api/
+api_terms_url: https://isitsafetotravel.org/en/api/
+commercial_use: 'no'
+commercial_use_scope: any
+storage_caching: unknown
+redistribution_display: 'yes'
+attribution_required: 'yes'
+attribution_text: Credit "IsItSafeToTravel.org" with a link
+rate_limits: No registration, no request limits
+bulk_download: 'yes'
+self_host_option: unknown
+evidence:
+- field: data_license
+  url: https://isitsafetotravel.org/en/api/
+  quote: 'All data is licensed under Creative Commons BY-NC 4.0: free to use, share, and adapt for non-commercial purposes.'
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://isitsafetotravel.org/en/api/
+  quote: 'All data is licensed under Creative Commons BY-NC 4.0: free to use, share, and adapt for non-commercial purposes.'
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://isitsafetotravel.org/en/api/
+  quote: 'All data is licensed under Creative Commons BY-NC 4.0: free to use, share, and adapt for non-commercial purposes.'
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://isitsafetotravel.org/en/api/
+  quote: Please credit "IsItSafeToTravel.org" with a link when you use the data.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://isitsafetotravel.org/en/api/
+  quote: no registration, no request limits
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://isitsafetotravel.org/en/api/
+  quote: 'Full daily dataset: all 248 countries'
+  checked_at: '2026-11-21'

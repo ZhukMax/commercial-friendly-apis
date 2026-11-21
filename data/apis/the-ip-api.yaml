@@ -1,0 +1,54 @@
+id: the-ip-api
+name: The IP API
+url: https://theipapi.com
+category: Geocoding
+description: IP to Location API, with data about country, region, city etc
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-api-lists
+  name: The IP API
+  url: https://theipapi.com
+  category: Geocoding
+link_status: alive
+data_license: unknown
+commercial_use: 'yes'
+storage_caching: ambiguous
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://theipapi.com/terms-of-service
+commercial_use_scope: any
+rate_limits: 'Free plan: 1,000 requests per day; paid plans 600,000 to 15,000,000 requests/month'
+evidence:
+- field: commercial_use
+  url: https://theipapi.com/faq
+  quote: Yes. All our plans allow for commercial use
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://theipapi.com/terms-of-service
+  quote: Use the Service to query all possible IP addresses with the sole purpose of storing the returned
+    data in a database or similar repository.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://theipapi.com/faq
+  quote: The IP API offers a free plan with 1,000 requests per day, no card required.
+  checked_at: '2026-11-21'
+notes: 'Pages read: Terms of Service (effective Dec 28, 2024), FAQ, pricing. FAQ and pricing say all plans,
+  including the free one, allow commercial use. The ToS prohibits sweeping all IPs to store the returned
+  data in a database, but says nothing about storing individual lookup results or displaying them, and
+  does not name the data source or require attribution, so storage is ambiguous and display unknown (verdict
+  unknown). A key is required.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read ToS (effective 2024-12-28), FAQ, pricing, privacy and docs. Nothing found that
+  forbids storing or displaying individual lookups; no source/attribution statement. Verdict unknown stays
+  because display/attribution are unconfirmed.

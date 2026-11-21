@@ -1,0 +1,69 @@
+id: core
+name: CORE
+url: https://core.ac.uk/services
+category: Science & Math
+description: Access the world's Open Access research papers
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: CORE
+  url: https://core.ac.uk/services#api
+  category: Science & Math
+- list: public-api-lists
+  name: CORE
+  url: https://core.ac.uk/services#api
+  category: Science & Math
+link_status: alive
+data_license: ODC-By for selected datasets; other datasets and the API need a CORE licence
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: 'yes'
+bulk_download: 'yes'
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://core.ac.uk/terms
+api_terms_url: https://core.ac.uk/terms
+commercial_use_scope: any
+share_alike: unknown
+rate_limits: One batch request or five single requests per 10 seconds (unregistered); registered users
+  get a faster rate (typically not free)
+evidence:
+- field: commercial_use
+  url: https://core.ac.uk/terms
+  quote: 'if you are developing or intending to develop a product, service or software using CORE data
+    which: might be monetised now or in the future'
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://core.ac.uk/terms
+  quote: You can use these datasets for any commercial or non-commercial purposes in line with the ODC-By
+    licence.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://core.ac.uk/terms
+  quote: You need to acknowledge the use of CORE as described .
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://core.ac.uk/terms
+  quote: downloadable access to CORE Datasets can only be provided to users representing organisations
+    registered in non-sanctioned countries
+  checked_at: '2026-11-21'
+notes: 'Terms page read (core.ac.uk/terms) plus /services/api. Only the ODC-By datasets are clearly open
+  for commercial use. The API and other datasets need a licence: free for individuals/public research
+  organisations in non-monetised use; anyone building something that might be monetised must contact CORE,
+  so a commercial ad/affiliate site is negotiated, not self-serve (ambiguous). CORE says it does not own
+  the underlying papers (aggregator of repositories; rights stay with original rightsholders; licence
+  info is often not machine-readable) and forbids unauthorised scraping. Terms also say CORE is reviewing
+  its data-licensing framework. Storage/display left unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Resolved direction: commercial use is possible but only via a CORE licence (effectively
+  paid/negotiated, registered organisations get a faster rate that is typically not free). Only ODC-By
+  datasets are self-serve commercial. Ambiguous stands (leans paid-only/negotiated); storage/display unknown.'

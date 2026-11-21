@@ -1,0 +1,62 @@
+id: codecogs
+name: CodeCogs
+url: https://fxeditor.codecogs.com/docs/1-fxtexserver_api.php
+category: Science & Math
+description: Render LaTeX equations in PNG, GIF, SVG, EMF, PDF, JSON, or download formats with styling options
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: CodeCogs
+  url: https://editor.codecogs.com/docs/4-LaTeX_rendering.php
+  category: Science & Math
+link_status: redirect
+data_license: Tool licence (proprietary); generated equations are free for any use
+commercial_use: paid-only
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'no'
+bulk_download: unknown
+self_host_option: 'yes'
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: -> https://fxeditor.codecogs.com/docs/1-fxtexserver_api.php
+data_license_url: https://fxeditor.codecogs.com/docs/0-licensing.php
+api_terms_url: https://fxeditor.codecogs.com/docs/0-licensing.php
+commercial_use_scope: paid
+share_alike: unknown
+rate_limits: Free for light use, subject to Fair Usage Policy; allowances rise with licence tier
+evidence:
+- field: commercial_use
+  url: https://fxeditor.codecogs.com/docs/0-licensing.php
+  quote: fxTeX Server (formerly LaTeXRender) Free for light use * Licence required
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://fxeditor.codecogs.com/docs/0-licensing.php
+  quote: 'Equations you generate are yours either way: we claim no rights in them, and they can be used for any purpose, anywhere'
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://fxeditor.codecogs.com/docs/0-licensing.php
+  quote: 'Equations you generate are yours either way: we claim no rights in them, and they can be used for any purpose, anywhere'
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://fxeditor.codecogs.com/docs/0-licensing.php
+  quote: no obligation to attribute — subject only to the terms of the licence itself
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://fxeditor.codecogs.com/docs/0-licensing.php
+  quote: The licence covers the tools , not their output.
+  checked_at: '2026-11-21'
+- field: self_host_option
+  url: https://fxeditor.codecogs.com/docs/0-licensing.php
+  quote: fxTeX Server (self-hosted) Licence required Licence required
+  checked_at: '2026-11-21'
+notes: 'Listed URL redirects to fxeditor.codecogs.com (same CodeCogs fxTeX Server; latex.codecogs.com still works per the licensing page). Licensing page: hosted fxTeX Server is free for light non-commercial
+  use; commercial use needs a licence (Essential from about GBP 30/year per the page text for the editor; server allowances per tier). Rendered equations are the user''s with no rights claimed, so output
+  is free to store/display; the paid part is the service. The licensing page is a summary: binding documents are the licence agreement, Terms of Use and Fair Usage Policy (terms/fair-usage pages fetched
+  but only footer text was extractable, so not quoted). ''No obligation to attribute'' is stated for commercial licences. self_host_option: self-hosted server also needs a licence.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

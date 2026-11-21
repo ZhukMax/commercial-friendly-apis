@@ -1,0 +1,36 @@
+id: railworks
+name: Railworks
+url: https://railworks.paddez.com/docs
+category: Transportation
+description: 'Irish Rail planned engineering works: affected stations, DART closures, change log and ICS feeds'
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Railworks
+  url: https://railworks.paddez.com/docs
+  category: Transportation
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+rate_limits: Poll no more than every 15 minutes
+evidence:
+- field: rate_limits
+  url: https://railworks.paddez.com/docs
+  quote: 'Please poll no more than every 15 minutes: the page itself changes a few times a week.'
+  checked_at: '2026-11-21'
+notes: 'Read the API docs. Railworks is an unofficial service that scrapes and restructures Iarnród Éireann''s planned engineering works page every 6 hours ("not affiliated with or endorsed by
+  Iarnród Éireann"). The docs state no licence, commercial-use, storage or attribution terms for the data itself (calendar events end with a "Source: Iarnród Éireann" line); the upstream owner''s
+  terms apply and were not read. All terms unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

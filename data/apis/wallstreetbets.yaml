@@ -1,0 +1,61 @@
+id: wallstreetbets
+name: WallstreetBets
+url: https://dashboard.nbshare.io/apps/reddit/api/
+category: Finance
+description: WallstreetBets Stock Comments Sentiment Analysis
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: WallstreetBets
+  url: https://dashboard.nbshare.io/apps/reddit/api/
+  category: Finance
+link_status: redirect
+data_license: unknown
+commercial_use: 'yes'
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: -> https://tradestie.com/apps/reddit/api/
+api_terms_url: https://tradestie.com/apps/reddit/api/
+commercial_use_scope: any
+attribution_text: Credit Tradestie with a link to tradestie.com
+rate_limits: Anonymous 20 req/min per IP; registered free key 200 req/min
+evidence:
+- field: commercial_use
+  url: https://tradestie.com/apps/reddit/api/
+  quote: 'Commercial Use Permitted: Allowed (including ad-supported apps) when crediting Tradestie with
+    a link to tradestie.com and not reselling the raw feed standalone.'
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://tradestie.com/apps/reddit/api/
+  quote: 'Commercial Use Permitted: Allowed (including ad-supported apps) when crediting Tradestie with
+    a link to tradestie.com and not reselling the raw feed standalone.'
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://tradestie.com/apps/reddit/api/
+  quote: 'Anonymous: 20 requests/min per IP.'
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://tradestie.com/terms-of-service/
+  quote: You may not copy, modify, or distribute any part of the Service without our express written permission.
+  checked_at: '2026-11-21'
+notes: Original URL (dashboard.nbshare.io) redirects to tradestie.com; the target page is the same Reddit/WallStreetBets
+  sentiment API, so its terms were used. The API page explicitly allows commercial use incl. ad-supported
+  apps with a link credit, but not reselling the raw feed standalone. The general Terms of Service (read)
+  say users may not copy or distribute any part of the Service and may not scrape; this conflicts with/qualifies
+  the API-page permission, so display is ambiguous. Storage/caching not addressed (unknown). Data derives
+  from Reddit comments; Reddit terms not checked and may be stricter.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read tradestie API page and ToS. Specific grant likely prevails over generic ToS,
+  but not stated. Verdict unknown stands.

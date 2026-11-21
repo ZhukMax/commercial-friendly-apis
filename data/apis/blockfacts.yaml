@@ -1,0 +1,26 @@
+id: blockfacts
+name: BlockFacts
+url: https://blockfacts.io/
+category: Cryptocurrency
+description: Real-time crypto data from multiple exchanges via a single unified API, and much more
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-api-lists
+  name: BlockFacts
+  url: https://blockfacts.io/
+  category: Cryptocurrency
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: ConnectError

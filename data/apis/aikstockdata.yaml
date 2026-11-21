@@ -1,0 +1,54 @@
+id: aikstockdata
+name: aikstockdata
+url: https://aikstockdata.com/en/api
+category: Finance
+description: KOSPI/KOSDAQ/KONEX daily settled closes, DART filings with receipt times, quarterly earnings
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: aikstockdata
+  url: https://aikstockdata.com/en/api
+  category: Finance
+link_status: alive
+data_license: aiksd-public-1.1 (non-commercial with attribution; upstream KOGL Type 4)
+commercial_use: 'no'
+storage_caching: unknown
+redistribution_display: 'no'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: high
+link_checked_at: '2026-11-21'
+api_terms_url: https://aikstockdata.com/en/api
+commercial_use_scope: any
+attribution_text: 'Source: aikstockdata (aikstockdata.com) - original data: FSS DART, FSC open data portal, Republic of Korea'
+share_alike: unknown
+evidence:
+- field: commercial_use
+  url: https://aikstockdata.com/en/api
+  quote: Data published here (/data/public/*) may be quoted and used for non-commercial purposes with attribution.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://aikstockdata.com/en/api
+  quote: Commercial redistribution is not permitted in any form.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://aikstockdata.com/en/api
+  quote: Data published here (/data/public/*) may be quoted and used for non-commercial purposes with attribution.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://aikstockdata.com/en/api
+  quote: 'Licence: aiksd-public-1.1 .'
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://aikstockdata.com/en/api
+  quote: 'also subject to that source''s licence (KOGL Type 4: attribution, non-commercial, no derivatives)'
+  checked_at: '2026-11-21'
+notes: Static JSON files, no key. Page states the data may be used only for non-commercial purposes with attribution; a site with ads/affiliate links is commercial, so red. Upstream (FSC portal) is itself
+  KOGL Type 4 non-commercial. Caching/storage not addressed separately (unknown). Read via curl on the /en/api page; no separate terms page found (/en/terms is 404).
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

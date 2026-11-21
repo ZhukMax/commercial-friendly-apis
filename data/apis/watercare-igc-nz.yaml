@@ -1,0 +1,61 @@
+id: watercare-igc-nz
+name: Watercare IGC (NZ)
+url: https://devstack.co.nz/calculators/watercare-icg
+category: Government
+description: Auckland water and wastewater Infrastructure Growth Charge calculations
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: Watercare IGC (NZ)
+  url: https://devstack.co.nz/calculators/watercare-icg
+  category: Government
+link_status: redirect
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://devstack.co.nz/calculators/watercare-igc
+data_license_url: https://devstack.co.nz/terms
+api_terms_url: https://devstack.co.nz/terms
+commercial_use_scope: any
+attribution_text: Attribute to DevStack and link the page url
+share_alike: unknown
+rate_limits: No rate limit stated for the read endpoints (agents page)
+evidence:
+- field: commercial_use
+  url: https://devstack.co.nz/terms
+  quote: You can read, link to and reference DevStack pages freely for non-commercial use.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://devstack.co.nz/terms
+  quote: If you want to republish or syndicate content, ask first.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://devstack.co.nz/agents
+  quote: Everything below is free, CORS-open, and yours to read and cite with attribution.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://devstack.co.nz/agents
+  quote: Everything below is free, CORS-open, and yours to read and cite with attribution.
+  checked_at: '2026-11-21'
+notes: 'Conflicting wording: DevStack Terms of Service (25 May 2026) allow free use of pages for non-commercial
+  use and say to ask before republishing/syndicating; the "For AI agents" page says everything, incl.
+  the /api/igc endpoint, is free, CORS-open and "yours to read and cite with attribution". No explicit
+  commercial-use or caching clause. The numbers are Watercare Ltd''s published IGC price schedule recomputed
+  by DevStack; Watercare''s own terms for its prices were not read. Calculator page URL redirects to /calculators/watercare-igc.
+  Pages read via curl.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Read terms, /agents, GitHub org repos and README. Evidence leans to permissive for
+  the API endpoint but no explicit commercial clause; ambiguous/yellow stands.

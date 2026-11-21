@@ -1,0 +1,36 @@
+id: city-new-york-open-data
+name: City, New York Open Data
+url: https://opendata.cityofnewyork.us/
+category: Government
+description: New York (US) City Open Data
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: City, New York Open Data
+  url: https://opendata.cityofnewyork.us/
+  category: Government
+- list: public-api-lists
+  name: City, New York City Opendata
+  url: https://opendata.cityofnewyork.us/
+  category: Government
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: HTTP 403 (blocked for bots, assumed alive)
+api_terms_url: https://www.nyc.gov/main/terms-of-use
+notes: 'portal opendata.cityofnewyork.us returns 403 to curl and redirects to nyc.gov/opendata. Read nyc.gov Terms of Use and the Open Data FAQ/what-is pages: they state general NYC.gov rights reservation
+  but no dataset licence or commercial-reuse terms; the Socrata portal Terms of Use for datasets could not be located. All terms left unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+share_alike: unknown

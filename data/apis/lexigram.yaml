@@ -1,0 +1,31 @@
+id: lexigram
+name: Lexigram
+url: https://docs.lexigram.io/
+category: Health
+description: NLP that extracts mentions of clinical concepts from text, gives access to clinical ontology
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Lexigram
+  url: https://docs.lexigram.io/
+  category: Health
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://docs.lexigram.io/
+notes: docs.lexigram.io (read with Playwright) is API documentation only (NLP entity extraction, API key
+  from app.lexigram.io); it has no terms or licence. app.lexigram.io timed out. No terms found, all fields
+  unknown. This is an NLP service for the customer's own text, not a data feed.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

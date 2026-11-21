@@ -1,0 +1,67 @@
+id: covid-19-jhu-csse
+name: Covid-19 JHU CSSE
+url: https://nuttaphat.com/covid19-api/
+category: Health
+description: Open-source API for exploring Covid19 cases based on JHU CSSE
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Covid-19 JHU CSSE
+  url: https://nuttaphat.com/covid19-api/
+  category: Health
+link_status: alive
+data_license: CC-BY-4.0 (upstream JHU CSSE data); API code MIT
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: 'yes'
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+commercial_use_scope: self-hosted
+share_alike: 'no'
+data_license_url: https://github.com/CSSEGISandData/COVID-19
+api_terms_url: https://nuttaphat.com/covid19-api/
+attribution_text: COVID-19 Data Repository by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (https://github.com/CSSEGISandData/COVID-19)
+verdict_override: yellow
+override_reason: The project's example hosted instances are offline (covid19api.azurewebsites.net no response, covid2019-api.herokuapp.com 404); usable only by self-hosting the MIT code with JHU CC BY 4.0
+  data.
+notes: 'The listed URL is the docs site of an open-source FastAPI project (code MIT, per its LICENCE file); it is not a hosted service. Docs say the data is based on JHU CSSE; JHU README Terms of Use: CC
+  BY 4.0 with required attribution wording. The two example instances listed in the docs did not respond in this session. The nuttaphat docs themselves state no data terms, so the JHU repo terms are applied
+  because the docs say the API is based on that data. Data is a 2020-era snapshot dataset.'
+evidence:
+- field: data_license
+  url: https://github.com/CSSEGISandData/COVID-19
+  quote: This data set is licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0) by the Johns Hopkins University
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://github.com/CSSEGISandData/COVID-19
+  quote: Attribute the data as the "COVID-19 Data Repository by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University"
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: self_host_option
+  url: https://nuttaphat.com/covid19-api/
+  quote: How to install (Docker-compose)
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

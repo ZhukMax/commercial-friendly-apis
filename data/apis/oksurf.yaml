@@ -1,0 +1,51 @@
+id: oksurf
+name: OkSurf
+url: https://ok.surf/
+category: News
+description: Free Google News with OG Images
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: OkSurf
+  url: https://ok.surf/
+  category: News
+link_status: alive
+data_license: proprietary (OkSurf terms; content is third-party Google News items)
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://ok.surf/
+evidence:
+- field: redistribution_display
+  url: https://ok.surf/
+  quote: use the service to reproduce or republish copyrighted material
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://ok.surf/
+  quote: Data accessible through OkSurf may contain third party content (such as text, images, videos).
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://ok.surf/
+  quote: This content will remain the sole responsibility of those who make it available.
+  checked_at: '2026-11-21'
+notes: 'Terms are on the homepage (ok.surf, Terms & Conditions section; no separate terms page). The API
+  is free with no signup, but the terms say nothing about commercial use, caching or attribution: commercial_use
+  stays unknown. They forbid using the service to reproduce or republish copyrighted material and state
+  data may contain third-party content (headline, link, og:image, source) which stays the responsibility
+  of the owners. The data is scraped Google News: Google News and the publishers may impose stricter terms
+  (not assessed). So redistribution_display=ambiguous.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read ok.surf terms: no commercial-use, caching or attribution clause; content is
+  third-party Google News (publishers'' rights). unknown/ambiguous stands, verdict unknown.'

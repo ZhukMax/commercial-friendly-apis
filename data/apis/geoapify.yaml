@@ -1,0 +1,71 @@
+id: geoapify
+name: Geoapify
+url: https://www.geoapify.com/api/geocoding-api/
+category: Geocoding
+description: Forward and reverse geocoding, address autocomplete
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Geoapify
+  url: https://www.geoapify.com/api/geocoding-api/
+  category: Geocoding
+link_status: redirect
+data_license: Open data (OpenStreetMap and others; per-source licences apply)
+commercial_use: ambiguous
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: -> https://www.geoapify.com/maps-api/
+api_terms_url: https://www.geoapify.com/terms-and-conditions/
+commercial_use_scope: any
+attribution_text: OpenStreetMap attribution always; on the Free plan also "Powered by Geoapify" follow-link
+  near the map/data
+share_alike: unknown
+notes: 'Pricing FAQ says the Free plan may be used for commercial sites in production within quota; the
+  ToS says commercial use of the Free package is allowed in development and ''with some limitations''
+  in production (contact us), a mild mismatch. Geocoding FAQ: results may be stored without restriction
+  if source attributions are kept. Data is OSM-based (ODbL), so share-alike obligations of the underlying
+  data were not assessed (share_alike unknown). Redirect target of listed URL is the Maps API page.'
+evidence:
+- field: commercial_use
+  url: https://www.geoapify.com/pricing/
+  quote: You can use the Free plan for commercial websites, apps, and business projects, including in
+    production.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.geoapify.com/geocoding-api/
+  quote: Store address and location data on your side without restrictions or additional costs.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.geoapify.com/pricing/
+  quote: You can use the Free plan for commercial websites, apps, and business projects, including in
+    production.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.geoapify.com/terms-and-conditions/
+  quote: Geoapify attribution is mandatory when using Free subscription plan.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.geoapify.com/geocoding-api/
+  quote: Our services are based on Open Data.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.geoapify.com/terms-and-conditions/
+  quote: The commercial use of the Free -package is allowed in the development and, with some limitations,
+    in the production phase.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'ToS limits Free package commercial use in production (''with some limitations''),
+  contradicting pricing FAQ; Data is OpenStreetMap-based (ODbL): attribution mandatory and storage must
+  keep attributions; share-alike unassessed | applied: commercial_use=ambiguous'

@@ -1,0 +1,60 @@
+id: biz-collect
+name: biz collect
+url: https://bizcollect.dev
+category: Business
+description: Business contact data from a location and keywords, including emails
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-api-lists
+  name: biz collect
+  url: https://bizcollect.dev
+  category: Business
+link_status: alive
+data_license: proprietary
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://bizcollect.dev/legal/terms
+rate_limits: 200 signup credits (free key); quotas not otherwise read
+evidence:
+- field: data_license
+  url: https://bizcollect.dev/legal/terms
+  quote: The Service, including all software, documentation, branding, and the underlying data structures,
+    is the intellectual property of biz collect.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://bizcollect.dev/legal/acceptable-use
+  quote: Integrating business-listing data into your own sales tools, CRMs, dashboards, or LLM-powered
+    agents.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://bizcollect.dev/legal/acceptable-use
+  quote: Building internal tools that surface publicly listed business information to authenticated users
+    of your own product.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://bizcollect.dev/legal/acceptable-use
+  quote: To resell, redistribute, or relicense raw API output as a competing data product or as a substitute
+    for the Service.
+  checked_at: '2026-11-21'
+notes: 'Read Terms of Service and Acceptable Use Policy. B2B lead-data API: allowed uses are internal
+  sales tools/CRMs/dashboards and surfacing listings to authenticated users of your own product; reselling/redistributing
+  raw output and training on bulk output are prohibited, and spam/outreach to natural persons is restricted.
+  Publishing the data on public ad-supported pages is not covered, so commercial_use and display are ambiguous;
+  storage unknown. Data is scraped from public listings (e.g. maps directories), so upstream platform
+  terms may be stricter. Free key gives 200 signup credits.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read ToS and AUP (2026-11-21): no commercial grant and no ban; resale/redistribution
+  of raw output prohibited. Ambiguity stands, evidence leans restrictive for public display.'

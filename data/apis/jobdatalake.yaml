@@ -1,0 +1,31 @@
+id: jobdatalake
+name: JobDataLake
+url: https://www.jobdatalake.com/docs
+category: Jobs
+description: 1M+ enriched job listings from 20,000+ companies with salary, skills, seniority
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: JobDataLake
+  url: https://www.jobdatalake.com/docs
+  category: Jobs
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.jobdatalake.com/terms
+notes: 'Read https://www.jobdatalake.com/terms (May 28 2026) and API docs. Terms do not address commercial use, caching/storage, display or attribution. Only restrictions: no reselling raw API responses
+  without adding substantial value, no scraping/reproducing/redistributing the complete dataset. Data is AI-enriched postings from public company career pages (upstream terms may be stricter). All core
+  fields unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

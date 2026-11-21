@@ -1,0 +1,64 @@
+id: duceus
+name: Duceus
+url: https://duceusapi.com/docs
+category: Finance
+description: Insider (PDMR) trades and major shareholdings from EU, EEA and UK registers, in one schema
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Duceus
+  url: https://duceusapi.com/docs
+  category: Finance
+link_status: alive
+data_license: proprietary; subscription licence over public regulatory disclosures (MAR / Transparency
+  Directive)
+commercial_use: 'yes'
+storage_caching: ambiguous
+redistribution_display: 'yes'
+attribution_required: ambiguous
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://duceusapi.com/terms
+commercial_use_scope: any
+evidence:
+- field: commercial_use
+  url: https://duceusapi.com/terms
+  quote: You may use the data in your own products, research and publications, including commercial ones
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://duceusapi.com/terms
+  quote: You may use the data in your own products, research and publications, including commercial ones
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://duceusapi.com/terms
+  quote: with attribution to the original regulatory source where that source requires it
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://duceusapi.com/terms
+  quote: non-exclusive, non-transferable licence to access and use the data for the duration of your subscription
+  checked_at: '2026-11-21'
+- field: redistribution_limits
+  url: https://duceusapi.com/terms
+  quote: resell or redistribute the API or bulk data as a competing data feed without our written agreement
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://duceusapi.com/terms
+  quote: You may use the data in your own products, research and publications, including commercial ones
+  checked_at: '2026-11-21'
+notes: 'ToS (updated 4 Oct 2026): commercial use in own products and publications allowed; no resale/redistribution
+  of the API or bulk data as a competing feed. The licence runs "for the duration of your subscription",
+  so keeping stored data afterwards is unclear (storage ambiguous). Attribution is owed to the original
+  regulator where that source requires it (national registers not checked individually). Data covered
+  depends on plan; free plan exists. Upstream registers (EU/EEA/UK) may carry their own reuse terms.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'No blocker found for an ad/affiliate site. Free plan limits: 10 req/hour, filings
+  delayed 14 days; Full 9.90 EUR/month. Yellow stands (storage ambiguous).'

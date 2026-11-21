@@ -1,0 +1,25 @@
+id: doczillla
+name: Doczillla
+url: https://www.doczilla.app/
+category: Development
+description: SaaS API empowering the generation of screenshots or PDFs directly from HTML/CSS/JS code
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-api-lists
+  name: Doczillla
+  url: https://www.doczilla.app/
+  category: Development
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

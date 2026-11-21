@@ -1,0 +1,37 @@
+id: monitly
+name: Monitly
+url: https://monit.ly/api-docs
+category: Open Data
+description: Official statistics from Eurostat, World Bank, OECD, IMF and WHO for 150+ countries
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Monitly
+  url: https://monit.ly/api-docs
+  category: Open Data
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://monit.ly/terms
+rate_limits: Unauthenticated 3/day; registered (Essential) 100/day; Pro 5,000/day
+evidence:
+- field: rate_limits
+  url: https://monit.ly/api-docs
+  quote: 'Unauthenticated users: 3 requests/day. Registered users (Essential): 100 requests/day. Pro accounts: 5,000 requests/day.'
+  checked_at: '2026-11-21'
+notes: Read https://monit.ly/terms and the API docs. The ToS is a generic SaaS agreement (accounts, acceptable use, IP) and says nothing about commercial use, caching or display of the datasets via the
+  API; it only says users may not "copy, reproduce, distribute, or create derivative works" of Monitly content without explicit permission (ambiguous scope). The underlying data comes from Eurostat/World
+  Bank/OECD/IMF/WHO, each with its own licence (not checked). No data licence stated on the pages read. All core fields left unknown. API needs a key (free registered tier 100 req/day).
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

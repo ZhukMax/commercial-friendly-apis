@@ -1,0 +1,25 @@
+id: english-random-words
+name: English Random Words
+url: https://random-words-api.vercel.app/word
+category: Test Data
+description: Generate English Random Words with Pronunciation
+description_source: upstream
+auth: none
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: English Random Words
+  url: https://random-words-api.vercel.app/word
+  category: Test Data
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

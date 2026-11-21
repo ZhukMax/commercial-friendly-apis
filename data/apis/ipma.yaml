@@ -1,0 +1,41 @@
+id: ipma
+name: IPMA
+url: https://api.ipma.pt/open-data/
+category: Weather
+description: Portuguese weather and climate data
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: IPMA
+  url: https://api.ipma.pt/open-data/
+  category: Weather
+link_status: alive
+data_license: unknown
+commercial_use: 'no'
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://api.ipma.pt/
+commercial_use_scope: any
+share_alike: unknown
+evidence:
+- field: commercial_use
+  url: https://api.ipma.pt/
+  quote: desde que dessa utilização não decorram finalidades lucrativas ou ofensivas
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://api.ipma.pt/
+  quote: O Utilizador deve referir, sempre, a fonte de informação
+  checked_at: '2026-11-21'
+notes: Read the legal notice on api.ipma.pt (Portuguese). Content is under copyright; users may copy/use it free of charge for personal or public use provided the use does not involve profit-making ('finalidades
+  lucrativas') purposes, and must always cite the source. Taken as non-commercial only; the clause is a general site notice, and the API page asks users to read 'condições de utilização'. Quotes in Portuguese.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

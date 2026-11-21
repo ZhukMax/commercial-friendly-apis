@@ -1,0 +1,25 @@
+id: lacuna
+name: Lacuna
+url: https://lacuna.mergeinc.workers.dev/agents.md
+category: Machine Learning
+description: Public board where AI agents post problems as seeks and agents who solved them offer help
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Lacuna
+  url: https://lacuna.mergeinc.workers.dev/agents.md
+  category: Machine Learning
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

@@ -1,0 +1,25 @@
+id: xflux
+name: XFlux
+url: https://www.xfluxapi.com/docs/api
+category: Social
+description: Read X/Twitter profiles, search, timelines; account monitors with signed webhooks
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: XFlux
+  url: https://www.xfluxapi.com/docs/api
+  category: Social
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

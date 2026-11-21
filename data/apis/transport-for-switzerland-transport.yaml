@@ -1,0 +1,74 @@
+id: transport-for-switzerland-transport
+name: Transport for Switzerland
+url: https://transport.opendata.ch/
+category: Transportation
+description: Swiss public transport API
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Transport for Switzerland
+  url: https://transport.opendata.ch/
+  category: Transportation
+- list: public-api-lists
+  name: Swiss Public Transport
+  url: https://transport.opendata.ch/
+  category: Transportation
+link_status: alive
+data_license: opentransportdata.swiss terms of use (open data, source citation required); API code MIT
+commercial_use: 'yes'
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: 'yes'
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://transport.opendata.ch/licenses.html
+data_license_url: https://opentransportdata.swiss/en/terms-of-use/
+commercial_use_scope: any
+cache_limit: Upstream requires data be updated regularly at the same frequency as raw data; API asks clients to cache what they can
+attribution_text: Cite opentransportdata.swiss as source (plus © OpenStreetMap contributors where OSM data shown)
+rate_limits: No fixed limit per client; shared service, repeated identical requests are throttled
+evidence:
+- field: commercial_use
+  url: https://opentransportdata.swiss/en/terms-of-use/
+  quote: 'Open data: data that are freely available for anyone to use.'
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://opentransportdata.swiss/en/terms-of-use/
+  quote: The data obtained can be processed, analysed and published, including incorporating additional data.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://opentransportdata.swiss/en/terms-of-use/
+  quote: The URL opentransportdata.swiss must be cited as the source for raw data in publications and analyses that make use of ODMCH data.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://opentransportdata.swiss/en/terms-of-use/
+  quote: ODMCH data must be updated regularly and at the same frequency as the underlying raw data.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://transport.opendata.ch/docs.html
+  quote: 'please cache what you can: the timetable changes twice a week, real-time data every 30 seconds.'
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://transport.opendata.ch/docs.html
+  quote: There is no fixed limit per client.
+  checked_at: '2026-11-21'
+- field: self_host_option
+  url: https://transport.opendata.ch/licenses.html
+  quote: The Transport API is free software under the MIT License
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://transport.opendata.ch/licenses.html
+  quote: OpenStreetMap, Swiss extract by Geofabrik Streets for walks, addresses and places ODbL 1.0, © OpenStreetMap contributors
+  checked_at: '2026-11-21'
+notes: 'Unofficial API run by Opendata.ch (not by SBB/OTD). It has no separate terms of service; its Licenses page lists upstream sources and points to opentransportdata.swiss terms of use for the timetable,
+  real-time, occupancy and fare data. Those upstream terms (read) allow processing, analysis and publication incl. by companies, with source citation and regular updating. Other sources: OSM (ODbL, share-alike/attribution
+  for addresses/places), sharedmobility.ch (BY), swisstopo OGD. The API operator makes no explicit statement on commercial use, so confidence is low; upstream terms are the only evidence. Shared hobby-run
+  service with no SLA.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

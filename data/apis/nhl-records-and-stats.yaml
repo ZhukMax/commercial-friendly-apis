@@ -1,0 +1,47 @@
+id: nhl-records-and-stats
+name: NHL Records and Stats
+url: https://gitlab.com/dword4/nhlapi
+category: Sports & Fitness
+description: NHL historical data and statistics
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: NHL Records and Stats
+  url: https://gitlab.com/dword4/nhlapi
+  category: Sports & Fitness
+- list: public-api-lists
+  name: NHL Records and Stats
+  url: https://gitlab.com/dword4/nhlapi
+  category: Sports & Fitness
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.nhl.com/info/terms-of-service
+evidence:
+- field: commercial_use
+  url: https://www.nhl.com/info/terms-of-service
+  quote: You may access, use, and display the Services, but only for non-commercial, informational, personal
+    use, without modification or alteration in any way
+  checked_at: '2026-11-21'
+notes: The GitLab project (MIT licence on the docs) only documents NHL's publicly reachable, undocumented
+  API endpoints; it is not a service with its own terms. The NHL Terms of Service restrict NHL 'Services'
+  (sites/apps that display or link the Terms) to non-commercial personal use; it is unclear whether they
+  cover the raw stats endpoints, hence ambiguous (yellow here must not be read as safe; likely non-commercial
+  in practice). No NHL licence for the data was found. Storage, display and attribution unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Evidence leans no in practice, but ToS applicability to the stats endpoints is unstated;
+  ambiguous stands, treat as unsafe.

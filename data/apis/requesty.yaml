@@ -1,0 +1,26 @@
+id: requesty
+name: Requesty
+url: https://docs.requesty.ai
+category: Machine Learning
+description: OpenAI compatible LLM router for 600+ models, with a free tier for free models
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Requesty
+  url: https://docs.requesty.ai
+  category: Machine Learning
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://docs.requesty.ai/quickstart

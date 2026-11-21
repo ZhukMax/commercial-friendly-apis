@@ -1,0 +1,60 @@
+id: right-to-disconnect
+name: Right to Disconnect
+url: https://righttodisconnect.jdries.nl/api/
+category: Government
+description: 'Right-to-disconnect employment law by EU country: binding status, statute, and sanctions'
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Right to Disconnect
+  url: https://righttodisconnect.jdries.nl/api/
+  category: Government
+link_status: alive
+data_license: free to use incl. commercially (no named licence)
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'no'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://righttodisconnect.jdries.nl/api/
+commercial_use_scope: any
+rate_limits: No rate limit as of the page (may change)
+notes: 'Read the API page "License & use" paragraph: a plain-language grant, no SPDX licence named. Storage/display
+  are inferred from the general "free to use" grant, not stated separately. Attribution is appreciated,
+  not required. Content is law summaries by the site owner and may cite third-party sources; not legal
+  advice.'
+evidence:
+- field: commercial_use
+  url: https://righttodisconnect.jdries.nl/api/
+  quote: Free to use, including commercially.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://righttodisconnect.jdries.nl/api/
+  quote: Free to use, including commercially.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://righttodisconnect.jdries.nl/api/
+  quote: Free to use, including commercially.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://righttodisconnect.jdries.nl/api/
+  quote: Free to use, including commercially.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://righttodisconnect.jdries.nl/api/
+  quote: Attribution (a link back to righttodisconnect.jdries.nl ) is appreciated but not required.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+share_alike: unknown
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Grant is plain-language only, no named licence; content is law summaries by site owner.
+  Storage/display inferred from general grant; 'no rate limit as of this writing' may change.

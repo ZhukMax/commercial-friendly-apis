@@ -1,0 +1,66 @@
+id: coinpaprika
+name: Coinpaprika
+url: https://api.coinpaprika.com
+category: Cryptocurrency
+description: Cryptocurrencies prices, volume and more
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Coinpaprika
+  url: https://api.coinpaprika.com
+  category: Cryptocurrency
+- list: public-api-lists
+  name: Coinpaprika
+  url: https://api.coinpaprika.com
+  category: Cryptocurrency
+link_status: redirect
+data_license: unknown
+commercial_use: paid-only
+storage_caching: ambiguous
+redistribution_display: 'no'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: api.coinpaprika.com redirects (302) to docs.coinpaprika.com
+api_terms_url: https://coinpaprika.com/terms-of-use
+commercial_use_scope: paid
+rate_limits: 'Free: 20,000 calls/month; paid plans 400k-10M/month'
+evidence:
+- field: commercial_use
+  url: https://docs.coinpaprika.com/faq
+  quote: the data can be used for commercial purposes inside the customer’s company in all paid packages.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://docs.coinpaprika.com/faq
+  quote: only the Enterprise package allows data to be redistributed or shared, which requires a dedicated
+    contract.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://coinpaprika.com/terms-of-use
+  quote: download and store the Content
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://docs.coinpaprika.com/api-plans
+  quote: Calls / month 20,000 400,000 1,000,000 5,000,000 10,000,000 No limits
+  checked_at: '2026-11-21'
+notes: 'Read: docs FAQ, API Plans page (table: Free plan Usage = Personal, Redistribution only on Enterprise)
+  and website Terms of Use (coinpaprika.com/terms-of-use -> /terms). Commercial use is stated for paid
+  packages only, and only ''inside the customer''s company''; redistribution/sharing of data needs Enterprise
+  + dedicated contract. Whether showing prices on a public ad-supported site counts as redistribution
+  is unclear -> ambiguous, treat as needing a paid/Enterprise contract. Website ToS prohibits copying/aggregating
+  content for third parties and downloading and storing content (applies to the website; API-specific
+  ToS not found), so storage is ambiguous. Market data is aggregated from exchanges; upstream exchange
+  terms not assessed. data_license left unknown: proprietary terms, no named licence.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Plans table: Redistribution is only on Enterprise; FAQ: only Enterprise allows data
+  to be redistributed or shared; Showing prices publicly on own site is sharing, so needs Enterprise contract
+  | applied: redistribution_display=no'

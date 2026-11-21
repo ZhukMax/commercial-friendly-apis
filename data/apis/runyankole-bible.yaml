@@ -1,0 +1,35 @@
+id: runyankole-bible
+name: Runyankole Bible
+url: https://runyankole-bible-api.vercel.app
+category: Books
+description: Free REST API for the Runyankore-Rukiga Bible — 66 books, 31106 verses
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Runyankole Bible
+  url: https://runyankole-bible-api.vercel.app
+  category: Books
+link_status: alive
+data_license: © The Bible Society of Uganda (Baibuli Erikwera 1964); no licence stated
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://runyankole-bible-api.vercel.app
+evidence:
+- field: data_license
+  url: https://runyankole-bible-api.vercel.app
+  quote: 'Translation: Baibuli Erikwera 1964 © The Bible Society of Uganda.'
+  checked_at: '2026-11-21'
+notes: 'Read the API landing page: ''Free to use'', no auth, CORS enabled, but the text is credited as a copyrighted translation of the Bible Society of Uganda and no permission/licence for reuse, storage
+  or display is stated. Third-party rights holder likely stricter; all core terms unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -1,0 +1,25 @@
+id: heroku
+name: Heroku
+url: https://devcenter.heroku.com/articles/platform-api-reference/
+category: Development
+description: REST API to programmatically create apps, provision add-ons and perform other task on Heroku
+description_source: upstream
+auth: OAuth
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Heroku
+  url: https://devcenter.heroku.com/articles/platform-api-reference/
+  category: Development
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

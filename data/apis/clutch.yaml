@@ -1,0 +1,65 @@
+id: clutch
+name: Clutch
+url: https://clutchledger.com/data/
+category: Sports & Fitness
+description: Pregame NBA win probabilities for every game, graded after the final, as JSON and CSV
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Clutch
+  url: https://clutchledger.com/data/
+  category: Sports & Fitness
+link_status: alive
+data_license: CC-BY-4.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+commercial_use_scope: any
+attribution_text: 'Data: Clutch (CC BY 4.0), linked to https://clutchledger.com/'
+share_alike: 'no'
+api_terms_url: https://clutchledger.com/data/
+evidence:
+- field: data_license
+  url: https://clutchledger.com/data/
+  quote: Clutch's numbers on this page are free to reuse under CC BY 4.0
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://clutchledger.com/data/
+  quote: Clutch's numbers on this page are free to reuse under CC BY 4.0
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://clutchledger.com/data/
+  quote: Clutch's numbers on this page are free to reuse under CC BY 4.0
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://clutchledger.com/data/
+  quote: Clutch's numbers on this page are free to reuse under CC BY 4.0
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://clutchledger.com/data/
+  quote: credit Clutch and link to clutchledger.com
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://clutchledger.com/data/
+  quote: Clutch's numbers on this page are free to reuse under CC BY 4.0
+  checked_at: '2026-11-21'
+notes: 'Open data page: static JSON/CSV files (no key, CORS open) of Clutch''s own NBA win probabilities
+  under CC BY 4.0. Only Clutch''s own numbers are covered, not NBA data. The site Terms of Use (app) forbid
+  scraping the app data but do not address the open-data files. Not a query API: downloadable files rebuilt
+  four times a day. CC BY terms (commercial, copying) cover storage/display.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: App Terms (sections 10, 11) forbid scraping app data and say predictions belong to
+  Clutch, with no open-data carve-out; dedicated open-data grant is specific so judged lower risk. Static
+  files, not a query API. ESPN/market numbers excluded from files.

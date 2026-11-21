@@ -1,0 +1,63 @@
+id: byabbe
+name: Byabbe
+url: https://byabbe.se/on-this-day/#/default/get__month___day__events_json
+category: Calendar
+description: Seach histories from wikipedia for a particular day
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-api-lists
+  name: Byabbe
+  url: https://byabbe.se/on-this-day/#/default/get__month___day__events_json
+  category: Calendar
+link_status: alive
+data_license: CC-BY-SA-3.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://creativecommons.org/licenses/by-sa/3.0/
+api_terms_url: https://byabbe.se/on-this-day/
+commercial_use_scope: any
+attribution_text: Wikipedia content, CC BY-SA 3.0, with link to the license
+share_alike: 'yes'
+notes: Unofficial API by an individual (Albin Larsson); the OpenAPI file says it is available as-is. Data
+  is harvested from Wikipedia and published under CC BY-SA 3.0, so share-alike applies and attribution
+  to Wikipedia is needed; individual Wikipedia texts/images may carry other licences. The swagger spec
+  at /on-this-day/on-this-day.yaml is the only terms statement; no separate ToS. Service reliability not
+  guaranteed.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+evidence:
+- field: data_license
+  url: https://byabbe.se/on-this-day/on-this-day.yaml
+  quote: The data is all harvested from Wikipedia and therefore licensed under
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://creativecommons.org/licenses/by-sa/3.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://creativecommons.org/licenses/by-sa/3.0/
+  quote: Attribution — You must give appropriate credit
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://creativecommons.org/licenses/by-sa/3.0/
+  quote: ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions
+    under the same license as the original.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://creativecommons.org/licenses/by-sa/3.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://creativecommons.org/licenses/by-sa/3.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'

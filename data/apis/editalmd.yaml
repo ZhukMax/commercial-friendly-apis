@@ -1,0 +1,60 @@
+id: editalmd
+name: EditalMD
+url: https://editalmd.com/api/
+category: Government
+description: Brazilian public procurement (PNCP) notices as Markdown with deadlines and requirements
+description_source: upstream
+auth: other
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: EditalMD
+  url: https://editalmd.com/api/
+  category: Government
+link_status: alive
+data_license: ODbL-1.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://opendatacommons.org/licenses/odbl/1-0/
+api_terms_url: https://editalmd.com/terms
+commercial_use_scope: any
+attribution_text: Credit EditalMD and link to the source page
+share_alike: 'yes'
+evidence:
+- field: data_license
+  url: https://editalmd.com/terms
+  quote: Os dados públicos de /licitacoes/ estão sob a licença ODbL 1.0
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://editalmd.com/terms
+  quote: Use, compartilhe e adapte, até para fins comerciais, com crédito ao EditalMD e link para a página de origem.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://editalmd.com/terms
+  quote: Use, compartilhe e adapte, até para fins comerciais, com crédito ao EditalMD e link para a página de origem.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://editalmd.com/terms
+  quote: Use, compartilhe e adapte, até para fins comerciais, com crédito ao EditalMD e link para a página de origem.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://editalmd.com/terms
+  quote: Use, compartilhe e adapte, até para fins comerciais, com crédito ao EditalMD e link para a página de origem.
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://editalmd.com/terms
+  quote: A base derivada que você publicar segue a mesma licença.
+  checked_at: '2026-11-21'
+notes: 'Terms (Portuguese) say public /licitacoes/ data is ODbL 1.0: commercial use OK with credit, and a published derived database must stay ODbL (share-alike, hence yellow). The licence does not cover
+  personal data (LGPD) or paid resources. Paid per-page access ($0.02/page via x402/credit) is described in the API index, so auth set to other (payment-based, no key); free search/deadlines and free samples
+  exist. Underlying notices are PNCP public acts (source terms not read).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

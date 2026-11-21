@@ -1,0 +1,26 @@
+id: dehash-lt
+name: Dehash.lt
+url: https://github.com/Dehash-lt/api
+category: Security
+description: Hash decryption MD5, SHA1, SHA3, SHA256, SHA384, SHA512
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Dehash.lt
+  url: https://github.com/Dehash-lt/api
+  category: Security
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: HTTP 404

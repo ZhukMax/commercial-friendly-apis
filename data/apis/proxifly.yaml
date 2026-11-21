@@ -1,0 +1,25 @@
+id: proxifly
+name: Proxifly
+url: https://proxifly.dev
+category: Development
+description: Rotating proxy API that returns tested HTTP, SOCKS4 and SOCKS5 proxies, filterable by country
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Proxifly
+  url: https://proxifly.dev
+  category: Development
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

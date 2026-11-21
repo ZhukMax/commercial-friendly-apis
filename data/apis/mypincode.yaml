@@ -1,0 +1,37 @@
+id: mypincode
+name: MyPincode
+url: https://mypincode.live
+category: Geocoding
+description: Indian PIN code and postal office lookup
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: MyPincode
+  url: https://mypincode.live
+  category: Geocoding
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://mypincode.live/pages/terms-and-condition
+rate_limits: 1,000 requests/day per IP (60/min for location detect)
+evidence:
+- field: rate_limits
+  url: https://mypincode.live/pages/terms-and-condition
+  quote: You may access our public REST API up to the documented daily rate limit (1,000 requests per day per IP).
+  checked_at: '2026-11-21'
+notes: 'Read the site Terms of Service (pages/terms-and-condition), API documentation and home page. Terms cover only fair use (1,000 requests/day/IP, no scraping of full datasets) and an accuracy disclaimer;
+  nothing on commercial use, storage or display. Data is said to come from India Post / Open Government Data initiatives (footer: "Data Source: Department of Posts, Government of India") without naming
+  a licence. The service says it is not affiliated with India Post. All core terms unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

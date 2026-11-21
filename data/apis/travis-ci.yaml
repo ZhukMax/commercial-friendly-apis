@@ -1,0 +1,29 @@
+id: travis-ci
+name: Travis CI
+url: https://docs.travis-ci.com/api/
+category: Continuous Integration
+description: Sync your GitHub projects with Travis CI to test your code in minutes
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Travis CI
+  url: https://docs.travis-ci.com/api/
+  category: Continuous Integration
+- list: public-api-lists
+  name: Travis CI
+  url: https://docs.travis-ci.com/api/
+  category: Continuous Integration
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

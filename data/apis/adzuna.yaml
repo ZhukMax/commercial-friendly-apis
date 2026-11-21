@@ -1,0 +1,64 @@
+id: adzuna
+name: Adzuna
+url: https://developer.adzuna.com/overview
+category: Jobs
+description: Job board aggregator
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Adzuna
+  url: https://developer.adzuna.com/overview
+  category: Jobs
+- list: public-api-lists
+  name: Adzuna
+  url: https://developer.adzuna.com/overview
+  category: Jobs
+link_status: alive
+data_license: proprietary (Adzuna API Terms of Service)
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://developer.adzuna.com/docs/terms_of_service
+attribution_text: Label each displayed advert "Adzuna" (min 116x23 px, hyperlinked to adzuna.co.uk or
+  local domain); Jobsworth salary estimates need icon plus "Adzuna Jobsworth" link
+evidence:
+- field: commercial_use
+  url: https://developer.adzuna.com/docs/terms_of_service
+  quote: After the trial period ends, and for any use in a product or service that generates revenue or
+    leads, a licence agreement is required.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://developer.adzuna.com/docs/terms_of_service
+  quote: Adzuna API users are encouraged to publish Adzuna listings, salary estimates and/or data, provided
+    they comply with the following attribution requirements
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://developer.adzuna.com/docs/terms_of_service
+  quote: Adzuna API users are encouraged to publish Adzuna listings, salary estimates and/or data, provided
+    they comply with the following attribution requirements
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://developer.adzuna.com/docs/terms_of_service
+  quote: After the trial period ends, and for any use in a product or service that generates revenue or
+    leads, a licence agreement is required.
+  checked_at: '2026-11-21'
+notes: Terms page read. Publishing Adzuna ad listings with attribution is a permitted use, but any use
+  in a product or service that generates revenue or leads (ads/affiliate site) needs a separate licence
+  agreement (terms not public, price not stated, so not marked paid-only). Resale of data and commercial
+  analysis need written agreement. Storage/caching not addressed except that all Adzuna data must be removed
+  on termination, so left unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Terms re-read: ad listings publishable with attribution; revenue/lead use needs licence
+  agreement (not public).'

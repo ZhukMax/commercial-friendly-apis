@@ -1,0 +1,59 @@
+id: transport-for-grenoble-france-data
+name: Transport for Grenoble, France
+url: https://data.mobilites-m.fr/donnees
+category: Transportation
+description: Grenoble public transport
+description_source: upstream
+auth: none
+https: false
+cors: 'no'
+sources:
+- list: public-api-lists
+  name: Transport for Grenoble, France
+  url: https://data.mobilites-m.fr/donnees
+  category: Transportation
+link_status: alive
+data_license: ODbL
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://data.mobilites-m.fr/donnees
+commercial_use_scope: any
+share_alike: 'yes'
+evidence:
+- field: data_license
+  url: https://data.mobilites-m.fr/donnees
+  quote: bien que leur utilisation soit libre, il convient d'en respecter la licence licence ODbL.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://opendatacommons.org/licenses/odbl/summary/
+  quote: 'To share : To copy, distribute and use the database.'
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://opendatacommons.org/licenses/odbl/summary/
+  quote: 'To share : To copy, distribute and use the database.'
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://data.mobilites-m.fr/donnees
+  quote: bien que leur utilisation soit libre, il convient d'en respecter la licence licence ODbL.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://opendatacommons.org/licenses/odbl/summary/
+  quote: You must attribute any public use of the database
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://opendatacommons.org/licenses/odbl/summary/
+  quote: you must also offer that adapted database under the ODbL.
+  checked_at: '2026-11-21'
+notes: Page is a JS app (read via Playwright). It says the static data published under the SMMAG open-data initiative is free to use but the ODbL licence must be respected; it also says sources are heterogeneous,
+  so dynamic/real-time feeds may carry other terms (not shown). ODbL terms were taken from the Open Data Commons ODbL summary page (copy/distribute/use, attribution, share-alike for adapted databases);
+  the summary has no explicit commercial-use sentence, so commercial use rests on the portal saying use is free. share_alike yes gives yellow.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+data_license_url: https://opendatacommons.org/licenses/odbl/summary/

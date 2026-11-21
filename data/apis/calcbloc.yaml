@@ -1,0 +1,78 @@
+id: calcbloc
+name: CalcBloc
+url: https://calcbloc.com/developers
+category: Finance
+description: Take-home pay, employer cost and official tax tables for US, UK, AU, NZ, CA, IE, IN
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: CalcBloc
+  url: https://calcbloc.com/developers
+  category: Finance
+link_status: alive
+data_license: CC-BY-4.0 (tax tables); calculation results under API terms with attribution
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: high
+link_checked_at: '2026-11-21'
+data_license_url: https://creativecommons.org/licenses/by/4.0/
+api_terms_url: https://calcbloc.com/developers/terms
+commercial_use_scope: any
+attribution_text: 'Data by CalcBloc (calcbloc.com) with a visible link; tax tables: Data by CalcBloc (calcbloc.com/data)'
+share_alike: 'no'
+rate_limits: No key 50/day, 5/min per IP; free key 5,000/day, 60/min
+evidence:
+- field: commercial_use
+  url: https://calcbloc.com/developers/terms
+  quote: Free to use for any purpose, as long as readers can see where the figures come from.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://calcbloc.com/developers/terms
+  quote: licensed under the Creative Commons Attribution 4.0 International licence
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://calcbloc.com/developers/terms
+  quote: You may copy, share and adapt it for any purpose, including commercial use, as long as you give
+    credit
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://calcbloc.com/developers/terms
+  quote: Cache responses on your side.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://calcbloc.com/developers/terms
+  quote: Free use of them requires a visible link to calcbloc.com wherever they are displayed
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://calcbloc.com/developers/terms
+  quote: Free use of them requires a visible link to calcbloc.com wherever they are displayed
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://calcbloc.com/developers/terms
+  quote: You may copy, share and adapt it for any purpose, including commercial use, as long as you give
+    credit
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://calcbloc.com/developers/terms
+  quote: Free keys allow 5,000 requests a day and 60 a minute.
+  checked_at: '2026-11-21'
+notes: Read /developers/terms (API and data terms, updated 2026-11-11). Tax-table data is CC BY 4.0 including
+  commercial use; other API results are free for any purpose with a visible link to calcbloc.com wherever
+  displayed; no-attribution use is available on commercial terms. Caching is encouraged; no storage limit
+  stated. Separate site Terms (calcbloc.com/terms) restrict copying of site content, but the API terms
+  govern API use. bulk_download left unknown. Calculations are estimates, not advice; rates themselves
+  come from governments.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Calculation endpoints require a human-readable visible link on every page that shows
+  results; no-attribution use is paid. Free key 5,000/day.

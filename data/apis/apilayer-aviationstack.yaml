@@ -1,0 +1,46 @@
+id: apilayer-aviationstack
+name: apilayer aviationstack
+url: https://aviationstack.com/
+category: Transportation
+description: Real-time Flight Status & Global Aviation Data API
+description_source: upstream
+auth: OAuth
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: apilayer aviationstack
+  url: https://aviationstack.com/
+  category: Transportation
+link_status: alive
+data_license: unknown
+commercial_use: paid-only
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+commercial_use_scope: paid
+api_terms_url: https://aviationstack.com/product
+rate_limits: 'Free plan: 100 requests/month (non-commercial); paid plans from 10,000 requests/month'
+evidence:
+- field: commercial_use
+  url: https://aviationstack.com/product
+  quote: Basic level - commercial use with premium features and up to 10,000 monthly requests.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://aviationstack.com/faq
+  quote: As soon as your use of the API requires a commercial license and a more advanced set of functionalities
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://aviationstack.com/
+  quote: Sign up for the Free Plan to get 100 free API requests per month
+  checked_at: '2026-11-21'
+notes: Pricing page labels the free plan "Non-Commercial Use" and every paid plan "Commercial Use". The Idera/APILayer legal pages linked from the site (website terms of use, marketplace terms) were read
+  but contain no API data-use terms about caching, storage or display, so those fields stay unknown. FAQ mentions caching flight data only as a technical tip. Listing says auth OAuth; not verified (API
+  key expected).
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -1,0 +1,470 @@
+[
+ {
+  "id": "1forge",
+  "outcome": "disputed",
+  "reasons": [
+   "no free plan on pricing page: cheapest is Starter $25/month (14-day trial), so commercial use is paid-only",
+   "quotes come from brokers/liquidity providers; upstream terms unread and the licence dates from 2020",
+   "Terms of Use PDF says site content may not be copied or redistributed in any way (defers to licence for data)"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://1forge.com/pricing",
+    "quote": "Starter $25 USD / mo",
+    "field": "commercial_use"
+   },
+   {
+    "url": "https://1forge.com/documents/license-agreement.pdf",
+    "quote": "as long as you don’t resell or redistribute our data in it’s raw format",
+    "field": "redistribution_display"
+   },
+   {
+    "url": "https://1forge.com/documents/terms-of-use.pdf",
+    "quote": "may not be copied, reproduced, redistributed in any way or otherwise exploited for any purpose whatsoever",
+    "field": "redistribution_display"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "paid-only"
+  },
+  "note": "Licence grant is clear (any commercial project, website and derived data OK, raw resale banned) but only on paid plans. Displaying live raw quotes on public pages may be read as raw redistribution; unclear. Pricing read via Playwright fresh context."
+ },
+ {
+  "id": "3dtexel",
+  "outcome": "disputed",
+  "reasons": [
+   "licence statements cover the asset files, not the API metadata/previews the API returns",
+   "same API mixes CC0 assets with 3DTexel-License assets (no resale of files); per-asset check needed"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://3dtexel.com/asset-license/",
+    "quote": "Everything else (premium assets, AI assets of the community library, your own generations",
+    "field": "commercial_use"
+   },
+   {
+    "url": "https://3dtexel.com/developers/",
+    "quote": "Assets matching the words, with license and price",
+    "field": "storage_caching"
+   }
+  ],
+  "suggested": {
+   "storage_caching": "ambiguous",
+   "redistribution_display": "ambiguous"
+  },
+  "note": "No blocker for CC0 library assets themselves; green would only hold if the catalog stated it is limited to CC0-labelled items. Terms page grants nothing explicit for API metadata."
+ },
+ {
+  "id": "5dollarfootball",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToS section 4 re-read: commercial products, display of scores/odds and caching explicit",
+   "same terms on free plan; only attribution link on $0 plans"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Looked for resale limits, odds upstream, plan restrictions: only raw-feed resale is banned. Attribution link required on Free/Community/Education plans. Upstream data/odds sources undisclosed (Bet365 odds shown), not a stated limit. Free plan 100 req/day."
+ },
+ {
+  "id": "acesapi",
+  "outcome": "disputed",
+  "reasons": [
+   "storage only while account is open; cannot keep serving a product on stored data after cancelling",
+   "no league rights granted; sources undisclosed, some sources limit use and limits must be passed on",
+   "grant is revocable and only 'to the extent we are allowed to give it'"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://acesapi.com/docs/timing-and-rights",
+    "quote": "It doesn't cover a product that keeps serving users on the data",
+    "field": "storage_caching"
+   },
+   {
+    "url": "https://acesapi.com/docs/timing-and-rights",
+    "quote": "league rights, marks and the league's own reports aren't ours to grant.",
+    "field": "commercial_use"
+   },
+   {
+    "url": "https://acesapi.com/terms",
+    "quote": "Some sources limit how their data may be used; you agree to pass those limits on to your own users",
+    "field": "redistribution_display"
+   }
+  ],
+  "suggested": {
+   "storage_caching": "limited"
+  },
+  "note": "Terms re-read (sections 7, 9, 10) and the docs page 'timing-and-rights'. Commercial use and display to own users are explicit, but storage is tied to an open account, no league rights are granted and upstream sources are undisclosed."
+ },
+ {
+  "id": "birdieapi",
+  "outcome": "disputed",
+  "reasons": [
+   "storage only while account is open; cannot keep serving a product on stored data after cancelling",
+   "no league rights granted; sources undisclosed, some sources limit use and limits must be passed on",
+   "grant is revocable and only 'to the extent we are allowed to give it'"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://birdieapi.com/docs/timing-and-rights",
+    "quote": "It doesn't cover a product that keeps serving users on the data",
+    "field": "storage_caching"
+   },
+   {
+    "url": "https://birdieapi.com/docs/timing-and-rights",
+    "quote": "league rights, marks and the league's own reports aren't ours to grant.",
+    "field": "commercial_use"
+   },
+   {
+    "url": "https://birdieapi.com/terms",
+    "quote": "Some sources limit how their data may be used; you agree to pass those limits on to your own users",
+    "field": "redistribution_display"
+   }
+  ],
+  "suggested": {
+   "storage_caching": "limited"
+  },
+  "note": "Terms re-read (sections 7, 9, 10) and the docs page 'timing-and-rights'. Commercial use and display to own users are explicit, but storage is tied to an open account, no league rights are granted and upstream sources are undisclosed."
+ },
+ {
+  "id": "dunkapi",
+  "outcome": "disputed",
+  "reasons": [
+   "storage only while account is open; cannot keep serving a product on stored data after cancelling",
+   "no league rights granted; sources undisclosed, some sources limit use and limits must be passed on",
+   "grant is revocable and only 'to the extent we are allowed to give it'"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://dunkapi.com/docs/timing-and-rights",
+    "quote": "It doesn't cover a product that keeps serving users on the data",
+    "field": "storage_caching"
+   },
+   {
+    "url": "https://dunkapi.com/docs/timing-and-rights",
+    "quote": "league rights, marks and the league's own reports aren't ours to grant.",
+    "field": "commercial_use"
+   },
+   {
+    "url": "https://dunkapi.com/terms",
+    "quote": "Some sources limit how their data may be used; you agree to pass those limits on to your own users",
+    "field": "redistribution_display"
+   }
+  ],
+  "suggested": {
+   "storage_caching": "limited"
+  },
+  "note": "Terms re-read (sections 7, 9, 10) and the docs page 'timing-and-rights'. Commercial use and display to own users are explicit, but storage is tied to an open account, no league rights are granted and upstream sources are undisclosed."
+ },
+ {
+  "id": "fastballapi",
+  "outcome": "disputed",
+  "reasons": [
+   "storage only while account is open; cannot keep serving a product on stored data after cancelling",
+   "no league rights granted; sources undisclosed, some sources limit use and limits must be passed on",
+   "grant is revocable and only 'to the extent we are allowed to give it'"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://fastballapi.com/docs/timing-and-rights",
+    "quote": "It doesn't cover a product that keeps serving users on the data",
+    "field": "storage_caching"
+   },
+   {
+    "url": "https://fastballapi.com/docs/timing-and-rights",
+    "quote": "league rights, marks and the league's own reports aren't ours to grant.",
+    "field": "commercial_use"
+   },
+   {
+    "url": "https://fastballapi.com/terms",
+    "quote": "Some sources limit how their data may be used; you agree to pass those limits on to your own users",
+    "field": "redistribution_display"
+   }
+  ],
+  "suggested": {
+   "storage_caching": "limited"
+  },
+  "note": "Terms re-read (sections 7, 9, 10) and the docs page 'timing-and-rights'. Commercial use and display to own users are explicit, but storage is tied to an open account, no league rights are granted and upstream sources are undisclosed."
+ },
+ {
+  "id": "ai-trainer-work",
+  "outcome": "confirmed",
+  "reasons": [
+   "terms section 5 carves out the open-data feeds incl. /api/jobs.json as CC BY 4.0 commercial with credit"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Rest of site is personal non-commercial viewing only; only the listed feeds are open. Extra condition: if you show listings, link each to its url. Listings are scraped from 30+ third-party platforms; their rights in listing text not covered by the CC BY grant (not demonstrably stricter)."
+ },
+ {
+  "id": "arc",
+  "outcome": "confirmed",
+  "reasons": [
+   "terms (updated 29 June 2026) state data CC BY 4.0, credit 'Source: ARC (arcreport.ai)', API free with rate limits"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Stores can opt out via /corrections; data is facts about third-party stores. No ads/affiliate restriction found. Commercial permission rests on CC BY deed."
+ },
+ {
+  "id": "art-institute-of-chicago",
+  "outcome": "disputed",
+  "reasons": [
+   "live API response says the description field is CC BY 4.0 (attribution required), other fields CC0; first pass says attribution not required",
+   "API licence also says 'and the Terms and Conditions of artic.edu', which limit most site Materials to noncommercial use",
+   "images in IIIF are not all public domain"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://api.artic.edu/api/v1/artworks/27992?fields=id,title,description",
+    "quote": "The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By)",
+    "field": "attribution_required"
+   },
+   {
+    "url": "https://www.artic.edu/terms",
+    "quote": "You may use this Site and the Materials for noncommercial educational and personal use and for “fair use”",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {
+   "attribution_required": "ambiguous"
+  },
+  "note": "Metadata CC0 is solid; description text needs credit. Read live JSON info.license_text."
+ },
+ {
+  "id": "balldontlie",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToS section 6 explicit: commercial, caching/storing, publishing, no credit; no tier distinction"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Looked at section 7 prohibitions (substitute API, key sharing, claiming official data) and section 11: permission covers only rights BALLDONTLIE can grant, third-party league rights are the user's responsibility. Not a blocker found."
+ },
+ {
+  "id": "bet-better",
+  "outcome": "confirmed",
+  "reasons": [
+   "API page: CC BY 4.0, commercial use with credit; caching 15 minutes advised"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Site Terms section 07 reserves Platform content (no copying without permission) without an open-API carve-out; the dedicated API page grant is specific and controls, so low risk. Feed excludes bookmaker prices (odds source forbids redistribution). Members' picks are locked."
+ },
+ {
+  "id": "bike-reliability",
+  "outcome": "disputed",
+  "reasons": [
+   "free API key (needed beyond 50 requests/day per IP) requires a visible dofollow backlink that is verified and must be kept",
+   "mandatory backlink goes beyond plain credit"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://bikereliability.co.uk/developers",
+    "quote": "The only condition: show a visible dofollow link back to bikereliability.co.uk on the site or app that uses the data, and keep it there.",
+    "field": "attribution_required"
+   }
+  ],
+  "suggested": {
+   "attribution_required": "yes"
+  },
+  "note": "Licence otherwise open (CC BY derived stats, DVSA OGL). Keyless use limited to 50 requests/day, impractical for a real site; suggest yellow because of mandatory dofollow link."
+ },
+ {
+  "id": "caldays",
+  "outcome": "disputed",
+  "reasons": [
+   "site ToS calls the data 'public domain or used under fair use', a licensor cannot grant CC BY over fair-use material",
+   "ToS says attribution not required, API page requires a visible credit link: pages conflict",
+   "API returns only the current year (2026)"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://caldays.com/terms",
+    "quote": "Calendar and holiday data is in the public domain or used under fair use",
+    "field": "data_license"
+   },
+   {
+    "url": "https://caldays.com/api",
+    "quote": "The caldays holiday dataset is released under Creative Commons Attribution 4.0.",
+    "field": "data_license"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "ambiguous",
+   "attribution_required": "ambiguous"
+  },
+  "note": "Upstream government sources not listed (data-sources page 404). API is 'free and open for fair use' with 429 limits."
+ },
+ {
+  "id": "clutch",
+  "outcome": "confirmed",
+  "reasons": [
+   "open-data page: CC BY 4.0 for Clutch's own NBA numbers, credit and link"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "App Terms (sections 10, 11) forbid scraping app data and say predictions belong to Clutch, with no open-data carve-out; dedicated open-data grant is specific so judged lower risk. Static files, not a query API. ESPN/market numbers excluded from files."
+ },
+ {
+  "id": "college-roi",
+  "outcome": "confirmed",
+  "reasons": [
+   "API page: CC BY 4.0, free to use, cache, republish; cite LE TEEN and upstream sources"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "No ToS page (/terms 404). Upstream FREOPP/IPEDS/BEA: IPEDS/BEA are US government; FREOPP site blocked for curl and its terms page was empty in browser, licence unverified. Computation is derived, not demonstrably stricter."
+ },
+ {
+  "id": "collegefootballdata-com",
+  "outcome": "confirmed",
+  "reasons": [
+   "API Terms (effective Aug 12 2026): commercial use incl. ad/affiliate-supported explicitly permitted on every tier"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Display limited to 'reasonable portions' of API data inside a larger product; no public database mirror, no customer access to stored raw responses (bulk pSEO mirroring would breach). Attribution optional. Third-party marks/logos not licensed."
+ },
+ {
+  "id": "cryptokeyhole",
+  "outcome": "disputed",
+  "reasons": [
+   "terms: raw exchange data and other third-party data are not licensed for redistribution on any plan",
+   "free API serves daily price series (e.g. ETH price) that likely derive from third-party exchange data, so CC BY scope is unclear"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://cryptokeyhole.com/terms/",
+    "quote": "On every plan, raw exchange data and other third-party data are not licensed for redistribution.",
+    "field": "redistribution_display"
+   },
+   {
+    "url": "https://cryptokeyhole.com/data-access/",
+    "quote": "Hourly and 10-minute data and the charts above the Free view need an API key from a plan that includes them",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {
+   "redistribution_display": "ambiguous",
+   "commercial_use": "ambiguous"
+  },
+  "note": "Free charts CC BY 4.0 with link credit is explicit; Plus/Pro are personal-only, product use needs API & Team (paid). Which free series are third-party is not stated."
+ },
+ {
+  "id": "czech-national-bank",
+  "outcome": "disputed",
+  "reasons": [
+   "commercial use is never explicitly granted; only 'store, distribute and reproduce'",
+   "conditions: file/content may not be altered in any manner, each page displayed in a new browser window"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://www.cnb.cz/en/privacy-statement-and-disclaimer/disclaimer-copyright/",
+    "quote": "the file and its content may not be altered in any manner and each page must be displayed in a new browser window",
+    "field": "redistribution_display"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "ambiguous",
+   "redistribution_display": "ambiguous"
+  },
+  "note": "Source credit '(Source: the CNB)' required. Grant is for the website's information, not specifically for the XML rate file. No outright ban found, so yellow/ambiguous rather than red."
+ },
+ {
+  "id": "dwellir",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToS 'Permitted Data Use and Resale' allows caching, storage, display, commercial use of response data, retained after termination"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "RPC node provider (infrastructure; data is public chain data). Grant limited to rights Dwellir controls. Free plan 100,000 responses/day, terms not tier-specific; API key needed."
+ },
+ {
+  "id": "economia-awesome",
+  "outcome": "disputed",
+  "reasons": [
+   "ToS plan table marks Cache 'Nao' for free account with API key and all paid plans; only keyless access (10,000/IP) allows cache",
+   "contradicts section 3 text allowing caching; keyless cloud-provider IPs may be permanently limited",
+   "quotes from unnamed financial-market sources"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://awesomeapi.com.br/terms",
+    "quote": "Conta gratuita (com API key) 100.000 Não",
+    "field": "storage_caching"
+   },
+   {
+    "url": "https://awesomeapi.com.br/terms",
+    "quote": "Pode exibir, guardar em cache e manter histórico dos dados dentro do seu próprio produto.",
+    "field": "storage_caching"
+   }
+  ],
+  "suggested": {
+   "storage_caching": "ambiguous"
+  },
+  "note": "Read in fresh Playwright context (curl 403). Commercial use on any plan is explicit. Table column header for 'Cache' not visible as text; interpreted as caching permission per plan."
+ },
+ {
+  "id": "eeemoji",
+  "outcome": "confirmed",
+  "reasons": [
+   "API page: MIT, commercial OK, credit not required; Unicode licence notice must accompany redistributed data"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "General ToS forbids copying/redistributing 'the service' without permission (no API carve-out); API page grant is specific. Metadata only, not vendor artwork. Read via fresh Playwright context. /api/datasets/ chart data is not covered by the licence."
+ },
+ {
+  "id": "fraudcoins",
+  "outcome": "disputed",
+  "reasons": [
+   "dataset built on CoinGecko market data (site footer and Terms section 5), whose terms were not cleared",
+   "Terms section 4 forbids redistributing substantial portions of content without permission, only the data page grants CC BY",
+   "assets flagged as risky: opinion/defamation exposure"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://fraudcoins.com/terms/",
+    "quote": "Market data is supplied by third parties (primarily CoinGecko) and is subject to their terms.",
+    "field": "redistribution_display"
+   },
+   {
+    "url": "https://fraudcoins.com/terms/",
+    "quote": "Do not reproduce or redistribute substantial portions of the content without permission.",
+    "field": "redistribution_display"
+   }
+  ],
+  "suggested": {
+   "redistribution_display": "ambiguous"
+  },
+  "note": "CC BY 4.0 grant on /data/ is explicit; unresolved upstream CoinGecko terms (which typically require attribution/limit redistribution) make green unsafe."
+ },
+ {
+  "id": "fueleconomy",
+  "outcome": "confirmed",
+  "reasons": [
+   "site disclaimer: government will not assert rights in documents; credit line requested, not required"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Live web service responds (menu/year). Photographs are owned by manufacturers and excluded. Wording is 'unless otherwise noted, we will not assert its rights' (work sponsored under contract with UT-Battelle) not a formal licence; no API-specific terms page."
+ },
+ {
+  "id": "get-started-with-web3",
+  "outcome": "disputed",
+  "reasons": [
+   "not a data source: an educational curriculum with a small hobby API on a free Vercel host",
+   "no service terms, SLA or stability; MIT stated by repo owner for lesson text that may quote third parties"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://raw.githubusercontent.com/beihaili/Get-Started-with-Web3/main/docs/api.md",
+    "quote": "The Get Started with Web3 API provides free, read-only access to the project's bilingual lesson index, glossary, search",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {},
+  "note": "API is alive (HTTP 200) and MIT is explicit, so no legal blocker, but it does not fit a catalog of data sources for commercial sites."
+ }
+]

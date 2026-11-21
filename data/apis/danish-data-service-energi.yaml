@@ -1,0 +1,59 @@
+id: danish-data-service-energi
+name: Danish data service Energi
+url: https://www.energidataservice.dk/
+category: Environment
+description: Open energy data from Energinet to society
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Danish data service Energi
+  url: https://www.energidataservice.dk/
+  category: Environment
+link_status: alive
+data_license: CC-BY-4.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: high
+link_checked_at: '2026-11-21'
+data_license_url: https://creativecommons.org/licenses/by/4.0/
+api_terms_url: https://www.energidataservice.dk/terms-and-conditions
+commercial_use_scope: any
+attribution_text: 'Source: Energinet (www.energidataservice.dk)'
+evidence:
+- field: data_license
+  url: https://www.energidataservice.dk/terms-and-conditions
+  quote: Data published on Energi Data Service is subject to the conditions of Creative Commons CC-BY
+    4.0.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.energidataservice.dk/terms-and-conditions
+  quote: Users may copy, change and distribute data freely, even for commercial purposes.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.energidataservice.dk/terms-and-conditions
+  quote: Users may copy, change and distribute data freely, even for commercial purposes.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.energidataservice.dk/terms-and-conditions
+  quote: Users may copy, change and distribute data freely, even for commercial purposes.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.energidataservice.dk/terms-and-conditions
+  quote: Users must give appropriate credit and indicate if data has been changed.
+  checked_at: '2026-11-21'
+notes: Read the Terms and conditions of use of data (page is JS-rendered, read via Playwright). The site
+  news mentions differentiated rate limits being introduced (API guide), not assessed. Energinet states
+  the data may be unavailable without notice and stores API IP addresses for 3 months.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Rate limits being introduced per site news.

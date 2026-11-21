@@ -1,0 +1,56 @@
+id: smartsheet
+name: Smartsheet
+url: https://smartsheet.redoc.ly/
+category: Business
+description: Allows you to programmatically access and Smartsheet data and account information
+description_source: upstream
+auth: OAuth
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Smartsheet
+  url: https://smartsheet.redoc.ly/
+  category: Business
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.smartsheet.com/legal/developer-program-agreement
+evidence:
+- field: commercial_use
+  url: https://www.smartsheet.com/legal/developer-program-agreement
+  quote: Developer may charge End Users fees to use the Developer Application
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.smartsheet.com/legal/developer-program-agreement
+  quote: Developer shall not commercially sell, rent, lease, sublicense, redistribute, or syndicate use
+    of Smartsheet Properties.
+  checked_at: '2026-11-21'
+notes: 'Not an open data source: the API reads/writes a customer''s own Smartsheet account data (OAuth
+  or access token), so the ''data'' are the user''s own content. Read the Developer Program Agreement
+  (https://www.smartsheet.com/legal/developer-program-agreement). A developer may charge end users for
+  an approved Developer Application, but may not commercially sell or redistribute Smartsheet Properties
+  (which include Smartsheet data), and the application needs Smartsheet''s written approval before distribution
+  to end users. The agreement does not address caching/storage duration or public display of data; end-user
+  content must be handled per privacy law. commercial_use ambiguous; other core fields unknown. Only the
+  Developer Program Agreement and its section titles were read, not the general user agreement or the
+  API limits policy.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read Developer Program Agreement: s2.1 distribution to end users only after Smartsheet
+  written approval; s3.2 may charge end users but not commercially sell/redistribute/syndicate Smartsheet
+  Properties; 2.3.2(b) no resell or third-party access. Nothing on caching/display of data. Not usable
+  for a public ad/affiliate catalog scenario; ambiguity stands.'
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

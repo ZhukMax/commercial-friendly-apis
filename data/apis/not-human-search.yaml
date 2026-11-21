@@ -1,0 +1,29 @@
+id: not-human-search
+name: Not Human Search
+url: https://nothumansearch.ai/openapi.yaml
+category: Machine Learning
+description: AI tool discovery with agentic scoring for 8,600+ tools and MCP servers
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Not Human Search
+  url: https://nothumansearch.ai/openapi.yaml
+  category: Machine Learning
+- list: public-api-lists
+  name: Not Human Search
+  url: https://nothumansearch.ai/api/v1/search
+  category: Development
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

@@ -1,0 +1,62 @@
+id: tilla
+name: TILLA
+url: https://tillacrypto.com/docs
+category: Finance
+description: Crypto, US stocks, FX, macro and spot ETF flows on one UTC clock, with 280,675 derived indicators
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: TILLA
+  url: https://tillacrypto.com/docs
+  category: Finance
+link_status: alive
+data_license: proprietary (TILLA Data license, tier-based)
+commercial_use: paid-only
+storage_caching: ambiguous
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://tillacrypto.com/docs/data-license
+api_terms_url: https://tillacrypto.com/docs/terms
+commercial_use_scope: paid
+evidence:
+- field: commercial_use
+  url: https://tillacrypto.com/docs/data-license
+  quote: 'Pro and Max include a full commercial license: the data may be used in any commercial product,
+    fund, trading system or paid service'
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://tillacrypto.com/docs/data-license
+  quote: including the history you accumulate over time from the live feed
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://tillacrypto.com/docs/data-license
+  quote: You may not resell, redistribute, republish, or otherwise make the raw feed (or a substantial
+    copy of it) available to any third party.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://tillacrypto.com/docs/data-license
+  quote: 'Pro and Max include a full commercial license: the data may be used in any commercial product,
+    fund, trading system or paid service'
+  checked_at: '2026-11-21'
+notes: 'Commercial licence only on Pro ($199/mo) and Max; Free and Builder tiers do not carry one. Accumulating
+  history is allowed for own models, research, dashboards and internal tools; raw feed or substantial
+  copy may not be published to third parties on any tier below Enterprise. Whether showing individual
+  values on a public commercial site is fine is not spelled out: ambiguous. Data is a mix of crypto, US
+  stocks, FX and macro from upstream providers (their terms not read). Pages read: /docs/data-license,
+  /docs/terms, /docs (tier list).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read /docs/data-license and /docs/terms. Data may be used in own dashboards and
+  products; ToS fair use: ''don''t resell or redistribute the raw feed''. Showing individual values on
+  a public site is not spelled out; ambiguity stands. Data catalog page mentions sources per field in
+  an interactive view that was not readable via curl.'

@@ -1,0 +1,82 @@
+id: banking-access-index
+name: Banking Access Index
+url: https://www.globalsolo.global/data/banking-access-index
+category: Finance
+description: Which US business banking providers accept founders by country of residence, with sources
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Banking Access Index
+  url: https://www.globalsolo.global/data/banking-access-index
+  category: Finance
+link_status: alive
+data_license: CC-BY-4.0
+commercial_use: ambiguous
+storage_caching: 'yes'
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: 'yes'
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://creativecommons.org/licenses/by/4.0/
+api_terms_url: https://www.globalsolo.global/data/banking-access-index
+commercial_use_scope: any
+attribution_text: Credit Global Solo Banking Access Index with a link to the page
+share_alike: 'no'
+evidence:
+- field: data_license
+  url: https://www.globalsolo.global/data/banking-access-index
+  quote: The clip is CC BY 4.0 like the data
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.globalsolo.global/data/banking-access-index
+  quote: credit Global Solo Banking Access Index with a link to this page
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://www.globalsolo.global/data/banking-access-index
+  quote: No auth and no API key.
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.globalsolo.global/terms
+  quote: limited, non-exclusive, non-transferable license to access and use the Service for personal,
+    non-commercial purposes
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.globalsolo.global/terms
+  quote: Use automated systems (bots, scrapers) to access the Service
+  checked_at: '2026-11-21'
+notes: Page declares the dataset CC BY 4.0 (JSON and CSV downloads, no key); commercial use/storage/display
+  follow from the CC BY 4.0 deed. The dataset consists of facts about third-party banks compiled from
+  the providers' own public pages with quotes; those pages' own terms were not checked. Page fetched with
+  curl without a User-Agent (blocked otherwise). Data may be stale (re-verified quarterly) and is not
+  financial advice.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Site ToS 4.2/4.4 grants only personal, non-commercial use, bans public display of
+  Service content, commercial use and bots, which conflicts with the CC BY 4.0 statement on the data page;
+  ToS 3.1 mentions a purchasable ''data licence for companies'', suggesting commercial use may be meant
+  to be paid; Dataset consists of quotes from third-party bank pages whose terms are unread; operator
+  earns affiliate commissions | applied: commercial_use=ambiguous, redistribution_display=ambiguous'

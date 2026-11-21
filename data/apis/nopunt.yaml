@@ -1,0 +1,55 @@
+id: nopunt
+name: NoPunt
+url: https://www.nopunt.com/api/picks.json
+category: Sports & Fitness
+description: Weekly NFL game picks with model win probability, confidence tier and spread
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: NoPunt
+  url: https://www.nopunt.com/api/picks.json
+  category: Sports & Fitness
+link_status: alive
+data_license: proprietary (NoPunt Terms of Use; model picks and third-party odds)
+commercial_use: 'no'
+storage_caching: 'yes'
+redistribution_display: unknown
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.nopunt.com/terms
+commercial_use_scope: free-tier
+attribution_text: credit nopunt.com and link back
+evidence:
+- field: commercial_use
+  url: https://www.nopunt.com/terms
+  quote: free for personal, research and non-commercial use. Using them in a paid product or service needs
+    our written permission
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.nopunt.com/terms
+  quote: if you need high-volume polling, mirror the data into your own store.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.nopunt.com/terms
+  quote: If you build something with NoPunt data, credit nopunt.com and link back.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.nopunt.com/terms
+  quote: Third-party sources limit how their data may be used.
+  checked_at: '2026-11-21'
+notes: 'Read the Terms of Use (section API use). The public JSON endpoints are free for personal, research
+  and non-commercial use; use in a paid product or service needs written permission by email (no published
+  commercial plan; the Pro subscription is a separate picks product, not an API licence). Ads/affiliate
+  sites are commercial, so treated as no without permission. Mirroring into your own store is encouraged;
+  credit nopunt.com. Forbidden: scraping outside documented endpoints, reselling as standalone product,
+  redistributing odds/lines/prices as feed/file/dataset; ''third-party sources limit how their data may
+  be used''. Display on own pages not addressed (unknown). Output is model picks, not raw league data.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

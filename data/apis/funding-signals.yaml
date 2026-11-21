@@ -1,0 +1,49 @@
+id: funding-signals
+name: Funding Signals
+url: https://fundingsignals.net/docs
+category: Business
+description: Companies that just raised funding, scored as sales leads, from public SEC filings
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Funding Signals
+  url: https://fundingsignals.net/docs
+  category: Business
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://fundingsignals.net/terms
+commercial_use_scope: any
+notes: Terms of Service read but the page itself says 'DRAFT - not legal advice' (last updated 2026-07-10).
+  Output is licensed for internal business purposes; redistribution of raw responses as a competing data
+  product is barred. Underlying facts come from public SEC EDGAR Form D filings plus news sources (SEC
+  filings are public information; news sources' terms not checked). Storage not addressed.
+evidence:
+- field: commercial_use
+  url: https://fundingsignals.net/terms
+  quote: limited, non-exclusive, non-transferable right to use the API output for your internal business
+    purposes and permitted outreach
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://fundingsignals.net/terms
+  quote: resell, sublicense, or redistribute the raw API responses as a competing data product without
+    a separate written agreement
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Confirmed ambiguous/yellow, leaning restrictive for public display. Underlying facts
+  from SEC Form D (public) plus news sources not checked. Terms say they should be lawyer-reviewed, so
+  reliability is low.

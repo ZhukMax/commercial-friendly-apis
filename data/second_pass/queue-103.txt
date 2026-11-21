@@ -1,0 +1,16 @@
+realtime-sports
+rijksmuseum
+smithsonian-open-access
+soldsignal
+spaceflight-news
+strikerapi
+svg-new
+techmap
+the-calendar
+the-jobs
+timezones-ical-library
+tryhired
+uk-bank-holidays
+usajobs
+uspto
+whenstherace

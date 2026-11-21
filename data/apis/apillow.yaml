@@ -1,0 +1,73 @@
+id: apillow
+name: APIllow
+url: https://apillow.co/docs.html
+category: Open Data
+description: 'Zillow property data: 50+ fields per listing by address, URL, ZPID or ZIP, with sold data
+  and comps'
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: APIllow
+  url: https://apillow.co/docs.html
+  category: Open Data
+link_status: alive
+data_license: proprietary API licence; underlying data owned by Zillow (scraped from zillow.com)
+commercial_use: unknown
+storage_caching: ambiguous
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://apillow.co/terms.html
+commercial_use_scope: paid
+share_alike: unknown
+rate_limits: 'Free: 50 properties/month (hard cap); Pro $9.99 3,333; Ultra $29.99 10,000; Mega $99.99
+  50,000; overage $0.005/property'
+notes: Read apillow.co/terms.html (effective 2026-08-26), /docs.html and home page. Third-party scraper
+  of zillow.com. APIllow licenses you to use responses inside your own application during your subscription,
+  but states the data belongs to Zillow, makes no representation that any use is authorised by Zillow,
+  and puts the burden of complying with Zillow's own terms on you (Zillow's terms were not read here;
+  Zillow generally restricts scraping and republication of listing data, so treat as high risk). Resale
+  as a competing API is banned. Caching after the subscription ends is not addressed; commercial use is
+  neither granted nor denied for Zillow's content, hence ambiguous (yellow at best). Photos, agent contact
+  data and Zestimates are included in responses, which raises additional rights/privacy issues.
+evidence:
+- field: commercial_use
+  url: https://apillow.co/terms.html
+  quote: non-exclusive, non-transferable, revocable license to call the Service and use the responses
+    inside your application during the term of your subscription.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://apillow.co/terms.html
+  quote: Underlying property data is sourced from publicly available pages on zillow.com and is owned
+    by its respective rights holders.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://apillow.co/terms.html
+  quote: APIllow makes no representation that any specific use of the data is authorized by Zillow Group.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://apillow.co/terms.html
+  quote: Resell, sublicense, or repackage the raw API responses as a competing data API without our prior
+    written consent.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://apillow.co/terms.html
+  quote: The free tier is hard-capped and never incurs overage charges.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://apillow.co/terms.html
+  quote: APIllow makes no representation that any specific use of the data is authorized by Zillow Group.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Scraper of zillow.com, Zillow terms unreadable; APIllow disclaims any Zillow authorisation
+  | applied: commercial_use=unknown'

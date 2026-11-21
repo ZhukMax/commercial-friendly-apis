@@ -1,0 +1,26 @@
+id: arcmira
+name: Arcmira
+url: https://arcmira.com/docs
+category: Video
+description: 'YouTube transcript search and monitoring for your AI: exact quotes, full transcripts and
+  speakers'
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Arcmira
+  url: https://arcmira.com/docs
+  category: Video
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

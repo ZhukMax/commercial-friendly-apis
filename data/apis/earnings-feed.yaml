@@ -1,0 +1,57 @@
+id: earnings-feed
+name: Earnings Feed
+url: https://earningsfeed.com/api
+category: Finance
+description: Real-time SEC filings, insider trades, and institutional holdings
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-api-lists
+  name: Earnings Feed
+  url: https://earningsfeed.com/api
+  category: Finance
+link_status: alive
+data_license: proprietary; underlying SEC filings are public information
+commercial_use: 'no'
+storage_caching: unknown
+redistribution_display: 'no'
+attribution_required: ambiguous
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: high
+link_checked_at: '2026-11-21'
+api_terms_url: https://earningsfeed.com/terms
+commercial_use_scope: free-tier
+rate_limits: 'Free: 60 req/min, 250,000 req/month; Business $199/mo: 300 req/min'
+evidence:
+- field: commercial_use
+  url: https://earningsfeed.com/terms
+  quote: On Free and Pro, the APIs and MCP server are for your personal, non-commercial projects.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://earningsfeed.com/terms
+  quote: No plan includes redistributing, displaying or reselling data from the Service to third parties,
+    including your organization’s clients or users, unless we agree in writing.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://earningsfeed.com/terms
+  quote: Where reasonably practical, you should indicate that data surfaced through your internal tools
+    originates from Earnings Feed.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://earningsfeed.com/terms
+  quote: On Free and Pro, the APIs and MCP server are for your personal, non-commercial projects.
+  checked_at: '2026-11-21'
+notes: 'ToS updated Nov 17 2026: Free and Pro API use is personal non-commercial; Business plan ($199/mo)
+  allows internal organisational use only. No plan includes displaying or redistributing data to third
+  parties/users, so a public site is excluded without a written licence. Underlying data is public SEC
+  EDGAR material, but the normalised feed is restricted by these terms.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Correct rate_limits in the YAML (first pass attributed Pro's 60 req/min, 250,000/month
+  to Free and Business to $199/mo; pricing page shows Pro $49/month). Verdict unaffected.

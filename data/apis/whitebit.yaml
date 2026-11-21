@@ -1,0 +1,42 @@
+id: whitebit
+name: WhiteBIT
+url: https://docs.whitebit.com
+category: Cryptocurrency
+description: European cryptocurrency exchange
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: WhiteBIT
+  url: https://docs.whitebit.com
+  category: Cryptocurrency
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://whitebit.com/terms
+evidence:
+- field: commercial_use
+  url: https://whitebit.com/terms
+  quote: develop any third-party applications interacting with the Services without our prior written
+    consent
+  checked_at: '2026-11-21'
+notes: 'Pages read: docs.whitebit.com (no terms section) and whitebit.com/terms (via Playwright). ToS
+  bans third-party applications interacting with the Services and scrapers/crawlers not provided by WhiteBIT
+  without written consent; whether ''Services'' covers the public market-data API is not explicit and
+  no separate API/market-data licence was found. Caching/display/attribution not addressed.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read ToS (Playwright). Unresolved whether public market-data API covered; yellow
+  is generous, treat with caution.

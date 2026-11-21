@@ -1,0 +1,43 @@
+id: zoho-books
+name: Zoho Books
+url: https://www.zoho.com/books/api/v3/
+category: Finance
+description: Online accounting software, built for your business
+description_source: upstream
+auth: OAuth
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Zoho Books
+  url: https://www.zoho.com/books/api/v3/
+  category: Finance
+link_status: alive
+data_license: customer-owned content (user owns data stored in own Zoho account)
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: HTTP 403 (blocked for bots, assumed alive)
+api_terms_url: https://www.zoho.com/terms.html
+evidence:
+- field: data_license
+  url: https://www.zoho.com/terms.html
+  quote: You own the content created or stored by you.
+  checked_at: '2026-11-21'
+notes: 'The API (https://www.zoho.com/books/api/v3/) returned HTTP 403 to curl, so its docs/API terms
+  were not read. Read only Zoho''s general Terms of Service (updated 2 March 2022), which cover the Services,
+  not a data licence. Zoho Books is accounting SaaS: the API exposes the account owner''s own books data
+  (OAuth), not a public dataset, so the ''commercial use / display on a public site'' question does not
+  map cleanly. Core terms left unknown; Zoho API-specific terms and a Zoho Books service-specific terms
+  page were not found.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

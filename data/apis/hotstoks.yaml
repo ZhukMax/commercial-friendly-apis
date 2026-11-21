@@ -1,0 +1,30 @@
+id: hotstoks
+name: Hotstoks
+url: https://hotstoks.com
+category: Finance
+description: Stock market data powered by SQL
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Hotstoks
+  url: https://hotstoks.com?utm_source=public-apis
+  category: Finance
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://hotstoks.com
+notes: hotstoks.com is a JS single-page dashboard that only shows "Loading scans..." in a browser (Playwright used; /terms and /docs render the same shell) and returns almost nothing to curl. No terms page
+  could be read, so everything stays unknown. Stock market data usually carries exchange redistribution restrictions.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -1,0 +1,57 @@
+id: kickoffapi
+name: KickoffAPI
+url: https://kickoffapi.com
+category: Sports & Fitness
+description: Football data API for live scores, fixtures, odds, and predictive xG models
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: KickoffAPI
+  url: https://kickoffapi.com
+  category: Sports & Fitness
+link_status: alive
+data_license: proprietary (KickoffAPI Terms; data sourced from third-party providers)
+commercial_use: unknown
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://kickoffapi.com/terms
+cache_limit: Caching/storing allowed unless it recreates or substitutes the Service
+attribution_text: Powered by KickoffAPI (linked to kickoffapi.com); mandatory on the free Hobby plan,
+  removable on paid plans
+share_alike: unknown
+evidence:
+- field: redistribution_display
+  url: https://kickoffapi.com/terms
+  quote: You may display the data inside your own website or application — that is what the Service is
+    for.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://kickoffapi.com/terms
+  quote: cache or store the data to recreate or substitute the Service
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://kickoffapi.com/terms
+  quote: The free Hobby plan is licensed on condition that you credit KickoffAPI
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://kickoffapi.com/terms
+  quote: Data is sourced from third-party providers and is provided for informational and application-integration
+    purposes.
+  checked_at: '2026-11-21'
+notes: 'Read the Terms of Service. Display inside your own website/app is allowed; forbidden: reselling/redistributing
+  the data as a dataset or competing service, caching or storing it to recreate or substitute the Service.
+  Free Hobby plan requires a visible ''Powered by KickoffAPI'' credit (paid plans may remove it); source-specific
+  attribution notices passed in API responses must be carried on any plan. The terms never state explicitly
+  that commercial use (ads/affiliate) is allowed, so commercial_use is unknown. Data is sourced from third-party
+  providers: upstream terms may be stricter.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

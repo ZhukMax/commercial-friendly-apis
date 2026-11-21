@@ -1,0 +1,69 @@
+id: peptide-library
+name: Peptide Library
+url: https://peptidelibrary.app/developers/docs
+category: Health
+description: Peptide research profiles, cited studies and regulatory status; vendor prices with a free
+  key
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Peptide Library
+  url: https://peptidelibrary.app/developers/docs
+  category: Health
+link_status: alive
+data_license: proprietary (Peptide Library API terms of use)
+commercial_use: ambiguous
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+cache_limit: Research data up to 24 hours; price data up to 1 hour
+api_terms_url: https://peptidelibrary.app/developers/terms
+attribution_text: Data from Peptide Library (link to peptidelibrary.app or the result page URL)
+rate_limits: Anonymous ~300/min per IP; Free Developer key 60/min, 5,000/month
+notes: API terms of use read. Terms are silent on commercial use as such; they allow showing API data
+  with attribution, but require presenting it as research/education only (no medical advice, no dosing
+  guidance, no recommendation to buy), keeping vendor/affiliate links unchanged and showing affiliate
+  disclosure, and forbid redistributing bulk copies as your own dataset or building a competing price
+  dataset. Caching limited to 24h (research) and 1h (prices). Research/study endpoints need no key; vendor,
+  product and price endpoints need a key. Vendor price data comes from third-party vendor sites.
+evidence:
+- field: data_license
+  url: https://peptidelibrary.app/developers/terms
+  quote: 'Do not: scrape the website instead of using the API;'
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://peptidelibrary.app/developers/terms
+  quote: You must not present API data as medical advice, as dosing or administration guidance
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://peptidelibrary.app/developers/terms
+  quote: You may cache research data for up to 24 hours and price data for up to 1 hour, then refresh
+    it.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://peptidelibrary.app/developers/terms
+  quote: Where you show API data, credit "Data from Peptide Library" with a link to peptidelibrary.app
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://peptidelibrary.app/developers/terms
+  quote: Where you show API data, credit "Data from Peptide Library" with a link to peptidelibrary.app
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://peptidelibrary.app/developers/docs
+  quote: 'Free Developer: 60 per minute, 5,000 per month, reset on the 1st, UTC'
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read API terms (version 2026-10-18) and site /terms. API terms do not forbid commercial
+  use and expect affiliate disclosure; must not present as medical advice. Site ToS blanket clause conflicts
+  in theory. Yellow due to 24h cache limit.

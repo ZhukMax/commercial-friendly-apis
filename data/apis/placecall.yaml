@@ -1,0 +1,25 @@
+id: placecall
+name: PlaceCall
+url: https://api.voygr.tech/docs
+category: Phone
+description: AI agent places phone calls to US businesses and returns the outcome, transcript and recording
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: PlaceCall
+  url: https://api.voygr.tech/docs
+  category: Phone
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

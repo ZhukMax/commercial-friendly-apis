@@ -1,0 +1,71 @@
+id: ipapi-com
+name: ipapi.com
+url: https://ipapi.com/
+category: Geocoding
+description: Real-time Geolocation & Reverse IP Lookup REST API
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: ipapi.com
+  url: https://ipapi.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers
+  category: Geocoding
+link_status: alive
+data_license: proprietary (apilayer ipapi Terms of Service & License Agreement)
+commercial_use: paid-only
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: 'no'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://ipapi.com/terms
+api_terms_url: https://ipapi.com/terms
+commercial_use_scope: paid
+attribution_text: Optional clickable hyperlink to https://ipapi.com
+share_alike: unknown
+rate_limits: 'Free: 100 lookups/month (non-commercial); Standard $12.99/mo 50,000; Business $59.99/mo
+  500,000; Business Pro $99.99/mo 2,000,000'
+notes: Read Terms of Service & License Agreement (last modified 22-09-2018), and /product (pricing/plan
+  comparison). Free plan (100 lookups) is marked Non-Commercial Use; paid plans are marked Commercial
+  Use. Terms allow displaying data to end users of your application for their own personal use, but forbid
+  transferring data outside your application and posting it in any public forum, so showing stored data
+  on public pages is ambiguous. Nothing on caching/storage by the licensee (ends users may not store it).
+  ip2country.info is being merged into this service (see ip-2-country).
+evidence:
+- field: commercial_use
+  url: https://ipapi.com/product
+  quote: HTTPS Encryption Non-Commercial Use
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://ipapi.com/product
+  quote: Standard Support Location Data Commercial Use HTTPS Encryption
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://ipapi.com/terms
+  quote: You are hereby permitted to receive, process, and display ipapi API Data & Services to individual
+    end-users of your application(s)
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://ipapi.com/terms
+  quote: under no circumstances whatsoever may You transfer or permit the transfer of ipapi API Data &
+    Services outside of your application(s).
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://ipapi.com/terms
+  quote: Your inclusion of a clickable hyperlink to the ipapi API website at https://ipapi.com would be
+    highly appreciated.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://ipapi.com/terms
+  quote: non-transferable, non-exclusive, revocable, and limited license for the term of this Agreement
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Terms last modified 2018.

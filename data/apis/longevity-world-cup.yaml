@@ -1,0 +1,37 @@
+id: longevity-world-cup
+name: Longevity World Cup
+url: https://longevityworldcup.com/api/data/athletes
+category: Health
+description: Public biological age competition data with biomarkers and rankings
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Longevity World Cup
+  url: https://longevityworldcup.com/api/data/athletes
+  category: Health
+- list: public-api-lists
+  name: Longevity World Cup
+  url: https://longevityworldcup.com/swagger
+  category: Health
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://longevityworldcup.com/swagger/index.html
+notes: 'No terms of use or data licence found: /terms and /terms-of-service return 404, the Privacy page
+  only covers Threads/Facebook posting integrations, About/ruleset describe the competition, and llms-full.txt
+  lists public pages and the OpenAPI/Swagger docs without a licence. The API returns named athletes''
+  dates of birth and blood biomarkers (personal health data); privacy/GDPR consent status unknown. All
+  fields unknown.'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

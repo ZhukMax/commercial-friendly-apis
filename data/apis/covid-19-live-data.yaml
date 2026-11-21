@@ -1,0 +1,33 @@
+id: covid-19-live-data
+name: Covid-19 Live Data
+url: https://github.com/mathdroid/covid-19-api
+category: Health
+description: Global and countrywise data of Covid 19 daily Summary, confirmed cases, recovered and deaths
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Covid-19 Live Data
+  url: https://github.com/mathdroid/covid-19-api
+  category: Health
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: 'README: official deployment no longer maintained; covid19.mathdro.id unreachable'
+api_terms_url: https://github.com/mathdroid/covid-19-api
+notes: The repo README says 'No longer maintaining the official deployment. Please fork this repo and
+  use it for your own purpose.' and the hosted endpoint covid19.mathdro.id did not respond (connection
+  failed) at check time. No licence shown on the repo page and no terms; data came from JHU CSSE. Terms
+  left unknown; marked dead.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

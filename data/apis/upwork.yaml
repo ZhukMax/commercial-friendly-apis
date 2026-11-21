@@ -1,0 +1,67 @@
+id: upwork
+name: Upwork
+url: https://developers.upwork.com/
+category: Jobs
+description: Freelance job board and management system
+description_source: upstream
+auth: OAuth
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Upwork
+  url: https://developers.upwork.com/
+  category: Jobs
+- list: public-api-lists
+  name: Upwork
+  url: https://developers.upwork.com/
+  category: Jobs
+link_status: alive
+data_license: proprietary (Upwork API Terms of Use)
+commercial_use: 'no'
+storage_caching: limited
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: HTTP 403 (blocked for bots, assumed alive)
+cache_limit: 24 hours, solely to improve user experience
+api_terms_url: https://www.upwork.com/legal#api
+commercial_use_scope: any
+evidence:
+- field: commercial_use
+  url: https://www.upwork.com/legal#api
+  quote: Use Upwork Content for user profiling purposes or for advertising purposes.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.upwork.com/legal#api
+  quote: Solely for the purpose of improving user experience, Developer may cache Upwork Content for no
+    more than twenty-four (24) hours.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.upwork.com/legal#api
+  quote: Sell, lease, sublicense, or otherwise transfer, directly or indirectly, Upwork Content to any
+    third party.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.upwork.com/legal#api
+  quote: Use Upwork Content for user profiling purposes or for advertising purposes.
+  checked_at: '2026-11-21'
+notes: 'NOT a general data source: OAuth, account-scoped API for building apps that facilitate users''
+  own use of Upwork. Read API Terms of Use at /legal#api (curl got a Cloudflare 403; read via Playwright
+  in a fresh context, page returned normally). Banned: using Upwork Content for advertising or profiling,
+  selling/transferring it to third parties; may not copy or store content beyond 24h cache; developer
+  may not charge users without Upwork permission; display only inside your Application per the Agreement.
+  Ad/affiliate site scenario therefore no.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read via Playwright (curl 403). Note: page says API & MCP Terms (Aug 2026) supersede
+  these if accepted; no evidence they are looser. Red stands.'
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

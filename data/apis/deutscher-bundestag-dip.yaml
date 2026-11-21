@@ -1,0 +1,78 @@
+id: deutscher-bundestag-dip
+name: Deutscher Bundestag DIP
+url: https://dip.bundestag.de/documents/informationsblatt_zur_dip_api_v01.pdf
+category: Government
+description: This API provides read access to DIP entities (e.g. activities, persons, printed material)
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Deutscher Bundestag DIP
+  url: https://dip.bundestag.de/documents/informationsblatt_zur_dip_api_v01.pdf
+  category: Government
+link_status: alive
+data_license: Bundestag DIP Nutzungsbedingungen (custom; source credit required)
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: high
+link_checked_at: '2026-11-21'
+data_license_url: https://dip.bundestag.de/documents/nutzungsbedingungen_dip.pdf
+api_terms_url: https://dip.bundestag.de/documents/nutzungsbedingungen_dip.pdf
+commercial_use_scope: any
+attribution_text: 'Source: "Deutscher Bundestag/Bundesrat – DIP"; for commercial use add a notice with
+  link dip.bundestag.de that the data is free in DIP'
+share_alike: unknown
+evidence:
+- field: commercial_use
+  url: https://dip.bundestag.de/documents/nutzungsbedingungen_dip.pdf
+  quote: Bei der Nutzung von DIP-Daten, die über den persönlichen Gebrauch hinausgeht, insbesondere bei
+    deren (auch kommerzieller) Weiterverwendung und Weitergabe, gelten folgende Regeln
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://dip.bundestag.de/documents/nutzungsbedingungen_dip.pdf
+  quote: Die über die API zur Verfügung gestellten maschinenlesbaren Daten dürfen umfassend in jeglicher
+    Form genutzt und weiterverarbeitet werden.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://dip.bundestag.de/documents/nutzungsbedingungen_dip.pdf
+  quote: Die über die API zur Verfügung gestellten maschinenlesbaren Daten dürfen umfassend in jeglicher
+    Form genutzt und weiterverarbeitet werden.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://dip.bundestag.de/documents/nutzungsbedingungen_dip.pdf
+  quote: Es ist als Quelle „Deutscher Bundestag/Bundesrat – DIP“ anzugeben.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://dip.bundestag.de/documents/nutzungsbedingungen_dip.pdf
+  quote: Werden die Daten kommerziell genutzt, ist unter Angabe des Links [dip.bundestag.de] ein Hinweis
+    aufzunehmen, dass die Daten in DIP kostenfrei zur Verfügung stehen.
+  checked_at: '2026-11-21'
+- field: auth
+  url: https://dip.bundestag.de/documents/nutzungsbedingungen_dip.pdf
+  quote: muss bei jeder Abfrage ein gültiger API-Schlüssel als Parameter mitgeliefert werden.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://dip.bundestag.de/documents/nutzungsbedingungen_dip.pdf
+  quote: Die über die API zur Verfügung gestellten maschinenlesbaren Daten dürfen umfassend in jeglicher
+    Form genutzt und weiterverarbeitet werden.
+  checked_at: '2026-11-21'
+notes: 'Terms are a 3-page PDF (dated 27 Feb 2023) linked from dip.bundestag.de/über-dip/nutzungsbedingungen;
+  read via curl + pdftotext (the API help page is JS-rendered, read via Playwright). Commercial reuse
+  allowed with source credit plus, for commercial use, a mandatory notice with link that data is free
+  in DIP. PDF documents (Drucksachen, Plenarprotokolle) are official works: no alteration, excerpts only
+  with source; edits/annotations must be marked. No defamatory/disparaging or extremist-context use. A
+  public API key is published on the API help page (no registration); personal keys on request; abuse
+  can get the key swapped/blocked. The notice duty goes beyond plain credit but verdict is computed from
+  the fields. verify_quotes may report unfetchable (PDF).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: API key required (public key rotates).

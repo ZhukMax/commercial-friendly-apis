@@ -1,0 +1,72 @@
+id: ipapi-co
+name: ipapi.co
+url: https://ipapi.co/api/
+category: Geocoding
+description: Find IP address location information
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: ipapi.co
+  url: https://ipapi.co/api/#introduction
+  category: Geocoding
+- list: public-api-lists
+  name: ipapi.co IP Location
+  url: https://ipapi.co/
+  category: Geocoding
+link_status: alive
+data_license: proprietary (ipapi.co Terms; data derived from DB-IP CC BY 4.0 and IP2Location LITE)
+commercial_use: paid-only
+storage_caching: limited
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://ipapi.co/terms/
+api_terms_url: https://ipapi.co/terms/
+commercial_use_scope: paid
+cache_limit: 24 hours maximum; must re-fetch for each later use
+share_alike: unknown
+rate_limits: 'Free: up to 1,000 lookups/day (about 30K/month), testing/development only; paid from 60K
+  to 2M+ lookups/month'
+notes: 'Read /terms/ (Terms of Service), /pricing/ and /api/. Free plan is for testing/development, not
+  production, so a real commercial site needs a paid plan (terms themselves do not say "commercial"; paid-only
+  is inferred from the pricing FAQ). Strict rules: cache max 24 hours, no persistent copy/database, use
+  limited to internal use and clients, no reselling or displaying the Services to others. Whether showing
+  a visitor their own location on a page is "internal use" is unclear, hence ambiguous display. Same vendor/terms
+  as entry ipapi-co-ip-location. Pricing page credits DB-IP (CC BY 4.0) and IP2Location LITE as upstream
+  sources. Merged duplicate entry `ipapi-co-ip-location`.'
+evidence:
+- field: commercial_use
+  url: https://ipapi.co/pricing/
+  quote: It is not meant for use in production or deployments.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://ipapi.co/terms/
+  quote: beyond the minimum time necessary for immediate use, which shall not exceed 24 hours.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://ipapi.co/terms/
+  quote: Your use of the Content is limited to your internal use and the internal use of your Clients.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://ipapi.co/terms/
+  quote: Under no circumstances are you permitted to resell or license the Content.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://ipapi.co/pricing/
+  quote: This product includes data from IP geolocation by DB-IP available under the Creative Commons
+    Attribution 4.0 License
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Display of own-visitor location arguably internal use; ambiguous retained.
+aliases:
+- ipapi-co-ip-location

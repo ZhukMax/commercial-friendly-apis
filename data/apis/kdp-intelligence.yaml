@@ -1,0 +1,30 @@
+id: kdp-intelligence
+name: KDP Intelligence
+url: https://kdp-intelligence-api.vercel.app/docs
+category: Books
+description: KDP niche demand scores, competition analysis and revenue estimates
+description_source: upstream
+auth: other
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: KDP Intelligence
+  url: https://kdp-intelligence-api.vercel.app/docs
+  category: Books
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://kdp-intelligence-api.vercel.app/docs
+notes: 'Read /docs (Swagger shell) and /openapi.json. API is pay-per-call (x402 USDC: $0.03 cached keyword, $0.10 live research); the ''auth: none'' upstream value is stale (payment header required for
+  data endpoints, free check/list endpoints). /terms, /tos, /license return 404; no terms of use or data licence found, so all core terms unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

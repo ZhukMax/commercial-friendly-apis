@@ -1,0 +1,76 @@
+id: geocod-io
+name: Geocod.io
+url: https://www.geocod.io/
+category: Geocoding
+description: Address geocoding / reverse geocoding in bulk
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Geocod.io
+  url: https://www.geocod.io/
+  category: Geocoding
+- list: public-api-lists
+  name: Geocod.io
+  url: https://www.geocod.io/
+  category: Geocoding
+link_status: alive
+data_license: unknown
+commercial_use: 'yes'
+storage_caching: ambiguous
+redistribution_display: 'yes'
+attribution_required: ambiguous
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.geocod.io/terms-of-use/
+commercial_use_scope: any
+rate_limits: 'Free: 2,500 lookups/day'
+notes: 'ToS section 8.4 lets customers store, sell and otherwise use results provided the underlying data
+  sources permit it. Terms summary: storage is permanent in most countries/uses, but UK reverse geocoding
+  (and some Australian derived data) has data-licence limits (UK data stored only up to 12 months after
+  the subscription ends). Attribution depends on each underlying source and is the customer''s responsibility,
+  hence ambiguous. No sell/display restriction on map brand.'
+evidence:
+- field: commercial_use
+  url: https://www.geocod.io/terms-of-use/
+  quote: Customer may store, transmit, transform, sell, and otherwise use the results provided by the
+    Company as Customer sees fit
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.geocod.io/terms-of-use/
+  quote: Customer may store, transmit, transform, sell, and otherwise use the results provided by the
+    Company as Customer sees fit
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.geocod.io/terms-of-use/
+  quote: Customer may store, transmit, transform, sell, and otherwise use the results provided by the
+    Company as Customer sees fit
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.geocod.io/terms-of-use/
+  quote: providing attribution where required by the underlying Data Sources
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://www.geocod.io/pricing/
+  quote: 2,500 lookups free per day, forever
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.geocod.io/terms-of-use/
+  quote: provided that such uses are permitted by the underlying Data Sources and applicable law
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.geocod.io/terms-of-use/
+  quote: can only be stored for up to twelve months after the UK Terms of Service attachment terminates
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Storage and resale rights are conditional on underlying data sources (OSM ODbL, GeoNames
+  CC-BY, OpenAddresses various, UK PAF/OS); UK reverse geocoding storage ends 12 months after subscription
+  | applied: storage_caching=ambiguous, attribution_required=ambiguous'

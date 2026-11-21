@@ -1,0 +1,46 @@
+id: alphasmo
+name: AlphaSMO
+url: https://alphasmo.com/developer/docs
+category: Finance
+description: SEC 13F institutional holdings, Form 4 insider trading, and smart money convergence signals
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: AlphaSMO
+  url: https://alphasmo.com/developer/docs
+  category: Finance
+link_status: alive
+data_license: unknown (raw 13F datasets published separately under open licences; compiled datasets proprietary)
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: HTTP 403 (blocked for bots, assumed alive)
+api_terms_url: https://alphasmo.com/terms
+share_alike: unknown
+evidence:
+- field: commercial_use
+  url: https://alphasmo.com/terms
+  quote: access to congressional trading data specifically requires accepting a separate disclaimer restricting its use to non-commercial research, journalism, and government-oversight purposes
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://alphasmo.com/terms
+  quote: The Site's design, original text, and compiled/aggregated datasets are the property of AlphaSMO, except where noted otherwise.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://alphasmo.com/terms
+  quote: API access is subject to additional terms set at the time of API key issuance
+  checked_at: '2026-11-21'
+notes: 'curl returned 403 (bot block); the pages were read with Playwright in a fresh context (terms page loaded fine). Terms of Use says API access is subject to additional terms issued with the API key
+  (not readable without an account), congressional trading data is restricted to non-commercial use, and the compiled datasets belong to AlphaSMO. Commercial use, storage and display of the rest of the
+  data are not stated: all unknown. Underlying data is public SEC/Senate filings. /developer/docs page has no terms text.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

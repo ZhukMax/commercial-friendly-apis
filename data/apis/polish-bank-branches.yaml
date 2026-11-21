@@ -1,0 +1,36 @@
+id: polish-bank-branches
+name: Polish Bank Branches
+url: https://ksefekburczymucha.pl/api/bank/
+category: Finance
+description: Polish bank branch lookup by 8-digit clearing number (Numer Rozliczeniowy) or full 26-digit IBAN, free, no API key
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: Polish Bank Branches
+  url: https://ksefekburczymucha.pl/api/bank/
+  category: Finance
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://ksefekburczymucha.pl/api/bank/
+rate_limits: 60 requests/min and 2,000/day per IP
+evidence:
+- field: rate_limits
+  url: https://ksefekburczymucha.pl/api/bank/
+  quote: 60 zapytań / minutę / IP
+  checked_at: '2026-11-21'
+notes: 'Read the API page (Polish): free public API, no key, CORS enabled, a compilation of the public National Bank of Poland (NBP) list of clearing numbers, "no guarantee of freshness". No licence, terms
+  of use or statement about commercial use, storage or display was found (/regulamin 404). NBP source terms not checked. All terms unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -1,0 +1,51 @@
+id: wealthnow
+name: Wealthnow
+url: https://app.wealthnow.io/docs/introduction
+category: Finance
+description: Real-time and historical stock and crypto prices, fundamentals, SEC filings, insider and
+  13F data
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Wealthnow
+  url: https://app.wealthnow.io/docs/introduction
+  category: Finance
+link_status: alive
+data_license: unknown (aggregated third-party market data)
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://wealthnow.io/terms
+share_alike: unknown
+evidence:
+- field: redistribution_display
+  url: https://wealthnow.io/terms
+  quote: scrape, mirror, resell, or redistribute the Service or protected content without our written
+    consent
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://wealthnow.io/terms
+  quote: The Service relies on market data, news, filings, fundamentals, and other content supplied by
+    third parties.
+  checked_at: '2026-11-21'
+notes: 'Read wealthnow.io/terms (consumer app Terms of Service; no separate API/data licence page found)
+  and the API docs intro. The Terms forbid scraping/mirroring/reselling/redistributing the Service or
+  protected content without consent and state that market data is supplied by third parties; nothing on
+  commercial use of API data, caching or attribution. Aggregator of many providers (market data, options
+  flow, 13F, crypto): upstream exchange/vendor licences are likely stricter. Pricing and Credits docs
+  page not readable. Low confidence.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Read ToS (10 Nov 2026), docs intro, llms.txt, pricing-and-credits.md. No commercial/display
+  grant; unknown stands, display more likely restricted.

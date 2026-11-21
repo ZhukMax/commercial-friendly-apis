@@ -1,0 +1,83 @@
+id: aviationweather
+name: AviationWeather
+url: https://www.aviationweather.gov/dataserver
+category: Weather
+description: NOAA aviation weather forecasts and observations
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: AviationWeather
+  url: https://www.aviationweather.gov/dataserver
+  category: Weather
+link_status: alive
+data_license: 'public-domain (NOAA/NWS: public domain unless noted)'
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'no'
+bulk_download: 'yes'
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://www.weather.gov/disclaimer
+api_terms_url: https://www.weather.gov/disclaimer
+commercial_use_scope: any
+share_alike: 'no'
+rate_limits: Keep requests limited in scope and frequency; rate limiting applies; use cache files for
+  large datasets
+evidence:
+- field: data_license
+  url: https://www.weather.gov/disclaimer
+  quote: are in the public domain, unless specifically noted otherwise, and may be used without charge
+    for any lawful purpose
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.weather.gov/disclaimer
+  quote: are in the public domain, unless specifically noted otherwise, and may be used without charge
+    for any lawful purpose
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.weather.gov/disclaimer
+  quote: are in the public domain, unless specifically noted otherwise, and may be used without charge
+    for any lawful purpose
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.weather.gov/disclaimer
+  quote: are in the public domain, unless specifically noted otherwise, and may be used without charge
+    for any lawful purpose
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.weather.gov/disclaimer
+  quote: use it in a manner that implies an endorsement or affiliation with NOAA/NWS
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://www.weather.gov/disclaimer
+  quote: are in the public domain, unless specifically noted otherwise, and may be used without charge
+    for any lawful purpose
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://www.aviationweather.gov/data/api/
+  quote: Please keep requests limited in scope and frequency.
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://www.aviationweather.gov/data/api/
+  quote: For larger queries, please consider using the cache files which provide quick access to complete
+    datasets.
+  checked_at: '2026-11-21'
+notes: 'Aviation Weather Center is an NWS centre; the NWS disclaimer (weather.gov/disclaimer) was read
+  for terms - AWC''s own site has no separate licence page that I could fetch (SPA). Public domain for
+  NWS web pages ''unless specifically noted otherwise''; conditions: do not claim it as your own, do not
+  imply NOAA/NWS endorsement, do not present modified content as official. No attribution requirement
+  stated (citation is courtesy). Not suitable as an operational flight-planning source (liability disclaimers
+  apply). Old /dataserver URL has moved to /data/api.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Found extra restriction not in first pass: API page says CORS is not permitted, so
+  browser-side calls fail; use server-side or cache files. Only last 30 days queryable. Not for flight
+  planning (liability).'

@@ -1,0 +1,66 @@
+id: tmdb
+name: TMDb
+url: https://www.themoviedb.org/documentation/api
+category: Video
+description: Community-based movie data
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: TMDb
+  url: https://www.themoviedb.org/documentation/api
+  category: Video
+- list: public-api-lists
+  name: TMDb
+  url: https://www.themoviedb.org/documentation/api
+  category: Video
+link_status: redirect
+data_license: proprietary
+commercial_use: paid-only
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: high
+link_checked_at: '2026-11-21'
+link_note: '-> https://developer.themoviedb.org/docs/getting-started (binding terms: https://www.themoviedb.org/api-terms-of-use)'
+api_terms_url: https://www.themoviedb.org/api-terms-of-use
+commercial_use_scope: paid
+cache_limit: 6 months maximum
+attribution_text: Show the TMDB logo (less prominent than your own) and the notice "This [website, program, service, application, product] uses TMDB and the TMDB APIs but is not endorsed, certified, or
+  otherwise approved by TMDB."
+evidence:
+- field: data_license
+  url: https://www.themoviedb.org/api-terms-of-use
+  quote: TMDB reserves all rights not expressly granted herein
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.themoviedb.org/api-terms-of-use
+  quote: You must use the TMDB logo to identify Your use of TMDB, the TMDB APIs, or TMDB Content.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.themoviedb.org/api-terms-of-use
+  quote: The license in Paragraph 1.A above does not permit any commercial use of TMDB, the TMDB APIs, or TMDB Content.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.themoviedb.org/api-terms-of-use
+  quote: If Your use (or intended use) is commercial, You must enter into a written agreement with TMDB that expressly permits Your commercial use.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.themoviedb.org/api-terms-of-use
+  quote: Cache, for longer than 6 months, any information obtained through or from TMDB or the TMDB APIs.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.themoviedb.org/api-terms-of-use
+  quote: You must use the TMDB logo to identify Your use of TMDB, the TMDB APIs, or TMDB Content.
+  checked_at: '2026-11-21'
+notes: Free key is non-commercial only. Terms list commercial examples including charging users, and revenue from advertising displayed on a website and recommendation/affiliate-style sites; a commercial
+  agreement (possibly with fees) is required, so a free-key ad/affiliate site breaches the terms. Hence paid-only/yellow (could be read as red for the free tier). Cache max 6 months. Also bans derivative
+  works and ML/AI training use. Original URL redirects to https://developer.themoviedb.org/docs/getting-started; the binding terms are at /api-terms-of-use. Display permission is implied by the attribution
+  regime, not stated as a separate sentence.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

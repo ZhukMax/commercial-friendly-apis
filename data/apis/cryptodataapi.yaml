@@ -1,0 +1,31 @@
+id: cryptodataapi
+name: CryptoDataAPI
+url: https://cryptodataapi.com/api/docs
+category: Cryptocurrency
+description: Prices, derivatives, funding, liquidations, Hyperliquid, ETF flows, volatility index and regimes
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: CryptoDataAPI
+  url: https://cryptodataapi.com/api/docs
+  category: Cryptocurrency
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://cryptodataapi.com/terms
+evidence: []
+notes: 'Read ToS (updated 2026-08-22): forbids exceeding quotas and reselling/redistributing/sublicensing raw data feeds in bulk as a competing data product without written agreement. Nothing on commercial
+  use, caching, display or attribution; pricing page had no licence wording, so all core fields unknown. Underlying exchange data (Binance, Hyperliquid etc.) upstream terms not checked.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

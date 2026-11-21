@@ -1,0 +1,26 @@
+id: emissaoja
+name: emissaoja
+url: https://emissaoja.com.br/docs/
+category: Documents & Productivity
+description: Issue Brazilian NFS-e service invoices via Emissor Nacional, no digital certificate; free
+  sandbox
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: emissaoja
+  url: https://emissaoja.com.br/docs/
+  category: Documents & Productivity
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

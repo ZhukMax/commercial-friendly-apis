@@ -1,0 +1,26 @@
+id: cloudflare-trace
+name: Cloudflare Trace
+url: https://github.com/fawazahmed0/cloudflare-trace-api
+category: Development
+description: Get IP Address, Timestamp, User Agent, Country Code, IATA, HTTP Version, TLS/SSL Version
+  & More
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Cloudflare Trace
+  url: https://github.com/fawazahmed0/cloudflare-trace-api
+  category: Development
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

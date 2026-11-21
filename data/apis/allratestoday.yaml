@@ -1,0 +1,75 @@
+id: allratestoday
+name: AllRatesToday
+url: https://allratestoday.com/central-bank-rates-api/
+category: Currency Exchange
+description: Official exchange rates published by 121 central banks and tax authorities, keyless latest
+  table
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: AllRatesToday
+  url: https://allratestoday.com/central-bank-rates-api/
+  category: Currency Exchange
+- list: public-api-lists
+  name: AllRatesToday
+  url: https://allratestoday.com
+  category: Currency Exchange
+link_status: alive
+data_license: proprietary (AllRatesToday Terms of Service); underlying rates are published by central
+  banks
+commercial_use: paid-only
+storage_caching: 'yes'
+redistribution_display: ambiguous
+attribution_required: 'no'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://allratestoday.com/terms
+commercial_use_scope: paid
+attribution_text: 'Keyless public use: visible followable link to AllRatesToday (e.g. "Exchange rates
+  by AllRatesToday")'
+evidence:
+- field: commercial_use
+  url: https://allratestoday.com/terms
+  quote: Use the free tier or the keyless official-rate endpoints in a commercial product, a paid service,
+    or a public display
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://allratestoday.com/central-bank-rates-api/
+  quote: caching a day's table locally makes a small quota go a very long way
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://allratestoday.com/terms
+  quote: Resell or redistribute API data without permission
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://allratestoday.com/terms
+  quote: With an API key, attribution is appreciated but not required
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://allratestoday.com/terms
+  quote: Use the free tier or the keyless official-rate endpoints in a commercial product, a paid service,
+    or a public display
+  checked_at: '2026-11-21'
+notes: 'Read https://allratestoday.com/terms (updated Nov 2026) and the central-bank-rates page. ToS:
+  the free tier and keyless official-rate endpoints may NOT be used in a commercial product, paid service
+  or public display (websites, apps, kiosks); these uses require a paid plan. Exception: open ECB endpoint,
+  /api/compat/ and widgets may be used commercially keyless with a visible link. With an API key attribution
+  is appreciated but not required (except digital signage). Reselling/redistributing API data without
+  permission is banned. Caching is suggested on the product page but not formally granted in the ToS,
+  so storage_caching rests on that weak marketing sentence (treat as medium). Aggregator: rates come from
+  121+ central banks and tax authorities; those publishers'' own licences (often attribution/non-alteration)
+  were NOT checked and may be stricter. Paid plan prices not verified. Description says keyless latest
+  table, which is the part restricted by the commercial clause.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'ToS re-read: public display/commercial product requires paid plan (ECB open endpoint,
+  compat, widgets excepted); ToS silent on caching, only product page encourages it. Upstream central-bank
+  licences still unread (ECB allows reuse; others may differ).'

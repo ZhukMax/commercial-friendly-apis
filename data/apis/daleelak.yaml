@@ -1,0 +1,58 @@
+id: daleelak
+name: Daleelak
+url: https://getdaleelak.com/en/api
+category: Currency Exchange
+description: Egyptian bank and dealer exchange rates, gold and silver prices
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Daleelak
+  url: https://getdaleelak.com/en/api
+  category: Currency Exchange
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: 'yes'
+attribution_required: 'no'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+attribution_text: A link back to Daleelak is appreciated (optional)
+api_terms_url: https://getdaleelak.com/en/terms
+evidence:
+- field: commercial_use
+  url: https://getdaleelak.com/en/api
+  quote: A link back to Daleelak is appreciated, and a commercial license is coming with the paid tier.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://getdaleelak.com/en/api
+  quote: A link back to Daleelak is appreciated, and a commercial license is coming with the paid tier.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://getdaleelak.com/api/v1/feed.json
+  quote: Free to use. A link back to Daleelak (getdaleelak.com) is appreciated.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://getdaleelak.com/en/api
+  quote: Paste this on any page to show today's best price and how good the day is.
+  checked_at: '2026-11-21'
+notes: 'API page FAQ ''Can I use it commercially?'': data is for information only, a link back is appreciated,
+  ''a commercial license is coming with the paid tier'' - implying there is no explicit commercial licence
+  yet, hence ambiguous. /terms (Terms of Use) says rates are indicative, compiled from publicly available
+  information, not affiliated with any bank/Central Bank of Egypt, and asks to use the public API (/api/v1/feed.json)
+  rather than scraping; automated collection ignoring rate limits not allowed. Caching is encouraged (''please
+  cache the data'') but no storage rule stated. Rates are compiled from banks/dealers (upstream terms
+  may be stricter).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Feed JSON carries _license ''Free to use'' and API page offers embeddable live-price
+  widget for any page; FAQ says commercial licence is coming with paid tier, so commercial use stays ambiguous
+  | applied: redistribution_display=yes'

@@ -1,0 +1,55 @@
+id: open-government-mexico-datos
+name: Open Government, Mexico
+url: https://datos.gob.mx/
+category: Government
+description: Mexico Government Open Data
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Open Government, Mexico
+  url: https://datos.gob.mx/
+  category: Government
+link_status: alive
+data_license: unknown
+commercial_use: 'yes'
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: HTTP 403 (blocked for bots, assumed alive)
+commercial_use_scope: any
+share_alike: unknown
+data_license_url: https://www.gob.mx/terminos
+api_terms_url: https://www.gob.mx/terminos
+evidence:
+- field: commercial_use
+  url: https://www.gob.mx/terminos
+  quote: Se autoriza al Usuario a visualizar y descargar los materiales contenidos en el sitio solamente
+    para su uso personal y no para un uso comercial.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.datos.gob.mx/api/3/action/package_search?rows=3
+  quote: Creative Commons Attribution 4.0
+  checked_at: '2026-11-21'
+notes: datos.gob.mx footer links to the general gob.mx Terms (Spanish), which restrict materials of the
+  site to personal, non-commercial use. Open datasets on the national open-data platform are supposed
+  to be under a separate open licence, but the portal licence page (Libre Uso MX) returned 404 and the
+  guideline PDFs were not retrievable, so that was not verified. Conflicting/unverified = ambiguous. Entry
+  was HTTP 403 for upstream link check; pages here read via curl at www.datos.gob.mx. Check the licence
+  on each dataset.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Dataset-level licence is CC-BY-4.0 on the portal''s own CKAN API (1929 of 1937 datasets);
+  gob.mx personal-use terms cover site materials, not dataset licences | applied: commercial_use=yes'
+verdict_override: yellow
+override_reason: Second check resolved some fields; unconfirmed storage/display keeps it at yellow.
+license_scope: portal-default

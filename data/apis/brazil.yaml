@@ -1,0 +1,42 @@
+id: brazil
+name: Brazil
+url: https://brasilapi.com.br/
+category: Government
+description: Community driven API for Brazil Public Data
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Brazil
+  url: https://brasilapi.com.br/
+  category: Government
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://brasilapi.com.br/
+evidence:
+- field: commercial_use
+  url: https://brasilapi.com.br/
+  quote: Estamos em beta e ainda elaborando os Termos de Uso, mas por enquanto por favor não utilize formas
+    automatizadas para fazer crawling
+  checked_at: '2026-11-21'
+notes: 'No formal terms: the project says its Terms of Use are still being written (beta) and asks users
+  not to crawl or run high-volume automated queries. Code is MIT (GitHub), but the data is aggregated
+  from third-party sources (Correios, Receita, BrasilAPI partners, etc.) with their own terms, none stated.
+  Commercial use is neither granted nor forbidden; hence ambiguous. Read: brasilapi.com.br home and GitHub
+  README.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: yellow
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Home page and GitHub README re-read; no licence for data.

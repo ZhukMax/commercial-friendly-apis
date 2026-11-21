@@ -1,0 +1,63 @@
+id: turkpidya
+name: Turkpidya
+url: https://turkpidya.com/developers/
+category: Open Data
+description: 'Türkiye data: gold prices, lira rates, earthquakes, prayer times, fuel, duty pharmacies'
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Turkpidya
+  url: https://turkpidya.com/developers/
+  category: Open Data
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://turkpidya.com/developers/#terms
+commercial_use_scope: any
+cache_limit: Follow the Cache-Control header; always check the record date
+attribution_text: 'Data: Turkpidya (visible, clickable link, use attribution.url from the response)'
+rate_limits: 60 requests/minute per IP (300 with a free key)
+evidence:
+- field: commercial_use
+  url: https://turkpidya.com/developers/
+  quote: Use the API in apps, research and personal projects within these limits.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://turkpidya.com/developers/
+  quote: Follow the Cache-Control header.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://turkpidya.com/developers/
+  quote: Show the Turkpidya link wherever you show the data.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://turkpidya.com/developers/
+  quote: You MUST provide a visible Turkpidya link for every use of our data
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://turkpidya.com/developers/
+  quote: Up to 60 requests per minute per IP (300 with a free key).
+  checked_at: '2026-11-21'
+notes: Read the "API Terms and Conditions" section on the developer page (short). Commercial use is neither
+  allowed nor prohibited explicitly (example box on a jeweller's site suggests display on business sites
+  is intended), so ambiguous. "Do not resell raw feeds". Mandatory visible link on every use, including
+  AI answers; non-compliance can revoke access. Underlying data sources (gold, FX, earthquakes etc.) have
+  their own licences, not checked.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read developer page terms. Nothing forbids commercial display and the page shows
+  a jeweller''s-site widget. Risk: gold data comes from BigPara/doviz.com, FX from TCMB, quakes from Kandilli,
+  whose own terms were not read. Yellow stands.'

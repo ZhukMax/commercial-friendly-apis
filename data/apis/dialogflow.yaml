@@ -1,0 +1,26 @@
+id: dialogflow
+name: Dialogflow
+url: https://cloud.google.com/dialogflow/docs/
+category: Machine Learning
+description: Natural Language Processing
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Dialogflow
+  url: https://cloud.google.com/dialogflow/docs/
+  category: Machine Learning
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://docs.cloud.google.com/dialogflow/docs

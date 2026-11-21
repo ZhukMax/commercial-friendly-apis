@@ -1,0 +1,36 @@
+id: transport-for-the-netherlands
+name: Transport for The Netherlands
+url: http://www.ns.nl/reisinformatie/ns-api
+category: Transportation
+description: NS, only trains
+description_source: upstream
+auth: apiKey
+https: false
+cors: unknown
+sources:
+- list: public-apis
+  name: Transport for The Netherlands
+  url: http://www.ns.nl/reisinformatie/ns-api
+  category: Transportation
+- list: public-api-lists
+  name: Transport for The Netherlands
+  url: http://www.ns.nl/reisinformatie/ns-api
+  category: Transportation
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://apiportal.ns.nl
+api_terms_url: https://apiportal.ns.nl
+evidence: []
+notes: Old URL redirects to the NS API portal (https://apiportal.ns.nl, subscription-based, key required). The public landing page and the linked NS website disclaimer (ns.nl/disclaimer) were
+  read; they contain no API licence, commercial-use, caching or attribution terms. Product-level terms are behind portal login/subscription and were not readable, so all terms unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

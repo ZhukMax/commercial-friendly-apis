@@ -1,0 +1,75 @@
+id: kontragentpro
+name: KontragentPro
+url: https://kontragentpro.ru/api/v2/docs
+category: Business
+description: 'Russian company data from state registers by INN or OGRN: profile, finances, timeline'
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: KontragentPro
+  url: https://kontragentpro.ru/api/v2/docs
+  category: Business
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: ambiguous
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://kontragentpro.ru/terms
+commercial_use_scope: any
+attribution_text: Active link to KontragentPro; for numeric data also the snapshot date
+notes: 'Site Terms of Use read (Russian); they permit citing and using the service''s cards, summaries
+  and open datasets including in commercial projects, and ask for a source link (a request, hence attribution
+  ambiguous). They ban automated mass scraping of the site and point to API access; I did not find separate
+  API terms (API docs at /api/v2/docs mention prepaid deposit, per-key rate limit). auth updated: API
+  v2 uses a Bearer key (only the basic company card works without a key at a lower rate limit). Underlying
+  data is Russian state registers (FNS, FSSP, GIR BO etc.); upstream terms not checked.'
+evidence:
+- field: commercial_use
+  url: https://kontragentpro.ru/terms
+  quote: Материалы сервиса — карточки, сводки и открытые датасеты — можно цитировать и использовать, в
+    том числе в коммерческих проектах.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://kontragentpro.ru/terms
+  quote: Материалы сервиса — карточки, сводки и открытые датасеты — можно цитировать и использовать, в
+    том числе в коммерческих проектах.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://kontragentpro.ru/terms
+  quote: 'При публикации просим указывать источник: активную ссылку на KontragentPro, а для числовых данных
+    — ещё и дату среза.'
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://kontragentpro.ru/terms
+  quote: Запрещено автоматизированное массовое скачивание (скрапинг) сервиса; для API-доступа напишите
+    нам.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.opensanctions.org/licensing/
+  quote: The data is licensed under the terms of Creative Commons 4.0 Attribution NonCommercial
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://kontragentpro.ru/api/v2/docs
+  quote: санкции (OpenSanctions) сверяются по ИНН
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://kontragentpro.ru/api/v2/docs
+  quote: 'Публикуете эти цифры — указывайте RFSD: этого требует лицензия CC BY 4.0.'
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'API response includes sanctions flag sourced from OpenSanctions, whose data is CC
+  BY-NC (non-commercial) unless separately licensed; Financial data from RFSD is CC BY 4.0: attribution
+  mandatory per the API docs (first pass says ambiguous/unknown); Site ToS commercial-use sentence covers
+  service materials, not upstream third-party sets | applied: commercial_use=ambiguous, attribution_required=yes'

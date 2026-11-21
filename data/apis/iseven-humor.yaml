@@ -1,0 +1,30 @@
+id: iseven-humor
+name: isEven (humor)
+url: https://isevenapi.xyz/
+category: Science & Math
+description: Check if a number is even
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: isEven (humor)
+  url: https://isevenapi.xyz/
+  category: Science & Math
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+evidence: []
+notes: Landing page read (isevenapi.xyz). It shows free/premium/enterprise tiers and ads in free responses, but no terms of service, licence or commercial-use statement. Output is a trivial boolean. Left
+  unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

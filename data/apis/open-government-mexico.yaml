@@ -1,0 +1,63 @@
+id: open-government-mexico
+name: Open Government, Mexico
+url: https://www.inegi.org.mx/datos/
+category: Government
+description: Mexican Statistical Government Open Data
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Open Government, Mexico
+  url: https://www.inegi.org.mx/datos/
+  category: Government
+link_status: redirect
+data_license: INEGI Terminos de Libre Uso
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://www.inegi.org.mx/inegi/terminos.html
+api_terms_url: https://www.inegi.org.mx/inegi/terminos.html
+commercial_use_scope: any
+attribution_text: 'Fuente: INEGI, <product name> (+ update date)'
+link_note: https://www.inegi.org.mx/datos/ shows "Pagina no encontrada" and redirects to related content;
+  terms read at /inegi/terminos.html
+evidence:
+- field: commercial_use
+  url: https://www.inegi.org.mx/inegi/terminos.html
+  quote: Puede explotar comercialmente la información, utilizándola como insumo para generar otros productos
+    o servicios.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.inegi.org.mx/inegi/terminos.html
+  quote: Puede hacer y distribuir copias de la información, sin alterar ni suprimir sus metadatos.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.inegi.org.mx/inegi/terminos.html
+  quote: Puede difundir y publicar la información.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.inegi.org.mx/inegi/terminos.html
+  quote: Debe otorgar los créditos correspondientes al INEGI como autor
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.inegi.org.mx/inegi/terminos.html
+  quote: Puede utilizar la información del INEGI con apego a lo dispuesto en los
+  checked_at: '2026-11-21'
+notes: 'INEGI Terms of Free Use (Spanish) allow commercial exploitation, copies, publication and adaptation
+  with credit ''Fuente: INEGI, <product>'' and no implied endorsement. Not read: the INEGI indicators
+  API''s own developer terms (that page returned an error); that API may need a token (auth left as in
+  the upstream list). Third-party data inside INEGI products may carry other terms. Entry URL is a dead
+  redirect page.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: INEGI Libre Uso terms verified. INEGI indicators API own terms/token not read.

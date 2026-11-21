@@ -1,0 +1,73 @@
+id: top-5-stocks
+name: Top 5 Stocks
+url: https://top5stocks.netlify.app/developers
+category: Finance
+description: Daily AI-ranked stock and crypto watchlists
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Top 5 Stocks
+  url: https://top5stocks.netlify.app/developers
+  category: Finance
+link_status: alive
+data_license: proprietary (Top 5 Stocks Terms, section 12 API Terms of Use)
+commercial_use: ambiguous
+storage_caching: 'no'
+redistribution_display: 'no'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://top5stocks.netlify.app/terms
+attribution_text: Data by Top 5 Stocks (visible, or equivalent)
+evidence:
+- field: commercial_use
+  url: https://top5stocks.netlify.app/terms
+  quote: The standard license permits an end-user application you operate, subject to attribution and
+    plan limits.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://top5stocks.netlify.app/terms
+  quote: You may use API data in your own internal tools and may display derived or formatted results
+    to end users in an application you operate.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://top5stocks.netlify.app/terms
+  quote: 'you must include visible attribution: "Data by Top 5 Stocks" or equivalent.'
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://top5stocks.netlify.app/terms
+  quote: The standard license permits an end-user application you operate, subject to attribution and
+    plan limits.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://top5stocks.netlify.app/terms
+  quote: You may not republish, redistribute, scrape, or resell our protected content or licensed API
+    feed without prior written consent.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://top5stocks.netlify.app/terms
+  quote: You may save one copy for personal, non-commercial use.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://top5stocks.netlify.app/terms
+  quote: New Developer API enrollment is paused.
+  checked_at: '2026-11-21'
+notes: 'Section 12 says new Developer API enrollment is paused; the "standard API license" (display in
+  an app you operate, attribution required, no raw redistribution) applies to existing subscribers only.
+  For the free no-key tier the ToS says you may not republish, redistribute, scrape or resell protected
+  content or the API feed and may save one copy for personal non-commercial use. So commercial and display
+  rights for a new free user are ambiguous. Storage/caching not addressed. Underlying data uses public
+  and third-party sources (not read). Pages read: /terms, /developers.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'New API enrollment is paused, so the standard API licence is unavailable to new users;
+  Terms for everyone else forbid republishing the feed and allow one personal non-commercial copy | applied:
+  redistribution_display=no, storage_caching=no'

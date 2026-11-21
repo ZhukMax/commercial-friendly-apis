@@ -1,0 +1,78 @@
+id: openfda
+name: openFDA
+url: https://open.fda.gov
+category: Health
+description: Public FDA data about drugs, devices and foods
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: openFDA
+  url: https://open.fda.gov
+  category: Health
+- list: public-api-lists
+  name: openFDA
+  url: https://open.fda.gov
+  category: Health
+link_status: alive
+data_license: CC0-1.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'no'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: high
+link_checked_at: '2026-11-21'
+api_terms_url: https://open.fda.gov/terms/
+data_license_url: https://open.fda.gov/license/
+commercial_use_scope: any
+attribution_text: Data provided by the U.S. Food and Drug Administration (https://open.fda.gov)
+share_alike: unknown
+rate_limits: 'No key: 240 req/min and 1,000 req/day per IP. With key: 240 req/min and 120,000 req/day
+  per key.'
+evidence:
+- field: commercial_use
+  url: https://open.fda.gov/terms/
+  quote: You can copy, modify, distribute, and perform the work, even for commercial purposes, all without
+    asking permission.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://open.fda.gov/terms/
+  quote: made available with a Creative Commons CC0 1.0 Universal dedication.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://open.fda.gov/terms/
+  quote: While not required, when using content, data, documentation, code, and related materials from
+    openFDA in your own work, we ask that proper credit be given.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://open.fda.gov/apis/authentication/
+  quote: 'With no API key: 240 requests per minute, per IP address. 1,000 requests per day, per IP address.'
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://open.fda.gov/terms/
+  quote: You can copy, modify, distribute, and perform the work, even for commercial purposes, all without
+    asking permission.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://open.fda.gov/terms/
+  quote: You can copy, modify, distribute, and perform the work, even for commercial purposes, all without
+    asking permission.
+  checked_at: '2026-11-21'
+notes: 'Official terms: https://open.fda.gov/terms/ (service ToS) and https://open.fda.gov/license/ (data
+  licensing); listed URL is the homepage. Public-domain/CC0 with exceptions: some records may be third-party
+  copyrighted ("This data is not in the public domain. Third party copy rights may apply." marked in the
+  field docs) and GMDN device term codes/names/definitions are under licence from The GMDN Agency (no
+  commercial services built on them without a licence). Service may be limited or withdrawn at FDA''s
+  discretion (Right to Limit / Service Termination). Attribution is requested, not required. Do not imply
+  FDA endorsement.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: FDA may limit or terminate access at its discretion. Avoid GMDN term data in commercial
+  reuse. Ad site displaying CC0 data is fine.

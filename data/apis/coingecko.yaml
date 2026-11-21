@@ -1,0 +1,80 @@
+id: coingecko
+name: CoinGecko
+url: http://www.coingecko.com/api
+category: Cryptocurrency
+description: Cryptocurrency Price, Market, and Developer/Social Data
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: CoinGecko
+  url: http://www.coingecko.com/api
+  category: Cryptocurrency
+- list: public-api-lists
+  name: CoinGecko
+  url: https://www.coingecko.com/api
+  category: Cryptocurrency
+link_status: redirect
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: limited
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: -> https://www.coingecko.com/en/api
+api_terms_url: https://www.coingecko.com/en/api_terms
+commercial_use_scope: any
+cache_limit: Not encouraged; if cached, refresh at least every 24 hours, store encrypted, delete user
+  data on request
+attribution_text: Powered by CoinGecko
+share_alike: unknown
+rate_limits: Per plan, see https://www.coingecko.com/en/api/pricing (can be changed by CoinGecko at any
+  time)
+evidence:
+- field: attribution_required
+  url: https://www.coingecko.com/en/api_terms
+  quote: displaying prominently the message “Powered by CoinGecko” in a legible font
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.coingecko.com/en/api_terms
+  quote: We do not encourage caching or storage of Data. However, if you must cache or store Data
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.coingecko.com/en/api_terms
+  quote: hereby grants to you a limited, non-exclusive, non-assignable, non-transferable and irrevocable
+    license to use the CoinGecko API to develop, test, and support any software application
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.coingecko.com/en/api/pricing
+  quote: Demo Attribution required
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.coingecko.com/en/api/pricing
+  quote: Commercial redistribution license
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.coingecko.com/en/api_terms
+  quote: You should refresh the cache at least every 24 hours
+  checked_at: '2026-11-21'
+notes: 'Listed URL redirects to https://www.coingecko.com/en/api; terms are at /en/api_terms (opened via
+  Playwright, Cloudflare blocks plain fetch). The ToS grants a licence to use the API in any application/website/service
+  and requires prominent ''Powered by CoinGecko'' (font >= 10) per https://brand.coingecko.com/resources/attribution-guide.
+  The pricing page table shows ''License: Commercial'' for Basic/Analyst/Lite/Pro, while the free Demo
+  column has no licence label and says ''Attribution required''; the ToS text I read does not state explicitly
+  whether Demo may be used on a monetised site, hence ambiguous. ''Commercial redistribution license''
+  is listed only under Enterprise, so passing raw data on to third parties (resale/feeds) needs Enterprise;
+  showing prices on your own pages is the normal use case. Demo-plan rate limits not captured. Safest
+  path for a commercial site: paid plan + ''Powered by CoinGecko'' + cache refresh <= 24h. Terms may be
+  changed by CoinGecko; keyless public API exists for prototyping.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read ToS and pricing via fresh Playwright context. ToS has no mention of commercial/non-commercial.
+  Free-tier commercial status remains unresolved; safest is a paid plan.

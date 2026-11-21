@@ -1,0 +1,70 @@
+id: estimatetax
+name: EstimateTax
+url: https://estimatetax.net/api/
+category: Finance
+description: US federal, state and local income tax calculation for 2026, with the source of every figure
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: EstimateTax
+  url: https://estimatetax.net/api/
+  category: Finance
+link_status: alive
+data_license: proprietary terms of service (free use; figures from IRS and state revenue departments)
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://estimatetax.net/terms/
+commercial_use_scope: any
+attribution_text: Show the source/provenance returned in each response; widget keeps its link to estimatetax.net
+rate_limits: 60 requests/min per address, no key
+evidence:
+- field: commercial_use
+  url: https://estimatetax.net/terms/
+  quote: You may use them for personal or professional purposes without asking permission and without
+    payment.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://estimatetax.net/terms/
+  quote: The embeddable calculator is free to use on any site, commercial or not, with no volume limit
+    and no registration.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://estimatetax.net/terms/
+  quote: Caching responses is encouraged; the endpoint sets cache headers accordingly.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://estimatetax.net/terms/
+  quote: If you display our figures to your own users, displaying that provenance alongside them is expected
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://estimatetax.net/terms/
+  quote: the widget carries a visible link back to estimatetax.net and that link must not be removed,
+    hidden, obscured by overlay
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://estimatetax.net/terms/
+  quote: You may use them for personal or professional purposes without asking permission and without
+    payment.
+  checked_at: '2026-11-21'
+notes: 'Terms of Service section 4 covers the API: open without a key, 60 req/min per address, caching
+  encouraged, displaying provenance next to figures expected; widget use is free on commercial sites with
+  a mandatory link. The terms say keys, quotas or pricing may be introduced later with notice and that
+  a commercial arrangement exists for higher volumes. Output must not be passed off as professional tax
+  advice. Federal/state figures come from IRS and state sources (public). Medium confidence: terms are
+  informal prose and the API is described as currently open.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Terms may add keys/quotas later with notice. Do not present output as own work or as
+  professionally reviewed tax advice. Informal terms, no explicit licence.

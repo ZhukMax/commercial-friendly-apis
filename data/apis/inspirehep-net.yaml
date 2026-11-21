@@ -1,0 +1,82 @@
+id: inspirehep-net
+name: inspirehep.net
+url: https://github.com/inspirehep/rest-api-doc
+category: Science & Math
+description: High Energy Physics info. system
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: inspirehep.net
+  url: https://github.com/inspirehep/rest-api-doc
+  category: Science & Math
+link_status: alive
+data_license: CC0-1.0 for metadata, with field-level caveats (no email addresses; abstracts/keywords only
+  from listed sources)
+commercial_use: ambiguous
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'no'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://help.inspirehep.net/knowledge-base/terms-of-use/
+api_terms_url: https://help.inspirehep.net/knowledge-base/terms-of-use/
+commercial_use_scope: any
+share_alike: 'no'
+evidence:
+- field: data_license
+  url: https://help.inspirehep.net/knowledge-base/terms-of-use/
+  quote: All of the metadata from the INSPIRE HEP collection may be reused in accordance with the CC0
+    waiver and the following caveats
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://help.inspirehep.net/knowledge-base/terms-of-use/
+  quote: All of the metadata from the INSPIRE HEP collection may be reused in accordance with the CC0
+    waiver and the following caveats
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://help.inspirehep.net/knowledge-base/terms-of-use/
+  quote: All of the metadata from the INSPIRE HEP collection may be reused in accordance with the CC0
+    waiver and the following caveats
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://help.inspirehep.net/knowledge-base/terms-of-use/
+  quote: All of the metadata from the INSPIRE HEP collection may be reused in accordance with the CC0
+    waiver and the following caveats
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://help.inspirehep.net/knowledge-base/terms-of-use/
+  quote: All of the metadata from the INSPIRE HEP collection may be reused in accordance with the CC0
+    waiver and the following caveats
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://help.inspirehep.net/knowledge-base/terms-of-use/
+  quote: All of the metadata from the INSPIRE HEP collection may be reused in accordance with the CC0
+    waiver and the following caveats
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://help.inspirehep.net/knowledge-base/terms-of-use/
+  quote: INSPIRE is provided free of charge for educational and informational use.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://help.inspirehep.net/knowledge-base/terms-of-use/
+  quote: The download of email addresses is not permitted.
+  checked_at: '2026-11-21'
+notes: 'Terms of Use read (help.inspirehep.net) plus the REST API doc README on GitHub which points to
+  it. Metadata is reusable under the CC0 waiver; caveats: downloading email addresses is not permitted,
+  abstracts are reusable only when abstracts.source is arXiv or CERN, keywords only when source is author/absent
+  or schema INSPIRE, and full texts must not be reconstructed from snippets. Item 1 says the service is
+  ''free of charge for educational and informational use'', which is not an explicit commercial ban but
+  adds slight doubt. Attribution not required (CC0). Rate limits not recorded.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'ToS item 1 says service is free for educational and informational use; item 5 gives
+  CC0 for metadata; Internal conflict on commercial use; abstract/keyword reuse limited to listed sources
+  | applied: commercial_use=ambiguous'

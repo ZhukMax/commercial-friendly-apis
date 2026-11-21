@@ -1,0 +1,38 @@
+id: requstory
+name: Requstory
+url: https://requstory.com/developers/api/
+category: Business
+description: 'How companies work: teams, processes, ease scores and AI-readiness from public websites'
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Requstory
+  url: https://requstory.com/developers/api/
+  category: Business
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://requstory.com/terms
+rate_limits: 'Public endpoints without a key: 10 calls/minute; with a key: 60 calls/minute and 5 new maps/day'
+evidence:
+- field: rate_limits
+  url: https://requstory.com/lab/api/
+  quote: 'Public endpoints work without a key: 10 calls a minute.'
+  checked_at: '2026-11-21'
+notes: 'Read https://requstory.com/terms (2 Nov 2026), the supplier-index API page https://requstory.com/developers/api/ and the Lab API page https://requstory.com/lab/api/ (the listed description matches
+  the Lab API: company maps, ease scores, AI readiness). The Terms cover the web app (maps, credits, fair use: map only websites you are allowed to read, no personal-data collection) and say nothing about
+  API data licensing, commercial use, storage, display or attribution. Data are drafted from public company websites, so the underlying sites'' rights are not cleared. Requstory servers reject plain curl
+  (HTTP 406) without a browser-like Accept header. All core fields unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

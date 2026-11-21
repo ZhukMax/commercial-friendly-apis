@@ -1,0 +1,70 @@
+id: poetrydb
+name: PoetryDB
+url: https://github.com/thundercomb/poetrydb
+category: Books
+description: Enables you to get instant data from our vast poetry collection
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: PoetryDB
+  url: https://github.com/thundercomb/poetrydb#readme
+  category: Books
+link_status: alive
+data_license: CC-BY-4.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: 'yes'
+verdict: green
+confidence: high
+link_checked_at: '2026-11-21'
+api_terms_url: https://github.com/thundercomb/poetrydb/blob/main/DATA_LICENSE.md
+data_license_url: https://github.com/thundercomb/poetrydb/blob/main/DATA_LICENSE.md
+commercial_use_scope: any
+attribution_text: Poetry data from PoetryDB (https://poetrydb.org), licensed under CC BY 4.0.
+share_alike: 'no'
+evidence:
+- field: data_license
+  url: https://raw.githubusercontent.com/thundercomb/poetrydb/master/README.md
+  quote: '**The data** is released under the [Creative Commons Attribution 4.0 International License (CC
+    BY 4.0)]'
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://raw.githubusercontent.com/thundercomb/poetrydb/master/DATA_LICENSE.md
+  quote: if you reuse **PoetryDB's curated dataset** — a bulk copy, the biographies, the corrected/standardised
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://raw.githubusercontent.com/thundercomb/poetrydb/master/README.md
+  quote: '**The software** is released under the terms of the [GNU Public License v2]'
+  checked_at: '2026-11-21'
+- field: self_host_option
+  url: https://raw.githubusercontent.com/thundercomb/poetrydb/master/README.md
+  quote: '**The software** is released under the terms of the [GNU Public License v2]'
+  checked_at: '2026-11-21'
+notes: README says data is CC BY 4.0 (separate DATA_LICENSE.md); poem texts are public domain (Project
+  Gutenberg etc.), the curated edition/database needs attribution. CC BY deed (creativecommons.org) used
+  for commercial/copy/redistribute, applied because the project states CC BY applies. Software is GPLv2
+  (does not affect data use; share-alike=no for the data). No rate limit or hosted-API terms found; the
+  public instance has no stated SLA.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: No SLA for public instance.

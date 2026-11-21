@@ -1,0 +1,52 @@
+id: open-disease
+name: Open Disease
+url: https://disease.sh/
+category: Health
+description: API for Current cases and more stuff about COVID-19 and Influenza
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Open Disease
+  url: https://disease.sh/
+  category: Health
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: 'yes'
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://raw.githubusercontent.com/disease-sh/API/master/TERMS.md
+commercial_use_scope: any
+evidence:
+- field: commercial_use
+  url: https://raw.githubusercontent.com/disease-sh/API/master/TERMS.md
+  quote: You may not charge users any fee for the use of your application
+  checked_at: '2026-11-21'
+- field: self_host_option
+  url: https://github.com/disease-sh/API
+  quote: Run npm run docker-start-dev to run the local version of the API with Docker
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://raw.githubusercontent.com/nytimes/covid-19-data/master/LICENSE
+  quote: any such use is for non-commercial purposes only
+  checked_at: '2026-11-21'
+notes: 'Aggregator: repo README lists upstream sources (Worldometers, JHU CSSE, NYT covid-19-data, Canada,
+  RKI, MoHFW India, UK dashboard, etc.), each with its own terms that may be stricter (e.g. NYT data is
+  non-commercial). The repo TERMS.md (linked as ''Terms of Service'' on disease.sh) only bars charging
+  users a fee for your application without a separate agreement and requires removing infringing content
+  on request; it does not address ads/affiliate or caching, so commercial_use is ambiguous. API code is
+  GPL-3.0 (repo LICENSE). Self-hosting is possible, but upstream sources still apply.'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: Upstream NYT covid-19-data licence is non-commercial only; the API repo lists it as
+  a source; Worldometers data scraped, rights unknown

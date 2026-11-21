@@ -1,0 +1,61 @@
+id: open-ephemeris
+name: Open Ephemeris
+url: https://openephemeris.com/docs
+category: Science & Math
+description: Sub-arcsecond planetary positions, natal charts, transits, and Human Design from NASA JPL
+  DE440
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Open Ephemeris
+  url: https://openephemeris.com/docs
+  category: Science & Math
+link_status: alive
+data_license: Outputs owned by the customer; underlying NASA/JPL DE440 ephemeris is public domain
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://openephemeris.com/terms
+commercial_use_scope: any
+rate_limits: 'Explorer free tier: one-time grant of 150 units; Pro 75,000 units/month; Startup 500,000'
+evidence:
+- field: commercial_use
+  url: https://openephemeris.com/terms
+  quote: Commercial use is permitted on every tier, including Explorer
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://openephemeris.com/terms
+  quote: you own the computation outputs returned by the API
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://openephemeris.com/terms
+  quote: you own the computation outputs returned by the API
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://openephemeris.com/terms
+  quote: The underlying NASA/JPL ephemeris data (DE440) is in the public domain.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://openephemeris.com/terms
+  quote: One-time grant, non-expiring; commercial use permitted; transit search included
+  checked_at: '2026-11-21'
+notes: 'Read openephemeris.com/terms (updated 8 Nov 2026) and /pricing. Output ownership clause (8.3)
+  is the basis for storage and display = yes; attribution not mentioned. Restrictions: no reselling/redistributing
+  API access, no systematic extraction to build a competing computation service, disclaimers needed for
+  advice-type apps, API key required. Free Explorer tier is only a one-time 150-unit grant, so ongoing
+  use needs a paid plan, but the free tier is not commercially restricted.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Terms re-read: commercial use on every tier, outputs owned by customer. No reselling
+  of API access; free tier is only 150 one-time units, ongoing use needs paid plan.'

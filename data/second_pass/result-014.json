@@ -1,0 +1,459 @@
+[
+ {
+  "id": "ipgeolocation",
+  "outcome": "confirmed",
+  "reasons": [
+   "Free plan explicitly allows commercial use in production (ToS, re-read)",
+   "Default End-User licence is internal-only: no external exposure of raw lookup results, no end-user storage",
+   "Display to individual visitors of their own data is allowed; public tools/third-party raw results are not"
+  ],
+  "counter_evidence": [
+   {
+    "field": "commercial_use",
+    "url": "https://ipgeolocation.io/tos.html",
+    "quote": "You may use the Free Plan in production and for commercial purposes, under the same license scope"
+   },
+   {
+    "field": "storage_caching",
+    "url": "https://ipgeolocation.io/tos.html",
+    "quote": "You do not permit your end users to store, distribute, or otherwise exploit IPGeolocation.io API and Database"
+   }
+  ],
+  "suggested": {},
+  "note": "Re-read tos.html. Ambiguity on display resolved: evidence points to 'yes, but only per-visitor results inside your app' (not public lookup tools, not shared raw data). Storage by end users is forbidden ('do not permit your end users to store, distribute'); site-operator storage still not addressed, so storage_caching stays unknown. Free-plan commercial sentence is stronger than the first-pass homepage quote: 'You may use the Free Plan in production and for commercial purposes, under the same license scope'. Note: verdict 'unknown' with commercial_use=yes and display=ambiguous should be rechecked by scripts/verdict.py (rule: ambiguous core = at best yellow)."
+ },
+ {
+  "id": "ipwhois",
+  "outcome": "confirmed",
+  "reasons": [
+   "Docs say commercial use allowed on free endpoint; ToS licence is 'personal or internal business purposes' and bans redistribution/mirroring",
+   "No caching/attribution/upstream licence statement anywhere"
+  ],
+  "counter_evidence": [
+   {
+    "field": "redistribution_display",
+    "url": "https://ipwhois.io/terms",
+    "quote": "right to access and use our website, API, documentation, and related materials for your personal or internal business purposes."
+   },
+   {
+    "field": "commercial_use",
+    "url": "https://ipwhois.io/documentation",
+    "quote": "Free endpoint $0 Great for testing, learning, prototyping, and small projects. 1,000 requests / day Commercial use allowed"
+   }
+  ],
+  "suggested": {},
+  "note": "Re-read /terms via Playwright (updated 21 May 2026) and /documentation. Both pages are internally consistent enough: commercial use yes (docs), but showing results to the public is not explicitly covered; the ToS forbids 'transfer, mirror, frame, or make our materials or services available on other servers or platforms'. Evidence leans permissive for per-visitor lookups, restrictive for republishing/bulk datasets. First-pass fields stand."
+ },
+ {
+  "id": "iqair",
+  "outcome": "disputed",
+  "reasons": [
+   "Only terms found (general Legal Terms, July 2026) forbid public display/republication for any commercial purpose without written permission",
+   "No API licence or developer terms exist (API plans page and api-docs.iqair.com have none), so the general terms govern the free Community plan",
+   "Marketing page invites integration into apps/websites but gives no licence text"
+  ],
+  "counter_evidence": [
+   {
+    "field": "redistribution_display",
+    "url": "https://www.iqair.com/legal/terms-conditions",
+    "quote": "may be copied, reproduced, aggregated, republished, uploaded, posted, publicly displayed, encoded, translated, transmitted, distributed, sold, licensed, or otherwise exploited for any commercial purpose whatsoever"
+   },
+   {
+    "field": "commercial_use",
+    "url": "https://www.iqair.com/legal/terms-conditions",
+    "quote": "provided in or through the Services \"AS IS\" for your personal, non-commercial use only."
+   }
+  ],
+  "suggested": {
+   "commercial_use": "no",
+   "redistribution_display": "no"
+  },
+  "note": "Re-read https://www.iqair.com/legal/terms-conditions (Playwright; curl is blocked by Vercel checkpoint) and the API plans page (redirects to /commercial-air-quality-monitors/api; the airvisual-platform/api URL is 404). The ToS text covers 'the Services and any other related products and services' and says Content may not be publicly displayed for any commercial purpose without express prior written permission. Nothing on the plans page grants such permission to Community (free) users; paid plans say 'Get in touch'. Evidence points to commercial_use=no for the free tier (permission needed from IQAir), verdict at best yellow-paid/contact; downgrade display to 'no' absent written agreement. Same service as airvisual entry."
+ },
+ {
+  "id": "iso-3166-2-api",
+  "outcome": "confirmed",
+  "reasons": [
+   "Hobby Vercel API with MIT repo only; no terms of use",
+   "Upstream ISO 3166 / OBP terms could not be read (iso.org blocks curl; OBP is JS-only)",
+   "Cannot show upstream is stricter, so ambiguity stands"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read the API page and README. Data comes from ISO Online Browsing Platform / newsletters (and OSM Nominatim for /coords in the 3166-2 API). iso.org returned Cloudflare 403 to curl and the OBP page rendered nothing usable in Playwright; the generic ISO licence-agreement page found is for purchased publications and says nothing about OBP data. So no demonstrable stricter upstream licence, no blocker found; commercial_use stays ambiguous, confidence low, verdict yellow stands."
+ },
+ {
+  "id": "iso-3166-updates-api",
+  "outcome": "confirmed",
+  "reasons": [
+   "Hobby Vercel API with MIT repo only; no terms of use",
+   "Upstream ISO 3166 / OBP terms could not be read (iso.org blocks curl; OBP is JS-only)",
+   "Cannot show upstream is stricter, so ambiguity stands"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read the API page and README. Data comes from ISO Online Browsing Platform / newsletters (and OSM Nominatim for /coords in the 3166-2 API). iso.org returned Cloudflare 403 to curl and the OBP page rendered nothing usable in Playwright; the generic ISO licence-agreement page found is for purchased publications and says nothing about OBP data. So no demonstrable stricter upstream licence, no blocker found; commercial_use stays ambiguous, confidence low, verdict yellow stands."
+ },
+ {
+  "id": "kakao-maps",
+  "outcome": "confirmed",
+  "reasons": [
+   "Re-read Korean site-terms/site-policies; first-pass quotes are exact",
+   "Data obtained may not be copied/published/given to others without Kakao consent; caching only for UX",
+   "Commercial map use inside a (Biz) app not explicitly allowed or denied"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Both quotes verified via Playwright on developers.kakao.com/terms/ko/site-policies and site-terms. No page found that permits storing or redisplaying Kakao-sourced data outside the map widget, and no explicit non-commercial restriction. Ambiguity unresolved; yellow stands, leaning restrictive for stored/derived data."
+ },
+ {
+  "id": "katalis",
+  "outcome": "confirmed",
+  "reasons": [
+   "API Terms (14 Oct 2026) re-read via Playwright: passing data on allowed with OGL attribution; bulk mirroring and reselling raw responses banned",
+   "Free plan described as 'for one person trying the APIs'; no explicit commercial or storage statement",
+   "Upstream sources are OGL v3.0 (Companies House etc.) plus EA Conditional Licence and SRA acknowledgement: none non-commercial"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "No blocker found. Upstream licences named in the terms are all commercial-compatible (OGL v3.0; Environment Agency Conditional Licence and SRA need their own acknowledgement carried). Terms do not say whether the free plan may feed a monetised site, so commercial_use/storage_caching remain unknown as in first pass."
+ },
+ {
+  "id": "kontragentpro",
+  "outcome": "disputed",
+  "reasons": [
+   "API response includes sanctions flag sourced from OpenSanctions, whose data is CC BY-NC (non-commercial) unless separately licensed",
+   "Financial data from RFSD is CC BY 4.0: attribution mandatory per the API docs (first pass says ambiguous/unknown)",
+   "Site ToS commercial-use sentence covers service materials, not upstream third-party sets"
+  ],
+  "counter_evidence": [
+   {
+    "field": "commercial_use",
+    "url": "https://www.opensanctions.org/licensing/",
+    "quote": "The data is licensed under the terms of Creative Commons 4.0 Attribution NonCommercial"
+   },
+   {
+    "field": "commercial_use",
+    "url": "https://kontragentpro.ru/api/v2/docs",
+    "quote": "санкции (OpenSanctions) сверяются по ИНН"
+   },
+   {
+    "field": "attribution_required",
+    "url": "https://kontragentpro.ru/api/v2/docs",
+    "quote": "Публикуете эти цифры — указывайте RFSD: этого требует лицензия CC BY 4.0."
+   }
+  ],
+  "suggested": {
+   "commercial_use": "ambiguous",
+   "attribution_required": "yes"
+  },
+  "note": "Read https://kontragentpro.ru/api/v2/docs: risk block says sanctions are checked via OpenSanctions; opensanctions.org/licensing (Playwright) states data is CC BY-NC, commercial needs a paid licence. ToS statement 'можно использовать, в том числе в коммерческих проектах' is a blanket claim by a reseller and cannot waive upstream NC terms for that field. Also API docs say publishing RFSD figures requires crediting RFSD under CC BY 4.0, so attribution_required should be yes (not ambiguous). Core commercial_use=yes is therefore too strong for the full payload: suggest ambiguous (is_sanctioned field NC-encumbered; rest of FNS/GIR BO data fine). Also dataset includes individuals' data (Физлицо endpoints): privacy-law risk, not assessed."
+ },
+ {
+  "id": "leadgen-romania",
+  "outcome": "disputed",
+  "reasons": [
+   "Licence is for internal purposes only and explicitly excludes redistribution to third parties",
+   "Public publication limited to excerpts of at most 50 firms per report/article",
+   "Programmatic public site would exceed both limits; official CC BY data is available directly from data.gov.ro"
+  ],
+  "counter_evidence": [
+   {
+    "field": "redistribution_display",
+    "url": "https://leadgen.adrianhomelab.com/terms",
+    "quote": "Licența nu include dreptul de a revinde, sublicenția, închiria sau redistribui către terți serviciul Leadgen, compilația noastră"
+   },
+   {
+    "field": "redistribution_display",
+    "url": "https://leadgen.adrianhomelab.com/terms",
+    "quote": "extrase de cel mult 50 de firme într-un raport sau articol"
+   }
+  ],
+  "suggested": {
+   "redistribution_display": "no"
+  },
+  "note": "Terms re-read (Romanian, updated 14.11.2026). Evidence resolves display to 'no' for a public site built on the API: licence 'în scopuri interne', no redistribution of the Leadgen compilation to third parties, excerpts capped at 50 firms. commercial_use stays ambiguous (B2B/internal commercial use yes; public monetised display no). Recommend noting that the same facts under CC BY 4.0 can be taken from data.gov.ro without these limits."
+ },
+ {
+  "id": "legal-sandbox-georgia",
+  "outcome": "confirmed",
+  "reasons": [
+   "Master Terms 5.2.4 bans unauthorized commercial purposes and reselling/redistributing Platform services",
+   "OpenAPI file says no licence required for read-only use and is designed for third-party integrations; law text free with citation to matsne",
+   "No caching/display rules; contradiction unresolved"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read legal.ge/en/terms and the openapi.json. API description says 'Designed for AI agents ... and third-party integrations' and licence 'API access — no licence required for read-only use', but terms still ban unauthorized commercial use without defining authorized. Evidence mildly permissive for law text, unclear for specialist directory (personal data of lawyers). First pass stands."
+ },
+ {
+  "id": "liquilens",
+  "outcome": "disputed",
+  "reasons": [
+   "Terms limit public endpoints to research and evaluation",
+   "A commercial feed is explicitly a separate product to ask for",
+   "Monetised site is therefore not permitted by the free/public tier"
+  ],
+  "counter_evidence": [
+   {
+    "field": "commercial_use",
+    "url": "https://liquilens.in/terms/",
+    "quote": "You may read, link, quote with attribution, and call the public endpoints for research and evaluation."
+   },
+   {
+    "field": "commercial_use",
+    "url": "https://liquilens.in/terms/",
+    "quote": "If you want a commercial feed, ask; that is what the product is."
+   }
+  ],
+  "suggested": {
+   "commercial_use": "paid-only"
+  },
+  "note": "Re-read liquilens.in/terms/. The only grant is 'read, link, quote with attribution, and call the public endpoints for research and evaluation'; commercial use needs a commercial feed/agreement. Evidence points to commercial_use=paid-only (agreement), not ambiguous. Upstream (RBI/FDIC) terms stay with each source (not checked)."
+ },
+ {
+  "id": "livetrafficcam",
+  "outcome": "confirmed",
+  "reasons": [
+   "Site terms: automated access to reasonable limits fine, data belongs to the public",
+   "API only returns camera metadata with agency attribution; images stay on agency sites",
+   "Per-agency terms (some terms_url null) not read, so commercial stays ambiguous"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read api.html, livetrafficcam.com/terms and /sources, and sources.json in the repo (terms_url null for several 511 platforms, Caltrans/Iowa have own conditions). No blocker; the aggregator states it only shows images where the agency feed is published for third-party use. First pass (ambiguous, yellow, attribution yes) stands."
+ },
+ {
+  "id": "locationiq",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToS re-read: free account may cache 48 h, customers for relationship duration, yet 'store response data forever': genuinely inconsistent",
+   "Pricing page: free plan 'Limited Commercial Use' with prominent link back",
+   "OSM-derived ODbL data upstream: OSM attribution also needed"
+  ],
+  "counter_evidence": [
+   {
+    "field": "attribution_required",
+    "url": "https://locationiq.com/pricing",
+    "quote": "You can use our free plan in commercial projects if you spread the love by adding a prominent link back to us"
+   }
+  ],
+  "suggested": {},
+  "note": "First-pass evidence is accurate except the pricing sentence now reads 'adding a prominent link back to us on your website or app' (first-pass quote lacks 'prominent'; meaning unchanged, evidence quote should be refreshed). Upstream (OSM ODbL, GeoNames CC BY, WOF CC0, OpenAddresses) credited on /attribution; no stricter upstream blocker for display. Fields stand."
+ },
+ {
+  "id": "logoapi",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms re-read: embed and cache allowed, no attribution, free 2M req/month per site",
+   "Logos are third-party trademarks shown for identification only: commercial use stays trademark-risky",
+   "Only bulk download to feed another logo service is banned"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "No blocker beyond trademark wording. First-pass quotes verified exactly on logoapi.sh/terms. Ambiguity on commercial_use stands (identification-only); leans yes for ordinary display of a company logo next to its name."
+ },
+ {
+  "id": "logokit",
+  "outcome": "disputed",
+  "reasons": [
+   "Pricing page marks the Free plan 'Attribution required'; no-attribution only from paid Startup plan",
+   "Startup plan is the one described as 'Embed brand logos in production'",
+   "First pass left attribution_required unknown"
+  ],
+  "counter_evidence": [
+   {
+    "field": "attribution_required",
+    "url": "https://logokit.com/pricing",
+    "quote": "Attribution required"
+   },
+   {
+    "field": "commercial_use",
+    "url": "https://logokit.com/pricing",
+    "quote": "Embed brand logos in production."
+   }
+  ],
+  "suggested": {
+   "attribution_required": "yes"
+  },
+  "note": "Terms (13 Oct) re-read: business users only, hotlink only, caching only with Enterprise (30 days). Pricing page (logokit.com/pricing) adds attribution requirement on Free and 'No attribution required' on Startup+, which the first pass did not read. Free-tier production use is not clearly granted. Suggest attribution_required=yes (free tier); commercial_use stays ambiguous and may be paid-only for production."
+ },
+ {
+  "id": "lottolens-ph",
+  "outcome": "confirmed",
+  "reasons": [
+   "CC BY 4.0 on documentation/field definitions only; README repeats 'Underlying public facts remain subject to their original sources'",
+   "Rows cite PCSO or third-party archives; their terms not stated",
+   "Snapshot is fixed, static and cacheable; no ToS beyond this"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read API page, dataset page, README and LICENSE. The repo LICENSE and the schema.org Dataset block declare CC BY 4.0 for the dataset, but the README and API page narrow it to documentation/metadata, so the broader reading is not reliable. If CC BY applies, attribution is required (first-pass 'unknown' could be 'yes'). Gambling-adjacent content may be limited by ad networks. First pass stands."
+ },
+ {
+  "id": "luchtmeetnet",
+  "outcome": "confirmed",
+  "reasons": [
+   "Open-data page re-read: CC BY-ND 4.0 and mandatory source credit (www.luchtmeetnet.nl)",
+   "Commercial use fine under CC BY-ND; NoDerivatives limits adapted/transformed redistribution only",
+   "Availability not guaranteed; rate limit 100 req/5 min"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Verified via Playwright. Page also asks that apps use realtime data from the site and that citation must not imply endorsement. Storage of verbatim values is not forbidden by ND, but derived products (averages, indices) are a grey area, so storage_caching ambiguous stands."
+ },
+ {
+  "id": "m-t-o-france",
+  "outcome": "confirmed",
+  "reasons": [
+   "CPU: each API has its own licence shown on the API page and at order",
+   "Open-data portal meteo.data.gouv.fr states contents are under Licence Ouverte etalab-2.0",
+   "Portal APIs mix free open-data and paid; per-API licence not read"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read /web/fr/cpu (section 3.2) and portal home. The Etalab 2.0 statement (meteo.data.gouv.fr: 'sous licence etalab-2.0') points to commercial reuse with attribution for open-data datasets, but it is not stated for each API behind the portal, so no field can be upgraded. No blocker found; fields stand."
+ },
+ {
+  "id": "mapa-oswiatowa",
+  "outcome": "confirmed",
+  "reasons": [
+   "Referenced regulamin now read: sui generis protection of the site database; bulk or systematic extraction forbidden",
+   "Scraping ban explicitly excludes the public API; developer page says commercial use is allowed with source licences",
+   "ODbL share-alike for OSM-derived fields and PRNG-specific credit text required"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Regulamin sec. 9 forbids extraction and re-use of the whole or a substantial part of the database and repeated systematic extraction of non-substantial parts that harms normal use; sec. 5 forbids copying site content for commercial purposes without consent but exempts the public API. Developer FAQ, in contrast, encourages caching responses. Storage stays ambiguous (leaning limited). PRNG data needs the line 'Wykorzystano/opracowano na podstawie materiałów państwowego zasobu geodezyjnego i kartograficznego'. Fields stand, yellow stands."
+ },
+ {
+  "id": "mapbox",
+  "outcome": "disputed",
+  "reasons": [
+   "ToS: separate commercial licence only for listed verticals and vehicle use, not for all production use",
+   "Pricing: pay-as-you-go with free tiers for most products",
+   "Ambiguity resolved toward yes (with vertical exclusions)"
+  ],
+  "counter_evidence": [
+   {
+    "field": "commercial_use",
+    "url": "https://www.mapbox.com/legal/tos",
+    "quote": "If your Licensed Application is related to business intelligence or analytics, sales performance management, cloud database management systems, or real estate"
+   },
+   {
+    "field": "commercial_use",
+    "url": "https://www.mapbox.com/pricing",
+    "quote": "Sign up and start building with meaningful free tiers for most products."
+   }
+  ],
+  "suggested": {
+   "commercial_use": "yes"
+  },
+  "note": "Re-read ToS (Playwright) and pricing page. The ToS grants the right to incorporate the Services in Licensed Applications and make them available to End Users; a separate commercial licence is required for production use only in named verticals (business intelligence/analytics, sales performance management, cloud database management, real estate) and vehicle apps. Pricing page: pay-as-you-go with free tiers, Commercial Application License only for those verticals. So for a general site with ads/affiliate links commercial use is allowed on pay-as-you-go/free tier; exclusions apply (real-estate sites need a licence). Product Terms page was not readable (empty shell), so caching/display details remain unverified. First-pass quote in the evidence omits the vertical condition and reads as a blanket production-use ban, which it is not."
+ },
+ {
+  "id": "mapbox-mapbox",
+  "outcome": "disputed",
+  "reasons": [
+   "First-pass commercial_use quote omits the vertical condition; ToS does not require a commercial licence for all production use",
+   "Pricing: free tiers and pay-as-you-go for most products",
+   "Ambiguity resolved toward yes (with vertical exclusions)"
+  ],
+  "counter_evidence": [
+   {
+    "field": "commercial_use",
+    "url": "https://www.mapbox.com/legal/tos",
+    "quote": "If your Licensed Application is related to business intelligence or analytics, sales performance management, cloud database management systems, or real estate"
+   },
+   {
+    "field": "commercial_use",
+    "url": "https://www.mapbox.com/pricing",
+    "quote": "Sign up and start building with meaningful free tiers for most products."
+   }
+  ],
+  "suggested": {
+   "commercial_use": "yes"
+  },
+  "note": "Re-read ToS (Playwright) and pricing page. The ToS grants the right to incorporate the Services in Licensed Applications and make them available to End Users; a separate commercial licence is required for production use only in named verticals (business intelligence/analytics, sales performance management, cloud database management, real estate) and vehicle apps. Pricing page: pay-as-you-go with free tiers, Commercial Application License only for those verticals. So for a general site with ads/affiliate links commercial use is allowed on pay-as-you-go/free tier; exclusions apply (real-estate sites need a licence). Product Terms page was not readable (empty shell), so caching/display details remain unverified. First-pass quote in the evidence omits the vertical condition and reads as a blanket production-use ban, which it is not. Entry mapbox-mapbox claims scope any and attribution yes (logo required); sibling entry mapbox says scope paid and display/attribution unknown: the two records of the same service should be harmonised."
+ },
+ {
+  "id": "mapquest",
+  "outcome": "confirmed",
+  "reasons": [
+   "developer.mapquest.com/legal redirects to System1 site terms: personal, non-commercial use of the web site only",
+   "No separate API terms found; plans page sells Extended Rights Geocoding for off-map storage",
+   "Terms also bar reformatting and displaying results from site searches (website, not API)"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-opened /legal (lands on system1.com/terms/terms-of-use), /plans and hello.mapquest.com/terms-of-use via Playwright. No API-specific licence located, so ambiguity cannot be resolved either way; commercial display of API results is not clearly permitted. Yellow with low confidence stands."
+ },
+ {
+  "id": "materials-platform-for-data-science",
+  "outcome": "confirmed",
+  "reasons": [
+   "API licence read again: free API only for the open MPDS data (CC BY 4.0); everything else closed and proprietary",
+   "Single Designated User, no sublicensing, no service-bureau use",
+   "CC BY itself permits commercial reuse of the open subset with credit"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Verified via Playwright at mpds.io/#formal/api. Evidence leans: commercial use of the open subset (under 5 percent of data) is allowed with attribution; the rest is unavailable without paid licence. Whether showing open data to site visitors conflicts with the API licence clause 'not reused by any other third party' is unclear. Fields stand."
+ },
+ {
+  "id": "mboum-api",
+  "outcome": "disputed",
+  "reasons": [
+   "Current docs/pricing: commercial use is a plan feature (included from Developer plan, about 180 USD/month), not absent",
+   "Docs say commercial use covers your own products and services, but raw redistribution is not included",
+   "ToS (Mar 2024) still bans publishing data or derived results without approval: conflict with newer docs"
+  ],
+  "counter_evidence": [
+   {
+    "field": "commercial_use",
+    "url": "https://docs.mboum.com",
+    "quote": "Plans differ by monthly request allowance and by whether commercial use is allowed."
+   },
+   {
+    "field": "redistribution_display",
+    "url": "https://docs.mboum.com",
+    "quote": "Commercial use lets you use the APIs in your own products, services, and internal tools."
+   },
+   {
+    "field": "redistribution_display",
+    "url": "https://docs.mboum.com",
+    "quote": "Redistributing our data in raw form is not included."
+   }
+  ],
+  "suggested": {
+   "commercial_use": "paid-only",
+   "redistribution_display": "ambiguous"
+  },
+  "note": "docs.mboum.com says plans differ by 'whether commercial use is allowed' and pricing table (mboum.com/pages/pricing, columns Free/Investor/Business/Developer/Enterprise/Institutional) marks Commercial Use with a check only for Developer, Enterprise and Institutional. So commercial_use should be paid-only (not ambiguous) and the verdict red is too harsh: yellow. Display of derived results in own product is allowed on commercial plans per docs, but the older ToS wording forbids publishing derived results: redistribution_display ambiguous, not no. Upstream exchange data licences not checked."
+ },
+ {
+  "id": "meducate",
+  "outcome": "disputed",
+  "reasons": [
+   "ICD-11 content is CC BY-ND 3.0 IGO: attribution required (first pass: unknown)",
+   "Commercial use and caching confirmed explicitly in ToS and FAQ",
+   "Upstream MedlinePlus topic summaries are public domain; PubMed abstract text may be publisher-copyrighted"
+  ],
+  "counter_evidence": [
+   {
+    "field": "attribution_required",
+    "url": "https://www.who.int/standards/classifications/classification-of-diseases",
+    "quote": "ICD-11 is distributed under Creative Commons Attribution-NoDerivs 3.0 IGO license."
+   },
+   {
+    "field": "commercial_use",
+    "url": "https://meducateapi.com/terms",
+    "quote": "You may use Meducate API, including the free tier, in commercial products and services"
+   }
+  ],
+  "suggested": {
+   "attribution_required": "yes"
+  },
+  "note": "Re-read terms (6 Nov 2026) and FAQ: commercial use and caching explicit; no attribution demanded by Meducate itself, but site footer credits NLM and WHO. WHO page states ICD-11 is distributed under CC BY-NoDerivs 3.0 IGO, so showing ICD-11 codes/titles needs attribution and no modification; ToS also forbids building diagnosis/treatment products. MedlinePlus: health-topic summaries are public domain, A.D.A.M./ASHP content is copyrighted (not used per FAQ). Suggest attribution_required=yes for ICD-11 content; display remains ambiguous because LLM-derived text from PubMed abstracts is not covered by an explicit licence."
+ }
+]

@@ -1,0 +1,71 @@
+id: newsdata
+name: NewsData
+url: https://newsdata.io/docs
+category: News
+description: News data API for live-breaking news and headlines from reputed  news sources
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: NewsData
+  url: https://newsdata.io/docs
+  category: News
+link_status: redirect
+data_license: proprietary (NewsData.io ToS; underlying content owned by third parties)
+commercial_use: paid-only
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: -> https://newsdata.io/documentation
+data_license_url: https://newsdata.io/terms
+api_terms_url: https://newsdata.io/terms
+commercial_use_scope: any
+attribution_text: Powered by NewsData.io API (preferably a hyperlink to https://www.newsdata.io)
+evidence:
+- field: commercial_use
+  url: https://newsdata.io/terms
+  quote: You may use the Data Derivatives for your internal and external business purposes.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://newsdata.io/terms
+  quote: The Unstructured Raw Data is owned by third parties and is not under the control of NewsData.io/Bytesview
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://newsdata.io/terms
+  quote: NewsData.io is a data aggregator and doesn't have the right to authorise any user to use the
+    data for their personal and professional purposes.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://newsdata.io/terms
+  quote: Unless otherwise authorised, you shall agree to display an attribution to NewsData.io API alongside
+    any implementation or display of the NewsData.io API Data
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://newsdata.io/terms
+  quote: The Unstructured Raw Data is owned by third parties and is not under the control of NewsData.io/Bytesview
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://newsdata.io/pricing
+  quote: For testing & personal projects
+  checked_at: '2026-11-21'
+notes: 'Terms grant use of the Data Derivatives for internal and external business purposes, with mandatory
+  attribution (Powered by NewsData.io API). But the same terms state NewsData.io is an aggregator without
+  the right to authorise use of the underlying third-party data and users must not break copyright laws;
+  also forbids using the API to reproduce copyrighted material, creating derivative works of the API,
+  making the API available to others. Storage/caching is not addressed: unknown. Free plan is labelled
+  testing and personal projects on the pricing page, but the Terms do not make commercial use paid-only,
+  so commercial_use=yes at the API-terms level; upstream publisher terms may be stricter. link_status:
+  url newsdata.io/docs redirects.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Terms grant external business use, but pricing labels free plan ''testing & personal
+  projects''; Aggregator: third-party content rights not granted | applied: commercial_use=paid-only'

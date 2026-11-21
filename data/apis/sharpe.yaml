@@ -1,0 +1,46 @@
+id: sharpe
+name: Sharpe
+url: https://www.sharpe.ai/docs/free-api
+category: Cryptocurrency
+description: Crypto derivatives, funding, arbitrage, narratives, listings, and news data
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-api-lists
+  name: Sharpe
+  url: https://www.sharpe.ai/docs/free-api
+  category: Cryptocurrency
+link_status: redirect
+data_license: unknown
+commercial_use: paid-only
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://docs.sharpe.ai/authentication
+commercial_use_scope: paid
+api_terms_url: https://www.sharpe.ai/terms
+evidence:
+- field: commercial_use
+  url: https://docs.sharpe.ai/rate-limits
+  quote: Commercial covers use inside your own product; reselling the data is not allowed.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://docs.sharpe.ai/rate-limits
+  quote: Hobbyist is for personal projects and Pro for personal trading and research.
+  checked_at: '2026-11-21'
+notes: 'Listed as "free-api" but docs.sharpe.ai now say the API is paid-only (no free tier or keyless
+  API; 7-day/250-request trial) so auth fixed to apiKey. Plans: Hobbyist ($29/mo, personal projects),
+  Pro (personal trading/research), Commercial ($149/mo, use inside your own product, no reselling). Terms
+  of Service (sharpe.ai/terms, March 2026, read in browser) is generic: service aggregates third-party
+  data, forbids reproducing/distributing any part of the Service without prior consent and scraping beyond
+  personal use; it has no API data clause. Caching and display on public pages unknown. Aggregator: upstream
+  terms may be stricter.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

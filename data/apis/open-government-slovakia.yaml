@@ -1,0 +1,32 @@
+id: open-government-slovakia
+name: Open Government, Slovakia
+url: https://data.gov.sk/en/
+category: Government
+description: Slovakia Government Open Data
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Open Government, Slovakia
+  url: https://data.gov.sk/en/
+  category: Government
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://data.slovensko.sk
+evidence: []
+notes: Home redirects to https://data.slovensko.sk (National Open Data Catalogue, JS app; read via Playwright with analytics cookies declined). Its navigation has no licence, terms-of-use or API-terms page
+  (only privacy and cookie pages); it is a catalogue of datasets from providers (Statistical Office, public procurement office, etc.) which carry their own licences. No licence statement was read, so everything
+  stays unknown. Check each dataset's licence on the provider page.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

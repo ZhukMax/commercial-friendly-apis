@@ -1,0 +1,73 @@
+id: bettip
+name: BetTip
+url: https://bettip.co.za/api/
+category: Open Data
+description: Lottery draw results for UK49s, Gosloto and South African National Lottery
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: BetTip
+  url: https://bettip.co.za/api/
+  category: Open Data
+link_status: alive
+data_license: Free for any use, commercial included (credit BetTip with a link); no formal licence named
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: 'yes'
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://bettip.co.za/api/
+commercial_use_scope: any
+attribution_text: Credit BetTip with a link to https://bettip.co.za/ wherever the data is shown
+rate_limits: No key; none stated on the page
+evidence:
+- field: commercial_use
+  url: https://bettip.co.za/api/
+  quote: Free for any use, commercial included.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://bettip.co.za/api/
+  quote: Free for any use, commercial included.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://bettip.co.za/api/
+  quote: Please credit BetTip with a link to https://bettip.co.za/ wherever the data is shown; that is
+    the whole price.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://bettip.co.za/api/
+  quote: Please credit BetTip with a link to https://bettip.co.za/ wherever the data is shown; that is
+    the whole price.
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://bettip.co.za/api/
+  quote: Every UK49s draw since 2018-09-01, plus Gosloto and the South African National Lottery, as JSON
+    and CSV.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://bettip.co.za/api/
+  quote: Results are the operators' published draws, reproduced as facts, and no guarantee is given
+  checked_at: '2026-11-21'
+notes: Read /api/ (has a 'Terms, in plain words' section) and /terms/ (site account/billing terms; says
+  nothing about the API except that scraping the site can get accounts closed). Only informal plain-words
+  terms, no formal licence; storage/caching is covered only by the 'any use' wording, hence medium confidence.
+  Results are underlying operators' draw numbers (facts); lottery/gambling content may carry local legal
+  restrictions (not assessed). Site itself runs affiliate/betting links.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Plain-words terms on /api/ say free for any use, commercial included, credit link
+  required; /terms/ only covers site accounts, no API restriction; could not re-verify: operator terms
+  unreadable (empty to curl and browser)'
+verdict_override: yellow
+override_reason: 'Second check: Plain-words terms on /api/ say free for any use, commercial included,
+  credit link required; /terms/ only covers site accounts, no API restriction; could not re-verify: operator
+  terms unreadable (empty to curl and browser)'

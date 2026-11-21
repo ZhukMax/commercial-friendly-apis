@@ -1,0 +1,60 @@
+id: immoanalyse
+name: ImmoAnalyse
+url: https://immoanalyse.pro/api-docs
+category: Open Data
+description: German property valuations (ImmoWertV), address geocoding and asking rents for all municipalities
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: ImmoAnalyse
+  url: https://immoanalyse.pro/api-docs
+  category: Open Data
+link_status: alive
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+notes: 'Read the API documentation page (German) incl. FAQ and tariffs. Free tier is explicitly for testing
+  (10 valuations/month); production use is on paid tariffs (Developer/Starter/Professional, bought in
+  the API account). FAQ: results may be shown to your customers inside your own products with a notice
+  that it is a value indication; resale of raw data and building your own database from API results are
+  not allowed; responses may be cached 24 h. The separate API-Nutzungsbedingungen page linked from the
+  docs could not be found by curl (docs only reference it), so exact paid-plan terms are unverified. Key
+  required (apiKey).'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+api_terms_url: https://immoanalyse.pro/api-docs
+commercial_use: paid-only
+commercial_use_scope: paid
+storage_caching: limited
+cache_limit: 24 hours (responses); building an own database from API results is not allowed
+redistribution_display: 'yes'
+attribution_required: unknown
+rate_limits: Free test quota 10 valuations/month; paid tiers by quota per month and requests per minute
+bulk_download: unknown
+self_host_option: unknown
+evidence:
+- field: commercial_use
+  url: https://immoanalyse.pro/api-docs
+  quote: Zum Testen stehen Ihnen jeden Monat 10 Bewertungen kostenlos zur Verfügung.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://immoanalyse.pro/api-docs
+  quote: Antworten dürfen 24 Stunden zwischengespeichert werden
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://immoanalyse.pro/api-docs
+  quote: Nicht erlaubt sind Weiterverkauf der Rohdaten und der Aufbau einer eigenen Datenbank aus API-Ergebnissen.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://immoanalyse.pro/api-docs
+  quote: Ja, innerhalb Ihrer eigenen Produkte und mit dem Hinweis, dass es sich um eine Wertindikation
+    handelt.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://immoanalyse.pro/api-docs
+  quote: Zum Testen stehen Ihnen jeden Monat 10 Bewertungen kostenlos zur Verfügung.
+  checked_at: '2026-11-21'
+data_license: unknown

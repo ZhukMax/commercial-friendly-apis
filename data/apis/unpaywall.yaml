@@ -1,0 +1,67 @@
+id: unpaywall
+name: Unpaywall
+url: https://unpaywall.org/products/api
+category: Science & Math
+description: Open-access status and legal full-text links for scholarly articles
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Unpaywall
+  url: https://unpaywall.org/products/api
+  category: Science & Math
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: ambiguous
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: 'yes'
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://unpaywall.org/legal/terms-of-service
+commercial_use_scope: any
+rate_limits: Please limit use to 100,000 calls per day; email parameter required
+evidence:
+- field: redistribution_display
+  url: https://unpaywall.org/legal/terms-of-service
+  quote: Any unauthorized use, reproduction, modification, distribution or republication of the Data or
+    Database without Impactstory's prior written consent is strictly prohibited.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://unpaywall.org/legal/terms-of-service
+  quote: a non-exclusive, non-transferable, freely revocable, limited license to access and use the free
+    features of the Service, including the Database, Data, and this Site
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://unpaywall.org/products/api
+  quote: Please limit use to 100,000 calls per day.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://unpaywall.org/legal/terms-of-service
+  quote: Any unauthorized use, reproduction, modification, distribution or republication of the Data or
+    Database without Impactstory's prior written consent is strictly prohibited.
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://unpaywall.org/products/api
+  quote: you'll be better served by downloading the entire database snapshot for local access
+  checked_at: '2026-11-21'
+notes: 'Pages read via Playwright (JS site): unpaywall.org/products/api and /legal/terms-of-service (rev.
+  5 Nov 2020), /products/data-feed. The ToS grant only a limited, revocable licence to the free features
+  and prohibit unauthorized reproduction or republication of the Data without written consent; they do
+  not mention commercial use or caching, and no data licence (e.g. for the database snapshot) was read
+  here. A paid Data Feed exists. Per-article licence info in responses refers to the OA copies, not to
+  Unpaywall data. Ambiguous; contact OurResearch for commercial use. 100,000 calls/day limit and database
+  snapshot as alternative come from the API page.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read ToS (rev. 2020) and product pages via Playwright. Snapshot page now says no
+  more Unpaywall snapshots, use the OpenAlex snapshot (monthly); search endpoint retired 2026-09-18. Looking
+  up OA status per DOI for display is plausible but storing or republishing the Database needs consent;
+  OpenAlex is the cleaner source. Ambiguous stands.

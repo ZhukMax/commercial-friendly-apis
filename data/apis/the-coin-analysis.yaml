@@ -1,0 +1,39 @@
+id: the-coin-analysis
+name: The Coin Analysis
+url: https://www.thecoinanalysis.com/developers
+category: Cryptocurrency
+description: Live and historical cryptocurrency prices, market caps, volatility and drawdown
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: The Coin Analysis
+  url: https://www.thecoinanalysis.com/developers
+  category: Cryptocurrency
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+rate_limits: 'Free key: 3 requests/hour per endpoint; Starter 100/h, Business 5000/h (paid tiers not self-serve)'
+evidence:
+- field: rate_limits
+  url: https://www.thecoinanalysis.com/developers
+  quote: 'Free tier: 3 requests/hour per endpoint. No credit card required.'
+  checked_at: '2026-11-21'
+notes: 'Read https://www.thecoinanalysis.com/developers (pricing: Free 0 EUR, Starter 9 EUR, Business
+  79 EUR "Heavier commercial usage") and https://www.thecoinanalysis.com/terms-of-service. The ToS covers
+  the editorial site (content may not be reproduced/redistributed without permission) and says nothing
+  about the price API; no API terms or data licence found. A tier named "commercial usage" is a limit
+  label, not a licence statement, so commercial_use stays unknown. Prices are aggregated from exchanges/market
+  sources whose terms were not checked.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

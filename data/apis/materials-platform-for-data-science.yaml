@@ -1,0 +1,63 @@
+id: materials-platform-for-data-science
+name: Materials Platform for Data Science
+url: https://mpds.io
+category: Science & Math
+description: Curated experimental data for materials science
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Materials Platform for Data Science
+  url: https://mpds.io
+  category: Science & Math
+link_status: alive
+data_license: CC-BY-4.0 for the "open MPDS data" subset only; all other MPDS data proprietary
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://creativecommons.org/licenses/by/4.0/
+api_terms_url: https://mpds.io/#formal/api
+commercial_use_scope: free-tier
+rate_limits: Free API for open data (< 5% of data); full API access from EUR 9,500/year (academia)
+evidence:
+- field: data_license
+  url: https://mpds.io/#formal/api
+  quote: The Licensor releases the open MPDS data via the Provider under the Creative Commons Attribution
+    4.0 International license (CC BY 4.0).
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://mpds.io/#formal/api
+  quote: All the other MPDS scientific data, that are not the part of the open MPDS data, are closed,
+    confidential, and proprietary.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://mpds.io/#formal/api
+  quote: The Designated User agrees NOT to sublicense, assign or transfer the MPDS API.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://mpds.io/#formal/api
+  quote: The Licensor releases the open MPDS data via the Provider under the Creative Commons Attribution
+    4.0 International license (CC BY 4.0).
+  checked_at: '2026-11-21'
+notes: 'Read via Playwright (the terms open as a JS dialog at mpds.io/#formal/api and #formal/terms).
+  Only a limited "open" subset is CC BY 4.0 and free via API; the rest of the database (about 3M datasheets)
+  is proprietary and sold (API full access from EUR 9,500/year per mpds.io pricing). The API licence is
+  per single Designated User, non-sublicensable and bans providing the API as a service; CC BY would allow
+  commercial reuse of the open subset, but how that combines with the API licence is unclear, hence ambiguous.
+  Website terms forbid scraping outside the API. Storage of API results not addressed.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Verified via Playwright at mpds.io/#formal/api. Evidence leans: commercial use of
+  the open subset (under 5 percent of data) is allowed with attribution; the rest is unavailable without
+  paid licence. Whether showing open data to site visitors conflicts with the API licence clause ''not
+  reused by any other third party'' is unclear. Fields stand.'

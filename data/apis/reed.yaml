@@ -1,0 +1,38 @@
+id: reed
+name: Reed
+url: https://www.reed.co.uk/developers
+category: Jobs
+description: Job board aggregator
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Reed
+  url: https://www.reed.co.uk/developers
+  category: Jobs
+- list: public-api-lists
+  name: Reed
+  url: https://www.reed.co.uk/developers
+  category: Jobs
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.reed.co.uk/policies
+notes: 'Read reed.co.uk/developers, /developers/jobseeker (API docs: key via basic auth, max 100 results
+  per call) and the site policies page (reed.co.uk/terms redirects to /policies#termsConditions). No API-specific
+  terms/licence found. The website terms say copying for commercial or business use is not permitted for
+  website material; they do not mention the API, so no commercial verdict is drawn (a separate API agreement
+  may exist at key signup, not read). Jobs are posted by employers/agencies, so third-party content. All
+  unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -1,0 +1,30 @@
+id: tollmint
+name: Tollmint
+url: https://api.tollmint.com
+category: Government
+description: Advertising, subscription, AI-disclosure and accessibility rules across the US, EU and UK
+description_source: upstream
+auth: other
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Tollmint
+  url: https://api.tollmint.com
+  category: Government
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+notes: 'No human-readable terms or licence page found: api.tollmint.com/terms returns a JSON error, tollmint.com/terms etc. return nothing, and the homepage links only to llms.txt, openapi and MCP. The
+  catalogue (api.tollmint.com/v1/agent/catalog) tags each product with a licence field (20 ''proprietary'', 1 ODbL-1.0, 1 ''content remains the property of its publisher'') but states no reuse terms. Service
+  is pay-per-call (HTTP 402, x402/USDC), so auth is not ''none''. Terms unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: unknown

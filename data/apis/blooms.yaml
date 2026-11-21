@@ -1,0 +1,26 @@
+id: blooms
+name: Blooms
+url: https://blooms-production.up.railway.app/api
+category: Security
+description: Distribute keys once for serverless applications
+description_source: upstream
+auth: none
+https: true
+cors: 'no'
+sources:
+- list: public-api-lists
+  name: Blooms
+  url: https://blooms-production.up.railway.app/api
+  category: Security
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: HTTP 404

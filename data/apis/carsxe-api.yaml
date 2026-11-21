@@ -1,0 +1,55 @@
+id: carsxe-api
+name: CarsXE API
+url: https://api.carsxe.com/
+category: Vehicle
+description: Vehicle data and vin decoder, specs, plates, market value, ownership cost and images
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-api-lists
+  name: CarsXE API
+  url: https://api.carsxe.com/?ref=public-apis-github
+  category: Vehicle
+link_status: redirect
+data_license: proprietary (CarsXE Terms and Conditions)
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: api.carsxe.com -> https://carsxe.com/ (redirect)
+data_license_url: https://carsxe.com/terms-and-conditions
+api_terms_url: https://carsxe.com/terms-and-conditions
+commercial_use_scope: any
+evidence:
+- field: commercial_use
+  url: https://carsxe.com/terms-and-conditions
+  quote: We offer you access to the CarsXE website solely for your own personal and non-commercial use.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://carsxe.com/terms-and-conditions
+  quote: You may not resell or make any commercial use of this website and its content.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://carsxe.com/terms-and-conditions
+  quote: We offer you access to the CarsXE website solely for your own personal and non-commercial use.
+  checked_at: '2026-11-21'
+notes: 'The only legal text found is the general Terms and Conditions (website and vehicle history reports):
+  website access is for personal, non-commercial use, no resale or commercial use of the website and its
+  content, reports are for personal use only and may not be displayed or published. These terms never
+  mention the developer API, which is marketed to businesses (docs at docs.carsxe.com were not checked
+  for terms), so applicability to API data is unclear: ambiguous. Also read: service credit terms not
+  read. Storage/caching and attribution not addressed (unknown). Vehicle history/market value data comes
+  from upstream providers (NMVTIS etc.).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'ToS re-read via Playwright: only website and history reports (personal use, no display)
+  addressed; API terms not found (docs/pricing pages carry none). Ambiguous stays.'

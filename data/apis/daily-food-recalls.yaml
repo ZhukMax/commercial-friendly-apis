@@ -1,0 +1,66 @@
+id: daily-food-recalls
+name: Daily Food Recalls
+url: https://dailyfoodrecalls.com/api/
+category: Food & Drink
+description: U.S. FDA and USDA food recalls, merged and normalized, updated daily
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Daily Food Recalls
+  url: https://dailyfoodrecalls.com/api/
+  category: Food & Drink
+link_status: alive
+data_license: CC-BY-4.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: high
+link_checked_at: '2026-11-21'
+data_license_url: https://creativecommons.org/licenses/by/4.0/
+api_terms_url: https://dailyfoodrecalls.com/api/
+commercial_use_scope: any
+attribution_text: Data from Daily Food Recalls (https://dailyfoodrecalls.com), licensed CC BY 4.0
+share_alike: 'no'
+rate_limits: none (static JSON over CDN; polling at most every 15 min suggested)
+evidence:
+- field: commercial_use
+  url: https://dailyfoodrecalls.com/api/
+  quote: You may use it for anything, including commercial products, provided you give credit.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://dailyfoodrecalls.com/api/
+  quote: Free to use, including commercially, under CC BY 4.0
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://dailyfoodrecalls.com/terms/
+  quote: including automated retrieval, caching, storage, redistribution and commercial use
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://dailyfoodrecalls.com/terms/
+  quote: including automated retrieval, caching, storage, redistribution and commercial use
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://dailyfoodrecalls.com/api/
+  quote: You may use it for anything, including commercial products, provided you give credit.
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://dailyfoodrecalls.com/api/
+  quote: You may use it for anything, including commercial products, provided you give credit.
+  checked_at: '2026-11-21'
+notes: 'Read https://dailyfoodrecalls.com/api/ (licence & attribution section) and the site Terms of Service,
+  whose section 4 explicitly carves out the /api/ feed: caching, storage, redistribution and commercial
+  use are authorised under the feed licence, which governs on conflict. Restrictions: do not republish
+  the feed as a competing recall database, do not imply government affiliation. The compilation is CC
+  BY 4.0; underlying FDA/USDA notices are US government works (public domain). Rest of the site (web pages)
+  is not covered by this permission.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed

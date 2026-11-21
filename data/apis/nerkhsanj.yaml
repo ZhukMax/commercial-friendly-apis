@@ -1,0 +1,46 @@
+id: nerkhsanj
+name: Nerkhsanj
+url: https://nerkh.jahankhahan.shop/developers/en
+category: Currency Exchange
+description: Iran free-market USD, EUR, CNY, gold and coin rates in toman, live and daily archive since
+  2010
+description_source: upstream
+auth: none
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Nerkhsanj
+  url: https://nerkh.jahankhahan.shop/developers/en
+  category: Currency Exchange
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+attribution_text: Credit "Nerkhsanj" as the source / link to Nerkhsanj on your site
+api_terms_url: https://nerkh.jahankhahan.shop/developers/en
+evidence:
+- field: attribution_required
+  url: https://nerkh.jahankhahan.shop/developers/en
+  quote: When you show these numbers, credit "Nerkhsanj" as the source.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://nerkh.jahankhahan.shop/developers/en
+  quote: When you show these numbers, credit "Nerkhsanj" as the source.
+  checked_at: '2026-11-21'
+notes: 'Developer page ''Terms of use'': free, use fairly (max one read per endpoint per minute), credit
+  Nerkhsanj when showing the numbers. The site''s /terms/ page (Persian) says the API and rate data are
+  free, to use fairly and link to Nerkhsanj on your site. Neither page says anything on commercial use,
+  caching or reselling (the paid plans page is for the site''s own bulk pricing tool, not API licences),
+  so those stay unknown and verdict unknown. Rates are scraped/derived Tehran free-market rates (''sources''
+  page); upstream terms not checked. Display rated yes only because the terms presuppose showing the numbers
+  with credit.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

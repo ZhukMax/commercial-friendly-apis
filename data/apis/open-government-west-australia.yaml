@@ -1,0 +1,50 @@
+id: open-government-west-australia
+name: Open Government, West Australia
+url: https://data.wa.gov.au/
+category: Government
+description: West Australia Open Data
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Open Government, West Australia
+  url: https://data.wa.gov.au/
+  category: Government
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+commercial_use_scope: any
+share_alike: unknown
+data_license_url: https://data.wa.gov.au/copyright
+api_terms_url: https://data.wa.gov.au/copyright
+evidence:
+- field: commercial_use
+  url: https://data.wa.gov.au/copyright
+  quote: no part may be reproduced or re-used for any commercial purposes whatsoever without prior written
+    permission of the State of Western Australia
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://data.wa.gov.au/policy
+  quote: licensed to enable re use and redistribution
+  checked_at: '2026-11-21'
+notes: 'Conflicting signals: the data.wa.gov.au copyright page restricts website material to personal/non-commercial
+  use "where different copyright terms are not expressly stated", while the open data policy page says
+  open data is licensed to enable re-use and redistribution. Datasets typically carry their own licence,
+  but no dataset-level or API terms were verified, so ambiguous. Check each dataset licence.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'data.wa.gov.au API returns 500 today; used catalogue.data.wa.gov.au CKAN (2918 datasets):
+  cc-by 1655, cc-by-sa 263, cc-nc 84, cc-by-nd 11, custom 790+. Mixed, so per-dataset check required.'
+license_scope: portal-default

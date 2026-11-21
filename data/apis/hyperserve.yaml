@@ -1,0 +1,29 @@
+id: hyperserve
+name: Hyperserve
+url: https://hyperserve.io/
+category: Video
+description: 'Video backend API: upload any format, transcode to MP4, deliver via CDN'
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Hyperserve
+  url: https://hyperserve.io/
+  category: Video
+- list: public-api-lists
+  name: Hyperserve
+  url: https://hyperserve.io/
+  category: Video
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

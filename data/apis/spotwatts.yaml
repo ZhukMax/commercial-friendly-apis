@@ -1,0 +1,72 @@
+id: spotwatts
+name: Spotwatts
+url: https://spotwatts.com/en/api
+category: Environment
+description: Nordic and Baltic day-ahead electricity prices, 15-minute and hourly, with VAT, for 15 price
+  areas
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Spotwatts
+  url: https://spotwatts.com/en/api
+  category: Environment
+link_status: alive
+data_license: 'proprietary service terms; free incl. commercial use with visible link (source data: ENTSO-E
+  Transparency Platform)'
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: 'no'
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://spotwatts.com/en/api
+commercial_use_scope: any
+attribution_text: 'Prices: Spotwatts (visible link next to prices; rel="nofollow" allowed)'
+share_alike: unknown
+rate_limits: 60 requests per 10 seconds per IP; one request per price area per hour recommended
+evidence:
+- field: commercial_use
+  url: https://spotwatts.com/en/api
+  quote: You may use the prices for free, including in commercial apps, websites, dashboards and products.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://spotwatts.com/en/api
+  quote: Wherever you show the prices publicly, put a visible link to Spotwatts next to them
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://spotwatts.com/en/api
+  quote: Wherever you show the prices publicly, put a visible link to Spotwatts next to them
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://spotwatts.com/en/api
+  quote: Do not download the whole history in bulk or mirror the API; cache what you have fetched.
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://spotwatts.com/en/api
+  quote: Do not download the whole history in bulk or mirror the API
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://spotwatts.com/en/api
+  quote: One IP address may send up to 60 requests per 10 seconds
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://spotwatts.com/en/api
+  quote: You may use the prices for free, including in commercial apps, websites, dashboards and products.
+  checked_at: '2026-11-21'
+notes: 'Terms of use are the section on the API page itself (/en/terms is 404): free including commercial
+  use, visible link "Prices: Spotwatts" wherever prices are shown publicly. Caching fetched data is allowed;
+  bulk history download or mirroring the API is not (contact first for more than a few months). Prices
+  are ENTSO-E day-ahead results; ENTSO-E terms not checked. Spotwatts says it is not affiliated with ENTSO-E
+  or Nord Pool.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Terms say not for trading or where an error could cause harm. ENTSO-E CC BY would also
+  expect ENTSO-E credit; Spotwatts page names ENTSO-E as source.

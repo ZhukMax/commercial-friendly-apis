@@ -1,0 +1,67 @@
+id: haterpicks
+name: HaterPicks
+url: https://www.haterpicks.app/api
+category: Sports & Fitness
+description: Australian sports odds and player props from every major Australian bookmaker, free tier
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: HaterPicks
+  url: https://www.haterpicks.app/api
+  category: Sports & Fitness
+link_status: alive
+data_license: proprietary (HaterPicks terms; content owned by HaterPicks or its licensors)
+commercial_use: paid-only
+storage_caching: ambiguous
+redistribution_display: 'yes'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.haterpicks.app/terms
+commercial_use_scope: any
+evidence:
+- field: commercial_use
+  url: https://www.haterpicks.app/terms
+  quote: Redistribute, resell, or commercially exploit any content from the Service
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.haterpicks.app/terms
+  quote: Redistribute, resell, or commercially exploit any content from the Service
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.haterpicks.app/api
+  quote: 'The feed is the current board, not a history: to keep a record, poll it and store what you receive.'
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.haterpicks.app/terms
+  quote: is owned by HaterPicks or its licensors and is protected by copyright and intellectual property
+    laws.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.haterpicks.app/haterpicks-api
+  quote: 'The Business plan includes commercial display rights: showing our prices on a public site or
+    app that earns money'
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.haterpicks.app/haterpicks-api
+  quote: Showing prices on a public site or app that earns money? Choose the plan with commercial display
+    rights.
+  checked_at: '2026-11-21'
+notes: Read the Terms (Acceptable Use) and the API page. Terms forbid redistributing, reselling or commercially
+  exploiting any content from the Service, and say all content (picks, projections, statistics) is owned
+  by HaterPicks or its licensors. No API-specific licence or commercial plan found; a written licence
+  may exist but is not published, so check before use. The API page tells users to store what they receive
+  to keep a record (storage ambiguous). The odds are scraped from Australian bookmakers, so upstream bookmaker
+  terms may also apply.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Plans page grants ''commercial display rights'' on Business plan; First pass missed
+  plan-level licence; red too strict | applied: commercial_use=paid-only, redistribution_display=yes'

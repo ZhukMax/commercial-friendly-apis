@@ -1,0 +1,71 @@
+id: open-government-poland
+name: Open Government, Poland
+url: https://dane.gov.pl/en
+category: Government
+description: Poland Government Open Data
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Open Government, Poland
+  url: https://dane.gov.pl/en
+  category: Government
+- list: public-api-lists
+  name: Open Government, Poland
+  url: https://dane.gov.pl/en
+  category: Government
+link_status: alive
+data_license: 'Per-dataset reuse conditions under Polish Re-Use of PSI Act (default: reusable without
+  limitation)'
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: ambiguous
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://dane.gov.pl/en/regulations
+api_terms_url: https://dane.gov.pl/en/regulations
+commercial_use_scope: any
+share_alike: unknown
+evidence:
+- field: data_license
+  url: https://dane.gov.pl/en/regulations
+  quote: This dataset is public information and can be reused without limitation.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://dane.gov.pl/en/regulations
+  quote: The User may use the Information Resources made available on the Portal for any non-commercial
+    or commercial purposes.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://dane.gov.pl/en/regulations
+  quote: This dataset is public information and can be reused without limitation.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://dane.gov.pl/en/regulations
+  quote: This dataset is public information and can be reused without limitation.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://dane.gov.pl/en/regulations
+  quote: 'These conditions are listed next to individual Datasets and may concern: 1) the obligation to
+    inform about the source'
+  checked_at: '2026-11-21'
+notes: 'Page is JS-rendered; read via Playwright (Regulations, https://dane.gov.pl/en/regulations, Section
+  5). Portal regulations allow commercial and non-commercial use of Information Resources. Providers may
+  attach per-dataset reuse conditions (source attribution, informing about processing, liability scope,
+  personal data, database/work rights); where none is set the portal shows that the dataset can be reused
+  without limitation. So the verdict holds only for datasets without extra conditions: check each dataset.
+  API docs at api.dane.gov.pl/doc (page is a JS Swagger shell); no API-specific terms or rate limits read.
+  Homepage banner also says: use public data free of charge, also for commercial purposes.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Regulations re-read via browser: commercial reuse allowed; providers may attach per-dataset
+  conditions.'
+license_scope: portal-default

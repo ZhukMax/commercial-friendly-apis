@@ -1,0 +1,80 @@
+id: smithsonian-open-access
+name: Smithsonian Open Access
+url: https://github.com/Smithsonian/smithsonian-openaccess
+category: Art & Design
+description: Smithsonian collection metadata and open-access digital media
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Smithsonian Open Access
+  url: https://github.com/Smithsonian/smithsonian-openaccess
+  category: Art & Design
+link_status: alive
+data_license: CC0-1.0 (Open Access subset only)
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'no'
+bulk_download: 'yes'
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://registry.opendata.aws/smithsonian-open-access/
+api_terms_url: https://www.si.edu/openaccess
+commercial_use_scope: any
+attribution_text: Citation requested, not required
+share_alike: unknown
+notes: 'The listed URL is a third-party Python module (Apache-2.0) for the Smithsonian Open Access API;
+  the actual service is api.si.edu (api.data.gov key required, ''No api_key was supplied'' otherwise).
+  si.edu pages (openaccess, terms of use) return a bot-verification page to curl and were not read, so
+  the API''s own terms were not seen. Licence evidence: AWS Open Data registry entry (License CC0, managed
+  by SI), the Smithsonian/OpenAccess GitHub repo (CC0-1.0 LICENSE) and the CC0 deed. CC0 covers only the
+  ''open access'' subset (about 2.8M of 155M objects; records not flagged CC0 may be restricted, e.g.
+  copyrighted or culturally sensitive items), so check each record''s usage flag before storing/displaying.
+  Smithsonian API ToS/rate limits not verified. See also cooper-hewitt (CHNDM is one of the units here).'
+evidence:
+- field: data_license
+  url: https://registry.opendata.aws/smithsonian-open-access/
+  quote: the Smithsonian released over 2.8 million CC0 interdisciplinary 2-D and 3-D images, related metadata
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://creativecommons.org/publicdomain/zero/1.0/
+  quote: You can copy, modify, distribute and perform the work, even for commercial purposes, all without
+    asking permission.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://creativecommons.org/publicdomain/zero/1.0/
+  quote: You can copy, modify, distribute and perform the work, even for commercial purposes, all without
+    asking permission.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://creativecommons.org/publicdomain/zero/1.0/
+  quote: You can copy, modify, distribute and perform the work, even for commercial purposes, all without
+    asking permission.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://creativecommons.org/publicdomain/zero/1.0/
+  quote: You can copy, modify, distribute and perform the work, even for commercial purposes, all without
+    asking permission.
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://registry.opendata.aws/smithsonian-open-access/
+  quote: New / updated metadata and image files will be pushed weekly.
+  checked_at: '2026-11-21'
+- field: api_terms_url
+  url: https://www.si.edu/termsofuse
+  quote: This Smithsonian site is temporarily unavailable.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Could not re-verify: si.edu and terms pages blocked/unavailable; API''s own terms
+  (api.si.edu / api.data.gov) unread; listed URL is a third-party Python wrapper'
+verdict_override: yellow
+override_reason: 'Second check: Could not re-verify: si.edu and terms pages blocked/unavailable; API''s
+  own terms (api.si.edu / api.data.gov) unread; listed URL is a third-party Python wrapper'

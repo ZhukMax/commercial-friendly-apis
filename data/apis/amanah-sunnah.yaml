@@ -1,0 +1,38 @@
+id: amanah-sunnah
+name: Amanah Sunnah
+url: https://sunnah.amanahagent.cloud/developers
+category: Books
+description: Semantic search across Quran, Hadith, Tafsir & 18K+ Rijal narrators
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Amanah Sunnah
+  url: https://sunnah.amanahagent.cloud/developers
+  category: Books
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://sunnah.llm-kita.com/developers
+api_terms_url: https://sunnah.llm-kita.com/developers
+rate_limits: No rate limits stated (free API key required for identification)
+evidence:
+- field: rate_limits
+  url: https://sunnah.llm-kita.com/developers
+  quote: Completely free. No rate limits, no billing, no usage caps. API key for identification only.
+  checked_at: '2026-11-21'
+notes: Read the developers page (redirect target of the original host sunnah.amanahagent.cloud, same product 'Amanah Sunnah'). Free API key (X-API-Key) required. No terms of use, licence or attribution
+  rules found (/terms, /privacy 404). Content aggregates Quran, Hadith collections, Ibn Kathir tafsir and rijal data from third-party scholarly sources, so upstream/translation copyrights may be stricter.
+  All core terms unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -1,0 +1,60 @@
+id: schoolapi
+name: SchoolAPI
+url: https://schoolapi.org/docs
+category: Government
+description: Every US public, charter and private school and district, with search and enrollment history
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: SchoolAPI
+  url: https://schoolapi.org/docs
+  category: Government
+link_status: alive
+data_license: proprietary compilation of public records (Bytebury Terms of Service)
+commercial_use: 'yes'
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: unknown
+bulk_download: 'no'
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://schoolapi.org/terms
+api_terms_url: https://schoolapi.org/terms
+commercial_use_scope: any
+cache_limit: No bulk copying of the database through the Service; caching of individual results not addressed
+rate_limits: 'Free: 100 requests/month, 10/min; paid tiers higher (some fields paid-only)'
+notes: Read Terms of Service (effective 2026-11-06) and docs. Results may be used in own products incl. commercial ones; bulk copying to publish/resell a substitute dataset or API is banned; no implying
+  endorsement. Free key has limits and some fields are paid-only. Attribution not mentioned in the terms. Caching of individual results is not addressed, hence "limited" because of the bulk-copy ban.
+evidence:
+- field: commercial_use
+  url: https://schoolapi.org/terms
+  quote: you may use the results you get from the Service in your own products, research, and publications, including commercial ones.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://schoolapi.org/terms
+  quote: you may use the results you get from the Service in your own products, research, and publications, including commercial ones.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://schoolapi.org/terms
+  quote: Copy the database in bulk through the Service, for example by systematically requesting every school or district
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://schoolapi.org/terms
+  quote: Copy the database in bulk through the Service, for example by systematically requesting every school or district
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://schoolapi.org/terms
+  quote: The school and district data comes from public records published by government agencies.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://schoolapi.org/docs
+  quote: 'Free: 100 requests a month, 10 a minute, 1 key.'
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+share_alike: unknown

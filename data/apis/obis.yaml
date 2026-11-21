@@ -1,0 +1,66 @@
+id: obis
+name: OBIS
+url: https://manual.obis.org/access
+category: Science & Math
+description: Global marine species occurrence and distribution data
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: OBIS
+  url: https://manual.obis.org/access
+  category: Science & Math
+link_status: alive
+data_license: CC-BY-4.0 for most datasets; some datasets CC BY-NC, CC BY-NC-ND or CC BY-SA
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: 'yes'
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://obis.org/data/datapolicy
+commercial_use_scope: any
+attribution_text: Cite the original data sources and the OBIS database (OBIS provides DOIs for datasets)
+rate_limits: Do not parallelize downloads; use the AWS Open Data GeoParquet export for large downloads
+evidence:
+- field: data_license
+  url: https://obis.org/data/datapolicy
+  quote: Most OBIS data are available under a Creative Commons Attribution (CC BY 4.0) License
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://obis.org/data/datapolicy
+  quote: Some datasets follow particular licences, such as CC BY-NC, CC BY-NC-ND, or CC BY-SA.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://obis.org/data/datapolicy
+  quote: We recommend verifying the license agreement for each dataset before use.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://obis.org/data/datapolicy
+  quote: Users must cite the original data sources and the OBIS database.
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://obis.org/data/access/
+  quote: the GeoParquet version of the dataset hosted on AWS is highly recommended
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://obis.org/data/access/
+  quote: Do not parallelize downloads.
+  checked_at: '2026-11-21'
+notes: 'Pages read: obis.org/data/datapolicy (extract of the OBIS manual policy) and obis.org/data/access.
+  Licence is per dataset: most CC BY 4.0, but some are NC / ND / SA, so a commercial site cannot assume
+  every record is usable; the dataset licence field must be checked per record (not done). Policy also
+  "discourages commercial exploitation without proper attribution". Storage/caching not addressed. Aggregator
+  of thousands of provider datasets; providers retain ownership.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Per-dataset NC licences mean not every record is commercial-usable; policy also discourages
+  commercial exploitation without attribution. Yellow stands.
+license_scope: portal-default

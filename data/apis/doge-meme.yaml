@@ -1,0 +1,26 @@
+id: doge-meme
+name: Doge-Meme
+url: https://api.doge-meme.lol/docs
+category: Social
+description: Top meme posts from r/dogecoin which include 'Meme' flair
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Doge-Meme
+  url: https://api.doge-meme.lol/docs
+  category: Social
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: ConnectError

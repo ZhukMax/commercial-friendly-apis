@@ -1,0 +1,73 @@
+id: usaspending-gov
+name: USAspending.gov
+url: https://api.usaspending.gov/
+category: Government
+description: US federal spending data
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: USAspending.gov
+  url: https://api.usaspending.gov/
+  category: Government
+- list: public-api-lists
+  name: USAspending.gov
+  url: https://api.usaspending.gov/
+  category: Government
+link_status: alive
+data_license: US federal open data (no licence; reuse incl. commercial permitted)
+commercial_use: ambiguous
+storage_caching: ambiguous
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+confidence: medium
+link_checked_at: '2026-11-21'
+commercial_use_scope: any
+api_terms_url: https://www.usaspending.gov/about
+evidence:
+- field: commercial_use
+  url: https://www.usaspending.gov/about
+  quote: The data on this site is available to copy, adapt, redistribute, or otherwise use for non-commercial
+    or for commercial purposes
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.usaspending.gov/about
+  quote: The data on this site is available to copy, adapt, redistribute, or otherwise use for non-commercial
+    or for commercial purposes
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.usaspending.gov/about
+  quote: The data on this site is available to copy, adapt, redistribute, or otherwise use for non-commercial
+    or for commercial purposes
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.usaspending.gov/about
+  quote: The data on this site is available to copy, adapt, redistribute, or otherwise use for non-commercial
+    or for commercial purposes
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.usaspending.gov/db_info
+  quote: under no circumstances are you authorized to use any other D&B data for commercial, resale or
+    marketing purposes
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.usaspending.gov/db_info
+  quote: shall not access, use or disseminate D&B Open Data in bulk
+  checked_at: '2026-11-21'
+notes: Quote is from the USAspending 'About' page (JS-rendered, read with Playwright; the sentence continues
+  'subject to the Limitation on Permissible Use of Dun & Bradstreet, Inc. Data noted on the homepage'
+  - D&B-sourced fields (e.g. recipient identifiers/parent data) have extra limits and that notice was
+  not read). Attribution not mandated on the page read (citation examples suggested). API docs page (api.usaspending.gov)
+  has no separate terms. Rate limits not documented on pages read.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: yellow
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'D&B Limitation on Permissible Use (unread by first pass) restricts some fields; Bulk/systematic
+  access of D&B data and commercial use of non-open D&B fields prohibited | applied: commercial_use=ambiguous,
+  storage_caching=ambiguous, redistribution_display=ambiguous'

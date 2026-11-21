@@ -1,0 +1,72 @@
+id: nhtsa
+name: NHTSA
+url: https://vpic.nhtsa.dot.gov/api/
+category: Vehicle
+description: NHTSA Product Information Catalog and Vehicle Listing
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: NHTSA
+  url: https://vpic.nhtsa.dot.gov/api/
+  category: Vehicle
+- list: public-api-lists
+  name: NHTSA
+  url: https://vpic.nhtsa.dot.gov/api/
+  category: Vehicle
+link_status: alive
+data_license: 'public information (NHTSA Terms of Use: may be distributed or copied; no licence text)'
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.nhtsa.gov/about-nhtsa/terms-use
+data_license_url: https://www.nhtsa.gov/about-nhtsa/terms-use
+commercial_use_scope: any
+share_alike: unknown
+rate_limits: Automated traffic rate control on vPIC APIs; no numeric limit published
+evidence:
+- field: data_license
+  url: https://www.nhtsa.gov/about-nhtsa/terms-use
+  quote: Information presented on this web site is considered public information and may be distributed
+    or copied.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.nhtsa.gov/about-nhtsa/terms-use
+  quote: Information presented on this web site is considered public information and may be distributed
+    or copied.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.nhtsa.gov/about-nhtsa/terms-use
+  quote: Information presented on this web site is considered public information and may be distributed
+    or copied.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.nhtsa.gov/about-nhtsa/terms-use
+  quote: Information presented on this web site is considered public information and may be distributed
+    or copied.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://vpic.nhtsa.dot.gov/api/
+  quote: Users/Applications attempting to use vPIC APIs will be controlled by an automated traffic rate
+    control mechanism
+  checked_at: '2026-11-21'
+notes: NHTSA site-wide Terms of Use (read via Playwright; curl gets 403 Akamai) say information on the
+  site is public and may be distributed or copied; no licence name, no attribution rule, no explicit mention
+  of commercial use or of the API subdomain vpic.nhtsa.dot.gov (data.gov listing has licence null). Inference
+  "yes" rests on that public-information statement (same basis as other US-gov entries), hence medium.
+  Disclaimer of accuracy applies; do not imply NHTSA endorsement. vPIC data comes from manufacturer submissions
+  (not assessed). vPIC page only mentions an automated rate-control mechanism.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: US federal data; standalone vPIC DB downloadable. Terms do not name commercial use
+  or API explicitly; rate control applies; do not imply endorsement.

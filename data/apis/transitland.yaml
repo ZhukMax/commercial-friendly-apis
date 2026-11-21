@@ -1,0 +1,57 @@
+id: transitland
+name: TransitLand
+url: https://www.transit.land/documentation/datastore/api-endpoints.html
+category: Transportation
+description: Transit Aggregation
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: TransitLand
+  url: https://www.transit.land/documentation/datastore/api-endpoints.html
+  category: Transportation
+- list: public-api-lists
+  name: TransitLand
+  url: https://transit.land/documentation/datastore/api-endpoints.html
+  category: Transportation
+link_status: redirect
+data_license: proprietary (Interline ToS + per-feed source licences)
+commercial_use: paid-only
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: 'yes'
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: -> https://www.transit.land/documentation/datastore/api-endpoints
+api_terms_url: https://www.transit.land/terms
+commercial_use_scope: paid
+attribution_text: Name "Transitland" and/or logo plus link to https://www.transit.land/terms, clearly visible to end-users
+rate_limits: 'Explorer (free): REST 5,000/month; Pay As You Go: 10,000 free/month then metered'
+evidence:
+- field: commercial_use
+  url: https://www.transit.land/plans-pricing
+  quote: 'Not included: Commercial use'
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.transit.land/terms
+  quote: Users of Transitland APIs, Transitland Feed Archive, and Transitland Datasets are required to provide attribution to Transitland.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.transit.land/terms
+  quote: it is the responsibility of each Transitland data and API consumer to confirm any license requirements imposed by the source feeds
+  checked_at: '2026-11-21'
+- field: self_host_option
+  url: https://www.transit.land/terms
+  quote: the transitland-lib library is offered under a "dual license" model of either the open-source GPLv3 or a flexible commercial license from Interline.
+  checked_at: '2026-11-21'
+notes: 'Pages read via Playwright (terms and plans pages return Cloudflare 403 to curl): /terms and /plans-pricing. Free tiers (Explorer, Hobbyist/Academic) are listed as not including commercial use; the
+  Pay As You Go plan (10,000 free calls/month, then metered) and Enterprise list commercial use as included, so paid-only. Auth is an API key (stale ''none''). Interline''s general Terms of Service not
+  read; storage/caching and display not addressed on pages read. Aggregator: each source feed has its own licence and consumers must confirm and meet it (terms page lists them per feed; some are restrictive,
+  e.g. SFMTA ''nonexclusive, limited, and revocable license''). Hosted API vs self-hosting open-source transitland-lib is a separate path.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

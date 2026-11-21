@@ -1,0 +1,50 @@
+id: geodb-cities
+name: GeoDB Cities
+url: http://geodb-cities-api.wirefreethought.com/
+category: Geocoding
+description: Get global city, region, and country data
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: GeoDB Cities
+  url: http://geodb-cities-api.wirefreethought.com/
+  category: Geocoding
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: ambiguous
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: 'yes'
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: http://wirefreethought.com/terms-of-service
+cache_limit: 24 hours for data owned by Wirefree Thought; data under open-source licences may be cached
+  freely
+notes: 'ToS caching clause: open-source-licensed data may be cached as much as technically allowed, other
+  Wirefree-owned data for 24 hours; it is unclear which GeoDB fields are which (data comes from GeoNames
+  and WikiData, per the site). Commercial use, display and attribution are not addressed. A paid self-hosted
+  licence ($200/month, up to 5 instances) exists. Access is through RapidAPI (free plan 1,000 requests/day
+  on RapidAPI per FAQ).'
+evidence:
+- field: storage_caching
+  url: http://wirefreethought.com/terms-of-service
+  quote: any data explicitly owned by Wirefree Thought may be cached for a maximum of 24 hours before
+    it must be purged from your system.
+  checked_at: '2026-11-21'
+- field: self_host_option
+  url: http://geodb-cities-api.wirefreethought.com/pricing
+  quote: License allows for up to 5 instances for load-balancing and scalability
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Confirmed unknown. Neither the ToS nor FAQ addresses commercial use/display/attribution;
+  upstream licences are permissive with attribution, but who owns which field is undefined, so caching
+  limit uncertain. Access via RapidAPI plans.

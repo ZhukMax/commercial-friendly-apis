@@ -1,0 +1,367 @@
+[
+ {
+  "id": "callook-info",
+  "outcome": "disputed",
+  "reasons": [
+   "Coordinates come from Bing Maps; its terms on storing/reusing geocodes unread",
+   "Data contains personal names and addresses",
+   "'however you wish' is informal, no ToS"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://callook.info/",
+    "quote": "Geographic coordinates are provided by the Bing Maps API",
+    "field": "storage_caching"
+   }
+  ],
+  "suggested": {
+   "storage_caching": "ambiguous"
+  },
+  "note": "Callsign/name/address fields likely fine (FCC public data); lat/lon/gridsquare third-party. Re-read Bing Maps terms before green."
+ },
+ {
+  "id": "chargealong",
+  "outcome": "disputed",
+  "reasons": [
+   "No page states commercial use explicitly; commercial_use quote does not say it",
+   "Licence is per record from several sources (OCM, TfNSW, QLD, GeoNames)",
+   "Acceptable use bans scraping that loads the site"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://chargealong.io/docs/",
+    "quote": "each record names its own source and licence",
+    "field": "redistribution_display"
+   },
+   {
+    "url": "https://chargealong.io/en/acceptable-use/",
+    "quote": "No scraping that puts load on the site.",
+    "field": "storage_caching"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "ambiguous"
+  },
+  "note": "CC BY 4.0 sources would permit commercial use, but site never says so and per-record terms vary."
+ },
+ {
+  "id": "city-bologna-opendata",
+  "outcome": "disputed",
+  "reasons": [
+   "Actual portal (opendata.comune.bologna.it) terms never read",
+   "Page read is generic CC BY 4.0 legal text, not proof the datasets/API carry it",
+   "First pass confidence already low"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Could not confirm dataset-level licence on the real portal."
+ },
+ {
+  "id": "city-gdynia",
+  "outcome": "disputed",
+  "reasons": [
+   "CC version unstated ('Creative Commons Attribution'); only one dataset checked",
+   "Licences may differ per dataset; no portal terms page",
+   "Site/API served over plain http"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://otwartedane.gdynia.pl/en/dataset/c-9-1",
+    "quote": "License Creative Commons Attribution",
+    "field": "data_license"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "ambiguous"
+  },
+  "note": "CC deed quotes are for 4.0 applied to unspecified version."
+ },
+ {
+  "id": "city-toronto-open-data",
+  "outcome": "confirmed",
+  "reasons": [
+   "Licence page explicitly allows commercial use, copying and publishing; quotes verified",
+   "No blocker found; per-dataset attribution statements and personal-info exclusion apply"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Per-dataset providers may specify attribution; CKAN API rate terms not found."
+ },
+ {
+  "id": "cms-gov",
+  "outcome": "confirmed",
+  "reasons": [
+   "data.cms.gov/about states public domain, attribution only appreciated; verified in browser",
+   "No blocker found; only 'no false endorsement' of commercial products"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Provider Data Catalog has no own terms page; third-party content in datasets not assessed. curl 403, read via Playwright."
+ },
+ {
+  "id": "consumersun-recalls",
+  "outcome": "disputed",
+  "reasons": [
+   "Terms grant use for 'professional purposes', never name commercial use",
+   "Terms bar reselling/exploiting the Service not permitted by the terms",
+   "/data page asks attribution to agency, /terms to ConsumerSun: conflicting"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://consumersun.com/terms",
+    "quote": "Reproduce, duplicate, copy, sell, resell, or exploit any portion of the Service in a manner not permitted by these Terms or by us in writing.",
+    "field": "commercial_use"
+   },
+   {
+    "url": "https://consumersun.com/terms",
+    "quote": "You may use the Site and the Service for lawful personal, journalistic, research, educational, and professional purposes",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "ambiguous"
+  },
+  "note": "Dataset/API reuse is expressly permitted with conditions, but commercial wording is absent."
+ },
+ {
+  "id": "contaclt",
+  "outcome": "confirmed",
+  "reasons": [
+   "API page says free including commercial use with credit; quote verified",
+   "No blocker found; no separate terms page, fair use with 1h cache and bulk via /dados/"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "/dados/ CC BY 4.0 page not re-fetched by me beyond first-pass quote; API page read."
+ },
+ {
+  "id": "coronavirus-in-the-uk",
+  "outcome": "confirmed",
+  "reasons": [
+   "UKHSA dashboard footer: all content OGL v3.0 except where otherwise stated; OGL permits commercial use (verified)",
+   "Old API retired, successor API under same licence"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Individual datasets may be marked otherwise; old URL now redirects."
+ },
+ {
+  "id": "covid-19-india",
+  "outcome": "disputed",
+  "reasons": [
+   "Hosted site states no licence; CC BY comes only from archived GitHub repo",
+   "Site says API/repo deprecated; crowd-sourced from state bulletins with unassessed upstream terms",
+   "Commercial quote does not say commercial"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://data.covid19india.org/",
+    "quote": "As of 13th August our API repository and api.covid19india.org have been deprecated.",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "ambiguous"
+  },
+  "note": "Frozen historical data; licence applicability to the endpoint inferred."
+ },
+ {
+  "id": "covid-19-tracker-canada",
+  "outcome": "confirmed",
+  "reasons": [
+   "Licensing page says dataset CC BY 4.0, any purpose even commercially; verified",
+   "No blocker found; dataset frozen since Aug 2024, provincial upstream terms unread"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": ""
+ },
+ {
+  "id": "coworkingview",
+  "outcome": "disputed",
+  "reasons": [
+   "ToS bans systematic copying/reuse of the catalogue, conflicting with CC BY storage claim",
+   "API 'own terms' referenced but not found",
+   "CC BY excludes photos, logos, reviews, Google data"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://coworkingview.com/en/terms",
+    "quote": "systematic reading, copying or re-use of our catalogue or substantial parts of it",
+    "field": "storage_caching"
+   }
+  ],
+  "suggested": {
+   "storage_caching": "ambiguous"
+  },
+  "note": "Also bans building a competing operator database. Page-by-page display likely fine; bulk storage unclear."
+ },
+ {
+  "id": "crossref-metadata-search",
+  "outcome": "confirmed",
+  "reasons": [
+   "Crossref states metadata reusable without restriction, facts CC0; verified",
+   "Only exception is abstracts (publisher copyright)"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Attribution not required; polite pool etiquette and rate limits."
+ },
+ {
+  "id": "cruise-itinerary",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToS s.6 licenses use in own products incl. showing records to end users; keeping copies allowed; verified",
+   "No blocker found beyond: revocable, subject to plan, no resale/republishing as dataset, API key required"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Free plan 10/min 500/month; some endpoints plan-gated; Price Index quoting needs link."
+ },
+ {
+  "id": "cuttingtoolsai",
+  "outcome": "disputed",
+  "reasons": [
+   "/terms bans scraping, bulk download or export without permission",
+   "/terms licence is only for personal and professional tool selection",
+   "API page and ToS conflict, not reconciled"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://cuttingtoolsai.eu/terms",
+    "quote": "Scrape, bulk download, or export data without permission",
+    "field": "storage_caching"
+   },
+   {
+    "url": "https://cuttingtoolsai.eu/terms",
+    "quote": "limited, non-exclusive, non-transferable license to use the platform for personal and professional tool selection",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "ambiguous",
+   "storage_caching": "ambiguous"
+  },
+  "note": "API page: free for commercial use, caching encouraged."
+ },
+ {
+  "id": "cyclecalcs",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms explicitly allow store, cache, publish, commercial products without attribution; verified",
+   "Free tier described for hobby, educational and small-scale commercial use; higher volume needs paid tier"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "/v2/places GeoNames CC BY requires credit; scope free-tier."
+ },
+ {
+  "id": "daily-food-recalls",
+  "outcome": "confirmed",
+  "reasons": [
+   "API page: use for anything incl. commercial with credit; ToS carves out the feed; verified",
+   "Only restrictions: no competing recall database, no implied affiliation"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": ""
+ },
+ {
+  "id": "danish-data-service-energi",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms page: CC BY 4.0, copy/change/distribute freely even commercially; verified",
+   "No blocker; no availability guarantee"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Rate limits being introduced per site news."
+ },
+ {
+  "id": "data-parliament-uk",
+  "outcome": "confirmed",
+  "reasons": [
+   "Developer hub: all data under OPL; OPL allows commercial exploitation; verified in browser",
+   "OPL excludes personal data and third-party rights"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Entry URL explore.data.parliament.uk itself not read; MP personal details need care."
+ },
+ {
+  "id": "datacite",
+  "outcome": "confirmed",
+  "reasons": [
+   "Harvesting page states all metadata CC0; verified",
+   "No blocker; rate limit 500 per 5 min unidentified"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": ""
+ },
+ {
+  "id": "deutscher-bundestag-dip",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms s.4b allow broad use of API data with source; s.4d commercial notice; verified via pdftotext",
+   "Blockers are only conditions: s.5 bans use in disparaging or extremist contexts; PDFs unaltered"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "API key required (public key rotates)."
+ },
+ {
+  "id": "devlifecheck",
+  "outcome": "disputed",
+  "reasons": [
+   "Licence says 'reuse' with attribution; commercial use never stated",
+   "Cache headers allow only five minutes; storage not explicit",
+   "Licence is new (effective 6 Sep 2026), site is itself affiliate-monetised"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://devlifecheck.com/developers",
+    "quote": "Cache headers allow five minutes plus stale revalidation.",
+    "field": "storage_caching"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "ambiguous",
+   "storage_caching": "ambiguous"
+  },
+  "note": "CSV download implies copies are expected; read via Playwright."
+ },
+ {
+  "id": "dino-markets",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToS: cache internally and display data on own websites incl. paid products, every plan, no attribution; verified",
+   "Only blockers: no resale via API/feed/dataset, no competing product; API key required"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Upstream Kalshi/Polymarket terms not checked; caching described as 'internally' only."
+ },
+ {
+  "id": "edgepedia",
+  "outcome": "confirmed",
+  "reasons": [
+   "Licence and developer page allow commercial use with credit; verified",
+   "Only exclusion: organisations over USD 100M revenue or 100M MAU; images not covered"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": ""
+ },
+ {
+  "id": "eia-open-data",
+  "outcome": "confirmed",
+  "reasons": [
+   "Reuse page: public domain, may use and distribute; acknowledgment 'should'; verified",
+   "API ToS allows building services that display data; no EIA logo or endorsement"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Free API key required; access limits may apply; commercial not stated word for word."
+ }
+]

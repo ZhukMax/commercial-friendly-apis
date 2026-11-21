@@ -1,0 +1,67 @@
+id: utah-agrc
+name: Utah AGRC
+url: https://api.mapserv.utah.gov
+category: Geocoding
+description: Utah Web API for geocoding Utah addresses
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Utah AGRC
+  url: https://api.mapserv.utah.gov
+  category: Geocoding
+link_status: alive
+data_license: CC-BY-4.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://gis.utah.gov/documentation/policy/license/
+api_terms_url: https://gis.utah.gov/documentation/policy/license/
+commercial_use_scope: any
+attribution_text: Credit UGRC (and SGID), link the CC BY 4.0 licence and note any changes
+rate_limits: Not rate limited currently; abusive users may be blocked
+evidence:
+- field: data_license
+  url: https://gis.utah.gov/documentation/policy/license/
+  quote: UGRC licenses our data and services under a Creative Commons Attribution 4.0 International License
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: copy and redistribute the material in any medium or format
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: copy and redistribute the material in any medium or format
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://gis.utah.gov/documentation/policy/license/
+  quote: You should include appropriate attribution when using data or services provided by UGRC
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://api.mapserv.utah.gov/getting-started/
+  quote: Currently, the API is not rate limited so please be courteous to other users.
+  checked_at: '2026-11-21'
+notes: 'UGRC data licence page applies CC BY 4.0 to all UGRC services and content, unless a dataset''s
+  metadata says otherwise; exceptions: Google/Hexagon high-res imagery and external data hosted by others.
+  Cited the CC deed for the rights together with UGRC''s statement that the licence covers its "data and
+  services". Free API key via UtahID required; unclaimed old keys disabled 1 Feb 2027. Address-point data
+  is locally sourced; no per-dataset metadata checked.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Exceptions: Google/Hexagon imagery and externally hosted data; per-dataset metadata
+  may override. API key required (UtahID); API has no separate commercial terms.'
+license_scope: portal-default

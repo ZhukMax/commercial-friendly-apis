@@ -1,0 +1,49 @@
+id: synonyms
+name: Synonyms
+url: https://www.synonyms.com/synonyms_api.php
+category: Dictionaries
+description: Synonyms, thesaurus and antonyms information for any given word
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Synonyms
+  url: https://www.synonyms.com/synonyms_api.php
+  category: Dictionaries
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.synonyms.com/synonyms_api.php
+rate_limits: Free up to 100 queries/day
+evidence:
+- field: commercial_use
+  url: https://www.synonyms.com/synonyms_api.php
+  quote: The Synonyms API service is free to use for up to 100 queries per day. For a premium commercial
+    license, please contact us
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://www.synonyms.com/synonyms_api.php
+  quote: free to use for up to 100 queries per day
+  checked_at: '2026-11-21'
+notes: 'STANDS4 Synonyms API page: free up to 100 queries/day; a "premium commercial license" is available
+  on contact. It does not say whether the free tier may be used commercially or what the licence allows,
+  and the network Terms of Use (site content) forbid copying/distributing/exploiting site content, so
+  commercial_use=ambiguous (yellow). No storage, display or attribution terms found. Needs uid + token.
+  Data licence not stated on a page read; characterised as: proprietary (STANDS4 LTD).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read STANDS4 API page and Synonyms.com Terms of Use: no statement that free tier
+  is commercial; premium commercial licence implies free is not. No separate API terms (stands4.com/api-terms
+  is empty). Ambiguous leaning paid-only; stays yellow.'

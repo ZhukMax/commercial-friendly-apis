@@ -1,0 +1,50 @@
+id: lottizen
+name: Lottizen
+url: https://lottizen.com/api
+category: Open Data
+description: Lottery draw history and stats (Canada, US, Europe) and Canadian scratch-ticket remaining
+  prizes
+description_source: upstream
+auth: other
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Lottizen
+  url: https://lottizen.com/api
+  category: Open Data
+link_status: alive
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+notes: Read /api and /terms. Public display with the credit 'Data by Lottizen' is allowed on any plan
+  including the free one; the terms bar scraping/reselling/redistributing data outside the public API
+  and say API plans are sold under RapidAPI's own terms (not read). No statement either way on commercial
+  use or caching, and the underlying lottery results belong to operators (OLG, BCLC, etc. - not affiliated).
+  Core fields unconfirmed so verdict unknown. Access only via RapidAPI key (auth other).
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+api_terms_url: https://lottizen.com/terms
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: 'yes'
+attribution_required: 'yes'
+attribution_text: Data by Lottizen (link to https://lottizen.com/, link text is the brand name only)
+rate_limits: Basic free 25 requests/day; Pro $15/month 5,000/day; Ultra $49/month 50,000/day (via RapidAPI)
+bulk_download: unknown
+self_host_option: unknown
+evidence:
+- field: redistribution_display
+  url: https://lottizen.com/terms
+  quote: on any plan including the free one, credit it as “Data by Lottizen” with a link to https://lottizen.com/
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://lottizen.com/terms
+  quote: on any plan including the free one, credit it as “Data by Lottizen” with a link to https://lottizen.com/
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://lottizen.com/api
+  quote: Basic — free, 25 requests/day. Pro — $15/month, 5,000 requests/day. Ultra — $49/month, 50,000
+    requests/day.
+  checked_at: '2026-11-21'
+data_license: unknown

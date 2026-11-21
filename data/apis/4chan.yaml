@@ -1,0 +1,25 @@
+id: 4chan
+name: 4chan
+url: https://github.com/4chan/4chan-API
+category: Social
+description: Simple image-based bulletin board dedicated to a variety of topics
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: 4chan
+  url: https://github.com/4chan/4chan-API
+  category: Social
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

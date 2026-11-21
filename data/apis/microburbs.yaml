@@ -1,0 +1,58 @@
+id: microburbs
+name: Microburbs
+url: https://www.microburbs.com.au/developers/api-docs
+category: Open Data
+description: 'Australian property and suburb data: valuations, sales, rents, schools, demographics, risk,
+  zoning'
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Microburbs
+  url: https://www.microburbs.com.au/developers/api-docs
+  category: Open Data
+link_status: alive
+verdict: red
+confidence: high
+link_checked_at: '2026-11-21'
+notes: Read the self-serve API Terms (22 Oct 2026) and the docs. Data may be incorporated into the client's
+  products but must NOT be shown on any publicly accessible website without user login, nor published
+  where search engines or AI crawlers can index it; no resale/redistribution; cache 30 days. A public
+  ad/affiliate site or programmatic-SEO use is therefore not allowed under the standard terms; the terms
+  say a custom agreement is available for publishing publicly. Access is paid per endpoint (API key required).
+  Red for the scenario judged.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+api_terms_url: https://www.microburbs.com.au/api-terms
+commercial_use: paid-only
+commercial_use_scope: paid
+storage_caching: limited
+cache_limit: 30 days
+redistribution_display: 'no'
+attribution_required: 'yes'
+attribution_text: Attribute Microburbs visibly on each page where the Data appears, with a link to microburbs.com.au
+rate_limits: Per-endpoint pricing (prepaid, billed in cents); sample data only for free
+bulk_download: unknown
+self_host_option: unknown
+evidence:
+- field: commercial_use
+  url: https://www.microburbs.com.au/api-terms
+  quote: incorporate the Data into the Client's products or services
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.microburbs.com.au/api-terms
+  quote: You may store Data for up to 30 days.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.microburbs.com.au/api-terms
+  quote: You may not display the Data on any publicly accessible website or platform without requiring
+    user authentication
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.microburbs.com.au/api-terms
+  quote: You must attribute Microburbs as the source of the Data , visibly, on each page where the Data
+    appears, with a link back to microburbs.com.au.
+  checked_at: '2026-11-21'
+data_license: unknown

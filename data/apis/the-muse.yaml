@@ -1,0 +1,37 @@
+id: the-muse
+name: The Muse
+url: https://www.themuse.com/developers/api/v2
+category: Jobs
+description: Job board and company profiles
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: The Muse
+  url: https://www.themuse.com/developers/api/v2
+  category: Jobs
+- list: public-api-lists
+  name: The Muse
+  url: https://www.themuse.com/developers/api/v2
+  category: Jobs
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://www.themuse.com/about
+api_terms_url: https://www.themuse.com/user/terms
+notes: 'https://www.themuse.com/developers/api/v2 now redirects to /about (no API docs or API terms available
+  there). Read the site Terms of Use (revised Oct 2025): Muse Content licensed for personal non-commercial
+  viewing, no scraping/bots, no ML training. These are website terms and do not mention an API, so no
+  API verdict is drawn: all unknown. A key may still be required (auth left as apiKey, unverified).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

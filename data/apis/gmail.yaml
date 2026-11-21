@@ -1,0 +1,73 @@
+id: gmail
+name: Gmail
+url: https://developers.google.com/gmail/api/
+category: Business
+description: Flexible, RESTful access to the user's inbox
+description_source: upstream
+auth: OAuth
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Gmail
+  url: https://developers.google.com/gmail/api/
+  category: Business
+- list: public-api-lists
+  name: Gmail
+  url: https://developers.google.com/gmail/api/
+  category: Business
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: ambiguous
+redistribution_display: 'no'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://developers.google.com/workspace/gmail/api/guides
+api_terms_url: https://developers.google.com/terms
+notes: Google APIs Terms of Service read (developers.google.com/terms). It contains no general non-commercial
+  clause, but section 'Prohibitions on Content' bars building databases, permanent copies and public display
+  of API content 'unless expressly permitted by the content owner or by applicable law'. For this API
+  the content is the authorizing user's own data (not a public dataset), so whether storing/displaying
+  it is permitted depends on that user's consent and the Google API Services User Data Policy; recorded
+  as ambiguous. Commercial use is not addressed explicitly, so left unknown. This is a per-user OAuth
+  data API, not an open data source. Gmail API terms page (developers.google.com/workspace/gmail/api/terms)
+  read; it points to the Google APIs ToS and the User Data Policy.
+evidence:
+- field: storage_caching
+  url: https://developers.google.com/terms
+  quote: Scrape, build databases, or otherwise create permanent copies of such content, or keep cached
+    copies longer than permitted by the cache header
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://developers.google.com/terms
+  quote: Copy, translate, modify, create a derivative work of, sell, lease, lend, convey, distribute,
+    publicly display, or sublicense to any third party
+  checked_at: '2026-11-21'
+- field: api_terms_url
+  url: https://developers.google.com/workspace/gmail/api/terms
+  quote: Accessing Google user data is subject to the Google API Services User Data Policy.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://developers.google.com/terms/api-services-user-data-policy
+  quote: Transferring, selling, or using user data for serving ads, including retargeting, personalized
+    or interest-based advertising.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://developers.google.com/terms/api-services-user-data-policy
+  quote: Transferring or selling user data to third parties like advertising platforms, data brokers,
+    or any information resellers.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Google API Services User Data Policy (Limited Use) bans transfers and ad use of Gmail
+  user data; Policy also bans transferring user data to third parties except narrow cases | applied: redistribution_display=no'
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

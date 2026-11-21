@@ -1,0 +1,53 @@
+id: football
+name: Football
+url: https://rapidapi.com/GiulianoCrescimbeni/api/football98/
+category: Sports & Fitness
+description: A simple Open Source Football API to get squads’ stats, best scorers and more
+description_source: upstream
+auth: other
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Football
+  url: https://rapidapi.com/GiulianoCrescimbeni/api/football98/
+  category: Sports & Fitness
+link_status: alive
+data_license: MIT License (the only 'Terms of Use' shown on the RapidAPI listing; applies to the provider's
+  code, not clearly to the data)
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://rapidapi.com/GiulianoCrescimbeni/api/football98/
+commercial_use_scope: any
+share_alike: unknown
+rate_limits: 'RapidAPI plans: Basic $0, Pro $9.99, Ultra $15.99, Mega $24.99'
+notes: 'Read the RapidAPI listing via Playwright (JS app) and its ''Terms of Use'' dialog, which contains
+  only an MIT licence notice (the provider''s code licence, so what it grants for the scraped data is
+  unclear: ambiguous). Free BASIC plan plus paid tiers; no page says whether commercial use is limited
+  to paid plans. Provider''s Google Doc docs list competitions only. Data (standings, results, fixtures,
+  news, transfers across 315+ competitions) is gathered dynamically from unnamed third-party sources,
+  so upstream sports-data/news-publisher rights may be stricter. RapidAPI''s own marketplace ToS (rapidapi.com/page/terms)
+  also applies to consumers (not analysed for data reuse). Storage/display/attribution not addressed.'
+evidence:
+- field: data_license
+  url: https://rapidapi.com/GiulianoCrescimbeni/api/football98/
+  quote: MIT License Copyright (c) 2020 GiulianoCrescimbeni
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://rapidapi.com/GiulianoCrescimbeni/api/football98/
+  quote: MIT License Copyright (c) 2020 GiulianoCrescimbeni
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-opened RapidAPI listing via Playwright (fresh context): plans BASIC free, PRO 9.99,
+  ULTRA 15.99, MEGA 24.99; no commercial/non-commercial wording on the page; pricing sub-page rendered
+  empty. Upstream sports data/news rights unknown. ambiguous stands.'

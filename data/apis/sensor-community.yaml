@@ -1,0 +1,45 @@
+id: sensor-community
+name: sensor.community
+url: https://github.com/opendata-stuttgart/meta/wiki/EN-APIs
+category: Environment
+description: Community air quality sensor network data worldwide
+description_source: upstream
+auth: other
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: sensor.community
+  url: https://github.com/opendata-stuttgart/meta/wiki/EN-APIs
+  category: Environment
+link_status: alive
+data_license: ODC DbCL 1.0 (DB Contents License, linked from the sensor.community footer)
+commercial_use: 'yes'
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+data_license_url: https://opendatacommons.org/licenses/dbcl/1-0/
+api_terms_url: https://github.com/opendata-stuttgart/meta/wiki/EN-APIs
+commercial_use_scope: any
+evidence:
+- field: data_license
+  url: https://sensor.community/en/
+  quote: DB Contents License
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://opendatacommons.org/licenses/dbcl/1-0/
+  quote: These rights explicitly include commercial use, and do not exclude any field of endeavour.
+  checked_at: '2026-11-21'
+notes: 'Read the API wiki page (usage only: send a User-Agent header, use data.sensor.community, no licence
+  there), the sensor.community footer (link labelled "DB Contents License" pointing to ODC DbCL 1.0) and
+  the DbCL text. DbCL grants copyright rights incl. commercial use but requires compliance with the ODbL
+  (attribution/share-alike for the database) and covers only the contents, not database rights; the page
+  does not spell out how it applies to the API, so storage/display/attribution stay unknown (verdict unknown).
+  sensor.community/en/privacy-terms is only imprint and privacy.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

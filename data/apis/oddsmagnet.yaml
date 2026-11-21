@@ -1,0 +1,47 @@
+id: oddsmagnet
+name: Oddsmagnet
+url: https://data.oddsmagnet.com
+category: Sports & Fitness
+description: Odds history from multiple UK bookmakers
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Oddsmagnet
+  url: https://data.oddsmagnet.com
+  category: Sports & Fitness
+link_status: redirect
+data_license: proprietary (ODDSMAGNET site terms)
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://oddsmagnet.com/oddsdata
+api_terms_url: https://oddsmagnet.com/terms-and-conditions
+evidence:
+- field: commercial_use
+  url: https://oddsmagnet.com/terms-and-conditions
+  quote: You must not otherwise reproduce, modify, copy, distribute or use for commercial purposes any
+    Content without the written permission of ODDSMAGNET.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://oddsmagnet.com/terms-and-conditions
+  quote: You may, for your own personal, non-commercial use only, do the following
+  checked_at: '2026-11-21'
+notes: 'data.oddsmagnet.com redirects to oddsmagnet.com/oddsdata (blocked 403 to curl; read via Playwright
+  in a fresh page). The /api page shows no content. Only the website Terms & Conditions were found: personal,
+  non-commercial use only and no commercial use of Content without written permission. These cover the
+  website; whether they apply to the data/API is not stated. Odds come from bookmakers (upstream rights
+  likely stricter).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read via Playwright (curl 403 CloudFront). Leans no; ambiguous stands.

@@ -1,0 +1,31 @@
+id: city-analyze-boston
+name: City, Analyze Boston
+url: https://data.boston.gov/
+category: Government
+description: Boston(US) City Open Data
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-api-lists
+  name: City, Analyze Boston
+  url: https://data.boston.gov/
+  category: Government
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: HTTP 403 (blocked for bots, assumed alive)
+evidence: []
+notes: 'Could not read any terms: data.boston.gov (Analyze Boston, CKAN) returns HTTP 403 / Cloudflare ''you have been blocked'' to curl and to Playwright (tried terms-of-use, about, API pages), so no licence
+  or terms page was seen. boston.gov analytics-team page only links to the portal. Left unknown; not bypassing the block. Re-check from a normal browser.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

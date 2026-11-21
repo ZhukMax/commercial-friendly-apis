@@ -1,0 +1,41 @@
+id: neotimo-dgfip-mirror
+name: Neotimo DGFiP Mirror
+url: https://neotimo.com/annuaire-dgfip
+category: Government
+description: French DGFiP registry of certified e-invoicing platforms (Plateformes Agréées), searchable by SIRET
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Neotimo DGFiP Mirror
+  url: https://neotimo.com/annuaire-dgfip
+  category: Government
+- list: public-api-lists
+  name: Neotimo DGFiP Mirror
+  url: https://neotimo.com/annuaire-dgfip
+  category: Government
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://neotimo.com/legal/termsofuse
+rate_limits: 10 requests/min per IP, free, no key
+notes: Read the directory page and Neotimo CGU (March 2026). The CGU cover the paid e-invoicing platform, not the free DGFiP directory mirror/API; no licence or reuse terms for the mirrored data were found.
+  Source is the official DGFiP directory (its own reuse terms not checked).
+evidence:
+- field: rate_limits
+  url: https://neotimo.com/annuaire-dgfip
+  quote: Dix requêtes par minute et par IP
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+share_alike: unknown

@@ -1,0 +1,21 @@
+name: Weekly checks
+on:
+  schedule: [{cron: "0 6 * * 1"}]
+  workflow_dispatch:
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install -r requirements.txt
+      - run: python scripts/check_links.py
+      - run: python scripts/verify_quotes.py
+        continue-on-error: true
+      - run: python scripts/build.py
+      - uses: peter-evans/create-pull-request@v6
+        with:
+          title: "Weekly link and evidence refresh"
+          commit-message: "chore: weekly link check"
+          branch: weekly-refresh

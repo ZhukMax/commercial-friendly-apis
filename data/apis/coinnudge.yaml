@@ -1,0 +1,30 @@
+id: coinnudge
+name: CoinNudge
+url: https://coinnudge.site/data/api-docs
+category: Cryptocurrency
+description: Current crypto market breadth, funding and open-interest research datasets
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: CoinNudge
+  url: https://coinnudge.site/data/api-docs
+  category: Cryptocurrency
+- list: public-api-lists
+  name: CoinNudge
+  url: https://coinnudge.site/data/api-docs
+  category: Cryptocurrency
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: ConnectError

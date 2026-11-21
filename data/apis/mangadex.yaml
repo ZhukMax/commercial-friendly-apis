@@ -1,0 +1,30 @@
+id: mangadex
+name: MangaDex
+url: https://api.mangadex.org/docs/
+category: Anime
+description: Manga Database and Community
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: MangaDex
+  url: https://api.mangadex.org/docs/
+  category: Anime
+- list: public-api-lists
+  name: Mangadex
+  url: https://api.mangadex.org/docs/
+  category: Anime
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: ConnectError

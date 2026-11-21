@@ -1,0 +1,73 @@
+id: japan-neighborhoods
+name: Japan Neighborhoods
+url: https://japanneighborhoods.com/developers
+category: Government
+description: Tokyo neighborhood crime statistics, safety scores, and station data (5,078 areas, 2018-2024)
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: Japan Neighborhoods
+  url: https://japanneighborhoods.com/developers
+  category: Government
+link_status: alive
+data_license: CC-BY-4.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: 'yes'
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://japanneighborhoods.com/developers
+api_terms_url: https://japanneighborhoods.com/terms
+commercial_use_scope: any
+attribution_text: Data from Japan Neighborhoods (japanneighborhoods.com), sourced from Tokyo Metropolitan
+  Police Department.
+share_alike: unknown
+rate_limits: No rate limit currently enforced; responses cached 24h
+evidence:
+- field: data_license
+  url: https://japanneighborhoods.com/developers
+  quote: All data is available under CC BY 4.0 (Creative Commons Attribution).
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://japanneighborhoods.com/developers
+  quote: Please include attribution to japanneighborhoods.com when using data.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://japanneighborhoods.com/developers
+  quote: No rate limit currently enforced.
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://japanneighborhoods.com/developers
+  quote: For bulk downloads, consider using our CSV datasets on Kaggle.
+  checked_at: '2026-11-21'
+notes: Developers page states all data/API under CC BY 4.0 with required attribution; Terms of Use confirm
+  the crime statistics come from the Tokyo Metropolitan Government Open Data Catalog under CC BY 4.0 (original
+  TMPD credit needed). The site also uses census and MLIT property data; the 'all data CC BY' claim for
+  those was not verified against the sources. Commercial/storage rely on the CC BY 4.0 deed. Crime/safety
+  scores are not advice (ToS).
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Developers page says all data CC BY 4.0 with required attribution to japanneighborhoods.com
+  and the Tokyo Metropolitan source; ToS credits TMPD data under Tokyo Open Data CC BY 4.0. Census/MLIT-derived
+  fields not individually verified. No rate limit currently.

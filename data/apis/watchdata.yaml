@@ -1,0 +1,33 @@
+id: watchdata
+name: Watchdata
+url: https://docs.watchdata.io
+category: Blockchain
+description: Provide simple and reliable API access to Ethereum blockchain
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Watchdata
+  url: https://docs.watchdata.io
+  category: Blockchain
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://watchdata.io/terms-of-use.html
+evidence: []
+notes: 'Read https://watchdata.io/terms-of-use.html (TheWatch, Inc., Dec 2021). Generic service terms:
+  all site content incl. data is the Company property, reselling/sublicensing prohibited except when integrated
+  into own products giving additional functionality; no explicit statement on commercial use, caching
+  or display of API data, so left unknown. Tariff/plan pages not read.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

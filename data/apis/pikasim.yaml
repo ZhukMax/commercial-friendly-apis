@@ -1,0 +1,49 @@
+id: pikasim
+name: PikaSim
+url: https://pikasim.com/reseller/api-docs
+category: Transportation
+description: Purchase travel eSIMs programmatically for 190+ countries
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: PikaSim
+  url: https://pikasim.com/reseller/api-docs
+  category: Transportation
+link_status: alive
+data_license: unknown
+commercial_use: 'yes'
+storage_caching: unknown
+redistribution_display: 'yes'
+attribution_required: 'no'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://pikasim.com/tos
+commercial_use_scope: any
+rate_limits: Per-key limits returned in X-RateLimit-* headers
+evidence:
+- field: commercial_use
+  url: https://pikasim.com/reseller/api-docs
+  quote: You can resell at any price you choose.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://pikasim.com/reseller
+  quote: so you deliver eSIMs under your own brand, in your own app or storefront.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://pikasim.com/reseller
+  quote: The API returns raw eSIM activation data (QR code, activation code, ICCID) with no PikaSim branding
+  checked_at: '2026-11-21'
+notes: This is a transactional reseller API (buy eSIMs wholesale at 10% off retail), not a data feed.
+  Read the reseller API docs, the reseller landing page and the general Terms of Service (/tos). Resale
+  at your own price and white-label delivery under your own brand are explicitly intended; ToS bans "Reselling
+  service without authorization" (an approved reseller account/API key is that authorization). Nothing
+  was found on storing/caching package catalogue data, and no reseller-specific agreement was published,
+  so storage_caching stays unknown and the verdict is unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

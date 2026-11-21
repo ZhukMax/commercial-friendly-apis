@@ -1,0 +1,65 @@
+id: openligadb
+name: OpenLigaDB
+url: https://www.openligadb.de
+category: Sports & Fitness
+description: Crowd sourced sports league results
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: OpenLigaDB
+  url: https://www.openligadb.de
+  category: Sports & Fitness
+link_status: alive
+data_license: ODbL-1.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: high
+link_checked_at: '2026-11-21'
+data_license_url: https://www.openligadb.de/lizenz
+api_terms_url: https://www.openligadb.de/Nutzungsbedingungen
+commercial_use_scope: any
+attribution_text: Daten von OpenLigaDB (www.openligadb.de), lizenziert unter ODbL 1.0
+share_alike: 'yes'
+rate_limits: 'Live matches: max one call per 30-60 s per league; outside matches only a few calls per day; set descriptive User-Agent'
+notes: Read /lizenz, /Nutzungsbedingungen, /Impressum (German). Data is ODbL 1.0, user-entered community data, nothing imported from third-party databases. ODbL share-alike applies only if a modified database
+  is publicly distributed; merely displaying tables/graphics only needs attribution (so share_alike=yes is a condition for redistributing the DB, not for display). Club names, crests, logos and externally
+  hosted images (TeamIconUrl) are NOT covered by the licence. Operator is a private non-commercial project with no availability guarantee; ToS says access may later need registration/keys.
+evidence:
+- field: commercial_use
+  url: https://www.openligadb.de/lizenz
+  quote: Ja. Die ODbL 1.0 erlaubt die kommerzielle Nutzung, auch in kostenpflichtigen Produkten.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.openligadb.de/lizenz
+  quote: Die über OpenLigaDB bereitgestellten Sportdaten stehen unter der Open Database License v1.0 .
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.openligadb.de/Nutzungsbedingungen
+  quote: Speichern Sie Ergebnisse lokal zwischen, statt identische Anfragen zu wiederholen.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.openligadb.de/lizenz
+  quote: Solche Inhalte müssen nicht unter die ODbL gestellt werden; hier genügt die Namensnennung.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.openligadb.de/lizenz
+  quote: Nennen Sie OpenLigaDB als Quelle, wenn Sie die Daten öffentlich verwenden.
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://www.openligadb.de/lizenz
+  quote: Wenn Sie eine veränderte Fassung der Datenbank öffentlich weitergeben, muss diese wieder unter der ODbL stehen.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://www.openligadb.de/Nutzungsbedingungen
+  quote: 'Während laufender Spiele: höchstens ein Abruf alle 30 bis 60 Sekunden je Liga'
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

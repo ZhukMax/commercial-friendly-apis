@@ -1,0 +1,60 @@
+id: emojihub
+name: EmojiHub
+url: https://github.com/cheatsnake/emojihub
+category: Art & Design
+description: Get emojis by categories and groups
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: EmojiHub
+  url: https://github.com/cheatsnake/emojihub
+  category: Art & Design
+link_status: alive
+data_license: MIT per GitHub repository metadata (no LICENSE file found in repo root); emoji names/codes
+  derive from Unicode data
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: 'yes'
+self_host_option: 'yes'
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+data_license_url: https://github.com/cheatsnake/emojihub
+api_terms_url: https://github.com/cheatsnake/emojihub
+share_alike: unknown
+notes: 'Not a hosted-service terms page: the entry points to the GitHub repo (Go server + JSON emoji data);
+  the public instance is https://emojihub.yurace.pro/api/*. README documents endpoints only and has no
+  terms. GitHub''s licence API reports MIT, but the repository root listing (master) has no LICENSE file
+  and the README has no licence text, so the grant cannot be confirmed and commercial_use is ambiguous.
+  No ToS, rate-limit or availability statement for emojihub.yurace.pro (the old emojihub.herokuapp.com
+  link in the README is stale). Emoji metadata (names, codes) derives from Unicode data; the artwork/glyphs
+  are not provided. Self-hosting via Dockerfile is possible.'
+evidence:
+- field: data_license
+  url: https://api.github.com/repos/cheatsnake/emojihub
+  quote: MIT License
+  checked_at: '2026-11-21'
+- field: self_host_option
+  url: https://github.com/cheatsnake/emojihub
+  quote: Dockerfile
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://github.com/cheatsnake/emojihub
+  quote: Get an array of all emojis
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://api.github.com/repos/cheatsnake/emojihub
+  quote: MIT License
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Verified: GitHub licence API says MIT, repo root listing (Dockerfile, README, cmd,
+  emojistore, go.mod...) has no LICENSE and raw LICENSE returns 404 on master/main. Public instance emojihub.yurace.pro
+  answers 200. Grant unconfirmable; ambiguous stands (self-host from repo is the safer route).'

@@ -1,0 +1,69 @@
+id: kurtaxe
+name: Kurtaxe
+url: https://keyset.cloud/kurtaxe/api/
+category: Government
+description: German tourist tax (Kurtaxe) rates by municipality, each quoted from the municipal statute
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Kurtaxe
+  url: https://keyset.cloud/kurtaxe/api/
+  category: Government
+link_status: alive
+data_license: CC-BY-4.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: 'yes'
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://creativecommons.org/licenses/by/4.0/
+api_terms_url: https://keyset.cloud/kurtaxe/api/
+commercial_use_scope: any
+attribution_text: Keyset, keyset.cloud/kurtaxe
+share_alike: unknown
+rate_limits: No limit other than what a web server can handle
+evidence:
+- field: data_license
+  url: https://keyset.cloud/kurtaxe/api/
+  quote: Die Daten stehen unter CC BY 4.0 .
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://keyset.cloud/kurtaxe/api/
+  quote: Ja, auch kommerziell, unter CC BY 4.0
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://keyset.cloud/kurtaxe/api/
+  quote: Ja, auch kommerziell, unter CC BY 4.0 mit der Nennung
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://keyset.cloud/kurtaxe/api/
+  quote: Kein Schlüssel, keine Anmeldung, kein Limit außer dem, was ein Webserver verträgt.
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://keyset.cloud/kurtaxe/api/
+  quote: Alle Dateien liegen auch im Repository keysethq/kurtaxe-daten
+  checked_at: '2026-11-21'
+notes: API page states data CC BY 4.0, commercial use explicitly OK, credit 'Keyset, keyset.cloud/kurtaxe'.
+  The underlying municipal statutes are official works of the municipalities (their reuse status not assessed;
+  data are quoted facts with checksums). Storage/display rely on the CC BY 4.0 deed. Not legal/tax advice.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Verbatim FAQ answer found. Data are quoted municipal statute figures; no separate terms/AUP
+  page found. Not tax advice.

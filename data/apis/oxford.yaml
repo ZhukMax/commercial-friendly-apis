@@ -1,0 +1,63 @@
+id: oxford
+name: Oxford
+url: https://developer.oxforddictionaries.com/
+category: Dictionaries
+description: Dictionary Data
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Oxford
+  url: https://developer.oxforddictionaries.com/
+  category: Dictionaries
+- list: public-api-lists
+  name: Oxford
+  url: https://developer.oxforddictionaries.com/
+  category: Dictionaries
+link_status: alive
+data_license: unknown
+commercial_use: 'yes'
+storage_caching: 'no'
+redistribution_display: 'yes'
+attribution_required: 'no'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://developer.oxforddictionaries.com/api-terms-and-conditions
+attribution_text: 'Optional: "Powered by Oxford Dictionaries"'
+share_alike: unknown
+evidence:
+- field: commercial_use
+  url: https://developer.oxforddictionaries.com/api-terms-and-conditions
+  quote: You may make both Commercial and Non-Commercial Use of the Oxford Dictionaries API or Content.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://developer.oxforddictionaries.com/api-terms-and-conditions
+  quote: obtaining payment for the Product directly or indirectly including via advertising revenue
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://developer.oxforddictionaries.com/api-terms-and-conditions
+  quote: You will not cache, store, or save Content.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://developer.oxforddictionaries.com/api-terms-and-conditions
+  quote: Although you may choose not to display all of the Content retrieved from an API call
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://developer.oxforddictionaries.com/api-terms-and-conditions
+  quote: You may use the phrase “Powered by Oxford Dictionaries” in your Product(s).
+  checked_at: '2026-11-21'
+notes: 'Terms page has two tabs; the Commercial licence agreement was read (Non-commercial research licence
+  is a separate tab). Commercial Use is defined to include advertising revenue and is permitted. Storage
+  forbidden except user-level session caching of the formatted display; persistent caching needs a separate
+  OUP Dictionaries Enterprise licence. No sell/resell/redistribute/sublicense of Content; no alteration
+  of displayed content; no scraping, no use with AI tools. Whether a paid plan/fee is required for the
+  commercial licence was not determined (pricing page is JS/login only). Attribution is optional. Key
+  and app id required. Data licence not stated on a page read; characterised as: proprietary (Oxford University
+  Press; Oxford Dictionaries API Licence Agreement).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

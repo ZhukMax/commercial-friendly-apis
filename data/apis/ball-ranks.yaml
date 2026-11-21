@@ -1,0 +1,48 @@
+id: ball-ranks
+name: Ball Ranks
+url: https://ballranks.com/developers
+category: Sports & Fitness
+description: NFL and NBA fantasy rankings and player projections
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Ball Ranks
+  url: https://ballranks.com/developers
+  category: Sports & Fitness
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+commercial_use_scope: any
+api_terms_url: https://ballranks.com/terms
+evidence:
+- field: commercial_use
+  url: https://ballranks.com/terms
+  quote: we grant you a limited, personal, revocable, non-exclusive, non-transferable license to use the
+    Service for your own lawful purposes
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://ballranks.com/terms
+  quote: copy, resell, or commercially exploit a substantial part of the Service without permission
+  checked_at: '2026-11-21'
+notes: Only the site Terms of Service (effective Aug 30 2026) were found; the developer page (ballranks.com/developers)
+  has plans/limits (anonymous, free, Premium $39.99/yr) but no data licence. The ToS grants a limited
+  personal licence, owns rankings/model outputs, and bans commercially exploiting a substantial part of
+  the Service without permission; nothing about displaying rankings on third-party sites, caching, or
+  attribution. Treated as ambiguous for commercial sites; ask the operator.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'ToS re-read: limited personal licence, bans commercial exploitation of a substantial
+  part; nothing on API data display or caching. Ambiguous stays.'

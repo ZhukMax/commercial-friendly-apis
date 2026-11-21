@@ -1,0 +1,76 @@
+id: rijksmuseum
+name: Rijksmuseum
+url: https://data.rijksmuseum.nl/
+category: Art & Design
+description: RijksMuseum Data
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Rijksmuseum
+  url: https://data.rijksmuseum.nl/
+  category: Art & Design
+link_status: alive
+data_license: CC0 / Public Domain for much of the data; CC BY 4.0 where copyright applies; some objects
+  restricted
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: ambiguous
+bulk_download: 'yes'
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://data.rijksmuseum.nl/policy/
+api_terms_url: https://data.rijksmuseum.nl/policy/
+commercial_use_scope: any
+attribution_text: Credit the Rijksmuseum as source (requested for CC0; required where an object is marked
+  CC BY 4.0)
+share_alike: unknown
+notes: 'Read the data services home, docs, Information and Data Policy (intro page; the full policy PDF
+  was not read). The old apiKey API has been replaced by the new data services (Search API, OAI-PMH, LDES,
+  Linked Data resolver, data dumps), which need no key (Search API docs: ''No API key is needed''), so
+  auth changed to none. Licence is per object: most data/images are Public Domain/CC0, some are CC BY
+  4.0 (credit required), and the collection site also contains photographs still under copyright that
+  are not freely available (copyright holder is shown). Per-object copyright notice must be checked before
+  storing/displaying images; hence confidence medium and attribution ambiguous.'
+evidence:
+- field: commercial_use
+  url: https://data.rijksmuseum.nl/policy/
+  quote: can be freely used, including for commercial purposes, without needing to request permission.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://data.rijksmuseum.nl/policy/
+  quote: you will find a Public Domain or Creative Commons Zero (CC0) Public Domain Dedication under the
+    copyright notice, meaning you can use the material freely
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://data.rijksmuseum.nl/policy/
+  quote: meaning you can use the material freely
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://data.rijksmuseum.nl/policy/
+  quote: meaning you can use the material freely
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://data.rijksmuseum.nl/policy/
+  quote: We kindly ask that when using our information and data, you credit the Rijksmuseum
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://data.rijksmuseum.nl/policy/
+  quote: This allows you to use the material, as long as you acknowledge the Rijksmuseum as the source.
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://data.rijksmuseum.nl/docs/
+  quote: The complete collection is also available for download .
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read /policy/ and full English policy (3.3: commercial parties same conditions;
+  3.7 licensing principles; 3.8 credit is good practice). Caveat kept: some objects/photos under third-party
+  copyright, check per-object notice; Dutch text prevails on conflict. No API key needed.'

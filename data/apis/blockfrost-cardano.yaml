@@ -1,0 +1,50 @@
+id: blockfrost-cardano
+name: blockfrost Cardano
+url: https://blockfrost.io/
+category: Cryptocurrency
+description: Interaction with the Cardano mainnet and several testnets
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: blockfrost Cardano
+  url: https://blockfrost.io/
+  category: Cryptocurrency
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://blockfrost.io/terms
+commercial_use_scope: any
+rate_limits: 'Free plan: 50,000 requests a day; Hobby 300,000/day'
+evidence:
+- field: commercial_use
+  url: https://blockfrost.io/terms
+  quote: The Site may not be used in connection with any commercial endeavors except those that are specifically
+    endorsed or approved by us.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://blockfrost.io/
+  quote: 50,000 requests a day
+  checked_at: '2026-11-21'
+notes: Only generic website Terms and Conditions (Five Binaries OU, blockfrost.io/terms) found; read via
+  Playwright (Next.js SPA). They restrict commercial use of the 'Site' without approval and bar compiling
+  databases from it, but do not mention the API, API keys or paid plans, so whether they govern API use
+  is unclear -> ambiguous. No separate API terms, licence or caching/display clause found; pricing is
+  shown on the home page (Free 50k req/day, Hobby EUR29/mo), /pricing is 404. Blockchain data (Cardano)
+  is public chain data; node-as-a-service infra rather than a data licensor.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Terms re-read via fresh Playwright context: Site terms bar use of Site for revenue-generating
+  endeavour but never mention API/keys; paid plans exist (Hobby). Ambiguous stays; ask vendor.'

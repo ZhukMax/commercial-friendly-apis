@@ -1,0 +1,82 @@
+id: registrum
+name: Registrum
+url: https://api.registrum.co.uk/docs
+category: Open Data
+description: 'UK company data: profiles, directors, PSC, iXBRL-parsed financials, ECCTA status'
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Registrum
+  url: https://api.registrum.co.uk/docs
+  category: Open Data
+link_status: alive
+data_license: OGL-UK-3.0 (Companies House data) plus Registrum enrichment under ToS
+commercial_use: 'yes'
+storage_caching: ambiguous
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+api_terms_url: https://registrum.co.uk/terms
+commercial_use_scope: any
+attribution_text: Contains public sector information licensed under the Open Government Licence v3.0 (Companies
+  House)
+share_alike: unknown
+rate_limits: Not stated on terms; free key with credits (60 days full access on signup, then caps), anonymous
+  caps on MCP
+notes: 'Read registrum.co.uk/terms (updated 2026-11-08) and the landing page; api.registrum.co.uk/docs
+  is a Swagger UI requiring JS (not read). Terms: any lawful purpose; forbidden: circumventing rate limits,
+  reselling raw API responses without transformation, building a competing API, breaching OGL v3.0. Underlying
+  Companies House data is OGL v3.0 (OGL text read: commercial exploitation allowed with source acknowledgement).
+  Responses include personal data on officers/PSCs: you become a separate controller under UK GDPR and
+  must not contact/profile individuals unexpectedly. Storage is only implied by the GDPR sentence and
+  OGL copying right, so confidence medium. Pricing/plans page 404; limits not documented. Companies House''s
+  own API terms were not read.'
+evidence:
+- field: commercial_use
+  url: https://registrum.co.uk/terms
+  quote: You may use the API for any lawful purpose.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://registrum.co.uk/terms
+  quote: enriches data sourced from the UK Companies House public API, made available under the Open Government
+    Licence v3.0.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://registrum.co.uk/terms
+  quote: resell raw API responses without transformation
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://registrum.co.uk/terms
+  quote: responsible for your own compliance with UK GDPR and the Data Protection Act 2018 when you store,
+    combine or use it
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+  quote: acknowledge the source of the Information in your product or application
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+  quote: exploit the Information commercially and non-commercially for example, by combining it with other
+    Information, or by including it in your own product or application.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://registrum.co.uk/terms
+  quote: Do not use it to contact, profile or track individuals in ways they would not reasonably expect
+    from a public register entry.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Terms say nothing explicit on storage; only that user is separate GDPR controller;
+  Bans reselling raw responses without transformation and profiling or tracking individuals; officer/PSC
+  personal data; API key must not be embedded in client-side code; free-tier limits and pricing page unreadable
+  (404) | applied: storage_caching=ambiguous, redistribution_display=ambiguous'

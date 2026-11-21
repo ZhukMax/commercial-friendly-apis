@@ -1,0 +1,55 @@
+id: stanza-dscsa-verifier
+name: Stanza DSCSA Verifier
+url: https://stanzaapi.com/tools/pharma-dscsa
+category: Health
+description: Verify FDA DSCSA and EU FMD pharmaceutical serialization barcodes
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Stanza DSCSA Verifier
+  url: https://stanzaapi.com/tools/pharma-dscsa
+  category: Health
+link_status: alive
+data_license: proprietary (StanzaAPI Terms of Service)
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://stanzaapi.com/terms
+rate_limits: Free sandbox tier 50-500 requests/month (hard cap); paid plans from $29/mo
+notes: 'Terms of Service, pricing and tool page read. This is a pure-compute barcode parsing/validation
+  service (zero data retention), not a data feed. ToS grant a limited licence to access the APIs per subscribed
+  tier and do not address commercial use, storage or display of outputs; pricing describes the free tier
+  as a ''sandbox'' to start on before you ship and calls Pro/Ultra/Mega ''commercial tiers'', so production
+  use probably needs a paid plan, but that is inferred, not stated as a prohibition. Also: no live PHI
+  on public endpoints; not an FDA-certified VRS.'
+evidence:
+- field: data_license
+  url: https://stanzaapi.com/terms
+  quote: StanzaAPI, its APIs, code libraries, SDKs, documentation, logos, and software architectures are
+    the proprietary intellectual property of StanzaAPI and its operators.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://stanzaapi.com/pricing
+  quote: Subscribe to one engine, or start on the free sandbox tier and upgrade when you ship.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://stanzaapi.com/pricing
+  quote: Every engine has a free tier — 50 to 500 requests/month, hard-capped, no credit card.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read ToS (s3-s4 acceptable use: no key sharing/resale, no live PHI on public endpoints,
+  no scraping/DoS) and pricing. No clause forbids commercial use, storage or display of outputs; also
+  no grant. Production use likely needs paid tier (inferred only). Ambiguity stands; low risk for the
+  catalog scenario because no upstream data is involved.'

@@ -1,0 +1,39 @@
+id: molicheck
+name: Molicheck
+url: https://molicheck.com/api
+category: Science & Math
+description: Anonymous JSON lab/GMP calculators (molarity, dilution, ICH limits); no API key
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Molicheck
+  url: https://molicheck.com/api
+  category: Science & Math
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+rate_limits: About 60 requests per 60 seconds per IP
+evidence:
+- field: rate_limits
+  url: https://molicheck.com/api
+  quote: 'Rate limit: about 60 requests per 60 seconds per IP.'
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://molicheck.com/api
+  quote: No API keys. Anonymous access only.
+  checked_at: '2026-11-21'
+notes: 'Only the API page (molicheck.com/api) was read: it describes the free anonymous JSON API but contains no licence or terms of use. No terms/legal/privacy pages exist at molicheck.com (404 on /terms,
+  /legal, /license, /about). Outputs are calculator results with regulatory citations; nothing on reuse is stated, so all core fields unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

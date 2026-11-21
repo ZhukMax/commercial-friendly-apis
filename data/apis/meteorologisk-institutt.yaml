@@ -1,0 +1,73 @@
+id: meteorologisk-institutt
+name: Meteorologisk Institutt
+url: https://api.met.no/weatherapi/documentation
+category: Weather
+description: Weather and climate data
+description_source: upstream
+auth: other
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Meteorologisk Institutt
+  url: https://api.met.no/weatherapi/documentation
+  category: Weather
+- list: public-api-lists
+  name: Meteorologisk Institutt
+  url: https://api.met.no/weatherapi/documentation
+  category: Weather
+link_status: alive
+data_license: NLOD-2.0 and CC-BY-4.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: high
+link_checked_at: '2026-11-21'
+data_license_url: https://api.met.no/doc/License
+api_terms_url: https://api.met.no/doc/TermsOfService
+commercial_use_scope: any
+attribution_text: Data from MET Norway / Based on data from MET Norway
+share_alike: unknown
+rate_limits: Max 20 requests/second total; identifying User-Agent required; cache locally
+evidence:
+- field: data_license
+  url: https://api.met.no/doc/License
+  quote: Unless specified otherwise, all data and products are licensed under the Norwegian Licence for
+    Open Government Data (NLOD) 2.0
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://api.met.no/doc/TermsOfService
+  quote: All open data require attribution as specified in the CC BY 4.0 license
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://api.met.no/doc/TermsOfService
+  quote: Cache data locally and don't repeat identical requests more often than specified for each product.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://api.met.no/doc/TermsOfService
+  quote: Keep total traffic below 20 requests per second.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+notes: 'Read MET Weather API Terms of Service (revised 2026-11-05) and Licensing page via Playwright (plain
+  curl got 403 for lack of a registered User-Agent; no bypass attempted). Data under NLOD 2.0 + CC BY
+  4.0 ''unless specified otherwise'' (individual products can differ). Required: identifying User-Agent,
+  <=20 req/s, no use of the Yr name/logo, attribution. The CC BY 4.0 deed is cited for commercial/redistribution
+  together with MET''s statement that CC BY applies; share_alike left unknown (NLOD 2.0 text not read).
+  Weather icons are MIT. auth is a User-Agent header, no key.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Read ToS via Playwright: attribution per CC BY 4.0, identifying User-Agent, <=20 req/s,
+  cache per Expires header, no Yr name/logo. No commercial ban found.'

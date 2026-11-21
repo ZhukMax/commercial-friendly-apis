@@ -1,0 +1,26 @@
+id: teleport
+name: Teleport
+url: https://developers.teleport.org/
+category: Open Data
+description: Quality of Life Data
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Teleport
+  url: https://developers.teleport.org/
+  category: Open Data
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: ConnectError

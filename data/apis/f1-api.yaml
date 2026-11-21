@@ -1,0 +1,26 @@
+id: f1-api
+name: F1 API
+url: https://f1api.dev
+category: Sports & Fitness
+description: Free F1 data in real time with his own NPM package
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-api-lists
+  name: F1 API
+  url: https://f1api.dev
+  category: Sports & Fitness
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: HTTP 402

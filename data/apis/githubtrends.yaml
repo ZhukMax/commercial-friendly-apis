@@ -1,0 +1,25 @@
+id: githubtrends
+name: GithubTrends
+url: https://githubtrends.app/api/
+category: Development
+description: GitHub Trending repositories with star history and open-source alternatives to paid tools
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: GithubTrends
+  url: https://githubtrends.app/api/
+  category: Development
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

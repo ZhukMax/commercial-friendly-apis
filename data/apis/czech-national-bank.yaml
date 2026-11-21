@@ -1,0 +1,79 @@
+id: czech-national-bank
+name: Czech National Bank
+url: https://www.cnb.cz/cs/financni_trhy/devizovy_trh/kurzy_devizoveho_trhu/denni_kurz.xml
+category: Currency Exchange
+description: A collection of exchange rates
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Czech National Bank
+  url: https://www.cnb.cz/cs/financni_trhy/devizovy_trh/kurzy_devizoveho_trhu/denni_kurz.xml
+  category: Currency Exchange
+- list: public-api-lists
+  name: Czech National Bank
+  url: https://www.cnb.cz/cs/financni_trhy/devizovy_trh/kurzy_devizoveho_trhu/denni_kurz.xml
+  category: Currency Exchange
+link_status: alive
+data_license: 'CNB website terms: store/distribute/reproduce with source credit'
+commercial_use: ambiguous
+storage_caching: 'yes'
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://www.cnb.cz/en/privacy-statement-and-disclaimer/disclaimer-copyright/
+api_terms_url: https://www.cnb.cz/en/privacy-statement-and-disclaimer/disclaimer-copyright/
+commercial_use_scope: any
+attribution_text: 'Source: the CNB'
+evidence:
+- field: commercial_use
+  url: https://www.cnb.cz/en/privacy-statement-and-disclaimer/disclaimer-copyright/
+  quote: You may store, distribute and reproduce all our Internet information with the exception of texts
+    with an author
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.cnb.cz/en/privacy-statement-and-disclaimer/disclaimer-copyright/
+  quote: You may store, distribute and reproduce all our Internet information with the exception of texts
+    with an author
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.cnb.cz/en/privacy-statement-and-disclaimer/disclaimer-copyright/
+  quote: You may store, distribute and reproduce all our Internet information with the exception of texts
+    with an author
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.cnb.cz/en/privacy-statement-and-disclaimer/disclaimer-copyright/
+  quote: 'The CNB must always be stated as the source of the information (Source: the CNB)'
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.cnb.cz/en/privacy-statement-and-disclaimer/disclaimer-copyright/
+  quote: You may store, distribute and reproduce all our Internet information with the exception of texts
+    with an author
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.cnb.cz/en/privacy-statement-and-disclaimer/disclaimer-copyright/
+  quote: the file and its content may not be altered in any manner and each page must be displayed in
+    a new browser window
+  checked_at: '2026-11-21'
+notes: 'Read the CNB "Terms and conditions of using the internet pages" (https://www.cnb.cz/en/privacy-statement-and-disclaimer/disclaimer-copyright/)
+  plus the rates page. Grant to store, distribute and reproduce site information is not limited by purpose
+  (the disclaimer even warns to verify data "especially if using this information for commercial purposes"),
+  but the word commercial use is never explicitly granted, hence confidence medium. Conditions: always
+  name the CNB as source, do not alter the file or its content, facts and meaning must not be changed
+  in extracts; author-signed texts and third-party images excluded; CNB logo needs approval. The page
+  speaks of website content generally; the XML file denni_kurz.xml has no separate terms. share_alike=no
+  because no such condition appears.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+share_alike: unknown
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'commercial use is never explicitly granted; only ''store, distribute and reproduce'';
+  conditions: file/content may not be altered in any manner, each page displayed in a new browser window
+  | applied: commercial_use=ambiguous, redistribution_display=ambiguous'

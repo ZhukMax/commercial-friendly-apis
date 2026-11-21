@@ -1,0 +1,43 @@
+id: freegeoip
+name: FreeGeoIP
+url: https://freegeoip.app/
+category: Geocoding
+description: Free geo ip information, no registration required. 15k/hour rate limit
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: FreeGeoIP
+  url: https://freegeoip.app/
+  category: Geocoding
+link_status: redirect
+data_license: unknown
+commercial_use: paid-only
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: -> https://ipbase.com/
+api_terms_url: https://ipbase.com/terms-of-service
+commercial_use_scope: paid
+rate_limits: 'ipbase free plan: 1,000 lookups/month, 10 requests/min'
+notes: freegeoip.app now redirects to ipbase.com (the old keyless 15k/hour service is gone; a free API key is needed, so auth changed from none to apiKey). ipbase pricing labels the Free plan 'For testing
+  and non-commercial projects'; paid plans (from $99.99/yr) are for production. ToS (generic) forbids copying/reselling the service without written approval; it does not address caching or display of results.
+  Storage, display, attribution not found.
+evidence:
+- field: commercial_use
+  url: https://ipbase.com/pricing
+  quote: For testing and non-commercial projects
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://ipbase.com/pricing
+  quote: Start free with 1,000 lookups a month
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

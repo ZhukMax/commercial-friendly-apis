@@ -1,0 +1,75 @@
+id: urantia-papers
+name: Urantia Papers
+url: https://urantia.dev
+category: Books
+description: Full-text + semantic search across the Urantia Papers, with audio narration, entities, translations
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Urantia Papers
+  url: https://urantia.dev
+  category: Books
+- list: public-api-lists
+  name: Urantia Papers
+  url: https://urantia.dev
+  category: Books
+link_status: alive
+data_license: CC0-1.0 (API content); English text public domain
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'no'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://docs.urantia.dev/terms-of-service
+commercial_use_scope: any
+share_alike: 'no'
+rate_limits: Not specified; may be imposed (best-effort availability)
+evidence:
+- field: commercial_use
+  url: https://docs.urantia.dev/terms-of-service
+  quote: You may use the API for any lawful purpose.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://docs.urantia.dev/terms-of-service
+  quote: You may freely use, copy, and redistribute the English text data returned by the API.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://docs.urantia.dev/terms-of-service
+  quote: You may freely use, copy, and redistribute the English text data returned by the API.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://docs.urantia.dev/terms-of-service
+  quote: All original content is dedicated to the public domain under CC0 1.0 Universal.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://docs.urantia.dev/terms-of-service
+  quote: All content served by the API — including audio narrations, AI-generated explanations, and curated
+    collections — is dedicated to the public domain under CC0 1.0
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://docs.urantia.dev/terms-of-service
+  quote: All original content is dedicated to the public domain under CC0 1.0 Universal.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://docs.urantia.dev/terms-of-service
+  quote: We may impose rate limits to ensure fair access for all users.
+  checked_at: '2026-11-21'
+notes: 'Read the Terms of Service on docs.urantia.dev (linked from urantia.dev). English text is public
+  domain (US case cited), other API content CC0, any lawful purpose, own apps owned by you. Only conditions:
+  no claiming affiliation with Urantia Foundation, no abuse. Spanish translation and cross-referenced
+  ''world religions'' / Bible texts served by the API are not separately addressed (their licences may
+  differ). Terms last updated March 2026; attribution not required (CC0) though not forbidden.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: English text PD only 'in the United States' per ToS (Michael Foundation v. Urantia
+  Foundation); Spanish text is AI translation released CC0; Bible/world-religion texts carry per-text
+  licence (mostly 'Public domain in the United States'). Do not imply affiliation with Urantia Foundation.

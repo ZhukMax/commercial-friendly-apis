@@ -1,0 +1,33 @@
+id: uebermaps
+name: Uebermaps
+url: https://uebermaps.com/api/v2
+category: Geocoding
+description: Discover and share maps with friends
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Uebermaps
+  url: https://uebermaps.com/api/v2
+  category: Geocoding
+- list: public-api-lists
+  name: Uebermaps
+  url: https://uebermaps.com/api/v2
+  category: Geocoding
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: high
+link_checked_at: '2026-11-21'
+link_note: Service shut down on 31 July 2023 (site page says so)
+notes: The site now only shows a shutdown notice ('uebermaps - service shutdown by 31th july 2023'); no API or terms available. Terms left unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

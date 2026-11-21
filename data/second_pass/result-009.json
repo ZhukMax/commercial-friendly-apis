@@ -1,0 +1,365 @@
+[
+ {
+  "id": "221",
+  "outcome": "confirmed",
+  "reasons": [
+   "No blocker found; reuse per dataset licence",
+   "Only ANSD geography is CC BY 4.0, rest licence unspecified"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read /conditions-utilisation s5,8,10 and /sources (updated 2026-11-14). No non-commercial clause; ambiguity is genuine (221 cannot relicense unlicensed sources). Yellow stands."
+ },
+ {
+  "id": "49-gallery-historical-data",
+  "outcome": "disputed",
+  "reasons": [
+   "Docs page restricts data to reference/dev/statistics use",
+   "Lottery content; terms forbid betting transactions"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://api.181649.com/docs",
+    "quote": "数据仅供资料、开发和统计研究使用。",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "no"
+  },
+  "note": "/terms says free and 'suited to' archiving/dev/research, but the /docs and home page say data is only for reference, development and statistical research - a narrower scope that does not include an ad site. Upstream licence none; image copyrights unchecked. Gambling-related content adds legal risk."
+ },
+ {
+  "id": "acrelens",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms allow incorporating Outputs into own products",
+   "API is paid only; upstream OSM etc. unchecked"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read /legal/terms s5 and s10: no commercial ban, only resale of API access and bulk mirroring for competing product. Storage not explicit. Yellow stands (paid, attribution passthrough)."
+ },
+ {
+  "id": "agent-data-hub",
+  "outcome": "confirmed",
+  "reasons": [
+   "Per-source licences, no blanket permission",
+   "Terms warn some sources are non-commercial"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read /nutzungsbedingungen (5 Nov 2026) and root page. Quotes verified. Aggregator adds no licence; yellow stands, individual endpoints may be green."
+ },
+ {
+  "id": "agent-toolbelt",
+  "outcome": "disputed",
+  "reasons": [
+   "Upstream Finnhub bans redistribution of derived results",
+   "ToS forbids violating upstream provider terms"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://finnhub.io/terms-of-service",
+    "quote": "not redistribute or share access to data or derived results from the data obtained from Finnhub with anyone or any 3rd party",
+    "field": "redistribution_display"
+   }
+  ],
+  "suggested": {
+   "redistribution_display": "no"
+  },
+  "note": "Output is a synthesis of Polygon/Finnhub/FMP data and the ToS bans use violating those providers' terms. Finnhub's own terms forbid sharing derived results with third parties without written approval and say plans are personal use. Unknown whether Agent Toolbelt holds a redistribution licence; displaying output on a public ad site is therefore likely not allowed. FMP/Polygon terms not readable (JS / redirect)."
+ },
+ {
+  "id": "airvisual",
+  "outcome": "disputed",
+  "reasons": [
+   "IQAir terms bar public display for commercial purposes",
+   "No API licence grants commercial display; free plan only"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://www.iqair.com/legal/terms-conditions",
+    "quote": "may be copied, reproduced, aggregated, republished, uploaded, posted, publicly displayed, encoded, translated, transmitted, distributed, sold, licensed, or otherwise exploited for any commercial purpose whatsoever",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "no"
+  },
+  "note": "Re-read IQAir Legal Terms via Playwright: Content provided for personal non-commercial use; public display/republication for commercial purposes needs written permission. No developer terms granting more found. Free Community plan therefore non-commercial; paid plans 'contact us' (unconfirmed)."
+ },
+ {
+  "id": "alpaca",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms limit Content to personal non-commercial use",
+   "Public display needs prior written consent"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read the Terms PDF (pdftotext): 'Personal and Non-Commercial Usage' section confirmed, commercial/user-application use needs 30 days notice and Alpaca may refuse. Red verdict stands."
+ },
+ {
+  "id": "api-setu",
+  "outcome": "confirmed",
+  "reasons": [
+   "Use limited to internal and approved use cases",
+   "Non-personal data under NDSAP/GODL conflicts"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read Permitted Use and Access: valid credentials and 'internal and approved use cases' only; NDSAP/GODL reuse is for non-sensitive data published by issuers. Genuine conflict; leans unsuitable for a public site without per-API approval. Yellow/ambiguous stands."
+ },
+ {
+  "id": "apiip",
+  "outcome": "confirmed",
+  "reasons": [
+   "Same licence text as weatherstack; display for end-users' personal use",
+   "No commercial sentence; restrictions conflict"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read /terms via first-pass evidence (SPA, quotes consistent with the weatherstack licence text I read). Ambiguity stands."
+ },
+ {
+  "id": "apillow",
+  "outcome": "disputed",
+  "reasons": [
+   "Scraper of zillow.com, Zillow terms unreadable",
+   "APIllow disclaims any Zillow authorisation"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://apillow.co/terms.html",
+    "quote": "APIllow makes no representation that any specific use of the data is authorized by Zillow Group.",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "unknown"
+  },
+  "note": "Could not re-verify upstream: Zillow Terms of Use returned 403 to curl and an empty page in Playwright. APIllow s7 puts compliance with Zillow's terms on the user and says it does not represent any use is authorised. Cannot confirm commercial use; commercial_use should be unknown rather than ambiguous."
+ },
+ {
+  "id": "apiverket",
+  "outcome": "confirmed",
+  "reasons": [
+   "Paid tiers explicitly allow commercial use",
+   "Agency licences apply; ToS says typically free reuse"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read /terms s4-5 and /pricing (Free/Starter/Pro). paid-only confirmed. Upstream agency licences (SCB, SMHI etc.) not individually read; ToS says they are typically free for commercial reuse. Yellow stands."
+ },
+ {
+  "id": "apixu",
+  "outcome": "disputed",
+  "reasons": [
+   "Same weatherstack clause lists display as a restriction",
+   "Display flagged yes but text conflicts"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://weatherstack.com/terms",
+    "quote": "You shall not: reproduce, copy, modify, distribute, market, display, transfer, sublicense, assign",
+    "field": "redistribution_display"
+   }
+  ],
+  "suggested": {
+   "redistribution_display": "ambiguous"
+  },
+  "note": "Weatherstack licence permits display to end users for personal use, but the restriction list also bars 'display' and storing; the same text was rated ambiguous for apiip. redistribution_display should be ambiguous, not yes. Verdict stays yellow (paid-only)."
+ },
+ {
+  "id": "aqicn",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToS bans paid apps and cached/archived data",
+   "For-profit public use needs agreement"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read /api/tos/: all quotes verified exactly. Red stands."
+ },
+ {
+  "id": "archive-org",
+  "outcome": "disputed",
+  "reasons": [
+   "Terms of Use unreadable (empty JS page, also via Wayback)",
+   "Per-item third-party rights"
+  ],
+  "counter_evidence": [],
+  "suggested": {
+   "commercial_use": "unknown"
+  },
+  "note": "Could not re-verify: archive.org/about/terms renders empty in curl and Playwright (also tried web.archive.org). Developer portal licensing sentence is only a disclaimer of new rights. Items carry third-party copyright. Confirmed not allowed without reading ToU."
+ },
+ {
+  "id": "arcnautical",
+  "outcome": "disputed",
+  "reasons": [
+   "ToS licence is internal business use only",
+   "Dev docs: keyless is sample, test keys not customer-facing"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://arcnautical.com/terms",
+    "quote": "Data generated by the Service (risk scores, reports, assessments) for your account is licensed to you for your internal business use.",
+    "field": "redistribution_display"
+   },
+   {
+    "url": "https://arcnautical.com/developers/",
+    "quote": "Test keys are self-serve and bounded to the test environment; they do not authorize production or customer-facing use.",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {
+   "redistribution_display": "no"
+  },
+  "note": "Re-read /terms s8 and /developers: outputs licensed for internal business use and sharing with clients; no public-display grant; sanctions screening data on an ad-supported public site exceeds the grant. Keyless lane is for evaluation."
+ },
+ {
+  "id": "arcnautical-vessel-check",
+  "outcome": "disputed",
+  "reasons": [
+   "Same ArcNautical ToS: internal business use only",
+   "No public display grant"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://arcnautical.com/terms",
+    "quote": "Data generated by the Service (risk scores, reports, assessments) for your account is licensed to you for your internal business use.",
+    "field": "redistribution_display"
+   }
+  ],
+  "suggested": {
+   "redistribution_display": "no"
+  },
+  "note": "Same service/terms as arcnautical (terms read at arcnautical.com/terms, developer page). Licence limited to internal business use and sharing with clients; public ad-site display not granted."
+ },
+ {
+  "id": "arkleon",
+  "outcome": "disputed",
+  "reasons": [
+   "ToS 6(e) bans commercially exploiting API data",
+   "API authorisation explicitly does not cover 6(e)"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://arkleon.com/terms",
+    "quote": "redistribute, resell, or commercially exploit Service content, including data obtained through the API, without written permission",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "no",
+   "redistribution_display": "no"
+  },
+  "note": "Re-read /terms s6: programmatic access is permitted but 'does not license anything in (e)', i.e. redistributing, reselling or commercially exploiting content incl. API data needs written permission. Commercial site use is blocked absent written agreement."
+ },
+ {
+  "id": "atlasfetch",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToS endorses building products on lookups",
+   "ODbL share-alike passes through"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read /terms s6 and s8: quotes verified; no non-commercial clause; bulk resale of data forbidden; OSM-derived data ODbL share-alike. Yellow stands."
+ },
+ {
+  "id": "auregistre",
+  "outcome": "confirmed",
+  "reasons": [
+   "Licence Ouverte 2.0 allows commercial reuse with attribution",
+   "CGU bars mass automated extraction"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read /cgu: forbids mass extraction and requires citing source; no commercial ban. Yellow (storage ambiguous) stands."
+ },
+ {
+  "id": "aviation-safety-data",
+  "outcome": "confirmed",
+  "reasons": [
+   "Per-source licences, some non-commercial",
+   "Open-web republication forbidden for derived articles"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read developer page terms and source table: attribution mandatory, TSB Canada non-commercial, excerpts only for many sources. Ambiguity genuine; yellow stands."
+ },
+ {
+  "id": "babydata",
+  "outcome": "confirmed",
+  "reasons": [
+   "API page says CC BY 4.0; site ToS says no commercial republish",
+   "More specific API licence leans permissive"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read /api/ and /terms/. Conflict is real: the API-specific page states CC BY 4.0 for API figures (which permits commercial use), while the generic site ToS bars commercial scraping/republishing without permission. Evidence leans to the specific CC BY statement but conflict unresolved; ambiguous/yellow stands."
+ },
+ {
+  "id": "bayan",
+  "outcome": "disputed",
+  "reasons": [
+   "Hadith book texts are CC BY-NC-SA 4.0",
+   "Core content non-commercial"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://bayan.alwa7i.com/api",
+    "quote": "نصوص الكتب من مشروع OpenITI برخصة CC BY-NC-SA 4.0 (لغير الأغراض التجارية، مع ذكر المصدر، وبالرخصة نفسها)",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "no"
+  },
+  "note": "Re-read the /api JSON terms (Arabic): book texts (hadith collections, the main content) are from OpenITI under CC BY-NC-SA 'for non-commercial purposes'. Tanzil Quran text (read tanzil.net licence) is verbatim with credit, OK commercially, but hadith core is NC. A commercial site cannot use the main content."
+ },
+ {
+  "id": "bible-api",
+  "outcome": "confirmed",
+  "reasons": [
+   "No commercial wording; page says only PD or freely licensed translations",
+   "Per-translation licences not read"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read bible-api.com: terms only forbid abuse and downloading a whole Bible; the page states translations must be public domain or freely licensed and removed unclear ones in Nov 2026. Ambiguity (silence) stands; confidence low."
+ },
+ {
+  "id": "bigdatacloud",
+  "outcome": "confirmed",
+  "reasons": [
+   "No non-commercial clause in ToS",
+   "Free client API stated commercial-friendly"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read ToS (3.5-3.13) and /free-api: Base Access has no commercial restriction; 3.12 no-storage clause is in the Unlimited Subscription terms. Unknown verdict stands."
+ },
+ {
+  "id": "billionaire-tracker",
+  "outcome": "disputed",
+  "reasons": [
+   "Free tier is for trying only; commercial use is paid",
+   "Forbes upstream terms unread, no licence shown"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://billionairetracker.us/developers",
+    "quote": "The free tier is for trying the API before you buy.",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "paid-only"
+  },
+  "note": "Re-read /developers via Playwright: FAQ says commercial use is included in Starter/Pro and the free tier is for trying before you buy; site Terms allow personal non-commercial use only. Figures come from Forbes real-time feed with no stated upstream licence. Resolves ambiguity: paid-only."
+ }
+]

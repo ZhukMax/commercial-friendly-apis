@@ -1,0 +1,30 @@
+id: airtel-ip-aether
+name: Airtel IP
+url: https://aether.epias.ltd/ip2country/1.1.1.1/?full=true
+category: Geocoding
+description: IP Geolocation API. Collecting data from multiple sources
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-api-lists
+  name: Airtel IP
+  url: https://aether.epias.ltd/ip2country/1.1.1.1/?full=true
+  category: Geocoding
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+evidence: []
+notes: Only the bare JSON endpoint (ip2country/<ip>/?full=true) responds; the site root returns an empty page and /docs, /api return HTTP 500. No terms, licence, data-source statement or rate limit found.
+  All terms fields unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

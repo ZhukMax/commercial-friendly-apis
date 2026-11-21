@@ -1,0 +1,80 @@
+id: apixu
+name: APIXU
+url: https://www.apixu.com/doc/request.aspx
+category: Weather
+description: Weather
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: APIXU
+  url: https://www.apixu.com/doc/request.aspx
+  category: Weather
+- list: public-api-lists
+  name: APIXU
+  url: https://www.apixu.com/doc/request.aspx
+  category: Weather
+link_status: redirect
+data_license: unknown
+commercial_use: paid-only
+storage_caching: ambiguous
+redistribution_display: ambiguous
+attribution_required: 'no'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: -> https://weatherstack.com
+api_terms_url: https://weatherstack.com/terms
+commercial_use_scope: paid
+attribution_text: Optional clickable link to https://weatherstack.com
+share_alike: unknown
+rate_limits: 'Free: 100 calls/month (non-commercial); Standard $9.99/month 50,000 calls incl. commercial
+  use'
+evidence:
+- field: redistribution_display
+  url: https://weatherstack.com/terms
+  quote: You are hereby permitted to receive, process, and display weatherstack API Data & Services to
+    individual end-users of your application(s)
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://weatherstack.com/terms
+  quote: You do not permit Your end users to store, distribute, or otherwise exploit weatherstack API
+    Data & Services for any other purposes
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://weatherstack.com/terms
+  quote: Your inclusion of a clickable hyperlink to the weatherstack API website at https://weatherstack.com
+    would be highly appreciated.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://weatherstack.com/product
+  quote: 100 Calls / mo No Support Real-Time Weather HTTPS Encryption Non-Commercial Use
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://weatherstack.com/product
+  quote: Standard level — includes commercial use with up to 50,000 requests.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://weatherstack.com/product
+  quote: 100 Calls / mo
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://weatherstack.com/terms
+  quote: 'You shall not: reproduce, copy, modify, distribute, market, display, transfer, sublicense, assign'
+  checked_at: '2026-11-21'
+notes: APIXU was shut down and its URL redirects to weatherstack (apilayer); terms read are weatherstack's
+  Terms of Service & License Agreement (last modified 2019-09-05) and pricing page. Free plan is non-commercial;
+  commercial use starts on the paid Standard plan. Licence permits displaying data to end users for their
+  personal use inside your app, but forbids reproducing/copying/distributing the data and transferring
+  it outside your application; storing is not expressly granted, so ambiguous. Attribution link is only
+  appreciated, not required.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Same weatherstack clause lists display as a restriction; Display flagged yes but text
+  conflicts | applied: redistribution_display=ambiguous'

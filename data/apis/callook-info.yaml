@@ -1,0 +1,64 @@
+id: callook-info
+name: Callook.info
+url: https://callook.info
+category: Open Data
+description: United States ham radio callsigns
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Callook.info
+  url: https://callook.info
+  category: Open Data
+- list: public-api-lists
+  name: Callook.info
+  url: https://callook.info
+  category: Open Data
+link_status: alive
+data_license: FCC public database snapshots (no licence stated by Callook)
+commercial_use: 'yes'
+storage_caching: ambiguous
+redistribution_display: 'yes'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://callook.info/api_reference.php
+commercial_use_scope: any
+evidence:
+- field: commercial_use
+  url: https://callook.info/api_reference.php
+  quote: The callook.info API is publicly available and is free to use however you wish.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://callook.info/api_reference.php
+  quote: The callook.info API is publicly available and is free to use however you wish.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://callook.info/api_reference.php
+  quote: The callook.info API is publicly available and is free to use however you wish.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://callook.info/api_reference.php
+  quote: using publically available database snapshots provided by the FCC
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://callook.info/
+  quote: Geographic coordinates are provided by the Bing Maps API
+  checked_at: '2026-11-21'
+notes: Read api_reference.php (the 'Usage Terms' section is one short statement; no separate ToS) and
+  the home page. 'Free to use however you wish' is broad but informal; storage/display rely on it, so
+  confidence medium. Data is the FCC amateur licence database (US government public data; contains licensee
+  names and mailing addresses, i.e. personal data). Latitude/longitude/gridsquare come from the Bing Maps
+  geocoder, whose own terms may restrict storing/reusing coordinates (not checked). Site has no ads and
+  asks for donations. No attribution requirement found.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Coordinates come from Bing Maps; its terms on storing/reusing geocodes unread; Data
+  contains personal names and addresses; ''however you wish'' is informal, no ToS | applied: storage_caching=ambiguous'

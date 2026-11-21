@@ -1,0 +1,40 @@
+id: upc-database
+name: UPC database
+url: https://upcdatabase.org/api
+category: Open Data
+description: More than 1.5 million barcode numbers from all around the world
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: UPC database
+  url: https://upcdatabase.org/api
+  category: Open Data
+- list: public-api-lists
+  name: UPC database
+  url: https://upcdatabase.org/api
+  category: Open Data
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://upcdatabase.org/terms
+rate_limits: 'Free plan: 100 lookups, 25 searches, 25 currency requests per day (throttled); paid plans higher'
+evidence:
+- field: rate_limits
+  url: https://upcdatabase.org/api-pricing
+  quote: Free $0 Full Access Throttling 100 lookups 25 searches 25 currency
+  checked_at: '2026-11-21'
+notes: Read API intro, API Limits, API Pricing and the site Terms & Conditions (2011). The terms only cover cookies, accounts, logs, accuracy disclaimer and advertising; nothing about commercial use, storage
+  or display of barcode data (user-submitted). So all terms fields unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

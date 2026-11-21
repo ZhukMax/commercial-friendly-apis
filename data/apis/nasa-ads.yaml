@@ -1,0 +1,67 @@
+id: nasa-ads
+name: NASA ADS
+url: https://ui.adsabs.harvard.edu/help/api/api-docs.html
+category: Science & Math
+description: NASA Astrophysics Data System
+description_source: upstream
+auth: OAuth
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: NASA ADS
+  url: https://ui.adsabs.harvard.edu/help/api/api-docs.html
+  category: Science & Math
+link_status: alive
+data_license: Abstracts and full text are copyrighted by the respective publishers
+commercial_use: ambiguous
+storage_caching: 'no'
+redistribution_display: 'no'
+attribution_required: 'no'
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: http://adsabs.github.io/help/terms/
+commercial_use_scope: any
+attribution_text: 'Optional acknowledgement: "This research has made use of the Astrophysics Data System,
+  funded by NASA..."'
+rate_limits: 5000 queries/day per token (X-RateLimit-Limit in README example)
+evidence:
+- field: redistribution_display
+  url: http://adsabs.github.io/help/terms/
+  quote: You also shouldn’t redistribute any data you obtain from our services to third-parties.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: http://adsabs.github.io/help/terms/
+  quote: You won’t try to create a partial or full copy of the data maintained and made available by the
+    API
+  checked_at: '2026-11-21'
+- field: data_license
+  url: http://adsabs.github.io/help/terms/
+  quote: Full-text articles and abstracts of papers available from ADS databases are copyrighted by the
+    respective publishers
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: http://adsabs.github.io/help/terms/
+  quote: Users may not perform systematic downloads of articles, abstracts, or tables of contents for
+    any purpose, whether commercial or not
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: http://adsabs.github.io/help/terms/
+  quote: If you wish to acknowledge the services provided by ADS in a publication, kindly use a phrase
+    such as the following
+  checked_at: '2026-11-21'
+notes: Read the ADS Terms of Use (adsabs.github.io/help/terms/) including the API terms. The API terms
+  forbid redistributing data to third parties and making a partial/full copy, and say to contact ADS before
+  regularly storing data; abstracts and full texts are publisher-copyrighted. Showing data on a public
+  site is redistribution to third parties, so display and storage are marked no => red. Commercial use
+  per se is not addressed (only systematic downloads "commercial or not" are banned). Requires an API
+  token (OAuth listed upstream). Rate limit from adsabs-dev-api README example.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Red stands. Quotes re-verified on adsabs.github.io/help/terms (Terms of Use page);
+  API-specific clause on redistribution/copying read in first pass.

@@ -1,0 +1,65 @@
+id: eosl
+name: EOSL
+url: https://eosl.ai/api/
+category: Open Data
+description: Hardware end-of-sale and end-of-service-life dates by part number, source-linked
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: EOSL
+  url: https://eosl.ai/api/
+  category: Open Data
+link_status: alive
+verdict: green
+confidence: high
+link_checked_at: '2026-11-21'
+notes: Read /terms/ and /api/. Dataset is CC BY 4.0 (commercial use and redistribution stated explicitly);
+  the licence covers the dataset files only, not site design, templates, generated text or explainers.
+  No key needed; no numeric rate limit found. Dates are taken from vendor bulletins (vendor facts, each
+  linked to its source).
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+data_license: CC-BY-4.0 (dataset files only; site design, templates and generated text separately licensed)
+data_license_url: https://eosl.ai/terms/
+api_terms_url: https://eosl.ai/terms/
+commercial_use: 'yes'
+commercial_use_scope: any
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+attribution_text: Credit EOSL.ai and link back so users can reach the source bulletin
+share_alike: 'no'
+bulk_download: unknown
+self_host_option: unknown
+evidence:
+- field: data_license
+  url: https://eosl.ai/terms/
+  quote: The open dataset is published under CC BY 4.0
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://eosl.ai/terms/
+  quote: use it commercially, redistribute it, build on it, with attribution to EOSL.ai
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://eosl.ai/terms/
+  quote: use it commercially, redistribute it, build on it, with attribution to EOSL.ai
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://eosl.ai/terms/
+  quote: use it commercially, redistribute it, build on it, with attribution to EOSL.ai
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://eosl.ai/api/
+  quote: Please cache; the data changes at most weekly.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://eosl.ai/api/
+  quote: If you surface these dates, credit EOSL.ai and link back so your users can reach the source bulletin.
+  checked_at: '2026-11-21'
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Licence covers dataset files only, not templates/text. /acceptable-use/ returned 404
+  (linked from footer), so nothing found there.

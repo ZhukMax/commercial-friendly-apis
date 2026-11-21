@@ -1,0 +1,272 @@
+[
+ {
+  "id": "realtime-sports",
+  "outcome": "disputed",
+  "reasons": [
+   "Generous permissions rest on FAQ, which says ToS govern if they differ; ToS bans redistribution 'without authorization'",
+   "Upstream source unnamed; no league licence; includes betting odds"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://www.realtimesportsapi.com/faq",
+    "quote": "This is plain-language guidance; the Terms of Service govern if anything differs.",
+    "field": "commercial_use"
+   },
+   {
+    "url": "https://www.realtimesportsapi.com/faq",
+    "quote": "We hold no league licence and are not affiliated with any league or team",
+    "field": "data_license"
+   },
+   {
+    "url": "https://www.realtimesportsapi.com/terms",
+    "quote": "Resell or redistribute API data without authorization",
+    "field": "redistribution_display"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "ambiguous",
+   "storage_caching": "ambiguous"
+  },
+  "note": "ToS 4.2/7.1 contain no express grant of commercial use, storage or display; only the non-binding FAQ does. Data is 'aggregated from publicly available sources' (upstream not identified, 20-30 s delay suggests a scraped public feed), so the service cannot grant league data rights. Yellow at best."
+ },
+ {
+  "id": "rijksmuseum",
+  "outcome": "confirmed",
+  "reasons": [
+   "Policy: freely usable incl. commercially; CC0/PDM, CC BY 4.0 where copyright applies"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read /policy/ and full English policy (3.3: commercial parties same conditions; 3.7 licensing principles; 3.8 credit is good practice). Caveat kept: some objects/photos under third-party copyright, check per-object notice; Dutch text prevails on conflict. No API key needed."
+ },
+ {
+  "id": "smithsonian-open-access",
+  "outcome": "disputed",
+  "reasons": [
+   "Could not re-verify: si.edu and terms pages blocked/unavailable",
+   "API's own terms (api.si.edu / api.data.gov) unread; listed URL is a third-party Python wrapper"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://www.si.edu/termsofuse",
+    "quote": "This Smithsonian site is temporarily unavailable.",
+    "field": "api_terms_url"
+   }
+  ],
+  "suggested": {},
+  "note": "CC0 evidence (AWS registry: 2.8M CC0 objects) is real and covers the Open Access subset only; rest of 155M objects may be restricted per record. Could not read si.edu openaccess/terms in curl or fresh Playwright context (OCIO error page). Outcome per rule: could not re-verify."
+ },
+ {
+  "id": "soldsignal",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToS section 5: data and API under CC BY 4.0, commercial use allowed with credit"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read /terms/ (v1.0, 1 Nov 2026) and API page. Quotes verified. Caveats (not blockers): single individual operator, may block/stop access at any time, data are weekly medians collected from public marketplace pages (StockX, GOAT, eBay etc.) whose own scraping terms were not assessed; credit must name SoldSignal with link, must not present as official marketplace data."
+ },
+ {
+  "id": "spaceflight-news",
+  "outcome": "disputed",
+  "reasons": [
+   "Content is titles, summaries, links and images of articles from 40+ third-party publishers (NYT, WSJ, Reuters, CNBC...); service cannot license their copyright",
+   "TSD terms are an informal FAQ and ask not to forward data without added value"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://raw.githubusercontent.com/TheSpaceDevs/Tutorials/main/faqs/faq_TSD.md",
+    "quote": "Please refrain from forwarding it without adding value.",
+    "field": "redistribution_display"
+   },
+   {
+    "url": "https://raw.githubusercontent.com/TheSpaceDevs/Tutorials/main/faqs/faq_SNAPI.md",
+    "quote": "All professional space-related news sources are allowed in SNAPI for the `articles` endpoint.",
+    "field": "data_license"
+   }
+  ],
+  "suggested": {
+   "redistribution_display": "ambiguous"
+  },
+  "note": "Live /v4/info lists 42 news sites; /v4/articles returns publisher image_url, summary and url. Showing them on an ad-supported site is subject to each publisher's copyright; no upstream licences granted. Free-use statement is genuine but only covers the service's own contribution. Yellow at best (linking/titles fine)."
+ },
+ {
+  "id": "strikerapi",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToS section 7 expressly allows commercial apps/websites, showing, storing and deriving data on any plan"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read /terms (effective 17 Oct 2026, updated 12 Nov): quotes verified. Residual risk: section 9/10 say some third-party sources limit use and you pass those limits on; rights granted 'to the extent we are allowed'. No raw/bulk odds redistribution; no resale as feed/dataset/API. Sources unnamed (public sites, open datasets, paid providers). Consider confidence medium."
+ },
+ {
+  "id": "svg-new",
+  "outcome": "disputed",
+  "reasons": [
+   "Not a data source: image-to-SVG conversion tool; terms cover the user's own generated assets",
+   "ToS also says you must not commercially exploit the Website or Services"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://svg.new/terms",
+    "quote": "You must not modify, create derivative works based on or in any manner commercially exploit the Website or Services",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "ambiguous"
+  },
+  "note": "Ownership assignment of user-created Assets is real, but it does not make this a catalog-worthy data API; no API-specific terms found (/docs 404 per first pass). Recommend removing from the commercial-data list or red/unknown with note 'not a data API'."
+ },
+ {
+  "id": "techmap",
+  "outcome": "disputed",
+  "reasons": [
+   "Binding terms (RapidAPI terms/subscription) were not read; vendor site terms explicitly do not govern the API",
+   "Postings scraped from LinkedIn, Monster, Dice etc.; upstream rights unaddressed"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://jobdatafeeds.com/terms",
+    "quote": "API subscriptions via RapidAPI are governed by the applicable RapidAPI terms.",
+    "field": "api_terms_url"
+   },
+   {
+    "url": "https://api.techmap.io/jobs-api",
+    "quote": "The job postings are sourced directly through web crawling and scraping from a diverse range of platforms",
+    "field": "data_license"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "unknown",
+   "storage_caching": "unknown",
+   "redistribution_display": "unknown"
+  },
+  "note": "Only a marketing FAQ ('Can I show the jobs on my job board? Yes') supports green; it is not a contract. RapidAPI listing is JS/login gated, could not re-verify. Should be unknown or yellow, confidence low."
+ },
+ {
+  "id": "the-calendar",
+  "outcome": "disputed",
+  "reasons": [
+   "Site Terms page conflicts with CC BY claim: wholesale copying not welcome, syndication needs permission",
+   "Sports/league schedules and finance dates may carry upstream rights not covered by site's CC BY"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://the-calendar.net/terms",
+    "quote": "Wholesale copying of pages is not. If you want to syndicate content, ask via contact.",
+    "field": "redistribution_display"
+   }
+  ],
+  "suggested": {
+   "redistribution_display": "ambiguous"
+  },
+  "note": "/api/ and /developers say data and widgets are CC BY 4.0 with link-back credit (verified), and Terms page does not mention the API; so holiday JSON likely fine, but the conflict is unresolved and sports schedules (NFL, NBA, Premier League fixtures) are not demonstrably covered. Holidays from 5 U.S.C. 6103 are public-domain facts."
+ },
+ {
+  "id": "the-jobs",
+  "outcome": "disputed",
+  "reasons": [
+   "Provider ToS grants use only 'while your plan is active'; its own plans are $200-1,100/month with a 14-day trial",
+   "RapidAPI free tier (250 records) not covered by provider terms; must keep link to original post and delete expired jobs"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://thejobsapi.com/terms",
+    "quote": "While your plan is active, you may use the job data inside your own products and services",
+    "field": "commercial_use"
+   },
+   {
+    "url": "https://thejobsapi.com/terms",
+    "quote": "you must remove jobs that we report as expired.",
+    "field": "storage_caching"
+   },
+   {
+    "url": "https://thejobsapi.com/pricing",
+    "quote": "The free trial lasts 14 days and includes 100,000 jobs from the US and Canada",
+    "field": "commercial_use_scope"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "paid-only",
+   "storage_caching": "limited",
+   "attribution_required": "yes"
+  },
+  "note": "Direct ToS (4 Nov 2026) describes paid plans/trial; the 250 free records/month appear only on the RapidAPI listing, whose marketplace terms were not read. Storage is limited (expired removal) and right to use ends with the plan. Yellow at best."
+ },
+ {
+  "id": "timezones-ical-library",
+  "outcome": "confirmed",
+  "reasons": [
+   "IANA tz data public domain; project code Apache-2.0; hosted JSON served from GitHub Pages"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read tz page, IANA LICENSE quote and repo LICENSE (Apache-2.0). No usage policy for hosted endpoint, no key; also self-hostable via npm. Time-zone reference data, low risk; Apache notice applies only when redistributing the code."
+ },
+ {
+  "id": "tryhired",
+  "outcome": "confirmed",
+  "reasons": [
+   "BLS public domain; O*NET CC BY 4.0 with required notice; dataset pages repeat licences"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read /data/, dataset pages (career-core, pay-by-geography) and /terms. /terms covers only purchased HIRED products, not free data. Caveats: O*NET notice mandatory for O*NET-derived fields; TryHired credit requested; it is a repackager of BLS/O*NET (could be sourced direct); header 'Open public domain / CC BY 4.0' for its own compilation is loose. Bulk CSV/JSON downloads exist (bulk_download could be yes)."
+ },
+ {
+  "id": "uk-bank-holidays",
+  "outcome": "confirmed",
+  "reasons": [
+   "gov.uk content incl. bank-holidays under OGL v3.0, commercial use and redistribution allowed"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read gov.uk/bank-holidays footer ('available under the Open Government Licence v3.0, except where otherwise stated') and gov.uk terms. OGL exclusions (logos, third-party rights) irrelevant for the date list."
+ },
+ {
+  "id": "usajobs",
+  "outcome": "confirmed",
+  "reasons": [
+   "OPM ToS section 2: Public Data open licence incl. commercial use, storage, redistribution"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read full ToS: quotes verified. Conditions: no false official/endorsement claims, no seal/logo, key governs access only, content flagged third-party excluded, verify against official announcement; attribution only encouraged."
+ },
+ {
+  "id": "uspto",
+  "outcome": "disputed",
+  "reasons": [
+   "ODP API-specific terms not readable: portal requires USPTO.gov sign-in with MFA; terms-of-use URL 404",
+   "General website terms warn that third-party copyrighted content in documents is not freed"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://data.uspto.gov/home",
+    "quote": "you'll need to sign in with a valid USPTO.gov account",
+    "field": "api_terms_url"
+   },
+   {
+    "url": "https://www.uspto.gov/terms-use-uspto-websites",
+    "quote": "Transmission or reproduction of protected items beyond that allowed by fair use as defined in the copyright laws",
+    "field": "redistribution_display"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "ambiguous"
+  },
+  "note": "Public-domain status of USPTO-authored data is real (website terms quote verified), but first pass applied website terms to the Open Data Portal API; ODP terms and key conditions could not be read, so could not re-verify. Patent full text can embed third-party content. Reasonable yellow/medium."
+ },
+ {
+  "id": "whenstherace",
+  "outcome": "confirmed",
+  "reasons": [
+   "Feed page: CC BY 4.0, commercial use allowed with credit; upstream F1DB CC BY 4.0, sportstimes MIT"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read feed page, /terms/ (exists, first pass saw empty), F1DB and sportstimes LICENSE files. Site /terms says 'personal, non-commercial purposes' for the site but explicitly says feed reuse is governed by the schedule API page terms. Credit three parties; unofficial, F1 marks not licensed; site carries AdSense itself."
+ }
+]

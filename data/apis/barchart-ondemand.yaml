@@ -1,0 +1,34 @@
+id: barchart-ondemand
+name: Barchart OnDemand
+url: https://www.barchartondemand.com/free
+category: Finance
+description: Stock, Futures and Forex Market Data
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-api-lists
+  name: Barchart OnDemand
+  url: https://www.barchartondemand.com/free
+  category: Finance
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://www.barchart.com/ondemand/api
+api_terms_url: https://www.barchart.com/ondemand/api
+share_alike: unknown
+evidence: []
+notes: curl gets an empty 202 (bot challenge); pages read with Playwright in a fresh context. /ondemand/api is a product catalogue (real-time, delayed, EOD stocks/futures/forex data) saying custom packages
+  are quoted; the old /free page now redirects there. The website Terms of Use page rendered no readable terms text. No OnDemand API licence, free-tier or commercial/redistribution terms were readable.
+  Market data is exchange-sourced, so exchange redistribution/display fees and delayed-vs-real-time limits likely apply; not verified. All unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

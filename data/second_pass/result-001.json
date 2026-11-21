@@ -1,0 +1,368 @@
+[
+ {
+  "id": "10ml-fragrance-index",
+  "outcome": "confirmed",
+  "reasons": [
+   "Own mcp.10ml.com/terms (updated 7 Nov 2026) repeats grant: commercial use, caching, visible credit",
+   "No blocker found; shop ToS scraping ban covers 10ml.com site only, not the API host"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read perfume-api page, OpenAPI description, mcp.10ml.com/terms, 10ml.com/terms and legal notice. Service may change or stop at any time (as-is). Credit link is mandatory."
+ },
+ {
+  "id": "administrative-divisons-db",
+  "outcome": "confirmed",
+  "reasons": [
+   "Repo is static JSON (Unlicense) derived from GeoNames; GeoNames export page allows commercial use with credit (CC BY 4.0)",
+   "Raw GitHub and githack CDN both serve files (200)"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Attribution to GeoNames is required (README silent). CDN is third-party, no SLA. No blocker found."
+ },
+ {
+  "id": "adresse-data-gouv-fr",
+  "outcome": "confirmed",
+  "reasons": [
+   "BAN CGU says data under open licence; data.gouv.fr API lists dataset licence lov2 (Licence Ouverte 2.0)",
+   "Geocoding API quota 50 req/s per IP only; no ads/commercial restriction in CGU"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Legacy api-adresse.data.gouv.fr and data.geopf.fr geocoding both answered 200 today. Geoplateforme CGU read: no commercial ban found."
+ },
+ {
+  "id": "aemet",
+  "outcome": "confirmed",
+  "reasons": [
+   "Nota legal permits commercial and non-commercial reuse with conditions (cite AEMET, keep meaning, no endorsement, keep logo)",
+   "No clause against ads or storing found"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Conditions are stronger than plain credit (mention last-update date, keep metadata, logo when product carries it) but not blockers. Free API key needed."
+ },
+ {
+  "id": "airportmiles",
+  "outcome": "confirmed",
+  "reasons": [
+   "Own API page and /sources: core airport/city/distance fields are CC0/public domain (OurAirports, Wikidata)",
+   "Site states free, no ads, no key, caching encouraged"
+  ],
+  "counter_evidence": [],
+  "suggested": {
+   "attribution_required": "no"
+  },
+  "note": "Verdict valid for core fields only. Traffic/fare fields carry source licences (Aerocivil CC BY-SA 4.0 share-alike; others need source named); time zones excluded (ODbL). Check each response's sources list."
+ },
+ {
+  "id": "ais-trail",
+  "outcome": "disputed",
+  "reasons": [
+   "ToS s7 forbids making Data available to others in raw or bulk form without a Redistribution Agreement; only reasonable extracts incidental to your product are allowed",
+   "So a public data-driven site that shows vessel data pages is not clearly permitted: display is ambiguous",
+   "Storage is only inferred; s6 subordinates everything to per-Source licences (Digitraffic CC BY, NLOD, AISHub terms) each with its own attribution",
+   "Business-use-only accounts; navigation use forbidden"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://aistrail.com/legal/terms/",
+    "quote": "make it available to others, in raw or bulk form, provide it to third parties as a continuous feed",
+    "field": "redistribution_display"
+   },
+   {
+    "url": "https://aistrail.com/legal/terms/",
+    "quote": "Accounts, API keys, paid plans and credit packs are for business use only.",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {
+   "redistribution_display": "ambiguous",
+   "storage_caching": "ambiguous"
+  },
+  "note": "Commercial use in own products is expressly allowed, so not red; but the display/redistribution line (extracts only) conflicts with green. Free plan has 24h-delayed history, no live data. AISHub source terms not read."
+ },
+ {
+  "id": "apipj",
+  "outcome": "disputed",
+  "reasons": [
+   "ToS 8.1 allows commercial use and caching only as an input to your activity, not as the product itself",
+   "8.2(a),(j) forbid making the data or substantial part available as a competing product, mirror API or list, and storing the base in bulk",
+   "A site that shows CNPJ records as its content (programmatic pages) is the product itself, so it is blocked or at least ambiguous",
+   "8.2(i) display must carry origin and reference month; LGPD obligations for partner personal data"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://apipj.com.br/termos",
+    "quote": "desde que como insumo da sua atividade e não como o produto em si",
+    "field": "commercial_use"
+   },
+   {
+    "url": "https://apipj.com.br/termos",
+    "quote": "reconstruir, espelhar, armazenar em massa ou revender, no todo ou em parte relevante, a base de dados obtida",
+    "field": "storage_caching"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "ambiguous",
+   "storage_caching": "limited",
+   "redistribution_display": "ambiguous"
+  },
+  "note": "Underlying RFB open data is free to reuse; the restriction comes from the apipj ToS. Fine for lookups feeding your own workflow, not for republishing the data as the site's content."
+ },
+ {
+  "id": "arxiv",
+  "outcome": "confirmed",
+  "reasons": [
+   "API ToU: descriptive metadata is CC0; storing, transforming and sharing metadata is explicitly encouraged",
+   "Only full e-prints (PDF/source) are barred from storing/serving; no ban on ads or commercial sites"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Applies to metadata only (title, abstract, authors, identifiers, categories). Rate limit 1 request per 3 s, single connection. Must not imply arXiv endorsement."
+ },
+ {
+  "id": "aviationweather",
+  "outcome": "confirmed",
+  "reasons": [
+   "NWS disclaimer: public domain, any lawful purpose unless noted; no attribution required",
+   "API page: 100 req/min, max 400 entries/query, cache files recommended for bulk"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Found extra restriction not in first pass: API page says CORS is not permitted, so browser-side calls fail; use server-side or cache files. Only last 30 days queryable. Not for flight planning (liability)."
+ },
+ {
+  "id": "ayes-and-noes",
+  "outcome": "disputed",
+  "reasons": [
+   "Only condition is a visible dofollow backlink to ayesandnoes.co.uk on every site using the data; keys are issued only after the page showing the link is submitted and verified",
+   "That is a mandatory backlink beyond plain credit, so under project rules at best yellow",
+   "Keyless use capped at 50 requests/day per IP"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://ayesandnoes.co.uk/developers",
+    "quote": "show a visible dofollow link back to ayesandnoes.co.uk on the site or app that uses the data, and keep it there.",
+    "field": "attribution_required"
+   }
+  ],
+  "suggested": {
+   "attribution_required": "yes"
+  },
+  "note": "Not a hard blocker: underlying data is Open Parliament Licence v3.0 (commercial use OK) and /terms has no extra restriction. Dispute is about the verdict rule (mandatory link beyond plain credit), suggested verdict yellow."
+ },
+ {
+  "id": "band-atlas",
+  "outcome": "confirmed",
+  "reasons": [
+   "Developers page, /data page and GitHub LICENSE.md all state CC BY 4.0, including commercial use",
+   "No ToS page exists (404); no restriction found"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Residual risk: dataset aggregates 564 third-party sources (incl. GSMA list, trade press); upstream licences unverified and no blocker shown. Credit text: Hyper Nexus Band Atlas. Some /en/ API paths return 403 to curl; paths without /en work."
+ },
+ {
+  "id": "bank-negara-malaysia-open-data",
+  "outcome": "disputed",
+  "reasons": [
+   "The permissive dataset terms apply only to datasets labelled 'Source: Bank Negara Malaysia'; API responses carry no label or licence field",
+   "Portal footer says all rights reserved; general BNM website terms allow personal use only, not for commercial gain",
+   "Portal pages never say which API datasets fall under the dataset terms"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://www.bnm.gov.my/terms-of-use-bnm-datasets",
+    "quote": "Datasets that are solely sourced from other parties are subject to the standard Terms of Use in the BNM website.",
+    "field": "commercial_use"
+   },
+   {
+    "url": "https://www.bnm.gov.my/terms-of-use",
+    "quote": "User may download material for User's personal use only, provided that it is not for the purpose of private or commercial gain.",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "ambiguous",
+   "storage_caching": "ambiguous",
+   "redistribution_display": "ambiguous"
+  },
+  "note": "Exchange-rate and reference-rate endpoints were called and returned plain JSON with no source label. Likely fine for BNM-compiled rates but not proven from the portal."
+ },
+ {
+  "id": "banking-access-index",
+  "outcome": "disputed",
+  "reasons": [
+   "Site ToS 4.2/4.4 grants only personal, non-commercial use, bans public display of Service content, commercial use and bots, which conflicts with the CC BY 4.0 statement on the data page",
+   "ToS 3.1 mentions a purchasable 'data licence for companies', suggesting commercial use may be meant to be paid",
+   "Dataset consists of quotes from third-party bank pages whose terms are unread; operator earns affiliate commissions"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://www.globalsolo.global/terms",
+    "quote": "limited, non-exclusive, non-transferable license to access and use the Service for personal, non-commercial purposes",
+    "field": "commercial_use"
+   },
+   {
+    "url": "https://www.globalsolo.global/terms",
+    "quote": "Use automated systems (bots, scrapers) to access the Service",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "ambiguous",
+   "redistribution_display": "ambiguous"
+  },
+  "note": "The dataset page itself explicitly says CC BY 4.0 and offers JSON/CSV with open CORS, which probably prevails for the dataset, but the two pages conflict; needs a human decision."
+ },
+ {
+  "id": "bclaws",
+  "outcome": "confirmed",
+  "reasons": [
+   "King's Printer Licence 1.1 read in full: commercial and non-commercial use, copy, publish, distribute",
+   "Official BC copyright page confirms legislation on BC Laws is under this licence",
+   "API index responds 200"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Mandatory statement (not an official version, no endorsement). Licence ends automatically if conditions broken. Local-government bylaw content is under a different licence (not assessed)."
+ },
+ {
+  "id": "bclaws-bclaws",
+  "outcome": "confirmed",
+  "reasons": [
+   "Same API and licence as 'bclaws'; old bclaws.ca URL redirects to www.bclaws.gov.bc.ca",
+   "King's Printer Licence confirmed"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Duplicate of entry 'bclaws'; recommend merging."
+ },
+ {
+  "id": "bettip",
+  "outcome": "confirmed",
+  "reasons": [
+   "Plain-words terms on /api/ say free for any use, commercial included, credit link required",
+   "/terms/ only covers site accounts, no API restriction"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Residual doubt: results come from lottery operators (Ithuba, Stoloto, UK49s); their terms were unreadable (nationallottery.co.za and stoloto.ru returned empty to curl and Playwright). Informal terms only, no licence id. Operator site itself is an affiliate gambling site; local gambling-ad rules not assessed."
+ },
+ {
+  "id": "bidledger",
+  "outcome": "confirmed",
+  "reasons": [
+   "TED legal notice: procurement notices can be freely reused for commercial or non-commercial purposes",
+   "Bidledger page: attribution not required, no restriction"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Static JSON on GitHub Pages, no SLA. TED notices personal data and third-party rights not covered; Bidledger exposes buyer names, not contacts."
+ },
+ {
+  "id": "big-data-explained",
+  "outcome": "disputed",
+  "reasons": [
+   "CC BY 4.0 covers only the compilation (schema, normalisation, verification metadata); the actual rate values remain under each vendor's terms, which were not read",
+   "Values come from AWS Price List, Azure Retail Prices and hand-copied BigQuery/Snowflake list prices",
+   "So commercial use and display of the numbers themselves is not established by the grant"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://bigdataexplained.com/data",
+    "quote": "The rates themselves are published by each vendor and remain subject to that vendor's terms",
+    "field": "commercial_use"
+   },
+   {
+    "url": "https://bigdataexplained.com/methodology",
+    "quote": "the vendor rates inside it are not this project's to license.",
+    "field": "redistribution_display"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "ambiguous",
+   "redistribution_display": "ambiguous"
+  },
+  "note": "AWS docs say price list is for informational purposes only; Azure doc says API supports internal analysis and price comparison; no explicit ban found, so risk is moderate. No separate ToS page (404)."
+ },
+ {
+  "id": "bng2latlong",
+  "outcome": "confirmed",
+  "reasons": [
+   "Page says free to use for any purpose; endpoint is a pure OSGB to WGS84 conversion of caller's input (PHPCoord, public domain)",
+   "API answers 200 (checked with sample coordinates)"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Informal licence only; no ToS exists (404). No upstream data involved because output is computed from the request."
+ },
+ {
+  "id": "bolet-n-oficial-del-estado-boe",
+  "outcome": "confirmed",
+  "reasons": [
+   "AEBOE reuse conditions (27 Jun 2024): commercial and non-commercial reuse authorised, with citation of source",
+   "Exclusions limited to site design, logos, third-party rights and Biblioteca Juridica Digital (CC BY-NC-ND)"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Consolidated legislation must be labelled informative text only; no framing. API page says reuse means accepting the conditions."
+ },
+ {
+  "id": "btu-graph",
+  "outcome": "confirmed",
+  "reasons": [
+   "/data page: BTU Graph-authored metadata CC BY 4.0, no key, cache downloads",
+   "No restrictive terms page found"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Small dataset (66 companies). Publisher is Oil Price API, so entries may carry self-interest. Company names and marks are excluded from the licence."
+ },
+ {
+  "id": "buku-indonesia",
+  "outcome": "confirmed",
+  "reasons": [
+   "README: data/ dedicated to CC0, MIT code, GitHub licence API shows MIT",
+   "Facts come from Open Library whose catalog is stated public domain (donated by libraries)"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Minor: some facts from Wikipedia infoboxes (CC BY-SA, facts only); cover URLs point to Open Library and are not covered. Hobby repo, durability risk."
+ },
+ {
+  "id": "bureau-of-labor-statistics",
+  "outcome": "confirmed",
+  "reasons": [
+   "BLS copyright page: everything published is public domain except photographs and illustrations",
+   "API ToS (read via Playwright, curl is blocked) imposes no end-use controls, only citing retrieval date, the cannot-vouch statement and no logo use"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "curl gets 'Access Denied' bot page; read in a fresh Playwright context. v1 limited, v2 needs free key. Mandatory disclaimer text is more than plain credit but not a blocker."
+ },
+ {
+  "id": "calcbloc",
+  "outcome": "confirmed",
+  "reasons": [
+   "API terms (updated 2026-11-11): tax tables CC BY 4.0; other results free for any purpose with a visible link to calcbloc.com",
+   "Caching encouraged; keys revocable if credit omitted"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Calculation endpoints require a human-readable visible link on every page that shows results; no-attribution use is paid. Free key 5,000/day."
+ },
+ {
+  "id": "calendrier-tempo",
+  "outcome": "confirmed",
+  "reasons": [
+   "API page states free reuse citing the source with a link, CC BY 4.0, no key; /api/today answers 200",
+   "Mentions legales have no restriction on the API"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Residual risk: responses also include EDF tariffs and Open-Meteo-derived temperature forecasts; upstream terms for those not verified. Official Tempo history also published on data.gouv.fr under Licence Ouverte 2.0 by another publisher. CC BY deed not opened."
+ }
+]

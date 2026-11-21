@@ -1,0 +1,83 @@
+id: open-government-usa
+name: Open Government, USA
+url: https://www.data.gov/
+category: Government
+description: United States Government Open Data
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Open Government, USA
+  url: https://www.data.gov/
+  category: Government
+- list: public-api-lists
+  name: Open Government, USA
+  url: https://www.data.gov/
+  category: Government
+link_status: alive
+data_license: 'US federal government works: no domestic copyright (17 U.S.C. 105); non-federal data may
+  differ'
+commercial_use: ambiguous
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'no'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://www.data.gov/privacy-policy/
+api_terms_url: https://www.data.gov/privacy-policy/
+commercial_use_scope: any
+share_alike: 'no'
+evidence:
+- field: data_license
+  url: https://www.data.gov/privacy-policy/
+  quote: Data and content created by government employees within the scope of their employment are not
+    subject to domestic copyright protection under 17 U.S.C. § 105.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.data.gov/privacy-policy/
+  quote: In most cases, U.S. Federal data available through Data.gov is offered free and without restriction.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.data.gov/privacy-policy/
+  quote: In most cases, U.S. Federal data available through Data.gov is offered free and without restriction.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.data.gov/privacy-policy/
+  quote: In most cases, U.S. Federal data available through Data.gov is offered free and without restriction.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.data.gov/privacy-policy/
+  quote: While not required, when using content, data, documentation, code, and related materials from
+    Data.gov in your own work, we ask that proper credit be given.
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://www.data.gov/privacy-policy/
+  quote: In most cases, U.S. Federal data available through Data.gov is offered free and without restriction.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.data.gov/privacy-policy/
+  quote: Non-federal data available through Data.gov may have different licensing.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.data.gov/privacy-policy/
+  quote: users should check the “Access & Use Information” section for each dataset.
+  checked_at: '2026-11-21'
+notes: 'Read the Data.gov Privacy/Data Policy (Licensing, Secondary Use, Attribution sections). Data.gov
+  is a catalog (CKAN catalog API), not a data owner: federal data is in most cases free and without restriction,
+  attribution is requested but not required. Exceptions exist: users must check ''Access & Use Information''
+  on each dataset, and non-federal datasets (university, state, multiple sources) may carry other licences.
+  So the green verdict applies to federal datasets without exceptions only. Rate limits of the catalog
+  API not read.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Policy says exceptions to unrestricted federal data exist and non-federal data has
+  other licences; Catalog, not data owner: green only for federal datasets without exceptions | applied:
+  commercial_use=ambiguous'
+license_scope: portal-default

@@ -1,0 +1,41 @@
+id: buywhere
+name: BuyWhere
+url: https://buywhere.ai
+category: Shopping
+description: Real-time product catalog API for AI agents across merchants in 7 countries (SG, MY, TH,
+  VN, PH, ID, US)
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: BuyWhere
+  url: https://buywhere.ai
+  category: Shopping
+link_status: alive
+data_license: proprietary (owned by BuyWhere or its licensors)
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://buywhere.ai/terms
+evidence:
+- field: data_license
+  url: https://buywhere.ai/terms
+  quote: All content, data, and technology comprising the Service are the property of BuyWhere Pte. Ltd.
+    or its licensors.
+  checked_at: '2026-11-21'
+notes: Read buywhere.ai/terms (updated 1 April 2026) and the developers page. Terms forbid reselling/redistributing/sublicensing
+  API access, bulk scraping or replicating the underlying data, and training competing ML models without
+  agreement; quotas depend on subscription plan. Nothing says whether data may be displayed or stored
+  on a commercial site, so core fields unknown. Product data comes from third-party retailers (aggregator,
+  upstream terms may be stricter) and results route through BuyWhere's affiliate layer. Plan/pricing details
+  not read.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

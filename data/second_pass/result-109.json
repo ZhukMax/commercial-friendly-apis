@@ -1,0 +1,228 @@
+[
+ {
+  "id": "touchline-wire",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToS section 3 permits querying API with citation; no commercial ban found",
+   "docs only say free for personal/hobbyist/academic/open-source (not a ban)"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read /terms and /docs. No blocker, no explicit commercial grant. Upstream API-Sports/press terms unread (api-football.com/terms unreadable via curl); may be stricter. Ambiguous stays."
+ },
+ {
+  "id": "tradingcalendars",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms s.2/4/5: internal use only; displaying calendars to third parties needs separate data licence"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Playwright re-read terms (updated 17 Nov 2026). Red stands for a public site."
+ },
+ {
+  "id": "transparentcars",
+  "outcome": "confirmed",
+  "reasons": [
+   "API page allows display with crawlable credit link; site ToS bars commercial use of website content without authorisation; API 'fair-use'"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read /en/api and /en/terms; conflict unresolved, ambiguous stays."
+ },
+ {
+  "id": "upwork",
+  "outcome": "confirmed",
+  "reasons": [
+   "API Terms ban advertising/profiling use, transfer to third parties, caching >24h"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read via Playwright (curl 403). Note: page says API & MCP Terms (Aug 2026) supersede these if accepted; no evidence they are looser. Red stands."
+ },
+ {
+  "id": "us-autocomplete",
+  "outcome": "confirmed",
+  "reasons": [
+   "Subscription Agreement: Internal Business Purposes only; no redistribution/bulk output; paid"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read Smarty Subscription Agreement: embedding in own site to serve end users allowed, resale/redistribution/bulk output to third parties and compiling address databases barred; paid only. Evidence still ambiguous, yellow stands. Not a source of data to store/display as catalog content."
+ },
+ {
+  "id": "us-autocomplete-smartystreets",
+  "outcome": "confirmed",
+  "reasons": [
+   "same Smarty agreement; smartystreets.com redirects to smarty.com"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read Smarty Subscription Agreement: embedding in own site to serve end users allowed, resale/redistribution/bulk output to third parties and compiling address databases barred; paid only. Evidence still ambiguous, yellow stands. Not a source of data to store/display as catalog content."
+ },
+ {
+  "id": "us-extract",
+  "outcome": "confirmed",
+  "reasons": [
+   "same Smarty agreement"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read Smarty Subscription Agreement: embedding in own site to serve end users allowed, resale/redistribution/bulk output to third parties and compiling address databases barred; paid only. Evidence still ambiguous, yellow stands. Not a source of data to store/display as catalog content."
+ },
+ {
+  "id": "us-extract-smartystreets",
+  "outcome": "confirmed",
+  "reasons": [
+   "same Smarty agreement; redirect domain"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read Smarty Subscription Agreement: embedding in own site to serve end users allowed, resale/redistribution/bulk output to third parties and compiling address databases barred; paid only. Evidence still ambiguous, yellow stands. Not a source of data to store/display as catalog content."
+ },
+ {
+  "id": "us-street-address",
+  "outcome": "confirmed",
+  "reasons": [
+   "same Smarty agreement plus USPS data terms"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read Smarty Subscription Agreement: embedding in own site to serve end users allowed, resale/redistribution/bulk output to third parties and compiling address databases barred; paid only. Evidence still ambiguous, yellow stands. Not a source of data to store/display as catalog content."
+ },
+ {
+  "id": "us-street-address-smartystreets",
+  "outcome": "confirmed",
+  "reasons": [
+   "same Smarty agreement; redirect domain"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read Smarty Subscription Agreement: embedding in own site to serve end users allowed, resale/redistribution/bulk output to third parties and compiling address databases barred; paid only. Evidence still ambiguous, yellow stands. Not a source of data to store/display as catalog content."
+ },
+ {
+  "id": "valr",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToS bars copying/displaying site content; no API data licence anywhere"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Verdict unknown stands; docs only say API governed by ToS. Nothing found to resolve."
+ },
+ {
+  "id": "vantaspec",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToS bans automated scraping without permission vs api-docs advertising open no-key API"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read /terms via Playwright; conflict between pages unresolved. Site itself is affiliate-funded; upstream retailer terms unread. Ambiguous/yellow stands."
+ },
+ {
+  "id": "vaultx",
+  "outcome": "confirmed",
+  "reasons": [
+   "API page: free for your site/app, only condition credit link; ToS adds no commercial ban"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read /api and /terms. Upstream feeds (Polymarket, SEC, exchanges) not checked. Yellow stands (commercial not named explicitly)."
+ },
+ {
+  "id": "veriapi",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms: free plan for trials/small sites; commercial-scale use via paid plans; no ban"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read /kosullar. Ad site of small scale probably fine, large scale needs paid plan; ambiguous stays."
+ },
+ {
+  "id": "wealthville",
+  "outcome": "confirmed",
+  "reasons": [
+   "Dev page explicitly grants commercial use with attribution; generic ToS 'may not copy or redistribute our content' is broader but API-specific grant prevails"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read both pages via Playwright; commercial_use yes holds. Storage unaddressed so verdict unknown stands."
+ },
+ {
+  "id": "wger",
+  "outcome": "confirmed",
+  "reasons": [
+   "hosted ToS (Playwright, passed Anubis) is only a privacy policy, no data-use restriction; about page says exercises/ingredients 'released under a free license'"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Ambiguity narrowed toward permissive: CC-BY-SA applies to initial data, later contributions not verified. Share-alike keeps verdict yellow."
+ },
+ {
+  "id": "whichtrim",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms: free plan non-commercial; paid plans commercial; 7-day cache; no resale"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read /terms via Playwright; paid-only yellow stands."
+ },
+ {
+  "id": "whitebit",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToS bans third-party apps interacting with Services and unapproved scrapers without consent; no API licence found"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read ToS (Playwright). Unresolved whether public market-data API covered; yellow is generous, treat with caution."
+ },
+ {
+  "id": "window-sticker",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms: use for anything lawful; may store/show parsed fields; PDFs not for bulk harvest/resale"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read via Playwright. Display/storage of free label PDFs unstated; manufacturer copyright. Yellow stands."
+ },
+ {
+  "id": "worldcoinindex",
+  "outcome": "disputed",
+  "reasons": [
+   "Terms of Use define any use beyond personal private decision making as commercial and bar it without written authority",
+   "API page says 'free of use' but no commercial exemption"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://www.worldcoinindex.com/terms-of-use",
+    "quote": "Use of the Content for a commercial purpose is any use other than accessing and using the content for your own personal and private decision making.",
+    "field": "commercial_use"
+   },
+   {
+    "url": "https://www.worldcoinindex.com/terms-of-use",
+    "quote": "consents to the use of such tools, watch lists and other content made available on the site for personal and not commercial purposes",
+    "field": "redistribution_display"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "no",
+   "redistribution_display": "no"
+  },
+  "note": "Re-read terms and apiservice page. Ad/affiliate site is clearly commercial under the terms' own definition; API page does not exempt. Verdict should move to red unless written permission."
+ },
+ {
+  "id": "yubhub",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToS bans reselling/redistributing the Service and requires compliance with source site terms; no commercial/display statement"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read /terms and API reference; unknown stands."
+ }
+]

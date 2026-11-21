@@ -1,0 +1,76 @@
+id: vergabeweiser
+name: Vergabeweiser
+url: https://vergabeweiser.de/api
+category: Government
+description: German public tenders and contract awards from open procurement data
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Vergabeweiser
+  url: https://vergabeweiser.de/api
+  category: Government
+link_status: alive
+data_license: CC0-1.0 (notices) + CC-BY-4.0 (Vergabeweiser enrichment); TED-sourced notices need EU attribution
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: high
+link_checked_at: '2026-11-21'
+data_license_url: https://vergabeweiser.de/impressum
+api_terms_url: https://vergabeweiser.de/nutzungsbedingungen
+commercial_use_scope: any
+attribution_text: Vergabeweiser (with link to the respective page) for the enrichment layer; © Europäische
+  Union for TED-sourced notices
+share_alike: 'no'
+rate_limits: 'No key: 60 req/hour per IP (REST), 600 (MCP); free key: 1,000 req/day (REST)'
+notes: 'Read /nutzungsbedingungen, /impressum and /api (German). Source notices: CC0 (oeffentlichevergabe.de);
+  older TED notices need ''© Europäische Union''; Vergabeweiser''s own processing (plain-language titles,
+  classifications, metrics) is CC BY 4.0, commercial use allowed with credit and link. Auth: free optional
+  key (higher limits); upstream says none. Caveats: do not try to identify sole traders/persons shown
+  without names; unsolicited marketing to companies from this data is generally unlawful under UWG section
+  7; reuser is responsible for data protection compliance. Single-person operator; terms may change (4
+  weeks notice for shutting API). Administrative boundaries are BKG dl-de/by-2-0.'
+evidence:
+- field: data_license
+  url: https://vergabeweiser.de/nutzungsbedingungen
+  quote: Die Bekanntmachungen aus dem Bekanntmachungsservice stehen unter CC0 und sind frei verwendbar.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://vergabeweiser.de/nutzungsbedingungen
+  quote: 'gilt die Lizenz CC BY 4.0 : Nutzung auch gewerblich, mit der Quellenangabe „Vergabeweiser“ und
+    einem Link auf die jeweilige Seite.'
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://vergabeweiser.de/nutzungsbedingungen
+  quote: Die Bekanntmachungen aus dem Bekanntmachungsservice stehen unter CC0 und sind frei verwendbar.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://vergabeweiser.de/nutzungsbedingungen
+  quote: Das Widget dürfen Sie unverändert auf Ihrer Website einbinden, auch gewerblich.
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://vergabeweiser.de/nutzungsbedingungen
+  quote: Die Bekanntmachungen aus dem Bekanntmachungsservice stehen unter CC0 und sind frei verwendbar.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://vergabeweiser.de/api
+  quote: 'Mit kostenlosem Schlüssel: 1.000 Abfragen am Tag für die REST-API.'
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://vergabeweiser.de/nutzungsbedingungen
+  quote: verwenden Sie nur mit der Quellenangabe „© Europäische Union“ weiter.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Caveats: TED notices need ''© Europäische Union''; no re-identification of sole traders;
+  marketing to firms from this data unlawful under UWG 7; don''t bypass limits with multiple keys; single-person
+  operator.'

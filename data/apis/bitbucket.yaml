@@ -1,0 +1,26 @@
+id: bitbucket
+name: Bitbucket
+url: https://developer.atlassian.com/bitbucket/api/2/reference/
+category: Development
+description: Bitbucket API
+description_source: upstream
+auth: OAuth
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Bitbucket
+  url: https://developer.atlassian.com/bitbucket/api/2/reference/
+  category: Development
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://developer.atlassian.com/cloud/bitbucket/?utm_source=%2Fbitbucket%2Fapi%2F2%2Freference%2F&utm_medium=302

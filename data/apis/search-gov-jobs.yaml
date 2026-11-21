@@ -1,0 +1,32 @@
+id: search-gov-jobs
+name: Search.gov Jobs
+url: https://search.gov/developer/jobs.html
+category: Jobs
+description: Tap into a list of current jobs openings with the United States government
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-api-lists
+  name: Search.gov Jobs
+  url: https://search.gov/developer/jobs.html
+  category: Jobs
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://digital.gov/guides/search
+notes: search.gov/developer/jobs.html redirects to digital.gov/guides/search, a guide to optimising site
+  search with SearchGov; the redirect target does not mention a jobs API or say it replaces it, so nothing
+  is transferred. The old Jobs API (US government job openings) terms could not be read in this session.
+  Possible service retirement is unconfirmed (link_status left as redirect). All unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

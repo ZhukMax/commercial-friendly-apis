@@ -1,0 +1,50 @@
+id: deepscout
+name: DeepScout
+url: https://docs.deepscout.ai
+category: Shopping
+description: Scrape product data from any e-shop and match the same products across shops, without EAN
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: DeepScout
+  url: https://docs.deepscout.ai
+  category: Shopping
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://deepscout.ai/en/terms
+evidence:
+- field: commercial_use
+  url: https://deepscout.ai/en/terms
+  quote: Users must not misuse, share, resell or otherwise exploit any data obtained through the use of
+    the Service for unauthorized purposes.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://deepscout.ai/en/terms
+  quote: Users must not misuse, share, resell or otherwise exploit any data obtained through the use of
+    the Service for unauthorized purposes.
+  checked_at: '2026-11-21'
+notes: Read DeepScout General Terms and Conditions (deepscout.ai/en/terms) and docs.deepscout.ai intro.
+  It is a paid scraping and product-matching service for competitor monitoring (pay per product; trial
+  credit); the terms say the data is scraped from public websites and the user is solely responsible for
+  legal compliance (copyright, privacy), forbid misuse/resale/unauthorized redistribution of data and
+  sharing access outside the organisation. 'Unauthorized purposes' is undefined, so commercial use and
+  display are ambiguous. Marketing pages mention building price-comparison sites, but that is not a licence.
+  Upstream shop data (prices, images) belongs to the scraped retailers and may be stricter. Storage terms
+  not found.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: General Terms re-read; paid scraping service, no display/storage rule.

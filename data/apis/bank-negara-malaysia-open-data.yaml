@@ -1,0 +1,80 @@
+id: bank-negara-malaysia-open-data
+name: Bank Negara Malaysia Open Data
+url: https://apikijangportal.bnm.gov.my/
+category: Government
+description: Malaysia Central Bank Open Data
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Bank Negara Malaysia Open Data
+  url: https://apikijangportal.bnm.gov.my/
+  category: Government
+link_status: alive
+data_license: BNM Terms of Use for BNM Datasets
+commercial_use: ambiguous
+storage_caching: ambiguous
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://www.bnm.gov.my/terms-of-use-bnm-datasets
+api_terms_url: https://www.bnm.gov.my/terms-of-use-bnm-datasets
+commercial_use_scope: any
+attribution_text: 'Source: Bank Negara Malaysia (plus link to the Terms of Use for BNM Datasets)'
+evidence:
+- field: commercial_use
+  url: https://www.bnm.gov.my/terms-of-use-bnm-datasets
+  quote: use the data for commercial and non-commercial purposes
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.bnm.gov.my/terms-of-use-bnm-datasets
+  quote: copy, publish, distribute, and transfer the data
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.bnm.gov.my/terms-of-use-bnm-datasets
+  quote: copy, publish, distribute, and transfer the data
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.bnm.gov.my/terms-of-use-bnm-datasets
+  quote: 'acknowledge the data sources in the products or applications by including the attribution statement
+    of "Source: Bank Negara Malaysia"'
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://apikijangportal.bnm.gov.my/faq
+  quote: BNM OpenAPI is free for everyone to use.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.bnm.gov.my/terms-of-use-bnm-datasets
+  quote: terms and conditions that apply to the use of datasets, which are sourced from Bank Negara Malaysia
+    (BNM) as primary data compiler
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.bnm.gov.my/terms-of-use-bnm-datasets
+  quote: Datasets that are solely sourced from other parties are subject to the standard Terms of Use
+    in the BNM website.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.bnm.gov.my/terms-of-use
+  quote: User may download material for User's personal use only, provided that it is not for the purpose
+    of private or commercial gain.
+  checked_at: '2026-11-21'
+notes: 'Terms apply to datasets labelled ''Source: Bank Negara Malaysia''; datasets sourced solely from
+  other parties fall under the standard BNM website terms, which allow personal use only (not for commercial
+  gain). The OpenAPI portal''s own disclaimer/FAQ say nothing more about reuse; I read portal disclaimer,
+  FAQ, bnm.gov.my terms-of-use and the dataset terms. Must not imply BNM endorsement; no BNM name/emblem
+  except in the attribution. Share-alike not mentioned (unknown).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: yellow
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'The permissive dataset terms apply only to datasets labelled ''Source: Bank Negara
+  Malaysia''; API responses carry no label or licence field; Portal footer says all rights reserved; general
+  BNM website terms allow personal use only, not for commercial gain; Portal pages never say which API
+  datasets fall under the dataset terms | applied: commercial_use=ambiguous, storage_caching=ambiguous,
+  redistribution_display=ambiguous'

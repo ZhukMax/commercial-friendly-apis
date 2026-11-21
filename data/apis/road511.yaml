@@ -1,0 +1,57 @@
+id: road511
+name: Road511
+url: https://road511.com/docs.html
+category: Transportation
+description: 'Unified traffic data from 65 US/CA jurisdictions: events, cameras, signs, bridges, truck routes'
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Road511
+  url: https://road511.com/docs.html
+  category: Transportation
+link_status: alive
+data_license: proprietary (Road511 Terms of Service; upstream 511/government sources keep their own licences)
+commercial_use: 'yes'
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://road511.com/terms.html
+api_terms_url: https://road511.com/terms.html
+cache_limit: Caching as reasonably necessary to operate your product; no standalone redistribution
+share_alike: unknown
+attribution_text: Preserve and pass through source-specific attribution and notices returned by the API.
+evidence:
+- field: commercial_use
+  url: https://road511.com/terms.html
+  quote: Nothing in these Terms prohibits you from incorporating Road511 Normalized Data into your own products, applications, services, analytics, operational systems, or workflows
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://road511.com/terms.html
+  quote: caching data as reasonably necessary to operate your product
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://road511.com/terms.html
+  quote: displaying transportation information to end users
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://road511.com/terms.html
+  quote: remove or obscure source attribution, notices, disclaimers, or other information that Road511 is required to preserve or pass through
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://road511.com/terms.html
+  quote: The Service may therefore contain information originating from different providers and subject to different rights, licenses, conditions, and attribution requirements.
+  checked_at: '2026-11-21'
+notes: 'Read the Road511 Terms of Service (version 2026-10-16). Customer products may display and cache data; standalone resale/redistribution as a feed, API, database or competing service needs
+  a separate written agreement. API key and a subscription plan required (plans on the site; whether a free tier exists was not verified). Road511 is an aggregator of 65 US/CA jurisdictions''
+  511 and government feeds: the terms say upstream licences, conditions and attribution requirements still apply and "applicable upstream source conditions" must be followed; those were not reviewed
+  and may be stricter. Caching is allowed only "as reasonably necessary", so limited, verdict yellow.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

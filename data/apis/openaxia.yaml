@@ -1,0 +1,58 @@
+id: openaxia
+name: OpenAxia
+url: https://openaxia.com/agent
+category: Shopping
+description: Source-linked specifications and certifications for blind, shutter, awning and door motors
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: OpenAxia
+  url: https://openaxia.com/agent
+  category: Shopping
+link_status: alive
+data_license: 'custom: reuse with attribution'
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+attribution_text: 'Attribution: OpenAxia (https://openaxia.com)'
+rate_limits: Anonymous 60 requests/hour per IP; free key 5,000/day
+api_terms_url: https://openaxia.com/agent
+evidence:
+- field: commercial_use
+  url: https://openaxia.com/agent
+  quote: 'Data may be quoted and reused with attribution: cite "OpenAxia" and link to the record page.'
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://openaxia.com/agent
+  quote: 'Data may be quoted and reused with attribution: cite "OpenAxia" and link to the record page.'
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://openaxia.com/agent
+  quote: 'Data may be quoted and reused with attribution: cite "OpenAxia" and link to the record page.'
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://openaxia.com/agent
+  quote: 'Required attribution line: Attribution: OpenAxia (https://openaxia.com)'
+  checked_at: '2026-11-21'
+notes: Read openaxia.com/agent ('Data use and attribution' section; /terms is 404). Data may be quoted
+  and reused with attribution (cite OpenAxia and link the record page). It does not say 'commercial use
+  allowed' nor address storage/bulk, hence commercial_use=ambiguous; storage unknown (responses cacheable
+  60 s is HTTP caching only). Quoted source excerpts and news text are third-party material; each value
+  carries its original source. Anonymous 60 req/h per IP; free key 5,000/day on request; bulk access by
+  arrangement.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read /agent ''Data use and attribution'': ''quoted and reused with attribution''
+  and required attribution line. No ToS (404). Commercial/storage not stated; news excerpts are third-party.
+  Stands.'

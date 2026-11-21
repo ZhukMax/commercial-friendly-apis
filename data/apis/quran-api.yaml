@@ -1,0 +1,50 @@
+id: quran-api
+name: Quran-api
+url: https://github.com/fawazahmed0/quran-api
+category: Books
+description: Free Quran API Service with 90+ different languages and 400+ translations
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Quran-api
+  url: https://github.com/fawazahmed0/quran-api#readme
+  category: Books
+link_status: alive
+data_license: Unlicense (repo-level dedication; third-party translation copyrights not addressed)
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://github.com/fawazahmed0/quran-api
+rate_limits: No rate limits (project statement; served via jsDelivr CDN)
+evidence:
+- field: data_license
+  url: https://raw.githubusercontent.com/fawazahmed0/quran-api/1/LICENSE
+  quote: This is free and unencumbered software released into the public domain.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://raw.githubusercontent.com/fawazahmed0/quran-api/1/LICENSE
+  quote: for any purpose, commercial or non-commercial, and by any means
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://raw.githubusercontent.com/fawazahmed0/quran-api/1/README.md
+  quote: No Rate limits
+  checked_at: '2026-11-21'
+notes: Read README and LICENSE. The repo carries a public-domain (Unlicense) dedication, but the collection
+  contains 440+ translations by third parties whose own copyright/licence status the repo does not document
+  (README has no licence section), so commercial_use is ambiguous and storage/display left unknown. Served
+  from jsDelivr (cdn.jsdelivr.net) which has its own terms (not read). Data is static JSON in GitHub,
+  so it can be self-hosted.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Served via jsDelivr; unresolved translator rights keep ambiguity.

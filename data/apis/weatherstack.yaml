@@ -1,0 +1,68 @@
+id: weatherstack
+name: Weatherstack
+url: https://weatherstack.com/
+category: Weather
+description: Real-Time & Historical World Weather Data API
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Weatherstack
+  url: https://weatherstack.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers
+  category: Weather
+- list: public-api-lists
+  name: WeatherStack
+  url: https://weatherstack.com/documentation
+  category: Environment
+link_status: alive
+data_license: proprietary (apilayer API licence)
+commercial_use: paid-only
+storage_caching: ambiguous
+redistribution_display: ambiguous
+attribution_required: 'no'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://weatherstack.com/terms
+commercial_use_scope: paid
+rate_limits: 'Free plan: 100 calls/month, non-commercial'
+evidence:
+- field: commercial_use
+  url: https://weatherstack.com/product
+  quote: Standard level — includes commercial use with up to 50,000 requests.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://weatherstack.com/terms
+  quote: You do not permit Your end users to store, distribute, or otherwise exploit weatherstack API
+    Data & Services for any other purposes.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://weatherstack.com/terms
+  quote: You are hereby permitted to receive, process, and display weatherstack API Data & Services to
+    individual end-users of your application(s)
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://weatherstack.com/terms
+  quote: Your inclusion of a clickable hyperlink to the weatherstack API website at https://weatherstack.com
+    would be highly appreciated.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://weatherstack.com/terms
+  quote: reproduce, copy, modify, distribute, market, display, transfer, sublicense
+  checked_at: '2026-11-21'
+notes: Read the API licence at /terms and the plan list at /product. Free plan is labelled "Non-Commercial
+  Use"; the Standard plan and above are labelled commercial use, so commercial_use is paid-only. The licence
+  lets you display data to end users of your app for their personal reference, but forbids reproducing/copying
+  and posting data in any public forum (incl. internet) and forbids end-user storage, so storage and display
+  are ambiguous (a public page of stored weather data likely breaches it). Attribution is only "highly
+  appreciated".
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read /terms. Public-page display of stored weather data likely breaches the licence;
+  live display inside an app is allowed. Ambiguous/yellow stands.

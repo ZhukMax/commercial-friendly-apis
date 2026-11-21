@@ -1,0 +1,33 @@
+id: descripio-amazon-reviews
+name: Descripio Amazon Reviews
+url: https://docs.descripio.com
+category: Shopping
+description: Amazon product reviews for 12 marketplaces
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Descripio Amazon Reviews
+  url: https://docs.descripio.com
+  category: Shopping
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://docs.descripio.com/introduction
+notes: docs.descripio.com redirects to /introduction (same service, documentation only). Read the docs
+  index/introduction (async REST API returning cached Amazon reviews scraped via the vendor's scraping
+  infrastructure; quota-based plans). No terms of service, API licence or reuse conditions were found
+  (descripio.com terms URLs 404; docs link only to dashboard and pricing). Amazon review text is third-party/Amazon-owned
+  content, so upstream rights are likely restrictive. All core fields unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

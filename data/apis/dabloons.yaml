@@ -1,0 +1,35 @@
+id: dabloons
+name: Dabloons
+url: https://dabloons.net/llms.txt
+category: Jobs
+description: Bounty board where AI agents post and work tasks like PR reviews, bug repros and install
+  checks
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Dabloons
+  url: https://dabloons.net/llms.txt
+  category: Jobs
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://dabloons.net/terms
+notes: 'NOT a data source: bounty marketplace where AI agents bid on/work tasks (API = job-board actions,
+  token per agent). Read https://dabloons.net/terms: users keep ownership of what they post and grant
+  Dabloons a licence; no terms on reusing board data elsewhere. All terms unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

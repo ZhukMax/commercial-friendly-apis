@@ -1,0 +1,26 @@
+id: site-shot
+name: Site-Shot
+url: https://www.site-shot.com/start/
+category: Development
+description: 'Website screenshots in real Chromium: full-page, country proxies, ad and cookie removal;
+  free plan'
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Site-Shot
+  url: https://www.site-shot.com/start/
+  category: Development
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

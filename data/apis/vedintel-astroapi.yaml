@@ -1,0 +1,25 @@
+id: vedintel-astroapi
+name: VedIntel™ AstroAPI
+url: https://vedintelastroapi.com/docs
+category: Personality
+description: Vedic astrology computation — birth charts, dashas, panchang, AI narratives
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: VedIntel™ AstroAPI
+  url: https://vedintelastroapi.com/docs
+  category: Personality
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

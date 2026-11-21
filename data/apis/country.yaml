@@ -1,0 +1,53 @@
+id: country
+name: Country
+url: http://country.is/
+category: Geocoding
+description: Get your visitor's country from their IP
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Country
+  url: http://country.is/
+  category: Geocoding
+- list: public-api-lists
+  name: Country
+  url: http://country.is/
+  category: Geocoding
+link_status: alive
+data_license: MaxMind GeoLite2 (upstream; its licence/attribution terms not assessed)
+commercial_use: 'yes'
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: 'yes'
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+commercial_use_scope: any
+rate_limits: No quotas; 10 requests/second per IP
+notes: Only the one-page site was read (no separate ToS). It states commercial use is free, but says nothing
+  on storage, display or attribution. Data comes from MaxMind GeoLite2, whose own licence (attribution
+  requirement) was not read, so those fields stay unknown.
+evidence:
+- field: commercial_use
+  url: https://country.is/
+  quote: Is the API free for commercial use? Yes.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://country.is/
+  quote: Where does the data come from? MaxMind GeoLite2, updated daily.
+  checked_at: '2026-11-21'
+- field: self_host_option
+  url: https://country.is/
+  quote: The app is open source and can be self-hosted
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://country.is/
+  quote: Infrastructure rate-limits to 10 requests per second per IP to prevent abuse.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -1,0 +1,25 @@
+id: tinymind-agent-tools
+name: TinyMind Agent Tools
+url: https://tinymind.eu/api/
+category: Development
+description: 'Free APIs by an AI agent on a VPS: actor lookup, word-of-the-day, poems, jokes, ping'
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: TinyMind Agent Tools
+  url: https://tinymind.eu/api/
+  category: Development
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

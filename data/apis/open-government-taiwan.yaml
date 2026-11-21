@@ -1,0 +1,83 @@
+id: open-government-taiwan
+name: Open Government, Taiwan
+url: https://data.gov.tw/
+category: Government
+description: Taiwan Government Open Data
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Open Government, Taiwan
+  url: https://data.gov.tw/
+  category: Government
+- list: public-api-lists
+  name: Open Government, Taiwan
+  url: https://data.gov.tw/
+  category: Government
+link_status: alive
+data_license: Open Government Data License v1.0 (Taiwan), compatible with CC BY 4.0
+commercial_use: ambiguous
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://data.gov.tw/en/license
+api_terms_url: https://data.gov.tw/en/license
+commercial_use_scope: any
+attribution_text: Explicit notice of attribution in the form requested by the Data Providing Organization
+  (Exhibit of the licence)
+share_alike: unknown
+evidence:
+- field: data_license
+  url: https://data.gov.tw/en/license
+  quote: The License is compatible with the Creative Commons Attribution License 4.0 International.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://data.gov.tw/en/license
+  quote: for any purpose, including but not limited to making all kinds of Derivative Works either as
+    products or services.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://data.gov.tw/en/license
+  quote: a perpetual, worldwide, non-exclusive, irrevocable, royalty-free copyright license to reproduce,
+    distribute, publicly transmit
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://data.gov.tw/en/license
+  quote: a perpetual, worldwide, non-exclusive, irrevocable, royalty-free copyright license to reproduce,
+    distribute, publicly transmit
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://data.gov.tw/en/license
+  quote: he/she must make an explicit notice of statement as attribution requested in the Exhibit below
+    by the Data Providing Organization.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://data.gov.tw/en/license
+  quote: when the Open Data is provided under the License
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://data.gov.tw/en/license
+  quote: If User fails to comply with the attribution requirement, the rights granted under this License
+    shall be deemed to have been void ab initio.
+  checked_at: '2026-11-21'
+notes: 'Read the Open Government Data License v1.0 (English page, https://data.gov.tw/en/license). Grant:
+  perpetual, worldwide, irrevocable, royalty-free licence to reproduce, distribute, publicly transmit,
+  adapt for any purpose incl. derivative products or services; sublicensing allowed; attribution mandatory
+  (failure voids the licence ab initio); no patent/trademark rights; compatible with CC BY 4.0. Applies
+  to datasets ''provided under the License'': individual datasets may carry another licence, and some
+  data may be excluded (third-party rights). ''Commercial'' is not named literally (''any purpose ...
+  products or services''). No API-specific terms or rate limits read.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Licence covers only data ''provided under the License''; portal does not guarantee
+  every dataset uses it; Providers may cease supplying data; attribution failure voids licence ab initio
+  | applied: commercial_use=ambiguous, attribution_required=yes'

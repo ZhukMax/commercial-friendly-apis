@@ -1,0 +1,85 @@
+id: openalex
+name: OpenAlex
+url: https://docs.openalex.org/
+category: Science & Math
+description: Open catalog of scholarly works, authors, institutions, sources, and concepts
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: OpenAlex
+  url: https://docs.openalex.org/
+  category: Science & Math
+link_status: redirect
+data_license: CC0-1.0
+commercial_use: 'yes'
+storage_caching: ambiguous
+redistribution_display: ambiguous
+attribution_required: 'no'
+bulk_download: 'yes'
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: -> https://help.openalex.org/
+data_license_url: https://help.openalex.org/access/pricing/
+api_terms_url: https://help.openalex.org/access/pricing/
+commercial_use_scope: any
+share_alike: 'no'
+rate_limits: 'Free account: $1 of API usage per day; paid plans for more'
+evidence:
+- field: data_license
+  url: https://help.openalex.org/access/pricing/
+  quote: Every record is released under a CC0 public-domain license
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://help.openalex.org/access/pricing/
+  quote: with no “personal use only” carve-out and no permission to ask.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://help.openalex.org/api/
+  quote: all data is CC0 — no license worries, ever.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://help.openalex.org/api/
+  quote: all data is CC0 — no license worries, ever.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://help.openalex.org/api/
+  quote: all data is CC0 — no license worries, ever.
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://help.openalex.org/api/
+  quote: all data is CC0 — no license worries, ever.
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://help.openalex.org/access/pricing/
+  quote: or download the whole database in the snapshot , refreshed every quarter.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://help.openalex.org/access/pricing/
+  quote: Every account gets $1 of API usage per day for free
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://openalex.org/OpenAlex_termsofservice.pdf
+  quote: OpenAlex and its licensors retain ownership of the Database and all intellectual property rights
+    of any kind
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://openalex.org/OpenAlex_termsofservice.pdf
+  quote: freely revocable, limited license to access and use the free features of the Service
+  checked_at: '2026-11-21'
+notes: 'Pages read: help.openalex.org pricing and API pages (docs.openalex.org redirects to help.openalex.org;
+  same service). Data is CC0 with no personal-use carve-out; API is free up to $1/day usage and now needs
+  a free API key (auth was none in upstream list). Paid plans sell budget, support and daily sync, not
+  data. No separate API ToS page was found (404 on /access/terms/), so confidence medium. Full-text PDFs
+  are third-party content with their own licences (not covered by CC0 metadata).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Official Terms of Service (PDF, not read in first pass) assert ownership of the Database
+  and grant only a revocable limited licence, conflicting with the CC0 marketing claim; API now needs
+  a free key; free use limited to $1/day | applied: storage_caching=ambiguous, redistribution_display=ambiguous'

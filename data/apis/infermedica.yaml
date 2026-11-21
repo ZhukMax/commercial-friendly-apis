@@ -1,0 +1,75 @@
+id: infermedica
+name: Infermedica
+url: https://developer.infermedica.com/docs/
+category: Health
+description: NLP based symptom checker and patient triage API for health diagnosis from text
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Infermedica
+  url: https://developer.infermedica.com/docs/
+  category: Health
+link_status: redirect
+data_license: proprietary (Infermedica Content)
+commercial_use: paid-only
+storage_caching: 'no'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: 'no'
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: -> https://developer.infermedica.com/documentation/overview/
+api_terms_url: https://developer.infermedica.com/terms-of-service/
+data_license_url: https://developer.infermedica.com/terms-of-service/
+commercial_use_scope: paid
+attribution_text: Link to the Infermedica homepage with the text "Powered by Infermedica"
+share_alike: unknown
+rate_limits: 'Trial: max 2,000 API calls or 60 days'
+evidence:
+- field: commercial_use
+  url: https://developer.infermedica.com/terms-of-service/
+  quote: THIS AGREEMENT DOES NOT COVER A COMMERCIAL LICENSE AND REFERS ONLY TO THE TRIAL USE OF API AND
+    INFERMEDICA CONTENT
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://developer.infermedica.com/terms-of-service/
+  quote: IF YOU ARE INTERESTED IN SUBSEQUENT COMMERCIAL USE OF THE API AND INFERMEDICA CONTENT AS A PART
+    OF YOUR SOLUTION
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://developer.infermedica.com/terms-of-service/
+  quote: Caching, recording, pre-fetching, or otherwise storing any portion of the Infermedica Content
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://developer.infermedica.com/terms-of-service/
+  quote: display the Infermedica Content on Your Site or Your Applications
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://developer.infermedica.com/terms-of-service/
+  quote: must display a link to the Infermedica homepage with the text "Powered by Infermedica"
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://developer.infermedica.com/terms-of-service/
+  quote: limited to 2,000 API calls or 60 days of usage, whichever occurs first
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://developer.infermedica.com/terms-of-service/
+  quote: all rights not expressly granted to You hereunder are reserved by Infermedica
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://developer.infermedica.com/terms-of-service/
+  quote: attempting or providing the means to execute any "bulk download" operations
+  checked_at: '2026-11-21'
+notes: 'Public ToS (last updated May 31, 2024) cover only the trial: 2,000 calls / 60 days, no commercial
+  purpose without Infermedica''s prior written consent; commercial use goes through a separate commercial
+  licence via sales (terms not public, so paid-only). Caching/storing content and bulk download are prohibited.
+  Display on your own site/app is licensed during the trial, with a mandatory ''Powered by Infermedica''
+  link and consultation on press releases. SNOMED CT use needs a separate third-party licence. Docs URL
+  redirects to /documentation/overview/.'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

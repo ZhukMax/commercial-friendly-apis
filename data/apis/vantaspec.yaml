@@ -1,0 +1,67 @@
+id: vantaspec
+name: VantaSpec
+url: https://vantaspec.com/api-docs
+category: Shopping
+description: UK PC hardware prices, price history and specs across UK retailers
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: VantaSpec
+  url: https://vantaspec.com/api-docs
+  category: Shopping
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: ambiguous
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://vantaspec.com/terms
+rate_limits: Free 100 requests/day per key; anonymous callers limited by IP
+evidence:
+- field: commercial_use
+  url: https://vantaspec.com/terms
+  quote: Automated scraping or data extraction from VantaSpec without permission.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://vantaspec.com/api-docs
+  quote: No account, no key, no signup.
+  checked_at: '2026-11-21'
+- field: upstream_terms
+  url: https://vantaspec.com/terms
+  quote: Prices displayed on VantaSpec are collected from third-party retailers and may not always be
+    accurate or up to date.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://vantaspec.com/api-docs
+  quote: Free 100 requests / day
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://vantaspec.com/terms
+  quote: Automated scraping or data extraction from VantaSpec without permission.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://vantaspec.com/terms
+  quote: Automated scraping or data extraction from VantaSpec without permission.
+  checked_at: '2026-11-21'
+notes: 'Conflict between pages: api-docs advertises 76 open endpoints usable with no account/key (higher
+  limits with keys: Free 100/day, Basic 1,000/day, ...) and no licence or usage terms, while the Terms
+  of Service (updated 1 March 2026; read via Playwright because the page is a JS app) list ''Automated
+  scraping or data extraction from VantaSpec without permission'' as prohibited conduct. Nothing on commercial
+  use, caching or display of API data, so these are ambiguous. Prices/availability are aggregated from
+  third-party UK retailers (affiliate-funded comparison site); product names, brands and images belong
+  to their owners per ToS, so upstream retailer terms may be stricter. Also: the API contains session/admin
+  endpoints that are account-scoped; only the open read endpoints are relevant.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read /terms via Playwright; conflict between pages unresolved. Site itself is affiliate-funded;
+  upstream retailer terms unread. Ambiguous/yellow stands.

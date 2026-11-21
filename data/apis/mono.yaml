@@ -1,0 +1,37 @@
+id: mono
+name: Mono
+url: https://mono.co/
+category: Finance
+description: Connect with users’ bank accounts and access transaction data in Africa
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Mono
+  url: https://mono.co/
+  category: Finance
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://mono.co/legal
+notes: Open-banking API returning end-user bank account data (not public data). Developer Policy at mono.co/legal
+  (updated Oct 27 2026) says it lists only fundamental provisions and the full agreement with schedules
+  and fees is sent on request; it bars reselling platform elements and using it for purposes unrelated
+  to services to End-Users. Commercial use, storage and display of data not stated; left unknown. Not
+  suitable for the ads/affiliate public-data scenario.
+evidence: []
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

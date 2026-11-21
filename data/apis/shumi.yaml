@@ -1,0 +1,32 @@
+id: shumi
+name: Shumi
+url: https://docs.shumi.ai/api-reference/introduction
+category: Cryptocurrency
+description: 'Crypto market data: prices, trends, funding rates, sentiment, narratives and market regime'
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Shumi
+  url: https://docs.shumi.ai/api-reference/introduction
+  category: Cryptocurrency
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://shumi.ai/terms
+evidence: []
+notes: 'Pages read: docs.shumi.ai API intro and shumi.ai/terms (Terms of Service, updated 2026-10-26). Terms describe a crypto-research chat product; they forbid reselling access, sharing keys and scraping
+  beyond rate limits, but say nothing on commercial use, storage or display of API data, and no API/data licence page was found. Data are derived from third-party sources (trend, funding, sentiment) whose
+  terms may be stricter. All fields unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

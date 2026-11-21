@@ -1,0 +1,43 @@
+id: playerelo
+name: PlayerElo
+url: https://playerelo.football/api-access
+category: Sports & Fitness
+description: Player-level Elo ratings, predictions and history for 176 football leagues
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: PlayerElo
+  url: https://playerelo.football/api-access
+  category: Sports & Fitness
+link_status: alive
+data_license: Proprietary (own computed ratings); no licence text found
+commercial_use: paid-only
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://playerelo.football/api-access
+commercial_use_scope: paid
+share_alike: unknown
+rate_limits: Free 500 req/month, 10 req/min; Pro 10,000/month; Ultra 50,000/month; Business 300,000/month
+notes: 'Only the api-access page (pricing + FAQ) was read, via Playwright because curl got a JS/cookie challenge; no separate Terms of Service found, hence confidence low. FAQ: paid plans permit commercial
+  use; free plan is described as evaluation and hobby use; Business adds a commercial licence. Storage/caching, display/redistribution and attribution not addressed (unknown). Data is own computed Elo ratings/derived
+  analytics using API-Football IDs; underlying match data upstream rights unverified.'
+evidence:
+- field: commercial_use
+  url: https://playerelo.football/api-access
+  quote: Yes. Paid plans permit commercial use; the Business plan adds a commercial licence and higher volume.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://playerelo.football/api-access
+  quote: The data is our own computed ratings and derived analytics, not raw third-party feeds resold 1:1.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -1,0 +1,65 @@
+id: open-meteo-marine
+name: Open-Meteo Marine
+url: https://open-meteo.com/en/docs/marine-weather-api
+category: Environment
+description: Ocean wave height, swell, sea temperature and marine weather data
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: Open-Meteo Marine
+  url: https://open-meteo.com/en/docs/marine-weather-api
+  category: Environment
+link_status: alive
+data_license: CC-BY-4.0
+commercial_use: paid-only
+storage_caching: unknown
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: 'yes'
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://open-meteo.com/en/licence
+api_terms_url: https://open-meteo.com/en/terms
+commercial_use_scope: paid
+attribution_text: Weather data by Open-Meteo.com (link to https://open-meteo.com/ next to displayed data)
+share_alike: unknown
+rate_limits: 'Free (non-commercial): <10,000/day, 5,000/hour, 600/min'
+evidence:
+- field: commercial_use
+  url: https://open-meteo.com/en/terms
+  quote: You may only use the free API services for non-commercial purposes.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://open-meteo.com/en/licence
+  quote: API data are offered under Attribution 4.0 International (CC BY 4.0)
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://open-meteo.com/en/licence
+  quote: You must include a link next to any location Open-Meteo data are displayed
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://open-meteo.com/en/docs/marine-weather-api
+  quote: All users of Open-Meteo data must provide a clear attribution to the providers of the models they use as well as a reference to Open-Meteo.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://open-meteo.com/en/licence
+  quote: 'You are free to share: copy and redistribute the material in any medium or format'
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://open-meteo.com/en/terms
+  quote: Less than 10'000 API calls per day, 5'000 per hour and 600 per minute.
+  checked_at: '2026-11-21'
+- field: self_host_option
+  url: https://open-meteo.com/en/licence
+  quote: Open-Meteo is open-source Source code is available on GitHub under the GNU Affero General Public Licence
+  checked_at: '2026-11-21'
+notes: 'Same service terms as the Open-Meteo entry (pages re-read in this session): API data CC BY 4.0, but the free hosted API is non-commercial only; a site with ads/affiliate links needs a paid subscription
+  or self-hosting (AGPLv3). The marine page itself shows a Non-Commercial / Commercial / Self-Hosted licence selector and requires attribution to the model providers too (wave models from DWD, ECMWF, Meteo-France,
+  Copernicus Marine, whose licences are listed on the licence page and were not individually checked). Caching not addressed, so unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -1,0 +1,26 @@
+id: agpc-domain-check
+name: AGPC Domain Check
+url: https://guild.tradeuniquecapital.com/api
+category: Email
+description: Check a domain's SPF, DKIM, DMARC and MX with a graded shareable report
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: AGPC Domain Check
+  url: https://guild.tradeuniquecapital.com/api
+  category: Email
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: ConnectError

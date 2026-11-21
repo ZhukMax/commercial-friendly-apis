@@ -1,0 +1,64 @@
+id: pixelgust-soil
+name: PixelGust Soil
+url: https://pixelgust.com/docs
+category: Environment
+description: Soil properties at 6 depths for any point (SoilGrids 2.0, 250 m), ISRIC-compatible
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: PixelGust Soil
+  url: https://pixelgust.com/docs#soil
+  category: Environment
+link_status: alive
+data_license: CC-BY-4.0 (SoilGrids 2.0 by ISRIC); ODbL for TWI layer
+commercial_use: 'yes'
+storage_caching: unknown
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+data_license_url: https://pixelgust.com/terms
+api_terms_url: https://pixelgust.com/terms
+attribution_text: Data acquired through ISRIC - World Soil Information (cite Poggio et al. as given in
+  the docs)
+rate_limits: 'Without a key: 20 calls/day and 5/min per network address; free key 50 calls/day'
+evidence:
+- field: data_license
+  url: https://pixelgust.com/terms
+  quote: Soil property values that PixelGust serves from SoilGrids 2.0 are licensed by ISRIC under CC
+    BY 4.0.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://pixelgust.com/terms
+  quote: Redistribute or resell data obtained from the Service without permission
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://pixelgust.com/terms
+  quote: including sharing them, as long as you credit ISRIC as described on the API documentation page
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://pixelgust.com/docs
+  quote: 'You can try it without a key: 20 calls a day and 5 a minute per network address.'
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://pixelgust.com/terms
+  quote: Nothing in these terms limits what that licence lets you do with those values, including sharing
+    them
+  checked_at: '2026-11-21'
+notes: Terms of Service (section 6, Acceptable Use) forbid redistributing or reselling data without permission,
+  while the SoilGrids clause says the terms do not limit what CC BY 4.0 allows (sharing with credit to
+  ISRIC); TWI is ODbL. Nothing on the terms or docs pages says whether commercial use (ads/affiliate site)
+  is allowed or how long data may be stored, so those stay unknown / ambiguous. Docs say every endpoint
+  is on every plan including Free. Underlying data is a model prediction, not measurement.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Terms say they do not limit what CC BY 4.0 allows for SoilGrids values; Resale ban
+  carved out for the SoilGrids layer; credit ISRIC required | applied: commercial_use=yes, redistribution_display=yes'

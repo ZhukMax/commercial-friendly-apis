@@ -1,0 +1,29 @@
+id: answerline
+name: AnswerLine
+url: https://answerline.dev
+category: Development
+description: Answers, citations and sources from AI assistants and Google surfaces through one API
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: AnswerLine
+  url: https://answerline.dev
+  category: Development
+- list: public-apis
+  name: AnswerLine
+  url: https://answerline.dev/docs
+  category: Machine Learning
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

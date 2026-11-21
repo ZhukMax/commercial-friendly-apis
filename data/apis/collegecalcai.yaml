@@ -1,0 +1,62 @@
+id: collegecalcai
+name: CollegeCalcAI
+url: https://collegecalcai.com/developers
+category: Open Data
+description: US college admission chance estimates and admissions data for 1,100+ colleges
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: CollegeCalcAI
+  url: https://collegecalcai.com/developers
+  category: Open Data
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: ambiguous
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://collegecalcai.com/developers
+attribution_text: Credit CollegeCalcAI with the link each response includes; present results as estimates,
+  not guarantees
+rate_limits: 240 requests/hour per caller; 1,200 for hosted assistants
+evidence:
+- field: commercial_use
+  url: https://collegecalcai.com/developers
+  quote: Free for assistants, apps, schools and counselors.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://collegecalcai.com/developers
+  quote: present results as estimates, not guarantees, and credit CollegeCalcAI with the link each response
+    includes.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://collegecalcai.com/developers
+  quote: credit CollegeCalcAI with the link each response includes.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://collegecalcai.com/terms
+  quote: no scraping, automated bulk access, reverse engineering, probing or disrupting our systems
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://collegecalcai.com/developers
+  quote: 'Limits: 240 requests an hour per caller;'
+  checked_at: '2026-11-21'
+notes: Read /developers ('Terms and limits' section) and /terms. The API page says free for apps with
+  two asks (estimates disclaimer, credit link) but never says 'commercial' or addresses ads/storage; the
+  general ToS bans scraping and 'automated bulk access'. So commercial_use and storage are ambiguous;
+  ask the owner before building a monetised caching product. Display with credit is permitted by the API
+  page.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Read /developers, /terms, /data. Underlying data is IPEDS/CDS public sources but compilation
+  is claimed as theirs. Ambiguity stands; ask owner before caching.

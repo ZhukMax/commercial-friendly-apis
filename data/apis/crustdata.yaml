@@ -1,0 +1,31 @@
+id: crustdata
+name: Crustdata
+url: https://docs.crustdata.com
+category: Business
+description: People and company data covering profiles, headcount, funding and contacts
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Crustdata
+  url: https://docs.crustdata.com
+  category: Business
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://docs.crustdata.com/general/introduction
+notes: 'crustdata.com/terms is a generic website-use page (personal non-commercial viewing of site materials) and does not cover API data; no API terms of service, data licence or usage rights found in
+  docs.crustdata.com (introduction/usage pages read). All terms unknown. People/company data: personal data and scraped-source (e.g. LinkedIn) concerns likely; upstream terms may be stricter.'
+evidence: []
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

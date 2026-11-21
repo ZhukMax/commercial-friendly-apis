@@ -1,0 +1,66 @@
+id: bank-of-russia
+name: Bank of Russia
+url: https://www.cbr.ru/development/SXML/
+category: Currency Exchange
+description: Exchange rates and currency conversion
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Bank of Russia
+  url: https://www.cbr.ru/development/SXML/
+  category: Currency Exchange
+link_status: alive
+data_license: 'proprietary (Bank of Russia website terms: copying allowed with source link)'
+commercial_use: ambiguous
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.cbr.ru/about/
+commercial_use_scope: any
+attribution_text: Link to the source page on cbr.ru
+evidence:
+- field: commercial_use
+  url: https://www.cbr.ru/about/
+  quote: Указанная информация также не может рассматриваться как объект для использования в коммерческих
+    целях.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.cbr.ru/about/
+  quote: допускается при условии указания ссылки на источник такой информации
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.cbr.ru/about/
+  quote: допускается при условии указания ссылки на источник такой информации
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.cbr.ru/about/
+  quote: допускается при условии указания ссылки на источник такой информации
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.cbr.ru/about/
+  quote: Указанная информация также не может рассматриваться как объект для использования в коммерческих
+    целях.
+  checked_at: '2026-11-21'
+notes: 'Read https://www.cbr.ru/about/ ("About the site", Russian): copying/quoting information from cbr.ru
+  is allowed provided the source is linked (hyperlink for online media), but the same page says the information
+  "cannot be regarded as an object for commercial use". These two statements conflict for an ad-supported
+  site, so commercial_use is ambiguous (possibly no). The page is general site guidance, not specific
+  to the XML/SXML data API (https://www.cbr.ru/development/SXML/, which has no terms of its own). A separate
+  "User agreement" page exists on the site but was not read. Russian-language page, translated by the
+  reader; consider legal/practical risk (sanctions context, access from outside Russia may be restricted).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'cbr.ru/about (RU and EN) re-read: ''cannot be used for commercial purposes'' conflicts
+  with ''reproduced ... on websites without limitation ... only requirement is source link''. User Agreement
+  (cbr.ru/user_agreement) only requires source link when quoting, no commercial ban. Evidence leans permissive
+  with link but stays ambiguous.'

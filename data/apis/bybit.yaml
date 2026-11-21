@@ -1,0 +1,32 @@
+id: bybit
+name: Bybit
+url: https://www.bybit.com/docs/v5/introduction
+category: Cryptocurrency
+description: Cryptocurrency data feed and algorithmic trading
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Bybit
+  url: https://www.bybit.com/docs/v5/introduction
+  category: Cryptocurrency
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: HTTP 403 (blocked for bots, assumed alive)
+api_terms_url: https://www.bybit.com/en/legal/terms-of-service
+notes: 'Exchange trading API (V5, account-scoped; public market endpoints exist). Read via Playwright: V5 docs intro (bybit-exchange.github.io, no terms/licence text) and the Bybit legal pages (index of
+  region-specific Terms of Service); the platform Terms body for the main entity did not render in full and the regional variant read only defines API, API Key, API Limits and does not state commercial
+  use, caching or redistribution of market data. Nothing usable found, so all terms unknown. Exchange market data redistribution limits not confirmed either way.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

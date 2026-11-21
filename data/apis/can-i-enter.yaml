@@ -1,0 +1,51 @@
+id: can-i-enter
+name: Can I enter
+url: https://canienter.com
+category: Transportation
+description: Visa and entry requirements for 199 passports, cited to official sources, verified daily
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Can I enter
+  url: https://canienter.com
+  category: Transportation
+link_status: alive
+data_license: CC-BY-NC-4.0
+commercial_use: paid-only
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://canienter.com/terms
+commercial_use_scope: paid
+share_alike: unknown
+rate_limits: 'Free tier: 5 checks/day, no auth; paid $0.03/check via x402'
+evidence:
+- field: data_license
+  url: https://canienter.com/terms
+  quote: attribution required, non-commercial reuse permitted.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://canienter.com/terms
+  quote: Commercial use of the data happens through the paid API; resale or commercial redistribution of the raw data is not permitted.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://canienter.com/terms
+  quote: attribution required, non-commercial reuse permitted.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://canienter.com/
+  quote: 5 checks a day, no auth
+  checked_at: '2026-11-21'
+notes: Dataset is CC BY-NC 4.0; commercial use (ad/affiliate site) goes through the paid per-request API (x402 USDC micropayments, no account). Resale or commercial redistribution of raw data is forbidden.
+  A free embeddable widget is offered "for any site, commercial or not" if the attribution link stays visible (separate from API data). Storage/caching of paid API answers not addressed (unknown). Display
+  of paid-API data not explicitly addressed.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

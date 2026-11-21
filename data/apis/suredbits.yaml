@@ -1,0 +1,26 @@
+id: suredbits
+name: SuredBits
+url: https://suredbits.com/api/
+category: Sports & Fitness
+description: Query sports data, including teams, players, games, scores and statistics
+description_source: upstream
+auth: none
+https: false
+cors: 'no'
+sources:
+- list: public-apis
+  name: SuredBits
+  url: https://suredbits.com/api/
+  category: Sports & Fitness
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: ReadTimeout

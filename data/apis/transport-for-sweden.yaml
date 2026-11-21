@@ -1,0 +1,83 @@
+id: transport-for-sweden
+name: Transport for Sweden
+url: https://www.trafiklab.se/api
+category: Transportation
+description: Public Transport consumer
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Transport for Sweden
+  url: https://www.trafiklab.se/api
+  category: Transportation
+- list: public-api-lists
+  name: Transport for Sweden
+  url: https://www.trafiklab.se/api
+  category: Transportation
+link_status: alive
+data_license: CC-BY-4.0 (Trafiklab realtime APIs); CC0-1.0 (ResRobot)
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: 'yes'
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://www.trafiklab.se/api/our-apis/trafiklab-realtime-apis/
+api_terms_url: https://www.trafiklab.se/api/our-apis/trafiklab-realtime-apis/
+commercial_use_scope: any
+attribution_text: Mention the data is provided by Trafiklab.se (e.g. footnote on website widgets)
+share_alike: 'no'
+rate_limits: 'Realtime APIs: Bronze 25/min, 100k/month up to Platinum 3000/min; ResRobot: Bronze 45/min,
+  30k/month up to Gold 200/min'
+evidence:
+- field: data_license
+  url: https://www.trafiklab.se/api/our-apis/trafiklab-realtime-apis/
+  quote: These Trafiklab APIs are available under the CC-BY 4.0 license.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.trafiklab.se/api/our-apis/trafiklab-realtime-apis/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.trafiklab.se/api/our-apis/trafiklab-realtime-apis/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.trafiklab.se/api/our-apis/trafiklab-realtime-apis/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.trafiklab.se/api/our-apis/trafiklab-realtime-apis/
+  quote: You should mention the data is provided by Trafiklab.se
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.trafiklab.se/api/our-apis/resrobot-v21/license/
+  quote: Data from the ResRobot API is available under the CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+    license.
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://www.trafiklab.se/api/our-apis/trafiklab-realtime-apis/
+  quote: No additional restrictions — You may not apply legal terms or technological measures that legally
+    restrict others
+  checked_at: '2026-11-21'
+- field: self_host_option
+  url: https://www.trafiklab.se/api/our-apis/trafiklab-realtime-apis/
+  quote: we recommend using GTFS and hosting your own API based on that data
+  checked_at: '2026-11-21'
+notes: 'Trafiklab is a platform (Sweden) with several APIs; auth is an API key (Bronze..Platinum levels),
+  not OAuth. Read the Trafiklab realtime APIs page and the ResRobot v2.1 page + licence page. Realtime
+  APIs: CC BY 4.0 with Trafiklab.se credit; ResRobot: CC0. Other Trafiklab datasets (KoDa, SL, Oxyfi)
+  have their own licence pages, not read. Data originates from Swedish transport operators/Samtrafiken;
+  Trafiklab''s licence statement is what is cited, upstream operator terms not checked. Higher key tiers
+  may need approval.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Upstream operator/Samtrafiken terms and other Trafiklab datasets (KoDa, SL) not assessed;
+  Trafiklab says credit Trafiklab.se.

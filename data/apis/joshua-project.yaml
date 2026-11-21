@@ -1,0 +1,57 @@
+id: joshua-project
+name: Joshua Project
+url: https://api.joshuaproject.net/
+category: Open Data
+description: People groups of the world with the fewest followers of Christ
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Joshua Project
+  url: https://api.joshuaproject.net/
+  category: Open Data
+link_status: alive
+data_license: unknown
+commercial_use: 'no'
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: high
+link_checked_at: '2026-11-21'
+api_terms_url: https://api.joshuaproject.net/terms_of_use
+commercial_use_scope: any
+attribution_text: Data provided by Joshua Project (with hyperlink), clearly visible on pages displaying the data
+share_alike: unknown
+rate_limits: No numeric limit; abuse affecting other users prohibited
+notes: 'Read the API Terms of Use (api.joshuaproject.net/terms_of_use) and the datasets page. Free API key (request form) but terms forbid any commercial purpose, including using the data to generate revenue,
+  so ads/affiliate sites are out (red). Also: attribution link required, no public replication of Joshua Project''s own services/presentation, downloaded/cached data must be deleted on termination. Public
+  datasets page (joshuaproject.net/resources/datasets) says ''Free to use'' without a licence; the API terms were treated as controlling. Redisplay only allowed non-replicating, hence display yes only in
+  a limited sense. Non-commercial use of the CSV downloads could differ (not assessed).'
+evidence:
+- field: commercial_use
+  url: https://api.joshuaproject.net/terms_of_use
+  quote: 'Non-Commercial Use: You may not use the Joshua Project data or API for commercial purposes.'
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://api.joshuaproject.net/terms_of_use
+  quote: Commercial use includes, but is not limited to, the sale of the data, creating commercial products, or using the data to generate revenue.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://api.joshuaproject.net/terms_of_use
+  quote: you agree to provide proper attribution by displaying the following acknowledgment
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://api.joshuaproject.net/terms_of_use
+  quote: Upon termination, you must immediately cease using the API and delete any downloaded or cached data.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://api.joshuaproject.net/terms_of_use
+  quote: 'No Direct Replication: You may not use the data in a public manner that replicates the services or presentation offered by Joshua Project.'
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

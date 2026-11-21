@@ -1,0 +1,13 @@
+Data licence
+
+The catalogue data in this repository (data/apis/*.yaml, dist/apis.json and the generated tables) is licensed under the
+Creative Commons Attribution 4.0 International licence (CC BY 4.0):
+https://creativecommons.org/licenses/by/4.0/legalcode
+
+Attribution: "commercial-friendly-apis contributors" with a link to this repository.
+
+Exceptions and notes
+- API names, URLs and descriptions imported from public-apis/public-apis and public-api-lists/public-api-lists remain under
+  those projects' MIT licences; their notices are reproduced in NOTICE.
+- Short quotations of third-party terms in `evidence` fields are citations; they remain the property of their owners.
+- This catalogue records what published terms say. It is not legal advice and carries no warranty.

@@ -1,0 +1,40 @@
+id: public-holidays
+name: Public Holidays
+url: https://www.abstractapi.com/holidays-api
+category: Calendar
+description: Data on national, regional, and religious holidays via API
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Public Holidays
+  url: https://www.abstractapi.com/holidays-api
+  category: Calendar
+- list: public-api-lists
+  name: Abstract's Holiday API
+  url: https://www.abstractapi.com/holidays-api
+  category: Calendar
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://www.abstractapi.com/api/holidays-api
+api_terms_url: https://www.abstractapi.com/legal/legal
+notes: 'Abstract Holidays API (redirected from /holidays-api to /api/holidays-api). Read the general Abstract
+  Terms of Service and Privacy Policy (https://www.abstractapi.com/legal/legal): it governs the Site and
+  its Content (no commercial exploitation of Site content) and says nothing about API response data (commercial
+  use, caching, display, attribution), so all core fields stay unknown. The Enterprise plan lists a ''Commercial
+  license'' but the pages do not say what free/paid tiers permit. FAQ says holiday data comes from public
+  and private sources (government data cross-referenced), so upstream terms may be stricter. Not verified:
+  pricing/plan terms for API data.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

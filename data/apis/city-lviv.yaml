@@ -1,0 +1,30 @@
+id: city-lviv
+name: City, Lviv
+url: https://opendata.city-adm.lviv.ua/
+category: Government
+description: Lviv(UA) City Open Data
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: City, Lviv
+  url: https://opendata.city-adm.lviv.ua/
+  category: Government
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: HTTP 403 (blocked for bots, assumed alive)
+notes: 'Could not read any page: the portal returns HTTP 403 "Access blocked" to both curl and the Playwright browser. All terms left unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+share_alike: unknown

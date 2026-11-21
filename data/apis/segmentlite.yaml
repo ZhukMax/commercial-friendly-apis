@@ -1,0 +1,25 @@
+id: segmentlite
+name: SegmentLite
+url: https://segmentlite-api-dfru.fly.dev
+category: Development
+description: Lightweight event routing and webhook fan-out API alternative to Segment
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: SegmentLite
+  url: https://segmentlite-api-dfru.fly.dev
+  category: Development
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

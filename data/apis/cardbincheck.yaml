@@ -1,0 +1,77 @@
+id: cardbincheck
+name: CardBinCheck
+url: https://cardbincheck.com/bin-lookup-api
+category: Finance
+description: 'Card BIN/IIN lookup: network, issuer, country and card type for the first 6-8 digits'
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: CardBinCheck
+  url: https://cardbincheck.com/bin-lookup-api
+  category: Finance
+link_status: alive
+data_license: 'mixed: MIT binlist dataset enriched with a commercial BIN API (enrichment licence not stated)'
+commercial_use: paid-only
+storage_caching: ambiguous
+redistribution_display: unknown
+attribution_required: 'no'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://cardbincheck.com/terms
+commercial_use_scope: free-tier
+share_alike: unknown
+rate_limits: Keyless 100 requests/day, 30/min per IP; free key 5,000/month
+evidence:
+- field: commercial_use
+  url: https://cardbincheck.com/bin-lookup-api
+  quote: Yes, within fair use (100 requests/day per IP).
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://api.ipnova.com/terms
+  quote: Free allowances are for evaluation and low-volume use, may require attribution, may change at
+    any time, and permit commercial use only where expressly stated.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://cardbincheck.com/bin-lookup-api
+  quote: Cache responses on your side (they rarely change)
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://cardbincheck.com/bin-lookup-api
+  quote: A link back to cardbincheck.com is appreciated but not required.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://cardbincheck.com/about
+  quote: Our BIN database builds on the openly licensed (MIT) binlist dataset maintained on GitHub
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://cardbincheck.com/bin-lookup-api
+  quote: Rate limit 100 requests a day and 30 a minute, per IP
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://cardbincheck.com/bin-lookup-api
+  quote: Without a key this API answers 100 requests a day per IP address, for evaluation and personal
+    use.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://cardbincheck.com/bin-lookup-api
+  quote: Paid plans from $19 a month for production volumes, with a commercial licence
+  checked_at: '2026-11-21'
+notes: 'Read /terms, /bin-lookup-api, /about and the IPNOVA API portal terms. The keyless API is free
+  "within fair use" and the FAQ says it can be used in production, but the portal terms say free allowances
+  permit commercial use only where expressly stated and paid plans carry a commercial licence: ambiguous.
+  Caching is encouraged, no time limit, display/redistribution not addressed (and "no reselling of the
+  free keyless API"). Data builds on the MIT binlist dataset plus enrichment from a commercial BIN API
+  whose upstream terms are not stated.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Keyless API page: 100 requests/day ''for evaluation and personal use''; IPNOVA ToS:
+  free allowances permit commercial use only where expressly stated; paid plans carry commercial licence
+  | applied: commercial_use=paid-only'

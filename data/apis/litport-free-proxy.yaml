@@ -1,0 +1,25 @@
+id: litport-free-proxy
+name: Litport Free Proxy
+url: https://litport.net/docs/free-proxy-api
+category: Development
+description: Live-tested HTTP, SOCKS4, and SOCKS5 proxies with latency, uptime, and geolocation
+description_source: upstream
+auth: none
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Litport Free Proxy
+  url: https://litport.net/docs/free-proxy-api
+  category: Development
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

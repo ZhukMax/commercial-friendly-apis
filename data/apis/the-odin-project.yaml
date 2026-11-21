@@ -1,0 +1,49 @@
+id: the-odin-project
+name: The Odin Project
+url: https://github.com/theodinproject
+category: Open Source Projects
+description: theodinproject.com
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: The Odin Project
+  url: https://github.com/theodinproject
+  category: Open Source Projects
+link_status: alive
+data_license: CC-BY-NC-SA-4.0 (curriculum)
+commercial_use: 'no'
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://github.com/TheOdinProject/curriculum/blob/main/license.md
+share_alike: 'yes'
+evidence:
+- field: data_license
+  url: https://github.com/TheOdinProject/curriculum/blob/main/license.md
+  quote: This curriculum is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://github.com/TheOdinProject/curriculum/blob/main/license.md
+  quote: you can do whatever you want with the material as long as it's for non-commercial use
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://github.com/TheOdinProject/curriculum/blob/main/license.md
+  quote: you've got to attribute the original author
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://github.com/TheOdinProject/curriculum/blob/main/license.md
+  quote: share any derivative works under the same license
+  checked_at: '2026-11-21'
+notes: 'Not an API: the entry points to the TheOdinProject GitHub organisation (theodinproject.com is a free coding curriculum). Only the curriculum repository''s licence file was read: CC BY-NC-SA 4.0,
+  so non-commercial only. Other repositories in the organisation (the website app etc.) may carry different licences and were not assessed. Verdict red reflects the NonCommercial clause for the curriculum
+  content.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

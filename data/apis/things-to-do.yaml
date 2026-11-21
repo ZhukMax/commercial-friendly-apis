@@ -1,0 +1,47 @@
+id: things-to-do
+name: Things To Do
+url: https://thingstodoapi.com/docs/
+category: Events
+description: 'Local events in plain words: concerts, pop-ups, markets, classes, gallery nights'
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Things To Do
+  url: https://thingstodoapi.com/docs/
+  category: Events
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: ambiguous
+redistribution_display: 'yes'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://thingstodoapi.com/terms/
+evidence:
+- field: redistribution_display
+  url: https://thingstodoapi.com/terms/
+  quote: Use the API to show events to your users and to power your apps and agents.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://thingstodoapi.com/terms/
+  quote: Don't resell the data as a dataset or copy it wholesale.
+  checked_at: '2026-11-21'
+notes: Terms page is a short 6-sentence text. It allows showing events to users and powering apps but
+  says nothing explicit about commercial use, ads or caching; wholesale copying/resale as a dataset is
+  barred, so storage is ambiguous. "Keep links to the source where you can" is a soft attribution wish
+  (attribution_required left unknown). Events are aggregated from other sources (links point to where
+  each event was announced), so upstream terms may be stricter. Privacy and docs pages not assessed beyond
+  the terms.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read terms (6 sentences) and docs/pricing: no commercial, ads or caching statement.
+  Sources named on the homepage (Eventbrite, Ticketmaster, others) have stricter terms. Stands (unknown).'

@@ -1,0 +1,52 @@
+id: qweather
+name: QWeather
+url: https://dev.qweather.com/en/
+category: Weather
+description: Location-based weather data
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: QWeather
+  url: https://dev.qweather.com/en/
+  category: Weather
+link_status: alive
+data_license: unknown
+commercial_use: 'yes'
+storage_caching: limited
+redistribution_display: unknown
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.qweather.com/terms/developers-eula
+cache_limit: Caching allowed except GeoAPI data (no caching or indexing)
+share_alike: unknown
+evidence:
+- field: commercial_use
+  url: https://dev.qweather.com/en/help/
+  quote: Yes, just follow the Developer License Agreement.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://dev.qweather.com/en/help/
+  quote: Yes, except for GeoAPI data.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://dev.qweather.com/en/help/
+  quote: Yes. Regardless of the license, you must include attribution and a statement of some data sources
+    as required.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://dev.qweather.com/en/docs/best-practices/cache/
+  quote: You cannot cache or store all data provided in GeoAPI
+  checked_at: '2026-11-21'
+notes: Read the Help/FAQ and Cache best-practice pages (JS app, read via Playwright). The Developer License
+  Agreement itself (qweather.com/terms/developers-eula) rendered empty, so its detailed conditions, display
+  rights and whether the free tier is commercially usable were not verified; display/redistribution stays
+  unknown. FAQ says commercial use is allowed under that agreement.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

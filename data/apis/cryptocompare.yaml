@@ -1,0 +1,37 @@
+id: cryptocompare
+name: CryptoCompare
+url: https://www.cryptocompare.com/api
+category: Cryptocurrency
+description: Cryptocurrencies Comparison
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: CryptoCompare
+  url: https://www.cryptocompare.com/api#
+  category: Cryptocurrency
+- list: public-api-lists
+  name: CryptoCompare
+  url: https://www.cryptocompare.com/api#
+  category: Cryptocurrency
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: HTTP 401 (blocked for bots, assumed alive)
+api_terms_url: https://www.cryptocompare.com/terms-conditions/
+evidence: []
+notes: 'API moved under CoinDesk Data (developers.coindesk.com); min-api.cryptocompare.com now answers 401 "API key required" (auth corrected to apiKey). Only the website Terms of Use were read (clause
+  5.1: site/Content for personal non-commercial use; 7.3 copies only for personal use); they govern the Site, not the data API. CoinDesk Data API terms/licence (JS rendered, coindesk.com/terms returned
+  429) NOT read, so all terms unknown. Data is aggregated from exchanges (upstream terms may be stricter).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -1,0 +1,76 @@
+id: etsy
+name: Etsy
+url: https://www.etsy.com/developers/documentation/getting_started/api_basics
+category: Shopping
+description: Manage shop and interact with listings
+description_source: upstream
+auth: OAuth
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Etsy
+  url: https://www.etsy.com/developers/documentation/getting_started/api_basics
+  category: Shopping
+link_status: redirect
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: limited
+redistribution_display: 'no'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: -> https://developers.etsy.com/documentation/
+cache_limit: no longer than reasonably necessary; listing data at most 6 h stale
+attribution_text: The term 'Etsy' is a trademark of Etsy, Inc. This Application uses Etsy's API, but is
+  not endorsed or certified by Etsy.
+api_terms_url: https://www.etsy.com/legal/api
+evidence:
+- field: commercial_use
+  url: https://www.etsy.com/legal/api
+  quote: Etsy, in its sole discretion, may prohibit any commercial use of the Etsy API that it deems inappropriate
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.etsy.com/legal/api
+  quote: you will not cache or store it longer than is reasonably necessary to provide service to your
+    Application
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.etsy.com/legal/api
+  quote: You will not display listing content more than six (6) hours older than the corresponding information
+    on the Etsy Site or the Etsy Apps.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.etsy.com/legal/api
+  quote: Transfer or commercialize your access to the Etsy API, your API credentials, or Etsy Member content
+    or data to any third party
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.etsy.com/legal/api
+  quote: you must prominently display the following statement within your Application
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.etsy.com/legal/api
+  quote: Divert sales or migrate Etsy Members from Etsy, or drive traffic to external websites or services
+    unrelated to the Etsy platform
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.etsy.com/legal/api
+  quote: connect with any third-party advertising or marketing platform
+  checked_at: '2026-11-21'
+notes: 'Read the Etsy API Terms (etsy.com/legal/api, updated 5 Nov 2026) via Playwright (curl blocked;
+  one fresh context; developers.etsy.com is the redirect target of the old docs URL). API is built for
+  apps serving Etsy sellers (shop management, listings, orders): commercial apps are allowed but Etsy
+  may prohibit any commercial use it deems inappropriate, requests must be the minimum needed, third-party
+  advertising/marketing platform connections, scraping, ML/AI training and licensing of Etsy content are
+  forbidden. Data is members'' content (members own it). Not suited to a public catalog or affiliate site.
+  Verdict yellow due to caching/display limits and ambiguity.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'API terms bar driving traffic to external sites; Also bar connecting to third-party
+  advertising platforms and commercialising member data | applied: redistribution_display=no'

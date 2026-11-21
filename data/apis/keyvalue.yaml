@@ -1,0 +1,25 @@
+id: keyvalue
+name: Keyvalue
+url: https://keyvalue.immanuel.co/
+category: Development
+description: Simple key-value storage REST API for quick prototyping
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Keyvalue
+  url: https://keyvalue.immanuel.co/
+  category: Development
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

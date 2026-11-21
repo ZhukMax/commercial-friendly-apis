@@ -1,0 +1,65 @@
+id: calendarific
+name: Calendarific
+url: https://calendarific.com/
+category: Calendar
+description: Worldwide Holidays
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Calendarific
+  url: https://calendarific.com/
+  category: Calendar
+link_status: alive
+data_license: proprietary (Calendarific ToS; no redistribution or resale)
+commercial_use: 'yes'
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: high
+link_checked_at: '2026-11-21'
+data_license_url: https://calendarific.com/terms
+api_terms_url: https://calendarific.com/terms
+commercial_use_scope: any
+cache_limit: 30 calendar days, then delete or refresh
+attribution_text: Powered by Calendarific (in ToS, about page, or UI where data is shown)
+share_alike: unknown
+rate_limits: 'Free: 500 calls/month'
+notes: 'Read Calendarific Terms of Service & Customer Agreement (section 4) and pricing/FAQ. Commercial
+  use is allowed (FAQ); free plan 500 calls/month, attribution required on all plans. API subscribers
+  must not cache/store data for more than 30 days, must show a visible ''Powered by Calendarific'' credit,
+  must not resell, build a competing product, or scrape the data for use in another site/product, and
+  must not merge the data with third-party sources into derivative databases. Terms refer to third-party
+  data source licences (data comes from government and other sources: upstream terms may be stricter).
+  The Calendar Index redirect to this site is a separate entry.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+evidence:
+- field: commercial_use
+  url: https://calendarific.com/pricing
+  quote: Is Calendarific suitable for both personal and commercial use? Absolutely!
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://calendarific.com/terms
+  quote: You must not cache, store, or persist the Data returned from our API for more than thirty (30)
+    calendar days.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://calendarific.com/terms
+  quote: Reproduce Data returned from our API in your applications, provided you include a visible attribution
+    credit
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://calendarific.com/terms
+  quote: stating "Powered by Calendarific" (or substantially similar language)
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://calendarific.com/terms
+  quote: Redistribute, resell, sublicense, or make available the Data or the Services (wholly or in part)
+    to any third party
+  checked_at: '2026-11-21'

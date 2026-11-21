@@ -1,0 +1,36 @@
+id: cartola-fc
+name: Cartola FC
+url: https://github.com/wgenial/cartrolandofc
+category: Sports & Fitness
+description: The Cartola FC API serves to check the partial points of your team
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-api-lists
+  name: Cartola FC
+  url: https://github.com/wgenial/cartrolandofc
+  category: Sports & Fitness
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://github.com/giovanigenerali/cartrolandofc
+evidence: []
+notes: 'Not a data source in its own right: the repo (MIT licence, archived read-only on 2020-09-11, project
+  abandoned since 2018) is a website/PHP client that reads Globo''s unofficial Cartola FC endpoints. The
+  MIT licence covers the repo code only, not the data. Globo''s terms for Cartola FC were not read. Redirected
+  from wgenial/cartrolandofc to giovanigenerali/cartrolandofc. All terms unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

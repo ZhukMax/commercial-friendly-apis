@@ -1,0 +1,30 @@
+id: weather-hacks
+name: Weather Hacks
+url: http://weather.livedoor.com/weather_hacks/
+category: Weather
+description: Weather, for Japan
+description_source: upstream
+auth: none
+https: false
+cors: 'no'
+sources:
+- list: public-api-lists
+  name: Weather Hacks
+  url: http://weather.livedoor.com/weather_hacks/
+  category: Weather
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://www.livedoor.com/
+notes: weather.livedoor.com/weather_hacks/ and weather.livedoor.com/weather_hacks/webservice now redirect (301) to the livedoor.com portal top page, which has no mention of Weather Hacks, an API or terms.
+  No terms page could be read, so everything stays unknown; the service appears to be discontinued but that is not stated on any page read, so link_status stays redirect.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

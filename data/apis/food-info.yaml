@@ -1,0 +1,59 @@
+id: food-info
+name: Food Info
+url: https://food-info.org/developer
+category: Food & Drink
+description: Nutrition data for millions of foods from six national food composition datasets
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Food Info
+  url: https://food-info.org/developer
+  category: Food & Drink
+link_status: alive
+data_license: mixed upstream datasets (USDA FDC public domain, CoFID under OGL v3.0, others); API terms
+  not found
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://food-info.org/terms-conditions
+rate_limits: 'Free: 10/min, 100/day; Practitioner: 60/min, 10,000/day'
+evidence:
+- field: commercial_use
+  url: https://food-info.org/terms-conditions
+  quote: You may link to Food Info and reference data from it for personal, non-commercial use
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://food-info.org/developer
+  quote: 'Free to start: create an account, generate a key and you get 100 requests a day.'
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://food-info.org/developer
+  quote: Contains public sector information licensed under the Open Government Licence v3.0.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://food-info.org/terms-conditions
+  quote: The underlying USDA FoodData Central data is in the public domain and freely available from fdc.nal.usda.gov.
+  checked_at: '2026-11-21'
+notes: Read the Developer API page (https://food-info.org/developer; Cloudflare blocks curl, read with
+  Playwright) and the site Terms & Conditions (updated 2026-08-21). The Developer page has no licence/commercial
+  terms. The site T&C allow referencing site data only for 'personal, non-commercial use' and forbid mass
+  extraction 'for commercial redistribution'; it is unclear whether that governs the API, so commercial_use
+  is ambiguous and storage/display left unknown. The service aggregates USDA FoodData Central (public
+  domain), CoFID (OGL v3.0), Ciqual, Danish, AUSNUT and Open Food Facts data; upstream terms may be stricter
+  (e.g. Ciqual CC BY, OFF ODbL) and were not assessed per dataset.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Confirmed ambiguous/yellow, low confidence, leaning restrictive. Page 'Full attribution'
+  footer says only OGL v3 for public sector info. No API terms page exists (/api-terms returns only footer).
+  Paid plans only raise Developer API limits; no commercial-use grant.

@@ -1,0 +1,47 @@
+id: opencage
+name: OpenCage
+url: https://opencagedata.com
+category: Geocoding
+description: Forward and reverse geocoding using open data
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: OpenCage
+  url: https://opencagedata.com
+  category: Geocoding
+- list: public-api-lists
+  name: OpenCage
+  url: https://opencagedata.com
+  category: Geocoding
+link_status: alive
+data_license: unknown
+commercial_use: paid-only
+storage_caching: 'yes'
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://opencagedata.com/pricing
+commercial_use_scope: paid
+share_alike: unknown
+rate_limits: Free trial 2,500 requests/day, 1 request/sec (testing only); paid plans from EUR 45/mo (10,000/day)
+evidence:
+- field: commercial_use
+  url: https://opencagedata.com/pricing
+  quote: If you decide to use our service in production you should become a paying customer.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://opencagedata.com/pricing
+  quote: You can store the data returned by the API permanently.
+  checked_at: '2026-11-21'
+notes: Pricing FAQ says free trial is for testing only and production use needs a paid plan, so commercial use is paid-only. Pricing table lists "store data permanently" on all plans (free trial row marked
+  testing only). Underlying data is OpenStreetMap and others (ODbL share-alike may apply); data_license ODbL-1.0 taken from the "Data (c) OpenStreetMap contributors" caption only - OpenCage attribution/licence
+  guidance and ToS pages were not opened, so attribution, display and share-alike are unknown. Needs a follow-up read of the OpenCage terms and attribution pages.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

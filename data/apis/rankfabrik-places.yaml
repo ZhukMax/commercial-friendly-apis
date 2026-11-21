@@ -1,0 +1,32 @@
+id: rankfabrik-places
+name: RankFabrik Places
+url: https://rankfabrik.com/produits/etablissements
+category: Business
+description: Search businesses and points of interest by city, deduplicated with a coverage report
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: RankFabrik Places
+  url: https://rankfabrik.com/produits/etablissements
+  category: Business
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://rankfabrik.com/conditions
+notes: Read RankFabrik Terms (https://rankfabrik.com/conditions, 17 Aug 2026; French originals translated by the site into English) and the Places product page. The terms say the service collects publicly
+  accessible data on the client's request and that the client 'remains responsible for how it uses the data it collects'; they grant no explicit licence and say nothing on commercial use, storage, display
+  or attribution. Places data come from a third-party map feed (collected, not originated by RankFabrik), so the upstream platform's terms may be much stricter and were not read. Billing is per place returned.
+  All core fields unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

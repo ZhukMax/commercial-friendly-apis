@@ -1,0 +1,50 @@
+id: tickerz
+name: Tickerz
+url: https://tickerz.com/docs
+category: Open Data
+description: Daily indexes of real-world activity from public data, each reading timestamped in Bitcoin
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Tickerz
+  url: https://tickerz.com/docs
+  category: Open Data
+link_status: alive
+data_license: unknown
+commercial_use: 'no'
+storage_caching: unknown
+redistribution_display: 'no'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: high
+link_checked_at: '2026-11-21'
+api_terms_url: https://tickerz.com/terms
+commercial_use_scope: free-tier
+attribution_text: '"Tickerz unusual trading score" with a link to tickerz.com'
+rate_limits: 120 requests/minute per IP
+evidence:
+- field: commercial_use
+  url: https://tickerz.com/terms
+  quote: Commercial use, resale or redistribution of the data needs our written permission first.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://tickerz.com/terms
+  quote: Commercial use, resale or redistribution of the data needs our written permission first.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://tickerz.com/terms
+  quote: with attribution to Tickerz and a link to tickerz.com
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://tickerz.com/docs
+  quote: Rate limit 120 requests per minute per IP
+  checked_at: '2026-11-21'
+notes: 'Terms section 04: free for personal and non-commercial use; commercial use/redistribution needs written permission (desk@tickerz.com), so red unless a separate licence is obtained. Prices/volumes
+  from third-party vendors are not passed through the API. Docs page says no key needed.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

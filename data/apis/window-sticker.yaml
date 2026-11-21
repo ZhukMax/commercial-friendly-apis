@@ -1,0 +1,71 @@
+id: window-sticker
+name: Window Sticker
+url: https://windowsticker.org/api-docs
+category: Vehicle
+description: Original factory Monroney label PDF and full spec decode by VIN
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: Window Sticker
+  url: https://windowsticker.org/api-docs
+  category: Vehicle
+link_status: alive
+data_license: unknown
+commercial_use: 'yes'
+storage_caching: ambiguous
+redistribution_display: ambiguous
+attribution_required: 'no'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://windowsticker.org/terms
+commercial_use_scope: any
+rate_limits: '10 requests per 10 seconds per IP under /api/; daily limits: free 100, Options 300, Pro
+  5,000 from 2026-12-02'
+share_alike: unknown
+evidence:
+- field: commercial_use
+  url: https://windowsticker.org/terms
+  quote: Use it for anything lawful
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://windowsticker.org/terms
+  quote: You may store the parsed fields, keep them as long as you like, and use them inside your own
+    product.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://windowsticker.org/terms
+  quote: no working through lists of VINs, and no scraping result pages for labels
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://windowsticker.org/terms
+  quote: You may show your own customers the results you build from them, and the individual lines for
+    the car in front of them.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://windowsticker.org/terms
+  quote: If you build something on the API, a link back to windowsticker.org is appreciated.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://windowsticker.org/terms
+  quote: Each IP address gets 10 requests every 10 seconds under /api/
+  checked_at: '2026-11-21'
+notes: 'Short terms: use for anything lawful; no warranty. PDFs (manufacturers'' labels): no bulk-harvesting,
+  no reselling, no paywall/signup wall; attribution link appreciated but not required. Storing/showing
+  rights are spelled out only for the paid parsed fields (Options/Pro plans; not resell/relicense as dataset
+  or API); rights for the free label PDFs and decoded spec are not stated beyond the restrictions, so
+  storage and display = ambiguous. Toyota/Lexus/Nissan/Infiniti labels come via a third-party dealer-website
+  platform or are Nissan "Unofficial Copy" docs; manufacturers hold the underlying copyright. Key becomes
+  mandatory 2026-12-02. Data licence not stated on a page read; characterised as: proprietary / manufacturer
+  documents (labels are manufacturers'' own PDFs; decoded spec is NHTSA vPIC).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read via Playwright. Display/storage of free label PDFs unstated; manufacturer copyright.
+  Yellow stands.

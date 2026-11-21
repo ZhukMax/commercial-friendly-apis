@@ -1,0 +1,70 @@
+id: bclaws
+name: BCLaws
+url: https://www.bclaws.gov.bc.ca/civix/template/complete/api/index.html
+category: Government
+description: Access to the laws of British Columbia
+description_source: upstream
+auth: none
+https: false
+cors: unknown
+sources:
+- list: public-apis
+  name: BCLaws
+  url: https://www.bclaws.gov.bc.ca/civix/template/complete/api/index.html
+  category: Government
+- list: public-api-lists
+  name: BCLaws
+  url: http://www.bclaws.ca/civix/template/complete/api/index.html
+  category: Government
+link_status: alive
+data_license: King's Printer Licence - British Columbia
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://www.bclaws.gov.bc.ca/standards/Licence.html
+api_terms_url: https://www.bclaws.gov.bc.ca/standards/Licence.html
+commercial_use_scope: any
+attribution_text: 'Prominently display the licence statement: ''These materials contain information that
+  has been derived from information originally made available by the Province of British Columbia ...
+  NOT AN OFFICIAL VERSION'''
+evidence:
+- field: commercial_use
+  url: https://www.bclaws.gov.bc.ca/standards/Licence.html
+  quote: You may do any of the following for any lawful commercial or non-commercial purpose
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.bclaws.gov.bc.ca/standards/Licence.html
+  quote: use, copy, publish and distribute the Information by any means, in whole or in part
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.bclaws.gov.bc.ca/standards/Licence.html
+  quote: use, copy, publish and distribute the Information by any means, in whole or in part
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.bclaws.gov.bc.ca/standards/Licence.html
+  quote: prominently display the following statement
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.bclaws.gov.bc.ca/civix/template/complete/api/index.html
+  quote: The CiviX Server API is made available for use under the permissive King’s Printer Licence
+  checked_at: '2026-11-21'
+notes: API page states the CiviX Server API is available under the King's Printer Licence (BC Laws content)
+  or the Local Government Bylaw Licence (e.g. City of Abbotsford bylaws, not read); this entry assesses
+  the King's Printer Licence content only. Licence requires a prominent attribution statement stating
+  the materials are not an official version, no endorsement claims, and due diligence on accuracy. Excludes
+  personal information and third-party rights. The API documentation page is plain http in the upstream
+  list but now serves from https://www.bclaws.gov.bc.ca/.  Merged duplicate entry `bclaws-bclaws`.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: green
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Mandatory statement (not an official version, no endorsement). Licence ends automatically
+  if conditions broken. Local-government bylaw content is under a different licence (not assessed).
+aliases:
+- bclaws-bclaws

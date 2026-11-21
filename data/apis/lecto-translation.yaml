@@ -1,0 +1,25 @@
+id: lecto-translation
+name: Lecto Translation
+url: https://rapidapi.com/lecto-lecto-default/api/lecto-translation/
+category: Text Analysis
+description: Translation API with free tier and reasonable prices
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Lecto Translation
+  url: https://rapidapi.com/lecto-lecto-default/api/lecto-translation/
+  category: Text Analysis
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

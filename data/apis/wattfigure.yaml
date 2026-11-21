@@ -1,0 +1,49 @@
+id: wattfigure
+name: WattFigure
+url: https://api.wattfigure.com/
+category: Environment
+description: US electricity rates by state, with appliance and EV charging running costs
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: WattFigure
+  url: https://api.wattfigure.com/
+  category: Environment
+- list: public-api-lists
+  name: WattFigure
+  url: https://api.wattfigure.com/
+  category: Environment
+link_status: alive
+data_license: Source data public domain (EIA, EPA/DOE); catalog and derived figures are the operator own work with no licence stated
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: 'no'
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://api.wattfigure.com/
+rate_limits: 'Free: no key, lists capped at 25 rows, fair-use rate limiting'
+evidence:
+- field: data_license
+  url: https://api.wattfigure.com/
+  quote: Both are U.S. government works and carry no licence restrictions.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://api.wattfigure.com/
+  quote: The appliance usage catalog, the derived figures and this API are the operator's own work; attribution is appreciated.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://api.wattfigure.com/
+  quote: Fair-use rate limiting applies.
+  checked_at: '2026-11-21'
+notes: Only the API landing page was read (no separate terms page; /terms and /license return 404). Underlying electricity prices (EIA) and vehicle data (EPA/DOE) are stated as public domain, but the API
+  output, appliance catalog and derived figures are "the operator own work" with no explicit licence or commercial-use grant, so commercial_use, storage and display stay unknown. Attribution only appreciated.
+  Bulk dumps need a Pro key.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -1,0 +1,70 @@
+id: botlero
+name: Botlero
+url: https://botlero.com/api/robots
+category: Science & Math
+description: Sourced, quoted specs for humanoid robots
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Botlero
+  url: https://botlero.com/api/robots
+  category: Science & Math
+link_status: alive
+data_license: proprietary editorial compilation (attribution required); underlying facts and quoted source
+  text belong to their sources (mixed, incl. CC BY 4.0 directories)
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+commercial_use_scope: any
+data_license_url: https://botlero.com/terms
+api_terms_url: https://botlero.com/terms
+attribution_text: Botlero (botlero.com) with a working link to the specific page used
+rate_limits: No published rate limit (courtesy, not a commitment)
+notes: 'Terms of use and About page read. Terms permit republishing, redistributing or building on Botlero''s
+  own work with named credit and a working link (same for the JSON endpoint) and ask users to cache what
+  they fetch; commercial use is not mentioned or restricted, so yes is inferred from the open reuse grant.
+  Aggregator: each value cites third-party sources (vendors, directories, CVE/NVD, RoboZaps with its own
+  required attribution), and quoted sentences stay the property of their publishers, so redistribution
+  of the source quotes is ambiguous and upstream terms may be stricter. Bulk republishing with sources/quotes
+  stripped is discouraged.'
+evidence:
+- field: data_license
+  url: https://botlero.com/terms
+  quote: Botlero does not own the facts about a robot
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://botlero.com/terms
+  quote: If you republish, redistribute or build on Botlero's own editorial text
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://botlero.com/terms
+  quote: please cache what you fetch and request at a rate a person could plausibly produce
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://botlero.com/terms
+  quote: The text of that sentence remains the property of whoever published it, and it is quoted here
+    under attribution rather than claimed.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://botlero.com/terms
+  quote: you must credit Botlero by name with a working link back to the specific page you used
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://botlero.com/terms
+  quote: It needs no key and has no published rate limit, which is a courtesy rather than a commitment
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read /terms. No NC restriction; commercial yes is an inference from the open reuse
+  grant. Display of third-party quoted sentences ambiguous, so yellow either way.

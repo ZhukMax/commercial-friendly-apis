@@ -1,0 +1,80 @@
+id: world-bank
+name: World Bank
+url: https://datahelpdesk.worldbank.org/knowledgebase/topics/125589
+category: Science & Math
+description: World Data
+description_source: upstream
+auth: none
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: World Bank
+  url: https://datahelpdesk.worldbank.org/knowledgebase/topics/125589
+  category: Science & Math
+- list: public-api-lists
+  name: World Bank
+  url: https://datahelpdesk.worldbank.org/knowledgebase/topics/125589
+  category: Science & Math
+link_status: alive
+data_license: CC-BY-4.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://datacatalog.worldbank.org/public-licenses
+api_terms_url: https://www.worldbank.org/en/about/legal/terms-of-use-for-datasets
+commercial_use_scope: any
+attribution_text: Appropriate credit to The World Bank Group, link to license, indicate changes
+share_alike: 'no'
+rate_limits: not verified (no limit read on pages fetched)
+notes: CC-BY 4.0 is the default for datasets produced by the World Bank; many datasets (esp. third-party
+  sourced indicators) have other licenses labelled in the Data Catalog, so check per indicator. CC-BY
+  4.0 comes with additional mandatory terms (mediation/dispute clause). The general site Terms and Conditions
+  limit the SITE materials to non-commercial use and refer to dataset terms for datasets, so use the dataset
+  license, not site terms. The "terms-of-use-for-datasets" URL redirects to terms-conditions; the license
+  page is the Data Catalog public-licenses page. API-specific terms (datahelpdesk) and rate limits not
+  checked. bulk_download left unknown (not verified).
+evidence:
+- field: data_license
+  url: https://datacatalog.worldbank.org/public-licenses
+  quote: licenses datasets under the Creative Commons Attribution 4.0 International license (CC-BY 4.0).
+    Many datasets are available under other licenses.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://datacatalog.worldbank.org/public-licenses
+  quote: allows users to copy, modify and distribute data in any format for any purpose, including commercial
+    use.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://datacatalog.worldbank.org/public-licenses
+  quote: Users are only obligated to give appropriate credit (attribution) and indicate if they have made
+    any changes, including translations.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://datacatalog.worldbank.org/public-licenses
+  quote: allows users to copy, modify and distribute data in any format for any purpose, including commercial
+    use.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://datacatalog.worldbank.org/public-licenses
+  quote: allows users to copy, modify and distribute data in any format for any purpose, including commercial
+    use.
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://datacatalog.worldbank.org/public-licenses
+  quote: allows users to copy, modify and distribute data in any format for any purpose, including commercial
+    use.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Site T&C say Materials are non-commercial except Datasets (which have own terms).
+  API serves many sources; some datasets carry other licences (ODbL, external, microdata): check per indicator.
+  Mandatory mediation/arbitration clause.'

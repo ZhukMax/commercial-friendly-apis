@@ -1,0 +1,26 @@
+id: the-dog
+name: The Dog
+url: https://thedogapi.com/
+category: Animals
+description: A public service all about Dogs, free to use when making your fancy new App, Website or Service
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: The Dog
+  url: https://thedogapi.com/
+  category: Animals
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://www.thedogapi.com/en

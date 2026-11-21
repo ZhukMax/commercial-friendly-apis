@@ -1,0 +1,60 @@
+id: longdo-map
+name: Longdo Map
+url: https://map.longdo.com/docs/
+category: Geocoding
+description: Interactive map with detailed places and information portal in Thailand
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Longdo Map
+  url: https://map.longdo.com/docs/
+  category: Geocoding
+link_status: alive
+data_license: proprietary (Metamedia Technology plus third-party content)
+commercial_use: 'yes'
+storage_caching: 'no'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://map.longdo.com/api/terms
+commercial_use_scope: free-tier
+attribution_text: Keep the Longdo/partner logos, links and notices on map images unaltered
+rate_limits: 'Free threshold: 100,000 web-service requests/month (max 60/min); 800,000 map tiles/month'
+evidence:
+- field: data_license
+  url: https://map.longdo.com/api/terms
+  quote: MM shall have sole and complete control over the map data and format.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://map.longdo.com/api/terms
+  quote: The API can be used free of charge for your services that are accessible to consumers, freely or restricted, with or without charge
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://map.longdo.com/api/terms
+  quote: You may not, nor may you allow others to, copy, distribute, display, alter, or otherwise use the Content except as it is provided to you
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://map.longdo.com/api/terms
+  quote: You may use the API to display the Content in conjunction with other information You provide to end users.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://map.longdo.com/api/terms
+  quote: You agree to maintain, and not to remove, modify, obscure or alter, any link or notices appearing on any map image provided through the Service.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://map.longdo.com/api/terms
+  quote: 'Map images tiles queries: 800,000 tiles per month'
+  checked_at: '2026-11-21'
+notes: Read the Longdo Map API Terms of Use (map.longdo.com/api/terms) and the general Longdo Map Terms (map.longdo.com/terms). The API terms allow free use for consumer-facing services, paid or unpaid,
+  within a monthly free threshold; beyond it a commercial subscription is needed or data stops. Content may only be displayed to end users in the same form and appearance as provided and may not be copied
+  or otherwise used, which I read as no storing or reuse (storage_caching no). Logos/notices on map images must stay and the Longdo logo may not be the largest or most prominent element. The general site
+  terms (personal/non-commercial or internal business use only) apply to the Longdo Map website, not the API. Terms are broad and partly vague, so medium.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

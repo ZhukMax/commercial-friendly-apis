@@ -1,0 +1,273 @@
+[
+ {
+  "id": "polygon",
+  "outcome": "confirmed",
+  "reasons": [
+   "Business ToS re-read: display in own sites allowed but redistribution and exchange terms apply; paid-only stands."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read massive.com business and individual ToS (Playwright): personal plans non-commercial; business ToS bars redistribution/dissemination and binds to Third-Party Agreements. Same service as the sibling entry (polygon/polygon-io); consider merging."
+ },
+ {
+  "id": "polygon-io",
+  "outcome": "confirmed",
+  "reasons": [
+   "Business ToS re-read: display in own sites allowed but redistribution and exchange terms apply; paid-only stands."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read massive.com business and individual ToS (Playwright): personal plans non-commercial; business ToS bars redistribution/dissemination and binds to Third-Party Agreements. Same service as the sibling entry (polygon/polygon-io); consider merging."
+ },
+ {
+  "id": "postcodes-io",
+  "outcome": "confirmed",
+  "reasons": [
+   "Licences page re-read: GB under OS OpenData, NI commercial needs licence; ambiguity stands."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "No hosted-API terms or rate limits on the docs pages; OS OpenData licence is commercial-friendly with Crown copyright notice, so only NI (BT) postcodes block a UK-wide commercial site."
+ },
+ {
+  "id": "pourwire",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToS bars republishing the feed; GitHub README separately says data CC BY 4.0 and describes the free public JSON API."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Evidence leans: free no-key API described in README as CC BY 4.0 (credit PourWire); ToS binds trial/subscription users of the paid feed. A public ad-supported site republishing lists is only safe under the README licence; no LICENSE file. Ambiguity not resolved by the owner."
+ },
+ {
+  "id": "productguru",
+  "outcome": "confirmed",
+  "reasons": [
+   "Datasets page states CC BY 4.0 for recall/barcode extracts, while ToS bars systematic mirroring; ambiguity stands."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Datasets page (myproduct.guru/datasets): recall data 'Licence CC BY 4.0 - use it for anything, cite the source' leans commercial-ok for those extracts; barcode/product DB and OFF ODbL parts remain conditional."
+ },
+ {
+  "id": "pumperly",
+  "outcome": "confirmed",
+  "reasons": [
+   "Re-read sources page and API docs: no ToS for pumperly.com; upstream mix includes non-commercial (Mapa REVE), CC BY-SA (Cyprus), scraped community sources."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Evidence points toward 'cannot rely on hosted API'; self-host only with per-source licence review. unknown would also be defensible."
+ },
+ {
+  "id": "purple-air",
+  "outcome": "confirmed",
+  "reasons": [
+   "License page re-read: distribution to end users allowed one-level-removed, no resale; ToS s.4 internal non-commercial wording conflicts."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "PurpleAir license page: a viewer of a map or app user is allowed, but public ad-supported display not explicit; licensing enquiry invited. Ambiguity stands."
+ },
+ {
+  "id": "pvgis",
+  "outcome": "confirmed",
+  "reasons": [
+   "API page states no licence of its own; only EC legal notice CC BY 4.0 for website content."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Not re-fetched beyond first-pass evidence; upstream radiation datasets (CM SAF, ERA5) not covered. Ambiguity stands."
+ },
+ {
+  "id": "quandl",
+  "outcome": "confirmed",
+  "reasons": [
+   "Nasdaq Data Link terms: internal business use only unless Service Order says otherwise; no dissemination."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Red verdict consistent with the quoted terms."
+ },
+ {
+  "id": "quran-api",
+  "outcome": "confirmed",
+  "reasons": [
+   "Unlicense covers repo only; 440+ third-party translations have unstated copyright."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Served via jsDelivr; unresolved translator rights keep ambiguity."
+ },
+ {
+  "id": "quran-cloud",
+  "outcome": "confirmed",
+  "reasons": [
+   "T&C re-read via Playwright: Arabic text free to use, store, show; translations/recitations stay copyrighted."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Commercial use is fine for Arabic text; edition-dependent for translations. Per edition licences on Credits page not read."
+ },
+ {
+  "id": "racion",
+  "outcome": "disputed",
+  "reasons": [
+   "ToS (which the developer page defers to) forbids publishing recipe texts/photos on other sites, in apps, ads or paid products; developer page says show a link, not a retelling."
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://racion.app/terms",
+    "quote": "публиковать наши тексты и фото на других сайтах, в приложениях и книгах, использовать их в рекламе или платных продуктах",
+    "field": "redistribution_display"
+   },
+   {
+    "url": "https://racion.app/developers",
+    "quote": "Показывайте ссылку, а не пересказ списка.",
+    "field": "redistribution_display"
+   }
+  ],
+  "suggested": {
+   "redistribution_display": "no"
+  },
+  "note": "Developer page 'Делать продукт поверх API можно' is qualified by 'Подробности в разделе о правах: Условия использования', and ToS s.4 is stricter, so display of recipe content on an ad-supported site is not permitted without written permission."
+ },
+ {
+  "id": "readark",
+  "outcome": "confirmed",
+  "reasons": [
+   "Developers page says free to use with credit and cache; commercial use not addressed; no formal terms."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Covers belong to publishers; adult catalogue. Only /developers page exists as terms."
+ },
+ {
+  "id": "recreation-information-database",
+  "outcome": "confirmed",
+  "reasons": [
+   "Access agreement re-checked: silent on commercial use/caching; content is US Government data; content restrictions only."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Low confidence retained; US gov data presumably public domain but not stated."
+ },
+ {
+  "id": "registerwire",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToS allows displaying notifications in own product to own end users; bars resale/redistribution of stream; upstream OGL."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Upstream Companies House data under OGL (commercial reuse with attribution). Paid service; evidence leans yes for display within own product but not public redistribution."
+ },
+ {
+  "id": "represent-by-open-north",
+  "outcome": "confirmed",
+  "reasons": [
+   "No terms or licence page found; per-boundary source licences vary; redistribution caveat quoted by first pass."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Home page markets use for campaigns and 'map your potential voters' but states no licence; unknown stands."
+ },
+ {
+  "id": "rundossier",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToS: professional meeting-prep only, users own dossiers, no resale/scraping; publishing about named people unaddressed."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Paid per-credit service; AI syntheses of third-party sources about individuals; privacy-law exposure for public display."
+ },
+ {
+  "id": "rxnorm",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToS re-read: free of charge, no licence needed except RxClass (SNOMED CT); attribution statement requested; caching recommended."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Sound for RxNorm/RxTerms; RxClass blocked by SNOMED affiliate licence. Storage rule absent, so ambiguous stays."
+ },
+ {
+  "id": "sabre-for-developers",
+  "outcome": "disputed",
+  "reasons": [
+   "Developer Hub licence is for test/certification only and explicitly excludes resale or commercial use; content may not be transferred for use in any commercial enterprise."
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://developer.sabre.com/terms-and-conditions",
+    "quote": "this license does not include license for any resale or commercial use of the Sabre Developer Hub site, its contents or applications developed by you",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "no"
+  },
+  "note": "Free hub scope: commercial use not licensed. Production needs separate non-public Sabre customer agreements, so suggest commercial_use=no (free-tier)."
+ },
+ {
+  "id": "sanctions-screening",
+  "outcome": "confirmed",
+  "reasons": [
+   "Upstream lists open ('All sources are free and commercially usable') but service ToS bars unauthorized commercial purposes undefined."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "ToS dated 2026-11-21 re-read; short, vague. Ambiguity stands."
+ },
+ {
+  "id": "security-startups",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms page covers listings only; only stats charts CC BY 4.0; catalogue licence not stated."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read via Playwright: terms say content 'as-is for discovery'; no reuse grant for the catalogue."
+ },
+ {
+  "id": "seed-oil-tracker",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms re-read: chain-level files CC BY 4.0; bulk copying of API responses and competing databases forbidden."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Terms (updated 2026-11-05) give no explicit commercial grant for API data; quoting with attribution allowed."
+ },
+ {
+  "id": "segmara",
+  "outcome": "confirmed",
+  "reasons": [
+   "Syndicate page and feed JSON both say 'Free to cite with attribution and a link'; feeds are research only."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Feed 'license' field confirmed in ipo-calendar.json and ipos-this-week.json. Commercial/ad use unaddressed; upstream filing sources not checked."
+ },
+ {
+  "id": "seiche",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms (draft pending legal review) grant no data rights; upstream redistribution terms remain; responses carry rights caveats."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Developers page: 'upstream data keeps its own redistribution terms'; terms permit quotation/indexing with attribution only. unknown stands."
+ },
+ {
+  "id": "semantic-scholar",
+  "outcome": "confirmed",
+  "reasons": [
+   "API licence re-read: S2 Data separately governed by licences such as CC BY-NC or ODC-BY; third-party content terms apply."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Commercial use depends on dataset; some S2 data is NC, so ambiguous is the cautious reading."
+ }
+]

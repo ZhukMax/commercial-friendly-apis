@@ -1,0 +1,26 @@
+id: bob-s-burgers
+name: Bob's Burgers
+url: https://bobs-burgers-api-ui.herokuapp.com
+category: Video
+description: Bob's Burgers API
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Bob's Burgers
+  url: https://bobs-burgers-api-ui.herokuapp.com
+  category: Video
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: HTTP 503

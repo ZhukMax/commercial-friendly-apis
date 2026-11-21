@@ -1,0 +1,62 @@
+id: futures-clock
+name: Futures Clock
+url: https://futuresclock.com/en/data-methodology/
+category: Finance
+description: Trading hours and session windows for 65 futures products on 16 global exchanges
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Futures Clock
+  url: https://futuresclock.com/en/data-methodology/#open-data
+  category: Finance
+link_status: alive
+data_license: FuturesClock Open Data Compilation License (attribution; covers compilation only)
+commercial_use: 'yes'
+storage_caching: unknown
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+data_license_url: https://futuresclock.com/data/license.txt
+api_terms_url: https://futuresclock.com/en/data/
+attribution_text: Factual attribution to futuresclock.com (rel="nofollow" allowed)
+evidence:
+- field: attribution_required
+  url: https://futuresclock.com/data/license.txt
+  quote: Publishers must provide factual attribution to futuresclock.com when reusing this compilation.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://futuresclock.com/data/license.txt
+  quote: This license covers only FuturesClock's original compilation, arrangement, schema, formatting,
+    and documentation.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://futuresclock.com/data/license.txt
+  quote: It does not transfer or assert ownership of exchange facts, contract specifications, schedules,
+    expiry dates, or source materials published by exchanges or other source owners.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://futuresclock.com/en/data/
+  quote: You may reuse the data, including commercially, under the Futures Clock compilation license with
+    attribution to futuresclock.com.
+  checked_at: '2026-11-21'
+notes: Read the data methodology page, the open-data page (links the licence) and the licence text. The
+  custom licence covers only the compilation/schema and expressly does not cover exchange facts, specs,
+  schedules or source materials, which belong to the exchanges (upstream terms may be stricter and were
+  not checked). It requires attribution but does not say in plain words whether commercial use, storage
+  or redistribution are allowed, so those stay unknown/ambiguous. The methodology page says rights state
+  is "Approved for public reference" (not a licence to redistribute). Free JSON/CSV downloads, no key,
+  CORS enabled.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'The open-data page states commercial reuse is permitted with attribution - first pass
+  left commercial_use unknown; Licence still excludes exchange facts, which stay with exchanges (upstream
+  unchecked) | applied: commercial_use=yes, redistribution_display=yes, attribution_required=yes'

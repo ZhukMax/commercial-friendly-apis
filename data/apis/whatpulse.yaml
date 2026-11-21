@@ -1,0 +1,26 @@
+id: whatpulse
+name: WhatPulse
+url: https://developer.whatpulse.org/
+category: Tracking
+description: Small application that measures your keyboard/mouse usage
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: WhatPulse
+  url: https://developer.whatpulse.org/#web-api
+  category: Tracking
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://whatpulse.org/help/api/intro

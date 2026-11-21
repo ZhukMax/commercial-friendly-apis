@@ -1,0 +1,30 @@
+id: open-government-indonesia
+name: Open Government, Indonesia
+url: https://data.go.id/
+category: Government
+description: Indonesian Government Open Data
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Open Government, Indonesia
+  url: https://data.go.id/
+  category: Government
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+evidence: []
+notes: Read data.go.id home, /about and a dataset page (Portal Satu Data Indonesia, run by Bappenas). None states a licence, terms of use, or API terms; /api, /terms, /docs paths return 404. Left unknown.
+  Datasets come from many agencies and may carry individual conditions. Upstream auth 'none' not verified.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -1,0 +1,47 @@
+id: block-lottos
+name: Block Lottos
+url: https://blocklottos.com/openapi.json
+category: Cryptocurrency
+description: On-chain lottery, draw history, jackpot and advertising endpoints
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Block Lottos
+  url: https://blocklottos.com/openapi.json
+  category: Cryptocurrency
+- list: public-api-lists
+  name: Block Lottos
+  url: https://blocklottos.com/openapi.json
+  category: Cryptocurrency
+link_status: alive
+data_license: unknown (OpenAPI info.license is only labelled 'Public', pointing to the Terms of Use)
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://blocklottos.com/terms
+data_license_url: https://blocklottos.com/terms
+evidence:
+- field: data_license
+  url: https://blocklottos.com/openapi.json
+  quote: '"license": { "name": "Public", "url": "https://blocklottos.com/terms" }'
+  checked_at: '2026-11-21'
+notes: 'Not primarily a data source: crypto lottery (gambling) platform with jackpot/draw-history endpoints
+  plus ad, affiliate and agent ticket-purchase endpoints. Pages read: openapi.json, /terms (Terms of Use,
+  Sept 2026), /llms.txt. The Terms of Use cover lottery play, ticket purchases, smart-contract risk and
+  advertising; they say nothing about API data use, commercial use, caching, display or attribution. The
+  OpenAPI ''license: Public'' label links to those terms but defines no rights, so all terms unknown.
+  Gambling-related data: also note legal restrictions on promoting lotteries in many jurisdictions.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

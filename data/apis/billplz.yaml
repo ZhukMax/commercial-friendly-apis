@@ -1,0 +1,39 @@
+id: billplz
+name: Billplz
+url: https://www.billplz.com/api
+category: Finance
+description: Payment platform
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Billplz
+  url: https://www.billplz.com/api
+  category: Finance
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://support.billplz.com/api (terms at https://main.billplz.com/terms)
+api_terms_url: https://main.billplz.com/terms
+share_alike: unknown
+evidence: []
+notes: Read the Billplz User Agreement (main.billplz.com/terms). Billplz is a Malaysian payment platform;
+  the API operates on your own merchant account (bills, collections), not a public dataset, so licence/caching/display/attribution
+  questions are not addressed. The agreement forbids using the application for a revenue-generating enterprise
+  "for which it was not designed" and building competing services, and restricts Merchant Data use; nothing
+  clear for our scenario. All unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

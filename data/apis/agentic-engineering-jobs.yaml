@@ -1,0 +1,31 @@
+id: agentic-engineering-jobs
+name: Agentic Engineering Jobs
+url: https://agentic-engineering-jobs.com/api-reference
+category: Jobs
+description: Job board for engineers building agentic systems (LangChain, LlamaIndex, CrewAI)
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: Agentic Engineering Jobs
+  url: https://agentic-engineering-jobs.com/api-reference
+  category: Jobs
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: Vercel DEPLOYMENT_NOT_FOUND (HTTP 404) on /, /api-reference and /terms, checked 2026-11-21
+evidence: []
+notes: 'The site returns the Vercel error DEPLOYMENT_NOT_FOUND on the root, /api-reference and /terms (curl, 2026-11-21): the deployment is gone, so the service appears shut down. No terms could be read;
+  all left unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

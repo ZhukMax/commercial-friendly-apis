@@ -1,0 +1,66 @@
+id: africa-compliance-data
+name: Africa Compliance Data
+url: https://africacompliancedata.com/docs
+category: Calendar
+description: Public holidays and business days for African countries, with sources and per-country coverage
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Africa Compliance Data
+  url: https://africacompliancedata.com/docs
+  category: Calendar
+link_status: alive
+data_license: proprietary (service terms licence; no resale of the dataset)
+commercial_use: paid-only
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: 'no'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: high
+link_checked_at: '2026-11-21'
+data_license_url: https://africacompliancedata.com/terms
+api_terms_url: https://africacompliancedata.com/terms
+commercial_use_scope: paid
+cache_limit: only while the licence lasts; purge after it ends
+attribution_text: 'Free plan and keyless .ics feeds: credit "Africa Compliance Data" with a link to africacompliancedata.com'
+rate_limits: Free 3,000 req/month, 30/min; Developer 50,000/month, 60/min
+share_alike: unknown
+notes: 'Read the service Terms (v2.2, Ingot Supply LLC) and docs. Licence is proprietary: use inside your
+  own products and show results to your own users, cache for the life of the licence, but no resale/republishing
+  of the dataset as data. Free plan is non-commercial (3,000 req/month); commercial use needs a paid plan
+  (Developer $19/month) EXCEPT the keyless public-holiday .ics feeds (/calendar/{country}.ics), which
+  anyone may use commercially for free with credit ''Africa Compliance Data'' (no republishing of the
+  feeds as a dataset). Paid plans need no credit; Free plan needs credit with link. Data is compiled from
+  official sources with confidence labels; upstream sources not assessed (holidays incl. moon-sighted/estimated
+  dates).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+evidence:
+- field: commercial_use
+  url: https://africacompliancedata.com/terms
+  quote: The Free plan is for testing, learning and personal, non-commercial use; commercial use needs
+    a paid plan
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://africacompliancedata.com/terms
+  quote: Cache and store the answers you retrieve, to make your product faster and more reliable, for
+    as long as your licence lasts.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://africacompliancedata.com/terms
+  quote: show the results to your own users as part of what your product does
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://africacompliancedata.com/terms
+  quote: On paid plans, no credit to us is required when you show values inside your product
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://africacompliancedata.com/terms
+  quote: 'In short: you get a licence to use our data inside your own work and products, not to resell
+    the dataset.'
+  checked_at: '2026-11-21'

@@ -1,0 +1,30 @@
+id: hyperliquid-market-data
+name: Hyperliquid Market Data
+url: https://rapidapi.com/theliminalguy/api/hyperliquid-market-data-oi-funding-open-interest
+category: Cryptocurrency
+description: Hyperliquid open interest, funding and cross-venue predicted rates per coin
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Hyperliquid Market Data
+  url: https://rapidapi.com/theliminalguy/api/hyperliquid-market-data-oi-funding-open-interest
+  category: Cryptocurrency
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+notes: 'RapidAPI listing URL now returns "API not found" (page text: Page Not Found / API not found) in
+  the browser, so the listing appears removed; no terms read. RapidAPI/provider terms not found. All terms
+  fields unknown. Data originates from the public Hyperliquid API (upstream terms not checked).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

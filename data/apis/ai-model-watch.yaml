@@ -1,0 +1,26 @@
+id: ai-model-watch
+name: AI Model Watch
+url: https://aimodelwatch.dev/api
+category: Machine Learning
+description: Daily-updated prices, context windows & deprecation/EOL dates for 190+ AI/LLM models, sourced
+  from official provider docs
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: AI Model Watch
+  url: https://aimodelwatch.dev/api
+  category: Machine Learning
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

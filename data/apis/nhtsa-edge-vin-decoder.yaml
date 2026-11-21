@@ -1,0 +1,57 @@
+id: nhtsa-edge-vin-decoder
+name: NHTSA Edge VIN Decoder
+url: https://data.ai-kit.net
+category: Vehicle
+description: Decode US VINs offline from the NHTSA vPIC dataset, served from edge locations
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: NHTSA Edge VIN Decoder
+  url: https://data.ai-kit.net
+  category: Vehicle
+link_status: alive
+data_license: public-domain (US government work, per operator README); code MIT
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://github.com/AIKitLLC/nhtsa-edge-api
+api_terms_url: https://github.com/AIKitLLC/nhtsa-edge-api
+commercial_use_scope: any
+evidence:
+- field: commercial_use
+  url: https://github.com/AIKitLLC/nhtsa-edge-api
+  quote: vPIC data is a work of the U.S. Government, in the public domain (17 U.S.C. § 105).
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://github.com/AIKitLLC/nhtsa-edge-api
+  quote: vPIC data is a work of the U.S. Government, in the public domain (17 U.S.C. § 105).
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://github.com/AIKitLLC/nhtsa-edge-api
+  quote: vPIC data is a work of the U.S. Government, in the public domain (17 U.S.C. § 105).
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://github.com/AIKitLLC/nhtsa-edge-api
+  quote: vPIC data is a work of the U.S. Government, in the public domain (17 U.S.C. § 105).
+  checked_at: '2026-11-21'
+notes: 'Independent third-party edge mirror of NHTSA vPIC (not affiliated with NHTSA). Only the operator''s
+  own README (Legal section) was found: vPIC data is a US Government work in the public domain; the code
+  is MIT. No ToS or SLA page; the root URL returns only a JSON status document. NHTSA''s own vPIC terms
+  were not read. Attribution not addressed (unknown). The /unified endpoint also merges US EPA and EU
+  RDW data, and a leaked-password lookup endpoint (Pwned Passwords) is unrelated to vehicle data; their
+  terms were not checked. Free service run by a small company: continuity risk.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Third-party mirror, no ToS/SLA, small operator (continuity risk); service root still
+  returns healthy JSON. Prefer the NHTSA original. Extra endpoints (EPA, RDW, Pwned Passwords) not covered.

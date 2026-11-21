@@ -1,0 +1,45 @@
+id: nasa-power
+name: NASA POWER
+url: https://power.larc.nasa.gov/docs/
+category: Weather
+description: Global solar and weather data for energy and agriculture
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: NASA POWER
+  url: https://power.larc.nasa.gov/docs/
+  category: Weather
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: ambiguous
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://power.larc.nasa.gov/docs/referencing/
+attribution_text: The data was obtained from NASA Langley Research Center POWER project (include service
+  name, version, date accessed)
+evidence:
+- field: attribution_required
+  url: https://power.larc.nasa.gov/docs/referencing/
+  quote: When POWER data products are used in a publication include both POWER's Reference and POWER's
+    Data Reference in any work product or publication.
+  checked_at: '2026-11-21'
+notes: No licence or commercial-use statement found on the docs pages read (referencing guide, API docs,
+  FAQ, home). Referencing is required for publications and a redistribution notification is requested,
+  which suggests open use, but nothing was stated, so core fields stay unknown. Check NASA data policy
+  / Earthdata terms manually.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Unknown stands. Pointer: NASA Earthdata data-use guidance says NASA-led mission data
+  are CC0 unless marked, and POWER is a NASA LaRC project, but no POWER page ties itself to that policy,
+  so not applied.'

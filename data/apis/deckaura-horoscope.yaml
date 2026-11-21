@@ -1,0 +1,26 @@
+id: deckaura-horoscope
+name: Deckaura Horoscope
+url: https://horoscope.deckaura.com
+category: Personality
+description: Daily horoscope readings for all 12 zodiac signs (overview, love, career, lucky number) updated
+  daily at 00:00 UTC
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: Deckaura Horoscope
+  url: https://horoscope.deckaura.com
+  category: Personality
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

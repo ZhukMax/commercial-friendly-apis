@@ -1,0 +1,75 @@
+id: patentref
+name: PatentRef
+url: https://patentref.io/docs/
+category: Patent
+description: 'PatentsView-compatible API for US patent grants since 1976: claims, citations, CPC, fee
+  status'
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: PatentRef
+  url: https://patentref.io/docs/?utm_source=publicapis
+  category: Patent
+link_status: alive
+data_license: CC-BY-4.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: 'yes'
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://patentref.io/docs/attribution.html
+api_terms_url: https://patentref.io/docs/legal/terms
+commercial_use_scope: free-tier
+attribution_text: Patent data from PatentsView and the USPTO, used under CC BY 4.0. PatentRef is an independent
+  service and is not affiliated with the USPTO.
+rate_limits: 'Free plan: 1,000 requests/month, 45/minute per key'
+evidence:
+- field: commercial_use
+  url: https://patentref.io/docs/legal/acceptable-use
+  quote: Building a product on top of the API is fine
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://patentref.io/docs/legal/acceptable-use
+  quote: Caching responses and republishing results with the attribution lines from patentref.io/LICENSES.md.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://patentref.io/docs/legal/acceptable-use
+  quote: Caching responses and republishing results with the attribution lines from patentref.io/LICENSES.md.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://patentref.io/docs/legal/acceptable-use
+  quote: Do not remove the attribution the license requires.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://patentref.io/docs/legal/terms
+  quote: Patent data comes from PatentsView and the USPTO and is used and redistributed under the Creative
+    Commons Attribution 4.0 International license (CC BY 4.0).
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://patentref.io/docs/legal/acceptable-use
+  quote: Downloading the published snapshot and querying it yourself
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://patentref.io/docs/legal/terms
+  quote: The Free plan allows 1,000 requests a month and 45 a minute per key
+  checked_at: '2026-11-21'
+notes: 'Read Terms of Service (beta-2), Acceptable Use Policy and the data/attribution page. Free beta:
+  terms say paid plans will come under updated terms. Do not resell or sublicense API access itself; no
+  multi-account tricks. Data is USPTO PatentsView bulk data (CC BY 4.0 as PatentsView publishes it; that
+  upstream licence was not read at its source because patentsview.org now redirects into the USPTO Open
+  Data Portal). Family data from Google Patents Public Datasets, CC BY 4.0. Independent hobby-scale operator:
+  continuity risk.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Free beta: 1,000 req/month, may change/stop without notice, paid plans under new terms;
+  independent hobby operator; do not scrape website; PatentsView upstream licence not read at source.
+  Snapshot download allowed.'

@@ -1,0 +1,63 @@
+id: npi-lookup
+name: NPI Lookup
+url: https://dataandapis.com/apis/healthcare-providers
+category: Health
+description: Search 9.4M US healthcare providers by NPI, name, taxonomy or location from NPPES data
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: NPI Lookup
+  url: https://dataandapis.com/apis/healthcare-providers
+  category: Health
+link_status: alive
+data_license: public-domain upstream (CMS NPPES, per vendor page); vendor service terms apply
+commercial_use: ambiguous
+storage_caching: ambiguous
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+data_license_url: https://dataandapis.com/apis/healthcare-providers
+api_terms_url: https://dataandapis.com/terms-of-service
+commercial_use_scope: free-tier
+rate_limits: 'Free plan: 500 tokens/month (1 token per call, about 500 calls); paid plans from $6.99/mo'
+evidence:
+- field: data_license
+  url: https://dataandapis.com/apis/healthcare-providers
+  quote: US Government work - public domain
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://dataandapis.com/terms-of-service
+  quote: Using the Services for unauthorized commercial purposes
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://dataandapis.com/terms-of-service
+  quote: Copying or distributing any part of the Services
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://dataandapis.com/apis/healthcare-providers
+  quote: A free key includes 500 tokens a month, no card required.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://dataandapis.com/terms-of-service
+  quote: Copying or distributing any part of the Services
+  checked_at: '2026-11-21'
+notes: 'Aggregator/reseller: DataAndAPIs republishes CMS NPPES (US government, public domain per its own
+  data-source listing: ''Public-domain source data; self-hosted''). The upstream NPPES data is permissive,
+  but the vendor''s Terms of Service (short, vague) list ''unauthorized commercial purposes'' and ''copying
+  or distributing any part of the Services'' as prohibited conduct without defining ''authorized''. Plans
+  (free/starter/ultra) are by token quota; no plan-specific commercial terms found. Hence ambiguous; the
+  upstream public-domain NPPES files themselves are a safer source.'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Ambiguous stands; ToS does not define 'authorized'. Upstream CMS NPPES files are public
+  domain; NUCC taxonomy is 'Freely available; (c) American Medical Association' per vendor sources list,
+  i.e. copyrighted. Safer to use CMS files directly.

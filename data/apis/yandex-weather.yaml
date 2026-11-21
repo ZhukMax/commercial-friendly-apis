@@ -1,0 +1,30 @@
+id: yandex-weather
+name: Yandex.Weather
+url: https://yandex.com/dev/weather/
+category: Weather
+description: Assesses weather condition in specific locations
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Yandex.Weather
+  url: https://yandex.com/dev/weather/
+  category: Weather
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://yandex.com/dev/weather/
+notes: 'Read https://yandex.com/dev/weather/ (marketing page: custom API for Russia, reports on request, contact api-weather@support.yandex.ru). https://yandex.com/legal/weather_api/ returned 404. No terms
+  of use found, so all terms fields unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

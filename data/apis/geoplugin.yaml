@@ -1,0 +1,81 @@
+id: geoplugin
+name: geoPlugin
+url: https://www.geoplugin.com
+category: Geocoding
+description: IP geolocation and currency conversion
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: geoPlugin
+  url: https://www.geoplugin.com
+  category: Geocoding
+- list: public-api-lists
+  name: geoPlugin
+  url: https://www.geoplugin.com
+  category: Geocoding
+link_status: alive
+data_license: CC-BY-SA-3.0 (MaxMind GeoLite attribution-ShareAlike as stated by geoPlugin)
+commercial_use: ambiguous
+storage_caching: limited
+redistribution_display: unknown
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://www.geoplugin.com/aup
+api_terms_url: https://www.geoplugin.com/aup
+commercial_use_scope: free-tier
+attribution_text: This product includes GeoLite2 data created by MaxMind, available from https://www.maxmind.com
+share_alike: 'yes'
+rate_limits: Free "normal use"; >120 req/min blacklisted 1h; >1500 req/min blocked; sites >100,000 visitors/day
+  must contact; paid plans 100-100,000 req/day
+notes: 'Read /aup (Acceptable Use Policy; the only terms page, /terms is 404) and /pricing. Free use is
+  described as a "free webmaster resource" within "normal use"; commercial use is neither allowed nor
+  forbidden explicitly, so ambiguous. Data derives from MaxMind GeoLite and the AUP says use is under
+  CC BY-SA 3.0 (share-alike flows to users). Caching/storage and display not addressed: unknown. Paid
+  plans (Basic $10/mo, 100 req/day up to Enterprise) exist but plan terms say nothing different about
+  commercial rights.'
+evidence:
+- field: commercial_use
+  url: https://www.geoplugin.com/aup
+  quote: You may use these services for free within the realms of ‘normal use’.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.geoplugin.com/aup
+  quote: Use of GeoPlugin services making use of geolocation data is under condition of acceptance of
+    the Creative Commons Attribution-ShareAlike 3.0 Unported License
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.geoplugin.com/aup
+  quote: If you do not accept to attribute Maxmind’s data, you must purchase Maxmind’s GeoLite2 Redistribution
+    License prior to use of geoPlugin.
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://www.geoplugin.com/aup
+  quote: Use of GeoPlugin services making use of geolocation data is under condition of acceptance of
+    the Creative Commons Attribution-ShareAlike 3.0 Unported License
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://www.geoplugin.com/aup
+  quote: Greater than 120 API requests per minute will get you blacklisted for 1 hour
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.geoplugin.com/aup
+  quote: or by saving the data obtained from lookups for greater than 24 hours.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.geoplugin.com/aup
+  quote: Incorporation of geoPlugin’s services into a commercial package requires prior authorisation
+    from geoPlugin whereby costs may be incurred.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'AUP bans saving lookup data for more than 24 hours; AUP: incorporation into a ''commercial
+  package'' needs prior authorisation and may cost money | applied: storage_caching=limited'

@@ -1,0 +1,66 @@
+id: crossref-metadata-search
+name: Crossref Metadata Search
+url: https://github.com/CrossRef/rest-api-doc
+category: Books
+description: Books & Articles Metadata
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Crossref Metadata Search
+  url: https://github.com/CrossRef/rest-api-doc
+  category: Books
+link_status: alive
+data_license: CC0-1.0 / facts (public domain); abstracts remain under publisher or author copyright
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: high
+link_checked_at: '2026-11-21'
+data_license_url: https://www.crossref.org/documentation/retrieve-metadata/
+api_terms_url: https://github.com/CrossRef/rest-api-doc
+commercial_use_scope: any
+share_alike: 'no'
+rate_limits: Advertised via X-Rate-Limit-Limit / X-Rate-Limit-Interval headers; polite pool needs contact
+  mailto
+evidence:
+- field: commercial_use
+  url: https://www.crossref.org/documentation/retrieve-metadata/
+  quote: Almost all of the metadata we hold is reusable without restriction, with the exception of abstracts
+    which are subject to publisher or author copyright.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.crossref.org/documentation/retrieve-metadata/
+  quote: The majority of metadata is considered to be ‘facts’ which are not copyrightable and are thus
+    in the public domain (CC0).
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://github.com/CrossRef/rest-api-doc
+  quote: Individual items of bibliographic metadata and associated DOIs may be cached and incorporated
+    into the user's content and systems.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.crossref.org/documentation/retrieve-metadata/
+  quote: Almost all of the metadata we hold is reusable without restriction, with the exception of abstracts
+    which are subject to publisher or author copyright.
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://www.crossref.org/documentation/retrieve-metadata/
+  quote: The majority of metadata is considered to be ‘facts’ which are not copyrightable and are thus
+    in the public domain (CC0).
+  checked_at: '2026-11-21'
+notes: 'Read Crossref metadata-retrieval overview and the rest-api-doc README (metadata licence, etiquette).
+  Exceptions: abstracts keep publisher/author copyright. Public pool needs no key; a mailto in User-Agent/param
+  routes to the polite pool; Crossref may rate-limit or block abusive clients. Attribution not mentioned:
+  unknown. Book/article metadata is deposited by members; bibliographic facts only.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Attribution not required; polite pool etiquette and rate limits.

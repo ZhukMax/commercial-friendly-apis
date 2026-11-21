@@ -1,0 +1,26 @@
+id: kiprio-email-validate
+name: Kiprio Email Validate
+url: https://kiprio.com/v1/email-validate
+category: Email
+description: 'Free email validation: MX check, disposable detection, syntax'
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Kiprio Email Validate
+  url: https://kiprio.com/v1/email-validate
+  category: Email
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: HTTP 410

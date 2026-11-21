@@ -1,0 +1,30 @@
+id: paribu
+name: Paribu
+url: https://docs.paribu.com/api
+category: Cryptocurrency
+description: Turkish cryptocurrency exchange with real-time market data, trading and WebSocket streams
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Paribu
+  url: https://docs.paribu.com/api
+  category: Cryptocurrency
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+evidence: []
+notes: 'Read docs.paribu.com/api (via Playwright): getting-started/auth/errors pages only, no terms or data licence. paribu.com/terms-of-use and /terms-of-use-and-privacy returned ''page not found''. No
+  applicable terms found, all fields unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

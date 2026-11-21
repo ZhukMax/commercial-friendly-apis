@@ -1,0 +1,38 @@
+id: xaxios
+name: xAxios
+url: https://xaxios.com/docs/stream
+category: Cryptocurrency
+description: Live Solana and Robinhood Chain token prices, trades and launches over a public WebSocket
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: xAxios
+  url: https://xaxios.com/docs/stream
+  category: Cryptocurrency
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+rate_limits: 120 messages/min per connection; 20 tokens per connection; 5 connections per client
+evidence:
+- field: rate_limits
+  url: https://xaxios.com/docs/stream
+  quote: 120 messages per minute, per connection
+  checked_at: '2026-11-21'
+notes: 'Read https://xaxios.com/docs/stream (public WebSocket, "free and open", no key) and https://xaxios.com/legal/terms
+  (Terms of Service: account security, subscriptions and refunds only). Neither page says anything about
+  commercial use, storage, redistribution or attribution of market data, so all terms fields are unknown.
+  Data is on-chain Solana/Robinhood Chain token data indexed by xAxios; DEX/launchpad upstream terms not
+  checked.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -1,0 +1,36 @@
+id: localbitcoins
+name: Localbitcoins
+url: https://localbitcoins.com/api-docs/
+category: Cryptocurrency
+description: P2P platform to buy and sell Bitcoins
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Localbitcoins
+  url: https://localbitcoins.com/api-docs/
+  category: Cryptocurrency
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: high
+link_checked_at: '2026-11-21'
+link_note: -> https://localbitcoins.com/
+api_terms_url: https://localbitcoins.com/
+evidence:
+- field: link_status
+  url: https://localbitcoins.com/
+  quote: LocalBitcoins Oy has closed its Bitcoin trading service.
+  checked_at: '2026-11-21'
+notes: 'Service shut down: localbitcoins.com shows that LocalBitcoins Oy has closed its trading service
+  (only withdrawals remain); /api-docs/ returns 404. Link dead, terms unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -1,0 +1,31 @@
+id: indodax
+name: Indodax
+url: https://github.com/btcid/indodax-official-api-docs
+category: Cryptocurrency
+description: Trade your Bitcoin and other assets with rupiah
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Indodax
+  url: https://github.com/btcid/indodax-official-api-docs
+  category: Cryptocurrency
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://github.com/btcid/indodax-official-api-docs
+notes: Exchange API (trading/account plus public market endpoints). Read only the GitHub docs repo README,
+  which has no licence or terms-of-use text; indodax.com terms URLs tried returned 404 and no terms page
+  was read. All terms fields unknown. Exchange market data may carry its own redistribution limits.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

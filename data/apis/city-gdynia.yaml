@@ -1,0 +1,61 @@
+id: city-gdynia
+name: City, Gdynia
+url: http://otwartedane.gdynia.pl/en/api_doc.html
+category: Government
+description: Gdynia (PL) City Open Data
+description_source: upstream
+auth: none
+https: false
+cors: unknown
+sources:
+- list: public-apis
+  name: City, Gdynia
+  url: http://otwartedane.gdynia.pl/en/api_doc.html
+  category: Government
+link_status: alive
+data_license: CC-BY (version not stated)
+commercial_use: ambiguous
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://otwartedane.gdynia.pl/en/dataset/c-9-1
+api_terms_url: http://otwartedane.gdynia.pl/en/api_doc.html
+commercial_use_scope: any
+notes: 'The portal has no separate terms page that I could find; the sample dataset page (c-9-1) shows
+  "License Creative Commons Attribution". Commercial use/storage/display rest on the CC BY 4.0 deed (version
+  of the licence used here not stated). Licences may differ per dataset (only one dataset checked). API
+  doc page read: no terms.'
+evidence:
+- field: data_license
+  url: https://otwartedane.gdynia.pl/en/dataset/c-9-1
+  quote: License Creative Commons Attribution
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://otwartedane.gdynia.pl/en/dataset/c-9-1
+  quote: License Creative Commons Attribution
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://creativecommons.org/licenses/by/4.0/deed.en
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://creativecommons.org/licenses/by/4.0/deed.en
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://creativecommons.org/licenses/by/4.0/deed.en
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+share_alike: unknown
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'CC version unstated (''Creative Commons Attribution''); only one dataset checked;
+  Licences may differ per dataset; no portal terms page; Site/API served over plain http | applied: commercial_use=ambiguous'
+license_scope: portal-default

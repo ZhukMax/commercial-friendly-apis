@@ -1,0 +1,53 @@
+id: gstinapi
+name: gstinapi
+url: https://www.gstinapi.in/docs
+category: Business
+description: 'Verify Indian GST numbers (GSTIN): legal name, status, address and return filing history;
+  free tier'
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: gstinapi
+  url: https://www.gstinapi.in/docs
+  category: Business
+link_status: alive
+data_license: unknown
+commercial_use: 'yes'
+storage_caching: ambiguous
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.gstinapi.in/terms
+commercial_use_scope: any
+notes: Terms of Service read via Playwright (page is JS-rendered). Business use only. The service is a
+  reseller of upstream GST network data via licensed GSP providers, so upstream terms may be stricter
+  (not checked). Bans harvesting/reconstructing a copy of the GSTIN database and sharing unpaid API output
+  outside the organisation; no explicit rule on storing individual lookup results or displaying them on
+  public pages, so those are ambiguous.
+evidence:
+- field: commercial_use
+  url: https://www.gstinapi.in/terms
+  quote: You confirm that you are at least 18 years old and are using the service for a commercial or
+    professional purpose
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.gstinapi.in/terms
+  quote: Scrape, bulk-harvest or attempt to reconstruct a copy of the GSTIN database or of any contact
+    or PAN data
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.gstinapi.in/terms
+  quote: Resell, sublicense or redistribute raw API responses as a competing verification service
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Upstream GSP/GSTN terms not published; public display of proprietor data is risky.

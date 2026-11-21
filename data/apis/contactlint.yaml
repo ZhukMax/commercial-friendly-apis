@@ -1,0 +1,26 @@
+id: contactlint
+name: ContactLint
+url: https://contactlint.com/
+category: Email
+description: Validate email syntax, MX, disposable and role addresses with typo suggestions, plus phone
+  numbers
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: ContactLint
+  url: https://contactlint.com/
+  category: Email
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

@@ -1,0 +1,78 @@
+id: chargealong
+name: ChargeAlong
+url: https://chargealong.io/docs/
+category: Transportation
+description: EV charging sites in AU, NZ, US, UK and Canada, with nearby search and trip planning
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: ChargeAlong
+  url: https://chargealong.io/docs/
+  category: Transportation
+link_status: alive
+data_license: CC-BY-4.0 (Open Charge Map contributors, Transport for NSW, Queensland Govt, GeoNames; maps
+  ODbL)
+commercial_use: ambiguous
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://chargealong.io/en/copyright/
+api_terms_url: https://chargealong.io/docs/
+commercial_use_scope: any
+attribution_text: Keep each record's source and licence; credit "Open EV Data" for vehicle figures
+share_alike: unknown
+rate_limits: No key or quota; edge limits to stop floods
+evidence:
+- field: data_license
+  url: https://chargealong.io/en/copyright/
+  quote: Charging sites from Open Charge Map contributors, under CC BY 4.0 .
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://chargealong.io/docs/
+  quote: Answers are cached for an hour and may be cached by you.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://chargealong.io/docs/
+  quote: Attribution is a licence condition, not a courtesy
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://chargealong.io/en/copyright/
+  quote: 'ChargeAlong is built on open data and data shared with us, used on these terms:'
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://chargealong.io/docs/
+  quote: Keep those with anything you publish.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://chargealong.io/docs/
+  quote: There is no key, no quota and no sign up.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://chargealong.io/docs/
+  quote: each record names its own source and licence
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://chargealong.io/en/acceptable-use/
+  quote: No scraping that puts load on the site.
+  checked_at: '2026-11-21'
+notes: 'Docs and copyright notice read. Charging data comes from CC BY 4.0 sources and each record names
+  its own source and licence (docs), so per-record terms may differ; no explicit "commercial use allowed"
+  sentence on the site, inferred from CC BY 4.0 (deed not re-read). Docs explicitly allow caching answers;
+  indefinite storage not stated. Terms of use and acceptable use pages cover user posts and say no scraping
+  that loads the site. Vehicle charging curves: Open EV Data (MIT, credit required).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'No page states commercial use explicitly; commercial_use quote does not say it; Licence
+  is per record from several sources (OCM, TfNSW, QLD, GeoNames); Acceptable use bans scraping that loads
+  the site | applied: commercial_use=ambiguous'
+license_scope: portal-default

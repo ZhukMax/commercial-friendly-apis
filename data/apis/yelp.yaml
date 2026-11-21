@@ -1,0 +1,26 @@
+id: yelp
+name: Yelp
+url: https://www.yelp.com/developers/documentation/v3
+category: Open Data
+description: Find Local Business
+description_source: upstream
+auth: OAuth
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Yelp
+  url: https://www.yelp.com/developers/documentation/v3
+  category: Open Data
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: HTTP 404

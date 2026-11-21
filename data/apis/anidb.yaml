@@ -1,0 +1,26 @@
+id: anidb
+name: AniDB
+url: https://wiki.anidb.net/HTTP_API_Definition
+category: Anime
+description: Anime Database
+description_source: upstream
+auth: apiKey
+https: false
+cors: unknown
+sources:
+- list: public-apis
+  name: AniDB
+  url: https://wiki.anidb.net/HTTP_API_Definition
+  category: Anime
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: HTTP 403 (blocked for bots, assumed alive)

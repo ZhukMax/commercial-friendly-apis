@@ -1,0 +1,73 @@
+id: hong-kong-observatory
+name: Hong Kong Observatory
+url: https://www.hko.gov.hk/en/abouthko/opendata_intro.htm
+category: Weather
+description: Provide weather information, earthquake information, and climate data
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Hong Kong Observatory
+  url: https://www.hko.gov.hk/en/abouthko/opendata_intro.htm
+  category: Weather
+link_status: alive
+data_license: data.gov.hk Terms of Use (free of charge, commercial and non-commercial use with source
+  acknowledgement)
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://data.gov.hk/en/terms-and-conditions
+commercial_use_scope: any
+api_terms_url: https://data.gov.hk/en/terms-and-conditions
+notes: HKO open data intro page (hko.gov.hk/en/abouthko/opendata_intro.htm) lists datasets but contains
+  no licence text; HKO datasets are published on data.gov.hk (e.g. 9-day forecast, with the API documentation
+  PDF as data dictionary), so the data.gov.hk Terms and Conditions were applied. They allow commercial
+  use on a free-of-charge basis if the source is identified and the Government/Organisations acknowledged;
+  they also carry an indemnity clause and "Terms of Use" conditions (not fully reviewed). HKO's own copyright
+  pages 404. Medium confidence because the link HKO API to data.gov.hk terms is inferred from the dataset
+  listing.
+evidence:
+- field: data_license
+  url: https://data.gov.hk/en/terms-and-conditions
+  quote: You are allowed to browse, download, distribute, reproduce, hyperlink to, and print the Data
+    for both commercial and non-commercial purposes
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://data.gov.hk/en/terms-and-conditions
+  quote: You are allowed to browse, download, distribute, reproduce, hyperlink to, and print the Data
+    for both commercial and non-commercial purposes
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://data.gov.hk/en/terms-and-conditions
+  quote: You are allowed to browse, download, distribute, reproduce, hyperlink to, and print the Data
+    for both commercial and non-commercial purposes
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://data.gov.hk/en/terms-and-conditions
+  quote: You are allowed to browse, download, distribute, reproduce, hyperlink to, and print the Data
+    for both commercial and non-commercial purposes
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://data.gov.hk/en/terms-and-conditions
+  quote: you shall identify clearly the source of the Data and acknowledge the Government and the Relevant
+    Organisations’ ownership
+  checked_at: '2026-11-21'
+- field: api_terms_url
+  url: https://data.gov.hk/en-data/dataset/hk-hko-rss-9-day-weather-forecast
+  quote: Data Providers Hong Kong Observatory Data Category Climate and Weather
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Terms v1.2 (26 May 2025): commercial use free of charge allowed on conditions, incl.
+  attribution to Government/organisations and an indemnity clause. HKO dataset page on data.gov.hk links
+  the HKO API doc PDF which contains no extra terms. HKO''s own copyright page 404s.'

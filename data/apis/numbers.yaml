@@ -1,0 +1,45 @@
+id: numbers
+name: Numbers
+url: https://math.tools/api/numbers/
+category: Science & Math
+description: Number of the day, random number, number facts and anything else you want to do with numbers
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Numbers
+  url: https://math.tools/api/numbers/
+  category: Science & Math
+- list: public-api-lists
+  name: Numbers
+  url: https://math.tools/api/numbers/
+  category: Science & Math
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://math.tools/terms
+rate_limits: 'Paid plans only: Starter 5,000 requests/day ($4.99/mo), Premium 25,000/day ($14.99/mo), higher tiers'
+evidence:
+- field: rate_limits
+  url: https://math.tools/api/numbers/
+  quote: there is no free or anonymous tier
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://math.tools/terms
+  quote: reselling API access without permission may result in your access being revoked
+  checked_at: '2026-11-21'
+notes: 'Pages read: math.tools/api/numbers/ and math.tools/terms. The API page now says every endpoint needs a Sanctum token from a paid plan (no free tier). The Terms of Service are short and say nothing
+  about commercial use, caching, display or attribution of API results (only: no reselling API access, no abusive scraping), so all core fields stay unknown. Responses carry a "copyright 2019-26 math.tools"
+  field.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

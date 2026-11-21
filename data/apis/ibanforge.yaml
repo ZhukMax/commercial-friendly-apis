@@ -1,0 +1,61 @@
+id: ibanforge
+name: IBANforge
+url: https://ibanforge.com/docs
+category: Finance
+description: IBAN checks and sourced bank/BIC references; free format checks and a keyless validation trial
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: IBANforge
+  url: https://ibanforge.com/docs
+  category: Finance
+link_status: alive
+data_license: proprietary (compiled data; third-party registers; code MIT)
+commercial_use: 'yes'
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://ibanforge.com/legal/terms
+commercial_use_scope: any
+cache_limit: No resale of raw bulk extracts or wholesale extraction of the underlying databases
+attribution_text: Powered by IBANforge (linked) on free tiers when results are shown to people; per-source credits travel in responses
+rate_limits: 'Free keyless REST trial: 25 validations per ISO week per address; free keys have monthly quotas'
+evidence:
+- field: commercial_use
+  url: https://ibanforge.com/legal/terms
+  quote: Embedding the API inside your own product for your end customers is permitted with a commercial plan (Editor/OEM) or within your plan's quota.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://ibanforge.com/legal/terms
+  quote: API responses may be used freely within your products
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://ibanforge.com/legal/terms
+  quote: the underlying databases may not be extracted wholesale through the Service
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://ibanforge.com/legal/terms
+  quote: when results obtained on either free step are shown to people (a page, a screen, a document), you display the credit the response carries
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://ibanforge.com/docs
+  quote: 25 validations per ISO UTC week per source address
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://ibanforge.com/legal/terms
+  quote: The IBANforge source code is open source under the MIT License
+  checked_at: '2026-11-21'
+notes: 'Read the Terms (legal/terms), docs and the sources page. Responses may be used freely in your products (with the "Powered by IBANforge" credit on free tiers; paid plans carry none); resale of raw
+  bulk extracts as a standalone dataset is forbidden. Caching is not addressed directly, so storage_caching=limited reflects the no-wholesale-extraction rule. Aggregator: bank/BIC data comes from many registers
+  (Bundesbank, OeNB, EBA, ECB, FATF, Bank of England by written permission, etc.) whose conditions (attribution, source/date credits) travel in responses and may be stricter; some country keys come from
+  sources with limited rights and are served only from private data. Service is for professionals.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

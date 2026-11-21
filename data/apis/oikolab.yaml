@@ -1,0 +1,56 @@
+id: oikolab
+name: Oikolab
+url: https://docs.oikolab.com
+category: Weather
+description: 70+ years of global, hourly historical and forecast weather data from NOAA and ECMWF
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Oikolab
+  url: https://docs.oikolab.com
+  category: Weather
+link_status: alive
+data_license: proprietary (Oikolab Terms of Service)
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: 'no'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://docs.oikolab.com/terms/
+notes: 'Read docs.oikolab.com/terms (oikolab.com/terms returns 404). The licence is limited to "internal
+  business purposes" and is non-sublicensable: unclear whether public display on an ad-supported site
+  is covered, hence ambiguous. Caching/storage and attribution are not addressed (unknown). Underlying
+  NOAA/ECMWF data licences not checked. Paid subscription (fees clause), free tier not described on the
+  page.'
+evidence:
+- field: commercial_use
+  url: https://docs.oikolab.com/terms/
+  quote: non-transferable license, during the Term, to download and use the APIs to receive the data strictly
+    for your internal business purposes
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://docs.oikolab.com/terms/
+  quote: non-transferable license, during the Term, to download and use the APIs to receive the data strictly
+    for your internal business purposes
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://docs.oikolab.com/terms/
+  quote: non-exclusive, non-sublicensable, non-transferable license
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://docs.oikolab.com/terms/
+  quote: to download and use the APIs to receive the data strictly for your internal business purposes
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Licence is strictly for internal business purposes; public display on a monetised
+  site is outside it | applied: redistribution_display=no'

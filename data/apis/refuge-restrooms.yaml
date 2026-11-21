@@ -1,0 +1,31 @@
+id: refuge-restrooms
+name: REFUGE Restrooms
+url: https://www.refugerestrooms.org/api/docs/
+category: Transportation
+description: Provides safe restroom access for transgender, intersex and gender nonconforming individuals
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: REFUGE Restrooms
+  url: https://www.refugerestrooms.org/api/docs/#!/restrooms
+  category: Transportation
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.refugerestrooms.org/api/docs/
+evidence: []
+notes: Read the API docs page (Swagger UI, no terms), the About page and the GitHub README. Only the application source code is licensed (AGPL-3.0); no licence or terms for the restroom database/API
+  data are stated (data = Safe2Pee import + user submissions). All data terms unknown; ask the maintainers before commercial use.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

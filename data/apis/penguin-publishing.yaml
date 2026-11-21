@@ -1,0 +1,35 @@
+id: penguin-publishing
+name: Penguin Publishing
+url: http://www.penguinrandomhouse.biz/webservices/rest/
+category: Books
+description: Books, book covers and related data
+description_source: upstream
+auth: other
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Penguin Publishing
+  url: http://www.penguinrandomhouse.biz/webservices/rest/
+  category: Books
+- list: public-api-lists
+  name: Penguin Publishing
+  url: http://www.penguinrandomhouse.biz/webservices/rest/
+  category: Books
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: http://www.penguinrandomhouse.biz/webservices/rest/
+link_note: http -> https://www.penguinrandomhouse.biz/webservices/rest/
+notes: Read the REST API overview page (docs for the Random House Rest Services, host reststop.randomhouse.com). Requests need HTTP BASIC credentials (upstream auth 'none' is stale); no terms of use, licence,
+  caching or display rules appear on the page. All core terms unknown. Data (book metadata, blurbs, covers, jacket quotes) is publisher content, likely with third-party rights.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

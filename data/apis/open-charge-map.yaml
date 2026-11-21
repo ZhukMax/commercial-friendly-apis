@@ -1,0 +1,75 @@
+id: open-charge-map
+name: Open Charge Map
+url: https://openchargemap.org/site/develop/api
+category: Transportation
+description: Global public registry of electric vehicle charging locations
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Open Charge Map
+  url: https://openchargemap.org/site/develop/api
+  category: Transportation
+- list: public-api-lists
+  name: Open Charge Map
+  url: https://openchargemap.org/site/develop/api
+  category: Transportation
+link_status: redirect
+data_license: CC-BY-4.0 for user-contributed data; third-party imported data stays under each data provider's
+  own licence
+commercial_use: ambiguous
+storage_caching: ambiguous
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: -> https://openchargemap.org/develop/api
+data_license_url: https://openchargemap.org/about/terms
+api_terms_url: https://openchargemap.org/about/terms
+share_alike: unknown
+attribution_text: Show the appropriate Data Provider attribution (including licence terms) visibly to
+  the end user.
+evidence:
+- field: data_license
+  url: https://openchargemap.org/about/terms
+  quote: Data contributed to us by our users which we then redistribute is licensed under a Creative Commons
+    Attribution 4.0 International (CC BY 4.0)
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://openchargemap.org/about/terms
+  quote: Data imported from 3rd party Data Providers is copyright the original Data Provider in each case
+    and is not provided under the same terms
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://openchargemap.org/about/terms
+  quote: Data imported from 3rd party Data Providers is copyright the original Data Provider in each case
+    and is not provided under the same terms
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://openchargemap.org/about/terms
+  quote: Data imported from 3rd party Data Providers is copyright the original Data Provider in each case
+    and is not provided under the same terms
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://openchargemap.org/about/terms
+  quote: the appropriate Data Provider attribution (including license terms) be provided in a way which
+    is visible the end user.
+  checked_at: '2026-11-21'
+notes: 'Link redirects to openchargemap.org/develop/api (OpenAPI explorer, key required). Read the Terms
+  & privacy page: user-contributed data are CC BY 4.0 (OCM may swap to another open licence), but data
+  imported from third-party providers carry the original provider licences and different terms, and attribution
+  incl. licence terms must be visible to end users. The mix means commercial use, storage and display
+  depend on each record''s provider, so they are ambiguous rather than yes. The CC BY legal text was not
+  cited here. The service calls itself a non-commercial, non-profit service (about the operator, not a
+  use restriction).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Per-record provider licences make commercial/storage ambiguous. Yellow stands.
+license_scope: portal-default

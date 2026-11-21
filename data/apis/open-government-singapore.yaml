@@ -1,0 +1,75 @@
+id: open-government-singapore
+name: Open Government, Singapore
+url: https://data.gov.sg/
+category: Government
+description: Singapore Government Open Data
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Open Government, Singapore
+  url: https://data.gov.sg/
+  category: Government
+link_status: alive
+data_license: Singapore Open Data Licence v1.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: high
+link_checked_at: '2026-11-21'
+data_license_url: https://data.gov.sg/open-data-licence
+api_terms_url: https://data.gov.sg/privacy-and-terms
+commercial_use_scope: any
+attribution_text: 'Conspicuous notice: Contains information from {dataset} accessed on {date} from {source}
+  under the Singapore Open Data Licence v1.0, with link to the licence'
+share_alike: unknown
+rate_limits: Per-API limits are on each API's own page (not read); credentials apply where an API requires
+  them
+evidence:
+- field: data_license
+  url: https://data.gov.sg/open-data-licence
+  quote: which is made available under the terms of the Singapore Open Data Licence version 1.0
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://data.gov.sg/open-data-licence
+  quote: You can use, access, download, copy, distribute, transmit, modify and adapt the datasets, or
+    any derived analyses or applications, whether commercially or non-commercially
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://data.gov.sg/open-data-licence
+  quote: You can use, access, download, copy, distribute, transmit, modify and adapt the datasets, or
+    any derived analyses or applications, whether commercially or non-commercially
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://data.gov.sg/open-data-licence
+  quote: You can use, access, download, copy, distribute, transmit, modify and adapt the datasets, or
+    any derived analyses or applications, whether commercially or non-commercially
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://data.gov.sg/open-data-licence
+  quote: You must include in your products, applications or websites that Use the datasets, a conspicuous
+    notice acknowledging the source of the datasets
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://data.gov.sg/privacy-and-terms
+  quote: You can use, access, call, command, query or request the API, whether commercially or non-commercially
+  checked_at: '2026-11-21'
+notes: 'Read the Singapore Open Data Licence (curl) and the combined Privacy & Terms page; the API Terms
+  of Service section is rendered by JS and was read via Playwright (anchor #api-terms). Licence: worldwide,
+  perpetual, royalty-free; commercial and non-commercial use, copy, distribute, modify; mandatory conspicuous
+  source notice with licence link; no official-endorsement implication; no rights over personal data or
+  third-party rights. API ToS also allows commercial use, but individual API pages may add limits on use
+  (not read), and credentials must be used where issued. The website''s own contents (not datasets) cannot
+  be reused commercially without permission (clause 9).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: SODL and API ToS verified; commercial use allowed with conspicuous source notice; per-API
+  limits possible.

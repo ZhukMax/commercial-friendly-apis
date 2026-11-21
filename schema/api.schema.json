@@ -1,0 +1,281 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "API entry",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "url",
+    "category",
+    "auth",
+    "https",
+    "sources",
+    "verdict",
+    "confidence"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "name": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "category": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "description_source": {
+      "enum": [
+        "upstream",
+        "own"
+      ]
+    },
+    "auth": {
+      "enum": [
+        "none",
+        "apiKey",
+        "OAuth",
+        "other",
+        "unknown"
+      ]
+    },
+    "https": {
+      "enum": [
+        true,
+        false,
+        "unknown"
+      ]
+    },
+    "cors": {
+      "enum": [
+        "yes",
+        "no",
+        "unknown"
+      ]
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "list",
+          "name",
+          "url"
+        ],
+        "properties": {
+          "list": {
+            "enum": [
+              "public-apis",
+              "public-api-lists"
+            ]
+          },
+          "name": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          },
+          "category": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "link_status": {
+      "enum": [
+        "alive",
+        "redirect",
+        "dead",
+        "unchecked"
+      ]
+    },
+    "link_checked_at": {
+      "type": "string"
+    },
+    "link_note": {
+      "type": "string"
+    },
+    "data_license": {
+      "type": "string"
+    },
+    "data_license_url": {
+      "type": "string"
+    },
+    "api_terms_url": {
+      "type": "string"
+    },
+    "commercial_use": {
+      "enum": [
+        "yes",
+        "no",
+        "paid-only",
+        "ambiguous",
+        "unknown"
+      ]
+    },
+    "commercial_use_scope": {
+      "enum": [
+        "free-tier",
+        "paid",
+        "self-hosted",
+        "any"
+      ]
+    },
+    "storage_caching": {
+      "enum": [
+        "yes",
+        "limited",
+        "no",
+        "ambiguous",
+        "unknown"
+      ]
+    },
+    "cache_limit": {
+      "type": "string"
+    },
+    "redistribution_display": {
+      "enum": [
+        "yes",
+        "no",
+        "ambiguous",
+        "unknown"
+      ]
+    },
+    "attribution_required": {
+      "enum": [
+        "yes",
+        "no",
+        "ambiguous",
+        "unknown"
+      ]
+    },
+    "attribution_text": {
+      "type": "string"
+    },
+    "share_alike": {
+      "enum": [
+        "yes",
+        "no",
+        "unknown"
+      ]
+    },
+    "rate_limits": {
+      "type": "string"
+    },
+    "bulk_download": {
+      "enum": [
+        "yes",
+        "no",
+        "unknown"
+      ]
+    },
+    "self_host_option": {
+      "enum": [
+        "yes",
+        "no",
+        "unknown"
+      ]
+    },
+    "verdict": {
+      "enum": [
+        "green",
+        "yellow",
+        "red",
+        "unknown"
+      ]
+    },
+    "verdict_override": {
+      "enum": [
+        "green",
+        "yellow",
+        "red",
+        "unknown"
+      ]
+    },
+    "override_reason": {
+      "type": "string"
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "field",
+          "url",
+          "quote",
+          "checked_at"
+        ],
+        "properties": {
+          "field": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          },
+          "quote": {
+            "type": "string"
+          },
+          "checked_at": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "notes": {
+      "type": "string"
+    },
+    "confidence": {
+      "enum": [
+        "high",
+        "medium",
+        "low"
+      ]
+    },
+    "checked_at": {
+      "type": "string"
+    },
+    "checked_by": {
+      "type": "string"
+    },
+    "second_check": {
+      "enum": [
+        "confirmed",
+        "disputed"
+      ]
+    },
+    "second_check_at": {
+      "type": "string"
+    },
+    "second_check_note": {
+      "type": "string"
+    },
+    "license_scope": {
+      "enum": [
+        "portal-default"
+      ]
+    },
+    "applicable": {
+      "type": "boolean"
+    },
+    "not_applicable_reason": {
+      "type": "string"
+    },
+    "aliases": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

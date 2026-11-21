@@ -1,0 +1,25 @@
+id: timezone-worldtime
+name: Timezone WorldTime
+url: https://www.timezone.io/docs/worldtimeapi
+category: Development
+description: Current time, UTC offset and DST for any time zone or IP, a drop-in WorldTimeAPI replacement
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Timezone WorldTime
+  url: https://www.timezone.io/docs/worldtimeapi
+  category: Development
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

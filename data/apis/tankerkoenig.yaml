@@ -1,0 +1,66 @@
+id: tankerkoenig
+name: Tankerkoenig
+url: https://creativecommons.tankerkoenig.de/swagger/
+category: Transportation
+description: German realtime gas/diesel prices
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Tankerkoenig
+  url: https://creativecommons.tankerkoenig.de/swagger/
+  category: Transportation
+link_status: alive
+data_license: CC-BY-4.0
+commercial_use: 'yes'
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://creativecommons.org/licenses/by/4.0/deed.de
+api_terms_url: https://creativecommons.tankerkoenig.de/
+commercial_use_scope: any
+cache_limit: Requests only on user action; bulk mirroring/regular many-station polling not allowed on the free API (contact provider)
+attribution_text: Link to www.tankerkoenig.de (also in app-store info text)
+share_alike: 'no'
+rate_limits: API key required; 25 km radius search, 1 request/minute; home-automation at most once per 5 minutes
+evidence:
+- field: data_license
+  url: https://creativecommons.tankerkoenig.de/
+  quote: Die Daten stehen unter der Creative-Commons-Lizenz “CC BY 4.0”
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://creativecommons.tankerkoenig.de/
+  quote: insbesondere ist eine Namensnennung nötig (z.B. ein Link auf www.tankerkoenig.de)
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://creativecommons.tankerkoenig.de/
+  quote: Das API darf von Mineralölunternehmen, Tankstellen und damit verbundenen Unternehmen nicht genutzt werden.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://creativecommons.tankerkoenig.de/
+  quote: Regelmäßige, nicht explizit vom User initiierte Requests sind zu vermeiden
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://creativecommons.tankerkoenig.de/
+  quote: keine Filterung der Ergebnisse vornehmen, die nicht vom User explizit so gewünscht wird.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://creativecommons.tankerkoenig.de/
+  quote: Abfragefrequenz auf einen requet/Minute beschränkt
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://creativecommons.tankerkoenig.de/
+  quote: Die Daten stehen unter der Creative-Commons-Lizenz “CC BY 4.0”
+  checked_at: '2026-11-21'
+notes: 'Data (from MTS-K) is CC BY 4.0 with required attribution. No ban on commercial sites; excluded users are oil companies, gas-station operators, their affiliates and IT service providers for the oil
+  industry. MTS-K conditions apply: results must not be filtered unless the user asks. Mass data/mirroring is not suited to the free API (contact them), so storage is rated limited; the commercial service
+  covers bulk, self-hosting, history. Also CSV price archive since 2014 exists (not assessed).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

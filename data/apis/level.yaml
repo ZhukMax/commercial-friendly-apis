@@ -1,0 +1,46 @@
+id: level
+name: Level
+url: https://jobsbylevel.com/developers
+category: Jobs
+description: Job listings rated by AI level, from Little AI to Builds AI; REST, RSS and MCP
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Level
+  url: https://jobsbylevel.com/developers
+  category: Jobs
+link_status: alive
+data_license: CC-BY-4.0 (AI Jobs Index open dataset only; job listings from API carry no stated licence)
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: ambiguous
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://jobsbylevel.com/developers
+data_license_url: https://jobsbylevel.com/data/open-dataset
+evidence:
+- field: attribution_required
+  url: https://jobsbylevel.com/developers
+  quote: Every result links back to its page on jobsbylevel.com. Please keep that link when you show results.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://jobsbylevel.com/data/open-dataset
+  quote: Dataset license (CC BY 4.0).
+  checked_at: '2026-11-21'
+notes: Read developers page, open-dataset page and site terms. The aggregated AI Jobs Index CSV/JSON (counts
+  only, no full job text) is CC BY 4.0, but the REST/MCP job listings have no stated licence or commercial/storage
+  terms; only a request to keep the link back. Level aggregates listings from public company boards (site
+  terms), so employer/upstream rights apply. Commercial use, storage, display left unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read /developers and /terms. Listings are aggregated from employer ATS boards (upstream
+  rights). No blocker, no grant: unknown stands.'

@@ -1,0 +1,30 @@
+id: helium-heliumtrades
+name: Helium
+url: https://heliumtrades.com/mcp-page/
+category: Finance
+description: News with media bias scoring, balanced news synthesis, live market data, AI options pricing
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Helium
+  url: https://heliumtrades.com/mcp-page/
+  category: Finance
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://heliumtrades.com/mcp-page/
+notes: 'Read the MCP landing page (pricing: 50 free queries per IP, then $0.02/query) and found only a privacy policy link; /terms, /tos return 403 to curl and no terms page was readable. Service mixes
+  news, bias scores and live market data (upstream licensing unknown). All terms unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

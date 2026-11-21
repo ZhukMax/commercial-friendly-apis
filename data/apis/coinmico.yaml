@@ -1,0 +1,64 @@
+id: coinmico
+name: Coinmico
+url: https://docs.coinmico.com
+category: Cryptocurrency
+description: Crypto prices, volume and liquidity measured from real trades on 50+ exchanges and DEXs
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Coinmico
+  url: https://docs.coinmico.com
+  category: Cryptocurrency
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: ambiguous
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+commercial_use_scope: free-tier
+api_terms_url: https://docs.coinmico.com/guides/attribution
+attribution_text: Data by Coinmico (linking to coinmico.com), near the data
+rate_limits: 600 req / hour / key
+evidence:
+- field: commercial_use
+  url: https://docs.coinmico.com/guides/attribution
+  quote: commercial products — as long as the attribution is present and the data is not resold as a raw
+    feed
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://coinmico.com/terms
+  quote: A public data API is in preparation and is not open yet; keys are not being issued
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://docs.coinmico.com/guides/attribution
+  quote: wherever the data is shown, credit the source with the text Data by Coinmico linking to coinmico.com
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://docs.coinmico.com/guides/attribution
+  quote: wherever the data is shown, credit the source with the text Data by Coinmico linking to coinmico.com
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://docs.coinmico.com/guides/freshness
+  quote: There is no benefit in polling faster, and a cache on your side keeps you far from the hourly
+    limit.
+  checked_at: '2026-11-21'
+notes: 'Pages read: docs.coinmico.com attribution and freshness guides, coinmico.com/terms. Conflict:
+  docs say the free API allows commercial products with attribution, but the site Terms (sec. 6, effective
+  27 Aug 2026) say the public API is not open yet and keys are not issued, so commercial_use is ambiguous.
+  Caching is encouraged but long-term storage/limits are not stated (ambiguous). Re-publishing as a raw
+  feed and removing the measured/reference flag are forbidden. Aggregates exchange/DEX data and some values
+  fall back to third-party reference sources whose terms may be stricter (not checked).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Docs page is the API's own policy and is more specific, but site Terms are the legal
+  text; stays ambiguous.

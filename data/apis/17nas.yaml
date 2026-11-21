@@ -1,0 +1,41 @@
+id: 17nas
+name: 17NAS
+url: https://17nas.com
+category: Geocoding
+description: Free IP geolocation API with IPv4/IPv6 detection, ASN and country info, no auth required
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: 17NAS
+  url: https://17nas.com
+  category: Geocoding
+link_status: alive
+data_license: unknown
+commercial_use: paid-only
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://17nas.com/ip-api.php
+commercial_use_scope: paid
+rate_limits: 'Free: 1,000 calls/month per key; paid plans 100k-5M/month, 5-50 QPS'
+evidence:
+- field: commercial_use
+  url: https://17nas.com/ip-api.php
+  quote: 仅限个人开发测试，商业使用请选下方套餐。
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://17nas.com/ip-api.php
+  quote: 每月 1,000 次调用额度
+  checked_at: '2026-11-21'
+notes: Pricing/docs page (Chinese) read; API endpoint is ipapi.17nas.com/v1/ip with a Bearer key, so auth is apiKey (upstream "no auth" is stale). Free key is for personal dev/testing only; paid plans (from
+  CNY 19.9/month) say commercial use is allowed. No separate ToS, caching/storage, display or data-source licence statement found (IP data provenance unknown), so those stay unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

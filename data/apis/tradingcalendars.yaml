@@ -1,0 +1,59 @@
+id: tradingcalendars
+name: TradingCalendars
+url: https://tradingcalendars.com/documentation
+category: Calendar
+description: Market holidays and business days for FX, banks, payment systems and exchanges, with early
+  closes
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: TradingCalendars
+  url: https://tradingcalendars.com/documentation
+  category: Calendar
+link_status: alive
+data_license: proprietary (internal business use only; redistribution needs separate written data licence)
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: 'no'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: high
+link_checked_at: '2026-11-21'
+api_terms_url: https://tradingcalendars.com/terms-and-conditions
+share_alike: unknown
+rate_limits: Free plan 10 API calls/day; paid plans from $99/mo with 100,000 calls/day
+notes: Read Terms & Conditions (updated 17 Nov 2026) and pricing. Data may be used internally (e.g. show
+  users a single result like 'is the market open'), but showing holiday lists/calendars to users, or including
+  the Data in a product provided to third parties, needs a separate written data licence not available
+  by subscription. Hence red for a public site displaying calendar data. Subscription plans do not include
+  a data licence. Underlying data compiled from governments, exchanges, central banks (their terms not
+  checked).
+evidence:
+- field: commercial_use
+  url: https://tradingcalendars.com/terms-and-conditions
+  quote: solely for your internal business purposes.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://tradingcalendars.com/terms-and-conditions
+  quote: Display, export or let third parties download holiday lists, calendars or other sets of Data
+    from your product or service
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://tradingcalendars.com/terms-and-conditions
+  quote: To use the Data in a product or service you provide to others, contact us at contact@tradingcalendars.com
+    for a data licence.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://tradingcalendars.com/pricing
+  quote: Start free with 10 API calls a day.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Playwright re-read terms (updated 17 Nov 2026). Red stands for a public site.

@@ -1,0 +1,36 @@
+id: markbase
+name: Markbase
+url: https://markbase.co
+category: Business
+description: Search 14M+ USPTO trademarks with fuzzy search and autocomplete
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: Markbase
+  url: https://markbase.co
+  category: Business
+link_status: alive
+data_license: public USPTO records (Markbase claims no ownership); no explicit data licence stated
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://markbase.co/terms
+evidence:
+- field: data_license
+  url: https://markbase.co/terms
+  quote: We do not claim ownership of public USPTO records.
+  checked_at: '2026-11-21'
+notes: Read Markbase Terms of Service (https://markbase.co/terms, updated 16 Nov 2026). Data are public USPTO trademark records. The terms do not state whether commercial use, storage/caching or public
+  display is allowed; they only forbid reselling raw API data as a competing service, bulk copying of the register without written permission, circumventing quotas, and using record details for spam. The
+  pricing page returned 404. All core fields left unknown. Open (no key, IP-limited) tier exists; quotas per plan are on a pricing page not read.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

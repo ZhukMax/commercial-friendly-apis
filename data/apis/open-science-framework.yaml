@@ -1,0 +1,76 @@
+id: open-science-framework
+name: Open Science Framework
+url: https://developer.osf.io
+category: Science & Math
+description: Repository and archive for study designs, research materials, data, manuscripts, etc
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Open Science Framework
+  url: https://developer.osf.io
+  category: Science & Math
+- list: public-api-lists
+  name: Open Science Framework
+  url: https://developer.osf.io
+  category: Science & Math
+link_status: alive
+data_license: Per-project licence chosen by the content owner (varies); no portal-wide licence
+commercial_use: ambiguous
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: 'yes'
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://github.com/CenterForOpenScience/cos.io/blob/master/TERMS_OF_USE.md
+commercial_use_scope: any
+share_alike: unknown
+evidence:
+- field: commercial_use
+  url: https://github.com/CenterForOpenScience/cos.io/blob/master/TERMS_OF_USE.md
+  quote: available to the public for viewing and commercial and non-commercial use under the terms of
+    the license identified by the Administrator.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://github.com/CenterForOpenScience/cos.io/blob/master/TERMS_OF_USE.md
+  quote: available to the public for viewing and commercial and non-commercial use under the terms of
+    the license identified by the Administrator.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://github.com/CenterForOpenScience/cos.io/blob/master/TERMS_OF_USE.md
+  quote: available to the public for viewing and commercial and non-commercial use under the terms of
+    the license identified by the Administrator.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://github.com/CenterForOpenScience/cos.io/blob/master/TERMS_OF_USE.md
+  quote: If no license is applied by the administrator, then no license is included in the metadata and
+    it should be considered copyrighted by default.
+  checked_at: '2026-11-21'
+- field: self_host_option
+  url: https://github.com/CenterForOpenScience/cos.io/blob/master/TERMS_OF_USE.md
+  quote: The OSF software is available on an open-source basis under the Apache 2.0 license.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://github.com/CenterForOpenScience/cos.io/blob/master/TERMS_OF_USE.md
+  quote: we mean sublicense, reproduce, store, transmit, distribute, and publicly display the Content
+    for non-commercial and commercial uses.
+  checked_at: '2026-11-21'
+notes: 'Read the COS Terms of Use via its GitHub source (cos.io repo, TERMS_OF_USE.md; developer.osf.io
+  is a JS docs shell). Public content may be used commercially only under the licence chosen by each project
+  administrator; content without a licence is copyrighted by default. So the verdict depends on each record
+  (user-generated content, per-item licences vary), hence ambiguous. API code is Apache 2.0 (self_host_option).
+  No rate/caching rules read. Auth: public content readable without authentication per terms, writes need
+  auth.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'COS terms grant licence to store, distribute and publicly display public Content,
+  commercially; Grant is subject to the administrator-applied licence; unlicensed content copyrighted
+  by default | applied: storage_caching=yes, redistribution_display=yes'
+license_scope: portal-default

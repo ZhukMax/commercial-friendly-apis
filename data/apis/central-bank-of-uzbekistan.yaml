@@ -1,0 +1,32 @@
+id: central-bank-of-uzbekistan
+name: Central Bank of Uzbekistan
+url: https://cbu.uz/uz/arkhiv-kursov-valyut/
+category: Currency Exchange
+description: Official exchange rates and currency conversion
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Central Bank of Uzbekistan
+  url: https://cbu.uz/uz/arkhiv-kursov-valyut/
+  category: Currency Exchange
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+evidence: []
+notes: Read https://cbu.uz/en/arkhiv-kursov-valyut/ (rates archive; JSON/XML/CSV "for webmasters" endpoints
+  exist and return data) and the site footer. No terms of use, copyright notice or reuse licence found
+  on the pages read; /en/terms-of-use and /en/about/site-rules return 404. An "Open data" section exists
+  on the site but its licence was not read. All terms unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

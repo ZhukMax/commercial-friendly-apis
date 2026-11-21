@@ -1,0 +1,74 @@
+id: ip2location-io
+name: IP2Location.io
+url: https://www.ip2location.io
+category: Geocoding
+description: Free IP geolocation API to geolocate user's location information
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: IP2Location.io
+  url: https://www.ip2location.io
+  category: Geocoding
+link_status: alive
+data_license: proprietary (IP2Location.io Web API Terms of Service)
+commercial_use: 'yes'
+storage_caching: limited
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://www.ip2location.io/terms-of-service
+api_terms_url: https://www.ip2location.io/terms-of-service
+commercial_use_scope: any
+cache_limit: Cached API data must be purged or refreshed within 30 days; purge within 7 days of termination
+attribution_text: '[Company/site/product name] uses IP2Location.io IP geolocation web service (required
+  on Free plan or keyless API; not required on paid plans)'
+share_alike: unknown
+rate_limits: 'Free: 50K IP geolocation queries/month; Starter $49: 150K; Plus $249: 300K; Security $499:
+  600K'
+notes: Read Web API Terms of Service and the pricing page (FAQ on attribution). Commercial use is within
+  the grant (business operations or integration into software applications); free plan exists with mandatory
+  attribution; the grant is "subject to payment of all applicable fees" so the free tier commercial status
+  is only implied by the attribution FAQ (medium confidence). Caching is explicitly allowed up to 30 days.
+  Only reselling raw responses as a standalone service is forbidden; displaying results on own pages is
+  not explicitly addressed, hence ambiguous. Data is the vendor's own proprietary dataset.
+evidence:
+- field: commercial_use
+  url: https://www.ip2location.io/terms-of-service
+  quote: access and query the Web API solely for Customer's internal business operations or integration
+    into Customer's software applications.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.ip2location.io/terms-of-service
+  quote: Cached Data must not be retained for more than thirty (30) consecutive calendar days from the
+    original query timestamp.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.ip2location.io/terms-of-service
+  quote: redistribute raw API responses or access credentials to third parties as a standalone service.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.ip2location.io/pricing
+  quote: attribution is required if you are subscribed to our FREE plan or using keyless API, and is currently
+    using the service.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.ip2location.io/pricing
+  quote: No attribution is required for IP2Location.io paid plans.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.ip2location.io/terms-of-service
+  quote: access and query the Web API solely for Customer's internal business operations or integration
+    into Customer's software applications.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Free-tier commercial status only implied.

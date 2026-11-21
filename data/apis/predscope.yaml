@@ -1,0 +1,30 @@
+id: predscope
+name: PredScope
+url: https://predscope.com/api/markets.json
+category: Finance
+description: Free prediction market odds and analytics data from Polymarket
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: PredScope
+  url: https://predscope.com/api/markets.json
+  category: Finance
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+notes: Read homepage, /about and /api page and api/markets.json (currently returns an empty market list). Site says all data comes from the Polymarket Gamma API; no terms, licence or API usage page found.
+  Upstream Polymarket terms may restrict redistribution and were not checked. All fields unknown.
+evidence: []
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

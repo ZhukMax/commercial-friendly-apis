@@ -1,0 +1,25 @@
+id: lanyard
+name: Lanyard
+url: https://github.com/Phineas/lanyard
+category: Social
+description: Retrieve your presence on Discord through an HTTP REST API or WebSocket
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Lanyard
+  url: https://github.com/Phineas/lanyard
+  category: Social
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

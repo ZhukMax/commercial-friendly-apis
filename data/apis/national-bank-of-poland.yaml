@@ -1,0 +1,32 @@
+id: national-bank-of-poland
+name: National Bank of Poland
+url: http://api.nbp.pl/en.html
+category: Currency Exchange
+description: A collection of currency exchange rates (data in XML and JSON)
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: National Bank of Poland
+  url: http://api.nbp.pl/en.html
+  category: Currency Exchange
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+evidence: []
+notes: Read https://api.nbp.pl/en.html (API reference; the API is HTTPS-only since 2025-08-01; limit of
+  93-day queries; no licence, terms or reuse statement). The NBP site terms page https://nbp.pl/en/terms-of-use
+  is behind an Incapsula bot wall (empty page to curl) and was not bypassed. No terms read, so unknown.
+  Official public-sector data; a reuse licence may exist on nbp.pl or dane.gov.pl but was not verified.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

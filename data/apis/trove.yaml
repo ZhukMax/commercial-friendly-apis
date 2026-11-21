@@ -1,0 +1,31 @@
+id: trove
+name: Trove
+url: https://trove.nla.gov.au/about/create-something/using-api
+category: News
+description: Search through the National Library of Australia collection of 1000s of digitised newspapers
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Trove
+  url: https://trove.nla.gov.au/about/create-something/using-api
+  category: News
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+evidence: []
+notes: 'Could not read terms: every trove.nla.gov.au page tried (using-api, policies/terms-use, api-technical-guide, using-trove-content) returns an Anubis proof-of-work bot-protection page (curl); not
+  bypassed per policy. api.trove.nla.gov.au returns 401 without a key (v1 decommissioned 2019). Trove aggregates NLA and partner-library content with per-item copyright/licensing, so terms are likely item-specific.
+  All terms left unknown. Also an API key is required (auth apiKey is correct).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

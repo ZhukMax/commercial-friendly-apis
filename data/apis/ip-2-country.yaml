@@ -1,0 +1,41 @@
+id: ip-2-country
+name: IP 2 Country
+url: https://ip2country.info
+category: Geocoding
+description: Map an IP to a country
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: IP 2 Country
+  url: https://ip2country.info
+  category: Geocoding
+- list: public-api-lists
+  name: IP 2 Country
+  url: https://ip2country.info
+  category: Geocoding
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://ip2country.info
+share_alike: unknown
+notes: Homepage says ip2country is joining ipapi.com (apilayer) and tells users to switch to ipapi.com to keep using the API, i.e. the service is being superseded (see entry ipapi-com). The homepage has
+  no terms or licence (/terms is 404); a test call to api.ip2country.info returned an Akamai "Invalid URL" error. No terms evidence, so every terms field stays unknown. The evidence quote only documents
+  the migration notice, not a terms field.
+evidence:
+- field: commercial_use
+  url: https://ip2country.info
+  quote: To keep using our API, switch to ipapi.com and get your free API key.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

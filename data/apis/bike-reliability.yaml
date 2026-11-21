@@ -1,0 +1,81 @@
+id: bike-reliability
+name: Bike Reliability
+url: https://bikereliability.co.uk/developers
+category: Vehicle
+description: UK motorcycle reliability ranked by first-time MOT pass rates
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Bike Reliability
+  url: https://bikereliability.co.uk/developers
+  category: Vehicle
+link_status: alive
+data_license: CC-BY-4.0 (derived statistics); source DVSA MOT data under OGL v3.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: high
+link_checked_at: '2026-11-21'
+data_license_url: https://bikereliability.co.uk/developers
+api_terms_url: https://bikereliability.co.uk/developers
+commercial_use_scope: any
+attribution_text: Credit "Bike Reliability" and link to bikereliability.co.uk
+rate_limits: Keyless up to 50 requests/day per IP; free API key lifts it to thousands/day
+evidence:
+- field: commercial_use
+  url: https://bikereliability.co.uk/developers
+  quote: Free to use in your apps, research and articles; all we ask is a credit and a link back.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://bikereliability.co.uk/developers
+  quote: please cache them; the statistics only change with each annual DVSA release
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://bikereliability.co.uk/developers
+  quote: Free to use in your apps, research and articles; all we ask is a credit and a link back.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://bikereliability.co.uk/developers
+  quote: all we ask is a credit and a link back
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://bikereliability.co.uk/developers
+  quote: Our derived statistics are CC BY 4.0
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://bikereliability.co.uk/developers
+  quote: 'Source data: DVSA anonymised MOT results, used under the Open Government Licence v3.0'
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://bikereliability.co.uk/developers
+  quote: keyless up to 50 requests/day per IP
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://bikereliability.co.uk/developers
+  quote: 'The only condition: show a visible dofollow link back to bikereliability.co.uk on the site or
+    app that uses the data, and keep it there.'
+  checked_at: '2026-11-21'
+notes: Read the developers page (terms and attribution section). Derived statistics CC BY 4.0 (deed cited
+  for commercial use because the page states the licence applies); source DVSA anonymised MOT results
+  under OGL v3.0, which also allows commercial use. A free API key requires a visible credit link on your
+  site (they verify the link). Underlying data are UK MOT results for motorcycles only.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'free API key (needed beyond 50 requests/day per IP) requires a visible dofollow backlink
+  that is verified and must be kept; mandatory backlink goes beyond plain credit | applied: attribution_required=yes'
+verdict_override: yellow
+override_reason: 'Second check: free API key (needed beyond 50 requests/day per IP) requires a visible
+  dofollow backlink that is verified and must be kept; mandatory backlink goes beyond plain credit'

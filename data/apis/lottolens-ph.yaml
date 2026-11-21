@@ -1,0 +1,60 @@
+id: lottolens-ph
+name: LottoLens PH
+url: https://remo65588-boop.github.io/lottolens-ph-public-data/api/
+category: Open Data
+description: Fixed Philippine PCSO historical results and normal draw schedules
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: LottoLens PH
+  url: https://remo65588-boop.github.io/lottolens-ph-public-data/api/
+  category: Open Data
+- list: public-api-lists
+  name: LottoLens PH
+  url: https://remo65588-boop.github.io/lottolens-ph-public-data/api/
+  category: Open Data
+link_status: alive
+data_license: CC-BY-4.0 (documentation, field definitions, compiled metadata only); underlying facts subject
+  to source terms
+commercial_use: ambiguous
+storage_caching: ambiguous
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://remo65588-boop.github.io/lottolens-ph-public-data/api/
+commercial_use_scope: any
+share_alike: unknown
+rate_limits: None stated (static JSON on GitHub Pages)
+evidence:
+- field: data_license
+  url: https://remo65588-boop.github.io/lottolens-ph-public-data/api/
+  quote: Original documentation, field definitions, and compiled metadata are available under CC BY 4.0.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://remo65588-boop.github.io/lottolens-ph-public-data/api/
+  quote: Underlying facts and source material remain subject to their source terms.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://remo65588-boop.github.io/lottolens-ph-public-data/api/
+  quote: The endpoints are versioned, anonymous, cacheable
+  checked_at: '2026-11-21'
+notes: Only the dataset/API landing page was read (single page; no separate ToS). CC BY 4.0 covers only
+  original documentation, field definitions and compiled metadata; the result rows derive from PCSO publications
+  whose terms are not stated and were not checked, so commercial use and display are ambiguous. Endpoints
+  described as anonymous and cacheable. Independent compilation, not an official PCSO feed; gambling-adjacent
+  content may be restricted by ad networks.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read API page, dataset page, README and LICENSE. The repo LICENSE and the schema.org
+  Dataset block declare CC BY 4.0 for the dataset, but the README and API page narrow it to documentation/metadata,
+  so the broader reading is not reliable. If CC BY applies, attribution is required (first-pass 'unknown'
+  could be 'yes'). Gambling-adjacent content may be limited by ad networks. First pass stands.

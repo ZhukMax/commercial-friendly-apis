@@ -1,0 +1,72 @@
+id: meducate
+name: Meducate
+url: https://meducateapi.com/docs
+category: Health
+description: Structured MedlinePlus health topics with ICD-11 codes
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Meducate
+  url: https://meducateapi.com/docs
+  category: Health
+link_status: alive
+data_license: proprietary (Meducate ToS); content derived by LLM from MedlinePlus and PubMed; ICD-11 codes
+  belong to WHO
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+commercial_use_scope: any
+api_terms_url: https://meducateapi.com/terms
+rate_limits: 1,000 requests/day and 60/min per API key (free tier)
+notes: 'Terms of Service and FAQ read. Commercial use is explicitly allowed on the free tier; caching
+  is explicitly encouraged. Display/redistribution is not addressed explicitly (use ''in commercial products
+  and services'' is allowed, reselling API access is not), so ambiguous. Aggregator: content is LLM-processed
+  from MedlinePlus/PubMed (upstream terms may be stricter for PubMed-derived text), and ICD-11 codes/titles
+  stay under WHO terms. No attribution requirement found.'
+evidence:
+- field: commercial_use
+  url: https://meducateapi.com/terms
+  quote: Commercial use is allowed.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://meducateapi.com/terms
+  quote: ICD-11 codes and titles belong to the World Health Organization and stay subject to its terms
+    of use.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://meducateapi.com/faq
+  quote: Can I cache the data? Yes, and you should.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://meducateapi.com/terms
+  quote: You may use Meducate API, including the free tier, in commercial products and services, within
+    the rate limits and the rules above.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://meducateapi.com/docs
+  quote: 1,000 requests per day per API key
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.who.int/standards/classifications/classification-of-diseases
+  quote: ICD-11 is distributed under Creative Commons Attribution-NoDerivs 3.0 IGO license.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://meducateapi.com/terms
+  quote: You may use Meducate API, including the free tier, in commercial products and services
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'ICD-11 content is CC BY-ND 3.0 IGO: attribution required (first pass: unknown); Commercial
+  use and caching confirmed explicitly in ToS and FAQ; Upstream MedlinePlus topic summaries are public
+  domain; PubMed abstract text may be publisher-copyrighted | applied: attribution_required=yes'

@@ -1,0 +1,32 @@
+id: iex
+name: IEX
+url: https://iextrading.com/developer/
+category: Finance
+description: Realtime stock data
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: IEX
+  url: https://iextrading.com/developer/
+  category: Finance
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://www.iex.io/products/market-data-connectivity
+api_terms_url: https://www.iex.io/legal/terms
+notes: iextrading.com/developer/ now 301-redirects to the IEX Exchange "Market Data & Connectivity" page (exchange feeds TOPS/DEEP, fee-liable, vendor program). That page does not say it replaces or continues
+  the old free IEX developer API, so nothing was transferred from it; terms for the original API could not be read. Exchange market data carries redistribution/fee rules (IEX Data Subscriber Agreement exists
+  but covers the paid exchange feeds, not this API). All terms unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

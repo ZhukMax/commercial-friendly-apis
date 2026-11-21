@@ -1,0 +1,30 @@
+id: amadeus-for-developers
+name: Amadeus for Developers
+url: https://developers.amadeus.com/self-service
+category: Transportation
+description: Travel Search - Limited usage
+description_source: upstream
+auth: OAuth
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Amadeus for Developers
+  url: https://developers.amadeus.com/self-service
+  category: Transportation
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: Self-service portal decommissioned (developers.amadeus.com now Enterprise only)
+notes: 'developers.amadeus.com (read via Playwright) announces: Amadeus for Developers self-service portal has been decommissioned on July 17th; site is for the Enterprise API Portal only. The self-service
+  API in this entry is gone; terms left unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

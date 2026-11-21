@@ -1,0 +1,74 @@
+id: news
+name: News
+url: https://newsapi.org/
+category: News
+description: Headlines currently published on a range of news sources and blogs
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: News
+  url: https://newsapi.org/
+  category: News
+- list: public-api-lists
+  name: News
+  url: https://newsapi.org/
+  category: News
+link_status: alive
+data_license: proprietary (News API ToS; third-party article content not licensed)
+commercial_use: paid-only
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://newsapi.org/terms
+api_terms_url: https://newsapi.org/terms
+commercial_use_scope: paid
+rate_limits: 'Developer: 100 requests/day, 24h delay (dev/test only); Business 250,000/month; Advanced
+  2,000,000/month'
+evidence:
+- field: commercial_use
+  url: https://newsapi.org/terms
+  quote: The Developer plan may be used for development and testing in a development environment only,
+    and cannot be used in a staging or production environment
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://newsapi.org/pricing
+  quote: For production and published commercial projects.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://newsapi.org/terms
+  quote: Data accessible through News API may contain third party content (such as text, images, videos).
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://newsapi.org/terms
+  quote: If this is the case you may not use it unless you are licensed to do so or are otherwise permitted
+    by law.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://newsapi.org/terms
+  quote: attempt to build a competing news database.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://newsapi.org/terms
+  quote: Data accessible through News API may contain third party content (such as text, images, videos).
+  checked_at: '2026-11-21'
+notes: 'Free Developer plan is for development and testing only (no staging/production), so any public
+  site with ads needs a paid plan (Business/Advanced). Terms (Apr 2020): Data may contain third-party
+  text/images/video that you may not use unless licensed; users may not republish copyrighted material
+  via the service, nor remove author attributions or source labels; building a competing news database
+  is forbidden. Aggregator of publisher content, so upstream rights may be stricter, hence redistribution_display=ambiguous
+  (headlines/links vs full content unclear). Storage/caching is not addressed except the competing-database
+  ban, so storage_caching stays unknown (that quote is recorded only as context). Pages read: newsapi.org/terms
+  and /pricing via curl.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read terms and pricing; unchanged.

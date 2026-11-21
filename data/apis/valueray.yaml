@@ -1,0 +1,36 @@
+id: valueray
+name: ValueRay
+url: https://www.valueray.com/api
+category: Finance
+description: Quantitative and sentiment data for stocks and ETFs
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: ValueRay
+  url: https://www.valueray.com/api
+  category: Finance
+link_status: alive
+data_license: proprietary
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+data_license_url: https://www.valueray.com/api/v1/openapi.yaml
+api_terms_url: https://www.valueray.com/api
+evidence:
+- field: data_license
+  url: https://www.valueray.com/api/v1/openapi.yaml
+  quote: 'name: Proprietary'
+  checked_at: '2026-11-21'
+notes: 'No terms of use page found (about/terms 404; only imprint, privacy, cookies). The OpenAPI spec lists licence "Proprietary" and the site says data is for informational purposes only, not
+  for trading or advice, and may be delayed or inaccurate. Free account with token and per-endpoint limits (e.g. 50 req/day). No statement on commercial use, storage, display or attribution: unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -1,0 +1,30 @@
+id: hirak-exchange-rates
+name: Hirak Exchange Rates
+url: https://rates.hirak.site/
+category: Cryptocurrency
+description: Exchange rates between 162 currency & 300 crypto currency update each 5 min, accurate, no
+  limits
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Hirak Exchange Rates
+  url: https://rates.hirak.site/
+  category: Cryptocurrency
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+notes: 'rates.hirak.site no longer serves an API: curl gets a 401 parked-domain page, and the browser
+  lands on an unrelated advertising article site. Treated as dead. No terms read; all terms fields unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

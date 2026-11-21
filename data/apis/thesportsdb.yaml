@@ -1,0 +1,30 @@
+id: thesportsdb
+name: TheSportsDB
+url: https://www.thesportsdb.com/api.php
+category: Sports & Fitness
+description: Crowd-Sourced Sports Data and Artwork
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: TheSportsDB
+  url: https://www.thesportsdb.com/api.php
+  category: Sports & Fitness
+- list: public-api-lists
+  name: TheSportsDB
+  url: https://www.thesportsdb.com/api.php
+  category: Sports & Fitness
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: ConnectError

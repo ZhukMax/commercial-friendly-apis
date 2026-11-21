@@ -1,0 +1,71 @@
+id: what3words
+name: What3Words
+url: https://what3words.com
+category: Geocoding
+description: Three words as rememberable and unique coordinates worldwide
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: What3Words
+  url: https://what3words.com
+  category: Geocoding
+link_status: redirect
+data_license: unknown
+commercial_use: paid-only
+storage_caching: limited
+redistribution_display: ambiguous
+attribution_required: ambiguous
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: -> https://what3words.com/rust.class.monopoly?redirect=true
+api_terms_url: https://what3words.com/api-licence-agreement
+commercial_use_scope: paid
+cache_limit: '3-word addresses without coordinates: unlimited; with coordinates only under conditions
+  (e.g. up to 100M, only if strictly necessary); no caching that circumvents API requests'
+share_alike: unknown
+rate_limits: 'Free plan: AutoSuggest only, 5 requests/second; conversions need a paid Business plan (from
+  US$9.99/month)'
+evidence:
+- field: commercial_use
+  url: https://what3words.com/api-licence-agreement
+  quote: which does not allow for any convert-to-coordinates or convert to 3 Word Address requests
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://what3words.com/api-licence-agreement
+  quote: You may store an unlimited number of 3 Word Addresses without their corresponding coordinates.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://what3words.com/api-licence-agreement
+  quote: You must not store, pre-fetch, cache, index, copy, re-utilise, extract, incorporate or utilise
+    any what3words Data
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://what3words.com/api-licence-agreement
+  quote: you must not display, or otherwise share with any third party, any 3 Word Address alongside its
+    corresponding coordinates
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://what3words.com/api-licence-agreement
+  quote: You agree to communicate how the functionality of the API works in Your Products to your end
+    users in accordance with what3words' reasonable instructions
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://what3words.com/pricing
+  quote: Limited to 5 AutoSuggest requests per second.
+  checked_at: '2026-11-21'
+notes: Read the what3words API Licence Agreement (redirect from api-terms) and pricing page. The free
+  plan allows no coordinate conversion; useful conversions need a paid Business plan. Licence allows developing/displaying
+  apps and websites, but 3 word addresses must not be shown together with coordinates, storage is restricted,
+  and what3words may give 'reasonable instructions' on how to communicate the API (attribution wording
+  not read in detail). Consumer terms at /terms do not govern the API and were not used for verdicts.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read the API licence agreement in full for clauses 4-7. yellow stands.

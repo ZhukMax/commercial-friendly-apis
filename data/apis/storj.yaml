@@ -1,0 +1,26 @@
+id: storj
+name: Storj
+url: https://docs.storj.io/dcs/
+category: Cloud Storage & File Sharing
+description: Decentralized Open-Source Cloud Storage
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Storj
+  url: https://docs.storj.io/dcs/
+  category: Cloud Storage & File Sharing
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://storj.dev/

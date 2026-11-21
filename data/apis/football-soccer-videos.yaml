@@ -1,0 +1,64 @@
+id: football-soccer-videos
+name: Football (Soccer) Videos
+url: https://www.scorebat.com/video-api/
+category: Sports & Fitness
+description: Embed codes for goals and highlights from Premier League, Bundesliga, Serie A and many more
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Football (Soccer) Videos
+  url: https://www.scorebat.com/video-api/
+  category: Sports & Fitness
+- list: public-api-lists
+  name: Football (Soccer) Videos
+  url: https://www.scorebat.com/video-api/
+  category: Sports & Fitness
+link_status: alive
+data_license: Proprietary (ScoreBat Terms of Use); video embeds from third-party publishers
+commercial_use: 'yes'
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://www.scorebat.com/terms/
+api_terms_url: https://www.scorebat.com/terms/
+commercial_use_scope: any
+cache_limit: Cache only as reasonably necessary for the integration; no permanent independent archive
+attribution_text: Keep supplied ScoreBat branding/links in embeds (branding can be removed only on plans that include it)
+share_alike: unknown
+rate_limits: 'Credit-based: Starter 5,000 credits/month ($69), Standard 20,000, Advanced 100,000; paid feed request = 5 credits; Free Feed returns older videos only'
+notes: 'Read Terms of Use (updated 7 Nov 2026), the Video API overview and docs (API v3, token auth; the old keyless /video-api/v3 JSON is deprecated, so auth changed from none to apiKey). Sections 5-7
+  grant a limited permission to embed widgets/players and use documented APIs on websites/apps you operate, expressly including commercial ones; free access has feature, advertising and branding restrictions
+  (Free Feed gives only older videos, fresh videos need a paid plan from $69/mo; ScoreBat branding visible on Starter, removed on Standard+). Caching for the integration is allowed but not a permanent archive;
+  no resale of responses as a feed/database/API, no ML training, no rehosting/downloading/rebroadcasting of videos. Aggregator of embeds from league/club official channels and external platforms: videos
+  remain third-party rights, availability and geo limits are set by those providers, and extra third-party terms must be respected (upstream rights stricter). Playwright was used to read the JS pages.'
+evidence:
+- field: commercial_use
+  url: https://www.scorebat.com/terms/
+  quote: This includes commercial websites and apps.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.scorebat.com/terms/
+  quote: A cache is not a licence to maintain a permanent independent archive or continue paid access after your entitlement ends.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.scorebat.com/terms/
+  quote: These restrictions do not prohibit the normal display of content in an authorised website or app
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.scorebat.com/terms/
+  quote: Keep required attribution, links, notices, controls and advertising visible and functional.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.scorebat.com/terms/
+  quote: Access to an embed or API response does not grant ownership of a video or permission to download, rehost, edit, sell or rebroadcast it.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

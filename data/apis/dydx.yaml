@@ -1,0 +1,32 @@
+id: dydx
+name: dYdX
+url: https://docs.dydx.exchange/
+category: Cryptocurrency
+description: Decentralized cryptocurrency exchange
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: dYdX
+  url: https://docs.dydx.exchange/
+  category: Cryptocurrency
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://docs.dydx.xyz
+api_terms_url: https://dydx.exchange/terms
+evidence: []
+notes: 'Pages read: docs.dydx.xyz (redirect target) and dydx.exchange/terms. The Terms cover the dYdX front-end/software and trading, with no clause on use, caching or display of Indexer API market data;
+  the docs home has no licence or terms section. Decentralised protocol with open-source software, so data terms are undefined rather than restrictive. All fields unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

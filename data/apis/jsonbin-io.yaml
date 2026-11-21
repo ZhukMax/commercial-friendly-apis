@@ -1,0 +1,29 @@
+id: jsonbin-io
+name: JSONbin.io
+url: https://jsonbin.io
+category: Development
+description: Free JSON storage service. Ideal for small scale Web apps, Websites and Mobile apps
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: JSONbin.io
+  url: https://jsonbin.io
+  category: Development
+- list: public-api-lists
+  name: JSONbin.io
+  url: https://jsonbin.io
+  category: Development
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

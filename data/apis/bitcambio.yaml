@@ -1,0 +1,30 @@
+id: bitcambio
+name: Bitcambio
+url: https://nova.bitcambio.com.br/api/v3/docs
+category: Cryptocurrency
+description: Get the list of all traded assets in the exchange
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Bitcambio
+  url: https://nova.bitcambio.com.br/api/v3/docs#a-public
+  category: Cryptocurrency
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: HTTP 403 (blocked for bots, assumed alive)
+notes: 'Docs URL blocked: curl 403, browser shows Cloudflare error 1014 (CNAME cross-user banned); www.bitcambio.com.br/termos
+  404. No terms read, not bypassed. All terms fields unknown. Exchange market data may carry its own limits.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

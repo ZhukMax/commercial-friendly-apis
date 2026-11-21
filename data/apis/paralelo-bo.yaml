@@ -1,0 +1,67 @@
+id: paralelo-bo
+name: paralelo.bo
+url: https://paralelo.bo/api
+category: Currency Exchange
+description: Bolivia parallel-market USD/BOB exchange rate, aggregated from P2P sources every 60s
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: paralelo.bo
+  url: https://paralelo.bo/api
+  category: Currency Exchange
+link_status: alive
+data_license: CC-BY-4.0
+commercial_use: ambiguous
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://creativecommons.org/licenses/by/4.0/
+commercial_use_scope: any
+attribution_text: Cite as "paralelo.bo (https://paralelo.bo)"
+api_terms_url: https://paralelo.bo/api
+evidence:
+- field: data_license
+  url: https://paralelo.bo/api
+  quote: Datos bajo CC-BY 4.0. Cite como “paralelo.bo (https://paralelo.bo)”
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://paralelo.bo/api
+  quote: Datos bajo CC-BY 4.0. Cite como “paralelo.bo (https://paralelo.bo)”
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://paralelo.bo/api
+  quote: Para integraciones comerciales o límites más altos, escríbanos
+  checked_at: '2026-11-21'
+notes: 'paralelo.bo/api states the data is CC BY 4.0 (cite ''paralelo.bo (https://paralelo.bo)''); commercial
+  use, copying/storage and redistribution follow from the CC BY 4.0 deed, cited only together with the
+  site''s own statement that the licence applies. No separate ToS page found (/terminos is 404). Doubts:
+  the rate is a cross-source median of P2P quotes from Binance, Bybit and Bitget (upstream terms not checked
+  and may be stricter); the page also says commercial integrations or higher limits should contact info@paralelo.bo;
+  the licence claim is made on the docs page only.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'page itself says commercial integrations should contact the operator, conflicting
+  with ''any purpose'' CC BY; rate is a median of Binance/Bybit/Bitget P2P quotes, upstream terms unread;
+  licence stated only on docs page, no ToS | applied: commercial_use=ambiguous'

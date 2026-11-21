@@ -1,0 +1,43 @@
+id: moov
+name: Moov
+url: https://docs.moov.io/api/
+category: Finance
+description: The Moov API makes it simple for platforms to send, receive, and store money
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Moov
+  url: https://docs.moov.io/api/
+  category: Finance
+link_status: alive
+data_license: unknown
+commercial_use: 'yes'
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://moov.io/legal/platform-agreement/
+commercial_use_scope: any
+evidence:
+- field: commercial_use
+  url: https://moov.io/legal/platform-agreement/
+  quote: any Person that establishes a Moov Account to access and use the Moov Services for commercial
+    or business purposes
+  checked_at: '2026-11-21'
+notes: Moov is a payments platform (accounts, transfers), not a data feed. The Platform Agreement (Commercial
+  User Terms, Consumer User Terms, service terms) applies to anyone with a Moov Account; commercial/business
+  users are explicitly covered, but the agreement is a contractual financial-services contract with KYC/onboarding.
+  No data licence, caching or display terms apply in the content-licensing sense, so those fields are
+  unknown. Individual terms documents were not read in full.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

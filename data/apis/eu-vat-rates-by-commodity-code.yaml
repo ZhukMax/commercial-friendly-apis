@@ -1,0 +1,67 @@
+id: eu-vat-rates-by-commodity-code
+name: EU VAT Rates by Commodity Code
+url: https://github.com/humora2504/eu-vat-by-commodity-code
+category: Government
+description: EU VAT rates mapped to CN and CPA commodity codes, all 27 member states
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: EU VAT Rates by Commodity Code
+  url: https://github.com/humora2504/eu-vat-by-commodity-code
+  category: Government
+link_status: alive
+data_license: CC-BY-4.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: 'yes'
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://creativecommons.org/licenses/by/4.0/
+api_terms_url: https://humora2504.github.io/eu-vat-by-commodity-code/commercial.html
+commercial_use_scope: any
+attribution_text: '© European Union, source: DG TAXUD TEDB'
+share_alike: unknown
+evidence:
+- field: data_license
+  url: https://humora2504.github.io/eu-vat-by-commodity-code/commercial.html
+  quote: You already have permission to use it commercially, under CC BY 4.0, and nothing here changes
+    that.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://raw.githubusercontent.com/humora2504/eu-vat-by-commodity-code/main/README.md
+  quote: You may already use it commercially, for free, today.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: You must give appropriate credit , provide a link to the license, and indicate if changes were
+    made .
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://humora2504.github.io/eu-vat-by-commodity-code/commercial.html
+  quote: You can curl the JSON today, for nothing, and build on it.
+  checked_at: '2026-11-21'
+notes: Project is a static JSON/file repo (no hosted API terms beyond the README and the 'Support plan'
+  page); data stated as CC BY 4.0 under Commission Decision 2011/833/EU, scripts MIT; paid plan (EUR 29)
+  only adds a filtered change feed. Storage/display rely on the CC BY 4.0 deed text. The upstream EU TEDB
+  terms and the Commission decision were not read; the repo's claim is taken as stated. Not tax advice.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Third-party repackaging of EC TEDB data; upstream TEDB page not individually read.
+  Attribution text: (c) European Union, source: DG TAXUD TEDB.'

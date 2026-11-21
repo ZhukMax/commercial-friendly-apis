@@ -1,0 +1,48 @@
+id: cleartrace
+name: ClearTrace
+url: https://cleartracedata.com/docs
+category: Blockchain
+description: Cross-frontend DEX attribution and execution quality data across Ethereum and L2s
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: ClearTrace
+  url: https://cleartracedata.com/docs
+  category: Blockchain
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+attribution_text: Attribute ClearTrace when using its data
+api_terms_url: https://cleartracedata.com/terms.html
+evidence:
+- field: attribution_required
+  url: https://cleartracedata.com/terms.html
+  quote: Properly attribute ClearTrace when using our data
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://cleartracedata.com/terms.html
+  quote: Not resell or redistribute API data without permission
+  checked_at: '2026-11-21'
+notes: 'Terms of Service (updated 2026-10-28, /terms.html; the OpenAPI docs page at /docs is a JS app
+  read via Playwright): API users must comply with rate limits, not resell or redistribute API data without
+  permission, and attribute ClearTrace; no statement on commercial use or caching, and the homepage mentions
+  an ''open dataset'' without a licence. Data is on-chain analytics built on third-party providers (Dune
+  Analytics, DefiLlama, Polymarket per ToS section 7, and a Dune price feed), whose terms may be stricter;
+  ''public blockchain data'' is excluded from ClearTrace IP. Whether showing figures on a commercial page
+  counts as ''redistribute'' is unclear (ambiguous). Free API key gives higher rate limits.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: ToS sec.5 and sec.7 re-read at cleartracedata.com/terms.html; verdict unknown stands.

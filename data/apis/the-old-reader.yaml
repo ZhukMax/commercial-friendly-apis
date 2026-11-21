@@ -1,0 +1,52 @@
+id: the-old-reader
+name: The Old Reader
+url: https://github.com/theoldreader/api
+category: News
+description: RSS reader
+description_source: upstream
+auth: other
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: The Old Reader
+  url: https://github.com/theoldreader/api
+  category: News
+- list: public-api-lists
+  name: The Old Reader
+  url: https://github.com/theoldreader/api
+  category: News
+link_status: alive
+data_license: proprietary (third-party feed content owned by authors)
+commercial_use: 'no'
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://www.theoldreader.com/en/tos/
+api_terms_url: https://www.theoldreader.com/en/tos/
+commercial_use_scope: any
+evidence:
+- field: commercial_use
+  url: https://www.theoldreader.com/en/tos/
+  quote: The Service is intended only for your personal, non-commercial use.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.theoldreader.com/en/tos/
+  quote: The terms governing your use of such content are set by those authors, and may be found on the
+    website from which the content originates.
+  checked_at: '2026-11-21'
+notes: 'Not a data source: account-scoped API of an RSS reader (Google Reader-style ClientLogin token,
+  tied to a user account and its own subscriptions; README: token needs a user email/password). The Old
+  Reader ToS (www.theoldreader.com/en/tos/) says the Service is for personal non-commercial use, and that
+  feed content belongs to its authors who set the terms. Storage and display on a public site not addressed:
+  unknown. GitHub README read too (no licence/terms there).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

@@ -1,0 +1,35 @@
+id: tle
+name: TLE
+url: https://tle.ivanstanojevic.me/#/docs
+category: Science & Math
+description: Satellite information
+description_source: upstream
+auth: none
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: TLE
+  url: https://tle.ivanstanojevic.me/#/docs
+  category: Science & Math
+link_status: alive
+data_license: GPL-3.0 (source code only); data comes from CelesTrak
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+evidence:
+- field: data_license
+  url: https://raw.githubusercontent.com/ivanstan/tle-api/master/README.md
+  quote: the data is updated daily from [CelesTrak](https://celestrak.com/) and served in JSON format.
+  checked_at: '2026-11-21'
+notes: 'The docs site (tle.ivanstanojevic.me) returns "Not Acceptable" to curl (even with Accept: text/html), so only the GitHub README was read. It says the data is refreshed daily from CelesTrak; the
+  repo code is GPL-3.0 (GitHub metadata; code licence, not data terms). No terms of use for the hosted API were found, and CelesTrak''s own usage policy (upstream, possibly stricter) was not read in this
+  session. All core fields unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

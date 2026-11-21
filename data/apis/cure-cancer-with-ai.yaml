@@ -1,0 +1,70 @@
+id: cure-cancer-with-ai
+name: Cure Cancer With AI
+url: https://www.curecancerwithai.com/developers
+category: Health
+description: Oncology research, clinical trials, FDA approvals, news, and MAMMAL predictions
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Cure Cancer With AI
+  url: https://www.curecancerwithai.com/developers
+  category: Health
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: 'no'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.curecancerwithai.com/terms-of-use
+rate_limits: Free tier 100 requests/hour per key
+evidence:
+- field: commercial_use
+  url: https://www.curecancerwithai.com/terms-of-use
+  quote: Use the materials for any commercial purpose or for any public display
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.curecancerwithai.com/terms-of-use
+  quote: Transfer the materials to another person or "mirror" the materials on any other server
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.curecancerwithai.com/developers
+  quote: The API is free to use — you just need a free API key
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://www.curecancerwithai.com/developers
+  quote: The free tier allows 100 requests per hour, per key (rolling window).
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.curecancerwithai.com/terms-of-use
+  quote: Permission is granted to temporarily access the materials on curecancerwithai.com for personal,
+    non-commercial transitory viewing only.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.curecancerwithai.com/terms-of-use
+  quote: Use the materials for any commercial purpose or for any public display
+  checked_at: '2026-11-21'
+notes: 'Read /developers and /terms-of-use. The developer page offers a free API key but states no licence,
+  commercial-use, caching or attribution terms for the data. The website Terms of Use (2025) grant only
+  personal non-commercial viewing and forbid commercial purpose, public display, copying and mirroring
+  of the site''s materials; it is unclear whether this covers API data, so ambiguous (leans restrictive).
+  Aggregator: research papers from PubMed/NCBI, FDA approvals, clinical trials (ClinicalTrials.gov), IBM
+  MAMMAL and Moore Metrics predictions, so upstream terms (and the third-party model terms) may be stricter
+  or different. Sign-in required for the key.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'The only terms found (site Terms of Use, Jan 2025) grant personal non-commercial viewing
+  only and forbid commercial purpose, public display, copying and mirroring; /developers page grants a
+  free key but gives no separate API licence, so the website terms are the only governing text; News endpoint
+  republishes third-party publisher RSS content and research endpoint carries PubMed abstracts that are
+  publisher-copyrighted; upstream is stricter or unlicensed | applied: commercial_use=ambiguous (suggested
+  no, needs human review), redistribution_display=no'

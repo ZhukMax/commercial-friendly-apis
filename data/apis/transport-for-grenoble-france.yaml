@@ -1,0 +1,73 @@
+id: transport-for-grenoble-france
+name: Transport for Grenoble, France
+url: https://www.mobilites-m.fr/pages/opendata/OpenDataApi.html
+category: Transportation
+description: Grenoble public transport
+description_source: upstream
+auth: none
+https: false
+cors: 'no'
+sources:
+- list: public-apis
+  name: Transport for Grenoble, France
+  url: https://www.mobilites-m.fr/pages/opendata/OpenDataApi.html
+  category: Transportation
+link_status: alive
+data_license: ODbL-1.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://opendatacommons.org/licenses/odbl/1-0/
+api_terms_url: https://data.mobilites-m.fr/donnees
+commercial_use_scope: any
+share_alike: 'yes'
+attribution_text: 'ODbL notice: credit the source (SMMAG / M data) and keep the ODbL notice; share derivative
+  databases under ODbL.'
+evidence:
+- field: data_license
+  url: https://data.mobilites-m.fr/donnees
+  quote: bien que leur utilisation soit libre, il convient d'en respecter la licence licence ODbL.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://data.mobilites-m.fr/mentions-legales
+  quote: sont soumises à l'acceptation de la licence ODbL.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://opendatacommons.org/licenses/odbl/1-0/
+  quote: These rights explicitly include commercial use, and do not exclude any field of endeavour.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://opendatacommons.org/licenses/odbl/1-0/
+  quote: Creation of temporary or permanent reproductions by any means and in any form, in whole or in
+    part
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://opendatacommons.org/licenses/odbl/1-0/
+  quote: Distribution, communication, display, lending, making available, or performance to the public
+    by any means and in any form
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://opendatacommons.org/licenses/odbl/1-0/
+  quote: Include a copy of this License (or, as applicable, a license permitted under Section 4.4) or
+    its Uniform Resource Identifier (URI)
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://opendatacommons.org/licenses/odbl/1-0/
+  quote: 'Any Derivative Database that You Publicly Use must be only under the terms of: i. This License;'
+  checked_at: '2026-11-21'
+notes: 'The old URL (mobilites-m.fr/pages/opendata/OpenDataApi.html) now shows a "page not found"; the
+  open-data portal is https://data.mobilites-m.fr (read via fresh Playwright context, JS site). Portal
+  states data of SMMAG (Grenoble) are under ODbL; ODbL 1.0 text read at opendatacommons.org. ODbL: commercial
+  use OK, attribution + share-alike for derivative databases (produced works need a notice). Per-dataset
+  licences were not checked and the portal says data come from heterogeneous providers, so confidence
+  is medium. The API mixes static and real-time data; OpenTripPlanner routing endpoints are part of the
+  same API.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+license_scope: portal-default

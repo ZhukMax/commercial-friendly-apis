@@ -1,0 +1,66 @@
+id: city-toronto-open-data
+name: City, Toronto Open Data
+url: https://open.toronto.ca/
+category: Government
+description: Toronto (CA) City Open Data
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: City, Toronto Open Data
+  url: https://open.toronto.ca/
+  category: Government
+link_status: alive
+data_license: Open Government Licence - Toronto
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://open.toronto.ca/open-data-licence/
+api_terms_url: https://open.toronto.ca/open-data-licence/
+commercial_use_scope: any
+attribution_text: Contains information licensed under the Open Government Licence – Toronto.
+notes: Read the Open Government Licence - Toronto page (licence for datasets on the portal). Excludes
+  personal information and anything not covered by the licence; individual datasets may have a different
+  Information Provider/attribution statement. Portal-level terms of the CKAN API (rate limits) not read.
+  Storage inferred from "copy ... use the Information in any medium"; share-alike not addressed explicitly.
+evidence:
+- field: commercial_use
+  url: https://open.toronto.ca/open-data-licence/
+  quote: grants you a worldwide, royalty-free, perpetual, non-exclusive licence to use the Information,
+    including for commercial purposes
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://open.toronto.ca/open-data-licence/
+  quote: grants you a worldwide, royalty-free, perpetual, non-exclusive licence to use the Information,
+    including for commercial purposes
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://open.toronto.ca/open-data-licence/
+  quote: Copy, modify, publish, translate, adapt, distribute or otherwise use the Information in any medium,
+    mode or format for any lawful purpose.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://open.toronto.ca/open-data-licence/
+  quote: Copy, modify, publish, translate, adapt, distribute or otherwise use the Information in any medium,
+    mode or format for any lawful purpose.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://open.toronto.ca/open-data-licence/
+  quote: Acknowledge the source of the Information by including any attribution statement specified by
+    the Information Provider
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+share_alike: unknown
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Per-dataset providers may specify attribution; CKAN API rate terms not found.
+license_scope: portal-default

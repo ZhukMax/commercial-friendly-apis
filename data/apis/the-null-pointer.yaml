@@ -1,0 +1,26 @@
+id: the-null-pointer
+name: The Null Pointer
+url: https://0x0.st
+category: Cloud Storage & File Sharing
+description: No-bullshit file hosting and URL shortening service
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: The Null Pointer
+  url: https://0x0.st
+  category: Cloud Storage & File Sharing
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: HTTP 500

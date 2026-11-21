@@ -1,0 +1,67 @@
+id: recreation-information-database
+name: Recreation Information Database
+url: https://ridb.recreation.gov/
+category: Open Data
+description: Recreational areas, federal lands, historic sites, museums, and other attractions/resources(US)
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Recreation Information Database
+  url: https://ridb.recreation.gov/
+  category: Open Data
+- list: public-api-lists
+  name: Recreation Information Database
+  url: https://ridb.recreation.gov/
+  category: Open Data
+link_status: alive
+data_license: US Government data provided via API; no explicit licence stated
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: 'no'
+bulk_download: 'yes'
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://ridb.recreation.gov/access-agreement-ridb
+commercial_use_scope: any
+attribution_text: Encouraged (not required) to link to recreation.gov or cite ridb.recreation.gov
+rate_limits: Vendor may impose call limits and fees for high-frequency calls
+evidence:
+- field: attribution_required
+  url: https://ridb.recreation.gov/access-agreement-ridb
+  quote: You are encouraged to provide a link to recreation.gov or otherwise identify the data source,
+    ridb.recreation.gov
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://ridb.recreation.gov/access-agreement-ridb
+  quote: You acknowledge that the content of Responses is provided by the United States Government
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://ridb.recreation.gov/access-agreement-ridb
+  quote: to impose limits on the number or rate of Calls, or to impose fees for high-frequency Calls
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://ridb.recreation.gov/download
+  quote: To download all the RIDB recreation area, facility, and site level data in CSV or JSON format
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://ridb.recreation.gov/access-agreement-ridb
+  quote: You acknowledge that the content of Responses is provided by the United States Government
+  checked_at: '2026-11-21'
+notes: 'The portal is a JS app; read with Playwright: /download and the RIDB API Access Agreement (https://ridb.recreation.gov/access-agreement-ridb).
+  Agreement is between user and API vendor (Booz Allen Hamilton for the Forest Service). It does not explicitly
+  allow or forbid commercial use, caching or display; it forbids copying/distributing the API Vendor Materials
+  (API, documentation, key), sharing the key, building a substitute API, implying government endorsement,
+  misrepresenting the source, and using the data with content about gambling, tobacco, drugs, etc. Daily
+  CSV/JSON bulk download and historical reservation files are offered. Core fields not confirmed, so ambiguous/unknown;
+  a data licence for the content (US government data) is not stated. Requires API key.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Low confidence retained; US gov data presumably public domain but not stated.

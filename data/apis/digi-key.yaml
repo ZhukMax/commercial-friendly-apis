@@ -1,0 +1,32 @@
+id: digi-key
+name: Digi-Key
+url: https://www.digikey.com/en/resources/api-solutions
+category: Shopping
+description: Retrieve price and inventory of electronic components as well as place orders
+description_source: upstream
+auth: OAuth
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Digi-Key
+  url: https://www.digikey.com/en/resources/api-solutions
+  category: Shopping
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: HTTP 403 (blocked for bots, assumed alive)
+notes: Digi-Key pages (www.digikey.com API solutions, developer.digikey.com terms) sit behind a Cloudflare
+  'Just a moment' challenge for curl; not bypassed, so no terms could be read. All core fields unknown.
+  Entry is a distributor API (price/inventory, orders, OAuth) and Digi-Key API terms are known to be account-specific;
+  unverified here.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

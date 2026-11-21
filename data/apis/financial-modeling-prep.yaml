@@ -1,0 +1,54 @@
+id: financial-modeling-prep
+name: Financial Modeling Prep
+url: https://site.financialmodelingprep.com/developer/docs
+category: Finance
+description: Realtime and historical stock data
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Financial Modeling Prep
+  url: https://site.financialmodelingprep.com/developer/docs
+  category: Finance
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: 'no'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://site.financialmodelingprep.com/terms-of-service
+evidence:
+- field: commercial_use
+  url: https://site.financialmodelingprep.com/terms-of-service
+  quote: Customer may not use the Data or Services for any Commercial Use.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://site.financialmodelingprep.com/terms-of-service
+  quote: Without a specific agreement with FMP, customers are prohibited from showcasing FMP Services
+    or Data on platforms including but not limited to websites
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://site.financialmodelingprep.com/pricing-plans
+  quote: Displaying or redistributing data sourced from FMP requires a specific Data Display and Licensing
+    Agreement with FMP.
+  checked_at: '2026-11-21'
+notes: 'Terms of Service (last updated 2023-08-01, read via Playwright because curl gets 403) describe
+  only a Personal Use licence: no commercial use, no showing data on websites/apps for others, no copying/downloading,
+  unless there is a specific agreement with FMP. Paid business/commercial plans, order forms and their
+  display rights were NOT read, so commercial_use and display are ambiguous rather than no (do not read
+  this as proof that a commercial licence is impossible). Data is also sourced from exchanges/third parties.
+  Storage left unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Pricing page says displaying or redistributing FMP data needs a separate Data Display
+  and Licensing Agreement; ToS Data Display clause bans showing data on websites without specific agreement,
+  free or paid | applied: redistribution_display=no'

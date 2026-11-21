@@ -1,0 +1,40 @@
+id: datacube-ai
+name: DataCube AI
+url: https://www.datacubeai.space/en/tools/ai-news-api
+category: News
+description: Daily curated AI industry news, funding rounds and trends in 8 languages
+description_source: upstream
+auth: none
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: DataCube AI
+  url: https://www.datacubeai.space/en/tools/ai-news-api
+  category: News
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.datacubeai.space/en/tools/ai-news-api
+evidence:
+- field: commercial_use
+  url: https://www.datacubeai.space/en/tools/ai-news-api
+  quote: Please use it fairly; for heavy commercial use, get in touch with us.
+  checked_at: '2026-11-21'
+notes: Only the product page was read; no terms of service or licence page found. The FAQ implies light
+  commercial use is acceptable and heavy commercial use needs contact, hence ambiguous. Content is aggregated
+  from 35+ third-party sources (TechCrunch, Ars Technica, Reddit, YouTube etc.), whose terms may be stricter;
+  stock endpoints are paused for market-data licensing review. Caching/display not addressed.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: No licence or terms page found.

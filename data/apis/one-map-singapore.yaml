@@ -1,0 +1,68 @@
+id: one-map-singapore
+name: One Map, Singapore
+url: https://www.onemap.gov.sg/docs/
+category: Geocoding
+description: Singapore Land Authority REST API services for Singapore addresses
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: One Map, Singapore
+  url: https://www.onemap.gov.sg/docs/
+  category: Geocoding
+link_status: redirect
+data_license: Singapore Open Data Licence v1.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: -> https://www.onemap.gov.sg/apidocs/
+api_terms_url: https://www.onemap.gov.sg/legal/apitermsofservice.html
+data_license_url: https://www.onemap.gov.sg/legal/opendatalicence.html
+commercial_use_scope: any
+attribution_text: Contains information from {dataset} accessed on {date} from {source} which is made available
+  under the terms of the Singapore Open Data Licence version 1.0 {link}
+evidence:
+- field: data_license
+  url: https://www.onemap.gov.sg/legal/opendatalicence.html
+  quote: Singapore Open Data Licence version 1.0
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.onemap.gov.sg/legal/apitermsofservice.html
+  quote: You can use, access, call, command, query or request the API, whether commercially or non-commercially
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.onemap.gov.sg/legal/opendatalicence.html
+  quote: You can use, access, download, copy, distribute, transmit, modify and adapt the datasets, or
+    any derived analyses or applications, whether commercially or non-commercially
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.onemap.gov.sg/legal/opendatalicence.html
+  quote: You can use, access, download, copy, distribute, transmit, modify and adapt the datasets, or
+    any derived analyses or applications, whether commercially or non-commercially
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.onemap.gov.sg/legal/opendatalicence.html
+  quote: You must include in your products, applications or websites that Use the datasets, a conspicuous
+    notice acknowledging the source of the datasets
+  checked_at: '2026-11-21'
+notes: API Terms of Service and Singapore Open Data Licence v1.0 read via the redirected apidocs site
+  (the JS page was read with Playwright in a fresh context only to find the two legal links; legal pages
+  read with curl). Commercial and non-commercial use allowed; use of the datasets is governed by the SODL,
+  which permits download, copying, distribution and modification, requires a conspicuous source notice
+  and forbids implying official endorsement. The API terms say individual API pages may carry additional
+  terms and the licence excludes personal data, third-party rights, trademarks; the registration-gated
+  Developer Agreement and per-API pages were not read, so confidence is medium. Rate limits not found.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: API ToS and SODL re-read; commercial use allowed, only generic per-API limits and credentials.
+  Per-API pages and Developer Agreement not read.

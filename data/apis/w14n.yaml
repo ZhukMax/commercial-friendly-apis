@@ -1,0 +1,65 @@
+id: w14n
+name: w14n
+url: https://api.w14n.dev/v1
+category: Open Data
+description: Brazilian company profiles by CNPJ, CNAE establishment counts and municipality coordinates
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: w14n
+  url: https://api.w14n.dev/v1
+  category: Open Data
+link_status: alive
+data_license: ODbL-1.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://opendatacommons.org/licenses/odbl/summary/
+api_terms_url: https://w14n.dev/terms/
+commercial_use_scope: any
+share_alike: 'yes'
+rate_limits: 10 requests per 10 seconds per IP
+notes: 'Read w14n.dev/terms (updated 2026-10-08), the API discovery index (api.w14n.dev/v1) and the ODbL summary. Datasets are ODbL 1.0 ''partial samples'' of Brazilian open data (companies by CNPJ in agribusiness/mining/meat,
+  CNAE establishment counts, municipality coordinates); service/code/docs not covered by ODbL. ODbL: attribution required and share-alike for adapted databases (produced works can be shared under other
+  terms, subject to ODbL notices). Free access is revocable; paid plans or keys may be introduced and free access creates no right to continuation. Upstream source of the data (Receita Federal CNPJ open
+  data, IBGE) not checked; CNPJ records may include data on sole traders. Only samples, not complete coverage. ODbL summary page used for licence terms (deed, not full legal text).'
+evidence:
+- field: data_license
+  url: https://w14n.dev/terms/
+  quote: The published datasets are licensed under the Open Database License (ODbL 1.0); the API service, code and documentation are not covered by that license.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://w14n.dev/terms/
+  quote: currently 10 requests per 10 seconds per IP
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://opendatacommons.org/licenses/odbl/summary/
+  quote: To produce works from the database.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://opendatacommons.org/licenses/odbl/summary/
+  quote: To copy, distribute and use the database.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://opendatacommons.org/licenses/odbl/summary/
+  quote: To copy, distribute and use the database.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://opendatacommons.org/licenses/odbl/summary/
+  quote: You must attribute any public use of the database, or works produced from the database
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://opendatacommons.org/licenses/odbl/summary/
+  quote: you must also offer that adapted database under the ODbL
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

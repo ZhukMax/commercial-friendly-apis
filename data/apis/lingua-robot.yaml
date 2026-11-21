@@ -1,0 +1,38 @@
+id: lingua-robot
+name: Lingua Robot
+url: https://www.linguarobot.io
+category: Dictionaries
+description: Word definitions, pronunciations, synonyms, antonyms and others
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Lingua Robot
+  url: https://www.linguarobot.io
+  category: Dictionaries
+- list: public-api-lists
+  name: Lingua Robot
+  url: https://www.linguarobot.io
+  category: Dictionaries
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: www.linguarobot.io now 301-redirects to https://ptoffice.io/, an unrelated Vietnamese football
+  streaming site (checked 2026-11-21); earlier note said tunedchaos.io
+evidence: []
+notes: 'The original domain no longer serves Lingua Robot: it redirects to ptoffice.io, an unrelated site
+  (CakhiaTV football streaming); /terms there is 404. The target page does not say it replaces or is the
+  same service, so no terms are transferred. The service was historically offered on RapidAPI but that
+  listing was not readable in this session (JS page). Treated as dead; all terms unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -1,0 +1,80 @@
+id: pharos-api
+name: Pharos API
+url: https://pharos.watch/about/api/
+category: Cryptocurrency
+description: Stablecoin risk, peg, liquidity, safety score, blacklist, mint/burn, yield, and chain-health
+  data
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-api-lists
+  name: Pharos API
+  url: https://pharos.watch/about/api/
+  category: Cryptocurrency
+link_status: redirect
+data_license: MIT (data and exports); editorial content CC-BY-4.0
+commercial_use: paid-only
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: -> https://pharos.watch/api/reference/
+data_license_url: https://pharos.watch/api/terms/
+api_terms_url: https://pharos.watch/api/terms/
+commercial_use_scope: any
+attribution_text: Credit "Pharos (pharos.watch)" and upstream sources where third-party data is carried
+share_alike: unknown
+evidence:
+- field: data_license
+  url: https://pharos.watch/api/terms/
+  quote: Pharos code, data and data exports are MIT-licensed, and editorial content is licensed under
+    CC BY 4.0.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://opensource.org/license/mit
+  quote: to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://pharos.watch/api/terms/
+  quote: Credit "Pharos (pharos.watch)" when you republish what the API returns
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://opensource.org/license/mit
+  quote: to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://opensource.org/license/mit
+  quote: to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://pharos.watch/api/reference/
+  quote: Donors of $10 or more in qualifying stablecoins can claim a supporter key for personal, non-commercial
+    use
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://pharos.watch/api/reference/
+  quote: $250 per month for commercial products
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://pharos.watch/about/
+  quote: Third-party material retains its original terms.
+  checked_at: '2026-11-21'
+notes: 'API terms page covers keyed access (supporter/partner/commercial keys, key sharing/reselling forbidden);
+  free Safety grades lane and datasets need no key. Data is MIT-licensed per the API terms, so commercial
+  use/storage/display follow from the MIT text (read at opensource.org). Aggregator: the API reference
+  says third-party material keeps its original terms and the terms require crediting upstream sources
+  where responses carry third-party market data, so upstream terms may be stricter. Auth is key for some
+  tiers (listing says apiKey).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'MIT lane is only keyless Safety grades and datasets; keyed routes gated by plan; supporter
+  key is non-commercial; commercial products need paid $250/month key; third-party market data keeps original
+  terms (CoinGecko, DefiLlama etc.) | applied: commercial_use=paid-only'

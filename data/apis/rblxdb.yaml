@@ -1,0 +1,25 @@
+id: rblxdb
+name: Rblxdb
+url: https://rblxdb.com/developers
+category: Games & Comics
+description: Verified Roblox music codes and decal IDs with live working status
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Rblxdb
+  url: https://rblxdb.com/developers
+  category: Games & Comics
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

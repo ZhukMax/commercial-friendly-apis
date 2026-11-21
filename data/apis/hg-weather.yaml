@@ -1,0 +1,32 @@
+id: hg-weather
+name: HG Weather
+url: https://hgbrasil.com/status/weather
+category: Weather
+description: Provides weather forecast data for cities in Brazil
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: HG Weather
+  url: https://hgbrasil.com/status/weather
+  category: Weather
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://hgbrasil.com/weather/
+api_terms_url: https://hgbrasil.com/terms
+notes: Read hgbrasil.com/terms (HG Brasil, updated 3 March 2025). It excludes provider-sourced data and the API content from HG Brasil IP claims and calls the data informative only, but does not state whether
+  commercial use, caching or display is allowed; the API requires a key. The pricing page contained no usage-licence wording. All terms fields unknown; ask HG Brasil. hgbrasil.com/status/weather redirects
+  to the weather product page.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

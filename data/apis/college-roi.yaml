@@ -1,0 +1,61 @@
+id: college-roi
+name: College ROI
+url: https://le-teen.com/api
+category: Education
+description: Lifetime ROI of US colleges and majors — free static JSON, CC BY 4.0
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: College ROI
+  url: https://le-teen.com/api
+  category: Education
+link_status: alive
+data_license: CC-BY-4.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+commercial_use_scope: any
+share_alike: unknown
+data_license_url: https://le-teen.com/api
+api_terms_url: https://le-teen.com/api
+attribution_text: Cite LE TEEN, le-teen.com (and FREOPP / IPEDS / BEA as upstream sources); DOI 10.5281/zenodo.21351602
+notes: Static JSON API, no key. Terms are stated on the API page only (/terms is a 404). Derived from
+  FREOPP 2021, IPEDS 2023 and BEA 2023; upstream licences (notably FREOPP) were not checked, though the
+  page presents the whole dataset as CC BY 4.0.
+evidence:
+- field: data_license
+  url: https://le-teen.com/api
+  quote: CC BY 4.0 — free to use, cache, republish, and build on.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://le-teen.com/api
+  quote: CC BY 4.0 — free to use, cache, republish, and build on.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://le-teen.com/api
+  quote: CC BY 4.0 — free to use, cache, republish, and build on.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://le-teen.com/api
+  quote: CC BY 4.0 — free to use, cache, republish, and build on.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://le-teen.com/api
+  quote: 'The ask is one line: cite LE TEEN, le-teen.com (and FREOPP / IPEDS / BEA as the upstream sources).'
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'No ToS page (/terms 404). Upstream FREOPP/IPEDS/BEA: IPEDS/BEA are US government;
+  FREOPP site blocked for curl and its terms page was empty in browser, licence unverified. Computation
+  is derived, not demonstrably stricter.'

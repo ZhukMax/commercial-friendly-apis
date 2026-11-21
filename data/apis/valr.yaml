@@ -1,0 +1,46 @@
+id: valr
+name: VALR
+url: https://docs.valr.com/
+category: Cryptocurrency
+description: Cryptocurrency Exchange based in South Africa
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: VALR
+  url: https://docs.valr.com/
+  category: Cryptocurrency
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://support.valr.com/hc/en-us/articles/360019021931-Terms-of-Service
+evidence:
+- field: redistribution_display
+  url: https://support.valr.com/hc/en-us/articles/360019021931-Terms-of-Service
+  quote: none of the contents may be copied, reproduced, distributed, republished, downloaded, displayed,
+    posted or transmitted in any form or by any means
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://docs.valr.com/
+  quote: Access to and use of the API is governed by our Terms of Service.
+  checked_at: '2026-11-21'
+notes: 'Pages read: VALR API docs (via Playwright) and the VALR Terms of Service. Docs say API use is
+  governed by the ToS. ToS: site content may not be copied/displayed/redistributed (sec. 25.2) and automated
+  extraction not provided by VALR is banned (23.1.4); there is no market-data licence or explicit commercial-use
+  clause for API data, so commercial_use unknown and redistribution ambiguous. The docs ''Caching'' section
+  only describes HTTP cache headers.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Verdict unknown stands; docs only say API governed by ToS. Nothing found to resolve.

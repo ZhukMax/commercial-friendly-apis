@@ -1,0 +1,26 @@
+id: orb-intelligence
+name: ORB Intelligence
+url: https://api.orb-intelligence.com/docs/
+category: Business
+description: Company lookup
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: ORB Intelligence
+  url: https://api.orb-intelligence.com/docs/
+  category: Business
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: ConnectError

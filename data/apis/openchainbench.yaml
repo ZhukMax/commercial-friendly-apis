@@ -1,0 +1,64 @@
+id: openchainbench
+name: OpenChainBench
+url: https://openchainbench.com/api/openapi.json
+category: Cryptocurrency
+description: 'Open dataset of crypto infrastructure benchmarks: RPC latency, oracles, bridges, prediction
+  markets'
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: OpenChainBench
+  url: https://openchainbench.com/api/openapi.json
+  category: Cryptocurrency
+link_status: alive
+data_license: CC-BY-4.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://openchainbench.com/terms
+api_terms_url: https://openchainbench.com/terms
+commercial_use_scope: any
+attribution_text: Credit OpenChainBench and link back to the benchmark page
+share_alike: unknown
+evidence:
+- field: data_license
+  url: https://openchainbench.com/terms
+  quote: Benchmark data is published under CC-BY-4.0
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://openchainbench.com/terms
+  quote: reuse it anywhere, including commercially, as long as you credit OpenChainBench and link back
+    to the benchmark page you took it from
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://openchainbench.com/terms
+  quote: as long as you credit OpenChainBench and link back to the benchmark page you took it from
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://openchainbench.com/terms
+  quote: Caching results on your side is encouraged.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://openchainbench.com/terms
+  quote: reuse it anywhere, including commercially, as long as you credit OpenChainBench and link back
+    to the benchmark page you took it from
+  checked_at: '2026-11-21'
+notes: 'Terms of use cover site, public API and MCP server: benchmark data CC-BY-4.0, harness/site code
+  MIT; API free, rate limited, must not present data as your own measurements. Display/redistribution
+  covered by "reuse it anywhere" plus CC BY. Some benchmark numbers are measured from third-party providers/indexers;
+  third-party underlying terms not checked.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Own measurements. Rules: do not bypass limits or present data as own measurements;
+  underlying provider terms irrelevant to measured numbers.'

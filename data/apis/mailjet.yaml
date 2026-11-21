@@ -1,0 +1,50 @@
+id: mailjet
+name: mailjet
+url: https://www.mailjet.com/
+category: Business
+description: Marketing email can be sent and mail templates made in MJML or HTML can be sent using API
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: mailjet
+  url: https://www.mailjet.com/
+  category: Business
+- list: public-api-lists
+  name: Mailjet
+  url: https://www.mailjet.com/
+  category: Business
+link_status: alive
+data_license: unknown
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.mailgun.com/legal/terms/
+commercial_use_scope: any
+notes: 'Mailjet''s own legal page (mailjet.com/legal/terms-of-use/) returned 404/403; the terms read are
+  the Sinch Email Terms of Service at mailgun.com/legal/terms/, which state that Sinch Email comprises
+  Mailgun, Mailjet and Email on Acid (read via Playwright). Assumed to cover Mailjet via that statement;
+  a Mailjet-specific terms page was not confirmed. Email-sending API: data is the customer''s own. Display
+  not addressed, so verdict unknown.'
+evidence:
+- field: commercial_use
+  url: https://www.mailgun.com/legal/terms/
+  quote: You may use the Services for commercial and professional purposes only
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.mailgun.com/legal/terms/
+  quote: Customer Data is, and at all times shall remain, your exclusive property.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

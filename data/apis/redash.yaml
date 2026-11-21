@@ -1,0 +1,59 @@
+id: redash
+name: Redash
+url: https://redash.io/help/user-guide/integrations-and-api/api
+category: Business
+description: Access your queries and dashboards on Redash
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Redash
+  url: https://redash.io/help/user-guide/integrations-and-api/api
+  category: Business
+link_status: alive
+data_license: BSD-2-Clause (software; the API returns the operator's own queries/dashboards, no third-party
+  dataset)
+commercial_use: 'yes'
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: 'yes'
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://raw.githubusercontent.com/getredash/redash/master/LICENSE
+commercial_use_scope: self-hosted
+evidence:
+- field: commercial_use
+  url: https://raw.githubusercontent.com/getredash/redash/master/LICENSE
+  quote: Redistribution and use in source and binary forms, with or without modification, are permitted
+    provided that the following conditions are met
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://raw.githubusercontent.com/getredash/redash/master/LICENSE
+  quote: Redistributions of source code must retain the above copyright notice
+  checked_at: '2026-11-21'
+- field: self_host_option
+  url: https://redash.io/help/user-guide/integrations-and-api/api
+  quote: Open Source & Self Hosted
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://raw.githubusercontent.com/getredash/redash/master/LICENSE
+  quote: Redistribution and use in source and binary forms, with or without modification, are permitted
+    provided that the following conditions are met
+  checked_at: '2026-11-21'
+notes: 'Not a data source: the Redash API (API-key auth) accesses queries, results and dashboards of your
+  own Redash instance, so storage and display of ''data'' depend on the databases you connect, not on
+  Redash. Terms fields describe the open-source software licence (BSD-2-Clause, LICENSE read from GitHub
+  master); the licence does not literally say ''commercial'' but permits use and redistribution. The docs
+  sidebar lists ''Hosted Redash End of Life'', i.e. the hosted service is discontinued (not read in detail);
+  the legacy hosted ToS at https://redash.io/terms were only skimmed, not relied on. storage_caching and
+  redistribution_display left unknown (not applicable to the licence).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

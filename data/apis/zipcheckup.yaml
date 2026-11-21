@@ -1,0 +1,30 @@
+id: zipcheckup
+name: ZipCheckup
+url: https://api.zipcheckup.com/v1
+category: Environment
+description: U.S. drinking water quality data by ZIP code from EPA and 20+ federal sources
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: ZipCheckup
+  url: https://api.zipcheckup.com/v1
+  category: Environment
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: HTTP 403 (blocked for bots, assumed alive)
+api_terms_url: https://api.zipcheckup.com/v1
+notes: Cloudflare blocked access to zipcheckup.com for both curl and a browser ("Sorry, you have been blocked"); not bypassed. No terms read, all terms fields unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

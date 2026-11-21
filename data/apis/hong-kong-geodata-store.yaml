@@ -1,0 +1,26 @@
+id: hong-kong-geodata-store
+name: Hong Kong GeoData Store
+url: https://geodata.gov.hk/gs/
+category: Geocoding
+description: API for accessing geo-data of Hong Kong
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Hong Kong GeoData Store
+  url: https://geodata.gov.hk/gs/
+  category: Geocoding
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: ConnectError

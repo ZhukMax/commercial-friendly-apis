@@ -1,0 +1,30 @@
+id: hirak-ip-to-country
+name: Hirak IP to Country
+url: https://iplocation.hirak.site/
+category: Geocoding
+description: Ip to location with country code, currency code & currency name, fast response, unlimited requests
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Hirak IP to Country
+  url: https://iplocation.hirak.site/
+  category: Geocoding
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: iplocation.hirak.site now redirects (via a parking host) to an unrelated online-casino affiliate landing page; no API or terms reachable
+notes: 'Site no longer serves the IP-to-country API: curl returned an empty "Loading..." shell on iplocation.hirak.site and the same domain redirected (Playwright, fresh context) to an unrelated gambling
+  affiliate page; hirak.site root returned 403. Domain appears hijacked/parked. No terms could be read, so everything is unknown. Treat as dead.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

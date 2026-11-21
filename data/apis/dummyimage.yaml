@@ -1,0 +1,42 @@
+id: dummyimage
+name: DummyImage
+url: https://dummyimage.com/
+category: Art & Design
+description: Generate placeholder images with custom size, colors and text
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: DummyImage
+  url: https://dummyimage.com/
+  category: Art & Design
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: 'yes'
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://dummyimage.com/
+share_alike: unknown
+notes: 'Not a data source: a placeholder-image generator (images are produced from URL parameters). The
+  home page documents usage and says the PHP source is MIT-licensed (github.com/kingkool68/dummyimage,
+  self-hostable), but states no terms of use for the hosted service (no ToS, usage limits or commercial-use
+  statement found), so core terms stay unknown. Self-hosting the MIT code is the safe commercial route;
+  the text uses the M+ font (freely available per the page, licence not checked).'
+evidence:
+- field: self_host_option
+  url: https://dummyimage.com/
+  quote: Dummy Image is written in PHP and distributed freely under a MIT License .
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

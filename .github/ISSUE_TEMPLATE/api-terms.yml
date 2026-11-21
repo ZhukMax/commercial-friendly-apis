@@ -1,0 +1,16 @@
+name: Add or correct an API entry
+description: Report a missing API or a wrong verdict
+body:
+  - type: input
+    attributes: {label: API name and URL}
+    validations: {required: true}
+  - type: input
+    attributes: {label: Terms / licence page URL}
+    validations: {required: true}
+  - type: textarea
+    attributes:
+      label: Exact quote (max 25 words)
+      description: The sentence that supports your claim
+    validations: {required: true}
+  - type: textarea
+    attributes: {label: What is wrong or missing}

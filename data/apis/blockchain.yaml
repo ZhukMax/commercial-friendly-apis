@@ -1,0 +1,71 @@
+id: blockchain
+name: Blockchain
+url: https://www.blockchain.com/api
+category: Cryptocurrency
+description: Bitcoin Payment, Wallet & Transaction Data
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Blockchain
+  url: https://www.blockchain.com/api
+  category: Cryptocurrency
+- list: public-api-lists
+  name: Blockchain
+  url: https://www.blockchain.info/api
+  category: Cryptocurrency
+link_status: redirect
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: ambiguous
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: www.blockchain.com/api redirects to /explorer/docs (Explorer API)
+api_terms_url: https://www.blockchain.com/legal/api-terms
+commercial_use_scope: any
+evidence:
+- field: storage_caching
+  url: https://www.blockchain.com/legal/api-terms
+  quote: copy, store or cache the Blockchain Content, other than for the purposes allowed by this Agreement
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.blockchain.com/legal/api-terms
+  quote: 'You may only display the Blockchain Content in accordance with the following guidelines:'
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.blockchain.com/legal/api-terms
+  quote: You may not distribute, facilitate, enable or allow access or linking to the Blockchain Content
+    or Database
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.blockchain.com/legal/api-terms
+  quote: You shall not commercialize (i.e., sell, rent, or lease), copy, store or cache the Blockchain
+    Content
+  checked_at: '2026-11-21'
+notes: 'Read via Playwright (JS pages): Blockchain.com API Terms (/legal/api-terms), the Explorer API
+  docs and pricing page (Free 300 req/day up to Enterprise; Basic is ''for personal projects, development,
+  and testing''; no commercial-use statement). API Terms (older API Program, key-based) allow retrieving
+  public Bitcoin blockchain data and market prices only for the ''Permitted Use''; forbid commercialising
+  (sell/rent/lease), copying, storing or caching the content beyond the agreement, distributing it from
+  any place other than your Site, and require Certification of the display. No explicit statement allowing
+  or forbidding ad-supported commercial use, hence ambiguous. Unclear whether these API Terms still govern
+  the newer Explorer API (the legal footer still links them). blockchain.com and blockchain.info are the
+  same company (docs page shows ''Advertise on Blockchain.info''). Sibling entry exists with the same
+  terms (blockchain / blockchain-blockchain). Underlying data is public blockchain data; market prices
+  are aggregated from multiple sources. data_license left unknown: proprietary terms, no named licence.
+  Merged duplicate entry `blockchain-blockchain`.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'storage_caching=no overstates the quote, which allows caching for purposes allowed
+  by the Agreement | applied: storage_caching=ambiguous'
+aliases:
+- blockchain-blockchain

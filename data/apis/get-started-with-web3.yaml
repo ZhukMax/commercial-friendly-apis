@@ -1,0 +1,77 @@
+id: get-started-with-web3
+name: Get Started with Web3
+url: https://github.com/beihaili/Get-Started-with-Web3/blob/main/docs/api.md
+category: Blockchain
+description: Bilingual Web3 lessons, glossary search and role-based learning paths
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Get Started with Web3
+  url: https://github.com/beihaili/Get-Started-with-Web3/blob/main/docs/api.md
+  category: Blockchain
+link_status: alive
+data_license: MIT
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+commercial_use_scope: any
+attribution_text: Keep the MIT copyright and permission notice
+api_terms_url: https://github.com/beihaili/Get-Started-with-Web3/blob/main/LICENSE
+evidence:
+- field: data_license
+  url: https://raw.githubusercontent.com/beihaili/Get-Started-with-Web3/main/docs/api.md
+  quote: 'License: MIT'
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://raw.githubusercontent.com/beihaili/Get-Started-with-Web3/main/LICENSE
+  quote: to deal in the Software without restriction, including without limitation the rights to use,
+    copy, modify, merge, publish, distribute, sublicense, and/or sell
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://raw.githubusercontent.com/beihaili/Get-Started-with-Web3/main/LICENSE
+  quote: to deal in the Software without restriction, including without limitation the rights to use,
+    copy, modify, merge, publish, distribute, sublicense, and/or sell
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://raw.githubusercontent.com/beihaili/Get-Started-with-Web3/main/LICENSE
+  quote: to deal in the Software without restriction, including without limitation the rights to use,
+    copy, modify, merge, publish, distribute, sublicense, and/or sell
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://raw.githubusercontent.com/beihaili/Get-Started-with-Web3/main/LICENSE
+  quote: The above copyright notice and this permission notice shall be included in all copies or substantial
+    portions of the Software.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://raw.githubusercontent.com/beihaili/Get-Started-with-Web3/main/docs/api.md
+  quote: The Get Started with Web3 API provides free, read-only access to the project's bilingual lesson
+    index, glossary, search
+  checked_at: '2026-11-21'
+notes: 'Not a conventional data source: an open-source educational Web3 curriculum with a small free JSON
+  API (lesson index, glossary, search) on Vercel. docs/api.md states the API licence is MIT and the repo
+  LICENSE is MIT (README also says MIT). MIT is a software licence; applying it to lesson text is the
+  repo owner''s own statement, lessons may quote third-party material. Read via raw.githubusercontent.com.
+  No rate limits stated on page read.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'not a data source: an educational curriculum with a small hobby API on a free Vercel
+  host; no service terms, SLA or stability; MIT stated by repo owner for lesson text that may quote third
+  parties'
+verdict_override: yellow
+override_reason: 'Second check: not a data source: an educational curriculum with a small hobby API on
+  a free Vercel host; no service terms, SLA or stability; MIT stated by repo owner for lesson text that
+  may quote third parties'
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

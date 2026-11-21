@@ -1,0 +1,56 @@
+id: vakaymood
+name: VakayMood
+url: https://vakaymood.com/developers
+category: Transportation
+description: 'Live timeshare resort rental inventory: stay dates, nightly rates, resort fees and booking
+  URLs'
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: VakayMood
+  url: https://vakaymood.com/developers
+  category: Transportation
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: curl gets Cloudflare 403; pages read via Playwright
+api_terms_url: https://vakaymood.com/terms
+rate_limits: 60 requests/minute per IP; responses cached 60 s
+evidence:
+- field: commercial_use
+  url: https://vakaymood.com/developers
+  quote: A free, read-only JSON API for querying live timeshare rental availability on VakayMood, built
+    for AI agents and third-party developers.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://vakaymood.com/terms
+  quote: Users may not copy, modify, or distribute vakaymood.com's content without permission.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://vakaymood.com/developers
+  quote: 'Rate limit: 60 requests/minute per IP.'
+  checked_at: '2026-11-21'
+notes: Read /developers and /terms (v6, 31 Jul 2026) via Playwright (Cloudflare blocks curl). The Developer
+  API page offers a free public read-only API with no key but contains no licence, attribution or reuse
+  terms. The general Terms of Service say content is licensed for personal use only and may not be copied
+  or distributed without permission; unclear whether that covers API data, hence ambiguous for commercial
+  use and display. Storage/caching and attribution unknown. Data is third-party owner listings on a marketplace;
+  no explicit permission to republish prices/availability.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read /terms (v6) and /developers via Playwright. ToS 15 lets VakayMood market listings
+  on affiliated sites, but nothing grants third parties reuse. API is built to send bookings to bookingUrl
+  (affiliate-like use plausible) but unlicensed. Ambiguous stands, low confidence.

@@ -1,0 +1,27 @@
+id: gramscraper
+name: GramScraper
+url: https://gramscraper.com
+category: Social
+description: Instagram and TikTok data API with 91 endpoints for profiles, posts, stories, reels, and
+  comments
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: GramScraper
+  url: https://gramscraper.com
+  category: Social
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: HTTP 410

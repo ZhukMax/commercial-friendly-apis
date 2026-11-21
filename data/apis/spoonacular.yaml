@@ -1,0 +1,73 @@
+id: spoonacular
+name: Spoonacular
+url: https://spoonacular.com/food-api
+category: Food & Drink
+description: Recipes, Food Products, and Meal Planning
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Spoonacular
+  url: https://spoonacular.com/food-api
+  category: Food & Drink
+- list: public-api-lists
+  name: Spoonacular
+  url: https://spoonacular.com/food-api
+  category: Food & Drink
+link_status: alive
+data_license: proprietary (spoonacular Terms of Use)
+commercial_use: 'yes'
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: 'no'
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://spoonacular.com/food-api/terms
+commercial_use_scope: any
+cache_limit: 'No storing except: with prior written permission cache user-requested data max 1 hour; recipe id, title and image URL may be stored indefinitely'
+attribution_text: Credit the original recipe source (site/blog name with hyperlink) as spoonacular provides it; free plan requires a backlink to spoonacular
+share_alike: unknown
+rate_limits: 'Free: 50 points/day, 1 req/s; Cook $29/mo 1,500 points/day'
+evidence:
+- field: commercial_use
+  url: https://spoonacular.com/food-api/terms
+  quote: You may use the data provided by the spoonacular API as part of your website, application, or other project
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://spoonacular.com/food-api/terms
+  quote: You may not scrape the spoonacular API or in any way attempt to copy or store the information it provides
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://spoonacular.com/food-api/terms
+  quote: With prior written permission from spoonacular, you may cache user-requested data to improve performance (for a maximum of 1 hour).
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://spoonacular.com/food-api/terms
+  quote: You may use the data provided by the spoonacular API as part of your website, application, or other project
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://spoonacular.com/food-api/terms
+  quote: You must credit the original source in the same manner on your website, app, etc.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://spoonacular.com/food-api/pricing
+  quote: Backlink Required
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://spoonacular.com/food-api/terms
+  quote: You may use the data provided by the spoonacular API as part of your website, application, or other project
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://spoonacular.com/food-api/terms
+  quote: You may not scrape the spoonacular API or in any way attempt to copy or store the information it provides
+  checked_at: '2026-11-21'
+notes: Read the Terms of Use and the pricing page. Terms grant use as part of a website/app/project and do not carve out commercial use, but they never say 'commercial' explicitly, so confidence medium.
+  Storage is essentially prohibited (derived/hashed data too; delete everything if you stop); only id/title/image URL may be kept, 1-hour cache needs written permission. Cannot build a same-experience competitor
+  site, cannot resell. Recipes are aggregated from third-party blogs/sites - original sources must be credited and removed on request; upstream terms may be stricter. Free plan requires a backlink.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

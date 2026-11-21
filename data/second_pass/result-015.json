@@ -1,0 +1,319 @@
+[
+ {
+  "id": "mercadopago",
+  "outcome": "confirmed",
+  "reasons": [
+   "Developer terms re-read: storage/copy limited, display only inside own Application"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Also 7.2.D bars commercialising/copying/storing Mercado Pago Content beyond permitted purposes and 7.2.C bars links to Content from outside the Application. Payments API, not a content feed; stays yellow."
+ },
+ {
+  "id": "metal-sentinel",
+  "outcome": "confirmed",
+  "reasons": [
+   "Own ToS re-read: no commercial/caching clause; raw data resale barred",
+   "RapidAPI terms and upstream market-data terms still unread"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "verdict unknown stands. Site offers free embeddable widgets, but the API terms say nothing about display of derived prices."
+ },
+ {
+  "id": "metro-lisboa",
+  "outcome": "confirmed",
+  "reasons": [
+   "Website terms exclude commercial use; open-data page says CC4.0 without variant"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Conflict not resolvable from pages: the website-terms exclusion likely does not govern the open-data API, but the CC variant is unnamed. Stays ambiguous/yellow, low confidence."
+ },
+ {
+  "id": "modelpartfinder-error-codes",
+  "outcome": "confirmed",
+  "reasons": [
+   "Docs terms re-read: contact before commercial redistribution; no licence text"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Site terms page is a directory/referral notice only; data compiled from supplier pages (upstream rights unknown). Monetised redistribution not clearly granted."
+ },
+ {
+  "id": "morvs",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms and api.morvs.ai/license re-read: no blanket licence, per-source terms"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "The source-aware policy (api.morvs.ai/license) says one blanket licence does not apply to every record; US federal works are generally public domain (17 USC 105), FINRA-derived material has its own terms. Usable only per dataset."
+ },
+ {
+  "id": "mostexpensivewatches",
+  "outcome": "disputed",
+  "reasons": [
+   "Free tier is for prototypes/evaluation; apps and dashboards go to a paid commercial licence",
+   "Only the auction ledger is CC BY 4.0"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://mostexpensivewatches.net/data-licensing",
+    "quote": "Commercial rate limits for production apps, agents, dashboards and internal tools.",
+    "field": "commercial_use"
+   },
+   {
+    "url": "https://mostexpensivewatches.net/terms",
+    "quote": "Public API access does not grant a blanket license to redistribute third-party dealer feeds, images or descriptions.",
+    "field": "redistribution_display"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "paid-only"
+  },
+  "note": "Resolves ambiguity toward paid-only for everything except the CC BY 4.0 auction record ledger (commercial use allowed with credit). /api/licensing.json lists Prototype as 'CLIs, agents, editorial demos and early product tests' and Builder (commercial monthly licence) for apps and dashboards. Verdict yellow stands; scope should say ledger=free, rest=paid."
+ },
+ {
+  "id": "namedesk",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms re-read: commercial use of statistics allowed with credit; no resale/competing service"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Storage/caching still unaddressed (the first-pass storage quote is about access withdrawal, weak support for ambiguous, but field is a no-evidence state). Use in own products plainly allowed. Zone-file counts may be withdrawn."
+ },
+ {
+  "id": "nasa",
+  "outcome": "disputed",
+  "reasons": [
+   "api.nasa.gov requires an API key (auth field stale)",
+   "Terms: NASA content generally not copyrighted; CC0 default for NASA-led mission data unless marked"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://api.nasa.gov",
+    "quote": "Generate API Key",
+    "field": "auth"
+   },
+   {
+    "url": "https://www.earthdata.nasa.gov/engage/open-data-services-software-policies/data-use-guidance",
+    "quote": "Unless the content is marked with a use restriction or license, data provided from a NASA-led mission are licensed as Creative Commons Zero (CC0).",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {
+   "auth": "apiKey"
+  },
+  "note": "Terms side: NASA media guidelines allow commercial editorial use if no endorsement is implied; copyrighted third-party items (some APOD images) and logos need clearance, so per-endpoint ambiguity stays. Earthdata CC0 default concerns ESDIS data, not api.nasa.gov specifically. api.data.gov terms page was 404. Only auth change suggested; commercial_use stays ambiguous (yellow)."
+ },
+ {
+  "id": "nasa-ads",
+  "outcome": "confirmed",
+  "reasons": [
+   "ADS Terms re-read: no redistribution, no copies, publisher copyright, no systematic download"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Red stands. Quotes re-verified on adsabs.github.io/help/terms (Terms of Use page); API-specific clause on redistribution/copying read in first pass."
+ },
+ {
+  "id": "nasa-power",
+  "outcome": "confirmed",
+  "reasons": [
+   "No licence or commercial statement on POWER docs pages (re-read referencing, faq, api, home)"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Unknown stands. Pointer: NASA Earthdata data-use guidance says NASA-led mission data are CC0 unless marked, and POWER is a NASA LaRC project, but no POWER page ties itself to that policy, so not applied."
+ },
+ {
+  "id": "nasdaq-data-link",
+  "outcome": "disputed",
+  "reasons": [
+   "Terms restrict use to internal business purposes; public dissemination forbidden without Service Order",
+   "Derived data also internal only"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://data.nasdaq.com/termsandconditions",
+    "quote": "sell, lease, rent, furnish, retransmit, redistribute, disseminate, divert, release, license, sublicense or otherwise permit or provide access",
+    "field": "redistribution_display"
+   },
+   {
+    "url": "https://data.nasdaq.com/termsandconditions",
+    "quote": "Such usage shall be for internal business purposes only unless otherwise detailed in the applicable Service Order.",
+    "field": "storage_caching"
+   }
+  ],
+  "suggested": {
+   "redistribution_display": "no",
+   "storage_caching": "limited"
+  },
+  "note": "Read full terms via Playwright in a fresh page (40k chars). Section 1.4(b) bars redistribution/dissemination incl. incorporation in a database or report except per Service Order; storage is granted only for internal business use, so storage_caching yes is overstated. Third-party provider terms also apply. Likely red for a public ad-supported site without a negotiated order."
+ },
+ {
+  "id": "ncbi-e-utilities",
+  "outcome": "confirmed",
+  "reasons": [
+   "NCBI policies re-read: public-domain NCBI data, but PMC/Bookshelf/OMIM/PubChem third-party copyright"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "E-utilities usage guidelines page NBK25497 is still behind reCAPTCHA (unreadable); other pages read. NLM bulk terms require 'Courtesy of the U.S. National Library of Medicine' credit for FTP data. Ambiguous/yellow stands."
+ },
+ {
+  "id": "north7-agent",
+  "outcome": "confirmed",
+  "reasons": [
+   "AGB re-read: no copying/redistribution of platform content without permission; no commercial grant"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Unknown stands. Upstream sources named on homepage include Reuters, Bloomberg, Yahoo Finance. No API-specific licence found on /agb.html or developer page."
+ },
+ {
+  "id": "npi-lookup",
+  "outcome": "confirmed",
+  "reasons": [
+   "Vendor ToS re-read: bars unauthorized commercial purposes and copying/distributing the Services",
+   "Upstream NPPES public domain"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Ambiguous stands; ToS does not define 'authorized'. Upstream CMS NPPES files are public domain; NUCC taxonomy is 'Freely available; (c) American Medical Association' per vendor sources list, i.e. copyrighted. Safer to use CMS files directly."
+ },
+ {
+  "id": "obis",
+  "outcome": "confirmed",
+  "reasons": [
+   "Data policy re-read: most CC BY 4.0, some CC BY-NC/NC-ND/SA; verify per dataset"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Per-dataset NC licences mean not every record is commercial-usable; policy also discourages commercial exploitation without attribution. Yellow stands."
+ },
+ {
+  "id": "oikolab",
+  "outcome": "disputed",
+  "reasons": [
+   "Licence is strictly for internal business purposes; public display on a monetised site is outside it"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://docs.oikolab.com/terms/",
+    "quote": "to download and use the APIs to receive the data strictly for your internal business purposes",
+    "field": "redistribution_display"
+   }
+  ],
+  "suggested": {
+   "redistribution_display": "no"
+  },
+  "note": "Terms are short (no explicit redistribution clause), but the grant is 'strictly' internal and non-sublicensable, so showing data publicly is not granted; ambiguous understated. commercial_use for internal business stays ambiguous. Underlying ERA5/GFS licences not assessed. Free allowance (1500 units/month) is on the pricing page, no separate commercial terms."
+ },
+ {
+  "id": "omophub",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToS re-read: allows incorporating vocabulary data into apps for end users subject to upstream licences; no resale"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Ambiguous stands: SNOMED/LOINC/UMLS licences are the user's responsibility and may restrict commercial use/storage; ToS requires attribution notices and bars storing data in a way enabling unauthorized redistribution."
+ },
+ {
+  "id": "onyx-bazaar",
+  "outcome": "confirmed",
+  "reasons": [
+   "rights.json and /terms re-read: default resale deny, cache TTL 3600, redistribute with attribution"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Not explicit that defaults govern the free /bazaar page; anonymous single operator; upstream Coinbase CDP discovery terms unread. Yellow/low stands."
+ },
+ {
+  "id": "open-brewery-db",
+  "outcome": "confirmed",
+  "reasons": [
+   "FAQ and repo re-read: MIT licence, dataset welcome in any project with credit; API only recommended for personal projects"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Leans to yes for the downloadable dataset; ambiguous only for the hosted API. Upstream (2018 Brewers Association scrape) rights unassessed."
+ },
+ {
+  "id": "open-charge-map",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms re-read: CC BY 4.0 only for user data; third-party provider data keep own licence; end-user attribution visible"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Per-record provider licences make commercial/storage ambiguous. Yellow stands."
+ },
+ {
+  "id": "open-disease",
+  "outcome": "disputed",
+  "reasons": [
+   "Upstream NYT covid-19-data licence is non-commercial only; the API repo lists it as a source",
+   "Worldometers data scraped, rights unknown"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://raw.githubusercontent.com/nytimes/covid-19-data/master/LICENSE",
+    "quote": "any such use is for non-commercial purposes only",
+    "field": "commercial_use"
+   },
+   {
+    "url": "https://raw.githubusercontent.com/disease-sh/API/master/TERMS.md",
+    "quote": "You may not charge users any fee for the use of your application",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {
+   "redistribution_display": "ambiguous"
+  },
+  "note": "Service is live (/v3/covid-19/all returns 200). API TERMS.md only bars charging users a fee, so ads/affiliate are not addressed. Upstream is demonstrably stricter for NYT-derived endpoints (non-commercial, credit to NYT); other endpoints (JHU, Worldometers, RKI etc.) unassessed. Suggest commercial_use stays ambiguous but the note should flag NYT endpoints as non-commercial; redistribution_display ambiguous rather than unknown."
+ },
+ {
+  "id": "open-economics",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms re-read: use in applications allowed subject to source licences; caching encouraged"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Upstream BCB ODbL (share-alike on derived databases) and other publishers apply; host is a chatgpt.site preview domain (stability risk). Ambiguous/yellow stands."
+ },
+ {
+  "id": "open-government-denmark",
+  "outcome": "confirmed",
+  "reasons": [
+   "Anvend-data page re-read: 'nearly anything' but licence per dataset, some require credit"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Portal-level statement supports commercial reuse but each dataset's licence governs; ambiguous stands."
+ },
+ {
+  "id": "open-government-estonia",
+  "outcome": "confirmed",
+  "reasons": [
+   "Quote re-verified on RIA licensing guide: open data generally given without conditions; licence per dataset"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Guide is addressed to publishers, not a portal-wide grant; evidence URL for the 'tingimusteta' quote is abi.ria.ee/teabevarav/avaandmete-litsentsimise-juhend-ja-litsent-creativ. Old API URL dead, key requirement unverified. Yellow stands."
+ },
+ {
+  "id": "open-government-germany",
+  "outcome": "confirmed",
+  "reasons": [
+   "GovData usage terms: provider decides; dl-de/by-2.0 allows commercial use with source note"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-verified dl-de/by-2-0 text explicitly permits commercial use and integration into products with attribution; individual datasets can differ. Yellow stands."
+ }
+]

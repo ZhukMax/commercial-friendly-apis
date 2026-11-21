@@ -1,0 +1,50 @@
+id: pm2-5-open-data-portal
+name: PM2.5 Open Data Portal
+url: https://pm25.lass-net.org/
+category: Environment
+description: Open low-cost PM2.5 sensor data
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: PM2.5 Open Data Portal
+  url: https://pm25.lass-net.org/#apis
+  category: Environment
+link_status: alive
+data_license: CC-BY-NC-SA-4.0 (portal licence statement)
+commercial_use: 'no'
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: low
+link_checked_at: '2026-11-21'
+data_license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+api_terms_url: https://pm25.lass-net.org/
+share_alike: 'yes'
+evidence:
+- field: data_license
+  url: https://pm25.lass-net.org/
+  quote: PM2.5 Open Data Portal by IIS-NRL, AS is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://pm25.lass-net.org/
+  quote: PM2.5 Open Data Portal by IIS-NRL, AS is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://pm25.lass-net.org/
+  quote: PM2.5 Open Data Portal by IIS-NRL, AS is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://pm25.lass-net.org/
+  quote: PM2.5 Open Data Portal by IIS-NRL, AS is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+  checked_at: '2026-11-21'
+notes: 'Only licence text found: the portal footer (Academia Sinica IIS-NRL / LASS community, 2017-2019) says the portal is CC BY-NC-SA 4.0. That is a site-level statement; it does not mention the API explicitly,
+  and the API-docs page returned 404, so confidence is low. Taken at face value, NonCommercial excludes an ad/affiliate site. Underlying sensor data comes from individual LASS contributors whose terms were
+  not checked. Page is JS-light, read via curl and Playwright.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

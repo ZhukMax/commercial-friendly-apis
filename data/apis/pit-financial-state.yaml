@@ -1,0 +1,26 @@
+id: pit-financial-state
+name: PIT Financial State
+url: https://agent-economy-pit-evaluation.onrender.com/docs
+category: Finance
+description: Point-in-time quarterly revenue for 20 U.S. issuers
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: PIT Financial State
+  url: https://agent-economy-pit-evaluation.onrender.com/docs
+  category: Finance
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: HTTP 503

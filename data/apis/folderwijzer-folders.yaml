@@ -1,0 +1,56 @@
+id: folderwijzer-folders
+name: Folderwijzer Folders
+url: https://folderwijzer.nl/folder-api/
+category: Shopping
+description: Dutch store folders currently running, with each folder's validity dates and a deeplink (beer
+  & wine)
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-api-lists
+  name: Folderwijzer Folders
+  url: https://folderwijzer.nl/folder-api/
+  category: Shopping
+link_status: redirect
+data_license: 'custom: free to use incl. commercial, source link required'
+commercial_use: 'yes'
+storage_caching: unknown
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: -> https://eerste.nl/folder-api/
+api_terms_url: https://eerste.nl/folder-api/
+attribution_text: 'Bron: eerste.nl (visible link to eerste.nl)'
+rate_limits: Fetch once per day is enough; files are cached and refreshed daily
+evidence:
+- field: commercial_use
+  url: https://eerste.nl/folder-api/
+  quote: Vrij te gebruiken voor je app, site of project, ook commercieel.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://eerste.nl/folder-api/
+  quote: Vrij te gebruiken voor je app, site of project, ook commercieel.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://eerste.nl/folder-api/
+  quote: Vrij te gebruiken voor je app, site of project, ook commercieel.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://eerste.nl/folder-api/
+  quote: vermeld de bron met een zichtbare link naar eerste.nl
+  checked_at: '2026-11-21'
+notes: 'folderwijzer.nl/folder-api/ redirects to eerste.nl/folder-api/, which is the same Folder API page
+  (served under the folderwijzer.nl URL in my fetch), so terms were read there. Page is Dutch: ''free
+  to use for your app, site or project, also commercially; one condition: credit the source with a visible
+  link to eerste.nl''. It states the files are cached and refreshed daily; storage/retention by the consumer
+  is not addressed, so storage_caching unknown (verdict therefore unknown). Only alcohol offers carry
+  full labels; other categories only folder level plus deeplink. The folders are retailers'' promotional
+  leaflets (upstream rights not assessed). Not a price comparison.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

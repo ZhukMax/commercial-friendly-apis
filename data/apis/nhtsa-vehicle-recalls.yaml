@@ -1,0 +1,34 @@
+id: nhtsa-vehicle-recalls
+name: NHTSA Vehicle Recalls
+url: https://rapidapi.com/crisp-point-studio-crisp-point-studio-default/api/live-nhtsa-vehicle-recalls
+category: Vehicle
+description: NHTSA safety recalls by model year, make and model with component, consequence and remedy
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: NHTSA Vehicle Recalls
+  url: https://rapidapi.com/crisp-point-studio-crisp-point-studio-default/api/live-nhtsa-vehicle-recalls
+  category: Vehicle
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: RapidAPI listing renders "API not found" (Playwright, 2026-11-21); curl gets only the SPA shell
+evidence: []
+notes: Third-party RapidAPI wrapper ("Live NHTSA Vehicle Recalls" by crisp-point-studio). The listing
+  URL shows "Page Not Found / API not found" in a browser, so no provider terms could be read and the
+  listing may be gone. Terms left unknown; NHTSA own terms (see entry nhtsa) are NOT transferred to this
+  wrapper. If the wrapper reappears, check RapidAPI terms plus the provider terms of use. Needs a RapidAPI
+  key.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

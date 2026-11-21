@@ -1,0 +1,69 @@
+id: bluerate
+name: bluerate
+url: https://www.bluerate.ai/developers
+category: Finance
+description: Licensed US mortgage loan officers by state, city, ZIP, loan type or language, with NMLS
+  IDs
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: bluerate
+  url: https://www.bluerate.ai/developers
+  category: Finance
+link_status: alive
+data_license: proprietary (Zeitro, Inc.)
+commercial_use: 'no'
+storage_caching: limited
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.bluerate.ai/terms-of-use
+commercial_use_scope: any
+cache_limit: answers cacheable 5 minutes (Cache-Control max-age=300)
+share_alike: unknown
+rate_limits: 60 requests/minute per IP without a key
+evidence:
+- field: commercial_use
+  url: https://www.bluerate.ai/terms-of-use
+  quote: Use the Services for any commercial purpose without our prior written consent.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.bluerate.ai/developers
+  quote: Use of the API is subject to the Terms of Use and Privacy Policy.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.bluerate.ai/developers
+  quote: Answers can be cached for 5 minutes
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.bluerate.ai/developers
+  quote: Do not copy the whole list or use it for unsolicited contact.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.bluerate.ai/terms-of-use
+  quote: are the property of Zeitro or its licensors and are protected by United States and international
+    intellectual property laws
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://www.bluerate.ai/developers
+  quote: 'Without a key: 60 requests a minute per IP address.'
+  checked_at: '2026-11-21'
+notes: 'Read /developers and /terms-of-use. The API page says API use is subject to the Terms of Use,
+  which license the Services/Content for personal, non-commercial use and forbid commercial purposes without
+  written consent, so red unless consent is obtained. Doubt: the developer page invites AI agents to show
+  loan-officer links (with utm tracking, "Please show the user the url"), a tension with the generic ToU.
+  Data is public-licence (NMLS) officer profiles from bluerate marketplace; officers can opt out.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Red stands. Tension: developers page offers free keyless API for agents, but ''Use
+  of the API is subject to the Terms of Use'' and ToU 7/8.3 forbid commercial use without consent. Ask
+  Zeitro for consent before use.'

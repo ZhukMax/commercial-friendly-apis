@@ -1,0 +1,27 @@
+id: us-state-government-jobs
+name: US State Government Jobs
+url: https://apify.com/founder-experiment/us-state-government-jobs
+category: Jobs
+description: State civil service job postings for California, New York, Wisconsin and North Dakota in
+  one schema
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: US State Government Jobs
+  url: https://apify.com/founder-experiment/us-state-government-jobs
+  category: Jobs
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: HTTP 404

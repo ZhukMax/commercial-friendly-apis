@@ -1,0 +1,45 @@
+id: mailgun
+name: mailgun
+url: https://www.mailgun.com/
+category: Business
+description: Email Service
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-api-lists
+  name: mailgun
+  url: https://www.mailgun.com/
+  category: Business
+link_status: alive
+data_license: unknown
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.mailgun.com/legal/terms/
+commercial_use_scope: any
+notes: 'Sinch Email Terms of Service read via Playwright (page states Sinch Email comprises the brands
+  Mailgun, Mailjet and Email on Acid). Email-sending API: ''data'' is the customer''s own data/messages,
+  not a third-party dataset. Display/redistribution not addressed (unknown), so verdict stays unknown.
+  Acceptable Use Policy not read.'
+evidence:
+- field: commercial_use
+  url: https://www.mailgun.com/legal/terms/
+  quote: You may use the Services for commercial and professional purposes only
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.mailgun.com/legal/terms/
+  quote: Customer Data is, and at all times shall remain, your exclusive property.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

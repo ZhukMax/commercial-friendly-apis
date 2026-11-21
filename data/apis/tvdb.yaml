@@ -1,0 +1,25 @@
+id: tvdb
+name: TVDB
+url: https://thetvdb.com/api-information
+category: Video
+description: Television data
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: TVDB
+  url: https://thetvdb.com/api-information
+  category: Video
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

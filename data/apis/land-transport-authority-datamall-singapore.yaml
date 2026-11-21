@@ -1,0 +1,66 @@
+id: land-transport-authority-datamall-singapore
+name: Land Transport Authority DataMall, Singapore
+url: https://datamall.lta.gov.sg/content/dam/datamall/datasets/LTA_DataMall_API_User_Guide.pdf
+category: Transportation
+description: Singapore transport information
+description_source: upstream
+auth: apiKey
+https: false
+cors: unknown
+sources:
+- list: public-apis
+  name: Land Transport Authority DataMall, Singapore
+  url: https://datamall.lta.gov.sg/content/dam/datamall/datasets/LTA_DataMall_API_User_Guide.pdf
+  category: Transportation
+link_status: alive
+data_license: Singapore Open Data Licence v1.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://datamall.lta.gov.sg/content/datamall/en/SingaporeOpenDataLicence.html
+api_terms_url: https://datamall.lta.gov.sg/content/datamall/en/SingaporeOpenDataLicence.html
+commercial_use_scope: any
+attribution_text: Conspicuous notice acknowledging the source with link to the Singapore Open Data Licence
+  v1.0
+share_alike: unknown
+evidence:
+- field: commercial_use
+  url: https://datamall.lta.gov.sg/content/datamall/en/SingaporeOpenDataLicence.html
+  quote: whether commercially or non-commercially (“Use”).
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://datamall.lta.gov.sg/content/datamall/en/SingaporeOpenDataLicence.html
+  quote: You can use, access, download, copy, distribute, transmit, modify and adapt the datasets
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://datamall.lta.gov.sg/content/datamall/en/SingaporeOpenDataLicence.html
+  quote: You can use, access, download, copy, distribute, transmit, modify and adapt the datasets
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://datamall.lta.gov.sg/content/datamall/en/SingaporeOpenDataLicence.html
+  quote: You must include in your products, applications or websites that Use the datasets, a conspicuous
+    notice acknowledging the source
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://datamall.lta.gov.sg/content/datamall/en/SingaporeOpenDataLicence.html
+  quote: The Agency grants you a worldwide, perpetual, royalty-free, non-exclusive licence to Use the
+    datasets
+  checked_at: '2026-11-21'
+notes: The API User Guide PDF (v6.11, read with pdftotext) has no licence text; the licence is on the
+  DataMall site and covers "datasets on the Relevant Websites". It excludes personal data, third-party
+  rights and trademarks and forbids implying official endorsement. An API key (account registration) is
+  required. Third-party content inside individual datasets was not assessed.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'First pass missed the API ToS (datamall.lta.gov.sg/content/datamall/en/api-terms-of-service.html),
+  now read: commercial and non-commercial use OK, threshold 10M calls/day, indemnity, no IP rights over
+  third-party content, per-API extra terms possible. Site Terms of Use say contents are personal non-commercial,
+  but the licence governs datasets. Account key required.'

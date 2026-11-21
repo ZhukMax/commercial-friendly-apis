@@ -1,0 +1,29 @@
+id: gun-policy
+name: Gun Policy
+url: https://www.gunpolicy.org/api
+category: Government
+description: International firearm injury prevention and policy
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Gun Policy
+  url: https://www.gunpolicy.org/api
+  category: Government
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: HTTP 401 (blocked for bots, assumed alive)
+notes: gunpolicy.org/api and its terms page return HTTP 401 (HTTP basic-auth wall) from both curl; nothing could be read, so all terms fields are unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

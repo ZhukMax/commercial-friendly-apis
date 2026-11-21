@@ -1,0 +1,29 @@
+id: icanhazdadjoke
+name: icanhazdadjoke
+url: https://icanhazdadjoke.com/api
+category: Personality
+description: The largest selection of dad jokes on the internet
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: icanhazdadjoke
+  url: https://icanhazdadjoke.com/api
+  category: Personality
+- list: public-api-lists
+  name: icanhazdadjoke
+  url: https://icanhazdadjoke.com/api
+  category: Personality
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

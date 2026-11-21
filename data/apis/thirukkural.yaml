@@ -1,0 +1,29 @@
+id: thirukkural
+name: Thirukkural
+url: https://api-thirukkural.web.app/
+category: Books
+description: 1330 Thirukkural poems and explanation in Tamil and English
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Thirukkural
+  url: https://api-thirukkural.web.app/
+  category: Books
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+notes: 'Read the API landing page: it has no licence or terms; says the database was forked from another developer (Arjunkumar tk120404) and that the old firebase URL was retired in 2021 in favour of api-thirukkural.vercel.app.
+  The text of the Thirukkural is ancient, but the English translations/explanations in the dataset have their own authors; no rights statement found. All core fields unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

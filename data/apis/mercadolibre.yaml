@@ -1,0 +1,50 @@
+id: mercadolibre
+name: Mercadolibre
+url: https://developers.mercadolibre.cl/es_ar/api-docs-es
+category: Shopping
+description: Manage sales, ads, products, services and Shops
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Mercadolibre
+  url: https://developers.mercadolibre.cl/es_ar/api-docs-es
+  category: Shopping
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: ambiguous
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: HTTP 403 (blocked for bots, assumed alive)
+api_terms_url: https://developers.mercadolibre.cl/es_ar/terminos-y-condiciones
+evidence:
+- field: storage_caching
+  url: https://developers.mercadolibre.cl/es_ar/terminos-y-condiciones
+  quote: o almacenar el Contenido de Mercado Libre para menoscabar y/o desarrollar servicios y/o productos
+    que compitan con los de Mercado Libre
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://developers.mercadolibre.cl/es_ar/terminos-y-condiciones
+  quote: Distribuir o publicar o permitir el acceso al Contenido de Mercado Libre desde cualquier lugar
+    y origen que no sea su Aplicación
+  checked_at: '2026-11-21'
+notes: Read the Developer Program Terms and Conditions (Spanish, developers.mercadolibre.cl; the .com.ar
+  URL returned 404). Section 7 forbids commercialising or sublicensing the API, publishing Mercado Libre
+  Content anywhere other than your Application, and copying/storing it to compete with Mercado Libre or
+  for purposes not permitted. No explicit statement on commercial use, ads/affiliates or retention periods
+  was found, so commercial_use stays unknown. Terms are specific to the .cl portal text; other country
+  sites may differ. Account-scoped seller API (sales, ads, products) with OAuth.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read Spanish developer T&C. Storage and display ambiguous as before; account-scoped
+  seller API, not a public data feed.

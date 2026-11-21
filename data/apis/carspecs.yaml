@@ -1,0 +1,56 @@
+id: carspecs
+name: CarSpecs
+url: https://carspecsapi.com/docs
+category: Vehicle
+description: Car specs for 70,000+ trims since 1945 (make, model, generation, trim) and a VIN decoder
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: CarSpecs
+  url: https://carspecsapi.com/docs
+  category: Vehicle
+link_status: alive
+data_license: proprietary (CarSpecsAPI Terms of Service)
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+data_license_url: https://carspecsapi.com/terms
+api_terms_url: https://carspecsapi.com/terms
+commercial_use_scope: any
+evidence:
+- field: commercial_use
+  url: https://carspecsapi.com/terms
+  quote: Your subscription grants you a limited, non-exclusive, non-transferable license to use the Data
+    for your own applications and projects
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://carspecsapi.com/terms
+  quote: You may not resell, redistribute, or make the Data available as a standalone product or competing
+    service.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://carspecsapi.com/terms
+  quote: Your subscription grants you a limited, non-exclusive, non-transferable license to use the Data
+    for your own applications and projects
+  checked_at: '2026-11-21'
+notes: 'Read Terms of Service (sections 3 and 4). Licence is for your own applications and projects; no
+  resale/redistribution of raw data as a standalone dataset or competing API; Database-plan subscribers
+  may use downloaded data in their own applications but not redistribute the files. Commercial use is
+  neither allowed nor banned explicitly, and public display/caching on a website is not addressed: ambiguous
+  / unknown. Pricing page does not describe commercial licensing. No attribution clause found.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'ToS re-read: no ban on commercial use, only resale as standalone dataset; pricing
+  labels Pro plan ''For production apps and businesses'', Starter ''hobby projects''. Display/caching
+  unaddressed; ambiguous stays.'

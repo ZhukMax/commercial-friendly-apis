@@ -1,0 +1,31 @@
+id: brave-newcoin
+name: Brave NewCoin
+url: https://bravenewcoin.com/developers
+category: Cryptocurrency
+description: Real-time and historic crypto data from more than 200+ exchanges
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Brave NewCoin
+  url: https://bravenewcoin.com/developers
+  category: Cryptocurrency
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: bravenewcoin.com/developers redirects (301) to /contact
+notes: 'The developers page no longer exists (301 to /contact). Contact page only offers a ''Data Enquiry'' form for ''Market Data, Newsfeed and range of APIs'' (sales-led, no public API docs). The site''s
+  Terms & Conditions page read via curl contains only a short generic notice (translation/regional restrictions), with no API or data terms. No terms for the data API found, so all terms unknown. Crypto
+  market data aggregated from 200+ exchanges: exchange redistribution limits may apply upstream.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

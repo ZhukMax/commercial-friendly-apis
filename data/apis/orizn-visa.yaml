@@ -1,0 +1,73 @@
+id: orizn-visa
+name: Orizn Visa
+url: https://visa.orizn.app
+category: Transportation
+description: Visa requirements for 199 countries, 39K+ passport-destination pairs in 15 languages
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Orizn Visa
+  url: https://visa.orizn.app
+  category: Transportation
+- list: public-api-lists
+  name: Orizn Visa
+  url: https://visa.orizn.app
+  category: Transportation
+link_status: alive
+data_license: proprietary (Orizn subscription terms)
+commercial_use: paid-only
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://visa.orizn.app/visa-api/terms
+commercial_use_scope: paid
+cache_limit: Cached responses may be kept in the product during the subscription; bulk extraction of the
+  dataset prohibited; must remove cached responses within 30 days of termination
+rate_limits: Evaluation 100/month (non-commercial); Commercial 30,000/month ($1,490/yr); Production 250,000/month
+  ($4,990/yr)
+evidence:
+- field: commercial_use
+  url: https://visa.orizn.app/visa-api
+  quote: Evaluation $0 100 requests a month The full API, every field Non-commercial use only
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://visa.orizn.app/visa-api
+  quote: Commercial $1,490 /year 30,000 requests a month Serve answers to your paying users
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://visa.orizn.app/visa-api/terms
+  quote: You may display results to your own end users within your product.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://visa.orizn.app/visa-api/terms
+  quote: You must remove cached responses from any user-facing surface within thirty (30) days
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://visa.orizn.app/visa-api/terms
+  quote: Systematic bulk extraction of the dataset
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://visa.orizn.app/visa-api
+  quote: Evaluation $0 100 requests a month
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://visa.orizn.app/visa-api/terms
+  quote: Redistribution of the dataset as a dataset requires a separate written licence.
+  checked_at: '2026-11-21'
+notes: Read /visa-api/terms and pricing section of /visa-api. Free Evaluation plan is non-commercial only;
+  commercial display to your own end users needs the paid Commercial plan ($1,490/yr) or higher; redistribution
+  to customers/dataset snapshot needs a separate Licence plan. Terms require passing down a disclaimer
+  that entry rules must be confirmed with the authority, and not presenting the dataset as your own or
+  as official; no explicit attribution text required (unknown). The data is compiled from government sources
+  (source_url per record) so upstream government terms not assessed. Business customers only.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+license_scope: portal-default

@@ -1,0 +1,48 @@
+id: kraken
+name: Kraken
+url: https://docs.kraken.com/exchange/guides/rest/introduction
+category: Cryptocurrency
+description: Cryptocurrencies Exchange
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Kraken
+  url: https://docs.kraken.com/exchange/guides/rest/introduction
+  category: Cryptocurrency
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.kraken.com/legal/global-terms
+evidence:
+- field: commercial_use
+  url: https://www.kraken.com/legal/global-terms
+  quote: develop any third-party applications that interact with Our Content without our prior written
+    consent
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.kraken.com/legal/global-terms
+  quote: sell, resell, transfer, assign, distribute or otherwise commercially exploit or make available
+    to any third party Our Content in any way
+  checked_at: '2026-11-21'
+notes: 'Pages read: Kraken Global Terms of Service (kraken.com/legal/global-terms) and the REST introduction
+  page. No separate API / market-data licence found (kraken.com/legal/api-terms is 404). The ToS restricts
+  ''Our Content'' (services, platforms, content) incl. third-party apps and automation without written
+  consent; whether this covers the public REST market-data endpoints is unclear, hence ambiguous. Caching/attribution
+  not addressed. docs.kraken.com has no terms section.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read global-terms: ''Our Content'' = services, platforms and content. Evidence
+  leans restrictive but public REST endpoints are documented for use; ambiguous stands.'

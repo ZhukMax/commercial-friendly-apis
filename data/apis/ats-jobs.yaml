@@ -1,0 +1,32 @@
+id: ats-jobs
+name: ATS Jobs
+url: https://rapidapi.com/fikrimarhan/api/ats-jobs-api4
+category: Jobs
+description: Open jobs from a company's Greenhouse, Lever, Ashby or SmartRecruiters board in one schema
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: ATS Jobs
+  url: https://rapidapi.com/fikrimarhan/api/ats-jobs-api4
+  category: Jobs
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+notes: 'Only the RapidAPI listing (rapidapi.com/fikrimarhan/api/ats-jobs-api4) was read: it describes
+  fetching open jobs live from companies'' Greenhouse, Lever, Ashby and SmartRecruiters boards in one
+  schema. No provider terms, licence or usage conditions appear on the page, and RapidAPI''s own marketplace
+  terms were not assessed. Upstream ATS boards and employers own the postings and their terms may be stricter.
+  Everything unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

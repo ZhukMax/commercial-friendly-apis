@@ -1,0 +1,283 @@
+[
+ {
+  "id": "govcontractscout",
+  "outcome": "confirmed",
+  "reasons": [
+   "Re-read /api-terms via Playwright: commercial use allowed on paid, free tier eval only; no caching clause."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Terms also make user responsible for upstream portal ToS and bar mirroring; ambiguity on storage remains."
+ },
+ {
+  "id": "grab",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms are a partner agreement; no public data licence or commercial display grant found."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "All core fields correctly unknown."
+ },
+ {
+  "id": "graph-countries",
+  "outcome": "confirmed",
+  "reasons": [
+   "No licence file; upstream restcountries README says MPL 2.0 (code); hosted endpoint returns HTTP 500, repo idle since 2023-01."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Effectively unusable hosted; self-host needs own Neo4j. Ambiguity stays."
+ },
+ {
+  "id": "graphhopper",
+  "outcome": "confirmed",
+  "reasons": [
+   "GraphHopper pricing page also states the Free plan is non-commercial only; ToS caching/redistribution limits re-confirmed."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Pricing page: 'The Free Plan is for non-commercial use only.' Same service as graphhopper-graphhopper; consider merging."
+ },
+ {
+  "id": "graphhopper-graphhopper",
+  "outcome": "confirmed",
+  "reasons": [
+   "GraphHopper pricing page also states the Free plan is non-commercial only; ToS caching/redistribution limits re-confirmed."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Duplicate of graphhopper (URL redirects to same docs)."
+ },
+ {
+  "id": "grizzly-bulls",
+  "outcome": "confirmed",
+  "reasons": [
+   "Data License bans mirroring, API resale and substitute products; API page labels series redistribution-approved; no stronger blocker."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Leans commercial-ok for display of the ten BEA/BLS series; keep ambiguous as licence-to-API link is not stated."
+ },
+ {
+  "id": "gstinapi",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms re-read: business-only, bans harvesting and competing resale; personal data only for the lookup purpose."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Upstream GSP/GSTN terms not published; public display of proprietor data is risky."
+ },
+ {
+  "id": "hackmyip",
+  "outcome": "confirmed",
+  "reasons": [
+   "API page says free for personal and commercial use; ToS has no contrary clause."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Upstream data sources unnamed, display rights unconfirmed."
+ },
+ {
+  "id": "haulierscope",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToS bans building a database/directory/service from the data (points to DVSA OGL file); API use allowed with attribution; OGL line mandatory."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Developers page: show the OGL statement with the data (attribution yes). Directory-style catalog sites are blocked; plain display OK."
+ },
+ {
+  "id": "helious",
+  "outcome": "disputed",
+  "reasons": [
+   "Developers page explicitly encourages caching, which the first pass left unknown."
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://helious.io/developers/",
+    "field": "storage_caching",
+    "quote": "Cache anything you fetch twice, name yourself in the User-Agent header, and credit Helious."
+   }
+  ],
+  "suggested": {
+   "storage_caching": "yes"
+  },
+  "note": "Caching for efficiency only; permanent database storage unaddressed. Redistribution needs separate agreement on Ultimate, so public display still unconfirmed. No ToS page exists."
+ },
+ {
+  "id": "housingfeed",
+  "outcome": "disputed",
+  "reasons": [
+   "ToS forbids public display and redistribution under the data API; display needs separate paid Display Feed licence (not read)."
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://housingfeed.com/terms",
+    "field": "redistribution_display",
+    "quote": "you may not display it publicly or redistribute it, whether by a person or by an agent."
+   }
+  ],
+  "suggested": {
+   "redistribution_display": "no"
+  },
+  "note": "Under the Data API terms display is no; only the separate Display Feed licence permits it. Verdict for the API itself should be red/yellow-by-contract."
+ },
+ {
+  "id": "humanitarian-data-exchange",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToS re-read: contributors choose licence per dataset; no dataset-level licence readable globally."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Per-dataset check needed; some datasets restricted."
+ },
+ {
+  "id": "i6eal-open-ai-data",
+  "outcome": "confirmed",
+  "reasons": [
+   "Page re-read: CC BY 4.0 only for i6eal compilation; sources marked 'source terms', 'mixed terms' or 'terms not verified'."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Upstream terms unread; stays ambiguous."
+ },
+ {
+  "id": "iban-analyzer",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms re-read: caching own lookups fine; bans redistribution/publication, model training, storing beyond own use."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Public SEO pages of lookup results would likely breach 'publish'."
+ },
+ {
+  "id": "inaturalist",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms re-read: default CC BY-NC contributions, no open licence on photos, ban on commercial AI training."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Per-record licence filtering required; keep ambiguous."
+ },
+ {
+  "id": "infranode",
+  "outcome": "disputed",
+  "reasons": [
+   "Homepage states all listed data types are permissively licensed and free for commercial use, which first pass missed.",
+   "Each record carries an attribution field, so attribution is required."
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://infranode.dev/en/",
+    "field": "commercial_use",
+    "quote": "all permissively licensed (Tier A: DL-DE/BY, CC-BY, free for commercial use)"
+   },
+   {
+    "url": "https://infranode.dev/en/",
+    "field": "attribution_required",
+    "quote": "Each data record additionally carries an attribution field with licence and origin."
+   }
+  ],
+  "suggested": {
+   "commercial_use": "yes",
+   "attribution_required": "yes"
+  },
+  "note": "Per-source licences (DL-DE/BY, CC-BY) still apply; some endpoints may be non-Tier-A; no ToS page found. Display/storage remain unconfirmed."
+ },
+ {
+  "id": "intrinio",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms re-read: without paid Order Form data is internal-use only and 'Display' (websites, apps) is forbidden."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Display needs negotiated Order Form; effectively no for standard use."
+ },
+ {
+  "id": "ip-geolocation",
+  "outcome": "confirmed",
+  "reasons": [
+   "Pricing lists 'Commercial license' only in custom column while comparison markets free tier as not non-commercial-only; no API-specific terms found."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Site ToS bans scraping and standalone commercial exploitation of Content; unresolved."
+ },
+ {
+  "id": "ip2geo-dev",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToS silent on commercial use, bans storing results beyond own application needs and redistribution; pricing labels Growth plan 'for production workloads'."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Upstream MaxMind GeoLite EULA (attribution, no redistribution) not checked."
+ },
+ {
+  "id": "ip2location",
+  "outcome": "confirmed",
+  "reasons": [
+   "Master License Agreement limits to internal business operations and bans display to others; legacy service closed to new registrations."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Consider link_status/closed note."
+ },
+ {
+  "id": "ip2location-io",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToS caching up to 30 days, bans resale of raw responses; free plan requires attribution; pricing FAQ confirms."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Free-tier commercial status only implied."
+ },
+ {
+  "id": "ip2proxy",
+  "outcome": "confirmed",
+  "reasons": [
+   "Same MLA as ip2location: internal use only, no display to others; legacy service closed to new registrations."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": ""
+ },
+ {
+  "id": "ipapi-co",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToS bans storing in a publicly accessible retrieval system and displaying to others; free plan not for production."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Display of own-visitor location arguably internal use; ambiguous retained."
+ },
+ {
+  "id": "ipapi-co-ip-location",
+  "outcome": "confirmed",
+  "reasons": [
+   "Same ipapi.co terms as sibling entry: 24h cache cap, internal use, free not for production."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Duplicate vendor entry of ipapi-co."
+ },
+ {
+  "id": "ipapi-com",
+  "outcome": "confirmed",
+  "reasons": [
+   "Plans page marks free plan Non-Commercial and paid plans Commercial Use; terms bar transferring data outside the application."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Terms last modified 2018."
+ }
+]

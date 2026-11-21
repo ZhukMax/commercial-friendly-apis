@@ -1,0 +1,49 @@
+id: nexchange
+name: Nexchange
+url: https://nexchange2.docs.apiary.io/
+category: Cryptocurrency
+description: Automated cryptocurrency exchange service
+description_source: upstream
+auth: none
+https: false
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Nexchange
+  url: https://nexchange2.docs.apiary.io/
+  category: Cryptocurrency
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://n.exchange/legal/terms
+evidence:
+- field: commercial_use
+  url: https://n.exchange/legal/terms
+  quote: we grant you a limited, revocable, non-exclusive, non-transferable license to access and use
+    the Site and Services for personal, non-commercial purposes.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://n.exchange/legal/terms
+  quote: Sublicense, sell, rent, lease, transfer, or commercially exploit the Site or its content
+  checked_at: '2026-11-21'
+notes: 'Not really a data source: a crypto exchange service (exchange/quote API on api.n.exchange, apiary
+  docs). The only terms found (n.exchange/legal/terms, updated 2026-02-26) license the Site and Services
+  for personal non-commercial use and forbid commercial exploitation of the Site or its content; they
+  never mention the API or partner use, so applicability to the API is unclear (partner program exists,
+  terms not read): ambiguous. Apiary docs page has no terms.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Not a data source; ambiguous stands.
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

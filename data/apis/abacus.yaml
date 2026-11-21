@@ -1,0 +1,26 @@
+id: abacus
+name: Abacus
+url: https://abacus.jasoncameron.dev
+category: Development
+description: Free and simple counting service. You can use it to track page hits and specific events
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: Abacus
+  url: https://abacus.jasoncameron.dev
+  category: Development
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://v2.jasoncameron.dev/abacus/

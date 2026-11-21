@@ -1,0 +1,331 @@
+[
+ {
+  "id": "uk-legislation-changes",
+  "outcome": "confirmed",
+  "reasons": [
+   "Looked for blockers: none; OGL v3.0 applies, attribution block supplied"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "legislation.gov.uk footer: all content under OGL v3.0 unless stated otherwise. Operator anonymous/AI-run, no own terms, no SLA; third-party (non-OGL) items upstream not checked."
+ },
+ {
+  "id": "universities-list",
+  "outcome": "confirmed",
+  "reasons": [
+   "MIT repo, README says use the JSON freely; no blocker found"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Hosted API has no terms and README asks big projects to self-host; ship the JSON."
+ },
+ {
+  "id": "university-of-oslo",
+  "outcome": "confirmed",
+  "reasons": [
+   "NLOD 1.0 (linked by page) allows copy/use/make available with attribution; no blocker"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "'Any purpose' wording only in NLOD 2.0; v1.0 grant has no commercial restriction. Personal data/third-party material in org data not assessed."
+ },
+ {
+  "id": "urantia-papers",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToS: any lawful purpose, CC0 content; no blocker found"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "English text PD only 'in the United States' per ToS (Michael Foundation v. Urantia Foundation); Spanish text is AI translation released CC0; Bible/world-religion texts carry per-text licence (mostly 'Public domain in the United States'). Do not imply affiliation with Urantia Foundation."
+ },
+ {
+  "id": "us-mortgage-calculator",
+  "outcome": "disputed",
+  "reasons": [
+   "Terms of Use conflict with datasets page; no licence for API output",
+   "Terms reserve calculator implementations and forbid republishing state tables as own"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://www.usmortgagecalc.com/terms",
+    "quote": "Republish the state data tables or written guides as your own, or present output from the calculators as an official assessment",
+    "field": "redistribution_display"
+   },
+   {
+    "url": "https://www.usmortgagecalc.com/terms",
+    "quote": "The written guides, the state-by-state explanatory content, the page designs and the calculator implementations are the property of DevScriptify",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "ambiguous",
+   "redistribution_display": "ambiguous"
+  },
+  "note": "CC BY 4.0 on /datasets (newer, Nov 2026) covers the CSV/JSON reference data only; Terms (Aug 2026) never mention API use, commercial use of calculation responses, or bulk use via automated means. Green only for datasets, not the API."
+ },
+ {
+  "id": "us-weather",
+  "outcome": "confirmed",
+  "reasons": [
+   "NWS disclaimer: public domain, any lawful purpose; no blocker"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Conditions: no claim as own, no implied NWS endorsement, no modified data presented as official; NWS name/logo need permission; third-party items on weather.gov may be copyrighted."
+ },
+ {
+  "id": "usaspending-gov",
+  "outcome": "disputed",
+  "reasons": [
+   "D&B Limitation on Permissible Use (unread by first pass) restricts some fields",
+   "Bulk/systematic access of D&B data and commercial use of non-open D&B fields prohibited"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://www.usaspending.gov/db_info",
+    "quote": "under no circumstances are you authorized to use any other D&B data for commercial, resale or marketing purposes",
+    "field": "commercial_use"
+   },
+   {
+    "url": "https://www.usaspending.gov/db_info",
+    "quote": "shall not access, use or disseminate D&B Open Data in bulk",
+    "field": "storage_caching"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "ambiguous",
+   "storage_caching": "ambiguous",
+   "redistribution_display": "ambiguous",
+   "attribution_required": "yes"
+  },
+  "note": "Most federal award data is free for commercial use (About page, re-read), but recipient business data from D&B has own limits: written attribution to D&B, no bulk use, only the listed 'D&B Open Data' elements usable commercially."
+ },
+ {
+  "id": "usgs-earthquake-hazards-program",
+  "outcome": "confirmed",
+  "reasons": [
+   "Copyrights page re-read: USGS data public domain; credit requested only"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Third-party content on usgs.gov may be copyrighted; contributed-network catalog data not assessed."
+ },
+ {
+  "id": "usgs-water-services",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms fine (public domain, credit requested); no licence blocker"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Service is slated for decommissioning (banner reported by first pass, Feb 22 2027; waterservices.usgs.gov timed out on my retry so banner not re-verified); successor api.waterdata.usgs.gov terms unread. Consider adding a link_note."
+ },
+ {
+  "id": "utah-agrc",
+  "outcome": "confirmed",
+  "reasons": [
+   "UGRC licence page re-read: CC BY 4.0 for data and services; no blocker"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Exceptions: Google/Hexagon imagery and externally hosted data; per-dataset metadata may override. API key required (UtahID); API has no separate commercial terms."
+ },
+ {
+  "id": "velib-metropolis-paris-france",
+  "outcome": "confirmed",
+  "reasons": [
+   "Page re-read via Playwright: Licence Ouverte, commercial exploitation allowed with attribution"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Page says its licence summary is informational; full licence text binding (not read). Etalab Licence Ouverte permits commercial reuse. Needed a consent banner in the browser."
+ },
+ {
+  "id": "vergabeweiser",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToS re-read: CC0 notices, CC BY 4.0 enrichment, commercial use allowed"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Caveats: TED notices need '© Europäische Union'; no re-identification of sole traders; marketing to firms from this data unlawful under UWG 7; don't bypass limits with multiple keys; single-person operator."
+ },
+ {
+  "id": "verified-handles",
+  "outcome": "disputed",
+  "reasons": [
+   "Attribution not 'no' for all entries: Wikipedia-derived descriptions are CC BY-SA 4.0",
+   "Images are not covered by the CC0 dedication"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://verifiedhandles.org/developers",
+    "quote": "Wikipedia shares its articles under CC BY-SA 4.0 , and the description keeps that licence",
+    "field": "attribution_required"
+   },
+   {
+    "url": "https://verifiedhandles.org/developers",
+    "quote": "Images are not covered by the entry text’s public-domain dedication.",
+    "field": "redistribution_display"
+   }
+  ],
+  "suggested": {
+   "attribution_required": "ambiguous"
+  },
+  "note": "First-pass quote 'without asking' does not support attribution=no. Commercial use itself is fine; per-entry description_license and image_rights must be honoured (share-alike applies to Wikipedia text). Rate limit 120 req/min per IP."
+ },
+ {
+  "id": "verified-supplement-data",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms and data page allow commercial reuse of data with credit; no blocker for the endpoint"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Listed URL is an OpenAPI doc; documented endpoint is the form-classifier (own editorial data). Data page says CC BY 4.0 but also lists Amazon-sourced prices/ASINs (price_usd): Amazon terms unread, avoid redistributing price fields. Terms forbid scraping at degrading rate and implying endorsement."
+ },
+ {
+  "id": "weathertotals",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms re-read via Playwright: API/widget output CC BY 4.0 incl. commercial"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Terms also forbid republishing whole pages as own and require attribution/licence naming; underlying data public domain."
+ },
+ {
+  "id": "whatsapp-rate-cards",
+  "outcome": "disputed",
+  "reasons": [
+   "Upstream Meta terms unread; repo also redistributes Meta's original workbooks",
+   "Compiler's CC BY cannot grant rights over Meta's own material"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://github.com/tobachat/whatsapp-api-rates",
+    "quote": "raw/<date>/ Meta's original workbooks for that rate card",
+    "field": "redistribution_display"
+   }
+  ],
+  "suggested": {
+   "redistribution_display": "ambiguous"
+  },
+  "note": "Rates are Meta's published prices (facts), CC BY 4.0 stated by compiler, but Meta's developer terms were not read and the dataset is unaffiliated with Meta. Prices change quarterly; stale data risk."
+ },
+ {
+  "id": "wikidata",
+  "outcome": "confirmed",
+  "reasons": [
+   "Wikidata:Licensing re-read: structured data CC0; no blocker"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Other namespaces CC BY-SA; follow API:Etiquette/User-Agent policy; WDQS limits separate."
+ },
+ {
+  "id": "world-bank",
+  "outcome": "confirmed",
+  "reasons": [
+   "Data Catalog: CC BY 4.0 default, WDI licensed CC BY 4.0; no blocker for default datasets"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Site T&C say Materials are non-commercial except Datasets (which have own terms). API serves many sources; some datasets carry other licences (ODbL, external, microdata): check per indicator. Mandatory mediation/arbitration clause."
+ },
+ {
+  "id": "yiminshuju-visa-bulletin",
+  "outcome": "confirmed",
+  "reasons": [
+   "Site cites free reuse, no copyright claimed; source is US gov public document"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "'Commercial' never named; free citing/reposting/secondary analysis allowed with source and update date. Small independent site."
+ },
+ {
+  "id": "zestful",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToS re-read: commercial use, unlimited retention, resale all granted, no attribution"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "License is revocable/non-transferable; Zestful may end service anytime; trial 30 parses/day."
+ },
+ {
+  "id": "zip-codes",
+  "outcome": "disputed",
+  "reasons": [
+   "ToS bars publishing raw output; display allowed only with 'substantial independent value'",
+   "AI/vector use and mailing-list construction prohibited"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://www.zip-codes.com/api/terms",
+    "quote": "provided such display delivers substantial independent value beyond the Output Data itself",
+    "field": "redistribution_display"
+   },
+   {
+    "url": "https://www.zip-codes.com/api/terms",
+    "quote": "make raw API Results available to third parties as a standalone data product, database, or data feed, whether for free or for a fee",
+    "field": "redistribution_display"
+   }
+  ],
+  "suggested": {
+   "redistribution_display": "ambiguous"
+  },
+  "note": "Storage indefinite is allowed, free tier commercial with 'Powered by ZIP-Codes.com'. Ad-supported pages mostly listing ZIP data risk breaching the standalone-dataset / independent-value limits, so green overstated."
+ },
+ {
+  "id": "zornade",
+  "outcome": "disputed",
+  "reasons": [
+   "Upstream ODbL layers (OSM, OpenAddresses) carry share-alike; ToS defers to source licences",
+   "Rate limit differs between ToS and marketing"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://zornade.com/terms/",
+    "quote": "Ogni dataset pubblicato indica la licenza della fonte originale: CC BY 4.0, IODL 2.0, ODbL o licenze ISPRA/INGV/Copernicus.",
+    "field": "redistribution_display"
+   },
+   {
+    "url": "https://app.zornade.com/api/",
+    "quote": "CC BY 4.0 (HRSL Meta/CIESIN, WorldPop) + ODbL 1.0 (OSM).",
+    "field": "redistribution_display"
+   }
+  ],
+  "suggested": {
+   "redistribution_display": "ambiguous",
+   "storage_caching": "ambiguous"
+  },
+  "note": "Zornade ToS allows commercial display/storage, but its own API docs list ODbL 1.0 layers (OSM buildings) and 'CC0 / ODbL' address data; ODbL share-alike on derived databases not addressed. Not a duplicate of zornade-zornade in licence terms; same vendor."
+ },
+ {
+  "id": "zornade-zornade",
+  "outcome": "disputed",
+  "reasons": [
+   "Same vendor and ToS as zornade: upstream ODbL layers with share-alike unresolved",
+   "Mixed source licences incl. Agenzia Entrate OMI own terms"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://zornade.com/terms/",
+    "quote": "Ogni dataset pubblicato indica la licenza della fonte originale: CC BY 4.0, IODL 2.0, ODbL o licenze ISPRA/INGV/Copernicus.",
+    "field": "redistribution_display"
+   },
+   {
+    "url": "https://app.zornade.com/api/",
+    "quote": "CC BY 4.0 (HRSL Meta/CIESIN, WorldPop) + ODbL 1.0 (OSM).",
+    "field": "redistribution_display"
+   }
+  ],
+  "suggested": {
+   "redistribution_display": "ambiguous",
+   "storage_caching": "ambiguous"
+  },
+  "note": "Zornade ToS allows commercial display/storage, but its own API docs list ODbL 1.0 layers (OSM buildings) and 'CC0 / ODbL' address data; ODbL share-alike on derived databases not addressed. Duplicate vendor of 'zornade'; cadastral parcel layer itself not separately verified."
+ }
+]

@@ -1,0 +1,26 @@
+id: finbridge
+name: FinBridge
+url: https://www.gronox.kr/docs
+category: Finance
+description: Official-source financials, segments, valuation, peers and prices for KR, US, JP, TW companies
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: FinBridge
+  url: https://www.gronox.kr/docs
+  category: Finance
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: ConnectError

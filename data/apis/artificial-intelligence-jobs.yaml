@@ -1,0 +1,55 @@
+id: artificial-intelligence-jobs
+name: Artificial Intelligence Jobs
+url: https://artificialintelligencejobs.co/developers
+category: Jobs
+description: Live AI/ML job listings from 260+ companies' own career pages, with salary, location, remote
+  and seniority filters
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Artificial Intelligence Jobs
+  url: https://artificialintelligencejobs.co/developers
+  category: Jobs
+link_status: alive
+data_license: proprietary (curated index; listings come from employers' public career pages)
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: 'no'
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://artificialintelligencejobs.co/terms
+attribution_text: 'Appreciated: link to artificialintelligencejobs.co'
+evidence:
+- field: attribution_required
+  url: https://artificialintelligencejobs.co/developers
+  quote: Attribution appreciated (link to artificialintelligencejobs.co).
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://artificialintelligencejobs.co/terms
+  quote: no bulk scraping at a rate that degrades it for others, no reposting our curated dataset wholesale
+    as your own
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://artificialintelligencejobs.co/terms
+  quote: Listings are collected daily from companies' own public careers systems and link back to the
+    employer's official application page.
+  checked_at: '2026-11-21'
+notes: 'Developers page: free, public, no-key JSON API (/api/jobs, OpenAPI at /openapi.json), attribution
+  appreciated but not required. Terms (plain language, 25 Jul 2026) forbid disruptive bulk scraping and
+  reposting the curated dataset wholesale as your own, and say data may be incomplete; they do not say
+  whether commercial use, caching or showing listings on another site is allowed, so commercial_use and
+  storage_caching stay unknown and redistribution_display=ambiguous. Listings are collected from employers
+  career pages (third-party text); upstream rights not assessed.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Terms and /developers re-read: no commercial/caching statement; bars wholesale reposting
+  and bulk scraping; attribution appreciated. Unknown stays.'

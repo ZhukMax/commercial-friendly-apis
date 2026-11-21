@@ -1,0 +1,64 @@
+id: themealdb
+name: TheMealDB
+url: https://www.themealdb.com/api.php
+category: Food & Drink
+description: Meal Recipes
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: TheMealDB
+  url: https://www.themealdb.com/api.php
+  category: Food & Drink
+- list: public-api-lists
+  name: TheMealDB
+  url: https://www.themealdb.com/api.php
+  category: Food & Drink
+link_status: alive
+data_license: unknown
+commercial_use: paid-only
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: 'no'
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.themealdb.com/terms_of_use.php
+commercial_use_scope: paid
+attribution_text: Mention TheMealDB as the source of the data (link back where appropriate)
+share_alike: unknown
+evidence:
+- field: commercial_use
+  url: https://www.themealdb.com/terms_of_use.php
+  quote: You may use our API to develop apps and services as long as you stay within the rate limit.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.themealdb.com/terms_of_use.php
+  quote: You cannot publish apps to an appstore unless you are a paid subscriber.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.themealdb.com/terms_of_use.php
+  quote: You can scrape, copy and modify any content returned from the API, as long as you use the official end points.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.themealdb.com/terms_of_use.php
+  quote: You can scrape, copy and modify any content returned from the API, as long as you use the official end points.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.themealdb.com/terms_of_use.php
+  quote: You can use our custom artwork in your projects but must mention us as the source of the data.
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://www.themealdb.com/terms_of_use.php
+  quote: Please do not scrape our website.
+  checked_at: '2026-11-21'
+notes: 'Read https://www.themealdb.com/terms_of_use.php (terms) and the API docs page. Free API = development/educational test key ''1''; production/public release requires a paid (one-off lifetime) key;
+  paid terms permit apps and services within rate limit. Reselling the API is forbidden. Data and artwork are crowd-sourced by users (artwork may carry its own CC tag; third-party content not allowed without
+  owner permission), so no single data licence is stated. The page text is shared by TheMealDB/TheCocktailDB (this copy even says ''TheMealDB''). Website scraping is forbidden; only official endpoints.
+  Doubt: whether a free-key ad-supported website counts as ''publishing'' is not spelled out; paid-only is the conservative reading.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

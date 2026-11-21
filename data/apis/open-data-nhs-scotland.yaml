@@ -1,0 +1,68 @@
+id: open-data-nhs-scotland
+name: Open Data NHS Scotland
+url: https://www.opendata.nhs.scot
+category: Health
+description: Medical reference data and statistics by Public Health Scotland
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Open Data NHS Scotland
+  url: https://www.opendata.nhs.scot
+  category: Health
+link_status: alive
+data_license: OGL-UK-3.0 (portal states 'Open Government Licence'; v3 text read at National Archives)
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+commercial_use_scope: any
+share_alike: 'no'
+data_license_url: https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+api_terms_url: https://www.opendata.nhs.scot/about
+attribution_text: Contains public sector information licensed under the Open Government Licence v3.0.
+notes: 'Portal-wide default: About page and footer say data is released under the UK Open Government Licence.
+  The OGL v3.0 text (National Archives) was read for the conditions. Portal is CKAN; per-dataset licence
+  fields were not checked and may differ, so confidence is medium. The portal terms-of-use page only contained
+  the cookie policy. No rate limits stated.'
+evidence:
+- field: data_license
+  url: https://www.opendata.nhs.scot/about
+  quote: Data is released under the UK Open Government Licence (OGL) which means it is free to use and
+    re-use.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+  quote: exploit the Information commercially and non-commercially for example, by combining it with other
+    Information, or by including it in your own product or application.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+  quote: publish, distribute and transmit the Information
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+  quote: publish, distribute and transmit the Information
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+  quote: acknowledge the source of the Information in your product or application by including or linking
+    to any attribution statement
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+  quote: adapt the Information
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'CKAN API: 104 of 105 datasets uk-ogl, 1 cc-by; OGL v3 allows commercial use with attribution.'
+license_scope: portal-default

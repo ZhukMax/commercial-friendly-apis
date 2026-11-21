@@ -1,0 +1,30 @@
+id: botsarchive
+name: BotsArchive
+url: https://botsarchive.com/docs.html
+category: Open Data
+description: JSON formatted details about Telegram Bots available in database
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: BotsArchive
+  url: https://botsarchive.com/docs.html
+  category: Open Data
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+evidence: []
+notes: 'Read docs.html (endpoint list only) and about.html (project description); no terms, licence or usage policy found anywhere on botsarchive.com (index links: about, categories, docs, weekly). Data
+  is third-party Telegram bot listings. All terms unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

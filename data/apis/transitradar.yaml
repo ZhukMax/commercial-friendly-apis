@@ -1,0 +1,61 @@
+id: transitradar
+name: TransitRadar
+url: https://transitradar.co.uk/scalar/
+category: Transportation
+description: Live GB train and bus departures, train positions, journey planning and a daily punctuality
+  archive
+description_source: upstream
+auth: none
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: TransitRadar
+  url: https://transitradar.co.uk/scalar/
+  category: Transportation
+link_status: alive
+data_license: Upstream open licences (Network Rail, National Rail Enquiries, OGL for BODS/NaPTAN); own
+  daily aggregates reusable with credit
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://transitradar.co.uk/faq
+data_license_url: https://transitradar.co.uk/data
+evidence:
+- field: commercial_use
+  url: https://transitradar.co.uk/faq
+  quote: Register for the feeds yourself (they are free) rather than treating this site as your source,
+    and read the licences.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://transitradar.co.uk/faq
+  quote: you may reuse those with credit
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://transitradar.co.uk/faq
+  quote: chiefly that Network Rail, National Rail and the Bus Open Data Service are credited.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://transitradar.co.uk/data
+  quote: NaPTAN, NPTG, NOC and BODS data are published under the Open Government Licence.
+  checked_at: '2026-11-21'
+notes: Read /faq, /data, /get-key (no separate API terms page found; /terms is 404; Scalar API reference
+  page is JS-only). The site is a presentation layer over Network Rail, National Rail Enquiries (Darwin),
+  BODS and OSM data. FAQ says the underlying data belongs to its publishers and advises getting the feeds
+  yourself rather than treating this site as the source; only its own punctuality aggregates are explicitly
+  reusable with credit, while reason texts and per-train rows are feed data it cannot license and formation
+  data has separate non-redistributable terms. So commercial use and display are ambiguous. Storage/caching
+  unknown. Upstream terms (National Rail, Network Rail) may be stricter and were not read.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read /faq and /data: feeds used under Network Rail, National Rail Enquiries and
+  BODS open licences; reasons and per-train rows are feed data it cannot relicense. Network Rail and National
+  Rail licence texts could not be fetched (empty), so upstream stays unverified. Ambiguity stands.'

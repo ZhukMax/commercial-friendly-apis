@@ -1,0 +1,30 @@
+id: transport-for-toronto-canada
+name: Transport for Toronto, Canada
+url: https://myttc.ca/developers
+category: Transportation
+description: TTC
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Transport for Toronto, Canada
+  url: https://myttc.ca/developers
+  category: Transportation
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+evidence: []
+notes: 'Read https://myttc.ca/developers: it documents a keyless JSON/XML API and points to a Google Group for full data dumps (SQL/GTFS) but states no licence, terms of use, caching or attribution
+  rules. The site is an unofficial third-party app (MyTTC), not the TTC itself; the underlying TTC/City of Toronto data terms were not read. Nothing proven, so all terms unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

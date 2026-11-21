@@ -1,0 +1,38 @@
+id: ergast-f1
+name: Ergast F1
+url: http://ergast.com/mrd/
+category: Sports & Fitness
+description: F1 data from the beginning of the world championships in 1950
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Ergast F1
+  url: http://ergast.com/mrd/
+  category: Sports & Fitness
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: high
+link_checked_at: '2026-11-21'
+link_note: ergast.com now serves an unrelated spam/gambling page; /api/f1/current.json returns 404. Ergast
+  announced shutdown early 2025 (successor Jolpica is a separate service)
+evidence:
+- field: link_status
+  url: https://web.archive.org/web/2024/http://ergast.com/mrd/
+  quote: The Ergast API will not be updated beyond the 2024 season and will shutdown early in 2025.
+  checked_at: '2026-11-21'
+notes: 'Service is shut down: archived Ergast page (2024) announces deprecation and shutdown early 2025;
+  today the domain serves an unrelated gambling-affiliate page and the API path returns 404. Terms were
+  not read and are not transferred to the Jolpica successor (jolpica-f1 is a different service with its
+  own Terms of Use, not assessed here). Not usable.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -1,0 +1,35 @@
+id: transport-for-sao-paulo-brazil
+name: Transport for Sao Paulo, Brazil
+url: http://www.sptrans.com.br/desenvolvedores/api-do-olho-vivo-guia-de-referencia/documentacao-api/
+category: Transportation
+description: SPTrans
+description_source: upstream
+auth: OAuth
+https: false
+cors: unknown
+sources:
+- list: public-apis
+  name: Transport for Sao Paulo, Brazil
+  url: http://www.sptrans.com.br/desenvolvedores/api-do-olho-vivo-guia-de-referencia/documentacao-api/
+  category: Transportation
+- list: public-api-lists
+  name: Transport for Sao Paulo, Brazil
+  url: http://www.sptrans.com.br/desenvolvedores/api-do-olho-vivo-guia-de-referencia/documentacao-api/
+  category: Transportation
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.sptrans.com.br/desenvolvedores/
+evidence: []
+notes: Read the OlhoVivo API reference page and the SPTrans developers landing page (via fresh Playwright context; curl gets 403). They describe endpoints (token auth after registration) and GTFS,
+  but publish no licence, commercial-use, caching or attribution terms. The registration form/terms behind the sign-up were not read. All terms unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

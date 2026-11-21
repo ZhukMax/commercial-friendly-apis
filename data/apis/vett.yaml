@@ -1,0 +1,69 @@
+id: vett
+name: Vett
+url: https://wimberly.solutions/api/free-sanctions-check/
+category: Government
+description: Screen names & companies against OFAC, PEP, watchlists & recalls
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Vett
+  url: https://wimberly.solutions/api/free-sanctions-check/
+  category: Government
+link_status: alive
+data_license: proprietary processing; government-sourced data stated to be public domain
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://wimberly.solutions/legal/terms/
+api_terms_url: https://wimberly.solutions/legal/terms/
+commercial_use_scope: paid
+share_alike: unknown
+rate_limits: 'Free web tool: 10 req/min, 100 req/day per IP; paid APIs from $29/month via RapidAPI'
+notes: 'Read the free-tool page and the Wimberly Solutions ToS (effective 2026-05-12). Free no-key tool
+  (the listed URL) is for one-off lookups, not production; use in own applications is via paid RapidAPI
+  plans, hence paid-only. Redisplay of raw results on a public site is not addressed (only resale/redistribution
+  of raw data is banned without permission), so ambiguous; storage/caching and attribution not addressed.
+  Not usable for FCRA purposes (credit, employment, tenant screening) or as sole basis for compliance
+  decisions; prohibited without approval: debt collection, insurance underwriting, law enforcement. RapidAPI
+  terms not read. Upstream auth said none; paid plans need a RapidAPI key.'
+evidence:
+- field: commercial_use
+  url: https://wimberly.solutions/api/free-sanctions-check/
+  quote: It's designed for one-off lookups and due diligence checks — not bulk screening or production
+    use.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://wimberly.solutions/legal/terms/
+  quote: Integrate screening and data lookup functionality into your own applications and workflows
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://wimberly.solutions/legal/terms/
+  quote: Resell, sublicense, or redistribute raw data obtained through our Services without written permission
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://wimberly.solutions/legal/terms/
+  quote: Government-sourced data accessed through our Services is in the public domain.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://wimberly.solutions/api/free-sanctions-check/
+  quote: The public tool is rate-limited to 10 requests per minute and 100 requests per day per IP address.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://wimberly.solutions/api/free-sanctions-check/
+  quote: Free tier available on every product, no credit card required to start.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Page says free tier on every RapidAPI product, contradicting paid-only; ToS contains
+  no commercial-use ban; only raw resale banned | applied: commercial_use=ambiguous'

@@ -1,0 +1,264 @@
+[
+ {
+  "id": "one-map-singapore",
+  "outcome": "confirmed",
+  "reasons": [
+   "Looked for blockers (NC/ND clauses, resale, caching, ads, per-dataset licences); none at portal level"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "API ToS and SODL re-read; commercial use allowed, only generic per-API limits and credentials. Per-API pages and Developer Agreement not read."
+ },
+ {
+  "id": "open-data-minneapolis",
+  "outcome": "confirmed",
+  "reasons": [
+   "Looked for blockers (NC/ND clauses, resale, caching, ads, per-dataset licences); none at portal level"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "CC0 portal default confirmed; DCAT shows 10/285 BY-SA, ~5 custom disclaimers; check per dataset."
+ },
+ {
+  "id": "open-data-nhs-scotland",
+  "outcome": "confirmed",
+  "reasons": [
+   "Looked for blockers (NC/ND clauses, resale, caching, ads, per-dataset licences); none at portal level"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "CKAN API: 104 of 105 datasets uk-ogl, 1 cc-by; OGL v3 allows commercial use with attribution."
+ },
+ {
+  "id": "open-ephemeris",
+  "outcome": "confirmed",
+  "reasons": [
+   "Looked for blockers (NC/ND clauses, resale, caching, ads, per-dataset licences); none at portal level"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Terms re-read: commercial use on every tier, outputs owned by customer. No reselling of API access; free tier is only 150 one-time units, ongoing use needs paid plan."
+ },
+ {
+  "id": "open-government-act",
+  "outcome": "confirmed",
+  "reasons": [
+   "Looked for blockers (NC/ND clauses, resale, caching, ads, per-dataset licences); none at portal level"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "act.gov.au copyright page re-read: CC BY 4.0 unless stated otherwise; data.act.gov.au footer links to it. Per-dataset licences not enumerable; check each."
+ },
+ {
+  "id": "open-government-austria",
+  "outcome": "confirmed",
+  "reasons": [
+   "Looked for blockers (NC/ND clauses, resale, caching, ads, per-dataset licences); none at portal level"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "data.gv.at principles page (item 8 Lizenzierung) says CC BY 4.0 and no usage fees; policy statement, per-dataset licence may differ."
+ },
+ {
+  "id": "open-government-belgium",
+  "outcome": "confirmed",
+  "reasons": [
+   "Looked for blockers (NC/ND clauses, resale, caching, ads, per-dataset licences); none at portal level"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Terms re-read via browser: reusable unconditionally incl. commercially; multimedia and documents need prior approval; datasets from other publishers may differ."
+ },
+ {
+  "id": "open-government-canada",
+  "outcome": "confirmed",
+  "reasons": [
+   "Looked for blockers (NC/ND clauses, resale, caching, ads, per-dataset licences); none at portal level"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "OGL-Canada re-read: commercial use allowed with attribution; excludes personal info, logos, third-party rights. Per-dataset licences not checked."
+ },
+ {
+  "id": "open-government-cyprus",
+  "outcome": "confirmed",
+  "reasons": [
+   "Looked for blockers (NC/ND clauses, resale, caching, ads, per-dataset licences); none at portal level"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Greek FAQ quote verified; CC BY 4.0 'generally', per-dataset licences may differ."
+ },
+ {
+  "id": "open-government-france",
+  "outcome": "confirmed",
+  "reasons": [
+   "Looked for blockers (NC/ND clauses, resale, caching, ads, per-dataset licences); none at portal level"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Etalab 2.0 quotes verified; ODbL share-alike possible per dataset. Read-only API open."
+ },
+ {
+  "id": "open-government-greece",
+  "outcome": "confirmed",
+  "reasons": [
+   "Looked for blockers (NC/ND clauses, resale, caching, ads, per-dataset licences); none at portal level"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Terms (Greek) re-read: commercial reuse allowed, licence per dataset; 2000 calls/min/IP limit. Attribution ambiguous is right."
+ },
+ {
+  "id": "open-government-ireland",
+  "outcome": "confirmed",
+  "reasons": [
+   "Looked for blockers (NC/ND clauses, resale, caching, ads, per-dataset licences); none at portal level"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "CC BY minimum policy verified, but CKAN facets show ~73 of 23103 datasets NC/ND-type licences (cc-by-nc-nd 53, cc-by-nc 13, cc-by-nc-sa 6). Check per dataset."
+ },
+ {
+  "id": "open-government-italy",
+  "outcome": "confirmed",
+  "reasons": [
+   "Looked for blockers (NC/ND clauses, resale, caching, ads, per-dataset licences); none at portal level"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Note legali quote verified: CC BY 4.0 default, source citation; per-dataset licences may differ."
+ },
+ {
+  "id": "open-government-luxembourg",
+  "outcome": "confirmed",
+  "reasons": [
+   "Looked for blockers (NC/ND clauses, resale, caching, ads, per-dataset licences); none at portal level"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "CC0 default for State content verified; contributor datasets keep own licences."
+ },
+ {
+  "id": "open-government-mexico",
+  "outcome": "confirmed",
+  "reasons": [
+   "Looked for blockers (NC/ND clauses, resale, caching, ads, per-dataset licences); none at portal level"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "INEGI Libre Uso terms verified. INEGI indicators API own terms/token not read."
+ },
+ {
+  "id": "open-government-netherlands",
+  "outcome": "confirmed",
+  "reasons": [
+   "Looked for blockers (NC/ND clauses, resale, caching, ads, per-dataset licences); none at portal level"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "CC0 verified but covers only portal metadata API; datasets listed carry their own terms."
+ },
+ {
+  "id": "open-government-poland",
+  "outcome": "confirmed",
+  "reasons": [
+   "Looked for blockers (NC/ND clauses, resale, caching, ads, per-dataset licences); none at portal level"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Regulations re-read via browser: commercial reuse allowed; providers may attach per-dataset conditions."
+ },
+ {
+  "id": "open-government-portugal",
+  "outcome": "confirmed",
+  "reasons": [
+   "Looked for blockers (NC/ND clauses, resale, caching, ads, per-dataset licences); none at portal level"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "CC BY 4.0 default for state bodies verified; datasets may differ."
+ },
+ {
+  "id": "open-government-queensland-government",
+  "outcome": "confirmed",
+  "reasons": [
+   "Looked for blockers (NC/ND clauses, resale, caching, ads, per-dataset licences); none at portal level"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Copyright page verified; CKAN: 188229 of 188905 datasets CC-BY-4.0, few NC/SA."
+ },
+ {
+  "id": "open-government-singapore",
+  "outcome": "confirmed",
+  "reasons": [
+   "Looked for blockers (NC/ND clauses, resale, caching, ads, per-dataset licences); none at portal level"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "SODL and API ToS verified; commercial use allowed with conspicuous source notice; per-API limits possible."
+ },
+ {
+  "id": "open-government-slovenia",
+  "outcome": "confirmed",
+  "reasons": [
+   "Looked for blockers (NC/ND clauses, resale, caching, ads, per-dataset licences); none at portal level"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Terms verified: only condition is naming source; datasets not marked open data are outside."
+ },
+ {
+  "id": "open-government-south-australian-government",
+  "outcome": "confirmed",
+  "reasons": [
+   "Looked for blockers (NC/ND clauses, resale, caching, ads, per-dataset licences); none at portal level"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Copyright page verified; CKAN: 1886 of 1943 cc-by, ~44 NC/ND variants. Check per dataset."
+ },
+ {
+  "id": "open-government-spain",
+  "outcome": "confirmed",
+  "reasons": [
+   "Looked for blockers (NC/ND clauses, resale, caching, ads, per-dataset licences); none at portal level"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Legal notice verified: commercial reuse allowed with source citation and no distortion; specific terms may apply per dataset."
+ },
+ {
+  "id": "open-government-australia",
+  "outcome": "disputed",
+  "reasons": [
+   "data.gov.au is an aggregator; CC BY footer covers site content only",
+   "Most harvested datasets carry no licence or NC/other licences",
+   "Footer says CC BY 4.0, About page says 3.0 AU (conflict)"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://data.gov.au/data/api/3/action/package_search?rows=0&facet.field=[\"license_id\"]",
+    "quote": "CKAN licence facet: notspecified 94314, cc-by 18440, lsba 11096, other 2789, CC-BY-NC-SA-3.0-AU 675 (of 142867)",
+    "field": "data_license"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "ambiguous",
+   "storage_caching": "ambiguous",
+   "redistribution_display": "ambiguous"
+  },
+  "note": "About 66% of datasets have no licence specified and others are NC/other; green from portal footer overreaches. Yellow/ambiguous unless per-dataset licence is read."
+ },
+ {
+  "id": "open-government-new-zealand",
+  "outcome": "disputed",
+  "reasons": [
+   "could not re-verify: data.govt.nz/terms-of-use returns empty page to curl and a fresh browser context (Incapsula)"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Not bypassed. First-pass quotes unverified in this pass; DIA also disclaims that agency datasets are CC BY, so per-dataset licence applies."
+ }
+]

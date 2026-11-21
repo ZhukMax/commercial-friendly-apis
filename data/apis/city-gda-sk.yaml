@@ -1,0 +1,29 @@
+id: city-gda-sk
+name: City, Gdańsk
+url: https://ckan.multimediagdansk.pl/en
+category: Government
+description: Gdańsk (PL) City Open Data
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: City, Gdańsk
+  url: https://ckan.multimediagdansk.pl/en
+  category: Government
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+notes: ckan.multimediagdansk.pl timed out on every attempt (curl and browser, 25-40 s), so no terms or licence page could be read; other gdansk.pl pages respond. Terms left unknown. CKAN portals usually
+  set a licence per dataset.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: unknown

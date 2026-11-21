@@ -1,0 +1,31 @@
+id: real-time-finance
+name: Real Time Finance
+url: https://github.com/Real-time-finance/finance-websocket-API/
+category: Finance
+description: Websocket API to access realtime stock data
+description_source: upstream
+auth: apiKey
+https: false
+cors: unknown
+sources:
+- list: public-apis
+  name: Real Time Finance
+  url: https://github.com/Real-time-finance/finance-websocket-API/
+  category: Finance
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://github.com/Real-time-finance/finance-websocket-API/
+notes: 'Read the GitHub README (CLI/websocket client for forex and US/EU stocks): no licence file and no terms of use. The project site realtimefinance.io now redirects (HTTP 302) to survey-keys.com, an
+  unrelated-looking domain, so the service looks abandoned or the domain repurposed; terms of that unrelated site were NOT transferred. Real-time stock quotes also normally carry exchange redistribution
+  restrictions. All terms unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

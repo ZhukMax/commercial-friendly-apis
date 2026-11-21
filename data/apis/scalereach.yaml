@@ -1,0 +1,26 @@
+id: scalereach
+name: ScaleReach
+url: https://docs.scalereach.ai
+category: Video
+description: Turn long videos into short vertical clips with AI captions and face-tracking crop
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: ScaleReach
+  url: https://docs.scalereach.ai
+  category: Video
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://docs.scalereach.ai/docs

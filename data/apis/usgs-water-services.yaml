@@ -1,0 +1,72 @@
+id: usgs-water-services
+name: USGS Water Services
+url: https://waterservices.usgs.gov/
+category: Science & Math
+description: Water quality and level info for rivers and lakes
+description_source: upstream
+auth: none
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: USGS Water Services
+  url: https://waterservices.usgs.gov/
+  category: Science & Math
+- list: public-api-lists
+  name: USGS Water Services
+  url: https://waterservices.usgs.gov/
+  category: Science & Math
+link_status: alive
+data_license: U.S. Public Domain (USGS-authored data)
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'no'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits
+api_terms_url: https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits
+commercial_use_scope: any
+attribution_text: 'Credit requested: "Credit: U.S. Geological Survey"'
+share_alike: 'no'
+evidence:
+- field: data_license
+  url: https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits
+  quote: USGS-authored or produced data and information are considered to be in the U.S. Public Domain.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits
+  quote: USGS-authored or produced data and information are considered to be in the U.S. Public Domain.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits
+  quote: USGS-authored or produced data and information are considered to be in the U.S. Public Domain.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits
+  quote: USGS-authored or produced data and information are considered to be in the U.S. Public Domain.
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits
+  quote: USGS-authored or produced data and information are considered to be in the U.S. Public Domain.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits
+  quote: When using information from USGS information products, publications, or websites, we ask that
+    proper credit be given.
+  checked_at: '2026-11-21'
+notes: 'IMPORTANT: waterservices.usgs.gov shows a banner "WaterServices will be decommissioned February
+  22nd, 2027" (intentional slowdowns/outages from January 2027); users must migrate to https://api.waterdata.usgs.gov
+  (that successor API terms were not read). The USGS copyrights page says USGS data is public domain but
+  not all content on USGS sites is (third-party items are marked). Credit is requested, not required.
+  Page read via Playwright (curl got 403 from CloudFront for the USGS page).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Service is slated for decommissioning (banner reported by first pass, Feb 22 2027;
+  waterservices.usgs.gov timed out on my retry so banner not re-verified); successor api.waterdata.usgs.gov
+  terms unread. Consider adding a link_note.

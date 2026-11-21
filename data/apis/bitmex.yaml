@@ -1,0 +1,34 @@
+id: bitmex
+name: Bitmex
+url: https://www.bitmex.com/app/apiOverview
+category: Cryptocurrency
+description: Real-Time Cryptocurrency derivatives trading platform based in Hong Kong
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Bitmex
+  url: https://www.bitmex.com/app/apiOverview
+  category: Cryptocurrency
+- list: public-api-lists
+  name: Bitmex
+  url: https://www.bitmex.com/app/apiOverview
+  category: Cryptocurrency
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: high
+link_checked_at: '2026-11-21'
+link_note: bitmex.com shows closure notice; apiOverview and terms redirect to a login page of account-closure.bitmex.com
+notes: 'Service shut down: bitmex.com homepage (read via Playwright) says ''BitMEX has officially wound down its exchange operations. Trading ceased on 23 September 2026''. API overview and terms pages
+  now redirect to a sign-in page. Terms not readable; all terms fields unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

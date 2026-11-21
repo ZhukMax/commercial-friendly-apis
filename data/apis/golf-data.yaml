@@ -1,0 +1,31 @@
+id: golf-data
+name: Golf-Data
+url: https://github.com/Jacobbrewer1/golf-data-docs
+category: Sports & Fitness
+description: Golf data API with golf course, club and hole information
+description_source: upstream
+auth: none
+https: true
+cors: 'no'
+sources:
+- list: public-api-lists
+  name: Golf-Data
+  url: https://github.com/Jacobbrewer1/golf-data-docs
+  category: Sports & Fitness
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+evidence: []
+notes: Read the GitHub docs repo (GPL-3.0, generated OpenAPI docs for api.bthree.uk/golf/v1; UK golf course/club/hole
+  data, no auth). GPL covers the documentation/code, not the data; the data origin and licence are not
+  stated, and the hosted API did not respond to curl from this session. No terms page found; all unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

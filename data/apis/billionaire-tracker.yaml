@@ -1,0 +1,64 @@
+id: billionaire-tracker
+name: Billionaire Tracker
+url: https://billionairetracker.us/developers
+category: Finance
+description: Live net worth, rank and daily change for 3,400+ billionaires, free tier for the top 25
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Billionaire Tracker
+  url: https://billionairetracker.us/developers
+  category: Finance
+link_status: alive
+data_license: unknown (figures from Forbes Real-Time Billionaires)
+commercial_use: paid-only
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://billionairetracker.us/developers
+commercial_use_scope: paid
+attribution_text: 'Billionaire figures: Forbes Real-Time Billionaires. Compiled by Billionaire Tracker
+  (billionairetracker.us). Attribution with a link is required.'
+share_alike: unknown
+rate_limits: Free 10 req/min, top 25 only; Starter 120/min; Pro 600/min
+evidence:
+- field: attribution_required
+  url: https://billionairetracker.us/developers
+  quote: Attribution with a link is required.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://billionairetracker.us/developers
+  quote: Commercial use with attribution
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://billionairetracker.us/terms
+  quote: You may use the site for personal and non-commercial purposes and share links and screenshots
+    freely.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://billionairetracker.us/developers
+  quote: 'Source: Forbes Real-Time Billionaires'
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://billionairetracker.us/developers
+  quote: The free tier is for trying the API before you buy.
+  checked_at: '2026-11-21'
+notes: 'Read /developers (plans table) and /terms. Plan table marks Starter ($29) and Pro ($99) as "Commercial
+  use with attribution" while Free is "Try the API before you buy" (top 25 only), implying free is not
+  for commercial use but not stating it, hence ambiguous (paid scope). Website Terms allow only personal
+  and non-commercial use. Attribution link required on all plans. Data comes from Forbes real-time feed:
+  Forbes'' own terms may be stricter and no upstream licence is shown. Caching/display terms not stated.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Free tier is for trying only; commercial use is paid; Forbes upstream terms unread,
+  no licence shown | applied: commercial_use=paid-only'

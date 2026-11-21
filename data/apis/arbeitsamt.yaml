@@ -1,0 +1,29 @@
+id: arbeitsamt
+name: Arbeitsamt
+url: https://jobsuche.api.bund.dev/
+category: Jobs
+description: API for the "Arbeitsamt", which is a german Job board aggregator
+description_source: upstream
+auth: OAuth
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Arbeitsamt
+  url: https://jobsuche.api.bund.dev/
+  category: Jobs
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+notes: Listed docs are the unofficial bund.dev/bundesAPI wrapper; its README says the Bundesagentur fuer Arbeit offers no official API and gives a shared public clientId. Official Bundesagentur terms for
+  the Jobsuche data were not read, so all unknown. Page is a Swagger UI (JS).
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

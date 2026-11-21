@@ -1,0 +1,32 @@
+id: transport-for-auckland-new-zealand
+name: Transport for Auckland, New Zealand
+url: https://dev-portal.at.govt.nz/
+category: Transportation
+description: Auckland Transport
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Transport for Auckland, New Zealand
+  url: https://dev-portal.at.govt.nz/
+  category: Transportation
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://dev-portal.at.govt.nz/api-terms-of-use
+evidence: []
+notes: API terms of use page on the AT developer portal returns only an introductory paragraph (also via Playwright), with no clauses on commercial use, caching or display. The AT website copyright statement
+  (non-commercial personal use of site content, reproduction with acknowledgement) is for website content, not the API, so it was not applied. Portal requires sign-up (listing said auth none; keys are issued
+  after sign-up, not verified). All core fields unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

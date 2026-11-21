@@ -1,0 +1,31 @@
+id: peakmetrics
+name: PeakMetrics
+url: https://rapidapi.com/peakmetrics-peakmetrics-default/api/peakmetrics-news
+category: Open Data
+description: News articles and public datasets
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: PeakMetrics
+  url: https://rapidapi.com/peakmetrics-peakmetrics-default/api/peakmetrics-news
+  category: Open Data
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: RapidAPI listing now returns "API not found" (page rendered via Playwright)
+evidence: []
+notes: The RapidAPI listing URL (https://rapidapi.com/peakmetrics-peakmetrics-default/api/peakmetrics-news) rendered in a browser shows "Page Not Found - API not found" (redirect to rapidapi.com/server-error?code=NOT_FOUND).
+  The curl response is an empty JS shell. No terms could be read, so all terms fields are unknown. Not checked whether PeakMetrics offers the API elsewhere.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

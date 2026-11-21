@@ -1,0 +1,41 @@
+id: opentaxrate
+name: OpenTaxRate
+url: https://opentaxrate.com
+category: Finance
+description: US sales tax rates by street address, from the states' own published data
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: OpenTaxRate
+  url: https://opentaxrate.com
+  category: Finance
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: 'yes'
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://opentaxrate.com/pricing
+rate_limits: 'Free without key: 10/min, 300/day per IP; API key: $1.95 per 1,000 lookups, 300/min'
+notes: Read home, pricing, docs, sources and GitHub README. Code is MIT and can be self-hosted; the hosted free tier and paid key are described on the pricing page, but no terms of service or data licence
+  for the hosted API was found (/terms is 404). Rate data comes from state tax agencies and Streamlined Sales Tax (government publications), geography from Census TIGER; geocoder provider terms apply. Commercial
+  use of hosted data unconfirmed, so unknown.
+evidence:
+- field: self_host_option
+  url: https://github.com/equated-org/opentaxrate
+  quote: The MIT-licensed code can also be self-hosted
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://opentaxrate.com/pricing
+  quote: 10 a minute, 300 a day per IP
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

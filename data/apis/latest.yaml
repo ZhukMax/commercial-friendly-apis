@@ -1,0 +1,25 @@
+id: latest
+name: latest@
+url: https://latestat.com/api
+category: Development
+description: Latest versions and end-of-life dates for 500+ software products
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: latest@
+  url: https://latestat.com/api
+  category: Development
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

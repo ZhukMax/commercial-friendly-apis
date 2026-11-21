@@ -1,0 +1,56 @@
+id: metabase
+name: Metabase
+url: https://www.metabase.com/
+category: Open Source Projects
+description: An open source Business Intelligence server to share data and analytics inside your company
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Metabase
+  url: https://www.metabase.com/
+  category: Open Source Projects
+link_status: alive
+data_license: AGPL-3.0 (Open Source Edition); Metabase Commercial Software License (Enterprise)
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: 'yes'
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://www.metabase.com/license/
+api_terms_url: https://www.metabase.com/license/
+commercial_use_scope: self-hosted
+evidence:
+- field: data_license
+  url: https://www.metabase.com/license/
+  quote: The Metabase Open Source Edition is offered under the AGPL.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.metabase.com/license/
+  quote: If you want to use the code, you must abide by the AGPL.
+  checked_at: '2026-11-21'
+- field: self_host_option
+  url: https://www.metabase.com/license/
+  quote: The Metabase Open Source Edition is offered under the AGPL.
+  checked_at: '2026-11-21'
+notes: 'Not a data source: Metabase is self-hosted BI software (the ''API'' is the REST API of your own
+  instance, returning your own data). The licence page says use of the open-source edition must follow
+  AGPL, and embedding iframes in your app requires abiding by the AGPL, the Embedding License (keeping
+  the ''Powered by Metabase'' logo) or buying a commercial licence; Enterprise features need the Metabase
+  Commercial Software License; Metabase Cloud has separate hosting terms (not read). Those conditions
+  make commercial use conditional rather than plainly allowed, hence ambiguous. Storage and display of
+  output depend on the user''s own data, left unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Entry should arguably be excluded as not a data source; terms as first pass.
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

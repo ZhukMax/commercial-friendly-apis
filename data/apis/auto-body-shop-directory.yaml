@@ -1,0 +1,66 @@
+id: auto-body-shop-directory
+name: Auto Body Shop Directory
+url: https://autobodyshopnear.com/developers/body-shop-api
+category: Vehicle
+description: Find auto body shops by ZIP code, city, location, or profile
+description_source: upstream
+auth: none
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Auto Body Shop Directory
+  url: https://autobodyshopnear.com/developers/body-shop-api
+  category: Vehicle
+link_status: alive
+data_license: proprietary (AutoBodyShopNear.com Terms of Service)
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: HTTP 403 (blocked for bots, assumed alive)
+data_license_url: https://autobodyshopnear.com/terms-of-service
+api_terms_url: https://autobodyshopnear.com/terms-of-service
+commercial_use_scope: any
+attribution_text: Credit AutoBodyShopNear.com and link to the relevant shop profile when displaying shop
+  data
+evidence:
+- field: commercial_use
+  url: https://autobodyshopnear.com/terms-of-service
+  quote: Copy, reproduce, distribute, or create derivative works from the Site's content without our prior
+    written consent
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://autobodyshopnear.com/developers/body-shop-api
+  quote: please credit AutoBodyShopNear.com and link to the relevant shop profile when displaying shop
+    data
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://autobodyshopnear.com/developers/body-shop-api
+  quote: please credit AutoBodyShopNear.com and link to the relevant shop profile when displaying shop
+    data
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://autobodyshopnear.com/terms-of-service
+  quote: Copy, reproduce, distribute, or create derivative works from the Site's content without our prior
+    written consent
+  checked_at: '2026-11-21'
+notes: 'Both pages returned HTTP 403 to curl and were read with Playwright (fresh context, URLs rechecked).
+  The API page invites developers to build directories with the API and asks for a credit plus link to
+  the shop profile when displaying data (a request, "please", recorded as yes). The site ToS, however,
+  forbids scraping and copying/distributing/derivative works of Site content without written consent and
+  does not mention the API: conflict, so commercial use, storage and redistribution are ambiguous. Listings
+  are compiled from public sources and owner submissions (third-party business data). Storage/caching
+  not addressed (unknown).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read both pages via fresh Playwright contexts: API page invites directories built
+  with the API (credit requested); site ToS bans scraping and copying site content, does not mention API.
+  Conflict unresolved.'

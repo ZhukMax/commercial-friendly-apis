@@ -1,0 +1,46 @@
+id: countly
+name: Countly
+url: https://api.count.ly/
+category: Open Source Projects
+description: Countly web analytics
+description_source: upstream
+auth: none
+https: false
+cors: unknown
+sources:
+- list: public-apis
+  name: Countly
+  url: https://api.count.ly/
+  category: Open Source Projects
+link_status: alive
+data_license: AGPL-3.0 with modified Section 7 (Countly Lite software; branding must be kept)
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: 'yes'
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+data_license_url: https://github.com/Countly/countly-server/blob/master/LICENSE.md
+evidence:
+- field: data_license
+  url: https://github.com/Countly/countly-server/blob/master/LICENSE.md
+  quote: Countly is provided under AGPL-3.0 with modified Section 7.
+  checked_at: '2026-11-21'
+- field: self_host_option
+  url: https://github.com/Countly/countly-server/blob/master/LICENSE.md
+  quote: Countly is provided under AGPL-3.0 with modified Section 7.
+  checked_at: '2026-11-21'
+notes: 'Not a data source: api.count.ly is the API documentation for Countly Enterprise plugins (v26.01)
+  of a product-analytics platform that customers run themselves or on Countly Cloud; the API returns the
+  customer''s own analytics data. Docs page (read via Playwright; curl got a Cloudflare challenge) carries
+  no terms. Only the software licence of the open-source Lite edition was read: AGPL-3.0 plus a requirement
+  to keep Countly logo/branding. Enterprise Edition licence/terms not read. Commercial use, storage and
+  display left unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

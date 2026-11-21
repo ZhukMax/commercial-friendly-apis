@@ -1,0 +1,61 @@
+id: dwellir
+name: Dwellir
+url: https://www.dwellir.com/docs
+category: Blockchain
+description: RPC endpoints for 150+ blockchain networks, including Ethereum, Solana, Polkadot and Hyperliquid
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Dwellir
+  url: https://www.dwellir.com/docs
+  category: Blockchain
+link_status: alive
+data_license: Dwellir ToS Permitted Data Use and Resale (no separate licence)
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+commercial_use_scope: any
+api_terms_url: https://www.dwellir.com/terms-of-service
+evidence:
+- field: commercial_use
+  url: https://www.dwellir.com/terms-of-service
+  quote: You may access, retrieve, copy, reproduce, cache, store, aggregate, analyze, modify, transform,
+    enrich, combine, display, distribute, license, sell, and otherwise commercially use Service Data
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.dwellir.com/terms-of-service
+  quote: You may access, retrieve, copy, reproduce, cache, store, aggregate, analyze, modify, transform,
+    enrich, combine, display, distribute, license, sell, and otherwise commercially use Service Data
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.dwellir.com/terms-of-service
+  quote: You may access, retrieve, copy, reproduce, cache, store, aggregate, analyze, modify, transform,
+    enrich, combine, display, distribute, license, sell, and otherwise commercially use Service Data
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.dwellir.com/terms-of-service
+  quote: You may access, retrieve, copy, reproduce, cache, store, aggregate, analyze, modify, transform,
+    enrich, combine, display, distribute, license, sell, and otherwise commercially use Service Data
+  checked_at: '2026-11-21'
+notes: 'Read https://www.dwellir.com/terms-of-service. Section "Permitted Data Use and Resale" expressly
+  allows caching, storing, display, distribution and commercial use of Service Data (data returned by
+  responses) and Derived Products, even after termination; reselling access (white-label) also allowed,
+  but API keys may not be shared. The grant applies only to rights Dwellir owns or controls and does not
+  override third-party rights in underlying blockchain data. Attribution not mentioned: left unknown.
+  This is an RPC node provider rather than a curated dataset; terms apply to all plans (free tier: 100,000
+  responses/day per homepage; free-tier scope vs paid not separately distinguished in the clause).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: RPC node provider (infrastructure; data is public chain data). Grant limited to rights
+  Dwellir controls. Free plan 100,000 responses/day, terms not tier-specific; API key needed.

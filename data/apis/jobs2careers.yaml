@@ -1,0 +1,47 @@
+id: jobs2careers
+name: Jobs2Careers
+url: https://docs.talroo.com/api/search
+category: Jobs
+description: Job aggregator
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Jobs2Careers
+  url: https://docs.talroo.com/api/search
+  category: Jobs
+link_status: alive
+data_license: proprietary (Talroo Publisher Program agreement, not public)
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+commercial_use_scope: any
+api_terms_url: https://docs.talroo.com/docs/guides/publisher-program/
+evidence:
+- field: commercial_use
+  url: https://docs.talroo.com/docs/guides/publisher-program/
+  quote: Publishers earn money from valid job-seeker clicks.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://docs.talroo.com/docs/guides/publisher-program/
+  quote: Publishers earn money from valid job-seeker clicks.
+  checked_at: '2026-11-21'
+notes: 'Search API is part of the Talroo (ex-Jobs2Careers) Publisher Program: approved publishers send
+  US job seekers to Talroo-hosted jobs and earn CPC. Access needs an application (6 months of traffic
+  history, 100% US audience, review) and a signed agreement whose terms are not public; talroo.com/terms
+  covers the website/app only. Storage, display rules, attribution not found, left unknown. Commercial
+  monetised use is the intended model but gated, hence ambiguous.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read publisher-program, how-to-apply and FAQ. Monetised use is the intended model
+  but gated.

@@ -1,0 +1,40 @@
+id: schemashield
+name: SchemaShield
+url: https://rapidapi.com/kaiasistentedavid/api/schema-change-risk
+category: Data Validation
+description: Read-only preflight for breaking schema changes and downstream query impact
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: SchemaShield
+  url: https://rapidapi.com/kaiasistentedavid/api/schema-change-risk
+  category: Data Validation
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+rate_limits: 'BASIC free: 50 requests/month; per request 200 entities, 500 lineage edges, 200 query references'
+notes: 'Not a data source: read-only schema-change risk analysis of JSON you submit. RapidAPI listing
+  read (plans BASIC $0 50 req/month, PRO $19, ULTRA $49, MEGA $99; says it does not store the submitted
+  snapshot). The listing links a provider "Terms of Use" that was not opened, and RapidAPI marketplace
+  terms were not read. Playwright used for the page (JS-rendered). Core fields unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+evidence:
+- field: rate_limits
+  url: https://rapidapi.com/kaiasistentedavid/api/schema-change-risk
+  quote: 'BASIC — $0/month: 50 requests for evaluation.'
+  checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

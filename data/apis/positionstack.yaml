@@ -1,0 +1,46 @@
+id: positionstack
+name: positionstack
+url: https://positionstack.com/
+category: Geocoding
+description: Forward & Reverse Batch Geocoding REST API
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: positionstack
+  url: https://positionstack.com/
+  category: Geocoding
+link_status: alive
+data_license: unknown
+commercial_use: paid-only
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.ideracorp.com/legal/APILayer
+commercial_use_scope: paid
+rate_limits: 'Free: 100 requests (non-commercial); Basic: up to 100,000 requests/month; $49.99 plan: 1,000,000/month'
+evidence:
+- field: commercial_use
+  url: https://positionstack.com/pricing
+  quote: 100 Requests No Support Non-Commercial Use
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://positionstack.com/pricing
+  quote: Basic level - commercial use with advanced features and up to 100,000 requests.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://positionstack.com/pricing
+  quote: Basic level - commercial use with advanced features and up to 100,000 requests.
+  checked_at: '2026-11-21'
+notes: 'Pages read: pricing page and FAQ; APILayer legal hub and the Master SaaS Subscription Agreement PDF (generic SaaS terms, nothing on storing/displaying geocoding results). Pricing marks the Free
+  plan as Non-Commercial Use and paid plans (from Basic $9.99/mo) as commercial use. Data comes from Nominatim, GeoNames, Pelias and OpenStreetMap (FAQ), so ODbL/CC BY obligations may flow through, but
+  no attribution, caching or display terms were found: those stay unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

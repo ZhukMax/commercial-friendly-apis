@@ -1,0 +1,35 @@
+id: zmok
+name: ZMOK
+url: https://zmok.io
+category: Cryptocurrency
+description: Ethereum JSON RPC API and Web3 provider
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: ZMOK
+  url: https://zmok.io
+  category: Cryptocurrency
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: zmok.io root is an empty directory index; docs.zmok.io redirects to unrelated sites (observed
+  2026-11-21); may be defunct
+evidence: []
+notes: https://zmok.io/ serves only an empty Apache/LiteSpeed "Index of /" listing (no content, no terms);
+  /terms and /terms-of-service are 404. docs.zmok.io redirects to an unrelated third-party site, which
+  is NOT treated as the same service (no terms transferred). Service looks abandoned or the domain has
+  lapsed, but no shutdown notice was read, so link_status is left as it was; re-check. It is also an Ethereum
+  JSON-RPC node provider, i.e. an account-scoped infrastructure API rather than a data source.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

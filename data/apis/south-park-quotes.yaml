@@ -1,0 +1,25 @@
+id: south-park-quotes
+name: South Park Quotes
+url: https://github.com/Thatskat/southpark-quotes-api
+category: Video
+description: A pretty simple API to let you retrieve some of the best quotes from South Park, mmkay
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: South Park Quotes
+  url: https://github.com/Thatskat/southpark-quotes-api
+  category: Video
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

@@ -1,0 +1,35 @@
+id: zelothorn
+name: Zelothorn
+url: https://zelothorn.com/developers
+category: Finance
+description: Plain-English explanations of US public companies with SEC filings and earnings data
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Zelothorn
+  url: https://zelothorn.com/developers
+  category: Finance
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+rate_limits: 'Free: 20 requests/min per IP'
+evidence:
+- field: rate_limits
+  url: https://zelothorn.com/developers
+  quote: The free API allows 20 requests per minute, per IP address.
+  checked_at: '2026-11-21'
+notes: Read https://zelothorn.com/developers. It only documents the endpoint and rate limit; no terms of use, licence or privacy page exists (/terms, /privacy, /legal returned 404). Says paid tiers are
+  planned. Content is SEC filing summaries and earnings data (upstream SEC/earnings sources; summaries possibly generated), rights not stated. All terms unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

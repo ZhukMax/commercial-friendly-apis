@@ -1,0 +1,43 @@
+id: india-ev-charging-stations
+name: India EV Charging Stations
+url: https://ev-charging-stations-api.vercel.app/docs
+category: Transportation
+description: Directory of public EV charging stations across India with connector and power specs
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: India EV Charging Stations
+  url: https://ev-charging-stations-api.vercel.app/docs
+  category: Transportation
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+rate_limits: 100 requests per 15 minutes per client address
+evidence:
+- field: attribution_required
+  url: https://ev-charging-stations-api.vercel.app/docs
+  quote: Keep the attribution when you show this data.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://ev-charging-stations-api.vercel.app/docs
+  quote: Rate limit 100 requests per 15 minutes per client address.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://github.com/shrinivas-sn/ev-charging-stations-api/blob/main/DOCS/DATA-NOTES.md
+  quote: BEE publishes no licence for this file.
+  checked_at: '2026-11-21'
+notes: API docs and its DATA-NOTES.md read. Data is republished from a Bureau of Energy Efficiency (Govt of India) PDF; the project itself states BEE publishes no licence for the file, and the API has no
+  terms of its own, so commercial use/storage/display are unknown (data_license left unknown for the same reason). Attribution on every response is required by the API.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

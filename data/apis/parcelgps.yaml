@@ -1,0 +1,71 @@
+id: parcelgps
+name: ParcelGPS
+url: https://www.parcelgps.com/en/developers
+category: Geocoding
+description: 'European cadastral parcels by reference or point: coordinates, area, land use and geometry'
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: ParcelGPS
+  url: https://www.parcelgps.com/en/developers
+  category: Geocoding
+link_status: alive
+data_license: Official national cadastre open data (varies by country); API terms permit use in your own
+  products
+commercial_use: 'yes'
+storage_caching: unknown
+redistribution_display: 'yes'
+attribution_required: ambiguous
+bulk_download: 'no'
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.parcelgps.com/en/terms
+commercial_use_scope: any
+rate_limits: 'Per-minute limit per API key: Free 10, Developer 60, Startup 120, Growth 300, plus monthly
+  quota by plan'
+evidence:
+- field: commercial_use
+  url: https://www.parcelgps.com/en/terms
+  quote: show it to your end users and your clients, and use it in your own valuations, listings, ads
+    or reports
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.parcelgps.com/en/terms
+  quote: show it to your end users and your clients, and use it in your own valuations, listings, ads
+    or reports
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.parcelgps.com/en/terms
+  quote: Where the official source's licence requires it, credit that source when you show cadastral data.
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://www.parcelgps.com/en/terms
+  quote: Extract the data in bulk or systematically
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://www.parcelgps.com/en/terms
+  quote: (Free 10, Developer 60, Startup 120, Growth 300)
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.parcelgps.com/en/terms
+  quote: Cadastral data is the property of official cadastral bodies in each country.
+  checked_at: '2026-11-21'
+notes: 'Pages read: Terms of Use (section 6 "Use of API data"), pricing, developers page. API customers
+  may build the data into their website/app, show it to end users and use it in listings, ads or reports;
+  forbidden: reselling/sublicensing, redistributing as a dataset (files, feeds, own API), building a competing
+  database, bulk/systematic extraction. Storage/caching duration not stated (only that bulk extraction
+  to replicate the data is banned), so storage_caching stays unknown and the verdict unknown. Attribution
+  depends on each official source licence (28 countries). Price/valuation data (paid plans) is not for
+  bulk publication. Whether the Free API plan carries the same commercial rights is implied (terms apply
+  to all plans) but not stated explicitly.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read terms section 6 in browser. Leaning yes on commercial and display; storage
+  not addressed so verdict stays unknown. Price data (paid only) cannot be published in bulk.

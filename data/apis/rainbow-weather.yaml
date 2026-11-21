@@ -1,0 +1,53 @@
+id: rainbow-weather
+name: Rainbow Weather
+url: https://developer.rainbow.ai/
+category: Weather
+description: Global real-time nowcasting API powered by radar + satellite fusion
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Rainbow Weather
+  url: https://developer.rainbow.ai/
+  category: Weather
+link_status: alive
+data_license: unknown
+commercial_use: 'yes'
+storage_caching: unknown
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://developer.rainbow.ai/terms-of-service
+commercial_use_scope: any
+attribution_text: '"Powered by Rainbow.ai" with hyperlink, or another clear credit'
+share_alike: unknown
+rate_limits: 'Free plan: 10K calls/month, service pauses at the limit'
+evidence:
+- field: commercial_use
+  url: https://developer.rainbow.ai/terms-of-service
+  quote: You may use the API and API Data in both personal and commercial projects.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://developer.rainbow.ai/terms-of-service
+  quote: retrieve, use, and display the API Data within Your Applications
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://developer.rainbow.ai/terms-of-service
+  quote: you must provide attribution to Rainbow.ai. This attribution should be reasonably prominent.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://developer.rainbow.ai/
+  quote: Free $0 /month 10K calls / month
+  checked_at: '2026-11-21'
+notes: Read Terms of Service (effective 2025-10-15) and landing page. Commercial use and display in your
+  own applications allowed with prominent attribution; derivative works allowed; no resale of API access.
+  Caching/storing of API Data is not addressed, so storage_caching unknown. Terms do not distinguish plans,
+  so assumed to cover the free tier too.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -1,0 +1,26 @@
+id: eidosspeech
+name: eidosSpeech
+url: https://eidosspeech.xyz
+category: Text Analysis
+description: Free text-to-speech API with 1,200+ neural voices in 75+ languages
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: eidosSpeech
+  url: https://eidosspeech.xyz
+  category: Text Analysis
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: ConnectError

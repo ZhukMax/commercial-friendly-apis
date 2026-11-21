@@ -1,0 +1,75 @@
+id: transport-for-london-england
+name: Transport for London, England
+url: https://api.tfl.gov.uk
+category: Transportation
+description: TfL API
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Transport for London, England
+  url: https://api.tfl.gov.uk
+  category: Transportation
+link_status: redirect
+data_license: TfL Transport Data Service licence, based on Open Government Licence v2.0 with TfL amendments
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: -> https://api-portal.tfl.gov.uk/
+data_license_url: https://tfl.gov.uk/corporate/terms-and-conditions/transport-data-service
+api_terms_url: https://tfl.gov.uk/corporate/terms-and-conditions/transport-data-service
+commercial_use_scope: any
+attribution_text: Powered by TfL Open Data (plus 'Contains OS data © Crown copyright and database rights
+  2016' and Geomni UK Map data © and database rights [2019] where OS data is included)
+share_alike: unknown
+rate_limits: Maximum 500 calls per minute per data feed
+evidence:
+- field: data_license
+  url: https://tfl.gov.uk/corporate/terms-and-conditions/transport-data-service
+  quote: are based on version 2.0 of the Open Government Licence with specific amendments for Transport
+    for London
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://tfl.gov.uk/corporate/terms-and-conditions/transport-data-service
+  quote: Exploit the Information commercially and non-commercially for example, by combining it with other
+    Information, or by including it in Your own product or application
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://tfl.gov.uk/corporate/terms-and-conditions/transport-data-service
+  quote: Copy, publish, distribute and transmit the Information
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://tfl.gov.uk/corporate/terms-and-conditions/transport-data-service
+  quote: Copy, publish, distribute and transmit the Information
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://tfl.gov.uk/corporate/terms-and-conditions/transport-data-service
+  quote: Acknowledge TfL as the source of the Information by including the following attribution statement
+    ‘Powered by TfL Open Data’
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://tfl.gov.uk/corporate/terms-and-conditions/transport-data-service
+  quote: Limit traffic requests up to a maximum of 500 calls per minute per data feed.
+  checked_at: '2026-11-21'
+notes: The API portal (api-portal.tfl.gov.uk) says the open data is for use in own software and services
+  under the transport data terms and conditions; those terms (page rendered via Playwright; curl got an
+  empty shell) give a worldwide, perpetual, royalty-free OGL-style licence incl. commercial exploitation,
+  with attribution and branding-guideline conditions. share_alike = no inferred from the absence of an
+  SA clause. Caching is covered only by the generic "copy" right (no explicit cache rule) and TfL may
+  revise the licence without notice and does not guarantee continued supply. Does not allow scraping the
+  Oyster, Congestion Charging or Santander Cycles websites. Registration with an app key is needed.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Licence may be revised without notice and gives no rights to use data after it ends;
+  Oyster/Congestion Charging/Santander Cycles websites may not be scraped. Caching only implied by copy
+  right.

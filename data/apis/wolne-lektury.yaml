@@ -1,0 +1,60 @@
+id: wolne-lektury
+name: Wolne Lektury
+url: https://wolnelektury.pl/api/
+category: Books
+description: API for obtaining information about e-books available on the WolneLektury.pl website
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Wolne Lektury
+  url: https://wolnelektury.pl/api/
+  category: Books
+link_status: alive
+data_license: Public domain or free licences (CC BY-SA / Free Art License) per work
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://wolnelektury.pl/info/zasady-wykorzystania/
+commercial_use_scope: any
+attribution_text: Author and title, 'Książka pochodzi z serwisu Wolne Lektury', active link to the work page, licence name, WL logo
+share_alike: 'yes'
+evidence:
+- field: data_license
+  url: https://wolnelektury.pl/info/zasady-wykorzystania/
+  quote: Na Wolnych Lekturach udostępnione są utwory znajdujące się w domenie publicznej lub na wolnej licencji
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://wolnelektury.pl/info/zasady-wykorzystania/
+  quote: Jeśli drukowane książki są sprzedawane w internecie, prosimy o umieszczenie w ich opisach katalogowych tych samych informacji
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://wolnelektury.pl/info/zasady-wykorzystania/
+  quote: pobrać pliki z Wolnych Lektur na własny komputer, tablet, telefon, odtwarzacz mp3 czy jakiekolwiek inne urządzenie
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://wolnelektury.pl/info/zasady-wykorzystania/
+  quote: zamieścić na swojej stronie lub profilu w mediach społecznościowych pliki pobrane z WolnychLektur
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://wolnelektury.pl/info/zasady-wykorzystania/
+  quote: aktywny link do strony utworu w serwisie wolnelektury.pl
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://wolnelektury.pl/info/zasady-wykorzystania/
+  quote: Pamiętaj także, że Twój utwór musi być opublikowany na tej samej licencji, co oryginał tj. CC BY-SA lub Licencja Wolnej Sztuki.
+  checked_at: '2026-11-21'
+notes: Read the site-wide 'Zasady wykorzystania' (usage rules, Polish) and the API page (which has no terms of its own; the rules are assumed to cover API-delivered content but this is not stated). Works
+  are public domain or CC BY-SA / Free Art Licence; WL's own annotations/audiobooks are share-alike. Commercial/sale allowed if the free licence terms are met (the page only asks for notices when selling);
+  attribution items and logo required; share-alike applies to derivatives. Audiobook voices are not covered by the licence (no voice cloning/AI training). Per-work licences vary, so check each work's licence
+  field.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

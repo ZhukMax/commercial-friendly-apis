@@ -1,0 +1,60 @@
+id: weatherapi
+name: WeatherAPI
+url: https://www.weatherapi.com/
+category: Weather
+description: Weather API with other stuff like Astronomy and Geolocation API
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: WeatherAPI
+  url: https://www.weatherapi.com/
+  category: Weather
+link_status: alive
+data_license: proprietary (WeatherAPI.com Terms and Conditions)
+commercial_use: 'yes'
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: high
+link_checked_at: '2026-11-21'
+commercial_use_scope: any
+cache_limit: current conditions max 60 minutes; forecast max 24 hours; historical no limit; no storing beyond the subscription term
+attribution_text: Credit WeatherAPI.com by name or brand logo (Free plan)
+api_terms_url: https://www.weatherapi.com/terms.aspx
+rate_limits: 'Free plan: 100,000 calls/month'
+notes: 'Read terms.aspx (Terms and Conditions: Website, API, SLA) and pricing. Commercial use is allowed including on the free plan; one API key per application; "You agree not to sell our weather data
+  to any third party". Caching limits: current 60 min, forecast 24 h, historical unrestricted, no storing beyond the subscription term (hence storage limited, yellow). Credit is mandatory for Free users;
+  paid users not required. Some premium endpoints need paid plans.'
+evidence:
+- field: data_license
+  url: https://www.weatherapi.com/terms.aspx
+  quote: grants you a limited, non-exclusive, non-transferable, revocable right to access, use, and view the standard (free) Services
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.weatherapi.com/terms.aspx
+  quote: You may access, view and make copies of the data in the API for your personal or commercial use
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.weatherapi.com/terms.aspx
+  quote: 'You may cache API responses for performance optimisation subject to the following limits: current conditions data — maximum 60 minutes'
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.weatherapi.com/terms.aspx
+  quote: including making the data in the API available in online and/or mobile applications/services
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.weatherapi.com/terms.aspx
+  quote: you will credit WeatherAPI.com by name or brand logo as the source of the data
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://www.weatherapi.com/pricing.aspx
+  quote: 100,000 calls a month
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -1,0 +1,71 @@
+id: oddsbench
+name: OddsBench
+url: https://oddsbench.xyz/api/
+category: Sports & Fitness
+description: Independent monthly latency benchmark of sports odds APIs, with free JSON and CSV data
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: OddsBench
+  url: https://oddsbench.xyz/api/
+  category: Sports & Fitness
+link_status: alive
+data_license: CC-BY-4.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://oddsbench.xyz/api/
+data_license_url: https://oddsbench.xyz/api/
+commercial_use_scope: any
+attribution_text: 'Data: OddsBench (CC BY 4.0), title linked to https://oddsbench.xyz/'
+share_alike: unknown
+evidence:
+- field: data_license
+  url: https://oddsbench.xyz/api/
+  quote: Licensed CC BY 4.0 — attribution required.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://oddsbench.xyz/api/
+  quote: 'credit: "Data: OddsBench (CC BY 4.0)" — that credit is required by the license'
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://oddsbench.xyz/api/
+  quote: Fetch it server-side once every 24 hours, cache the result, and render the cached copy.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://oddsbench.xyz/api/
+  quote: The data on this site is placeholder data for demonstration purposes only.
+  checked_at: '2026-11-21'
+notes: 'Read the Data API page: free JSON/CSV benchmark data, no key, licensed CC BY 4.0 with required
+  credit; the page itself tells site owners to cache the file and render it on their site. CC BY 4.0 permits
+  commercial use, copying and redistribution with attribution (no share-alike). No separate ToS (/terms
+  is 404). IMPORTANT: the site shows a ''Demo data notice'' saying the data is placeholder, not accurate
+  and not real measurements, so the data is of doubtful value. This is a latency benchmark of odds vendors,
+  not a primary data source.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: site's own notice says the data is placeholder demo data, not real measurements
+verdict_override: yellow
+override_reason: 'Second check: site''s own notice says the data is placeholder demo data, not real measurements'
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

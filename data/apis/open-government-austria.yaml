@@ -1,0 +1,72 @@
+id: open-government-austria
+name: Open Government, Austria
+url: https://www.data.gv.at/
+category: Government
+description: Austria Government Open Data
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Open Government, Austria
+  url: https://www.data.gv.at/
+  category: Government
+link_status: alive
+data_license: CC-BY-4.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+commercial_use_scope: any
+share_alike: 'no'
+data_license_url: https://www.data.gv.at/info/open-data-prinzipien/
+api_terms_url: https://www.data.gv.at/info/open-data-prinzipien/
+evidence:
+- field: data_license
+  url: https://www.data.gv.at/info/open-data-prinzipien/
+  quote: 'Die Verwaltung veröffentlicht offene Verwaltungsdaten unter der Lizenz: Creative Commons Namensnennung
+    4.0 International (CC BY 4.0).'
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.data.gv.at/info/open-data-prinzipien/
+  quote: 'Die Verwaltung veröffentlicht offene Verwaltungsdaten unter der Lizenz: Creative Commons Namensnennung
+    4.0 International (CC BY 4.0).'
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.data.gv.at/info/open-data-prinzipien/
+  quote: 'Die Verwaltung veröffentlicht offene Verwaltungsdaten unter der Lizenz: Creative Commons Namensnennung
+    4.0 International (CC BY 4.0).'
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.data.gv.at/info/open-data-prinzipien/
+  quote: 'Die Verwaltung veröffentlicht offene Verwaltungsdaten unter der Lizenz: Creative Commons Namensnennung
+    4.0 International (CC BY 4.0).'
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.data.gv.at/info/open-data-prinzipien/
+  quote: 'Die Verwaltung veröffentlicht offene Verwaltungsdaten unter der Lizenz: Creative Commons Namensnennung
+    4.0 International (CC BY 4.0).'
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://www.data.gv.at/info/open-data-prinzipien/
+  quote: 'Die Verwaltung veröffentlicht offene Verwaltungsdaten unter der Lizenz: Creative Commons Namensnennung
+    4.0 International (CC BY 4.0).'
+  checked_at: '2026-11-21'
+notes: 'Read via Playwright (JS-rendered site; curl returns empty): "Open Data Prinzipien" page (German)
+  states administration publishes open data under CC BY 4.0 and plans no usage fees. This is a policy
+  statement; per-dataset licences on data.gv.at not individually verified, and no API-specific terms page
+  found (CKAN API). Commercial use/storage/display follow from CC BY (no NC clause), not named explicitly.
+  verify_quotes will report unfetchable (JS page).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: data.gv.at principles page (item 8 Lizenzierung) says CC BY 4.0 and no usage fees;
+  policy statement, per-dataset licence may differ.
+license_scope: portal-default

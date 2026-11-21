@@ -1,0 +1,70 @@
+id: tryhired
+name: TryHired
+url: https://tryhired.co/data/
+category: Jobs
+description: 'Read-only U.S. career data: pay, outlook, requirements and comparisons from BLS and O*NET'
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: TryHired
+  url: https://tryhired.co/data/#api
+  category: Jobs
+link_status: alive
+data_license: Public domain (BLS) and CC-BY-4.0 (O*NET-derived fields)
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+commercial_use_scope: any
+share_alike: unknown
+data_license_url: https://tryhired.co/data/
+api_terms_url: https://tryhired.co/data/
+attribution_text: Credit "TryHired, from BLS data" (or "from BLS and O*NET data") and link the page or
+  dataset used; O*NET CC BY 4.0 notice required for O*NET-derived fields
+notes: Read tryhired.co/data/ (v2026.10). Figures are copied from BLS (public domain) and O*NET (CC BY
+  4.0, notice required, USDOL does not endorse modifications); TryHired asks for credit plus a link. The
+  page header also says "Open public domain / CC BY 4.0" for TryHired's own compilation. Verdict rests
+  on those licences; the separate tryhired.co/terms covers purchased HIRED products (no resale/redistribution
+  of paid materials) and was not applied to the free data. Not a service with an SLA; rate limits only
+  "cached and rate-limited per client".
+evidence:
+- field: data_license
+  url: https://tryhired.co/data/
+  quote: BLS data is U.S. public domain; O*NET-derived fields are CC BY 4.0 and carry the O*NET notice
+    above.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://tryhired.co/data/
+  quote: BLS data is U.S. public domain; O*NET-derived fields are CC BY 4.0 and carry the O*NET notice
+    above.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://tryhired.co/data/
+  quote: Free to download, query or connect to an AI assistant.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://tryhired.co/data/
+  quote: BLS data is U.S. public domain; O*NET-derived fields are CC BY 4.0 and carry the O*NET notice
+    above.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://tryhired.co/data/
+  quote: and link the page or dataset you used.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read /data/, dataset pages (career-core, pay-by-geography) and /terms. /terms covers
+  only purchased HIRED products, not free data. Caveats: O*NET notice mandatory for O*NET-derived fields;
+  TryHired credit requested; it is a repackager of BLS/O*NET (could be sourced direct); header ''Open
+  public domain / CC BY 4.0'' for its own compilation is loose. Bulk CSV/JSON downloads exist (bulk_download
+  cou'

@@ -1,0 +1,87 @@
+id: openstates
+name: OpenStates
+url: https://openstates.org/api/
+category: Government
+description: US state legislature bills and lawmakers
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: OpenStates
+  url: https://openstates.org/api/
+  category: Government
+link_status: redirect
+data_license: public-domain (no copyright claimed; bulk data public domain dedication)
+commercial_use: ambiguous
+storage_caching: ambiguous
+redistribution_display: 'yes'
+attribution_required: 'no'
+bulk_download: 'yes'
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: -> https://docs.openstates.org/api-v3/
+data_license_url: https://open.pluralpolicy.com/data/
+api_terms_url: https://open.pluralpolicy.com/tos/
+commercial_use_scope: any
+share_alike: 'no'
+notes: Read Open States Terms of Service (effective 2021-09-15, hosted at open.pluralpolicy.com/tos) and
+  the bulk data page. Open States makes no copyright claim on the data; attribution is appreciated; no
+  endorsement may be implied. Terms do not name commercial use explicitly (inferred from no copyright
+  claim/public domain). Project now belongs to Plural Policy; its newer Terms of Use (pluralpolicy.com/terms-of-use)
+  and API plan limits were not read. API key required.
+evidence:
+- field: attribution_required
+  url: https://open.pluralpolicy.com/tos/
+  quote: No attribution is required for using data obtained via Open States. We make no copyright claim
+    over any of the data we collect & publish.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://open.pluralpolicy.com/tos/
+  quote: No attribution is required for using data obtained via Open States. We make no copyright claim
+    over any of the data we collect & publish.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://open.pluralpolicy.com/tos/
+  quote: No attribution is required for using data obtained via Open States. We make no copyright claim
+    over any of the data we collect & publish.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://open.pluralpolicy.com/tos/
+  quote: No attribution is required for using data obtained via Open States. We make no copyright claim
+    over any of the data we collect & publish.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://open.pluralpolicy.com/tos/
+  quote: No attribution is required for using data obtained via Open States. We make no copyright claim
+    over any of the data we collect & publish.
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://open.pluralpolicy.com/tos/
+  quote: No attribution is required for using data obtained via Open States. We make no copyright claim
+    over any of the data we collect & publish.
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://open.pluralpolicy.com/data/
+  quote: Open States makes almost all of our data available in bulk.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://pluralpolicy.com/terms-of-use/
+  quote: limited, non-transferable license to use the Services solely for your personal non-commercial
+    purposes.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://pluralpolicy.com/terms-of-use/
+  quote: You may not commercially exploit, copy, modify, reverse engineer, scrape, compete with
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Plural Policy (owner) Terms of Use dated 2026-08-26 limit services to personal non-commercial
+  use and ban commercial exploitation and scraping; Conflicts with older Open States ToS (2021) that makes
+  no copyright claim; scope of new terms over API/bulk data unclear; API key required; plan limits not
+  read | applied: commercial_use=ambiguous, storage_caching=ambiguous'

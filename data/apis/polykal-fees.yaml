@@ -1,0 +1,71 @@
+id: polykal-fees
+name: PolyKal Fees
+url: https://polymarket-kalshi.com/fee-schedule/
+category: Finance
+description: Kalshi & Polymarket trading fee rates and formulas as verified JSON
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: PolyKal Fees
+  url: https://polymarket-kalshi.com/fee-schedule/
+  category: Finance
+link_status: redirect
+data_license: CC-BY-4.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: polymarket-kalshi.com/fee-schedule/ redirects to https://polykal.net/fee-schedule/
+data_license_url: https://polykal.net/fee-schedule/
+api_terms_url: https://polykal.net/fee-schedule/
+commercial_use_scope: any
+attribution_text: Credit PolyKal (polykal.net) and link to https://polykal.net/fee-schedule/
+share_alike: 'no'
+notes: Page itself offers fees.json (No key, no sign-up, CORS) under CC BY 4.0. The page says the numbers
+  are transcribed from Kalshi and Polymarket published fee schedules (facts, not creative works), not
+  verified for upstream restrictions. Domain moved to polykal.net via redirect; evidence read on the redirect
+  target, which is the same site. Fee data can change; not financial advice.
+evidence:
+- field: data_license
+  url: https://polykal.net/fee-schedule/
+  quote: free to use, copy and redistribute, including commercially, under Creative Commons Attribution
+    4.0 (CC-BY-4.0)
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://polykal.net/fee-schedule/
+  quote: free to use, copy and redistribute, including commercially, under Creative Commons Attribution
+    4.0 (CC-BY-4.0)
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://polykal.net/fee-schedule/
+  quote: free to use, copy and redistribute, including commercially, under Creative Commons Attribution
+    4.0 (CC-BY-4.0)
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://polykal.net/fee-schedule/
+  quote: free to use, copy and redistribute, including commercially, under Creative Commons Attribution
+    4.0 (CC-BY-4.0)
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://polykal.net/fee-schedule/
+  quote: 'The one condition: credit PolyKal (polykal.net) and link to'
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://polykal.net/fee-schedule/
+  quote: free to use, copy and redistribute, including commercially, under Creative Commons Attribution
+    4.0 (CC-BY-4.0)
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Domain moved to polykal.net. Upstream platform terms not read (facts). Not financial
+  advice; small operator.

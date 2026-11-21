@@ -1,0 +1,36 @@
+id: tipo
+name: TIPO
+url: https://tiponet.tipo.gov.tw/Gazette/OpenData/OD/OD05.aspx?QryDS=API00
+category: Patent
+description: Taiwan patent search system api
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: TIPO
+  url: https://tiponet.tipo.gov.tw/Gazette/OpenData/OD/OD05.aspx?QryDS=API00
+  category: Patent
+- list: public-api-lists
+  name: TIPO
+  url: https://tiponet.tipo.gov.tw/Gazette/OpenData/OD/OD05.aspx?QryDS=API00
+  category: Patent
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://cloud.tipo.gov.tw/S220/opdata?QryDS=API00 (TIPO Patent & Trademark Open Data site, JS page read with Playwright)
+notes: The page links to a Copyright claim (tiponet.tipo.gov.tw/030_OUT_V1/copyRight, Chinese) and to "Data usage regulation" (data.gov.tw/privacy, which is only a privacy/security policy and names no data
+  licence). The copyright page says content excluded from copyright (laws, official documents) may be used freely, while other site content is copyright-protected and only fair use / personal or family
+  non-profit copying is allowed; it does not clearly cover the open-data API. The Taiwan Open Government Data License v1.0 (data.gov.tw/en/license) allows any use but the TIPO page does not say it applies
+  to this API, so it is not applied. All terms unknown. Access needs an API verification code application (DOCX/ODT form), so apiKey is plausible.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

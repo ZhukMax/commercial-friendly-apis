@@ -1,0 +1,26 @@
+id: agentdeals
+name: AgentDeals
+url: https://agentdeals.dev/api
+category: Development
+description: Search and compare developer free tiers, startup credits, and pricing changes
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: AgentDeals
+  url: https://agentdeals.dev/api
+  category: Development
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://agentdeals.dev/api/docs

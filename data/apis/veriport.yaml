@@ -1,0 +1,43 @@
+id: veriport
+name: Veriport
+url: https://veriport.io/docs
+category: Data Validation
+description: EU VAT validation (VIES), VAT rates, IBAN validation, French company data
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Veriport
+  url: https://veriport.io/docs
+  category: Data Validation
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: 'yes'
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://veriport.io/legal/terms
+rate_limits: 'Free tier: 100 calls a month'
+evidence:
+- field: storage_caching
+  url: https://veriport.io/legal/terms
+  quote: You may store and reuse answers in your own systems, including as audit evidence.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://veriport.io/legal/terms
+  quote: The free tier (100 calls a month) is offered as is
+  checked_at: '2026-11-21'
+notes: 'Terms (updated 2026-10-29) read. Answers may be stored and reused in your own systems; barred:
+  reselling raw access as a competing validation service, scraping to rebuild its tables. VAT answers
+  come from the European Commission VIES service and French company data from public registries (upstream
+  terms not checked). Commercial use of results, display and attribution not stated, so unknown (verdict
+  unknown). Free tier is 100 calls/month.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

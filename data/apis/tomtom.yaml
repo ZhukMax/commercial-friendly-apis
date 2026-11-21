@@ -1,0 +1,42 @@
+id: tomtom
+name: TomTom
+url: https://developer.tomtom.com/
+category: Geocoding
+description: Maps, Directions, Places and Traffic APIs
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: TomTom
+  url: https://developer.tomtom.com/
+  category: Geocoding
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: limited
+redistribution_display: unknown
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://docs.tomtom.com/
+api_terms_url: https://docs.tomtom.com/legal/terms-and-conditions
+cache_limit: Client-side only, per cache-control headers, max-age; no caching to serve multiple users
+notes: TomTom Portal Terms & Conditions read via Playwright (JS page, fresh context). Caching is prohibited except client-side per cache-control headers and never for scaling to multiple users. Attribution
+  via the Copyright API is mandatory. The terms grant licence for a 'Permitted Solution' (application licensed to end users with asset-management functionality) and have free monthly request quotas under
+  Subscription Plans; whether an ad/affiliate site is a permitted commercial use was not clear from the clauses read, so commercial_use and display stay unknown. Developer URL now redirects to docs.tomtom.com.
+evidence:
+- field: storage_caching
+  url: https://docs.tomtom.com/legal/terms-and-conditions
+  quote: 'The caching or storing of any Results shall be prohibited except that you may cache Results delivered by the Licensed Products provided that:'
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://docs.tomtom.com/legal/terms-and-conditions
+  quote: you agree to implement to the TomTom Copyright API in order to generate the applicable copyright and logo attribution.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

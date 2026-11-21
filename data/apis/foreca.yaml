@@ -1,0 +1,62 @@
+id: foreca
+name: Foreca
+url: https://developer.foreca.com
+category: Weather
+description: Weather
+description_source: upstream
+auth: OAuth
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Foreca
+  url: https://developer.foreca.com
+  category: Weather
+link_status: alive
+data_license: unknown
+commercial_use: paid-only
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://developer.foreca.com/terms
+commercial_use_scope: paid
+attribution_text: '"Powered by Foreca" or the Foreca logo, prominently'
+share_alike: unknown
+rate_limits: 'Free trial and Freemium: 2,000 requests/day; paid plans from 99 EUR/month (1M requests)'
+evidence:
+- field: commercial_use
+  url: https://developer.foreca.com/terms
+  quote: Subject to Customer's payment of the applicable Fees, Foreca grants to Customer, for the duration
+    of the Agreement, a limited, non-exclusive and non-transferable licence
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://developer.foreca.com/terms
+  quote: Customer may not use or transfer the Content in any way not expressly provided for in these Terms.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://developer.foreca.com/terms
+  quote: shall prominently display the message "Powered by Foreca" or the Foreca logo
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://developer.foreca.com/pricing
+  quote: Non-commercial use only
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://developer.foreca.com
+  quote: The free trial and Freemium plans each have a daily limit of 2,000 requests per day.
+  checked_at: '2026-11-21'
+notes: Read Terms of Service, pricing and docs. Licence is granted subject to payment of fees; the free
+  Freemium plan is non-commercial only. Use of content is limited to what the Service Description allows
+  (display and caching rules not stated in the terms), so storage unknown and display ambiguous. Attribution
+  'Powered by Foreca' mandatory.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Confirmed paid-only/yellow. Pricing FAQ: ''Freemium is a plan strictly only for non-commercial
+  use''. Mandatory ''Powered by Foreca'' attribution. Service Description rules on caching not published.'

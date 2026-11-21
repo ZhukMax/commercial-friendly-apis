@@ -1,0 +1,68 @@
+id: weathertotals
+name: WeatherTotals
+url: https://weathertotals.com/api
+category: Weather
+description: Measured US snow, rain, hail and aurora totals by state and city
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: WeatherTotals
+  url: https://weathertotals.com/api
+  category: Weather
+link_status: alive
+data_license: CC-BY-4.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: high
+link_checked_at: '2026-11-21'
+api_terms_url: https://weathertotals.com/terms
+commercial_use_scope: any
+attribution_text: Credit WeatherTotals, link to the response page named in the attribution block, name
+  the licence (CC BY 4.0); keep the sources and public domain notice
+rate_limits: 120 requests/minute per IP, no key
+evidence:
+- field: data_license
+  url: https://weathertotals.com/terms
+  quote: JSON API output at weathertotals.com/api and widget output are licensed under Creative Commons
+    Attribution 4.0 International (CC BY 4.0)
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://weathertotals.com/api
+  quote: Every API response is licensed under CC BY 4.0 for any purpose, including commercial use, with
+    no key or permission needed.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://weathertotals.com/terms
+  quote: You may copy, redistribute, adapt and use that output for any purpose, commercial included, subject
+    to these conditions
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://weathertotals.com/terms
+  quote: You may copy, redistribute, adapt and use that output for any purpose, commercial included, subject
+    to these conditions
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://weathertotals.com/api
+  quote: Attribute WeatherTotals, add a link to the response page, and name the license.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://weathertotals.com/api
+  quote: Each IP address gets 120 requests per minute.
+  checked_at: '2026-11-21'
+notes: Read /api and /terms. API and widget output are CC BY 4.0 including commercial use; underlying
+  observations are US government public domain (NWS/NOAA, SNOTEL; some via Iowa Environmental Mesonet,
+  credited). Responses carry an attribution block that must be kept.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Terms also forbid republishing whole pages as own and require attribution/licence naming;
+  underlying data public domain.

@@ -1,0 +1,68 @@
+id: sharpapi
+name: SharpAPI
+url: https://docs.sharpapi.io
+category: Sports & Fitness
+description: Real-time sports betting odds from 20+ sportsbooks with +EV detection
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: SharpAPI
+  url: https://docs.sharpapi.io
+  category: Sports & Fitness
+link_status: redirect
+data_license: proprietary (SharpAPI Terms; odds originate from third-party sportsbooks)
+commercial_use: 'yes'
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: -> https://docs.sharpapi.io/en/
+api_terms_url: https://sharpapi.io/terms
+commercial_use_scope: any
+cache_limit: Stored data may be kept for internal use (analysis, research, modelling) indefinitely; exposing
+  stored data to end users as feed, export or archive is redistribution
+attribution_text: Data provided by SharpAPI (linked to https://sharpapi.io); required from 2026-12-01
+  on any plan
+share_alike: unknown
+evidence:
+- field: commercial_use
+  url: https://sharpapi.io/terms
+  quote: Display odds data within your own application for your own end users, provided you maintain an
+    active subscription at the appropriate tier
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://sharpapi.io/terms
+  quote: Resell, sublicense, or redistribute raw API data to third parties
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://sharpapi.io/terms
+  quote: may be stored and used internally for as long as you wish, including after your subscription
+    ends
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://sharpapi.io/terms
+  quote: you must show the credit "Data provided by SharpAPI" with them
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://sharpapi.io/terms
+  quote: Odds data delivered through the API originates from third-party sportsbooks.
+  checked_at: '2026-11-21'
+notes: 'Read the Terms of Service (updated 2026-10-25). Allowed: displaying odds inside your own app to
+  your end users (also side by side from several books) with an active subscription; this applies by usage,
+  not industry. Forbidden: reselling/redistributing raw data, offering multi-sportsbook odds comparison
+  as a product in its own right (comparison grid is what users come for) without a separate agreement,
+  competing aggregation. Stored data is for internal use; showing stored data to end users as feed/export/archive
+  needs a separate agreement. Credit ''Data provided by SharpAPI'' mandatory from 2026-12-01. Free plan
+  exists; the terms do not clearly say whether the Free plan counts as an ''appropriate tier'' for end-user
+  display, so commercial_use_scope any is an assumption of the text, check the plan. Odds data originates
+  from third-party sportsbooks: upstream terms may be stricter. A pure odds-comparison site is likely
+  excluded.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

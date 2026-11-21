@@ -1,0 +1,60 @@
+id: disclosed-capitol
+name: Disclosed Capitol
+url: https://www.disclosedcapitol.com/data-files/api
+category: Government
+description: US congressional & executive-branch stock trade disclosures (STOCK Act + OGE)
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Disclosed Capitol
+  url: https://www.disclosedcapitol.com/data-files/api
+  category: Government
+link_status: alive
+data_license: proprietary (aggregation); underlying filings are public records
+commercial_use: 'no'
+storage_caching: unknown
+redistribution_display: 'no'
+attribution_required: 'no'
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: high
+link_checked_at: '2026-11-21'
+data_license_url: https://www.disclosedcapitol.com/terms
+api_terms_url: https://www.disclosedcapitol.com/terms
+commercial_use_scope: any
+share_alike: unknown
+rate_limits: Free 60, Core 120, Pro 240, Max 600 requests per minute; free keys get 750 trial credits
+evidence:
+- field: commercial_use
+  url: https://www.disclosedcapitol.com/terms
+  quote: Any other use requires our prior written permission.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.disclosedcapitol.com/terms
+  quote: Personal use — your own research, analysis, learning, and tracking of your own portfolio
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.disclosedcapitol.com/terms
+  quote: you may not reproduce, distribute, modify, create derivative works from, or publicly display content from the Service without our written permission.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.disclosedcapitol.com/terms
+  quote: Attribution is appreciated but not required for the uses permitted under Section 9.1.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://www.disclosedcapitol.com/terms
+  quote: Free 60, Core 120, Pro 240 and Max 600 requests per minute.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.disclosedcapitol.com/terms
+  quote: The underlying government filings are public records, but our aggregation, analysis, enrichment, presentation, and derived datasets are proprietary.
+  checked_at: '2026-11-21'
+notes: 'ToS (last updated 2026-10-10), section 9.1: API data (free or paid plan) is licensed only for personal use and for news/media use for the general public; any other use needs prior written permission
+  from admin@disclosedcapitol.com. Cited reason: 5 U.S.C. 13107 bars commercial use of financial disclosure reports other than by news and communications media. Section 8 also bans reselling/redistributing
+  the dataset in bulk and building competing data products. An ad- or affiliate-funded site is not covered unless it qualifies as news media or gets written permission. Storage/caching not addressed.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

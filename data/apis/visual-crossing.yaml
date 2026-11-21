@@ -1,0 +1,66 @@
+id: visual-crossing
+name: Visual Crossing
+url: https://www.visualcrossing.com/weather-api
+category: Weather
+description: Global historical and weather forecast data
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Visual Crossing
+  url: https://www.visualcrossing.com/weather-api
+  category: Weather
+link_status: alive
+data_license: proprietary (Visual Crossing License Terms)
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.visualcrossing.com/weather-services-terms/
+notes: Read the License Terms (updated November 2026). Storage in any database is allowed. Raw weather
+  data may never be shared or distributed publicly and may be shown to the public only if not exportable;
+  derived results may be shown with attribution as required by the licence level. The terms do not say
+  whether commercial use is allowed (depends on license level/plan, not stated on the pages read), so
+  commercial_use is unknown and the verdict unknown. Attribution requirement not stated explicitly. API
+  key must not be exposed in client-side code unless the licence level permits.
+evidence:
+- field: storage_caching
+  url: https://www.visualcrossing.com/weather-services-terms/
+  quote: The data produced by the Service Components may be stored in any database or other storage and
+    retrieval system.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.visualcrossing.com/weather-services-terms/
+  quote: may only be shown to the general public for viewing purposes where the data is not readily exportable
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.visualcrossing.com/weather-services-terms/
+  quote: The Service Components are licensed, not sold.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.visualcrossing.com/weather-data-editions/
+  quote: Weather data may be displayed to internal or external users, including the general public, as
+    part of an application, website, dashboard, or report.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.visualcrossing.com/weather-data-editions/
+  quote: Commercial licensing provides for the use of Visual Crossing Weather Data by businesses for commercial
+    purposes
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Editions page says commercial use and public display are allowed on all plans; Raw
+  data must not be exportable; resale banned; attribution on non-corporate plans | applied: commercial_use=yes,
+  redistribution_display=yes, storage_caching=yes'
+verdict_override: yellow
+override_reason: 'Second check: Editions page says commercial use and public display are allowed on all
+  plans; Raw data must not be exportable; resale banned; attribution on non-corporate plans'

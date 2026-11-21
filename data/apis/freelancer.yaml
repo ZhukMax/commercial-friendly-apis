@@ -1,0 +1,62 @@
+id: freelancer
+name: Freelancer
+url: https://developers.freelancer.com
+category: Business
+description: Hire freelancers to get work done
+description_source: upstream
+auth: OAuth
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Freelancer
+  url: https://developers.freelancer.com
+  category: Business
+- list: public-api-lists
+  name: Freelancer
+  url: https://developers.freelancer.com
+  category: Business
+link_status: alive
+data_license: unknown
+commercial_use: 'yes'
+storage_caching: limited
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.freelancer.com/about/apiterms
+commercial_use_scope: any
+cache_limit: Refresh cached Data at least every 24 hours; store encrypted
+evidence:
+- field: commercial_use
+  url: https://www.freelancer.com/about/apiterms
+  quote: You may charge for your Application.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.freelancer.com/about/apiterms
+  quote: Where Data is cached, you should refresh the cache at least every 24 hours.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.freelancer.com/about/apiterms
+  quote: you may not sell, rent, lease, sublicense, redistribute, or syndicate access to the API
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.freelancer.com/about/apiterms
+  quote: You may not copy or store any Data or capture or store any information expressed by the Data
+  checked_at: '2026-11-21'
+notes: Read Freelancer API Terms and Conditions (last modified 21 Dec 2017; developers.freelancer.com
+  is JS-only, read via Playwright to find links, then curl). Apps may charge for the Application, caching
+  only for performance and must be refreshed every 24h, other storage barred except as permitted; display
+  of Data in your own app is not explicitly covered (only redistributing/syndicating API access is banned),
+  and the User Agreement bans scraping/automated access beyond the API. Data is user-generated marketplace
+  content (jobs, profiles) with its own privacy constraints. Attribution not stated (unknown). Freelancer
+  may publish your name/logo as an API user.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Confirmed yellow. Terms last modified 2017; Freelancer may publish your name/logo;
+  marketplace user content with own privacy limits; display of Data is not explicitly granted.

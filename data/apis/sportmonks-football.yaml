@@ -1,0 +1,58 @@
+id: sportmonks-football
+name: Sportmonks Football
+url: https://docs.sportmonks.com/football/
+category: Sports & Fitness
+description: Football score/schedule, news api, tv channels, stats, history, display standing e.g. epl,
+  la liga
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Sportmonks Football
+  url: https://docs.sportmonks.com/football/
+  category: Sports & Fitness
+link_status: redirect
+data_license: proprietary (Sportmonks Terms of Service)
+commercial_use: unknown
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: -> https://docs.sportmonks.com/v3
+api_terms_url: https://www.sportmonks.com/terms-of-service/
+evidence:
+- field: storage_caching
+  url: https://www.sportmonks.com/terms-of-service/
+  quote: However, distribution, transfer, and storage of data provided by our services is allowed, but
+    reselling the product is forbidden without our consent.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.sportmonks.com/terms-of-service/
+  quote: However, distribution, transfer, and storage of data provided by our services is allowed, but
+    reselling the product is forbidden without our consent.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://docs.sportmonks.com/v3/api-faq.md
+  quote: Technical production readiness does not determine commercial licensing rights.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.sportmonks.com/terms-of-service/
+  quote: Our services and related applications are copyright-protected.
+  checked_at: '2026-11-21'
+notes: 'Read Sportmonks'' own Terms of Service (https://www.sportmonks.com/terms-of-service/, via Playwright
+  because curl gets a Cloudflare 403) and the v3 API FAQ. The ToS allows distribution, transfer and storage
+  of data provided by the services but forbids reselling; an earlier sentence says storage of ''our services''
+  needs permission, read as referring to the product, not the data. ''Usage of material from Sportmonks
+  is strictly for personal and non-commercial use'' sits in the copyright paragraph about website material,
+  not the API. No page states that commercial use (ads/affiliate site) is allowed or tied to a plan; the
+  API FAQ says ''verify ... applicable commercial usage rights before launch'', so commercial_use stays
+  unknown. Logos/photos belong to third parties; user must arrange rights. Data comes from licensed upstream
+  providers, upstream terms may be stricter. '
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

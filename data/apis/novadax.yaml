@@ -1,0 +1,26 @@
+id: novadax
+name: NovaDax
+url: https://doc.novadax.com/en-US/
+category: Cryptocurrency
+description: NovaDAX API to access all market data, trading management endpoints
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: NovaDax
+  url: https://doc.novadax.com/en-US/#introduction
+  category: Cryptocurrency
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: HTTP 502

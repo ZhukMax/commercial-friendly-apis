@@ -1,0 +1,82 @@
+id: tacofancy
+name: TacoFancy
+url: https://github.com/evz/tacofancy-api
+category: Food & Drink
+description: Community-driven taco database
+description_source: upstream
+auth: none
+https: false
+cors: unknown
+sources:
+- list: public-apis
+  name: TacoFancy
+  url: https://github.com/evz/tacofancy-api
+  category: Food & Drink
+- list: public-api-lists
+  name: TacoFancy
+  url: https://github.com/evz/tacofancy-api
+  category: Food & Drink
+link_status: alive
+data_license: Unlicense (public domain dedication; dansinker/tacofancy data repo)
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'no'
+bulk_download: unknown
+self_host_option: 'yes'
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://github.com/dansinker/tacofancy/blob/master/LICENSE
+commercial_use_scope: any
+share_alike: 'no'
+evidence:
+- field: data_license
+  url: https://raw.githubusercontent.com/dansinker/tacofancy/HEAD/LICENSE
+  quote: This is free and unencumbered software released into the public domain.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://raw.githubusercontent.com/dansinker/tacofancy/HEAD/LICENSE
+  quote: for any purpose, commercial or non-commercial, and by any means.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://raw.githubusercontent.com/dansinker/tacofancy/HEAD/LICENSE
+  quote: Anyone is free to copy, modify, publish, use, compile, sell, or distribute this software
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://raw.githubusercontent.com/dansinker/tacofancy/HEAD/LICENSE
+  quote: Anyone is free to copy, modify, publish, use, compile, sell, or distribute this software
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://raw.githubusercontent.com/dansinker/tacofancy/HEAD/LICENSE
+  quote: This is free and unencumbered software released into the public domain.
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://raw.githubusercontent.com/dansinker/tacofancy/HEAD/LICENSE
+  quote: This is free and unencumbered software released into the public domain.
+  checked_at: '2026-11-21'
+- field: self_host_option
+  url: https://raw.githubusercontent.com/evz/tacofancy-api/HEAD/LICENSE
+  quote: Permission is hereby granted, free of charge, to any person obtaining a copy
+  checked_at: '2026-11-21'
+- field: self_host_option
+  url: https://raw.githubusercontent.com/evz/tacofancy-api/HEAD/README.md
+  quote: API for https://github.com/dansinker/tacofancy
+  checked_at: '2026-11-21'
+notes: 'The API (https://github.com/evz/tacofancy-api, MIT code) serves recipes from the community repo
+  dansinker/tacofancy, whose LICENSE is the Unlicense (public domain), read at the raw LICENSE file; the
+  repo''s README does not repeat it. Medium confidence: the licence is on the data repo as a whole, individual
+  contributors'' recipe text (contributors are tracked by the API) was not checked, and no hosted-API
+  terms were found (the entry has https: false and the hosted instance was not verified).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: Entry URL is a GitHub self-host project; no hosted API terms exist; Old hosted instance
+  (taco-randomizer.herokuapp.com, tacofancy.herokuapp.com) returns HTTP 404, so the hosted service appears
+  gone; Recipe text is community-contributed; per-contributor rights not verified (Unlicense is repo-level)
+verdict_override: yellow
+override_reason: 'Second check: Entry URL is a GitHub self-host project; no hosted API terms exist; Old
+  hosted instance (taco-randomizer.herokuapp.com, tacofancy.herokuapp.com) returns HTTP 404, so the hosted
+  service appears gone; Recipe text is community-contributed; per-contributor rights not verified (Unlicense
+  is repo-level)'

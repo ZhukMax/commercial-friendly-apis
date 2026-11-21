@@ -1,0 +1,79 @@
+id: locationiq
+name: LocationIQ
+url: https://locationiq.org/docs/
+category: Geocoding
+description: Provides forward/reverse geocoding and batch geocoding
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: LocationIQ
+  url: https://locationiq.org/docs/
+  category: Geocoding
+- list: public-api-lists
+  name: LocationIQ
+  url: https://locationiq.org/docs/
+  category: Geocoding
+link_status: redirect
+data_license: unknown
+commercial_use: 'yes'
+storage_caching: ambiguous
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: -> https://docs.locationiq.com/docs/introduction
+api_terms_url: https://locationiq.com/tos
+commercial_use_scope: free-tier
+cache_limit: 'Free account: cache request-response pairs up to 48 h; customers: for the duration of the
+  customer relationship; response data may be stored forever; no server-side caching of map tiles'
+attribution_text: Search by LocationIQ.com (link back on website or app)
+rate_limits: 'Free: 5,000 requests/day, 2 requests/second'
+evidence:
+- field: commercial_use
+  url: https://locationiq.com/pricing
+  quote: You may use our free plan in commercial projects if you spread the love by adding a link to us
+    on your website or app
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://locationiq.com/pricing
+  quote: You may use our free plan in commercial projects if you spread the love by adding a link to us
+    on your website or app
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://locationiq.com/tos
+  quote: If you have a free account, you can cache request-response pairs from the Service for upto 48
+    hours.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://locationiq.com/tos
+  quote: You can store response data forever.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://locationiq.com/tos
+  quote: develop, reproduce, display and distribute applications, websites and
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://locationiq.com/pricing
+  quote: Free sign up 5000 requests /day 2 requests /second
+  checked_at: '2026-11-21'
+notes: 'Read /tos, /pricing (FAQ: licensing terms and caching policy) and /attribution. Free plan is allowed
+  in commercial projects with a link back (pricing page calls it "Limited Commercial Use"); paid plans
+  list "Commercial Use". Caching terms are internally inconsistent: ToS prohibit collecting request-response
+  pairs beyond temporary caching, give free accounts 48 hours and customers the duration of the relationship,
+  yet also say "You can store response data forever", and forbid server-side tile caching. Hence storage_caching
+  ambiguous. Upstream data (OSM ODbL, GeoNames CC BY, OpenAddresses, Who''s On First) is credited on /attribution;
+  ODbL implications for stored results not assessed. Old URL locationiq.org/docs redirects to docs.locationiq.com.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: First-pass evidence is accurate except the pricing sentence now reads 'adding a prominent
+  link back to us on your website or app' (first-pass quote lacks 'prominent'; meaning unchanged, evidence
+  quote should be refreshed). Upstream (OSM ODbL, GeoNames CC BY, WOF CC0, OpenAddresses) credited on
+  /attribution; no stricter upstream blocker for display. Fields stand.

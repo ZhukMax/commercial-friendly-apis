@@ -1,0 +1,64 @@
+id: coinstats
+name: CoinStats
+url: https://documenter.getpostman.com/view/5734027/RzZ6Hzr3?version=latest
+category: Cryptocurrency
+description: Crypto Tracker
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: CoinStats
+  url: https://documenter.getpostman.com/view/5734027/RzZ6Hzr3?version=latest
+  category: Cryptocurrency
+link_status: alive
+data_license: unknown
+commercial_use: paid-only
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: high
+link_checked_at: '2026-11-21'
+commercial_use_scope: paid
+cache_limit: Refresh cached data at least every 24 h; no permanent local database; delete on termination
+attribution_text: Powered by CoinStats (Free plan only; not required on paid plans)
+api_terms_url: https://openapi.coinstats.app/terms
+evidence:
+- field: commercial_use
+  url: https://openapi.coinstats.app/terms
+  quote: Commercial use of the API is permitted on any Paid Plan (Starter, Standard, Business, or Enterprise).
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://openapi.coinstats.app/terms
+  quote: No commercial use rights
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://openapi.coinstats.app/terms
+  quote: Cached API Data must be refreshed from the API at least once every twenty-four (24) hours
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://openapi.coinstats.app/terms
+  quote: Don't create permanent local databases of API Data
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://openapi.coinstats.app/terms
+  quote: Use API Data in your Application subject to the restrictions herein
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://openapi.coinstats.app/terms
+  quote: Redistribute raw or minimally processed API Data
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://openapi.coinstats.app/terms
+  quote: If you are using the Free plan, you must provide clear, conspicuous, and permanent attribution to CoinStats when displaying API Data in your Application.
+  checked_at: '2026-11-21'
+notes: 'Page read: CoinStats API Terms of Use v1.2 (12 Oct 2026, via Playwright; linked from coinstats.app/terms). Free plan has ''No commercial use rights'' and mandatory ''Powered by CoinStats'' attribution;
+  paid plans permit commercial use without attribution. Caching allowed but with 24h refresh, no permanent databases, deletion on termination (limited). Displaying data in your Application is licensed;
+  redistributing/reselling raw data needs an Enterprise agreement. The listed Postman page is the old v1 public API (unauthenticated); the current API needs a key (auth set to apiKey), and the old page
+  points to coinstats.app/api-docs. Aggregates exchange data; upstream terms may be stricter.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

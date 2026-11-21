@@ -1,0 +1,29 @@
+id: kroger
+name: Kroger
+url: https://developer.kroger.com/reference
+category: Food & Drink
+description: Supermarket Data
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Kroger
+  url: https://developer.kroger.com/reference
+  category: Food & Drink
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: HTTP 403 (blocked for bots, assumed alive)
+notes: https://developer.kroger.com/ (reference, terms and home) returned 'Access Denied' (Akamai) to both curl and a browser (HTTP 403), so no terms page could be read; not bypassed. All terms unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

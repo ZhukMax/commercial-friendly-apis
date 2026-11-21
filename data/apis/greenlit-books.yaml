@@ -1,0 +1,35 @@
+id: greenlit-books
+name: Greenlit Books
+url: https://greenlitbooks.com/developers
+category: Books
+description: Catalog of practical AI books with search, series, glossary and a claim ledger
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Greenlit Books
+  url: https://greenlitbooks.com/developers
+  category: Books
+link_status: alive
+data_license: CC BY 4.0 (claim ledger only); other API data licence not stated
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://greenlitbooks.com/developers
+evidence:
+- field: data_license
+  url: https://greenlitbooks.com/llms.txt
+  quote: the whole claim ledger in one response, licensed CC BY 4.0 with attribution
+  checked_at: '2026-11-21'
+notes: Read /developers and /llms.txt. Only the claim ledger (/api/v1/claims) is explicitly CC BY 4.0 with attribution; books, series, glossary and chapter text are not given a licence or terms on the pages
+  read (/terms returned an empty page to curl). Catalog content belongs to the publisher (also sells books via affiliate links), so everything else stays unknown. No auth/key needed per the developers page.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

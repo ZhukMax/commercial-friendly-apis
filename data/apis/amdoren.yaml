@@ -1,0 +1,33 @@
+id: amdoren
+name: Amdoren
+url: https://www.amdoren.com/currency-api/
+category: Currency Exchange
+description: Free currency API with over 150 currencies
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Amdoren
+  url: https://www.amdoren.com/currency-api/
+  category: Currency Exchange
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: Domain now serves an unrelated Korean link-directory page; /currency-api/ page and API endpoint
+  gone (checked 2026-11-21)
+evidence: []
+notes: 'https://www.amdoren.com/ and /currency-api/ now serve an unrelated Korean "link directory" site
+  (title: yugiyu), and /api/currency.php returns 404. The domain appears to have been repurposed, so the
+  Amdoren currency API is gone; no terms could be read. No terms transferred.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

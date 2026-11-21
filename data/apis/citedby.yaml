@@ -1,0 +1,25 @@
+id: citedby
+name: CitedBy
+url: https://citedby.eu/ai-access-api
+category: Development
+description: 'Which AI crawlers can read a site: robots.txt and server answer for each'
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: CitedBy
+  url: https://citedby.eu/ai-access-api
+  category: Development
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

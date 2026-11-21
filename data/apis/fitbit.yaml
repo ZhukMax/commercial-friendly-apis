@@ -1,0 +1,55 @@
+id: fitbit
+name: Fitbit
+url: https://dev.fitbit.com/
+category: Sports & Fitness
+description: Fitbit Information
+description_source: upstream
+auth: OAuth
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Fitbit
+  url: https://dev.fitbit.com/
+  category: Sports & Fitness
+- list: public-api-lists
+  name: Fitbit
+  url: https://dev.fitbit.com/
+  category: Sports & Fitness
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: 'no'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://dev.fitbit.com/legal/platform-terms-of-service/
+evidence:
+- field: redistribution_display
+  url: https://dev.fitbit.com/legal/platform-terms-of-service/
+  quote: You must not display or distribute User Data to any external source without receiving the informed
+    consent of a User.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://dev.fitbit.com/legal/platform-terms-of-service/
+  quote: You shall not make public, or facilitate or encourage the making public of User Data.
+  checked_at: '2026-11-21'
+notes: 'Not a data source: account-scoped OAuth API returning the signed-in user''s own Fitbit data, governed
+  by the Fitbit Platform Terms of Service (rev. 2023). Terms require user consent to display/distribute
+  User Data, bar unauthorised ads, resale and scraping. Commercial use of apps is not explicitly addressed.
+  Fitbit/Dev site banner: legacy Fitbit Web API support ended Sep 30 2026 and the API is to be turned
+  off Oct 30 2026 (migrate to Google Health API); api.fitbit.com still answered 401 when checked. Verdict
+  unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Platform terms bar making User Data public; Legacy Web API scheduled to be turned
+  off 30 Oct 2026 (past) | applied: redistribution_display=no'
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

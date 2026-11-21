@@ -1,0 +1,67 @@
+id: dwd-api
+name: DWD API
+url: https://dwd.api.bund.dev/
+category: Weather
+description: 'API of the German Weather Service (DWD): weather data, data from specific weather stations,
+  warnings (local, coast, sea, alps)'
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-api-lists
+  name: DWD API
+  url: https://dwd.api.bund.dev/
+  category: Weather
+link_status: alive
+data_license: 'CC-BY-4.0 (DWD: freely accessible geodata and services, with source attribution)'
+commercial_use: 'yes'
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+data_license_url: https://www.dwd.de/DE/service/rechtliche_hinweise/rechtliche_hinweise_node.html
+api_terms_url: https://www.dwd.de/DE/service/rechtliche_hinweise/rechtliche_hinweise_node.html
+notes: dwd.api.bund.dev is an unofficial community OpenAPI description (bundesAPI) of the undocumented
+  DWD app backend (app-prod-ws.warnwetter.de); it is not an official DWD API and carries no terms of its
+  own. DWD legal notice (German) says all freely accessible geodata and geo services of DWD may be reused
+  under CC BY 4.0 with a source note. Whether the app backend is formally covered, and its stability,
+  is not stated, so commercial_use is ambiguous and confidence low. Official DWD open data (opendata.dwd.de)
+  is the safer source. Storage/display not addressed explicitly.
+evidence:
+- field: data_license
+  url: https://www.dwd.de/DE/service/rechtliche_hinweise/rechtliche_hinweise_node.html
+  quote: dürfen unter den Bedingungen der Lizenz Creative Commons BY 4.0 ( CC BY 4.0 ) unter Beigabe eines
+    Quellenvermerks weiterverwendet werden
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.dwd.de/DE/service/rechtliche_hinweise/rechtliche_hinweise_node.html
+  quote: dürfen unter den Bedingungen der Lizenz Creative Commons BY 4.0 ( CC BY 4.0 ) unter Beigabe eines
+    Quellenvermerks weiterverwendet werden
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.dwd.de/DE/service/rechtliche_hinweise/rechtliche_hinweise_node.html
+  quote: dürfen unter den Bedingungen der Lizenz Creative Commons BY 4.0 ( CC BY 4.0 ) unter Beigabe eines
+    Quellenvermerks weiterverwendet werden
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.dwd.de/DE/service/rechtliche_hinweise/rechtliche_hinweise_node.html
+  quote: Zu den Geodaten zählen alle bereitgestellten meteorologischen Wetter- und Klimainformationen
+    mit Ortsbezug.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'DWD legal notice: all freely accessible geodata and geo services may be reused under
+  CC BY 4.0 with source note, and ''geodata'' explicitly includes all meteorological weather and climate
+  information with location; CC BY 4.0 allows commercial use, storage and display with attribution, so
+  the first-pass ''ambiguous'' undersells the licence; Residual risk: dwd.api.bund.dev documents the undocumented
+  DWD app backend (not an official API) and DWD images/graphics from third parties are excluded | applied:
+  commercial_use=yes, attribution_required=yes'
+verdict_override: yellow
+override_reason: Second check resolved some fields; unconfirmed storage/display keeps it at yellow.

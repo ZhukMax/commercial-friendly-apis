@@ -1,0 +1,58 @@
+id: tilth
+name: Tilth
+url: https://www.tilth.uk/data
+category: Open Data
+description: Free daily UK fertiliser price index across nine grades, CC BY 4.0 licensed
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Tilth
+  url: https://www.tilth.uk/data
+  category: Open Data
+link_status: alive
+data_license: CC-BY-4.0
+commercial_use: 'yes'
+storage_caching: unknown
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+data_license_url: https://www.tilth.uk/data/
+api_terms_url: https://www.tilth.uk/api-docs/
+commercial_use_scope: any
+attribution_text: 'Source: Tilth (tilth.uk), with a link to https://www.tilth.uk/data/'
+rate_limits: not stated (429 with Retry-After on throttle)
+evidence:
+- field: data_license
+  url: https://www.tilth.uk/data/
+  quote: CC BY 4.0 Open licence
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.tilth.uk/data/
+  quote: Use them in research, commercially or otherwise.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.tilth.uk/data/
+  quote: Read, quote and republish the figures, in print or online.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.tilth.uk/data/
+  quote: Credit Tilth and link back to this page.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.tilth.uk/api-docs/
+  quote: The Intelligence Hub contract does not currently assert a licence.
+  checked_at: '2026-11-21'
+notes: The /data page grants CC BY 4.0 with commercial use and republication, but the separate API docs
+  page (intelligence.tilth.uk host) says the API contract "does not currently assert a licence" and that
+  source licence metadata does not define API terms. Treated the /data page as the operative grant; flagged
+  as a conflict. Storage/caching not stated (docs only advise caching responses), so unknown and the verdict
+  stays unknown. Terms page (/terms/) is only generic T&Cs.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

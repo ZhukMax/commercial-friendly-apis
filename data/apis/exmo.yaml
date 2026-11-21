@@ -1,0 +1,30 @@
+id: exmo
+name: EXMO
+url: https://documenter.getpostman.com/view/10287440/SzYXWKPi
+category: Cryptocurrency
+description: Cryptocurrencies exchange based in UK
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: EXMO
+  url: https://documenter.getpostman.com/view/10287440/SzYXWKPi
+  category: Cryptocurrency
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+evidence: []
+notes: Read the listed Postman API doc (public/private REST and WebSocket reference, no terms). exmo.com/en/terms redirects to a different domain (exmowithdrawals.com), which was not trusted or read; exmo.me/en/terms
+  is 404. No applicable terms found. All fields unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

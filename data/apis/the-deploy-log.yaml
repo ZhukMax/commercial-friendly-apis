@@ -1,0 +1,77 @@
+id: the-deploy-log
+name: The Deploy Log
+url: https://github.com/dotcomjack/the-deploy-log
+category: Open Data
+description: 1,000+ AI deployments, each linked to the publisher's own page, JSON and CSV, CC BY 4.0
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: The Deploy Log
+  url: https://github.com/dotcomjack/the-deploy-log
+  category: Open Data
+link_status: alive
+verdict: green
+confidence: high
+link_checked_at: '2026-11-21'
+notes: Dataset page and GitHub README both state CC BY 4.0 for the whole record (3,000+ rows of AI deployment
+  announcements, each linked to the publisher's page). Rows are facts/links about third-party announcements;
+  their underlying publisher pages are not covered.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+data_license: CC-BY-4.0
+data_license_url: https://creativecommons.org/licenses/by/4.0/
+api_terms_url: https://deployedbyai.com/log/
+commercial_use: 'yes'
+commercial_use_scope: any
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+attribution_text: The Deploy Log, deployedbyai, https://deployedbyai.com/log/, licensed CC BY 4.0
+share_alike: 'no'
+bulk_download: 'yes'
+self_host_option: unknown
+rate_limits: No numeric limit stated; send your own User-Agent (Python default UA is refused)
+evidence:
+- field: data_license
+  url: https://deployedbyai.com/log/
+  quote: free to reuse under CC BY 4.0 with credit to deployedbyai
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://creativecommons.org/licenses/by/4.0/deed.en
+  quote: copy and redistribute the material in any medium or format for any purpose, even commercially
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://creativecommons.org/licenses/by/4.0/deed.en
+  quote: copy and redistribute the material in any medium or format for any purpose, even commercially
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://creativecommons.org/licenses/by/4.0/deed.en
+  quote: copy and redistribute the material in any medium or format for any purpose, even commercially
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://deployedbyai.com/log/
+  quote: free to reuse under CC BY 4.0 with credit to deployedbyai
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://raw.githubusercontent.com/dotcomjack/the-deploy-log/main/README.md
+  quote: 'Attribution: The Deploy Log, deployedbyai, https://deployedbyai.com/log/, licensed CC BY 4.0'
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://deployedbyai.com/log/
+  quote: free to reuse under CC BY 4.0 with credit to deployedbyai
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://raw.githubusercontent.com/dotcomjack/the-deploy-log/main/README.md
+  quote: 'User-Agent: send your own. deployedbyai.com refuses Python''s default one'
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://raw.githubusercontent.com/dotcomjack/the-deploy-log/main/README.md
+  quote: Two GET endpoints return the whole record, every row in one response.
+  checked_at: '2026-11-21'
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Some rows echo publisher wording (e.g. quoting a Cloudflare announcement); underlying
+  publisher pages not covered. Needs a custom User-Agent.

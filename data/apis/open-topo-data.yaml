@@ -1,0 +1,41 @@
+id: open-topo-data
+name: Open Topo Data
+url: https://www.opentopodata.org
+category: Geocoding
+description: Elevation and ocean depth for a latitude and longitude
+description_source: upstream
+auth: none
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Open Topo Data
+  url: https://www.opentopodata.org
+  category: Geocoding
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: 'yes'
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.opentopodata.org/
+rate_limits: 'Public API: max 100 locations per request, 1 call per second, 1000 calls per day'
+evidence:
+- field: rate_limits
+  url: https://www.opentopodata.org/
+  quote: Max 1 call per second. Max 1000 calls per day.
+  checked_at: '2026-11-21'
+- field: self_host_option
+  url: https://www.opentopodata.org/
+  quote: Host your own or use the free public API
+  checked_at: '2026-11-21'
+notes: 'Pages read: opentopodata.org home, API docs, server docs, SRTM dataset page. No terms of service, licence or commercial-use statement found for the public API at api.opentopodata.org; only the usage
+  limits. Each dataset (SRTM, ASTER, EU-DEM, NED, GEBCO, etc.) carries its own licence, which was not assessed. All terms fields left unknown. Self-hosting is documented (open-source server, host your own
+  datasets).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -1,0 +1,31 @@
+id: neuronto-ard-registry
+name: Neuronto ARD Registry
+url: https://neuronto.com/api-docs
+category: Open Source Projects
+description: Search index of MCP servers, agents and APIs, with the tools each server actually exposes
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Neuronto ARD Registry
+  url: https://neuronto.com/api-docs
+  category: Open Source Projects
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+notes: 'Public search/discovery index of MCP servers, agents and APIs (Agentic Resource Discovery registry). Read the Swagger page and openapi.json (info.license says Apache-2.0, which describes the API
+  spec/software, not clearly the index data) and the privacy statement; /terms and /legal do not exist. One endpoint''s description says its liveness feed needs ''no attribution'' but that is endpoint-specific.
+  The registry aggregates metadata published by third-party servers/publishers, whose own terms are not covered. Some calls beyond a free allowance are paid over x402. No usable terms on commercial use,
+  storage or display: all unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

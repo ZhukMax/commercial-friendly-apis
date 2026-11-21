@@ -1,0 +1,43 @@
+id: cambio-uruguay
+name: Cambio Uruguay
+url: https://cambio-uruguay.com
+category: Currency Exchange
+description: Real-time buy/sell rates from every Uruguayan exchange house with conversion and history
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: Cambio Uruguay
+  url: https://cambio-uruguay.com
+  category: Currency Exchange
+link_status: alive
+data_license: unknown for exchange-rate quotes (CC-BY-4.0 only for /api/datos/mercado statistics on rent,
+  housing, used cars)
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+data_license_url: https://cambio-uruguay.com/datos-abiertos-uruguay
+api_terms_url: https://cambio-uruguay.com/terminos
+evidence:
+- field: data_license
+  url: https://cambio-uruguay.com/datos-abiertos-uruguay
+  quote: van con licencia Creative Commons Atribución 4.0
+  checked_at: '2026-11-21'
+notes: 'Read https://cambio-uruguay.com/terminos (updated 2026-06-20), /desarrolladores and /datos-abiertos-uruguay.
+  ToS: quotes "come from their respective sources" (BCU and exchange houses); bulk scraping that degrades
+  the service is banned; public API offered; you may share links and use the quote widget with attribution.
+  The CC BY 4.0 licence (commercial use allowed with credit "Fuente: Cambio Uruguay") covers only own
+  statistics of /api/datos/mercado/* (rentals, housing, used cars), NOT the exchange-rate quotes this
+  entry is about. Developers page mentions a plan with "more capacity and commercial use" for product
+  use, which implies commercial plan terms exist but are not spelled out. Exchange-house and BCU upstream
+  terms not checked. All core terms unknown for the rates API.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

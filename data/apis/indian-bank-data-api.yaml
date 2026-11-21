@@ -1,0 +1,31 @@
+id: indian-bank-data-api
+name: Indian Bank Data API
+url: https://github.com/kaustubhk24/Indian-Banks-Data
+category: Finance
+description: All Banks IFSC Code data,Search by IFSc or other details
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-api-lists
+  name: Indian Bank Data API
+  url: https://github.com/kaustubhk24/Indian-Banks-Data
+  category: Finance
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://github.com/kaustubhk24/Indian-Banks-Data
+notes: 'Read the GitHub repo README (and wiki landing page): it only gives a disclaimer (data compiled from RBI, no liability) and calls the API "FREE to use" in the repo description; no licence file (GitHub
+  reports none) and no terms of use were found. The hosted API (bank-apis.justinclicks.com) page has no terms either. Underlying data is RBI public IFSC lists (RBI terms not checked). Nothing about commercial
+  use, caching or display is stated, so all unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -1,0 +1,75 @@
+id: bookrank
+name: BookRank
+url: https://openbookrank.com/en/open-data
+category: Books
+description: 'Book rankings from open reader ratings: books, series, reading orders and authors'
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: BookRank
+  url: https://openbookrank.com/en/open-data
+  category: Books
+link_status: alive
+data_license: CC BY 4.0 (scores, ranks, confidence); CC0 (identifier crosswalk)
+commercial_use: 'yes'
+storage_caching: ambiguous
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: 'yes'
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://openbookrank.com/en/terms
+data_license_url: https://openbookrank.com/en/open-data
+commercial_use_scope: any
+attribution_text: BookRank (openbookrank.com)
+share_alike: 'no'
+rate_limits: None stated (static JSON files, no key)
+evidence:
+- field: data_license
+  url: https://openbookrank.com/en/open-data
+  quote: 'Scores, ranks and confidence: CC BY 4.0, credit “BookRank (openbookrank.com)”. The identifier
+    crosswalk: CC0.'
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://openbookrank.com/en/open-data
+  quote: 'Scores, ranks and confidence: CC BY 4.0, credit “BookRank (openbookrank.com)”.'
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://openbookrank.com/en/terms
+  quote: Our own compiled scores and rankings may be quoted with a visible link back to the page they
+    came from.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://openbookrank.com/en/terms
+  quote: Bulk copying of the dataset is not permitted.
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://openbookrank.com/en/open-data
+  quote: Download everything The catalogue as flat files, rebuilt with every snapshot.
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://openbookrank.com/en/open-data
+  quote: 'Scores, ranks and confidence: CC BY 4.0, credit “BookRank (openbookrank.com)”.'
+  checked_at: '2026-11-21'
+notes: 'Read /en/open-data and /en/terms. Data page: scores/ranks CC BY 4.0 with credit, crosswalk CC0,
+  and bulk CSV/NDJSON downloads offered. The Terms page, however, says bulk copying of the dataset is
+  not permitted and scores may be quoted with a link back: conflicts with the CC BY bulk files, so storage_caching
+  is ambiguous. Averages from individual rating sources (Open Library, Google Books, Hardcover, Wikipedia)
+  fall under those sources'' terms (upstream may be stricter); titles, covers and descriptions belong
+  to rights holders. Site uses Amazon affiliate links itself.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Per-source rating averages are said to appear only on a book's own record, never in
+  bulk files (open-data page), which narrows upstream risk. Storage ambiguity remains because the two
+  pages conflict.

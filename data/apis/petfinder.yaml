@@ -1,0 +1,26 @@
+id: petfinder
+name: Petfinder
+url: https://www.petfinder.com/developers/v2/docs/
+category: Animals
+description: Information and images of dog breeds
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: Petfinder
+  url: https://www.petfinder.com/developers/v2/docs/
+  category: Animals
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: HTTP 403 (blocked for bots, assumed alive)

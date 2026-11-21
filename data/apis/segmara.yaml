@@ -1,0 +1,61 @@
+id: segmara
+name: Segmara
+url: https://segmara.com/syndicate
+category: Finance
+description: IPO calendars, filing stages and estimated lockup dates
+description_source: upstream
+auth: other
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Segmara
+  url: https://segmara.com/syndicate
+  category: Finance
+link_status: alive
+data_license: proprietary (free to cite and share with attribution; no named licence)
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+data_license_url: https://segmara.com/syndicate
+api_terms_url: https://segmara.com/syndicate
+attribution_text: 'Data: Segmara IPO calendar, segmara.com/ipo-calendar (link to the source page)'
+rate_limits: unknown
+evidence:
+- field: redistribution_display
+  url: https://segmara.com/syndicate
+  quote: The public feeds are free to cite and share with attribution to Segmara and a link to the relevant
+    source page.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://segmara.com/syndicate
+  quote: The public feeds are free to cite and share with attribution to Segmara and a link to the relevant
+    source page.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://segmara.com/syndicate
+  quote: Use the public data below in your research, newsletter or website.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://segmara.com/syndicate
+  quote: The public feeds are free to cite and share with attribution to Segmara and a link to the relevant
+    source page.
+  checked_at: '2026-11-21'
+notes: 'Syndicate page invites use of five public JSON feeds in research, newsletter or website with attribution
+  + link; it does not say whether commercial use (ads/affiliate) is allowed, and says feeds are for research
+  only, so commercial_use=ambiguous. No statement on storage/caching (page asks to cite updated_utc).
+  Recent-IPO quotes are delayed market quotes of unknown upstream origin; filing dates etc. come from
+  SEC/other sources whose terms may be stricter. Main /terms page covers the investor site and says nothing
+  about feed licensing. Pages read: /syndicate, /terms.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Feed 'license' field confirmed in ipo-calendar.json and ipos-this-week.json. Commercial/ad
+  use unaddressed; upstream filing sources not checked.

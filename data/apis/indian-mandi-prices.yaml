@@ -1,0 +1,40 @@
+id: indian-mandi-prices
+name: Indian Mandi Prices
+url: https://mandi-api.vercel.app/docs
+category: Government
+description: Free, keyless daily wholesale mandi prices for 5 Indian states, sourced from data.gov.in
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Indian Mandi Prices
+  url: https://mandi-api.vercel.app/docs
+  category: Government
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://mandi-api.vercel.app/docs
+rate_limits: 100 requests per 15 minutes per IP
+evidence:
+- field: rate_limits
+  url: https://mandi-api.vercel.app/docs
+  quote: Rate limited to 100 requests per 15 minutes per IP address.
+  checked_at: '2026-11-21'
+- field: auth
+  url: https://mandi-api.vercel.app/docs
+  quote: All requests are keyless and free to use.
+  checked_at: '2026-11-21'
+notes: Independent wrapper over data.gov.in (Agmarknet) data. No terms page, licence or attribution statement exists on the site (/terms is 404); the upstream data.gov.in licence (GODL) could not be read
+  (connection refused from this network). Base URL in docs is mandi-api.onrender.com. All core fields unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

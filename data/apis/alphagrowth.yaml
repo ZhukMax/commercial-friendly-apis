@@ -1,0 +1,72 @@
+id: alphagrowth
+name: AlphaGrowth
+url: https://alphagrowth.io/openapi.json
+category: Cryptocurrency
+description: Crypto project metrics, community growth, funding rounds, investors, chains, fees and DAO
+  treasuries
+description_source: upstream
+auth: none
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: AlphaGrowth
+  url: https://alphagrowth.io/openapi.json
+  category: Cryptocurrency
+link_status: alive
+data_license: Proprietary limited licence (non-exclusive, revocable) with attribution
+commercial_use: 'yes'
+storage_caching: ambiguous
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://alphagrowth.io/terms
+data_license_url: https://alphagrowth.io/terms
+commercial_use_scope: any
+attribution_text: 'Data: AlphaGrowth (alphagrowth.io), with a link where the medium allows'
+rate_limits: 60 requests per minute per IP address on each server (subject to change)
+evidence:
+- field: commercial_use
+  url: https://alphagrowth.io/terms
+  quote: use, display, and republish reasonable portions of its data for any lawful purpose, including
+    in AI agent responses, research, and commercial products
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://alphagrowth.io/terms
+  quote: use, display, and republish reasonable portions of its data for any lawful purpose, including
+    in AI agent responses, research, and commercial products
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://alphagrowth.io/terms
+  quote: you shall credit AlphaGrowth as the source in a reasonably visible way
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://alphagrowth.io/terms
+  quote: Limited, non-exclusive, revocable license with attribution
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://alphagrowth.io/terms
+  quote: 60 requests per minute per IP address on each server, subject to change
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://alphagrowth.io/terms
+  quote: delete it from any copy you hold within a reasonable time after we notify you
+  checked_at: '2026-11-21'
+notes: 'Terms of Service effective 2026-11-16 (Article 3-4) read in full. Commercial products explicitly
+  allowed, but the licence is limited and revocable at any time (''We may revoke this license for any
+  person at any time''), covers only ''reasonable portions'' of data, and forbids reselling/repackaging
+  as a standalone database or competing data product. Storage/caching not addressed explicitly (CSV downloads
+  are offered; third-party content must be deleted from any copy on notice), so ambiguous. Aggregator:
+  some data is third-party (blockchain, projects, X posts) and remains subject to owners'' terms (e.g.
+  X Developer Agreement, no model training on X content); ''Price: Free. We may introduce paid tiers on
+  notice.'''
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'ToS Art. 3-4 re-read: commercial products explicitly allowed with credit, revocable,
+  ''reasonable portions'', no standalone database; X-post content bound by X terms.'

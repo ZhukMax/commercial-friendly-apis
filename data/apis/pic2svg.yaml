@@ -1,0 +1,41 @@
+id: pic2svg
+name: pic2svg
+url: https://pic2svg.com/mcp/
+category: Art & Design
+description: Trace raster images to SVG with a free daily allowance
+description_source: upstream
+auth: none
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: pic2svg
+  url: https://pic2svg.com/mcp/
+  category: Art & Design
+link_status: alive
+data_license: unknown
+commercial_use: paid-only
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://pic2svg.com/terms/
+commercial_use_scope: paid
+notes: 'Read /terms (Playwright, JS-rendered). Starter licence is personal, non-commercial only; Pro and
+  Advanced cover commercial use; free tracing/download of SVG needs no account but its commercial scope
+  is not stated. Terms say you own the vector output. Not a data source: raster-to-SVG tracing tool (MCP/hosted);
+  storage and display of output not separately addressed, left unknown.'
+evidence:
+- field: commercial_use
+  url: https://pic2svg.com/terms/
+  quote: 'Pro: the licence covers any commercial use, including client work you deliver.'
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

@@ -1,0 +1,39 @@
+id: us-zip-codes
+name: US Zip Codes
+url: https://www.metadapi.com/API-Products/Zip-Code-API
+category: Geocoding
+description: Complete data for US Zip Codes, distance, radius and statistics
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-api-lists
+  name: US Zip Codes
+  url: https://www.metadapi.com/API-Products/Zip-Code-API
+  category: Geocoding
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://www.metadapi.com/API-Directory/Zip-Code-API
+api_terms_url: https://www.metadapi.com/terms
+rate_limits: 'Free test tier: 5,000 calls/month, 120 requests/60 s'
+evidence:
+- field: rate_limits
+  url: https://www.metadapi.com/API-Directory/Zip-Code-API
+  quote: 'Free Test Workloads $0/Month 5,000 API Calls/Month 2MB Monthly Bandwidth Rate Limit: 120 requests / 60s'
+  checked_at: '2026-11-21'
+notes: Metadapi Zip Code API (old URL redirects to /API-Directory/Zip-Code-API). Its Terms of Use page covers only the web site (communication services, links, etc.) and has no API data-use terms; no data
+  licence, caching, display or attribution rules found on the API page, FAQ or support pages. The pricing labels the free tier "Free Test Workloads" and paid tiers "Production Workloads", but that is a
+  plan label, not an explicit ban on commercial use of the free tier. Underlying data comes from USPS, IRS SOI and Census ACS (partly public domain) but this was not verified against the vendor terms. All
+  core terms unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

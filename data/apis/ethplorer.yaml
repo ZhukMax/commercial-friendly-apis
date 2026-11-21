@@ -1,0 +1,42 @@
+id: ethplorer
+name: Ethplorer
+url: https://github.com/EverexIO/Ethplorer/wiki/Ethplorer-API
+category: Cryptocurrency
+description: Ethereum tokens, balances, addresses, history of transactions, contracts, and custom structures
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Ethplorer
+  url: https://github.com/EverexIO/Ethplorer/wiki/Ethplorer-API
+  category: Cryptocurrency
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+attribution_text: References to the Ethplorer API on your website (or direct links to Ethplorer transactions/addresses)
+api_terms_url: https://ethplorer.io/terms-and-privacy
+rate_limits: 'freekey: 2/s, 20/min, 100/hour, 1000/24h; personal free key: 10 req/s'
+evidence:
+- field: attribution_required
+  url: https://github.com/EverexIO/Ethplorer/wiki/Ethplorer-API
+  quote: The API service is free, but you are required to place references to the Ethplorer API on your website.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://github.com/EverexIO/Ethplorer/wiki/Ethplorer-API
+  quote: It is not recommended for production use.
+  checked_at: '2026-11-21'
+notes: 'Page read: Ethplorer API wiki; it says by using the code/APIs/widgets you agree with the Terms of Usage and Privacy Policy (ethplorer.io/terms-and-privacy), but that page only showed section headings
+  (body not readable) so commercial use, storage and display remain unknown. The shared ''freekey'' is ''not recommended for production use'' (2 req/s, 20/min, 1000/day); a free personal key has higher
+  limits. Attribution is required per the wiki.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

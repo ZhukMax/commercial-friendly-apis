@@ -1,0 +1,55 @@
+id: mortgagecalculator
+name: MortgageCalculator
+url: https://mortgagecalculator.me/developers
+category: Finance
+description: '16 mortgage calculators: payment, refinance, APR, rent vs. buy, points and amortization
+  schedules'
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: MortgageCalculator
+  url: https://mortgagecalculator.me/developers
+  category: Finance
+link_status: alive
+data_license: unknown
+commercial_use: 'yes'
+storage_caching: unknown
+redistribution_display: 'yes'
+attribution_required: 'no'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://mortgagecalculator.me/Terms-Of-Service
+commercial_use_scope: any
+attribution_text: Optional "by MortgageCalculator.me" link (not a condition)
+rate_limits: 120 requests/minute per IP
+notes: 'ToS (updated 2026-10-30) gives a free licence for widget and API, commercial sites included. Restrictions:
+  do not hide/alter results or present as a quote/offer; do not copy or rehost widget code. Caching/storage
+  of API results not addressed, so unknown (verdict unknown). Results are computed estimates; place names
+  from GeoNames (CC BY 4.0), rates from Freddie Mac PMMS.'
+evidence:
+- field: commercial_use
+  url: https://mortgagecalculator.me/Terms-Of-Service
+  quote: You may embed our calculator widget on any website, including commercial sites such as real estate,
+    lender, builder and blog sites
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://mortgagecalculator.me/Terms-Of-Service
+  quote: you may call our public API from your own apps and sites. It's free, with no sign-up.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://mortgagecalculator.me/Terms-Of-Service
+  quote: We ask that you keep it, since it helps us keep the tool free, but it isn't a condition of this
+    license.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://mortgagecalculator.me/developers
+  quote: Each visitor IP can make 120 requests a minute.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

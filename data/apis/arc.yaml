@@ -1,0 +1,68 @@
+id: arc
+name: ARC
+url: https://www.arcreport.ai/developers
+category: Shopping
+description: Open data on whether AI shopping agents can reach checkout at specific online stores
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: ARC
+  url: https://www.arcreport.ai/developers
+  category: Shopping
+link_status: alive
+data_license: CC-BY-4.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+share_alike: 'no'
+api_terms_url: https://www.arcreport.ai/terms
+data_license_url: https://creativecommons.org/licenses/by/4.0/
+attribution_text: 'Source: ARC (arcreport.ai)'
+rate_limits: Free, rate limited; honour Retry-After on HTTP 429
+commercial_use_scope: any
+evidence:
+- field: data_license
+  url: https://www.arcreport.ai/terms
+  quote: ARC's data is CC BY 4.0. You can reuse it if you credit it
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.arcreport.ai/terms
+  quote: ARC's data is CC BY 4.0. You can reuse it if you credit it
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+notes: 'Terms page (/terms, updated 29 June 2026, section ''Using ARC data and API'') states ARC data
+  is CC BY 4.0 with the credit line ''Source: ARC (arcreport.ai)''; code is MIT; API and MCP are free
+  with rate limits. Commercial use, storage and display are inferred from the CC BY 4.0 deed the terms
+  name; the ARC terms page does not repeat them. Data is advisory test results about third-party stores
+  (facts about stores, no store content licensed). Stores may opt out via /corrections. Developers page
+  also read; no key, no account.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Stores can opt out via /corrections; data is facts about third-party stores. No ads/affiliate
+  restriction found. Commercial permission rests on CC BY deed.

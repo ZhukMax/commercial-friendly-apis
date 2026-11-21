@@ -1,0 +1,85 @@
+id: the-jobs
+name: The Jobs
+url: https://rapidapi.com/thejobsapi/api/the-jobs-api-us-canada-job-search
+category: Jobs
+description: US and Canada employer jobs, search and change feeds; 250 free records per month
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: The Jobs
+  url: https://rapidapi.com/thejobsapi/api/the-jobs-api-us-canada-job-search
+  category: Jobs
+link_status: alive
+data_license: 'Proprietary: job posts belong to the publishing employers; use per API terms'
+commercial_use: paid-only
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+commercial_use_scope: any
+api_terms_url: https://thejobsapi.com/terms
+attribution_text: Keep the link to the original job post when showing a job
+rate_limits: 'RapidAPI listing: 250 free job records/month, then US$0.50 per 1,000 returned records'
+notes: 'The entry URL is the RapidAPI listing; terms were read on the provider''s own site (thejobsapi.com/terms,
+  linked from the listing''s docs/pricing), not on RapidAPI, whose marketplace terms were not assessed.
+  Terms: use allowed "while your plan is active" inside own products incl. job boards; may keep a copy,
+  must delete expired jobs; may not resell the data as a dataset/feed or build a competing jobs API. Posts
+  are collected from employers'' public career sites; each post belongs to its employer. Terms mention
+  paid plans and a 14-day trial; the RapidAPI free tier (250 records/month) is not separately addressed,
+  so plan scope is an assumption: medium confidence.'
+evidence:
+- field: commercial_use
+  url: https://thejobsapi.com/terms
+  quote: you may use the job data inside your own products and services, for example to show jobs on your
+    job board
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://thejobsapi.com/terms
+  quote: You may keep a copy of the jobs you need to run your product, and you must remove jobs that we
+    report as expired.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://thejobsapi.com/terms
+  quote: you may use the job data inside your own products and services, for example to show jobs on your
+    job board
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://thejobsapi.com/terms
+  quote: When you show a job to people, keep the link to the original job post so they can apply with
+    the employer.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://thejobsapi.com/terms
+  quote: Each job post and its content belong to the employer that published it.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://rapidapi.com/thejobsapi/api/the-jobs-api-us-canada-job-search
+  quote: Start with 250 free job records each month.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://thejobsapi.com/terms
+  quote: While your plan is active, you may use the job data inside your own products and services
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://thejobsapi.com/terms
+  quote: you must remove jobs that we report as expired.
+  checked_at: '2026-11-21'
+- field: commercial_use_scope
+  url: https://thejobsapi.com/pricing
+  quote: The free trial lasts 14 days and includes 100,000 jobs from the US and Canada
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Provider ToS grants use only ''while your plan is active''; its own plans are $200-1,100/month
+  with a 14-day trial; RapidAPI free tier (250 records) not covered by provider terms; must keep link
+  to original post and delete expired jobs | applied: commercial_use=paid-only, storage_caching=limited,
+  attribution_required=yes'

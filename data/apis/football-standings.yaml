@@ -1,0 +1,35 @@
+id: football-standings
+name: Football Standings
+url: https://github.com/azharimm/football-standings-api
+category: Sports & Fitness
+description: Display football standings e.g epl, la liga, serie a etc. The data is based on espn site
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Football Standings
+  url: https://github.com/azharimm/football-standings-api
+  category: Sports & Fitness
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+evidence: []
+notes: Read the GitHub repo (Express/Vercel project, no licence file shown). Repo says the data is based
+  on the ESPN site (unofficial ESPN endpoints, logos on espncdn.com). ESPN/Disney terms were not found
+  in a readable form (espn.com terms URL 404), so nothing is confirmed; upstream ESPN terms are likely
+  restrictive. Not a data source with its own terms. All unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

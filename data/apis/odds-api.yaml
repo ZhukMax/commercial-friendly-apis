@@ -1,0 +1,49 @@
+id: odds-api
+name: Odds-API
+url: https://docs.odds-api.io
+category: Sports & Fitness
+description: Real-time sports betting odds from 450+ bookmakers across 34 sports via REST and WebSocket
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Odds-API
+  url: https://docs.odds-api.io
+  category: Sports & Fitness
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://odds-api.io/terms
+evidence:
+- field: redistribution_display
+  url: https://odds-api.io/terms
+  quote: 'Resale Prohibition: You may not resell, redistribute, or sublicense our data to third parties
+    without prior written consent from Odds API'
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://odds-api.io/terms
+  quote: This data may be used for statistical analysis, data modeling, application development, market
+    research, and other lawful analytical purposes.
+  checked_at: '2026-11-21'
+notes: 'Read the Terms of Service (updated 2026-11-12). Terms permit use for application development and
+  analysis but never say whether a monetised (ads/affiliate) site is allowed, so commercial_use is unknown.
+  Redistribution to third parties is prohibited without written consent; whether showing odds to site
+  visitors counts is unclear, hence ambiguous. Odds may not be copied into a betting operator''s own odds.
+  Storage/caching is not addressed. New free-tier accounts are no longer available (existing free accounts
+  keep limited access), so effectively paid. Aggregates 450+ bookmakers: upstream bookmaker terms may
+  be stricter (the ToS has a bookmaker de-listing process).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read terms; unknown stands.

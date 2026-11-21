@@ -1,0 +1,64 @@
+id: transport-for-vancouver-canada
+name: Transport for Vancouver, Canada
+url: https://developer.translink.ca/
+category: Transportation
+description: TransLink
+description_source: upstream
+auth: OAuth
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Transport for Vancouver, Canada
+  url: https://developer.translink.ca/
+  category: Transportation
+link_status: redirect
+data_license: proprietary (TransLink Open API Terms of Use)
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: -> https://www.translink.ca/about-us/doing-business-with-translink/app-developer-resources
+api_terms_url: https://www.translink.ca/about-us/doing-business-with-translink/app-developer-resources/terms-of-use
+attribution_text: Some of the data used in this product or service is provided by permission of TransLink.
+  TransLink assumes no responsibility for the accuracy or currency of the Data used in this product or
+  service.
+rate_limits: 1,000 requests/day per API key (TransLink may lower it)
+evidence:
+- field: commercial_use
+  url: https://www.translink.ca/about-us/doing-business-with-translink/app-developer-resources/terms-of-use
+  quote: TransLink reserves the right to impose additional terms and conditions for use of the Data
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.translink.ca/about-us/doing-business-with-translink/app-developer-resources/terms-of-use
+  quote: TransLink grants you a limited, revocable and non-exclusive license to use, reproduce, and redistribute
+    the Data in accordance with these Terms.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.translink.ca/about-us/doing-business-with-translink/app-developer-resources/terms-of-use
+  quote: TransLink grants you a limited, revocable and non-exclusive license to use, reproduce, and redistribute
+    the Data in accordance with these Terms.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.translink.ca/about-us/doing-business-with-translink/app-developer-resources/terms-of-use
+  quote: Some of the data used in this product or service is provided by permission of TransLink.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://www.translink.ca/about-us/doing-business-with-translink/app-developer-resources/terms-of-use
+  quote: Your API Key will authorize you to offer a maximum of 1,000 requests per day for use of the Data.
+  checked_at: '2026-11-21'
+notes: Open API Terms of Use read. Access needs written application and TransLink approval (you must state
+  whether use is commercial); TransLink may add conditions or fees for commercial users who charge end
+  users, hence commercial_use ambiguous. Licence allows use, reproduction and redistribution; disclaimer
+  must be displayed prominently. Caching/storage not addressed. GTFS download terms not read separately.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read Terms of Use. Access is by written application with commercial disclosure;
+  no flat ban and no flat grant. Ambiguous stands.

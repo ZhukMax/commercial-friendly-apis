@@ -1,0 +1,25 @@
+id: orca-scan
+name: Orca Scan
+url: https://orcascan.com/guides/free-barcode-image-api-0e4a4fa6
+category: Development
+description: Generate barcode images (QR, Code 128, EAN, Data Matrix and more) in SVG, PNG, JPG or PDF
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Orca Scan
+  url: https://orcascan.com/guides/free-barcode-image-api-0e4a4fa6
+  category: Development
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

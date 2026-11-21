@@ -1,0 +1,51 @@
+id: mexico
+name: Mexico
+url: https://github.com/IcaliaLabs/sepomex
+category: Geocoding
+description: Mexico RESTful zip codes API
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Mexico
+  url: https://github.com/IcaliaLabs/sepomex
+  category: Geocoding
+- list: public-api-lists
+  name: Mexico
+  url: https://github.com/IcaliaLabs/sepomex
+  category: Geocoding
+link_status: alive
+data_license: unknown (code is MIT; dataset is the official Correos de Mexico SEPOMEX export, its terms not confirmed)
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: 'yes'
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://raw.githubusercontent.com/IcaliaLabs/sepomex/main/README.md
+data_license_url: https://github.com/IcaliaLabs/sepomex/blob/main/LICENSE
+share_alike: unknown
+rate_limits: 'Hosted community instance https://sepomex.kurenn.dev: ~300 requests per 5 minutes per IP, no uptime guarantee; self-hosted: none'
+notes: Read repo README on GitHub (README now describes a Rails 8 app with REST + MCP API and a free best-effort hosted instance at sepomex.kurenn.dev). The MIT licence covers code and documentation only;
+  the data is the official SEPOMEX export from Correos de Mexico and no terms for that dataset could be read (correosdemexico.gob.mx page returned empty to curl). The "no key, no quota" claim is the maintainers'
+  own. So commercial/storage/display of the data stay unknown. The upstream list URL stayed the GitHub repo.
+evidence:
+- field: data_license
+  url: https://raw.githubusercontent.com/IcaliaLabs/sepomex/main/README.md
+  quote: Code and documentation © 2013–2026 [Icalia Labs](https://github.com/IcaliaLabs), released under the [MIT License](LICENSE).
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://raw.githubusercontent.com/IcaliaLabs/sepomex/main/README.md
+  quote: rate-limited to ~300 requests per 5 minutes per IP, with no uptime or availability guarantee.
+  checked_at: '2026-11-21'
+- field: self_host_option
+  url: https://raw.githubusercontent.com/IcaliaLabs/sepomex/main/README.md
+  quote: Sepomex is designed to be **self-hosted**
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

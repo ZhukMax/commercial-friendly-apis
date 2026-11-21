@@ -1,0 +1,54 @@
+id: registerwire
+name: RegisterWire
+url: https://www.registerwire.uk/docs/index.html
+category: Business
+description: Real-time alerts on UK company register changes
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: RegisterWire
+  url: https://www.registerwire.uk/docs/index.html
+  category: Business
+link_status: alive
+data_license: Open Government Licence (Companies House data, Crown copyright; Companies House terms apply)
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.registerwire.uk/signup.html
+evidence:
+- field: data_license
+  url: https://www.registerwire.uk/signup.html
+  quote: That data is made available under the Open Government Licence, and remains subject to Crown copyright
+    and to Companies House's own terms of use
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.registerwire.uk/signup.html
+  quote: other than displaying notifications within your own product for your own end users
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.registerwire.uk/signup.html
+  quote: other than displaying notifications within your own product for your own end users
+  checked_at: '2026-11-21'
+notes: 'Read the Terms of Service (shown on https://www.registerwire.uk/signup.html, updated 27 Aug 2026;
+  terms.html just points there), privacy page and docs. Allowed: building a product that shows notifications
+  to your own end users; forbidden: reselling/redistributing the underlying Companies House stream or
+  the processed feed to third parties, and circumventing limits. The terms never say ''commercial use''
+  explicitly and do not address storage duration or attribution (OGL attribution of Companies House data
+  is implied by ''subject to Companies House''s own terms'' but not stated), so commercial_use/redistribution_display
+  are ambiguous; a public ad-supported site is not the product''s target (lenders/compliance teams). Upstream
+  data are Companies House under OGL (alert/change-event feed).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Upstream Companies House data under OGL (commercial reuse with attribution). Paid service;
+  evidence leans yes for display within own product but not public redistribution.

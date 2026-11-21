@@ -1,0 +1,30 @@
+id: google-cloud-natural
+name: Google Cloud Natural
+url: https://cloud.google.com/natural-language/docs/
+category: Text Analysis
+description: Natural language understanding technology, including sentiment, entity and syntax analysis
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Google Cloud Natural
+  url: https://cloud.google.com/natural-language/docs/
+  category: Text Analysis
+- list: public-api-lists
+  name: Google Cloud Natural
+  url: https://cloud.google.com/natural-language/docs/
+  category: Text Analysis
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://docs.cloud.google.com/natural-language/docs

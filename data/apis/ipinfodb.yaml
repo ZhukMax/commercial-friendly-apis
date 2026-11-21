@@ -1,0 +1,37 @@
+id: ipinfodb
+name: IPInfoDB
+url: https://www.ipinfodb.com/api
+category: Geocoding
+description: Free Geolocation tools and APIs for country, region, city and time zone lookup by IP address
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: IPInfoDB
+  url: https://www.ipinfodb.com/api
+  category: Geocoding
+- list: public-api-lists
+  name: IPInfoDB
+  url: https://ipinfodb.com/api
+  category: Geocoding
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: HTTP 403 (blocked for bots, assumed alive)
+api_terms_url: https://www.ipinfodb.com/api
+share_alike: unknown
+notes: ipinfodb.com (/, /api, /terms) returns HTTP 403 with a Cloudflare managed challenge ("Just a moment...") to curl; not bypassed per project rules, so no terms page could be read. All terms fields
+  unknown.
+evidence: []
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

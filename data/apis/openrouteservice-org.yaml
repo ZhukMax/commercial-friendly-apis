@@ -1,0 +1,79 @@
+id: openrouteservice-org
+name: openrouteservice.org
+url: https://openrouteservice.org/
+category: Geocoding
+description: Directions, POIs, isochrones, geocoding (+reverse), elevation, and more
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: openrouteservice.org
+  url: https://openrouteservice.org/
+  category: Geocoding
+link_status: redirect
+data_license: CC-BY-SA-4.0 (results); underlying OSM data ODbL
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: 'yes'
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://heigit.org/smart-mobility/
+data_license_url: https://account.heigit.org/info/tos
+api_terms_url: https://account.heigit.org/info/tos
+commercial_use_scope: free-tier
+share_alike: 'yes'
+attribution_text: © openrouteservice by HeiGIT | Data from OpenStreetMap
+rate_limits: 'Standard plan (daily/per minute): Directions 2000/40, Isochrones 500/20, Matrix 500/40,
+  Geocoding 3000/100, Elevation 2000/40, POIs 500/60'
+evidence:
+- field: data_license
+  url: https://account.heigit.org/info/tos
+  quote: Results obtained from openrouteservice in any context are licensed under CC-BY-SA 4.0.
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://account.heigit.org/info/tos
+  quote: Results obtained from openrouteservice in any context are licensed under CC-BY-SA 4.0.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://account.heigit.org/info/tos
+  quote: When using services provided by HeiGIT make sure to have the proper attribution in your API implementation,
+    site, or other properties
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://account.heigit.org/info/tos
+  quote: When using services provided by HeiGIT make sure to have the proper attribution in your API implementation,
+    site, or other properties
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://account.heigit.org/info/plans
+  quote: Free to use for everyone
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://account.heigit.org/info/plans
+  quote: Geocoding (3000 / 100)
+  checked_at: '2026-11-21'
+- field: self_host_option
+  url: https://account.heigit.org/info/plans
+  quote: Local installation of services on your own infrastructure for maximum flexibility.
+  checked_at: '2026-11-21'
+notes: 'Pages read via Playwright (JS app, fresh context): https://account.heigit.org/info/tos (the old
+  openrouteservice.org/terms-of-service/ 301-redirects there) and /info/plans. The Standard plan is described
+  as "Free to use for everyone" and a separate Collaborative plan is for humanitarian/academic/government/NGO
+  use, but neither page says explicitly that ads/affiliate (commercial) sites are allowed or forbidden,
+  so commercial_use is ambiguous. Results are licensed CC-BY-SA 4.0 (share-alike, attribution link required);
+  geocoding sources include OSM (ODbL), OpenAddresses, GeoNames (CC BY), Who''s On First. Storage/caching
+  not addressed. On-Premise plan = run your own instance. Elevation results follow SRTM licence terms
+  (not checked).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read HeiGIT ToS and plans in a fresh browser context. No commercial restriction
+  found; Collaborative plan is for non-profits only. Prohibition on transmitting personal data. Storage
+  not addressed. Share-alike keeps it yellow.

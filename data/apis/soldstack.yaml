@@ -1,0 +1,56 @@
+id: soldstack
+name: SoldStack
+url: https://soldstack.fly.dev/docs
+category: Shopping
+description: Sold resale listings from Poshmark with median price, days to sell and net payout after fees
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: SoldStack
+  url: https://soldstack.fly.dev/docs
+  category: Shopping
+link_status: redirect
+data_license: unknown
+commercial_use: paid-only
+storage_caching: unknown
+redistribution_display: 'yes'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: soldstack.fly.dev/docs returns HTTP 301 to https://soldstack.dev/docs (same product, same name; terms read at soldstack.dev)
+api_terms_url: https://soldstack.dev/terms
+commercial_use_scope: paid
+rate_limits: Free 100 lookups/month; Starter $9 1,500; Growth $29 15,000; Business $99 (results cached 6 hours)
+evidence:
+- field: commercial_use
+  url: https://soldstack.dev/docs
+  quote: 'Business only: show results to your own users, for example prices in your app.'
+  checked_at: '2026-11-21'
+- field: commercial_use_scope
+  url: https://soldstack.dev/docs
+  quote: Showing results to your own users needs Business ($99/month).
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://soldstack.dev/docs
+  quote: 'Business only: show results to your own users, for example prices in your app.'
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://soldstack.dev/terms
+  quote: On no plan can you resell or redistribute the raw API output as a data feed, bulk export or competing API.
+  checked_at: '2026-11-21'
+- field: upstream_terms
+  url: https://soldstack.dev/terms
+  quote: We have no agreement with Poshmark or the other marketplaces; we read their public pages.
+  checked_at: '2026-11-21'
+notes: 'Terms (soldstack.dev/terms, updated 2026-11-12): all plans may use results for own pricing, research and internal tools; showing results to users of your own product (app, site, extension, customer
+  reports) needs the Business plan ($99/month), except keys created before 2026-11-13, which keep display rights on any plan. Raw output may not be resold or redistributed as a feed/bulk export/competing
+  API. Storage/caching of results by the customer is not addressed (unknown). Data is scraped from Poshmark public sold listings with no agreement with the marketplace, and the terms make the user responsible
+  for following the marketplaces'' own terms, so Poshmark''s terms may be stricter. Aggregator-style scraper, low legal certainty.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

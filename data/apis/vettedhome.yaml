@@ -1,0 +1,62 @@
+id: vettedhome
+name: VettedHome
+url: https://vettedhome.co.uk/api/
+category: Open Data
+description: UK guides to property problems and home energy decisions, each with its primary sources
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: VettedHome
+  url: https://vettedhome.co.uk/api/
+  category: Open Data
+link_status: alive
+data_license: CC-BY-4.0
+commercial_use: ambiguous
+storage_caching: ambiguous
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://vettedhome.co.uk/api/
+api_terms_url: https://vettedhome.co.uk/api/
+attribution_text: Attribute VettedHome and link back to vettedhome.co.uk
+evidence:
+- field: data_license
+  url: https://vettedhome.co.uk/api/
+  quote: Read-only and free under CC BY 4.0
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://vettedhome.co.uk/terms/
+  quote: Do not scrape or republish our content commercially without permission
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://vettedhome.co.uk/api/
+  quote: Please cache responses and avoid abusive request rates.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://vettedhome.co.uk/api/
+  quote: attribute VettedHome and link back to vettedhome.co.uk
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://vettedhome.co.uk/terms/
+  quote: Do not scrape or republish our content commercially without permission
+  checked_at: '2026-11-21'
+notes: 'Conflict: the API page offers the content index under CC BY 4.0 (attribution + link), but the
+  site Terms say not to scrape or republish content commercially without permission and allow only brief
+  quotes. The API page is more specific to the API, but the Terms are not carved out, so ambiguous. The
+  API is a page/topic index, not a priced dataset; the site is operated by a lender-affiliated company
+  (Best Business Loans Ltd), irrelevant to terms.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read /api and /terms. The CC BY 4.0 grant is specific to the Data API content index
+  (page titles, URLs, cited sources) and is irrevocable; general Terms say any other reproduction or commercial
+  use needs permission. Specific-over-general leans to commercial use of API data being OK with attribution,
+  but conflict is unresolved; ambiguous stands. Site currently has no ads or affiliate links.

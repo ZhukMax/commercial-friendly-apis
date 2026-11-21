@@ -1,0 +1,73 @@
+id: cookbooksocial-nutrition
+name: CookbookSocial Nutrition
+url: https://cookbooksocial.app/api
+category: Food & Drink
+description: Nutrition data for 4,631 ingredients with food names in 19 languages
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: CookbookSocial Nutrition
+  url: https://cookbooksocial.app/api
+  category: Food & Drink
+link_status: alive
+data_license: proprietary compilation; underlying USDA FoodData Central (public domain) and Ciqual/ANSES
+  (CC BY 4.0)
+commercial_use: ambiguous
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://cookbooksocial.app/terms
+cache_limit: cache as needed for application operation; no standalone/derived database
+attribution_text: 'Keep the attribution block returned in every API response (Ciqual: CC BY 4.0 credit)'
+rate_limits: 'Free: 1,000/month, 10/min'
+evidence:
+- field: commercial_use
+  url: https://cookbooksocial.app/terms
+  quote: You may use the data in your own applications and cache it as needed for their operation.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://cookbooksocial.app/terms
+  quote: You may use the data in your own applications and cache it as needed for their operation.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://cookbooksocial.app/terms
+  quote: Every API response includes an attribution block, which must not be removed from any product
+    that displays this data.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://cookbooksocial.app/terms
+  quote: Every API response includes an attribution block, which must not be removed from any product
+    that displays this data.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://cookbooksocial.app/api
+  quote: USDA FoodData Central — public domain; no attribution required.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://cookbooksocial.app/api
+  quote: 'Free: 1,000 / month, 10 / minute'
+  checked_at: '2026-11-21'
+notes: 'Read https://cookbooksocial.app/api and the Terms of Service section 14 (API access) at /terms,
+  both JS-rendered pages parsed from the served HTML. Terms say the data may be used in own applications
+  and cached as needed, but never mention commercial use explicitly (neither allowed nor forbidden) and
+  ban reselling/redistributing the 41-field compilation as a standalone or derived database and systematic
+  retrieval of the catalog (bulk is licensed separately); hence commercial_use ambiguous. API access is
+  described as paid programmatic access while the API page lists a Free plan. Underlying data: USDA public
+  domain; Ciqual CC BY 4.0 (rights of the underlying values stay as the licence grants).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Searched ToS for non-commercial / for profit / business / personal use: none found.
+  Evidence leans permissive (use in your own applications, cache as needed, display with attribution block).
+  Upstream USDA public domain; Ciqual CC BY 4.0 (attribution preserved). First-pass yellow/ambiguous stands;
+  a later pass could reasonably upgrade commercial_use to yes if the vendor confirms the Free plan is
+  co'

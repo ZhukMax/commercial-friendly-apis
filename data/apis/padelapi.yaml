@@ -1,0 +1,81 @@
+id: padelapi
+name: PadelAPI
+url: https://padelapi.org/docs
+category: Sports & Fitness
+description: Query professional padel tournament data, player stats, and live match results
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: PadelAPI
+  url: https://padelapi.org/docs
+  category: Sports & Fitness
+link_status: alive
+data_license: Proprietary API access licence (sui generis database rights held by operator)
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: ambiguous
+attribution_required: 'no'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://padelapi.org/terms
+api_terms_url: https://padelapi.org/terms
+commercial_use_scope: any
+share_alike: unknown
+rate_limits: Free plan limited; Plus up to 50K requests/month, Business up to 2M/month
+notes: Read /terms (sections 1-8). Section 4 licenses use of the data in the user's own applications on
+  any plan including free, however monetized, with storage allowed; reselling/redistributing as a standalone
+  product and replicating the database are excluded; model-derived values may be shown to end users but
+  not presented as own metric or redistributed as dataset. Display in own apps is implied by 'use in its
+  own applications' (only model values mention end users explicitly), hence medium confidence. Images
+  (player photos, posters) are third-party content with NO licence granted (section 5). Data covers pro
+  tours (Premier Padel, WPT) so upstream rights may be stricter. Section 2 website-use licence concerns
+  the website materials, not API data.
+evidence:
+- field: commercial_use
+  url: https://padelapi.org/terms
+  quote: Access to the API, on any plan including the free plan, grants the API user a licence to use
+    the data compiled in the database
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://padelapi.org/terms
+  quote: in its own applications and to store API responses in its own systems, however those applications
+    are monetized.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://padelapi.org/terms
+  quote: to store API responses in its own systems, however those applications are monetized.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://padelapi.org/terms
+  quote: It does not include reselling or redistributing the data as a standalone product, replicating
+    the database to build an equivalent service
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://padelapi.org/terms
+  quote: Attribution is optional.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://padelapi.org/terms
+  quote: Systematic extraction or reuse of substantial parts of the database is prohibited.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://padelapi.org/terms-of-service
+  quote: Systematic extraction or reuse of substantial parts of the database is prohibited.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://padelapi.org/terms-of-service
+  quote: They are not part of the database referred to in Section 3 and no licence over them is granted.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'display of API data on public pages is not expressly licensed (only own-application
+  use and storage); systematic reuse of substantial parts of the database prohibited; images carry no
+  licence; pro-tour upstream rights unread | applied: redistribution_display=ambiguous'

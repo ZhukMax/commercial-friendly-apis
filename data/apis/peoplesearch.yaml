@@ -1,0 +1,50 @@
+id: peoplesearch
+name: PeopleSearch
+url: https://peoplesearch.im/developers
+category: Business
+description: People and company search in plain English, with verified work emails and email verification
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: PeopleSearch
+  url: https://peoplesearch.im/developers
+  category: Business
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: 'no'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://peoplesearch.im/legal/terms
+evidence:
+- field: commercial_use
+  url: https://peoplesearch.im/legal/terms
+  quote: grant you a limited, non-exclusive, non-transferable, revocable license to access and use the
+    Service for your personal or internal business purposes
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://peoplesearch.im/legal/terms
+  quote: You may not copy, modify, distribute, sell, lease, or create derivative works from any part of
+    the Service
+  checked_at: '2026-11-21'
+notes: 'Read the Terms of Service (https://peoplesearch.im/legal/terms) and the developer page (https://peoplesearch.im/developers).
+  The licence is limited to personal or internal business purposes and bars copying/distributing any part
+  of the Service; there is no API-specific licence granting display or storage on a public site, so a
+  public commercial site displaying results looks out of scope (red, medium-low doubt: the clause is generic
+  and ''Service'' may be read to exclude returned data). Records are personal data about people (privacy-law
+  exposure) compiled from third-party sources, so upstream terms may be stricter. Credits: 1 credit per
+  profile; search free. storage_caching left unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read ToS and developers page: no API-specific grant for public display or storage.
+  Red stands for the public ad-supported site scenario.'

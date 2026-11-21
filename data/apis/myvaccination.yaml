@@ -1,0 +1,33 @@
+id: myvaccination
+name: MyVaccination
+url: https://documenter.getpostman.com/view/16605343/Tzm8GG7u
+category: Health
+description: Vaccination data for Malaysia
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: MyVaccination
+  url: https://documenter.getpostman.com/view/16605343/Tzm8GG7u
+  category: Health
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://documenter.getpostman.com/view/16605343/Tzm8GG7u
+notes: Postman documenter page (read via Playwright) is endpoint docs only, no terms or licence. It says
+  data is 'Based on CITF-Malaysia data from GitHub'; that upstream repo's LICENSE.md refers to the Malaysian
+  Open Data Circular (Pekeliling Pelaksanaan Data Terbuka Bil.1/2015, Appendix B), which was not read.
+  Unofficial third-party wrapper. At check time https://myvaccination-backend.vercel.app/api/vacc returned
+  HTTP 404, so the hosted API may no longer work. All fields unknown.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

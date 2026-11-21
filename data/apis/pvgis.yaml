@@ -1,0 +1,68 @@
+id: pvgis
+name: PVGIS
+url: https://joint-research-centre.ec.europa.eu/pvgis-photovoltaic-geographical-information-system/getting-started-pvgis/api-non-interactive-service
+category: Environment
+description: EU solar radiation and photovoltaic performance estimates
+description_source: upstream
+auth: none
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: PVGIS
+  url: https://joint-research-centre.ec.europa.eu/pvgis-photovoltaic-geographical-information-system/getting-started-pvgis/api-non-interactive-service
+  category: Environment
+link_status: redirect
+data_license: CC-BY-4.0 (EU Commission legal notice for EU-owned content; not confirmed for PVGIS API
+  output)
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://joint-research-centre.ec.europa.eu/photovoltaic-geographical-information-system-pvgis/using-pvgis-5/api-non-interactive-service_en
+data_license_url: https://commission.europa.eu/legal-notice_en
+api_terms_url: https://joint-research-centre.ec.europa.eu/photovoltaic-geographical-information-system-pvgis/using-pvgis-5/api-non-interactive-service_en
+attribution_text: Appropriate credit to the European Commission / JRC PVGIS (wording not prescribed on
+  the pages read)
+share_alike: unknown
+rate_limits: 30 calls/second per IP address; limited simultaneous computations; no AJAX access
+evidence:
+- field: data_license
+  url: https://commission.europa.eu/legal-notice_en
+  quote: content owned by the EU on this website is licensed under the Creative Commons Attribution 4.0
+    International (CC BY 4.0) licence
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://commission.europa.eu/legal-notice_en
+  quote: This means that reuse is allowed, provided appropriate credit is given and changes are indicated.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://commission.europa.eu/legal-notice_en
+  quote: This means that reuse is allowed, provided appropriate credit is given and changes are indicated.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://commission.europa.eu/legal-notice_en
+  quote: This means that reuse is allowed, provided appropriate credit is given and changes are indicated.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://joint-research-centre.ec.europa.eu/photovoltaic-geographical-information-system-pvgis/using-pvgis-5/api-non-interactive-service_en
+  quote: API calls have a rate limit of 30 calls/second per IP address .
+  checked_at: '2026-11-21'
+notes: 'The PVGIS API page (JRC) states no licence or terms of its own and says nothing on commercial
+  use, caching or display. The only terms found are the European Commission legal notice (the JRC site
+  footer links to it): unless otherwise indicated, EU-owned content on the website is CC BY 4.0, reuse
+  allowed with credit. Whether that covers computed API output (as opposed to website content) is not
+  stated, so commercial_use and display are ambiguous. PVGIS radiation databases come from third parties
+  (e.g. CM SAF, ERA5) whose terms were not checked. Redirected URL followed to the _en page. The PVGIS
+  user manual and FAQ pages carried no licence text.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Not re-fetched beyond first-pass evidence; upstream radiation datasets (CM SAF, ERA5)
+  not covered. Ambiguity stands.

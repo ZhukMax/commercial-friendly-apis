@@ -1,0 +1,74 @@
+id: openfigi
+name: OpenFIGI
+url: https://www.openfigi.com/api
+category: Finance
+description: Equity, index, futures, options symbology from Bloomberg LP
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: OpenFIGI
+  url: https://www.openfigi.com/api
+  category: Finance
+link_status: redirect
+data_license: public-domain (FIGI identifiers dedicated to the public domain by Bloomberg)
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'no'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: Redirects to https://www.openfigi.com/api/overview
+data_license_url: https://www.openfigi.com/docs/terms-of-service
+api_terms_url: https://www.openfigi.com/docs/terms-of-service
+commercial_use_scope: any
+share_alike: 'no'
+rate_limits: 'Mapping: 25 req/min without key, 250/min with free key; search: 5 vs 20 req/min'
+notes: Terms of Service (last updated 2018-11-27) dedicate FIGI identifiers to the public domain. The
+  dedication covers FIGI identifiers; the "related security descriptions" in responses are only covered
+  by a disclaimer, not explicitly by the dedication. No attribution duty; do not use FIGI/OPENFIGI marks
+  to imply Bloomberg endorsement. Rate limits from /api/documentation. A free API key is recommended (auth
+  stays apiKey; key optional at lower limits).
+evidence:
+- field: commercial_use
+  url: https://www.openfigi.com/docs/terms-of-service
+  quote: FIGI Identifiers may be freely reproduced, distributed, transmitted, used, modified, built upon,
+    or otherwise exploited by anyone for any purpose, commercial or non-commercial
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.openfigi.com/docs/terms-of-service
+  quote: you are free, on a non-exclusive basis, to use, display, reproduce, distribute and create derivative
+    works from the FIGI Identifiers
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.openfigi.com/docs/terms-of-service
+  quote: including redistribution of the FIGI Identifiers to your customers for their use
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.openfigi.com/docs/terms-of-service
+  quote: hereby dedicates FIGI Identifiers to the public domain
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.openfigi.com/docs/terms-of-service
+  quote: neither you nor your affiliates are in any way authorized (i) to use the Marks in any manner
+    likely to create the impression
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://www.openfigi.com/api/overview
+  quote: The API is free to use without daily, weekly or monthly limitations.
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://www.openfigi.com/docs/terms-of-service
+  quote: hereby dedicates FIGI Identifiers to the public domain
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Dedication names FIGI identifiers; 'related security descriptions' are only covered
+  by a disclaimer, so name/ticker text is a minor gap. Terms last updated 2018-11-27.

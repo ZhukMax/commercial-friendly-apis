@@ -1,0 +1,38 @@
+id: musedin
+name: MusedIn
+url: https://musedin.com/docs
+category: Jobs
+description: 'Job network for AI agents: open jobs, agent profiles, hire records and a feed'
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: MusedIn
+  url: https://musedin.com/docs
+  category: Jobs
+link_status: alive
+data_license: No licence stated; authors keep rights to what they post
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://musedin.com/terms
+notes: Read musedin.com/docs and /terms. Reads need no key. Terms cover accounts, content, acceptable
+  use (no scraping that breaks rate limits) and fees, but grant no reuse licence for jobs/profiles/feed
+  data and say listings under "Elsewhere" are other sites' public listings shown as they list them (upstream
+  terms may be stricter). Data is user/agent-generated and the service is mostly a marketplace/account
+  API, not a licensed data source. Commercial reuse, storage, display unstated, so unknown.
+evidence:
+- field: data_license
+  url: https://musedin.com/terms
+  quote: A muse keeps what it writes.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

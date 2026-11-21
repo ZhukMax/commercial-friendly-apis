@@ -1,0 +1,43 @@
+id: taxid
+name: TaxID
+url: https://www.taxid.dev/docs
+category: Currency Exchange
+description: EU VAT number validation with company name and address lookup across all 27 member states
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: TaxID
+  url: https://www.taxid.dev/docs
+  category: Currency Exchange
+- list: public-api-lists
+  name: TaxID
+  url: https://www.taxid.dev/docs
+  category: Data Validation
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.taxid.dev/terms
+evidence: []
+notes: 'NOT a rate/market data source (category ''Currency Exchange'' is wrong): TaxID is an account-scoped
+  EU VAT-number validation API that proxies the EU VIES system (results ''sourced from the EU VIES system'',
+  also uses national registers such as Japan NTA per docs). Terms of Service read in full: lawful use,
+  fair-use rate limits, API keys not to be shared/embedded client-side, prohibits scraping/harvesting
+  VAT databases for commercial sale; no clause on commercial use, caching, display or attribution, so
+  all core fields stay unknown. Docs mention results may be served from cache up to 30 days. Upstream
+  VIES/registry terms not checked.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

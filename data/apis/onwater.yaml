@@ -1,0 +1,38 @@
+id: onwater
+name: OnWater
+url: https://onwater.io/
+category: Geocoding
+description: Determine if a lat/lon is on water or land
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: OnWater
+  url: https://onwater.io/
+  category: Geocoding
+link_status: redirect
+data_license: ODbL (OpenStreetMap data via Protomaps)
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://isitwater.com/
+api_terms_url: https://isitwater.com/terms
+data_license_url: https://www.openstreetmap.org/copyright
+evidence:
+- field: data_license
+  url: https://isitwater.com/terms
+  quote: The underlying geographic data is provided by OpenStreetMap contributors under the Open Database License (ODbL).
+  checked_at: '2026-11-21'
+notes: onwater.io redirects to isitwater.com, which appears to be the successor (same lat/lon water-or-land API); I assumed it is the same service and read the IsItWater terms (see isitwater entry), but
+  the redirect target did not itself say it replaces OnWater. Auth now an API key with pay-as-you-go credits. Terms permit use in applications, websites or services and forbid reselling API access, but
+  do not address commercial use, caching/storage or attribution, so those are unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

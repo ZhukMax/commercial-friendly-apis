@@ -1,0 +1,63 @@
+id: on-va-o
+name: On va où ?
+url: https://onvaou.app/developers/routing-api.html
+category: Transportation
+description: Bike, scooter, motorcycle, wheelchair and walking routes across Europe, with safety indicators
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: On va où ?
+  url: https://onvaou.app/developers/routing-api.html
+  category: Transportation
+link_status: alive
+data_license: API terms (CGV) proprietary; underlying data OpenStreetMap ODbL, IGN BAN Licence Ouverte 2.0
+commercial_use: paid-only
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://onvaou.app/cgv-api
+api_terms_url: https://onvaou.app/cgv-api
+commercial_use_scope: paid
+cache_limit: Do not build a route database via mass requests (exact limit not stated)
+share_alike: unknown
+attribution_text: 'Show the attribution returned by the API next to the route: © On va où ? · © openrouteservice by HeiGIT · © OpenStreetMap contributors'
+rate_limits: 'Free: 10,000 requests/month, 1 req/s, non-commercial; paid Solo 20,000/month (19 EUR) up to Business 750,000/month (449 EUR)'
+evidence:
+- field: commercial_use
+  url: https://onvaou.app/developers/routing-api.html
+  quote: Can I use it in a commercial app? Yes, from the Solo plan (19 € per month).
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://onvaou.app/cgv-api
+  quote: Le palier Découverte est gratuit, réservé à un usage non commercial, et bloqué une fois son quota mensuel atteint.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://onvaou.app/cgv-api
+  quote: Il est interdit de revendre ou de redistribuer l’accès à l’API en l’état, de constituer une base de données d’itinéraires par des requêtes massives
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://onvaou.app/cgv-api
+  quote: Le client affiche la mention d’attribution renvoyée par l’API près de tout itinéraire qu’il montre à ses utilisateurs.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://onvaou.app/cgv-api
+  quote: Le client affiche la mention d’attribution renvoyée par l’API près de tout itinéraire qu’il montre à ses utilisateurs.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://onvaou.app/cgv-api
+  quote: Les itinéraires sont calculés à partir des données OpenStreetMap (© contributeurs OpenStreetMap, licence ODbL).
+  checked_at: '2026-11-21'
+notes: 'Read the developer page (pricing, FAQ) and the API terms (CGV, French). Free Découverte plan is non-commercial only; commercial use from the Solo plan (19 EUR/month). Attribution returned
+  by the API must be shown next to displayed routes. Storage: terms forbid reselling API access and building a route database by mass requests; ordinary caching is not addressed (server keeps
+  responses 24 h for itself), hence limited. Underlying data are OpenStreetMap (ODbL, share-alike on derived databases) and for addresses IGN BAN (Licence Ouverte 2.0); their upstream terms may
+  add conditions.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

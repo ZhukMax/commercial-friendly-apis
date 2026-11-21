@@ -1,0 +1,75 @@
+id: paycrunch
+name: PayCrunch
+url: https://paycrunch.co/api.html
+category: Open Data
+description: US wages for 1,008 occupations and by state, from BLS OEWS May 2025, static JSON, CC BY 4.0
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: PayCrunch
+  url: https://paycrunch.co/api.html
+  category: Open Data
+- list: public-api-lists
+  name: PayCrunch
+  url: https://paycrunch.co/api.html
+  category: Jobs
+link_status: alive
+data_license: CC-BY-4.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: 'yes'
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://creativecommons.org/licenses/by/4.0/
+api_terms_url: https://paycrunch.co/api.html
+commercial_use_scope: any
+attribution_text: PayCrunch (https://paycrunch.co), CC BY 4.0 - link back to paycrunch.co
+share_alike: unknown
+rate_limits: No rate limit (static files on a CDN)
+evidence:
+- field: data_license
+  url: https://paycrunch.co/api.html
+  quote: The API is published under Creative Commons Attribution 4.0 International (CC BY 4.0) .
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://paycrunch.co/api.html
+  quote: You may use it commercially, redistribute it and build on it, including in closed-source products.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://paycrunch.co/api.html
+  quote: Fetch jobs.json once instead of walking 1,008 individual files, and cache what you take.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://paycrunch.co/api.html
+  quote: The one condition is credit.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://paycrunch.co/api.html
+  quote: No rate limit is applied.
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://paycrunch.co/api.html
+  quote: Fetch jobs.json once instead of walking 1,008 individual files
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://paycrunch.co/api.html
+  quote: You may use it commercially, redistribute it and build on it, including in closed-source products.
+  checked_at: '2026-11-21'
+notes: 'Pages read: /api.html (licence section and FAQ) and /terms.html. Static JSON files, no key, CC
+  BY 4.0, commercial use and redistribution explicitly allowed. 762 of 1,008 records are BLS OEWS figures
+  (US federal data); 246 are PayCrunch estimates which must be labelled and not quoted as BLS numbers.
+  Site terms (for the website, not the API) forbid copying the site into another site; API page grants
+  CC BY, so the API files are fine. Single-person operator, so stability risk.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 246 records are PayCrunch estimates, must be labelled; do not present as BLS. Single-person
+  operator.

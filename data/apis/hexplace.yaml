@@ -1,0 +1,77 @@
+id: hexplace
+name: hexplace
+url: https://hexplace.org/developers/
+category: Open Data
+description: Climate by month, rents, home prices, amenities and rankings for 800 towns in Portugal
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: hexplace
+  url: https://hexplace.org/developers/
+  category: Open Data
+link_status: alive
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+notes: Read the developers page (API, licence and credit section). Data is CC BY 4.0 with explicit commercial
+  use; credit must link to the page the data came from. Values from OpenStreetMap stay under ODbL (share-alike
+  applies to those values; share_alike left unknown for the dataset as a whole); each dataset's licence
+  is listed in the methodology page (not read). The separate Terms of use page was not read. Free API,
+  no key (monthly data refresh).
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+data_license: CC-BY-4.0 (OpenStreetMap-derived values stay ODbL)
+data_license_url: https://hexplace.org/developers/
+api_terms_url: https://hexplace.org/developers/
+commercial_use: 'yes'
+commercial_use_scope: any
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+attribution_text: 'Data: hexplace (https://hexplace.org/portugal/tavira/) - credit with link to the page
+  the data comes from'
+share_alike: unknown
+rate_limits: No key; cache answers for an hour or more and keep to a few requests a second
+bulk_download: 'yes'
+self_host_option: unknown
+evidence:
+- field: data_license
+  url: https://hexplace.org/developers/
+  quote: The data is published under CC BY 4.0
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://hexplace.org/developers/
+  quote: use it freely, also commercially, as long as you credit hexplace with a link to the page the
+    data comes from
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://hexplace.org/developers/
+  quote: use it freely, also commercially, as long as you credit hexplace with a link to the page the
+    data comes from
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://hexplace.org/developers/
+  quote: Please cache answers for an hour or more and keep to a few requests a second.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://hexplace.org/developers/
+  quote: use it freely, also commercially, as long as you credit hexplace with a link to the page the
+    data comes from
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://hexplace.org/developers/
+  quote: Please cache answers for an hour or more and keep to a few requests a second.
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://hexplace.org/developers/
+  quote: Every town of Portugal in one file
+  checked_at: '2026-11-21'
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Read /terms/ (updated 7 Nov 2026) and the live API response: attribution.note says
+  free to reuse commercially with credit and link; sources list is CC BY/CC0/PD/CDLA-Permissive plus OSM
+  (ODbL, share-alike applies to OSM values) and a few ''free with credit'' sources (SNS Lei 26/2016, TEMIS).'
+license_scope: portal-default

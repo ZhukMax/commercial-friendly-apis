@@ -1,0 +1,56 @@
+id: arbeitnow
+name: Arbeitnow
+url: https://documenter.getpostman.com/view/18545278/UVJbJdKh
+category: Jobs
+description: API for Job board aggregator in Europe / Remote
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Arbeitnow
+  url: https://documenter.getpostman.com/view/18545278/UVJbJdKh
+  category: Jobs
+link_status: alive
+data_license: proprietary (Arbeitnow terms)
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.arbeitnow.com/terms
+attribution_text: Link back to Arbeitnow.com on your platform
+evidence:
+- field: commercial_use
+  url: https://www.arbeitnow.com/terms
+  quote: use the materials for any commercial purpose, or for any public display (commercial or non-commercial)
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.arbeitnow.com/terms
+  quote: You also agree to providing a link back to Arbeitnow.com on your platform.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.arbeitnow.com/terms
+  quote: use the materials for any commercial purpose, or for any public display (commercial or non-commercial)
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.arbeitnow.com/terms
+  quote: use the materials for any commercial purpose, or for any public display (commercial or non-commercial)
+  checked_at: '2026-11-21'
+notes: 'Read https://www.arbeitnow.com/terms. Conflict: section 2 (website use licence) bans commercial
+  purpose and any public display of site materials, while section 11 (API) only requires a link back to
+  Arbeitnow.com and says the permission may be revoked at any time. API-specific terms do not say commercial
+  use is allowed, so ambiguous. Arbeitnow is an aggregator of employer/ATS postings; upstream terms may
+  be stricter. Postman docs page not parsed (JS).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Terms re-read: s.2 bans commercial purpose/public display of site materials; s.11
+  (API) only asks link back and says permission revocable. Blog says free Job Board API offered for side
+  projects; custom paid endpoint for traffic. Unresolved conflict; upstream ATS postings not licensed.'

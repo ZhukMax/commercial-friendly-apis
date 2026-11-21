@@ -1,0 +1,30 @@
+id: juju
+name: Juju
+url: http://www.juju.com/publisher/spec/
+category: Jobs
+description: Job search engine
+description_source: upstream
+auth: apiKey
+https: false
+cors: unknown
+sources:
+- list: public-apis
+  name: Juju
+  url: http://www.juju.com/publisher/spec/
+  category: Jobs
+- list: public-api-lists
+  name: Juju
+  url: http://www.juju.com/publisher/spec/
+  category: Jobs
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: HTTP 404

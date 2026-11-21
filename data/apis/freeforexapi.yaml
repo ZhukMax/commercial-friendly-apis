@@ -1,0 +1,26 @@
+id: freeforexapi
+name: FreeForexAPI
+url: https://freeforexapi.com/Home/Api
+category: Currency Exchange
+description: Real-time foreign exchange rates for major currency pairs
+description_source: upstream
+auth: none
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: FreeForexAPI
+  url: https://freeforexapi.com/Home/Api
+  category: Currency Exchange
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: ReadTimeout

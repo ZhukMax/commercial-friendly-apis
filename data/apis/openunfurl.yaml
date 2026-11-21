@@ -1,0 +1,25 @@
+id: openunfurl
+name: OpenUnfurl
+url: https://github.com/SolvoHQ/openunfurl
+category: Development
+description: No-signup link unfurl API returning Open Graph, Twitter Card and oEmbed metadata
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: OpenUnfurl
+  url: https://github.com/SolvoHQ/openunfurl
+  category: Development
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

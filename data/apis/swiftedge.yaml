@@ -1,0 +1,66 @@
+id: swiftedge
+name: Swiftedge
+url: https://swiftedge.uk/developers
+category: Cryptocurrency
+description: Live order book walls, resting liquidity, funding, open interest and large trades for 9 markets
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Swiftedge
+  url: https://swiftedge.uk/developers
+  category: Cryptocurrency
+link_status: alive
+data_license: proprietary (Swiftedge terms)
+commercial_use: paid-only
+storage_caching: 'no'
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://swiftedge.uk/terms
+commercial_use_scope: paid
+attribution_text: Visible credit and link to swiftedge.uk
+evidence:
+- field: commercial_use
+  url: https://swiftedge.uk/terms
+  quote: Business also lets you show the data to others in your product, channel or newsletter, with a
+    visible link to swiftedge.uk.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://swiftedge.uk/terms
+  quote: Do not scrape, download in bulk, store or redistribute the data, the live streams or the history
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://swiftedge.uk/terms
+  quote: Do not show, relay or resell Swiftedge data, charts or live streams in another website, app,
+    feed or product
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://swiftedge.uk/terms
+  quote: may be used in your own tools, bots, articles and AI apps with a visible credit and link to swiftedge.uk
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://swiftedge.uk/terms
+  quote: Business also lets you show the data to others in your product, channel or newsletter, with a
+    visible link to swiftedge.uk.
+  checked_at: '2026-11-21'
+notes: 'Read https://swiftedge.uk/terms and /developers. Free API/MCP: own tools, bots, articles and AI
+  apps with a visible credit and link; showing data in another website/app/product is barred unless on
+  the Business plan (paid, prices not verified). Storing/redistributing the data or history needs written
+  permission; building a competing feed or reselling is banned. Free-tier display in an ad-supported site
+  is therefore ambiguous; paid Business plan explicitly allows showing data to others. Data comes from
+  exchanges (e.g. Hyperliquid, Lighter) and the terms say Swiftedge is not affiliated with them; upstream
+  terms not checked and may be stricter.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read /terms: ''Do not show, relay or resell Swiftedge data ... in another website,
+  app, feed or product''; Business plan allows showing data to others with a visible link. Exchange upstream
+  terms unchecked. paid-only/yellow stands.'

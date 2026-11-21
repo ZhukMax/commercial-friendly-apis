@@ -1,0 +1,60 @@
+id: contratero
+name: Contratero
+url: https://contratero.es/docs
+category: Government
+description: Spanish public tenders and awards from the official PLACSP platform, updated hourly
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Contratero
+  url: https://contratero.es/docs
+  category: Government
+link_status: alive
+data_license: Spanish public-sector information (PLACSP), reuse under Ley 37/2007 and RD 1495/2011
+commercial_use: 'yes'
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://contratero.es/legal/terminos
+commercial_use_scope: any
+cache_limit: No mass download or replication of the database; no bulk resale/redistribution
+attribution_text: Cite the source and last-update date (fields source, source_updated_at); link official_url when possible
+rate_limits: 'Beta, free: 100 requests/day per account, up to 3 keys, 2 concurrent (provisional)'
+evidence:
+- field: commercial_use
+  url: https://contratero.es/legal/terminos
+  quote: Uso profesional o comercial legítimo
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://contratero.es/legal/terminos
+  quote: No está permitido descargar o replicar la base de datos de forma masiva, revender o redistribuir en bloque los datos obtenidos con la API
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://contratero.es/legal/terminos
+  quote: La API sirve para consultar los datos e integrarlos en tus herramientas o en las de tu empresa, citando la fuente.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://contratero.es/legal/terminos
+  quote: al reutilizarlos debes citar la fuente y la fecha de última actualización
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://contratero.es/legal/terminos
+  quote: 100 peticiones al día por cuenta, hasta 3 claves, 2 peticiones simultáneas
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://contratero.es/legal/terminos
+  quote: su reutilización se rige por la Ley 37/2007 y el RD 1495/2011
+  checked_at: '2026-11-21'
+notes: API (beta) is free for accounts with confirmed email; terms section 04 allows integrating the data into your or your company's tools with source credit but forbids mass download/replication, and
+  bulk resale or redistribution. Original data come from the Plataforma de Contratación del Sector Público; terms also say contract data are public domain. Do not alter content; no re-identification of
+  personal data. Limits are provisional and the API may be withdrawn with notice.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: yellow

@@ -1,0 +1,59 @@
+id: mycryptosignal
+name: MyCryptoSignal
+url: https://mycryptosignal.com/api/
+category: Cryptocurrency
+description: 'Crypto market data: daily direction signals, prices, on-chain and news snapshots'
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: MyCryptoSignal
+  url: https://mycryptosignal.com/api/
+  category: Cryptocurrency
+link_status: alive
+data_license: proprietary (ToS; redistribution needs written agreement)
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+attribution_text: Powered by MyCryptoSignal, linked to mycryptosignal.com
+share_alike: unknown
+api_terms_url: https://mycryptosignal.com/terms/
+evidence:
+- field: attribution_required
+  url: https://mycryptosignal.com/terms/
+  quote: You must display “Powered by MyCryptoSignal” attribution, linked to mycryptosignal.com.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://mycryptosignal.com/terms/
+  quote: You may not resell, redistribute, or commercialize the data without a written agreement.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://mycryptosignal.com/terms/
+  quote: You may not resell, redistribute, or commercialize the data without a written agreement.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://mycryptosignal.com/api/
+  quote: Free $0 60 1,000 15,000 Instant, self-serve; no card
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://mycryptosignal.com/terms/
+  quote: You may not resell, redistribute, or commercialize the data without a written agreement.
+  checked_at: '2026-11-21'
+notes: 'ToS section 3: attribution mandatory; "commercialize the data" without written agreement is prohibited,
+  which is vague about a site with ads (own use of displayed signals vs. selling data): ambiguous. Pricing
+  page says only the Enterprise tier "Includes a redistribution licence". Caching not addressed. News
+  items derive from third-party sources (rights stay with those sources); prices are aggregated, upstream
+  terms may be stricter.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read terms and pricing; unchanged.

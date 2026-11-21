@@ -1,0 +1,40 @@
+id: chainlink
+name: Chainlink
+url: https://chain.link/developer-resources
+category: Blockchain
+description: Build hybrid smart contracts with Chainlink
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Chainlink
+  url: https://chain.link/developer-resources
+  category: Blockchain
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://dev.chain.link/
+api_terms_url: https://chain.link/terms
+evidence: []
+notes: 'NOT a conventional data API: Chainlink is a decentralised oracle network/developer toolkit (dev.chain.link
+  is a docs hub; the old chain.link/developer-resources redirects there). Data feeds are consumed on-chain
+  by smart contracts; no REST data licence applies. Read via Playwright: Chainlink Foundation Terms of
+  Service v6.0 (effective 2026-08-18): Services/software under MIT licence and open-source licences, resale/distribution
+  of the Website or Services in breach of those licences forbidden, no clause on off-chain reuse, display
+  or caching of feed data; off-chain market data providers behind the feeds have their own terms. All
+  core fields unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

@@ -1,0 +1,63 @@
+id: share
+name: SHARE
+url: https://share.osf.io/api/v2/
+category: Science & Math
+description: A free, open, dataset about research and scholarly activities
+description_source: upstream
+auth: none
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: SHARE
+  url: https://share.osf.io/api/v2/
+  category: Science & Math
+- list: public-api-lists
+  name: SHARE
+  url: https://share.osf.io/api/v2/
+  category: Science & Math
+link_status: alive
+data_license: Per-record licence set by the content administrator; metadata CC licence not confirmed
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://github.com/CenterForOpenScience/cos.io/blob/HEAD/TERMS_OF_USE.md
+commercial_use_scope: any
+rate_limits: unknown
+evidence:
+- field: commercial_use
+  url: https://github.com/CenterForOpenScience/cos.io/blob/HEAD/TERMS_OF_USE.md
+  quote: available to the public for viewing and commercial and non-commercial use under the terms of
+    the license identified by the Administrator
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://github.com/CenterForOpenScience/cos.io/blob/HEAD/TERMS_OF_USE.md
+  quote: available to the public for viewing and commercial and non-commercial use under the terms of
+    the license identified by the Administrator
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://github.com/CenterForOpenScience/cos.io/blob/HEAD/TERMS_OF_USE.md
+  quote: If no license is applied by the administrator, then no license is included in the metadata and
+    it should be considered copyrighted by default.
+  checked_at: '2026-11-21'
+notes: 'The API at share.osf.io/api/v2/ still answers; the SHARE site now presents as "trove" (share.osf.io/trove/docs),
+  whose docs link to the Center for Open Science Terms of Use (read from GitHub). Terms: public OSF content
+  is available for commercial and non-commercial use under the licence the administrator applied; no licence
+  = copyrighted by default. SHARE is an aggregator of metadata about scholarly works from many providers,
+  so per-record terms vary; no dedicated SHARE/trove data licence or caching statement was found. The
+  OSF API code is Apache-2.0 (code, not data).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read COS Terms of Use: for OSF content marked public ''use'' = sublicense, reproduce,
+  store, transmit, distribute, publicly display, commercial or non-commercial, subject to administrator-applied
+  licence. SHARE/trove docs (share.osf.io/trove/docs) are JS-only/empty to curl; SHARE repo README states
+  only Apache-2.0 for code. Per-record licence still unresolved for non-OSF aggregated records. Ambig'
+license_scope: portal-default

@@ -1,0 +1,71 @@
+id: findsaunaplunge
+name: FindSaunaPlunge
+url: https://findsaunaplunge.com/api/
+category: Health
+description: US cold plunge and sauna venues with dated, source-quoted temperatures and prices
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: FindSaunaPlunge
+  url: https://findsaunaplunge.com/api/
+  category: Health
+link_status: alive
+data_license: CC-BY-4.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: 'yes'
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://findsaunaplunge.com/api/
+api_terms_url: https://findsaunaplunge.com/api/
+commercial_use_scope: any
+attribution_text: Attribution with a link to findsaunaplunge.com; keep a figure's lastVerified date when
+  republishing
+share_alike: 'no'
+rate_limits: No key; no rate limit beyond ordinary politeness; edge-cached for an hour
+evidence:
+- field: data_license
+  url: https://findsaunaplunge.com/api/
+  quote: licensed CC BY 4.0 (use it freely, attribute with a link)
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://findsaunaplunge.com/api/
+  quote: use, reproduce, and build on it, with attribution linking here
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://findsaunaplunge.com/api/
+  quote: use, reproduce, and build on it, with attribution linking here
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://findsaunaplunge.com/api/
+  quote: use, reproduce, and build on it, with attribution linking here
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://findsaunaplunge.com/api/
+  quote: with attribution linking here
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://findsaunaplunge.com/api/
+  quote: The full dataset behind this site — 569 hand-checked venues — is published as a static JSON feed.
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://findsaunaplunge.com/api/
+  quote: 'The dataset is CC BY 4.0: use, reproduce, and build on it, with attribution linking here.'
+  checked_at: '2026-11-21'
+notes: 'Dataset is CC BY 4.0 per the API page (no NonCommercial clause stated). Extra request: if you
+  republish a figure, keep its lastVerified date. Some records are ''brand_import'' (imported from brands''
+  own location data), whose upstream rights are not assessed. No separate terms page was read, so confidence
+  is medium.'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Some records are brand_import (brands' location data); rights of those unassessed but
+  they are facts like address/prices. Keep lastVerified with figures.

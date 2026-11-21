@@ -1,0 +1,26 @@
+id: tweetapi
+name: TweetAPI
+url: https://tweetapi.com/docs
+category: Social
+description: Public Twitter data for posts, profiles, followers, search, lists and communities
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: TweetAPI
+  url: https://tweetapi.com/docs
+  category: Social
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://tweetapi.com/docs/getting-started/overview

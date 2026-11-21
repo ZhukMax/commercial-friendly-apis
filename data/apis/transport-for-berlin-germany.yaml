@@ -1,0 +1,35 @@
+id: transport-for-berlin-germany
+name: Transport for Berlin, Germany
+url: https://github.com/derhuerst/vbb-rest/blob/3/docs/index.md
+category: Transportation
+description: Third-party VBB API
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Transport for Berlin, Germany
+  url: https://github.com/derhuerst/vbb-rest/blob/3/docs/index.md
+  category: Transportation
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+rate_limits: 100 requests/minute
+evidence:
+- field: rate_limits
+  url: https://v6.vbb.transport.rest/
+  quote: There's a rate limit of 100 requests/minute set up.
+  checked_at: '2026-11-21'
+notes: Entry URL is the v3 docs; current host v6.vbb.transport.rest (docs read). It is an unofficial REST wrapper around VBB's mobile-app API; code is ISC-licensed, but no data licence or terms of use were
+  found. VBB's own data terms not read. All terms unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

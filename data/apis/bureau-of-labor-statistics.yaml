@@ -1,0 +1,75 @@
+id: bureau-of-labor-statistics
+name: Bureau of Labor Statistics
+url: https://www.bls.gov/developers/
+category: Government
+description: 'US labor statistics: inflation, unemployment, wages and productivity'
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Bureau of Labor Statistics
+  url: https://www.bls.gov/developers/
+  category: Government
+link_status: alive
+data_license: public-domain
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: HTTP 403 (blocked for bots, assumed alive)
+data_license_url: https://www.bls.gov/opub/copyright-information.htm
+api_terms_url: https://www.bls.gov/developers/termsOfService.htm
+commercial_use_scope: any
+attribution_text: BLS.gov cannot vouch for the data or analyses derived from these data after the data
+  have been retrieved from BLS.gov. (also cite date of retrieval)
+share_alike: 'no'
+rate_limits: 'v2 (registered key): 500 queries/day, 50 series/query, 20 years/query; v1 (unregistered):
+  25 queries/day, 25 series, 10 years; both 50 requests per 10 seconds'
+notes: Data is public domain except previously copyrighted photographs and illustrations; API ToS imposes
+  no end-use controls but requires citing the retrieval date, the "cannot vouch" statement, no BLS logo/emblem
+  use, no modification while still citing BLS. v1 works without a key (low limits), v2 needs free registration
+  key, so auth=none is only valid for v1. bulk_download left unknown (not verified).
+evidence:
+- field: data_license
+  url: https://www.bls.gov/opub/copyright-information.htm
+  quote: is in the public domain, except for previously copyrighted photographs and illustrations.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.bls.gov/opub/copyright-information.htm
+  quote: You are free to use our public domain material without specific permission
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.bls.gov/developers/termsOfService.htm
+  quote: Data accessed through BLS.gov do not, and should not, include controls over its end use.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.bls.gov/developers/termsOfService.htm
+  quote: Users must clearly state that "BLS.gov cannot vouch for the data or analyses derived from these
+    data after the data have been retrieved from BLS.gov."
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://www.bls.gov/developers/api_faqs.htm
+  quote: Daily query limit 500 25 Series per query limit 50 25 Years per query limit 20 10 Request rate
+    limit 50 requests per 10 seconds
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.bls.gov/opub/copyright-information.htm
+  quote: You are free to use our public domain material without specific permission
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://www.bls.gov/opub/copyright-information.htm
+  quote: is in the public domain, except for previously copyrighted photographs and illustrations.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: curl gets 'Access Denied' bot page; read in a fresh Playwright context. v1 limited,
+  v2 needs free key. Mandatory disclaimer text is more than plain credit but not a blocker.

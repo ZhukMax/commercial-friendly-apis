@@ -1,0 +1,69 @@
+id: 10ml-fragrance-index
+name: 10ML Fragrance Index
+url: https://mcp.10ml.com/openapi.json
+category: Open Data
+description: 'Perfume knowledge: notes, accords, families, similar scents, houses, guides. By 10ML'
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: 10ML Fragrance Index
+  url: https://mcp.10ml.com/openapi.json
+  category: Open Data
+link_status: alive
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+notes: 'Read /perfume-api (FAQ) and the OpenAPI description at mcp.10ml.com/openapi.json (same statement).
+  Explicit: commercial use allowed and free, caching allowed, single condition is a visible credit link.
+  No formal licence text beyond this; main 10ml.com ToS covers shop orders and asks to ask before reusing
+  site content, so the grant rests on the API page statement. Perfume metadata (notes, accords) curated
+  by 10ML editors. No key needed (optional free key).'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+data_license: proprietary, free reuse with credit
+api_terms_url: https://10ml.com/perfume-api
+commercial_use: 'yes'
+commercial_use_scope: any
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+attribution_text: 'Data: 10ML Fragrance Index (link to https://10ml.com/perfume-api wherever the data
+  appears)'
+share_alike: unknown
+rate_limits: No fixed limit; keep a polite pace and tell contact@10ml.com before heavy volume
+bulk_download: unknown
+self_host_option: unknown
+evidence:
+- field: data_license
+  url: https://10ml.com/perfume-api
+  quote: Commercial use is allowed and free, and you may store (cache) the results you fetch.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://10ml.com/perfume-api
+  quote: Commercial use is allowed and free, and you may store (cache) the results you fetch.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://10ml.com/perfume-api
+  quote: Commercial use is allowed and free, and you may store (cache) the results you fetch.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://10ml.com/perfume-api
+  quote: Showing the data in an app, a site or an article? Credit it as the 10ML Fragrance Index with
+    a link to this page
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://10ml.com/perfume-api
+  quote: 'The one condition: show a visible credit, "Data: 10ML Fragrance Index", linking to https://10ml.com/perfume-api,
+    wherever the data appears.'
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://10ml.com/perfume-api
+  quote: 'There is no fixed rate limit: keep a polite pace and tell us before heavy volume'
+  checked_at: '2026-11-21'
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read perfume-api page, OpenAPI description, mcp.10ml.com/terms, 10ml.com/terms and
+  legal notice. Service may change or stop at any time (as-is). Credit link is mandatory.

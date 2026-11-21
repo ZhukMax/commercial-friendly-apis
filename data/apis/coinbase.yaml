@@ -1,0 +1,53 @@
+id: coinbase
+name: Coinbase
+url: https://developers.coinbase.com
+category: Cryptocurrency
+description: Bitcoin, Bitcoin Cash, Litecoin and Ethereum Prices
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Coinbase
+  url: https://developers.coinbase.com
+  category: Cryptocurrency
+- list: public-api-lists
+  name: Coinbase
+  url: https://developers.coinbase.com
+  category: Cryptocurrency
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: ambiguous
+redistribution_display: 'no'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: HTTP 403 (blocked for bots, assumed alive)
+api_terms_url: https://www.coinbase.com/legal/developer-platform/terms-of-service
+evidence:
+- field: storage_caching
+  url: https://www.coinbase.com/legal/developer-platform/terms-of-service
+  quote: Collect, cache, aggregate, or store data or content accessed via the CDP Tools other than for
+    purposes allowed under these terms.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.coinbase.com/legal/developer-platform/terms-of-service
+  quote: You may not share such data or content with third parties in any manner without Coinbase’s prior
+    written authorization.
+  checked_at: '2026-11-21'
+notes: 'developers.coinbase.com now leads to the Coinbase Developer Platform (CDP; description "Bitcoin
+  ... Prices" is outdated). Read the CDP Terms of Service: restricts collecting/caching/storing data except
+  as the terms allow and bars sharing it with third parties without written authorization; no explicit
+  commercial-use grant for market data was found (commercial_use unknown). Account-scoped trading/payments
+  platform, not an open data feed. Coinbase market data may have separate terms (not read).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'CDP ToS (read via Playwright, readable) bars sharing data with third parties; showing
+  it on a public site is sharing; Caching/storing barred except as terms allow | applied: redistribution_display=no'

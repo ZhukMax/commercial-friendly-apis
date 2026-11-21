@@ -1,0 +1,58 @@
+id: brieftape
+name: BriefTape
+url: https://brieftape.com
+category: Finance
+description: Real-time AI-summarized SEC filings, Fed, FDA and BLS data, ticker-tagged
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: BriefTape
+  url: https://brieftape.com
+  category: Finance
+link_status: alive
+data_license: unknown (AI summaries of public-domain government filings; summaries not licensed explicitly)
+commercial_use: paid-only
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://brieftape.com/tos.html
+commercial_use_scope: paid
+share_alike: unknown
+rate_limits: Free 10,000 calls/day, 15-min delay
+link_note: terms at https://brieftape.com/tos.html
+evidence:
+- field: commercial_use
+  url: https://brieftape.com/
+  quote: Free and Hacker tiers are for personal/developer use.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://brieftape.com/
+  quote: Pro ($99/mo) and Quant ($299/mo) include commercial use rights.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://brieftape.com/tos.html
+  quote: republish content for commercial purposes without a commercial license
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://brieftape.com/tos.html
+  quote: All source data is in the public domain.
+  checked_at: '2026-11-21'
+notes: Read home page (pricing and FAQ) and Terms of Service (updated May 2026). Free and Hacker tiers
+  are personal/developer use; commercial use rights start at Pro ($99/mo). ToS bars republishing content
+  for commercial purposes without a commercial licence and the page offers separate redistribution licensing,
+  so public display is ambiguous. Underlying SEC/Fed/FDA/BLS data is public domain; the AI summaries are
+  the vendor's own work with no stated licence. Caching/storage and attribution not addressed.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: ToS URL redirects to https://brieftape.com/tos (no .html). Summaries are AI-generated
+  by the vendor; display on a public site likely needs the redistribution licence.

@@ -1,0 +1,68 @@
+id: semantic-scholar
+name: Semantic Scholar
+url: https://api.semanticscholar.org/
+category: Science & Math
+description: Academic search engine for papers, authors, and citations
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Semantic Scholar
+  url: https://api.semanticscholar.org/
+  category: Science & Math
+link_status: redirect
+data_license: per-dataset S2 Data Licenses (e.g. CC BY-NC, ODC-BY) plus third-party content licences;
+  API License Agreement (AI2)
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: -> https://www.semanticscholar.org/product/api
+data_license_url: https://www.semanticscholar.org/product/api/license
+api_terms_url: https://www.semanticscholar.org/product/api/license
+rate_limits: 'Unauthenticated: shared pool; API key introductory limit 1 request/second'
+attribution_text: Semantic Scholar (attribution on website or published materials)
+notes: 'API License Agreement (updated May 2023) read in full. It grants a limited licence to access and
+  display S2 Data, but says use of S2 Data is separately governed by accompanying licences such as CC
+  BY-NC or ODC-BY, and by third-party content licences, so commercial use depends on the dataset/licence;
+  it forbids repackaging, selling or sublicensing the API. Attribution to Semantic Scholar required; S2
+  marks need to follow branding rules. Storage/caching not addressed. Aggregator of publisher content:
+  upstream terms may be stricter. The listed api.semanticscholar.org URL redirects to the product page,
+  which is the same service.'
+evidence:
+- field: commercial_use
+  url: https://www.semanticscholar.org/product/api/license
+  quote: separately governed by the licenses that accompany such S2 Data, such as CC BY-NC or ODC-BY
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.semanticscholar.org/product/api/license
+  quote: separately governed by the licenses that accompany such S2 Data, such as CC BY-NC or ODC-BY
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.semanticscholar.org/product/api/license
+  quote: to access and display the data, datasets, content, and materials that AI2 makes available to
+    S2 users
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.semanticscholar.org/product/api/license
+  quote: Licensee will include an attribution to “Semantic Scholar” on its website or in any published
+    materials
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://www.semanticscholar.org/product/api
+  quote: The introductory rate limit for an API key is 1 RPS on all endpoints.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Commercial use depends on dataset; some S2 data is NC, so ambiguous is the cautious
+  reading.
+license_scope: portal-default

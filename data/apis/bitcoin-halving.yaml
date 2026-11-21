@@ -1,0 +1,45 @@
+id: bitcoin-halving
+name: Bitcoin Halving
+url: https://why21million.com/halving-api/
+category: Cryptocurrency
+description: Halving era, block reward, and schedule arithmetic for any Bitcoin block height
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Bitcoin Halving
+  url: https://why21million.com/halving-api/
+  category: Cryptocurrency
+- list: public-api-lists
+  name: Bitcoin Halving
+  url: https://why21million.com/halving-api/
+  category: Cryptocurrency
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: 'yes'
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+rate_limits: No rate limits enforced as of the page; best effort, no SLA
+evidence:
+- field: self_host_option
+  url: https://why21million.com/halving-api/
+  quote: The same logic is a small, tested, MIT-licensed JS library
+  checked_at: '2026-11-21'
+notes: 'Read https://why21million.com/halving-api/. Page is a hobby endpoint returning pure arithmetic
+  (era, subsidy, blocks to next halving), footer says "Free to use" but no terms or licence for API output;
+  site /terms and /about return the home page, not a terms page. Not a data source in the usual sense:
+  output is computable from the Bitcoin protocol (the same logic is an MIT-licensed library, halving-math),
+  so self-hosting is trivial. No explicit commercial/caching/attribution statement, therefore unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

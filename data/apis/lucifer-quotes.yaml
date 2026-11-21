@@ -1,0 +1,25 @@
+id: lucifer-quotes
+name: Lucifer Quotes
+url: https://github.com/shadowoff09/lucifer-quotes
+category: Video
+description: Returns Lucifer quotes
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Lucifer Quotes
+  url: https://github.com/shadowoff09/lucifer-quotes
+  category: Video
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

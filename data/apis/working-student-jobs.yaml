@@ -1,0 +1,55 @@
+id: working-student-jobs
+name: Working Student Jobs
+url: https://www.workingstudentjobs.de/developers
+category: Jobs
+description: Working student and internship jobs in Germany, filterable by city, field and language
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Working Student Jobs
+  url: https://www.workingstudentjobs.de/developers
+  category: Jobs
+link_status: alive
+data_license: unknown
+commercial_use: 'yes'
+storage_caching: unknown
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: HTTP 403 (blocked for bots, assumed alive)
+commercial_use_scope: any
+api_terms_url: https://www.workingstudentjobs.de/terms
+attribution_text: Show each job with the url or apply_url returned by the API as its link (add ref=yourapp)
+rate_limits: 60 requests per minute per IP
+notes: 'Read /developers and section 6 of /terms (via Playwright; curl is blocked with 403). Free incl.
+  commercial apps; conditions: link each job via its url/apply_url, no re-hosting as a competing job board,
+  no circumventing the rate limit. Storage/caching is not addressed for API users (responses are cached
+  by the service up to an hour), so unknown. Listings are aggregated from third-party sites (LinkedIn,
+  employer pages) and the terms say "Listings remain the property of their publishers", so upstream rights
+  may be stricter.'
+evidence:
+- field: commercial_use
+  url: https://www.workingstudentjobs.de/developers
+  quote: Free to use, including in commercial apps.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.workingstudentjobs.de/terms
+  quote: Show each job with the url or apply_url the API returns as its link.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.workingstudentjobs.de/terms
+  quote: Show each job with the url or apply_url the API returns as its link.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://www.workingstudentjobs.de/developers
+  quote: 60 requests per minute per IP.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -1,0 +1,36 @@
+id: flipkart-marketplace
+name: Flipkart Marketplace
+url: https://seller.flipkart.com/api-docs/FMSAPI.html
+category: Shopping
+description: Product listing management, Order Fulfilment in the Flipkart Marketplace
+description_source: upstream
+auth: OAuth
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Flipkart Marketplace
+  url: https://seller.flipkart.com/api-docs/FMSAPI.html
+  category: Shopping
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://seller.flipkart.com/api-docs/api-tou.html
+notes: 'Not a public data source: OAuth seller API for managing a Flipkart seller''s own listings and
+  orders (needs a registered Flipkart seller account and application). The docs link ''Flipkart Developers
+  Program and API Licence Agreement'' (api-tou.html) only to a PDF at img1a.flixcart.com/fk-api-docs/_static/images/APILicAgreement.pdf,
+  which returns a NoSuchBucket XML error, so the agreement could not be read. Docs state the production
+  environment is governed by the Flipkart Marketplace terms of usage (not read). All terms fields unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

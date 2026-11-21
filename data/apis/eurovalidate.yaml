@@ -1,0 +1,56 @@
+id: eurovalidate
+name: EuroValidate
+url: https://eurovalidate.com
+category: Business
+description: EU VAT (VIES), IBAN and EORI validation with company name & address lookup
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: EuroValidate
+  url: https://eurovalidate.com
+  category: Business
+link_status: alive
+data_license: unknown
+commercial_use: 'yes'
+storage_caching: ambiguous
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://eurovalidate.com/terms.html
+commercial_use_scope: any
+rate_limits: 'Free: 100 requests/month hard cap; paid tiers 500k-10M/month with overage billing; per-minute
+  burst limit on all tiers'
+notes: 'Terms of Service and Acceptable Use Policy read. Aggregator of public government sources (VIES,
+  EORI, HMRC, GLEIF): upstream terms may be stricter and were not checked. AUP forbids reselling the raw
+  API and building a derivative database from the service, but says nothing explicit on keeping validation
+  results, so storage is ambiguous and display unknown. Sanctioned-country restrictions apply.'
+evidence:
+- field: commercial_use
+  url: https://eurovalidate.com/aup.html
+  quote: designed to validate European business identifiers (VAT numbers, IBANs, EORI numbers, LEI codes,
+    and associated company metadata) for legitimate commercial purposes
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://eurovalidate.com/aup.html
+  quote: Scrape or mirror our cache, docs, or marketing site for training ML models or building a derivative
+    database.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://eurovalidate.com/aup.html
+  quote: Each pricing tier has a monthly included request quota and a per-minute technical burst limit
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Confirmed (verdict unknown). AUP: ''Resell the raw API without a written reseller
+  agreement. Embedding the API in your own product is fine''. Intended use is KYB/invoicing/checkout validation,
+  not public data display; free tier only 100 req/month. Upstream VIES/EORI/HMRC/GLEIF licences still
+  unchecked; sole-trader identifiers are personal data (AUP restricts profiling).'

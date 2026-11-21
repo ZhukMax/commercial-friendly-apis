@@ -1,0 +1,74 @@
+id: open-government-italy
+name: Open Government, Italy
+url: https://www.dati.gov.it/
+category: Government
+description: Italy Government Open Data
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Open Government, Italy
+  url: https://www.dati.gov.it/
+  category: Government
+- list: public-api-lists
+  name: Open Government, Italy
+  url: https://www.dati.gov.it/
+  category: Government
+link_status: alive
+data_license: CC-BY-4.0 (unless otherwise specified per dataset)
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+commercial_use_scope: any
+share_alike: 'no'
+data_license_url: https://www.dati.gov.it/note-legali
+api_terms_url: https://www.dati.gov.it/note-legali
+attribution_text: Cite the source and, where possible, the web address of the original page
+evidence:
+- field: data_license
+  url: https://www.dati.gov.it/note-legali
+  quote: i dati e documenti pubblicati sul presente sito sono messi a disposizione con licenza CC-BY 4.0
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.dati.gov.it/note-legali
+  quote: i contenuti di questo sito sono liberamente distribuibili e riutilizzabili, a patto che sia sempre
+    citata la fonte
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.dati.gov.it/note-legali
+  quote: i contenuti di questo sito sono liberamente distribuibili e riutilizzabili, a patto che sia sempre
+    citata la fonte
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.dati.gov.it/note-legali
+  quote: i contenuti di questo sito sono liberamente distribuibili e riutilizzabili, a patto che sia sempre
+    citata la fonte
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.dati.gov.it/note-legali
+  quote: i contenuti di questo sito sono liberamente distribuibili e riutilizzabili, a patto che sia sempre
+    citata la fonte
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://www.dati.gov.it/note-legali
+  quote: i dati e documenti pubblicati sul presente sito sono messi a disposizione con licenza CC-BY 4.0
+  checked_at: '2026-11-21'
+notes: 'Note legali (Italian, updated 2022-09-08) of the national catalogue dati.gov.it: default CC BY
+  4.0 "unless otherwise indicated". Commercial use is not named explicitly; it follows from CC BY 4.0
+  (no NC clause) and "liberamente riutilizzabili". The portal federates datasets from many publishers
+  whose own licences may differ (check per dataset). The CKAN API page was not separately read for terms.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Note legali quote verified: CC BY 4.0 default, source citation; per-dataset licences
+  may differ.'
+license_scope: portal-default

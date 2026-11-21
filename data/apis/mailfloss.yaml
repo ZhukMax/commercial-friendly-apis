@@ -1,0 +1,26 @@
+id: mailfloss
+name: mailfloss
+url: https://developers.mailfloss.com
+category: Email
+description: 'Stop spam signups: block disposable and invalid emails and suggest typo fixes. 500 free
+  a month'
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: mailfloss
+  url: https://developers.mailfloss.com
+  category: Email
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

@@ -1,0 +1,37 @@
+id: ziprecruiter
+name: ZipRecruiter
+url: https://www.ziprecruiter.com/publishers
+category: Jobs
+description: Job search app and website
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: ZipRecruiter
+  url: https://www.ziprecruiter.com/publishers
+  category: Jobs
+- list: public-api-lists
+  name: ZipRecruiter
+  url: https://www.ziprecruiter.com/publishers
+  category: Jobs
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: HTTP 403 (blocked for bots, assumed alive)
+api_terms_url: https://www.ziprecruiter.global/en/terms
+notes: ziprecruiter.com/publishers redirected to the ziprecruiter.ie homepage (Playwright; curl 403),
+  so no publisher/API programme terms were readable. The general Global Terms of Use ban crawling/scraping
+  and copying or displaying the Services without permission; they do not describe the publisher API, so
+  no verdict is drawn. Publisher API terms are probably given at partner signup (not read). All unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

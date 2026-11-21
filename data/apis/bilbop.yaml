@@ -1,0 +1,27 @@
+id: bilbop
+name: bilbop
+url: https://api.bilbop.org
+category: Cryptocurrency
+description: 'Solana USDC x402 pay-per-call tools for agents: SPL mint info, token brief, text summarize,
+  Piper TTS, brand feedback'
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: bilbop
+  url: https://api.bilbop.org
+  category: Cryptocurrency
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: ConnectError

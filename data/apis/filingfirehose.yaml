@@ -1,0 +1,60 @@
+id: filingfirehose
+name: FilingFirehose
+url: https://filingfirehose.com
+category: Finance
+description: Structured SEC EDGAR filings with body-text-classified 8-Ks, activist-tagged 13D/G, and ATM-offering
+  detection in S-3 / 424B5
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: FilingFirehose
+  url: https://filingfirehose.com
+  category: Finance
+link_status: alive
+data_license: proprietary; underlying SEC filings are public-domain US government records
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://filingfirehose.com/terms
+attribution_text: 'data: FilingFirehose'
+evidence:
+- field: commercial_use
+  url: https://filingfirehose.com/terms
+  quote: 'You may use the parsed data internally and in published research that cites the source ("data:
+    FilingFirehose")'
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://filingfirehose.com/terms
+  quote: you may not republish bulk structured datasets except as expressly permitted.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://filingfirehose.com/terms
+  quote: 'You may use the parsed data internally and in published research that cites the source ("data:
+    FilingFirehose")'
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://filingfirehose.com/terms
+  quote: 'You may use the parsed data internally and in published research that cites the source ("data:
+    FilingFirehose")'
+  checked_at: '2026-11-21'
+notes: 'ToS effective May 13 2026: the SEC filings are public domain, but the parsing/classification is
+  the provider''s IP; use is allowed internally and in published research citing the source, and republishing
+  bulk structured datasets is not allowed. Commercial sites, ads and caching are not explicitly addressed,
+  so commercial_use and display are ambiguous. Free tier covers the last 72 hours without a key; paid
+  tiers cover history and webhooks.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Confirmed ambiguous/yellow, evidence leans restrictive: a public monetised site is
+  neither ''internal'' nor clearly ''published research''. Underlying SEC filings are public domain (could
+  be taken from EDGAR directly). ToS also forbids reselling API access.'

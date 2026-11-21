@@ -1,0 +1,34 @@
+id: lazada
+name: Lazada
+url: https://open.lazada.com/doc/doc.htm
+category: Shopping
+description: Retrieve product ratings and seller performance metrics
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Lazada
+  url: https://open.lazada.com/doc/doc.htm
+  category: Shopping
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+notes: 'open.lazada.com docs are JS-rendered; read via Playwright (fresh context). It is the Lazada Open
+  Platform for sellers/ISVs (products, orders, seller metrics via app key and seller authorization). The
+  ''Terms and Agreement'' and ''Developer Agreement'' links are javascript: links and their text could
+  not be opened, so no terms were read. All core fields unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

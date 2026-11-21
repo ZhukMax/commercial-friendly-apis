@@ -1,0 +1,56 @@
+id: coinnect
+name: Coinnect
+url: https://coinnect.bot/docs
+category: Currency Exchange
+description: Open money transfer routing across fiat, crypto and P2P networks
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: Coinnect
+  url: https://coinnect.bot/docs
+  category: Currency Exchange
+link_status: alive
+data_license: unknown (code MIT; historic dataset labelled CC-BY-4.0 in footer)
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: 'yes'
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+commercial_use_scope: free-tier
+rate_limits: Anonymous 20/day, 50/hr; free key 1,000/day; agent key 5,000/day
+evidence:
+- field: commercial_use
+  url: https://coinnect.bot/
+  quote: Personal use is free while the service exists.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://coinnect.bot/
+  quote: Historic data (HF) CC-BY 4.0
+  checked_at: '2026-11-21'
+- field: self_host_option
+  url: https://coinnect.bot/
+  quote: MIT license · your infrastructure
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://coinnect.bot/docs
+  quote: 20 req/day / 50/hr anonymous (beta) · 1,000/day free key · 5,000/day agent key
+  checked_at: '2026-11-21'
+notes: 'Read https://coinnect.bot/ (incl. its Disclaimer & Terms of Use modal) and https://coinnect.bot/docs
+  (OpenAPI; /terms is 404). Not a classic data source: a money-transfer routing/quote service aggregating
+  fees and rates of remittance, exchange and P2P providers ("sourced from provider APIs and published
+  pricing pages"), so upstream provider terms may be stricter and were not checked. Free for personal
+  use; paid plans planned; commercial use not addressed. Source is MIT and self-hostable. The footer links
+  a "Historic data (HF) CC-BY 4.0" open dataset, but it is unclear if it covers live API responses. No
+  attribution/caching terms found.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read homepage incl. Disclaimer modal; nothing grants commercial use.

@@ -1,0 +1,83 @@
+id: openmercantil
+name: OpenMercantil
+url: https://openmercantil.es/api/documentacion
+category: Government
+description: Spanish company public data and BORME event timelines
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: OpenMercantil
+  url: https://openmercantil.es/api/documentacion
+  category: Government
+- list: public-api-lists
+  name: OpenMercantil
+  url: https://openmercantil.es/api/documentacion
+  category: Government
+link_status: alive
+data_license: CC-BY-4.0
+commercial_use: ambiguous
+storage_caching: 'yes'
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://openmercantil.es/descargas
+api_terms_url: https://openmercantil.es/terminos-de-uso
+commercial_use_scope: any
+attribution_text: BOE/BORME as source, OpenMercantil as technical intermediary
+rate_limits: 'Free: 60 req/min and 200 req/day per IP'
+notes: Read the terms of use (Spanish), docs and downloads pages. Data reuse is under CC BY 4.0 citing
+  BOE/BORME and OpenMercantil. Terms forbid commercial/advertising profiling of natural persons (GDPR)
+  and reselling the dataset as an "official source"; officer/person data therefore needs care on an ad-supported
+  site. Storage/display rely on CC BY wording plus the reuse clause.
+evidence:
+- field: data_license
+  url: https://openmercantil.es/terminos-de-uso
+  quote: 'Reutilización de los datos bajo licencia CC BY 4.0 citando la fuente: BOE/BORME y OpenMercantil
+    como intermediario técnico.'
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://openmercantil.es/terminos-de-uso
+  quote: 'Reutilización de los datos bajo licencia CC BY 4.0 citando la fuente: BOE/BORME y OpenMercantil
+    como intermediario técnico.'
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://openmercantil.es/terminos-de-uso
+  quote: 'Reutilización de los datos bajo licencia CC BY 4.0 citando la fuente: BOE/BORME y OpenMercantil
+    como intermediario técnico.'
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://openmercantil.es/terminos-de-uso
+  quote: 'Reutilización de los datos bajo licencia CC BY 4.0 citando la fuente: BOE/BORME y OpenMercantil
+    como intermediario técnico.'
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://creativecommons.org/licenses/by/4.0/deed.en
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://openmercantil.es/terminos-de-uso
+  quote: Uso programático de la API pública respetando el rate-limit (60 req/min por IP).
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://openmercantil.es/terminos-de-uso
+  quote: Construcción de perfiles comerciales o publicitarios sobre personas físicas (RGPD art. 5.1.b).
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://openmercantil.es/terminos-de-uso
+  quote: Reventa o redistribución del dataset presentándolo como «fuente oficial».
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+share_alike: unknown
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Terms forbid commercial or advertising profiles of natural persons; BORME data is
+  mostly company officers; Free API limited to 200 req/day/IP; unauthorised redistribution can lead to
+  suspension; Upstream BOE/BORME reuse conditions not read | applied: commercial_use=ambiguous, redistribution_display=ambiguous'

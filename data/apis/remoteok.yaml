@@ -1,0 +1,41 @@
+id: remoteok
+name: RemoteOK
+url: https://remoteok.com/api
+category: Jobs
+description: Remote job board for digital nomads
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: RemoteOK
+  url: https://remoteok.com/api
+  category: Jobs
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://remoteok.com/api
+attribution_text: Link back (follow, no nofollow) to the Remote OK job URL and mention Remote OK as the
+  source; do not use the Remote OK logo without written permission
+notes: 'The only terms are the "legal" object returned in the first element of the /api JSON (remoteok.com/terms
+  is a 404): link back with a followable link and name Remote OK as source or API access may be suspended;
+  Remote OK logo needs written permission. No statement on commercial use, caching or redistribution,
+  so those stay unknown (the attribution requirement implies publishing the listings is expected, but
+  this is not stated as a licence). Listings come from third-party employers.'
+evidence:
+- field: attribution_required
+  url: https://remoteok.com/api
+  quote: Please link back (with follow, and without nofollow!) to the URL on Remote OK and mention Remote
+    OK as a source
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

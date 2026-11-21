@@ -1,0 +1,48 @@
+id: alpha-vantage
+name: Alpha Vantage
+url: https://www.alphavantage.co/
+category: Finance
+description: Realtime and historical stock data
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Alpha Vantage
+  url: https://www.alphavantage.co/
+  category: Finance
+- list: public-api-lists
+  name: Alpha Vantage
+  url: https://www.alphavantage.co/
+  category: Finance
+link_status: alive
+data_license: unknown
+commercial_use: paid-only
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.alphavantage.co/terms_of_service/
+commercial_use_scope: paid
+share_alike: unknown
+evidence:
+- field: commercial_use
+  url: https://www.alphavantage.co/terms_of_service/
+  quote: for personal, non-commercial use, unless you and Alpha Vantage have agreed otherwise in writing
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.alphavantage.co/terms_of_service/
+  quote: use or provide information accessed through the Alpha Vantage Platform as part of any type of commercial activity
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.alphavantage.co/terms_of_service/
+  quote: 'If you are interested in using the Alpha Vantage Platform for commercial purposes, please contact us at: premium@alphavantage.co'
+  checked_at: '2026-11-21'
+notes: Terms of Service is a PDF at https://www.alphavantage.co/terms_of_service/ (text extracted with pdftotext). The free API key ('Get Free API Key' clicks the EULA) is licensed for personal, non-commercial use only; 'commercial use' is defined broadly (use on behalf of a company, or providing the information to anyone other than the user). A site with ads/affiliate links serving data to visitors is commercial use, so a paid/premium or written commercial agreement is required. Premium-plan terms for storage, display and redistribution were not seen and Alpha Vantage's market data comes from exchanges (display/redistribution restrictions likely); those fields stay unknown. Free-tier rate limits not verified.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

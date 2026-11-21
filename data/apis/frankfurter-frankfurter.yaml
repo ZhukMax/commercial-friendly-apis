@@ -1,0 +1,79 @@
+id: frankfurter-frankfurter
+name: Frankfurter
+url: https://frankfurter.dev/
+category: Currency Exchange
+description: Exchange rates, currency conversion and time series
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: Frankfurter
+  url: https://www.frankfurter.app/docs
+  category: Currency Exchange
+link_status: redirect
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: -> https://frankfurter.dev/
+api_terms_url: https://frankfurter.dev/license/
+data_license_url: https://www.ecb.europa.eu/services/disclaimer/html/index.en.html
+commercial_use_scope: any
+attribution_text: 'Source: European Central Bank (when ECB-sourced rates are shown)'
+share_alike: unknown
+rate_limits: No quotas; requests rate-limited to prevent abuse, no monthly or daily caps
+evidence:
+- field: commercial_use
+  url: https://frankfurter.dev/
+  quote: Yes. Blended rates are Frankfurter's own calculation and free to use.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://frankfurter.dev/
+  quote: Storing daily observations locally for caching or historical analytics is encouraged to keep
+    API traffic light.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://frankfurter.dev/license/
+  quote: Frankfurter doesn't own the rates, so it can't give you rights the provider doesn't. If a provider
+    publishes terms of use, they apply.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.ecb.europa.eu/services/disclaimer/html/index.en.html
+  quote: When such information is distributed or reproduced, it must appear accurately and the ECB must
+    be cited as the source.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.ecb.europa.eu/services/disclaimer/html/index.en.html
+  quote: users of this website may make free use of the information obtained directly from it
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://frankfurter.dev/license/
+  quote: Frankfurter doesn't own the rates, so it can't give you rights the provider doesn't.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://frankfurter.dev/
+  quote: Direct queries to individual provider endpoints remain subject to each provider's terms
+  checked_at: '2026-11-21'
+notes: 'Listed URL frankfurter.app/docs redirects to https://frankfurter.dev/ (v2 API; docs/FAQ at https://frankfurter.dev/,
+  terms at https://frankfurter.dev/license/). Code is MIT; rates are public data from central banks (112
+  providers in v2, ECB being the original source) and each provider''s own terms apply, so there is no
+  single data licence. ECB terms (copyright page): free use if accurate and ECB cited as source; if incorporated
+  in documents that are sold, buyers must be told it is free from the ECB site. Other providers (e.g.
+  Fed, BoE-type sources, Coin Metrics, IMF) have their own terms linked from the licence page and were
+  NOT checked; verdict covers ECB-sourced rates only. FAQ: direct provider endpoints stay subject to provider
+  terms, blended rates are Frankfurter''s own calculation. Self-hostable via Docker. No SLA.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'No single data licence: Frankfurter says provider terms apply, 112 providers, many
+  unchecked; ECB terms add conditions (accurate reproduction, cite source, notice to buyers if sold);
+  Direct provider endpoints stay under provider terms | applied: commercial_use=ambiguous, attribution_required=yes'

@@ -1,0 +1,76 @@
+id: eventbrite
+name: Eventbrite
+url: https://www.eventbrite.com/platform/api/
+category: Events
+description: Find events
+description_source: upstream
+auth: OAuth
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Eventbrite
+  url: https://www.eventbrite.com/platform/api/
+  category: Events
+- list: public-api-lists
+  name: Eventbrite
+  url: https://www.eventbrite.com/developer/v3/
+  category: Events
+link_status: redirect
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: -> https://www.eventbrite.com/platform/new/api/
+commercial_use_scope: any
+cache_limit: May store Site Content for future events only; no past-event content without explicit user
+  permission; delete stored Content within 30 days of termination
+api_terms_url: https://support.eventbrite.com/hc/en-us/articles/34860283116434-API-Terms-of-Use
+attribution_text: Show the event title and a crawlable direct link (no nofollow) to the event's Eventbrite
+  page
+rate_limits: 1000 calls per hour per OAuth token
+notes: API Terms of Use (last updated 30 May 2025; read via Playwright, curl 403; /platform/api-user-agreement/
+  and /platform/api/ redirect/lead to the new platform docs). Licence is to build an Application; resale
+  or use "for direct commercial or monetary gain" is prohibited, while indirect gain from supporting the
+  Application is allowed, so ad/affiliate monetisation is a grey area (ambiguous). Terms are written around
+  organizer/User content and OAuth tokens (auth stays OAuth); this is partly an account-scoped API, and
+  which endpoints expose public event search was not verified. Eventbrite trademarks may not be used.
+evidence:
+- field: commercial_use
+  url: https://support.eventbrite.com/hc/en-us/articles/34860283116434-API-Terms-of-Use
+  quote: for direct commercial or monetary gain (as opposed to indirect commercial or monetary gain associated
+    with supporting your Application)
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://support.eventbrite.com/hc/en-us/articles/34860283116434-API-Terms-of-Use
+  quote: you may store Site Content relating to future events, but you may not store any Site Content
+    relating to events that have occurred
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://support.eventbrite.com/hc/en-us/articles/34860283116434-API-Terms-of-Use
+  quote: your Application must display the event title and display a direct link to the Eventbrite webpage
+    associated with that event on the Services.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://support.eventbrite.com/hc/en-us/articles/34860283116434-API-Terms-of-Use
+  quote: The link may not include a "nofollow" attribute and must be crawlable by search engines.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://support.eventbrite.com/hc/en-us/articles/34860283116434-API-Terms-of-Use
+  quote: The rate limit is 1000 calls per hour on each OAuth token.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read API Terms via Playwright. 3.1: store only future-event content; 3.x prohibits
+  to ''use the Eventbrite APIs or Site Content on a stand-alone basis or for timesharing, service bureau
+  or other commercial purposes for direct commercial or monetary gain'' (indirect gain from supporting
+  your Application allowed) and to build a product competing with Eventbrite. Ad/affiliate event-listing
+  site like'

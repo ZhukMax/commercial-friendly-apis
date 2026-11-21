@@ -1,0 +1,62 @@
+id: vocaflare-clips
+name: VocaFlare Clips
+url: https://clips.vocaflare.com/
+category: Dictionaries
+description: YouTube clips where a word is spoken, with the exact second and transcript line
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: VocaFlare Clips
+  url: https://clips.vocaflare.com/
+  category: Dictionaries
+link_status: alive
+data_license: unknown
+commercial_use: paid-only
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: high
+link_checked_at: '2026-11-21'
+api_terms_url: https://clips.vocaflare.com/legal/terms
+commercial_use_scope: paid
+cache_limit: May store API responses only while the plan is active
+attribution_text: Source channel name with link to the video, plus visible "Clips by VocaFlare" link to
+  https://clips.vocaflare.com where clips appear (waivable on Enterprise)
+share_alike: unknown
+rate_limits: Trial 500/month; Starter 2,000/day ($19.99/mo); Growth 25,000/day ($99.99/mo)
+evidence:
+- field: commercial_use
+  url: https://clips.vocaflare.com/legal/terms
+  quote: The trial plan is free and for evaluation only; commercial traffic needs a paid plan.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://clips.vocaflare.com/legal/terms
+  quote: You may store API responses, query them and build products on them while your plan is active.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://clips.vocaflare.com/legal/terms
+  quote: You may store API responses, query them and build products on them while your plan is active.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://clips.vocaflare.com/legal/terms
+  quote: a visible "Clips by VocaFlare" link to https://clips.vocaflare.com where clips appear
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://clips.vocaflare.com/pricing
+  quote: Starter One app or site in production. 2,000 / day
+  checked_at: '2026-11-21'
+notes: 'Metadata-only API (clip ids, CEFR levels, transcript cues, word timestamps); video playback must
+  use the official YouTube embed under YouTube terms, and clips can disappear when owners remove them.
+  Trial is evaluation only; Starter/Growth plans list Commercial use = Yes with attribution required.
+  Prohibited: reselling/redistributing the index as a dataset, bulk dumps, competing clip index, hiding
+  the player branding. Transcripts are YouTube automatic captions; third-party creator rights not assessed.
+  Terms and pricing pages read from clips.vocaflare.com. Data licence not stated on a page read; characterised
+  as: proprietary (VocaFlare Clips index); videos belong to their creators on YouTube.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

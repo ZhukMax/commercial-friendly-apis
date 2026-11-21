@@ -1,0 +1,29 @@
+id: apilayer-languagelayer
+name: apilayer languagelayer
+url: https://languagelayer.com/
+category: Text Analysis
+description: Language Detection JSON API supporting 173 languages
+description_source: upstream
+auth: OAuth
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: apilayer languagelayer
+  url: https://languagelayer.com/
+  category: Text Analysis
+- list: public-api-lists
+  name: languagelayer
+  url: https://languagelayer.com
+  category: Data Validation
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

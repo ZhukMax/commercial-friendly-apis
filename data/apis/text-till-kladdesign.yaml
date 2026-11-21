@@ -1,0 +1,41 @@
+id: text-till-kladdesign
+name: Text-till-Kladdesign
+url: https://text-till-klad-design.gracestack.se/api/v1/openapi.json
+category: Art & Design
+description: AI fashion design generator — transform Swedish text into clothing concepts
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Text-till-Kladdesign
+  url: https://text-till-klad-design.gracestack.se/api/v1/openapi.json
+  category: Art & Design
+link_status: alive
+data_license: unknown
+commercial_use: paid-only
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://text-till-klad-design.gracestack.se/api/pricing
+commercial_use_scope: paid
+notes: 'No terms-of-service page exists (/terms, /privacy etc. return 404). Only the OpenAPI spec and
+  the /api/pricing JSON were read: paid plans (Indie, Ateljé, API-nyckel) list ''Kommersiell licens'';
+  the free plan has 3 designs/month, low-res export and a watermark, with no commercial statement. Beta,
+  key requested via e-mail. Not a data source: AI design generator. Storage and display not addressed.'
+evidence:
+- field: commercial_use
+  url: https://text-till-klad-design.gracestack.se/api/pricing
+  quote: '"features":["API-access","50 designs","JSON-svar","Kommersiell licens"]'
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

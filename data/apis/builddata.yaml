@@ -1,0 +1,50 @@
+id: builddata
+name: BuildData
+url: https://builddata.ca
+category: Government
+description: Canadian construction and development data from 17 cities
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-api-lists
+  name: BuildData
+  url: https://builddata.ca
+  category: Government
+link_status: alive
+data_license: Per-publisher open data licences (mostly Open Government Licences)
+commercial_use: 'yes'
+storage_caching: unknown
+redistribution_display: 'yes'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://builddata.ca/licence/
+api_terms_url: https://builddata.ca/tos/
+commercial_use_scope: any
+evidence:
+- field: commercial_use
+  url: https://builddata.ca/tos/
+  quote: You may use the API to build applications, conduct research, and power internal or commercial
+    data workflows
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://builddata.ca/licence/
+  quote: Build it into your own products, reports and client deliverables.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://builddata.ca/licence/
+  quote: Each record stays under the licence its publisher chose.
+  checked_at: '2026-11-21'
+notes: ToS allow commercial workflows; forbids reselling/sublicensing raw API responses as a competing
+  data product; wholesale redistribution needs a written licence. Records keep their publisher's licence
+  (70 publishers; a few have 'none published', some require passing terms to your own customers, attribution
+  strings per publisher on the licence page). Free tier exists but 'may be withdrawn at any time'. Caching/storage
+  not addressed, so storage_caching stays unknown (verdict unknown). bulk_download=no inferred from the
+  wholesale-redistribution restriction.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: yellow

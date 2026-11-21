@@ -1,0 +1,38 @@
+id: olx-poland
+name: OLX Poland
+url: https://developer.olx.pl/api/doc
+category: Shopping
+description: Integrate with local sites by posting, managing adverts and communicating with OLX users
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: OLX Poland
+  url: https://developer.olx.pl/api/doc#section/
+  category: Shopping
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://pomoc.olx.pl/olxplhelp/s/article/Regulamin-OLX-API
+notes: Read the OLX API Terms (Regulamin OLX API, pomoc.olx.pl, in Polish) via Playwright (developer.olx.pl
+  blocks curl with CloudFront 403; one fresh context). It is an account-scoped partner API for publishing
+  and managing adverts, orders and messages on behalf of OLX users; not a public data source. The terms
+  grant a limited licence for such integrations and forbid scraping OLX content without OLX consent, competitor
+  use, and presenting users' statistics without permission. Nothing addresses commercial reuse, caching
+  or public display of OLX listing data, so core fields unknown. Needs registered Developer Account and
+  API key.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

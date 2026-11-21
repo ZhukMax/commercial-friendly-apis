@@ -1,0 +1,50 @@
+id: pumperly
+name: Pumperly
+url: https://geiserx.github.io/Pumperly/reference/api/
+category: Transportation
+description: Fuel prices and EV chargers near a point, in a map area or along a route, as GeoJSON
+description_source: upstream
+auth: none
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Pumperly
+  url: https://geiserx.github.io/Pumperly/reference/api/
+  category: Transportation
+link_status: alive
+data_license: mixed per-source upstream licences (ODbL, CC BY 4.0, dl-de/by-2-0, some non-commercial);
+  code AGPL-3.0
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: 'yes'
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+evidence:
+- field: commercial_use
+  url: https://geiserx.github.io/Pumperly/data/sources-at-a-glance/
+  quote: Non-commercial, attribution required
+  checked_at: '2026-11-21'
+- field: self_host_option
+  url: https://github.com/GeiserX/Pumperly
+  quote: Open-source fuel and EV route planner with live prices from 22 countries. Self-hostable.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://geiserx.github.io/Pumperly/data/sources-at-a-glance/
+  quote: Non-commercial, attribution required
+  checked_at: '2026-11-21'
+notes: 'Pumperly aggregates many upstream sources (sources-at-a-glance page): EV data includes Open Charge
+  Map (ODbL), BNetzA (CC BY 4.0) and Spain''s Mapa REVE listed as ''Non-commercial, attribution required'';
+  fuel price sources vary (government, community, commercial). API docs say the public instance pumperly.com
+  is unauthenticated but no terms of use for hosted data were found. Commercial use of the hosted API
+  is therefore ambiguous; self-hosting (AGPL-3.0) means you handle each source''s licence.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Evidence points toward 'cannot rely on hosted API'; self-host only with per-source
+  licence review. unknown would also be defensible.

@@ -1,0 +1,71 @@
+id: verified-supplement-data
+name: Verified Supplement Data
+url: https://verifiedsupplementdata.com/api/v1/recommend/index.json
+category: Health
+description: Supplement dosing, form comparisons and drug-nutrient interactions with PubMed citations
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: Verified Supplement Data
+  url: https://verifiedsupplementdata.com/api/v1/recommend/index.json
+  category: Health
+link_status: redirect
+data_license: CC-BY-4.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: -> https://verifiedsupplementdata.com/api/v1/openapi.json
+commercial_use_scope: any
+share_alike: 'no'
+data_license_url: https://verifiedsupplementdata.com/data/
+api_terms_url: https://verifiedsupplementdata.com/terms/
+attribution_text: Verified Supplement Data (link back to the page the data came from)
+notes: 'About and Free Dataset pages state the site''s data is CC BY 4.0 and free to use commercially
+  with credit; Terms say research is free to cite/quote/embed with attribution and a link, and forbid
+  scraping at a rate that degrades the site. The pages do not name the /api/v1 JSON endpoints specifically
+  (OpenAPI says ''for AI assistant integration''), so applying the site-wide CC BY statement to the API
+  is an inference. Aggregator: prices come from Amazon/brand sites and label data from NIH DSLD, PubMed,
+  NSF, USP; upstream terms (notably Amazon price data) may be stricter. The listed URL redirects within
+  the same site to the OpenAPI document.'
+evidence:
+- field: data_license
+  url: https://verifiedsupplementdata.com/about/
+  quote: Our data is free to reuse under CC BY 4.0.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://verifiedsupplementdata.com/data/
+  quote: You're free to use it commercially, remix it, and build on it — just credit the source.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://verifiedsupplementdata.com/data/
+  quote: You're free to use it commercially, remix it, and build on it — just credit the source.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://verifiedsupplementdata.com/data/
+  quote: You're free to use it commercially, remix it, and build on it — just credit the source.
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://verifiedsupplementdata.com/data/
+  quote: You're free to use it commercially, remix it, and build on it — just credit the source.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://verifiedsupplementdata.com/terms/
+  quote: Our research is free to cite, quote and embed with attribution and a link back to the page it
+    came from.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Listed URL is an OpenAPI doc; documented endpoint is the form-classifier (own editorial
+  data). Data page says CC BY 4.0 but also lists Amazon-sourced prices/ASINs (price_usd): Amazon terms
+  unread, avoid redistributing price fields. Terms forbid scraping at degrading rate and implying endorsement.'

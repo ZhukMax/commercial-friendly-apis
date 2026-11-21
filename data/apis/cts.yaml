@@ -1,0 +1,31 @@
+id: cts
+name: CTS
+url: https://api.cts-strasbourg.eu/
+category: Transportation
+description: CTS Realtime API
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: CTS
+  url: https://api.cts-strasbourg.eu/
+  category: Transportation
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://api.cts-strasbourg.eu/index.html
+notes: The Swagger page (api.cts-strasbourg.eu/index.html) says a token from the CTS Open Data account is required and asks for good use, but states no licence or terms. The CTS open-data page (cts-strasbourg.eu/fr/open-data/)
+  only shows a login form and asks to email open-data@cts-strasbourg.fr; opendata.cts-strasbourg.eu is a bare file index. Terms apparently sit behind the account login, so all unknown. Page read with Playwright
+  (api page) and curl.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

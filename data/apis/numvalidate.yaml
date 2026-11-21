@@ -1,0 +1,41 @@
+id: numvalidate
+name: NumValidate
+url: https://numvalidate.com
+category: Data Validation
+description: Open Source phone number validation
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-api-lists
+  name: NumValidate
+  url: https://numvalidate.com
+  category: Data Validation
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: 'yes'
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://numvalidate.com/
+evidence:
+- field: self_host_option
+  url: https://numvalidate.com/
+  quote: you're free to install it in your own server
+  checked_at: '2026-11-21'
+notes: Phone-number validation powered by Google libphonenumber; site says it is open source (GitHub repo
+  mmazzarolo/numvalidate, licence Apache-2.0 per the GitHub API, code only, not a data licence). The home
+  page now carries a banner saying the free service is being moved to numverify.com and requires a numverify
+  account; numverify terms were NOT read and not assumed to be the same, so the hosted API terms are unknown
+  (auth may now be apiKey). No terms of service page exists (/terms returns 404).
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

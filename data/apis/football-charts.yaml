@@ -1,0 +1,57 @@
+id: football-charts
+name: Football Charts
+url: https://www.football-charts.com/developers
+category: Sports & Fitness
+description: Tables, results, model probabilities and Monte Carlo season projections for 93 leagues
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Football Charts
+  url: https://www.football-charts.com/developers
+  category: Sports & Fitness
+link_status: alive
+data_license: proprietary (football-charts.com Terms; licence per plan)
+commercial_use: paid-only
+storage_caching: unknown
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.football-charts.com/terms
+commercial_use_scope: paid
+attribution_text: Data by football-charts.com
+share_alike: unknown
+rate_limits: Free key 200/day, Personal 5,000/day, Commercial 25,000/day (per email address)
+evidence:
+- field: commercial_use
+  url: https://www.football-charts.com/terms
+  quote: 'Commercial plan: needed for anything other people use, such as an app, website, bot or channel,
+    whether you charge for it or not.'
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.football-charts.com/terms
+  quote: also lets you show the data and our predictions to the users of your app, website, bot or channel
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.football-charts.com/terms
+  quote: credited "Data by football-charts.com"
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.football-charts.com/terms
+  quote: Data downloads and paid API access are licensed to one person, or one team inside one organisation.
+  checked_at: '2026-11-21'
+notes: 'Read the Terms and the developers page. Free key and Personal plan are personal use only; anything
+  other people use (app, site, bot, channel) needs the Commercial plan (25,000 requests/day, price on
+  the developers page, EUR 390/year invoice option). Commercial plan allows showing data and predictions
+  to users with the credit ''Data by football-charts.com''. Redistribution of files, raw API responses
+  or substantial extracts as dataset/feed/API is forbidden without a written licence. Storage/caching
+  is not addressed. Odds archive prices are bookmakers'' publicly displayed listings compiled from comparison
+  pages: upstream rights may be stricter.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

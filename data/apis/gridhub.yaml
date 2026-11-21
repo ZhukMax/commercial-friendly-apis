@@ -1,0 +1,45 @@
+id: gridhub
+name: GridHub
+url: https://grid-hub.app/developers
+category: Environment
+description: Live wholesale electricity prices and demand across 25 grid zones
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: GridHub
+  url: https://grid-hub.app/developers
+  category: Environment
+link_status: alive
+data_license: Per upstream source (EIA public domain, ENTSO-E CC-BY-4.0, NESO Open Licence, Elexon, AEMO); no GridHub-own licence stated
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://grid-hub.app/terms
+rate_limits: 'Free key: 500 requests/day; paid per call ($0.001+) via x402'
+evidence:
+- field: attribution_required
+  url: https://grid-hub.app/terms
+  quote: If you redistribute data obtained through GridHub, you are responsible for complying with the relevant source's attribution requirements.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://grid-hub.app/developers
+  quote: Sign up below in ten seconds — 500 requests a day, sent as a bearer header.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://grid-hub.app/terms
+  quote: Each upstream data source carries its own license (see the Sources page).
+  checked_at: '2026-11-21'
+notes: 'Read GridHub Terms of service (short), /developers and /sources (JS-rendered, read via Playwright). Terms say data is as-is from public grid operators, each source carries its own licence (listed
+  on /sources: EIA public domain, ENTSO-E CC-BY-4.0, NESO Open Licence, Elexon open with attribution, AEMO attribution), and you must follow the source attribution when redistributing. They do not state
+  whether commercial use or caching is allowed under the free key, so core fields stay unknown. Terms reserve the right to block abuse of the free tier.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -1,0 +1,42 @@
+id: carvector
+name: CarVector
+url: https://carvector.io/docs
+category: Vehicle
+description: Vehicle specs, images, recalls, and DTC codes across 1925-2029
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: CarVector
+  url: https://carvector.io/docs
+  category: Vehicle
+link_status: alive
+data_license: proprietary (CarVector Acceptable Use / Terms of Service)
+commercial_use: unknown
+storage_caching: limited
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://carvector.io/legal/acceptable-use
+api_terms_url: https://carvector.io/legal/terms
+cache_limit: 'Free/Developer/Pro: transient in-memory caching for one end-user session only; persistent storage on Business/Enterprise tiers'
+evidence:
+- field: storage_caching
+  url: https://carvector.io/legal/acceptable-use
+  quote: may not cache, store, replicate, warehouse, or redistribute CarVector Data beyond transient in-memory caching for the duration of a single end-user session.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://carvector.io/legal/acceptable-use
+  quote: Persistent storage, caching rights, and bulk export are available on the Business and Enterprise tiers.
+  checked_at: '2026-11-21'
+notes: 'Read Terms of Service and the Acceptable Use policy (section 3A API & Data Use). Free, Developer and Pro plans: no caching/storing/redistribution beyond transient in-memory per end-user session,
+  no bulk scraping; persistent storage and bulk export only on Business/Enterprise; no competing use or repackaging/reselling. Nothing found on whether commercial websites are allowed, how data may be displayed,
+  or attribution, so commercial_use, redistribution_display and attribution stay unknown. Images are labelled illustrations; their rights not assessed.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -1,0 +1,78 @@
+id: transport-for-uk
+name: Transport for UK
+url: https://developer.transportapi.com
+category: Transportation
+description: Transport API and dataset for UK
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Transport for UK
+  url: https://developer.transportapi.com
+  category: Transportation
+link_status: alive
+data_license: modified Open Government Licence for most data; third-party commercial data under TransportAPI
+  Licence
+commercial_use: 'yes'
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.transportapi.com/terms/
+commercial_use_scope: any
+rate_limits: 'Free plan: 30 hits/day; paid plans higher'
+evidence:
+- field: commercial_use
+  url: https://www.transportapi.com/terms/
+  quote: licence for any purpose of commercial or non-commercial re-use
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.transportapi.com/terms/
+  quote: You can copy it, display it, store and cache it
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.transportapi.com/terms/
+  quote: access, use, copy and display Data from the TransportAPI Managed services on any device
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.transportapi.com/terms/
+  quote: The Registered Services User shall acknowledge TransportAPI as the source of any service created
+    using Data from TransportAPI
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.transportapi.com/terms/
+  quote: sourced from open data published by government agencies or partners on a modified Open Government
+    Licence
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://developer.transportapi.com/
+  quote: Free plan which gives you 30 hits per day for free forever
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.transportapi.com/terms/
+  quote: licence for any purpose of commercial or non-commercial re-use, by the Registered Services User,
+    during the Term only
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.transportapi.com/terms/
+  quote: free access to a limited and discretionary version of
+  checked_at: '2026-11-21'
+notes: Read the Free-plan Services Agreement and TransportAPI Licence (Schedule 4) at transportapi.com/terms.
+  Licence is revocable and during the Term only; authorised users capped (5); no resale/third-party access.
+  Most data is from open government sources (modified OGL), some from commercial partners under the same
+  TransportAPI Licence; per-source terms not checked. Free plan quota is only 30 hits/day, so practical
+  use needs a paid plan (paid terms are in a PDF, not read).
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Free plan is only 30 hits/day and ''limited and discretionary''; paid terms are in
+  an unread PDF; Licence is revocable and valid ''during the Term only'', which weakens the storage/caching
+  claim; Some data comes from commercial partners under the same licence; per-source terms unread | applied:
+  storage_caching=limited'

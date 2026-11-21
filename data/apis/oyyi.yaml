@@ -1,0 +1,26 @@
+id: oyyi
+name: oyyi
+url: https://oyyi.xyz/docs/1.0
+category: Development
+description: API for Fake Data, image/video conversion, optimization, pdf optimization and thumbnail generation
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: oyyi
+  url: https://oyyi.xyz/docs/1.0
+  category: Development
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://oyyi.xyz/docs

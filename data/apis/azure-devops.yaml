@@ -1,0 +1,26 @@
+id: azure-devops
+name: Azure DevOps
+url: https://docs.microsoft.com/en-us/rest/api/azure/devops
+category: Development
+description: The Azure DevOps basic components of a REST API request/response pair
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Azure DevOps
+  url: https://docs.microsoft.com/en-us/rest/api/azure/devops
+  category: Development
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://learn.microsoft.com/en-us/rest/api/azure/devops

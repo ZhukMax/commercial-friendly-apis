@@ -1,0 +1,25 @@
+id: wit-ai
+name: Wit.ai
+url: https://wit.ai/
+category: Machine Learning
+description: Natural Language Processing
+description_source: upstream
+auth: OAuth
+https: true
+cors: unknown
+sources:
+- list: public-api-lists
+  name: Wit.ai
+  url: https://wit.ai/
+  category: Machine Learning
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

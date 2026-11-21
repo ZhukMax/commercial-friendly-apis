@@ -1,0 +1,49 @@
+id: football-data
+name: Football-Data
+url: https://www.football-data.org
+category: Sports & Fitness
+description: Football data with matches info, players, teams, and competitions
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Football-Data
+  url: https://www.football-data.org
+  category: Sports & Fitness
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: limited
+redistribution_display: unknown
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.football-data.org/client/register
+cache_limit: No referencing of the data on your site after the subscription is cancelled
+attribution_text: Football data provided by the Football-Data.org API (footer, about page or other visible
+  place)
+evidence:
+- field: attribution_required
+  url: https://www.football-data.org/client/register
+  quote: 'You agree to include the following attribution to Football-Data in your app or website: "Football
+    data provided by the Football-Data.org API"'
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.football-data.org/client/register
+  quote: After cancellation of the subscription to the Service, the Customer is not permitted to reference
+    the football data
+  checked_at: '2026-11-21'
+notes: 'Read the General Terms and Conditions (shown on the registration page; /terms is 404) and the
+  pricing page. Terms: free forever tier plus paid tiers; one API key per single application/domain; attribution
+  is mandatory; after cancelling a subscription the data may no longer be referenced on the customer''s
+  site; logos and photos belong to third parties. The terms never say whether commercial use (ads, affiliate
+  links) is allowed on the free or paid tiers, and do not address caching or redistribution explicitly,
+  so commercial_use stays unknown. Data covers third-party competitions: upstream rights may be stricter.
+  Free tier covers a limited set of competitions.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

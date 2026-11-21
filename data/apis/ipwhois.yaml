@@ -1,0 +1,59 @@
+id: ipwhois
+name: ipwhois
+url: https://ipwhois.io/documentation
+category: Geocoding
+description: IP geolocation with country, city, coordinates, ISP, timezone and flag data
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: ipwhois
+  url: https://ipwhois.io/documentation
+  category: Geocoding
+link_status: alive
+data_license: unknown
+commercial_use: 'yes'
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://ipwhois.io/terms
+commercial_use_scope: any
+rate_limits: 'Free endpoint: 1,000 requests/day per client IP'
+evidence:
+- field: commercial_use
+  url: https://ipwhois.io/documentation
+  quote: Free endpoint $0 Great for testing, learning, prototyping, and small projects. 1,000 requests
+    / day Commercial use allowed
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://ipwhois.io/terms
+  quote: copy, modify, resell, sublicense, or redistribute our materials or services without our prior
+    written permission
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://ipwhois.io/documentation
+  quote: The Free endpoint is limited to 1,000 requests per day per client IP address.
+  checked_at: '2026-11-21'
+notes: The documentation pricing blurb says "Commercial use allowed" for both the free and Pro endpoints.
+  The Terms of Service (updated May 21, 2026) grant a licence for "personal or internal business purposes"
+  and forbid copying, reselling, sublicensing or redistributing the materials or services, and mirroring
+  them on other platforms, without written permission. It is unclear whether showing looked-up geolocation
+  on public pages to visitors counts as redistribution, so redistribution_display is ambiguous. Caching/storage
+  and attribution are not addressed. Data sources are public registries (RIPE, APNIC, ARIN, AFRINIC) and
+  unnamed third-party providers; no data licence stated.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read /terms via Playwright (updated 21 May 2026) and /documentation. Both pages
+  are internally consistent enough: commercial use yes (docs), but showing results to the public is not
+  explicitly covered; the ToS forbids ''transfer, mirror, frame, or make our materials or services available
+  on other servers or platforms''. Evidence leans permissive for per-visitor lookups, restrictive for
+  republishi'

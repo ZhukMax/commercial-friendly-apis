@@ -1,0 +1,55 @@
+id: open-exchange-rates
+name: Open Exchange Rates
+url: https://docs.openexchangerates.org/
+category: Currency Exchange
+description: Live and historical exchange rates for 200+ currencies with free tier
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Open Exchange Rates
+  url: https://docs.openexchangerates.org/
+  category: Currency Exchange
+link_status: redirect
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://docs.openexchangerates.org/reference/api-introduction
+api_terms_url: https://openexchangerates.org/terms
+evidence:
+- field: commercial_use
+  url: https://openexchangerates.org/terms
+  quote: If you are a private consumer user, please note that we only provide our site for domestic and
+    private use.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://openexchangerates.org/terms
+  quote: You agree not to use our site for any commercial or business purposes, and we have no liability
+    to you for any loss of profit
+  checked_at: '2026-11-21'
+notes: 'Read: openexchangerates.org/terms (Terms of Website Use, whose ''site'' includes the API), /acceptable-use,
+  /services-agreement, /signup (pricing), docs intro. The only commercial-use wording is a consumer clause
+  (''private consumer user ... domestic and private use ... not use our site for any commercial or business
+  purposes''); no page states that business or ad-supported use is allowed or forbidden, no free-tier
+  non-commercial clause was found, and no clause on caching, display or attribution was found. Pricing
+  says paid plans are ''for startups, small projects and growing businesses''. Hence ambiguous, others
+  unknown. Acceptable Use bans reproducing/re-selling ''any part of our site'' in breach of the terms.
+  Data is blended from multiple providers (upstream terms not checked). Old /license page says the License
+  Agreement was replaced by the Terms of Website Use.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read /terms, /acceptable-use, /services-agreement, /signup. Terms: ''private consumer
+  user ... not for commercial or business purposes''. Services Agreement s2 sells only to business customers
+  and s8 licenses ''reasonable use'' per Terms of Website Use and AUP, so paid business use looks intended;
+  free-plan commercial use never stated. Lean: paid plans OK, free tier unclear. Ambiguous stands (yello'

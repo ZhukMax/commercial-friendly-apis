@@ -1,0 +1,64 @@
+id: cazimi
+name: Cazimi
+url: https://cazimi.live/methodology
+category: Science & Math
+description: Planetary retrograde stations, shadows and cazimi to the minute (JPL DE421)
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Cazimi
+  url: https://cazimi.live/methodology#api
+  category: Science & Math
+link_status: alive
+data_license: unknown
+commercial_use: 'yes'
+storage_caching: ambiguous
+redistribution_display: 'yes'
+attribution_required: ambiguous
+bulk_download: 'yes'
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://creativecommons.org/licenses/by/4.0/
+api_terms_url: https://cazimi.live/terms
+commercial_use_scope: any
+attribution_text: A link to cazimi.live where people can see it
+share_alike: unknown
+rate_limits: No key, no account; no numeric limit stated on pages read
+evidence:
+- field: commercial_use
+  url: https://cazimi.live/integrations
+  quote: 'Yes: no key, no account, open CORS, for personal and commercial use.'
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://cazimi.live/integrations
+  quote: A link to cazimi.live where people can see it is all we ask.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://cazimi.live/methodology
+  quote: If you publish these times, please link to cazimi.live.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://cazimi.live/terms
+  quote: You may not copy, modify, or distribute them without our written permission.
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://cazimi.live/methodology
+  quote: 'Every Mercury retrograde from 1900 to 2050: /v1/mercury/cycles-1900-2050.json'
+  checked_at: '2026-11-21'
+notes: 'Small single-author service. Integrations/FAQ page says the API is free for personal and commercial
+  use and asks (not requires) a link to cazimi.live. The methodology page declares the dataset as CC BY
+  4.0 only in hidden JSON-LD metadata (license: creativecommons.org/licenses/by/4.0/), not in visible
+  text, so data_license is left unknown. The Terms of Use page (app + site) has a generic IP clause saying
+  content may not be copied, modified or distributed without written permission; it does not mention the
+  API, so caching/storage is ambiguous (CC BY dataset declaration vs generic clause). Terms are one page,
+  informal; no explicit caching rule. share_alike left unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Dataset CC BY 4.0 is declared only in JSON-LD. Yellow stands for storage ambiguity.

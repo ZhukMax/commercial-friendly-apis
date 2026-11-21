@@ -1,0 +1,26 @@
+id: octocrawl
+name: Octocrawl
+url: https://octocrawl.dev/docs/reference/
+category: Development
+description: 'Web pages as Markdown or JSON with an Evidence Record: final URL, HTTP status, robots.txt,
+  hashes'
+description_source: upstream
+auth: none
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Octocrawl
+  url: https://octocrawl.dev/docs/reference/
+  category: Development
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

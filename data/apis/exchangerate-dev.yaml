@@ -1,0 +1,56 @@
+id: exchangerate-dev
+name: Exchangerate.dev
+url: https://exchangerate.dev/docs
+category: Currency Exchange
+description: Live & historical FX, 168 pairs back to 1999, Frankfurter-compatible, free 10k/mo
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Exchangerate.dev
+  url: https://exchangerate.dev/docs
+  category: Currency Exchange
+- list: public-api-lists
+  name: Exchangerate.dev
+  url: https://exchangerate.dev/docs
+  category: Currency Exchange
+link_status: alive
+data_license: unknown
+commercial_use: 'yes'
+storage_caching: unknown
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+commercial_use_scope: any
+attribution_text: Rates by Exchangerate.dev (visible link to https://exchangerate.dev next to the rates;
+  free plan only)
+api_terms_url: https://exchangerate.dev/terms
+evidence:
+- field: commercial_use
+  url: https://exchangerate.dev/docs
+  quote: 'Commercial display on your own website or app: Free requires visible linked credit near rates.'
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://exchangerate.dev/terms
+  quote: Paid plans allow display to your own end users on your own website or app, including commercially,
+    with no credit required
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://exchangerate.dev/docs
+  quote: Display needs visible linked credit near rates.
+  checked_at: '2026-11-21'
+notes: 'ToS (revised 2026-11-13, section 2) and docs: commercial display on own site/app allowed; Free
+  plan needs a visible linked credit ''Rates by Exchangerate.dev'', paid plans need none. Forbidden: reselling/redistributing
+  raw or derived rate data via your own API, SDK, feed or dataset; scraping/bulk export beyond plan; building
+  a competing feed. Rates are ''indicative'', not for trading/settlement. Nothing found on storing/caching
+  on your side, so storage_caching unknown (verdict unknown). Data derived from live market data and public
+  reference rates (central banks); upstream terms not checked. Free keyless callers get 15-minute-delayed
+  live rates.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -1,0 +1,70 @@
+id: pontofato
+name: PontoFato
+url: https://pontofato.com/api/
+category: Geocoding
+description: Brazilian postal codes (CEP) with IBGE coordinates, addresses and the companies registered there
+description_source: upstream
+auth: none
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: PontoFato
+  url: https://pontofato.com/api/
+  category: Geocoding
+link_status: alive
+data_license: ODbL-1.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://pontofato.com/termos
+data_license_url: https://opendatacommons.org/licenses/odbl/1-0/
+commercial_use_scope: any
+share_alike: 'yes'
+attribution_text: Credit PontoFato with a link to the source page
+rate_limits: 'Free: neighbourhood lookups 10/day; reading public datasets via API free up to 1,000 reads/day'
+evidence:
+- field: commercial_use
+  url: https://pontofato.com/termos
+  quote: Use, compartilhe e adapte, até para fins comerciais, com crédito ao PontoFato e link para a página de origem.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://pontofato.com/termos
+  quote: Os dados públicos de /enderecos/ estão sob a licença ODbL 1.0
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://opendatacommons.org/licenses/odbl/summary/
+  quote: 'To share : To copy, distribute and use the database.'
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://pontofato.com/termos
+  quote: Use, compartilhe e adapte, até para fins comerciais, com crédito ao PontoFato e link para a página de origem.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://pontofato.com/termos
+  quote: Use, compartilhe e adapte, até para fins comerciais, com crédito ao PontoFato e link para a página de origem.
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://pontofato.com/termos
+  quote: A base derivada que você publicar segue a mesma licença.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://pontofato.com/termos
+  quote: Ler os acervos pela API é grátis até 1.000 leituras por dia
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://pontofato.com/termos
+  quote: A vizinhança tem 10 consultas grátis por dia
+  checked_at: '2026-11-21'
+notes: 'Pages read (Portuguese): Termos de uso, API catalogue/llms.txt. The terms state the public /enderecos/ data is ODbL 1.0 and may be used, shared and adapted, even commercially, with credit and a
+  link; a published derived database must stay under the same licence (share-alike, hence yellow). The licence explicitly does not cover personal data (LGPD) or the paid resources (neighbourhood beyond
+  free quota, reports). Company (CNPJ) data in /api/cep comes from Receita Federal public registries; the ODbL statement names /enderecos/ only, so scope of the free /api/cep lookup is not 100% clear. Storage
+  rests on ODbL summary (copy/use database) applied by the site statement. Upstream cors "no" not re-checked; the catalogue says free lookups send Access-Control-Allow-Origin: *.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

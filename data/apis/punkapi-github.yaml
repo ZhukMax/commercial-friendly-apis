@@ -1,0 +1,35 @@
+id: punkapi-github
+name: PunkAPI
+url: https://github.com/alxiw/punkapi
+category: Food & Drink
+description: BrewDog's DIY Dog beer catalogue as an API
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: PunkAPI
+  url: https://github.com/alxiw/punkapi
+  category: Food & Drink
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: 'yes'
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+evidence:
+- field: self_host_option
+  url: https://raw.githubusercontent.com/alxiw/punkapi/HEAD/LICENSE
+  quote: Permission is hereby granted, free of charge, to any person obtaining a copy
+  checked_at: '2026-11-21'
+notes: Read the GitHub README and LICENSE (https://github.com/alxiw/punkapi). The MIT licence covers the code (self-hostable). The served content is BrewDog's DIY Dog beer catalogue (recipes, descriptions,
+  images from BrewDog's own catalogue PDF), whose rights belong to BrewDog and are not addressed; hosted API at punkapi.dev has no terms page that was read. Commercial use, storage, display, attribution
+  unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -1,0 +1,34 @@
+id: hostdefi
+name: HostDeFi
+url: https://hostdefi.com/docs/api/
+category: Cryptocurrency
+description: Free A+–F token-safety grades across Solana and EVM chains
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: HostDeFi
+  url: https://hostdefi.com/docs/api/
+  category: Cryptocurrency
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://nexflowscan.com/docs/api/
+notes: 'Docs URL 301-redirects to https://nexflowscan.com/docs/api/ (NexFlow Token Risk API); hostdefi.com
+  itself serves NexFlow-branded pages. No page read says NexFlow is the same service as HostDeFi or replaces
+  it, so nothing is transferred. For information only: NexFlow ToS (nexflowscan.com/terms, last updated
+  2026-10-07) says token-safety grades are informational and site content may not be reproduced at scale
+  without permission; it has no data-reuse, caching or commercial-use clause. All terms fields unknown.
+  Aggregates on-chain/market data; upstream terms may be stricter.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

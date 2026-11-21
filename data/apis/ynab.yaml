@@ -1,0 +1,52 @@
+id: ynab
+name: YNAB
+url: https://api.youneedabudget.com/
+category: Finance
+description: Budgeting & Planning
+description_source: upstream
+auth: OAuth
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: YNAB
+  url: https://api.youneedabudget.com/
+  category: Finance
+- list: public-api-lists
+  name: YNAB
+  url: https://api.youneedabudget.com/
+  category: Finance
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://api.ynab.com/
+share_alike: unknown
+evidence:
+- field: commercial_use
+  url: https://api.ynab.com/
+  quote: access, aggregate, or analyze YNAB user data if the data will be sold to a third party
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://api.ynab.com/
+  quote: A guarantee that the data obtained through the YNAB API will not unknowingly be passed to any
+    third party
+  checked_at: '2026-11-21'
+notes: Read API Terms of Service and OAuth Application Requirements (last updated 2025-05-28) in the API
+  docs. This is a personal-finance API returning the authorising user's own budget data, not a public
+  dataset, so the usual commercial-site model does not apply. Terms do not state whether commercial apps
+  are allowed; they forbid aggregating/analysing user data that will be sold to third parties, require
+  a privacy policy disclosing storage/retention, deletion on request and a mandatory non-affiliation footer
+  text; app names must not use YNAB except "for YNAB". Core fields unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

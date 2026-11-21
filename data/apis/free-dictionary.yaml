@@ -1,0 +1,35 @@
+id: free-dictionary
+name: Free Dictionary
+url: https://dictionaryapi.dev/
+category: Dictionaries
+description: Definitions, phonetics, pronunciations, parts of speech, examples, synonyms
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Free Dictionary
+  url: https://dictionaryapi.dev/
+  category: Dictionaries
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://dictionaryapi.dev/
+evidence: []
+notes: Site (dictionaryapi.dev) and GitHub README state only that the API is free ("always will be") and
+  invite use in games and learning applications; no terms of service, data licence or attribution rule.
+  The repo meetDeveloper/freeDictionaryAPI is GPL-3.0 (code only) and its topics include google-dictionary
+  and scraper, i.e. the entries (definitions, origins, audio on ssl.gstatic.com) appear to come from a
+  third-party source whose rights are unknown. Nothing proven, so all terms unknown; treat as risky for
+  commercial use until the data source is clarified.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -1,0 +1,58 @@
+id: deep-blue-alpha
+name: Deep Blue Alpha
+url: https://deepbluealpha.io/whale-api
+category: Cryptocurrency
+description: Real-time Ethereum whale wallet tracking, DEX trades, net flow, and conviction scoring
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Deep Blue Alpha
+  url: https://deepbluealpha.io/whale-api
+  category: Cryptocurrency
+link_status: alive
+data_license: proprietary (analytics); underlying blockchain data public
+commercial_use: paid-only
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://deepbluealpha.io/terms
+commercial_use_scope: paid
+attribution_text: 'Data: Deep Blue Alpha'
+evidence:
+- field: commercial_use
+  url: https://deepbluealpha.io/whale-api
+  quote: the Business plan ($299/mo or $2,990/yr) adds commercial use inside your organization
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://deepbluealpha.io/whale-api
+  quote: raw move-level data, data files, live feeds and apps or terminals that display the data need
+    Enterprise
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://deepbluealpha.io/whale-api
+  quote: 'may publish aggregated figures and charts in newsletters, research notes and client reports
+    with the credit “Data: Deep Blue Alpha”'
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://deepbluealpha.io/terms
+  quote: Blockchain data itself is public, but our analysis, presentation, and tools are proprietary.
+  checked_at: '2026-11-21'
+notes: Whale API is personal/non-commercial; Business plan ($299/mo) adds commercial use inside the organisation
+  and publishing aggregated figures with credit; showing raw or live data in an app/terminal needs Enterprise
+  (from $999/mo, by quote). ToS clause 6 bars reselling/sublicensing API access. The separate Business
+  & API Terms (/business-terms) were NOT read. Storage/caching unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Quote: ''It does not permit redistribution, resale, public display of Raw Data or
+  use for third parties, all of which require an Enterprise plan.'' (deepbluealpha.io/business-terms).
+  Consistent with paid-only/ambiguous.'

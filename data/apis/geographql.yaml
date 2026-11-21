@@ -1,0 +1,33 @@
+id: geographql
+name: GeographQL
+url: https://geographql.netlify.app
+category: Geocoding
+description: A Country, State, and City GraphQL API
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: GeographQL
+  url: https://geographql.netlify.app
+  category: Geocoding
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: 'yes'
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+notes: 'Docs site and GitHub repo read: code is MIT-licensed (Dockerfile provided). No data source, data licence or API terms were found, so all terms fields are unknown.'
+evidence:
+- field: self_host_option
+  url: https://github.com/robertrenzorudio/geographql
+  quote: MIT license
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

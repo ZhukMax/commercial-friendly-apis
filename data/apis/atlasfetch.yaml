@@ -1,0 +1,72 @@
+id: atlasfetch
+name: AtlasFetch
+url: https://atlasfetch.xyz/docs
+category: Geocoding
+description: Reverse geocode coordinates to country, region and municipality with ISO 3166 codes
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: AtlasFetch
+  url: https://atlasfetch.xyz/docs
+  category: Geocoding
+link_status: alive
+data_license: ODbL-1.0 (OpenStreetMap-derived) plus municipal open-data terms
+commercial_use: 'yes'
+storage_caching: ambiguous
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://atlasfetch.xyz/attribution
+api_terms_url: https://atlasfetch.xyz/terms
+commercial_use_scope: any
+attribution_text: Credit line given on https://atlasfetch.xyz/attribution (OpenStreetMap contributors,
+  ODbL)
+share_alike: 'yes'
+notes: Read ToS (updated 20 Oct 2026) and the data attribution page via curl. The ToS allows building
+  products on the lookups and forbids bulk extraction or republishing the data as a dataset or reselling
+  raw API access; it says nothing about caching individual results, so storage_caching is ambiguous. Boundary/street
+  data is OSM-derived under ODbL, so attribution and share-alike pass through to the user. Municipal address
+  data (Cape Town etc.) has its own open-data terms (not assessed). Free-tier commercial scope not explicitly
+  stated; ToS has no non-commercial clause.
+evidence:
+- field: commercial_use
+  url: https://atlasfetch.xyz/terms
+  quote: Building your own product on top of AtlasFetch lookups is exactly what it is for
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://atlasfetch.xyz/terms
+  quote: do not extract the underlying data in bulk to sell or republish it as a dataset
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://atlasfetch.xyz/terms
+  quote: use the answers in your own products, but do not extract the underlying data in bulk to sell
+    or republish it as a dataset
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://atlasfetch.xyz/terms
+  quote: If you publish, redistribute or display results derived from that data, the ODbL's attribution
+    and share-alike terms apply to you as well.
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://atlasfetch.xyz/terms
+  quote: If you publish, redistribute or display results derived from that data, the ODbL's attribution
+    and share-alike terms apply to you as well.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://atlasfetch.xyz/terms
+  quote: Our administrative boundaries and street data are derived from OpenStreetMap and are made available
+    under the Open Database License (ODbL).
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read /terms s6 and s8: quotes verified; no non-commercial clause; bulk resale of
+  data forbidden; OSM-derived data ODbL share-alike. Yellow stands.'

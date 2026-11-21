@@ -1,0 +1,56 @@
+id: boston-mbta-transit
+name: Boston MBTA Transit
+url: https://www.mbta.com/developers/v3-api
+category: Transportation
+description: Stations and predicted arrivals for MBTA
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Boston MBTA Transit
+  url: https://www.mbta.com/developers/v3-api
+  category: Transportation
+- list: public-api-lists
+  name: Transport for Boston, US
+  url: https://mbta.com/developers/v3-api
+  category: Transportation
+link_status: alive
+data_license: MassDOT Developers License Agreement (proprietary, non-exclusive, revocable)
+commercial_use: unknown
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://www.mass.gov/files/documents/2017/10/27/develop_license_agree_0.pdf
+api_terms_url: https://www.mbta.com/developers/v3-api
+share_alike: unknown
+attribution_text: Clearly acknowledge MassDOT as the provider of the Data; do not use MBTA/MassDOT logos or trademarks.
+evidence:
+- field: data_license
+  url: https://www.mbta.com/developers/v3-api
+  quote: Use of MBTA data is governed by the MassDOT Developers License Agreement
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.mass.gov/files/documents/2017/10/27/develop_license_agree_0.pdf
+  quote: grants You (Licensee) non-exclusive, limited, and revocable rights to use, reproduce, and redistribute the Data.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.mass.gov/files/documents/2017/10/27/develop_license_agree_0.pdf
+  quote: grants You (Licensee) non-exclusive, limited, and revocable rights to use, reproduce, and redistribute the Data.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.mass.gov/files/documents/2017/10/27/develop_license_agree_0.pdf
+  quote: Clearly acknowledge MassDOT as the provider of the Data.
+  checked_at: '2026-11-21'
+notes: Read the MBTA developers page and the MassDOT Developers License Agreement (PDF, updated 2009; mass.gov blocks curl, read via a fresh Playwright request context). The licence grants "use,
+  reproduce, and redistribute" with no stated purpose restriction, but it never mentions commercial use explicitly, so commercial_use stays unknown (reads permissive, not confirmed). Rights are
+  revocable and terms may change without notice; logos/trademarks banned; display must follow the MBTA real-time display guidelines (not read). V3 API needs a free key for higher rates (not verified
+  here).
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

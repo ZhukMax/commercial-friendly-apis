@@ -1,0 +1,56 @@
+id: tripadvisor
+name: Tripadvisor
+url: https://developer-tripadvisor.com/home/
+category: Transportation
+description: Rating content for a hotel, restaurant, attraction or destination
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Tripadvisor
+  url: https://developer-tripadvisor.com/home/
+  category: Transportation
+link_status: alive
+data_license: proprietary (limited licence to display content in your application)
+commercial_use: paid-only
+storage_caching: 'no'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: HTTP 403 (blocked for bots, assumed alive)
+api_terms_url: https://docs.terra.tripadvisor.com/docs/api-master-terms
+commercial_use_scope: paid
+attribution_text: Tripadvisor mark and link back per Linking Policy
+rate_limits: 'Usage-based pricing: first 1,000 billable entities free, then per-entity rates'
+evidence:
+- field: storage_caching
+  url: https://docs.terra.tripadvisor.com/docs/caching-policy
+  quote: Except as explicitly provided in your contract with Tripadvisor, caching, copying, downloading, storing or indexing content is not permitted for any content
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://docs.terra.tripadvisor.com/docs/api-master-terms
+  quote: solely to (a) enable the display of the Licensed Content through the Customer Application to End Users
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://docs.terra.tripadvisor.com/docs/api-master-terms
+  quote: include a Mark (as specified by Tripadvisor) and link back to the relevant Tripadvisor Site
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://docs.terra.tripadvisor.com/docs/usage-based-pricing
+  quote: the first 1,000 billable entities for your account are free
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://docs.terra.tripadvisor.com/docs/api-master-terms
+  quote: limited, non-exclusive, worldwide, revocable (as contemplated in this Agreement), non-sublicensable, non-transferable and royalty-free license
+  checked_at: '2026-11-21'
+notes: developer-tripadvisor.com blocks bots (403). The legacy Content API docs say it is deprecated in favour of Terra, so the Terra docs were read (Master Terms apply to the Discover self-service package;
+  other customers have individual terms). Caching/storing/indexing content is not allowed (only Location ID may be cached), displays must be non-indexable by search engines, must show Tripadvisor mark/link,
+  may not alter ranking, no AI/ML use. Usage-based paid pricing after a one-time 1,000-entity free allowance. Ads/affiliate-site suitability not stated.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

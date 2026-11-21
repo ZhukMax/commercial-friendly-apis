@@ -1,0 +1,29 @@
+id: wallhaven
+name: Wallhaven
+url: https://wallhaven.cc/help/api
+category: Photography
+description: Wallpapers
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Wallhaven
+  url: https://wallhaven.cc/help/api
+  category: Photography
+- list: public-api-lists
+  name: Wallhaven
+  url: https://wallhaven.cc/help/api
+  category: Photography
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

@@ -1,0 +1,40 @@
+id: needaticket
+name: NeedATicket
+url: https://needaticket.co.uk/developers
+category: Events
+description: UK and US resale ticket prices from StubHub
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: NeedATicket
+  url: https://needaticket.co.uk/developers
+  category: Events
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://needaticket.co.uk/developers
+attribution_text: Attribute figures to NeedATicket.co.uk and link to the event page when showing a price
+notes: Read /developers (keyless price tool/JSON for assistants and apps) and /terms (consumer site terms,
+  nothing on the API). It states prices come from one marketplace, StubHub International, read through
+  its API, so StubHub API terms (not read) very likely restrict redistribution; NeedATicket gives no licence
+  for commercial reuse or storage and slows scraping tools. This is a derived resale-price feed, not a
+  primary data source. Only the attribution request is stated; all else unknown.
+evidence:
+- field: attribution_required
+  url: https://needaticket.co.uk/developers
+  quote: Please attribute the figures to NeedATicket.co.uk and link to the event page when you show a
+    price to a person.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

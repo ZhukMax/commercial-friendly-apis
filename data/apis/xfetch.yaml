@@ -1,0 +1,25 @@
+id: xfetch
+name: xfetch
+url: https://xfetch.io
+category: Social
+description: Read API for X/Twitter search, profiles, tweets, and social graph
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: xfetch
+  url: https://xfetch.io
+  category: Social
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

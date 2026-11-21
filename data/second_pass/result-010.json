@@ -1,0 +1,342 @@
+[
+ {
+  "id": "biz-collect",
+  "outcome": "confirmed",
+  "reasons": [
+   "AUP allows only internal tools/authenticated users of own product; public ad-supported display not covered",
+   "No caching clause; scraped upstream directories may be stricter"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read ToS and AUP (2026-11-21): no commercial grant and no ban; resale/redistribution of raw output prohibited. Ambiguity stands, evidence leans restrictive for public display."
+ },
+ {
+  "id": "black-history-facts",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToS silent on commercial use, caching, display",
+   "Bans reselling/redistributing/sublicensing API access and derivative works of the API"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read ToS (updated 2026-01-23). Attribution encouraged not required. No data licence. Ambiguity stands; ask owner."
+ },
+ {
+  "id": "bluerate",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToU bars commercial purpose without written consent; API subject to ToU",
+   "Developer page invites agents to show profile links but does not lift the ToU clause"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Red stands. Tension: developers page offers free keyless API for agents, but 'Use of the API is subject to the Terms of Use' and ToU 7/8.3 forbid commercial use without consent. Ask Zeitro for consent before use."
+ },
+ {
+  "id": "bookrank",
+  "outcome": "confirmed",
+  "reasons": [
+   "Open-data page: CC BY 4.0 plus bulk CSV/NDJSON downloads",
+   "Terms page: bulk copying of dataset not permitted -> conflict persists"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Per-source rating averages are said to appear only on a book's own record, never in bulk files (open-data page), which narrows upstream risk. Storage ambiguity remains because the two pages conflict."
+ },
+ {
+  "id": "botlero",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms grant reuse of own editorial work with credit and ask to cache",
+   "Quoted source sentences stay property of publishers; no explicit commercial wording (inferred)"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read /terms. No NC restriction; commercial yes is an inference from the open reuse grant. Display of third-party quoted sentences ambiguous, so yellow either way."
+ },
+ {
+  "id": "brainy-prices",
+  "outcome": "confirmed",
+  "reasons": [
+   "Own compilations CC BY 4.0 but embedded third-party figures keep own terms",
+   "KHDA tuition non-commercial; FAO figure not with affiliate links"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read data-license, api-terms and developers pages. Affiliate-link ban for FAO figures and non-commercial KHDA data are real blockers for part of the data; yellow stands."
+ },
+ {
+  "id": "brazil",
+  "outcome": "confirmed",
+  "reasons": [
+   "No formal terms ('still elaborating'), only ask not to crawl",
+   "Upstream data (Correios, Receita etc.) terms unstated"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Home page and GitHub README re-read; no licence for data."
+ },
+ {
+  "id": "brazil-receita-ws",
+  "outcome": "disputed",
+  "reasons": [
+   "Terms restrict returned data to the user's own benefit and ban any commercialisation through other sites",
+   "Even the paid Commercial API is covered by the same clause"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://www.receitaws.com.br/terms.pdf",
+    "quote": "Os dados retornados através das APIs podem ser utilizados apenas para benefício próprio do usuário, não sendo permitida qualquer comercialização através de outros sites",
+    "field": "redistribution_display"
+   }
+  ],
+  "suggested": {
+   "redistribution_display": "no"
+  },
+  "note": "Cláusula Oitava applies to both Pública and Comercial APIs. Displaying CNPJ data on a public ad-supported site is not 'own benefit'; verdict should be red unless written clearance. Caching still unaddressed."
+ },
+ {
+  "id": "brazilian-chamber-of-deputies-open-data",
+  "outcome": "confirmed",
+  "reasons": [
+   "Portal terms: all information public domain, free, reproducible with source citation",
+   "Scope to dadosabertos subsite is inferred; no explicit commercial wording"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Evidence points toward yes (public domain + reproduction allowed). Dados Abertos site itself has no licence page; kept yellow for scope inference and unaddressed storage."
+ },
+ {
+  "id": "brieftape",
+  "outcome": "confirmed",
+  "reasons": [
+   "Free/Hacker tiers personal/developer only; commercial rights from Pro",
+   "ToS bars republishing content for commercial purposes without a commercial licence; redistribution licensing is separate"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "ToS URL redirects to https://brieftape.com/tos (no .html). Summaries are AI-generated by the vendor; display on a public site likely needs the redistribution licence."
+ },
+ {
+  "id": "calorieninjas",
+  "outcome": "confirmed",
+  "reasons": [
+   "Free plan 'No commercial use'; paid plans yes",
+   "Service is being turned down and migrated to API Ninjas"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "API docs banner: CalorieNinjas is being turned down this year. Successor API Ninjas ToS (read) allows commercial use on paid plans only and pricing table lists data caching/storing per plan (not on cheapest tiers); successor terms differ. Consider noting shutdown."
+ },
+ {
+  "id": "canada-service-map",
+  "outcome": "disputed",
+  "reasons": [
+   "Every source licence listed on /data is an open licence permitting reproduction (OGL family, CC BY, CC0, MIT, StatCan Open Licence)",
+   "storage_caching ambiguity is not supported by any restrictive licence found"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://www.statcan.gc.ca/en/reference/licence",
+    "quote": "use, reproduce, publish, freely distribute, or sell the Information",
+    "field": "storage_caching"
+   },
+   {
+    "url": "https://canadaservicemap.ca/data",
+    "quote": "Each record on the site keeps the licence of its source.",
+    "field": "storage_caching"
+   }
+  ],
+  "suggested": {
+   "storage_caching": "yes"
+  },
+  "note": "Read /data and /developers fully and the StatCan Open Licence; all 54 displayed sources are open licences with attribution. OGL-Canada page blocked curl (Request Rejected), relied on first-pass Playwright read. Verdict could become green if storage_caching=yes accepted; keep confidence medium (attribution to source plus link to site page required)."
+ },
+ {
+  "id": "cardbincheck",
+  "outcome": "disputed",
+  "reasons": [
+   "Keyless API page: 100 requests/day 'for evaluation and personal use'",
+   "IPNOVA ToS: free allowances permit commercial use only where expressly stated; paid plans carry commercial licence"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://cardbincheck.com/bin-lookup-api",
+    "quote": "Without a key this API answers 100 requests a day per IP address, for evaluation and personal use.",
+    "field": "commercial_use"
+   },
+   {
+    "url": "https://cardbincheck.com/bin-lookup-api",
+    "quote": "Paid plans from $19 a month for production volumes, with a commercial licence",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "paid-only"
+  },
+  "note": "FAQ says 'Can I use it in production? Yes' but the plan text restricts the free tier to evaluation/personal use, and the portal terms say commercial only where expressly stated. Evidence points to paid-only (commercial_use_scope paid). Verdict stays yellow."
+ },
+ {
+  "id": "cazimi",
+  "outcome": "confirmed",
+  "reasons": [
+   "Integrations page expressly says free for personal and commercial use",
+   "Generic ToU IP clause concerns the iOS app/site, not API output"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Dataset CC BY 4.0 is declared only in JSON-LD. Yellow stands for storage ambiguity."
+ },
+ {
+  "id": "census-gov",
+  "outcome": "confirmed",
+  "reasons": [
+   "API ToS permits building services that search/display/analyze data; no commercial ban",
+   "No explicit data licence/caching statement found"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read ToS fully: only endorsement-implication restriction mentions 'commercial'. Required non-endorsement notice and no-modification rule. Evidence leans yes for commercial display (US federal statistical data), but no explicit public-domain quote located, so ambiguous stays."
+ },
+ {
+  "id": "checkwaitingtimes",
+  "outcome": "confirmed",
+  "reasons": [
+   "Underlying NHS England data is OGL v3.0 (commercial reuse allowed)",
+   "Operator asks heavy/commercial users to get in touch first; urgent-care hours partly OSM (ODbL); live A&E read from trust sites with unchecked terms"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Sources page lists OGL for NHS England/CQC/NHS website and ODbL for OSM-derived hours; live trust feeds have no stated licence."
+ },
+ {
+  "id": "city-berlin",
+  "outcome": "confirmed",
+  "reasons": [
+   "Licence is per dataset; no portal-wide terms",
+   "Catalogue metadata shows mostly open licences but includes cc-nc and closed datasets"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Berlin CKAN API (datenregister.berlin.de) facet over 2635 datasets: dl-de-zero-2.0 1508, cc-by 865, cc-by-de/3.0 73, cc-zero 52, dl-de-by-2.0 44, cc-by/4.0 40, cc-by-sa 36, other-closed 13, ODbL 3, cc-nc 1. Portal-level ambiguous is right; check each dataset."
+ },
+ {
+  "id": "city-nantes-open-data",
+  "outcome": "disputed",
+  "reasons": [
+   "Mentions legales restriction covers the website's own content, not datasets",
+   "Catalogue metadata: 547 of 592 datasets Licence Ouverte, 43 ODbL; Licence Ouverte expressly allows commercial exploitation",
+   "API works without a key (auth should be none)"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Licence_Ouverte.pdf",
+    "quote": "Exploiter « l’Information » à titre commercial, par exemple en la combinant avec d’autres « Informations »",
+    "field": "commercial_use"
+   },
+   {
+    "url": "https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Licence_Ouverte.pdf",
+    "quote": "Reproduire, copier, publier et transmettre « l’Information »",
+    "field": "storage_caching"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "yes",
+   "storage_caching": "yes",
+   "redistribution_display": "yes",
+   "attribution_required": "yes"
+  },
+  "note": "Queried https://data.nantesmetropole.fr/api/explore/v2.1/catalog/facets?facet=license (no key; records endpoint HTTP 200 without key) so auth=none, not apiKey. 43 ODbL datasets carry share-alike on databases; per-dataset licence still to be honoured (portal default, confidence medium). Mentions legales page not re-read this pass."
+ },
+ {
+  "id": "cityalert",
+  "outcome": "confirmed",
+  "reasons": [
+   "/licensing: paid tiers allow commercial use; free is personal/evaluation",
+   "/terms (older) says commercial or bulk use needs written permission and /api is for light integration"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Two pages conflict mildly; the more specific licensing page grants paid-tier commercial use. Raw republishing at volume needs written licence; upstream police/media licences unassessed. Yellow stands."
+ },
+ {
+  "id": "close-knit",
+  "outcome": "disputed",
+  "reasons": [
+   "ToS: API and MCP are for personal use and agents acting for a person",
+   "No scraping or bulk extraction, no rebuilding an address/sales database"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://getcloseknit.com/terms",
+    "quote": "The API and the MCP endpoint are for personal use, and for agents such as Claude acting for a person, within those limits.",
+    "field": "commercial_use"
+   },
+   {
+    "url": "https://getcloseknit.com/terms",
+    "quote": "no rebuilding of an address or sales database from the site, the API or the MCP endpoint.",
+    "field": "storage_caching"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "no",
+   "storage_caching": "no"
+  },
+  "note": "First pass missed the personal-use restriction in Acceptable use. Upstream OGL/ODbL licences are open, but the service's own API terms override for API access; verdict should be red. Places/travel-time ODbL downloads exist separately (bulk_download yes) and are a possible lawful route for that subset."
+ },
+ {
+  "id": "coingecko",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToS grants licence to use API in any application, requires 'Powered by CoinGecko', discourages caching",
+   "Pricing: Demo plan 'Attribution required' with no licence label; Basic marketed 'For personal use cases' yet License Commercial"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read ToS and pricing via fresh Playwright context. ToS has no mention of commercial/non-commercial. Free-tier commercial status remains unresolved; safest is a paid plan."
+ },
+ {
+  "id": "collegecalcai",
+  "outcome": "confirmed",
+  "reasons": [
+   "API page: free for apps with credit and estimate disclaimer",
+   "ToS: personal revocable licence only, no scraping/bulk access/data extraction, no commercial redistribution"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Read /developers, /terms, /data. Underlying data is IPEDS/CDS public sources but compilation is claimed as theirs. Ambiguity stands; ask owner before caching."
+ },
+ {
+  "id": "colorado-information-marketplace",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms silent on commercial use and licence; State may require termination of display at any time",
+   "Disclaimer must be shown on applications"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Socrata catalogue metadata: of first 100 of 640 datasets, 85 'Public Domain', 1 ODC-PDDL, 14 none. Suggests many datasets are public domain, but the portal terms are unchanged; verdict unknown stands until a dataset-level quote is recorded."
+ },
+ {
+  "id": "commoditypriceapi",
+  "outcome": "confirmed",
+  "reasons": [
+   "Basic plan internal use only; Standard/Advanced commercial products",
+   "Showing the data itself to users and permanent storage require Enterprise distribution licence"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read Terms 5.1-5.5. A price-display site needs Enterprise (custom pricing); yellow/paid-only stands. Upstream exchange (ICE/NYMEX) licence not stated."
+ },
+ {
+  "id": "compabase",
+  "outcome": "confirmed",
+  "reasons": [
+   "Public mirrors, resale, redistribution at scale and scraping banned with EUR 5,000 penalty",
+   "Internal/legitimate business use allowed; user decides use incl. commercial activities"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "API limits are in an unread price list/technical docs. Suggest commercial_use paid-only rather than yes (scope already paid); verdict yellow either way. Public ad-supported display unclear."
+ }
+]

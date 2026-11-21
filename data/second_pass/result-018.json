@@ -1,0 +1,375 @@
+[
+ {
+  "id": "share",
+  "outcome": "confirmed",
+  "reasons": [
+   "COS terms grant commercial use and storage of public OSF content under admin-applied licence",
+   "no SHARE-specific metadata licence found; aggregated third-party records unresolved"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read COS Terms of Use: for OSF content marked public 'use' = sublicense, reproduce, store, transmit, distribute, publicly display, commercial or non-commercial, subject to administrator-applied licence. SHARE/trove docs (share.osf.io/trove/docs) are JS-only/empty to curl; SHARE repo README states only Apache-2.0 for code. Per-record licence still unresolved for non-OSF aggregated records. Ambiguity stands; leans permissive for OSF-origin records only."
+ },
+ {
+  "id": "smartsheet",
+  "outcome": "confirmed",
+  "reasons": [
+   "API exposes only the customer's own account data, not a public dataset",
+   "Developer agreement bars selling/redistributing Smartsheet Properties; app needs written approval"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read Developer Program Agreement: s2.1 distribution to end users only after Smartsheet written approval; s3.2 may charge end users but not commercially sell/redistribute/syndicate Smartsheet Properties; 2.3.2(b) no resell or third-party access. Nothing on caching/display of data. Not usable for a public ad/affiliate catalog scenario; ambiguity stands."
+ },
+ {
+  "id": "soilpoint",
+  "outcome": "confirmed",
+  "reasons": [
+   "No ToS (/terms 404); site only says free for now and asks commercial users to get in touch",
+   "Upstream USDA SSURGO described as public domain by SoilPoint, not verified at USDA"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read homepage and /docs: no licence/ToS/attribution rules; service caches responses in memory itself. Tried NRCS disclaimer pages, which returned empty to curl, so the USDA public-domain claim stays unverified. Commercial use neither granted nor forbidden; ambiguous stands."
+ },
+ {
+  "id": "spotify",
+  "outcome": "disputed",
+  "reasons": [
+   "Developer Terms (not read by first pass) restrict caching: only temporary caching of metadata and cover art",
+   "Policy limits commercial use to non-streaming apps; dev-mode apps limited to 5 users, extended quota needs a registered org with 250k MAU"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://developer.spotify.com/terms",
+    "field": "storage_caching",
+    "quote": "Do not locally cache any Spotify Content, except as strictly necessary to enhance the performance of your SDA and its functionality"
+   },
+   {
+    "url": "https://developer.spotify.com/terms",
+    "field": "storage_caching",
+    "quote": "Do not store Spotify Content indefinitely."
+   },
+   {
+    "url": "https://developer.spotify.com/documentation/web-api/concepts/quota-modes",
+    "field": "commercial_use",
+    "quote": "Up to 5 authenticated Spotify users can use an app that is in development mode"
+   }
+  ],
+  "suggested": {
+   "storage_caching": "limited"
+  },
+  "note": "First pass said storage unknown because only the Developer Policy was read. The Developer Terms v10 (developer.spotify.com/terms) restrict local caching to what is strictly necessary and temporary, and forbid indefinite storage; they also forbid retrieving/duplicating/indexing Spotify Content. So storage_caching = limited at best (cache_limit: temporary, metadata and cover art only). Practical blocker: quota-modes page shows apps start in dev mode with up to 5 authenticated users; public use needs extended-quota approval for organisations with at least 250k MAU. commercial_use ambiguous stands (ads allowed only for non-streaming apps). Verdict stays yellow."
+ },
+ {
+  "id": "square",
+  "outcome": "disputed",
+  "reasons": [
+   "Square developer terms forbid storing or publicly displaying a seller's Content without that seller's express consent",
+   "Data is seller account data, not public data"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://squareup.com/us/en/legal/general/developers",
+    "field": "storage_caching",
+    "quote": "scrape, access, download, store, build databases or otherwise create permanent copies of any Square Seller’s Content"
+   },
+   {
+    "url": "https://squareup.com/us/en/legal/general/developers",
+    "field": "redistribution_display",
+    "quote": "copy, translate, modify, create derivative work of, sell, lease, sublicense, distribute or publicly display any of such Square Seller’s Content"
+   }
+  ],
+  "suggested": {
+   "storage_caching": "no",
+   "redistribution_display": "no"
+  },
+  "note": "First pass set storage limited / display ambiguous. The same terms (s3 Content Prohibitions) prohibit, without the seller's express consent, scraping, storing, building databases or permanent copies, and copying/distributing/publicly displaying seller Content. For the catalog scenario (store and show data on a public site) both are 'no' unless each seller consents. commercial_use of the developer tools for apps you operate stays yes."
+ },
+ {
+  "id": "stadiq",
+  "outcome": "confirmed",
+  "reasons": [
+   "Own terms silent on commercial use; paid plan is for businesses, free plan is 'build and evaluate'",
+   "Upstream GIPOD licence (Modellicentie Gratis Hergebruik) is open but text could not be read"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read developers page and Dutch terms. Terms ban reselling data as own product and building a replacement service; underlying public data stays under sources' licences; responses carry attribution text to show on republishing. Attempts to read the Flemish model licence text via curl returned empty/404, so upstream licence terms are unverified; De Lijn, IRCELINE and Antwerp open-data licences not read. Ambiguity stands."
+ },
+ {
+  "id": "stanza-dscsa-verifier",
+  "outcome": "confirmed",
+  "reasons": [
+   "Compute-only service: output is derived from the user's own input, no third-party dataset",
+   "ToS silent on commercial use; free tier is called a sandbox, Pro/Ultra/Mega 'commercial tiers'"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read ToS (s3-s4 acceptable use: no key sharing/resale, no live PHI on public endpoints, no scraping/DoS) and pricing. No clause forbids commercial use, storage or display of outputs; also no grant. Production use likely needs paid tier (inferred only). Ambiguity stands; low risk for the catalog scenario because no upstream data is involved."
+ },
+ {
+  "id": "stanza-udi-decoder",
+  "outcome": "confirmed",
+  "reasons": [
+   "Compute-only service: output is derived from the user's own input, no third-party dataset",
+   "ToS silent on commercial use; free tier is called a sandbox, Pro/Ultra/Mega 'commercial tiers'"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read ToS (s3-s4 acceptable use: no key sharing/resale, no live PHI on public endpoints, no scraping/DoS) and pricing. No clause forbids commercial use, storage or display of outputs; also no grant. Production use likely needs paid tier (inferred only). Ambiguity stands; low risk for the catalog scenario because no upstream data is involved."
+ },
+ {
+  "id": "statistics-of-the-world",
+  "outcome": "confirmed",
+  "reasons": [
+   "Open-data CSV is explicitly commercial-reusable with credit; API series keep source licences",
+   "Terms say source terms apply to all data incl. commercial use, so per-series check needed"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read /terms: 'Source-specific terms and attribution continue to apply to all data, including when the data is used commercially or redistributed'; responses carry source and reuse metadata; acceptable use bans redistributing without complying with source terms. No blocker beyond per-series checks; ambiguity stands."
+ },
+ {
+  "id": "stock-sentiment",
+  "outcome": "confirmed",
+  "reasons": [
+   "Free/Hobby non-commercial; Professional plan needed for customer-facing use",
+   "Storage limited to permitted internal use; no onward publishing of Source Content (Reddit, X, news)"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read adanos.com/terms s5, s6: s5.2 requires Professional for customer-facing functionality; s6.2 'Storage does not expand your right to publish, redistribute or commercially exploit third-party material'. Upstream Reddit/X/news terms are not read and likely stricter; Aggregated Data (scores) is the safer display layer. Paid-only/limited/ambiguous verdict stands."
+ },
+ {
+  "id": "stockdata",
+  "outcome": "confirmed",
+  "reasons": [
+   "Only a generic website ToU exists and it bars commercial endeavours unless approved",
+   "No API-specific licence on pricing or docs; trading data sourced from IEX (upstream terms not read)"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read /tos (2021 Termly template: personal non-commercial licence, 'may not be used in connection with any commercial endeavors except those specifically endorsed or approved by us'), /pricing (no licence text) and /documentation (trading data sourced from IEX). Evidence leans negative for commercial use unless approved, but the clause targets the Site, not the API plans, so ambiguous stands; ask operator."
+ },
+ {
+  "id": "sugra",
+  "outcome": "confirmed",
+  "reasons": [
+   "Data Use Policy allows integration and display to own end users, limited caching, no standalone redistribution",
+   "Upstream sources undisclosed; securities-regulator data may not be redistributed further"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read data-use-policy s5-s7 and pricing ('Commercial use permitted on every tier'). Caveat: upstream identities are not disclosed, so upstream licences cannot be checked by the user; customer is responsible for upstream conditions. No blocker found for display inside own app; attribution stays ambiguous."
+ },
+ {
+  "id": "sunrise-and-sunset",
+  "outcome": "confirmed",
+  "reasons": [
+   "API page (2026) grants free use with a visible-link credit and encourages saving responses; no commercial ban there",
+   "Site-wide 'personal use only' clause targets the website, creating residual ambiguity"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read API page and /terms. API page: 'The API is free of charge for reasonable request volumes. Attribution is required.' and lists website/app/device/no-screen attribution forms, never mentions commercial use or forbids it. Terms of use: 'This site is for personal use only.' plus 'Do not use automated scripts or programs to extract data from this site' (website scope). Evidence leans permissive for the API but not explicit; ambiguity stands."
+ },
+ {
+  "id": "terrascoutx",
+  "outcome": "confirmed",
+  "reasons": [
+   "Free API compiled from county sources, not open data; republish/resell needs source check",
+   "Owner/mailing-address fields: vendor says integrations should not display them"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read developer page: caching to serve own users fine; bulk redistribution not assumed; no ToS page (/terms 404). Added privacy flag: 'Integrations should not consume or display these fields' for owner, mailingAddress, ownershipTransfers (use no_owner=1). Commercial use of the free tier unstated; ambiguous stands."
+ },
+ {
+  "id": "the-ip-api",
+  "outcome": "confirmed",
+  "reasons": [
+   "FAQ and pricing both say all plans, free included, allow commercial use",
+   "ToS only bans sweeping all IPs into a database; display and upstream data source undisclosed"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read ToS (effective 2024-12-28), FAQ, pricing, privacy and docs. Nothing found that forbids storing or displaying individual lookups; no source/attribution statement. Verdict unknown stays because display/attribution are unconfirmed."
+ },
+ {
+  "id": "tilla",
+  "outcome": "confirmed",
+  "reasons": [
+   "Commercial licence only on Pro/Max; raw feed or substantial copy cannot be republished on any tier below Enterprise",
+   "Upstream market data providers' terms not read"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read /docs/data-license and /docs/terms. Data may be used in own dashboards and products; ToS fair use: 'don't resell or redistribute the raw feed'. Showing individual values on a public site is not spelled out; ambiguity stands. Data catalog page mentions sources per field in an interactive view that was not readable via curl."
+ },
+ {
+  "id": "tiny-plates",
+  "outcome": "disputed",
+  "reasons": [
+   "Recipes are scraped from third-party sites; operator disclaims that they are free of others' rights",
+   "Commercial display grant comes from an operator that cannot license publishers' content; media need publisher permission"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://www.tinyplates.dev/terms",
+    "field": "commercial_use",
+    "quote": "We do not promise that the recipes are free of anyone else’s rights, or that using them won’t infringe them."
+   },
+   {
+    "url": "https://www.tinyplates.dev/docs",
+    "field": "commercial_use",
+    "quote": "A read API for over 12,000 recipes scraped from the web and normalized into one model."
+   }
+  ],
+  "suggested": {
+   "commercial_use": "ambiguous"
+  },
+  "note": "The terms grant 'You can display, translate and adapt the recipes ... including in commercial apps', but the same page says the operator does not promise the recipes are free of anyone else's rights, the developer carries indemnity, and docs call the dataset 'scraped from the web'. Treat commercial_use as ambiguous rather than yes (real exposure is the publishers' copyright). Caching is allowed with a TTL; verdict stays yellow."
+ },
+ {
+  "id": "tomba-email-finder",
+  "outcome": "confirmed",
+  "reasons": [
+   "API Terms allow use for own end users where plan permits and attribution to Tomba; ban public republishing",
+   "Contact data is personal data; free-plan commercial scope still unread"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read API Terms (eff. 2026-08-10): licence s2 is 'internal business purposes, or to deliver functionality to your own end users where your plan permits'; s5 forbids to 'Mirror, republish, resell, or redistribute API data, or expose it through a public endpoint, free tool, or open dataset'; s7 requires attribution. Pricing page contains no commercial-use statement. Publishing contact data on public catalog pages leans toward forbidden; ambiguous stands."
+ },
+ {
+  "id": "tomorrow",
+  "outcome": "confirmed",
+  "reasons": [
+   "Free self-generated accounts: 'Commercial use is strictly prohibited'; commercial apps need an Order",
+   "Storing the unaltered Datafeed prohibited unless the Order allows"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read Platform ToS: Permitted Use bars commercial use for evaluation/self-generated accounts, commercial applications require an agreement naming Tomorrow.io third-party beneficiary, 'Powered by Tomorrow.io' attribution required. paid-only/no storage verdict stands (effectively enterprise order)."
+ },
+ {
+  "id": "toolalize",
+  "outcome": "confirmed",
+  "reasons": [
+   "OpenAPI file explicitly says 'Free to use with attribution' (licence field); generic ToS says content may not be copied without permission",
+   "Currency rates come from an unnamed upstream source"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read openapi.json (info.license.name 'Free to use with attribution', description 'Attribute results to toolalize.com.') and /terms (Intellectual Property: no copy/modify/distribute without permission). API-specific statement is more specific and leans permissive but never mentions commercial use. Minor first-pass issue: the data_license evidence quote does not contain the words 'Free to use with attribution'; the licence field text should be quoted instead."
+ },
+ {
+  "id": "top-5-stocks",
+  "outcome": "disputed",
+  "reasons": [
+   "New API enrollment is paused, so the standard API licence is unavailable to new users",
+   "Terms for everyone else forbid republishing the feed and allow one personal non-commercial copy"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://top5stocks.netlify.app/terms",
+    "field": "redistribution_display",
+    "quote": "You may not republish, redistribute, scrape, or resell our protected content or licensed API feed without prior written consent."
+   },
+   {
+    "url": "https://top5stocks.netlify.app/terms",
+    "field": "storage_caching",
+    "quote": "You may save one copy for personal, non-commercial use."
+   },
+   {
+    "url": "https://top5stocks.netlify.app/terms",
+    "field": "commercial_use",
+    "quote": "New Developer API enrollment is paused."
+   }
+  ],
+  "suggested": {
+   "redistribution_display": "no",
+   "storage_caching": "no"
+  },
+  "note": "First pass left display ambiguous. For a new user only the free no-key tier exists; s11 prohibits republishing/redistributing/scraping/reselling protected content or the licensed API feed without written consent and allows one copy for personal non-commercial use. The display right in s12 applies only to existing subscribers. So for the catalog scenario display and storage are no."
+ },
+ {
+  "id": "tranco",
+  "outcome": "disputed",
+  "reasons": [
+   "Default Tranco list includes Cloudflare Radar data, licensed CC BY-NC 4.0",
+   "Tranco itself publishes no licence; Farsight part also restricted"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://tranco-list.eu/",
+    "field": "commercial_use",
+    "quote": "Cloudflare Radar ( available under a CC BY-NC 4.0 license )"
+   },
+   {
+    "url": "https://developers.cloudflare.com/radar/",
+    "field": "commercial_use",
+    "quote": "Data available via Radar API endpoints is made available under the CC BY-NC 4.0"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "no"
+  },
+  "note": "Tranco's home page says the lists used are Cisco Umbrella (free of charge), Majestic CC BY 3.0, Farsight, CrUX CC BY-SA 4.0 and Cloudflare Radar CC BY-NC 4.0. Cloudflare's own Radar docs confirm CC BY-NC 4.0 for Radar API data. The default list is built from these, so an NC and a share-alike input apply to ad-supported use with no Tranco licence to override. Suggest commercial_use no for the default list (custom lists without Cloudflare may differ; legal reading is uncertain, so reviewer should decide)."
+ },
+ {
+  "id": "transitradar",
+  "outcome": "confirmed",
+  "reasons": [
+   "Operator says data belongs to publishers and tells users to register for the feeds themselves",
+   "Only its own daily punctuality aggregates are reusable with credit"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read /faq and /data: feeds used under Network Rail, National Rail Enquiries and BODS open licences; reasons and per-train rows are feed data it cannot relicense. Network Rail and National Rail licence texts could not be fetched (empty), so upstream stays unverified. Ambiguity stands."
+ },
+ {
+  "id": "transport-for-atlanta-us",
+  "outcome": "confirmed",
+  "reasons": [
+   "Site-wide terms ban commercial use of 'this information' but scope is the website",
+   "Rail realtime EULA has no commercial ban and developer FAQ says data is shared to enable third-party apps"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read /terms ('Commercial use of this information is prohibited without the written permission of MARTA', in the context of mirroring texts/graphics of the Site), developer resources, developer FAQ (purpose: let others build web and mobile apps) and the rail API-key EULA (free, no commercial restriction, 'your use or publication of the Data'). Evidence leans permissive for the GTFS/realtime feeds but nothing grants it explicitly; trademarks/logos barred. Ambiguity stands; ask MARTA."
+ },
+ {
+  "id": "transport-for-bordeaux-france",
+  "outcome": "disputed",
+  "reasons": [
+   "Transport datasets (GTFS, GTFS-RT, SIRI-Lite, SAEIV) are published under Licence Ouverte, which allows commercial exploitation with source credit",
+   "Portal CGU grant free worldwide right to reproduce, publish, distribute, exploit Licence Ouverte datasets"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Licence_Ouverte.pdf",
+    "field": "commercial_use",
+    "quote": "Exploiter « l’Information » à titre commercial, par exemple en la combinant avec d’autres « Informations »"
+   },
+   {
+    "url": "https://opendata.bordeaux-metropole.fr/terms/terms-and-conditions/",
+    "field": "storage_caching",
+    "quote": "Le droit d’utilisation inclut : la reproduction, la réutilisation, la publication, la diffusion, l’adaptation, la modification, l’extraction, l’exploitation des JEUX DE DONNEES."
+   },
+   {
+    "url": "https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Licence_Ouverte.pdf",
+    "field": "attribution_required",
+    "quote": "Mentionner la paternité de « l’Information » : sa source"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "yes",
+   "storage_caching": "yes",
+   "redistribution_display": "yes",
+   "attribution_required": "yes"
+  },
+  "note": "First pass read only the portal CGU. The Opendatasoft catalog API shows dataset 'offres-de-services-bus-tramway-gtfs' (GTFS, Netex, GTFS-RT, SIRI-Lite) and the SAEIV datasets (sv_*) with licence 'Licence Ouverte' (Etalab). Licence Ouverte text: commercial exploitation allowed subject to mentioning the source. Scope: these transport datasets only; other portal datasets may use a Licence particuliere; third-party IP excluded by the licence; API key may apply to some endpoints. Suggested values apply to the transport datasets. Verdict would move toward green if confirmed."
+ }
+]

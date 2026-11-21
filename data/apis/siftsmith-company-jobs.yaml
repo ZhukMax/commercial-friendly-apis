@@ -1,0 +1,55 @@
+id: siftsmith-company-jobs
+name: Siftsmith Company Jobs
+url: https://apify.com/siftsmith/company-jobs/api
+category: Jobs
+description: Open jobs from company career pages on Greenhouse, Lever, Ashby, Workday and more, as JSON
+  or XML
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Siftsmith Company Jobs
+  url: https://apify.com/siftsmith/company-jobs/api
+  category: Jobs
+link_status: alive
+data_license: Actor output owned by the Apify user (Apify Actor Terms); underlying job text belongs to
+  employers
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://docs.apify.com/legal/actor-terms-and-conditions
+evidence:
+- field: data_license
+  url: https://docs.apify.com/legal/actor-terms-and-conditions
+  quote: you retain all intellectual property rights that subsist in your Actor Input and Actor Output.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://apify.com/siftsmith/company-jobs
+  quote: The descriptions are the employers' own text, so make sure publishing them fits your board's
+    terms and the employers' wishes
+  checked_at: '2026-11-21'
+notes: 'Not a data source in itself: an Apify Actor (scraper of company career pages on Greenhouse, Lever,
+  Ashby, Workday and others, run on your own Apify account with an API token; pay per job). Apify Actor
+  Terms: user keeps IP in Actor Output, which says nothing about third-party content. The Actor page warns
+  that job descriptions are the employers text and that publishing them must fit your boards terms and
+  the employers wishes, so redistribution_display=ambiguous. Commercial use, caching unknown; ATS vendors
+  (e.g. SmartRecruiters asks automated tools not to read its API) and employers may have stricter terms,
+  not assessed. The /api page is only the Apify API usage page; the Actor page was read too.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read Actor page and Apify Actor terms. Output belongs to the Apify user, republishing
+  'is your call', yet descriptions are employers' text and ATS vendors may restrict scraping (not assessed).
+  Verdict unknown stands.
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

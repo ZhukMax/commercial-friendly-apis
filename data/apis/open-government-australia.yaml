@@ -1,0 +1,74 @@
+id: open-government-australia
+name: Open Government, Australia
+url: https://www.data.gov.au/
+category: Government
+description: Australian Government Open Data
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Open Government, Australia
+  url: https://www.data.gov.au/
+  category: Government
+- list: public-api-lists
+  name: Open Government, Australia
+  url: https://www.data.gov.au/
+  category: Government
+link_status: alive
+data_license: CC-BY-4.0 (site footer) / CC BY 3.0 AU (About page); datasets may carry other licences
+commercial_use: ambiguous
+storage_caching: ambiguous
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://www.data.gov.au/about
+api_terms_url: https://www.data.gov.au/about
+commercial_use_scope: any
+attribution_text: Organisation name, jurisdiction, title of dataset, date the content was created, link
+  (form required by data.gov.au)
+share_alike: unknown
+evidence:
+- field: data_license
+  url: https://www.data.gov.au/
+  quote: this work is licensed under the CC BY 4.0 license.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.data.gov.au/about
+  quote: This website requires that you use the following form of attribution
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://data.gov.au/data/api/3/action/package_search?rows=0&facet.field=["license_id"]
+  quote: 'CKAN licence facet: notspecified 94314, cc-by 18440, lsba 11096, other 2789, CC-BY-NC-SA-3.0-AU
+    675 (of 142867)'
+  checked_at: '2026-11-21'
+notes: 'Read data.gov.au home footer and About page (Terms of Use, Copyright). Portal material is licensed
+  CC BY (footer says 4.0; About page says 3.0 Australia: inconsistent, both permit commercial use with
+  attribution), except the Coat of Arms and where otherwise noted. This covers site material; individual
+  datasets are published by agencies with their own licence shown on the dataset page, so check per dataset.
+  Commercial/caching/display rows rest on the CC BY 4.0 deed. CKAN API; no rate limits read.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'data.gov.au is an aggregator; CC BY footer covers site content only; Most harvested
+  datasets carry no licence or NC/other licences; Footer says CC BY 4.0, About page says 3.0 AU (conflict)
+  | applied: commercial_use=ambiguous, storage_caching=ambiguous, redistribution_display=ambiguous'
+license_scope: portal-default

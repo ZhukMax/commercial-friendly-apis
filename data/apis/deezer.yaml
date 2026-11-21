@@ -1,0 +1,30 @@
+id: deezer
+name: Deezer
+url: https://developers.deezer.com/api
+category: Music
+description: Music
+description_source: upstream
+auth: OAuth
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Deezer
+  url: https://developers.deezer.com/api
+  category: Music
+- list: public-api-lists
+  name: Deezer
+  url: https://developers.deezer.com/api
+  category: Music
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://developers.deezer.com/login?redirect=/api

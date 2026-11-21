@@ -1,0 +1,71 @@
+id: coworkingview
+name: CoworkingView
+url: https://coworkingview.com/en/api
+category: Open Data
+description: Coworking spaces and offices in 63 European and Gulf cities with operator-published prices
+description_source: upstream
+auth: none
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: CoworkingView
+  url: https://coworkingview.com/en/api
+  category: Open Data
+link_status: alive
+data_license: CC-BY-4.0 (Price Index and catalogue data; photos, logos, reviews, Google data excluded)
+commercial_use: 'yes'
+storage_caching: ambiguous
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://creativecommons.org/licenses/by/4.0/
+api_terms_url: https://coworkingview.com/en/terms
+commercial_use_scope: any
+share_alike: unknown
+rate_limits: 120 requests per minute, no key for reads
+evidence:
+- field: data_license
+  url: https://coworkingview.com/en/api
+  quote: The Price Index and catalogue data in this dataset are licensed CC BY 4.0.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: Attribution — You must give appropriate credit
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://coworkingview.com/en/api
+  quote: No key for reads OpenAPI 3.1 120 requests per minute
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://coworkingview.com/en/terms
+  quote: systematic reading, copying or re-use of our catalogue or substantial parts of it
+  checked_at: '2026-11-21'
+notes: Read /en/api (licence section), /en/terms and the CC BY 4.0 deed. CC BY 4.0 covers prices/statistics,
+  space and operator names and CoworkingView-written descriptions; it excludes photos, logos, reviews/ratings,
+  Google-sourced data and other site/API/MCP content, which stay under their own terms (not found). ToS
+  also bans building a competing operator database. Operator-published prices are the underlying facts.
+  120/min rate limit as stated on the page.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'ToS bans systematic copying/reuse of the catalogue, conflicting with CC BY storage
+  claim; API ''own terms'' referenced but not found; CC BY excludes photos, logos, reviews, Google data
+  | applied: storage_caching=ambiguous'

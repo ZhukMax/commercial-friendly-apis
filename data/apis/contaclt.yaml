@@ -1,0 +1,65 @@
+id: contaclt
+name: ContaCLT
+url: https://contaclt.com/dados/api/
+category: Government
+description: 'Brazilian payroll and labor calculations: net salary, INSS, IRRF, unemployment insurance'
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: ContaCLT
+  url: https://contaclt.com/dados/api/
+  category: Government
+link_status: alive
+data_license: CC-BY-4.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: 'yes'
+self_host_option: unknown
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://contaclt.com/dados/
+api_terms_url: https://contaclt.com/dados/api/
+commercial_use_scope: any
+attribution_text: Cite "ContaCLT (https://contaclt.com/)"; link to the matching calculator if possible
+share_alike: unknown
+rate_limits: Fair use; responses cached 1 hour; high volume should use the downloadable tables at /dados/
+evidence:
+- field: commercial_use
+  url: https://contaclt.com/dados/api/
+  quote: Gratuita, inclusive para uso comercial.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://contaclt.com/dados/api/
+  quote: Cite “ContaCLT (https://contaclt.com/)”
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://contaclt.com/dados/
+  quote: 'Licença CC BY 4.0 : use livremente, citando “ContaCLT (https://contaclt.com/dados/)”.'
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://contaclt.com/dados/
+  quote: 'Licença CC BY 4.0 : use livremente, citando “ContaCLT (https://contaclt.com/dados/)”.'
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://contaclt.com/dados/
+  quote: 'Licença CC BY 4.0 : use livremente, citando “ContaCLT (https://contaclt.com/dados/)”.'
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://contaclt.com/dados/api/
+  quote: para volume alto, baixe as tabelas em /dados/
+  checked_at: '2026-11-21'
+notes: 'API page: free, including commercial use, with credit. The /dados/ page puts the downloadable
+  CLT tables under CC BY 4.0; I applied that licence to storage/display (the API returns the same table
+  content per its docs). Outputs are calculations based on Brazilian labour/tax law tables. No separate
+  API terms page read beyond these two pages.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: green
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: /dados/ CC BY 4.0 page not re-fetched by me beyond first-pass quote; API page read.

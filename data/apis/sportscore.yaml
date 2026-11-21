@@ -1,0 +1,69 @@
+id: sportscore
+name: SportScore
+url: https://sportscore.com/developers/
+category: Sports & Fitness
+description: Live scores, fixtures, standings and stats for football, basketball, cricket and tennis
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: SportScore
+  url: https://sportscore.com/developers/
+  category: Sports & Fitness
+link_status: alive
+data_license: Proprietary (SportScore API Terms of Use), free with attribution
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://sportscore.com/developers/terms/
+api_terms_url: https://sportscore.com/developers/terms/
+commercial_use_scope: any
+attribution_text: Powered by SportScore (visible, crawlable dofollow link to https://sportscore.com/ on
+  every page that renders API data)
+share_alike: unknown
+rate_limits: 'Free: ~10,000 requests/24h per IP; edge-cached 60 s; no SLA'
+notes: 'Read /developers/terms/ (updated 23 Apr 2026) and /developers/ via Playwright (curl is blocked
+  by Cloudflare; the pages loaded normally in a browser, nothing bypassed). Free tier allows monetised
+  apps if a visible, crawlable rel=dofollow ''Powered by SportScore'' link is shown on every page using
+  the data (nofollow/ugc/sponsored not acceptable, hidden badges forbidden); attribution-free use needs
+  a paid/commercial arrangement by contact. Cache allowed; scraping/rehosting raw responses as a competing
+  feed and bulk dataset redistribution forbidden. Mandatory dofollow backlink is more than a plain credit
+  (consider yellow if that matters). Aggregator: pulls from unnamed upstream providers, so upstream sports-data
+  rights may be stricter; data accuracy not guaranteed. Terms sentence ''free tier is ad-free'' describes
+  the API tier, not read as a ban on ads on the user''s site (ambiguity noted).'
+evidence:
+- field: commercial_use
+  url: https://sportscore.com/developers/terms/
+  quote: Build and monetise applications on top of the API (free tier requires the badge; paid tier does
+    not)
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://sportscore.com/developers/terms/
+  quote: Cache API responses in your own infrastructure
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://sportscore.com/developers/terms/
+  quote: Combine SportScore data with other sources in derived products (dashboards, alerts, analytics)
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://sportscore.com/developers/terms/
+  quote: you display a visible "Powered by SportScore" link on every page, screen or surface that renders
+    data sourced from our API.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://sportscore.com/developers/terms/
+  quote: We pull from a range of upstream providers and normalise the output.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict_override: yellow
+override_reason: 'Mandatory dofollow ''Powered by'' backlink goes beyond plain credit (project rule: at
+  best yellow).'

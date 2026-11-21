@@ -1,0 +1,31 @@
+id: cartscout
+name: CartScout
+url: https://rapidapi.com/veselinveselinov06/api/cartscout-api
+category: Shopping
+description: Price, stock, variants and GTIN from Shopify, WooCommerce, Walmart and eBay product pages
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: CartScout
+  url: https://rapidapi.com/veselinveselinov06/api/cartscout-api
+  category: Shopping
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://rapidapi.com/page/terms
+notes: 'Read via Playwright: RapidAPI listing (plans BASIC $0, PRO $9, ULTRA $29, MEGA $79) and the RapidAPI marketplace Terms of Service (https://rapidapi.com/page/terms), which say each API offering carries
+  its own ''other related terms and conditions''; the provider published none on the listing. Service scrapes third-party store product pages (schema.org/JSON-LD, Shopify, WooCommerce, eBay, Walmart, Amazon
+  beta), so the stores'' own terms and data rights likely apply and may be stricter. Nothing on commercial use, caching or display, so all terms fields unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

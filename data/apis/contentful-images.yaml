@@ -1,0 +1,30 @@
+id: contentful-images
+name: Contentful Images
+url: https://www.contentful.com/developers/docs/references/images-api/
+category: Development
+description: Used to retrieve and apply transformations to images
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Contentful Images
+  url: https://www.contentful.com/developers/docs/references/images-api/
+  category: Development
+- list: public-api-lists
+  name: Image to Link
+  url: https://www.contentful.com/developers/docs/references/images-api/
+  category: Development
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: HTTP 429 (blocked for bots, assumed alive)

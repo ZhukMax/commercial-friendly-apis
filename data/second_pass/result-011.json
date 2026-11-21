@@ -1,0 +1,444 @@
+[
+ {
+  "id": "company-enrichment",
+  "outcome": "confirmed",
+  "reasons": [
+   "Read product page, ToS and pricing: ToS has only vague 'unauthorized commercial purposes' and 'copying or distributing any part of the Services'",
+   "No page defines authorized commercial use, caching or display; no plan-level licence text exists",
+   "Product page calls the sources 'commercially usable' and lists partner-directory use, which leans permissive but is not a licence grant"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Ambiguity not resolvable from vendor pages; leans permissive (CC0 Wikidata + SEC EDGAR, plans from $6.99) but ToS wording is a real blocker for storing/displaying. Note logo_url points to Wikimedia Commons files whose licences vary per file (not CC0). Pricing page lists no per-plan commercial rights. Verdict yellow/low stands."
+ },
+ {
+  "id": "congressinvests",
+  "outcome": "disputed",
+  "reasons": [
+   "Upstream statute 5 U.S.C. 13107(c) makes it unlawful to obtain or use these financial-disclosure reports for any commercial purpose other than news and communications media",
+   "Vendor itself relays the House Clerk ban on redistribution for commercial solicitation or advertising",
+   "No vendor terms page exists (/terms, /privacy, /tos, /api return 404), so nothing grants commercial rights"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://www.law.cornell.edu/uscode/text/5/13107",
+    "quote": "for any commercial purpose, other than by news and communications media for dissemination to the general public",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "no",
+   "redistribution_display": "no"
+  },
+  "note": "Resolved against the first pass: the ambiguity is not about vague vendor terms, the underlying US law restricts commercial use of PTR data (Senate EFD and House Clerk). A site with ads or affiliate links is a commercial purpose; only a news/communications-media exemption could apply and the vendor does not claim it. Suggest commercial_use=no (verdict red), or at minimum treat as red for ad/affiliate scenario."
+ },
+ {
+  "id": "conversor-iae-cnae",
+  "outcome": "disputed",
+  "reasons": [
+   "Unread page /datos-abiertos: full IAE and CNAE catalogues (codes and titles) are published under CC-BY-4.0, no key, no download limit",
+   "ToS s5.5 prohibition on commercial copying and extraction does not apply to this openly licensed slice",
+   "IAE-CNAE crosswalk, AI enrichment and analytics are explicitly private/proprietary and only available through the API under ToS s5.5"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://www.conversoriaecnae.es/datos-abiertos",
+    "quote": "Licencia CC-BY-4.0: úsalos en tu investigación, tu pipeline de datos o tu propio modelo.",
+    "field": "data_license"
+   },
+   {
+    "url": "https://www.conversoriaecnae.es/datos-abiertos",
+    "quote": "La correspondencia IAE↔CNAE 2025 es una obra derivada que mantenemos de forma privada",
+    "field": "redistribution_display"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "yes",
+   "storage_caching": "yes",
+   "redistribution_display": "yes",
+   "attribution_required": "yes"
+  },
+  "note": "Evidence points two ways by data layer. Codes/titles (AEAT/INE official data, Ley 37/2007 reuse) = CC-BY-4.0, commercial use, storage and display allowed with citation. The crosswalk (the product's main value) remains proprietary and ToS s5.5 forbids commercial copying/bulk reuse unless a plan's conditions expressly permit it; no plan text says so. Suggested values apply to the CC-BY catalogue only; for the API crosswalk keep ambiguous. Free API plan is now 7,500 req/month (250/day), not just 250/day. Verdict remains yellow if crosswalk is in scope."
+ },
+ {
+  "id": "cookbooksocial-nutrition",
+  "outcome": "confirmed",
+  "reasons": [
+   "Re-read ToS s14 and /api: no non-commercial, personal-use or advertising clause anywhere; own-application use and caching expressly allowed",
+   "Still no explicit commercial-use grant, and s14 calls access 'paid programmatic' while /api lists a Free plan",
+   "Bans reselling the 41-field compilation as standalone or derived database; attribution block must stay"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Searched ToS for non-commercial / for profit / business / personal use: none found. Evidence leans permissive (use in your own applications, cache as needed, display with attribution block). Upstream USDA public domain; Ciqual CC BY 4.0 (attribution preserved). First-pass yellow/ambiguous stands; a later pass could reasonably upgrade commercial_use to yes if the vendor confirms the Free plan is covered by s14."
+ },
+ {
+  "id": "core",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms s3: API and non-ODC-By datasets need a CORE licence; anyone building something that might be monetised must contact CORE",
+   "/services/api FAQ says commercial use is possible ('Terms & Conditions apply') with institution/enterprise trials, so negotiated not self-serve",
+   "CORE does not own the underlying papers; rights stay with repository rightsholders"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Resolved direction: commercial use is possible but only via a CORE licence (effectively paid/negotiated, registered organisations get a faster rate that is typically not free). Only ODC-By datasets are self-serve commercial. Ambiguous stands (leans paid-only/negotiated); storage/display unknown."
+ },
+ {
+  "id": "covid-tracking-project",
+  "outcome": "confirmed",
+  "reasons": [
+   "Re-read both pages: licence page says CC BY 4.0, T&C (updated 2 June 2020) says journalistic/research/non-commercial and CC BY-NC 4.0 and bans storing data for commercial use",
+   "T&C was never updated; the licence page is newer but both carry the same site footer, so the supersession is an inference, not stated",
+   "Project stopped collecting data on 7 March 2021; data aggregated from state dashboards with unchecked upstream terms"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Conflict is real and unresolved by the vendor. Conservative reading for an ad/affiliate site: treat as non-commercial until The Atlantic clarifies. Ambiguous stands; the stricter T&C quote on storage ('store any data ... for commercial use') is the main blocker."
+ },
+ {
+  "id": "cpfhub",
+  "outcome": "disputed",
+  "reasons": [
+   "ToS s2 lists permitted purposes (KYC, anti-fraud, authentication, risk analysis, data hygiene of existing records); marketing, prospecting and contact lists are out of scope",
+   "Output is personal data (name, birth date) under LGPD; ToS makes the customer controller and limits retention to what the purpose needs",
+   "Showing such data on public content pages or ad/affiliate sites is not any listed purpose; results may not be used to build or sell data lists"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://cpfhub.io/termos-de-uso",
+    "quote": "Marketing, prospecção e montagem de listas de contatos estão fora do escopo do serviço.",
+    "field": "commercial_use"
+   },
+   {
+    "url": "https://cpfhub.io/termos-de-uso",
+    "quote": "A CPFHub.io existe para ajudar empresas a confirmar que uma pessoa é quem diz ser.",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "no",
+   "redistribution_display": "no"
+  },
+  "note": "Resolved against the first pass: the service is a B2B identity-verification tool, not a data feed for content sites. For the catalogue's scenario (ads/affiliate site storing and showing data) use is outside the permitted purposes. Suggest commercial_use=no for this scenario (B2B KYC use inside your own product is allowed, so the scope is narrow). Free tier commercial status still not stated."
+ },
+ {
+  "id": "crime-data",
+  "outcome": "confirmed",
+  "reasons": [
+   "Re-read /terms and /docs: no non-commercial clause, paid plans exist, site markets to real-estate apps",
+   "Hard conditions: no FCRA/eligibility screening, no victim identification, mandatory per-city source+licence attribution, indemnity for unattributed display",
+   "Upstream licences listed are all permissive (ODC PDDL, CC0, CC BY, ODC-BY, public domain); NYC Admin Code 23-502(d) and Baltimore Code 9-8 texts not read"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Ambiguity is only that ToS never states commercial use explicitly; no blocker found. Leans yes with attribution; downstream share-alike none seen (ODC-BY/CC BY are attribution only). Stays yellow/ambiguous until vendor states commercial use."
+ },
+ {
+  "id": "cure-cancer-with-ai",
+  "outcome": "disputed",
+  "reasons": [
+   "The only terms found (site Terms of Use, Jan 2025) grant personal non-commercial viewing only and forbid commercial purpose, public display, copying and mirroring",
+   "/developers page grants a free key but gives no separate API licence, so the website terms are the only governing text",
+   "News endpoint republishes third-party publisher RSS content and research endpoint carries PubMed abstracts that are publisher-copyrighted; upstream is stricter or unlicensed"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://www.curecancerwithai.com/terms-of-use",
+    "quote": "Permission is granted to temporarily access the materials on curecancerwithai.com for personal, non-commercial transitory viewing only.",
+    "field": "commercial_use"
+   },
+   {
+    "url": "https://www.curecancerwithai.com/terms-of-use",
+    "quote": "Use the materials for any commercial purpose or for any public display",
+    "field": "redistribution_display"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "no",
+   "redistribution_display": "no"
+  },
+  "note": "Resolved toward restrictive: no document overrides the ToU's non-commercial/no-public-display clause for API data. Suggest commercial_use=no and redistribution_display=no (verdict red) until the vendor publishes API terms."
+ },
+ {
+  "id": "dailymed",
+  "outcome": "confirmed",
+  "reasons": [
+   "NLM copyright page: government works free to reuse, but content licensed from private companies may be copyrighted",
+   "DailyMed pages (about, web services, FAQ) contain no terms of their own beyond a Copyright link to the NLM policy",
+   "SPL labels are submitted by manufacturers and NLM does not review them; per-label rights not assessable"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Looked for blockers: none stated, but no affirmative licence for manufacturer-authored label text. Exact attribution text per NLM: 'Courtesy of the National Library of Medicine' or 'Source: National Library of Medicine' (requested, not mandatory). Ambiguous stands."
+ },
+ {
+  "id": "data-usa",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms page re-read: content 'under AGPL v3.0', excerpts allowed with acknowledgement, but 'all requests for commercial use' go to the owner",
+   "Contradictory (AGPL permits commercial use; request clause implies permission needed) and no resolving page found",
+   "API docs now point to api.datausa.io/tesseract (old datausa.io/api/data returns 404); no terms or limits on API page"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Ambiguity not resolvable; the commercial-request sentence is a real blocker risk, AGPL is a copyleft licence that is awkward for data/sites (share-alike unknown). Underlying data is mostly US government sources, not verified. Yellow/ambiguous stands."
+ },
+ {
+  "id": "dataflow-kit-covid-19",
+  "outcome": "disputed",
+  "reasons": [
+   "Upstream Worldometers declares itself 'All rights reserved' and sells counter licences; no reuse licence exists",
+   "Worldometers coronavirus tracker stopped updating on 13 April 2024, so the data is frozen",
+   "API endpoints now fail: covid-19.dataflowkit.com/v1 redirects (301) to the dataflowkit.com homepage instead of returning JSON, so the service appears dead"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://www.worldometers.info/coronavirus/",
+    "quote": "As of April 13, 2024, the Coronavirus Tracker is no longer being updated",
+    "field": "link_status"
+   },
+   {
+    "url": "https://www.worldometers.info/faq/",
+    "quote": "© Copyright Worldometers.info - All rights reserved",
+    "field": "redistribution_display"
+   }
+  ],
+  "suggested": {
+   "redistribution_display": "no"
+  },
+  "note": "Re-check shows the API no longer returns data (/v1, /v1/world, /v1/usa all end on the scraper-marketing homepage), and the scraped upstream is copyrighted with no licence. Suggest link_status dead / verdict unknown (or red for display: upstream rights reserved). First-pass note about April 2025 example data is just stale sample text."
+ },
+ {
+  "id": "dc-hub",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToS s4.2: licence for internal business purposes only; s4.3 bans scraping and redistribution except the CC-BY-4.0 layer in s5.2",
+   "s5.1 permitted uses are internal research, due diligence and presentations with attribution; API integration only on Enterprise tier",
+   "Red verdict stands; only the openly licensed DCPI layer could be shown publicly"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Actively looked for a public-display grant: only the s5.2 CC-BY layer qualifies, and retrieval limits (no scraping, API limits) still apply. commercial_use field could be set to 'no' for general data to match red; not a verdict change."
+ },
+ {
+  "id": "deepdna",
+  "outcome": "disputed",
+  "reasons": [
+   "Upstream PharmGKB/ClinPGx licence is CC BY-SA 4.0 (share-alike) and forbids offering the data for sale as a commercial item; DeepDNA cites PharmGKB and OMIM as sources",
+   "DeepDNA ToS says cited databases stay under their own licences and its summaries do not change those terms, so the 'yes' on display ignores upstream conditions",
+   "OMIM content has its own restrictive agreement (page not retrievable here, not verified)"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://www.clinpgx.org/page/dataUsagePolicy",
+    "quote": "ClinPGx/PharmGKB grants use of its data and contents under the Creative Commons Attribution-ShareAlike 4.0 International License",
+    "field": "redistribution_display"
+   },
+   {
+    "url": "https://www.clinpgx.org/page/dataUsagePolicy",
+    "quote": "not with any intent to offer all or any part of the data for sale as a commercial item",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {
+   "redistribution_display": "ambiguous"
+  },
+  "note": "First-pass redistribution_display=yes rests on DeepDNA's own licence only. Upstream ClinPGx terms impose attribution plus share-alike and a no-sale-as-commercial-item clause, so showing responses on a monetised site is not clean. Suggest redistribution_display=ambiguous (verdict stays yellow), share_alike unknown -> yes for PharmGKB-derived content."
+ },
+ {
+  "id": "drillr",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToS s5: licence for internal business purposes only; no redistribution of raw/aggregated data; no caching or mirroring as a substitute for live calls",
+   "Vendor pass-through restrictions (no redistribution, display and territorial requirements) apply and the more restrictive term controls",
+   "Re-read /legal/terms and quotes match"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Red verdict stands. s7 allows showing AI outputs to end users with disclaimers, but raw data display needs a separate commercial agreement."
+ },
+ {
+  "id": "duceus",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToS s4 re-read: 'You may use the data in your own products, research and publications, including commercial ones'; only bans reselling the API/bulk data as a competing feed",
+   "Licence runs for the subscription duration and a free plan exists (paid plans downgrade to free), so retention after cancelling is unclear",
+   "Upstream national registers (EU/EEA/UK) may carry own reuse terms; not individually checked; data includes insiders' names (GDPR)"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "No blocker found for an ad/affiliate site. Free plan limits: 10 req/hour, filings delayed 14 days; Full 9.90 EUR/month. Yellow stands (storage ambiguous)."
+ },
+ {
+  "id": "dwd-api",
+  "outcome": "disputed",
+  "reasons": [
+   "DWD legal notice: all freely accessible geodata and geo services may be reused under CC BY 4.0 with source note, and 'geodata' explicitly includes all meteorological weather and climate information with location",
+   "CC BY 4.0 allows commercial use, storage and display with attribution, so the first-pass 'ambiguous' undersells the licence",
+   "Residual risk: dwd.api.bund.dev documents the undocumented DWD app backend (not an official API) and DWD images/graphics from third parties are excluded"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://www.dwd.de/DE/service/rechtliche_hinweise/rechtliche_hinweise_node.html",
+    "quote": "Zu den Geodaten zählen alle bereitgestellten meteorologischen Wetter- und Klimainformationen mit Ortsbezug.",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "yes",
+   "storage_caching": "yes",
+   "redistribution_display": "yes",
+   "attribution_required": "yes"
+  },
+  "note": "Evidence points to commercial use allowed under CC BY 4.0 with Quellenvermerk (see DWD template for the required wording). Suggest commercial_use=yes, storage yes, display yes (confidence medium), noting the endpoint is unofficial/unstable and official opendata.dwd.de is the safer source; third-party images excluded."
+ },
+ {
+  "id": "earnings-feed",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToS (updated 17 Nov 2026) s9.3: Free and Pro API are personal non-commercial; Business is internal use only; no plan includes displaying data to third parties",
+   "Quotes verified verbatim; red verdict correct for public ad/affiliate site",
+   "Stale detail: ToS now lists Free 15 req/min and 5,000 req/month, Pro 60/min and 250,000/month, Business 300/min and 2,000,000/month"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Correct rate_limits in the YAML (first pass attributed Pro's 60 req/min, 250,000/month to Free and Business to $199/mo; pricing page shows Pro $49/month). Verdict unaffected."
+ },
+ {
+  "id": "econpulse",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToS (27 May 2026) is short: bans reselling/sublicensing raw API data and mirroring for competitive purposes; derived analytics redistribution permitted; commercial use, caching, attribution not addressed",
+   "Upstream FRED terms: some series are third-party copyrighted and the user must obtain owner permission before non-personal use",
+   "Indeed Hiring Lab data is CC BY 4.0 (attribution), EIA/BLS are US government"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "No page resolves commercial use. Unknown/ambiguous stands; new upstream finding: FRED-sourced series flagged 'Copyright' need owner permission, so raw-value display is risky. Verdict unknown stands."
+ },
+ {
+  "id": "edamam",
+  "outcome": "disputed",
+  "reasons": [
+   "Pricing/docs tables show caching IS allowed on paid plans: only specific fields (IDs/labels plus protein, net carbs, total fat, kcal) while the subscription is active",
+   "First pass set storage_caching=no based on the 'no copying or archiving' clause, which the plan tables qualify",
+   "Commercial use is a paid feature (all paid plan columns tick 'Commercial use'; free version barred by ToS), consistent with paid-only"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://developer.edamam.com/food-database-api",
+    "quote": "Caching is allowed for only the four nutrients as described, and as long as there is an active subscription to this plan.",
+    "field": "storage_caching"
+   }
+  ],
+  "suggested": {
+   "storage_caching": "limited"
+  },
+  "note": "Suggest storage_caching=limited with cache_limit 'only the four nutrients (protein, net carbs, total fat, kcal) plus IDs/labels, while subscription is active; otherwise respect cache headers'. Display still conditioned on 'Powered by Edamam' badge and ToS bar on 'publicly displaying ... except as expressly authorized' -> ambiguous. Verdict stays yellow."
+ },
+ {
+  "id": "edamam-nutrition",
+  "outcome": "disputed",
+  "reasons": [
+   "Nutrition API pricing table: 'Commercial use' is 'no' on the free plan and ticked on both paid plans -> commercial use is paid-only, not ambiguous",
+   "Same table: data caching 'No' on free; paid plans allow only protein, net carbs, total fat, kcal while subscribed -> limited, not ambiguous",
+   "Attribution ('Powered by Edamam' badge) required on every plan"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://developer.edamam.com/edamam-nutrition-api",
+    "quote": "Caching is allowed for only the four nutrients as described, and as long as there is an active subscription to this plan.",
+    "field": "storage_caching"
+   },
+   {
+    "url": "https://www.edamam.com/terms/api/",
+    "quote": "you are prohibited from using the free version of the Edamam API in connection with a commercial or business purpose",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "paid-only",
+   "storage_caching": "limited"
+  },
+  "note": "Resolves two ambiguous fields from the vendor's own plan table (read via Playwright in a fresh context; check marks are icons in the DOM, text quotes limited to the tooltip and ToS). Suggest commercial_use=paid-only (scope paid), storage_caching=limited; display stays ambiguous because ToS bars public display 'except as expressly authorized'. Verdict yellow."
+ },
+ {
+  "id": "edamam-recipes",
+  "outcome": "disputed",
+  "reasons": [
+   "Recipe Search pricing: Basic $9, Core $99, Plus $399 per month, every column ticks 'Commercial use'; free version barred by ToS -> paid-only",
+   "Caching limited to recipe ID and name on Basic; Core/Plus add protein, net carbs, total fat, kcal, only while subscription active",
+   "Basic/Core return web recipes from third parties whose rights Edamam does not hold; Plus is Edamam-owned content"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://developer.edamam.com/edamam-recipe-api",
+    "quote": "Caching is allowed only of the four nutrients as described and as long as there is an active subscription to this plan.",
+    "field": "storage_caching"
+   },
+   {
+    "url": "https://www.edamam.com/terms/api/",
+    "quote": "you are prohibited from using the free version of the Edamam API in connection with a commercial or business purpose",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "paid-only",
+   "storage_caching": "limited"
+  },
+  "note": "Resolves commercial_use=paid-only and storage_caching=limited from the plan table (DOM read in a fresh Playwright context; ticks are icons). Display remains ambiguous (ToS bars public display except as authorised; third-party recipe rights stay with owners; 'Powered by Edamam' required). Verdict yellow."
+ },
+ {
+  "id": "election",
+  "outcome": "disputed",
+  "reasons": [
+   "API page encourages caching and credit but its usage terms only say 'lawful public-record research' and /terms is a 404",
+   "Service also serves FEC campaign-finance and congressional financial-disclosure/stock-trade records: 52 U.S.C. 30111(a)(4) bars using FEC report information for commercial purposes or solicitation, and 5 U.S.C. 13107(c) bars commercial use of disclosure reports",
+   "Candidate-submitted portraits and materials carry third-party rights"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://www.law.cornell.edu/uscode/text/52/30111",
+    "quote": "may not be sold or used by any person for the purpose of soliciting contributions or for commercial purposes",
+    "field": "redistribution_display"
+   }
+  ],
+  "suggested": {
+   "redistribution_display": "ambiguous"
+  },
+  "note": "First-pass storage/display=yes holds for the general public-record layers but ignores statutory upstream limits on the money/disclosure endpoints. Suggest redistribution_display=ambiguous (endpoint-dependent); commercial_use stays unknown; verdict unknown stands."
+ },
+ {
+  "id": "election-night-results",
+  "outcome": "disputed",
+  "reasons": [
+   "Pushbuild ToS s4.1: licence to call APIs is for your internal business purposes only; s5(c) bans reselling/white-labelling the APIs",
+   "s4.2 puts all third-party terms (state feeds) on the user; nothing permits public display of results on a public site",
+   "History mode is CC0 (MIT Election Data and Science Lab), but live results are from state feeds under their own terms"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://pushbuild.com/terms",
+    "quote": "license to call our APIs with the key we issue to you, for your internal business purposes",
+    "field": "redistribution_display"
+   }
+  ],
+  "suggested": {
+   "redistribution_display": "no"
+  },
+  "note": "No clause grants public display or caching; 'internal business purposes' leans against an ad-supported public site. Suggest redistribution_display=no for live results (CC0 historical layer is fine); commercial_use stays ambiguous; verdict likely red for the stated scenario unless vendor grants a display licence."
+ },
+ {
+  "id": "epa",
+  "outcome": "confirmed",
+  "reasons": [
+   "EPA disclaimers: documents free for non-commercial, scientific and educational use; commercial use may be protected by copyright; geospatial data public domain by default; individual documents may differ",
+   "Developer Central page redirects to widgets; Envirofacts/DMAP web-services page states no licence or terms",
+   "Umbrella entry covering many services, not a single API"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Actively checked data.epa.gov/enviro web-services and /data pages: no licence statement that resolves the conflict. Ambiguous stands (government data is mostly public domain in practice, but the site's own wording is non-commercial for documents)."
+ }
+]

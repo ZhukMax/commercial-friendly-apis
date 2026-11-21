@@ -1,0 +1,66 @@
+id: google-books
+name: Google Books
+url: https://developers.google.com/books/
+category: Books
+description: Books
+description_source: upstream
+auth: OAuth
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Google Books
+  url: https://developers.google.com/books/
+  category: Books
+- list: public-api-lists
+  name: Google Books
+  url: https://developers.google.com/books/
+  category: Books
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: limited
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://developers.google.com/books/terms
+commercial_use_scope: any
+cache_limit: Only as long as permitted by the cache header (Google APIs ToS); no permanent copies or databases
+share_alike: unknown
+evidence:
+- field: commercial_use
+  url: https://developers.google.com/books/terms
+  quote: You may not charge users any fee for the use of your application,
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://developers.google.com/terms
+  quote: Scrape, build databases, or otherwise create permanent copies of such content, or keep cached
+    copies longer than permitted by the cache header
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://developers.google.com/terms
+  quote: Copy, translate, modify, create a derivative work of, sell, lease, lend, convey, distribute,
+    publicly display, or sublicense to any third party
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://developers.google.com/books/branding
+  quote: Google must be given attribution, using the appropriate text or brand elements, whenever you
+    display Google results, previews, or other content
+  checked_at: '2026-11-21'
+notes: 'Books-specific terms (last modified 2012) add: no fee charged to users of the app without Google
+  permission; remove infringing content on request. Ad or affiliate monetisation is not a user fee, so
+  not barred in the text read, but commercial use is not expressly granted either, hence ambiguous. Google
+  APIs ToS (developers.google.com/terms, "Prohibited" list) forbids permanent copies/databases and caching
+  beyond the cache header, and also lists copying/publicly displaying API content to third parties; display
+  of Books API content is the normal use case but the generic clause is vague. Books Branding Guidelines
+  (attribution/links) not read. Treat as: live API only, no long-term storage.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Branding Guidelines require attribution whenever Google results or content are displayed;
+  Also require prominent links to Google Books and no alteration of results | applied: attribution_required=yes'

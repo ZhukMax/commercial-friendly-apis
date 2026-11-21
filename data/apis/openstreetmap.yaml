@@ -1,0 +1,82 @@
+id: openstreetmap
+name: OpenStreetMap
+url: http://wiki.openstreetmap.org/wiki/API
+category: Geocoding
+description: Navigation, geolocation and geographical data
+description_source: upstream
+auth: OAuth
+https: false
+cors: unknown
+sources:
+- list: public-apis
+  name: OpenStreetMap
+  url: http://wiki.openstreetmap.org/wiki/API
+  category: Geocoding
+- list: public-api-lists
+  name: OpenStreetMap
+  url: http://wiki.openstreetmap.org/wiki/API
+  category: Geocoding
+link_status: alive
+data_license: ODbL-1.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: 'yes'
+self_host_option: 'yes'
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://www.openstreetmap.org/copyright
+api_terms_url: https://operations.osmfoundation.org/policies/api/
+commercial_use_scope: self-hosted
+attribution_text: Credit OpenStreetMap and its contributors; make clear the data is available under the ODbL
+share_alike: 'yes'
+rate_limits: 'Editing API: max 2 download threads, valid User-Agent required; read-only heavy use not allowed'
+evidence:
+- field: data_license
+  url: https://www.openstreetmap.org/copyright
+  quote: OpenStreetMap is open data, licensed under the Open Data Commons Open Database License (ODbL) by the OpenStreetMap Foundation (OSMF).
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.openstreetmap.org/copyright
+  quote: You are free to copy, distribute, transmit and adapt our data, as long as you credit OpenStreetMap and its contributors.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.openstreetmap.org/copyright
+  quote: You are free to copy, distribute, transmit and adapt our data, as long as you credit OpenStreetMap and its contributors.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.openstreetmap.org/copyright
+  quote: You are free to copy, distribute, transmit and adapt our data, as long as you credit OpenStreetMap and its contributors.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.openstreetmap.org/copyright
+  quote: Provide credit to OpenStreetMap by displaying our attribution notice.
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://www.openstreetmap.org/copyright
+  quote: If you alter or build upon our data, you may distribute the result only under the same license.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://operations.osmfoundation.org/policies/api/
+  quote: Maximum of 2 download threads
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://operations.osmfoundation.org/policies/api/
+  quote: This bulk data download service offers the entire planet of vector data
+  checked_at: '2026-11-21'
+- field: self_host_option
+  url: https://operations.osmfoundation.org/policies/api/
+  quote: All of the tools and software needed to create a complete mirror of OpenStreetMap and/or its API are available as open source software
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://operations.osmfoundation.org/policies/api/
+  quote: The editing API is provided in order to edit the map data, not for read-only purposes or projects.
+  checked_at: '2026-11-21'
+notes: 'Two levels. DATA: ODbL 1.0 allows commercial use with attribution and share-alike for adapted databases (produced works are different; legal check needed). SERVICE: the listed ''API'' is the editing
+  API, which the OSMF says is not for read-only use or projects; heavy users must use planet.osm/extracts, Overpass or their own server, and OSMF warns that access of commercial services may be withdrawn
+  at any point. Public Nominatim/tile servers have their own policies (not part of this entry; Nominatim forbids autocomplete, bulk and reselling geocoding). So commercial_use applies to the data / self-hosted
+  or third-party OSM services, not to the free public API. Verdict yellow because of share-alike and service restrictions.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

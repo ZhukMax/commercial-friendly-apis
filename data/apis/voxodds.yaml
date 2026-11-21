@@ -1,0 +1,26 @@
+id: voxodds
+name: VoxOdds
+url: https://voxodds.com/api
+category: Finance
+description: Polymarket and Kalshi odds, all-in executable quotes, EV checks and audited forecast scores
+description_source: upstream
+auth: none
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: VoxOdds
+  url: https://voxodds.com/api
+  category: Finance
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: HTTP 404

@@ -1,0 +1,35 @@
+id: kiprio-email-validation
+name: Kiprio Email Validation
+url: https://kiprio.com/email-validation-api
+category: Data Validation
+description: Email address validation with MX, disposable, role and typo detection
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: Kiprio Email Validation
+  url: https://kiprio.com/email-validation-api
+  category: Data Validation
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://kiprio.com/terms
+notes: 'Not a data source: email validation (MX, disposable, role, typo checks) on addresses you submit.
+  Terms (1 April 2026) read in full: no resale or sublicensing of API access, no bulk scraping that competes
+  with Kiprio, you retain rights to submitted data, and API/docs content may not be reproduced or redistributed
+  without permission. Nothing on commercial use of results, storage or attribution; unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

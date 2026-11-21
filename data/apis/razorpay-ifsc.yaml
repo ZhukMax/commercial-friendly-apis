@@ -1,0 +1,67 @@
+id: razorpay-ifsc
+name: Razorpay IFSC
+url: https://razorpay.com/docs/
+category: Finance
+description: Indian Financial Systems Code (Bank Branch Codes)
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Razorpay IFSC
+  url: https://razorpay.com/docs/
+  category: Finance
+link_status: redirect
+data_license: public-domain (dataset, per Razorpay README); code MIT
+commercial_use: ambiguous
+storage_caching: ambiguous
+redistribution_display: 'yes'
+attribution_required: unknown
+bulk_download: 'yes'
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: -> https://razorpay.com/docs/home
+data_license_url: https://github.com/razorpay/ifsc
+api_terms_url: https://ifsc.razorpay.com/
+commercial_use_scope: any
+share_alike: unknown
+evidence:
+- field: data_license
+  url: https://github.com/razorpay/ifsc
+  quote: The dataset itself is under public domain.
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://ifsc.razorpay.com/
+  quote: IFSC dataset available for download
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://github.com/razorpay/ifsc
+  quote: The dataset itself is under public domain.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://github.com/razorpay/ifsc
+  quote: The dataset itself is under public domain.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://github.com/razorpay/ifsc
+  quote: The dataset itself is under public domain.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.rbi.org.in/Scripts/Disclaimer.aspx
+  quote: caching and links to, and the framing of this Web Site or any of the contents are prohibited.
+  checked_at: '2026-11-21'
+notes: The IFSC toolkit (ifsc.razorpay.com, github.com/razorpay/ifsc) states the dataset is public domain
+  (code MIT). The hosted API at ifsc.razorpay.com has no stated terms or SLA; the entry URL razorpay.com/docs
+  is Razorpay's general docs and was not used for terms. The underlying bank-branch data is compiled from
+  RBI/NPCI/bank publications (not verified). The README is a self-declaration by Razorpay, hence medium
+  confidence.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Public-domain claim is only a self-declaration; dataset is compiled from RBI and NPCI
+  lists whose licence was not read; RBI site states all rights reserved; Hosted API is in a separate repo
+  (ifsc-api) with no stated terms or SLA | applied: storage_caching=ambiguous, commercial_use=ambiguous'

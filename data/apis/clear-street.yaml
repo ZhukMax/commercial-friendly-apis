@@ -1,0 +1,30 @@
+id: clear-street
+name: Clear Street
+url: https://docs.clearstreet.com/
+category: Finance
+description: Trade US stocks and options, with market data, fundamentals and account data
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Clear Street
+  url: https://docs.clearstreet.com/?utm_source=github&utm_medium=developer&utm_campaign=api_listings&utm_content=public_apis
+  category: Finance
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://docs.clearstreet.com/guides/instrument-data
+notes: Read the docs (Get Started, API fundamentals, Instrument Data) and clearstreet.io legal pages (privacy, security, regulatory disclosures). No API terms or market-data licence found; the API is for
+  Clear Street brokerage account holders and returns exchange/third-party market data and fundamentals whose redistribution terms are not stated. Core fields left unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

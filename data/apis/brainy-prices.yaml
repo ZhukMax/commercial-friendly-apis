@@ -1,0 +1,79 @@
+id: brainy-prices
+name: Brainy Prices
+url: https://prices.brainy.ae/developers.html
+category: Finance
+description: 'UAE living costs: KHDA fees, DLD rents, fuel, utilities, telecom and relocation, with dated
+  sources'
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Brainy Prices
+  url: https://prices.brainy.ae/developers.html
+  category: Finance
+link_status: alive
+data_license: CC-BY-4.0 (own compilations only); third-party figures keep source licences
+commercial_use: ambiguous
+storage_caching: limited
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: 'no'
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://prices.brainy.ae/data-license.html
+api_terms_url: https://prices.brainy.ae/api-terms.html
+commercial_use_scope: any
+cache_limit: Cache privately with source/date/status, revalidate via ETag; no mass downloads
+attribution_text: 'Source: Brainy Prices, prices.brainy.ae, <date> with link; plus per-source attribution'
+share_alike: unknown
+rate_limits: Anonymous 30/min and 500/day; free key 60/min and 1,500/day
+notes: 'Mixed licensing: own compilations CC BY 4.0, but responses embed third-party figures with their
+  own terms: KHDA tuition non-commercial/unaltered, FAO figures not with affiliate links/shopping carts,
+  DLD under Dubai Open Data Licence (medians are Adapted Material), OSM-derived under ODbL. Per-row source/licence
+  in meta.dataset.sources must be honoured. Pages read: developers, api-terms, data-license.'
+evidence:
+- field: data_license
+  url: https://prices.brainy.ae/data-license.html
+  quote: Our compilations, calculations and estimates are licensed under Creative Commons Attribution
+    4.0 International (CC BY 4.0)
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://prices.brainy.ae/data-license.html
+  quote: the FAO figure must not be shown with affiliate links, store recommendations or a shopping cart
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://prices.brainy.ae/developers.html
+  quote: Tuition data is for non-commercial use and must not be altered.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://prices.brainy.ae/developers.html
+  quote: Cache responses privately, retain their source/date/status and revalidate using ETag when supported.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://prices.brainy.ae/api-terms.html
+  quote: A free API does not grant new rights in third-party materials or make every result an openly
+    licensed dataset.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://prices.brainy.ae/data-license.html
+  quote: Credit «Brainy Prices — prices.brainy.ae» with a link to https://prices.brainy.ae/
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://prices.brainy.ae/developers.html
+  quote: No mass downloads, systematic enumeration or open dataset is offered.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://prices.brainy.ae/developers.html
+  quote: 'Anonymous v2 access: 30 requests per minute and 500 per UTC day per verified network identity
+    (IPv6 /64).'
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read data-license, api-terms and developers pages. Affiliate-link ban for FAO figures
+  and non-commercial KHDA data are real blockers for part of the data; yellow stands.

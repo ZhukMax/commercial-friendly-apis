@@ -1,0 +1,25 @@
+id: positivequotation
+name: PositiveQuotation
+url: https://positivequotation.com/developers/public-domain-quotes-api
+category: Personality
+description: Source-verified public-domain English proverbs with provenance
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: PositiveQuotation
+  url: https://positivequotation.com/developers/public-domain-quotes-api
+  category: Personality
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

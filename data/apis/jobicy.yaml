@@ -1,0 +1,70 @@
+id: jobicy
+name: Jobicy
+url: https://jobicy.com/jobs-rss-feed
+category: Jobs
+description: The latest remote job listings from a diverse range of industries and companies
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: Jobicy
+  url: https://jobicy.com/jobs-rss-feed
+  category: Jobs
+link_status: alive
+data_license: proprietary (Jobicy API fair-use terms)
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+share_alike: unknown
+commercial_use_scope: any
+api_terms_url: https://jobicy.com/jobs-rss-feed
+attribution_text: Credit Jobicy and link to the source listing (clickable link)
+rate_limits: 1 request/second per IP; 429 with Retry-After
+evidence:
+- field: commercial_use
+  url: https://jobicy.com/jobs-rss-feed
+  quote: You may use Jobicy listings in your own products and user experiences without requesting individual
+    permission.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://jobicy.com/jobs-rss-feed
+  quote: You may use Jobicy listings in your own products and user experiences without requesting individual
+    permission.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://jobicy.com/jobs-rss-feed
+  quote: You may store, cache, process, and retain Jobicy API data without a fixed retention period.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://jobicy.com/jobs-rss-feed
+  quote: Clearly credit Jobicy as the original source when displaying listings.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://jobicy.com/jobs-rss-feed
+  quote: Send no more than 1 request per second per IP address and cache responses where appropriate.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://jobicy.com/jobs-rss-feed
+  quote: You may use Jobicy listings in your own products and user experiences without requesting individual
+    permission.
+  checked_at: '2026-11-21'
+notes: Read the Fair use section of the Jobicy Jobs API documentation (this URL serves the API docs).
+  Terms do not use the word "commercial" for the free public API but permit use in own products, with
+  source credit; the paid "Commercial Jobs API" only adds direct ATS apply links. Do not present listings
+  as own postings; closed jobs must be marked unavailable. Listings are employer content; Jobicy site
+  Terms of Service page not located (/terms-of-use 404).
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Generic site Terms (/terms-and-conditions) forbid 'publicly display ... commercially
+  exploit' the Website/Services; read as site/software scope, API page grants explicit use, but a conflict
+  risk remains. Public feed shows only last 7 days; employer logos/trademarks stay theirs.

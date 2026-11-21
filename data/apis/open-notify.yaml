@@ -1,0 +1,58 @@
+id: open-notify
+name: Open Notify
+url: http://open-notify.org/Open-Notify-API/
+category: Science & Math
+description: ISS astronauts, current location, etc
+description_source: upstream
+auth: none
+https: false
+cors: 'no'
+sources:
+- list: public-apis
+  name: Open Notify
+  url: http://open-notify.org/Open-Notify-API/
+  category: Science & Math
+- list: public-api-lists
+  name: Open Notify
+  url: http://open-notify.org/Open-Notify-API/
+  category: Science & Math
+link_status: alive
+data_license: CC-BY-3.0 (stated for the site; applicability to API data not stated)
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: ambiguous
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+data_license_url: https://creativecommons.org/licenses/by/3.0/
+api_terms_url: http://open-notify.org/Open-Notify-API/
+commercial_use_scope: any
+evidence:
+- field: data_license
+  url: http://open-notify.org/Open-Notify-API/
+  quote: This site is licensed under a Creative Commons Attribution 3.0 Unported License.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: http://open-notify.org/Open-Notify-API/
+  quote: This site is licensed under a Creative Commons Attribution 3.0 Unported License.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: http://open-notify.org/Open-Notify-API/
+  quote: This site is licensed under a Creative Commons Attribution 3.0 Unported License.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: http://open-notify.org/Open-Notify-API/
+  quote: This site is licensed under a Creative Commons Attribution 3.0 Unported License.
+  checked_at: '2026-11-21'
+notes: Only the API doc page was read. Its single licence statement covers "this site"; it does not say
+  that the ISS position/astronaut data returned by the API are under that licence, nor does it mention
+  commercial use, caching or rate limits. No separate terms page found. The API is HTTP only (no HTTPS).
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read site: API still answers (iss-now, astros) over HTTP. ISS position and astronaut
+  names are facts from NASA sources; nothing blocks use but also nothing explicit. Keep ambiguous/low.'

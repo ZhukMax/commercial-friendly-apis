@@ -1,0 +1,58 @@
+id: data-usa
+name: Data USA
+url: https://datausa.io/about/api/
+category: Government
+description: US Public Data
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Data USA
+  url: https://datausa.io/about/api/
+  category: Government
+link_status: alive
+data_license: AGPL-3.0 (site content, per Data USA); underlying US government datasets
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://datausa.io/about/usage
+api_terms_url: https://datausa.io/about/usage
+commercial_use_scope: any
+share_alike: unknown
+evidence:
+- field: commercial_use
+  url: https://datausa.io/about/usage
+  quote: All requests for commercial use and translation rights should be submitted to
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://datausa.io/about/usage
+  quote: provided that suitable acknowledgment of Data USA as source is given.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://datausa.io/about/usage
+  quote: provided that suitable acknowledgment of Data USA as source is given.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://datausa.io/about/usage
+  quote: All of the content on the site is presented under a GNU Affero General Public License v3.0 (GPLv3)
+    .
+  checked_at: '2026-11-21'
+notes: 'Terms page is contradictory/vague: content "under AGPL v3.0 (GPLv3)", excerpts may be included
+  in websites with acknowledgement, but all requests for commercial use must be sent to Data USA. Treated
+  as ambiguous. Underlying data comes from US government sources (often public domain) but that was not
+  verified here. API doc page (/about/api) has no terms or rate limits. Read via curl.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Ambiguity not resolvable; the commercial-request sentence is a real blocker risk, AGPL
+  is a copyleft licence that is awkward for data/sites (share-alike unknown). Underlying data is mostly
+  US government sources, not verified. Yellow/ambiguous stands.

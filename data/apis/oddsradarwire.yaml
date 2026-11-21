@@ -1,0 +1,33 @@
+id: oddsradarwire
+name: OddsRadarWire
+url: https://oddsradarwire.com/docs.html
+category: Sports & Fitness
+description: Live and prematch Betradar odds with raw no-vig probabilities, REST and SSE
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: OddsRadarWire
+  url: https://oddsradarwire.com/docs.html
+  category: Sports & Fitness
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://pinnwire.com/
+evidence: []
+notes: 'oddsradarwire.com (docs.html and /terms) 301-redirects to pinnwire.com, a Pinnacle-odds REST/SSE/WebSocket
+  service; the target page does not mention OddsRadarWire or say it replaces it, and the entry describes
+  Betradar odds, so nothing was transferred. pinnwire.com/terms returned 403 to curl (not bypassed). No
+  terms read: all unknown. Betradar/Sportradar odds data is typically heavily licensed upstream.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

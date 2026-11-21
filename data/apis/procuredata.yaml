@@ -1,0 +1,46 @@
+id: procuredata
+name: ProcureData
+url: https://procuredata.ca
+category: Government
+description: Canadian federal procurement contracts, tenders and awards
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-api-lists
+  name: ProcureData
+  url: https://procuredata.ca
+  category: Government
+link_status: alive
+data_license: open government licences of the source publishers (OGL-Canada and provincial equivalents)
+commercial_use: 'yes'
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.procuredata.ca/tos/
+commercial_use_scope: any
+rate_limits: 'Free: 100 requests/day; Pro: 10,000/day'
+notes: Read the ToS (short). API use for applications and commercial workflows is allowed within plan
+  limits; reselling raw responses as a competing data product is banned. Display on public pages, caching/storage
+  and attribution are not addressed (source datasets carry OGL-Canada-type attribution duties). Verdict
+  unknown until those are confirmed.
+evidence:
+- field: commercial_use
+  url: https://www.procuredata.ca/tos/
+  quote: You may use the API to build applications, conduct research, and power internal or commercial
+    data workflows, subject to your plan's rate limits.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.procuredata.ca/tos/
+  quote: Underlying government datasets remain the property of their respective publishers and are subject
+    to open government licences (OGL-Canada and applicable provincial equivalents).
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+share_alike: unknown

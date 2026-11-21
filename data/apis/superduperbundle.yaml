@@ -1,0 +1,25 @@
+id: superduperbundle
+name: SuperDuperBundle
+url: https://superduperbundle.com/tools/api/
+category: Games & Comics
+description: Lowest listed PC game key prices across official and key stores, by name or Steam app ID
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: SuperDuperBundle
+  url: https://superduperbundle.com/tools/api/
+  category: Games & Comics
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

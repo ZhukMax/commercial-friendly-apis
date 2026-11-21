@@ -1,0 +1,37 @@
+id: currencyapi
+name: CurrencyAPI
+url: https://currencyapi.com
+category: Cryptocurrency
+description: Currency Conversion API
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-api-lists
+  name: CurrencyAPI
+  url: https://currencyapi.com
+  category: Cryptocurrency
+link_status: alive
+data_license: unknown
+commercial_use: paid-only
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://currencyapi.com/terms-of-service/
+commercial_use_scope: paid
+evidence:
+- field: commercial_use
+  url: https://currencyapi.com/pricing
+  quote: Upgrade for commercial use, more requests and faster updates
+  checked_at: '2026-11-21'
+notes: 'Pricing page: free plan (300 requests/month) is labelled "Private Use"/personal projects; paid Small and above list "Commercial Use". ToS (terms-of-service/) has a "No Unauthorized Reselling" clause
+  (no reproducing/reselling the service without written approval) and says nothing specific on caching, display or attribution of rate data, so those stay unknown. Rates come from upstream sources (central
+  banks/providers); upstream terms not checked.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

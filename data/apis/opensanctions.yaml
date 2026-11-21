@@ -1,0 +1,51 @@
+id: opensanctions
+name: OpenSanctions
+url: https://www.opensanctions.org/docs/api/
+category: Open Data
+description: Data on international sanctions, crime and politically exposed persons
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: OpenSanctions
+  url: https://www.opensanctions.org/docs/api/
+  category: Open Data
+link_status: alive
+data_license: CC-BY-NC-4.0 (commercial use needs a paid data licence)
+commercial_use: paid-only
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: 'yes'
+self_host_option: 'yes'
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://www.opensanctions.org/licensing/
+api_terms_url: https://www.opensanctions.org/terms/terms-and-conditions/
+commercial_use_scope: paid
+evidence:
+- field: commercial_use
+  url: https://www.opensanctions.org/docs/api/
+  quote: OpenSanctions is free for non-commercial users. Businesses must acquire a data license to use the dataset.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.opensanctions.org/licensing/
+  quote: The data is licensed under the terms of Creative Commons 4.0 Attribution NonCommercial
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://www.opensanctions.org/licensing/
+  quote: All of it is open for download .
+  checked_at: '2026-11-21'
+- field: self_host_option
+  url: https://www.opensanctions.org/licensing/
+  quote: Run your own screening
+  checked_at: '2026-11-21'
+notes: 'Pages read: /docs/api/ and /licensing/. Data is CC BY-NC 4.0 and businesses (any commercial use, incl. ad/affiliate sites) must buy a licence; hosted Screening API is billed per query; free API
+  keys exist for journalism, civil society and academic work. API now needs an API key (auth changed from none). Reseller/OEM licence exists for redistributing inside products. Caching/display terms not
+  read in the T&Cs page (the /terms/ URL is 404; T&C link not read), so left unknown. Self-host via open-source yente and bulk data. Sanctions data also derives from many public-source lists with their
+  own terms.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

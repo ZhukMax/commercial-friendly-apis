@@ -1,0 +1,37 @@
+id: seller-fee
+name: Seller Fee
+url: https://seller-fee-api.narwhalapis.workers.dev
+category: Business
+description: Marketplace and payment fees for Gumroad, Etsy, Stripe and PayPal with net payout breakdowns
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Seller Fee
+  url: https://seller-fee-api.narwhalapis.workers.dev
+  category: Business
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+rate_limits: Free; keep request rates reasonable (no numeric limit)
+evidence:
+- field: rate_limits
+  url: https://seller-fee-api.narwhalapis.workers.dev/
+  quote: Free to use; please keep request rates reasonable.
+  checked_at: '2026-11-21'
+notes: Read the API root JSON, /v1/platforms and the author's guide page https://narwhalthepong.github.io/gumroad-license-check/free-tax-finance-api (calculators also run as free JSON APIs, no key). No
+  terms, licence or privacy page exists (/terms, /license, /docs return 404; the RapidAPI listing was not read). The only statement is 'Free to use; please keep request rates reasonable.', which says nothing
+  about commercial use, storage, display or attribution. Output is computed from fee schedules published by Gumroad, Etsy, Stripe and PayPal (each response cites the source URL and rates_as_of date), so
+  those platforms' pricing-page terms are upstream. All core fields unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

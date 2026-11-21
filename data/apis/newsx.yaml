@@ -1,0 +1,31 @@
+id: newsx
+name: NewsX
+url: https://rapidapi.com/machaao-inc-machaao-inc-default/api/newsx/
+category: News
+description: Get or Search Latest Breaking News with ML Powered Summaries 🤖
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: NewsX
+  url: https://rapidapi.com/machaao-inc-machaao-inc-default/api/newsx/
+  category: News
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: RapidAPI listing returns "API not found" (Playwright, fresh context, 2026-11-21)
+evidence: []
+notes: The RapidAPI listing (rapidapi.com/machaao-inc-machaao-inc-default/api/newsx/ and its /pricing sub-page) redirected to rapidapi.com/server-error?code=NOT_FOUND with the message "API not found.",
+  so the API is no longer listed. RapidAPI marketplace terms (rapidapi.com/page/terms) say API-level terms are between provider and consumer, so there are no terms to read. All terms left unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

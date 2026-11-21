@@ -1,0 +1,69 @@
+id: tomba-email-finder
+name: Tomba email finder
+url: https://tomba.io/api
+category: Business
+description: Email Finder for B2B sales and email marketing and email verifier
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Tomba email finder
+  url: https://tomba.io/api
+  category: Business
+- list: public-api-lists
+  name: Tomba Email finder
+  url: https://tomba.io/
+  category: Business
+link_status: alive
+data_license: unknown
+commercial_use: 'yes'
+storage_caching: limited
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://tomba.io/legal/api-terms
+cache_limit: Refresh or purge cached contact data at least every 12 months; delete all cached API data
+  within 90 days of ending the subscription
+attribution_text: Attribute Tomba as the source where API data are displayed to end users
+evidence:
+- field: commercial_use
+  url: https://tomba.io/legal/api-terms
+  quote: Use data returned by the API for your own internal business purposes, or to deliver functionality
+    to your own end users where your plan permits
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://tomba.io/legal/api-terms
+  quote: Refresh or purge cached contact data at least every twelve (12) months
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://tomba.io/legal/api-terms
+  quote: Mirror, republish, resell, or redistribute API data, or expose it through a public endpoint,
+    free tool, or open dataset
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://tomba.io/legal/api-terms
+  quote: Where you display data obtained through the API to end users, you must attribute Tomba as the
+    source
+  checked_at: '2026-11-21'
+notes: Read API Terms (https://tomba.io/legal/api-terms, eff. 10 Aug 2026) and Terms of Service (https://tomba.io/legal/terms-of-service;
+  https://tomba.io/terms redirects there). Data are B2B contact details (personal data, privacy/anti-spam
+  duties on the customer) compiled from public sources and inference; upstream rights not assessed. Use
+  is for internal business purposes or functionality for your own end users; caching allowed with 12-month
+  refresh; republishing API data publicly, mirroring or a persistent shadow copy is forbidden, so showing
+  contact data on public pages is at best ambiguous. Whether the free plan covers commercial use was not
+  read. Pricing/plan page not read.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read API Terms (eff. 2026-08-10): licence s2 is ''internal business purposes, or
+  to deliver functionality to your own end users where your plan permits''; s5 forbids to ''Mirror, republish,
+  resell, or redistribute API data, or expose it through a public endpoint, free tool, or open dataset'';
+  s7 requires attribution. Pricing page contains no commercial-use statement. Publishing contact data
+  on publ'

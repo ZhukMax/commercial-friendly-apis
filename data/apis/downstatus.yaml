@@ -1,0 +1,34 @@
+id: downstatus
+name: DownStatus
+url: https://isitdownstatus.com
+category: Development
+description: Real-time status for GitHub, AWS, Discord and 90+ services
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: DownStatus
+  url: https://isitdownstatus.com
+  category: Development
+- list: public-apis
+  name: isitdownstatus
+  url: https://isitdownstatus.com
+  category: Development
+- list: public-api-lists
+  name: DownStatus
+  url: https://isitdownstatus.com
+  category: Development
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: HTTP 429 (blocked for bots, assumed alive)

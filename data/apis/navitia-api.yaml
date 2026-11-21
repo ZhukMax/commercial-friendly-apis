@@ -1,0 +1,29 @@
+id: navitia-api
+name: Navitia
+url: https://api.navitia.io/
+category: Transportation
+description: The open API for building cool stuff with transport data
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-api-lists
+  name: Navitia
+  url: https://api.navitia.io/
+  category: Transportation
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+notes: api.navitia.io returns only a JSON version document. navitia.io now redirects to hove.com (a French mobility-data company whose product is Navitia); no API terms or open-data licence page was found
+  there or on doc.navitia.io, and the hove.com redirect itself does not state licence terms. Per-coverage data licences (each transit dataset has its own) were not located. All unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

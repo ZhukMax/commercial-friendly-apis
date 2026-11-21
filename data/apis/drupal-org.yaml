@@ -1,0 +1,71 @@
+id: drupal-org
+name: Drupal.org
+url: https://www.drupal.org/drupalorg/docs/api
+category: Open Source Projects
+description: Drupal.org
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Drupal.org
+  url: https://www.drupal.org/drupalorg/docs/api
+  category: Open Source Projects
+- list: public-api-lists
+  name: Drupal.org
+  url: https://www.drupal.org/drupalorg/docs/api
+  category: Open Source Projects
+link_status: redirect
+data_license: CC-BY-SA-2.0 (site content); GPL-2.0-or-later (code)
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: https://www.drupal.org/drupalorg/docs/api redirects to https://www.drupal.org/drupalorg/docs/apis/rest-and-other-apis (same API docs page, moved); read via Playwright because curl gets a client
+  challenge (403)
+data_license_url: https://www.drupal.org/terms
+api_terms_url: https://www.drupal.org/terms
+commercial_use_scope: any
+share_alike: 'yes'
+rate_limits: Rate limited by default; use a User-Agent, single thread, cache locally
+evidence:
+- field: data_license
+  url: https://www.drupal.org/terms
+  quote: Content, including user-generated content like comments and discussions (except for the code) on the Website is licensed under Creative Commons License, Attribution-ShareAlike 2.0
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://creativecommons.org/licenses/by-sa/2.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.drupal.org/drupalorg/docs/apis/rest-and-other-apis
+  quote: Cache results locally whenever possible.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://creativecommons.org/licenses/by-sa/2.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://creativecommons.org/licenses/by-sa/2.0/
+  quote: Attribution — You must give appropriate credit
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://creativecommons.org/licenses/by-sa/2.0/
+  quote: ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://www.drupal.org/drupalorg/docs/apis/use-of-automation-tools-including-ai
+  quote: Traditional API requests are allowed by default, but rate limited.
+  checked_at: '2026-11-21'
+notes: 'Read via Playwright (fresh context): API docs (api-d7 REST, read-only, JSON/XML), Drupal.org Terms of Service (content is CC BY-SA 2.0, code GPL v2+, ''except where the content is shared from a
+  third-party source where the license is cited'', so per-item licences can differ) and the ''Use of Automation Tools, including AI'' page (reads allowed by default but rate limited; passive tools may be
+  blocked; automations that act on the site need approval). CC BY-SA 2.0 deed read for commercial use/attribution/share-alike. Share-alike makes this yellow. The API also exposes user and comment records
+  (personal data), which the licence does not clear for reuse. Docs ask for an appropriate User-Agent and single-threaded requests.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

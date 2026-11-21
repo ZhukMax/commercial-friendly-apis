@@ -1,0 +1,70 @@
+id: infranode
+name: InfraNode
+url: https://infranode.dev
+category: Open Data
+description: 'Unified German city open data: weather, air quality, EV chargers, transit, demographics'
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: InfraNode
+  url: https://infranode.dev
+  category: Open Data
+link_status: alive
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+notes: Read home, quickstart, about, pagination pages (EN/DE). The service is free, ad-free and keyless
+  (so auth is none, not apiKey as upstream listed). It has no terms of use page that grants commercial
+  use; instead each data record carries the licence/attribution of its upstream source (DWD GeoNutzV,
+  various open-data licences), so commercial use, display and attribution differ per endpoint and were
+  not individually checked. Source code is stated to be Apache-2.0 on GitHub (not checked). No rate limit
+  found.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+data_license: 'mixed: each record carries its own licence and attribution (e.g. geonutzv for DWD)'
+api_terms_url: https://infranode.dev/en/
+commercial_use: 'yes'
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+evidence:
+- field: data_license
+  url: https://infranode.dev/en/
+  quote: Every response follows the same JSON envelope and names licence, origin and an honest source
+    status.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://infranode.dev/en/
+  quote: Every response follows the same JSON envelope and names licence, origin and an honest source
+    status.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://infranode.dev/en/
+  quote: Every response follows the same JSON envelope and names licence, origin and an honest source
+    status.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://infranode.dev/en/
+  quote: Every response follows the same JSON envelope and names licence, origin and an honest source
+    status.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://infranode.dev/en/
+  quote: 'all permissively licensed (Tier A: DL-DE/BY, CC-BY, free for commercial use)'
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://infranode.dev/en/
+  quote: Each data record additionally carries an attribution field with licence and origin.
+  checked_at: '2026-11-21'
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Homepage states all listed data types are permissively licensed and free for commercial
+  use, which first pass missed.; Each record carries an attribution field, so attribution is required.
+  | applied: commercial_use=yes, attribution_required=yes'
+verdict_override: yellow
+override_reason: Second check resolved some fields; unconfirmed storage/display keeps it at yellow.

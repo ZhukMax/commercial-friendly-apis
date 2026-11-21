@@ -1,0 +1,83 @@
+id: getparceldata
+name: GetParcelData
+url: https://getparceldata.com/api
+category: Geocoding
+description: US parcel boundaries, owners and assessor values by APN, point or polygon
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: GetParcelData
+  url: https://getparceldata.com/api
+  category: Geocoding
+link_status: alive
+data_license: proprietary (GetParcelData licence; underlying county public records keep their own open-data
+  licences)
+commercial_use: 'yes'
+storage_caching: limited
+redistribution_display: ambiguous
+attribution_required: 'no'
+bulk_download: 'yes'
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://getparceldata.com/terms
+api_terms_url: https://getparceldata.com/terms
+commercial_use_scope: any
+share_alike: unknown
+rate_limits: 'Free key: 100 credits, no card; paid plans from $29/mo (1,000 credits); APN/point = 1 credit,
+  radius/polygon = 3'
+notes: 'Read ToS (updated Aug 3 2026), /pricing and /api. Licence applies to data you purchased/queried,
+  same on every plan per pricing page (includes free 100-credit key). Forbidden: reselling/redistributing
+  raw parcels or geometry standalone or in bulk, building a competing parcel service, sharing keys, FCRA
+  consumer-report use. Storage is "internal use without restriction" (no explicit cache-duration rule),
+  so medium confidence. Records include owner names (privacy-sensitive). Upstream county licences not
+  checked.'
+evidence:
+- field: commercial_use
+  url: https://getparceldata.com/terms
+  quote: Display, visualize, and render the data as part of your own products and services;
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://getparceldata.com/terms
+  quote: Display, visualize, and render the data as part of your own products and services;
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://getparceldata.com/terms
+  quote: Use the data internally without restriction;
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://getparceldata.com/terms
+  quote: Use the data without attribution requirements.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://getparceldata.com/terms
+  quote: Underlying public records remain governed by the open-data licenses of their originating jurisdictions.
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://getparceldata.com/api
+  quote: Bulk extracts start at $49
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://getparceldata.com/pricing
+  quote: The short version, and it is the same on every plan.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://getparceldata.com/terms
+  quote: Resell, redistribute, sublicense, or publish the raw parcel data or geometry as a standalone
+    product or in bulk to third parties;
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://getparceldata.com/terms
+  quote: Upon termination, your license to use the data ends;
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Licence to use data ends on termination, so storage is not unlimited; Bulk publication
+  of raw parcel data to third parties forbidden, which conflicts with programmatic SEO pages; Records
+  include owner names (privacy) | applied: storage_caching=limited, redistribution_display=ambiguous'

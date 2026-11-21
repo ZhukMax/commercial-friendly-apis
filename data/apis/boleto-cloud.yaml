@@ -1,0 +1,36 @@
+id: boleto-cloud
+name: Boleto.Cloud
+url: https://boleto.cloud/
+category: Finance
+description: A api to generate boletos in Brazil
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Boleto.Cloud
+  url: https://boleto.cloud/
+  category: Finance
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://boleto.cloud/termos-de-uso/
+share_alike: unknown
+evidence: []
+notes: Read Termos de Uso (Portuguese). Boleto.Cloud is a service to issue boletos from your own bank
+  account, not a data feed; terms forbid copying/reselling the platform and say customer data is used
+  only for the contracted functions. No data licence, caching, display or attribution terms. All unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

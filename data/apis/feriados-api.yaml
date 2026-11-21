@@ -1,0 +1,36 @@
+id: feriados-api
+name: Feriados API
+url: https://feriadosapi.com
+category: Calendar
+description: Brazilian holidays API covering national, state, and municipal holidays for 5,570+ municipalities
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: Feriados API
+  url: https://feriadosapi.com
+  category: Calendar
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://feriadosapi.com/termos-de-uso
+notes: 'Read the Terms of Use (Portuguese, Bini Labs) and homepage. Terms grant a limited, non-exclusive,
+  revocable licence per plan; forbid reselling/sublicensing access, building a competing product with
+  substantial reproduction of the data, and copying/redistributing/substantially reproducing the compiled
+  holiday database without written permission. They do not state whether the data may be stored or shown
+  on a commercial site; the pricing page is JS-rendered and was not readable, so plan-level conditions
+  (free lifetime plan: national, state, bank and capital holidays) are unknown. Homepage markets the API
+  for ERPs, HR and e-commerce (marketing only). Data compiled from official gazettes; upstream sources
+  not assessed. Auth: API key via X-API-Key header.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

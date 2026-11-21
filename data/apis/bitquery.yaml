@@ -1,0 +1,41 @@
+id: bitquery
+name: Bitquery
+url: https://graphql.bitquery.io/ide
+category: Blockchain
+description: Onchain GraphQL APIs & DEX APIs
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Bitquery
+  url: https://graphql.bitquery.io/ide
+  category: Blockchain
+link_status: redirect
+data_license: unknown
+commercial_use: 'yes'
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://ide.bitquery.io
+api_terms_url: https://bitquery.io/terms-of-service
+evidence:
+- field: commercial_use
+  url: https://bitquery.io/terms-of-service
+  quote: Subscriber may use the Services and any data or results obtained through the Services for any
+    lawful commercial or non-commercial purpose
+  checked_at: '2026-11-21'
+notes: Read https://bitquery.io/terms-of-service (subscription agreement). Commercial use of data/results
+  is allowed within the Scope Limitations in the applicable Service Order; use that substitutes for Bitquery
+  or competes with it is banned. Terms are for subscribers; whether the free developer plan is covered
+  by the same clause not confirmed (scope left unset). Caching/storage and public display/redistribution
+  not addressed. Bitquery says it relies on third-party data sources (upstream terms not checked). Pricing/plan
+  pages and IDE page not read.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

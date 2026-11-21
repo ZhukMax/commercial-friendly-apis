@@ -1,0 +1,29 @@
+id: foaas
+name: FOAAS
+url: http://www.foaas.com/
+category: Personality
+description: Fuck Off As A Service
+description_source: upstream
+auth: none
+https: false
+cors: unknown
+sources:
+- list: public-apis
+  name: FOAAS
+  url: http://www.foaas.com/
+  category: Personality
+- list: public-apis
+  name: Fuck Off as a Service
+  url: https://www.foaas.com
+  category: Social
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

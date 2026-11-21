@@ -1,0 +1,29 @@
+id: airportsapi
+name: airportsapi
+url: https://airport-web.appspot.com/api/docs/
+category: Transportation
+description: Get name and website-URL for airports by ICAO code
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: airportsapi
+  url: https://airport-web.appspot.com/api/docs/
+  category: Transportation
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+notes: 'Only the Swagger UI / swagger.json (Google Cloud Endpoints, airport-web.appspot.com) was found: "Get name and website-URL for airports by ICAO code. Covered airports are mostly in Germany." No licence
+  or terms published; the site root returns 404. All terms unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -1,0 +1,30 @@
+id: czech-television
+name: Czech Television
+url: http://www.ceskatelevize.cz/xml/tv-program/
+category: Video
+description: TV programme of Czech TV
+description_source: upstream
+auth: none
+https: false
+cors: unknown
+sources:
+- list: public-apis
+  name: Czech Television
+  url: http://www.ceskatelevize.cz/xml/tv-program/
+  category: Video
+- list: public-api-lists
+  name: Czech Television
+  url: http://www.ceskatelevize.cz/xml/tv-program/
+  category: Video
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://www.ceskatelevize.cz/xml/tv-program/informace/

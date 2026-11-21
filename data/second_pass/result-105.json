@@ -1,0 +1,328 @@
+[
+ {
+  "id": "cleartrace",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToS re-read: no commercial/caching clause; 'redistribute without permission' unresolved",
+   "Upstream Dune/DefiLlama/Polymarket terms may be stricter, not assessed"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "ToS sec.5 and sec.7 re-read at cleartracedata.com/terms.html; verdict unknown stands."
+ },
+ {
+  "id": "coinbase",
+  "outcome": "disputed",
+  "reasons": [
+   "CDP ToS (read via Playwright, readable) bars sharing data with third parties; showing it on a public site is sharing",
+   "Caching/storing barred except as terms allow"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://www.coinbase.com/legal/developer-platform/terms-of-service",
+    "quote": "You may not share such data or content with third parties in any manner without Coinbase’s prior written authorization.",
+    "field": "redistribution_display"
+   }
+  ],
+  "suggested": {
+   "redistribution_display": "no"
+  },
+  "note": "Re-verified in a fresh Playwright context; quotes in first pass are exact. Display on a public commercial page needs Coinbase written authorization."
+ },
+ {
+  "id": "coinlayer",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms re-read: display allowed to end users of your application for personal reference; posting in any public forum incl. internet banned",
+   "Pricing page cells list Commercial Use only on paid plans"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Same apilayer licence text as currencyfreaks; ambiguity for a public site is genuine, no extra page resolves it."
+ },
+ {
+  "id": "coinlobster",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToS 8: quoting individual figures incl. commercially allowed with credit+link; storing/publicly displaying material otherwise needs written consent",
+   "Live feed display on a site not expressly covered"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "ToS and /developers re-read; exchange upstream terms not published."
+ },
+ {
+  "id": "coinlore",
+  "outcome": "confirmed",
+  "reasons": [
+   "Site ToS clause 6 bans commercial use of content without consent; API page invites businesses, no API terms",
+   "Aggregated upstream sources, not assessed"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Read terms-of-use and cryptocurrency-data-api; no API-specific licence anywhere; unresolved, ask contact@coinlore.com."
+ },
+ {
+  "id": "coinmico",
+  "outcome": "confirmed",
+  "reasons": [
+   "Docs attribution guide allows commercial products with credit; coinmico.com/terms sec.6 says API not open, keys not issued",
+   "Conflict unresolved by any third page"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Docs page is the API's own policy and is more specific, but site Terms are the legal text; stays ambiguous."
+ },
+ {
+  "id": "coinnect",
+  "outcome": "confirmed",
+  "reasons": [
+   "Only personal use stated free; commercial use unaddressed; /terms 404",
+   "Upstream provider rates/fees terms unchecked"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read homepage incl. Disclaimer modal; nothing grants commercial use."
+ },
+ {
+  "id": "coinpaprika",
+  "outcome": "disputed",
+  "reasons": [
+   "Plans table: Redistribution is only on Enterprise; FAQ: only Enterprise allows data to be redistributed or shared",
+   "Showing prices publicly on own site is sharing, so needs Enterprise contract"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://docs.coinpaprika.com/faq",
+    "quote": "only the Enterprise package allows data to be redistributed or shared, which requires a dedicated contract.",
+    "field": "redistribution_display"
+   }
+  ],
+  "suggested": {
+   "redistribution_display": "no"
+  },
+  "note": "API plans page re-read: Usage = Personal on Free, Commercial on Starter..Ultimate, Redistribution only Enterprise. Suggest display = no outside Enterprise (verdict stays at most yellow/red per rules)."
+ },
+ {
+  "id": "coinranking-docs",
+  "outcome": "disputed",
+  "reasons": [
+   "API Terms (read in full) require attribution within the application that data originates from Coinranking",
+   "Terms permit displaying market data and say data may be shared publicly; first pass missed both"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://support.coinranking.com/article/131-api-terms-conditions",
+    "quote": "The API User must also clearly indicate within their application that the data originates from Coinranking.",
+    "field": "attribution_required"
+   },
+   {
+    "url": "https://support.coinranking.com/article/131-api-terms-conditions",
+    "quote": "solely for the purpose of accessing, analyzing, or displaying cryptocurrency market data, as permitted in the agreement",
+    "field": "redistribution_display"
+   }
+  ],
+  "suggested": {
+   "attribution_required": "yes",
+   "redistribution_display": "yes"
+  },
+  "note": "Commercial use and caching still unaddressed, so verdict stays unknown; resale needs written consent; removal on request; plan terms not found."
+ },
+ {
+  "id": "corpstacking",
+  "outcome": "confirmed",
+  "reasons": [
+   "/licensing re-read: republishing inside a product/widget needs paid licence; free files CC BY-NC",
+   "Data Feed plan allows client-facing redistribution with attribution"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "paid-only is consistent; no separate ToS found (/terms 404)."
+ },
+ {
+  "id": "countdownshq",
+  "outcome": "confirmed",
+  "reasons": [
+   "Site ToS: personal informational use, no scraping/republishing at scale, mentions ads",
+   "Developers page (API own page) invites free keyless use, caching and display with credit"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Evidence leans to usable via API page, but site ToS wording keeps it ambiguous."
+ },
+ {
+  "id": "covalent",
+  "outcome": "confirmed",
+  "reasons": [
+   "GoldRush ToU 4.3 bars displaying/publishing/distributing 'the Service'; applicability to API data unclear",
+   "Pricing page lists commercial agreements only on top tier; no commercial-use statement"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Quote in first pass verified exact on goldrush.dev/terms-of-use/."
+ },
+ {
+  "id": "cricdata",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToU contradicts itself: commercial use via purchased credits vs 'any commercial or business use ... expressly prohibited'",
+   "Pricing page empty for curl"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Both quotes verified exact; unresolved."
+ },
+ {
+  "id": "curatorsearch",
+  "outcome": "confirmed",
+  "reasons": [
+   "CC BY 4.0 'free for any purpose' covers only pay archive and hiring index",
+   "Job listings: institutions own text, link rather than republish; bulk republishers blocked"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Developers page re-read in full; no terms page (/terms short/404)."
+ },
+ {
+  "id": "currency-api",
+  "outcome": "confirmed",
+  "reasons": [
+   "CC0 LICENSE file in repo exists but README does not say rate data itself is CC0 or name sources",
+   "Upstream rate sources unknown"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Read exchange-api README and LICENSE; no data-licence statement."
+ },
+ {
+  "id": "currencyfreaks",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToS identical in substance to apilayer terms: public-forum/internet posting banned, display only to end users of your application",
+   "Pricing page has no commercial-use wording"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "commercial_use stays unknown; ToS re-read."
+ },
+ {
+  "id": "currents",
+  "outcome": "disputed",
+  "reasons": [
+   "Own docs/pricing state commercial use allowed on every plan incl. Free, with attribution and link to original article",
+   "Terms still bar permanent copies/databases; full article republication not included"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://currentsapi.services/en/docs",
+    "quote": "Commercial use: every self-service plan, including Free, allows commercial use with attribution and a link to the original article.",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "yes"
+  },
+  "note": "First pass left commercial_use unknown; docs page resolves it. Storage no and display ambiguous (previews/link-out only) stand. Free plan returns only 300-char previews."
+ },
+ {
+  "id": "daily-dev",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToS 18.2: personal internal use or per-user-token tools only",
+   "18.3(ii)/(iii): no serving data to others, no standing copies or caching"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Section 18 re-read in full; red is justified for a public commercial site (18.3(vi) allows titles/summaries with attribution only inside permitted use)."
+ },
+ {
+  "id": "daleelak",
+  "outcome": "disputed",
+  "reasons": [
+   "Feed JSON carries _license 'Free to use' and API page offers embeddable live-price widget for any page",
+   "FAQ says commercial licence is coming with paid tier, so commercial use stays ambiguous"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://getdaleelak.com/api/v1/feed.json",
+    "quote": "Free to use. A link back to Daleelak (getdaleelak.com) is appreciated.",
+    "field": "redistribution_display"
+   },
+   {
+    "url": "https://getdaleelak.com/en/api",
+    "quote": "Paste this on any page to show today's best price and how good the day is.",
+    "field": "redistribution_display"
+   }
+  ],
+  "suggested": {
+   "redistribution_display": "yes"
+  },
+  "note": "Display on own pages is clearly intended; first pass left display unknown."
+ },
+ {
+  "id": "datacube-ai",
+  "outcome": "confirmed",
+  "reasons": [
+   "Only product page exists; /terms 404; FAQ asks heavy commercial users to get in touch",
+   "Content aggregated from 35+ third-party news sources, not assessed"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "No licence or terms page found."
+ },
+ {
+  "id": "datamuse",
+  "outcome": "confirmed",
+  "reasons": [
+   "No ToS (/terms 404); 'customer-facing application' use asks to describe the app to operator",
+   "Attribution only 'kindly' requested"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Upstream sources (WordNet, Wiktionary, Google Ngrams etc.) not shown stricter; unknown stands."
+ },
+ {
+  "id": "deep-blue-alpha",
+  "outcome": "confirmed",
+  "reasons": [
+   "Business Terms (read now): Business plan internal use; public display of Raw Data and third-party use need Enterprise",
+   "Aggregated Insights may be published with credit"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Quote: 'It does not permit redistribution, resale, public display of Raw Data or use for third parties, all of which require an Enterprise plan.' (deepbluealpha.io/business-terms). Consistent with paid-only/ambiguous."
+ },
+ {
+  "id": "deepchamp-for-agents",
+  "outcome": "confirmed",
+  "reasons": [
+   "API Terms 7.3 bars using Outputs to earn a referral fee or promote betting; broad for affiliate sites",
+   "Display to end users allowed, 24h cache, no archive"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Verified exact at deepchampai.com/terms/api; affiliate scenario likely blocked, hence ambiguous."
+ },
+ {
+  "id": "deepscout",
+  "outcome": "confirmed",
+  "reasons": [
+   "T&C forbid misuse/resale/unauthorized redistribution of data; 'unauthorized purposes' undefined",
+   "Data scraped from retailers, user responsible for legal compliance"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "General Terms re-read; paid scraping service, no display/storage rule."
+ },
+ {
+  "id": "defillama",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms of Use grant personal non-commercial licence to Site and ban republishing/commercial scraping without consent",
+   "api-docs.defillama.com (Playwright) shows free no-key tier and a paid plan but no licence/commercial clause"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "No API-specific licence found on api-docs or docs.llama.fi; ambiguity stands."
+ }
+]

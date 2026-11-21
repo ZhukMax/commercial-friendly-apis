@@ -1,0 +1,49 @@
+id: kucoin
+name: KuCoin
+url: https://docs.kucoin.com/
+category: Cryptocurrency
+description: Cryptocurrency Trading Platform
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: KuCoin
+  url: https://docs.kucoin.com/
+  category: Cryptocurrency
+link_status: redirect
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://www.kucoin.com/docs-new
+api_terms_url: https://www.kucoin.com/legal/terms-of-use
+evidence:
+- field: commercial_use
+  url: https://www.kucoin.com/legal/terms-of-use
+  quote: the Platform website or any part thereof may not be copied, photocopied, duplicated, sold, resold,
+    accessed or otherwise used for any commercial purpose
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.kucoin.com/legal/terms-of-use
+  quote: no one is allowed to use, modify, copy, publicly disseminate, change, distribute, release or
+    publicly publish the Platform program or content without due authorization
+  checked_at: '2026-11-21'
+notes: 'Pages read: KuCoin Terms of Use (last updated 10/29/2026), Arts. 89-92, and the API docs (docs-new;
+  its ''Terms'' page is only a glossary). No dedicated API/market-data licence found (help-center API
+  terms pages did not load). The ToU restrict Platform content for commercial use or publication without
+  written consent; applicability to public API market data is not stated, so ambiguous. Caching/attribution
+  not addressed.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read terms-of-use (updated 10/29/2026) and docs-new. Leans restrictive; ambiguous
+  stands.

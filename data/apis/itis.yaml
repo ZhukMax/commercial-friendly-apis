@@ -1,0 +1,76 @@
+id: itis
+name: ITIS
+url: https://www.itis.gov/ws_description.html
+category: Science & Math
+description: Integrated Taxonomic Information System
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: ITIS
+  url: https://www.itis.gov/ws_description.html
+  category: Science & Math
+- list: public-api-lists
+  name: ITIS
+  url: https://www.itis.gov/ws_description.html
+  category: Science & Math
+link_status: alive
+data_license: CC0-1.0 / public domain (US government work); some pages contain third-party copyrighted
+  material
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'no'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://www.itis.gov/privacy.html
+api_terms_url: https://www.itis.gov/privacy.html
+commercial_use_scope: any
+attribution_text: Use of the appropriate citation is requested (Retrieved [date], from the Integrated
+  Taxonomic Information System (ITIS), www.itis.gov, CC0)
+share_alike: 'no'
+evidence:
+- field: data_license
+  url: https://www.itis.gov/privacy.html
+  quote: This work ( Integrated Taxonomic Information System (ITIS) , by www.itis.gov ), is free of known
+    copyright restrictions.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.itis.gov/privacy.html
+  quote: Information presented on the ITIS website is considered public information and may be distributed
+    or copied.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.itis.gov/privacy.html
+  quote: Information presented on the ITIS website is considered public information and may be distributed
+    or copied.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.itis.gov/privacy.html
+  quote: Information presented on the ITIS website is considered public information and may be distributed
+    or copied.
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://www.itis.gov/privacy.html
+  quote: Information presented on the ITIS website is considered public information and may be distributed
+    or copied.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.itis.gov/privacy.html
+  quote: Use of the appropriate citation is requested.
+  checked_at: '2026-11-21'
+notes: Copyright and Privacy Statement read (itis.gov/privacy.html) and Website Citation page (CC0 label,
+  citation requested but not required). ITIS-produced data is public domain; some pages contain material
+  copyrighted by others, used with permission, and some linked data may need owner permission. Web service
+  description page read but has no terms. bulk_download left unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read itis.gov/privacy.html: data free of known copyright restrictions, citation
+  requested. Caveat: some pages/linked data are third-party copyrighted; no API-specific terms.'

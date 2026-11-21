@@ -1,0 +1,25 @@
+id: animefacts
+name: AnimeFacts
+url: https://chandan-02.github.io/anime-facts-rest-api/
+category: Anime
+description: Anime Facts (over 100+)
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: AnimeFacts
+  url: https://chandan-02.github.io/anime-facts-rest-api/
+  category: Anime
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

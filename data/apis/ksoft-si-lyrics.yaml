@@ -1,0 +1,26 @@
+id: ksoft-si-lyrics
+name: KSoft.Si Lyrics
+url: https://docs.ksoft.si/api/lyrics-api
+category: Music
+description: API to get lyrics for songs
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: KSoft.Si Lyrics
+  url: https://docs.ksoft.si/api/lyrics-api
+  category: Music
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: ConnectError

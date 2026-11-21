@@ -1,0 +1,26 @@
+id: shareglint
+name: Shareglint
+url: https://shareglint.com/en/docs
+category: Development
+description: Open Graph and social images from HTML/CSS templates, page screenshots, GIF and MP4; free
+  tier
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Shareglint
+  url: https://shareglint.com/en/docs
+  category: Development
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

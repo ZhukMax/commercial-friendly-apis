@@ -1,0 +1,72 @@
+id: kanari
+name: kanari
+url: https://kanari.io/en/api
+category: Environment
+description: Real-time worldwide wildfire detections, water bomber tracking and open fire archive
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: kanari
+  url: https://kanari.io/en/api
+  category: Environment
+link_status: alive
+data_license: CC-BY-4.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://creativecommons.org/licenses/by/4.0/
+api_terms_url: https://kanari.io/en/api
+commercial_use_scope: any
+attribution_text: 'Source: kanari.io (with a link), on any public reuse'
+share_alike: 'no'
+rate_limits: No key; real-time data recomputed every 2-5 minutes, poll no more than once a minute
+evidence:
+- field: data_license
+  url: https://kanari.io/en/api
+  quote: Licensed CC BY 4.0.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: for any purpose, even commercially
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://kanari.io/en/api
+  quote: Cache responses.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://kanari.io/en/api
+  quote: 'Attribution required: “Source: kanari.io” with a link, on any public reuse.'
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://kanari.io/en/api
+  quote: no point polling more than once a minute.
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://kanari.io/en/api
+  quote: Licensed CC BY 4.0.
+  checked_at: '2026-11-21'
+notes: 'API page (rendered with Playwright; curl returns an empty JS shell) says all data is free, no
+  key, licensed CC BY 4.0 and requires "Source: kanari.io" with a link; CC BY 4.0 deed read separately
+  for the commercial wording. share_alike = no because CC BY has no SA clause. Detections originate from
+  NASA FIRMS, NOAA GOES and EUMETSAT whose own terms were not checked. No separate terms page (/en/terms
+  is 404). Information service, not for safety decisions.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read /en/api: free, no key, ''Only requirement: credit kanari.io with a link'',
+  cache responses. Caveats: signals endpoint includes third-party social/press testimonies (posts[] with
+  urls) which kanari cannot relicense; upstream NASA FIRMS/NOAA/EUMETSAT terms not read; young service.'

@@ -1,0 +1,29 @@
+id: tcgdex
+name: TCGdex
+url: https://tcgdex.dev/
+category: Games & Comics
+description: Multi languages Pokémon TCG Information
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: TCGdex
+  url: https://tcgdex.dev/
+  category: Games & Comics
+- list: public-api-lists
+  name: TCGdex
+  url: https://www.tcgdex.dev/
+  category: Games & Comics
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

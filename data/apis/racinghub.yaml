@@ -1,0 +1,33 @@
+id: racinghub
+name: RacingHub
+url: https://racinghub.net/api/v1/docs#/
+category: Sports & Fitness
+description: Formula 1 historical data and statistics
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: RacingHub
+  url: https://racinghub.net/api/v1/docs#/
+  category: Sports & Fitness
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://racinghub.net/api/v1/docs
+share_alike: unknown
+notes: Read racinghub.net homepage, the Swagger docs (/api/v1/docs), openapi.json and the GitHub README (rodas96/f1-api). No terms of use or data-licence page exists on the site (/terms, /data, /about are
+  404). openapi.json lists only the code licence (MIT) and says the data is 'Powered by the F1DB open-source project' (upstream F1DB licence not verified here); site says independent project not affiliated
+  with Formula 1. All data-terms fields left unknown; MIT covers the software, not the data.
+evidence: []
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

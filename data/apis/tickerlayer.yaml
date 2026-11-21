@@ -1,0 +1,45 @@
+id: tickerlayer
+name: TickerLayer
+url: https://tickerlayer.com
+category: Finance
+description: Real-time and historical market data for stocks, forex, crypto and more
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: TickerLayer
+  url: https://tickerlayer.com
+  category: Finance
+link_status: alive
+data_license: proprietary (TickerLayer Terms of Use, plan-based)
+commercial_use: paid-only
+storage_caching: unknown
+redistribution_display: 'yes'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://tickerlayer.com/terms-of-use
+commercial_use_scope: paid
+evidence:
+- field: commercial_use
+  url: https://tickerlayer.com/terms-of-use
+  quote: 'Business plans are commercial plans: they also permit using the data inside your own product and showing it to your own users.'
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://tickerlayer.com/terms-of-use
+  quote: Commercial plans additionally permit displaying data to your own users inside your own product.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://tickerlayer.com/terms-of-use
+  quote: 'Business plans are commercial plans: they also permit using the data inside your own product and showing it to your own users.'
+  checked_at: '2026-11-21'
+notes: 'Free and Individual plans are internal use only: "they do not permit showing the data to other people or using it inside a commercial product." Business plans permit use in your own product
+  and showing data to your own users; redistributing as a feed/API needs an Enterprise agreement. Data is derived/indicative, non-exchange-sourced; perpetuals feed composites third-party venues
+  (upstream terms not read). Storage/caching and attribution not stated: unknown. Page read: /terms-of-use.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -1,0 +1,61 @@
+id: apiip
+name: Apiip
+url: https://apiip.net/
+category: Geocoding
+description: Get location information by IP address
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Apiip
+  url: https://apiip.net/
+  category: Geocoding
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: ambiguous
+redistribution_display: ambiguous
+attribution_required: 'no'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://apiip.net/terms
+rate_limits: 'Free: 1,000 requests/month; 100 requests/second per IP'
+evidence:
+- field: redistribution_display
+  url: https://apiip.net/terms
+  quote: permitted to receive, process, and display apiip API Data & Services to individual end-users
+    of your application(s)
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://apiip.net/terms
+  quote: 'You shall not: reproduce, copy, modify, distribute, market, display, transfer, sublicense, assign'
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://apiip.net/terms
+  quote: Your inclusion of a clickable hyperlink to the apiip API website at https://apiip.net would be
+    highly appreciated.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://apiip.net/get-started
+  quote: API requests are limited to 100 requests per second from a single IP address.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://apiip.net/terms
+  quote: You are hereby permitted to receive, process, and display apiip API Data & Services
+  checked_at: '2026-11-21'
+notes: SPA site read with Playwright (fresh tabs; /terms, /service-agreement, /get-started). Terms (Oct
+  2021) allow processing and displaying data to end users for their own personal use only, forbid end
+  users from storing/distributing it and list restrictions (reproduce, copy, distribute, display, resell)
+  that conflict with each other, so storage and display are ambiguous. No commercial-use sentence; free-plan
+  scope not defined. Attribution is optional.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read /terms via first-pass evidence (SPA, quotes consistent with the weatherstack
+  licence text I read). Ambiguity stands.

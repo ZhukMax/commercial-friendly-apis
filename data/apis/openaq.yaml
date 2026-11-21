@@ -1,0 +1,67 @@
+id: openaq
+name: OpenAQ
+url: https://docs.openaq.org/
+category: Environment
+description: Open air quality data
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: OpenAQ
+  url: https://docs.openaq.org/
+  category: Environment
+- list: public-api-lists
+  name: OpenAQ
+  url: https://docs.openaq.org/
+  category: Environment
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: 'yes'
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://docs.openaq.org/about/terms
+commercial_use_scope: any
+attribution_text: Attribute OpenAQ and the original data source(s) per provider terms
+share_alike: unknown
+evidence:
+- field: attribution_required
+  url: https://docs.openaq.org/about/terms
+  quote: Attribution to OpenAQ as the source data is also required when using OpenAQ services for accessing
+    the data.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://docs.openaq.org/about/terms
+  quote: Users of the OpenAQ platform are solely responsible for their use of the data and for compliance
+    with any applicable laws and third-party terms.
+  checked_at: '2026-11-21'
+- field: self_host_option
+  url: https://docs.openaq.org/about/terms
+  quote: Users are permitted to run, modify, and self-host the open-source software components of our
+    tooling
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://docs.openaq.org/about/terms
+  quote: utilizing our official, hosted API implementation to develop products or services that substantially
+    duplicate or directly compete with OpenAQ’s core offerings is prohibited.
+  checked_at: '2026-11-21'
+notes: Data licence varies per source provider (see per-location licences in the API). OpenAQ terms do
+  not forbid commercial use but pass through each source provider's licence (CC, open government, or bespoke),
+  which varies per station/provider; the licence is exposed per location in the API. Hosted API may not
+  be used for products that substantially duplicate OpenAQ. API key required; scraping prohibited. Rate
+  limits page is JS-rendered and was not read.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read docs.openaq.org terms and licenses resource: per-provider flags commercialUseAllowed,
+  shareAlikeRequired, redistributionAllowed. Also scraping banned, API key required, attribution to OpenAQ
+  required. Remains ambiguous per provider.'
+license_scope: portal-default

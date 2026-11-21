@@ -1,0 +1,58 @@
+id: travel-risk-aviation
+name: Travel Risk Aviation
+url: https://api.travelriskapi.com/ext/reference/
+category: Transportation
+description: Flight status, airports, airlines, airline safety and in-flight Wi-Fi data
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Travel Risk Aviation
+  url: https://api.travelriskapi.com/ext/reference/
+  category: Transportation
+link_status: alive
+data_license: proprietary (Travel Code, Inc.; licence during subscription; some third-party open-licence
+  data, e.g. DB-IP CC BY 4.0)
+commercial_use: 'yes'
+storage_caching: unknown
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://api.travelriskapi.com/terms
+attribution_text: Show photographer credit as visible text next to aircraft photos and link to the photo
+  page; keep attribution Travel Code asks for
+share_alike: unknown
+evidence:
+- field: data_license
+  url: https://api.travelriskapi.com/terms
+  quote: we grant you a non-exclusive, non-transferable, revocable licence to use the Service and its
+    data during your subscription
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://api.travelriskapi.com/terms
+  quote: You may display data from the Service to your own end users inside your products, for example
+    in a booking flow
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://api.travelriskapi.com/terms
+  quote: You may display data from the Service to your own end users inside your products, for example
+    in a booking flow
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://api.travelriskapi.com/terms
+  quote: If you display a photo, show the credit as visible text next to it
+  checked_at: '2026-11-21'
+notes: 'Terms of Service (effective 8 Oct 2026): display to your own end users inside your products (booking
+  flow, traveller app, dashboard, report) is allowed provided data is not made available in bulk; reselling
+  or redistributing raw data as a standalone dataset or competing API is forbidden. Commercial use is
+  inferred from the booking-flow example (no explicit "commercial" sentence). Caching/storage duration
+  is not addressed (unknown). A free plan exists (provided as is, may be withdrawn); API keys must not
+  be embedded in public client-side code. Informational use only, not safety advice.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

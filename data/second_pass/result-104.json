@@ -1,0 +1,300 @@
+[
+ {
+  "id": "0x",
+  "outcome": "disputed",
+  "reasons": [
+   "Licence grant is only 'in connection with the Service'; copying/storing ZeroEx Data is barred"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://0x.org/legal/api-license-agreement",
+    "quote": "redistribute, syndicate, copy, store, create derivative works of, assign or otherwise transfer, transmit, or commercialize, in whole or in part, the API or ZeroEx Data",
+    "field": "storage_caching"
+   }
+  ],
+  "suggested": {
+   "storage_caching": "no"
+  },
+  "note": "Re-read full API License Agreement and 0x ToS: ZeroEx Data licence is non-sublicensable and 'solely in connection with the Service'; Application (own website/app) is the intended use, but no storage right found. Pricing page (JS) gave no licence text. Commercial use not stated either way; verdict stays unknown/at best yellow."
+ },
+ {
+  "id": "adzuna",
+  "outcome": "confirmed",
+  "reasons": "Re-read ToS: 'any use in a product or service that generates revenue or leads, a licence agreement is required'; free tier is for evaluation. Ambiguous stays, yellow.",
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Terms re-read: ad listings publishable with attribution; revenue/lead use needs licence agreement (not public)."
+ },
+ {
+  "id": "alchemy-ethereum",
+  "outcome": "confirmed",
+  "reasons": [
+   "Full ToS re-read: internal business purposes + apps for End Users; free tier clause only disclaims warranty; no ad/commercial ban found; Free vs Pay-As-You-Go pricing says free is for development and low-traffic apps."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Full ToS re-read: internal business purposes + apps for End Users; free tier clause only disclaims warranty; no ad/commercial ban found; Free vs Pay-As-You-Go pricing says free is for development and low-traffic apps."
+ },
+ {
+  "id": "allratestoday",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToS re-read: public display/commercial product requires paid plan (ECB open endpoint, compat, widgets excepted); ToS silent on caching, only product page encourages it. Upstream central-bank licences still unread (ECB allows reuse; others may differ)."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "ToS re-read: public display/commercial product requires paid plan (ECB open endpoint, compat, widgets excepted); ToS silent on caching, only product page encourages it. Upstream central-bank licences still unread (ECB allows reuse; others may differ)."
+ },
+ {
+  "id": "alpha-mossland",
+  "outcome": "confirmed",
+  "reasons": [
+   "Developers page re-read: free no-auth, use in apps, quotation with link welcome; no commercial ban nor grant; upstream creator content under fair-use quotation."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Developers page re-read: free no-auth, use in apps, quotation with link welcome; no commercial ban nor grant; upstream creator content under fair-use quotation."
+ },
+ {
+  "id": "alphagrowth",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToS Art. 3-4 re-read: commercial products explicitly allowed with credit, revocable, 'reasonable portions', no standalone database; X-post content bound by X terms."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "ToS Art. 3-4 re-read: commercial products explicitly allowed with credit, revocable, 'reasonable portions', no standalone database; X-post content bound by X terms."
+ },
+ {
+  "id": "ambee",
+  "outcome": "disputed",
+  "reasons": [
+   "Licence is non-commercial, personal/internal only and bars displaying the IP; pricing is sales-only"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://www.getambee.com/terms-and-conditions",
+    "quote": "You do not have the right to duplicate, distribute, creative derivative works of display, or commercially exploit our Intellectual Property",
+    "field": "redistribution_display"
+   }
+  ],
+  "suggested": {
+   "redistribution_display": "no"
+  },
+  "note": "Terms re-read; pricing page is 'Talk to us' with enterprise agreements, no self-serve commercial licence text. Public display on ad site not permitted under the standard licence; commercial_use stays ambiguous (negotiated plan possible). Termination clause requires destroying all copies."
+ },
+ {
+  "id": "api-football",
+  "outcome": "disputed",
+  "reasons": [
+   "Could not re-verify: terms page behind Cloudflare bot challenge"
+  ],
+  "counter_evidence": [],
+  "suggested": {
+   "commercial_use": "unknown"
+  },
+  "note": "curl and fresh Playwright context both got 'Performing security verification'; not bypassed. First pass read it via Playwright earlier; fields should be treated as unverified until re-read."
+ },
+ {
+  "id": "arbeitnow",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms re-read: s.2 bans commercial purpose/public display of site materials; s.11 (API) only asks link back and says permission revocable. Blog says free Job Board API offered for side projects; custom paid endpoint for traffic. Unresolved conflict; upstream ATS postings not licensed."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Terms re-read: s.2 bans commercial purpose/public display of site materials; s.11 (API) only asks link back and says permission revocable. Blog says free Job Board API offered for side projects; custom paid endpoint for traffic. Unresolved conflict; upstream ATS postings not licensed."
+ },
+ {
+  "id": "artificial-intelligence-jobs",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms and /developers re-read: no commercial/caching statement; bars wholesale reposting and bulk scraping; attribution appreciated. Unknown stays."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Terms and /developers re-read: no commercial/caching statement; bars wholesale reposting and bulk scraping; attribution appreciated. Unknown stays."
+ },
+ {
+  "id": "au-odds",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms re-read: 'do not build a service that passes our data on to other people'; nothing on commercial use or caching; scraped bookmaker prices upstream. Unknown stays."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Terms re-read: 'do not build a service that passes our data on to other people'; nothing on commercial use or caching; scraped bookmaker prices upstream. Unknown stays."
+ },
+ {
+  "id": "auto-body-shop-directory",
+  "outcome": "confirmed",
+  "reasons": [
+   "Re-read both pages via fresh Playwright contexts: API page invites directories built with the API (credit requested); site ToS bans scraping and copying site content, does not mention API. Conflict unresolved."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read both pages via fresh Playwright contexts: API page invites directories built with the API (credit requested); site ToS bans scraping and copying site content, does not mention API. Conflict unresolved."
+ },
+ {
+  "id": "auto-dev",
+  "outcome": "disputed",
+  "reasons": [
+   "Free plan is not for production systems serving end users; commercial use effectively paid-only"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://www.auto.dev/terms",
+    "quote": "are not for production systems serving end users",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "paid-only"
+  },
+  "note": "ToS 4.4 fair use: Free Plan allowance intended for evaluation, development and small-scale applications. Paid plans (Growth $299/mo, Scale $599/mo) permit building automotive products but data licence is 'internal business purposes' and no derivative databases, so storage/display stay ambiguous."
+ },
+ {
+  "id": "ball-ranks",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToS re-read: limited personal licence, bans commercial exploitation of a substantial part; nothing on API data display or caching. Ambiguous stays."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "ToS re-read: limited personal licence, bans commercial exploitation of a substantial part; nothing on API data display or caching. Ambiguous stays."
+ },
+ {
+  "id": "bank-of-russia",
+  "outcome": "confirmed",
+  "reasons": [
+   "cbr.ru/about (RU and EN) re-read: 'cannot be used for commercial purposes' conflicts with 'reproduced ... on websites without limitation ... only requirement is source link'. User Agreement (cbr.ru/user_agreement) only requires source link when quoting, no commercial ban. Evidence leans permissive with link but stays ambiguous."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "cbr.ru/about (RU and EN) re-read: 'cannot be used for commercial purposes' conflicts with 'reproduced ... on websites without limitation ... only requirement is source link'. User Agreement (cbr.ru/user_agreement) only requires source link when quoting, no commercial ban. Evidence leans permissive with link but stays ambiguous."
+ },
+ {
+  "id": "barcode-lookup",
+  "outcome": "confirmed",
+  "reasons": [
+   "Upstream Open Food Facts terms re-read: ODbL/DbCL/CC BY-SA explicitly authorise commercial use with attribution and share-alike; host ToS 'unauthorized commercial purposes' is undefined and pricing page has no commercial restriction. Leans permissive; ambiguity from host ToS remains."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Upstream Open Food Facts terms re-read: ODbL/DbCL/CC BY-SA explicitly authorise commercial use with attribution and share-alike; host ToS 'unauthorized commercial purposes' is undefined and pricing page has no commercial restriction. Leans permissive; ambiguity from host ToS remains."
+ },
+ {
+  "id": "best-buy",
+  "outcome": "confirmed",
+  "reasons": [
+   "API ToS re-read: licence limited to apps/websites 'in connection with offers to sell or sales' of Best Buy products, 72h cache, logo attribution required; page dated 2021. Display on own site is granted with attribution."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "API ToS re-read: licence limited to apps/websites 'in connection with offers to sell or sales' of Best Buy products, 72h cache, logo attribution required; page dated 2021. Display on own site is granted with attribution."
+ },
+ {
+  "id": "blockchain",
+  "outcome": "disputed",
+  "reasons": [
+   "storage_caching=no overstates the quote, which allows caching for purposes allowed by the Agreement"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://www.blockchain.com/legal/api-terms",
+    "quote": "copy, store or cache the Blockchain Content, other than for the purposes allowed by this Agreement",
+    "field": "storage_caching"
+   }
+  ],
+  "suggested": {
+   "storage_caching": "ambiguous"
+  },
+  "note": "API Terms re-read: the no-cache clause is qualified 'other than for the purposes allowed by this Agreement', so storage is not an absolute ban; 'commercialize' is defined as sell/rent/lease. Unclear whether these terms govern the newer Explorer API."
+ },
+ {
+  "id": "blockchain-blockchain",
+  "outcome": "disputed",
+  "reasons": [
+   "storage_caching=no overstates the quote, which allows caching for purposes allowed by the Agreement"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://www.blockchain.com/legal/api-terms",
+    "quote": "copy, store or cache the Blockchain Content, other than for the purposes allowed by this Agreement",
+    "field": "storage_caching"
+   }
+  ],
+  "suggested": {
+   "storage_caching": "ambiguous"
+  },
+  "note": "API Terms re-read: the no-cache clause is qualified 'other than for the purposes allowed by this Agreement', so storage is not an absolute ban; 'commercialize' is defined as sell/rent/lease. Unclear whether these terms govern the newer Explorer API."
+ },
+ {
+  "id": "blockfrost-cardano",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms re-read via fresh Playwright context: Site terms bar use of Site for revenue-generating endeavour but never mention API/keys; paid plans exist (Hobby). Ambiguous stays; ask vendor."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Terms re-read via fresh Playwright context: Site terms bar use of Site for revenue-generating endeavour but never mention API/keys; paid plans exist (Hobby). Ambiguous stays; ask vendor."
+ },
+ {
+  "id": "boltpatternhq",
+  "outcome": "disputed",
+  "reasons": [
+   "commercial_use paid-only refers to a CSV dataset licence, not the free API/MCP; website ToS bans commercial use and public display"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://boltpatternhq.com/terms/",
+    "quote": "use the materials for any commercial purpose or for any public display",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "ambiguous"
+  },
+  "note": "No API/MCP terms exist (/developers, /api 404). Paying $47/$89 buys a CSV (self-hosted data), not API access. Separate free embed widget (/embed/) is offered to bloggers with Amazon affiliate links, but that is not the API."
+ },
+ {
+  "id": "boxerbook",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms and /developers re-read: commercial use via API needs App ($19/mo) or Business ($99/mo) plan; credit with link required; bulk copying needs agreement; Wikipedia-derived text is CC BY-SA. Paid-only confirmed."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Terms and /developers re-read: commercial use via API needs App ($19/mo) or Business ($99/mo) plan; credit with link required; bulk copying needs agreement; Wikipedia-derived text is CC BY-SA. Paid-only confirmed."
+ },
+ {
+  "id": "carspecs",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToS re-read: no ban on commercial use, only resale as standalone dataset; pricing labels Pro plan 'For production apps and businesses', Starter 'hobby projects'. Display/caching unaddressed; ambiguous stays."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "ToS re-read: no ban on commercial use, only resale as standalone dataset; pricing labels Pro plan 'For production apps and businesses', Starter 'hobby projects'. Display/caching unaddressed; ambiguous stays."
+ },
+ {
+  "id": "carsxe-api",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToS re-read via Playwright: only website and history reports (personal use, no display) addressed; API terms not found (docs/pricing pages carry none). Ambiguous stays."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "ToS re-read via Playwright: only website and history reports (personal use, no display) addressed; API terms not found (docs/pricing pages carry none). Ambiguous stays."
+ },
+ {
+  "id": "city-bikes",
+  "outcome": "confirmed",
+  "reasons": [
+   "API page re-read: only restriction is visible attribution link; operator data acquired by scraping and 'not exactly open data'; upstream operator terms not covered. Ambiguous stays."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "API page re-read: only restriction is visible attribution link; operator data acquired by scraping and 'not exactly open data'; upstream operator terms not covered. Ambiguous stays."
+ }
+]

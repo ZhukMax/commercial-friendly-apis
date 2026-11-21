@@ -1,0 +1,74 @@
+id: tradoshi
+name: Tradoshi
+url: https://tradoshi.com/en/developers
+category: Finance
+description: Rankings of trading schools and prop firms, every criterion with its source
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Tradoshi
+  url: https://tradoshi.com/en/developers
+  category: Finance
+link_status: alive
+data_license: CC-BY-4.0
+commercial_use: ambiguous
+storage_caching: ambiguous
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://tradoshi.com/en/developers
+api_terms_url: https://tradoshi.com/en/terms
+commercial_use_scope: any
+attribution_text: 'Source: Tradoshi (tradoshi.com) with a direct link to the page and the date it was
+  read'
+share_alike: unknown
+evidence:
+- field: data_license
+  url: https://tradoshi.com/en/developers
+  quote: 'Licence : CC BY 4.0 .'
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://tradoshi.com/en/developers
+  quote: 'Cite “Source: Tradoshi (tradoshi.com)” with a direct link to the page and the date it was read.'
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://tradoshi.com/en/terms
+  quote: You may not copy, reproduce, modify, republish, transmit or distribute these elements without
+    our prior written authorization
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://tradoshi.com/en/terms
+  quote: You undertake not to resell or reproduce all or part of the Service for commercial purposes.
+  checked_at: '2026-11-21'
+notes: 'Developers page states the API/MCP data (rankings of schools and prop firms with sources) is CC
+  BY 4.0. The general Terms of Service forbid extracting data by automated or improper means from the
+  Service and protect code and calculation methods; the CC BY statement on the developers page is read
+  as the grant for the API data, but this tension is noted. Facts cited from third-party sources in rankings
+  keep their own rights. Pages read: /en/developers, /en/terms, /en/legal, CC deed.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Site ToS contradicts the developers-page CC BY grant: all content incl. data may not
+  be copied or republished without written authorisation; ToS also bars reproducing the Service for commercial
+  purposes and scraping by automated means | applied: commercial_use=ambiguous, storage_caching=ambiguous,
+  redistribution_display=ambiguous'

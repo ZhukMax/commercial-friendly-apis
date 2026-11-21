@@ -1,0 +1,64 @@
+id: fxmacrodata
+name: FXMacroData
+url: https://fxmacrodata.com
+category: Currency Exchange
+description: Real-time forex macroeconomic data from central bank announcements
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: FXMacroData
+  url: https://fxmacrodata.com
+  category: Currency Exchange
+link_status: alive
+data_license: proprietary (FXMacroData Terms of Service); publisher terms may add conditions
+commercial_use: paid-only
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+commercial_use_scope: paid
+cache_limit: Internal storage with no maximum retention; customer-facing display only while the paid Commercial
+  Redistribution add-on is active
+api_terms_url: https://fxmacrodata.com/terms
+data_license_url: https://fxmacrodata.com/data-sources-and-licensing
+evidence:
+- field: commercial_use
+  url: https://fxmacrodata.com/terms
+  quote: Customer-facing human-readable display is available only under the separate Commercial Redistribution
+    Terms.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://fxmacrodata.com/terms
+  quote: FXMacroData imposes no maximum retention period on lawfully obtained data.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://fxmacrodata.com/terms/commercial-redistribution
+  quote: right to access FXMD Data from the Customer's server-side systems and display Displayed Output
+    to End Users through the Customer's Registered Surfaces
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://fxmacrodata.com/terms/commercial-redistribution
+  quote: Licensed widgets retain attribution and audience measurement requirements.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://fxmacrodata.com/terms
+  quote: Underlying publisher terms may impose additional attribution, notice, use or redistribution conditions
+    for particular datasets.
+  checked_at: '2026-11-21'
+notes: 'Read via Playwright (JS site; curl gets a Cloudflare challenge) /terms and /terms/commercial-redistribution.
+  Free tier: freemium endpoints limited to 90 days, 15-minute delay; licence covers internal business
+  use/personal analysis only. Showing data to your site visitors needs a paid subscription plus the paid
+  Commercial Redistribution add-on (registered surfaces, audience-metered, pixel + attribution required);
+  raw API pass-through, feeds, bulk downloads, marketplaces and competing products are forbidden. Internal
+  storage unlimited in time, but customer-facing use of stored copies must stop when the add-on ends.
+  Data are macro releases/FX reference rates from central banks etc.; publisher terms ''do not get overridden''
+  so may be stricter. Add-on pricing not recorded.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

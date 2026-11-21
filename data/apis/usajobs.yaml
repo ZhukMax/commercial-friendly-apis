@@ -1,0 +1,71 @@
+id: usajobs
+name: USAJOBS
+url: https://developer.usajobs.gov/
+category: Jobs
+description: US government job board
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: USAJOBS
+  url: https://developer.usajobs.gov/
+  category: Jobs
+- list: public-api-lists
+  name: USAJOBS
+  url: https://developer.usajobs.gov/
+  category: Jobs
+link_status: alive
+data_license: open license for Public Data (OPM USAJOBS API Terms of Service, section 2)
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'no'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: high
+link_checked_at: '2026-11-21'
+share_alike: unknown
+commercial_use_scope: any
+data_license_url: https://developer.usajobs.gov/guides/terms-of-service
+api_terms_url: https://developer.usajobs.gov/guides/terms-of-service
+attribution_text: 'Encouraged: identify USAJOBS as source, link to the official announcement, state data
+  retrieval date, disclose the product is not endorsed by OPM'
+evidence:
+- field: commercial_use
+  url: https://developer.usajobs.gov/guides/terms-of-service
+  quote: Public Data may be copied, stored, reformatted, adapted, analyzed, published, redistributed,
+    and used for lawful commercial or noncommercial purposes.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://developer.usajobs.gov/guides/terms-of-service
+  quote: Public Data may be copied, stored, reformatted, adapted, analyzed, published, redistributed,
+    and used for lawful commercial or noncommercial purposes.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://developer.usajobs.gov/guides/terms-of-service
+  quote: Public Data may be copied, stored, reformatted, adapted, analyzed, published, redistributed,
+    and used for lawful commercial or noncommercial purposes.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://developer.usajobs.gov/guides/terms-of-service
+  quote: OPM provides Public Data under an open license.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://developer.usajobs.gov/guides/terms-of-service
+  quote: OPM encourages users to identify USAJOBS as the source, link to the current official job announcement
+  checked_at: '2026-11-21'
+notes: Read the USAJOBS API Terms of Service (developer.usajobs.gov/guides/terms-of-service). Public Data
+  (Search, Historic JOA, Announcement Text, public code lists) is under an open licence; API key governs
+  access only, not downstream reuse. Excludes content flagged as third-party/legally restricted. Must
+  not falsely imply OPM endorsement or present modified data as official. Attribution only encouraged.
+  Free API key + email required (auth apiKey).
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read full ToS: quotes verified. Conditions: no false official/endorsement claims,
+  no seal/logo, key governs access only, content flagged third-party excluded, verify against official
+  announcement; attribution only encouraged.'

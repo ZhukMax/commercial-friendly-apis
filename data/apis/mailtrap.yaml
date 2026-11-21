@@ -1,0 +1,26 @@
+id: mailtrap
+name: Mailtrap
+url: https://mailtrap.io
+category: Email
+description: Email API and SMTP for sending transactional and bulk emails, with email testing sandbox
+  for safe development
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Mailtrap
+  url: https://mailtrap.io
+  category: Email
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

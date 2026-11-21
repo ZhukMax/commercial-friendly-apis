@@ -1,0 +1,78 @@
+id: open-government-new-zealand
+name: Open Government, New Zealand
+url: https://www.data.govt.nz/
+category: Government
+description: New Zealand Government Open Data
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Open Government, New Zealand
+  url: https://www.data.govt.nz/
+  category: Government
+- list: public-api-lists
+  name: Open Government, New Zealand
+  url: https://www.data.govt.nz/
+  category: Government
+link_status: alive
+data_license: CC-BY-4.0 (catalogue Material; datasets set by each Publishing Agency)
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+commercial_use_scope: any
+share_alike: 'no'
+data_license_url: https://www.data.govt.nz/terms-of-use
+api_terms_url: https://www.data.govt.nz/terms-of-use
+evidence:
+- field: data_license
+  url: https://www.data.govt.nz/terms-of-use
+  quote: that Material is licensed to Users under the Creative Commons Attribution 4.0 International licence
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.data.govt.nz/terms-of-use
+  quote: that Material is licensed to Users under the Creative Commons Attribution 4.0 International licence
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.data.govt.nz/terms-of-use
+  quote: that Material is licensed to Users under the Creative Commons Attribution 4.0 International licence
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.data.govt.nz/terms-of-use
+  quote: that Material is licensed to Users under the Creative Commons Attribution 4.0 International licence
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.data.govt.nz/terms-of-use
+  quote: that Material is licensed to Users under the Creative Commons Attribution 4.0 International licence
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://www.data.govt.nz/terms-of-use
+  quote: that Material is licensed to Users under the Creative Commons Attribution 4.0 International licence
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.data.govt.nz/terms-of-use
+  quote: You are solely responsible for confirming the terms on which any Material is made available.
+  checked_at: '2026-11-21'
+notes: 'Terms of use of data.govt.nz / catalogue.data.govt.nz (cover the API too) read via Playwright
+  (curl blocked by Incapsula; page rendered fine). DIA Material is CC BY 4.0; Publishing Agencies must
+  use CC BY 4.0 or clearly identify different terms, and DIA gives no warranty that agency datasets are
+  CC BY, so the licence of each dataset must be checked. Not allowed: implying government endorsement,
+  using API to promote tobacco/gambling/malware. Commercial use follows from CC BY (no NC clause). verify_quotes
+  may report unfetchable.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'could not re-verify: data.govt.nz/terms-of-use returns empty page to curl and a fresh
+  browser context (Incapsula)'
+verdict_override: yellow
+override_reason: 'Second check: could not re-verify: data.govt.nz/terms-of-use returns empty page to curl
+  and a fresh browser context (Incapsula)'
+license_scope: portal-default

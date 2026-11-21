@@ -1,0 +1,51 @@
+id: caliber
+name: Caliber
+url: https://caliberapi.com/data/
+category: Open Data
+description: Which red dot optics fit which pistols, each fit cited to a maker or retailer
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Caliber
+  url: https://caliberapi.com/data/
+  category: Open Data
+link_status: alive
+data_license: CC-BY-NC-4.0
+commercial_use: 'no'
+storage_caching: unknown
+redistribution_display: 'no'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: high
+link_checked_at: '2026-11-21'
+data_license_url: https://creativecommons.org/licenses/by-nc/4.0/
+api_terms_url: https://caliberapi.com/terms/
+commercial_use_scope: any
+attribution_text: Cite the dataset version and link the page for the pistol or optic you mention
+evidence:
+- field: data_license
+  url: https://caliberapi.com/terms/
+  quote: The dataset published at /data/v1/ is licensed under CC BY-NC 4.0
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://caliberapi.com/terms/
+  quote: Commercial use, resale, and bulk scraping of the website require our written permission.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://caliberapi.com/terms/
+  quote: you may copy and share it for non-commercial use with attribution.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://caliberapi.com/data/
+  quote: Cite the dataset version and link the page for the pistol or optic you mention.
+  checked_at: '2026-11-21'
+notes: 'Read /terms/ and /data/. Dataset is CC BY-NC 4.0; commercial use needs written permission. The site itself runs affiliate links. Exception: the fit-checker widget may be embedded on commercial sites
+  if the ''Fit data by CaliberAPI'' link stays (widget, not API data). A commercial licence could be negotiated. Firearms-related content may also hit ad-platform limits (not assessed). Red here means ''not
+  usable on a monetised site without permission''.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

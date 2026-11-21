@@ -1,0 +1,34 @@
+id: citysdk
+name: CitySDK
+url: http://www.citysdk.eu/citysdk-toolkit/
+category: Geocoding
+description: Open APIs for select European cities
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: CitySDK
+  url: http://www.citysdk.eu/citysdk-toolkit/
+  category: Geocoding
+- list: public-api-lists
+  name: CitySDK
+  url: http://www.citysdk.eu/citysdk-toolkit/
+  category: Geocoding
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://www.citysdk.eu/
+notes: Landing page (redirected to https://www.citysdk.eu/) is a toolkit overview of per-city APIs built on each city's open data; no API terms or data licence found, and licences depend on each partner
+  city. All terms fields unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

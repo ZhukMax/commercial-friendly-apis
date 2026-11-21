@@ -1,0 +1,31 @@
+id: mercadobitcoin
+name: MercadoBitcoin
+url: https://www.mercadobitcoin.com.br/api-doc/
+category: Cryptocurrency
+description: Brazilian Cryptocurrency Information
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: MercadoBitcoin
+  url: https://www.mercadobitcoin.com.br/api-doc/
+  category: Cryptocurrency
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: HTTP 403 (blocked for bots, assumed alive)
+notes: 'API docs URL blocked: Cloudflare error 1009 (access denied by region) in browser, 403 to curl.
+  No terms page could be read, not bypassed. All terms fields unknown. Exchange market data may carry
+  its own limits.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

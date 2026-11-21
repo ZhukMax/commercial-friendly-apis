@@ -1,0 +1,63 @@
+id: readark
+name: Readark
+url: https://readark.app/developers/
+category: Books
+description: Dark romance books with spice and darkness ratings, subgenres, tropes and authors
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Readark
+  url: https://readark.app/developers/
+  category: Books
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://readark.app/developers/
+attribution_text: Credit Readark with a visible link to readark.app wherever ratings are shown
+rate_limits: About one request per second (requested)
+evidence:
+- field: commercial_use
+  url: https://readark.app/developers/
+  quote: Free to use. Please credit Readark with a visible link to readark.app wherever you show the ratings.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://readark.app/developers/
+  quote: Please credit Readark with a visible link to readark.app wherever you show the ratings.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://readark.app/developers/
+  quote: Please credit Readark with a visible link to readark.app wherever you show the ratings.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://readark.app/developers/
+  quote: Keep it to about one request a second, and cache what you can.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://readark.app/developers/
+  quote: Keep it to about one request a second, and cache what you can.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://readark.app/developers/
+  quote: Covers belong to their publishers and authors, so check your rights before reusing them.
+  checked_at: '2026-11-21'
+notes: Read only the /developers page (readark.app/terms is a book page, not site terms; no formal terms
+  or licence found). 'Free to use' with credit-and-link request, caching encouraged, but commercial use
+  is not explicitly addressed and no data licence is named, so commercial_use is ambiguous. Covers belong
+  to publishers/authors; ratings are machine-assisted. Spice/darkness data may be unsuitable for general
+  audiences (adult catalogue).
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Covers belong to publishers; adult catalogue. Only /developers page exists as terms.

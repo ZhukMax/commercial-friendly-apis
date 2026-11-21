@@ -1,0 +1,80 @@
+id: 1forge
+name: 1Forge
+url: https://1forge.com/forex-data-api/api-documentation
+category: Currency Exchange
+description: Forex currency market data
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: 1Forge
+  url: https://1forge.com/forex-data-api/api-documentation
+  category: Currency Exchange
+- list: public-api-lists
+  name: 1Forge
+  url: https://1forge.com/forex-data-api/api-documentation
+  category: Currency Exchange
+link_status: redirect
+data_license: proprietary (1Forge License Agreement)
+commercial_use: paid-only
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: -> https://1forge.com/api
+api_terms_url: https://1forge.com/license-agreement
+commercial_use_scope: any
+rate_limits: 'Plans: 5,000 to 10,000,000 requests/day depending on tier (paid, 14-day trial)'
+evidence:
+- field: commercial_use
+  url: https://1forge.com/documents/license-agreement.pdf
+  quote: You may use 1Forge data for any project, commercial or non-commercial
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://1forge.com/documents/license-agreement.pdf
+  quote: You may use 1Forge data for any project, commercial or non-commercial
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://1forge.com/api
+  quote: clients are more than welcome to archive our quotes locally for internal use
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://1forge.com/documents/license-agreement.pdf
+  quote: You may use 1Forge data for any project, commercial or non-commercial
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://1forge.com/pricing
+  quote: Starter $25 USD / mo
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://1forge.com/documents/license-agreement.pdf
+  quote: as long as you don’t resell or redistribute our data in it’s raw format
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://1forge.com/documents/terms-of-use.pdf
+  quote: may not be copied, reproduced, redistributed in any way or otherwise exploited for any purpose
+    whatsoever
+  checked_at: '2026-11-21'
+notes: 'Read the 1Forge License Agreement (PDF linked from https://1forge.com/license-agreement, last
+  updated 2020-05-01) via pdftotext, the Terms of Use PDF, https://1forge.com/pricing and the API docs
+  (JS pages read with Playwright in a fresh context). Licence: any project, commercial or not, as long
+  as you do not resell or redistribute the raw feed; FAQ answers YES to website/app/commercial use and
+  to publishing derived data, NO to reselling the raw feed. Archiving quotes locally "for internal use"
+  is encouraged in the docs, so persistent storage is fine but a public re-publication of raw quotes is
+  not. No attribution clause found. Plans are paid (pricing page: Starter 25 USD/month); no free tier
+  verified. Quotes come from brokers/liquidity providers; upstream terms unchecked. Terms of Use PDF says
+  site content may not be copied (applies to the website, not the data feed). URL redirects to https://1forge.com/api.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'no free plan on pricing page: cheapest is Starter $25/month (14-day trial), so commercial
+  use is paid-only; quotes come from brokers/liquidity providers; upstream terms unread and the licence
+  dates from 2020; Terms of Use PDF says site content may not be copied or redistributed in any way (defers
+  to licence for data) | applied: commercial_use=paid-only'

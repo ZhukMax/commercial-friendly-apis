@@ -1,0 +1,26 @@
+id: aether-x-port-congestion
+name: Aether-X Port Congestion
+url: https://aether-x-oracle-production.up.railway.app/docs
+category: Transportation
+description: Real-time port congestion risk scores, ETA delays and waiting vessels for 15 global ports
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Aether-X Port Congestion
+  url: https://aether-x-oracle-production.up.railway.app/docs
+  category: Transportation
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: ReadTimeout

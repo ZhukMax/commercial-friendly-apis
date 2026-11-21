@@ -1,0 +1,32 @@
+id: nhs-health-a-z
+name: NHS Health A-Z
+url: https://digital.nhs.uk/developer/api-catalogue/health-a-to-z
+category: Health
+description: NHS conditions, medicines and guidance
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: NHS Health A-Z
+  url: https://digital.nhs.uk/developer/api-catalogue/health-a-to-z
+  category: Health
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: HTTP 403 (blocked for bots, assumed alive)
+api_terms_url: https://digital.nhs.uk/developer/api-catalogue/health-a-to-z
+notes: digital.nhs.uk blocks automated access (curl 403; browser shows a Cloudflare bot-verification page),
+  so no terms were read and fields stay unknown. Not bypassed. Re-check manually (NHS website content
+  has its own reuse terms, and the API requires a key).
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

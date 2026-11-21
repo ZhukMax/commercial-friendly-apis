@@ -1,0 +1,71 @@
+id: open-government-uk
+name: Open Government, UK
+url: https://data.gov.uk/
+category: Government
+description: UK Government Open Data
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Open Government, UK
+  url: https://data.gov.uk/
+  category: Government
+link_status: alive
+data_license: OGL-UK-3.0 (Open Government Licence v3.0) by default; datasets may carry other licences
+commercial_use: ambiguous
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+api_terms_url: https://www.data.gov.uk/privacy-and-terms
+commercial_use_scope: any
+attribution_text: Contains public sector information licensed under the Open Government Licence v3.0 (unless
+  the provider specifies its own statement)
+share_alike: unknown
+evidence:
+- field: data_license
+  url: https://www.data.gov.uk/about
+  quote: as long as you meet the conditions of either the Open Government Licence or another licence it’s
+    covered by.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+  quote: exploit the Information commercially and non-commercially
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+  quote: copy , publish, distribute and transmit the Information
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+  quote: copy , publish, distribute and transmit the Information
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+  quote: acknowledge the source of the Information in your product or application
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.data.gov.uk/about
+  quote: as long as you meet the conditions of either the Open Government Licence or another licence it’s
+    covered by.
+  checked_at: '2026-11-21'
+notes: 'Read data.gov.uk About (reuse statement), Privacy and terms, and the OGL v3.0 text. data.gov.uk
+  (now the National Data Library directory) says content may be republished under OGL or the other licence
+  a dataset is covered by; site footer: all content OGL v3.0 except where stated. OGL v3.0 allows commercial
+  and non-commercial exploitation and copying/publishing, with mandatory attribution; its exemptions (personal
+  data, logos, third-party rights, etc.) apply. Datasets are the publishers'' responsibility, so verify
+  each dataset''s licence. No API terms or rate limits read (CKAN-style API).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Portal-level OGL claim only; datasets may carry other licences; No dataset-level licence
+  or API terms read | applied: commercial_use=ambiguous'
+license_scope: portal-default

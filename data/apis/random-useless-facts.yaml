@@ -1,0 +1,25 @@
+id: random-useless-facts
+name: Random Useless Facts
+url: https://uselessfacts.jsph.pl/
+category: Entertainment
+description: Get useless, but true facts
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Random Useless Facts
+  url: https://uselessfacts.jsph.pl/
+  category: Entertainment
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

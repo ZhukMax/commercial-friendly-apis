@@ -1,0 +1,29 @@
+id: qr-code
+name: QR code
+url: https://www.qrtag.net/api/
+category: Development
+description: Create an easy to read QR code and URL shortener
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: QR code
+  url: https://www.qrtag.net/api/
+  category: Development
+- list: public-api-lists
+  name: QR Tag
+  url: http://qrtag.net/api/
+  category: Development
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

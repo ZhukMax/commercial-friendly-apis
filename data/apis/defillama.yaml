@@ -1,0 +1,58 @@
+id: defillama
+name: DefiLlama
+url: https://defillama.com/docs/api
+category: Cryptocurrency
+description: Open and transparent DeFi data, TVL, coin prices, volumes, and yields
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: DefiLlama
+  url: https://defillama.com/docs/api
+  category: Cryptocurrency
+link_status: redirect
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: ambiguous
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://api-docs.defillama.com/
+api_terms_url: https://defillama.com/terms
+commercial_use_scope: any
+evidence:
+- field: commercial_use
+  url: https://defillama.com/terms
+  quote: we grant you a revocable, non-transferable, non-exclusive licence to access and use the Site
+    for personal, non-commercial purposes.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://defillama.com/terms
+  quote: republish the data in any form without permission
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://defillama.com/terms
+  quote: copy, scrape, harvest or otherwise exploit the Content & Data for commercial purposes without
+    prior written consent
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://defillama.com/terms
+  quote: resell the data or resell access to the data through your plan without permission
+  checked_at: '2026-11-21'
+notes: Docs moved to api-docs.defillama.com (free and Pro API endpoints; page 403 on the old URL). Read
+  Terms of Use (effective 2025-06-24), which define Services to include the official public API but grant
+  only a personal, non-commercial licence to the Site, ban republishing/reselling data and commercial
+  scraping without written consent, and allow only the official public API. No API-specific commercial
+  licence, caching or attribution clause found; Pro API terms not read. Practically widely used, but the
+  written terms are restrictive/unclear, so contact DefiLlama for commercial display.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: No API-specific licence found on api-docs or docs.llama.fi; ambiguity stands.

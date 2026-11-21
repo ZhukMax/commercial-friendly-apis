@@ -1,0 +1,48 @@
+id: rwlabs
+name: RWLabs
+url: https://apidoc.rwlabs.org/
+category: Disasters
+description: All types of disaster data
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-api-lists
+  name: RWLabs
+  url: https://apidoc.rwlabs.org/#api-use
+  category: Disasters
+link_status: redirect
+data_license: proprietary (ReliefWeb Terms & Conditions; materials may be owned by original sources)
+commercial_use: 'no'
+storage_caching: unknown
+redistribution_display: 'no'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://apidoc.reliefweb.int/
+data_license_url: https://reliefweb.int/terms-conditions
+api_terms_url: https://reliefweb.int/terms-conditions
+commercial_use_scope: any
+evidence:
+- field: commercial_use
+  url: https://reliefweb.int/terms-conditions
+  quote: personal, non-commercial use, without any right to resell or redistribute them or to compile or create derivative works therefrom
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://reliefweb.int/terms-conditions
+  quote: personal, non-commercial use, without any right to resell or redistribute them or to compile or create derivative works therefrom
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://apidoc.reliefweb.int/
+  quote: including their limits on reusing content
+  checked_at: '2026-11-21'
+notes: apidoc.rwlabs.org redirects to apidoc.reliefweb.int (ReliefWeb API Docs). The target page does not mention RW Labs, so the identity of the old RWLabs service with the current ReliefWeb API is assumed
+  from the docs host redirect only (hence low confidence). The ReliefWeb API docs say use of the API is governed by the ReliefWeb Terms & Conditions, which grant use of materials for personal, non-commercial
+  use only, with no right to resell, redistribute or make derivative works; materials may be owned by original sources. A pre-approved appname is required on every request. A site with ads or affiliate
+  links is outside this grant; written permission from ReliefWeb would be needed (not checked).
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -1,0 +1,60 @@
+id: fmi-open-data
+name: FMI Open Data
+url: https://en.ilmatieteenlaitos.fi/open-data
+category: Weather
+description: Finnish weather, sea, climate and radar observations via open WFS
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: FMI Open Data
+  url: https://en.ilmatieteenlaitos.fi/open-data
+  category: Weather
+link_status: alive
+data_license: CC-BY-4.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://en.ilmatieteenlaitos.fi/open-data-licence
+commercial_use_scope: any
+api_terms_url: https://en.ilmatieteenlaitos.fi/open-data-licence
+notes: 'FMI licence page: CC BY 4.0 applies to FMI and Radiation and Nuclear Safety Authority open data
+  sets and air quality data sets stored in the open data web service. CC BY allows commercial use, copying
+  and redistribution with credit (deed read). Air quality sets have other licensors (Appendix 1 in Finnish,
+  not read) and some datasets may differ, hence medium. No API key needed (WFS). Rate limits not checked.'
+evidence:
+- field: data_license
+  url: https://en.ilmatieteenlaitos.fi/open-data-licence
+  quote: The Creative Commons Attribution 4.0 International license (CC BY 4.0) shall be used by the Finnish
+    Meteorological Institute's open data service.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: copy and redistribute the material in any medium or format for any purpose, even commercially
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: copy and redistribute the material in any medium or format for any purpose, even commercially
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: copy and redistribute the material in any medium or format for any purpose, even commercially
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: You must give appropriate credit
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Air quality licensors listed in Finnish Appendix 1 not read; licence page says CC BY
+  applies regardless.

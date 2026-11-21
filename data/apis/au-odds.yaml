@@ -1,0 +1,43 @@
+id: au-odds
+name: AU Odds
+url: https://lucasfox.dev/odds/docs/
+category: Sports & Fitness
+description: Timestamped odds from 11 Australian bookmakers, with line history and devigged consensus
+description_source: upstream
+auth: none
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: AU Odds
+  url: https://lucasfox.dev/odds/docs/
+  category: Sports & Fitness
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://lucasfox.dev/odds/terms/
+rate_limits: 'Free: 100/day per IP, main markets; Paid A$99/month: 50,000/day per key'
+evidence:
+- field: redistribution_display
+  url: https://lucasfox.dev/odds/terms/
+  quote: do not build a service that passes our data on to other people
+  checked_at: '2026-11-21'
+notes: 'Read the Terms of Use (effective 2026-11-05) and the docs. Terms are short: key is one subscriber,
+  no sharing/reselling/sublicensing the key, and ''do not build a service that passes our data on to other
+  people'' (unclear whether showing odds on a public site counts: ambiguous). Nothing on commercial use,
+  storage, attribution. Free tier needs no key. Data is bookmaker prices scraped from 11 Australian bookmakers:
+  upstream terms may be stricter. Individual developer operator.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Terms re-read: ''do not build a service that passes our data on to other people'';
+  nothing on commercial use or caching; scraped bookmaker prices upstream. Unknown stays.'

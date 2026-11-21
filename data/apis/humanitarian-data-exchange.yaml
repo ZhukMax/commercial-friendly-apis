@@ -1,0 +1,60 @@
+id: humanitarian-data-exchange
+name: Humanitarian Data Exchange
+url: https://data.humdata.org/
+category: Health
+description: Humanitarian Data Exchange (HDX) is open platform for sharing data across crises and organisations
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Humanitarian Data Exchange
+  url: https://data.humdata.org/
+  category: Health
+link_status: alive
+data_license: per-dataset (contributors choose, e.g. CC BY, CC BY-IGO, CC BY-SA, ODbL)
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: ambiguous
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+data_license_url: https://docs.humdata.org/about/data-licenses
+api_terms_url: https://docs.humdata.org/about/hdx-terms-of-service
+share_alike: unknown
+evidence:
+- field: data_license
+  url: https://docs.humdata.org/about/hdx-terms-of-service
+  quote: Organizations are free to choose the license for their data.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://docs.humdata.org/about/hdx-terms-of-service
+  quote: After downloading a public dataset, users must follow the applicable license when using and sharing
+    the data.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://docs.humdata.org/about/data-licenses
+  quote: HDX promotes the use of licenses developed by the Creative Commons Foundation
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://docs.humdata.org/about/hdx-terms-of-service
+  quote: After downloading a public dataset, users must follow the applicable license when using and sharing
+    the data.
+  checked_at: '2026-11-21'
+notes: 'Portal: no single licence. HDX Terms of Service (docs.humdata.org; old URL data.humdata.org/faqs/terms
+  redirects there, read via Playwright) say each contributing organisation picks the licence and users
+  must follow the dataset''s licence. The Data Licenses page lists CC BY, CC BY-IGO, CC BY-SA and ODbL
+  options (CC BY: ''for any purpose, even commercially''; CC BY-SA and ODbL add share-alike). No dataset-level
+  licence was read, so commercial use, attribution and display are ambiguous per dataset; check each dataset
+  before use. Datasets may also be restricted or on request (HDX Connect). The API is CKAN-based; no API-specific
+  terms found.'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Per-dataset check needed; some datasets restricted.
+license_scope: portal-default

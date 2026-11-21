@@ -1,0 +1,51 @@
+id: api-football
+name: API-FOOTBALL
+url: https://www.api-football.com/documentation-v3
+category: Sports & Fitness
+description: Get information about Football Leagues & Cups
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: API-FOOTBALL
+  url: https://www.api-football.com/documentation-v3
+  category: Sports & Fitness
+link_status: alive
+data_license: proprietary (API-FOOTBALL Terms of service)
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: HTTP 403 (blocked for bots, assumed alive)
+api_terms_url: https://www.api-football.com/terms
+evidence:
+- field: commercial_use
+  url: https://www.api-football.com/terms
+  quote: We does not grant any commercial rights on such competitions.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.api-football.com/terms
+  quote: We do not provide a "license" for the use and publication of the data provided by our services
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.api-football.com/terms
+  quote: The resale of our data without permission is not permitted.
+  checked_at: '2026-11-21'
+notes: Read via Playwright (curl gets a Cloudflare 403). Terms say data comes from partners and may not
+  be resold ("The resale of our data without permission is not permitted") but may be used for projects
+  like apps, websites, fantasy games. They also say they grant no licence to publish the data and that
+  betting, TV, fantasy or mass-media uses may need extra licences from rights holders (leagues etc.);
+  the user must obtain these. So commercial display is ambiguous. Free-plan/pricing page not read for
+  commercial wording. Caching/storage not addressed.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Could not re-verify: terms page behind Cloudflare bot challenge | applied: commercial_use=unknown'

@@ -1,0 +1,25 @@
+id: docspring
+name: DocSpring
+url: https://docspring.com/docs/api/
+category: Documents & Productivity
+description: Fill PDF forms, generate PDFs and Word documents, and collect e-signatures. Free plan
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: DocSpring
+  url: https://docspring.com/docs/api/
+  category: Documents & Productivity
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

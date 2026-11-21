@@ -1,0 +1,25 @@
+id: email-validator-by-lifestep
+name: Email Validator by LifeStep
+url: https://email.lifestep.io
+category: Email
+description: Validate email syntax and MX, detect disposable/role addresses, suggest typo fixes
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Email Validator by LifeStep
+  url: https://email.lifestep.io
+  category: Email
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

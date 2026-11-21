@@ -1,0 +1,67 @@
+id: btu-graph
+name: BTU Graph
+url: https://btugraph.com/data/
+category: Open Data
+description: Source-reviewed energy company knowledge graph and directory exports
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: BTU Graph
+  url: https://btugraph.com/data/
+  category: Open Data
+link_status: alive
+data_license: CC-BY-4.0 (BTU Graph-authored metadata only; third-party material excluded)
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://creativecommons.org/licenses/by/4.0/
+api_terms_url: https://btugraph.com/data/
+commercial_use_scope: any
+attribution_text: Attribute "BTU Graph" and link to the relevant canonical profile or this dataset page
+share_alike: 'no'
+evidence:
+- field: data_license
+  url: https://btugraph.com/data/
+  quote: BTU Graph-authored directory metadata, descriptions, and relationship classifications are available
+    under the Creative Commons Attribution 4.0 International license
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://btugraph.com/data/
+  quote: Attribute “BTU Graph” and link to the relevant canonical profile or this dataset page.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: Adapt — remix, transform, and build upon the material for any purpose, even commercially.
+  checked_at: '2026-11-21'
+notes: Read /data/ (use and attribution section) and the CC BY 4.0 deed; no separate API ToS or /terms
+  page found (site has /privacy/, /methodology/). CC BY 4.0 covers only BTU Graph-authored metadata; the
+  page excludes company names, trademarks, logos, source publications and third-party facts, which follow
+  each publisher's terms (not assessed). Records describe companies, so third-party marks appear in the
+  data. share_alike evidence is from the deed (CC BY has no SA clause; evidence is only indirect).
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Small dataset (66 companies). Publisher is Oil Price API, so entries may carry self-interest.
+  Company names and marks are excluded from the licence.

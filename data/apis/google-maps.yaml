@@ -1,0 +1,78 @@
+id: google-maps
+name: Google Maps
+url: https://developers.google.com/maps/
+category: Geocoding
+description: Create/customize digital maps based on Google Maps data
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Google Maps
+  url: https://developers.google.com/maps/
+  category: Geocoding
+- list: public-api-lists
+  name: Google Maps
+  url: https://developers.google.com/maps/
+  category: Geocoding
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: limited
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://cloud.google.com/maps-platform/terms
+commercial_use_scope: paid
+cache_limit: Lat/lng from Geocoding/Directions/Geolocation up to 30 consecutive calendar days; some fields
+  (e.g. place ID) longer per Service Specific Terms; pre-fetching, bulk download and rehosting banned
+attribution_text: Display Google branding/attribution as provided by the Services
+notes: 'Read Google Maps Platform Terms (3.2.3: no scraping/pre-fetch/store/rehost, no caching except
+  as allowed) and Maps Service Specific Terms (per-API caching, e.g. 30 days for lat/lng, no use with
+  a non-Google map). The terms are a paid commercial contract (billing account, pay-as-you-go/subscription)
+  and contain no non-commercial restriction, hence commercial_use yes (no single explicit ''commercial
+  use allowed'' sentence; evidence is the Customer Application definition). Results generally may only
+  be shown on a Google map; many API-specific rules exist.'
+evidence:
+- field: commercial_use
+  url: https://cloud.google.com/maps-platform/terms
+  quote: any web page or application (including all source code and features) that has material value
+    independent of the Services
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://cloud.google.com/maps-platform/terms
+  quote: Customer will not cache Google Maps Content except as expressly permitted under the Maps Service
+    Specific Terms.
+  checked_at: '2026-11-21'
+- field: cache_limit
+  url: https://cloud.google.com/maps-platform/terms/maps-service-terms
+  quote: Customer may temporarily cache latitude (lat) and longitude (lng) values from the Geocoding API
+    for up to 30 consecutive calendar days
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://cloud.google.com/maps-platform/terms/maps-service-terms
+  quote: Customer must not use Google Maps Content from the Geocoding API in conjunction with a non-Google
+    map.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://cloud.google.com/maps-platform/terms
+  quote: Customer will display all attribution that (i) Google provides through the Services (including
+    branding, logos, and copyright and trademark notices)
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://cloud.google.com/maps-platform/terms
+  quote: use the Google Maps Core Services in a listings or directory service or to create or augment
+    an advertising product
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Maps Platform Terms 3.2.3(d) bans use in a listings or directory service or to create/augment
+  an advertising product; 3.2.3 also bans pre-fetching/storing/indexing content and using it with non-Google
+  maps | applied: commercial_use=ambiguous'

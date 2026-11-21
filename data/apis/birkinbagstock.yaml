@@ -1,0 +1,35 @@
+id: birkinbagstock
+name: BirkinBagStock
+url: https://birkinbagstock.com/.well-known/openapi.json
+category: Shopping
+description: 'Independent Hermès resale index: inventory, market prices, auction calendar and results'
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: BirkinBagStock
+  url: https://birkinbagstock.com/.well-known/openapi.json
+  category: Shopping
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://birkinbagstock.com/terms
+notes: Read /terms, /api (developer page) and /llms.txt in this session. The Terms of Use cover site use
+  (independent research and comparison tool, sponsored/affiliate links, Hermes trademark disclaimer) and
+  say nothing about reuse, storage, display or commercial use of API/MCP data; no data licence was found.
+  llms.txt only gives citation guidance (state date, cohort n, method) and asks agents to link buy_url
+  (affiliate-routed). Data is aggregated from third-party resale merchants and auction houses (listing
+  images, prices, auction results), so upstream rights may be stricter. No explicit terms for the API
+  found, so all core fields unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

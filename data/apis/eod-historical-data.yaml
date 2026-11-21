@@ -1,0 +1,45 @@
+id: eod-historical-data
+name: EOD Historical Data
+url: https://eodhd.com/
+category: Finance
+description: Real-time and historical stock market data with 150+ exchanges
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: EOD Historical Data
+  url: https://eodhd.com/
+  category: Finance
+link_status: alive
+data_license: proprietary; exchange-licensed data
+commercial_use: paid-only
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://eodhd.com/financial-apis/terms-conditions
+commercial_use_scope: paid
+evidence:
+- field: commercial_use
+  url: https://eodhd.com/financial-apis/commercial-vs-personal-license-use
+  quote: The packages on the pricing page are intended for personal use only as commercial use requires a more thorough approach to licensing and data use.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://eodhd.com/financial-apis/terms-conditions
+  quote: Selling, reselling, retransmitting, redistributing, displaying, or granting access to the Information or Services, whether in its original or repackaged form.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://eodhd.com/financial-apis/commercial-vs-personal-license-use
+  quote: The packages on the pricing page are intended for personal use only as commercial use requires a more thorough approach to licensing and data use.
+  checked_at: '2026-11-21'
+notes: 'Standard plans are personal (non-professional) use only: personal users may not resell, redistribute or display the data, and may store it only for private non-commercial purposes. Business/commercial
+  use needs a separate commercial licence (quote, onboarding in about 3 business days) because EODHD must report professional users to the exchanges. The commercial licence terms (display, caching, redistribution,
+  attribution) are not public, so those fields stay unknown. Exchange-data redistribution limits apply.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -1,0 +1,34 @@
+id: tourneyradar
+name: TourneyRadar
+url: https://tourneyradar-api.vercel.app
+category: Sports & Fitness
+description: Upcoming chess tournaments from 140+ national federations worldwide
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: TourneyRadar
+  url: https://tourneyradar-api.vercel.app
+  category: Sports & Fitness
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://github.com/AnayDhawan/tourneyradar-api
+share_alike: unknown
+rate_limits: Anonymous 100 req/min; free keys 600/min; bulk 6000/min (all free)
+notes: Read the API root, openapi.json and the GitHub README. The repo/OpenAPI declare Apache-2.0, which covers the software; no data licence or terms of use for the dataset are stated (/terms is 404).
+  README says tournament data is scraped weekly from Chess-Results.com (upstream third-party site, rights not checked) and geocoded via the Google Maps API (separate Google terms on stored geocodes). A
+  hobby open-source API; all data-terms fields left unknown.
+evidence: []
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

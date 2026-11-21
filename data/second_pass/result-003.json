@@ -1,0 +1,399 @@
+[
+ {
+  "id": "ek-litre",
+  "outcome": "confirmed",
+  "reasons": [
+   "Re-read /data/ and /terms/: CC BY 4.0 on compiled record, 60 req/min, no extra blocker"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Source OGRA/PSO documents excluded from licence, but the served compiled record is covered. Terms page consistent with /data/."
+ },
+ {
+  "id": "ena",
+  "outcome": "confirmed",
+  "reasons": [
+   "EBI terms and INSDC policy both say no use restrictions; no conflicting page found"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "INSDC policy page (insdc.org/policy/) states no use restrictions or licensing fees on redistribution. Commercial not named explicitly, third-party patent/copyright rights possible per EBI terms; controlled-access human data excluded."
+ },
+ {
+  "id": "eosl",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms page re-read: CC BY 4.0 commercial use stated; API page asks to cache and credit; no key gating"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Licence covers dataset files only, not templates/text. /acceptable-use/ returned 404 (linked from footer), so nothing found there."
+ },
+ {
+  "id": "estimatetax",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToS re-read: free for professional use, caching encouraged, only scraping that degrades service and widget link removal forbidden"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Terms may add keys/quotas later with notice. Do not present output as own work or as professionally reviewed tax advice. Informal terms, no explicit licence."
+ },
+ {
+  "id": "eu-vat-rates-by-commodity-code",
+  "outcome": "confirmed",
+  "reasons": [
+   "README and commercial page both state CC BY 4.0 for the data; Commission Decision 2011/833/EU exists as the reuse basis; paid plan only adds filtered feed"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Third-party repackaging of EC TEDB data; upstream TEDB page not individually read. Attribution text: (c) European Union, source: DG TAXUD TEDB."
+ },
+ {
+  "id": "exactcup",
+  "outcome": "confirmed",
+  "reasons": [
+   "API page terms and FAQ say CC BY 4.0, commercial OK, no limit; no separate terms page (404)"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Values follow a published third-party weight chart (King Arthur); they are factual conversions. Attribution link required."
+ },
+ {
+  "id": "fbi-wanted",
+  "outcome": "disputed",
+  "reasons": [
+   "No API-specific terms on the FBI Wanted API page",
+   "DOJ policy: some photos and graphics are copyrighted by third parties",
+   "Wanted-poster images cannot be assumed public domain"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://www.justice.gov/legalpolicies",
+    "quote": "Please note that some photos, graphics and other materials used on this website are copyrighted.",
+    "field": "redistribution_display"
+   }
+  ],
+  "suggested": {
+   "redistribution_display": "ambiguous"
+  },
+  "note": "FBI /wanted/api (re-read via Playwright, fresh context) lists only usage examples; fbi.gov privacy/terms page 404. Text/metadata likely public domain but images need per-item check; first pass listed this itself as doubt, so green is too strong. Suggest yellow."
+ },
+ {
+  "id": "fed-treasury",
+  "outcome": "confirmed",
+  "reasons": [
+   "License section says free without restriction for commercial use; no ads/caching/rate blocker found"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Individual datasets may republish third-party content (not assessed). Rate limits not stated on the page."
+ },
+ {
+  "id": "federal-register",
+  "outcome": "confirmed",
+  "reasons": [
+   "About This Site and API page: no restrictions on reproduction, no key; only NARA/OFR logo ban"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Original documents public domain (1 CFR 2.6). Pages read via browser by first pass; curl hits a bot wall. Images/graphics in public inspection docs may differ."
+ },
+ {
+  "id": "fiberup-fiber-database",
+  "outcome": "disputed",
+  "reasons": [
+   "Site Terms forbid reproduction of site content without written permission, conflicting with /data/ CC BY page",
+   "Terms say values come partly from Open Food Facts (ODbL, share-alike), while /data/ cites only USDA"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://fiberup.app/terms",
+    "quote": "You may not reproduce, distribute, or create derivative works from the app or its content without written permission.",
+    "field": "redistribution_display"
+   },
+   {
+    "url": "https://fiberup.app/terms",
+    "quote": "Fiber values come from public nutrition databases (including USDA FoodData Central and Open Food Facts)",
+    "field": "data_license"
+   }
+  ],
+  "suggested": {
+   "redistribution_display": "ambiguous"
+  },
+  "note": "The /data/ page grants CC BY 4.0 explicitly and likely controls for the dataset, but the conflict and the Open Food Facts upstream (ODbL attribution/share-alike) are unresolved. Suggest yellow."
+ },
+ {
+  "id": "finance-clearly-tax-rates",
+  "outcome": "disputed",
+  "reasons": [
+   "Site Terms prohibit republishing, scraping or reuse without permission, conflicting with API page CC BY 4.0"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://financeclearly.com/terms",
+    "quote": "You may not republish, scrape, or reuse our content without written permission.",
+    "field": "redistribution_display"
+   }
+  ],
+  "suggested": {
+   "redistribution_display": "ambiguous"
+  },
+  "note": "API page says CC BY 4.0 and free commercially (specific licence likely controls); first pass noted the same conflict. Conflict between pages = disputed under second-pass rules. Underlying figures are HMRC/IRS facts."
+ },
+ {
+  "id": "findsaunaplunge",
+  "outcome": "confirmed",
+  "reasons": [
+   "API page: CC BY 4.0, no key; no conflicting terms page found (/terms not available)"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Some records are brand_import (brands' location data); rights of those unassessed but they are facts like address/prices. Keep lastVerified with figures."
+ },
+ {
+  "id": "floorguard",
+  "outcome": "confirmed",
+  "reasons": [
+   "API page names MIT-licensed dataset; LICENSE grants sell/distribute rights; no ToS (404)"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Hobby service with 60 req/min best effort, may add paid x402 later. Dataset reports third-party firms' rules (facts, trademarks not licensed). Keep MIT notice."
+ },
+ {
+  "id": "fmi-open-data",
+  "outcome": "confirmed",
+  "reasons": [
+   "Licence page re-read: CC BY 4.0 applies to FMI open data sets incl. air quality sets in the open data service"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Air quality licensors listed in Finnish Appendix 1 not read; licence page says CC BY applies regardless."
+ },
+ {
+  "id": "fooddata-central",
+  "outcome": "confirmed",
+  "reasons": [
+   "API Guide Licensing: CC0 1.0, no permission needed; 1,000 req/h/IP limit; key required"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Branded foods are covered by same CC0 statement on the page. Attribution only requested."
+ },
+ {
+  "id": "frankfurter-frankfurter",
+  "outcome": "disputed",
+  "reasons": [
+   "No single data licence: Frankfurter says provider terms apply, 112 providers, many unchecked",
+   "ECB terms add conditions (accurate reproduction, cite source, notice to buyers if sold)",
+   "Direct provider endpoints stay under provider terms"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://frankfurter.dev/license/",
+    "quote": "Frankfurter doesn't own the rates, so it can't give you rights the provider doesn't.",
+    "field": "commercial_use"
+   },
+   {
+    "url": "https://frankfurter.dev/",
+    "quote": "Direct queries to individual provider endpoints remain subject to each provider's terms",
+    "field": "commercial_use"
+   },
+   {
+    "url": "https://www.ecb.europa.eu/services/disclaimer/html/index.en.html",
+    "quote": "When such information is distributed or reproduced, it must appear accurately and the ECB must be cited as the source.",
+    "field": "attribution_required"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "ambiguous",
+   "attribution_required": "yes"
+  },
+  "note": "Green only holds for ECB-sourced rates; data_license is unknown in the entry itself. Suggest yellow/ambiguous. Frankfurter's own FAQ says blended rates are free for commercial use."
+ },
+ {
+  "id": "french-address-search",
+  "outcome": "confirmed",
+  "reasons": [
+   "Re-read doc page: etalab-2.0 site notice; old api-adresse.data.gouv.fr still answers HTTP 200 today; IGN Geoplateforme replacement limited to 50 req/s per IP, built on BAN/BD TOPO/PCI"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Deprecation notice says old URL to be decommissioned (end Jan 2026) but it still responds on 2026-11-21; replacement service terms not fully read. Open licence applies to BAN data. Treat endpoint as unstable."
+ },
+ {
+  "id": "fundbiz",
+  "outcome": "disputed",
+  "reasons": [
+   "Site Terms forbid commercial republishing and bulk copying of site data without permission, conflicting with API page CC BY 4.0"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://fundbiz.co.uk/terms",
+    "quote": "Scrape, copy, republish or resell site content commercially without our written permission.",
+    "field": "redistribution_display"
+   },
+   {
+    "url": "https://fundbiz.co.uk/terms",
+    "quote": "Any other reproduction, bulk copying or commercial republication requires our prior written permission.",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "ambiguous",
+   "redistribution_display": "ambiguous"
+  },
+  "note": "API page offers CC BY 4.0, but ToS section 11 says data on the site is owned and commercial republication needs permission. Pages conflict; suggest yellow until clarified."
+ },
+ {
+  "id": "gazette-data-uk",
+  "outcome": "disputed",
+  "reasons": [
+   "Fair use policy restricts bots/APIs to 5 requests per 10s and crawling to 9pm-7am UK, and allows access blocking",
+   "OGL excludes personal data; insolvency/probate notices name individuals"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://www.thegazette.co.uk/fair-use-policy",
+    "quote": "Carry out crawling in non-business hours between 9pm and 7am UK.",
+    "field": "rate_limits"
+   },
+   {
+    "url": "https://www.thegazette.co.uk/fair-use-policy",
+    "quote": "Limit requests to 5 request every 10 seconds.",
+    "field": "rate_limits"
+   },
+   {
+    "url": "https://www.thegazette.co.uk/data",
+    "quote": "However, please note that this licence does not cover the re-use of personal data.",
+    "field": "storage_caching"
+   }
+  ],
+  "suggested": {
+   "storage_caching": "limited",
+   "redistribution_display": "ambiguous"
+  },
+  "note": "OGL v3.0 itself is permissive, but personal data (UK GDPR) and operational limits make green too strong. Suggest yellow."
+ },
+ {
+  "id": "genesis",
+  "outcome": "confirmed",
+  "reasons": [
+   "Destatis page and legal notice: GENESIS-Online database under dl-de/by-2.0, commercial use and integration in products allowed"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Web service requires login (username/password or personal token) per the user guide (registration needed, parallel request limits, section 1.7); auth is not none. Source note and change note required by dl-de/by-2.0."
+ },
+ {
+  "id": "geoapify",
+  "outcome": "disputed",
+  "reasons": [
+   "ToS limits Free package commercial use in production ('with some limitations'), contradicting pricing FAQ",
+   "Data is OpenStreetMap-based (ODbL): attribution mandatory and storage must keep attributions; share-alike unassessed"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://www.geoapify.com/terms-and-conditions/",
+    "quote": "The commercial use of the Free -package is allowed in the development and, with some limitations, in the production phase.",
+    "field": "commercial_use"
+   },
+   {
+    "url": "https://www.geoapify.com/terms-and-conditions/",
+    "quote": "Geoapify attribution is mandatory when using Free subscription plan.",
+    "field": "attribution_required"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "ambiguous"
+  },
+  "note": "Pricing FAQ says Free plan may be used in commercial production within quota; binding ToS says limited and to contact them. Conflict between pages, suggest yellow."
+ },
+ {
+  "id": "geocod-io",
+  "outcome": "disputed",
+  "reasons": [
+   "Storage and resale rights are conditional on underlying data sources (OSM ODbL, GeoNames CC-BY, OpenAddresses various, UK PAF/OS)",
+   "UK reverse geocoding storage ends 12 months after subscription"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://www.geocod.io/terms-of-use/",
+    "quote": "provided that such uses are permitted by the underlying Data Sources and applicable law",
+    "field": "storage_caching"
+   },
+   {
+    "url": "https://www.geocod.io/terms-of-use/",
+    "quote": "can only be stored for up to twelve months after the UK Terms of Service attachment terminates",
+    "field": "storage_caching"
+   }
+  ],
+  "suggested": {
+   "storage_caching": "ambiguous",
+   "attribution_required": "ambiguous"
+  },
+  "note": "Free tier (2,500 lookups/day) is under the same ToS, so commercial use is fine. But green requires clear storage and display; Geocodio's data-sources page lists ODbL/CC-BY components, so obligations are passed to the customer. Suggest yellow."
+ },
+ {
+  "id": "geocode-xyz",
+  "outcome": "disputed",
+  "reasons": [
+   "Claims 'however you want' use but data comes from OSM (ODbL), GeoNames (CC-BY), OS and others whose attribution/share-alike duties are not addressed",
+   "Free port throttled to 1 request/second combined for all unauthenticated users"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://geocode.xyz/legal",
+    "quote": "including but not limited to OpenStreetMap, Geonames, Osmnames, openaddresses.io, UK Ordnance Survey",
+    "field": "data_license"
+   },
+   {
+    "url": "https://geocode.xyz/api",
+    "quote": "response times on the free ports are normally throttled to no more than 1 request per second for all un-authenticated users combined",
+    "field": "rate_limits"
+   }
+  ],
+  "suggested": {
+   "attribution_required": "unknown",
+   "redistribution_display": "ambiguous"
+  },
+  "note": "A geocoder cannot waive upstream ODbL/CC-BY duties; I did not re-read the ODbL here. Also forbids resale 'as is'. Suggest yellow."
+ },
+ {
+  "id": "geonames",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms: cc-by, commercial usage allowed, credit required; 10k credits/day, 1000/hour; free account username needed"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Postal code data limited for Canada, Ireland, Malta (copyright reasons). Data aggregates many sources but licensed CC-BY by GeoNames. Premium service for SLA. Data as-is."
+ },
+ {
+  "id": "getparceldata",
+  "outcome": "disputed",
+  "reasons": [
+   "Licence to use data ends on termination, so storage is not unlimited",
+   "Bulk publication of raw parcel data to third parties forbidden, which conflicts with programmatic SEO pages",
+   "Records include owner names (privacy)"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://getparceldata.com/terms",
+    "quote": "Resell, redistribute, sublicense, or publish the raw parcel data or geometry as a standalone product or in bulk to third parties;",
+    "field": "redistribution_display"
+   },
+   {
+    "url": "https://getparceldata.com/terms",
+    "quote": "Upon termination, your license to use the data ends;",
+    "field": "storage_caching"
+   }
+  ],
+  "suggested": {
+   "storage_caching": "limited",
+   "redistribution_display": "ambiguous"
+  },
+  "note": "Displaying data within own products is allowed, but a site publishing parcel pages en masse risks the bulk-publication ban. Suggest yellow."
+ }
+]

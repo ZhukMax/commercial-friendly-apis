@@ -1,0 +1,87 @@
+id: ek-litre
+name: ek litre
+url: https://eklitre.pk/data/
+category: Open Data
+description: Pakistan's petrol, diesel and kerosene prices since 2006, with OGRA's line-by-line price
+  build-up
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: ek litre
+  url: https://eklitre.pk/data/
+  category: Open Data
+link_status: alive
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+notes: Read the /data/ page (licence and limits section). The compiled record (prices, build-up lines,
+  structure) is CC BY 4.0, which permits commercial reuse with credit; the CC deed was read for what the
+  licence allows. The underlying OGRA and PSO documents are explicitly NOT covered by this licence (archived
+  as received); we did not assess their reuse terms. Pakistan-only fuel prices.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+data_license: CC-BY-4.0 (compiled record only; OGRA/PSO source documents not covered)
+data_license_url: https://eklitre.pk/data/
+api_terms_url: https://eklitre.pk/data/
+commercial_use: 'yes'
+commercial_use_scope: any
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+attribution_text: ek litre (eklitre.pk), from OGRA and PSO notifications.
+share_alike: 'no'
+rate_limits: 60 requests/minute per IP; no key
+bulk_download: 'yes'
+self_host_option: unknown
+evidence:
+- field: data_license
+  url: https://eklitre.pk/data/
+  quote: is published by ek litre under CC BY 4.0
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://eklitre.pk/data/
+  quote: is published by ek litre under CC BY 4.0
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://creativecommons.org/licenses/by/4.0/deed.en
+  quote: copy and redistribute the material in any medium or format for any purpose, even commercially
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://eklitre.pk/data/
+  quote: is published by ek litre under CC BY 4.0
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://creativecommons.org/licenses/by/4.0/deed.en
+  quote: copy and redistribute the material in any medium or format for any purpose, even commercially
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://eklitre.pk/data/
+  quote: is published by ek litre under CC BY 4.0
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://creativecommons.org/licenses/by/4.0/deed.en
+  quote: copy and redistribute the material in any medium or format for any purpose, even commercially
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://eklitre.pk/data/
+  quote: is published by ek litre under CC BY 4.0
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://eklitre.pk/data/
+  quote: Credit it as “ek litre (eklitre.pk), from OGRA and PSO notifications.”
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://eklitre.pk/data/
+  quote: Please keep to 60 requests a minute or fewer from one IP address
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://eklitre.pk/data/
+  quote: For the whole series, download the files rather than requesting each day.
+  checked_at: '2026-11-21'
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Source OGRA/PSO documents excluded from licence, but the served compiled record is
+  covered. Terms page consistent with /data/.

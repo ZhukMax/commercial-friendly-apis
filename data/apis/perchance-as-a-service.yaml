@@ -1,0 +1,25 @@
+id: perchance-as-a-service
+name: Perchance as a Service
+url: https://perchance.synopsys0.workers.dev
+category: Personality
+description: Returns a random maybe as JSON or plain text
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: Perchance as a Service
+  url: https://perchance.synopsys0.workers.dev
+  category: Personality
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

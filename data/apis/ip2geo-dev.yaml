@@ -1,0 +1,59 @@
+id: ip2geo-dev
+name: ip2geo.dev
+url: https://ip2geo.dev
+category: Geocoding
+description: Programmatically convert IP addresses into geolocation data
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: ip2geo.dev
+  url: https://ip2geo.dev
+  category: Geocoding
+link_status: alive
+data_license: proprietary (built from MaxMind GeoLite data)
+commercial_use: unknown
+storage_caching: limited
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://ip2geo.dev/terms-of-service
+api_terms_url: https://ip2geo.dev/terms-of-service
+cache_limit: Only what your own application needs; bulk storage prohibited
+share_alike: unknown
+rate_limits: 'Free plan: 1,000 conversions/month, no card; paid plans higher'
+notes: 'Read /terms-of-service (the /terms URL is 404), /pricing and homepage. ToS never states whether
+  commercial use is allowed (free plan is marketed "for testing & small projects"; paid plans exist),
+  so commercial_use stays unknown. Prohibited: reselling/redistributing the data, including it in an IP-data
+  product, building competing datasets, bulk extraction, storing results beyond what the application needs.
+  Showing results to your own users is not clearly covered either way (ambiguous). Data is MaxMind GeoLite-derived;
+  the ToS carries the MaxMind attribution line but does not say users must reproduce it.'
+evidence:
+- field: storage_caching
+  url: https://ip2geo.dev/terms-of-service
+  quote: storing results beyond what your own application needs.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://ip2geo.dev/terms-of-service
+  quote: resell, sublicense or redistribute the Service or its data, include it in a geolocation or IP
+    data product of your own
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://ip2geo.dev/terms-of-service
+  quote: Our location data is built from GeoLite data by MaxMind, which we process and keep up to date.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://ip2geo.dev/pricing
+  quote: 1,000 conversions a month
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Upstream MaxMind GeoLite EULA (attribution, no redistribution) not checked.

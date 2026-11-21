@@ -1,0 +1,41 @@
+id: blazephoenix
+name: BlazePhoenix
+url: https://blazephoenix.xyz/api
+category: Cryptocurrency
+description: On-chain DEX aggregator quotes and route execution data
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: BlazePhoenix
+  url: https://blazephoenix.xyz/api
+  category: Cryptocurrency
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://blazephoenix.xyz/llms.txt
+evidence:
+- field: commercial_use
+  url: https://blazephoenix.xyz/llms.txt
+  quote: The public API, SDK and MCP server are free to integrate, with no key and no signup.
+  checked_at: '2026-11-21'
+notes: 'Not a data source: a DEX-aggregator integration API that prepares eth_calls for the integrator''s
+  own RPC and decodes results (pre-launch engineering preview). Pages read: /api, /, /llms.txt; no Terms
+  page exists (/terms is 404). Only statement is that the API/SDK/MCP are ''free to integrate'' - it does
+  not mention commercial use, caching, display or attribution, so all terms unknown. Contract source is
+  BUSL-1.1 (code, not API data).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

@@ -1,0 +1,33 @@
+id: technical-analysis
+name: Technical Analysis
+url: https://technical-analysis-api.com
+category: Cryptocurrency
+description: Cryptocurrency prices and technical analysis
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Technical Analysis
+  url: https://technical-analysis-api.com
+  category: Cryptocurrency
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+evidence: []
+notes: 'Opened https://technical-analysis-api.com (JS SPA, rendered via Playwright in a fresh context):
+  marketing page only (6 indicators, 196+ coins, 2 exchanges, free API key, BETA, made by an individual).
+  /terms and /terms-of-service return the SPA shell with no terms text; no ToS, licence or pricing page
+  found, and the footer links lack a legal page. Prices/recommendations derive from third-party exchanges
+  (e.g. Bitfinex), whose terms were not checked. Nothing provable, so everything is unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

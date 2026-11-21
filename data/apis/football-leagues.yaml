@@ -1,0 +1,39 @@
+id: football-leagues
+name: Football Leagues
+url: https://football-api.yuvron.online/reference
+category: Sports & Fitness
+description: Standings, fixtures, live scores, lineups and player stats for 11 European football competitions
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Football Leagues
+  url: https://football-api.yuvron.online/reference
+  category: Sports & Fitness
+link_status: alive
+data_license: unknown
+commercial_use: 'yes'
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://football-api.yuvron.online/faq
+commercial_use_scope: any
+evidence:
+- field: commercial_use
+  url: https://football-api.yuvron.online/faq
+  quote: Yes, on any plan including the free one. The data is derived from publicly available match records.
+  checked_at: '2026-11-21'
+notes: Only the vendor's FAQ was found (no ToS page; /terms is 404). FAQ answers 'Can I use this commercially?
+  Yes, on any plan including the free one' but is not a formal licence. Crests, flags and player photos
+  are served as URLs and remain the owners' property. IDs 'you can store' only. Distributed via RapidAPI,
+  whose own marketplace terms were not read. Underlying match data is derived from public records (upstream
+  rights unclear). Storage/display/attribution unknown, so verdict unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

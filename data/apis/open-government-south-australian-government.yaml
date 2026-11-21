@@ -1,0 +1,63 @@
+id: open-government-south-australian-government
+name: Open Government, South Australian Government
+url: https://data.sa.gov.au/
+category: Government
+description: South Australian Government Open Data
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Open Government, South Australian Government
+  url: https://data.sa.gov.au/
+  category: Government
+link_status: alive
+data_license: CC-BY-4.0 (default; specific dataset licences prevail)
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+commercial_use_scope: any
+share_alike: 'no'
+data_license_url: https://data.sa.gov.au/copyright
+api_terms_url: https://data.sa.gov.au/copyright
+evidence:
+- field: data_license
+  url: https://data.sa.gov.au/copyright
+  quote: the content of this website is licensed under the Creative Commons Attribution 4.0 Licence
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://data.sa.gov.au/copyright
+  quote: the content of this website is licensed under the Creative Commons Attribution 4.0 Licence
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://data.sa.gov.au/copyright
+  quote: the content of this website is licensed under the Creative Commons Attribution 4.0 Licence
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://data.sa.gov.au/copyright
+  quote: the content of this website is licensed under the Creative Commons Attribution 4.0 Licence
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://data.sa.gov.au/copyright
+  quote: you are required to attribute the work in the manner specified in the licence
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://data.sa.gov.au/copyright
+  quote: the content of this website is licensed under the Creative Commons Attribution 4.0 Licence
+  checked_at: '2026-11-21'
+notes: 'Copyright statement of data.sa.gov.au: site content is CC BY 4.0 except emblem/trade-marked material;
+  the same page says specific licence terms applied to data on the site prevail, so per-dataset licences
+  must be checked. Commercial use follows from CC BY (no NC clause). CKAN API; no separate API ToS found.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Copyright page verified; CKAN: 1886 of 1943 cc-by, ~44 NC/ND variants. Check per dataset.'
+license_scope: portal-default

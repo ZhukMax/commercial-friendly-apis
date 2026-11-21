@@ -1,0 +1,56 @@
+id: seatgeek
+name: SeatGeek
+url: https://platform.seatgeek.com/
+category: Events
+description: Search events, venues and performers
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: SeatGeek
+  url: https://platform.seatgeek.com/
+  category: Events
+- list: public-api-lists
+  name: SeatGeek
+  url: https://platform.seatgeek.com/
+  category: Events
+link_status: redirect
+data_license: unknown
+commercial_use: 'yes'
+storage_caching: unknown
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: -> https://developer.seatgeek.com
+commercial_use_scope: any
+api_terms_url: https://seatgeek.com/api-terms
+attribution_text: SeatGeek logo (per brand guidelines) linking to the SeatGeek home page wherever SeatGeek
+  Materials are shown
+notes: API/SDK Terms (updated 17 Mar 2025; read via Playwright, curl blocked). developer.seatgeek.com
+  redirects to a login portal; access requires a Developer Portal account/app and SeatGeek may require
+  Supplemental Terms or fees, may review/withdraw apps, and limits use to the purposes in the Documentation.
+  The licence is for "lawful business purposes" (read as commercial use but no explicit ads/affiliate
+  clause), display to End Users is allowed with a mandatory SeatGeek logo + link, and no caching/storage
+  clause was found in the parts searched, so storage is unknown (verdict unknown until confirmed). Personal
+  Data should not be processed through the API.
+evidence:
+- field: commercial_use
+  url: https://seatgeek.com/api-terms
+  quote: exercisable solely for your own lawful business purposes
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://seatgeek.com/api-terms
+  quote: display the SeatGeek Materials to End Users through your Application
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://seatgeek.com/api-terms
+  quote: display SeatGeek attribution, in the form of the SeatGeek logo
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

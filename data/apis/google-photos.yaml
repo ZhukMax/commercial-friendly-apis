@@ -1,0 +1,25 @@
+id: google-photos
+name: Google Photos
+url: https://developers.google.com/photos
+category: Photography
+description: Integrate Google Photos with your apps or devices
+description_source: upstream
+auth: OAuth
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Google Photos
+  url: https://developers.google.com/photos
+  category: Photography
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

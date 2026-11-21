@@ -1,0 +1,70 @@
+id: open-government-greece
+name: Open Government, Greece
+url: https://data.gov.gr/
+category: Government
+description: Greece Government Open Data
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Open Government, Greece
+  url: https://data.gov.gr/
+  category: Government
+link_status: alive
+data_license: 'Per dataset: typically CC0 or CC BY 4.0 (portal terms 3.4)'
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: ambiguous
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://data.gov.gr/pages/terms-of-use
+api_terms_url: https://data.gov.gr/pages/terms-of-use
+commercial_use_scope: any
+share_alike: unknown
+rate_limits: 2,000 calls per minute per IP address (general limit, all users)
+evidence:
+- field: data_license
+  url: https://data.gov.gr/pages/terms-of-use
+  quote: Όλα τα σύνολα δεδομένων διατίθενται υπό τους τύπους αδειών που προβλέπει ο νόμος.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://data.gov.gr/pages/terms-of-use
+  quote: επαναχρησιμοποιεί δεδομένα για οποιονδήποτε νόμιμο σκοπό, συμπεριλαμβανομένης της εμπορικής εκμετάλλευσης
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://data.gov.gr/pages/terms-of-use
+  quote: αναπαράγει δεδομένα, τροποποιεί, συνδυάζει, εμπλουτίζει δεδομένα για δημιουργία παράγωγων έργων
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://data.gov.gr/pages/terms-of-use
+  quote: την ελεύθερη χρήση, την τροποποίηση, τον συνδυασμό και τη διανομή για οποιονδήποτε σκοπό, συμπεριλαμβανομένης
+    της εμπορικής εκμετάλλευσης
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://data.gov.gr/pages/terms-of-use
+  quote: Οι Χρήστες οφείλουν να χρησιμοποιούν τα σύνολα δεδομένων μέσα στα όρια της άδειας με την οποία
+    αυτά παρέχονται.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://data.gov.gr/pages/terms-of-use
+  quote: εφαρμόζεται γενικός περιορισμός συχνότητας κλήσεων 2.000 ανά λεπτό ανά διεύθυνση IP
+  checked_at: '2026-11-21'
+notes: Read the portal's Terms of Use (Greek, v1.0 May 2026), sections 2.4, 3.2-3.6, 4.4. Users may reuse
+  data for any lawful purpose incl. commercial exploitation, reproduce/modify/combine, and use the API
+  for automated retrieval and integration into apps. Each dataset keeps its own licence (CC0 and CC BY
+  4.0 are the usual ones; attribution therefore depends on dataset, so ambiguous). Misleading alteration
+  of data and third-party IP are excluded. Access needs no registration (3.6), so upstream auth 'OAuth'
+  looks stale and was changed to 'none'; individual data services may differ.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Terms (Greek) re-read: commercial reuse allowed, licence per dataset; 2000 calls/min/IP
+  limit. Attribution ambiguous is right.'
+license_scope: portal-default

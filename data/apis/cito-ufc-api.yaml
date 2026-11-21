@@ -1,0 +1,49 @@
+id: cito-ufc-api
+name: Cito UFC API
+url: https://citoapi.com/ufc-api/
+category: Sports & Fitness
+description: 'UFC and MMA fight data: fighters, cards, round stats, rankings and live state'
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Cito UFC API
+  url: https://citoapi.com/ufc-api/
+  category: Sports & Fitness
+link_status: alive
+data_license: proprietary (Cito API Terms of Service)
+commercial_use: paid-only
+storage_caching: unknown
+redistribution_display: 'yes'
+attribution_required: 'no'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+commercial_use_scope: paid
+api_terms_url: https://citoapi.com/terms/
+evidence:
+- field: commercial_use
+  url: https://citoapi.com/terms/
+  quote: A paid plan licenses you to use our Service commercially
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://citoapi.com/terms/
+  quote: You may display data obtained from our API in your applications.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://citoapi.com/terms/
+  quote: Paid plans require no attribution.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://citoapi.com/terms/
+  quote: resell or redistribute API access, attempt to circumvent rate limits, use the API to build a competing service
+  checked_at: '2026-11-21'
+notes: ToS (Nov 2026). A paid plan is the commercial licence; the free tier commercial status is not stated (treated as not covered). Display in your apps is allowed, attribution not required on paid plans
+  (free plans not stated); no reselling of API access, no competing service. Cito is an independent aggregator of public sources, "not rights-cleared" and gives no warranty on third-party league/promotion
+  rights; images may carry separate licences/credit duties. Caching/storage not addressed.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

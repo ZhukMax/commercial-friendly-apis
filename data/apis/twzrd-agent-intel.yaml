@@ -1,0 +1,32 @@
+id: twzrd-agent-intel
+name: TWZRD Agent Intel
+url: https://intel.twzrd.xyz
+category: Blockchain
+description: Solana on-chain agent trust scoring via MCP; 4 free tools to score, resolve and verify AI
+  agent wallets
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: TWZRD Agent Intel
+  url: https://intel.twzrd.xyz
+  category: Blockchain
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+evidence: []
+notes: intel.twzrd.xyz root (JSON), /llms.txt read. Pay-per-call x402 (USDC) API, some free tools. No
+  terms/licence page found (/terms returns a redirect only, /tos and /license 404). Nothing on commercial
+  use, caching or display.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

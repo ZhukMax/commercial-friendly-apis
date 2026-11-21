@@ -1,0 +1,31 @@
+id: chempirical
+name: Chempirical
+url: https://chempirical.com/api/
+category: Science & Math
+description: Chemical compounds with physical data, reactions and substructure search
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Chempirical
+  url: https://chempirical.com/api/
+  category: Science & Math
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+evidence: []
+notes: 'Pages read: https://chempirical.com/api/ (endpoint docs), /privacy/; /terms/ returns 404 and no licence or terms-of-use page was found. No statement on commercial use, caching or licence of the
+  data. Data is compiled from other sources (docs mention NIST ThermoML, ChemSep, GHS/ECHA classifications), so upstream terms may be stricter. robots.txt disallows /api/ except the docs page and SVG endpoint.
+  Left unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

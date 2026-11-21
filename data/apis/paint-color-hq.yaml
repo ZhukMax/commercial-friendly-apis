@@ -1,0 +1,51 @@
+id: paint-color-hq
+name: Paint Color HQ
+url: https://www.paintcolorhq.com/api
+category: Art & Design
+description: Closest real paint colors across 13 brands for any hex value, scored with CIEDE2000
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Paint Color HQ
+  url: https://www.paintcolorhq.com/api
+  category: Art & Design
+link_status: alive
+data_license: proprietary (colour names, codes and data owned by the paint manufacturers)
+commercial_use: paid-only
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.paintcolorhq.com/terms
+commercial_use_scope: paid
+attribution_text: Paint color matches powered by PaintColorHQ (visible, followed link to https://www.paintcolorhq.com near the results)
+rate_limits: 'Free tier: top 10 matches, responses cached at edge 24h; paid tier via RapidAPI'
+notes: Read /terms (via Playwright, page is JS-rendered) and /api. Free API requires a visible dofollow credit link on any public page showing results; paid RapidAPI tier has no credit requirement and is
+  where commercial use is directed. Colour data belongs to the paint brands (upstream rights unverified); bulk reproduction/redistribution forbidden, so storage_caching and redistribution_display left unknown.
+  The site itself uses affiliate links, irrelevant to API terms.
+evidence:
+- field: commercial_use
+  url: https://www.paintcolorhq.com/terms
+  quote: Heavy or commercial use belongs on the paid tier through RapidAPI, which has no credit requirement.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.paintcolorhq.com/terms
+  quote: Public use requires credit.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.paintcolorhq.com/terms
+  quote: Paint color names, codes, and associated data are the property of their respective manufacturers
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.paintcolorhq.com/terms
+  quote: You may not scrape, reproduce, or redistribute the site's content or data in bulk without prior written permission.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -1,0 +1,25 @@
+id: mailchannels
+name: MailChannels
+url: https://www.mailchannels.com/email-api/
+category: Email
+description: Send transactional email over HTTPS with official JavaScript, Python and PHP SDKs
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: MailChannels
+  url: https://www.mailchannels.com/email-api/
+  category: Email
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

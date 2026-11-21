@@ -1,0 +1,56 @@
+id: words
+name: Words
+url: https://www.wordsapi.com/docs/
+category: Dictionaries
+description: Definitions and synonyms for more than 150,000 words
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Words
+  url: https://www.wordsapi.com/docs/
+  category: Dictionaries
+- list: public-api-lists
+  name: Words
+  url: https://www.wordsapi.com/
+  category: Dictionaries
+link_status: alive
+data_license: proprietary service; definitions derived from WordNet, frequency from OpenSubtitles, syllables/rhymes
+  from CMU dict
+commercial_use: unknown
+storage_caching: limited
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: 'yes'
+verdict: unknown
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.wordsapi.com/
+cache_limit: Cache up to 24 hours, then purge
+rate_limits: Free 2,500/day; Pro 25,000/day; Ultra 250,000/day; Mega 500,000/day (via RapidAPI)
+evidence:
+- field: storage_caching
+  url: https://www.wordsapi.com/
+  quote: You may cache and thus store API Data on your system for up to 24 hours, after which such cached
+    API Data must be purged
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.wordsapi.com/
+  quote: Word definitions and relationships are derived from WordNet
+  checked_at: '2026-11-21'
+- field: self_host_option
+  url: https://www.wordsapi.com/
+  quote: If you'd prefer to host the data locally, you can purchase the Words API data set
+  checked_at: '2026-11-21'
+notes: 'Terms of Service are an inline popup on the home page (no separate URL); they say cached API data
+  may be kept 24 hours then purged, no copying/storing/archiving/distributing beyond that except to End
+  Users of the Developer Application. Commercial use, display and attribution are not explicitly addressed
+  in the text read, so unknown. Access is via RapidAPI (RapidAPI terms apply; provider page lists a Terms
+  of Use link not read). A one-off $629 data licence permits unlimited use incl. games and local hosting
+  but no resale or competing service. Underlying data: WordNet (Princeton licence not reviewed), OpenSubtitles
+  frequencies, CMU dictionary.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -1,0 +1,65 @@
+id: calendrier-tempo
+name: Calendrier Tempo
+url: https://www.calendrier-tempo.fr/api-tempo
+category: Environment
+description: 'French EDF Tempo tariff: today''s and tomorrow''s colour, kWh prices and 15-day colour forecasts'
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Calendrier Tempo
+  url: https://www.calendrier-tempo.fr/api-tempo
+  category: Environment
+link_status: alive
+data_license: CC-BY-4.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://creativecommons.org/licenses/by/4.0/
+api_terms_url: https://www.calendrier-tempo.fr/api-tempo
+commercial_use_scope: any
+attribution_text: 'Source: calendrier-tempo.fr with a link'
+evidence:
+- field: data_license
+  url: https://www.calendrier-tempo.fr/api-tempo
+  quote: licence CC BY 4.0
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.calendrier-tempo.fr/api-tempo
+  quote: Réutilisation libre en citant la source
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.calendrier-tempo.fr/api-tempo
+  quote: Réutilisation libre en citant la source
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.calendrier-tempo.fr/api-tempo
+  quote: Réutilisation libre en citant la source
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.calendrier-tempo.fr/api-tempo
+  quote: Réutilisation libre en citant la source
+  checked_at: '2026-11-21'
+notes: Read the API page (French). It states free reuse with source credit and link under CC BY 4.0, no
+  key. The official Tempo colours are published by EDF ("seule la couleur publiée par EDF fait foi");
+  the licence covers the site own output (forecasts, history). No separate terms page found, so medium.
+  The CC BY licence deed itself was not opened.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'API page states free reuse citing the source with a link, CC BY 4.0, no key; /api/today
+  answers 200; Mentions legales have no restriction on the API; could not re-verify: EDF and Open-Meteo
+  upstream terms not verified'
+verdict_override: yellow
+override_reason: 'Second check: API page states free reuse citing the source with a link, CC BY 4.0, no
+  key; /api/today answers 200; Mentions legales have no restriction on the API; could not re-verify: EDF
+  and Open-Meteo upstream terms not verified'

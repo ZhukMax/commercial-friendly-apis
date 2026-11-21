@@ -1,0 +1,41 @@
+id: cloudflare-radar
+name: Cloudflare Radar
+url: https://developers.cloudflare.com/radar/
+category: Open Data
+description: Internet traffic, attack, outage and domain ranking trends from Cloudflare's network
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Cloudflare Radar
+  url: https://developers.cloudflare.com/radar/
+  category: Open Data
+link_status: alive
+data_license: CC-BY-NC-4.0
+commercial_use: 'no'
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://developers.cloudflare.com/radar/
+commercial_use_scope: any
+evidence:
+- field: data_license
+  url: https://developers.cloudflare.com/radar/
+  quote: Data available via Radar API endpoints is made available under the CC BY-NC 4.0
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://developers.cloudflare.com/radar/
+  quote: Data available via Radar API endpoints is made available under the CC BY-NC 4.0
+  checked_at: '2026-11-21'
+notes: Read developers.cloudflare.com/radar/ only. Radar API data is CC BY-NC 4.0 (NonCommercial), so ads or affiliate monetisation of a site using it is out unless Cloudflare grants a separate licence
+  (not found). Cloudflare's general API/website terms were not read. redistribution_display 'no' is set only so non-commercial display is not offered as OK; strictly the restriction is NC, not display.
+  The API requires a Cloudflare API token (auth apiKey as listed).
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -1,0 +1,65 @@
+id: open-government-cyprus
+name: Open Government, Cyprus
+url: https://data.gov.cy/?language=en
+category: Government
+description: Cyprus Government Open Data
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Open Government, Cyprus
+  url: https://data.gov.cy/?language=en
+  category: Government
+link_status: alive
+data_license: CC-BY-4.0 (general rule per portal FAQ)
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://data.gov.cy/el/synitheis-erotiseis
+api_terms_url: https://data.gov.cy/el/synitheis-erotiseis
+commercial_use_scope: any
+share_alike: unknown
+evidence:
+- field: data_license
+  url: https://data.gov.cy/el/synitheis-erotiseis
+  quote: Creative Commons – Attribution 4.0 International (CC BY 4.0)
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://data.gov.cy/el/synitheis-erotiseis
+  quote: να τα αναπαράγει και να τα τροποποιήσει χωρίς οποιονδήποτε περιορισμό πέραν της υποχρέωσης αναφοράς
+    στην πηγή
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://data.gov.cy/el/synitheis-erotiseis
+  quote: να τα αναπαράγει και να τα τροποποιήσει χωρίς οποιονδήποτε περιορισμό πέραν της υποχρέωσης αναφοράς
+    στην πηγή
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://data.gov.cy/el/synitheis-erotiseis
+  quote: να τα αναπαράγει και να τα τροποποιήσει χωρίς οποιονδήποτε περιορισμό πέραν της υποχρέωσης αναφοράς
+    στην πηγή
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://data.gov.cy/el/synitheis-erotiseis
+  quote: να τα αναπαράγει και να τα τροποποιήσει χωρίς οποιονδήποτε περιορισμό πέραν της υποχρέωσης αναφοράς
+    στην πηγή
+  checked_at: '2026-11-21'
+notes: 'Read the portal FAQ (Greek page /el/synitheis-erotiseis, question 7 on licence) and the legal-framework
+  page (re-use for commercial or non-commercial purposes, EU Directive 2019/1024). FAQ says datasets are
+  generally CC BY 4.0: reproduce and modify without restriction beyond citing the source and marking modifications.
+  ''Generally'' means individual datasets may differ; check per dataset. English FAQ URL 404s, Greek text
+  used. No API-specific terms or rate limits read (portal has CKAN-style API; not checked).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Greek FAQ quote verified; CC BY 4.0 'generally', per-dataset licences may differ.
+license_scope: portal-default

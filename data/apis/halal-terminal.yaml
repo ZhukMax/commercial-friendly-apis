@@ -1,0 +1,37 @@
+id: halal-terminal
+name: Halal Terminal
+url: https://api.halalterminal.com/docs
+category: Finance
+description: Shariah-compliant stock and ETF screening across 5 methodologies, zakat and purification
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Halal Terminal
+  url: https://api.halalterminal.com/docs
+  category: Finance
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.halalterminal.com/terms
+share_alike: unknown
+evidence:
+- field: data_license
+  url: https://www.halalterminal.com/legal
+  quote: Data sources include ETF prospectuses, SEC filings, and public databases.
+  checked_at: '2026-11-21'
+notes: Read /terms, /legal and /pricing (plain curl). The Terms of Service (6 short clauses) only forbid abusive scraping/reverse engineering and disclaim liability; nothing on commercial use, caching/storage,
+  display or attribution. Pricing page shows Terminal plans and says API plans are priced separately (that API pricing page was not read); Enterprise offers custom data licensing. Data derives from third-party
+  sources (prospectuses, SEC filings). No page confirms any core field, so all unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

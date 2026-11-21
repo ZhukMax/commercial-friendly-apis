@@ -1,0 +1,25 @@
+id: loremfile
+name: loremfile
+url: https://loremfile.dev/docs/manifest
+category: Test Data
+description: Hotlinkable CC0 sample files in 78 formats, each with a SHA-256 in a JSON manifest
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: loremfile
+  url: https://loremfile.dev/docs/manifest
+  category: Test Data
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

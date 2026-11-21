@@ -1,0 +1,31 @@
+id: poloniex
+name: Poloniex
+url: https://docs.poloniex.com
+category: Cryptocurrency
+description: US based digital asset exchange
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Poloniex
+  url: https://docs.poloniex.com
+  category: Cryptocurrency
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://api-docs.poloniex.com/
+evidence: []
+notes: 'Read api-docs.poloniex.com (redirect target; Playwright): no terms or licence section. poloniex.com/terms-of-use and /terms-and-conditions return 404, so no applicable terms were found. All fields
+  unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

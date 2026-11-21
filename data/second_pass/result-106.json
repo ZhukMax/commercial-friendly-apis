@@ -1,0 +1,317 @@
+[
+ {
+  "id": "discgolf",
+  "outcome": "confirmed",
+  "reasons": [
+   "Licence says use freely in websites/apps/directories with attribution",
+   "Same page: 'For commercial use or questions, get in touch' - undefined"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read licence, terms, docs, use-our-data pages. Docs 'Fair use': public endpoints intended for apps, websites, maps, directories; cache where practical; do not mirror full dataset as competing service. No explicit commercial ban or grant; terms say some data originates from external sources (not named). Ambiguity remains, leaning permissive for ordinary sites; yellow stands."
+ },
+ {
+  "id": "dribbble",
+  "outcome": "confirmed",
+  "reasons": [
+   "Commercial use allowed but storing data strictly prohibited",
+   "No directory/portfolio/search sites without member OAuth"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read API terms: storage ban and the list of banned products (designer directories, job/hiring tools, profile display) hold. Red verdict stands."
+ },
+ {
+  "id": "dudelytics",
+  "outcome": "confirmed",
+  "reasons": [
+   "Commercial use not addressed",
+   "Quoting single values with source allowed; mirroring JSON not"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read /dpmi/data and /licenses. Page says public availability is not a blanket redistribution licence; individual levels may be cited with 'Dudelytics DPMI'. Underlying raw data from CoinGecko et al. whose rights Dudelytics cannot grant. No blocker beyond that; unknown/ambiguous stands."
+ },
+ {
+  "id": "ebay",
+  "outcome": "confirmed",
+  "reasons": [
+   "Public Display only to promote eBay and let users browse listings",
+   "No co-mingling with non-eBay content; 6h freshness"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read via Playwright (fresh context). Additional blockers not in first pass: Prohibited list says not to 'Use eBay Content or Developer Tools to compete with eBay Services or to design, build, promote or augment any site or service competitive to eBay Services' and Public Display must be visually isolated from non-eBay content. An ads/affiliate catalog site is at best a weak fit; ambiguity stays, treat as high-risk yellow."
+ },
+ {
+  "id": "emojihub",
+  "outcome": "confirmed",
+  "reasons": [
+   "GitHub API reports MIT but no LICENSE file in repo",
+   "Public instance has no terms"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Verified: GitHub licence API says MIT, repo root listing (Dockerfile, README, cmd, emojistore, go.mod...) has no LICENSE and raw LICENSE returns 404 on master/main. Public instance emojihub.yurace.pro answers 200. Grant unconfirmable; ambiguous stands (self-host from repo is the safer route)."
+ },
+ {
+  "id": "epo",
+  "outcome": "confirmed",
+  "reasons": [
+   "OPS terms: no royalties on products built with the data",
+   "But data 'as such' may not be made available to public"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read OPS T&C 3.1-3.3, 4.7. 3.1 allows including data in own products/databases; 3.2 bans making data as such available to the public; fair use charter and weekly free threshold apply. A public site displaying patent data sits between the two: display ambiguous stands. developers.epo.org Cloudflare-blocked; terms read on epo.org."
+ },
+ {
+  "id": "etsy",
+  "outcome": "disputed",
+  "reasons": [
+   "API terms bar driving traffic to external sites",
+   "Also bar connecting to third-party advertising platforms and commercialising member data"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://www.etsy.com/legal/api",
+    "quote": "Divert sales or migrate Etsy Members from Etsy, or drive traffic to external websites or services unrelated to the Etsy platform",
+    "field": "redistribution_display"
+   },
+   {
+    "url": "https://www.etsy.com/legal/api",
+    "quote": "Transfer or commercialize your access to the Etsy API, your API credentials, or Etsy Member content or data to any third party",
+    "field": "redistribution_display"
+   },
+   {
+    "url": "https://www.etsy.com/legal/api",
+    "quote": "connect with any third-party advertising or marketing platform",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {
+   "redistribution_display": "no"
+  },
+  "note": "Re-read via Playwright (fresh context). API is meant for apps serving Etsy sellers; public ad/affiliate listing sites conflict with the prohibited-behaviour list. commercial_use stays ambiguous (Etsy may prohibit any commercial use it deems inappropriate); display of member content on a public catalog is effectively not allowed."
+ },
+ {
+  "id": "europeana",
+  "outcome": "confirmed",
+  "reasons": [
+   "Metadata CC0, so commercial use and storage fine",
+   "Thumbnails/objects follow per-item rights statements"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read Terms of Use. Metadata CC0; Digital Objects only per edm:rights; personal API keys are non-production, production needs a Project key; Europeana also enriches metadata from additional sources. Display of images remains ambiguous per item; yellow stands."
+ },
+ {
+  "id": "eventbrite",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms bar using APIs/Site Content stand-alone or for direct monetary gain",
+   "Past-event data may not be stored; no competing products"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read API Terms via Playwright. 3.1: store only future-event content; 3.x prohibits to 'use the Eventbrite APIs or Site Content on a stand-alone basis or for timesharing, service bureau or other commercial purposes for direct commercial or monetary gain' (indirect gain from supporting your Application allowed) and to build a product competing with Eventbrite. Ad/affiliate event-listing site likely falls on the restrictive side; ambiguous stands, leaning restrictive."
+ },
+ {
+  "id": "evil-insult-generator",
+  "outcome": "confirmed",
+  "reasons": [
+   "Only terms are a generic site copyright clause: reproductions private use only, not for earnings",
+   "Insults are user-submitted from unknown sources"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read legal.pdf (pdftotext): clause says 'Individual reproductions of a work are allowed only for private use, so must not serve either directly or indirectly for earnings', plus 2016 ToS. Not API-specific so ambiguous stands, but evidence leans against commercial use; provenance of content unclear."
+ },
+ {
+  "id": "exchangerate-api",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms allow commercial use on free and paid plans",
+   "Data caching allowed but no re-distribution"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read terms. 'This license does not permit re-distribution of our data' and data only for end purposes, not in a service offering programmatic access to rates. Showing rates on own pages is the normal use case; public-display ambiguity stands. Upstream sources (central banks/commercial) not detailed."
+ },
+ {
+  "id": "fast-data-job-search",
+  "outcome": "confirmed",
+  "reasons": [
+   "Apify Actor wrapper; rights depend on each upstream job source",
+   "Upstream terms are conditional (link back, own-site only)"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Checked upstreams: Remote OK API legal text requires a followed link back and naming Remote OK as source or API access is suspended; Himalayas API page says jobs only on sites you operate, no passing to Google Jobs/aggregators, remove expired jobs. Actor page only claims data is legal to use. No upstream ban on commercial display found for those two; Arbeitsagentur/Arbeitnow not read. unknown stands, attribution ambiguous stands."
+ },
+ {
+  "id": "favicondl",
+  "outcome": "confirmed",
+  "reasons": [
+   "Docs say free, cache icons yourself, no commercial licence statement",
+   "Icons are third-party trademarks"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read docs and FAQ: no ToS; FAQ says favicons are usually part of owner's logo/trademark, fine to show which site a link points to, not as own branding. ambiguous/unknown stands."
+ },
+ {
+  "id": "finlight",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms allow commercial use of API and enrichment",
+   "No licence to third-party article content; attribution + link required"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read terms-of-use sections 2-4, 6. 'finlight does not authorize the redistribution or republication of third-party content'; prohibited: using API to redistribute copyrighted third-party content or build a competing news distribution service. Display of titles/summaries needs publisher licence: ambiguous stands (leaning restrictive)."
+ },
+ {
+  "id": "fitbit",
+  "outcome": "disputed",
+  "reasons": [
+   "Platform terms bar making User Data public",
+   "Legacy Web API scheduled to be turned off 30 Oct 2026 (past)"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://dev.fitbit.com/legal/platform-terms-of-service/",
+    "quote": "You shall not make public, or facilitate or encourage the making public of User Data.",
+    "field": "redistribution_display"
+   }
+  ],
+  "suggested": {
+   "redistribution_display": "no"
+  },
+  "note": "dev.fitbit.com banner: API turned off on October 30, 2026 (migrate to Google Health API); api.fitbit.com still answered 401 on 2026-11-21, so shutdown not confirmed but likely. API only returns the authenticated user's own data, so it is not a data source for a public catalog. Recommend link_status check / unknown verdict; commercial_use and storage stay unknown."
+ },
+ {
+  "id": "florida-man",
+  "outcome": "confirmed",
+  "reasons": [
+   "Repo has LICENSE file (MIT) which is binding",
+   "README note says non-commercial intent only"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Verified LICENSE file exists (raw 200) and README says 'MIT - free to use, just give credit' plus 'intended for personal, educational, and non-commercial use'. MIT grants rights over the compilation; the headlines are scraped from news sites (foxnews.com etc.) whose rights are not licensable by the repo author. Ambiguity stands, leaning allowed for the compilation only."
+ },
+ {
+  "id": "football",
+  "outcome": "confirmed",
+  "reasons": [
+   "Only MIT notice on RapidAPI listing, covers provider code",
+   "Data scraped from unnamed sources"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-opened RapidAPI listing via Playwright (fresh context): plans BASIC free, PRO 9.99, ULTRA 15.99, MEGA 24.99; no commercial/non-commercial wording on the page; pricing sub-page rendered empty. Upstream sports data/news rights unknown. ambiguous stands."
+ },
+ {
+  "id": "frankfurter",
+  "outcome": "confirmed",
+  "reasons": [
+   "Homepage: free for commercial use, blended rates free to use",
+   "Direct provider queries subject to each central bank's terms"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read homepage FAQ and /license. Providers list includes ECB, Bank of England, FRED etc. with own terms; many 'None published'. Display of provider-direct data depends on upstream; blended rates are Frankfurter's own calculation. Ambiguity on display stands."
+ },
+ {
+  "id": "freepik",
+  "outcome": "confirmed",
+  "reasons": [
+   "API T&C never state commercial use plainly; requires paid subscription with credits",
+   "Cannot build a competing standalone service"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read Magnific API Services T&C via Playwright. 5.1 Competitive Use: API 'must not be used to create any standalone service or application with features that directly replicate or compete with the products of Magnific'; attribution 'Powered by Magnific' for AI models; caching limited to technical reasons. A stock-asset catalog site would risk 5.1. ambiguous/paid-scope stands."
+ },
+ {
+  "id": "gateio",
+  "outcome": "confirmed",
+  "reasons": [
+   "User Agreement bans 'resale or commercial purposes' for account users",
+   "No separate market-data licence found"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read gate.com user agreement via Playwright: clause (d) 'use the Services and/or the Sites for resale or commercial purposes, including Transactions on behalf of other persons' sits in account-holder conduct rules; also bans data scraping/unauthorized API use. Public market-data endpoints need no account, so applicability unclear. gate.io/api2 and apiv4 docs 403 to curl. ambiguous stands."
+ },
+ {
+  "id": "haterpicks",
+  "outcome": "disputed",
+  "reasons": [
+   "Plans page grants 'commercial display rights' on Business plan",
+   "First pass missed plan-level licence; red too strict"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://www.haterpicks.app/haterpicks-api",
+    "quote": "The Business plan includes commercial display rights: showing our prices on a public site or app that earns money",
+    "field": "commercial_use"
+   },
+   {
+    "url": "https://www.haterpicks.app/haterpicks-api",
+    "quote": "Showing prices on a public site or app that earns money? Choose the plan with commercial display rights.",
+    "field": "redistribution_display"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "paid-only",
+   "redistribution_display": "yes"
+  },
+  "note": "General Terms (Acceptable Use) forbid commercially exploiting content, but the API plans page (A$249/month Business) explicitly licenses commercial display on affiliate/media sites; Free/Starter/Pro do not include it. So verdict should be yellow (paid-only). Odds are scraped from bookmakers: upstream rights not assessed; storage/attribution not addressed (API page encourages storing what you receive)."
+ },
+ {
+  "id": "helipaddy-sites",
+  "outcome": "confirmed",
+  "reasons": [
+   "Access by manual approval and private partner agreement",
+   "No public commercial, storage or display terms"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read API landing and Partner Guide: pricing tiers $1 demo / $99 / $299, approval not guaranteed, 'Do not redistribute payloads beyond the use cases covered in your partner agreement', cache at least one rate-limit window. Terms private; unknown stands."
+ },
+ {
+  "id": "holidayexplore",
+  "outcome": "confirmed",
+  "reasons": [
+   "API docs: CC BY 4.0, free for commercial use with visible link",
+   "ToS limit web interface licence and bar mirroring/bulk scrapers"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read api-docs and terms. Two pages differ in scope (API vs web interface/ICS) rather than contradict; ToS 'may not resell, redistribute automated bulk API scrapers, or mirror the core platform'. Edge cache 3600s suggests short caching accepted; storage ambiguous stands. Upstream: statutory gazettes/central bank circulars not checked."
+ },
+ {
+  "id": "icon-horse",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms: icons belong to owners, not licensed by service",
+   "No commercial or storage statement"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read privacy/terms page: 'Logos and icons belong to their owners. Icon Horse finds and resizes them. It does not license them to you.' Free, no ads/accounts. Use limited to what trademark law allows. ambiguous stands."
+ },
+ {
+  "id": "iconify",
+  "outcome": "confirmed",
+  "reasons": [
+   "Public API free, no commercial ban found",
+   "Licence varies per icon set including CC BY-NC sets"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read API docs: public servers free, main use is Iconify components, other use 'a bonus that should not be abused', self-hosting recommended for unlimited use. Per-set licences (some NC, CC BY-SA, GPL) still decide commercial use; ambiguous stands. No separate ToS found."
+ }
+]

@@ -1,0 +1,35 @@
+id: met-office-datahub
+name: Met Office DataHub
+url: https://datahub.metoffice.gov.uk/docs/
+category: Weather
+description: UK weather forecasts and climate data
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Met Office DataHub
+  url: https://datahub.metoffice.gov.uk/docs/
+  category: Weather
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+rate_limits: 'Free plan: 1 GB/month; Trial 60 GB over 30 days; paid tiers have 130,000 requests/day'
+evidence:
+- field: rate_limits
+  url: https://datahub.metoffice.gov.uk/pricing/atmospheric
+  quote: Free - 1 GB per month
+  checked_at: '2026-11-21'
+notes: Only the pricing page (Playwright, fresh context) and the Met Office general legal page were read. The DataHub Terms and Conditions are behind a login redirect, so licence/commercial terms could
+  not be read. Met Office legal page says data are categorised Open/Managed/Internal with different licence arrangements, which does not settle the DataHub API terms. All core fields unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

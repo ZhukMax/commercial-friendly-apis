@@ -1,0 +1,79 @@
+id: conversor-iae-cnae
+name: Conversor IAE CNAE
+url: https://www.conversoriaecnae.es/api/v1/docs
+category: Government
+description: Spanish IAE/CNAE tax activity codes, 2009→2025 crosswalk and AEAT obligations
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Conversor IAE CNAE
+  url: https://www.conversoriaecnae.es/api/v1/docs
+  category: Government
+link_status: alive
+data_license: Proprietary database of official AEAT/INE codes (compilation right claimed)
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.conversoriaecnae.es/terminos-condiciones
+rate_limits: 'Free plan: 250 requests/day, 10/min; paid from 29 EUR/month'
+evidence:
+- field: commercial_use
+  url: https://www.conversoriaecnae.es/terminos-condiciones
+  quote: Reproducir, copiar, distribuir o modificar de forma total o parcial el contenido del Sitio Web
+    para fines comerciales.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.conversoriaecnae.es/terminos-condiciones
+  quote: salvo autorización previa y por escrito del titular o licencia de un plan
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.conversoriaecnae.es/terminos-condiciones
+  quote: Extraer y/o reutilizar la totalidad o una parte sustancial, evaluada cualitativa o cuantitativamente,
+    del contenido de la base de datos
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.conversoriaecnae.es/terminos-condiciones
+  quote: Los códigos IAE y CNAE son datos oficiales publicados por organismos públicos de España
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.conversoriaecnae.es/terminos-condiciones
+  quote: Reproducir, copiar, distribuir o modificar de forma total o parcial el contenido del Sitio Web
+    para fines comerciales.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.conversoriaecnae.es/datos-abiertos
+  quote: 'Licencia CC-BY-4.0: úsalos en tu investigación, tu pipeline de datos o tu propio modelo.'
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.conversoriaecnae.es/datos-abiertos
+  quote: La correspondencia IAE↔CNAE 2025 es una obra derivada que mantenemos de forma privada
+  checked_at: '2026-11-21'
+notes: Section 5.5 prohibits copying/distributing site content for commercial purposes and extracting
+  or reusing a substantial part of the database, except with written authorisation or an API plan whose
+  conditions expressly allow it. The API docs and pricing markdown describe plans (Gratis for prototypes;
+  production from 29 EUR/month) but I found no API licence text stating that paid plans grant commercial
+  display/storage rights; hence ambiguous. The underlying IAE/CNAE codes are official AEAT/INE data (source
+  attribution section 5.2). Free plan locks the IAE-CNAE crosswalk field.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: yellow
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Unread page /datos-abiertos: full IAE and CNAE catalogues (codes and titles) are published
+  under CC-BY-4.0, no key, no download limit; ToS s5.5 prohibition on commercial copying and extraction
+  does not apply to this openly licensed slice; IAE-CNAE crosswalk, AI enrichment and analytics are explicitly
+  private/proprietary and only available through the API under ToS s5.5 | applied: commercial_use=yes,
+  storage_caching=yes, redistribution_display=yes'
+verdict_override: yellow
+override_reason: 'Second check: Unread page /datos-abiertos: full IAE and CNAE catalogues (codes and titles)
+  are published under CC-BY-4.0, no key, no download limit; ToS s5.5 prohibition on commercial copying
+  and extraction does not apply to this openly licensed slice; IAE-CNAE crosswalk, AI enrichment and analytics
+  are explicitly private/proprietary and only available through the API under ToS s5.5'

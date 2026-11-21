@@ -1,0 +1,49 @@
+id: trestle
+name: Trestle
+url: https://trestleiq.com/phone-validation-api/
+category: Data Validation
+description: Validates the phone number and provides phone metadata
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: Trestle
+  url: https://trestleiq.com/phone-validation-api/
+  category: Data Validation
+link_status: alive
+data_license: proprietary (Trestle Terms of Service)
+commercial_use: unknown
+storage_caching: 'no'
+redistribution_display: 'no'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://trestleiq.com/terms-of-service/
+evidence:
+- field: redistribution_display
+  url: https://trestleiq.com/terms-of-service/
+  quote: make any Services or Trestle Data available to anyone other than Customer, its Affiliates, and
+    their respective Users
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://trestleiq.com/terms-of-service/
+  quote: store or cache the Trestle to avoid making additional Queries to the Services
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://trestleiq.com/terms-of-service/
+  quote: store or otherwise use the Trestle Data for purposes other than the internal business purposes
+    of the Customer
+  checked_at: '2026-11-21'
+notes: Trestle Terms of Service read. Data may be used only for the customer's internal business purposes;
+  making Trestle Data available to anyone else, reselling or distributing it needs written consent; storing/caching
+  to avoid further queries is barred and marketing use is barred except to respond to an inbound request.
+  The storage/marketing clauses sit in a product-specific list (phone/caller products) so their scope
+  is not certain, but the general restriction on making data available to others blocks public display.
+  commercial_use left unknown (no explicit statement). Verdict red from redistribution_display=no.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

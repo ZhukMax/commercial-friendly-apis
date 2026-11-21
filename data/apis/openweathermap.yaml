@@ -1,0 +1,76 @@
+id: openweathermap
+name: OpenWeatherMap
+url: https://openweathermap.org/api
+category: Weather
+description: Weather
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: OpenWeatherMap
+  url: https://openweathermap.org/api
+  category: Weather
+- list: public-api-lists
+  name: OpenWeatherMap
+  url: http://openweathermap.org/api
+  category: Weather
+link_status: alive
+data_license: ODbL-1.0
+commercial_use: 'yes'
+storage_caching: ambiguous
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://openweathermap.org/full-price
+api_terms_url: https://openweathermap.org/full-price
+commercial_use_scope: any
+attribution_text: Weather data © OpenWeather
+share_alike: 'yes'
+rate_limits: 'Free plan: 60 calls/minute, 1,000,000 calls/month'
+evidence:
+- field: commercial_use
+  url: https://openweathermap.org/full-price
+  quote: Commercial use is allowed.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://openweathermap.org/full-price
+  quote: All automated self-service plans are provided under the ODbL (Open Database License).
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://openweathermap.org/full-price
+  quote: Attribution placed only in hidden documentation or deep legal pages is not sufficient.
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://openweathermap.org/full-price
+  quote: If such a database is distributed externally, it must be offered under the same ODbL license.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://openweathermap.org/full-price
+  quote: 60 calls/minute
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://openweathermap.org/full-price
+  quote: If such a database is distributed externally, it must be offered under the same ODbL license.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://openweathermap.org/full-price
+  quote: Provide visible attribution to OpenWeather
+  checked_at: '2026-11-21'
+notes: Pricing page states commercial use allowed on all self-service plans (Free column shows 60 calls/min,
+  1M/month; the licence section does not name Free explicitly). Visible attribution on the page where
+  data appears is mandatory. ODbL share-alike applies if you build and distribute a reusable database
+  from the data; storing/caching for own pages is not explicitly addressed, hence ambiguous. The separate
+  website terms PDF (openweathermap.org/terms redirects to openweather.co.uk PDF) was not read.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read full-price and the website terms PDF (openweather.co.uk): scraper ban covers
+  the Site only. The page says share-alike applies only to reusable datasets, so ordinary caching for
+  own pages looks allowed, but no explicit cache rule; sale terms PDF returns 404. Leaning yes on storage.'

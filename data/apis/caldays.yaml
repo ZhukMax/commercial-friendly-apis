@@ -1,0 +1,78 @@
+id: caldays
+name: caldays
+url: https://caldays.com/api
+category: Calendar
+description: Public holidays for 195+ countries
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: caldays
+  url: https://caldays.com/api
+  category: Calendar
+- list: public-api-lists
+  name: caldays
+  url: https://caldays.com/api
+  category: Calendar
+link_status: alive
+data_license: CC-BY-4.0
+commercial_use: ambiguous
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: ambiguous
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://caldays.com/api
+api_terms_url: https://caldays.com/terms
+commercial_use_scope: any
+attribution_text: 'Holiday data: caldays.com (visible link, e.g. in footer or API response)'
+share_alike: unknown
+rate_limits: 'Anonymous: fair use, HTTP 429 over limit; metered API key raises the daily cap'
+notes: 'API page: holiday dataset released under CC BY 4.0, commercial use, redistribution and paid products
+  allowed with a visible credit link (e.g. ''Holiday data: caldays.com''). The Terms of Service (updated
+  26 May 2026) also allow personal and commercial reference use and bar high-volume scraping, but describe
+  the data as ''public domain or used under fair use'' (less precise than the CC BY statement on the API
+  page). Data is compiled from official government sources and years beyond 2026 may include computed
+  dates; upstream sources not checked. Anonymous access is fair-use limited; HTTP 429 over limit.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+evidence:
+- field: data_license
+  url: https://caldays.com/api
+  quote: The caldays holiday dataset is released under Creative Commons Attribution 4.0.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://caldays.com/api
+  quote: You can use it commercially, redistribute it, or build paid products on top of it
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://caldays.com/api
+  quote: we only ask that you credit caldays with a visible link
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://caldays.com/terms
+  quote: You may use caldays for personal and commercial reference.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://caldays.com/api
+  quote: You can use it commercially, redistribute it, or build paid products on top of it
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://caldays.com/api
+  quote: You can use it commercially, redistribute it, or build paid products on top of it
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://caldays.com/terms
+  quote: Calendar and holiday data is in the public domain or used under fair use
+  checked_at: '2026-11-21'
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'site ToS calls the data ''public domain or used under fair use'', a licensor cannot
+  grant CC BY over fair-use material; ToS says attribution not required, API page requires a visible credit
+  link: pages conflict; API returns only the current year (2026) | applied: commercial_use=ambiguous,
+  attribution_required=ambiguous'

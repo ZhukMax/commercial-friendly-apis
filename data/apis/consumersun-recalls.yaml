@@ -1,0 +1,75 @@
+id: consumersun-recalls
+name: ConsumerSun Recalls
+url: https://consumersun.com/data/recalls.json
+category: Open Data
+description: US product, food, drug, device and vehicle recalls from CPSC, FDA and NHTSA
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: ConsumerSun Recalls
+  url: https://consumersun.com/data/recalls.json
+  category: Open Data
+link_status: alive
+data_license: ConsumerSun terms permit reuse with attribution; underlying data copied from CPSC/FDA/NHTSA/USDA
+  feeds
+commercial_use: ambiguous
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://consumersun.com/terms
+commercial_use_scope: any
+attribution_text: Attribute the compiled data to ConsumerSun and link to ConsumerSun or the relevant page
+  where practical; link or identify the official agency source of each recall; do not present it as an
+  official agency publication
+share_alike: unknown
+evidence:
+- field: commercial_use
+  url: https://consumersun.com/terms
+  quote: You may use the Site and the Service for lawful personal, journalistic, research, educational,
+    and professional purposes
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://consumersun.com/terms
+  quote: We expressly permit reuse of the public ConsumerSun dataset at https://consumersun.com/data/recalls.json
+    and the public application programming interface
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://consumersun.com/terms
+  quote: You link to or identify the official agency source for a recall when you republish recall details.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://consumersun.com/terms
+  quote: You attribute the compiled data to ConsumerSun and link to ConsumerSun or the relevant ConsumerSun
+    page where practical.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://consumersun.com/data
+  quote: The full dataset is a public feed, free to read and reuse with attribution to the issuing agency.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://consumersun.com/terms
+  quote: Reproduce, duplicate, copy, sell, resell, or exploit any portion of the Service in a manner not
+    permitted by these Terms or by us in writing.
+  checked_at: '2026-11-21'
+notes: 'Read /terms (updated 2026-10-26) and /data. Terms expressly permit reuse of the public dataset
+  and API with conditions (attribute ConsumerSun, cite official agency source, no implied agency endorsement,
+  no service degradation). ''Commercial'' is not named explicitly; ''professional purposes'' and the reuse
+  grant are the basis, and the terms also bar reselling the Service ''in a manner not permitted'', so
+  medium confidence. The /data page asks for attribution to the issuing agency while /terms asks for ConsumerSun:
+  do both. Share-alike not mentioned (set no from absence; no quote). Upstream records are US government
+  data (CPSC/FDA/NHTSA/USDA).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Terms grant use for ''professional purposes'', never name commercial use; Terms bar
+  reselling/exploiting the Service not permitted by the terms; /data page asks attribution to agency,
+  /terms to ConsumerSun: conflicting | applied: commercial_use=ambiguous'

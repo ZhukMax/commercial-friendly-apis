@@ -1,0 +1,41 @@
+id: poloniex-api-docs
+name: Poloniex
+url: https://api-docs.poloniex.com/spot
+category: Cryptocurrency
+description: US based digital asset exchange
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-api-lists
+  name: Poloniex
+  url: https://api-docs.poloniex.com/spot
+  category: Cryptocurrency
+link_status: alive
+data_license: unknown
+commercial_use: 'no'
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.poloniex.com/support/terms
+commercial_use_scope: any
+evidence:
+- field: commercial_use
+  url: https://www.poloniex.com/support/terms
+  quote: You agree not to use the API or data provided through the API for any other commercial purpose.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.poloniex.com/support/terms
+  quote: to use the API solely for the purposes of trading on Poloniex.
+  checked_at: '2026-11-21'
+notes: 'Poloniex User Agreement (last revised April 1, 2026), section 9 API USE, read via Playwright (page is a JS SPA; curl returns an empty shell, so verify_quotes may report unfetchable). API licence
+  is limited to trading on Poloniex; use of API data for any other commercial purpose is prohibited. Section 23 also bans web crawlers/data extraction. Exchange market data: not suitable for an ad/affiliate
+  site. Docs site api-docs.poloniex.com has no separate terms; caching/display/attribution not addressed. data_license left unknown: proprietary terms, no named licence.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

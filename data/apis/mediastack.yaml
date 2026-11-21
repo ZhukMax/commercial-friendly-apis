@@ -1,0 +1,41 @@
+id: mediastack
+name: Mediastack
+url: https://mediastack.com
+category: News
+description: Free, Simple REST API for Live News & Blog Articles
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Mediastack
+  url: https://mediastack.com?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers
+  category: News
+link_status: alive
+data_license: unknown
+commercial_use: paid-only
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.ideracorp.com/legal/APILayer
+commercial_use_scope: paid
+evidence:
+- field: commercial_use
+  url: https://mediastack.com/pricing
+  quote: All 13 Languages No Support Non-Commercial Use
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://mediastack.com/pricing
+  quote: All News Sources Live News Data All 13 Languages Commercial Use HTTPS Encryption Historical Data Standard Support
+  checked_at: '2026-11-21'
+notes: 'Pricing page marks the Free plan (100 calls/month) as Non-Commercial Use and the Professional/Business/Enterprise plans as Commercial Use (the Standard plan label was not clearly marked either way).
+  Legal pages are the apilayer/Idera hub (ideracorp.com/legal/APILayer) with the generic Master SaaS Subscription Agreement (PDF read via pdftotext): it contains no clause on caching, storing, displaying
+  or attribution of API data, so those stay unknown. News aggregator (7,500+ sources): publishers own the articles and upstream terms may be stricter. Free tier is also delayed data.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

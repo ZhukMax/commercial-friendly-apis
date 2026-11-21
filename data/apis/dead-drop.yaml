@@ -1,0 +1,25 @@
+id: dead-drop
+name: dead-drop
+url: https://api.dead-drop.xyz/api/v1/docs
+category: Security
+description: Ephemeral zero-knowledge encrypted data sharing
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: dead-drop
+  url: https://api.dead-drop.xyz/api/v1/docs
+  category: Security
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

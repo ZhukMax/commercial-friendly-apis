@@ -1,0 +1,32 @@
+id: smartapi
+name: SmartAPI
+url: https://smartapi.angelbroking.com/
+category: Finance
+description: Gain access to set of <SmartAPI> and create end-to-end broking services
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: SmartAPI
+  url: https://smartapi.angelbroking.com/
+  category: Finance
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.angelone.in/terms-and-conditions
+notes: 'SmartAPI is Angel One''s broker trading API (orders, funds, portfolio, market feed) requiring an Angel One client account. Homepage says the APIs are free. Angel One''s general Terms &
+  Conditions only say API use is governed by separate "Smart API terms & conditions" and API docs, which were not read; the general site terms restrict copying/redistributing/displaying platform
+  content. No licence terms for market data found, so all core fields unknown. Exchange data rules (NSE/BSE) likely apply and may be stricter. Pages read: smartapi home, angelone.in/terms-and-conditions
+  (Playwright).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

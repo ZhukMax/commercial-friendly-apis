@@ -1,0 +1,26 @@
+id: geekflare
+name: GeekFlare
+url: https://apidocs.geekflare.com/docs/geekflare-api
+category: Development
+description: Provide numerous capabilities for important testing and monitoring methods for websites
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: GeekFlare
+  url: https://apidocs.geekflare.com/docs/geekflare-api
+  category: Development
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://geekflare.com

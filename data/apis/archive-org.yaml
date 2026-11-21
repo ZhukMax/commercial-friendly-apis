@@ -1,0 +1,59 @@
+id: archive-org
+name: Archive.org
+url: https://archive.readme.io/docs
+category: Open Data
+description: The Internet Archive
+description_source: upstream
+auth: none
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Archive.org
+  url: https://archive.readme.io/docs
+  category: Open Data
+- list: public-api-lists
+  name: Archive.org
+  url: https://archive.readme.io/docs
+  category: Open Data
+link_status: redirect
+data_license: Per item; Internet Archive asserts no new rights over database material
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://archive.readme.io/reference/getting-started
+api_terms_url: https://archive.org/developers/
+rate_limits: No numeric limit stated; honour 429 and Retry-After, add delays for bulk, descriptive User-Agent
+  required
+evidence:
+- field: data_license
+  url: https://archive.org/developers/
+  quote: The Internet Archive does not assert any new copyright or other proprietary rights
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://archive.org/developers/
+  quote: the Internet Archive aims to make available database that can be freely used.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://archive.org/developers/bots.html
+  quote: Honor 429 Too Many Requests responses and Retry-After headers
+  checked_at: '2026-11-21'
+notes: 'Read archive.org/developers (Licensing section) and /developers/bots.html. The Terms of Use page
+  (archive.org/about/terms) is a JS app that rendered empty in curl and Playwright, so it was NOT read.
+  Content in items is mostly third-party material with per-item rights/licences (many items are copyrighted,
+  others public domain/CC); the IA statement is a disclaimer of new rights, not a licence. Also: automated
+  requests must send a descriptive User-Agent. Original docs URL archive.readme.io redirects; current
+  docs at archive.org/developers. commercial_use ''ambiguous'' reflects vague wording; core fields otherwise
+  unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Terms of Use unreadable (empty JS page, also via Wayback); Per-item third-party rights
+  | applied: commercial_use=unknown'

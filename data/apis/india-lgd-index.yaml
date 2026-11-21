@@ -1,0 +1,45 @@
+id: india-lgd-index
+name: India LGD Index
+url: https://india-lgd-index-api.vercel.app/docs
+category: Government
+description: Free, keyless Indian states, districts, sub-districts and development blocks with LGD codes
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: India LGD Index
+  url: https://india-lgd-index-api.vercel.app/docs
+  category: Government
+link_status: alive
+data_license: GODL-India (as stated by the API)
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://india-lgd-index-api.vercel.app/docs
+attribution_text: Data © Ministry of Panchayati Raj, Government of India — Local Government Directory. Licensed under the Government Open Data License – India (GODL).
+rate_limits: 100 requests per 15 minutes per IP
+evidence:
+- field: data_license
+  url: https://india-lgd-index-api.vercel.app/docs
+  quote: This API redistributes Government of India data under the Government Open Data License – India (GODL).
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://india-lgd-index-api.vercel.app/docs
+  quote: Any public use must credit the source and link back to it
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://india-lgd-index-api.vercel.app/docs
+  quote: rate limit 100 requests per 15 minutes per IP
+  checked_at: '2026-11-21'
+notes: Independent community mirror of the LGD; it says data is GODL-India and credit is mandatory. The GODL text itself could not be read (data.gov.in refuses connections from this network), so commercial
+  use/storage/display are unknown rather than assumed. The mirror has no terms page of its own.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -1,0 +1,59 @@
+id: rate-api
+name: Rate-API
+url: https://rate-api.com/docs/api
+category: Currency Exchange
+description: Hourly exchange rates for 160+ currencies in JSON, XML or CSV with free plan 2,500 requests/month
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Rate-API
+  url: https://rate-api.com/docs/api
+  category: Currency Exchange
+link_status: alive
+data_license: 'mixed per source: ECB free of charge, several central banks under CC BY / CC BY-SA or own
+  terms; credits listed on /sources'
+commercial_use: 'yes'
+storage_caching: unknown
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://rate-api.com/sources
+commercial_use_scope: any
+attribution_text: Per-source credit lines on https://rate-api.com/sources (not required on Pro and above)
+api_terms_url: https://rate-api.com/terms
+evidence:
+- field: commercial_use
+  url: https://rate-api.com/terms
+  quote: Using the data inside your own product to serve your own users is fine; passing it on as data
+    is not.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://rate-api.com/terms
+  quote: Using the data inside your own product to serve your own users is fine; passing it on as data
+    is not.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://rate-api.com/terms
+  quote: strip source attribution where we provide it
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://rate-api.com/sources
+  quote: The institutions below license their data for reuse on condition that they are credited
+  checked_at: '2026-11-21'
+notes: 'ToS read (updated June 2026): use inside your own product for your own users is fine; redistributing/reselling/republishing
+  raw data as a feed, bulk export or competing API is forbidden; stripping attribution is forbidden; no
+  explicit ''commercial'' wording and no free-plan non-commercial clause; nothing on caching/storage (storage
+  unknown, verdict unknown). Pricing page: Pro ''No attribution required'', so attribution applies on
+  the Free plan. Aggregator: /sources lists per-institution credit lines and licences (ECB; Chile BDE;
+  Kazakhstan; Ukraine CC BY; Colombia CC BY-SA; Peru; Fed public domain; Malaysia; CNB; US Treasury; INE
+  Chile CC BY-SA, share-alike for the CLF rate). Equity data carries no market-data licence from exchanges
+  (ToS 1c); crypto/metals from third-party market data. Upstream terms may be stricter than shown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -1,0 +1,40 @@
+id: xrates
+name: XRates
+url: https://xratesapi.com/docs
+category: Currency Exchange
+description: Latest and historical exchange rates aggregated from ECB, CBR and open data feeds, 300+ currencies
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: XRates
+  url: https://xratesapi.com/docs
+  category: Currency Exchange
+link_status: alive
+data_license: 'proprietary: data stays property of XRates API and its data sources, licensed per Terms
+  and plan'
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://xratesapi.com/terms
+evidence:
+- field: data_license
+  url: https://xratesapi.com/terms
+  quote: remains the property of XRates API and its data sources, and is licensed to you solely for use
+    in accordance with these Terms
+  checked_at: '2026-11-21'
+notes: 'Terms (last updated 2026-11-21) read: data is aggregated from ''multiple trusted sources including
+  central banks'', remains property of XRates and its sources and is licensed only per Terms and subscription
+  plan; redistributing, reselling or sublicensing API data without written consent is forbidden. No statement
+  on commercial use, storage/caching, display or attribution; FAQ and docs also silent; pricing page is
+  JS-only and was not readable. Upstream (ECB, CBR etc.) terms may be stricter. All core fields unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -1,0 +1,49 @@
+id: aletheia
+name: Aletheia
+url: https://aletheiaapi.com/
+category: Finance
+description: Insider trading data, earnings call analysis, financial statements, and more
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Aletheia
+  url: https://aletheiaapi.com/
+  category: Finance
+link_status: alive
+data_license: unknown
+commercial_use: 'yes'
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://aletheiaapi.com/terms/
+commercial_use_scope: any
+share_alike: unknown
+rate_limits: 5,000 free calls/month on all accounts
+evidence:
+- field: commercial_use
+  url: https://aletheiaapi.com/pricing/
+  quote: We offer competitive and affordable API pricing for both commercial and personal use.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://aletheiaapi.com/pricing/
+  quote: All accounts include 5,000 free API calls per month.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://aletheiaapi.com/terms/
+  quote: Our API’s serve content that is sourced externally.
+  checked_at: '2026-11-21'
+notes: 'Read ToS (/terms/) and /pricing/. ToS is a generic API ToS: it says nothing about commercial use,
+  caching/storage, display/redistribution or attribution, and says content is sourced externally (SEC
+  EDGAR per homepage) so upstream terms may apply. Pricing page offers pricing for commercial and personal
+  use; commercial_use=yes is inferred only from that sentence and is weak (low confidence). Storage/display
+  unknown, so verdict unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -1,0 +1,51 @@
+id: represent-by-open-north
+name: Represent by Open North
+url: https://represent.opennorth.ca/
+category: Government
+description: Find Canadian Government Representatives
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Represent by Open North
+  url: https://represent.opennorth.ca/
+  category: Government
+- list: public-api-lists
+  name: Represent by Open North
+  url: https://represent.opennorth.ca/
+  category: Government
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://represent.opennorth.ca/api/
+rate_limits: Free up to 60 requests/min (86,400/day)
+notes: No terms-of-use or licence page on represent.opennorth.ca (404 on /terms, /license). Boundary data
+  comes from many sources, each with its own licence recorded per boundary set (repo represent-canada-data);
+  Open North says in some cases it lacks permission to redistribute shapefiles. Commercial use not addressed,
+  so unknown.
+evidence:
+- field: redistribution_display
+  url: https://github.com/opennorth/represent-canada-data
+  quote: In some cases, you will not have permission to redistribute the shapefile.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://represent.opennorth.ca/api/
+  quote: Represent is free up to 60 requests per minute (86,400 queries/day).
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+share_alike: unknown
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Home page markets use for campaigns and 'map your potential voters' but states no licence;
+  unknown stands.

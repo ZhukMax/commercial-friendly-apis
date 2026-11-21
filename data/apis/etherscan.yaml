@@ -1,0 +1,66 @@
+id: etherscan
+name: Etherscan
+url: https://etherscan.io/apis
+category: Blockchain
+description: Ethereum explorer API
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Etherscan
+  url: https://etherscan.io/apis
+  category: Blockchain
+link_status: redirect
+data_license: unknown
+commercial_use: paid-only
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: 'no'
+self_host_option: unknown
+verdict: yellow
+confidence: high
+link_checked_at: '2026-11-21'
+link_note: -> https://etherscan.io/api/pricing
+commercial_use_scope: paid
+attribution_text: Powered by Etherscan.io APIs (link to https://etherscan.io)
+cache_limit: Bulk download/mirror/archive of datasets prohibited; retention period referenced but not
+  specified on the page read
+api_terms_url: https://etherscan.io/apiterms
+evidence:
+- field: commercial_use
+  url: https://etherscan.io/apiterms
+  quote: The Advanced Plan and higher-tier Plans include Commercial Application use.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://etherscan.io/apiterms
+  quote: The Free, Lite and Standard Plans are licensed for Personal & Research use only.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://etherscan.io/apiterms
+  quote: Bulk-download, mirror, replicate or archive our datasets
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://etherscan.io/apiterms
+  quote: you may display API Data, API Content or results derived from them to end users of your application
+    or service
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://etherscan.io/apiterms
+  quote: you must include a clear and visible attribution to Etherscan
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://etherscan.io/apiterms
+  quote: Bulk-download, mirror, replicate or archive our datasets
+  checked_at: '2026-11-21'
+notes: Read https://etherscan.io/apiterms. Free/Lite/Standard plans are personal and research use only;
+  commercial applications need the Advanced plan or higher. On such plans display to end users is allowed
+  only inside an application with meaningful functionality beyond republishing; offering data as standalone
+  database/API/feed/bulk export, proxying and reselling are banned. Attribution "Powered by Etherscan.io
+  APIs" is required on any plan whenever data is displayed. Caching/retention beyond "the retention period
+  otherwise permitted" is a restricted use, but no period was found, hence limited. API key pricing page
+  (the url redirect) not read for prices.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

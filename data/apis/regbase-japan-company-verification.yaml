@@ -1,0 +1,36 @@
+id: regbase-japan-company-verification
+name: RegBase Japan Company Verification
+url: https://regbase.local-connect-design.trade
+category: Business
+description: Signed evidence records for Japanese companies by corporate number, with Ed25519 verification
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: RegBase Japan Company Verification
+  url: https://regbase.local-connect-design.trade
+  category: Business
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+rate_limits: Free sandbox with a hard daily cap (value not stated)
+evidence:
+- field: rate_limits
+  url: https://regbase.local-connect-design.trade/
+  quote: This sandbox is free and rate-limited (a hard daily cap protects a shared free tier).
+  checked_at: '2026-11-21'
+notes: Read the service root page and OpenAPI (https://regbase.local-connect-design.trade/openapi.json). Public sandbox only; no terms, licence or privacy page exists (/terms, /legal, /license return 404).
+  Records are built from the EDINET listed-company code list plus fictional demo rows; the site says the signature proves origin and integrity only. A free sample dataset is published on Zenodo/Hugging
+  Face (its licence was not checked and is a different artefact from the API). Upstream EDINET (Japan FSA) terms were not read and may apply. All core fields unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

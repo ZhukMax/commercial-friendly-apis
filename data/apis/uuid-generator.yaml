@@ -1,0 +1,29 @@
+id: uuid-generator
+name: UUID Generator
+url: https://www.uuidtools.com/docs
+category: Test Data
+description: Generate UUIDs
+description_source: upstream
+auth: none
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: UUID Generator
+  url: https://www.uuidtools.com/docs
+  category: Test Data
+- list: public-api-lists
+  name: UUID Generator
+  url: https://www.uuidtools.com/docs
+  category: Test Data
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

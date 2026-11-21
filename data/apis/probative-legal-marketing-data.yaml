@@ -1,0 +1,74 @@
+id: probative-legal-marketing-data
+name: Probative Legal Marketing Data
+url: https://probativegrowth.com/resources/rules-api/
+category: Government
+description: US lawyer advertising rules, court filings, fees and legal-market statistics, sourced, with
+  DOIs
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Probative Legal Marketing Data
+  url: https://probativegrowth.com/resources/rules-api/
+  category: Government
+link_status: alive
+data_license: CC-BY-4.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: 'yes'
+self_host_option: unknown
+verdict: green
+confidence: high
+link_checked_at: '2026-11-21'
+data_license_url: https://probativegrowth.com/resources/rules-api/
+api_terms_url: https://probativegrowth.com/resources/rules-api/
+commercial_use_scope: any
+share_alike: 'no'
+attribution_text: 'Source: Probative Growth, Lawyer advertising rules by state (50 states and DC), version
+  1.6.0, https://doi.org/10.5281/zenodo.24114743, licensed CC BY 4.0.'
+rate_limits: 'Static files: no key, no usage cap'
+notes: Read the API page credit-and-license section. The dataset is the vendor own compilation of public
+  rules; the underlying legal texts are public. Not legal advice.
+evidence:
+- field: commercial_use
+  url: https://probativegrowth.com/resources/rules-api/
+  quote: You can reuse, adapt and republish the data, including commercially, under the Creative Commons
+    Attribution license.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://probativegrowth.com/resources/rules-api/
+  quote: You can reuse, adapt and republish the data, including commercially, under the Creative Commons
+    Attribution license.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://probativegrowth.com/resources/rules-api/
+  quote: You can reuse, adapt and republish the data, including commercially, under the Creative Commons
+    Attribution license.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://probativegrowth.com/resources/rules-api/
+  quote: You can reuse, adapt and republish the data, including commercially, under the Creative Commons
+    Attribution license.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://probativegrowth.com/resources/rules-api/
+  quote: The one condition is credit with a link.
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://probativegrowth.com/resources/rules-api/
+  quote: The one condition is credit with a link.
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://probativegrowth.com/resources/rules-api/
+  quote: these are static files, open to any website or script, with no key and no usage cap.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Vendor is a marketing firm; content summarises public rules and Google Ads policies;
+  not legal advice.

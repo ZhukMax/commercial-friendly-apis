@@ -1,0 +1,63 @@
+id: gtfs-scorecard
+name: GTFS Scorecard
+url: https://github.com/ChelseaKR/gtfs-scorecard/blob/main/docs/api.md
+category: Transportation
+description: Data-quality grades and prioritized fixes for 2,400+ public transit GTFS feed records
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: GTFS Scorecard
+  url: https://github.com/ChelseaKR/gtfs-scorecard/blob/main/docs/api.md
+  category: Transportation
+link_status: alive
+data_license: CC-BY-4.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://raw.githubusercontent.com/ChelseaKR/gtfs-scorecard/main/docs/api.md
+data_license_url: https://creativecommons.org/licenses/by/4.0/
+commercial_use_scope: any
+share_alike: unknown
+attribution_text: GTFS Scorecard (gtfsscorecard.org), scored on top of the MobilityData gtfs-validator.
+evidence:
+- field: data_license
+  url: https://raw.githubusercontent.com/ChelseaKR/gtfs-scorecard/main/docs/api.md
+  quote: Reuse it, including commercially, with attribution
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://raw.githubusercontent.com/ChelseaKR/gtfs-scorecard/main/docs/api.md
+  quote: Reuse it, including commercially, with attribution
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://raw.githubusercontent.com/ChelseaKR/gtfs-scorecard/main/docs/api.md
+  quote: Reuse it, including commercially, with attribution
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+notes: 'Read docs/api.md of the project (raw file): published scorecard JSON is CC-BY-4.0, commercial
+  reuse allowed with the given attribution; storage/display derived from the CC BY 4.0 deed given that
+  licence applies. Scores are derived from third-party GTFS feeds (Mobility Database) whose own licences
+  were not checked; the paid history export is licensed separately. share_alike set no because CC BY has
+  none.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Scorecard data CC-BY-4.0 and live catalog.json carries license field. Underlying GTFS
+  feed licences (some may be share-alike per license_notice) are not cleared by the grant; the scores
+  are derived metrics, agency names/feed URLs come from third parties.

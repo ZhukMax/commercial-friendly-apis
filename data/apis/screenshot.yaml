@@ -1,0 +1,26 @@
+id: screenshot
+name: Screenshot
+url: https://www.abstractapi.com/website-screenshot-api
+category: Development
+description: Take programmatic screenshots of web pages from any website
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Screenshot
+  url: https://www.abstractapi.com/website-screenshot-api
+  category: Development
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://www.abstractapi.com/api/website-screenshot-api

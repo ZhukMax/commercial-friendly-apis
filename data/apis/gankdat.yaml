@@ -1,0 +1,70 @@
+id: gankdat
+name: gankdat
+url: https://gankdat.com/docs
+category: Government
+description: UK & EU tenders, UK planning, UK sanctions, US exclusions, UK insolvency and incorporations
+  as JSON
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: gankdat
+  url: https://gankdat.com/docs
+  category: Government
+link_status: alive
+data_license: varies per dataset (mostly OGL v3, Crown copyright; some CC/public domain)
+commercial_use: 'yes'
+storage_caching: unknown
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://gankdat.com/terms
+api_terms_url: https://gankdat.com/terms
+commercial_use_scope: any
+attribution_text: Attribute the originating body if you republish (per dataset licence)
+rate_limits: 'Free tier: limited monthly request allowance per account; paid plans have monthly credit
+  allowances'
+evidence:
+- field: commercial_use
+  url: https://gankdat.com/terms
+  quote: You may use API responses in your own products, analyses, and services, including commercially,
+    subject to the dataset's source licence above.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://gankdat.com/terms
+  quote: You may use API responses in your own products, analyses, and services, including commercially,
+    subject to the dataset's source licence above.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://gankdat.com/terms
+  quote: Each dataset in the catalog carries its own source licence and personal-data posture, set out
+    in this table.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://gankdat.com/terms
+  quote: You may not resell, mirror, or redistribute the API itself
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://gankdat.com/terms
+  quote: The free tier provides a limited monthly request allowance per account for evaluation and light
+    use.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://gankdat.com/terms
+  quote: attribute the originating body if you republish
+  checked_at: '2026-11-21'
+notes: Terms section 7 gives a per-dataset licence table (OGL v3 for most UK datasets, TED Commission
+  Decision, SAM.gov public domain) and a general commercial-use grant subject to each source licence;
+  reselling/mirroring the API itself is forbidden. Sanctions and exclusion datasets are restricted to
+  compliance/due-diligence/research use, and 'Blind Mode' datasets forbid identifying individuals. Caching/storage
+  of responses is not addressed, so storage_caching unknown and verdict unknown. Requires an API key (free
+  tier exists).
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+license_scope: portal-default

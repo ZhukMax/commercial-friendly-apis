@@ -1,0 +1,65 @@
+id: nu-legal-deutsches-recht
+name: nu:legal Deutsches Recht
+url: https://recht.nulegal.eu/developers
+category: Government
+description: German federal and state statutes and 640,000 court decisions as JSON, with citation links
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: nu:legal Deutsches Recht
+  url: https://recht.nulegal.eu/developers
+  category: Government
+link_status: alive
+data_license: CC-BY-4.0 (curation); court decisions via Open Legal Data under ODbL-1.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: 'no'
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://recht.nulegal.eu/license
+api_terms_url: https://recht.nulegal.eu/nutzungsbedingungen
+commercial_use_scope: any
+share_alike: 'yes'
+attribution_text: 'Source: nu:legal – recht.nulegal.eu'
+rate_limits: 'General API: no hard rate limit; /v1/linkify 10 req/min per IP'
+notes: 'Read /license, the English part of /nutzungsbedingungen and /developers. nu:legal curation is CC BY 4.0 (notice "Source: nu:legal - recht.nulegal.eu"); statutes/court decisions are official works.
+  Court decisions from Open Legal Data are ODbL 1.0 and nu:legal adapted them, so share-alike applies to that part (statutes-only use is unaffected). Bulk use for AI training is reserved; bulk mirroring
+  of the database needs consent; caching is encouraged. Individual court decisions may carry personal data.'
+evidence:
+- field: data_license
+  url: https://recht.nulegal.eu/license
+  quote: This curation is licensed under the Creative Commons Attribution 4.0 International licence (CC BY 4.0)
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://recht.nulegal.eu/license
+  quote: This curation is licensed under the Creative Commons Attribution 4.0 International licence (CC BY 4.0)
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://creativecommons.org/licenses/by/4.0/deed.en
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://recht.nulegal.eu/nutzungsbedingungen
+  quote: Please cache responses and refrain from bulk-mirroring the database or generating excessive automated load.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://recht.nulegal.eu/license
+  quote: Crawling and citing our content is expressly permitted (with attribution under CC BY 4.0).
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://recht.nulegal.eu/license
+  quote: which is made available under the Open Database License (ODbL), version 1.0
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://recht.nulegal.eu/nutzungsbedingungen
+  quote: refrain from bulk-mirroring the database
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

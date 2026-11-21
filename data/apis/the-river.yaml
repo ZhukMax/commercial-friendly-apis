@@ -1,0 +1,43 @@
+id: the-river
+name: The River
+url: https://app.theriver.markets/docs?s=public-apis
+category: Cryptocurrency
+description: Tokenized US stock prices across issuers on Base and Robinhood Chain, plus unsigned trade
+  builds
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: The River
+  url: https://app.theriver.markets/docs?s=public-apis
+  category: Cryptocurrency
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://app.theriver.markets/terms
+rate_limits: 60 requests a minute per IP per endpoint
+evidence:
+- field: rate_limits
+  url: https://app.theriver.markets/docs?s=public-apis
+  quote: 'Limit: 60 requests a minute per IP per endpoint.'
+  checked_at: '2026-11-21'
+notes: Terms of Use page says 'The River is currently in private testing. Its terms of use are being written
+  and will be published here before the site opens to the public.' So no terms exist to evaluate. API
+  docs page mentions no licence, commercial use, caching or attribution. Prices are of tokenized US stocks
+  (upstream equity price data may have its own restrictions; not assessed). Trading API (unsigned transactions),
+  partly not a data source.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

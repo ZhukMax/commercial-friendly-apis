@@ -1,0 +1,60 @@
+id: openplz-api
+name: OpenPLZ API
+url: https://www.openplzapi.org/
+category: Geocoding
+description: A public street and postal code directory for Austria, Germany, Liechtenstein and Switzerland via an open REST API
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: OpenPLZ API
+  url: https://www.openplzapi.org/
+  category: Geocoding
+link_status: redirect
+data_license: ODbL-1.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: -> https://www.openplzapi.org/de/
+data_license_url: https://opendatacommons.org/licenses/odbl/1-0/
+api_terms_url: https://www.openplzapi.org/en/faq/
+commercial_use_scope: any
+share_alike: 'yes'
+evidence:
+- field: commercial_use
+  url: https://www.openplzapi.org/en/faq/
+  quote: Yes, the OpenPLZ API project is open data, its use is free of charge and also permitted in commercial projects.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.openplzapi.org/en/faq/
+  quote: The processed data is licensed under the ODC Open Database Licence (ODbL)
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://opendatacommons.org/licenses/odbl/summary/
+  quote: 'To share : To copy, distribute and use the database.'
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://opendatacommons.org/licenses/odbl/summary/
+  quote: 'To share : To copy, distribute and use the database.'
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://opendatacommons.org/licenses/odbl/summary/
+  quote: You must attribute any public use of the database, or works produced from the database, in the manner specified in the ODbL.
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://opendatacommons.org/licenses/odbl/summary/
+  quote: you must also offer that adapted database under the ODbL.
+  checked_at: '2026-11-21'
+notes: 'Pages read: OpenPLZ FAQ, data-sources page, ODbL 1.0 summary (opendatacommons.org). The FAQ says use is free and permitted in commercial projects and that the processed data is under ODbL; there
+  is no separate terms-of-service page. Storage/display/attribution/share-alike come from the ODbL summary, which applies because the FAQ states ODbL. Share-alike only bites if you publish an adapted database;
+  a site that merely displays lookups produces a work needing attribution. German street data is derived from OpenStreetMap (ODbL). No rate limits found on the pages read. link redirects to /de/.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

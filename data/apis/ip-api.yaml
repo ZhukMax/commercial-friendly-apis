@@ -1,0 +1,50 @@
+id: ip-api
+name: ip-api
+url: https://ip-api.com/docs
+category: Geocoding
+description: Find location with IP address or domain
+description_source: upstream
+auth: none
+https: false
+cors: unknown
+sources:
+- list: public-apis
+  name: ip-api
+  url: https://ip-api.com/docs
+  category: Geocoding
+link_status: alive
+data_license: unknown
+commercial_use: paid-only
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: high
+link_checked_at: '2026-11-21'
+api_terms_url: https://ip-api.com/docs/legal
+commercial_use_scope: paid
+share_alike: unknown
+rate_limits: 'Free: 45 requests/minute, HTTP only; Pro subscription for commercial use'
+evidence:
+- field: commercial_use
+  url: https://ip-api.com/docs/legal
+  quote: The use of the API is strictly limited for a non-commercial purpose and in a non-commercial environment.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://ip-api.com/docs/legal
+  quote: Only members with a pro subscription can use the API in a commercial environment.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://ip-api.com/docs/legal
+  quote: If you exceed the usage limit of 45 requests per minute your access to the API will be temporarily
+    blocked.
+  checked_at: '2026-11-21'
+notes: 'Free endpoint is non-commercial only; the page lists geo-targeted ads and an online shop localisation
+  as forbidden commercial usage. Commercial use requires the paid Pro plan, so the free API is red for
+  an ad/affiliate site; Pro terms were not reviewed (would be yellow at best). Data includes GeoLite2
+  (MaxMind) for some ranges. Verdict changed red->yellow: commercial use is possible via the paid Pro
+  plan (brief: paid tier = yellow); Pro terms not reviewed.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

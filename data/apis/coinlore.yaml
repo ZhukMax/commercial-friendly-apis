@@ -1,0 +1,54 @@
+id: coinlore
+name: Coinlore
+url: https://www.coinlore.com/cryptocurrency-data-api
+category: Cryptocurrency
+description: Cryptocurrencies prices, volume and more
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Coinlore
+  url: https://www.coinlore.com/cryptocurrency-data-api
+  category: Cryptocurrency
+- list: public-api-lists
+  name: Coinlore
+  url: https://www.coinlore.com/cryptocurrency-data-api
+  category: Cryptocurrency
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.coinlore.com/terms-of-use
+commercial_use_scope: any
+evidence:
+- field: commercial_use
+  url: https://www.coinlore.com/terms-of-use
+  quote: copying, redistributing, or commercial use of content is prohibited without our express written
+    consent
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.coinlore.com/cryptocurrency-data-api
+  quote: CoinLore offers a free public cryptocurrency API for developers, traders, researchers, and businesses
+    building crypto apps, dashboards, screeners, and market data tools.
+  checked_at: '2026-11-21'
+notes: Read the API page and Terms of Use (updated 2025-12-21). API page invites businesses to build apps/dashboards
+  with the free keyless API (about 1 req/s recommended), but ToS clause 6 prohibits copying, redistributing
+  or commercial use of site content without written consent and bans scraping/data mining bots. No API-specific
+  terms, licence, caching or attribution rule found; the conflict is unresolved. Coinlore says it aggregates
+  data from multiple sources (upstream terms may be stricter). Ask CoinLore (contact@coinlore.com) before
+  commercial use.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Read terms-of-use and cryptocurrency-data-api; no API-specific licence anywhere; unresolved,
+  ask contact@coinlore.com.

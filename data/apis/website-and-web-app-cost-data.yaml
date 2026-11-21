@@ -1,0 +1,80 @@
+id: website-and-web-app-cost-data
+name: Website & Web-App Cost Data
+url: https://projectcostestimator.com/api-docs
+category: Open Data
+description: Web-project cost benchmarks by platform across 6 markets (build, hosting, 3-year TCO, hourly
+  rates), CC BY 4.0
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: Website & Web-App Cost Data
+  url: https://projectcostestimator.com/api-docs
+  category: Open Data
+link_status: alive
+data_license: CC-BY-4.0 (public dataset /api/cost-data and /rates-2026.csv); keyed estimate API has no
+  stated licence
+commercial_use: ambiguous
+storage_caching: ambiguous
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: 'yes'
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://projectcostestimator.com/terms
+commercial_use_scope: any
+attribution_text: Project Cost Estimator, "Website Cost Dataset 2026", projectcostestimator.com/api/cost-data
+  (CC BY 4.0)
+share_alike: unknown
+rate_limits: 'Free key: 100 requests/month plus burst limit 10 then 1 per 2 s; public dataset: no key,
+  no rate limit'
+evidence:
+- field: data_license
+  url: https://projectcostestimator.com/api-docs
+  quote: 'both CC BY 4.0. Cite as: Project Cost Estimator, “Website Cost Dataset 2026”, projectcostestimator.com/api/cost-data
+    (CC BY 4.0).'
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://projectcostestimator.com/terms
+  quote: You may not reproduce, republish, or commercially exploit any part of the Service without written
+    permission.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://projectcostestimator.com/api-docs
+  quote: Free-tier quota is 100 requests per calendar month per key
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://projectcostestimator.com/api-docs
+  quote: 'Cite as: Project Cost Estimator, “Website Cost Dataset 2026”'
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://projectcostestimator.com/api-docs
+  quote: 'The public dataset behind the API needs no key: /api/cost-data (JSON) and /rates-2026.csv'
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://projectcostestimator.com/terms
+  quote: You may not reproduce, republish, or commercially exploit any part of the Service without written
+    permission.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://projectcostestimator.com/terms
+  quote: You may not reproduce, republish, or commercially exploit any part of the Service without written
+    permission.
+  checked_at: '2026-11-21'
+notes: 'Pages read: /api-docs and /terms (20 Sep 2026). Two layers: the public dataset (/api/cost-data
+  JSON, /rates-2026.csv, no key) is stated CC BY 4.0 (CC BY allows commercial use, redistribution, caching;
+  page only says "cite as", so attribution counted as required); the keyed /api/v1/estimate API (free
+  key, 100 req/month) has no licence statement. The Terms of Service forbid scraping and republishing
+  or commercially exploiting any part of the Service without permission, which conflicts/overlaps with
+  the CC BY grant, hence ambiguous. Use the CC BY dataset files, not the estimate engine, and confirm
+  with the operator.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read ToS and api-docs. Specific CC BY grant for the dataset likely prevails; use
+  dataset files only. Ambiguity not fully resolvable without operator.

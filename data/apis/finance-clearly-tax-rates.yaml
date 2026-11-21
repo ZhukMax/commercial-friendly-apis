@@ -1,0 +1,71 @@
+id: finance-clearly-tax-rates
+name: Finance Clearly Tax Rates
+url: https://financeclearly.com/tax-rates-api/
+category: Finance
+description: Current UK and US tax rates, allowances and thresholds
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Finance Clearly Tax Rates
+  url: https://financeclearly.com/tax-rates-api/
+  category: Finance
+link_status: alive
+data_license: CC-BY-4.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://creativecommons.org/licenses/by/4.0/
+api_terms_url: https://financeclearly.com/tax-rates-api/
+commercial_use_scope: any
+attribution_text: Link to financeclearly.com in docs, README or credits
+share_alike: 'no'
+evidence:
+- field: data_license
+  url: https://financeclearly.com/tax-rates-api/
+  quote: Licence CC BY 4.0 . Free to use, including commercially.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://financeclearly.com/tax-rates-api/
+  quote: Free to use, including commercially. The only condition is attribution
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://financeclearly.com/tax-rates-api/
+  quote: The only condition is attribution — a link to financeclearly.com in your docs, README or credits
+    is enough.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://creativecommons.org/licenses/by/4.0/deed.en
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://creativecommons.org/licenses/by/4.0/deed.en
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://creativecommons.org/licenses/by/4.0/deed.en
+  quote: Adapt — remix, transform, and build upon the material for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://financeclearly.com/terms
+  quote: You may not republish, scrape, or reuse our content without written permission.
+  checked_at: '2026-11-21'
+notes: The API page states the data is CC BY 4.0, free including commercially, attribution link only.
+  The deed was cited for storage/display only together with that statement. The site-wide Terms of Use
+  say content may not be republished, scraped or reused without permission; this conflicts in the abstract
+  but the API page is the specific licence for the API data, so it was followed. No uptime guarantee.
+  Rates are public figures from HMRC/IRS (tax figures; accuracy disclaimed).
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Site Terms prohibit republishing, scraping or reuse without permission, conflicting
+  with API page CC BY 4.0 | applied: redistribution_display=ambiguous'

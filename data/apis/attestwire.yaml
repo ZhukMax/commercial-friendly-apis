@@ -1,0 +1,38 @@
+id: attestwire
+name: Attestwire
+url: https://api.attestwire.com/docs
+category: Data Validation
+description: 'Validate EN 16931 e-invoices: XRechnung, ZUGFeRD, Factur-X, Peppol BIS'
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Attestwire
+  url: https://api.attestwire.com/docs
+  category: Data Validation
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://attestwire.com/terms
+notes: 'Not a data source: EN 16931 e-invoice validation/generation service (user sends an invoice, gets
+  findings). Read https://attestwire.com/terms (hosted API terms, sole proprietor, Paddle billing): acceptable-use
+  bans resale of access, building a competing product by reselling the hosted API (the MIT-licensed library
+  is the intended route), circumventing metering or creating multiple free keys. The terms say nothing
+  about commercial use of results, caching/storage or display, so all terms fields unknown. OpenAPI info.license
+  is ''Proprietary''; the free plan watermarks generated Factur-X PDFs as a preview, a paid plan does
+  not. Open-source library is MIT (not assessed further).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

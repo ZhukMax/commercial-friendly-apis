@@ -1,0 +1,30 @@
+id: live-sec-form-4-insider-trades
+name: Live SEC Form 4 Insider Trades
+url: https://rapidapi.com/crisp-point-studio-crisp-point-studio-default/api/live-sec-form-4-insider-trades
+category: Finance
+description: Latest SEC Form 4 insider trading filings from EDGAR, by ticker or market-wide
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Live SEC Form 4 Insider Trades
+  url: https://rapidapi.com/crisp-point-studio-crisp-point-studio-default/api/live-sec-form-4-insider-trades
+  category: Finance
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://rapidapi.com/terms
+notes: Listed on RapidAPI. The listing page shows no provider-specific terms or licence; RapidAPI's marketplace terms (read) say use of each API is governed by the provider's own terms and the
+  chosen subscription plan, which were not found. Data derived from SEC EDGAR Form 4 filings, upstream status not assessed. All core fields unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

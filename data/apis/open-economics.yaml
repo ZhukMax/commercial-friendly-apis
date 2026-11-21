@@ -1,0 +1,60 @@
+id: open-economics
+name: Open Economics
+url: https://open-economics-data.knbf982hkn.chatgpt.site/en/docs
+category: Finance
+description: Normalized Brazilian economic series from BCB and IBGE
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: Open Economics
+  url: https://open-economics-data.knbf982hkn.chatgpt.site/en/docs
+  category: Finance
+link_status: alive
+data_license: 'Upstream licences apply (e.g. BCB: Open Data Commons ODbL); service code MIT'
+commercial_use: ambiguous
+storage_caching: ambiguous
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://open-economics-data.knbf982hkn.chatgpt.site/en/terms
+commercial_use_scope: any
+notes: 'Aggregator of BCB, IBGE, Tesouro, MDIC, ANP, EPE, MTE, CVM data; the terms say each publisher
+  licence continues to apply, so upstream terms may be stricter and differ per series (BCB is ODbL, which
+  has share-alike for databases). "Commercial" is not mentioned explicitly; applications/published material
+  allowed. Host is a chatgpt.site preview domain, so the service may be unstable. Pages read: terms, docs/attribution,
+  sources.'
+evidence:
+- field: commercial_use
+  url: https://open-economics-data.knbf982hkn.chatgpt.site/en/terms
+  quote: You may use the API and MCP in analysis, applications, agents, and published material, subject
+    to these terms and source licenses.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://open-economics-data.knbf982hkn.chatgpt.site/en/terms
+  quote: Use caching, bounded date ranges, and reasonable concurrency.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://open-economics-data.knbf982hkn.chatgpt.site/en/terms
+  quote: Preserve the source, identifier, unit, period, methodology, and warnings returned by the service.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://open-economics-data.knbf982hkn.chatgpt.site/en/docs/attribution
+  quote: BCB / SGS Open Data Commons ODbL
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://open-economics-data.knbf982hkn.chatgpt.site/en/terms
+  quote: The publishing agency’s licenses and terms continue to apply.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Upstream BCB ODbL (share-alike on derived databases) and other publishers apply; host
+  is a chatgpt.site preview domain (stability risk). Ambiguous/yellow stands.

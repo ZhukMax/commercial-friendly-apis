@@ -1,0 +1,56 @@
+id: brazil-receita-ws
+name: Brazil Receita WS
+url: https://www.receitaws.com.br/
+category: Government
+description: Consult companies by CNPJ for Brazilian companies
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Brazil Receita WS
+  url: https://www.receitaws.com.br/
+  category: Government
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: 'no'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.receitaws.com.br/terms.pdf
+notes: 'Read terms.pdf (Portuguese, via curl+pdftotext). Two modes: free "API Publica" and paid "API Comercial"
+  (monthly plans). Data returned by the APIs may be used only for the user own benefit and no "commercializacao"
+  through other sites or any other means. Unclear whether showing CNPJ data on an ad-supported site counts;
+  reads restrictive, treat as likely not allowed without written clearance. Caching/storage not addressed.
+  Free plan limit per homepage plan table: 3 queries/min.'
+evidence:
+- field: commercial_use
+  url: https://www.receitaws.com.br/terms.pdf
+  quote: Os dados retornados através das APIs podem ser utilizados apenas para benefício próprio do usuário
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.receitaws.com.br/terms.pdf
+  quote: Os dados retornados através das APIs podem ser utilizados apenas para benefício próprio do usuário
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.receitaws.com.br/terms.pdf
+  quote: não sendo permitida qualquer comercialização através de outros sites ou qualquer outro meio.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.receitaws.com.br/terms.pdf
+  quote: Os dados retornados através das APIs podem ser utilizados apenas para benefício próprio do usuário,
+    não sendo permitida qualquer comercialização através de outros sites
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+share_alike: unknown
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Terms restrict returned data to the user''s own benefit and ban any commercialisation
+  through other sites; Even the paid Commercial API is covered by the same clause | applied: redistribution_display=no'

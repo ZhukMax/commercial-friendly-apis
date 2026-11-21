@@ -1,0 +1,67 @@
+id: coinlayer
+name: Coinlayer
+url: https://coinlayer.com
+category: Cryptocurrency
+description: Real-time Crypto Currency Exchange Rates
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Coinlayer
+  url: https://coinlayer.com?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers
+  category: Cryptocurrency
+- list: public-api-lists
+  name: CoinLayer
+  url: https://coinlayer.com
+  category: Cryptocurrency
+link_status: alive
+data_license: unknown
+commercial_use: paid-only
+storage_caching: ambiguous
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://coinlayer.com/terms
+commercial_use_scope: paid
+rate_limits: 'Free: 100 requests/month (non-commercial); Basic 5,000/month'
+evidence:
+- field: commercial_use
+  url: https://coinlayer.com/pricing
+  quote: Currency SSL Encryption Non-Commercial Use BASIC $9.99
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://coinlayer.com/pricing
+  quote: Standard Support Hourly Updates Historical Data All Target Currencies Commercial Use Extended
+    Results
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://coinlayer.com/terms
+  quote: permitted to receive, process, and display coinlayer API Data & Services to individual end-users
+    of your application(s)
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://coinlayer.com/terms
+  quote: You do not permit Your end users to store, distribute, or otherwise exploit coinlayer API Data
+    & Services for any other purposes.
+  checked_at: '2026-11-21'
+notes: 'Read Terms of Service (apilayer Data Products GmbH, last modified 2018-02-17) and the pricing
+  page. Pricing table lists ''Non-Commercial Use'' on the Free plan and ''Commercial Use'' on paid plans
+  (Basic and up) -> paid-only (table cells, no prose sentence). Terms licence: data may be displayed to
+  individual end-users of your own application for their personal reference; end users may not store/distribute
+  it; no transfer outside your application; no posting/distributing in any public forum incl. internet;
+  no resale. Whether a public ad-supported page counts as ''application'' display is unclear -> display
+  and storage ambiguous. Aggregator of crypto prices from third-party sources (upstream terms not assessed).
+  Attribution not addressed (terms only forbid removing apilayer notices). data_license left unknown:
+  proprietary terms, no named licence.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Same apilayer licence text as currencyfreaks; ambiguity for a public site is genuine,
+  no extra page resolves it.

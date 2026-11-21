@@ -1,0 +1,77 @@
+id: the-calendar
+name: The Calendar
+url: https://the-calendar.net/api/
+category: Calendar
+description: Public holidays for US states and 30 countries plus sports and finance calendars as static
+  JSON
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: The Calendar
+  url: https://the-calendar.net/api/
+  category: Calendar
+- list: public-api-lists
+  name: The Calendar
+  url: https://the-calendar.net/api/
+  category: Calendar
+link_status: alive
+data_license: CC-BY-4.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://creativecommons.org/licenses/by/4.0/
+api_terms_url: https://the-calendar.net/api/
+commercial_use_scope: any
+attribution_text: Link to the-calendar.net, e.g. 'Calendar data by the-calendar.net'
+share_alike: unknown
+rate_limits: No rate limit stated (static JSON on CDN)
+notes: 'Read /api/ and /developers pages: data and widgets are CC BY 4.0, plain link-back credit (no exact
+  phrase required). Static JSON, bulk via index.json/GitHub dataset and .ics. Holiday data are sourced
+  from official lists (e.g. 5 U.S.C. 6103); sports schedules and finance dates (FOMC, league fixtures)
+  may derive from third-party organisations whose own rights are not covered by this site''s CC BY claim
+  and were not checked. share_alike=no because CC BY has no share-alike.'
+evidence:
+- field: data_license
+  url: https://the-calendar.net/api/
+  quote: 'Licence: CC BY 4.0 . Attribution: link back to the-calendar.net .'
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://the-calendar.net/api/
+  quote: 'Attribution: link back to the-calendar.net .'
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://the-calendar.net/api/
+  quote: No authentication, no rate limit, CORS open
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://the-calendar.net/terms
+  quote: Wholesale copying of pages is not. If you want to syndicate content, ask via contact.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Site Terms page conflicts with CC BY claim: wholesale copying not welcome, syndication
+  needs permission; Sports/league schedules and finance dates may carry upstream rights not covered by
+  site''s CC BY | applied: redistribution_display=ambiguous'

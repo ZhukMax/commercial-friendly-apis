@@ -1,0 +1,32 @@
+id: airtel-ip
+name: Airtel IP
+url: https://sys.airtel.lv/ip2country/1.1.1.1/?full=true
+category: Geocoding
+description: IP Geolocation API. Collecting data from multiple sources
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Airtel IP
+  url: https://sys.airtel.lv/ip2country/1.1.1.1/?full=true
+  category: Geocoding
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: sys.airtel.lv now returns {"error":"use https://aether.epias.ltd/ip2country/{IP}"}; HTTP 403 for curl, read in browser
+evidence: []
+notes: 'Opened in Playwright (fresh context): the endpoint now answers with a JSON error pointing to https://aether.epias.ltd/ip2country/{IP}; the new host root serves no page (curl returns an empty body,
+  /ip2country/1.1.1.1 returns a bare country code). No terms, licence, data source or usage policy found anywhere, so all terms fields unknown. The description says data is collected from multiple sources,
+  which are not named.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

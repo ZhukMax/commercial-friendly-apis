@@ -1,0 +1,72 @@
+id: present-of-ai
+name: Present of AI
+url: https://presentofai.com/developers
+category: Jobs
+description: AI company profiles, open AI jobs and dated AI news, REST and MCP
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Present of AI
+  url: https://presentofai.com/developers
+  category: Jobs
+link_status: alive
+data_license: CC-BY-4.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+share_alike: unknown
+data_license_url: https://presentofai.com/developers
+api_terms_url: https://presentofai.com/developers
+commercial_use_scope: any
+attribution_text: Credit "Present of AI" and link to the presentofai.com page you used (page_url in every
+  result)
+rate_limits: 60 requests per minute per IP address, burst of 60
+notes: Developer page says the API data (companies, open AI jobs, news) is CC BY 4.0; commercial/storage/display
+  rest on the CC BY 4.0 deed applying to that data. Jobs and funding facts are "attributed to their sources",
+  so upstream posting content may carry its own rights (not checked). No separate API ToS page was found
+  (presentofai.com/terms is a 404-like page).
+evidence:
+- field: data_license
+  url: https://presentofai.com/developers
+  quote: The data is released under CC BY 4.0 .
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://presentofai.com/developers
+  quote: Please credit "Present of AI" and link to the presentofai.com page you used
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://presentofai.com/developers
+  quote: 60 requests per minute per IP address, with a burst of 60.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://presentofai.com/developers
+  quote: Facts are attributed to their sources and are as reported there; check the linked page before
+    relying on a figure.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'API relays third-party news, job postings and company logos under blanket CC BY; no
+  separate ToS (404); facts only ''as reported'' by sources | applied: redistribution_display=ambiguous'

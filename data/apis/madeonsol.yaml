@@ -1,0 +1,61 @@
+id: madeonsol
+name: MadeOnSol
+url: https://madeonsol.com/developer
+category: Cryptocurrency
+description: Real-time Solana & Robinhood Chain KOL trades, deployer reputation, and DEX activity
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: MadeOnSol
+  url: https://madeonsol.com/developer
+  category: Cryptocurrency
+link_status: alive
+data_license: proprietary (licensed, not sold; plan-based API Data licence)
+commercial_use: paid-only
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: high
+link_checked_at: '2026-11-21'
+commercial_use_scope: paid
+cache_limit: transient caching up to 24h; longer retention needs Enterprise
+attribution_text: Visible "Powered by MadeOnSol" notice linking to madeonsol.com (Business plan)
+share_alike: unknown
+api_terms_url: https://madeonsol.com/terms
+evidence:
+- field: commercial_use
+  url: https://madeonsol.com/terms
+  quote: Displaying API Data to third parties (your own users or customers) requires the Business plan
+    or an Enterprise agreement.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://madeonsol.com/terms
+  quote: operational caching — transient caching of API responses for up to 24 hours in order to serve
+    your own application's requests and displays
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://madeonsol.com/terms
+  quote: you may display API Data within the user-facing features of one application or product operated
+    by you
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://madeonsol.com/terms
+  quote: must show a visible "Powered by MadeOnSol" notice
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://madeonsol.com/terms
+  quote: The MadeOnSol API and the data it returns ("API Data") are licensed, not sold.
+  checked_at: '2026-11-21'
+notes: ToS section 5a. Free/Pro/Ultra plans = internal use only; showing data to your own users needs
+  the Business plan (one product, "Powered by MadeOnSol" attribution); raw/bulk redistribution forbidden
+  on all plans; retention beyond 24h or a queryable dataset needs Enterprise. So a public commercial site
+  needs a paid Business plan with 24h cache. Display is allowed only in the Business embed scope. Underlying
+  on-chain data is public but KOL/deployer scores are proprietary.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

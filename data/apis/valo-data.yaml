@@ -1,0 +1,26 @@
+id: valo-data
+name: Valo.Data
+url: https://valotcg.com/developers/api/pokemon
+category: Games & Comics
+description: Pokémon TCG cards in EN/FR/JA/ZH, Cardmarket, US market and eBay prices, PSA populations,
+  14 TCGs
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Valo.Data
+  url: https://valotcg.com/developers/api/pokemon
+  category: Games & Comics
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

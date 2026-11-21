@@ -1,0 +1,45 @@
+id: ugc-vz
+name: UGC VZ
+url: https://ugc-vz.de/developers
+category: Business
+description: Directory of DACH user-generated-content creators with topics, cities, rates and contact requests
+description_source: upstream
+auth: none
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: UGC VZ
+  url: https://ugc-vz.de/developers
+  category: Business
+link_status: alive
+data_license: 'proprietary: directory protected as a database (§§ 87a ff. UrhG); client code MIT, directory data excluded'
+commercial_use: unknown
+storage_caching: 'no'
+redistribution_display: 'no'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://ugc-vz.de/agb
+evidence:
+- field: data_license
+  url: https://ugc-vz.de/agb
+  quote: Das Verzeichnis ist als Datenbank nach §§ 87a ff. UrhG geschützt.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://ugc-vz.de/agb
+  quote: Untersagt sind insbesondere die Aufnahme in Newsletter- oder Werbeverteiler, der Aufbau eigener Creator-Datenbanken, die Weitergabe an Dritte sowie jede Verwendung als Trainingsdaten.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://ugc-vz.de/agb
+  quote: Die systematische Vervielfältigung oder Weiterverwendung wesentlicher Teile – auch durch wiederholte Abrufe für sich genommen unwesentlicher Teile – ist untersagt
+  checked_at: '2026-11-21'
+notes: 'Read the AGB (https://ugc-vz.de/agb, German), section 10 ''Maschinelle Nutzung (API, MCP und KI-Agenten)'': no key needed, using the interface means accepting the AGB; contact data returned after
+  a request may be used only for that request (no databases, no passing on); systematic copying or reuse of substantial parts of the directory is prohibited, as is building a competing directory. Free for
+  brands. A commercial site that stores or displays creator profiles/contact data is therefore out of scope (red); doubt: showing a few individual profiles or linking to them is not clearly forbidden. Creator
+  profiles are personal data (DSGVO). commercial_use not stated, left unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

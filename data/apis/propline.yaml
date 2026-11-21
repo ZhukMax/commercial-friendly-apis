@@ -1,0 +1,63 @@
+id: propline
+name: PropLine
+url: https://prop-line.com
+category: Sports & Fitness
+description: Real-time player-props betting odds with graded prop resolution across 13 books
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: PropLine
+  url: https://prop-line.com
+  category: Sports & Fitness
+- list: public-api-lists
+  name: PropLine
+  url: https://prop-line.com
+  category: Sports & Fitness
+link_status: alive
+data_license: Proprietary (PropLine Terms of Service); some sportsbook data licensed from third parties
+commercial_use: 'yes'
+storage_caching: unknown
+redistribution_display: 'yes'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://prop-line.com/terms
+api_terms_url: https://prop-line.com/terms
+commercial_use_scope: any
+share_alike: unknown
+rate_limits: Free 1,000 requests/day; $19/mo for 25,000 requests/day
+notes: 'Read ToS (effective 2026-04-27, updated 2026-11-20). Grant covers building websites/apps/products
+  and showing individual values (odds, results, +EV) inside an end-user product; bulk redistribution,
+  resale, publishing as a dataset and mirror services are prohibited. No explicit sentence on ads/affiliate
+  monetisation or on paid vs free scope (commercial_use=yes is inferred from ''end-user product'', medium
+  confidence). Storage/caching of responses not addressed (unknown); exports are watermarked. Section
+  2a (from 2026-11-30): Licensed Data (Caesars, bet365, Circa) only on plans >= USD 39/mo, may not be
+  passed on as a feed or used for odds-supplying businesses, and may not be presented as licensed by a
+  sportsbook. Aggregator of sportsbook/exchange prices, so upstream book terms may be stricter.'
+evidence:
+- field: commercial_use
+  url: https://prop-line.com/terms
+  quote: for your own internal use, including building applications, models, websites, bots, and tools
+    that consume our data.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://prop-line.com/terms
+  quote: Surfacing individual values inside an end-user product is fine.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://prop-line.com/terms
+  quote: you may not resell, sublicense, publish as a dataset, or share with third parties any substantial
+    portion of the data returned by the API
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://prop-line.com/terms
+  quote: Some sportsbook prices on PropLine are licensed from third parties rather than collected by PropLine
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

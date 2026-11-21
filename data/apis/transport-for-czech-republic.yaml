@@ -1,0 +1,35 @@
+id: transport-for-czech-republic
+name: Transport for Czech Republic
+url: https://www.chaps.cz/eng/products/idos-internet
+category: Transportation
+description: Czech transport API
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Transport for Czech Republic
+  url: https://www.chaps.cz/eng/products/idos-internet
+  category: Transportation
+- list: public-api-lists
+  name: Transport for Czech Republic
+  url: https://www.chaps.cz/eng/products/idos-internet
+  category: Transportation
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.chaps.cz/eng/products/idos-internet
+evidence: []
+notes: The linked CHAPS page and its "IDOS-API.pdf" (read via pdftotext, Czech) describe a link-building API for deep-linking to the idos.idnes.cz timetable web app, not a data feed; the page says the IDOS
+  product is not provided for common use on web servers. No data licence, commercial-use, caching or display terms were found, so all core fields stay unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

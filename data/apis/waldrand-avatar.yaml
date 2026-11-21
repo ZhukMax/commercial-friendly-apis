@@ -1,0 +1,25 @@
+id: waldrand-avatar
+name: Waldrand Avatar
+url: https://avatar.waldrand.dev
+category: Test Data
+description: Deterministic SVG/PNG/WebP avatars from any string, four styles
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Waldrand Avatar
+  url: https://avatar.waldrand.dev
+  category: Test Data
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

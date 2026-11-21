@@ -1,0 +1,71 @@
+id: barcode-lookup
+name: Barcode Lookup
+url: https://dataandapis.com/apis/barcode-lookup
+category: Shopping
+description: Product name, brand, ingredients, Nutri-Score and nutrition for 4.3M EAN, UPC and GTIN barcodes
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Barcode Lookup
+  url: https://dataandapis.com/apis/barcode-lookup
+  category: Shopping
+link_status: alive
+data_license: ODbL-1.0 (Open Food Facts data)
+commercial_use: ambiguous
+storage_caching: ambiguous
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://opendatacommons.org/licenses/odbl/1-0/
+share_alike: 'yes'
+api_terms_url: https://dataandapis.com/terms-of-service
+rate_limits: 'Free key: 500 tokens/month, 1 token per call; X-Api-Key header required'
+evidence:
+- field: data_license
+  url: https://dataandapis.com/apis/barcode-lookup
+  quote: 'Data licence: Open Database License (ODbL) v1.0 — attribution required, database derivatives
+    share-alike.'
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://dataandapis.com/apis/barcode-lookup
+  quote: 'Data licence: Open Database License (ODbL) v1.0 — attribution required, database derivatives
+    share-alike.'
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://dataandapis.com/apis/barcode-lookup
+  quote: 'Data licence: Open Database License (ODbL) v1.0 — attribution required, database derivatives
+    share-alike.'
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://dataandapis.com/terms-of-service
+  quote: Using the Services for unauthorized commercial purposes
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://dataandapis.com/terms-of-service
+  quote: Using the Services for unauthorized commercial purposes
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://dataandapis.com/terms-of-service
+  quote: Using the Services for unauthorized commercial purposes
+  checked_at: '2026-11-21'
+notes: 'Product page says the dataset is a self-hosted copy of Open Food Facts (and sibling Open Facts
+  databases) under ODbL 1.0: attribution required, share-alike for database derivatives (this is upstream''s
+  licence, whose text I did not open). The host''s own short Terms of Service (dataandapis.com/terms-of-service,
+  21 Nov 2026) forbid ''unauthorized commercial purposes'' and ''copying or distributing any part of the
+  Services'' without defining them, so commercial use, storage and display conflict with ODbL''s permissions
+  and are ambiguous. Product images come from Open Food Facts and may carry separate (CC BY-SA) terms,
+  not checked. Entry is one API among a 125+ API marketplace.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Upstream Open Food Facts terms re-read: ODbL/DbCL/CC BY-SA explicitly authorise commercial
+  use with attribution and share-alike; host ToS ''unauthorized commercial purposes'' is undefined and
+  pricing page has no commercial restriction. Leans permissive; ambiguity from host ToS remains.'

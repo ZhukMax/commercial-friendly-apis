@@ -1,0 +1,77 @@
+id: 3dtexel
+name: 3DTexel
+url: https://3dtexel.com/developers/
+category: Art & Design
+description: Search free CC0 PBR materials, HDRIs, decals and 3D models for games
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: 3DTexel
+  url: https://3dtexel.com/developers/#public-api
+  category: Art & Design
+link_status: alive
+data_license: CC0-1.0 (free handmade library); 3DTexel License for premium/AI/community assets
+commercial_use: 'yes'
+storage_caching: ambiguous
+redistribution_display: ambiguous
+attribution_required: 'no'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://3dtexel.com/asset-license/
+api_terms_url: https://3dtexel.com/terms
+commercial_use_scope: any
+share_alike: unknown
+rate_limits: 'Public API: 120 requests/minute per IP, no key'
+notes: Read /developers (public read-only search API, no key), /asset-license (version of 16 Oct 2026)
+  and /terms. The licence terms cited apply to the free handmade CC0 library only. The same API also lists
+  AI-generated/premium/community assets under the 3DTexel License (commercial use in finished projects
+  allowed, but no resale/redistribution of the files as assets), so the license field per asset must be
+  checked; the green verdict applies to the CC0 assets. The API returns metadata and links; terms of the
+  Terms page do not address metadata caching specifically. Other API endpoints need an account key and
+  credits (not assessed).
+evidence:
+- field: data_license
+  url: https://3dtexel.com/asset-license/
+  quote: Released into the public domain (CC0 1.0 Universal).
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://3dtexel.com/asset-license/
+  quote: Use them for anything, commercial included, with no permission and no attribution needed.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://3dtexel.com/asset-license/
+  quote: Use them for anything, commercial included, with no permission and no attribution needed.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://3dtexel.com/asset-license/
+  quote: You may copy, modify, distribute and use them, commercial included, without asking permission.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://3dtexel.com/asset-license/
+  quote: You may copy, modify, distribute and use them, commercial included, without asking permission.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://3dtexel.com/developers/
+  quote: 'Limit: 120 requests per minute per IP.'
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://3dtexel.com/asset-license/
+  quote: Everything else (premium assets, AI assets of the community library, your own generations
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://3dtexel.com/developers/
+  quote: Assets matching the words, with license and price
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'licence statements cover the asset files, not the API metadata/previews the API returns;
+  same API mixes CC0 assets with 3DTexel-License assets (no resale of files); per-asset check needed |
+  applied: storage_caching=ambiguous, redistribution_display=ambiguous'

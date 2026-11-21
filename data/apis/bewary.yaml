@@ -1,0 +1,25 @@
+id: bewary
+name: Bewary
+url: https://bewary.app/docs
+category: Anti-Malware
+description: Scam checks for links, domains, phone numbers, emails, crypto wallets and IBANs
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Bewary
+  url: https://bewary.app/docs
+  category: Anti-Malware
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

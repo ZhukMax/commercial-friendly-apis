@@ -1,0 +1,40 @@
+id: filingrail
+name: Filingrail
+url: https://rapidapi.com/hudson-enterprises-llc-hudson-enterprises-llc-default/api/filingrail
+category: Finance
+description: SEC EDGAR filings, XBRL financials, Form 4 insider trades, 8-K events and 13F holdings
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Filingrail
+  url: https://rapidapi.com/hudson-enterprises-llc-hudson-enterprises-llc-default/api/filingrail
+  category: Finance
+- list: public-api-lists
+  name: Filingrail
+  url: https://filingrail.hudsonenterprisesllc.com
+  category: Finance
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://rapidapi.com/terms
+notes: Listed on RapidAPI. The listing page shows no provider-specific terms or licence; RapidAPI's marketplace
+  terms (read) say use of each API is governed by the provider's own terms and the chosen subscription
+  plan, which were not found. Free tier 50 calls/day, Pro $9/mo for 5,000 calls per the listing; data
+  derived from SEC EDGAR (public filings), upstream status not assessed. All core fields unknown. Merged
+  duplicate entry `filingrail-filingrail`.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+evidence: []
+aliases:
+- filingrail-filingrail

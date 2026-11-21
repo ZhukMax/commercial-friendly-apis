@@ -1,0 +1,35 @@
+id: mathjs
+name: MathJS
+url: https://api.mathjs.org/
+category: Science & Math
+description: Evaluate math expressions via GET or POST as JSON
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: MathJS
+  url: https://api.mathjs.org/
+  category: Science & Math
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+rate_limits: Max 10 s per evaluation, 10,000 requests/day (free service)
+notes: Only the API docs page was read; it has no terms of use. The math.js library itself is Apache-2.0 (LICENSE file read), but that is the library, not the hosted api.mathjs.org service terms, so commercial
+  use, storage and display of the hosted service remain unknown.
+evidence:
+- field: rate_limits
+  url: https://api.mathjs.org/
+  quote: The duration per evaluation of this free service is limited to 10 seconds, with a maximum of 10,000 requests per day.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

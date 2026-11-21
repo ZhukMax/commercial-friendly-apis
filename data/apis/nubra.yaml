@@ -1,0 +1,35 @@
+id: nubra
+name: Nubra
+url: https://nubra.io/products/api/docs/
+category: Finance
+description: 'Indian broker API: orders, quotes, historical data, option chains with Greeks and live feeds'
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Nubra
+  url: https://nubra.io/products/api/docs/
+  category: Finance
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+notes: Broker API (Zanskar Securities) requiring a Nubra trading account; read the API docs home, FAQ
+  pages and nubra.io/terms-and-conditions (general website terms). No data-usage, redistribution or commercial
+  terms for API market data found. Exchange (NSE/BSE) data redistribution limits likely apply but were
+  not found. All fields unknown.
+evidence: []
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

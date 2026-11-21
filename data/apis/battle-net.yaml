@@ -1,0 +1,26 @@
+id: battle-net
+name: Battle.net
+url: https://develop.battle.net/documentation/guides/getting-started
+category: Games & Comics
+description: Diablo III, Hearthstone, StarCraft II and World of Warcraft game data APIs
+description_source: upstream
+auth: OAuth
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Battle.net
+  url: https://develop.battle.net/documentation/guides/getting-started
+  category: Games & Comics
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://community.developer.battle.net/documentation/guides/getting-started

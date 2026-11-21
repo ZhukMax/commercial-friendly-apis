@@ -1,0 +1,45 @@
+id: nppes
+name: NPPES
+url: https://npiregistry.cms.hhs.gov/registry/help-api
+category: Health
+description: National Plan & Provider Enumeration System, info on healthcare providers registered in US
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: NPPES
+  url: https://npiregistry.cms.hhs.gov/registry/help-api
+  category: Health
+- list: public-api-lists
+  name: NPPES
+  url: https://npiregistry.cms.hhs.gov/registry/help-api
+  category: Health
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: 'yes'
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://npiregistry.cms.hhs.gov/api-page
+rate_limits: Max 200 results per request; skip up to 1000 (max 1,200 records over six requests)
+notes: API page (JS-rendered, read via Playwright) documents parameters only; no licence/terms text. CMS data-dissemination page says NPPES data are FOIA-disclosable and free to download, and mentions users
+  sharing downloaded data on their own websites, but no explicit commercial-use, storage or attribution statement was found, and CMS web-policies pages read had no copyright/reuse statement. Core terms
+  left unknown.
+evidence:
+- field: bulk_download
+  url: https://www.cms.gov/medicare/regulations-guidance/administrative-simplification/data-dissemination
+  quote: There is no charge to download the data.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://npiregistry.cms.hhs.gov/api-page
+  quote: An API query will return a maximum of 200 results per request.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

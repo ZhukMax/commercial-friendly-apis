@@ -1,0 +1,62 @@
+id: worms
+name: WoRMS
+url: https://www.marinespecies.org/rest/
+category: Science & Math
+description: Marine species taxonomy, synonyms and distributions
+description_source: upstream
+auth: none
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: WoRMS
+  url: https://www.marinespecies.org/rest/
+  category: Science & Math
+link_status: alive
+data_license: CC-BY (text of WoRMS pages); images CC BY-NC-SA by default
+commercial_use: 'yes'
+storage_caching: ambiguous
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.marinespecies.org/about.php
+commercial_use_scope: any
+attribution_text: Cite as requested on the WoRMS webpages (Citing WoRMS)
+share_alike: unknown
+evidence:
+- field: data_license
+  url: https://www.marinespecies.org/about.php
+  quote: The text on the WoRMS pages is open-access under the terms of the Creative Commons Attribution
+    License (CC-BY)
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.marinespecies.org/about.php
+  quote: This License permits unrestricted use, provided it is cited as requested on the WoRMS webpages
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.marinespecies.org/about.php
+  quote: This License permits unrestricted use, provided it is cited as requested on the WoRMS webpages
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.marinespecies.org/about.php
+  quote: provided it is cited as requested on the WoRMS webpages
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.marinespecies.org/about.php
+  quote: Re-distribution of the entire database is not permitted, unless by prior written agreement.
+  checked_at: '2026-11-21'
+notes: Terms of use section on /about.php (linked "Terms of use" in the WoRMS menu); the REST docs page
+  (/rest/) has no terms of its own. Text is CC-BY but images default to CC BY-NC-SA, and the page says
+  individual pages may state otherwise. Whole-database redistribution (and so a full mirror) needs written
+  agreement, hence storage_caching ambiguous; per-record caching/display is covered by CC-BY. Whether
+  CC-BY on "text of the pages" explicitly covers REST API output is an inference (confidence medium).
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read /about.php terms of use. No blocker for per-record use.
+license_scope: portal-default

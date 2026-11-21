@@ -1,0 +1,55 @@
+id: finlight
+name: Finlight
+url: https://finlight.me
+category: News
+description: Realtime financial news with sentiment and article content
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: Finlight
+  url: https://finlight.me
+  category: News
+link_status: alive
+data_license: unknown
+commercial_use: 'yes'
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+commercial_use_scope: any
+attribution_text: Name the publisher and link directly to the original article
+api_terms_url: https://finlight.me/terms-of-use
+evidence:
+- field: commercial_use
+  url: https://finlight.me/terms-of-use
+  quote: You may use the API for personal, internal and commercial purposes, including in your own products
+    and services.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://finlight.me/terms-of-use
+  quote: finlight does not authorize the redistribution or republication of third-party content.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://finlight.me/terms-of-use
+  quote: you must clearly attribute it to the original source by naming the publisher and linking directly
+    to the original article
+  checked_at: '2026-11-21'
+notes: 'Read https://finlight.me/terms-of-use. Commercial use of the API and finlight metadata/enrichment
+  is allowed (no resale of API access), but the licence does not cover third-party article content: titles/summaries
+  come from publishers, whose rights remain and who may need separate licences; displaying them needs
+  publisher attribution and link. Caching/storage not addressed. Aggregator: upstream terms may be stricter.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read terms-of-use sections 2-4, 6. ''finlight does not authorize the redistribution
+  or republication of third-party content''; prohibited: using API to redistribute copyrighted third-party
+  content or build a competing news distribution service. Display of titles/summaries needs publisher
+  licence: ambiguous stands (leaning restrictive).'

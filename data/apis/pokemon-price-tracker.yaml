@@ -1,0 +1,25 @@
+id: pokemon-price-tracker
+name: Pokemon Price Tracker
+url: https://www.pokemonpricetracker.com/pokemon-card-price-api
+category: Games & Comics
+description: Real-time and historical Pokemon card pricing from TCGPlayer and eBay graded sales
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: Pokemon Price Tracker
+  url: https://www.pokemonpricetracker.com/pokemon-card-price-api
+  category: Games & Comics
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

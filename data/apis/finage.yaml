@@ -1,0 +1,45 @@
+id: finage
+name: Finage
+url: https://finage.co.uk
+category: Finance
+description: Finage is a stock, currency, cryptocurrency, indices, and ETFs real-time & historical data provider
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Finage
+  url: https://finage.co.uk
+  category: Finance
+link_status: alive
+data_license: proprietary
+commercial_use: 'no'
+storage_caching: unknown
+redistribution_display: 'no'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://finage.co.uk/company/privacy-policy/terms-of-use
+commercial_use_scope: any
+evidence:
+- field: commercial_use
+  url: https://finage.co.uk/company/privacy-policy/terms-of-use
+  quote: This license does not include any resale or commercial use of the Services or its contents
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://finage.co.uk/company/privacy-policy/terms-of-use
+  quote: Redistribution of Market Data without Finage's written consent.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://finage.co.uk/company/privacy-policy/terms-of-use
+  quote: This license does not include any resale or commercial use of the Services or its contents
+  checked_at: '2026-11-21'
+notes: 'Terms of Use (read at /company/privacy-policy/terms-of-use): the licence is for personal, non-commercial purposes only; redistribution of market data or any information displayed or provided is
+  prohibited without written consent. Finage also states its data is not sourced directly from formal exchanges and may differ from exchange prices. Commercial/enterprise licences may exist on request (not
+  read).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

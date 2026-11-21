@@ -1,0 +1,47 @@
+id: open-government-denmark
+name: Open Government, Denmark
+url: https://www.opendata.dk/
+category: Government
+description: Denmark Government Open Data
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Open Government, Denmark
+  url: https://www.opendata.dk/
+  category: Government
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: ambiguous
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.opendata.dk/anvend-data
+notes: Aggregator portal (OS2opendata) of municipal/public datasets, read the "Anvend data" page (Danish).
+  Licence is set per dataset ("under hvert datasæt"); some require credit. No portal-wide commercial/caching
+  terms found. Check the licence on each dataset.
+evidence:
+- field: commercial_use
+  url: https://www.opendata.dk/anvend-data
+  quote: Hvad kan jeg bruge data til? Nærmest alt.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.opendata.dk/anvend-data
+  quote: I nogle tilfælde stiller datasættets licens nogle betingelser eller begrænsninger for brug, fx
+    krav om kreditering.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+share_alike: unknown
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Portal-level statement supports commercial reuse but each dataset's licence governs;
+  ambiguous stands.
+license_scope: portal-default

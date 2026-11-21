@@ -1,0 +1,60 @@
+id: therundown
+name: TheRundown
+url: https://therundown.io/
+category: Sports & Fitness
+description: 'Real-time sports data: odds, scores, stats & prediction markets, 30+ leagues, 18+ sportsbooks'
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: TheRundown
+  url: https://therundown.io/
+  category: Sports & Fitness
+link_status: alive
+data_license: Proprietary (TheRundown Terms of Service; data sourced from third-party sportsbooks, providers and public sources)
+commercial_use: paid-only
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: high
+link_checked_at: '2026-11-21'
+data_license_url: https://therundown.io/terms-and-privacy
+api_terms_url: https://therundown.io/terms-and-privacy
+commercial_use_scope: paid
+cache_limit: 24 hours for display caching; longer only on paid plans for internal analysis and (Ultra+) historical display
+attribution_text: Data provided by TheRundown (link to https://therundown.io)
+share_alike: unknown
+rate_limits: Plan-based; odds-history window Starter 7 days, Pro 30, Ultra 90, Super 6 months, Mega 1 year, Max unlimited
+notes: 'Read the ToS (/terms-and-privacy, section 3). Display of data to end users of your own sites/apps (even paying ones) is allowed only on a Commercial Plan (Pro tier and higher); Free and Starter
+  are internal/personal use only. Must add own functionality, not expose raw responses or provide feed/export/API, show ''Data provided by TheRundown'' on every view, keep sportsbook source names, and bind
+  end users not to redistribute. Storage: 24h cache for real-time use; paid plans may store for internal analysis/backtesting; Ultra+ may display historical data; no LLM/general AI training. TheRundown
+  may exclude sources/markets from display on 10 days'' notice. Aggregates odds from third-party sportsbooks and data providers (sportsbook marks not licensed; upstream rights may be stricter). White-label,
+  display without attribution and extended retention need a separate Commercial Display Addendum. Free-tier clause is not treated as a blanket ban beyond this paid-only statement.'
+evidence:
+- field: commercial_use
+  url: https://therundown.io/terms-and-privacy
+  quote: The Free and Starter tiers are not Commercial Plans and are licensed for internal business or personal use only.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://therundown.io/terms-and-privacy
+  quote: you may display Data, and values you derive from it such as best-price comparisons, line movement, and implied probabilities
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://therundown.io/terms-and-privacy
+  quote: includes the attribution “Data provided by TheRundown” (or other attribution we approve in writing)
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://therundown.io/terms-and-privacy
+  quote: you may cache or store Data only as needed for the real-time functionality of your Licensed Application and for no more than 24 hours
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://therundown.io/terms-and-privacy
+  quote: TheRundown grants you a limited, non-exclusive, non-transferable, non-sublicensable, revocable license to access and use the Data
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

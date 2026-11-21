@@ -1,0 +1,38 @@
+id: cooper-hewitt
+name: Cooper Hewitt
+url: https://collection.cooperhewitt.org/api
+category: Art & Design
+description: Smithsonian Design Museum
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Cooper Hewitt
+  url: https://collection.cooperhewitt.org/api
+  category: Art & Design
+- list: public-api-lists
+  name: Cooper Hewitt
+  url: https://collection.cooperhewitt.org/api
+  category: Art & Design
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://www.si.edu/collections/cooper-hewitt (301); si.edu serves a bot-verification page
+notes: collection.cooperhewitt.org/api now 301-redirects to www.si.edu/collections/cooper-hewitt, and
+  both hosts return a Smithsonian 'request verification' bot challenge to curl; not bypassed, so no terms
+  page could be read. Terms left unknown. Not assumed to equal Smithsonian Open Access (CC0) terms because
+  no page read says the old Cooper Hewitt API is replaced by it; the old API (apiKey) may no longer exist.
+  Check si.edu/openaccess / api.si.edu separately (see smithsonian-open-access).
+evidence: []
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

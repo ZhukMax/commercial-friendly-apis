@@ -1,0 +1,73 @@
+id: transport-for-chicago-us
+name: Transport for Chicago, US
+url: http://www.transitchicago.com/developers/
+category: Transportation
+description: Chicago Transit Authority (CTA)
+description_source: upstream
+auth: apiKey
+https: false
+cors: unknown
+sources:
+- list: public-apis
+  name: Transport for Chicago, US
+  url: http://www.transitchicago.com/developers/
+  category: Transportation
+- list: public-api-lists
+  name: Transport for Chicago, US
+  url: http://www.transitchicago.com/developers/
+  category: Transportation
+link_status: alive
+data_license: proprietary (CTA Developer License Agreement)
+commercial_use: ambiguous
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: 'no'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.transitchicago.com/developers/terms/
+cache_limit: Caching allowed to improve UX, data must be kept reasonably up to date and deleted on termination
+attribution_text: 'Optional: Data provided by CTA / Powered by CTA data'
+share_alike: unknown
+evidence:
+- field: commercial_use
+  url: https://www.transitchicago.com/developers/terms/
+  quote: for the sole purpose of assisting mass transportation (i.e., bus or rail) riders or in furtherance
+    of promoting public transportation.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.transitchicago.com/developers/terms/
+  quote: use, reproduce, distribute, display, process and create derivative works of CTA Data
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.transitchicago.com/developers/terms/
+  quote: You may cache CTA Data you receive from CTA in order to improve your application’s user experience
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.transitchicago.com/developers/terms/
+  quote: you will promptly delete all CTA Data from your application, computer systems or other storage
+    devices
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.transitchicago.com/developers/terms/
+  quote: you have the option, but not the obligation, to credit CTA.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.transitchicago.com/developers/terms/
+  quote: CTA grants you a limited, non-exclusive, non-assignable, non-transferable and revocable license
+  checked_at: '2026-11-21'
+notes: Read Developer License Agreement & Terms of Use (limited, revocable licence). Licence is limited
+  to the purpose of assisting transit riders or promoting public transport; any other purpose needs CTA
+  permission, and the agreement does not say whether ads/affiliate monetisation is allowed, so commercial_use
+  is ambiguous (a general ad/affiliate site that is not rider-focused is likely outside the licence).
+  Cannot sell data separately from the application; no implying CTA endorsement; trademark guidelines
+  apply. Data must be deleted on termination. Requires API key (Bus/Train Tracker).
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read developers/terms. Evidence leans restrictive for a generic ad/affiliate site
+  (other purposes need CTA permission) but a rider-focused site is covered; ambiguous and yellow stand.
+  No upstream aggregator.

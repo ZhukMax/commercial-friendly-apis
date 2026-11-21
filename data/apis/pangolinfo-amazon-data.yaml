@@ -1,0 +1,46 @@
+id: pangolinfo-amazon-data
+name: Pangolinfo Amazon Data
+url: https://docs.pangolinfo.com
+category: Shopping
+description: Amazon product, review, search and Best Sellers data across 20+ marketplaces
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Pangolinfo Amazon Data
+  url: https://docs.pangolinfo.com
+  category: Shopping
+link_status: redirect
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: -> https://docs.pangolinfo.com/cn-index
+api_terms_url: https://www.pangolinfo.com/user-agreement-2/
+evidence:
+- field: commercial_use
+  url: https://www.pangolinfo.com/user-agreement-2/
+  quote: Your use of the services is strictly limited to your own internal business needs or your compliant
+    products directly facing end-users.
+  checked_at: '2026-11-21'
+notes: Read the Pangolinfo User Agreement (pangolinfo.com/user-agreement-2, linked from ToS URL). Section
+  4.7 bans reselling the API or packaging acquired data into competing data interfaces/products; use is
+  limited to your own internal needs or compliant end-user products, and you must comply with the target
+  platform's (Amazon etc.) rules on data scope and use. The docs site redirects to /cn-index (Chinese
+  version of the same docs). Paid, API-key scraper service; Amazon data is third-party, so upstream terms
+  may be stricter. Caching/display not addressed, so unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read User Agreement s4.7/4.8: use limited to own internal business needs or compliant
+  products facing end-users; must comply with target site''s terms (Amazon scraping upstream is the real
+  risk). Caching/display not addressed. Stands.'

@@ -1,0 +1,354 @@
+[
+ {
+  "id": "open-government-korea",
+  "outcome": "confirmed",
+  "reasons": [
+   "Portal terms: KOGL type set per dataset, types 2 and 4 non-commercial",
+   "No portal-wide blocker; no storage/display rule found"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read data.go.kr portal policy: usage via open API may be restricted if it disrupts the provider; no caching rule. Cannot resolve at portal level; commercial use depends on each dataset's KOGL marker. Keep yellow."
+ },
+ {
+  "id": "open-government-mexico-datos",
+  "outcome": "disputed",
+  "reasons": [
+   "Dataset-level licence is CC-BY-4.0 on the portal's own CKAN API (1929 of 1937 datasets)",
+   "gob.mx personal-use terms cover site materials, not dataset licences"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://www.datos.gob.mx/api/3/action/package_search?rows=3",
+    "quote": "Creative Commons Attribution 4.0",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "yes",
+   "storage_caching": "yes",
+   "redistribution_display": "yes",
+   "attribution_required": "yes"
+  },
+  "note": "Queried https://www.datos.gob.mx/api/3/action/package_search with license_id facet: 1929 of 1937 datasets CC-BY-4.0, none NC. gob.mx/terminos still says site materials are personal-use only, but datos.gob.mx dataset records override. Libre Uso MX page still 404. Check each dataset (8 have other/unspecified licences)."
+ },
+ {
+  "id": "open-government-new-south-wales",
+  "outcome": "confirmed",
+  "reasons": [
+   "Portal terms defer to each data owner's terms; nothing on commercial use",
+   "No portal-wide licence found"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read api.nsw.gov.au/Home/Terms: 'Use of information from this service may be governed by terms and conditions stipulated by the authority administering the licence or information.' No blocker, no resolution; per-API check needed."
+ },
+ {
+  "id": "open-government-norway",
+  "outcome": "confirmed",
+  "reasons": [
+   "Catalogue says reuse for commercial and non-commercial purposes; publishers set terms",
+   "NLOD 2.0 text allows any purpose; some data protected"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read data.norge.no/en/about and NLOD 2.0. Leaning yes for NLOD-licensed datasets; catalogue also lists restricted data, so ambiguous at catalogue level."
+ },
+ {
+  "id": "open-government-romania",
+  "outcome": "disputed",
+  "reasons": [
+   "Portal CKAN licence facet: 3372 CC-BY-4.0, 1704 OGL-ROU of 5275 datasets",
+   "Only 1 CC-BY-NC, 62 unspecified"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://data.gov.ro/api/3/action/package_search?rows=0&facet.field=[\"license_id\"]",
+    "quote": "Creative Commons Attribution 4.0",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "yes",
+   "attribution_required": "yes"
+  },
+  "note": "Queried https://data.gov.ro/api/3/action/package_search facet license_id: ~96% CC BY 4.0 or OGL ROU 1.0, 1 CC-BY-NC-4.0, 62 notspecified, 2 other. Evidence points to commercial use allowed with attribution for nearly all datasets; per-dataset check still advised. Portal terms page is a liability disclaimer only."
+ },
+ {
+  "id": "open-government-switzerland",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms page lists 4 terms; one needs data-owner permission for commercial use",
+   "CKAN sample: 619 open, 324 CC-BY-SA, 114 ask-permission resources"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Sampled 300 datasets from ckan.opendata.swiss: resource rights mostly open/by/cc-zero/cc-by-sa, ~8% 'terms_by_ask' (commercial needs permission). Share-alike appears often. Stays ambiguous per dataset."
+ },
+ {
+  "id": "open-government-west-australia",
+  "outcome": "confirmed",
+  "reasons": [
+   "Copyright page: site material not for commercial re-use unless other terms stated",
+   "Catalogue licences mixed: 1655 CC-BY, 84 CC-NC, 474 custom-other"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "data.wa.gov.au API returns 500 today; used catalogue.data.wa.gov.au CKAN (2918 datasets): cc-by 1655, cc-by-sa 263, cc-nc 84, cc-by-nd 11, custom 790+. Mixed, so per-dataset check required."
+ },
+ {
+  "id": "open-library",
+  "outcome": "confirmed",
+  "reasons": [
+   "API page: not for high-traffic commercial infrastructure or third-party data backend",
+   "No explicit data licence; archive.org terms have no commercial clause"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read developers/api and /licensing; archive.org/about/terms (rendered via browser) has no 'commercial' wording. Small ad/affiliate site is a grey area; heavy use must use monthly dumps. Keep yellow."
+ },
+ {
+  "id": "open-notify",
+  "outcome": "confirmed",
+  "reasons": [
+   "Only licence statement covers the site (CC BY 3.0), not API data",
+   "No terms page, no commercial clause found"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read site: API still answers (iss-now, astros) over HTTP. ISS position and astronaut names are facts from NASA sources; nothing blocks use but also nothing explicit. Keep ambiguous/low."
+ },
+ {
+  "id": "open-science-framework",
+  "outcome": "disputed",
+  "reasons": [
+   "COS terms grant licence to store, distribute and publicly display public Content, commercially",
+   "Grant is subject to the administrator-applied licence; unlicensed content copyrighted by default"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://github.com/CenterForOpenScience/cos.io/blob/master/TERMS_OF_USE.md",
+    "quote": "we mean sublicense, reproduce, store, transmit, distribute, and publicly display the Content for non-commercial and commercial uses.",
+    "field": "storage_caching"
+   }
+  ],
+  "suggested": {
+   "storage_caching": "yes",
+   "redistribution_display": "yes"
+  },
+  "note": "COS Terms section 5 grants storage/display/commercial use of public OSF Content subject to project licences. So storage and display are not ambiguous at the COS level; commercial use stays per-record (licence set by the owner)."
+ },
+ {
+  "id": "openafrica",
+  "outcome": "disputed",
+  "reasons": [
+   "Live pages blocked by Cloudflare for curl and browser; could not re-verify",
+   "Archived copy matches first pass: dataset licence field, else Open Government Licence"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "open.africa terms and FAQ return Cloudflare block (403) today. Wayback copy of the terms shows the same wording as the first pass, but not a live read; no bypass attempted."
+ },
+ {
+  "id": "openaq",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms pass through each provider's licence; licences endpoint has commercialUseAllowed flag",
+   "Hosted API barred for products that substantially duplicate OpenAQ"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read docs.openaq.org terms and licenses resource: per-provider flags commercialUseAllowed, shareAlikeRequired, redistributionAllowed. Also scraping banned, API key required, attribution to OpenAQ required. Remains ambiguous per provider."
+ },
+ {
+  "id": "openregistry",
+  "outcome": "confirmed",
+  "reasons": [
+   "Clause 8: customer bound by each registry's licence; retention and resale at customer's risk",
+   "ToS 2.5 bans automated access by scripts, odd for an API"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read sophymarine.com/terms. No central licence; upstream registries (80+) vary and some restrict commercial redisplay. Clause 2.5 (no automated scripts/scrapers) likely targets the website, not MCP/API, but is unclear."
+ },
+ {
+  "id": "openrouteservice-org",
+  "outcome": "confirmed",
+  "reasons": [
+   "Standard plan 'Free to use for everyone'; nothing bans commercial sites",
+   "Results CC-BY-SA 4.0: share-alike and attribution link required"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read HeiGIT ToS and plans in a fresh browser context. No commercial restriction found; Collaborative plan is for non-profits only. Prohibition on transmitting personal data. Storage not addressed. Share-alike keeps it yellow."
+ },
+ {
+  "id": "openuv",
+  "outcome": "disputed",
+  "reasons": [
+   "ToS licence limited to reference use by end users inside your application",
+   "Bans reproduce, copy, transfer outside the app; destroy downloaded materials at end"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://www.openuv.io/kb/tos",
+    "quote": "Upon terminating your viewing of these materials or upon the termination of this license, You must destroy any downloaded materials in your possession",
+    "field": "storage_caching"
+   },
+   {
+    "url": "https://www.openuv.io/kb/tos",
+    "quote": "You are permitted solely to use OpenUV.io Data & Services for reference by Your end users.",
+    "field": "storage_caching"
+   }
+  ],
+  "suggested": {
+   "storage_caching": "no"
+  },
+  "note": "Re-read openuv.io/kb/tos in browser: data may be shown to end users of your app, but not reproduced, copied, stored or transferred outside it. That blocks storing and re-publishing data on own pages (programmatic SEO). Commercial use by end users is allowed. Suggest storage_caching no."
+ },
+ {
+  "id": "openweathermap",
+  "outcome": "confirmed",
+  "reasons": [
+   "Pricing page: all self-service plans ODbL, commercial use allowed, visible attribution",
+   "Share-alike only if you build a reusable dataset or own weather API"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read full-price and the website terms PDF (openweather.co.uk): scraper ban covers the Site only. The page says share-alike applies only to reusable datasets, so ordinary caching for own pages looks allowed, but no explicit cache rule; sale terms PDF returns 404. Leaning yes on storage."
+ },
+ {
+  "id": "pan-africa-data",
+  "outcome": "disputed",
+  "reasons": [
+   "Licence limited to internal business purposes, research, analysis and reports",
+   "Public publishing on ad site not covered; no standalone redistribution"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://panafricadata.com/terms",
+    "quote": "Data you obtain through our platform may be used for your internal business purposes, research and analysis.",
+    "field": "redistribution_display"
+   }
+  ],
+  "suggested": {
+   "redistribution_display": "no"
+  },
+  "note": "Re-read /terms section 7: use is for internal business purposes and reports/presentations with attribution. Public display on commercial web pages is not granted. Paid plan needed anyway. Suggest display no."
+ },
+ {
+  "id": "pandlens",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms short; no ban on commercial or ad-supported sites, but no grant either",
+   "Energy labels only per address; no bulk; no resale of compilation"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read voorwaarden and bronnen in browser. Third-party data reusable per source licence (many CC BY/CC0, EP-Online own terms). Stays unknown for commercial and storage."
+ },
+ {
+  "id": "parcelgps",
+  "outcome": "confirmed",
+  "reasons": [
+   "API terms explicitly allow showing data on website and in ads and listings",
+   "Storage duration not stated; bulk extraction and redistribution forbidden"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read terms section 6 in browser. Leaning yes on commercial and display; storage not addressed so verdict stays unknown. Price data (paid only) cannot be published in bulk."
+ },
+ {
+  "id": "peoplesearch",
+  "outcome": "confirmed",
+  "reasons": [
+   "Licence limited to personal or internal business purposes; no copying or distributing the Service",
+   "Bots and scrapers banned except as permitted; personal-data records"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read ToS and developers page: no API-specific grant for public display or storage. Red stands for the public ad-supported site scenario."
+ },
+ {
+  "id": "peptide-library",
+  "outcome": "confirmed",
+  "reasons": [
+   "API terms allow display with attribution, 24h cache, affiliate links kept",
+   "Site ToS bars public display of the Service without permission, but API terms are specific"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read API terms (version 2026-10-18) and site /terms. API terms do not forbid commercial use and expect affiliate disclosure; must not present as medical advice. Site ToS blanket clause conflicts in theory. Yellow due to 24h cache limit."
+ },
+ {
+  "id": "permisapi",
+  "outcome": "confirmed",
+  "reasons": [
+   "Sitadel under Licence Ouverte 2.0 allows commercial reuse with source",
+   "CGV bars transfer to third parties and indexing of neighbouring sales"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read CGV sections 15 to 17: source+date mandatory, no modification, no individual files, remove withdrawn permits within 30 days, neighbouring sales not indexable. Public display of permits with private addresses is GDPR-sensitive; stays ambiguous."
+ },
+ {
+  "id": "pinball-map",
+  "outcome": "disputed",
+  "reasons": [
+   "Repo README states the data licence is CC BY-SA, which the first pass did not find",
+   "Share-alike applies; FAQ bans large-scale clone of the site"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://raw.githubusercontent.com/scottwainstock/pbm/master/README.md",
+    "quote": "Amongst other things, this license requires attribution when using the data.",
+    "field": "data_license"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "yes",
+   "attribution_required": "yes"
+  },
+  "note": "scottwainstock/pbm README: 'Data License: CC BY-SA 4.0'. CC BY-SA allows commercial use with attribution and share-alike, so commercial use is allowed at licence level. FAQ still forbids a large-scale 'where to find pinball' feature. Set share_alike yes; verdict yellow."
+ },
+ {
+  "id": "pixelgust-soil",
+  "outcome": "disputed",
+  "reasons": [
+   "Terms say they do not limit what CC BY 4.0 allows for SoilGrids values",
+   "Resale ban carved out for the SoilGrids layer; credit ISRIC required"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://pixelgust.com/terms",
+    "quote": "Nothing in these terms limits what that licence lets you do with those values, including sharing them",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "yes",
+   "storage_caching": "yes",
+   "redistribution_display": "yes"
+  },
+  "note": "Re-read pixelgust.com/terms section 6: SoilGrids 2.0 values are CC BY 4.0 and the terms do not limit sharing; TWI layer ODbL. So commercial use, storage and display are allowed for the soil layer with ISRIC credit. Applies to soil layer only, not other PixelGust data."
+ },
+ {
+  "id": "plaid",
+  "outcome": "disputed",
+  "reasons": [
+   "Developer policy bans transferring or distributing End User Data without Plaid permission",
+   "Not public data; unusable for public ad or affiliate site"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://plaid.com/legal/",
+    "quote": "transfer, syndicate, or otherwise distribute the Services or End User Data without express prior written permission from Plaid",
+    "field": "redistribution_display"
+   }
+  ],
+  "suggested": {
+   "redistribution_display": "no"
+  },
+  "note": "Re-read plaid.com/legal (developer policy): selling or renting End User Data banned, storage limited to what is needed and authorised. Public display of user bank data on a commercial site is out of scope. Suggest display no; verdict red for this catalogue's scenario."
+ }
+]

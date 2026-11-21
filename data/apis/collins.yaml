@@ -1,0 +1,35 @@
+id: collins
+name: Collins
+url: https://api.collinsdictionary.com/api/v1/documentation/html/
+category: Dictionaries
+description: Bilingual Dictionary and Thesaurus Data
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Collins
+  url: https://api.collinsdictionary.com/api/v1/documentation/html/
+  category: Dictionaries
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: HTTP 403 (blocked for bots, assumed alive)
+evidence: []
+notes: Collins Dictionary API (HarperCollins) is key-gated. API documentation page (WADL-style, 403 to
+  curl, read via Playwright) lists endpoints but contains no licence terms; the API licence/terms were
+  not accessible. The consumer site Terms (collinsdictionary.com/us/terms-and-conditions) say content
+  is "displayed for personal, non-commercial use only" and may not be stored or commercially exploited,
+  but those cover the website, not the licensed API, so not transferred. All terms left unknown; commercial
+  licence presumably needs to be agreed with HarperCollins (not confirmed by any page).
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

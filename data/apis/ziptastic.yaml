@@ -1,0 +1,32 @@
+id: ziptastic
+name: Ziptastic
+url: https://ziptasticapi.com/
+category: Geocoding
+description: Get the country, state, and city of any US zip-code
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Ziptastic
+  url: https://ziptasticapi.com/
+  category: Geocoding
+- list: public-api-lists
+  name: Ziptastic
+  url: https://ziptasticapi.com/
+  category: Geocoding
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+notes: Home page (ziptasticapi.com) only has usage instructions and credits; no terms, licence or data-source statement. All core fields unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

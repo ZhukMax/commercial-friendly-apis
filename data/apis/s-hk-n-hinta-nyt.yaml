@@ -1,0 +1,54 @@
+id: s-hk-n-hinta-nyt
+name: Sähkön hinta nyt
+url: https://xn--shknhintanyt-gcb8w.org/integraatiot/
+category: Environment
+description: Finnish and Nordic day-ahead electricity spot prices (15-minute), cheapest hours
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Sähkön hinta nyt
+  url: https://xn--shknhintanyt-gcb8w.org/integraatiot/
+  category: Environment
+link_status: alive
+data_license: 'proprietary service terms; free incl. commercial use with source credit (data: Nord Pool
+  day-ahead via ENTSO-E open data)'
+commercial_use: 'yes'
+storage_caching: unknown
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://xn--shknhintanyt-gcb8w.org/kayttoehdot/
+commercial_use_scope: any
+attribution_text: 'Source: sähkönhintanyt.org with a link, when prices are shown publicly'
+share_alike: unknown
+evidence:
+- field: commercial_use
+  url: https://xn--shknhintanyt-gcb8w.org/kayttoehdot/
+  quote: Rajapintaa ja widgettejä saa käyttää maksutta myös kaupallisesti.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://xn--shknhintanyt-gcb8w.org/kayttoehdot/
+  quote: Jos näytät hintoja julkisesti, mainitse lähteenä sähkönhintanyt.org ja linkitä palveluun.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://xn--shknhintanyt-gcb8w.org/kayttoehdot/
+  quote: Jos näytät hintoja julkisesti, mainitse lähteenä sähkönhintanyt.org ja linkitä palveluun.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://xn--shknhintanyt-gcb8w.org/kayttoehdot/
+  quote: Rajapintaa ja widgettejä saa käyttää maksutta myös kaupallisesti.
+  checked_at: '2026-11-21'
+notes: 'Terms of use (Finnish, updated 12.10.2026, EBZPRO Media Ltd): the open API and widgets are free
+  to use, also commercially; credit and link when showing prices publicly; do not overload the API; provided
+  as is. Caching/storage is not addressed, hence unknown and verdict unknown. Prices derive from Nord
+  Pool day-ahead data via ENTSO-E open data; those upstream terms were not checked. The service itself
+  is ad-funded (Google AdSense).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -1,0 +1,37 @@
+id: binlist
+name: Binlist
+url: https://binlist.net/
+category: Finance
+description: Public access to a database of IIN/BIN information
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Binlist
+  url: https://binlist.net/
+  category: Finance
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://binlist.net/
+share_alike: unknown
+rate_limits: 5 requests per hour, burst 5 (free, keyless)
+evidence:
+- field: rate_limits
+  url: https://binlist.net/
+  quote: Requests are throttled at 5 per hour with a burst allowance of 5.
+  checked_at: '2026-11-21'
+notes: Read binlist.net (a /terms URL serves the same page). No terms of use or licence on the site; it only states a 5/hour throttle, offers unlimited paid access from EUR 0.003/request, says no static
+  dump is provided, and has a heading on dataset downloads, caching and scraping with no permission text. Data is compiled from multiple sources and partly assumption-based. All core fields unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

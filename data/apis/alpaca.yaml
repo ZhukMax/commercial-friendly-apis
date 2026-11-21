@@ -1,0 +1,58 @@
+id: alpaca
+name: Alpaca
+url: https://docs.alpaca.markets/us/docs/about-market-data-api
+category: Finance
+description: Realtime and historical market data on all US equities and ETFs
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Alpaca
+  url: https://docs.alpaca.markets/us/docs/about-market-data-api
+  category: Finance
+link_status: alive
+data_license: proprietary; exchange data via third-party providers (Nasdaq, NYSE CTA, OPRA)
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: 'no'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://s3.amazonaws.com/files.alpaca.markets/disclosures/library/TermsAndConditions.pdf
+rate_limits: 'Basic (free, IEX only): 200 calls/min; Algo Trader Plus $99/mo: 10,000 calls/min'
+evidence:
+- field: commercial_use
+  url: https://s3.amazonaws.com/files.alpaca.markets/disclosures/library/TermsAndConditions.pdf
+  quote: Content is provided exclusively for personal and noncommercial access and use.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://s3.amazonaws.com/files.alpaca.markets/disclosures/library/TermsAndConditions.pdf
+  quote: No part of the Service or Content may be copied, reproduced, republished, uploaded, posted, publicly
+    displayed
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://s3.amazonaws.com/files.alpaca.markets/disclosures/library/TermsAndConditions.pdf
+  quote: you agree to use the Services and Content solely for your own personal and non-commercial purposes.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://s3.amazonaws.com/files.alpaca.markets/disclosures/library/TermsAndConditions.pdf
+  quote: Content is provided exclusively for personal and noncommercial access and use.
+  checked_at: '2026-11-21'
+notes: 'Terms and Conditions PDF (linked from the market-data docs): Content is for personal, non-commercial
+  use; public display/republication needs Alpaca prior written consent. The same section says anyone wanting
+  commercial usage or to make data available through their own application must give 30 days written notice
+  and Alpaca may restrict or disallow connectivity, so commercial use is a discretionary arrangement (ambiguous),
+  not a plain licence. Docs also mention Broker API plans for business integrators and exchange agreements
+  (Nasdaq, OPRA) that bind paid plans; not read. Exchange data redistribution limits apply. Pricing: Basic
+  free (IEX only), Algo Trader Plus $99/mo.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read the Terms PDF (pdftotext): ''Personal and Non-Commercial Usage'' section confirmed,
+  commercial/user-application use needs 30 days notice and Alpaca may refuse. Red verdict stands.'

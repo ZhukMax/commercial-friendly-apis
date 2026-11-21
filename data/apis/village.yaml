@@ -1,0 +1,32 @@
+id: village
+name: Village
+url: https://docs.village.ai
+category: Business
+description: Person and company enrichment plus warm introduction paths through your network
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Village
+  url: https://docs.village.ai
+  category: Business
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://docs.village.ai/build
+api_terms_url: https://village.ai/terms
+notes: Village Terms of Service read (village.ai/terms; section 8 API Usage only requires following documentation/rate limits, keeping credentials secret, and accepts throttling/revocation). No statement
+  on commercial use, storage, display or data licence. Data is personal/professional relationship data; privacy and upstream-source terms may be stricter.
+evidence: []
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

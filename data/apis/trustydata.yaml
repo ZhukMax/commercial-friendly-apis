@@ -1,0 +1,68 @@
+id: trustydata
+name: TrustyData
+url: https://trustydata.fr/docs/
+category: Geocoding
+description: French address checks, INSEE company search and routing on official open data
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: TrustyData
+  url: https://trustydata.fr/docs/
+  category: Geocoding
+link_status: alive
+data_license: 'mixed: Licence Ouverte Etalab 2.0 (BAN, INSEE, IGN), INPI RNE conditions, ODbL 1.0 (OSM
+  routing)'
+commercial_use: 'yes'
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://trustydata.fr/cgu
+commercial_use_scope: any
+attribution_text: (c) OpenStreetMap contributors - ODbL (mandatory for /route/* results; text returned
+  in API attribution field)
+share_alike: unknown
+rate_limits: 'Discovery (free): 20,000 requests/month, minimal responses; paid plans up to Business'
+evidence:
+- field: commercial_use
+  url: https://trustydata.fr/cgu
+  quote: L'Utilisateur est libre d'utiliser les résultats des requêtes API
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://trustydata.fr/cgu
+  quote: Ne pas revendre les données brutes issues de l'API sans transformation ni valeur ajoutée
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://trustydata.fr/cgu
+  quote: Ces données sont soumises aux licences de leurs producteurs respectifs, notamment la Licence
+    Ouverte Etalab 2.0
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://trustydata.fr/docs/attribution-osm.html
+  quote: La licence ODbL impose une mention d'attribution partout où le résultat est restitué.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://trustydata.fr/docs/
+  quote: Discovery — gratuit à vie, 20 000 requêtes/mois, réponses minimales
+  checked_at: '2026-11-21'
+notes: Read CGU/CGV (art. 8-9) and docs. Results may be used 'in the course of professional activity'
+  but raw data may not be resold without added value and source DBs may not be rebuilt; source licences
+  (Etalab 2.0, INPI RNE, ODbL) apply. Nothing explicit on caching/storage of results, so storage_caching
+  unknown; display is ambiguous (no explicit display clause, only the resale limit). OSM attribution is
+  mandatory only for /route/* results (Business plan). Company-director data has extra restrictions (no
+  prospecting lists). Services are B2B only. Not verified that the free Discovery plan has different terms.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read CGU/CGV 8.2 and 9.3: web/mobile app use listed as permitted, results free
+  to use professionally. Blockers: no resale of raw data, no rebuilding source DBs, no RNE director prospecting
+  lists. OSM routes need ODbL attribution (possible share-alike on derived DB). Storage unknown keeps
+  verdict unknown.'

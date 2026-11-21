@@ -1,0 +1,71 @@
+id: sugra
+name: Sugra
+url: https://sugra.ai
+category: Finance
+description: One API for market data, economics, commodities, climate, and global news. LLM-ready JSON
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Sugra
+  url: https://sugra.ai
+  category: Finance
+link_status: redirect
+data_license: proprietary (Sugra Data Use Policy; aggregated upstream sources)
+commercial_use: 'yes'
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: ambiguous
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: -> https://sugra.systems/api
+data_license_url: https://sugra.systems/data-use-policy
+api_terms_url: https://sugra.systems/terms-of-service
+commercial_use_scope: any
+cache_limit: only what is necessary to operate your product and serve your end users; no archiving
+rate_limits: 'Free: 50 requests/day; higher on Dev/Pro'
+share_alike: unknown
+evidence:
+- field: commercial_use
+  url: https://sugra.systems/pricing
+  quote: Commercial use permitted on every tier
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://sugra.systems/data-use-policy
+  quote: Display the Data within your own applications for the benefit of your own end users
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://sugra.systems/data-use-policy
+  quote: you shall not retain, cache, or archive the Data beyond what is necessary to operate your product
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://sugra.systems/data-use-policy
+  quote: subject to any attribution requirements imposed by the applicable Upstream Sources.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://sugra.systems/data-use-policy
+  quote: Sugra is a technology intermediary; it is not the originator, author, or publisher of the Data.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://sugra.systems/pricing
+  quote: Free is for prototyping at 50 requests/day.
+  checked_at: '2026-11-21'
+notes: 'Aggregator (216 upstream sources, identities not disclosed). Data Use Policy permits integration
+  into your products and display to your own end users, bans standalone redistribution/resale and re-publishing
+  aggregators, and limits caching to what is needed to run the product. Section 7: where upstream is a
+  securities regulator/SRO, market data may not be redistributed further and attribution in the response
+  must be kept. Upstream terms may be stricter and are the customer''s responsibility. Pages read: data-use-policy,
+  terms-of-service, pricing.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read data-use-policy s5-s7 and pricing (''Commercial use permitted on every tier'').
+  Caveat: upstream identities are not disclosed, so upstream licences cannot be checked by the user; customer
+  is responsible for upstream conditions. No blocker found for display inside own app; attribution stays
+  ambiguous.'

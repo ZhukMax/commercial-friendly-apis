@@ -1,0 +1,71 @@
+id: ip2location
+name: IP2Location
+url: https://www.ip2location.com/web-service/ip2location
+category: Geocoding
+description: IP geolocation web service to get more than 55 parameters
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: IP2Location
+  url: https://www.ip2location.com/web-service/ip2location
+  category: Geocoding
+- list: public-api-lists
+  name: IP2Location
+  url: https://www.ip2location.com/web-service/ip2location
+  category: Geocoding
+link_status: alive
+data_license: proprietary (IP2Location Master License Agreement)
+commercial_use: paid-only
+storage_caching: ambiguous
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://www.ip2location.com/terms
+api_terms_url: https://www.ip2location.com/terms
+commercial_use_scope: paid
+share_alike: unknown
+rate_limits: 'Legacy WS packages: trial 5,000 credits; WS $49 = 100,000 credits for 1 year (no new registrations)'
+notes: Read the IP2Location Master License Agreement (/terms), which covers Licensed Products incl. Web
+  Services, and the legacy web-service page. This legacy service no longer accepts new registrations (redirects
+  to IP2Location.io, see entry ip2location-io). The MLA limits use to paid licensees for "internal business
+  operations" (content localization etc.) and forbids redistribution to third parties and displaying the
+  Licensed Products to others without a Redistribution Licence; it says nothing specific about caching
+  of web-service results. Showing localised content on your own site is arguably internal use, but displaying
+  raw data to visitors is arguably forbidden, hence ambiguous display and storage. Yellow at best; legal
+  review advisable.
+evidence:
+- field: commercial_use
+  url: https://www.ip2location.com/terms
+  quote: Use is restricted solely to internal business operations such as content localization, fraud
+    detection, geographic reporting, and network analysis.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.ip2location.com/terms
+  quote: Redistribution to third parties is strictly prohibited.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.ip2location.com/web-service/ip2location
+  quote: We are no longer accepting new registration for IP2Location Web Service.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.ip2location.com/terms
+  quote: Store in a retrieval system accessible to the public, transfer, publish, distribute, display
+    to others, broadcast, sell, or sublicense
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.ip2location.com/terms
+  quote: Store in a retrieval system accessible to the public, transfer, publish, distribute, display
+    to others, broadcast, sell, or sublicense
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Consider link_status/closed note.

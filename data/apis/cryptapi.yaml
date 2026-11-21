@@ -1,0 +1,36 @@
+id: cryptapi
+name: CryptAPI
+url: https://docs.cryptapi.io/
+category: Cryptocurrency
+description: Cryptocurrency Payment Processor
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: CryptAPI
+  url: https://docs.cryptapi.io/
+  category: Cryptocurrency
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://cryptapi.io/terms-conditions
+evidence: []
+notes: 'NOT a data source: CryptAPI is a crypto payment gateway (terms: ''a payment gateway that allows
+  websites to sell goods/services with cryptocurrencies''). Terms page https://cryptapi.io/terms-conditions
+  read; it says nothing about reuse, caching or display of API data. docs.cryptapi.io is a JS shell that
+  curl could not read. All terms fields left unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

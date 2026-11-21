@@ -1,0 +1,36 @@
+id: idigbio
+name: iDigBio
+url: https://github.com/idigbio/idigbio-search-api/wiki
+category: Science & Math
+description: Access millions of museum specimens from organizations around the world
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: iDigBio
+  url: https://github.com/idigbio/idigbio-search-api/wiki
+  category: Science & Math
+- list: public-api-lists
+  name: iDigBio
+  url: https://github.com/idigbio/idigbio-search-api/wiki
+  category: Science & Math
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: iDigBio is sunsetting its services (website, wiki, portal, API); idigbio.org now redirects to idigbio.gbif.us. search.idigbio.org still answered on the check date, with data last modified 2026-04-23.
+evidence: []
+notes: 'No data-use agreement or licence page could be read: the old idigbio.org terms/data-use pages are gone (404; legacy wiki archived on Archive-It), the GitHub wiki/README for the search API give no
+  data terms, and idigbio.gbif.us has no terms text on the pages read. Records are contributed by many collections with individual licences (e.g. CC BY-NC examples appear on the site) so upstream terms
+  vary. iDigBio announces termination of its servers/API (images deleted after 31 Aug 2026; no-cost extension into 2027). Left unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

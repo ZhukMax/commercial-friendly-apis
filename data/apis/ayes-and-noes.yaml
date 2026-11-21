@@ -1,0 +1,86 @@
+id: ayes-and-noes
+name: Ayes and Noes
+url: https://ayesandnoes.co.uk/developers
+category: Government
+description: UK House of Commons MPs, parties and recorded votes
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Ayes and Noes
+  url: https://ayesandnoes.co.uk/developers
+  category: Government
+link_status: alive
+data_license: OPL-3.0 (Open Parliament Licence v3.0)
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://www.parliament.uk/site-information/copyright-parliament/open-parliament-licence/
+api_terms_url: https://ayesandnoes.co.uk/developers
+commercial_use_scope: any
+attribution_text: Credit "Ayes & Noes" with a visible dofollow link to ayesandnoes.co.uk
+share_alike: unknown
+rate_limits: 'Keyless: 50 requests/day per IP; free API key: thousands/day'
+evidence:
+- field: commercial_use
+  url: https://www.parliament.uk/site-information/copyright-parliament/open-parliament-licence/
+  quote: exploit the information commercially and non-commercially, for example, by combining it with
+    other information, or by including it in your own product or application
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://ayesandnoes.co.uk/developers
+  quote: 'The only condition: show a visible dofollow link back to ayesandnoes.co.uk on the site or app
+    that uses the data, and keep it there.'
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.parliament.uk/site-information/copyright-parliament/open-parliament-licence/
+  quote: copy, publish, distribute and transmit the information
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.parliament.uk/site-information/copyright-parliament/open-parliament-licence/
+  quote: copy, publish, distribute and transmit the information
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://ayesandnoes.co.uk/developers
+  quote: 'The only condition: show a visible dofollow link back to ayesandnoes.co.uk on the site or app
+    that uses the data, and keep it there.'
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://ayesandnoes.co.uk/developers
+  quote: 'Keyless: up to 50 requests/day per IP'
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://ayesandnoes.co.uk/developers
+  quote: Parliamentary information licensed under the Open Parliament Licence v3.0
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://ayesandnoes.co.uk/developers
+  quote: show a visible dofollow link back to ayesandnoes.co.uk on the site or app that uses the data,
+    and keep it there.
+  checked_at: '2026-11-21'
+notes: 'Data is UK Parliament information under the Open Parliament Licence v3.0 (commercial use allowed;
+  OPL page read with Playwright since parliament.uk blocks curl). The API operator adds one condition:
+  a visible dofollow link to ayesandnoes.co.uk wherever the data is used - stronger than plain credit,
+  and a key requires submitting the page that shows the link. Share-alike not quoted (unknown). Operator
+  asks users to cache responses.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: yellow
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Only condition is a visible dofollow backlink to ayesandnoes.co.uk on every site using
+  the data; keys are issued only after the page showing the link is submitted and verified; That is a
+  mandatory backlink beyond plain credit, so under project rules at best yellow; Keyless use capped at
+  50 requests/day per IP | applied: attribution_required=yes'
+verdict_override: yellow
+override_reason: 'Second check: Only condition is a visible dofollow backlink to ayesandnoes.co.uk on
+  every site using the data; keys are issued only after the page showing the link is submitted and verified;
+  That is a mandatory backlink beyond plain credit, so under project rules at best yellow; Keyless use
+  capped at 50 requests/day per IP'

@@ -1,0 +1,51 @@
+id: finnhub
+name: Finnhub
+url: https://finnhub.io/docs/api
+category: Finance
+description: Real-Time RESTful APIs and Websocket for Stocks, Currencies, and Crypto
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Finnhub
+  url: https://finnhub.io/docs/api
+  category: Finance
+link_status: alive
+data_license: proprietary
+commercial_use: 'no'
+storage_caching: limited
+redistribution_display: 'no'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://finnhub.io/terms-of-service
+commercial_use_scope: free-tier
+cache_limit: Data must be deleted when the subscription to that data ends
+evidence:
+- field: commercial_use
+  url: https://finnhub.io/terms-of-service
+  quote: You are using this data for your business or registering under your business name regardless of the industry
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://finnhub.io/terms-of-service
+  quote: All data must be deleted should your subscription to that data ends.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://finnhub.io/terms-of-service
+  quote: not redistribute or share access to data or derived results from the data obtained from Finnhub with anyone or any 3rd party without written approval
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://finnhub.io/terms-of-service
+  quote: All plan listed on Finnhub website is strictly for personal use unless explicitly stated otherwise.
+  checked_at: '2026-11-21'
+notes: Read the Terms of Service only (not the pricing page). Plans are "strictly for personal use unless explicitly stated otherwise"; the quoted clause lists using the data for your business as a reason
+  you do not qualify for personal-use plans, and sharing data or derived results with any third party needs written approval, so a public ad-supported page is not covered. Business/commercial plans or written
+  approval may exist (not verified, hence commercial_use=no scoped to free/personal plans, verdict red). Stock/exchange data additionally follows UTP exchange data policies cited by Finnhub. Display/redistribution
+  of derived data on a website would need Finnhub approval.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

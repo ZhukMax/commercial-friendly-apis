@@ -1,0 +1,46 @@
+id: fxpeek
+name: FXpeek
+url: https://fxpeek.com/en/api
+category: Currency Exchange
+description: Source-linked historical reference exchange rates with CSV, JSON and an MCP server
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: FXpeek
+  url: https://fxpeek.com/en/api
+  category: Currency Exchange
+link_status: alive
+data_license: unknown
+commercial_use: paid-only
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+commercial_use_scope: paid
+api_terms_url: https://fxpeek.com/en/terms
+evidence:
+- field: commercial_use
+  url: https://fxpeek.com/en/api
+  quote: Commercial internal use is allowed; custom sources, formal SLA, and official settlement proof
+    are not included.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://fxpeek.com/en/api
+  quote: JSON and CSV requests need a paid x-api-key; anonymous calls return 401 api_key_required.
+  checked_at: '2026-11-21'
+notes: 'Upstream auth ''none'' was stale: the API page says JSON/CSV requests need a paid x-api-key (Starter
+  $5, Pro $19, Business $59/month); the free tier is ''public examples'' and lightweight lookups. ''Commercial
+  internal use is allowed'' is stated for the Pro plan; the Business plan is described as best for ''low-frequency
+  customer displays'' (a fit description, not an explicit display grant), so redistribution_display stays
+  unknown. /terms (Terms of Use) only says free API is for lightweight lookup/reporting/spreadsheet use
+  and bans bulk scraping/abuse. Nothing on caching or attribution (the embeddable widget carries an FXpeek
+  link). Source-linked reference rates; upstream sources not checked.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

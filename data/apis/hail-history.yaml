@@ -1,0 +1,33 @@
+id: hail-history
+name: Hail History
+url: https://hail-history-noaa.netlify.app/api-docs.html
+category: Weather
+description: Radar-detected hail history for any US address from NOAA NEXRAD Level-III hail detections, by year
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Hail History
+  url: https://hail-history-noaa.netlify.app/api-docs.html
+  category: Weather
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://whathitmyhouse.com/api-docs.html
+api_terms_url: https://whathitmyhouse.com/terms
+notes: hail-history-noaa.netlify.app/api-docs.html 301-redirects to whathitmyhouse.com/api-docs.html (service "What Hit My House"); the API docs page returned only a stub via curl (JS-rendered, not read).
+  Its Terms of service (whathitmyhouse.com/terms, updated 11 August 2026) say the data is built on public-domain federal sources (NOAA NEXRAD hail detections, NWS storm reports) and mention a free keyless
+  API, but state nothing about commercial use, caching or display of API data; acceptable use forbids reselling their reports and bulk scraping the site. Terms fields left unknown. The business sells reports
+  and sells leads to roofers, so reuse of its derived data may be limited; ask the operator.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

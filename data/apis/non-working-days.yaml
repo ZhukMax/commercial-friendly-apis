@@ -1,0 +1,79 @@
+id: non-working-days
+name: Non-Working Days
+url: https://github.com/gadael/icsdb
+category: Calendar
+description: Database of ICS files for non working days
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Non-Working Days
+  url: https://github.com/gadael/icsdb
+  category: Calendar
+- list: public-api-lists
+  name: Non-Working Days ICS
+  url: https://github.com/gadael/icsdb
+  category: Calendar
+link_status: alive
+data_license: MIT
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: 'yes'
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://github.com/gadael/icsdb/blob/master/LICENSE
+api_terms_url: https://github.com/gadael/icsdb
+commercial_use_scope: any
+attribution_text: Keep the MIT copyright notice
+share_alike: unknown
+notes: GitHub repo gadael/icsdb (MIT licence file in the repo) with static ICS files built from various
+  source calendars; only files in /build should be used. Self-hosted / downloadable data rather than a
+  live API. Licence file is MIT and covers the repository content; the original source calendars of each
+  country's holidays are not documented in the README, so upstream terms were not assessed. MIT requires
+  keeping the copyright notice.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+evidence:
+- field: data_license
+  url: https://raw.githubusercontent.com/gadael/icsdb/master/LICENSE
+  quote: The MIT License (MIT)
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://raw.githubusercontent.com/gadael/icsdb/master/LICENSE
+  quote: to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://raw.githubusercontent.com/gadael/icsdb/master/LICENSE
+  quote: The above copyright notice and this permission notice shall be included in all
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://raw.githubusercontent.com/gadael/icsdb/master/LICENSE
+  quote: to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://raw.githubusercontent.com/gadael/icsdb/master/LICENSE
+  quote: to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://raw.githubusercontent.com/gadael/icsdb/master/README.md
+  quote: only files in the [build](build/) subfolder should be used
+  checked_at: '2026-11-21'
+- field: api_terms_url
+  url: https://github.com/gadael/icsdb
+  quote: Warning, this set of ICS files is suject to move to his own domain in the near future.
+  checked_at: '2026-11-21'
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'repo is unmaintained: last push 2020-04-25; not a live API, static ICS files; source
+  calendars undocumented so upstream terms unknown; only 7 countries, README warns of moving to another
+  domain | applied: attribution_required=yes'
+verdict_override: yellow
+override_reason: 'Second check: repo is unmaintained: last push 2020-04-25; not a live API, static ICS
+  files; source calendars undocumented so upstream terms unknown; only 7 countries, README warns of moving
+  to another domain'

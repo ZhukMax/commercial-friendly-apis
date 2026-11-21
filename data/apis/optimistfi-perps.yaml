@@ -1,0 +1,54 @@
+id: optimistfi-perps
+name: OptimistFi Perps
+url: https://optimistfi.com/perps/data
+category: Cryptocurrency
+description: Funding, open interest, prices and leverage caps for perps on 40+ venues, in one schema
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: OptimistFi Perps
+  url: https://optimistfi.com/perps/data
+  category: Cryptocurrency
+link_status: alive
+data_license: proprietary (ToS section 5)
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+attribution_text: Attribution to OptimistFi
+api_terms_url: https://optimistfi.com/terms
+evidence:
+- field: attribution_required
+  url: https://optimistfi.com/terms
+  quote: You may use what they return in your own work, with attribution to OptimistFi.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://optimistfi.com/terms
+  quote: Reselling it as a dataset, and any other automated or programmatic access, needs a partner agreement.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://optimistfi.com/terms
+  quote: do not scrape or resell the output at scale
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://optimistfi.com/terms
+  quote: Reselling it as a dataset, and any other automated or programmatic access, needs a partner agreement.
+  checked_at: '2026-11-21'
+notes: 'ToS section 5: the Perps Data API may be used "in your own work" with attribution; no explicit
+  commercial/ads statement; resale as a dataset and scraping at scale need a partner agreement. Caching
+  not addressed. Aggregates funding/OI from 47 venues (listed on its sources page, not read): upstream
+  venue terms may be stricter. Live API free no key; hourly history needs a key.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read ToS s5 and the data page: no explicit commercial/ads/caching statement; attribution
+  to OptimistFi required; venue sources page not found readable. Stands (yellow, low confidence).'

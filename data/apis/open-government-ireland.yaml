@@ -1,0 +1,68 @@
+id: open-government-ireland
+name: Open Government, Ireland
+url: https://data.gov.ie/pages/developers
+category: Government
+description: Ireland Government Open Data
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Open Government, Ireland
+  url: https://data.gov.ie/pages/developers
+  category: Government
+link_status: alive
+data_license: CC-BY-4.0 (minimum licence for datasets; CC0 possible)
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://data.gov.ie/pages/opendatalicence
+api_terms_url: https://data.gov.ie/pages/developers
+commercial_use_scope: any
+attribution_text: Contains Irish Public Sector Data licensed under a Creative Commons Attribution 4.0
+  International (CC BY 4.0) licence
+share_alike: unknown
+evidence:
+- field: data_license
+  url: https://data.gov.ie/pages/opendatalicence
+  quote: All data and metadata linked to data.gov.ie will be associated with the Creative Commons Attribution
+    (CC-BY) Licence , at a minimum.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://data.gov.ie/pages/opendatalicence
+  quote: This licence lets others distribute, remix, tweak, and build upon data, even commercially, as
+    long as they credit the originator
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://data.gov.ie/pages/opendatalicence
+  quote: This licence lets others distribute, remix, tweak, and build upon data, even commercially, as
+    long as they credit the originator
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://data.gov.ie/pages/opendatalicence
+  quote: This licence lets others distribute, remix, tweak, and build upon data, even commercially, as
+    long as they credit the originator
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://data.gov.ie/pages/opendatalicence
+  quote: users must acknowledge the source of the Information in their product or application.
+  checked_at: '2026-11-21'
+notes: 'Read the portal''s Open Data Licence page and Developer Resources page (CKAN API, free to use,
+  reuse, redistribute). Policy: all data and metadata on data.gov.ie carry CC BY at minimum (public bodies
+  may use CC0); attribution statement provided. Caveat: datasets with another licence may temporarily
+  be linked if the publisher commits to move to the standard licence, so check each dataset''s licence.
+  No API rate limits read.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: CC BY minimum policy verified, but CKAN facets show ~73 of 23103 datasets NC/ND-type
+  licences (cc-by-nc-nd 53, cc-by-nc 13, cc-by-nc-sa 6). Check per dataset.
+license_scope: portal-default

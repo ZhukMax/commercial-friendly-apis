@@ -1,0 +1,68 @@
+id: luchtmeetnet
+name: Luchtmeetnet
+url: https://api-docs.luchtmeetnet.nl/
+category: Environment
+description: Predicted and actual air quality components for The Netherlands (RIVM)
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Luchtmeetnet
+  url: https://api-docs.luchtmeetnet.nl/
+  category: Environment
+link_status: alive
+data_license: CC-BY-ND-4.0
+commercial_use: 'yes'
+storage_caching: ambiguous
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://creativecommons.org/licenses/by-nd/4.0/
+api_terms_url: https://www.luchtmeetnet.nl/informatie/download-data/open-data
+commercial_use_scope: any
+attribution_text: 'Source: www.luchtmeetnet.nl'
+rate_limits: 100 requests per 5 minutes; fair use policy
+evidence:
+- field: data_license
+  url: https://www.luchtmeetnet.nl/informatie/download-data/open-data
+  quote: Op de data beschikbaar gesteld via www.luchtmeetnet.nl is de licentie Naamsvermelding-GeenAfgeleideWerken
+    4.0 Internationaal (CC BY-ND 4.0) van toepassing.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://creativecommons.org/licenses/by-nd/4.0/
+  quote: copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://creativecommons.org/licenses/by-nd/4.0/
+  quote: copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.luchtmeetnet.nl/informatie/download-data/open-data
+  quote: Bij hergebruik van de inhoud van de datasets is bronvermelding (www.luchtmeetnet.nl) verplicht.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://www.luchtmeetnet.nl/informatie/download-data/open-data
+  quote: Het opvragen van data wordt gelimiteerd tot maximaal 100 verzoeken per 5 minuten.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://creativecommons.org/licenses/by-nd/4.0/
+  quote: If you remix, transform, or build upon the material, you may not distribute the modified material.
+  checked_at: '2026-11-21'
+notes: 'Read the Luchtmeetnet open-data page (Dutch; also read via the Postman API docs, which point to
+  it) and the CC BY-ND 4.0 deed. Data is CC BY-ND: commercial use and verbatim sharing allowed with source
+  credit, but NoDerivatives forbids adapted/transformed versions, so storage/processing is ambiguous (yellow).
+  The page also says availability is not guaranteed, data are unvalidated hourly values and a fair use
+  policy applies. Quotes from the open-data page are in Dutch; pages are JS-rendered (read via Playwright).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Verified via Playwright. Page also asks that apps use realtime data from the site and
+  that citation must not imply endorsement. Storage of verbatim values is not forbidden by ND, but derived
+  products (averages, indices) are a grey area, so storage_caching ambiguous stands.

@@ -1,0 +1,26 @@
+id: mozilla-http-scanner
+name: Mozilla http scanner
+url: https://github.com/mozilla/http-observatory/blob/master/httpobs/docs/api.md
+category: Security
+description: Mozilla observatory http scanner
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Mozilla http scanner
+  url: https://github.com/mozilla/http-observatory/blob/master/httpobs/docs/api.md
+  category: Security
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://github.com/mozilla/http-observatory/blob/main/httpobs/docs/api.md

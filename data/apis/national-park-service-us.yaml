@@ -1,0 +1,74 @@
+id: national-park-service-us
+name: National Park Service, US
+url: https://www.nps.gov/subjects/developer/
+category: Government
+description: Data from the US National Park Service
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: National Park Service, US
+  url: https://www.nps.gov/subjects/developer/
+  category: Government
+link_status: redirect
+data_license: public-domain (generally; NPS disclaimer)
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: -> https://www.nps.gov/subjects/developer/index.htm
+data_license_url: https://www.nps.gov/aboutus/disclaimer.htm
+api_terms_url: https://www.nps.gov/subjects/developer/
+commercial_use_scope: any
+notes: Read the NPS website Disclaimer (ownership section) via curl. NPS-created material is generally
+  public domain "unless otherwise indicated"; some content (third-party photos, NPS Arrowhead and other
+  marks) is not. Commercial republication needs a notice referencing the original U.S. Government work.
+  API-specific terms (rate limits, key terms) were not found on the developer pages read, so confidence
+  is medium; check per-item credits for third-party media.
+evidence:
+- field: data_license
+  url: https://www.nps.gov/aboutus/disclaimer.htm
+  quote: unless otherwise indicated, is generally considered in the public domain. It may be distributed
+    or copied as permitted by applicable law.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.nps.gov/aboutus/disclaimer.htm
+  quote: unless otherwise indicated, is generally considered in the public domain. It may be distributed
+    or copied as permitted by applicable law.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.nps.gov/aboutus/disclaimer.htm
+  quote: unless otherwise indicated, is generally considered in the public domain. It may be distributed
+    or copied as permitted by applicable law.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.nps.gov/aboutus/disclaimer.htm
+  quote: published or republished commercially, in part or in full, the copyright notice must include
+    a reference to the original U.S. Government work
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.nps.gov/aboutus/disclaimer.htm
+  quote: a citation or acknowledgement of the National Park Service as the source is appreciated
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.nps.gov/aboutus/disclaimer.htm
+  quote: published or republished commercially, in part or in full, the copyright notice must include
+    a reference to the original U.S. Government work
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+share_alike: unknown
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Disclaimer requires a US Government work notice when NPS material is published commercially;
+  First pass set attribution_required=no | applied: attribution_required=yes'
+verdict_override: yellow
+override_reason: 'Second check: Disclaimer requires a US Government work notice when NPS material is published
+  commercially; First pass set attribution_required=no'

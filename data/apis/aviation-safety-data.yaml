@@ -1,0 +1,61 @@
+id: aviation-safety-data
+name: Aviation Safety Data
+url: https://himaxym.com/developers
+category: Transportation
+description: 164,068 aircraft accident narratives from 128 official investigation authorities, plus FAA
+  data
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Aviation Safety Data
+  url: https://himaxym.com/developers
+  category: Transportation
+link_status: alive
+data_license: mixed per-source licences (e.g. NTSB public domain, ATSB CC BY 4.0, UK OGL v3.0; some sources
+  excerpt-only or non-commercial)
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://himaxym.com/developers
+rate_limits: Keyless 100/day per IP; free key 1,000/day; Pro 20,000/day ($49/month)
+evidence:
+- field: attribution_required
+  url: https://himaxym.com/developers
+  quote: anything you display or publish must show visible attribution with a link to the original source
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://himaxym.com/developers
+  quote: internal use, applications and research are permitted, open-web republication is forbidden
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://himaxym.com/developers
+  quote: Excerpts stay excerpts.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://himaxym.com/developers
+  quote: Government of Canada non-commercial reproduction terms
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://himaxym.com/developers
+  quote: every GET data endpoint answers at the keyless tier, 100 requests a day per IP
+  checked_at: '2026-11-21'
+notes: Read the developer page's Terms of use and per-source licence table (130 sources). Attribution
+  with link is mandatory. Narratives follow each source's licence (full text for open licences, ~300-char
+  excerpt otherwise; e.g. TSB Canada is under non-commercial reproduction terms). The permission for 'internal
+  use, applications' is stated for the Pro tier; free-tier commercial use and storage are not stated,
+  so ambiguous/unknown. Open-web republication is forbidden for derived articles.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read developer page terms and source table: attribution mandatory, TSB Canada non-commercial,
+  excerpts only for many sources. Ambiguity genuine; yellow stands.'

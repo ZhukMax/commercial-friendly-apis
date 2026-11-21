@@ -1,0 +1,40 @@
+id: matchwire-win
+name: matchwire.win
+url: https://matchwire.win/docs/
+category: Finance
+description: Matched prediction-market games across Kalshi, Polymarket US/Intl and Predict.fun
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: matchwire.win
+  url: https://matchwire.win/docs/
+  category: Finance
+link_status: alive
+data_license: unknown
+commercial_use: paid-only
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://matchwire.win/terms
+commercial_use_scope: paid
+notes: 'Terms page is short: personal plans (Starter/Growth/Pro) cover one individual trading their own account; companies, resale or any use serving others need a commercial licence (contact sales, terms
+  not published). Service only maps game IDs across Kalshi/Polymarket/Predict.fun (no prices); upstream venue terms apply and were not checked. Storage/display/attribution not addressed.'
+evidence:
+- field: commercial_use
+  url: https://matchwire.win/terms/
+  quote: Commercial license is required for companies, funds, resale, or any use that serves others.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://matchwire.win/terms/
+  quote: personal plans are for individuals; businesses need a commercial license.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

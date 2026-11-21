@@ -1,0 +1,48 @@
+id: rig-veda
+name: Rig Veda
+url: https://aninditabasu.github.io/indica/
+category: Books
+description: Gods and poets, their categories, and the verse meters, with the mandal and sukta number
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-api-lists
+  name: Rig Veda
+  url: https://aninditabasu.github.io/indica/
+  category: Books
+link_status: alive
+data_license: CC-BY-NC-4.0
+commercial_use: 'no'
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: high
+link_checked_at: '2026-11-21'
+data_license_url: https://aninditabasu.github.io/indica/
+api_terms_url: https://aninditabasu.github.io/indica/
+commercial_use_scope: any
+attribution_text: Indica is a curated reference dataset and API created by Anindita Basu (link to the documentation)
+share_alike: unknown
+rate_limits: Free Render tier, not tracked; time limits apply
+evidence:
+- field: data_license
+  url: https://aninditabasu.github.io/indica/
+  quote: The Indica dataset is licensed under CC BY-NC 4.0.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://aninditabasu.github.io/indica/
+  quote: Commercial reuse requires permission.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://aninditabasu.github.io/indica/
+  quote: When using Indica in your own projects, please use the following attribution note
+  checked_at: '2026-11-21'
+notes: Read the Indica documentation page (licence, attribution, rate limits). Dataset is NonCommercial; commercial reuse needs the author's permission (red unless permission is obtained). Documentation
+  itself is CC BY 4.0. Hosted on a free Render tier (may be slow/unavailable).
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

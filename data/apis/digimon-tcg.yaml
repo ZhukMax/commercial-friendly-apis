@@ -1,0 +1,25 @@
+id: digimon-tcg
+name: Digimon TCG
+url: https://documenter.getpostman.com/view/14059948/TzecB4fH
+category: Games & Comics
+description: Search for Digimon cards in digimoncard.io
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Digimon TCG
+  url: https://documenter.getpostman.com/view/14059948/TzecB4fH
+  category: Games & Comics
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

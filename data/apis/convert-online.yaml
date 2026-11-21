@@ -1,0 +1,25 @@
+id: convert-online
+name: Convert Online
+url: https://convert.online/api-docs
+category: Documents & Productivity
+description: Online file converter for image, video, audio, document, ebook, font, archive and CAD formats
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Convert Online
+  url: https://convert.online/api-docs
+  category: Documents & Productivity
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

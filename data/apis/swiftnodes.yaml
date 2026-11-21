@@ -1,0 +1,35 @@
+id: swiftnodes
+name: SwiftNodes
+url: https://swiftnodes.io
+category: Blockchain
+description: Multi-chain blockchain RPC nodes (Ethereum, Solana and 75+ networks)
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: SwiftNodes
+  url: https://swiftnodes.io
+  category: Blockchain
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://swiftnodes.io/docs/terms-of-service
+evidence: []
+notes: 'Read https://swiftnodes.io/docs/terms-of-service (short): only prohibits reselling the service
+  without authorization and circumventing rate limits; no statement on commercial use, caching or display
+  of data. RPC node provider, not a dataset.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

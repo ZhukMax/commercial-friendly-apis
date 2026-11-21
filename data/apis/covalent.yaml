@@ -1,0 +1,43 @@
+id: covalent
+name: Covalent
+url: https://www.covalenthq.com/docs/
+category: Blockchain
+description: Multi-blockchain data aggregator platform
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Covalent
+  url: https://www.covalenthq.com/docs/
+  category: Blockchain
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://www.covalenthq.com/docs/introduction
+api_terms_url: https://goldrush.dev/terms-of-use/
+evidence:
+- field: redistribution_display
+  url: https://goldrush.dev/terms-of-use/
+  quote: Reproduce, rearrange, modify, change, alter, decompile, reverse engineer, translate, create derivative
+    works from, display, perform, publish, or distribute the Service
+  checked_at: '2026-11-21'
+notes: 'Covalent (API now branded GoldRush, same company: Terms of Use are issued by Covalent and name
+  covalenthq.com). Read https://goldrush.dev/terms-of-use/ (last updated Sept 2024). It is a generic site/service
+  ToU: no statement on commercial use, caching or attribution of returned blockchain data; it bars displaying/publishing/distributing
+  "the Service" (ambiguous whether that covers API data) and reselling access. Pricing/commercial plan
+  pages and any separate API terms not read. Docs redirect read only for link status.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Quote in first pass verified exact on goldrush.dev/terms-of-use/.

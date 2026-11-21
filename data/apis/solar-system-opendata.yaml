@@ -1,0 +1,29 @@
+id: solar-system-opendata
+name: Solar System OpenData
+url: https://api.le-systeme-solaire.net
+category: Science & Math
+description: Data and facts on solar system bodies and planets
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Solar System OpenData
+  url: https://api.le-systeme-solaire.net
+  category: Science & Math
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+notes: Docs and the free key sign-up page read. A free bearer token is now mandatory (auth changed from none to apiKey; 'token and access keep free'). Site footer says 'Copyright (c) 2019- All rights reserved'
+  and there is no terms, licence or attribution page; data sources are not stated. All terms fields unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

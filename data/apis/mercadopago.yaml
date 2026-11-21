@@ -1,0 +1,59 @@
+id: mercadopago
+name: MercadoPago
+url: https://www.mercadopago.com.br/developers/es/reference
+category: Finance
+description: Mercado Pago API reference - all the information you need to develop your integrations
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: MercadoPago
+  url: https://www.mercadopago.com.br/developers/es/reference
+  category: Finance
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: limited
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.mercadopago.com.br/developers/es/docs/resources/legal/terms-and-conditions
+commercial_use_scope: any
+cache_limit: Only limited intermediate copies, deleted when no longer needed
+notes: Payments API for integrating Mercado Pago, not a data feed. Developer Terms (PT, last modified
+  2024-08-14; read via the es docs link) grant a limited, revocable licence for listed purposes; copies
+  limited and to be deleted; content displayable only inside the Application while public and not mixed
+  with third-party content. Commercial use is not stated either way; ambiguous. Not suited to a content/affiliate
+  site scenario.
+evidence:
+- field: commercial_use
+  url: https://www.mercadopago.com.br/developers/es/docs/resources/legal/terms-and-conditions
+  quote: uma licença limitada, não exclusiva, pessoal, revogável e não transferível de uso da API, apenas
+    para os fins listados abaixo
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.mercadopago.com.br/developers/es/docs/resources/legal/terms-and-conditions
+  quote: Realizar uma quantidade limitada de cópias intermediárias do Conteúdo do Mercado Pago apenas
+    na medida do estritamente necessário
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.mercadopago.com.br/developers/es/docs/resources/legal/terms-and-conditions
+  quote: Os Desenvolvedores somente poderão exibir o Conteúdo do Mercado Pago dentro do Aplicativo durante
+    o período em que esse conteúdo for disponibilizado ao público.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Also 7.2.D bars commercialising/copying/storing Mercado Pago Content beyond permitted
+  purposes and 7.2.C bars links to Content from outside the Application. Payments API, not a content feed;
+  stays yellow.
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

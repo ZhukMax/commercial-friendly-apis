@@ -1,0 +1,62 @@
+id: icon-horse
+name: Icon Horse
+url: https://icon.horse
+category: Art & Design
+description: Favicons for any website, with fallbacks
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Icon Horse
+  url: https://icon.horse
+  category: Art & Design
+link_status: alive
+data_license: none granted (logos/favicons belong to their owners)
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://icon.horse/privacy.html
+commercial_use_scope: any
+share_alike: unknown
+rate_limits: About 60/min per IP for icons and pages, 20/min for /api/icons, 5/min for /refresh (edge
+  cache hits not counted)
+notes: 'Read home page, API docs and the ''Privacy and terms'' page (short terms paragraph at the end).
+  The service is free with no key and no non-commercial clause, but says nothing explicit about commercial
+  use or storing results, and states that logos/icons are not licensed to the user: use only as trademark
+  law allows (e.g. to refer to a company or product). So commercial use and display depend on the rights
+  of each icon''s owner; the service only fetches and resizes. Docs say results are cached at the edge
+  for 1 day and recommend nothing on local storage. Sources: the site''s own icon tags/manifest, Wikidata
+  and Wikimedia Commons for name lookups (their licences not checked).'
+evidence:
+- field: commercial_use
+  url: https://icon.horse/privacy.html
+  quote: The service is free and comes as is, with no warranty or uptime guarantee.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://icon.horse/privacy.html
+  quote: Logos and icons belong to their owners. Icon Horse finds and resizes them. It does not license
+    them to you.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://icon.horse/docs.html
+  quote: 'Requests that reach the origin are rate-limited per IP: about 60 per minute for icons and pages'
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://icon.horse/privacy.html
+  quote: Logos and icons belong to their owners.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read privacy/terms page: ''Logos and icons belong to their owners. Icon Horse finds
+  and resizes them. It does not license them to you.'' Free, no ads/accounts. Use limited to what trademark
+  law allows. ambiguous stands.'

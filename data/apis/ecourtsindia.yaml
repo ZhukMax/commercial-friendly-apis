@@ -1,0 +1,29 @@
+id: ecourtsindia
+name: eCourtsIndia
+url: https://ecourtsindia.com/api
+category: Government
+description: Indian court case status, judgments, and hearing schedule API
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: eCourtsIndia
+  url: https://ecourtsindia.com/api
+  category: Government
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+notes: Only the marketing/API overview page was readable. The Terms of Service page (ecourtsindia.com/terms) is behind a bot check ("Checking that you are human"), which was not bypassed, so no terms were
+  read. Data is Indian court records plus AI-generated summaries; licensing of court data is unaddressed on pages read. All terms fields left unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -1,0 +1,30 @@
+id: nigeria-paye
+name: Nigeria PAYE
+url: https://www.orionsoftlimited.com/developers
+category: Finance
+description: Nigerian income tax (PAYE) and take-home pay under the Nigeria Tax Act 2025
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Nigeria PAYE
+  url: https://www.orionsoftlimited.com/developers
+  category: Finance
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+notes: 'Read the developer page (free, no key, 60 requests/min) and the site Terms of Service via Playwright (fresh context): they cover only website use and service inquiries, nothing about the API. No
+  licence found. Fields unknown.'
+evidence: []
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

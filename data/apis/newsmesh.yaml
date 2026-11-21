@@ -1,0 +1,54 @@
+id: newsmesh
+name: NewsMesh
+url: https://newsmesh.co/docs
+category: News
+description: Premium news data from thousands of sources
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: NewsMesh
+  url: https://newsmesh.co/docs
+  category: News
+link_status: alive
+data_license: unknown
+commercial_use: paid-only
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://newsmesh.co/terms
+commercial_use_scope: paid
+rate_limits: Free 25 requests/day (dev/test only); Starter 5,000/month; Growth 75,000/month; Pro 250,000/month
+evidence:
+- field: commercial_use
+  url: https://newsmesh.co/terms
+  quote: The Starter, Growth and Pro plans, and enterprise agreements, include commercial use rights.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://newsmesh.co/terms
+  quote: The Free plan does not include commercial use rights and is limited to development and testing
+    as described above.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://newsmesh.co/terms
+  quote: resell or redistribute the API data without authorization
+  checked_at: '2026-11-21'
+notes: 'Terms (newsmesh.co/terms): Free plan is dev/testing only, not for production or end-user-facing
+  use; paid plans include commercial use rights (revenue-generating products, directly or indirectly).
+  Acceptable use forbids reselling or redistributing API data without authorization; showing articles
+  on a public site is not addressed explicitly, hence redistribution_display=ambiguous. Caching/storage
+  and attribution are not addressed: unknown. The pricing page feature list shows Commercial use on the
+  Free card but its FAQ and the Terms say Free excludes it (Terms followed). News aggregator of publisher
+  articles: upstream publisher rights may be stricter.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read terms; unchanged.

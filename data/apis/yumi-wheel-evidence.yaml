@@ -1,0 +1,25 @@
+id: yumi-wheel-evidence
+name: Yumi Wheel Evidence
+url: https://noqt.no-qt.chatgpt.site/yumi/wheel-evidence
+category: Development
+description: Intersect wheel tags for explicit PyPI releases with caller-supplied tags
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Yumi Wheel Evidence
+  url: https://noqt.no-qt.chatgpt.site/yumi/wheel-evidence
+  category: Development
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

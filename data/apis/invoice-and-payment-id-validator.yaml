@@ -1,0 +1,30 @@
+id: invoice-and-payment-id-validator
+name: Invoice & Payment ID Validator
+url: https://rapidapi.com/MohamedBahaa/api/invoice-payment-id-validator
+category: Finance
+description: Validate IBAN, BIC, EU VAT (live VIES), UK VAT and EIN, with a pay/review/hold payee check
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Invoice & Payment ID Validator
+  url: https://rapidapi.com/MohamedBahaa/api/invoice-payment-id-validator
+  category: Finance
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://rapidapi.com/terms
+notes: Listed on RapidAPI. The listing page shows no provider-specific terms or licence; RapidAPI's marketplace terms (read) say use of each API is governed by the provider's own terms and the
+  chosen subscription plan, which were not found. Validation service; EU VAT checks use live VIES (EU Commission), upstream terms not read. All core fields unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

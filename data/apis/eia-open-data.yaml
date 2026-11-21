@@ -1,0 +1,63 @@
+id: eia-open-data
+name: EIA Open Data
+url: https://www.eia.gov/opendata/
+category: Environment
+description: 'US energy statistics: electricity, petroleum, gas'
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: EIA Open Data
+  url: https://www.eia.gov/opendata/
+  category: Environment
+link_status: alive
+data_license: public-domain (US government work)
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.eia.gov/opendata/terms-of-service.php
+commercial_use_scope: any
+attribution_text: 'Source: U.S. Energy Information Administration (date); do not imply EIA endorsement'
+evidence:
+- field: data_license
+  url: https://www.eia.gov/about/copyrights_reuse.php
+  quote: U.S. government publications are in the public domain and are not subject to copyright protection.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.eia.gov/about/copyrights_reuse.php
+  quote: You may use and/or distribute any of our data, files, databases, reports, graphs, charts, and
+    other information products
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.eia.gov/about/copyrights_reuse.php
+  quote: You may use and/or distribute any of our data, files, databases, reports, graphs, charts, and
+    other information products
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.eia.gov/about/copyrights_reuse.php
+  quote: You may use and/or distribute any of our data, files, databases, reports, graphs, charts, and
+    other information products
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.eia.gov/about/copyrights_reuse.php
+  quote: if you use or reproduce any of our information products, you should use an acknowledgment
+  checked_at: '2026-11-21'
+notes: 'Read EIA Copyrights and Reuse page, the API page and the API Terms of Service (/opendata/terms-of-service.php).
+  Data is public domain; acknowledgment is "should", not a hard requirement. API ToS: must not modify
+  content while claiming EIA as source, must not use the EIA logo or imply endorsement, access limits
+  may apply; free API key registration is required. Some site material is third-party protected, not part
+  of the API data as far as seen. Commercial use is not stated word for word; inferred from public domain
+  plus the unrestricted "use and/or distribute" sentence, hence medium.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Free API key required; access limits may apply; commercial not stated word for word.

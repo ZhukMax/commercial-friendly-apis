@@ -1,0 +1,26 @@
+id: brainshop-ai
+name: Brainshop.ai
+url: https://brainshop.ai/
+category: Development
+description: Make A Free A.I Brain
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Brainshop.ai
+  url: https://brainshop.ai/
+  category: Development
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: HTTP 403 (blocked for bots, assumed alive)

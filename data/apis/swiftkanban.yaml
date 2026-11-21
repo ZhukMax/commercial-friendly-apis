@@ -1,0 +1,35 @@
+id: swiftkanban
+name: SwiftKanban
+url: https://www.digite.com/knowledge-base/swiftkanban/article/api-for-swift-kanban-web-services/
+category: Business
+description: Kanban software, Visualize Work, Increase Organizations Lead Time, Throughput & Productivity
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: SwiftKanban
+  url: https://www.digite.com/knowledge-base/swiftkanban/article/api-for-swift-kanban-web-services/#restapi
+  category: Business
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://www.nimblework.com/knowledge-base/swiftkanban/
+notes: Only the redirect target (nimblework.com knowledge base) was reachable; nimblework.com terms pages
+  returned 403 to curl and timed out in the browser, so no terms were read. Per-account project-management
+  API; all unknown.
+evidence: []
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

@@ -1,0 +1,41 @@
+id: collegescorecard-ed-gov
+name: CollegeScoreCard.ed.gov
+url: https://collegescorecard.ed.gov/data/
+category: Open Data
+description: Data on higher education institutions in the United States
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: CollegeScoreCard.ed.gov
+  url: https://collegescorecard.ed.gov/data/
+  category: Open Data
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: 'yes'
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://collegescorecard.ed.gov/data/api-documentation/
+rate_limits: 1,000 requests per IP address per hour (default); increase on request
+evidence:
+- field: rate_limits
+  url: https://collegescorecard.ed.gov/data/api-documentation/
+  quote: The default rate limit is 1,000 requests per IP address per hour .
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://collegescorecard.ed.gov/data/
+  quote: Download the data that appear on the College Scorecard, as well as supporting data on student completion, debt and repayment, earnings, and more.
+  checked_at: '2026-11-21'
+notes: Read the API documentation and the data download page of collegescorecard.ed.gov; neither states a licence, terms of use or reuse conditions. ed.gov website-policies pages returned HTTP 403 to curl
+  and were not bypassed; api.data.gov /terms is 404. US federal data is often public domain but nothing was read in this session, so all terms stay unknown. API now requires a free api.data.gov key (auth
+  corrected from none to apiKey). Bulk CSV/zip downloads (~536 MB) are offered.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -1,0 +1,30 @@
+id: cryptingup
+name: CryptingUp
+url: https://www.cryptingup.com/apidoc/
+category: Cryptocurrency
+description: Cryptocurrency data
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: CryptingUp
+  url: https://www.cryptingup.com/apidoc/#introduction
+  category: Cryptocurrency
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: high
+link_checked_at: '2026-11-21'
+link_note: cryptingup.com redirects (302) to hugedomains.com domain sale page; service appears gone
+evidence: []
+notes: Domain cryptingup.com now redirects to a HugeDomains for-sale page (verified with curl). No terms available; all terms unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -1,0 +1,25 @@
+id: pok-sprite
+name: PokéSprite
+url: https://msikma.github.io/pokesprite/
+category: Games & Comics
+description: Database of Pokémon sprites and icons
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: PokéSprite
+  url: https://msikma.github.io/pokesprite/
+  category: Games & Comics
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

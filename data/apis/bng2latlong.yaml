@@ -1,0 +1,66 @@
+id: bng2latlong
+name: bng2latlong
+url: https://www.getthedata.com/bng2latlong
+category: Geocoding
+description: Convert British OSGB36 easting and northing (British National Grid) to WGS84 latitude and
+  longitude
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: bng2latlong
+  url: https://www.getthedata.com/bng2latlong
+  category: Geocoding
+- list: public-api-lists
+  name: bng2latlong
+  url: https://www.getthedata.com/bng2latlong
+  category: Geocoding
+link_status: alive
+data_license: Free to use for any purpose (per API page; no formal licence id)
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'no'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://www.getthedata.com/bng2latlong
+api_terms_url: https://www.getthedata.com/bng2latlong
+commercial_use_scope: any
+attribution_text: 'Optional: a credit and a link back to https://www.getthedata.com/bng2latlong'
+share_alike: unknown
+notes: Only the API page itself was read (Licence section); /terms and /open-data return no content, no
+  separate ToS found (only /privacy). The licence is one informal sentence on a coordinate-conversion
+  endpoint (OS grid to lat/long, output derived from caller input), so storage/display are inferred from
+  "any purpose"; medium confidence. No rate limits stated.
+evidence:
+- field: commercial_use
+  url: https://www.getthedata.com/bng2latlong
+  quote: Free to use for any purpose.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.getthedata.com/bng2latlong
+  quote: Free to use for any purpose.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.getthedata.com/bng2latlong
+  quote: Free to use for any purpose.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.getthedata.com/bng2latlong
+  quote: A credit and a link back to this page would be appreciated, but not required.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.getthedata.com/bng2latlong
+  quote: Free to use for any purpose.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Informal licence only; no ToS exists (404). No upstream data involved because output
+  is computed from the request.

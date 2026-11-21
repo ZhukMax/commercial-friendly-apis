@@ -1,0 +1,25 @@
+id: google-pagespeed-insights
+name: Google PageSpeed Insights
+url: https://developers.google.com/speed/docs/insights/v5/get-started
+category: Development
+description: Website performance and Lighthouse audit scores
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Google PageSpeed Insights
+  url: https://developers.google.com/speed/docs/insights/v5/get-started
+  category: Development
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

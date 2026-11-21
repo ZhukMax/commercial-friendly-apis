@@ -1,0 +1,69 @@
+id: touchline-wire
+name: Touchline Wire
+url: https://touchlinewire.com/docs
+category: Sports & Fitness
+description: Premier League predicted starting lineups, tactics, injuries, and standings
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Touchline Wire
+  url: https://touchlinewire.com/docs
+  category: Sports & Fitness
+link_status: alive
+data_license: Proprietary (free-use policy with attribution request; no formal licence)
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://touchlinewire.com/terms
+commercial_use_scope: any
+attribution_text: Tactical Data by Touchline Wire (visible link to https://touchlinewire.com)
+share_alike: unknown
+rate_limits: Unauthenticated; must respect HTTP rate limits, caching headers and robots.txt
+notes: Read /terms (Nov 2026) and /docs. Docs say the API is free for personal, hobbyist, academic and
+  open-source projects; neither page mentions commercial/ads/affiliate use, so commercial_use is ambiguous
+  (not read as a ban). ToS permits querying the public API/MCP provided Touchline Wire is cited as source
+  when reproducing insights, bans DoS, proxy-allowlist bypass and republishing the whole platform as a
+  competing mirror. Storage/caching not addressed (only 'respect caching headers'). Homepage states stats
+  use 'API-Sports Pro' data and lineups/injuries/rumours come from live feeds, press conferences and news
+  outlets, so upstream (API-Sports, league, publisher) terms may be stricter. Site disclaims any affiliation
+  with the Premier League/clubs; club names are fair-use identifiers.
+evidence:
+- field: commercial_use
+  url: https://touchlinewire.com/docs
+  quote: The Touchline Wire Tactical API is 100% free for personal, hobbyist, academic, and open-source
+    projects.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://touchlinewire.com/terms
+  quote: provided they cite Touchline Wire (https://touchlinewire.com) as the source when reproducing
+    insights or projections.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://touchlinewire.com/docs
+  quote: we ask that you include a visible attribution link back to https://touchlinewire.com in your
+    application UI, GitHub README, or website footer.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://touchlinewire.com/terms
+  quote: republication of our entire platform as a competing mirror is prohibited.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://touchlinewire.com/terms
+  quote: Touchline Wire is an independent, 100% free and open-access Premier League & European football
+    matchday intelligence
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read /terms and /docs. No blocker, no explicit commercial grant. Upstream API-Sports/press
+  terms unread (api-football.com/terms unreadable via curl); may be stricter. Ambiguous stays.

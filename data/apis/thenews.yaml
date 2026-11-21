@@ -1,0 +1,46 @@
+id: thenews
+name: TheNews
+url: https://www.thenewsapi.com/
+category: News
+description: Aggregated headlines, top story and live news JSON API
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: TheNews
+  url: https://www.thenewsapi.com/
+  category: News
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.thenewsapi.com/tos
+commercial_use_scope: any
+evidence:
+- field: commercial_use
+  url: https://www.thenewsapi.com/tos
+  quote: The Site may not be used in connection with any commercial endeavors except those that are specifically
+    endorsed or approved by us.
+  checked_at: '2026-11-21'
+notes: 'Only a generic website Terms of Use exists (thenewsapi.com/tos, identical template to Marketaux,
+  same vendor family); it bars use of the Site for commercial endeavors unless endorsed or approved, but
+  says nothing about API data, caching, display or attribution. Pricing page lists a Free plan (100 requests/day,
+  3 articles/request) and paid plans with no licence-scope wording; documentation has no terms. So commercial_use=ambiguous,
+  rest unknown. News aggregator: publishers own the articles and upstream terms may be stricter. Ask for
+  written confirmation before commercial use.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read /tos and pricing: ''may not be used in connection with any commercial endeavors
+  except those ... endorsed or approved by us''; applies to the Site, API not covered; pricing has no
+  licence scope. Stands (ambiguous, yellow, low).'

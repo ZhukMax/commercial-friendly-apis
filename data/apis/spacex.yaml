@@ -1,0 +1,45 @@
+id: spacex
+name: SpaceX
+url: https://github.com/r-spacex/SpaceX-API
+category: Science & Math
+description: Company, vehicle, launchpad and launch data
+description_source: upstream
+auth: none
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: SpaceX
+  url: https://github.com/r-spacex/SpaceX-API
+  category: Science & Math
+- list: public-api-lists
+  name: SpaceX
+  url: https://github.com/r-spacex/SpaceX-API
+  category: Science & Math
+- list: public-apis
+  name: SpaceX
+  url: https://api.spacex.land/graphql/
+  category: Science & Math
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: GitHub repo r-spacex/SpaceX-API was archived by its owner on 2026-06-06; the public host api.spacexdata.com
+  returned HTTP 522 on 2026-11-21.
+evidence: []
+notes: 'Repo read: Apache-2.0 licence covers the API source code, not the launch data, and the README
+  states no affiliation with SpaceX. No terms of service or data licence for the hosted API or its data
+  were found; data is community-compiled from third-party sources (Wikipedia, press kits, images from
+  Flickr), so upstream rights may be stricter. Repo archived and hosted API not responding at check time
+  (likely down, not proven dead). Left unknown. Merged duplicate entry `spacex-api`.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+aliases:
+- spacex-api

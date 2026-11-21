@@ -1,0 +1,63 @@
+id: wealthville
+name: WealthVille
+url: https://wealthville.net/developers
+category: Cryptocurrency
+description: Liquidity pool scores and Enter/Hold/Exit verdicts for Solana and EVM chains
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: WealthVille
+  url: https://wealthville.net/developers
+  category: Cryptocurrency
+link_status: alive
+data_license: unknown
+commercial_use: 'yes'
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://wealthville.net/developers
+commercial_use_scope: any
+attribution_text: Link to wealthville.net where scores are displayed
+rate_limits: 60 requests/min per IP anonymous; free partner keys raise limit
+evidence:
+- field: commercial_use
+  url: https://wealthville.net/developers
+  quote: The data is free for both commercial and non-commercial use with attribution
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://wealthville.net/developers
+  quote: The data is free for both commercial and non-commercial use with attribution
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://wealthville.net/developers
+  quote: link to wealthville.net where scores are displayed
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://wealthville.net/terms
+  quote: You may not copy or redistribute our content without permission.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://wealthville.net/developers
+  quote: Anonymous access is open at 60 requests/min per IP
+  checked_at: '2026-11-21'
+notes: 'Read https://wealthville.net/developers (Fair use: free for commercial and non-commercial use
+  with attribution; cached reads 5-10 min; no paid API tier) and https://wealthville.net/terms (updated
+  2026-05-29; generic "may not copy or redistribute our content without permission" and bans scraping/misuse
+  of data in violation of the Terms). Dev page says scores can be displayed with a link, but the ToS clause
+  on redistributing content is broader, hence display ambiguous. Storage/caching not addressed, so verdict
+  stays unknown. Data is derived from Solana/EVM pool and protocol data (third-party data providers);
+  upstream terms not checked.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read both pages via Playwright; commercial_use yes holds. Storage unaddressed so
+  verdict unknown stands.

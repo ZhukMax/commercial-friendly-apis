@@ -1,0 +1,80 @@
+id: iqair
+name: IQAir
+url: https://www.iqair.com/air-pollution-data-api
+category: Environment
+description: Air quality and weather data
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: IQAir
+  url: https://www.iqair.com/air-pollution-data-api
+  category: Environment
+- list: public-api-lists
+  name: AirVisual
+  url: https://airvisual.com/api
+  category: Environment
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: 'no'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: HTTP 429 (blocked for bots, assumed alive)
+api_terms_url: https://www.iqair.com/legal/terms-conditions
+commercial_use_scope: paid
+rate_limits: 'Free Community plan: 5/min, 500/day, 10,000/month'
+evidence:
+- field: commercial_use
+  url: https://www.iqair.com/legal/terms-conditions
+  quote: for any commercial purpose whatsoever, without our express prior written permission
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.iqair.com/legal/terms-conditions
+  quote: for any commercial purpose whatsoever, without our express prior written permission
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://www.iqair.com/air-pollution-data-api
+  quote: Community API plan FREE Call Limits 5/ minute 500/day 10,000/month
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.iqair.com/legal/terms-conditions
+  quote: may be copied, reproduced, aggregated, republished, uploaded, posted, publicly displayed, encoded,
+    translated, transmitted, distributed, sold, licensed, or otherwise exploited for any commercial purpose
+    whatsoever
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.iqair.com/legal/terms-conditions
+  quote: provided in or through the Services "AS IS" for your personal, non-commercial use only.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.iqair.com/legal/terms-conditions
+  quote: may be copied, reproduced, aggregated, republished, uploaded, posted, publicly displayed, encoded,
+    translated, transmitted, distributed, sold, licensed, or otherwise exploited for any commercial purpose
+    whatsoever
+  checked_at: '2026-11-21'
+notes: 'Read IQAir general Terms of Use (https://www.iqair.com/legal/terms-conditions) and the API plans
+  page. The general terms allow only personal, non-commercial use of the Services/Content and forbid copying,
+  republishing or publicly displaying them for commercial purposes without written permission; no separate
+  API licence or developer terms were found (api-docs.iqair.com has none). Plans: free Community (city
+  level), paid Startup/Enterprise "contact us". Whether a paid plan grants commercial display rights is
+  not stated, so commercial_use and display are ambiguous. Same service as the airvisual entry (AirVisual
+  API). Merged duplicate entry `airvisual`.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Only terms found (general Legal Terms, July 2026) forbid public display/republication
+  for any commercial purpose without written permission; No API licence or developer terms exist (API
+  plans page and api-docs.iqair.com have none), so the general terms govern the free Community plan; Marketing
+  page invites integration into apps/websites but gives no licence text | applied: commercial_use=ambiguous
+  (suggested no, needs human review), redistribution_display=no'
+aliases:
+- airvisual

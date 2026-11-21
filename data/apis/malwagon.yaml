@@ -1,0 +1,26 @@
+id: malwagon
+name: Malwagon
+url: https://malwagon.com/docs/api
+category: Anti-Malware
+description: Detonates files and URLs in instrumented VMs and returns behaviour, IOCs and ATT&CK
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Malwagon
+  url: https://malwagon.com/docs/api
+  category: Anti-Malware
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: ConnectError

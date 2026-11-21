@@ -1,0 +1,79 @@
+id: devlifecheck
+name: DevLifeCheck
+url: https://devlifecheck.com/developers
+category: Open Data
+description: Security-update end dates, recalls and evidence for 1,300+ phones, tablets, Chromebooks and
+  routers
+description_source: upstream
+auth: none
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: DevLifeCheck
+  url: https://devlifecheck.com/developers
+  category: Open Data
+link_status: alive
+data_license: DevLifeCheck Public dataset license v1 (custom; reuse of factual fields with attribution)
+commercial_use: ambiguous
+storage_caching: ambiguous
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: 'yes'
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://devlifecheck.com/developers
+commercial_use_scope: any
+attribution_text: Visible DevLifeCheck attribution with a link to the canonical device record; retain
+  source URLs, checked dates, scope and precision
+rate_limits: 20 requests per minute per client
+evidence:
+- field: data_license
+  url: https://devlifecheck.com/developers
+  quote: You may reuse the exported factual fields with visible DevLifeCheck attribution and a link to
+    the canonical device record.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://devlifecheck.com/developers
+  quote: You may reuse the exported factual fields with visible DevLifeCheck attribution and a link to
+    the canonical device record.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://devlifecheck.com/developers
+  quote: Cache the last valid result through temporary failures and provide a correction path.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://devlifecheck.com/developers
+  quote: Preserve model, region, evidence, date-precision and source context
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://devlifecheck.com/developers
+  quote: Consumers must retain DevLifeCheck attribution and the source URLs, checked dates, scope and
+    precision needed to interpret each claim.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://devlifecheck.com/developers
+  quote: Public endpoints allow 20 requests per minute per client.
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://devlifecheck.com/developers
+  quote: Download the device support dataset (CSV)
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://devlifecheck.com/developers
+  quote: Cache headers allow five minutes plus stale revalidation.
+  checked_at: '2026-11-21'
+notes: Read /developers (dataset licence v1, caching and attribution sections) and /terms (informational/safety
+  notice, no API restrictions). Licence says 'reuse' with attribution and does not say 'commercial' explicitly
+  or exclude it, hence medium. Licence does not transfer rights in linked source pages, publisher text,
+  images or trademarks; must not imply certification. Site itself carries Amazon affiliate links. Storage
+  evidence is a responsible-use caching recommendation plus 5-minute cache headers.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Licence says ''reuse'' with attribution; commercial use never stated; Cache headers
+  allow only five minutes; storage not explicit; Licence is new (effective 6 Sep 2026), site is itself
+  affiliate-monetised | applied: commercial_use=ambiguous, storage_caching=ambiguous'

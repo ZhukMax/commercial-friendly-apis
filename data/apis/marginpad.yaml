@@ -1,0 +1,69 @@
+id: marginpad
+name: MarginPad
+url: https://marginpad.io/free-crypto-api/
+category: Cryptocurrency
+description: Crypto futures prices, candles, funding, open interest, long/short and liquidations, 9 exchanges
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: MarginPad
+  url: https://marginpad.io/free-crypto-api/
+  category: Cryptocurrency
+link_status: alive
+data_license: proprietary (MarginPad API terms; no separate data licence)
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: ambiguous
+attribution_required: 'no'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+commercial_use_scope: any
+share_alike: unknown
+api_terms_url: https://marginpad.io/terms/
+evidence:
+- field: commercial_use
+  url: https://marginpad.io/terms/
+  quote: You may build commercial products on this API, including products you charge for, and you may
+    store and display data you retrieve.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://marginpad.io/terms/
+  quote: Attribution is appreciated, not required.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://marginpad.io/terms/
+  quote: Resell or redistribute our market data as a bulk feed, or operate a service whose substance is
+    a mirror of this API.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://marginpad.io/free-crypto-api/
+  quote: Cache responses, respect the rate limit, and don't present the data as financial advice.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://marginpad.io/terms/
+  quote: You may build commercial products on this API, including products you charge for, and you may
+    store and display data you retrieve.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://marginpad.io/terms/
+  quote: reaches us from exchanges and data providers whose own terms continue to apply to your use of
+    it.
+  checked_at: '2026-11-21'
+notes: 'Terms section 9.4 (API) covers keyless market-data endpoints. Display/store allowed, bulk resale
+  or mirroring forbidden (quote under redistribution_display is the restriction; display permission is
+  in the commercial_use quote). Section 9.1 warns market data reaches MarginPad from exchanges and third-party
+  providers "whose own terms continue to apply to your use of it": upstream terms were not checked and
+  may be stricter. Medium confidence for that reason.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'own terms say upstream exchange/provider terms continue to apply; aggregates Binance/Bybit/OKX/Gate
+  prices, funding, OI, liquidations; upstream licences unread; free keyless lane ''no commitment beyond
+  as-available''; bulk redistribution/mirroring forbidden | applied: redistribution_display=ambiguous'

@@ -1,0 +1,79 @@
+id: icd-10-codes
+name: ICD-10 Codes
+url: https://clinicaltables.nlm.nih.gov/apidoc/icd10cm/v3/doc.html
+category: Health
+description: List of all healthcare diagnosis codes
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-api-lists
+  name: ICD-10 Codes
+  url: https://clinicaltables.nlm.nih.gov/apidoc/icd10cm/v3/doc.html
+  category: Health
+link_status: alive
+data_license: public-domain (CDC general policy; US government source) - dataset-level licence not stated
+  on the ICD-10-CM page
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://clinicaltables.nlm.nih.gov/faq.html
+data_license_url: https://www.cdc.gov/other/agencymaterials.html
+commercial_use_scope: any
+share_alike: unknown
+rate_limits: Advised max 25 requests/second (soft limit)
+evidence:
+- field: commercial_use
+  url: https://clinicaltables.nlm.nih.gov/faq.html
+  quote: The Clinical Table Search Service (CTSS) is open to the general public and free of charge.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.cdc.gov/other/agencymaterials.html
+  quote: Most of the information on the CDC and ATSDR websites is not subject to copyright, is in the
+    public domain
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.cdc.gov/other/agencymaterials.html
+  quote: may be freely used or reproduced without obtaining copyright permission
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.cdc.gov/other/agencymaterials.html
+  quote: may be freely used or reproduced without obtaining copyright permission
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://clinicaltables.nlm.nih.gov/faq.html
+  quote: The advised maximum request rate is 25 requests per second.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.cdc.gov/other/agencymaterials.html
+  quote: 'The following requirements must be followed to utilize CDC’s public domain content: 1) Attribution
+    to the agency that developed the material must be provided'
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.cdc.gov/other/agencymaterials.html
+  quote: 3) You may not change the substantive content of the materials
+  checked_at: '2026-11-21'
+notes: Read NLM Clinical Tables FAQ (service is open to the public and free; names of NLM/NIH may not
+  be used to endorse; some datasets such as LOINC have their own terms) and the doc page (ICD-10-CM dataset
+  is sourced from CDC). The CDC 'Use of Agency Materials' page (read via Playwright, curl is blocked)
+  says most CDC content is public domain but warns of exceptions; no ICD-10-CM-specific licence statement
+  was read, hence medium confidence. NLM does not state commercial/storage terms explicitly; green rests
+  on the public-domain statement plus absence of restriction. Attribution not required by anything read
+  (left unknown). Note ICD-10-CM codes are US clinical modification, not WHO ICD-10.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'CDC page requires attribution, disclaimer and no substantive change when reusing public-domain
+  content; First pass left attribution_required unknown and ignored these conditions | applied: attribution_required=yes'
+verdict_override: yellow
+override_reason: 'Second check: CDC page requires attribution, disclaimer and no substantive change when
+  reusing public-domain content; First pass left attribution_required unknown and ignored these conditions'
+license_scope: portal-default

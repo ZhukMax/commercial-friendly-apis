@@ -1,0 +1,66 @@
+id: tomorrow
+name: Tomorrow
+url: https://docs.tomorrow.io
+category: Weather
+description: Weather API Powered by Proprietary Technology
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Tomorrow
+  url: https://docs.tomorrow.io
+  category: Weather
+link_status: redirect
+data_license: proprietary (Tomorrow.io Platform Terms of Service)
+commercial_use: paid-only
+storage_caching: 'no'
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: -> https://docs.tomorrow.io/reference/welcome
+commercial_use_scope: paid
+attribution_text: Powered by Tomorrow.io (linked to the Tomorrow.io site, near the data)
+api_terms_url: https://www.tomorrow.io/terms-of-service/
+notes: Read the Platform Terms of Service (docs.tomorrow.io redirects to the Tomorrow.io developer site).
+  Self-service/free accounts count as non-commercial; commercial integration needs a paid Order and an
+  agreement naming Tomorrow.io as third-party beneficiary. Storing the unaltered Datafeed is prohibited
+  unless the Order allows it. Display inside the subscriber commercial application is allowed "as specified
+  in an Order" (ambiguous without seeing an Order). Terms are enterprise-style; the free self-signup plan
+  terms were not separately read.
+evidence:
+- field: commercial_use
+  url: https://www.tomorrow.io/terms-of-service/
+  quote: Commercial use is strictly prohibited in the case of evaluation, proof of concept, or in connection
+    with self-generated accounts originated on Company’s website
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.tomorrow.io/terms-of-service/
+  quote: store or otherwise collect or copy the unaltered Datafeed, unless otherwise expressly provided
+    for in the Order
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.tomorrow.io/terms-of-service/
+  quote: integrated into Subscriber proprietary commercial applications
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.tomorrow.io/terms-of-service/
+  quote: shall prominently display the message “Powered by Tomorrow.io” in a legible manner near such
+    data or any information derived from it
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.tomorrow.io/terms-of-service/
+  quote: The Solution may not be distributed, shared, or offered on a standalone basis
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read Platform ToS: Permitted Use bars commercial use for evaluation/self-generated
+  accounts, commercial applications require an agreement naming Tomorrow.io third-party beneficiary, ''Powered
+  by Tomorrow.io'' attribution required. paid-only/no storage verdict stands (effectively enterprise order).'

@@ -1,0 +1,53 @@
+id: fec
+name: FEC
+url: https://api.open.fec.gov/developers/
+category: Government
+description: Information on campaign donations in federal elections
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: FEC
+  url: https://api.open.fec.gov/developers/
+  category: Government
+- list: public-api-lists
+  name: FEC
+  url: https://api.open.fec.gov/developers/
+  category: Government
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://api.open.fec.gov/developers/
+rate_limits: 'Default api.data.gov key: 1,000 requests/hour (DEMO_KEY lower)'
+evidence:
+- field: commercial_use
+  url: https://www.fec.gov/updates/sale-or-use-contributor-information/
+  quote: cannot be sold or used for soliciting contributions (including any political or charitable contribution)
+    or for any commercial purpose
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://api.data.gov/docs/developer-manual/
+  quote: 'Hourly Limit: 1,000 requests per hour'
+  checked_at: '2026-11-21'
+notes: 'Federal law (FECA) bars sale or use of individual-contributor information for commercial purposes
+  or solicitation, so a monetised site must not use itemised donor names/addresses; other FEC data (committees,
+  candidates, totals) is not covered by that restriction on the page read. The developer page itself contains
+  no licence text, only the API key signup (api.data.gov). Storage/display terms not found. Read: fec.gov
+  sale-or-use page, api.data.gov developer manual.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: yellow
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Confirmed ambiguous/yellow. FEC page: restriction does not apply to newspapers/books/similar
+  if principal purpose is not solicitation or commercial activity; an ad-monetised donor lookup would
+  be risky. Committee/candidate/total data not covered. GitHub repo openFEC is MIT code, not a data licence.'

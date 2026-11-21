@@ -1,0 +1,66 @@
+id: api-setu
+name: API Setu
+url: https://www.apisetu.gov.in/
+category: Open Data
+description: An Indian Government platform that provides a lot of APIS for KYC, business, education &
+  employment
+description_source: upstream
+auth: other
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: API Setu
+  url: https://www.apisetu.gov.in/
+  category: Open Data
+link_status: alive
+data_license: Non-personal data per NDSAP/GODL; each listed API has its own provider terms
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+data_license_url: https://docs.apisetu.gov.in/document-central/terms-of-use/Intellectual%20Property.html
+api_terms_url: https://docs.apisetu.gov.in/document-central/terms-of-use/
+share_alike: unknown
+rate_limits: Platform may impose per-user call quotas (not numerically stated)
+notes: Read the API Setu Terms of Use (docs.apisetu.gov.in/document-central/terms-of-use, subpages Permitted
+  Use, API Prohibitions, Intellectual Property, Non-Personal Data Handling, Usage Limits) and the API
+  Policy page. API Setu is a gateway/marketplace for many Government of India and private APIs (KYC, DigiLocker,
+  education, business); each API needs registration/credentials plus often provider approval (SOP for
+  API Access), so upstream auth 'none' is wrong (set to other). Use is limited to 'internal and approved
+  use cases'; non-personal data is NDSAP/GODL (free reuse) but personal/KYC data is subject to consent
+  rules, data-localisation and ban on profiling. No blanket commercial/ad-site permission; terms per API/provider,
+  so ambiguous (yellow at best) and unsuitable as a content source for a public ad/affiliate site without
+  per-API approval. Storage/caching and attribution not addressed. GODL text itself not read.
+evidence:
+- field: commercial_use
+  url: https://docs.apisetu.gov.in/document-central/terms-of-use/Permitted%20Use%20and%20Access.html
+  quote: Such use must be conducted using valid credentials issued to the User and only for internal and
+    approved use cases.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://docs.apisetu.gov.in/document-central/terms-of-use/Intellectual%20Property.html
+  quote: Non-personal data shared via APIs shall be licensed as per NDSAP, allowing free reuse without
+    IP claims.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://docs.apisetu.gov.in/document-central/terms-of-use/API%20Prohibitions.html
+  quote: APIs provided through the platform shall not be sublicensed or used to create competing services
+    without prior approval.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://docs.apisetu.gov.in/document-central/terms-of-use/API%20Usage%20Limits.html
+  quote: API Setu may impose limits on the number and frequency of API calls.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read Permitted Use and Access: valid credentials and ''internal and approved use
+  cases'' only; NDSAP/GODL reuse is for non-sensitive data published by issuers. Genuine conflict; leans
+  unsuitable for a public site without per-API approval. Yellow/ambiguous stands.'

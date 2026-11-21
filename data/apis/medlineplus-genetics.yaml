@@ -1,0 +1,76 @@
+id: medlineplus-genetics
+name: MedlinePlus Genetics
+url: https://medlineplus.gov/about/developers/geneticsdatafilesapi/
+category: Health
+description: Genetic conditions, genes, chromosomes and mtDNA data
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: MedlinePlus Genetics
+  url: https://medlineplus.gov/about/developers/geneticsdatafilesapi/
+  category: Health
+link_status: alive
+data_license: public-domain (US federal government work; Genetics summaries listed as not copyrighted)
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'no'
+bulk_download: 'yes'
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+commercial_use_scope: any
+share_alike: 'no'
+data_license_url: https://medlineplus.gov/about/using/usingcontent/
+api_terms_url: https://medlineplus.gov/about/developers/geneticsdatafilesapi/
+attribution_text: Courtesy of MedlinePlus from the National Library of Medicine (requested, not mandatory)
+notes: 'Licence statement is on the MedlinePlus ''Linking to and Using Content'' page, not on the Genetics
+  API page itself (which only documents endpoints). That page lists Genetics summaries as public domain
+  and asks (please) for acknowledgement. Images are excluded: stock images without attribution may not
+  be reproduced or redistributed, and some third-party images may be copyrighted; the XML/JSON data may
+  reference images. Other MedlinePlus content (drug info, encyclopedia) is licensed from third parties
+  and is not covered. No rate limit stated on the pages read.'
+evidence:
+- field: commercial_use
+  url: https://medlineplus.gov/about/using/usingcontent/
+  quote: You may reproduce, redistribute, and link freely to non-copyrighted content, including on social
+    media.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://medlineplus.gov/about/using/usingcontent/
+  quote: You may reproduce, redistribute, and link freely to non-copyrighted content, including on social
+    media.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://medlineplus.gov/about/using/usingcontent/
+  quote: You may reproduce, redistribute, and link freely to non-copyrighted content, including on social
+    media.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://medlineplus.gov/about/using/usingcontent/
+  quote: You may reproduce, redistribute, and link freely to non-copyrighted content, including on social
+    media.
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://medlineplus.gov/about/using/usingcontent/
+  quote: You may reproduce, redistribute, and link freely to non-copyrighted content, including on social
+    media.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://medlineplus.gov/about/using/usingcontent/
+  quote: Please acknowledge MedlinePlus as the source of the information by including the phrase
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://medlineplus.gov/about/developers/geneticsdatafilesapi/
+  quote: a compendium of all XML instances is available in one XML file
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read usingcontent page: government work, may reproduce/redistribute freely; acknowledgement
+  requested. Images/stock art and licensed third-party content excluded.'

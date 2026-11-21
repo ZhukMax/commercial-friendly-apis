@@ -1,0 +1,33 @@
+id: icelandic-apis
+name: Icelandic APIs
+url: http://docs.apis.is/
+category: Transportation
+description: Open APIs that deliver services in or regarding Iceland
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Icelandic APIs
+  url: http://docs.apis.is/
+  category: Transportation
+- list: public-api-lists
+  name: Icelandic APIs
+  url: http://docs.apis.is/
+  category: Transportation
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+notes: docs.apis.is and the GitHub repo (apis-is/apis) say the code is MIT and data is scraped from open public websites; no data licence or usage terms stated. MIT is a code licence, not a data licence.
+  All unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

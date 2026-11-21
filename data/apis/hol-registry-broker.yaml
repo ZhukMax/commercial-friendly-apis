@@ -1,0 +1,25 @@
+id: hol-registry-broker
+name: HOL Registry Broker
+url: https://hol.org/docs/registry-broker/
+category: Machine Learning
+description: Search and verify AI agents & MCP servers
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: HOL Registry Broker
+  url: https://hol.org/docs/registry-broker/
+  category: Machine Learning
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

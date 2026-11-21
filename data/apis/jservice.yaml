@@ -1,0 +1,25 @@
+id: jservice
+name: Jservice
+url: http://jservice.io
+category: Games & Comics
+description: Jeopardy Question Database
+description_source: upstream
+auth: none
+https: false
+cors: unknown
+sources:
+- list: public-apis
+  name: Jservice
+  url: http://jservice.io
+  category: Games & Comics
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

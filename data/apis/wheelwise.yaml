@@ -1,0 +1,27 @@
+id: wheelwise
+name: Wheelwise
+url: https://cars.limoja.ai/api/search?q=BMW&limit=1
+category: Vehicle
+description: UK used-car listings with fair-price grade, 36-month resale forecast and monthly cost per
+  advert
+description_source: upstream
+auth: none
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Wheelwise
+  url: https://cars.limoja.ai/api/search?q=BMW&limit=1
+  category: Vehicle
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: HTTP 404

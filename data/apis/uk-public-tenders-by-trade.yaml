@@ -1,0 +1,27 @@
+id: uk-public-tenders-by-trade
+name: UK Public Tenders by Trade
+url: https://tools.gptshopltd.com/api/uk-tenders/
+category: Government
+description: Live open UK public sector tenders by trade from Find a Tender and Contracts Finder (OGL
+  v3.0)
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: UK Public Tenders by Trade
+  url: https://tools.gptshopltd.com/api/uk-tenders/
+  category: Government
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: HTTP 410

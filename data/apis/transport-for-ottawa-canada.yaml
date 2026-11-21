@@ -1,0 +1,35 @@
+id: transport-for-ottawa-canada
+name: Transport for Ottawa, Canada
+url: https://www.octranspo.com/en/plan-your-trip/travel-tools/developers
+category: Transportation
+description: OC Transpo API
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Transport for Ottawa, Canada
+  url: https://www.octranspo.com/en/plan-your-trip/travel-tools/developers
+  category: Transportation
+- list: public-api-lists
+  name: Transport for Ottawa, Canada
+  url: http://www.octranspo.com/index.php/developers
+  category: Transportation
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: HTTP 403 (blocked for bots, assumed alive)
+evidence: []
+notes: octranspo.com returns HTTP 403 (Azure Application Gateway) to both curl and a fresh Playwright context; page not readable, no bypass attempted. All terms unknown; developer terms must be
+  checked manually.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

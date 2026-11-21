@@ -1,0 +1,65 @@
+id: terrascoutx
+name: TerraScoutX
+url: https://terrascoutx.com/developers/
+category: Open Data
+description: 'US property records by address: parcel, owner, appraised value, tax, flood zone and nearby
+  schools'
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: TerraScoutX
+  url: https://terrascoutx.com/developers/
+  category: Open Data
+link_status: alive
+data_license: proprietary (compiled from county public sources; not open data)
+commercial_use: ambiguous
+storage_caching: limited
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://terrascoutx.com/developers/#terms
+commercial_use_scope: free-tier
+cache_limit: Caching responses to serve your own users is fine; bulk republishing/resale not cleared
+rate_limits: 2,000 requests per key per month (free); 120 requests/minute per IP
+evidence:
+- field: data_license
+  url: https://terrascoutx.com/developers/
+  quote: They are not open data and are not released under an open license.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://terrascoutx.com/developers/
+  quote: If you plan to republish or resell the data, check the source county's terms
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://terrascoutx.com/developers/
+  quote: The terms of each source vary by county, so do not assume you may redistribute the data in bulk.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://terrascoutx.com/developers/
+  quote: Caching responses to serve your own users is fine.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://terrascoutx.com/developers/
+  quote: Each key can make 2,000 requests per calendar month.
+  checked_at: '2026-11-21'
+notes: Only the "Data terms" section of the developer page was read (no separate ToS page found; /terms
+  returned nothing). It says the free API is compiled from county public sources, is not open data, source
+  terms vary by county, caching to serve own users is fine, republish/resell needs checking with the source
+  county or the vendor. Commercial use of the free tier is not stated either way, hence ambiguous. Market-context
+  fields carry required Zillow Research attribution. Owner/mailing-address fields exist (privacy risk
+  for display, not assessed).
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read developer page: caching to serve own users fine; bulk redistribution not assumed;
+  no ToS page (/terms 404). Added privacy flag: ''Integrations should not consume or display these fields''
+  for owner, mailingAddress, ownershipTransfers (use no_owner=1). Commercial use of the free tier unstated;
+  ambiguous stands.'

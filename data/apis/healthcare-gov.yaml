@@ -1,0 +1,47 @@
+id: healthcare-gov
+name: Healthcare.gov
+url: https://www.healthcare.gov/developers/
+category: Health
+description: Educational content about the US Health Insurance Marketplace
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Healthcare.gov
+  url: https://www.healthcare.gov/developers/
+  category: Health
+- list: public-api-lists
+  name: Healthcare.gov
+  url: https://www.healthcare.gov/developers/
+  category: Health
+link_status: alive
+data_license: unknown
+commercial_use: 'yes'
+storage_caching: unknown
+redistribution_display: 'yes'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.healthcare.gov/developers/
+commercial_use_scope: any
+evidence:
+- field: commercial_use
+  url: https://www.healthcare.gov/developers/
+  quote: innovators, entrepreneurs, and partners can turn it into new products and services
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.healthcare.gov/developers/
+  quote: Everyone can use the API to embed content from HealthCare.gov.
+  checked_at: '2026-11-21'
+notes: Developers page invites innovators and entrepreneurs to build new products with the content and
+  to embed it on websites via the Content API (content updates automatically). No explicit copyright/licence
+  statement, attribution rule or caching rule was found on the developers page; privacy and using-this-site
+  pages had no reuse terms. Storage left unknown, so no green. Content is educational (Marketplace explainers),
+  not data records. Do not imply government endorsement.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

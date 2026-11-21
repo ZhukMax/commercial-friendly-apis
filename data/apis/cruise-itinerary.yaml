@@ -1,0 +1,68 @@
+id: cruise-itinerary
+name: Cruise Itinerary
+url: https://cruise-itinerary.com/docs
+category: Transportation
+description: Cruise sailings, day-by-day itineraries, weekly fare history, port traffic and a cruise price
+  index
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Cruise Itinerary
+  url: https://cruise-itinerary.com/docs
+  category: Transportation
+link_status: alive
+data_license: proprietary (licence to use data in own products; no resale/republishing as dataset)
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: ambiguous
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://cruise-itinerary.com/terms
+commercial_use_scope: any
+attribution_text: 'Price Index values: link to cruise-itinerary.com/price-index'
+share_alike: unknown
+rate_limits: Free 10 calls/min and 500 calls/month; paid plans higher
+evidence:
+- field: commercial_use
+  url: https://cruise-itinerary.com/terms
+  quote: use the data it returns in your own products, services, research and internal analysis, including
+    showing individual records to your end users.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://cruise-itinerary.com/terms
+  quote: You may keep copies as long as your use is consistent with this licence.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://cruise-itinerary.com/terms
+  quote: including showing individual records to your end users.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://cruise-itinerary.com/terms
+  quote: You may quote and chart the index values with a link to cruise-itinerary.com/price-index.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://cruise-itinerary.com/terms
+  quote: resell, sublicense or republish the data, or any substantial part of it, as a dataset or data
+    service
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://cruise-itinerary.com/docs
+  quote: Free 10 500 Hobby 20 2,000 Developer 60 10,000
+  checked_at: '2026-11-21'
+notes: Terms section 6 grants a revocable licence "subject to your plan" to use data in own products and
+  show records to end users, keep copies; prohibits reselling/republishing as a dataset, building a substitute
+  service, bulk files beyond plan. Attribution is required only where the terms say so (Price Index quoting
+  needs a link); otherwise none stated. Some endpoints need paid plans (plan_required). Fares are weekly
+  supplier snapshots, not bookable.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Free plan 10/min 500/month; some endpoints plan-gated; Price Index quoting needs link.

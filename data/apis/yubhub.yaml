@@ -1,0 +1,41 @@
+id: yubhub
+name: YubHub
+url: https://yubhub.co/developers/api-reference/
+category: Jobs
+description: Job listings read from employers' careers pages, with salary, skills and hiring statistics
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: YubHub
+  url: https://yubhub.co/developers/api-reference/
+  category: Jobs
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://yubhub.co/terms
+notes: 'Read /developers/api-reference/ (read endpoints open, feed/account endpoints need a key on a paid
+  plan) and /terms (9 Mar 2026). ToS bans reselling or redistributing the Service without written consent
+  and says the user must make sure use of feeds complies with the source websites'' terms; job listings
+  are scraped from employers'' careers pages and YubHub claims no ownership of them. No statement on commercial
+  use, caching or display of the open endpoints: redistribution ambiguous, rest unknown.'
+evidence:
+- field: redistribution_display
+  url: https://yubhub.co/terms
+  quote: Resell or redistribute the Service without our written consent
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read /terms and API reference; unknown stands.

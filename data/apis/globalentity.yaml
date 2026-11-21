@@ -1,0 +1,55 @@
+id: globalentity
+name: GlobalEntity
+url: https://www.globalentityapi.com/docs
+category: Business
+description: Official company data from 56 European business registers as normalized JSON
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: GlobalEntity
+  url: https://www.globalentityapi.com/docs
+  category: Business
+link_status: alive
+data_license: unknown
+commercial_use: paid-only
+storage_caching: unknown
+redistribution_display: 'no'
+attribution_required: ambiguous
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.globalentityapi.com/terms
+commercial_use_scope: paid
+notes: 'Terms & Conditions read. API access starts at the Enterprise tier (own products/internal use);
+  making the data available to third parties (which includes publishing it on a public site) is only allowed
+  under the Partner/OEM tier with a written agreement, hence redistribution_display=no for self-serve
+  tiers (verdict red unless a Partner agreement is signed). Aggregator of 56 European registers: upstream
+  licences apply and may be stricter. No bulk export or enumeration allowed; no explicit caching rule
+  found.'
+evidence:
+- field: commercial_use
+  url: https://www.globalentityapi.com/terms
+  quote: You may integrate the service into your own products and internal systems and build functionality
+    on top of our platform for your own business use.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.globalentityapi.com/terms
+  quote: redistribute, resell, sublicense or otherwise make the data available to third parties except
+    as expressly permitted by your tier
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.globalentityapi.com/terms
+  quote: You must comply with any attribution or licensing requirements of those registries
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Confirmed red for self-serve tiers. Maintainers may consider yellow via Partner tier
+  since 7.4 permits embedding data in own product with written agreement; upstream register licences remain
+  unchecked.

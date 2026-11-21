@@ -1,0 +1,424 @@
+[
+ {
+  "id": "hebrew-calendar",
+  "outcome": "confirmed",
+  "reasons": [
+   "CC BY 4.0 'any purpose, even commercially' re-read on developer page",
+   "no ads/scraping clause found"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read developer-apis page. Only caveats: GeoNames/MaxMind location data is third-party CC; 90 req/10s limit."
+ },
+ {
+  "id": "jcdecaux-bike",
+  "outcome": "confirmed",
+  "reasons": [
+   "Etalab Open Licence page re-read via Playwright: commercial reuse allowed, source mention mandatory"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Free API key needed. Legal disclaimer link and licence PDF not opened; no contrary clause found on the developer pages."
+ },
+ {
+  "id": "job-opportunities",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms re-read: every commercial use allowed on any plan incl. free; store/cache/display/resell allowed"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Conditions to respect: visible credit linking to jobopportunitiesapi.org; remove employer data on request (/v1/jobs/withdrawn); per-source rules (NAV attribution, USAJOBS no seal/endorsement, Teaching Vacancies OGL bans charging candidates fees); free-plan limits cover downstream use."
+ },
+ {
+  "id": "jobicy",
+  "outcome": "confirmed",
+  "reasons": [
+   "API fair-use section re-read: own products, store/cache without retention limit, credit Jobicy"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://jobicy.com/terms-and-conditions",
+    "quote": "You may not: Market, distribute, sublicense, publicly display, sell",
+    "field": "redistribution_display"
+   }
+  ],
+  "suggested": {},
+  "note": "Generic site Terms (/terms-and-conditions) forbid 'publicly display ... commercially exploit' the Website/Services; read as site/software scope, API page grants explicit use, but a conflict risk remains. Public feed shows only last 7 days; employer logos/trademarks stay theirs."
+ },
+ {
+  "id": "kalenderblick",
+  "outcome": "confirmed",
+  "reasons": [
+   "API page FAQ re-read: free, also commercial, credit kalenderblick.de, cacheable"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Only a FAQ sentence, no formal licence page. School holidays come from KMK overview (upstream terms not read; dates are facts). 'Keine Gewahr' disclaimer."
+ },
+ {
+  "id": "lordicon",
+  "outcome": "disputed",
+  "reasons": [
+   "not a data API: icon asset library",
+   "free licence is CC BY-ND based, download right limited to account duration, 1M CDN request cap",
+   "PRO forbids standalone redistribution",
+   "API needs account/project (auth none is stale)"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://lordicon.com/licenses",
+    "quote": "(ii) The ability to download new icons is limited to the duration of the Account.",
+    "field": "storage_caching"
+   },
+   {
+    "url": "https://lordicon.com/licenses",
+    "quote": "(iv) Author attribution (credit needed) required.",
+    "field": "attribution_required"
+   },
+   {
+    "url": "https://lordicon.com/licenses",
+    "quote": "Lordicon grants the User a license based on the Attribution-NoDerivatives 4.0 International license",
+    "field": "data_license"
+   }
+  ],
+  "suggested": {
+   "storage_caching": "limited",
+   "redistribution_display": "ambiguous"
+  },
+  "note": "Free-tier storage/redistribution of icon files is not clearly allowed (ND, account-bound downloads). Not a fit for 'store and show data'."
+ },
+ {
+  "id": "lucyd",
+  "outcome": "disputed",
+  "reasons": [
+   "data is from a Sepolia TESTNET exchange (api.testnet.lucyd.trade), not real market data",
+   "settlement relies on Pyth price feed whose terms were not checked",
+   "licence is stated only on the /data page, /policy has no data clause"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://lucyd.trade/data",
+    "quote": "Rounds settle on the Pyth BTC/USD price.",
+    "field": "data_license"
+   }
+  ],
+  "suggested": {},
+  "note": "CC BY 4.0 is clear but the dataset is testnet/play-money rounds; not a real data source for a commercial site. Verdict should not be green on usefulness grounds."
+ },
+ {
+  "id": "marginpad",
+  "outcome": "disputed",
+  "reasons": [
+   "own terms say upstream exchange/provider terms continue to apply",
+   "aggregates Binance/Bybit/OKX/Gate prices, funding, OI, liquidations; upstream licences unread",
+   "free keyless lane 'no commitment beyond as-available'",
+   "bulk redistribution/mirroring forbidden"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://marginpad.io/terms/",
+    "quote": "reaches us from exchanges and data providers whose own terms continue to apply to your use of it.",
+    "field": "redistribution_display"
+   },
+   {
+    "url": "https://marginpad.io/terms/",
+    "quote": "Resell or redistribute our market data as a bulk feed, or operate a service whose substance is a mirror of this API.",
+    "field": "redistribution_display"
+   }
+  ],
+  "suggested": {
+   "redistribution_display": "ambiguous"
+  },
+  "note": "Commercial use of MarginPad's own output is allowed, but resale-like display of exchange market data may be limited by upstream terms that MarginPad explicitly preserves."
+ },
+ {
+  "id": "marketplace-fee-data",
+  "outcome": "confirmed",
+  "reasons": [
+   "CC BY 4.0 stated on data page and per file; no ads/affiliate clause"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Facts: published fee schedules, 'estimates only', revised without notice; SellersCalc /terms is calculator scope; marketplaces' own terms unread (facts, low risk). Credit with link required."
+ },
+ {
+  "id": "metropolitan-museum-of-art",
+  "outcome": "confirmed",
+  "reasons": [
+   "Met site T&C (which cover APIs) re-read via Playwright: Open Access materials any purpose incl. commercial; CC0 stated on API page"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://www.metmuseum.org/policies/terms-and-conditions",
+    "quote": "the Museum makes those Materials available for any purpose, including commercial and noncommercial use, free of charge",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {},
+  "note": "Resolves first-pass gap. Non-OA materials are limited to non-commercial, but the API returns only OA data and excludes copyrighted images. Limit 80 req/s. Old /v1/search endpoint deprecated (retired 2026-10-01), use v1.1."
+ },
+ {
+  "id": "mother-s-day-calendar",
+  "outcome": "confirmed",
+  "reasons": [
+   "CC BY 4.0 in page JSON-LD and text; static JSON/CSV"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Caveat: 'Source publishers retain rights to their own material'; some records lack primary source. Dates/rules are facts. Credit plus link and change note required."
+ },
+ {
+  "id": "nhtsa",
+  "outcome": "confirmed",
+  "reasons": [
+   "NHTSA Terms of Use re-read via Playwright: public information, may be distributed or copied"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "US federal data; standalone vPIC DB downloadable. Terms do not name commercial use or API explicitly; rate control applies; do not imply endorsement."
+ },
+ {
+  "id": "nhtsa-edge-vin-decoder",
+  "outcome": "confirmed",
+  "reasons": [
+   "data is public-domain NHTSA vPIC; operator code MIT"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Third-party mirror, no ToS/SLA, small operator (continuity risk); service root still returns healthy JSON. Prefer the NHTSA original. Extra endpoints (EPA, RDW, Pwned Passwords) not covered."
+ },
+ {
+  "id": "non-working-days",
+  "outcome": "disputed",
+  "reasons": [
+   "repo is unmaintained: last push 2020-04-25",
+   "not a live API, static ICS files",
+   "source calendars undocumented so upstream terms unknown",
+   "only 7 countries, README warns of moving to another domain"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://github.com/gadael/icsdb",
+    "quote": "Warning, this set of ICS files is suject to move to his own domain in the near future.",
+    "field": "api_terms_url"
+   }
+  ],
+  "suggested": {
+   "attribution_required": "yes"
+  },
+  "note": "MIT licence is real, but dates may be stale/incorrect (variable holidays) and provenance of holiday data is unknown; weak candidate for a commercial site."
+ },
+ {
+  "id": "oddsbench",
+  "outcome": "disputed",
+  "reasons": [
+   "site's own notice says the data is placeholder demo data, not real measurements"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://oddsbench.xyz/api/",
+    "quote": "The data on this site is placeholder data for demonstration purposes only.",
+    "field": "data_license"
+   }
+  ],
+  "suggested": {},
+  "note": "CC BY 4.0 is real but the dataset is not a usable data source until replaced; latency benchmark, not primary data."
+ },
+ {
+  "id": "openchainbench",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms page re-read: CC-BY-4.0, reuse commercially with credit and link back, caching encouraged"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Own measurements. Rules: do not bypass limits or present data as own measurements; underlying provider terms irrelevant to measured numbers."
+ },
+ {
+  "id": "openshopgraph",
+  "outcome": "disputed",
+  "reasons": [
+   "licence clause vague: 'unless noted otherwise' and generic 'Inhalte'",
+   "coupon codes are shop/affiliate content; site says some earn a commission",
+   "fair use/token quotas undefined; excessive scraping banned",
+   "data collected from third-party shop sites"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://openshopgraph.com/en/terms/",
+    "quote": "Inhalte stehen, soweit nicht anders vermerkt, unter CC-BY-4.0.",
+    "field": "data_license"
+   },
+   {
+    "url": "https://openshopgraph.com/en/terms/",
+    "quote": "some coupon codes may earn a commission from the shop.",
+    "field": "redistribution_display"
+   }
+  ],
+  "suggested": {
+   "redistribution_display": "ambiguous",
+   "attribution_required": "ambiguous"
+  },
+  "note": "German terms (authoritative) never say that API outputs/coupons are licensed to API users; no attribution text."
+ },
+ {
+  "id": "padelapi",
+  "outcome": "disputed",
+  "reasons": [
+   "display of API data on public pages is not expressly licensed (only own-application use and storage)",
+   "systematic reuse of substantial parts of the database prohibited",
+   "images carry no licence",
+   "pro-tour upstream rights unread"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://padelapi.org/terms-of-service",
+    "quote": "Systematic extraction or reuse of substantial parts of the database is prohibited.",
+    "field": "redistribution_display"
+   },
+   {
+    "url": "https://padelapi.org/terms-of-service",
+    "quote": "They are not part of the database referred to in Section 3 and no licence over them is granted.",
+    "field": "redistribution_display"
+   }
+  ],
+  "suggested": {
+   "redistribution_display": "ambiguous"
+  },
+  "note": "Programmatic pages publishing the whole dataset risk the sui generis database clause; green requires explicit display permission."
+ },
+ {
+  "id": "paralelo-bo",
+  "outcome": "disputed",
+  "reasons": [
+   "page itself says commercial integrations should contact the operator, conflicting with 'any purpose' CC BY",
+   "rate is a median of Binance/Bybit/Bitget P2P quotes, upstream terms unread",
+   "licence stated only on docs page, no ToS"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://paralelo.bo/api",
+    "quote": "Para integraciones comerciales o límites más altos, escríbanos",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "ambiguous"
+  },
+  "note": "Conflict between CC BY claim and the commercial-integration contact note."
+ },
+ {
+  "id": "patentref",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToS and AUP re-read: build products, cache and republish with attribution; CC BY 4.0 data"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Free beta: 1,000 req/month, may change/stop without notice, paid plans under new terms; independent hobby operator; do not scrape website; PatentsView upstream licence not read at source. Snapshot download allowed."
+ },
+ {
+  "id": "pharos-api",
+  "outcome": "disputed",
+  "reasons": [
+   "MIT lane is only keyless Safety grades and datasets; keyed routes gated by plan",
+   "supporter key is non-commercial; commercial products need paid $250/month key",
+   "third-party market data keeps original terms (CoinGecko, DefiLlama etc.)"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://pharos.watch/api/reference/",
+    "quote": "Donors of $10 or more in qualifying stablecoins can claim a supporter key for personal, non-commercial use",
+    "field": "commercial_use"
+   },
+   {
+    "url": "https://pharos.watch/api/reference/",
+    "quote": "$250 per month for commercial products",
+    "field": "commercial_use"
+   },
+   {
+    "url": "https://pharos.watch/about/",
+    "quote": "Third-party material retains its original terms.",
+    "field": "redistribution_display"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "paid-only"
+  },
+  "note": "Verdict green holds only for the free grades lane and datasets, not the whole API."
+ },
+ {
+  "id": "pickshade",
+  "outcome": "disputed",
+  "reasons": [
+   "not a data source: colour conversion/contrast calculator",
+   "bundled ~30,000 colour-name list has no licence stated",
+   "terms page is a short personal/commercial statement"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://pickshade.com/terms",
+    "quote": "are yours to use anywhere, without attribution.",
+    "field": "data_license"
+   }
+  ],
+  "suggested": {},
+  "note": "Computed output is free to use, but it is a utility API, not data to store and show."
+ },
+ {
+  "id": "present-of-ai",
+  "outcome": "disputed",
+  "reasons": [
+   "API relays third-party news, job postings and company logos under blanket CC BY",
+   "no separate ToS (404)",
+   "facts only 'as reported' by sources"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://presentofai.com/developers",
+    "quote": "Facts are attributed to their sources and are as reported there; check the linked page before relying on a figure.",
+    "field": "redistribution_display"
+   }
+  ],
+  "suggested": {
+   "redistribution_display": "ambiguous"
+  },
+  "note": "Upstream rights in news/jobs/logos not owned by operator; CC BY cannot be relied on for them."
+ },
+ {
+  "id": "problemsbyvin",
+  "outcome": "confirmed",
+  "reasons": [
+   "CC BY 4.0 on Data Center page; derived from US NHTSA public record"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Scope is the downloadable datasets only; complaints are unverified consumer allegations (display with care); no ToS page."
+ },
+ {
+  "id": "rafont",
+  "outcome": "disputed",
+  "reasons": [
+   "only catalogue metadata is CC BY; summaries and preview images describe third-party fonts",
+   "font files 'many free for personal use only', site footer says personal use unless author's licence differs, home page says personal and commercial",
+   "conflicting pages"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://rafont.com/data",
+    "quote": "many fonts are free for personal use only.",
+    "field": "redistribution_display"
+   },
+   {
+    "url": "https://rafont.com/data",
+    "quote": "Font files keep their own licenses.",
+    "field": "data_license"
+   }
+  ],
+  "suggested": {
+   "redistribution_display": "ambiguous"
+  },
+  "note": "Linking to personal-only fonts from a monetised site is risky; upstream rights in summaries/previews unclear."
+ }
+]

@@ -1,0 +1,80 @@
+id: productguru
+name: ProductGuru
+url: https://myproduct.guru/lookup/
+category: Open Data
+description: Consumer product-safety recall notices from 11 government registers, looked up by barcode
+  (EAN/GTIN)
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: ProductGuru
+  url: https://myproduct.guru/lookup/
+  category: Open Data
+link_status: alive
+data_license: 'Mixed: ProductGuru fields CC BY 4.0; Open Food Facts fields ODbL 1.0; recall notices under
+  issuing authority terms'
+commercial_use: ambiguous
+storage_caching: ambiguous
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: 'yes'
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://myproduct.guru/lookup/
+api_terms_url: https://myproduct.guru/terms
+commercial_use_scope: free-tier
+attribution_text: 'Data: ProductGuru (link to web_url or https://myproduct.guru); "Open Food Facts contributors"
+  for OFF fields'
+share_alike: 'yes'
+rate_limits: 60 requests/minute per IP
+evidence:
+- field: commercial_use
+  url: https://myproduct.guru/terms
+  quote: Programmatic access via our free API for legitimate non-commercial or low-volume commercial use.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://myproduct.guru/terms
+  quote: You may not systematically scrape, mirror, or resell our database without written permission.
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://myproduct.guru/lookup/
+  quote: a database you build from them must be shared under the ODbL.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://myproduct.guru/lookup/
+  quote: 'show "Data: ProductGuru" with a link to web_url or https://myproduct.guru'
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://myproduct.guru/lookup/
+  quote: Up to 60 requests per minute per IP .
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://myproduct.guru/lookup/
+  quote: Need more? Use the free bulk files on the datasets page .
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://myproduct.guru/lookup/
+  quote: Recall notices remain under their issuing authority's terms.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://myproduct.guru/terms
+  quote: You may not systematically scrape, mirror, or resell our database without written permission.
+  checked_at: '2026-11-21'
+notes: 'Pages read: /terms, /lookup/ (API doc). ToS permits the free API for "non-commercial or low-volume
+  commercial use" (low-volume undefined) and forbids systematic mirroring/reselling of the database without
+  permission, so caching/storage and bulk display are unclear. Open Food Facts fields are ODbL (attribution
+  + share-alike on derived databases); recall notices keep each government issuer''s own terms (not checked
+  per authority); ProductGuru own fields CC BY 4.0. Bulk files are offered on a datasets page (CC BY 4.0
+  per footer link, not read). Site shows Adsterra ads. Verdict yellow.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Datasets page (myproduct.guru/datasets): recall data ''Licence CC BY 4.0 - use it
+  for anything, cite the source'' leans commercial-ok for those extracts; barcode/product DB and OFF ODbL
+  parts remain conditional.'

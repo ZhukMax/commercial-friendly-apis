@@ -1,0 +1,88 @@
+id: french-address-search
+name: French Address Search
+url: https://geo.api.gouv.fr/adresse
+category: Open Data
+description: Address search via the French Government
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: French Address Search
+  url: https://geo.api.gouv.fr/adresse
+  category: Open Data
+- list: public-api-lists
+  name: French Address Search
+  url: https://geo.api.gouv.fr/adresse
+  category: Open Data
+link_status: redirect
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: -> https://adresse.data.gouv.fr/outils/api-doc/adresse
+notes: 'Read the API doc page (redirect target of geo.api.gouv.fr/adresse), the BAN CGU and the Etalab
+  Open Licence 2.0 text. Site notice says contents are etalab-2.0 unless third-party IP is flagged; CGU
+  says BAN data is under ''licence ouverte'' (Etalab Open Licence 2.0 permits commercial reuse with attribution,
+  no share-alike). IMPORTANT: the doc page says this ''API Adresse BAN'' is deprecated and merged into
+  the IGN Géoplateforme geocoding service; terms/limits of the new service were not read. Free public-service
+  API.'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+data_license: Licence Ouverte / Etalab 2.0
+data_license_url: https://raw.githubusercontent.com/etalab/licence-ouverte/master/open-licence.md
+api_terms_url: https://adresse.data.gouv.fr/cgu
+commercial_use: 'yes'
+commercial_use_scope: any
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+attribution_text: Source (at least the name of the grantor) and date of the latest update of the reused
+  information
+share_alike: unknown
+rate_limits: 50 calls/IP/second; keyless
+bulk_download: 'yes'
+self_host_option: 'yes'
+evidence:
+- field: data_license
+  url: https://adresse.data.gouv.fr/outils/api-doc/adresse
+  quote: les contenus de ce site sont proposés sous licence etalab-2.0
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://adresse.data.gouv.fr/cgu
+  quote: Les données sont en licence ouverte
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://raw.githubusercontent.com/etalab/licence-ouverte/master/open-licence.md
+  quote: To exploit it for commercial purposes, e.g., by combining it with other information
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://raw.githubusercontent.com/etalab/licence-ouverte/master/open-licence.md
+  quote: To reproduce it, copy it.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://raw.githubusercontent.com/etalab/licence-ouverte/master/open-licence.md
+  quote: To share, disseminate, redistribute, publish and transmit it.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://raw.githubusercontent.com/etalab/licence-ouverte/master/open-licence.md
+  quote: 'An acknowledgement of the authorship of the "Information": its source (at least, the name of
+    the "Grantor")'
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://adresse.data.gouv.fr/outils/api-doc/adresse
+  quote: Elle est de 50 appels/IP/seconde
+  checked_at: '2026-11-21'
+- field: self_host_option
+  url: https://adresse.data.gouv.fr/outils/api-doc/adresse
+  quote: Vous avez également l'option d'installer en autonomie une instance de l’API sur vos propres serveurs
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://adresse.data.gouv.fr/donnees-nationales
+  quote: Les fichiers des adresses BAN sont fournis sur une emprise nationale et départementale.
+  checked_at: '2026-11-21'
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Deprecation notice says old URL to be decommissioned (end Jan 2026) but it still responds
+  on 2026-11-21; replacement service terms not fully read. Open licence applies to BAN data. Treat endpoint
+  as unstable.

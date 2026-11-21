@@ -1,0 +1,61 @@
+id: kite
+name: Kite
+url: https://platform.kite.sa/docs
+category: Open Data
+description: Saudi Arabia property listings for rent and sale, neighborhood prices, rental yield and projects
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Kite
+  url: https://platform.kite.sa/docs
+  category: Open Data
+link_status: alive
+data_license: proprietary (Kite Data); Saudi Open Data License for official transaction data
+commercial_use: paid-only
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: high
+link_checked_at: '2026-11-21'
+api_terms_url: https://platform.kite.sa/legal/terms
+commercial_use_scope: paid
+cache_limit: 30 days from retrieval (Open Data exempt)
+attribution_text: Data by Kite (link to kite.sa); credit source by name and link listing url
+share_alike: unknown
+rate_limits: Plan-based quotas (Sandbox free; Starter/Growth/Pro paid)
+evidence:
+- field: commercial_use
+  url: https://platform.kite.sa/docs
+  quote: Showing data to your users needs a paid plan.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://platform.kite.sa/docs
+  quote: Storage is capped at 30 days.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://platform.kite.sa/legal/terms
+  quote: On the Sandbox Plan you may show Kite Data only to your own team and test users
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://platform.kite.sa/docs
+  quote: Show "Data by Kite" near it with a link to kite.sa
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://platform.kite.sa/legal/terms
+  quote: Showing individual listings or statistics to End Users inside Your Application under 3.1(b) is allowed.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://platform.kite.sa/legal/terms
+  quote: Open Data is licensed to you by its publisher under the Saudi Open Data License
+  checked_at: '2026-11-21'
+notes: 'Pages read: API docs ("Terms in practice") and API terms of use (updated 17 Nov 2026). Free Sandbox is for build/test with own team only; showing data to end users needs a paid plan. Stored data
+  capped at 30 days; delisted listings removed within 7 days; takedown within 3 business days. No redistribution as dataset/feed/API on self-serve plans; no competing-product use. Official government transaction
+  data (Saudi Open Data License, ODC-BY adaptation) is free to store, publish and resell with attribution. Governed by Saudi law, disputes in Riyadh. API requires a key.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

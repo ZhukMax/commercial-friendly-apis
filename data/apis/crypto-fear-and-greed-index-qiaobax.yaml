@@ -1,0 +1,27 @@
+id: crypto-fear-and-greed-index-qiaobax
+name: Crypto Fear & Greed Index (qiaobax)
+url: https://qiaobax.com/en/tools/fear-greed-index/
+category: Cryptocurrency
+description: Live crypto market sentiment index (0-100) computed hourly from momentum, trend, volatility
+  and volume
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: Crypto Fear & Greed Index (qiaobax)
+  url: https://qiaobax.com/en/tools/fear-greed-index/
+  category: Cryptocurrency
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: ReadTimeout

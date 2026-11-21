@@ -1,0 +1,46 @@
+id: quivad
+name: QuiVad
+url: https://www.quivad.com/api
+category: Finance
+description: Net short positions disclosed to 23 market regulators, fund by fund, since 2010
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: QuiVad
+  url: https://www.quivad.com/api
+  category: Finance
+link_status: alive
+data_license: 'per-register: each regulator''s own reuse conditions (e.g. Licence Ouverte 2.0 for France, CC BY 4.0 for Australia)'
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+data_license_url: https://www.quivad.com/sources
+api_terms_url: https://www.quivad.com/mentions-legales
+rate_limits: 120 requests per minute per address (429 beyond)
+evidence:
+- field: data_license
+  url: https://www.quivad.com/sources
+  quote: 'Reuse: each register belongs to its authority.'
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.quivad.com/mentions-legales
+  quote: The data comes from the official publications of the regulators and remains subject to the reuse conditions each of them sets.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://www.quivad.com/api
+  quote: Past 120 requests a minute, an address gets a 429 and the delay to wait.
+  checked_at: '2026-11-21'
+notes: 'Aggregator: republishes net short position disclosures from ~23 market authorities (AMF, FCA, FINRA, ASIC, JPX...). QuiVad states no licence of its own for the API (it says access is open,
+  no key); the legal notice says the data stays subject to each regulator''s reuse conditions, and the sources page cites licences only for some registers (France Licence Ouverte 2.0, Australia
+  CC BY 4.0). Upstream terms may be stricter and differ per country. Core fields left unknown; per-register licences not read. Pages read: /api, /mentions-legales, /sources.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

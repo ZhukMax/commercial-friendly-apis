@@ -1,0 +1,60 @@
+id: windsock
+name: Windsock
+url: https://windsock.ai/app/docs
+category: Transportation
+description: Aircraft valuations, FAA registry lookups, cost of ownership and aviation market data
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Windsock
+  url: https://windsock.ai/app/docs
+  category: Transportation
+link_status: alive
+data_license: proprietary
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: 'no'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://windsock.ai/app/terms-of-service
+rate_limits: Free dev tier 100 calls/month; Navigator $49.99/mo 10,000 calls; Pilot Pro $299.99/mo 100,000;
+  Fleet Command $999.99/mo 500,000
+link_note: Docs and terms are JS-rendered; read via Playwright
+evidence:
+- field: redistribution_display
+  url: https://windsock.ai/app/terms-of-service
+  quote: You do not have permission to copy, reproduce, make derivative works from, distribute, republish,
+    download, display
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://windsock.ai/app/terms-of-service
+  quote: the services and the results of using the services are for your internal business use only.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://windsock.ai/pricing
+  quote: 10,000 API calls / month, then $0.001 per call
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://windsock.ai/app/terms-of-service
+  quote: the services and the results of using the services are for your internal business use only.
+  checked_at: '2026-11-21'
+notes: 'Read Terms of Service (updated 9 Nov 2026, first ~9k chars incl. IP, licence, prohibited uses)
+  and /pricing via Playwright. General ToS: licence is limited to internal business use; copying, distributing,
+  republishing or displaying Contents needs prior written permission; a competing-product ban applies.
+  Industry API plans are sold for ''valuations and registry lookups in your app'', and enterprise custom
+  terms exist, so a separate API/enterprise licence may permit in-product display; the API docs page (JS-rendered,
+  /app/docs) was not read in full. Storage/caching not addressed. Aggregates third-party data (FAA registry
+  etc.), upstream terms may be stricter. Red for public ad/affiliate display under the standard ToS.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-verified ToS via Playwright in a fresh context (37k chars). A written enterprise
+  licence could change this; red under standard ToS.

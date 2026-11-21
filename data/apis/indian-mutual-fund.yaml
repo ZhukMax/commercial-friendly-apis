@@ -1,0 +1,30 @@
+id: indian-mutual-fund
+name: Indian Mutual Fund
+url: https://www.mfapi.in/
+category: Finance
+description: Get complete history of India Mutual Funds Data
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Indian Mutual Fund
+  url: https://www.mfapi.in/
+  category: Finance
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+notes: 'mfapi.in homepage and /docs read: described as free and open, no key, docs ask users to cache responses where appropriate. Footer Terms of Service and Privacy links point to "#" (no terms page;
+  /terms and /privacy return 404). No licence or terms found, so all fields unknown. NAV data originates from AMFI/fund houses whose terms were not checked.'
+evidence: []
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

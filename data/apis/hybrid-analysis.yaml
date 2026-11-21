@@ -1,0 +1,25 @@
+id: hybrid-analysis
+name: Hybrid Analysis
+url: https://www.hybrid-analysis.com/docs/api/v2
+category: Security
+description: File and URL malware analysis powered by Falcon Sandbox
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Hybrid Analysis
+  url: https://www.hybrid-analysis.com/docs/api/v2
+  category: Security
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

@@ -1,0 +1,78 @@
+id: ticketmaster
+name: Ticketmaster
+url: http://developer.ticketmaster.com/products-and-docs/apis/getting-started/
+category: Events
+description: Search events, attractions, or venues
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Ticketmaster
+  url: http://developer.ticketmaster.com/products-and-docs/apis/getting-started/
+  category: Events
+- list: public-api-lists
+  name: Ticketmaster
+  url: http://developer.ticketmaster.com/products-and-docs/apis/getting-started/
+  category: Events
+link_status: alive
+data_license: 'Proprietary: Event Content owned by organizers and/or Ticketmaster'
+commercial_use: ambiguous
+storage_caching: limited
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+cache_limit: Reasonable periods only, as needed to provide your service
+api_terms_url: https://developer.ticketmaster.com/support/terms-of-use/
+commercial_use_scope: any
+rate_limits: Default 5,000 API calls/day and 5 requests/second per key
+notes: 'General Terms of Use (updated 2023-06-27) prohibit deriving revenue from the API "except as set
+  forth below" but nothing below grants a commercial exception, so ads/own monetisation are ambiguous;
+  the Affiliate Program (Impact tracking links) is the documented route to monetise, and the terms also
+  forbid apps that replicate Ticketmaster.com, require removal of content within 24h on request, and limit
+  caching to reasonable periods. FAQ: no right to use official NFL/NBA/MLB/NHL creative by default. Display
+  is only implied (licence to build an application), hence ambiguous. A separate Partner API terms page
+  exists (not applicable to Discovery API) and was not read.'
+evidence:
+- field: commercial_use
+  url: https://developer.ticketmaster.com/support/terms-of-use/
+  quote: Sell, lease, or sublicense the Ticketmaster API or access thereto or derive revenues from the
+    use or provision of the Ticketmaster API
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://developer.ticketmaster.com/support/faq/
+  quote: Our program rewards partners based on actual sales generated, not just traffic referrals, across
+    both primary and resale channels.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://developer.ticketmaster.com/support/terms-of-use/
+  quote: Cache or store any Event Content other than for reasonable periods in order to provide the service
+    you are providing.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://developer.ticketmaster.com/support/terms-of-use/
+  quote: Remove from your application within 24 hours any Event Content or other information or tickets
+    that the owner asks you to remove.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://developer.ticketmaster.com/support/terms-of-use/
+  quote: Ticketmaster content (event name, dates, times, venue name, and additional information such as
+    Tickets, Attendees, Orders ("Event Content") are owned by the organizers and/or Ticketmaster.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://developer.ticketmaster.com/products-and-docs/apis/getting-started/
+  quote: All API keys are issued with a default quota of 5000 API calls per day and rate limitation of
+    5 requests per second.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read general Terms of Use (2023-06-27). Unresolved: revenue ban vs privacy-policy
+  clause that contemplates third-party advertisers on your app. Lean cautious; affiliate programme is
+  the documented monetisation route. Stands (yellow).'

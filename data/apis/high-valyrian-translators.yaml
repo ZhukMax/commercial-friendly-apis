@@ -1,0 +1,55 @@
+id: high-valyrian-translators
+name: High Valyrian Translators
+url: https://github.com/HVTranslators/high-valyrian-api
+category: Dictionaries
+description: High Valyrian dictionary (400 words with IPA) and Dothraki phrases as free open JSON datasets
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: High Valyrian Translators
+  url: https://github.com/HVTranslators/high-valyrian-api
+  category: Dictionaries
+link_status: alive
+data_license: 'custom: free for personal, educational and non-commercial use with attribution'
+commercial_use: 'no'
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: 'yes'
+bulk_download: 'yes'
+self_host_option: unknown
+verdict: red
+confidence: high
+link_checked_at: '2026-11-21'
+api_terms_url: https://github.com/HVTranslators/high-valyrian-api
+data_license_url: https://raw.githubusercontent.com/HVTranslators/high-valyrian-api/main/LICENSE
+commercial_use_scope: any
+attribution_text: Visible credit to "High Valyrian Translators" with link to https://highvalyriantranslators.com
+share_alike: unknown
+evidence:
+- field: commercial_use
+  url: https://raw.githubusercontent.com/HVTranslators/high-valyrian-api/main/LICENSE
+  quote: Commercial use requires prior written permission from High Valyrian Translators.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://raw.githubusercontent.com/HVTranslators/high-valyrian-api/main/LICENSE
+  quote: Permission is granted to use the data files in this repository free of charge for personal, educational
+    and non-commercial purposes
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://raw.githubusercontent.com/HVTranslators/high-valyrian-api/main/LICENSE
+  quote: a visible credit to "High Valyrian Translators", together with a link to https://highvalyriantranslators.com
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://raw.githubusercontent.com/HVTranslators/high-valyrian-api/main/LICENSE
+  quote: Permission is granted to use the data files in this repository
+  checked_at: '2026-11-21'
+notes: 'Static JSON datasets in a GitHub repo (no live hosted service is described), licensed via a custom
+  LICENSE file: non-commercial only, attribution required, commercial use only with prior written permission,
+  so red unless permission is obtained. Unofficial fan compilation of languages created by David J. Peterson
+  for HBO; the LICENSE itself says it is not affiliated with the rights holders, whose rights in the languages
+  are not covered. README says "free educational and non-commercial use with attribution".'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

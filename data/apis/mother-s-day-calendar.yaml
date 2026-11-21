@@ -1,0 +1,73 @@
+id: mother-s-day-calendar
+name: Mother's Day Calendar
+url: https://mothersdaycalendar.com/en/api/
+category: Calendar
+description: Mother's Day dates, country rules, sources and confidence as static JSON and CSV
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Mother's Day Calendar
+  url: https://mothersdaycalendar.com/en/api/
+  category: Calendar
+link_status: alive
+data_license: CC-BY-4.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: 'yes'
+self_host_option: unknown
+verdict: green
+confidence: high
+link_checked_at: '2026-11-21'
+data_license_url: https://mothersdaycalendar.com/en/api/
+api_terms_url: https://mothersdaycalendar.com/en/api/
+commercial_use_scope: any
+attribution_text: Mother's Day Calendar (mothersdaycalendar.com), CC BY 4.0, with link to the country
+  page and note of changes
+share_alike: unknown
+rate_limits: no key; one-hour cache
+notes: 'API page: dataset licensed CC BY 4.0, credit ''Mother''s Day Calendar'', link to mothersdaycalendar.com
+  and the canonical country page, and indicate changes. Static JSON/CSV snapshots, one-hour cache, no
+  key. ''Source publishers retain rights to their own material'' (upstream sources preserved per record;
+  confidence field shows verification level; some records have no primary source).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+evidence:
+- field: data_license
+  url: https://mothersdaycalendar.com/en/api/
+  quote: The dataset is licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://mothersdaycalendar.com/en/api/
+  quote: Credit Mother’s Day Calendar, link to mothersdaycalendar.com and the relevant canonical country
+    page, and indicate any changes.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://mothersdaycalendar.com/en/api/
+  quote: Source publishers retain rights to their own material.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://mothersdaycalendar.com/en/api/
+  quote: 'Country CSV download : one row per country in the JSON list'
+  checked_at: '2026-11-21'
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Caveat: ''Source publishers retain rights to their own material''; some records lack
+  primary source. Dates/rules are facts. Credit plus link and change note required.'
+license_scope: portal-default

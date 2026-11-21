@@ -1,0 +1,370 @@
+[
+ {
+  "id": "transport-for-chicago-us",
+  "outcome": "confirmed",
+  "reasons": [
+   "CTA licence limited to assisting riders or promoting public transit; no ad/affiliate clause found",
+   "Caching allowed but delete-on-termination"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read developers/terms. Evidence leans restrictive for a generic ad/affiliate site (other purposes need CTA permission) but a rider-focused site is covered; ambiguous and yellow stand. No upstream aggregator."
+ },
+ {
+  "id": "transport-for-hessen-germany",
+  "outcome": "confirmed",
+  "reasons": [
+   "RMV terms limit use to passenger information, single queries, no bulk storage",
+   "Ads on same page are contemplated (clause 7a), so not banned"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read Nutzungsbedingung. Section 7a only requires ads on the same page to be lawful, which implies commercial pages are tolerated; passenger-info purpose and storage ban keep it yellow."
+ },
+ {
+  "id": "transport-for-los-angeles-us",
+  "outcome": "confirmed",
+  "reasons": [
+   "Metro T&C bans integrating data into any advertisement",
+   "No commercial or caching clause; Swiftly feed terms unread"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read developer.metro.net T&C. Ad-integration ban is a real blocker for ad-supported display; ambiguity unresolved; Swiftly real-time terms not read. Stays ambiguous/yellow, low confidence."
+ },
+ {
+  "id": "transport-for-vancouver-canada",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms require stating commercial vs non-commercial use and approval",
+   "TransLink may add conditions for commercial use"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read Terms of Use. Access is by written application with commercial disclosure; no flat ban and no flat grant. Ambiguous stands."
+ },
+ {
+  "id": "transport-for-washington-us",
+  "outcome": "confirmed",
+  "reasons": [
+   "Licence allows use and redistribution within your Application; no commercial ban",
+   "Retention: delete on termination only"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read WMATA licence page. No non-commercial restriction found anywhere; 'Application' includes website/product/service; GTFS under CC BY 4.0. Evidence leans permissive but commercial remains unstated, so ambiguous stands."
+ },
+ {
+  "id": "travel-risk",
+  "outcome": "confirmed",
+  "reasons": [
+   "Display to own end users explicitly allowed; only bulk or raw resale banned",
+   "Storage unaddressed, licence limited to subscription"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read /terms. No ad/affiliate or free-plan non-commercial clause. Third-party DB-IP CC BY 4.0 and photo credit apply. Government advisory upstream terms not checked. Storage ambiguous remains."
+ },
+ {
+  "id": "trendsagi",
+  "outcome": "disputed",
+  "reasons": [
+   "Licence is for internal business purposes only",
+   "Public display on a consumer site is not internal use"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://trendsagi.com/terms",
+    "quote": "right to access and use TrendsAGI for your internal business purposes while your subscription is active",
+    "field": "redistribution_display"
+   }
+  ],
+  "suggested": {
+   "redistribution_display": "no"
+  },
+  "note": "Full ToS (9 short sections) re-read: no clause allowing public display, storage or ad-supported use; licence tied to active subscription; resale/sublicense banned. Upstream social platforms (X, TikTok etc.) likely stricter. Free-plan terms not separate."
+ },
+ {
+  "id": "trustydata",
+  "outcome": "confirmed",
+  "reasons": [
+   "CGU 9.3 allows using API results in professional activity; resale/rebuilding banned",
+   "Storage not addressed; B2B only; ODbL for OSM route data"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read CGU/CGV 8.2 and 9.3: web/mobile app use listed as permitted, results free to use professionally. Blockers: no resale of raw data, no rebuilding source DBs, no RNE director prospecting lists. OSM routes need ODbL attribution (possible share-alike on derived DB). Storage unknown keeps verdict unknown."
+ },
+ {
+  "id": "turkpidya",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms say apps, research, personal projects; no commercial ban",
+   "Mandatory visible link attribution; upstream sources (BigPara/doviz.com for gold) unlicensed"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read developer page terms. Nothing forbids commercial display and the page shows a jeweller's-site widget. Risk: gold data comes from BigPara/doviz.com, FX from TCMB, quakes from Kandilli, whose own terms were not read. Yellow stands."
+ },
+ {
+  "id": "twelve-data",
+  "outcome": "disputed",
+  "reasons": [
+   "Terms ban using Free Tier data commercially",
+   "External display only with Redistribution Rights Add-On or agreement"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://twelvedata.com/terms",
+    "quote": "Use Free Tier data for commercial purposes",
+    "field": "commercial_use"
+   },
+   {
+    "url": "https://twelvedata.com/terms",
+    "quote": "Redistribute or provide external display of Data only if and as expressly authorized by a Redistribution Rights Add-On",
+    "field": "redistribution_display"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "paid-only",
+   "redistribution_display": "no"
+  },
+  "note": "Pricing page also says Grow plan is 'Internal display data access' (view-only, no storage) and Pro 'may not be redistributed or made available to external parties'. Public display on a site needs a separate redistribution agreement; so plain commercial-site use is not covered by standard plans. Verdict should likely be red or yellow (paid add-on)."
+ },
+ {
+  "id": "ume-open-data",
+  "outcome": "confirmed",
+  "reasons": [
+   "Portal terms defer to each dataset licence",
+   "Sampled catalog: 76 empty, 22 CC0, 2 CC BY-NC-ND"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "No new blocker. Per-dataset licences decide; blanket verdict impossible. Unlicensed datasets are not safe to assume open."
+ },
+ {
+  "id": "unpaywall",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToS ban unauthorized republication of Data without written consent",
+   "No commercial-use or caching clause; snapshot discontinued"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read ToS (rev. 2020) and product pages via Playwright. Snapshot page now says no more Unpaywall snapshots, use the OpenAlex snapshot (monthly); search endpoint retired 2026-09-18. Looking up OA status per DOI for display is plausible but storing or republishing the Database needs consent; OpenAlex is the cleaner source. Ambiguous stands."
+ },
+ {
+  "id": "urgences-qu-bec",
+  "outcome": "disputed",
+  "reasons": [
+   "Upstream MSSS open data on Donnees Quebec is CC BY 4.0, which requires attribution",
+   "Author says no attribution required, but cannot waive the upstream licence"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://www.donneesquebec.ca/recherche/dataset/fichier-cumulatif-des-donnees-des-urgences",
+    "quote": "Licence Attribution (CC-BY 4.0)",
+    "field": "attribution_required"
+   }
+  ],
+  "suggested": {
+   "attribution_required": "yes"
+  },
+  "note": "The live-feed source (Console provinciale des urgences / quebec.ca hourly page) licence was not directly read; the MSSS ER cumulative dataset on Donnees Quebec is CC BY 4.0, so crediting MSSS is the safe path. Hobby service, no terms page, owner sells an iOS app from same data. Commercial use unresolved but upstream CC BY permits it."
+ },
+ {
+  "id": "us-zipcode",
+  "outcome": "disputed",
+  "reasons": [
+   "Absent a Perpetual Retention Right, stored data must be deleted within 30 days after term",
+   "Embedding allowed only if API works in background; bulk Output Data to third parties banned"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://www.smarty.com/legal/terms-of-service",
+    "quote": "Absent a Perpetual Retention Right, Subscriber shall immediately cease all use of such data, delete or destroy all copies within thirty (30) days",
+    "field": "storage_caching"
+   },
+   {
+    "url": "https://www.smarty.com/legal/terms-of-service",
+    "quote": "provided the API functions only in the background to process data and deliver results to end-users interacting with Subscriber’s interface",
+    "field": "redistribution_display"
+   }
+  ],
+  "suggested": {
+   "storage_caching": "limited"
+  },
+  "note": "Smarty is a validation/lookup service, not a content feed: building public zip-code pages from stored output is not covered. Free trial only (42 days, 1,000 lookups); commercial use paid-only stands. Re-read full Subscription Agreement section 2.5 and Internal Business Purposes definition. Same finding applies to the smartystreets.com duplicate."
+ },
+ {
+  "id": "us-zipcode-smartystreets",
+  "outcome": "disputed",
+  "reasons": [
+   "Absent a Perpetual Retention Right, stored data must be deleted within 30 days after term",
+   "Embedding allowed only if API works in background; bulk Output Data to third parties banned"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://www.smarty.com/legal/terms-of-service",
+    "quote": "Absent a Perpetual Retention Right, Subscriber shall immediately cease all use of such data, delete or destroy all copies within thirty (30) days",
+    "field": "storage_caching"
+   },
+   {
+    "url": "https://www.smarty.com/legal/terms-of-service",
+    "quote": "provided the API functions only in the background to process data and deliver results to end-users interacting with Subscriber’s interface",
+    "field": "redistribution_display"
+   }
+  ],
+  "suggested": {
+   "storage_caching": "limited"
+  },
+  "note": "Smarty is a validation/lookup service, not a content feed: building public zip-code pages from stored output is not covered. Free trial only (42 days, 1,000 lookups); commercial use paid-only stands. Re-read full Subscription Agreement section 2.5 and Internal Business Purposes definition. Same finding applies to the smartystreets.com duplicate."
+ },
+ {
+  "id": "ustariffrates",
+  "outcome": "disputed",
+  "reasons": [
+   "Licence is internal business and informational purposes only",
+   "Republishing paid content or API output is banned"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://ustariffrates.com/terms",
+    "quote": "resell, sublicense, republish, or create a substitute database from paid content or API output",
+    "field": "redistribution_display"
+   },
+   {
+    "url": "https://ustariffrates.com/terms",
+    "quote": "limited, non-exclusive, non-transferable, revocable right to use the Service for your internal business and informational purposes",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {
+   "redistribution_display": "no"
+  },
+  "note": "Re-read terms via Playwright (Cloudflare blocks curl; fresh context). Showing API output publicly on an ad site is republication. Underlying HTS data is government public domain, so using the USITC source directly is the safer route."
+ },
+ {
+  "id": "vakaymood",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToS licence is personal use; no copying or distribution without permission",
+   "Developer API page offers free read-only API but gives no reuse terms"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read /terms (v6) and /developers via Playwright. ToS 15 lets VakayMood market listings on affiliated sites, but nothing grants third parties reuse. API is built to send bookings to bookingUrl (affiliate-like use plausible) but unlicensed. Ambiguous stands, low confidence."
+ },
+ {
+  "id": "vat-validation",
+  "outcome": "confirmed",
+  "reasons": [
+   "Abstract ToS are written for the Site, not API output",
+   "Ban on advertising and compiling databases from Content is broad"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read /legal/legal. No API-output or commercial-use clause; plans are paid with quota, free key exists. Upstream VIES/government registers unread. Ambiguous stands, low confidence."
+ },
+ {
+  "id": "veabird",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms allow personal and commercial planning, widgets, data feeds",
+   "No retention limit; hourly caching requested; attribution required"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read veabird.com/terms (updated 2026-09-29): commercial planning allowed, attribution not to be removed. Third-party inputs (NOAA, USF sargassum) upstream not read; NOAA is public domain. Yellow stands."
+ },
+ {
+  "id": "veridion",
+  "outcome": "confirmed",
+  "reasons": [
+   "Free tier needs attribution; rows shown in own product are not redistribution",
+   "Resale or republishing served rows banned; bulk only under signed licence"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read /data-api/license. Free tier open to anyone with attribution, last 30 days only; Developer key limited to companies under $1M revenue; investment firms managing outside money need a licence. Underlying US government filings are public domain. Storage unaddressed."
+ },
+ {
+  "id": "vesselapi",
+  "outcome": "confirmed",
+  "reasons": [
+   "Data is for internal use only; mirroring and public display of raw data banned",
+   "Aggregator; upstream AIS provider terms unread"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read T&C section 5. Red verdict for public ad/affiliate site stands; commercial_use ambiguous only for internal use. Redistribution allowed only with consent."
+ },
+ {
+  "id": "vett",
+  "outcome": "disputed",
+  "reasons": [
+   "Page says free tier on every RapidAPI product, contradicting paid-only",
+   "ToS contains no commercial-use ban; only raw resale banned"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://wimberly.solutions/api/free-sanctions-check/",
+    "quote": "Free tier available on every product, no credit card required to start.",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "ambiguous"
+  },
+  "note": "Free web tool is not for production, but RapidAPI free tiers exist; their terms and any non-commercial limit were not read, so paid-only is overstated. ToS (2026-05-12) bans resale/redistribution of raw data without permission and FCRA use. Upstream sanctions lists are government public domain or open licences."
+ },
+ {
+  "id": "vettedhome",
+  "outcome": "confirmed",
+  "reasons": [
+   "API page grants CC BY 4.0 specifically to the API index",
+   "Site Terms require permission for commercial republication"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read /api and /terms. The CC BY 4.0 grant is specific to the Data API content index (page titles, URLs, cited sources) and is irrevocable; general Terms say any other reproduction or commercial use needs permission. Specific-over-general leans to commercial use of API data being OK with attribution, but conflict is unresolved; ambiguous stands. Site currently has no ads or affiliate links."
+ },
+ {
+  "id": "visual-crossing",
+  "outcome": "disputed",
+  "reasons": [
+   "Editions page says commercial use and public display are allowed on all plans",
+   "Raw data must not be exportable; resale banned; attribution on non-corporate plans"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://www.visualcrossing.com/weather-data-editions/",
+    "quote": "Weather data may be displayed to internal or external users, including the general public, as part of an application, website, dashboard, or report.",
+    "field": "redistribution_display"
+   },
+   {
+    "url": "https://www.visualcrossing.com/weather-data-editions/",
+    "quote": "Commercial licensing provides for the use of Visual Crossing Weather Data by businesses for commercial purposes",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "yes",
+   "redistribution_display": "yes",
+   "attribution_required": "yes",
+   "storage_caching": "yes"
+  },
+  "note": "Plan table lists Commercial use Yes and Storable for shared external use Yes for all five plans including Free; attribution (Weather Data Provided by Visual Crossing) required except Corporate/Enterprise. Caveat: terms section says raw data may be shown only where not exportable, and the 'Commercial Licensing' paragraph mentions contacting sales, so the free-plan commercial claim should be double-checked. Upgrade likely to green/yellow with attribution."
+ },
+ {
+  "id": "voidly",
+  "outcome": "confirmed",
+  "reasons": [
+   "Own research data is CC BY 4.0 but each dataset sets its own licence",
+   "Upstream OONI and Citizen Lab data are CC BY-NC-SA 4.0"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read Terms sections 4 and 9. Commercial use cannot be confirmed per endpoint; non-commercial upstream data is a real blocker for some endpoints. Ambiguous stands, low confidence."
+ }
+]

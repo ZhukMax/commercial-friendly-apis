@@ -1,0 +1,34 @@
+id: careerjet
+name: Careerjet
+url: https://www.careerjet.com/partners/api/
+category: Jobs
+description: Job search engine
+description_source: upstream
+auth: apiKey
+https: false
+cors: unknown
+sources:
+- list: public-apis
+  name: Careerjet
+  url: https://www.careerjet.com/partners/api/
+  category: Jobs
+- list: public-api-lists
+  name: Careerjet
+  url: https://www.careerjet.com/partners/api/
+  category: Jobs
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.careerjet.com/partners/api/
+notes: Read the Careerjet publisher API docs (key per publisher website; user_ip and user_agent required) and the Publishers page ("Monetize your web traffic by displaying Careerjet's job listings"), but
+  no terms page found (several /partners/terms-like URLs 404; publisher sign-up behind login). Marketing text is not a licence, so all terms unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

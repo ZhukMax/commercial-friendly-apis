@@ -1,0 +1,26 @@
+id: github
+name: GitHub
+url: https://docs.github.com/en/free-pro-team@latest/rest
+category: Development
+description: Make use of GitHub repositories, code and user info programmatically
+description_source: upstream
+auth: OAuth
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: GitHub
+  url: https://docs.github.com/en/free-pro-team@latest/rest
+  category: Development
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://docs.github.com/en/rest

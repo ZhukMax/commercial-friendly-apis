@@ -1,0 +1,39 @@
+id: kaggle
+name: Kaggle
+url: https://www.kaggle.com/docs/api
+category: Open Data
+description: Create and interact with Datasets, Notebooks, and connect with Kaggle
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Kaggle
+  url: https://www.kaggle.com/docs/api
+  category: Open Data
+link_status: alive
+verdict: red
+confidence: medium
+link_checked_at: '2026-11-21'
+notes: Kaggle Terms of Use (page is JS-rendered; read through Playwright in a fresh context) say the Services
+  may be used only for own internal, personal, non-commercial use and not for the benefit of third parties.
+  The API/CLI is part of the Services (API doc page itself is JS-only and was not read). Individual datasets
+  carry their own licences (many CC0/CC BY etc.) but those were not assessed; downloading a CC0 dataset
+  is a separate question from using the Kaggle API/Services commercially. Account/API token required.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+api_terms_url: https://www.kaggle.com/terms
+commercial_use: 'no'
+commercial_use_scope: any
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+evidence:
+- field: commercial_use
+  url: https://www.kaggle.com/terms
+  quote: You will only use the Services for your own internal, personal, non-commercial use
+  checked_at: '2026-11-21'
+data_license: unknown

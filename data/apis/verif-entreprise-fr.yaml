@@ -1,0 +1,41 @@
+id: verif-entreprise-fr
+name: Verif Entreprise FR
+url: https://api-production-24833.up.railway.app
+category: Business
+description: 'French company checks by SIREN: status, insolvency (BODACC), VAT (VIES); free preview'
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Verif Entreprise FR
+  url: https://api-production-24833.up.railway.app
+  category: Business
+link_status: alive
+data_license: Licence Ouverte Etalab 2.0 / CC0 (upstream public registers); service's own terms not provided
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://api-production-24833.up.railway.app/cgv
+rate_limits: 'Free preview: 10 calls/day per client; paid calls via x402 USDC'
+evidence:
+- field: data_license
+  url: https://api-production-24833.up.railway.app/mentions-legales
+  quote: Données publiques officielles réutilisées sous Licence Ouverte Etalab 2.0 (Annuaire des Entreprises, BODACC, ADEME) et VIES (Commission européenne).
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://api-production-24833.up.railway.app/llms.txt
+  quote: FREE, 10 calls/day per client
+  checked_at: '2026-11-21'
+notes: 'Read root JSON, /llms.txt, /mentions-legales and /cgv. The service is a paid x402 (USDC) KYB wrapper around open French sources (Etalab Licence Ouverte 2.0, GLEIF CC0, DG Tresor) with a small free
+  preview (/v1/apercu, 10/day). Its legal pages are unfinished templates (''[à compléter]''), the CGV covers sale of a report only, and there are no terms on reuse/storage/display of the output, so all
+  core terms unknown. The upstream open licences allow reuse, but the service itself may add restrictions. Aggregator: upstream terms apply.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -1,0 +1,55 @@
+id: vuntum
+name: Vuntum
+url: https://vuntum.com/en/api-mcp
+category: Open Data
+description: Sourced, dated facts on consumer robots and physical AI, licensed CC BY-NC 4.0
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Vuntum
+  url: https://vuntum.com/en/api-mcp
+  category: Open Data
+link_status: alive
+data_license: CC-BY-NC-4.0
+commercial_use: paid-only
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: 'yes'
+bulk_download: 'yes'
+self_host_option: unknown
+verdict: yellow
+confidence: high
+link_checked_at: '2026-11-21'
+data_license_url: https://vuntum.com/en/api-mcp
+api_terms_url: https://vuntum.com/en/terms
+commercial_use_scope: paid
+attribution_text: 'Source: Vuntum (https://vuntum.com), CC BY-NC 4.0 licence, with a link to the profile concerned'
+rate_limits: 'REST: 120 requests/minute and 300 requests/day per IP (free); pro key: 600/min, 20,000 calls/day default'
+evidence:
+- field: data_license
+  url: https://vuntum.com/en/api-mcp
+  quote: The factual data is published under the CC BY-NC 4.0 licence
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://vuntum.com/en/terms
+  quote: commercial use requires a paid licence, on request at contact@vuntum.com
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://vuntum.com/en/api-mcp
+  quote: 'Expected credit: Source: Vuntum (https://vuntum.com), CC BY-NC 4.0 licence'
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://vuntum.com/en/api-mcp
+  quote: 120 requests per minute and 300 requests per day per IP address
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://vuntum.com/en/api-mcp
+  quote: prefer the full export (JSON Lines or CSV) to thousands of requests
+  checked_at: '2026-11-21'
+notes: Read the API/MCP page and Terms of use. Free access is CC BY-NC 4.0 (non-commercial); a "pro access" key carries a commercial-use licence on request. Releases before 24 Oct 2026 remain CC BY 4.0.
+  Editorial content is all rights reserved. Storage and display terms for commercial licensees were not published, so left unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

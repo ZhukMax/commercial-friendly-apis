@@ -1,0 +1,36 @@
+id: nicehash
+name: NiceHash
+url: https://docs.nicehash.com/
+category: Cryptocurrency
+description: Largest Crypto Mining Marketplace
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-api-lists
+  name: NiceHash
+  url: https://docs.nicehash.com/
+  category: Cryptocurrency
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.nicehash.com/terms
+evidence: []
+notes: 'NOT a typical data source: NiceHash API is an account-scoped hashrate-marketplace/trading API
+  (keys created in account settings). Read docs (redirects to nicehash.com/docs) and the Platform Terms
+  of Use & Mining Terms of Service (nicehash.com/terms, via Playwright); a keyword scan found no clause
+  on reuse, caching, display or commercial use of API data. All fields left unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

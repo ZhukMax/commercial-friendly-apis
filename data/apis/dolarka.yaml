@@ -1,0 +1,64 @@
+id: dolarka
+name: DolarKaç
+url: https://dolarkac.com/gelistirici-api
+category: Currency Exchange
+description: Turkish lira exchange rates, gold and crypto prices from the Istanbul free market
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: DolarKaç
+  url: https://dolarkac.com/gelistirici-api
+  category: Currency Exchange
+link_status: alive
+data_license: proprietary (DolarKaç API terms); separate daily-close open dataset is CC BY 4.0
+commercial_use: 'yes'
+storage_caching: unknown
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: 'no'
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+commercial_use_scope: any
+attribution_text: 'Kaynak: DolarKaç (visible clickable link to https://dolarkac.com/ next to the data;
+  ready HTML in attributionHtml field)'
+api_terms_url: https://dolarkac.com/gelistirici-api
+rate_limits: 60 requests/minute per IP; responses cached 15 s
+evidence:
+- field: commercial_use
+  url: https://dolarkac.com/gelistirici-api
+  quote: API ücretsizdir; kişisel ve ticari sitelerde kullanılabilir.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://dolarkac.com/gelistirici-api
+  quote: Verileri gösterdiğiniz her yerde dolarkac.com adresine görünür ve tıklanabilir bir kaynak bağlantısı
+    zorunludur
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://dolarkac.com/gelistirici-api
+  quote: Verileri gösterdiğiniz her yerde dolarkac.com adresine görünür ve tıklanabilir bir kaynak bağlantısı
+    zorunludur
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://dolarkac.com/gelistirici-api
+  quote: Verilerin yeniden satışı, ücretli bir veri hizmeti olarak sunulması veya API’nin toplu kopyalanması
+    yasaktır.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://dolarkac.com/gelistirici-api
+  quote: 'İstisna: günlük kapanış verilerini içeren açık veri setimiz CC BY 4.0 lisansıyla yayımlanır'
+  checked_at: '2026-11-21'
+notes: 'Terms are in the ''Kullanım koşulları'' block of the developer page (Turkish). Free API, personal
+  and commercial sites OK, mandatory visible link to dolarkac.com wherever data is shown; resale, offering
+  as a paid data service and bulk copying of the API are forbidden. Nothing explicit on storing/caching
+  data on your side (their own responses are cached 15 s), so storage_caching stays unknown and verdict
+  is unknown. The data is an aggregate of market prices (gold, crypto, FX); upstream source terms are
+  not stated and may be stricter. /kullanim-kosullari (site ToS) read: copying/republishing of content
+  other than personal non-commercial needs written permission, short quotes with credit allowed; this
+  is the website, not the API.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

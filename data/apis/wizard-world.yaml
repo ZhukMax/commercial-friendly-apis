@@ -1,0 +1,35 @@
+id: wizard-world
+name: Wizard World
+url: https://wizard-world-api.herokuapp.com/swagger/index.html
+category: Books
+description: Get information from the Harry Potter universe
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Wizard World
+  url: https://wizard-world-api.herokuapp.com/swagger/index.html
+  category: Books
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: 'yes'
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://github.com/MossPiglets/WizardWorldAPI
+evidence:
+- field: self_host_option
+  url: https://raw.githubusercontent.com/MossPiglets/WizardWorldAPI/main/README.md
+  quote: This project is licensed under the MIT License
+  checked_at: '2026-11-21'
+notes: Read GitHub README (the swagger page itself is a JS shell with no terms). Code is MIT (self-hostable). README says data is based on Harry Potter Wiki (Fandom), whose licence was not checked; upstream
+  terms may be stricter, and the franchise content is copyrighted. No data licence or hosted-API terms stated; all core terms unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

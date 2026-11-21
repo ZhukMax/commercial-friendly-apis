@@ -1,0 +1,69 @@
+id: graphhopper
+name: GraphHopper
+url: https://docs.graphhopper.com/
+category: Transportation
+description: A-to-B routing with turn-by-turn instructions
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: GraphHopper
+  url: https://docs.graphhopper.com/
+  category: Transportation
+- list: public-api-lists
+  name: GraphHopper
+  url: https://graphhopper.com/api/1/docs/
+  category: Transportation
+link_status: redirect
+data_license: proprietary (GraphHopper Terms of Service); underlying OpenStreetMap / TomTom data needs
+  its own attribution
+commercial_use: paid-only
+storage_caching: limited
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: -> https://docs.graphhopper.com/openapi
+api_terms_url: https://www.graphhopper.com/terms/
+commercial_use_scope: paid
+evidence:
+- field: commercial_use
+  url: https://www.graphhopper.com/terms/
+  quote: The commercial use of the Free -package is allowed in the development phase and for the production
+    phase on inquiry, please contact us.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.graphhopper.com/terms/
+  quote: The results may be temporarily cached on the client side (e.g. browser or mobile app).
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.graphhopper.com/terms/
+  quote: To redistribute the Directions API you need a custom package and agreement with GraphHopper.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.graphhopper.com/terms/
+  quote: packages without the white label option require You to display GraphHopper attribution
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.graphhopper.com/terms/
+  quote: All packages require OpenStreetMap attribution or an agreement to the TomTom EULA or both
+  checked_at: '2026-11-21'
+notes: 'Read GraphHopper Terms of Service v9 (Aug 2021). Free package: commercial use only in development,
+  production use on inquiry; non-free packages (monthly fee) allow commercial use, hence paid-only. Only
+  temporary client-side caching; scraping/mass download prohibited. Showing results in apps (with or without
+  map) is allowed but redistribution of the API needs a custom package, so display ambiguous. Same GraphHopper
+  Directions API as the sibling entry (docs.graphhopper.com/openapi); pricing page not read. Merged duplicate
+  entry `graphhopper-graphhopper`.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Pricing page: ''The Free Plan is for non-commercial use only.'' Same service as graphhopper-graphhopper;
+  consider merging.'
+aliases:
+- graphhopper-graphhopper

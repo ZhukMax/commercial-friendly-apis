@@ -1,0 +1,51 @@
+id: github-contribution-chart-generator
+name: GitHub Contribution Chart Generator
+url: https://github-contributions.vercel.app
+category: Open Source Projects
+description: Create an image of your GitHub contributions
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: GitHub Contribution Chart Generator
+  url: https://github-contributions.vercel.app
+  category: Open Source Projects
+link_status: alive
+data_license: MIT (source code of the tool; no data licence)
+commercial_use: 'yes'
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: 'yes'
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+data_license_url: https://github.com/sallar/github-contributions-chart/blob/master/LICENSE
+commercial_use_scope: self-hosted
+evidence:
+- field: data_license
+  url: https://raw.githubusercontent.com/sallar/github-contributions-chart/master/LICENSE
+  quote: MIT License
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://raw.githubusercontent.com/sallar/github-contributions-chart/master/LICENSE
+  quote: to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software
+  checked_at: '2026-11-21'
+- field: self_host_option
+  url: https://raw.githubusercontent.com/sallar/github-contributions-chart/master/README.md
+  quote: 'Running locally:'
+  checked_at: '2026-11-21'
+notes: 'Not a data source: image/JSON generator for a GitHub user''s public contribution calendar, hosted
+  on Vercel; the hosted site has no terms or API policy. The MIT licence applies to the source code (self-hosting
+  is allowed and documented in the README). The data it returns is GitHub contribution data obtained by
+  scraping profile pages (''GitHub doesn''t provide a way to access user statistics through its official
+  API''), so GitHub''s terms govern the data and were not assessed. Storage/display of the output left
+  unknown; commercial_use=yes only for self-hosted use of the code.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

@@ -1,0 +1,25 @@
+id: sealed-rose
+name: Sealed Rose
+url: https://sealedrose.com/verify-video
+category: Security
+description: AI media forensics and synthetic content verification for video, audio, image, and text
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Sealed Rose
+  url: https://sealedrose.com/verify-video
+  category: Security
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

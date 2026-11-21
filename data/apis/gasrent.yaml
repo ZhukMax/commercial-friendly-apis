@@ -1,0 +1,36 @@
+id: gasrent
+name: Gasrent
+url: https://gasrent.click/api.html
+category: Cryptocurrency
+description: TRON energy and bandwidth rental aggregator with public price and health endpoints
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Gasrent
+  url: https://gasrent.click/api.html
+  category: Cryptocurrency
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://gasrent.click/terms
+evidence: []
+notes: 'NOT a data source: Gasrent is a TRON energy/bandwidth rental service; the API is account-scoped
+  (X-API-KEY, orders, balances, top-ups, withdrawals) with only health/price-type public endpoints. Read
+  gasrent.click/terms (sec. 8: API usable ''only within the limits and rules in the API reference'') and
+  the API reference; neither gives terms for reusing, caching or displaying price data. All fields unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

@@ -1,0 +1,34 @@
+id: hirelayer
+name: HireLayer
+url: https://hirelayer.co/api-docs
+category: Jobs
+description: Parse resumes and job descriptions, normalize skills, match and rank candidates
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: HireLayer
+  url: https://hirelayer.co/api-docs
+  category: Jobs
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://hirelayer.co/terms-and-conditions
+notes: 'NOT a data source: resume parsing, job criteria extraction, scoring and matching APIs for ATS/job
+  boards (customer sends own data). Read https://hirelayer.co/terms-and-conditions: no clause on commercial
+  reuse of outputs; says data sent is processed only to provide the service. All unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

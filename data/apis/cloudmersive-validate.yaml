@@ -1,0 +1,33 @@
+id: cloudmersive-validate
+name: Cloudmersive Validate
+url: https://cloudmersive.com/validate-api
+category: Email
+description: Validate email addresses, phone numbers, VAT numbers and domain names
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Cloudmersive Validate
+  url: https://cloudmersive.com/validate-api
+  category: Email
+- list: public-api-lists
+  name: Cloudmersive Validate
+  url: https://cloudmersive.com/validate-api
+  category: Data Validation
+- list: public-apis
+  name: Cloudmersive Validate
+  url: https://cloudmersive.com/phone-number-validation-API
+  category: Phone
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

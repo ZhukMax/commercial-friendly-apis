@@ -1,0 +1,75 @@
+id: verified-handles
+name: Verified Handles
+url: https://verifiedhandles.org/developers
+category: Open Data
+description: Official social media handles and identifiers of 155,000+ notable people and organisations
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Verified Handles
+  url: https://verifiedhandles.org/developers
+  category: Open Data
+link_status: alive
+data_license: CC0-1.0 (entry text; Wikipedia-derived descriptions CC BY-SA 4.0; images separately licensed)
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: ambiguous
+bulk_download: 'yes'
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://creativecommons.org/publicdomain/zero/1.0/
+api_terms_url: https://verifiedhandles.org/developers
+commercial_use_scope: any
+evidence:
+- field: data_license
+  url: https://verifiedhandles.org/developers
+  quote: The text of every entry is in the public domain, under CC0 1.0
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://verifiedhandles.org/developers
+  quote: copy it, change it and build on it, commercially or not, without asking.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://verifiedhandles.org/developers
+  quote: copy it, change it and build on it, commercially or not, without asking.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://verifiedhandles.org/developers
+  quote: copy it, change it and build on it, commercially or not, without asking.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://verifiedhandles.org/developers
+  quote: copy it, change it and build on it, commercially or not, without asking.
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://verifiedhandles.org/developers
+  quote: every entry, weekly, CC0
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://verifiedhandles.org/developers
+  quote: Wikipedia shares its articles under CC BY-SA 4.0 , and the description keeps that licence
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://verifiedhandles.org/developers
+  quote: Images are not covered by the entry text’s public-domain dedication.
+  checked_at: '2026-11-21'
+notes: 'Read the API docs "Licence and attribution" and "Images and their rights" sections (page is large;
+  read via parsed HTML). Entry text is CC0. Exceptions: some descriptions come from Wikipedia and keep
+  CC BY-SA 4.0 (flagged per entry in description_license, attribution then required); images are NOT covered
+  and each has its own licence in image_rights (unknown licence = assume no reuse). A separate /terms
+  page returned 404.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Attribution not ''no'' for all entries: Wikipedia-derived descriptions are CC BY-SA
+  4.0; Images are not covered by the CC0 dedication | applied: attribution_required=ambiguous'
+verdict_override: yellow
+override_reason: 'Second check: Attribution not ''no'' for all entries: Wikipedia-derived descriptions
+  are CC BY-SA 4.0; Images are not covered by the CC0 dedication'

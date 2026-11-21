@@ -1,0 +1,30 @@
+id: accuweather
+name: AccuWeather
+url: https://developer.accuweather.com/apis
+category: Weather
+description: Weather and forecast data
+description_source: upstream
+auth: apiKey
+https: false
+cors: unknown
+sources:
+- list: public-apis
+  name: AccuWeather
+  url: https://developer.accuweather.com/apis
+  category: Weather
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: HTTP 403 (blocked for bots, assumed alive)
+notes: developer.accuweather.com returns 'Access Denied' (Akamai) to curl for the terms and packages pages; not bypassed. Terms not read, so all core fields unknown. Link status note retained from earlier
+  check.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

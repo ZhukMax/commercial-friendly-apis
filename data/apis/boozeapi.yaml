@@ -1,0 +1,29 @@
+id: boozeapi
+name: BoozeAPI
+url: https://boozeapi.com/
+category: Food & Drink
+description: REST API Cocktail Recipes
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: BoozeAPI
+  url: https://boozeapi.com/
+  category: Food & Drink
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+notes: https://boozeapi.com/ returned HTTP 521 (origin down) and www.boozeapi.com returned 403 to curl, so no page, terms or licence could be read. Not marked dead on the strength of a 521 alone. All terms
+  unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

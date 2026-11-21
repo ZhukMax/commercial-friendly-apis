@@ -1,0 +1,78 @@
+id: ais-trail
+name: AIS Trail
+url: https://aistrail.com/docs/
+category: Transportation
+description: Live and historical AIS ship positions, vessel search, port calls and events worldwide
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: AIS Trail
+  url: https://aistrail.com/docs/
+  category: Transportation
+link_status: alive
+data_license: proprietary service licence; underlying Source licences apply and prevail for original data
+  (listed on /docs/sources/)
+commercial_use: 'yes'
+storage_caching: ambiguous
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://aistrail.com/docs/sources/
+api_terms_url: https://aistrail.com/legal/terms/
+commercial_use_scope: any
+attribution_text: Attribution text of each Source used (returned in meta.attribution / X-Attribution header)
+share_alike: unknown
+evidence:
+- field: commercial_use
+  url: https://aistrail.com/legal/terms/
+  quote: including in your own products and services and for commercial purposes
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://aistrail.com/legal/terms/
+  quote: The licence continues after your account ends for Data you obtained while it was active.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://aistrail.com/legal/terms/
+  quote: showing it to your customers and giving them reasonable extracts that are incidental to a product
+    or service you provide to them, is allowed
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://aistrail.com/legal/terms/
+  quote: keep the attribution text of every Source the Data came from
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://aistrail.com/legal/terms/
+  quote: The Data originates from the Sources, which publish it under their own licences.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://aistrail.com/legal/terms/
+  quote: make it available to others, in raw or bulk form, provide it to third parties as a continuous
+    feed
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://aistrail.com/legal/terms/
+  quote: Accounts, API keys, paid plans and credit packs are for business use only.
+  checked_at: '2026-11-21'
+notes: 'Terms of service (effective 15 Oct 2026, updated 8 Nov 2026), section 6: licence to use Data in
+  own products and for commercial purposes, subject to the Source licences (listed on the Data sources
+  page, not individually read) and with attribution of every Source. Section 7 forbids reselling, bulk/raw
+  redistribution, continuous feeds or white-label APIs without a Redistribution Agreement, and forbids
+  navigation use. Accounts are business-use only. Free/Starter plans have history delayed 24 h and no
+  live data. Storage rating is an inference from the surviving-licence clause (no explicit caching rule).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'ToS s7 forbids making Data available to others in raw or bulk form without a Redistribution
+  Agreement; only reasonable extracts incidental to your product are allowed; So a public data-driven
+  site that shows vessel data pages is not clearly permitted: display is ambiguous; Storage is only inferred;
+  s6 subordinates everything to per-Source licences (Digitraffic CC BY, NLOD, AISHub terms) each with
+  its own attribution; Business-use-only accounts; navigation use forbidden | applied: redistribution_display=ambiguous,
+  storage_caching=ambiguous'

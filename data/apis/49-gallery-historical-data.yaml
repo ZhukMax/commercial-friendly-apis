@@ -1,0 +1,68 @@
+id: 49-gallery-historical-data
+name: 49 Gallery Historical Data
+url: https://api.181649.com/docs
+category: Open Data
+description: Normalized historical records and 25 daily-updated reference series
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: 49 Gallery Historical Data
+  url: https://api.181649.com/docs
+  category: Open Data
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: ambiguous
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://api.181649.com/terms
+attribution_text: Keep source name and an accessible URL when publicly displaying data
+share_alike: unknown
+rate_limits: 30 requests/minute per client IP; paging at least 2.1 s apart
+notes: 'Read /terms and /docs (Chinese). Dataset is Macau/Hong Kong lottery gallery and result history
+  (third-party public content with source URLs and images; the API operator does not claim a licence over
+  it and gives no upstream licence). Terms: free, suited to archiving, development and statistical research;
+  credit source name + URL when displaying publicly; do not claim official authorisation; prohibited:
+  betting transactions, top-ups/prize redemption, profit guarantees. Commercial use is never addressed
+  (ambiguous); a commercial/ads site about lotteries risks conflict with the betting ban and with local
+  gambling laws. Caching is expected of the caller but no duration/limit given. Image copyrights belong
+  to upstream sources (not checked).'
+evidence:
+- field: redistribution_display
+  url: https://api.181649.com/terms
+  quote: 调用方公开展示数据时，应保留来源名称与可访问的网址。
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://api.181649.com/terms
+  quote: 调用方公开展示数据时，应保留来源名称与可访问的网址。
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://api.181649.com/terms
+  quote: 本接口免费开放，适合历史数据归档、软件开发、自动化脚本与统计研究。
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://api.181649.com/terms
+  quote: 调用方应自行设置缓存、超时、重试和异常处理。
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://api.181649.com/terms
+  quote: 每个客户端 IP 每分钟最多 30 次
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://api.181649.com/docs
+  quote: 数据仅供资料、开发和统计研究使用。
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Docs page restricts data to reference/dev/statistics use; Lottery content; terms forbid
+  betting transactions | applied: commercial_use=ambiguous (suggested no, needs human review)'

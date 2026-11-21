@@ -1,0 +1,26 @@
+id: ai-law-tracker
+name: AI Law Tracker
+url: https://ai-law-tracker.com/developers
+category: Government
+description: AI regulation laws by jurisdiction (US, EU, global) as read-only JSON; free tier
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: AI Law Tracker
+  url: https://ai-law-tracker.com/developers
+  category: Government
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: HTTP 402

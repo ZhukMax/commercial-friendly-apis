@@ -1,0 +1,44 @@
+id: helipaddy-sites
+name: Helipaddy sites
+url: https://helipaddy.com/api/
+category: Vehicle
+description: Helicopter and passenger drone landing site directory, Helipaddy data and much more
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Helipaddy sites
+  url: https://helipaddy.com/api/
+  category: Vehicle
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://helipaddy.com/terms-and-conditions/
+evidence:
+- field: redistribution_display
+  url: https://helipaddy.com/api/partner-guide/
+  quote: Do not redistribute payloads beyond the use cases covered in your partner agreement.
+  checked_at: '2026-11-21'
+notes: 'API is by manual approval only ($1/month screening subscription, sandbox first; approval not guaranteed);
+  terms live in a private partner agreement. Public pages read: API landing page, Partner Guide (server-side
+  calls only, rate limits, cache at least one rate-limit window, no redistribution beyond the partner
+  agreement) and the general Terms and Conditions (crowdsourced database, information only). No commercial-use,
+  storage, display or attribution terms found publicly, so unknown. Data are crowdsourced and sourced
+  from the internet and submissions (third-party rights not assessed).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read API landing and Partner Guide: pricing tiers $1 demo / $99 / $299, approval
+  not guaranteed, ''Do not redistribute payloads beyond the use cases covered in your partner agreement'',
+  cache at least one rate-limit window. Terms private; unknown stands.'

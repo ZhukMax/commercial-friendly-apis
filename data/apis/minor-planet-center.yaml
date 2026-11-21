@@ -1,0 +1,34 @@
+id: minor-planet-center
+name: Minor Planet Center
+url: http://www.asterank.com/mpc
+category: Science & Math
+description: Asterank.com Information
+description_source: upstream
+auth: none
+https: false
+cors: unknown
+sources:
+- list: public-apis
+  name: Minor Planet Center
+  url: http://www.asterank.com/mpc
+  category: Science & Math
+- list: public-api-lists
+  name: Minor Planet Center
+  url: http://www.asterank.com/mpc
+  category: Science & Math
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+notes: 'Asterank MPC API docs and About page read: no licence or terms. The API repackages the Minor Planet Center MPCORB.DAT file (upstream terms not read; minorplanetcenter.net returned 403 to curl, so
+  upstream may be stricter). The API claims nightly updates but a live sample returned orbit epoch K194R (2019), so data looks stale. Site owned by Planetary Resources since 2013 per the About page. All
+  terms fields unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

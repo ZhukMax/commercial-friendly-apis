@@ -1,0 +1,31 @@
+id: city-prague-open-data
+name: City, Prague Open Data
+url: http://opendata.praha.eu/en
+category: Government
+description: Prague(CZ) City Open Data
+description_source: upstream
+auth: none
+https: false
+cors: unknown
+sources:
+- list: public-apis
+  name: City, Prague Open Data
+  url: http://opendata.praha.eu/en
+  category: Government
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://lkod.cz/catalog/praha
+notes: Old URL redirects to lkod.cz/catalog/praha (local open data catalogue). The catalogue and datasets pages read show no portal-wide licence; licences are expected per dataset, not read. All terms left
+  unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+share_alike: unknown

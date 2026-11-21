@@ -1,0 +1,73 @@
+id: iconify
+name: Iconify
+url: https://iconify.design/docs/api/
+category: Art & Design
+description: Search and fetch SVG icons from 200+ open source icon sets
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Iconify
+  url: https://iconify.design/docs/api/
+  category: Art & Design
+link_status: alive
+data_license: varies per icon set (MIT, Apache-2.0, CC BY 4.0, CC0, OFL, CC BY-SA, GPL, a few CC BY-NC);
+  each set lists its licence
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: ambiguous
+bulk_download: unknown
+self_host_option: 'yes'
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://icon-sets.iconify.design/
+api_terms_url: https://iconify.design/docs/api/
+commercial_use_scope: any
+share_alike: unknown
+rate_limits: Public API has unpublished limits to prevent abuse; self-host for no limits
+notes: 'Iconify is an aggregator of 200+ third-party open-source icon sets (264-280 sets). The API/software
+  is Apache-2.0 and the public API servers are free to use, with no commercial-use restriction found,
+  but the icon data licence is per set: from the live /collections endpoint, about 148 sets are MIT, 53
+  CC BY 4.0, 31 Apache-2.0, 13 OFL, plus CC0, ISC, BSD, Unlicense, and also CC BY-SA, GPL and two non-commercial
+  sets (CC BY-NC 4.0, CC BY-NC-SA 4.0). So attribution and share-alike obligations, and even commercial
+  permission, depend on the specific set; choose permissive sets (MIT/Apache/CC0) and record each icon''s
+  licence. Public API limits are not quantified; the docs say it is mainly meant for Iconify components
+  loading icons on demand and other use must not be abused, and recommend self-hosting for unlimited use.
+  No separate ToS page was found.'
+evidence:
+- field: data_license
+  url: https://icon-sets.iconify.design/
+  quote: All icon sets are open source. Click icon set to view icons and license.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://iconify.design/docs/api/
+  quote: It is a public service, servers are free to use, but please do keep in mind that running those
+    servers is not free.
+  checked_at: '2026-11-21'
+- field: self_host_option
+  url: https://iconify.design/docs/api/
+  quote: You can host your own Iconify API service.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://iconify.design/docs/api/
+  quote: Public API has limits to prevent abuse and ensure fair usage.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://icon-sets.iconify.design/
+  quote: All icon sets are open source. Click icon set to view icons and license.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://icon-sets.iconify.design/
+  quote: All icon sets are open source. Click icon set to view icons and license.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read API docs: public servers free, main use is Iconify components, other use ''a
+  bonus that should not be abused'', self-hosting recommended for unlimited use. Per-set licences (some
+  NC, CC BY-SA, GPL) still decide commercial use; ambiguous stands. No separate ToS found.'

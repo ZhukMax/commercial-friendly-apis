@@ -1,0 +1,31 @@
+id: urban-observatory
+name: Urban Observatory
+url: https://urbanobservatory.ac.uk
+category: Open Data
+description: The largest set of publicly available real time urban data in the UK
+description_source: upstream
+auth: none
+https: false
+cors: 'no'
+sources:
+- list: public-apis
+  name: Urban Observatory
+  url: https://urbanobservatory.ac.uk
+  category: Open Data
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://urbanobservatory.ac.uk/about
+evidence: []
+notes: 'The portal is a JS app; read via Playwright (fresh tab): home, About and API pages. About says the data is open to anyone including business and commercial applications, but no licence, terms of
+  use, caching or attribution statement was found on the pages reached (API page shows no content). Map data credit: OpenStreetMap/OpenMapTiles. All terms fields left unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

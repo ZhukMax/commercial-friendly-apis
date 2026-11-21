@@ -1,0 +1,25 @@
+id: astro-agents
+name: Astro Agents
+url: https://astro-agent.dev/llms.txt
+category: Personality
+description: 'Deterministic Western and Vedic astrology: natal charts, transits, kundli, dashas, panchang'
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Astro Agents
+  url: https://astro-agent.dev/llms.txt
+  category: Personality
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

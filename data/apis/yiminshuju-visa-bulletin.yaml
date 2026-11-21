@@ -1,0 +1,71 @@
+id: yiminshuju-visa-bulletin
+name: YiminShuju Visa Bulletin
+url: https://yiminshuju.com/cite/
+category: Government
+description: US Department of State Visa Bulletin cutoff dates (EB/F charts) as open JSON (/paiqi.json)
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: YiminShuju Visa Bulletin
+  url: https://yiminshuju.com/cite/
+  category: Government
+link_status: alive
+data_license: No copyright claimed on transcription; underlying US State Dept Visa Bulletin is a US government
+  public document
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: 'yes'
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://yiminshuju.com/cite/
+api_terms_url: https://yiminshuju.com/cite/
+commercial_use_scope: any
+attribution_text: 来源：美国国务院 YYYY年M月签证公告（Visa Bulletin），经移民数据转录。https://yiminshuju.com/paiqi/，更新于 YYYY-MM-DD。
+  (cite source and update date)
+share_alike: unknown
+rate_limits: None stated
+notes: 'Read /cite/ (Chinese; the page on citing site data and data exits) and the home page. Site states
+  data is freely citable, repostable and usable for secondary analysis with no copyright claimed on its
+  transcription; only requirement is source + update date. ''Commercial'' is never named explicitly, so
+  commercial_use=yes is read from the absence of any restriction (medium confidence). No ToS page (/terms
+  404). /paiqi.json is a CORS-open JSON export (month param for history); a monthly-synced GitHub repo
+  with JSON files is offered for bulk. Underlying source: US State Department Visa Bulletin (not separately
+  checked for terms). Small independent site; rates not documented. Data is informational, not legal advice.'
+evidence:
+- field: data_license
+  url: https://yiminshuju.com/cite/
+  quote: 原始数据属于美国政府公开文件，本站对转录与标注 不做版权主张 ，可自由引用、转载、 用于二次分析。
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://yiminshuju.com/cite/
+  quote: 本站数据来自各国政府官方公开文件， 可自由引用 。
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://yiminshuju.com/cite/
+  quote: 可自由引用、转载、 用于二次分析。
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://yiminshuju.com/cite/
+  quote: 可自由引用、转载、 用于二次分析。
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://yiminshuju.com/cite/
+  quote: 注明来源与更新日期
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://yiminshuju.com/cite/
+  quote: 开源数据： github.com/xjokerabab/visa-bulletin-cn
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: '''Commercial'' never named; free citing/reposting/secondary analysis allowed with
+  source and update date. Small independent site.'

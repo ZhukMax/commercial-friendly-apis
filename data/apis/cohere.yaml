@@ -1,0 +1,26 @@
+id: cohere
+name: Cohere
+url: https://docs.cohere.com/reference/about
+category: Machine Learning
+description: NLP API for text generation, embeddings, classification and summarization with a free trial
+  tier
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Cohere
+  url: https://docs.cohere.com/reference/about
+  category: Machine Learning
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

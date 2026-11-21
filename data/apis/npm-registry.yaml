@@ -1,0 +1,26 @@
+id: npm-registry
+name: npm Registry
+url: https://github.com/npm/registry/blob/master/docs/REGISTRY-API.md
+category: Development
+description: Query information about your favorite Node.js libraries programatically
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: npm Registry
+  url: https://github.com/npm/registry/blob/master/docs/REGISTRY-API.md
+  category: Development
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://github.com/npm/registry/blob/main/docs/REGISTRY-API.md

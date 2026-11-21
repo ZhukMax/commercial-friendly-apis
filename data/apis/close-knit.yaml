@@ -1,0 +1,81 @@
+id: close-knit
+name: Close Knit
+url: https://getcloseknit.com/openapi.json
+category: Open Data
+description: 'Neighbourhoods and homes in London and England: sale prices, rents, crime, schools, flood
+  risk'
+description_source: upstream
+auth: none
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Close Knit
+  url: https://getcloseknit.com/openapi.json
+  category: Open Data
+link_status: alive
+verdict: red
+confidence: medium
+link_checked_at: '2026-11-21'
+notes: 'Read the Terms of use (9 Nov 2026). The terms contain no blanket commercial-use grant: data keeps
+  each publisher''s licence (OGL v3 for most UK public data; ODbL 1.0 share-alike for places and travel-time
+  data, which must be offered under ODbL if you build a database from it; Royal Mail/OS-derived addresses
+  must only be shown against the sale; hidden homes must be removed from your copies). Mixed obligations
+  per dataset, so commercial use, caching and display are ambiguous. Rate limit not stated in the pages
+  read.'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+data_license: 'mixed: publishers'' own licences (OGL v3.0, ODbL 1.0, CC BY 4.0, Royal Mail/OS-derived
+  addresses)'
+data_license_url: https://getcloseknit.com/terms
+api_terms_url: https://getcloseknit.com/terms
+commercial_use: 'no'
+storage_caching: 'no'
+redistribution_display: ambiguous
+attribution_required: 'yes'
+share_alike: 'yes'
+bulk_download: 'yes'
+self_host_option: unknown
+evidence:
+- field: data_license
+  url: https://getcloseknit.com/terms
+  quote: The data keeps its publishers’ licences.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://getcloseknit.com/terms
+  quote: The data keeps its publishers’ licences.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://getcloseknit.com/terms
+  quote: if a home disappears from Close Knit, remove it from your copies too.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://getcloseknit.com/terms
+  quote: 'The addresses are Royal Mail and OS derived: show them against the sale they belong to, never
+    as an address list.'
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://getcloseknit.com/terms
+  quote: keep the source attribution with them
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://getcloseknit.com/terms
+  quote: A database you build from it must also be offered under ODbL 1.0.
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://getcloseknit.com/terms
+  quote: is offered under the Open Database Licence 1.0 as a download
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://getcloseknit.com/terms
+  quote: The API and the MCP endpoint are for personal use, and for agents such as Claude acting for a
+    person, within those limits.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://getcloseknit.com/terms
+  quote: no rebuilding of an address or sales database from the site, the API or the MCP endpoint.
+  checked_at: '2026-11-21'
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'ToS: API and MCP are for personal use and agents acting for a person; No scraping
+  or bulk extraction, no rebuilding an address/sales database | applied: commercial_use=no, storage_caching=no'

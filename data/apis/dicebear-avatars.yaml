@@ -1,0 +1,30 @@
+id: dicebear-avatars
+name: Dicebear Avatars
+url: https://avatars.dicebear.com/
+category: Test Data
+description: Generate random pixel-art avatars
+description_source: upstream
+auth: none
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Dicebear Avatars
+  url: https://avatars.dicebear.com/
+  category: Test Data
+- list: public-api-lists
+  name: Dicebear Avatars
+  url: https://avatars.dicebear.com/
+  category: Test Data
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://www.dicebear.com/

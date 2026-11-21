@@ -1,0 +1,69 @@
+id: jcdecaux-bike
+name: JCDecaux Bike
+url: https://developer.jcdecaux.com/
+category: Sports & Fitness
+description: JCDecaux's self-service bicycles
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: JCDecaux Bike
+  url: https://developer.jcdecaux.com/
+  category: Sports & Fitness
+- list: public-api-lists
+  name: JCDecaux Bike
+  url: https://developer.jcdecaux.com/
+  category: Sports & Fitness
+link_status: alive
+data_license: Etalab Open Licence
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://developer.jcdecaux.com/#/opendata/license
+commercial_use_scope: any
+attribution_text: Mention of paternity (source) mandatory per the Etalab Open Licence
+share_alike: 'no'
+api_terms_url: https://developer.jcdecaux.com/#/opendata/license
+evidence:
+- field: data_license
+  url: https://developer.jcdecaux.com/#/opendata/license
+  quote: JCDecaux chose the « Open Licence » from Etalab to distribute its data
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://developer.jcdecaux.com/#/opendata/license
+  quote: allowing copying, redistribution, adaptation and commercial data
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://developer.jcdecaux.com/#/opendata/license
+  quote: allowing copying, redistribution, adaptation and commercial data
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://developer.jcdecaux.com/#/opendata/license
+  quote: allowing copying, redistribution, adaptation and commercial data
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://developer.jcdecaux.com/#/opendata/license
+  quote: making mandatory the mention of paternity
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://developer.jcdecaux.com/#/opendata/license
+  quote: allowing copying, redistribution, adaptation and commercial data
+  checked_at: '2026-11-21'
+notes: 'Read via Playwright (single-page app, licence tab). JCDecaux states its bike data is under the
+  Etalab Open Licence (compatible with ODC-BY / CC-BY 2.0): reuse, copying, redistribution, adaptation
+  and commercial reuse allowed, attribution mandatory. The licence PDF itself was not opened. API still
+  needs a free API key. Terms of the developer site (legal disclaimer) not read.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Free API key needed. Legal disclaimer link and licence PDF not opened; no contrary
+  clause found on the developer pages.

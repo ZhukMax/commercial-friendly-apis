@@ -1,0 +1,61 @@
+id: lowy-asia-power-index
+name: Lowy Asia Power Index
+url: https://github.com/0x0is1/lowy-index-api-docs
+category: Open Data
+description: Get measure resources and influence to rank the relative power of states in Asia
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Lowy Asia Power Index
+  url: https://github.com/0x0is1/lowy-index-api-docs
+  category: Open Data
+link_status: redirect
+verdict: red
+confidence: high
+link_checked_at: '2026-11-21'
+link_note: -> https://github.com/algocry/lowy-index-api-docs (repo archived, unofficial docs of power.lowyinstitute.org)
+notes: The listed repo (moved to github.com/algocry/lowy-index-api-docs, archived) is an UNOFFICIAL back-traced
+  documentation of power.lowyinstitute.org JSON files; its README says it will be removed if Lowy asks
+  and GPL-3.0 applies to the docs only. Lowy's Terms of use forbid copying/storing/publishing/commercialising
+  site content without written permission, and the site carries no data licence that overrides it. Not
+  usable on a commercial site without Lowy's written permission.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+data_license: proprietary (Lowy Institute copyright)
+data_license_url: https://lowyinstitute.org/terms-use
+api_terms_url: https://lowyinstitute.org/terms-use
+commercial_use: 'no'
+redistribution_display: 'no'
+storage_caching: 'no'
+attribution_required: 'yes'
+share_alike: unknown
+self_host_option: unknown
+evidence:
+- field: data_license
+  url: https://lowyinstitute.org/terms-use
+  quote: all copyright, trade marks and other intellectual property rights in the Site (including all
+    information, data, text, graphics, images
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://lowyinstitute.org/terms-use
+  quote: or commercialise any information, products or services on this Site.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://lowyinstitute.org/terms-use
+  quote: copy, use, reproduce, adapt, store in a retrieval system, transmit, print, display, perform,
+    publish or create derivative works
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://lowyinstitute.org/terms-use
+  quote: copy, use, reproduce, adapt, store in a retrieval system, transmit, print, display, perform,
+    publish or create derivative works
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://lowyinstitute.org/terms-use
+  quote: If permission to reproduce any part of this Site is given, you must acknowledge the Lowy Institute
+    as the source.
+  checked_at: '2026-11-21'
+bulk_download: unknown

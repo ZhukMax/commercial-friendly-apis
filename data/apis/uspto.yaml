@@ -1,0 +1,80 @@
+id: uspto
+name: USPTO
+url: https://www.uspto.gov/learning-and-resources/open-data-and-mobility
+category: Patent
+description: USA patent api services
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: USPTO
+  url: https://www.uspto.gov/learning-and-resources/open-data-and-mobility
+  category: Patent
+- list: public-api-lists
+  name: USPTO
+  url: https://www.uspto.gov/learning-and-resources/open-data-and-mobility
+  category: Patent
+link_status: redirect
+data_license: public domain (US government work), acknowledgement requested
+commercial_use: ambiguous
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'no'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: -> https://www.uspto.gov/learning-and-resources/data-and-statistics; data is served by the
+  Open Data Portal data.uspto.gov, which now needs a USPTO.gov account and API key
+data_license_url: https://www.uspto.gov/terms-use-uspto-websites
+api_terms_url: https://www.uspto.gov/terms-use-uspto-websites
+commercial_use_scope: any
+attribution_text: 'Source: United States Patent and Trademark Office, www.uspto.gov'
+evidence:
+- field: commercial_use
+  url: https://www.uspto.gov/terms-use-uspto-websites
+  quote: Public domain information may be freely distributed and copied
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.uspto.gov/terms-use-uspto-websites
+  quote: Public domain information may be freely distributed and copied
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.uspto.gov/terms-use-uspto-websites
+  quote: Public domain information may be freely distributed and copied
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.uspto.gov/terms-use-uspto-websites
+  quote: most government-produced materials appearing on this website are not subject to copyright restrictions
+    within the United States and are therefore in the public domain.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.uspto.gov/terms-use-uspto-websites
+  quote: it is requested that in any subsequent use the United States Patent and Trademark Office (USPTO)
+    be given appropriate acknowledgement
+  checked_at: '2026-11-21'
+- field: api_terms_url
+  url: https://data.uspto.gov/home
+  quote: you'll need to sign in with a valid USPTO.gov account
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.uspto.gov/terms-use-uspto-websites
+  quote: Transmission or reproduction of protected items beyond that allowed by fair use as defined in
+    the copyright laws
+  checked_at: '2026-11-21'
+notes: 'Terms read: Terms of Use for USPTO websites (copyright section). Government works are public domain
+  in the US; acknowledgement is requested, not required; the USPTO reserves copyright internationally;
+  not all material is a US government work (third-party content needs owner permission); seal and logo
+  may not be used. The generic website terms were applied to Open Data Portal APIs (data.uspto.gov); ODP-specific
+  API terms were not found (ODP terms-of-use URL 404). ODP now requires USPTO.gov sign-in with MFA and
+  an API key, so the stale auth=none was changed to apiKey. Patent text itself may embed third-party content.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'ODP API-specific terms not readable: portal requires USPTO.gov sign-in with MFA; terms-of-use
+  URL 404; General website terms warn that third-party copyrighted content in documents is not freed |
+  applied: commercial_use=ambiguous'

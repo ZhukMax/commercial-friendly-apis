@@ -1,0 +1,60 @@
+id: fxnewsbias
+name: FXNewsBias
+url: https://fxnewsbias.com/developers
+category: Finance
+description: AI-scored news sentiment for the 8 major forex currencies, refreshed every 3 hours
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: FXNewsBias
+  url: https://fxnewsbias.com/developers
+  category: Finance
+link_status: alive
+data_license: proprietary
+commercial_use: paid-only
+storage_caching: unknown
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://fxnewsbias.com/terms
+commercial_use_scope: paid
+rate_limits: 'Free: 25 requests/UTC day (sentiment endpoint, 3-6 h delayed); Pro: 1,000 requests/UTC day (real time)'
+evidence:
+- field: commercial_use
+  url: https://fxnewsbias.com/terms
+  quote: serving data one 3-hour cycle behind the current reading, for personal and non-commercial use.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://fxnewsbias.com/terms
+  quote: 25 requests per UTC day
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://fxnewsbias.com/developers
+  quote: A Pro subscription covers commercial use inside your own product
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://fxnewsbias.com/developers
+  quote: Wherever the data is displayed or republished, keep the attribution "Data by FXNewsBias" linking to https://fxnewsbias.com
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://fxnewsbias.com/developers
+  quote: No redistribution, resale, or using the data to build a competing sentiment service, on either tier
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://fxnewsbias.com/developers
+  quote: No redistribution, resale, or using the data to build a competing sentiment service, on either tier
+  checked_at: '2026-11-21'
+notes: 'Read the developer page and Terms of Service section 5 (Developer API). Free key = personal/non-commercial with attribution; the Pro subscription ($30/month, or $20+ on longer plans) is listed with
+  "commercial use". Terms say nothing explicit about caching/storage or republishing the scores on a public site, so those stay unknown. Scores are AI-generated sentiment derived from news; upstream news
+  sources not checked. Developer page also says: display/republishing needs the "Data by FXNewsBias" attribution; no redistribution, resale or competing sentiment service on either tier. redistribution_display=yes
+  means display inside your own product on Pro (inferred from the attribution rule for displayed data and the Pro "commercial use inside your own product" clause).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+attribution_text: Data by FXNewsBias (link to https://fxnewsbias.com), shipped in every response

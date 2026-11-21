@@ -1,0 +1,98 @@
+id: gbif
+name: GBIF
+url: https://www.gbif.org/developer/summary
+category: Science & Math
+description: Global Biodiversity Information Facility
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: GBIF
+  url: https://www.gbif.org/developer/summary
+  category: Science & Math
+- list: public-api-lists
+  name: GBIF
+  url: http://api.gbif.org/v1/
+  category: Science & Math
+link_status: alive
+data_license: 'Per-dataset: CC0, CC BY or CC BY-NC chosen by each data publisher'
+commercial_use: ambiguous
+storage_caching: ambiguous
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: HTTP 403 (blocked for bots, assumed alive)
+data_license_url: https://www.gbif.org/terms
+api_terms_url: https://www.gbif.org/terms/data-user
+commercial_use_scope: any
+share_alike: unknown
+evidence:
+- field: commercial_use
+  url: https://www.gbif.org/terms
+  quote: CC BY-NC, under which data are made available for any use provided provided the use is not for
+    commercial purposes
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.gbif.org/terms/data-user
+  quote: Users must comply with the terms and conditions included in the licence selected by each Data
+    Publisher
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.gbif.org/terms/data-user
+  quote: Users must publicly acknowledge, following the scientific convention of citing sources in conjunction
+    with the use of the data, the Data Publishers
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.gbif.org/terms/data-user
+  quote: the identifier of ownership of data must be retained with every data record shared onward for
+    reuse.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.gbif.org/terms/data-user
+  quote: the identifier of ownership of data must be retained with every data record shared onward for
+    reuse.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://api.gbif.org/v1/occurrence/search?limit=0&facet=license&facetLimit=10
+  quote: CC_BY_NC_4_0
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.gbif.org/terms/data-user
+  quote: Users must comply with the terms and conditions included in the licence selected by each Data
+    Publisher
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.gbif.org/terms/data-user
+  quote: Users must comply with the terms and conditions included in the licence selected by each Data
+    Publisher
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.gbif.org/terms/data-user
+  quote: Users must comply with the terms and conditions included in the licence selected by each Data
+    Publisher
+  checked_at: '2026-11-21'
+notes: 'curl got 403; Terms and Data user agreement read via Playwright (fresh context). GBIF is an aggregator:
+  each dataset has CC0, CC BY or CC BY-NC set by its publisher, and publisher licence prevails over the
+  agreement. GBIF notes that broad readings of ''commercial'' include sites with ads, so CC BY-NC records
+  are risky for an ad site; filter by licence (CC0/CC BY) to use commercially. Also a benefit-sharing
+  clause for digital sequence information users. Onward sharing is allowed when the ownership identifier
+  is kept (so storage/display are conditional, ambiguous). bulk_download left unknown (not checked). Merged
+  duplicate entry `gbif-api`.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Confirmed ambiguous/yellow. GBIF /terms says broader readings of commercial include
+  ''websites displaying advertisements''; filter by licence (CC0, CC BY) to stay safe. Minor fix: first-pass
+  commercial_use quote is garbled (''provided provided''); exact wording is ''...provided that attribution
+  is appropriately given and provided the use is not for commercial purposes''. DSI benefit-sharing clause
+  also '
+aliases:
+- gbif-api
+license_scope: portal-default

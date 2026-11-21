@@ -1,0 +1,76 @@
+id: fred
+name: FRED
+url: https://fred.stlouisfed.org/docs/api/fred/
+category: Finance
+description: Economic data from the Federal Reserve Bank of St. Louis
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: FRED
+  url: https://fred.stlouisfed.org/docs/api/fred/
+  category: Finance
+link_status: alive
+data_license: proprietary (FRED Services Terms of Use; per-series copyright status varies)
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://fred.stlouisfed.org/legal/
+api_terms_url: https://fred.stlouisfed.org/docs/api/terms_of_use.html
+attribution_text: 'This product uses the FRED® API but is not endorsed or certified by the Federal Reserve
+  Bank of St. Louis. (plus "Source: <provider> via FRED" per series)'
+evidence:
+- field: commercial_use
+  url: https://fred.stlouisfed.org/legal/
+  quote: Furthermore, other uses (e.g., commercial) are subject to additional restrictions.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://fred.stlouisfed.org/docs/api/terms_of_use.html
+  quote: Before using data series owned by third parties for anything other than your own personal use,
+    you must contact the data owner to obtain permission.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://fred.stlouisfed.org/legal/
+  quote: you may use these data series with proper attribution of the source and acknowledgment that you
+    obtained the data from FRED
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://fred.stlouisfed.org/docs/api/terms_of_use.html
+  quote: Place the following notice prominently on your application
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://fred.stlouisfed.org/legal/
+  quote: Redistribute any third party’s proprietary content, including any graphs, maps, images, logos,
+    data, or datasets, for commercial use
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://fred.stlouisfed.org/docs/api/terms_of_use.html
+  quote: Data series available through the FRED® API, may be owned by third parties and subject to copyright
+    restrictions.
+  checked_at: '2026-11-21'
+notes: 'Read the full API Terms of Use (fetched with curl WITHOUT a browser User-Agent, which FRED blocks)
+  and the FRED Services Terms of Use. FRED frames use as "non-commercial, educational, and personal";
+  commercial use is allowed only subject to extra restrictions and per-series status: "Copyrighted: Pre-approval
+  required" series need the owner''s permission for anything beyond personal use, "Copyrighted: Citation
+  required" series may be used with attribution, "Public Domain: Citation requested" series are free.
+  Prohibited uses include presenting FRED data as a unique product/replicating the FRED experience, altering
+  FRED visualizations, disruptive scraping, and using FRED content to develop or train software/ML/AI
+  systems. Termination clause requires destroying API copies on termination (storage_caching left unknown).
+  Apps must show the "not endorsed" notice and link to the API terms. Result depends on which series are
+  used, so ambiguous (yellow); many series (BLS, BEA, Fed) are likely usable with citation but this was
+  not verified per series.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Confirmed ambiguous/yellow. API terms also bar apps that replicate FRED's user experience
+  and require the notice 'This product uses the FRED API but is not endorsed or certified'. Per-series
+  copyright status decides.

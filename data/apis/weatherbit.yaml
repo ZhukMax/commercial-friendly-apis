@@ -1,0 +1,69 @@
+id: weatherbit
+name: Weatherbit
+url: https://www.weatherbit.io/api
+category: Weather
+description: Weather
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Weatherbit
+  url: https://www.weatherbit.io/api
+  category: Weather
+- list: public-api-lists
+  name: Weatherbit
+  url: https://www.weatherbit.io/api
+  category: Weather
+link_status: alive
+data_license: CC-BY-NC-SA-4.0 (Free/Trial/Hobbyist plans); proprietary commercial licence (paid commercial
+  plans)
+commercial_use: paid-only
+storage_caching: ambiguous
+redistribution_display: 'yes'
+attribution_required: ambiguous
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+commercial_use_scope: paid
+attribution_text: 'Free plans: credit with a visible do-follow link to Weatherbit.io'
+api_terms_url: https://www.weatherbit.io/terms
+notes: Read weatherbit.io/terms. Free/Trial/Hobbyist plans are NON-COMMERCIAL under CC BY-NC-SA 4.0 (credit
+  with a do-follow link, share-alike). A paid subscription (Standard/Plus/Business/Enterprise) is required
+  for use by for-profit businesses in any webpage/application and for storing the data; the commercial
+  licence allows using and displaying the data. Storage terms for paid plans (retention limits) are not
+  specified, and attribution for paid plans is unclear (ShareAlike optional for Standard/Plus/Business),
+  hence ambiguous.
+evidence:
+- field: data_license
+  url: https://www.weatherbit.io/terms
+  quote: provided under the terms of the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Generic
+    License
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.weatherbit.io/terms
+  quote: Use of Weatherbit data by any for profit institution or business in any webpage/application.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.weatherbit.io/terms
+  quote: Storage of Weatherbit data on premise, off-premise, or in any cloud based environment.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.weatherbit.io/terms
+  quote: Use, convey, and display the data retrieved from the Service in a manner consistent with the
+    terms of these Terms of Service.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.weatherbit.io/terms
+  quote: Attribution — You must give appropriate credit, provide a do-follow link to Weatherbit.io , and
+    indicate if changes were made.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read /terms. No retention limit or explicit attribution rule found for paid plans;
+  yellow stands.

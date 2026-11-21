@@ -1,0 +1,42 @@
+id: marketstack
+name: Marketstack
+url: https://marketstack.com/
+category: Finance
+description: Real-Time, Intraday & Historical Market Data API
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Marketstack
+  url: https://marketstack.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers
+  category: Finance
+link_status: alive
+data_license: unknown
+commercial_use: paid-only
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.ideracorp.com/legal/APILayer
+commercial_use_scope: paid
+rate_limits: 'Free: 100 requests/month; paid plans from 10,000/month'
+notes: 'Pricing page: Free plan listed as "Non-Commercial Use", paid plans (Basic and up) list "Commercial Use". Legal hub marketstack.com/terms redirects to Idera/APILayer legal page; the Master SaaS Subscription
+  Agreement PDF (pdftotext) has only generic restrictions, nothing on caching, display or redistribution of market data. Pricing FAQ says data is licensed from multiple market data providers (US exchange
+  data from Tiingo), so upstream/exchange redistribution limits may be stricter and were not found. Storage, display, attribution unknown.'
+evidence:
+- field: commercial_use
+  url: https://marketstack.com/pricing
+  quote: HTTPS Encryption Non-Commercial Use
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://marketstack.com/pricing
+  quote: HTTPS Encryption Commercial Use IEX Intraday Data (US)
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

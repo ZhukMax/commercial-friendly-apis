@@ -1,0 +1,51 @@
+id: iso-3166-updates-api
+name: ISO 3166 Updates API
+url: https://iso3166-updates.vercel.app/api
+category: Geocoding
+description: Access all of the current and historical ISO 3166 changes data
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-api-lists
+  name: ISO 3166 Updates API
+  url: https://iso3166-updates.vercel.app/api
+  category: Geocoding
+link_status: alive
+data_license: MIT (repository licence); underlying ISO 3166 newsletter/OBP data from ISO, ISO terms not
+  assessed
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://iso3166-updates.vercel.app/api
+data_license_url: https://github.com/amckenna41/iso3166-updates-api/blob/main/LICENSE
+evidence:
+- field: commercial_use
+  url: https://raw.githubusercontent.com/amckenna41/iso3166-updates-api/main/LICENSE
+  quote: to deal in the Software without restriction, including without limitation the rights to use,
+    copy, modify, merge, publish, distribute
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://raw.githubusercontent.com/amckenna41/iso3166-updates-api/main/LICENSE
+  quote: Permission is hereby granted, free of charge, to any person obtaining a copy of this software
+    and associated documentation files
+  checked_at: '2026-11-21'
+notes: 'Same author and pattern as iso-3166-2-api: Vercel-hosted hobby API without terms of use; GitHub
+  repo MIT-licensed (LICENSE read) covering software and documentation files. The README says the updates
+  data is gathered from the ISO 3166 newsletters and the ISO Online Browsing Platform, whose own copyright/terms
+  were not assessed. Commercial use is ambiguous, storage/display/attribution for the hosted API not stated.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read the API page and README. Data comes from ISO Online Browsing Platform / newsletters
+  (and OSM Nominatim for /coords in the 3166-2 API). iso.org returned Cloudflare 403 to curl and the OBP
+  page rendered nothing usable in Playwright; the generic ISO licence-agreement page found is for purchased
+  publications and says nothing about OBP data. So no demonstrable stricter upstream licence, no bloc

@@ -1,0 +1,29 @@
+id: navitia
+name: Navitia
+url: https://doc.navitia.io/
+category: Transportation
+description: The open API for building cool stuff with transport data
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Navitia
+  url: https://doc.navitia.io/
+  category: Transportation
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+notes: 'doc.navitia.io is API documentation only: no terms, licence or usage conditions found (data: OpenStreetMap street network, transit data from networks'' open data). navitia.io redirects to the corporate
+  site hove.com (no API terms). Nothing confirmed, all unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -1,0 +1,52 @@
+id: ip-geolocation
+name: IP Geolocation
+url: https://www.abstractapi.com/ip-geolocation-api
+category: Geocoding
+description: Geolocate website visitors from their IPs
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: IP Geolocation
+  url: https://www.abstractapi.com/ip-geolocation-api
+  category: Geocoding
+link_status: redirect
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: ambiguous
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://www.abstractapi.com/api/ip-geolocation-api
+api_terms_url: https://www.abstractapi.com/legal/legal#terms
+rate_limits: 'Free: 1,000 requests, 1 request/second; paid from 3 requests/second'
+evidence:
+- field: commercial_use
+  url: https://www.abstractapi.com/api/ip-geolocation-api
+  quote: Commercial license
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.abstractapi.com/legal/legal
+  quote: License, sell, resell, lease, distribute, or otherwise commercially exploit as a standalone product
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://www.abstractapi.com/api/ip-geolocation-api
+  quote: 1,000 requests 1 request / second
+  checked_at: '2026-11-21'
+notes: 'Read the product page and the combined Terms of Use/Privacy page. Terms are written for the Site
+  and "Content": no copy/commercial exploitation as a standalone product, no use of the Site/Content to
+  identify a household, street address or individual. Nothing explicit on API data caching/display. Pricing
+  page lists "Commercial license" only on the custom/enterprise column while a comparison table markets
+  the free tier as unlike competitors'' non-commercial-only tiers; unclear, hence ambiguous. Product URL
+  redirects to /api/ip-geolocation-api.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Site ToS bans scraping and standalone commercial exploitation of Content; unresolved.

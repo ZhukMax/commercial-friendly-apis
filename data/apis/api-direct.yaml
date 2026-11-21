@@ -1,0 +1,27 @@
+id: api-direct
+name: API Direct
+url: https://apidirect.io/docs
+category: Social
+description: Real-time social media data from X, LinkedIn, Reddit, YouTube, Instagram, TikTok, Facebook
+  and news
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: API Direct
+  url: https://apidirect.io/docs
+  category: Social
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://apidirect.io/docs/introduction

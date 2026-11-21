@@ -1,0 +1,34 @@
+id: foodish
+name: Foodish
+url: https://github.com/surhud004/Foodish
+category: Food & Drink
+description: Random pictures of food dishes
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Foodish
+  url: https://github.com/surhud004/Foodish#readme
+  category: Food & Drink
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: 'yes'
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+evidence:
+- field: self_host_option
+  url: https://raw.githubusercontent.com/surhud004/Foodish/HEAD/LICENSE
+  quote: Permission is hereby granted, free of charge, to any person obtaining a copy
+  checked_at: '2026-11-21'
+notes: Read the GitHub README and LICENSE (https://github.com/surhud004/Foodish). Code is MIT (self-hostable) but the README states the author does not own the dataset images (credited to Rajaraman Ekambaram
+  via Kaggle and RitaE via Pixabay); image licences are not stated, so commercial use, display and attribution are unknown. The hosted API at foodish-api.com has no separate terms page that was read.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

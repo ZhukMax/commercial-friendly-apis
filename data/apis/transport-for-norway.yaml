@@ -1,0 +1,67 @@
+id: transport-for-norway
+name: Transport for Norway
+url: https://developer.entur.org/
+category: Transportation
+description: Transport APIs and dataset for Norway
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Transport for Norway
+  url: https://developer.entur.org/
+  category: Transportation
+link_status: alive
+data_license: NLOD 2.0 (Norwegian Licence for Open Government Data); most APIs
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://data.norge.no/nlod/en/2.0
+api_terms_url: https://developer.entur.org/pages-intro-authentication
+commercial_use_scope: any
+attribution_text: Acknowledge the contributors (Entur) per NLOD
+share_alike: unknown
+rate_limits: ET-Client-Name header required; strict rate limiting for unidentified clients
+evidence:
+- field: data_license
+  url: https://developer.entur.org/pages-intro-authentication
+  quote: Most APIs are open under Norwegian Licence for Open Government Data (NLOD)
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://data.norge.no/nlod/en/2.0
+  quote: 'may use the information for any purpose and in all contexts, by:'
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://data.norge.no/nlod/en/2.0
+  quote: copying the information and distributing the information to others
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://data.norge.no/nlod/en/2.0
+  quote: copying the information and distributing the information to others
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://data.norge.no/nlod/en/2.0
+  quote: provided you acknowledge the contributors and comply with the terms and conditions stipulated
+    in this licence.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://developer.entur.org/pages-intro-authentication
+  quote: it is required that all consumers identify themselves by using the header ET-Client-Name
+  checked_at: '2026-11-21'
+notes: Entur says "most APIs" are open under NLOD 2.0; some (Partner/Internal services) are not, so the
+  specific API/dataset must be checked. NLOD allows use for any purpose with attribution, no share-alike
+  (licence text read at data.norge.no). Terms-of-use page of the portal is empty. No key needed but the
+  ET-Client-Name header is mandatory.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Old portal is marked retired; api_terms_url should be developer.entur.no/terms-of-service.
+  Partner services need an agreement. Default attribution text is required.

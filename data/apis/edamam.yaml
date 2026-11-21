@@ -1,0 +1,83 @@
+id: edamam
+name: Edamam
+url: https://developer.edamam.com/
+category: Health
+description: Food and nutrition data API with recipe search
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Edamam
+  url: https://developer.edamam.com/
+  category: Health
+- list: public-api-lists
+  name: Edamam
+  url: https://developer.edamam.com/
+  category: Food & Drink
+link_status: alive
+data_license: proprietary (Edamam Content)
+commercial_use: paid-only
+storage_caching: limited
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://www.edamam.com/terms/api/
+data_license_url: https://www.edamam.com/terms/api/
+commercial_use_scope: paid
+attribution_text: '''Powered by Edamam'' badge (developer.edamam.com/attribution)'
+share_alike: unknown
+evidence:
+- field: commercial_use
+  url: https://www.edamam.com/terms/api/
+  quote: the free version of the Edamam API is intended for personal or not-for-profit use
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.edamam.com/terms/api/
+  quote: you are prohibited from using the free version of the Edamam API in connection with a commercial
+    or business purpose
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.edamam.com/terms/api/
+  quote: You are prohibited from copying or archiving any of Edamam Content
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.edamam.com/terms/api/
+  quote: publicly displaying, republishing, repurposing, selling, trading, or in any way exploiting the
+    Edamam API, Edamam Content, or Site except as expressly authorized
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://developer.edamam.com/attribution
+  quote: you are required by our Terms and Conditions to give Edamam attribution for the data used in
+    your application
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.edamam.com/terms/api/
+  quote: Edamam owns all rights, title, and interest, including all intellectual property rights
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://developer.edamam.com/food-database-api
+  quote: Caching is allowed for only the four nutrients as described, and as long as there is an active
+    subscription to this plan.
+  checked_at: '2026-11-21'
+notes: 'Read API Terms of Use (last revised 28 Feb 2023) and the attribution guidelines via Playwright
+  (JS-rendered). Free version: personal / not-for-profit only; commercial use needs Edamam''s express
+  authorization / a paid plan (plan-level terms and prices not read). Copying or archiving Edamam Content
+  is prohibited without prior written consent, so permanent storage is off the table. The licence lets
+  you build an app/site that lets customers use the integration, but also bars ''publicly displaying ...
+  except as expressly authorized'', hence display is ambiguous. ''Powered by Edamam'' attribution is required
+  on any plan. Third-party content (recipe images, text) carries its own rights.'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Pricing/docs tables show caching IS allowed on paid plans: only specific fields (IDs/labels
+  plus protein, net carbs, total fat, kcal) while the subscription is active; First pass set storage_caching=no
+  based on the ''no copying or archiving'' clause, which the plan tables qualify; Commercial use is a
+  paid feature (all paid plan columns tick ''Commercial use''; free version barred by ToS), consistent
+  with paid-only | applied: storage_caching=limited'

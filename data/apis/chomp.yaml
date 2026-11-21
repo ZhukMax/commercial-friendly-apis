@@ -1,0 +1,55 @@
+id: chomp
+name: Chomp
+url: https://chompthis.com/api/
+category: Food & Drink
+description: Data about various grocery products and foods
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Chomp
+  url: https://chompthis.com/api/
+  category: Food & Drink
+link_status: alive
+data_license: proprietary (Chomp API Terms of Use)
+commercial_use: paid-only
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://chompthis.com/api/terms.php
+commercial_use_scope: paid
+cache_limit: <24 hours (Standard/Premium); user-selected logged foods may be stored
+attribution_text: Link back to Chomp API web site (and Chomp logo / data provider names) wherever Chomp data is shown
+evidence:
+- field: commercial_use
+  url: https://chompthis.com/api/terms.php
+  quote: for commercial or business purposes as long as you provide a link back to the Chomp API web site wherever Chomp data is shown.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://chompthis.com/api/terms.php
+  quote: short-term caching (<24 hours) for session performance on Standard or Premium plans
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://chompthis.com/api/terms.php
+  quote: to let your customers use your integration of the Chomp API within your application, web site, or other platform
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://chompthis.com/api/terms.php
+  quote: you agree to include and feature any logo provided by Chomp and hyperlink(s) to the Site
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://chompthis.com/api/terms.php
+  quote: Chomp owns all rights, title, and interest, including all intellectual property rights
+  checked_at: '2026-11-21'
+notes: Read https://chompthis.com/api/terms.php and the pricing/FAQ at https://chompthis.com/api/. The 'Limited' (free) plan is personal/not-for-profit only; Standard and Premium plans may be used commercially
+  with a link back. The Terms say caching is limited to <24 hours, while the FAQ says Premium users have full caching rights with no time limit; the FAQ is not a binding term, so limited. Terms also require
+  showing provider names/logos, forbid reselling the database, and Recipe API subscribers must credit original recipe creators. Data is compiled from third-party sources, so upstream terms may be stricter.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

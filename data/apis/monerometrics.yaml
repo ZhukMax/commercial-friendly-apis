@@ -1,0 +1,50 @@
+id: monerometrics
+name: monerometrics
+url: https://monerometrics.net
+category: Cryptocurrency
+description: Reorg-aware Monero (XMR) network metrics, mining-pool centralization and chain reorganizations
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: monerometrics
+  url: https://monerometrics.net
+  category: Cryptocurrency
+link_status: alive
+data_license: MIT declared in OpenAPI info.license (points to repo code LICENSE); no separate data licence
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: 'yes'
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://api.monerometrics.net/openapi.json
+data_license_url: https://github.com/nowi333/monerometrics/blob/main/LICENSE
+evidence:
+- field: data_license
+  url: https://api.monerometrics.net/openapi.json
+  quote: '"license":{"name":"MIT","url":"https://github.com/nowi333/monerometrics/blob/main/LICENSE"}'
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://monerometrics.net/docs
+  quote: free, public, read-only, no account, no API key, no rate-limit tiers, no tracking, no ads
+  checked_at: '2026-11-21'
+- field: self_host_option
+  url: https://github.com/nowi333/monerometrics/blob/main/LICENSE
+  quote: Permission is hereby granted, free of charge, to any person obtaining a copy of this software
+  checked_at: '2026-11-21'
+notes: 'No terms of use or data licence page exists (monerometrics.net/terms 404). OpenAPI info.license
+  says MIT and the repo LICENSE is the MIT software licence, so it is unclear whether that covers API
+  data: commercial_use ambiguous. Docs/README say the API is free and open with no paid tier. Chain data
+  is public blockchain data; XMR prices come from CoinGecko/Kraken (upstream terms apply). Caching/display
+  not addressed (Cache-Control/ETag headers only). Self-host: open-source repo (MIT) with IaC; not run.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Nothing new found; ambiguous stands.

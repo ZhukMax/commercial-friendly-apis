@@ -1,0 +1,41 @@
+id: launch-library-2
+name: Launch Library 2
+url: https://thespacedevs.com/llapi
+category: Science & Math
+description: Spaceflight launches and events database
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Launch Library 2
+  url: https://thespacedevs.com/llapi
+  category: Science & Math
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://thespacedevs.com/llapi
+rate_limits: 15 requests per hour without authentication; higher limits via Patreon
+evidence:
+- field: rate_limits
+  url: https://thespacedevs.com/llapi
+  quote: all the API data is available at no cost for up to 15 non-authenticated requests per hour
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://thespacedevs.com/llapi
+  quote: the entire database is accessible to everyone, for free
+  checked_at: '2026-11-21'
+notes: 'Pages read: thespacedevs.com/llapi, /supportus, /networkusers, /privacy and the live API (ll.thespacedevs.com/2.3.0, throttle 15/hour). No terms of use or data licence for commercial use, caching,
+  display or attribution was found; the site only says the data is free for everyone and lists many (some commercial) apps as users. The OpenAPI schema carries an Apache-2.0 licence for the API spec, which
+  is not a data licence, and launch images have per-image licences. All core fields unknown. Data is partly aggregated from agencies and other sources.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

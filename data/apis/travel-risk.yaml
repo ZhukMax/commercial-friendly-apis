@@ -1,0 +1,72 @@
+id: travel-risk
+name: Travel Risk
+url: https://travelriskapi.com/docs
+category: Government
+description: Government travel advisories, disaster and conflict alerts and country risk scores
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Travel Risk
+  url: https://travelriskapi.com/docs
+  category: Government
+link_status: alive
+data_license: proprietary (Travel Code ToS licence for subscribers)
+commercial_use: 'yes'
+storage_caching: ambiguous
+redistribution_display: 'yes'
+attribution_required: ambiguous
+bulk_download: 'no'
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://travelriskapi.com/terms
+commercial_use_scope: any
+share_alike: unknown
+rate_limits: Free 100 risk req/day, 3,000 aviation calls/month, 60/min burst; Starter $29, Pro $99, Enterprise
+  $499
+notes: 'Read /terms (effective 2026-10-08) and /docs. Display to own end users inside a product is explicitly
+  allowed; no non-commercial restriction on the free plan is stated (licence is subject to ''payment of
+  applicable fees'', free plan is $0). Not allowed: reselling/redistributing raw data, making data available
+  in bulk. Caching/storage not addressed and licence is limited to the subscription period, so ambiguous.
+  Third-party items need credit (DB-IP geolocation CC BY 4.0; aircraft photos need visible photographer
+  credit and link). Attribution to Travel Code only ''where we ask''; ambiguous. Some data originates
+  from government advisories whose own terms were not checked.'
+evidence:
+- field: redistribution_display
+  url: https://travelriskapi.com/terms
+  quote: You may display data from the Service to your own end users inside your products
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://travelriskapi.com/terms
+  quote: You may display data from the Service to your own end users inside your products, for example
+    in a booking flow, a traveller app
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://travelriskapi.com/terms
+  quote: provided that the data is not made available in bulk.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://travelriskapi.com/terms
+  quote: we grant you a non-exclusive, non-transferable, revocable licence to use the Service and its
+    data during your subscription
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://travelriskapi.com/terms
+  quote: represent that Travel Code endorses your product, or remove attribution that we ask you to keep.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://travelriskapi.com/terms
+  quote: resell, sublicense or redistribute the raw data as a standalone dataset or as a competing API,
+    data feed or data product
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read /terms. No ad/affiliate or free-plan non-commercial clause. Third-party DB-IP
+  CC BY 4.0 and photo credit apply. Government advisory upstream terms not checked. Storage ambiguous
+  remains.

@@ -1,0 +1,84 @@
+id: apipj
+name: apipj
+url: https://apipj.com.br/docs
+category: Government
+description: Brazilian company data by CNPJ from Receita Federal open data, incl. alphanumeric CNPJ; free
+  tier
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: apipj
+  url: https://apipj.com.br/docs
+  category: Government
+link_status: alive
+data_license: Receita Federal open data via apipj Terms (clause 8)
+commercial_use: ambiguous
+storage_caching: limited
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: 'no'
+self_host_option: unknown
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://apipj.com.br/termos
+commercial_use_scope: any
+attribution_text: Cite source (dados abertos da RFB) and reference month (atualizado_em) when showing
+  data to third parties
+evidence:
+- field: commercial_use
+  url: https://apipj.com.br/termos
+  quote: integrar os dados obtidos pela API nos seus sistemas, produtos e processos, inclusive comerciais,
+    e armazená-los em cache ou em banco próprio
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://apipj.com.br/termos
+  quote: integrar os dados obtidos pela API nos seus sistemas, produtos e processos, inclusive comerciais,
+    e armazená-los em cache ou em banco próprio
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://apipj.com.br/termos
+  quote: ao exibir os dados a terceiros, omitir a origem (dados abertos da RFB) e o mês de referência
+    informado em atualizado_em
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://apipj.com.br/termos
+  quote: ao exibir os dados a terceiros, omitir a origem (dados abertos da RFB) e o mês de referência
+    informado em atualizado_em
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://apipj.com.br/termos
+  quote: não há download nem exportação da base
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://apipj.com.br/docs
+  quote: 'Fonte dos dados: arquivos de dados abertos da Receita Federal do Brasil'
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://apipj.com.br/termos
+  quote: desde que como insumo da sua atividade e não como o produto em si
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://apipj.com.br/termos
+  quote: reconstruir, espelhar, armazenar em massa ou revender, no todo ou em parte relevante, a base
+    de dados obtida
+  checked_at: '2026-11-21'
+notes: Clause 8.1 allows commercial use and caching 'as input to your activity, not as the product itself';
+  8.2 prohibits reselling/redistributing data or the base as a competing product or mirror API, bulk scraping,
+  and omitting source and reference month when displaying data. Display on a monetised site is implied
+  by 8.2(i) (attribution required) rather than stated as a permission. Free plan exists (limits set on
+  /precos); terms read do not distinguish free from paid use. Data include personal data of partners (LGPD
+  applies; user is controller).
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: yellow
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'ToS 8.1 allows commercial use and caching only as an input to your activity, not as
+  the product itself; 8.2(a),(j) forbid making the data or substantial part available as a competing product,
+  mirror API or list, and storing the base in bulk; A site that shows CNPJ records as its content (programmatic
+  pages) is the product itself, so it is blocked or at least ambiguous; 8.2(i) display must carry origin
+  and reference month; LGPD obligations for partner personal data | applied: commercial_use=ambiguous,
+  storage_caching=limited, redistribution_display=ambiguous'

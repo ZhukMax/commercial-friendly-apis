@@ -1,0 +1,69 @@
+id: harvard-art-museums
+name: Harvard Art Museums
+url: https://github.com/harvardartmuseums/api-docs
+category: Art & Design
+description: Art
+description_source: upstream
+auth: apiKey
+https: false
+cors: unknown
+sources:
+- list: public-apis
+  name: Harvard Art Museums
+  url: https://github.com/harvardartmuseums/api-docs
+  category: Art & Design
+- list: public-api-lists
+  name: Harvard Art Museums
+  url: https://github.com/harvardartmuseums/api-docs
+  category: Art & Design
+link_status: alive
+data_license: proprietary (API terms of use; non-commercial)
+commercial_use: 'no'
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: red
+confidence: high
+link_checked_at: '2026-11-21'
+api_terms_url: https://github.com/harvardartmuseums/api-docs#terms-of-use
+commercial_use_scope: any
+cache_limit: No caching/storing of API content for more than two weeks without written permission
+attribution_text: Identify content as from Harvard Art Museums and link back to the content on harvardartmuseums.org
+share_alike: unknown
+rate_limits: 2,500 API calls per day
+notes: 'Read the Terms of use section of the official API docs repo README (harvardartmuseums/api-docs;
+  the museum''s API page points to it for terms). The whole API is for non-commercial use only; no commercial/paid
+  tier is mentioned. Other conditions: 2-week cache limit, hotlink images from the API, link back and
+  attribution, free access to and description of any app using the content must be provided to the museums,
+  no museum name/logo in hostname/branding. Image rights per object may add further restrictions.'
+evidence:
+- field: commercial_use
+  url: https://github.com/harvardartmuseums/api-docs
+  quote: The API is for non-commercial use only.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://github.com/harvardartmuseums/api-docs
+  quote: You will not cache or store any content returned by the Harvard Art Museums API for more than
+    two weeks
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://github.com/harvardartmuseums/api-docs
+  quote: you must use the image URL returned by our API rather than create a copy on your local web server.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://github.com/harvardartmuseums/api-docs
+  quote: You must identify all Harvard Art Museums content on your website as originating from the Harvard
+    Art Museums.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://github.com/harvardartmuseums/api-docs
+  quote: Respect other users of the API by limiting the number of API calls to 2500 per day.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://github.com/harvardartmuseums/api-docs
+  quote: The API is for non-commercial use only.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

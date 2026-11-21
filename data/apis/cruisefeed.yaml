@@ -1,0 +1,44 @@
+id: cruisefeed
+name: CruiseFeed
+url: https://cruisefeed.io
+category: Transportation
+description: 'Normalized cruise line inventory: ships, sailings, itineraries, ports and lead-in fares'
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: CruiseFeed
+  url: https://cruisefeed.io
+  category: Transportation
+link_status: alive
+data_license: proprietary (subscription licence, internal use within own product)
+commercial_use: paid-only
+storage_caching: unknown
+redistribution_display: 'yes'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://cruisefeed.io/terms.html
+commercial_use_scope: paid
+evidence:
+- field: commercial_use
+  url: https://cruisefeed.io/terms.html
+  quote: Subject to these terms and payment of the applicable fees, we grant you a non-exclusive, non-transferable, revocable licence
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://cruisefeed.io/terms.html
+  quote: Surfacing derived information within your own end-user product is permitted; redistributing the underlying dataset is not.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://cruisefeed.io/terms.html
+  quote: access and use the Service and the data it delivers internally, within your own product or business
+  checked_at: '2026-11-21'
+notes: Paid subscription feed (access by request). Licence is internal use within your own product for the subscription term; displaying derived information in your own end-user product is allowed, reselling
+  or redistributing the dataset is not. Storage after subscription ends and caching not addressed (unknown). No attribution clause found.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

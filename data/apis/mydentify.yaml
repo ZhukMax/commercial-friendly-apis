@@ -1,0 +1,31 @@
+id: mydentify
+name: Mydentify
+url: https://mydentify.com/openapi.json
+category: Business
+description: Discover software by task through structured product directories and weekly leaderboards
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: Mydentify
+  url: https://mydentify.com/openapi.json
+  category: Business
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://mydentify.com/terms
+notes: 'Read https://mydentify.com/terms (effective 17 Jul 2026) and the OpenAPI file https://mydentify.com/openapi.json (v1.4.0: public endpoints, no key, CORS open). The Terms cover accounts, listings,
+  sponsorships and leaderboards; they contain no clause on API data use, caching, redistribution or attribution (only a general ban on scraping/overloading in a harmful way and a note that product data
+  may be third-party and should be verified). Product descriptions/logos are submitted by third parties under a licence to Mydentify only. All core fields unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

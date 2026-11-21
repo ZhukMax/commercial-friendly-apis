@@ -1,0 +1,66 @@
+id: erstat
+name: ERstat
+url: https://erstat.ca/developers
+category: Health
+description: Live Canadian emergency room closures and service disruptions, by province
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: ERstat
+  url: https://erstat.ca/developers
+  category: Health
+link_status: alive
+data_license: unknown
+commercial_use: paid-only
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: 'yes'
+bulk_download: 'yes'
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: HTTP 403 (blocked for bots, assumed alive)
+data_license_url: https://erstat.ca/licensing
+api_terms_url: https://erstat.ca/licensing
+commercial_use_scope: paid
+attribution_text: Visible credit linking back to erstat.ca (free tier)
+share_alike: unknown
+rate_limits: Free tier rate-limited, as-is, no SLA; closures cached ~60s, coverage ~5min
+evidence:
+- field: commercial_use
+  url: https://erstat.ca/developers
+  quote: For non-commercial use with attribution.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://erstat.ca/licensing
+  quote: Commercial-use rights for one product.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://erstat.ca/licensing
+  quote: Attribution required — a visible credit linking back to erstat.ca.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://erstat.ca/developers
+  quote: The free tier is rate-limited and served as-is with no SLA
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://erstat.ca/developers
+  quote: A commercial licence adds history, bulk export and an SLA.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://erstat.ca/licensing
+  quote: No SLA, no redistribution.
+  checked_at: '2026-11-21'
+notes: 'Read developers, licensing and terms pages with Playwright (curl returns 403). Free API key (required):
+  personal, journalistic, academic and civic use only, with visible attribution. Commercial products need
+  the Indie ($99 CAD/mo, one product under $100k revenue, ''no redistribution'') or Business ($499/mo,
+  bulk CSV, SLA) licence; Enterprise adds a redistribution licence. Caching/storage terms of the paid
+  licence are not public. Terms page says ERstat aggregates public wait-time data from provincial health
+  authorities and hospital systems, so upstream terms may apply; and ERstat also generates model predictions.
+  Rights for display in paid tiers likely yes but unconfirmed, left unknown.'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

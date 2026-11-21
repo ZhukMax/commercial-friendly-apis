@@ -1,0 +1,41 @@
+id: invovate
+name: Invovate
+url: https://invovate.com/api
+category: Business
+description: Generate PDF, JSON & UBL invoices in 11 languages from one JSON POST
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Invovate
+  url: https://invovate.com/api
+  category: Business
+link_status: alive
+data_license: unknown
+commercial_use: 'yes'
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://invovate.com/terms
+commercial_use_scope: any
+notes: Invovate Terms of Service read (PolarCurve LLC). This is an invoice-generation API operating on
+  the user's own input, not a data source; ownership says 'We do not claim ownership of your invoice content'.
+  Storage/display of generated output are not addressed as such, so unknown. Not a catalogue-type open
+  data API.
+evidence:
+- field: commercial_use
+  url: https://invovate.com/terms
+  quote: You may use the Service for any lawful commercial or personal purpose, subject to these Terms.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.

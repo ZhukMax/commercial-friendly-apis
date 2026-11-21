@@ -1,0 +1,68 @@
+id: election
+name: Election
+url: https://election.org/data/api
+category: Government
+description: Source-linked U.S. election and civic records with coverage limits
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Election
+  url: https://election.org/data/api
+  category: Government
+link_status: alive
+data_license: unspecified (public-record facts; original-source rights apply)
+commercial_use: unknown
+storage_caching: 'yes'
+redistribution_display: ambiguous
+attribution_required: ambiguous
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://election.org/data/api
+attribution_text: Data via Election.org (suggested credit, plus original source)
+rate_limits: 240 requests/minute per endpoint family per network; 5 keys/day per account
+evidence:
+- field: storage_caching
+  url: https://election.org/data/api
+  quote: Cache responses, preserve source and coverage fields, and never represent the ballot-preview
+    endpoint as an official complete ballot.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://election.org/data/api
+  quote: Place the credit beside the data on your own page.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://election.org/data/api
+  quote: Attribution is suggested, not a required unqualified backlink.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://election.org/data/api
+  quote: Election.org claims no exclusive ownership of public-domain facts.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://election.org/data/api
+  quote: Each endpoint family accepts up to 240 requests per minute from one network on a running server.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.law.cornell.edu/uscode/text/52/30111
+  quote: may not be sold or used by any person for the purpose of soliciting contributions or for commercial
+    purposes
+  checked_at: '2026-11-21'
+notes: 'Usage terms are a short block on the API page: ''lawful public-record research'', original-source
+  rights remain applicable. Commercial use is neither granted nor forbidden explicitly, so commercial_use
+  is unknown (verdict unknown). Caching and displaying with a credit are encouraged. Free optional project
+  key; anonymous v1 beta works without a key. Separate /terms page returned ''Page not found''.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'API page encourages caching and credit but its usage terms only say ''lawful public-record
+  research'' and /terms is a 404; Service also serves FEC campaign-finance and congressional financial-disclosure/stock-trade
+  records: 52 U.S.C. 30111(a)(4) bars using FEC report information for commercial purposes or solicitation,
+  and 5 U.S.C. 13107(c) bars commercial use of disclosure reports; Candidate-submitted portraits and materials
+  carry third-party rights | applied: redistribution_display=ambiguous'

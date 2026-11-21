@@ -1,0 +1,31 @@
+id: gridvigil
+name: GridVigil
+url: https://gridvigil.com/developers
+category: Environment
+description: Pressure scores, demand, generation mix and alerts for the 10 major U.S. power grids
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: GridVigil
+  url: https://gridvigil.com/developers
+  category: Environment
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://gridvigil.com/developers/
+rate_limits: Not metered; courtesy limit, contact for more
+notes: 'Read /developers (and about, methodology, data-sources pages): "Free, no key, open CORS", "Not yet metered or rate-limited", courtesy limits, paid plans may come. No terms of use, licence, commercial-use
+  or caching statement found (gridvigil.com/terms is 404). Data is built from public sources, not assessed. All terms fields unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

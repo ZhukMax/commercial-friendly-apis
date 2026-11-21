@@ -1,0 +1,47 @@
+id: currency-api
+name: Currency-api
+url: https://github.com/fawazahmed0/currency-api
+category: Currency Exchange
+description: Free Currency Exchange Rates API with 150+ Currencies & No Rate Limits
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Currency-api
+  url: https://github.com/fawazahmed0/currency-api#readme
+  category: Currency Exchange
+link_status: alive
+data_license: CC0-1.0 (repository licence file; applicability to the rate data is not stated)
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+data_license_url: https://github.com/fawazahmed0/exchange-api/blob/main/LICENSE
+api_terms_url: https://github.com/fawazahmed0/exchange-api
+evidence:
+- field: data_license
+  url: https://raw.githubusercontent.com/fawazahmed0/exchange-api/main/LICENSE
+  quote: Creative Commons Legal Code CC0 1.0 Universal
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://raw.githubusercontent.com/fawazahmed0/exchange-api/main/LICENSE
+  quote: Creative Commons Legal Code CC0 1.0 Universal
+  checked_at: '2026-11-21'
+notes: The listed repo fawazahmed0/currency-api is archived; its README says it MIGRATED to fawazahmed0/exchange-api
+  (same author, same API, new URL scheme via jsDelivr), so the new repo's files were read. The new repo
+  ships a CC0 1.0 LICENSE file and README ('Free, no rate limits'), but nothing states that the rate data
+  itself is CC0 or what upstream sources are (rates are aggregated from third parties, upstream terms
+  unknown and possibly stricter), so commercial_use=ambiguous and the rest unknown. Hosting is via jsDelivr/Cloudflare
+  Pages with no SLA.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Read exchange-api README and LICENSE; no data-licence statement.

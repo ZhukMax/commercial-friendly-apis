@@ -1,0 +1,32 @@
+id: creative-commons-catalog
+name: Creative Commons Catalog
+url: https://api.creativecommons.engineering/
+category: Open Source Projects
+description: Search among openly licensed and public domain works
+description_source: upstream
+auth: OAuth
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Creative Commons Catalog
+  url: https://api.creativecommons.engineering/
+  category: Open Source Projects
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: api.creativecommons.engineering returns HTTP 301 to api.openverse.engineering and then to https://api.openverse.org/; the page there is behind a Cloudflare challenge and no page read says it
+  is the same service
+notes: 'Redirects to the Openverse API host. No page read states that Openverse replaces or is the Creative Commons Catalog API, so no terms were transferred. For reference only (not applied): Openverse
+  Terms of Service (docs.openverse.org/terms_of_service.html) reserve the right to charge fees for commercial uses and heavy use, forbid scraping the catalog, and say Openverse aggregates metadata of third-party
+  openly licensed works and does not verify their licensing, so each work''s own licence/attribution applies. All terms fields unknown for this entry.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

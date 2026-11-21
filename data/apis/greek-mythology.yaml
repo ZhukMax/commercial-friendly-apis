@@ -1,0 +1,69 @@
+id: greek-mythology
+name: Greek Mythology
+url: https://acenes-of-sparta.pages.dev/api/
+category: Books
+description: Greek gods, monsters, heroes, places and Spartan customs, with ancient source citations
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Greek Mythology
+  url: https://acenes-of-sparta.pages.dev/api/
+  category: Books
+link_status: alive
+data_license: CC-BY-4.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: 'yes'
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://acenes-of-sparta.pages.dev/api/
+commercial_use_scope: any
+attribution_text: 'Source: Acenes of Sparta: The Dragon Slayer Lexicon (with a link to the API page)'
+share_alike: 'no'
+rate_limits: No rate limit stated ("no rate limit")
+evidence:
+- field: data_license
+  url: https://acenes-of-sparta.pages.dev/api/
+  quote: CC BY 4.0. Free for any use, including commercial, with attribution
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://acenes-of-sparta.pages.dev/api/
+  quote: Free for any use, including commercial, with attribution
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://acenes-of-sparta.pages.dev/api/
+  quote: Free for any use, including commercial, with attribution
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://acenes-of-sparta.pages.dev/api/
+  quote: Free for any use, including commercial, with attribution
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://acenes-of-sparta.pages.dev/api/
+  quote: Free for any use, including commercial, with attribution
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://acenes-of-sparta.pages.dev/api/
+  quote: All entries with full descriptions and sources
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://acenes-of-sparta.pages.dev/api/
+  quote: CC BY 4.0. Free for any use, including commercial, with attribution
+  checked_at: '2026-11-21'
+notes: 'Single page read: licence section of the API page. Data is the lexicon of a self-published novel
+  (author''s own text) with citations of ancient sources; ''attested_in_ancient_sources: false'' entries
+  are fictional to the novel. Storage/display covered only via the blanket ''free for any use'' + CC BY
+  4.0; small hobby project, service continuity not guaranteed.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Licence text re-read at /api/; CC BY 4.0, commercial allowed. Hobby site, no uptime
+  guarantee; 'attested_in_ancient_sources:false' entries are fictional.

@@ -1,0 +1,60 @@
+id: mapatlas
+name: MapAtlas
+url: https://mapatlas.eu/
+category: Geocoding
+description: Geocoding, routing, map tiles, directions, and route optimization APIs. EU-hosted
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-api-lists
+  name: MapAtlas
+  url: https://mapatlas.eu/
+  category: Geocoding
+link_status: alive
+data_license: unknown
+commercial_use: paid-only
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://mapatlas.eu/legal
+commercial_use_scope: paid
+cache_limit: Geocoding/search results may be stored and cached as long as needed; map tiles/imagery (no bulk or offline caching), real-time traffic and partner data (e.g. partner POIs) not storable
+attribution_text: © OpenStreetMap contributors (where results contain OSM data)
+rate_limits: 'Free tier: 10,000 map, 10,000 search, 25,000 geocoding, 100,000 navigation requests/month'
+evidence:
+- field: commercial_use
+  url: https://mapatlas.eu/legal
+  quote: Commercial use requires an active subscription or pay-as-you-go plan.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://mapatlas.eu/legal
+  quote: You may store and cache results returned by MapAtlas APIs and use them in your own applications and services
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://mapatlas.eu/legal
+  quote: map tiles and imagery (no bulk or offline caching beyond standard browser caching)
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://mapatlas.eu/legal
+  quote: You may store and cache results returned by MapAtlas APIs and use them in your own applications and services
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://mapatlas.eu/legal
+  quote: Where results contain OpenStreetMap data, credit "© OpenStreetMap contributors" wherever they are shown to end users.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://mapatlas.eu/pricing
+  quote: 10,000 free map requests/month 10,000 free search requests/month 25,000 free geocoding requests/month
+  checked_at: '2026-11-21'
+notes: Read mapatlas.eu/legal (Terms & Conditions, section "Storing API Results") and /pricing. Terms say commercial use requires an active subscription or pay-as-you-go plan; a "free tier" of monthly allowances
+  exists on the pay-as-you-go pricing, and it is unclear whether free-tier-only accounts count as commercially licensed, so I treat commercial use as paid-only. Stored results may not be resold or redistributed
+  as a standalone dataset or used to build a competing service. Share-alike for OSM-derived results not assessed.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

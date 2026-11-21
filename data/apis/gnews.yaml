@@ -1,0 +1,57 @@
+id: gnews
+name: GNews
+url: https://gnews.io/
+category: News
+description: Search for news from various sources
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: GNews
+  url: https://gnews.io/
+  category: News
+link_status: alive
+data_license: proprietary (GNews ToS; underlying articles/images belong to publishers)
+commercial_use: paid-only
+storage_caching: limited
+redistribution_display: unknown
+attribution_required: 'no'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://gnews.io/legal/terms-of-service
+api_terms_url: https://gnews.io/legal/terms-of-service
+commercial_use_scope: paid
+cache_limit: Reasonable caching permitted; systematic bulk download to build a competing/redistributing database prohibited
+attribution_text: Attribution appreciated, required only if specified in the subscription plan
+evidence:
+- field: commercial_use
+  url: https://gnews.io/legal/terms-of-service
+  quote: An active paid subscription plan is mandatory for as long as you use the API for a commercial purpose.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://gnews.io/legal/terms-of-service
+  quote: Reasonable caching of API responses for application performance is permitted.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://gnews.io/legal/terms-of-service
+  quote: To create a database by systematically downloading and storing all or substantial portions of API content for the purpose of creating a competing service
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://gnews.io/legal/terms-of-service
+  quote: Attribution to GNews API is appreciated but not required unless specified in your subscription plan
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://gnews.io/legal/terms-of-service
+  quote: Images and media content obtained through the API may be subject to copyright protection by third parties
+  checked_at: '2026-11-21'
+notes: 'News aggregator: articles, titles and images come from third-party publishers, so upstream copyright/terms may be stricter (ToS: images and media may be subject to third-party copyright and the
+  user is responsible for rights). Free plan is limited to personal/academic/evaluation/non-commercial use; commercial use needs an active paid plan. Data retrieved during an active paid plan may be kept
+  after the plan lapses (Section 3). Redistribute/resell/sublicense of API access is forbidden; public display of the data is not addressed explicitly, so redistribution_display left unknown. Page read:
+  gnews.io/legal/terms-of-service via curl.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

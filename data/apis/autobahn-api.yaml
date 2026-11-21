@@ -1,0 +1,30 @@
+id: autobahn-api
+name: Autobahn API
+url: https://autobahn.api.bund.dev
+category: Government
+description: Information about Germany's federal highways like construction sites and traffic jams
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-api-lists
+  name: Autobahn API
+  url: https://autobahn.api.bund.dev
+  category: Government
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+notes: autobahn.api.bund.dev is a community OpenAPI documentation (bundesAPI project) of the Autobahn GmbH des Bundes API (verkehr.autobahn.de). The spec's info block, the bundesAPI README and autobahn.de
+  pages read (impressum, datenschutz; /nutzungsbedingungen is 404) contain no licence or terms of use for the data. Terms unknown; check Autobahn GmbH / mCLOUD before use. The service is unofficial-documented,
+  undocumented licence.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: unknown

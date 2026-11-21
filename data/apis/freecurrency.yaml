@@ -1,0 +1,44 @@
+id: freecurrency
+name: FreeCurrency
+url: https://freecurrencyapi.com
+category: Currency Exchange
+description: Real-time and historical foreign exchange rates
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: FreeCurrency
+  url: https://freecurrencyapi.com
+  category: Currency Exchange
+link_status: alive
+data_license: unknown
+commercial_use: paid-only
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+commercial_use_scope: paid
+api_terms_url: https://freecurrencyapi.com/terms-of-service
+evidence:
+- field: commercial_use
+  url: https://freecurrencyapi.com/
+  quote: Commercial use needs a paid plan on currencyapi.com.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://freecurrencyapi.com/
+  quote: Can I use freecurrencyapi in a commercial product? No. The free plan is for hobby and personal
+    projects.
+  checked_at: '2026-11-21'
+notes: 'Free plan (freecurrencyapi.com) is stated to be for hobby/personal projects; the page says commercial
+  use needs a paid plan on currencyapi.com, ''our commercial API'' (a sibling product; its own terms were
+  NOT read, so the paid scope is taken from this page only). Generic ToS (/terms-of-service) only forbids
+  reselling/reproducing the service without approval; no clauses on caching, display or attribution. Free
+  plan: 1,000 requests/month, 33 currencies, daily rates.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

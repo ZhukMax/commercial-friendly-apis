@@ -1,0 +1,35 @@
+id: fda-import-alert-screening
+name: FDA Import Alert Screening
+url: https://aerviklabs.com/apis/fda-import-alerts/
+category: Government
+description: Screen firm names against FDA Import Alert Red, Yellow and Green Lists
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: FDA Import Alert Screening
+  url: https://aerviklabs.com/apis/fda-import-alerts/
+  category: Government
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+confidence: medium
+link_checked_at: '2026-11-21'
+link_note: Site says the service is paused and APIs are offline (terms page, 2026-11-21)
+evidence:
+- field: link_status
+  url: https://aerviklabs.com/terms/
+  quote: Aervik Labs is paused. Our APIs and free tools are offline and we are not taking signups.
+  checked_at: '2026-11-21'
+notes: Terms page of the vendor shows the service is paused and the APIs are offline, so no API terms could be assessed. Terms fields left unknown. The site's own ToS covers the website only; the API had
+  separate terms on its RapidAPI listing (not reachable).
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: unknown

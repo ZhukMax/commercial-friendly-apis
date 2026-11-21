@@ -1,0 +1,56 @@
+id: world-time-and-weather
+name: World Time & Weather
+url: https://worldtimeweather.com/api.html
+category: Weather
+description: Current weather, local time, UTC offset and DST rules for 400 cities as static JSON
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: World Time & Weather
+  url: https://worldtimeweather.com/api.html
+  category: Weather
+- list: public-api-lists
+  name: World Time & Weather
+  url: https://worldtimeweather.com/api.html
+  category: Weather
+link_status: alive
+data_license: Operator terms (free for any use); weather values come from Open-Meteo
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://worldtimeweather.com/api.html
+commercial_use_scope: any
+rate_limits: No rate limit stated (static JSON files; weather refreshed ~every 2 h)
+evidence:
+- field: commercial_use
+  url: https://worldtimeweather.com/api.html
+  quote: Free for anything — personal projects, commercial products, internal tools.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://worldtimeweather.com/api.html
+  quote: Weather data additionally comes from Open-Meteo and their attribution requirement applies too.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://worldtimeweather.com/api.html
+  quote: Weather data additionally comes from Open-Meteo and their attribution requirement applies too.
+  checked_at: '2026-11-21'
+notes: Read the Terms section of /api.html and /api/v1/index.json. The operator allows commercial use
+  and only requests a link to itself, but says the weather fields come from Open-Meteo and that Open-Meteo
+  attribution applies too. Open-Meteo free API is non-commercial only (see open-meteo entry), so commercial
+  use of the weather part is ambiguous (operator grant vs upstream). The time-zone/DST part is the operator
+  own layer. Caching/display not addressed explicitly, left unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read operator terms and open-meteo.com/en/terms. Time-zone layer is operator's own;
+  weather fields ambiguous.

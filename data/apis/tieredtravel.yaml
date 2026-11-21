@@ -1,0 +1,37 @@
+id: tieredtravel
+name: TieredTravel
+url: https://tieredtravel.com/api-docs
+category: Transportation
+description: Daily travel costs at budget, mid-range and luxury for 100 cities, plus walking routes
+description_source: upstream
+auth: none
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: TieredTravel
+  url: https://tieredtravel.com/api-docs
+  category: Transportation
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://tieredtravel.com/api-docs
+rate_limits: Anonymous 200/min per IP; with free token 1000/min
+evidence:
+- field: rate_limits
+  url: https://tieredtravel.com/api-docs
+  quote: Anonymous 200 / min With a token 1000 / min
+  checked_at: '2026-11-21'
+notes: 'Read api-docs, robots.txt, /auth.md, /about, /methodology. No terms of use or data licence found (/terms is 404). robots.txt Content-Signal: search=yes, ai-input=yes, ai-train=no, but this says
+  nothing about commercial reuse, storage or display of API data. Figures are hand-researched by the site owner; site itself earns affiliate commission. Commercial use, storage, display, attribution all
+  unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

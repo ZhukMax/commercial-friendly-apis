@@ -1,0 +1,52 @@
+id: cricdata
+name: CricData
+url: https://cricketdata.org/
+category: Sports & Fitness
+description: Ultimate Cricket data API - Score, Scorecard, Players data, Fantasy API
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-api-lists
+  name: CricData
+  url: https://cricketdata.org/
+  category: Sports & Fitness
+link_status: alive
+data_license: proprietary (Cricket Data Terms of Use)
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+commercial_use_scope: paid
+api_terms_url: https://cricketdata.org/terms-of-use/
+evidence:
+- field: commercial_use
+  url: https://cricketdata.org/terms-of-use/
+  quote: For commercial use you will be required to purchase credits and use the API with your API key
+    only.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://cricketdata.org/terms-of-use/
+  quote: Any commercial or business use of Cricket Data or any Material including the Software is expressly
+    prohibited.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://cricketdata.org/terms-of-use/
+  quote: Cricket Data hereby grants you the right to access and use the Site only for your personal and
+    non-commercial use.
+  checked_at: '2026-11-21'
+notes: 'Terms of Use contradict each other: one line says commercial use requires purchased credits and
+  an API key, another says any commercial or business use of Cricket Data is expressly prohibited and
+  the site is for personal non-commercial use only; the site terms also bar copying/displaying Materials
+  without permission. Pricing page and API-specific terms not read. Hence ambiguous; storage/display unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Both quotes verified exact; unresolved.

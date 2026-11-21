@@ -1,0 +1,59 @@
+id: urgences-qu-bec
+name: Urgences Québec
+url: https://sante.handled.tools/api
+category: Health
+description: Hourly emergency room occupancy, stretcher counts and wait times for every hospital in Quebec,
+  Canada
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Urgences Québec
+  url: https://sante.handled.tools/api
+  category: Health
+- list: public-api-lists
+  name: Urgences Québec
+  url: https://sante.handled.tools/en/donnees
+  category: Health
+link_status: alive
+data_license: unknown
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: low
+link_checked_at: '2026-11-21'
+api_terms_url: https://sante.handled.tools/api
+rate_limits: None published
+notes: Single API page read. Author says the API is free, needs no key or attribution, and that the same
+  collection feeds an iPhone app he sells; there is no terms/licence page and commercial use, storage
+  and display are not stated explicitly. Data comes from Quebec Ministry of Health (MSSS) open data, whose
+  licence was not read; upstream terms may be stricter. Hobby service, no SLA.
+evidence:
+- field: commercial_use
+  url: https://sante.handled.tools/api
+  quote: The API stays free either way. Use it, no attribution required.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://sante.handled.tools/api
+  quote: The API stays free either way. Use it, no attribution required.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://sante.handled.tools/api
+  quote: Read-only JSON, no key, no account, no rate limit.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.donneesquebec.ca/recherche/dataset/fichier-cumulatif-des-donnees-des-urgences
+  quote: Licence Attribution (CC-BY 4.0)
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Upstream MSSS open data on Donnees Quebec is CC BY 4.0, which requires attribution;
+  Author says no attribution required, but cannot waive the upstream licence | applied: attribution_required=yes'

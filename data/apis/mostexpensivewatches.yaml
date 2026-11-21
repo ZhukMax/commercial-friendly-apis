@@ -1,0 +1,72 @@
+id: mostexpensivewatches
+name: MostExpensiveWatches
+url: https://mostexpensivewatches.net/api
+category: Open Data
+description: Documented luxury watch auction records, live listings, valuations and price indices
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: MostExpensiveWatches
+  url: https://mostexpensivewatches.net/api
+  category: Open Data
+link_status: alive
+data_license: CC-BY-4.0 (auction record ledger only; other datasets have no blanket licence)
+commercial_use: paid-only
+storage_caching: ambiguous
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://mostexpensivewatches.net/terms
+api_terms_url: https://mostexpensivewatches.net/terms
+commercial_use_scope: any
+attribution_text: Credit, link to the CC BY 4.0 licence and indication of changes; keep source links
+evidence:
+- field: data_license
+  url: https://mostexpensivewatches.net/terms
+  quote: Our auction record ledger , as identified by its Dataset license, is offered under Creative Commons
+    Attribution 4.0 International (CC BY 4.0) .
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://mostexpensivewatches.net/terms
+  quote: You may share and adapt that licensed material, including commercially, with appropriate credit,
+    a link to the license and an indication of changes.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://mostexpensivewatches.net/terms
+  quote: Public API access does not grant a blanket license to redistribute third-party dealer feeds,
+    images or descriptions.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://mostexpensivewatches.net/terms
+  quote: Use reasonable request volumes and caching.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://mostexpensivewatches.net/terms
+  quote: Keep source links and distinguish asking prices, reported auction results and estimates in downstream
+    displays.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://mostexpensivewatches.net/data-licensing
+  quote: Commercial rate limits for production apps, agents, dashboards and internal tools.
+  checked_at: '2026-11-21'
+notes: 'Pages read: /terms (updated 5 Nov 2026), /api, /data-licensing, /api/licensing.json. Only the
+  auction record ledger is explicitly CC BY 4.0 (commercial use allowed with credit); the terms say the
+  licence does not apply to every dataset on the site. Live listings, reviews and other public-API data
+  have no stated blanket licence, and third-party dealer feeds/images/descriptions are excluded. Free
+  "Prototype" package says attribution required for public use; a paid Builder commercial licence exists
+  for apps and dashboards. Caching is requested ("reasonable ... caching") but no storage limit stated.
+  Site itself carries affiliate links. Needs per-dataset check before use.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Free tier is for prototypes/evaluation; apps and dashboards go to a paid commercial
+  licence; Only the auction ledger is CC BY 4.0 | applied: commercial_use=paid-only'
+license_scope: portal-default

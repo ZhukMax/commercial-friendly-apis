@@ -1,0 +1,25 @@
+id: escape
+name: Escape
+url: https://github.com/polarspetroll/EscapeAPI
+category: Security
+description: An API for escaping different kind of queries
+description_source: upstream
+auth: none
+https: true
+cors: 'no'
+sources:
+- list: public-apis
+  name: Escape
+  url: https://github.com/polarspetroll/EscapeAPI
+  category: Security
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'

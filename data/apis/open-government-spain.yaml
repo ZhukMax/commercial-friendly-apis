@@ -1,0 +1,67 @@
+id: open-government-spain
+name: Open Government, Spain
+url: https://datos.gob.es/en
+category: Government
+description: Spain Government Open Data
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Open Government, Spain
+  url: https://datos.gob.es/en
+  category: Government
+link_status: alive
+data_license: Spain reuse terms (datos.gob.es legal notice; per-dataset licences may differ)
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://datos.gob.es/en/legal-notice
+api_terms_url: https://datos.gob.es/en/legal-notice
+commercial_use_scope: any
+attribution_text: 'Source: State Secretariat for Digitalisation and Artificial Intelligence of the Ministry
+  for Digital Transformation and Public Service'
+share_alike: unknown
+evidence:
+- field: commercial_use
+  url: https://datos.gob.es/en/legal-notice
+  quote: These general terms and conditions permit reuse of the documents subject to them for commercial
+    and non-commercial purposes.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://datos.gob.es/en/legal-notice
+  quote: authorised reuse may include activities such as copying, disseminating, modifying, adapting,
+    extracting, reordering and combining information.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://datos.gob.es/en/legal-notice
+  quote: authorised reuse may include activities such as copying, disseminating, modifying, adapting,
+    extracting, reordering and combining information.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://datos.gob.es/en/legal-notice
+  quote: The source of the documents being reused must be cited.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://datos.gob.es/en/legal-notice
+  quote: Distortion of the meaning of the information is prohibited.
+  checked_at: '2026-11-21'
+notes: 'General reuse terms of datos.gob.es apply to documents it holds, but the portal catalogues datasets
+  from many bodies and the notice allows "specific terms or conditions that may apply to some of the specific
+  content", so individual datasets may differ. Further conditions: cite last-update date, do not imply
+  official endorsement. No separate API terms page found; share_alike left unknown (no explicit statement).
+  Read via curl.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Legal notice verified: commercial reuse allowed with source citation and no distortion;
+  specific terms may apply per dataset.'
+license_scope: portal-default

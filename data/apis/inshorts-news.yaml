@@ -1,0 +1,53 @@
+id: inshorts-news
+name: Inshorts News
+url: https://github.com/cyberboysumanjay/Inshorts-News-API
+category: News
+description: Provides news from inshorts
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Inshorts News
+  url: https://github.com/cyberboysumanjay/Inshorts-News-API
+  category: News
+link_status: alive
+data_license: proprietary (Inshorts; repo code is MIT)
+commercial_use: 'no'
+storage_caching: unknown
+redistribution_display: 'no'
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: 'yes'
+verdict: red
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://inshorts.com/tnc
+api_terms_url: https://inshorts.com/tnc
+commercial_use_scope: any
+evidence:
+- field: commercial_use
+  url: https://inshorts.com/tnc
+  quote: for non-commercial and personal purpose
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://inshorts.com/tnc
+  quote: redistribute, sublicense, rent, publish, sell, assign, lease, market, transfer, or otherwise make the App
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://inshorts.com/tnc
+  quote: Inshorts owns all of the copyrights and database in relation to the App.
+  checked_at: '2026-11-21'
+- field: self_host_option
+  url: https://github.com/cyberboysumanjay/Inshorts-News-API
+  quote: You can fork the repo and deploy on VPS, Heroku or Vercel
+  checked_at: '2026-11-21'
+notes: 'Unofficial scraper API (README: fetches news contents gathered by the Inshorts app); the MIT licence covers only the repo code. The content is Inshorts'' (and its publishers''), and the Inshorts
+  Terms (inshorts.com/tnc, a pdf2htmlEX page with letter-spaced text, quotes are the cleanly spaced fragments: the full sentences read "You will only use the content of the App for non-commercial and personal
+  purpose" and "You will not redistribute, sublicense, ... make the App or any component or content thereof available to third parties"; the terms also say "You will not copy, reproduce, alter, modify,
+  create derivative works of, or publicly display any content displayed on the App") limit use to non-commercial personal purposes and forbid public display/redistribution. Terms are for the Inshorts App,
+  applied here because the API only relays that app content; the repo itself says nothing about content rights. The hosted demo (inshorts.deta.dev) is likely defunct; self-host only. Storage not addressed:
+  unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

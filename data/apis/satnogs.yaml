@@ -1,0 +1,59 @@
+id: satnogs
+name: SatNOGS
+url: https://docs.satnogs.org/projects/satnogs-network/en/stable/api.html
+category: Science & Math
+description: Satellite observations from open ground stations
+description_source: upstream
+auth: none
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: SatNOGS
+  url: https://docs.satnogs.org/projects/satnogs-network/en/stable/api.html
+  category: Science & Math
+link_status: alive
+data_license: 'CC-BY-SA (DB: CC BY-SA 4.0; Network API: CC BY-SA, version not stated)'
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+data_license_url: https://creativecommons.org/licenses/by-sa/4.0/deed.en
+api_terms_url: https://docs.satnogs.org/projects/satnogs-network/en/stable/api.html
+commercial_use_scope: any
+share_alike: 'yes'
+evidence:
+- field: data_license
+  url: https://docs.satnogs.org/projects/satnogs-network/en/stable/api.html
+  quote: All API data are freely distributed under the CC BY-SA license.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://creativecommons.org/licenses/by-sa/4.0/deed.en
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://creativecommons.org/licenses/by-sa/4.0/deed.en
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://creativecommons.org/licenses/by-sa/4.0/deed.en
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://creativecommons.org/licenses/by-sa/4.0/deed.en
+  quote: Attribution — You must give appropriate credit , provide a link to the license, and indicate if changes were made .
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://creativecommons.org/licenses/by-sa/4.0/deed.en
+  quote: ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions under the same license
+  checked_at: '2026-11-21'
+notes: Network API docs state API data is under CC BY-SA (no version); db.satnogs.org/about states CC BY-SA 4.0 (spelled 'Atribution-Share Alike v4.0'); network.satnogs.org/about says observation data CC
+  BY-SA. Permissions come from the CC BY-SA 4.0 deed read at creativecommons.org, applied via these statements. No separate API terms/rate-limit page read. Yellow because of share-alike. Some observation
+  artifacts (audio/waterfalls) uploaded by volunteers; not checked individually.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

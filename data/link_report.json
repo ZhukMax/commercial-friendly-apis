@@ -1,0 +1,1046 @@
+{
+ "checked_at": "2026-11-21",
+ "counts": {
+  "redirect": 371,
+  "alive": 2171,
+  "dead": 259
+ },
+ "dead": [
+  [
+   "a-b-blia-digital",
+   "HTTP 503"
+  ],
+  [
+   "aether-x-port-congestion",
+   "ReadTimeout"
+  ],
+  [
+   "agpc-domain-check",
+   "ConnectError"
+  ],
+  [
+   "ai-for-thai",
+   "ConnectTimeout"
+  ],
+  [
+   "ai-law-tracker",
+   "HTTP 402"
+  ],
+  [
+   "allowly-hiring-evidence",
+   "HTTP 404"
+  ],
+  [
+   "am-thyste",
+   "ConnectTimeout"
+  ],
+  [
+   "amadeus-travel-innovation-sandbox",
+   "HTTP 503"
+  ],
+  [
+   "api-mint",
+   "HTTP 404"
+  ],
+  [
+   "apimedic",
+   "ConnectTimeout"
+  ],
+  [
+   "aviationapi",
+   "ConnectError"
+  ],
+  [
+   "aylien-text-analysis",
+   "ConnectError"
+  ],
+  [
+   "bandsintown",
+   "HTTP 404"
+  ],
+  [
+   "base",
+   "ConnectError"
+  ],
+  [
+   "bhagavad-gita-bhagavadgita",
+   "HTTP 404"
+  ],
+  [
+   "bilbop",
+   "ConnectError"
+  ],
+  [
+   "bitcoinaverage",
+   "ConnectTimeout"
+  ],
+  [
+   "bitcoincharts",
+   "ConnectTimeout"
+  ],
+  [
+   "bitcoinyield",
+   "HTTP 410"
+  ],
+  [
+   "bittrex",
+   "HTTP 404"
+  ],
+  [
+   "blablacar",
+   "HTTP 404"
+  ],
+  [
+   "blockfacts",
+   "ConnectError"
+  ],
+  [
+   "blooms",
+   "HTTP 404"
+  ],
+  [
+   "bob-s-burgers",
+   "HTTP 503"
+  ],
+  [
+   "brainiall",
+   "HTTP 404"
+  ],
+  [
+   "brazil-cnpj",
+   "ConnectError"
+  ],
+  [
+   "breaking-bad",
+   "ConnectError"
+  ],
+  [
+   "british-national-bibliography",
+   "ConnectError"
+  ],
+  [
+   "bugsnax",
+   "ConnectError"
+  ],
+  [
+   "canadian-football-league-cfl",
+   "ConnectError"
+  ],
+  [
+   "catalogopolis",
+   "ConnectError"
+  ],
+  [
+   "catch-the-show",
+   "HTTP 404"
+  ],
+  [
+   "cep-la",
+   "ConnectError"
+  ],
+  [
+   "changelogs-md",
+   "ConnectError"
+  ],
+  [
+   "clarifai",
+   "ConnectError"
+  ],
+  [
+   "classify",
+   "HTTP 404"
+  ],
+  [
+   "cleanuri",
+   "HTTP 404"
+  ],
+  [
+   "clickmeter",
+   "ConnectError"
+  ],
+  [
+   "cloudbet",
+   "ConnectError"
+  ],
+  [
+   "cloverly",
+   "HTTP 404"
+  ],
+  [
+   "code-detection",
+   "ConnectError"
+  ],
+  [
+   "code-gov",
+   "HTTP 404"
+  ],
+  [
+   "coinnudge",
+   "ConnectError"
+  ],
+  [
+   "congressional-stock-brain",
+   "HTTP 402"
+  ],
+  [
+   "contextfetch",
+   "HTTP 503"
+  ],
+  [
+   "countapi",
+   "ConnectError"
+  ],
+  [
+   "covid-19-datenhub",
+   "HTTP 404"
+  ],
+  [
+   "covid-19-government-response",
+   "ConnectError"
+  ],
+  [
+   "covid-19-tracker-sri-lanka",
+   "ConnectError"
+  ],
+  [
+   "covid-id",
+   "ConnectTimeout"
+  ],
+  [
+   "crates-io",
+   "HTTP 404"
+  ],
+  [
+   "crowdsorcerer",
+   "HTTP 503"
+  ],
+  [
+   "crxcavator",
+   "ConnectError"
+  ],
+  [
+   "crypto-fear-and-greed-index-qiaobax",
+   "ReadTimeout"
+  ],
+  [
+   "cryptomarket",
+   "ConnectError"
+  ],
+  [
+   "cryptonator",
+   "ConnectError"
+  ],
+  [
+   "czech-namedays-calendar",
+   "HTTP 402"
+  ],
+  [
+   "dangerous-discord-database",
+   "ConnectError"
+  ],
+  [
+   "daum-maps",
+   "ConnectError"
+  ],
+  [
+   "dehash-lt",
+   "HTTP 404"
+  ],
+  [
+   "dexpaprika",
+   "HTTP 402"
+  ],
+  [
+   "district-of-columbia-open-data",
+   "HTTP 404"
+  ],
+  [
+   "doge-meme",
+   "ConnectError"
+  ],
+  [
+   "dreamthreads",
+   "ConnectError"
+  ],
+  [
+   "dummy-products",
+   "HTTP 404"
+  ],
+  [
+   "duply",
+   "HTTP 404"
+  ],
+  [
+   "ebay-go",
+   "HTTP 404"
+  ],
+  [
+   "eidosspeech",
+   "ConnectError"
+  ],
+  [
+   "enigma-public",
+   "HTTP 404"
+  ],
+  [
+   "euskalmet",
+   "ConnectTimeout"
+  ],
+  [
+   "excuser",
+   "HTTP 404"
+  ],
+  [
+   "exude-api",
+   "HTTP 404"
+  ],
+  [
+   "f1-api",
+   "HTTP 402"
+  ],
+  [
+   "fastdol",
+   "HTTP 402"
+  ],
+  [
+   "festivo-public-holidays",
+   "ConnectError"
+  ],
+  [
+   "fifa-ultimate-team",
+   "HTTP 503"
+  ],
+  [
+   "finbridge",
+   "ConnectError"
+  ],
+  [
+   "flatmark",
+   "ConnectError"
+  ],
+  [
+   "forismatic",
+   "ReadTimeout"
+  ],
+  [
+   "forza",
+   "ConnectError"
+  ],
+  [
+   "framejet",
+   "HTTP 503"
+  ],
+  [
+   "freeforexapi",
+   "ReadTimeout"
+  ],
+  [
+   "fun-facts",
+   "HTTP 404"
+  ],
+  [
+   "geodata-gov-gr",
+   "ConnectTimeout"
+  ],
+  [
+   "getotp",
+   "ConnectError"
+  ],
+  [
+   "getping",
+   "ConnectError"
+  ],
+  [
+   "gfycat",
+   "ConnectError"
+  ],
+  [
+   "gitguardian",
+   "HTTP 404"
+  ],
+  [
+   "gitter",
+   "ConnectError"
+  ],
+  [
+   "glitterly",
+   "HTTP 525"
+  ],
+  [
+   "goldbean",
+   "HTTP 404"
+  ],
+  [
+   "gramscraper",
+   "HTTP 410"
+  ],
+  [
+   "graphql-jobs",
+   "ConnectError"
+  ],
+  [
+   "graphs-for-coronavirus",
+   "ConnectError"
+  ],
+  [
+   "gurbaninow",
+   "HTTP 404"
+  ],
+  [
+   "harry-potter-charactes",
+   "HTTP 404"
+  ],
+  [
+   "hashable",
+   "ConnectError"
+  ],
+  [
+   "here-maps",
+   "ConnectError"
+  ],
+  [
+   "hong-kong-geodata-store",
+   "ConnectError"
+  ],
+  [
+   "hytale",
+   "ReadTimeout"
+  ],
+  [
+   "idphotosnap-passport-photo-specs",
+   "HTTP 402"
+  ],
+  [
+   "iex-cloud",
+   "ConnectTimeout"
+  ],
+  [
+   "imdb-api",
+   "ConnectError"
+  ],
+  [
+   "impala-hotel-bookings",
+   "ConnectError"
+  ],
+  [
+   "imsea",
+   "HTTP 404"
+  ],
+  [
+   "indian-pincode",
+   "ConnectError"
+  ],
+  [
+   "indonesia-dictionary",
+   "HTTP 404"
+  ],
+  [
+   "inei",
+   "ConnectTimeout"
+  ],
+  [
+   "inspiration",
+   "ConnectError"
+  ],
+  [
+   "ipfinder",
+   "ConnectError"
+  ],
+  [
+   "ipgeolocation-ipgeolocation",
+   "ConnectError"
+  ],
+  [
+   "ipgeolocationapi-com",
+   "ConnectError"
+  ],
+  [
+   "ipgeolocationapi",
+   "ReadTimeout"
+  ],
+  [
+   "is-this-site-down",
+   "ConnectError"
+  ],
+  [
+   "istanbul-i-bb-open-data",
+   "ConnectTimeout"
+  ],
+  [
+   "itsthisforthat",
+   "ReadTimeout"
+  ],
+  [
+   "itunes-search",
+   "ConnectError"
+  ],
+  [
+   "jobs2careers-api",
+   "HTTP 404"
+  ],
+  [
+   "juju",
+   "HTTP 404"
+  ],
+  [
+   "keeprule",
+   "HTTP 404"
+  ],
+  [
+   "keycdn-ip-location-finder",
+   "ConnectError"
+  ],
+  [
+   "kimiquotes",
+   "HTTP 404"
+  ],
+  [
+   "kiprio-email-validate",
+   "HTTP 410"
+  ],
+  [
+   "kiprio-translate",
+   "HTTP 410"
+  ],
+  [
+   "kiprio-uk-postcode",
+   "HTTP 400"
+  ],
+  [
+   "kmalservico-gold-price-dataset",
+   "ConnectError"
+  ],
+  [
+   "ksoft-si-lyrics",
+   "ConnectError"
+  ],
+  [
+   "kutt",
+   "ConnectError"
+  ],
+  [
+   "launch-pics",
+   "ConnectError"
+  ],
+  [
+   "lcbo",
+   "ConnectError"
+  ],
+  [
+   "let-s-count",
+   "ConnectError"
+  ],
+  [
+   "localgov-jp",
+   "HTTP 503"
+  ],
+  [
+   "loripsum",
+   "ConnectError"
+  ],
+  [
+   "lua-decompiler",
+   "ConnectError"
+  ],
+  [
+   "mac-address-vendor-lookup",
+   "ReadTimeout"
+  ],
+  [
+   "malwagon",
+   "ConnectError"
+  ],
+  [
+   "mangadex",
+   "ConnectError"
+  ],
+  [
+   "mario-kart-tour",
+   "HTTP 404"
+  ],
+  [
+   "markerapi",
+   "HTTP 521"
+  ],
+  [
+   "meltema",
+   "ConnectError"
+  ],
+  [
+   "mercury",
+   "ConnectError"
+  ],
+  [
+   "messari",
+   "HTTP 404"
+  ],
+  [
+   "metaphorsum",
+   "HTTP 502"
+  ],
+  [
+   "micro-jaymock",
+   "HTTP 400"
+  ],
+  [
+   "mocky",
+   "ConnectError"
+  ],
+  [
+   "mojang",
+   "ConnectError"
+  ],
+  [
+   "monday",
+   "ConnectError"
+  ],
+  [
+   "motivational-quotes",
+   "HTTP 404"
+  ],
+  [
+   "mycelium",
+   "ConnectTimeout"
+  ],
+  [
+   "napster",
+   "ConnectError"
+  ],
+  [
+   "national-grid-eso",
+   "ConnectError"
+  ],
+  [
+   "noctua",
+   "ConnectError"
+  ],
+  [
+   "nomics",
+   "ConnectError"
+  ],
+  [
+   "noms",
+   "HTTP 503"
+  ],
+  [
+   "non-working-days-isdayoff",
+   "ConnectError"
+  ],
+  [
+   "nordigen",
+   "ConnectError"
+  ],
+  [
+   "novadax",
+   "HTTP 502"
+  ],
+  [
+   "npr-one",
+   "ConnectError"
+  ],
+  [
+   "numverify",
+   "ConnectError"
+  ],
+  [
+   "ocean-facts",
+   "HTTP 404"
+  ],
+  [
+   "odweather",
+   "HTTP 404"
+  ],
+  [
+   "okex",
+   "ConnectError"
+  ],
+  [
+   "open-dog-registry",
+   "ConnectError"
+  ],
+  [
+   "open-government-colombia",
+   "ConnectError"
+  ],
+  [
+   "open-government-india",
+   "ConnectError"
+  ],
+  [
+   "open-government-lithuania",
+   "RemoteProtocolError"
+  ],
+  [
+   "open-government-peru",
+   "HTTP 418"
+  ],
+  [
+   "open-government-saudi-arabia",
+   "ConnectTimeout"
+  ],
+  [
+   "openvisionapi",
+   "ConnectTimeout"
+  ],
+  [
+   "orb-intelligence",
+   "ConnectError"
+  ],
+  [
+   "owen-wilson-wow",
+   "HTTP 404"
+  ],
+  [
+   "pdffleet",
+   "HTTP 502"
+  ],
+  [
+   "pdfrender",
+   "ConnectError"
+  ],
+  [
+   "phisherman",
+   "ConnectError"
+  ],
+  [
+   "pit-financial-state",
+   "HTTP 503"
+  ],
+  [
+   "pocket",
+   "HTTP 503"
+  ],
+  [
+   "politidata",
+   "HTTP 404"
+  ],
+  [
+   "prc-exam-schedule",
+   "ConnectError"
+  ],
+  [
+   "profitvana",
+   "HTTP 402"
+  ],
+  [
+   "propraven",
+   "HTTP 402"
+  ],
+  [
+   "proxykingdom",
+   "ConnectError"
+  ],
+  [
+   "publicdatahub",
+   "ConnectError"
+  ],
+  [
+   "punkapi",
+   "ConnectError"
+  ],
+  [
+   "pvwatts",
+   "ConnectError"
+  ],
+  [
+   "qr-and-barcode",
+   "HTTP 404"
+  ],
+  [
+   "quarantine",
+   "ConnectError"
+  ],
+  [
+   "quickmocker",
+   "ConnectError"
+  ],
+  [
+   "quoteclear",
+   "HTTP 404"
+  ],
+  [
+   "railway-transport-for-france",
+   "ConnectError"
+  ],
+  [
+   "random-data",
+   "ConnectError"
+  ],
+  [
+   "random-stuff",
+   "ConnectError"
+  ],
+  [
+   "ratesapi",
+   "ConnectError"
+  ],
+  [
+   "rejax",
+   "ConnectError"
+  ],
+  [
+   "resmush-it",
+   "TooManyRedirects"
+  ],
+  [
+   "roadgoat-cities",
+   "ReadTimeout"
+  ],
+  [
+   "rss-feed-to-json",
+   "HTTP 402"
+  ],
+  [
+   "rustybeer",
+   "HTTP 404"
+  ],
+  [
+   "saidit",
+   "ConnectError"
+  ],
+  [
+   "sampuli",
+   "HTTP 503"
+  ],
+  [
+   "secrets-api",
+   "HTTP 502"
+  ],
+  [
+   "seedfinder",
+   "HTTP 402"
+  ],
+  [
+   "sentiment-analysis",
+   "ConnectError"
+  ],
+  [
+   "short-link",
+   "HTTP 404"
+  ],
+  [
+   "signaliz",
+   "HTTP 404"
+  ],
+  [
+   "spanish-random-names",
+   "HTTP 404"
+  ],
+  [
+   "spanish-random-words",
+   "HTTP 404"
+  ],
+  [
+   "sport-list-and-data",
+   "ConnectError"
+  ],
+  [
+   "sport-places",
+   "ConnectError"
+  ],
+  [
+   "sport-vision",
+   "ConnectError"
+  ],
+  [
+   "spotsense",
+   "ConnectError"
+  ],
+  [
+   "stream",
+   "HTTP 400"
+  ],
+  [
+   "supportivekoala",
+   "ConnectError"
+  ],
+  [
+   "suredbits",
+   "ReadTimeout"
+  ],
+  [
+   "systembolaget",
+   "ConnectError"
+  ],
+  [
+   "tamtam",
+   "ConnectTimeout"
+  ],
+  [
+   "techrole-index",
+   "ConnectError"
+  ],
+  [
+   "teleport",
+   "ConnectError"
+  ],
+  [
+   "tenders-in-hungary",
+   "ConnectTimeout"
+  ],
+  [
+   "tenders-in-poland",
+   "ConnectTimeout"
+  ],
+  [
+   "tenders-in-romania",
+   "ConnectTimeout"
+  ],
+  [
+   "tenders-in-spain",
+   "ConnectTimeout"
+  ],
+  [
+   "tenders-in-ukraine",
+   "ConnectTimeout"
+  ],
+  [
+   "the-null-pointer",
+   "HTTP 500"
+  ],
+  [
+   "thesportsdb",
+   "ConnectError"
+  ],
+  [
+   "threat-jammer",
+   "HTTP 404"
+  ],
+  [
+   "toolcarton",
+   "ConnectError"
+  ],
+  [
+   "traileraddict",
+   "HTTP 404"
+  ],
+  [
+   "trakt-trakt",
+   "HTTP 404"
+  ],
+  [
+   "transport-for-germany",
+   "HTTP 404"
+  ],
+  [
+   "transport-for-india",
+   "ConnectError"
+  ],
+  [
+   "transport-for-lisbon-portugal",
+   "ConnectTimeout"
+  ],
+  [
+   "tubetotranscript",
+   "ReadTimeout"
+  ],
+  [
+   "uber",
+   "HTTP 404"
+  ],
+  [
+   "uk-police",
+   "ConnectError"
+  ],
+  [
+   "uk-public-tenders-by-trade",
+   "HTTP 410"
+  ],
+  [
+   "urlfy",
+   "ConnectError"
+  ],
+  [
+   "urlix",
+   "ConnectError"
+  ],
+  [
+   "us-state-government-jobs",
+   "HTTP 404"
+  ],
+  [
+   "vadivelu-http-codes",
+   "ConnectError"
+  ],
+  [
+   "vagalume",
+   "HTTP 503"
+  ],
+  [
+   "vatcomply-com",
+   "HTTP 404"
+  ],
+  [
+   "verifier",
+   "ConnectError"
+  ],
+  [
+   "virushee",
+   "ConnectError"
+  ],
+  [
+   "virustotal-virustotal",
+   "HTTP 404"
+  ],
+  [
+   "vk",
+   "HTTP 418"
+  ],
+  [
+   "volo",
+   "HTTP 410"
+  ],
+  [
+   "voxodds",
+   "HTTP 404"
+  ],
+  [
+   "waifu-im",
+   "HTTP 404"
+  ],
+  [
+   "walltime",
+   "ConnectError"
+  ],
+  [
+   "wandbox",
+   "HTTP 404"
+  ],
+  [
+   "warface-non-official",
+   "ConnectError"
+  ],
+  [
+   "warnely",
+   "HTTP 404"
+  ],
+  [
+   "wetransfer",
+   "HTTP 503"
+  ],
+  [
+   "wheelwise",
+   "HTTP 404"
+  ],
+  [
+   "xmath",
+   "HTTP 404"
+  ],
+  [
+   "yahoo-finance",
+   "ConnectTimeout"
+  ],
+  [
+   "yelp",
+   "HTTP 404"
+  ],
+  [
+   "zennet",
+   "ConnectError"
+  ],
+  [
+   "zero-retention-pdf",
+   "ConnectTimeout"
+  ]
+ ]
+}

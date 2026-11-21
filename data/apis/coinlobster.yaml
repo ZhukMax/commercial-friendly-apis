@@ -1,0 +1,71 @@
+id: coinlobster
+name: CoinLobster
+url: https://coinlobster.com/developers
+category: Cryptocurrency
+description: Live executed whale trades across 15 exchanges and on-chain DEX with an unusualness radar
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: CoinLobster
+  url: https://coinlobster.com/developers
+  category: Cryptocurrency
+link_status: alive
+data_license: proprietary (figures may be quoted incl. commercially with source credit; no bulk extraction)
+commercial_use: ambiguous
+storage_caching: ambiguous
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+link_checked_at: '2026-11-21'
+api_terms_url: https://coinlobster.com/terms
+attribution_text: Name CoinLobster as source and link to the page the figure came from; keep window/coverage/as-of
+  notes
+commercial_use_scope: any
+share_alike: unknown
+evidence:
+- field: commercial_use
+  url: https://coinlobster.com/terms
+  quote: may be quoted and reproduced in articles, research, social posts and AI assistant answers, including
+    commercially
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://coinlobster.com/terms
+  quote: This permission covers the FIGURES, not the Service.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://coinlobster.com/terms
+  quote: It does not extend to bulk extraction or systematic copying of a dataset, to redistributing our
+    feeds as a competing product
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://coinlobster.com/terms
+  quote: You may not reproduce, distribute, modify, create derivative works of, publicly display, publicly
+    perform, republish, download, store, or transmit
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://coinlobster.com/terms
+  quote: CoinLobster is named as the source; and a link to the page the figure came from is included where
+    the medium allows one
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://coinlobster.com/developers
+  quote: Paid plans cover internal and product use, not reselling raw rows.
+  checked_at: '2026-11-21'
+notes: Read ToS (coinlobster.com/terms, updated 2026-09-16) and /developers. ToS permits quoting individual
+  figures incl. commercially with credit+link, unaltered with window/as-of notes, but forbids bulk extraction/systematic
+  copying of a dataset and redistributing feeds; a general clause also bars storing/republishing Service
+  material without written consent. Developers page says paid plans cover "internal and product use, not
+  reselling raw rows"; a free key (250 credits) and keyless endpoints exist; their terms are not spelled
+  out separately. Underlying exchange data (18 exchanges) may carry upstream limits (not checked). Storing
+  and live display of the feed on a commercial site is therefore unclear.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: ToS and /developers re-read; exchange upstream terms not published.

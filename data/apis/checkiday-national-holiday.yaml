@@ -1,0 +1,35 @@
+id: checkiday-national-holiday
+name: Checkiday - National Holiday
+url: https://apilayer.com/marketplace/checkiday-api
+category: Calendar
+description: Industry-leading holiday data with over 5,000 holidays and thousands of descriptions
+description_source: upstream
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Checkiday - National Holiday
+  url: https://apilayer.com/marketplace/checkiday-api
+  category: Calendar
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://marketplace.apilayer.com/checkiday-api
+api_terms_url: https://www.ideracorp.com/Legal/APILayer/Marketplace-Terms-of-Use
+rate_limits: Free 100 req/month; Starter 5,000; Pro 35,000; Enterprise 75,000 (per month)
+notes: 'Listing on APILayer Marketplace (redirected apilayer.com -> marketplace.apilayer.com). Vendor
+  is Westy92 LLC, a third party; APILayer Marketplace Terms of Use say usage of third-party APIs is governed
+  by the vendor''s own terms, which are not on the listing page (only plans and a marketing description
+  are shown: Free 100 req/month, paid from $15). checkiday.com''s own terms/API pages returned 404/403.
+  No usage terms for commercial use, caching or display could be read, so all unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

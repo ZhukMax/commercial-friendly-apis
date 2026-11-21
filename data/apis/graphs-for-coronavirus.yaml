@@ -1,0 +1,26 @@
+id: graphs-for-coronavirus
+name: Graphs for Coronavirus
+url: https://corona.dnsforfamily.com/api.txt
+category: News
+description: Each Country separately and Worldwide Graphs for Coronavirus. Daily updates
+description_source: upstream
+auth: none
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Graphs for Coronavirus
+  url: https://corona.dnsforfamily.com/api.txt
+  category: News
+link_status: dead
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: ConnectError

@@ -1,0 +1,26 @@
+id: microsoft-graph
+name: Microsoft Graph
+url: https://docs.microsoft.com/en-us/graph/api/overview
+category: Social
+description: Access the data and intelligence in Microsoft 365, Windows 10, and Enterprise Mobility
+description_source: upstream
+auth: OAuth
+https: true
+cors: unknown
+sources:
+- list: public-apis
+  name: Microsoft Graph
+  url: https://docs.microsoft.com/en-us/graph/api/overview
+  category: Social
+link_status: redirect
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+link_note: -> https://learn.microsoft.com/en-us/graph/api/overview

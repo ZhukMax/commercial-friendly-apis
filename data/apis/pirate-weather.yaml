@@ -1,0 +1,37 @@
+id: pirate-weather
+name: Pirate Weather
+url: https://pirateweather.readthedocs.io/en/latest/
+category: Weather
+description: Free weather API with forecast data similar to Dark Sky
+description_source: upstream
+auth: apiKey
+https: true
+cors: 'yes'
+sources:
+- list: public-apis
+  name: Pirate Weather
+  url: https://pirateweather.readthedocs.io/en/latest/
+  category: Weather
+link_status: alive
+data_license: unknown
+commercial_use: unknown
+storage_caching: unknown
+redistribution_display: unknown
+attribution_required: unknown
+bulk_download: unknown
+self_host_option: unknown
+verdict: unknown
+confidence: low
+link_checked_at: '2026-11-21'
+rate_limits: 10,000 calls/month (free tier)
+api_terms_url: https://pirate-weather.apiable.io/terms
+notes: 'Terms read via browser (pirate-weather.apiable.io/terms): "best effort translation layer between public gridded weather data and developer friendly APIs"; the only extra term is not to circumvent
+  the call limit (multiple accounts); the rest is generic boilerplate. Nothing on commercial use, caching, display or attribution, so all unknown (public upstream data such as NOAA models carry their own
+  terms). Upstream auth was none; the docs describe an API key (portal sign-up), so auth set to apiKey.'
+evidence:
+- field: rate_limits
+  url: https://pirateweather.readthedocs.io/en/latest/
+  quote: a $2 monthly donation lets me raise your API limit from 10,000 calls/ month to 20,000 calls per month
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
