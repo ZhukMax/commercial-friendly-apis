@@ -1,6 +1,6 @@
 # Announcement drafts (English)
 
-Numbers as of 2026-11-21. Replace `<repo-url>` after publishing. Not posted anywhere.
+Numbers as of 2026-11-21. Not posted anywhere.
 
 ## Reddit (r/webdev, r/programming-adjacent communities that allow self-promotion)
 
@@ -14,7 +14,7 @@ Rough results for the ~1,300 I checked: 🟢 167, 🟡 604, 🔴 94, the rest co
 
 Things I learned: free tiers are often non-commercial while the data licence (e.g. CC BY) is fine; portals publish a default licence but datasets differ; aggregators can't relicense their upstream; plenty of "free" APIs forbid caching.
 
-It's one YAML file per API plus a generated README and JSON (CC BY 4.0). Verdicts are derived from fields by a script, and CI rejects any claim without a quote. Not legal advice. Corrections welcome: <repo-url>
+It's one YAML file per API plus a generated README and JSON (CC BY 4.0). Verdicts are derived from fields by a script, and CI rejects any claim without a quote. Not legal advice. Corrections welcome: https://github.com/ZhukMax/commercial-friendly-apis
 
 ## Hacker News (Show HN)
 
@@ -24,7 +24,7 @@ Existing API lists don't say whether you may use an API's data on a monetised si
 
 Method: one agent pass to read the terms, then an adversarial pass on every green and ambiguous entry. Verdicts are computed from fields by a script; CI fails on any claim without a quote. Known limits: portal-level licences (marked ⚠️) can differ per dataset, ~15% of quotes were read through a browser and are not automatically re-verifiable, and terms change.
 
-Data is CC BY 4.0, code MIT, one YAML per API plus dist/apis.json. Not legal advice. <repo-url>
+Data is CC BY 4.0, code MIT, one YAML per API plus dist/apis.json. Not legal advice. https://github.com/ZhukMax/commercial-friendly-apis
 
 ## dev.to
 
