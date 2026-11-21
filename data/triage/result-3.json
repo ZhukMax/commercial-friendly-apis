@@ -1,0 +1,860 @@
+[
+ {
+  "id": "assinafy",
+  "class": "not-data",
+  "reason": "Document/productivity tool or account-scoped API, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "buildpdf",
+  "class": "not-data",
+  "reason": "Document/productivity tool or account-scoped API, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "cleverutils",
+  "class": "not-data",
+  "reason": "Document/productivity tool or account-scoped API, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "clickup",
+  "class": "not-data",
+  "reason": "Document/productivity tool or account-scoped API, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "clockify",
+  "class": "not-data",
+  "reason": "Document/productivity tool or account-scoped API, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "cloudconvert",
+  "class": "not-data",
+  "reason": "Document/productivity tool or account-scoped API, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "cloudmersive-document-and-data-conversion",
+  "class": "not-data",
+  "reason": "Document/productivity tool or account-scoped API, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "code-stats",
+  "class": "data",
+  "reason": "Public programmer stats/profiles; uncertain whether account-scoped",
+  "confidence": "low"
+ },
+ {
+  "id": "convert-online",
+  "class": "not-data",
+  "reason": "Document/productivity tool or account-scoped API, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "convertfly",
+  "class": "not-data",
+  "reason": "Document/productivity tool or account-scoped API, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "craftmypdf",
+  "class": "not-data",
+  "reason": "Document/productivity tool or account-scoped API, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "customjs",
+  "class": "not-data",
+  "reason": "Document/productivity tool or account-scoped API, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "doccheap",
+  "class": "not-data",
+  "reason": "Document/productivity tool or account-scoped API, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "docspring",
+  "class": "not-data",
+  "reason": "Document/productivity tool or account-scoped API, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "docstruct",
+  "class": "not-data",
+  "reason": "Document/productivity tool or account-scoped API, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "doqlo",
+  "class": "not-data",
+  "reason": "Document/productivity tool or account-scoped API, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "dynamicdocs",
+  "class": "not-data",
+  "reason": "Document/productivity tool or account-scoped API, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "emboss",
+  "class": "not-data",
+  "reason": "Document/productivity tool or account-scoped API, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "emissaoja",
+  "class": "not-data",
+  "reason": "Document/productivity tool or account-scoped API, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "faturapdf",
+  "class": "not-data",
+  "reason": "Document/productivity tool or account-scoped API, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "flowdash",
+  "class": "not-data",
+  "reason": "Document/productivity tool or account-scoped API, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "formfeed",
+  "class": "not-data",
+  "reason": "Document/productivity tool or account-scoped API, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "fynepdf",
+  "class": "not-data",
+  "reason": "Document/productivity tool or account-scoped API, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "html2pdf",
+  "class": "not-data",
+  "reason": "Document/productivity tool or account-scoped API, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "ilovepdf",
+  "class": "not-data",
+  "reason": "Document/productivity tool or account-scoped API, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "jira",
+  "class": "not-data",
+  "reason": "Document/productivity tool or account-scoped API, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "kaijuconverter",
+  "class": "not-data",
+  "reason": "Document/productivity tool or account-scoped API, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "kiprio-html-to-pdf",
+  "class": "not-data",
+  "reason": "Document/productivity tool or account-scoped API, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "mattermost",
+  "class": "not-data",
+  "reason": "Document/productivity tool or account-scoped API, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "miconvert",
+  "class": "not-data",
+  "reason": "Document/productivity tool or account-scoped API, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "notion",
+  "class": "not-data",
+  "reason": "Document/productivity tool or account-scoped API, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "ocr-space",
+  "class": "not-data",
+  "reason": "Document/productivity tool or account-scoped API, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "optiic",
+  "class": "not-data",
+  "reason": "Document/productivity tool or account-scoped API, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "pandadoc",
+  "class": "not-data",
+  "reason": "Document/productivity tool or account-scoped API, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "paperclean",
+  "class": "not-data",
+  "reason": "Document/productivity tool or account-scoped API, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "pdfbolt",
+  "class": "not-data",
+  "reason": "Document/productivity tool or account-scoped API, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "pdfdispatch",
+  "class": "not-data",
+  "reason": "Document/productivity tool or account-scoped API, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "pdfendpoint",
+  "class": "not-data",
+  "reason": "Document/productivity tool or account-scoped API, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "pdfmint",
+  "class": "not-data",
+  "reason": "Document/productivity tool or account-scoped API, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "penlydoc",
+  "class": "not-data",
+  "reason": "Document/productivity tool or account-scoped API, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "podio",
+  "class": "not-data",
+  "reason": "Document/productivity tool or account-scoped API, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "polydoc",
+  "class": "not-data",
+  "reason": "Document/productivity tool or account-scoped API, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "prexview",
+  "class": "not-data",
+  "reason": "Document/productivity tool or account-scoped API, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "printsocket",
+  "class": "not-data",
+  "reason": "Document/productivity tool or account-scoped API, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "renderly",
+  "class": "not-data",
+  "reason": "Document/productivity tool or account-scoped API, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "rendex",
+  "class": "not-data",
+  "reason": "Document/productivity tool or account-scoped API, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "restpack",
+  "class": "not-data",
+  "reason": "Document/productivity tool or account-scoped API, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "runconvert",
+  "class": "not-data",
+  "reason": "Document/productivity tool or account-scoped API, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "sahifa",
+  "class": "not-data",
+  "reason": "Document/productivity tool or account-scoped API, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "shortcut",
+  "class": "not-data",
+  "reason": "Document/productivity tool or account-scoped API, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "slipkiln",
+  "class": "not-data",
+  "reason": "Document/productivity tool or account-scoped API, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "smart-image-enhancement",
+  "class": "not-data",
+  "reason": "Document/productivity tool or account-scoped API, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "staffsign",
+  "class": "not-data",
+  "reason": "Document/productivity tool or account-scoped API, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "teamsort",
+  "class": "not-data",
+  "reason": "Document/productivity tool or account-scoped API, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "the-drive-ai",
+  "class": "not-data",
+  "reason": "Document/productivity tool or account-scoped API, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "thirds",
+  "class": "not-data",
+  "reason": "Document/productivity tool or account-scoped API, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "todoist",
+  "class": "not-data",
+  "reason": "Document/productivity tool or account-scoped API, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "vector-express-v2-0",
+  "class": "not-data",
+  "reason": "Document/productivity tool or account-scoped API, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "vertopal",
+  "class": "not-data",
+  "reason": "Document/productivity tool or account-scoped API, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "wakatime",
+  "class": "not-data",
+  "reason": "Document/productivity tool or account-scoped API, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "zube",
+  "class": "not-data",
+  "reason": "Document/productivity tool or account-scoped API, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "anon-li",
+  "class": "not-data",
+  "reason": "Email validation, sending or temp-mailbox utility, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "atomic-mail",
+  "class": "not-data",
+  "reason": "Email validation, sending or temp-mailbox utility, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "b2b-email-and-domain-scorer",
+  "class": "not-data",
+  "reason": "Email validation, sending or temp-mailbox utility, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "best-temp-mail",
+  "class": "not-data",
+  "reason": "Email validation, sending or temp-mailbox utility, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "cloudmersive-validate",
+  "class": "not-data",
+  "reason": "Email validation, sending or temp-mailbox utility, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "contactlint",
+  "class": "not-data",
+  "reason": "Email validation, sending or temp-mailbox utility, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "disban",
+  "class": "not-data",
+  "reason": "Email validation, sending or temp-mailbox utility, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "disify",
+  "class": "not-data",
+  "reason": "Email validation, sending or temp-mailbox utility, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "dropmail",
+  "class": "not-data",
+  "reason": "Email validation, sending or temp-mailbox utility, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "email-spam-tester",
+  "class": "not-data",
+  "reason": "Email validation, sending or temp-mailbox utility, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "email-validation",
+  "class": "not-data",
+  "reason": "Email validation, sending or temp-mailbox utility, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "email-validator-by-lifestep",
+  "class": "not-data",
+  "reason": "Email validation, sending or temp-mailbox utility, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "emailjs",
+  "class": "not-data",
+  "reason": "Email validation, sending or temp-mailbox utility, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "eva",
+  "class": "not-data",
+  "reason": "Email validation, sending or temp-mailbox utility, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "guerrilla-mail",
+  "class": "not-data",
+  "reason": "Email validation, sending or temp-mailbox utility, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "improvmx",
+  "class": "not-data",
+  "reason": "Email validation, sending or temp-mailbox utility, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "inboxsink",
+  "class": "not-data",
+  "reason": "Email validation, sending or temp-mailbox utility, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "kickbox",
+  "class": "not-data",
+  "reason": "Email validation, sending or temp-mailbox utility, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "mail-gw",
+  "class": "not-data",
+  "reason": "Email validation, sending or temp-mailbox utility, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "mail-tm",
+  "class": "not-data",
+  "reason": "Email validation, sending or temp-mailbox utility, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "mailboxlayer",
+  "class": "not-data",
+  "reason": "Email validation, sending or temp-mailbox utility, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "mailboxvalidator",
+  "class": "not-data",
+  "reason": "Email validation, sending or temp-mailbox utility, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "mailchannels",
+  "class": "not-data",
+  "reason": "Email validation, sending or temp-mailbox utility, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "mailcheck-ai",
+  "class": "not-data",
+  "reason": "Email validation, sending or temp-mailbox utility, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "mailfloss",
+  "class": "not-data",
+  "reason": "Email validation, sending or temp-mailbox utility, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "mailfornet",
+  "class": "not-data",
+  "reason": "Email validation, sending or temp-mailbox utility, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "mailrambo",
+  "class": "not-data",
+  "reason": "Email validation, sending or temp-mailbox utility, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "mailsenpai-dns-check",
+  "class": "not-data",
+  "reason": "Email validation, sending or temp-mailbox utility, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "mailtester-ninja",
+  "class": "not-data",
+  "reason": "Email validation, sending or temp-mailbox utility, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "mailtrap",
+  "class": "not-data",
+  "reason": "Email validation, sending or temp-mailbox utility, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "nitrosend",
+  "class": "not-data",
+  "reason": "Email validation, sending or temp-mailbox utility, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "poststack",
+  "class": "not-data",
+  "reason": "Email validation, sending or temp-mailbox utility, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "rankfabrik-verify",
+  "class": "not-data",
+  "reason": "Email validation, sending or temp-mailbox utility, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "sendgrid",
+  "class": "not-data",
+  "reason": "Email validation, sending or temp-mailbox utility, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "sendinblue",
+  "class": "not-data",
+  "reason": "Email validation, sending or temp-mailbox utility, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "sendraven",
+  "class": "not-data",
+  "reason": "Email validation, sending or temp-mailbox utility, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "sequenzy",
+  "class": "not-data",
+  "reason": "Email validation, sending or temp-mailbox utility, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "smtpfast",
+  "class": "not-data",
+  "reason": "Email validation, sending or temp-mailbox utility, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "stopmailing",
+  "class": "not-data",
+  "reason": "Email validation, sending or temp-mailbox utility, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "tempmailgrab",
+  "class": "not-data",
+  "reason": "Email validation, sending or temp-mailbox utility, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "trustlookup",
+  "class": "not-data",
+  "reason": "Email validation, sending or temp-mailbox utility, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "uchecker",
+  "class": "not-data",
+  "reason": "Email validation, sending or temp-mailbox utility, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "unitpost",
+  "class": "not-data",
+  "reason": "Email validation, sending or temp-mailbox utility, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "vetto",
+  "class": "not-data",
+  "reason": "Email validation, sending or temp-mailbox utility, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "xeramail-temp-mail",
+  "class": "not-data",
+  "reason": "Email validation, sending or temp-mailbox utility, not a dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "addressmock",
+  "class": "not-data",
+  "reason": "Mock/fake test-data generator or utility",
+  "confidence": "medium"
+ },
+ {
+  "id": "bacon-ipsum",
+  "class": "not-data",
+  "reason": "Mock/fake test-data generator or utility",
+  "confidence": "medium"
+ },
+ {
+  "id": "beeceptor-s-crud-apis",
+  "class": "not-data",
+  "reason": "Mock/fake test-data generator or utility",
+  "confidence": "medium"
+ },
+ {
+  "id": "dicebear-avatars",
+  "class": "not-data",
+  "reason": "Mock/fake test-data generator or utility",
+  "confidence": "medium"
+ },
+ {
+  "id": "dummyjson",
+  "class": "not-data",
+  "reason": "Mock/fake test-data generator or utility",
+  "confidence": "high"
+ },
+ {
+  "id": "english-random-words",
+  "class": "data",
+  "reason": "Word list with pronunciation; could be republished corpus",
+  "confidence": "low"
+ },
+ {
+  "id": "fakejson",
+  "class": "not-data",
+  "reason": "Mock/fake test-data generator or utility",
+  "confidence": "medium"
+ },
+ {
+  "id": "fakenamely",
+  "class": "not-data",
+  "reason": "Mock/fake test-data generator or utility",
+  "confidence": "medium"
+ },
+ {
+  "id": "fakerapi",
+  "class": "not-data",
+  "reason": "Mock/fake test-data generator or utility",
+  "confidence": "medium"
+ },
+ {
+  "id": "fakestoreapi",
+  "class": "not-data",
+  "reason": "Mock/fake test-data generator or utility",
+  "confidence": "high"
+ },
+ {
+  "id": "flaky",
+  "class": "not-data",
+  "reason": "Mock/fake test-data generator or utility",
+  "confidence": "medium"
+ },
+ {
+  "id": "generadordni",
+  "class": "not-data",
+  "reason": "Mock/fake test-data generator or utility",
+  "confidence": "medium"
+ },
+ {
+  "id": "jsonfabrica",
+  "class": "not-data",
+  "reason": "Mock/fake test-data generator or utility",
+  "confidence": "medium"
+ },
+ {
+  "id": "jsoning",
+  "class": "not-data",
+  "reason": "Mock/fake test-data generator or utility",
+  "confidence": "medium"
+ },
+ {
+  "id": "lorem-api",
+  "class": "not-data",
+  "reason": "Mock/fake test-data generator or utility",
+  "confidence": "medium"
+ },
+ {
+  "id": "loremfile",
+  "class": "not-data",
+  "reason": "Mock/fake test-data generator or utility",
+  "confidence": "medium"
+ },
+ {
+  "id": "mailsac",
+  "class": "not-data",
+  "reason": "Mock/fake test-data generator or utility",
+  "confidence": "medium"
+ },
+ {
+  "id": "mockae",
+  "class": "not-data",
+  "reason": "Mock/fake test-data generator or utility",
+  "confidence": "medium"
+ },
+ {
+  "id": "mockaroo",
+  "class": "not-data",
+  "reason": "Mock/fake test-data generator or utility",
+  "confidence": "high"
+ },
+ {
+  "id": "mockerito",
+  "class": "not-data",
+  "reason": "Mock/fake test-data generator or utility",
+  "confidence": "medium"
+ },
+ {
+  "id": "novafortix-dev",
+  "class": "not-data",
+  "reason": "Mock/fake test-data generator or utility",
+  "confidence": "medium"
+ },
+ {
+  "id": "random-profiles",
+  "class": "not-data",
+  "reason": "Mock/fake test-data generator or utility",
+  "confidence": "medium"
+ },
+ {
+  "id": "randommer",
+  "class": "not-data",
+  "reason": "Mock/fake test-data generator or utility",
+  "confidence": "medium"
+ },
+ {
+  "id": "randomuser",
+  "class": "not-data",
+  "reason": "Mock/fake test-data generator or utility",
+  "confidence": "medium"
+ },
+ {
+  "id": "restful-api",
+  "class": "not-data",
+  "reason": "Mock/fake test-data generator or utility",
+  "confidence": "high"
+ },
+ {
+  "id": "robohash",
+  "class": "not-data",
+  "reason": "Mock/fake test-data generator or utility",
+  "confidence": "medium"
+ },
+ {
+  "id": "short-id",
+  "class": "not-data",
+  "reason": "Mock/fake test-data generator or utility",
+  "confidence": "medium"
+ },
+ {
+  "id": "softwium",
+  "class": "not-data",
+  "reason": "Mock/fake test-data generator or utility",
+  "confidence": "medium"
+ },
+ {
+  "id": "supercrontab-mock-endpoints",
+  "class": "not-data",
+  "reason": "Mock/fake test-data generator or utility",
+  "confidence": "medium"
+ },
+ {
+  "id": "testingapis",
+  "class": "not-data",
+  "reason": "Mock/fake test-data generator or utility",
+  "confidence": "medium"
+ },
+ {
+  "id": "this-person-does-not-exist",
+  "class": "not-data",
+  "reason": "Mock/fake test-data generator or utility",
+  "confidence": "medium"
+ },
+ {
+  "id": "totalshiftleft-sandbox",
+  "class": "not-data",
+  "reason": "Mock/fake test-data generator or utility",
+  "confidence": "medium"
+ },
+ {
+  "id": "ui-names",
+  "class": "not-data",
+  "reason": "Mock/fake test-data generator or utility",
+  "confidence": "medium"
+ },
+ {
+  "id": "uuid-generator",
+  "class": "not-data",
+  "reason": "Mock/fake test-data generator or utility",
+  "confidence": "medium"
+ },
+ {
+  "id": "waldrand-avatar",
+  "class": "not-data",
+  "reason": "Mock/fake test-data generator or utility",
+  "confidence": "medium"
+ },
+ {
+  "id": "what-the-commit",
+  "class": "data",
+  "reason": "Corpus of commit-message text; uncertain",
+  "confidence": "low"
+ },
+ {
+  "id": "yes-no",
+  "class": "data",
+  "reason": "Serves GIF media responses; uncertain",
+  "confidence": "low"
+ }
+]

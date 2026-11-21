@@ -15,11 +15,45 @@ sources:
 link_status: alive
 data_license: unknown
 commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
+storage_caching: limited
+redistribution_display: 'no'
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
+verdict: red
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://mobileapi.dev/legal/terms-of-service/
+rate_limits: 'Free: 50 requests/month, 5/min'
+notes: Read MobileAPI Terms of Service. Licence is limited to displaying/using Content "within your own
+  application or internal workflow", but section 4 forbids publishing/syndicating Content (incl. images)
+  on public websites without written permission, mirroring, and retaining content beyond what is strictly
+  necessary (expanded caching needs a written addendum). The two clauses are in tension for a public site,
+  hence ambiguous; leaning restrictive. No explicit commercial-use statement, so commercial_use unknown.
+  Device images/specs may carry third-party rights.
+evidence:
+- field: storage_caching
+  url: https://mobileapi.dev/legal/terms-of-service/
+  quote: store, cache, archive, or retain Content except as strictly necessary for your permitted use
+    case; and in all cases
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://mobileapi.dev/legal/terms-of-service/
+  quote: display or use that Content within your own application or internal workflow as permitted by
+    these Terms and your subscription plan
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://mobileapi.dev/legal/terms-of-service/
+  quote: publish, distribute, or syndicate Content (including images) on public websites, marketplaces,
+    or content platforms unless explicitly permitted in writing
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://mobileapi.dev/docs/
+  quote: Free 50 requests/month 5 requests/minute
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Terms explicitly ban publishing content on public websites; Display licence limited
+  to own application or internal workflow; Caching limited to strictly necessary | applied: redistribution_display=no'

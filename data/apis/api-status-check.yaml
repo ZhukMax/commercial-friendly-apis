@@ -17,9 +17,25 @@ data_license: unknown
 commercial_use: unknown
 storage_caching: unknown
 redistribution_display: unknown
-attribution_required: unknown
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://apistatuscheck.com/terms
+rate_limits: 60 requests/hour no key or free plan; Pro 600/h; Team 3,000/h
+notes: 'Pages read: /terms (Bity LLC), /privacy, /docs. Terms cover the public API but say nothing on commercial use, caching or display beyond: do not scrape at high volume or bypass rate limits, and do
+  not present the data as your own monitoring without attribution. Status data is a repeat of what vendors publish on their own status pages (third-party facts). Commercial use, storage, display remain
+  unknown; verdict unknown.'
+evidence:
+- field: attribution_required
+  url: https://apistatuscheck.com/terms
+  quote: Do not present our data as your own monitoring without attribution.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://apistatuscheck.com/docs
+  quote: No key, or free plan — 60 requests/hour
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

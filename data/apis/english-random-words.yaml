@@ -13,13 +13,41 @@ sources:
   url: https://random-words-api.vercel.app/word
   category: Test Data
 link_status: alive
-data_license: unknown
-commercial_use: unknown
+data_license: MIT (source code repository; licence of the word/definition data not stated)
+commercial_use: ambiguous
 storage_caching: unknown
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
-self_host_option: unknown
-verdict: unknown
+self_host_option: 'yes'
+verdict: yellow
 confidence: low
 link_checked_at: '2026-11-21'
+data_license_url: https://raw.githubusercontent.com/mcnaveen/Random-Words-API/main/LICENSE
+notes: The API host has no terms page; its Swagger UI page lists the source code repo github.com/mcnaveen/random-words-api
+  (contact "Source Code") and the repo is MIT licensed (read LICENSE and README on GitHub, MIT, copyright
+  2021 MC Naveen). MIT covers the software and bundled files, but the origin of the words, definitions
+  and pronunciations (data folder) is not stated anywhere I read, so commercial use of the data is ambiguous.
+  Self-hosting is possible from the MIT repo. No storage/caching or attribution statement for the hosted
+  API; the README only mentions a configurable rate limit.
+evidence:
+- field: data_license
+  url: https://raw.githubusercontent.com/mcnaveen/Random-Words-API/main/LICENSE
+  quote: Permission is hereby granted, free of charge, to any person obtaining a copy of this software
+    and associated documentation files
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://raw.githubusercontent.com/mcnaveen/Random-Words-API/main/LICENSE
+  quote: Permission is hereby granted, free of charge, to any person obtaining a copy of this software
+    and associated documentation files
+  checked_at: '2026-11-21'
+- field: self_host_option
+  url: https://raw.githubusercontent.com/mcnaveen/Random-Words-API/main/LICENSE
+  quote: to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Endpoint returns 200 and JSON. MIT covers code only. Sample definitions read like Webster
+  1913 text (likely public domain) but no source is stated, so cannot be confirmed. Yellow/ambiguous stands.

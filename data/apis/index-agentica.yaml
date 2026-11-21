@@ -24,3 +24,16 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+rate_limits: 'REST mirror mcp.indexagentica.com: 120 requests/min per IP; static site has no rate-limited
+  backend'
+notes: Read /agents/ page ("For agents"). It says the static directory is free to crawl and that crawling
+  is welcome, but it states no data licence, commercial-use, storage or attribution terms; /terms returns
+  404. Per-entry records carry their own license field (listed tools), not a licence for the directory
+  itself. Core fields unknown.
+evidence:
+- field: rate_limits
+  url: https://indexagentica.com/agents/
+  quote: 'the server is rate limited: 120 requests per minute per IP'
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

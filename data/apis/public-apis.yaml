@@ -12,7 +12,7 @@ sources:
   name: Public APIs
   url: https://github.com/davemachado/public-api
   category: Development
-link_status: alive
+link_status: dead
 data_license: unknown
 commercial_use: unknown
 storage_caching: unknown
@@ -21,5 +21,10 @@ attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+link_note: Hosted API api.publicapis.org no longer resolves (DNS failure); GitHub repo davemachado/public-api still exists
+notes: api.publicapis.org does not resolve (checked with curl 2026-11-21), so the hosted service appears shut down. The repo is Apache-2.0 (code) and the dataset derives from the public-apis list (MIT);
+  no API terms exist. Terms left unknown.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

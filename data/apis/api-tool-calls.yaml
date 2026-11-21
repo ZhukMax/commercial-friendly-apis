@@ -23,3 +23,10 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://apitoolcalls.com/terms.html
+applicable: false
+not_applicable_reason: A catalogue of ~94 utility tools (QR, PDF, SEO checks, cost planners) served over MCP/HTTP, not a public data source.
+notes: 'Pages read: /api/, /terms.html, /privacy.html. Terms (Cowerx) are minimal: as-is, fair use with daily allowance, results information only; nothing on commercial use, caching, display or data licence,
+  so all stay unknown. The only data-like tools (e.g. product recalls) rely on third-party government sources not assessed here.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

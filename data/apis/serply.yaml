@@ -14,12 +14,30 @@ sources:
   category: Development
 link_status: alive
 data_license: unknown
-commercial_use: unknown
+commercial_use: ambiguous
 storage_caching: unknown
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
+verdict: yellow
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://serply.io/terms
+notes: Read https://serply.io/terms (generic website Terms and Conditions v1.0, 23k chars). The licence
+  clause grants access to the "Site" for personal, noncommercial use only and forbids commercially exploiting
+  the Site or its displayed content, but the terms never mention the API, API results, storage or display,
+  and Serply is sold as a paid API; so the clause is ambiguous for an API customer. No data licence, caching
+  or attribution clauses. Results are scraped third-party search content.
+evidence:
+- field: commercial_use
+  url: https://serply.io/terms
+  quote: Company grants you a non-transferable, non-exclusive, revocable, limited license to use and access
+    the Site solely for your own personal, noncommercial use.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read: terms cover the Site, never mention API or results; no API terms page found.
+  Ambiguity unresolved; scraped Google results carry upstream risk. Yellow with low confidence stands.'

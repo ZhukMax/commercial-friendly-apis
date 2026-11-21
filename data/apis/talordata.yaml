@@ -23,3 +23,9 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://www.talordata.com/terms-of-service
+notes: Read Terms of Service, Data Agreement, Compliance Statement (all effective 2026-07-28). They cover accounts, fees, prohibited activities (e.g. non-public data, SEO manipulation) and user-data privacy;
+  nothing on commercial use, caching, display or licence of the returned SERP data. The data is scraped search-engine results, so the search engines rights are not addressed. All core fields unknown. API
+  key required (500 free responses after signup per site banner).
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

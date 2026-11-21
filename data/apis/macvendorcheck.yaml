@@ -13,13 +13,43 @@ sources:
   url: https://macvendorcheck.com/mac-address-lookup-api
   category: Development
 link_status: alive
-data_license: unknown
-commercial_use: unknown
+data_license: IEEE public OUI registries (used under IEEE terms of use for public listings, per site)
+commercial_use: paid-only
 storage_caching: unknown
 redistribution_display: unknown
-attribution_required: unknown
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://macvendorcheck.com/terms
+commercial_use_scope: paid
+attribution_text: Keep the attribution link when displaying results publicly
+rate_limits: 'Keyless: 100 requests/day and 30/min per IP; free key 5,000 lookups/month'
+notes: Read API page, Terms of Use and About. Free keyless access and the free IPNOVA key are described
+  as "for evaluation and personal use" / "evaluation and small projects"; the paid plans mention a commercial
+  licence (API portal terms at api.ipnova.com not read). Terms ask to cache responses where possible but
+  do not set storage/display rules; no reselling of the free keyless API. Storage and display left unknown.
+evidence:
+- field: commercial_use
+  url: https://macvendorcheck.com/mac-address-lookup-api
+  quote: Paid plans from $19 a month for production volumes, with a commercial licence and a hard cap
+    instead of overage billing.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://macvendorcheck.com/mac-address-lookup-api
+  quote: Without a key this API answers 100 requests a day per IP address, for evaluation and personal
+    use.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://macvendorcheck.com/mac-address-lookup-api
+  quote: Please keep the attribution link if you display results publicly.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://macvendorcheck.com/about
+  quote: The IEEE Registration Authority publishes these registries openly, and we use them under the
+    IEEE's terms of use for the public listings.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

@@ -14,12 +14,48 @@ sources:
   category: Development
 link_status: alive
 data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: green
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://www.seodata.dev/terms
+commercial_use_scope: any
+rate_limits: Anonymous 20 lookups/day per IP; free account 50/day and 500/month; Unlimited $4.99/month
+notes: 'Read https://www.seodata.dev/terms (last updated 16 Oct 2026). One sentence grants use of results
+  in own products, reports, content and datasets, including commercially; I read it as covering storage
+  and display, but it is not an explicit caching clause. Restrictions: do not resell raw API access as
+  a competing keyword-data service, no scraping the website at volume. The terms say the figures are estimates
+  gathered from third-party sources (upstream source and its rights not named). No attribution clause
+  found, left unknown.'
+evidence:
+- field: commercial_use
+  url: https://www.seodata.dev/terms
+  quote: You can use the results in your own products, reports, content and datasets, including commercially.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.seodata.dev/terms
+  quote: You can use the results in your own products, reports, content and datasets, including commercially.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.seodata.dev/terms
+  quote: You can use the results in your own products, reports, content and datasets, including commercially.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://www.seodata.dev/terms
+  quote: 'Without an account: 20 lookups a day per IP address. Free account: 50 lookups a day and 500
+    a month.'
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Doubts: terms say figures are ''estimates gathered from third-party sources'', upstream
+  not named and its licence could be stricter (not demonstrable); very new one-person service, can end
+  service with 30 days notice. Storage is implied by ''datasets'', no explicit caching clause. Anonymous
+  limit is 20 lookups/day per IP, so real use needs a key or Unlimited plan. Keyless API works (docs:
+  api.seodata.'

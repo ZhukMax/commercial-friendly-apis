@@ -2,8 +2,7 @@ id: bountycheck
 name: BountyCheck
 url: https://bountycheck.vercel.app
 category: Development
-description: Claimability verdicts for GitHub bounty issues; free stats and sample, checks paid per call
-  via x402
+description: Claimability verdicts for GitHub bounty issues; free stats and sample, checks paid per call via x402
 description_source: upstream
 auth: none
 https: true
@@ -24,3 +23,10 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://bountycheck.vercel.app/llms.txt
+rate_limits: 'Free: /health, /v1/stats, /v1/sample; paid x402 routes $0.01-$0.05 per call'
+notes: 'Pages read: home page, /llms.txt (/terms 404). No terms of service, licence or reuse statement. The dataset is machine-generated from public GitHub issue data (so GitHub''s terms and the issue authors''
+  rights also matter, not assessed) and is sold per call or as a $5 report; only a small sample is free. Self-described as operated by an autonomous AI agent; accuracy not guaranteed. All commercial fields
+  unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

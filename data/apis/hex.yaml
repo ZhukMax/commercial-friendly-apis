@@ -23,3 +23,15 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://hex.pm/policies/termsofservice
+rate_limits: No numeric limit published; abuse or excessively frequent API access may lead to suspension
+evidence:
+- field: rate_limits
+  url: https://hex.pm/policies/termsofservice
+  quote: Abuse or excessively frequent access to the Services through the API may result in temporary or permanent suspension of access to the API.
+  checked_at: '2026-11-21'
+notes: Read hex.pm Terms of Service (section 4 API Terms) and the Hex specifications repo page. Terms bind API use but say nothing on commercial use, caching, mirroring or display of package metadata; scraping
+  beyond published interfaces needs consent (robots.txt-respecting crawling allowed). Package metadata and docs are user content under each package licence. All core fields unknown. The listed URL is the
+  GitHub specs repo, not an API terms page.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

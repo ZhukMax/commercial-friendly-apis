@@ -24,3 +24,16 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://prismix.dev/terms
+rate_limits: 60 requests/hour anonymous, 600/hour Pro
+notes: Read Prismix Terms of Service (18 May 2026). Public status API is open to anonymous use at 60 req/hour;
+  terms forbid reselling the service or scraping its data wholesale without a written agreement. No explicit
+  statement on commercial use, caching, display or attribution. Status data is sourced from each provider's
+  public status feed or HTTP probes (upstream terms not assessed). Core fields unknown.
+evidence:
+- field: rate_limits
+  url: https://prismix.dev/terms
+  quote: 60 / hour anonymous, 600 / hour Pro
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

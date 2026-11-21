@@ -13,13 +13,26 @@ sources:
   url: https://githubtrends.app/api/
   category: Development
 link_status: alive
-data_license: unknown
+data_license: Open data (licence not specified), attribution appreciated
 commercial_use: unknown
 storage_caching: unknown
 redistribution_display: unknown
-attribution_required: unknown
+attribution_required: 'no'
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+evidence:
+- field: attribution_required
+  url: https://githubtrends.app/api/
+  quote: Attribution appreciated but not required.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://githubtrends.app/api/openapi.json
+  quote: Open data — attribution appreciated
+  checked_at: '2026-11-21'
+notes: 'Read the API page and openapi.json: free static JSON, no key, no rate limit, CORS open; "Cite it, build on it, or just explore". No terms page (/terms is 404) and no explicit statement on commercial
+  use, storage or display. Data combine YouTube-verified video metadata and GitHub API star snapshots (third-party terms not assessed). Core fields other than attribution left unknown.'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

@@ -24,3 +24,6 @@ verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
 link_note: -> https://developer.atlassian.com/cloud/bitbucket/?utm_source=%2Fbitbucket%2Fapi%2F2%2Freference%2F&utm_medium=302
+applicable: false
+not_applicable_reason: 'Triage by name and description only (terms not read): not a data source. Git hosting
+  platform API'

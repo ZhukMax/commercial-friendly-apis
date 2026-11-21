@@ -12,7 +12,7 @@ sources:
   name: PageCDN
   url: https://pagecdn.com/docs/public-api
   category: Development
-link_status: alive
+link_status: dead
 data_license: unknown
 commercial_use: unknown
 storage_caching: unknown
@@ -23,3 +23,8 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+link_note: pagecdn.com now redirects to a domain-for-sale landing page (pagecdn.com/lander) on 2026-11-21
+notes: Browser load of pagecdn.com/docs/public-api and /terms landed on https://pagecdn.com/lander ("The
+  domain pagecdn.com is for sale"); curl returned an empty shell. Service appears gone; terms unknown.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

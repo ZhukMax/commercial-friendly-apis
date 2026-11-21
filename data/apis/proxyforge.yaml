@@ -22,5 +22,15 @@ attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Desktop application (Windows/macOS) that scrapes and tests proxies locally; the
+  only server output is a curated source ranking file for the app, there is no public data API and no
+  data terms.
+notes: Read https://proxyforge.dev homepage, /privacy.html, /guide.html, /support.html. ProxyForge is
+  a downloadable tool (Free preview of 30 proxies, Pro $29 one-time in crypto). The shared curated.json
+  is described as a read-only file consumed by the app. No terms of service or data licence page exists
+  (/terms returned 404). Terms fields left unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

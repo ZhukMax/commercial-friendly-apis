@@ -27,3 +27,15 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+rate_limits: No rate limit published; contact jsDelivr before sustained 100+ requests per minute
+api_terms_url: https://www.jsdelivr.com/terms/terms-of-use
+evidence:
+- field: rate_limits
+  url: https://github.com/jsdelivr/data.jsdelivr.com
+  quote: The API is free to use and imposes no rate limits.
+  checked_at: '2026-11-21'
+notes: Read the data.jsdelivr.com README (API free, asks for contact above 100 RPM) and jsDelivr Terms of Use (JS-rendered; read via Playwright in a fresh page). The Terms say using the jsDelivr CDN is
+  free for personal and commercial use, but that statement is about the CDN, not explicitly the metadata/stats API, so commercial_use stays unknown. Package metadata belong to upstream npm/GitHub packages
+  with their own licences. Repo code is under OSL-3.0 (code, not data).
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

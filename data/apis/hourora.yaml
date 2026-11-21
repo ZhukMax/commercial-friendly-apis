@@ -15,12 +15,50 @@ sources:
   category: Development
 link_status: alive
 data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'no'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: green
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://hourora.app/en/developers
+commercial_use_scope: any
+attribution_text: 'Optional: a link to hourora.app near where the data appears'
+rate_limits: 120 requests per minute per client
+evidence:
+- field: commercial_use
+  url: https://hourora.app/en/developers
+  quote: Free for personal and commercial use.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://hourora.app/en/developers
+  quote: 'Attribution is appreciated, not required: a link to hourora.app near where the data appears.'
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://hourora.app/en/developers
+  quote: Please stay within the rate limit and cache responses.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://hourora.app/en/developers
+  quote: 'Attribution is appreciated, not required: a link to hourora.app near where the data appears.'
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://hourora.app/en/developers
+  quote: Each client may send up to 120 requests per minute, with short bursts allowed.
+  checked_at: '2026-11-21'
+notes: Read the Developer API page (Terms of use block, limits and caching, FAQ). Free for personal and
+  commercial use, no key. Display is implied by the optional-attribution line, and caching is encouraged
+  within the Cache-Control headers returned. Data follow IANA tzdata compiled by Hourora; tzdata licence
+  not checked, so data_license unknown. Provided as is with no SLA. Single-page terms, no separate ToS
+  clause beyond this block (site /en/terms covers the website).
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'First pass left data_license unknown; /en/terms resolves it to public domain (tzdata,
+  Natural Earth). Minor doubts: one-person service, as-is with no SLA; website terms ask not to overload
+  /api with automated requests (API page allows 120 req/min); do not present Hourora''s pages as your
+  own. Not safe for safety-critical use.'

@@ -4,7 +4,7 @@ url: https://ipinfo.io/developers
 category: Development
 description: Another simple IP Address API
 description_source: upstream
-auth: none
+auth: apiKey
 https: true
 cors: unknown
 sources:
@@ -18,12 +18,41 @@ sources:
   category: Development
 link_status: alive
 data_license: unknown
-commercial_use: unknown
+commercial_use: ambiguous
 storage_caching: unknown
-redistribution_display: unknown
+redistribution_display: ambiguous
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://ipinfo.io/terms-of-service
+rate_limits: 'IPinfo Lite: no request quota; paid plans have monthly request limits'
+notes: 'Read IPinfo Terms of Service (updated June 2024, read via browser as page is JS-rendered) and
+  /developers. The ToS governs the Site and its Content: internal business use allowed, selling/reselling
+  prohibited, and use for external commercial purposes needs a separate OEM agreement - so showing the
+  data on a public ad-supported site is unclear/likely needs a deal. The ToS says a separate data-services
+  agreement overrides it. The developer docs now require an access token (auth fixed from none to apiKey).
+  Licence of the free IPinfo Lite data and per-plan data terms were not read. Storage/caching and attribution
+  not addressed on pages read.'
+evidence:
+- field: commercial_use
+  url: https://ipinfo.io/terms-of-service
+  quote: You can use content obtained from the Site for your internal business purposes.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://ipinfo.io/terms-of-service
+  quote: For access and use of content for external commercial purposes, please contact support@ipinfo.io.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://ipinfo.io/developers
+  quote: IPinfo Lite offers unlimited access to our API.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read via Playwright: internal business use allowed, resale prohibited, ''external
+  commercial purposes'' need OEM paperwork. A public ad-supported site likely falls there; leans restrictive.
+  Free IPinfo Lite licence not read.'

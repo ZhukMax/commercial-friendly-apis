@@ -24,3 +24,15 @@ verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
 link_note: -> https://agentdeals.dev/api/docs
+api_terms_url: https://agentdeals.dev/developers
+rate_limits: None on read endpoints (per developers page)
+notes: Read /developers, /privacy, /openapi.json. No terms of service or data licence page exists (/license, /terms 404/not found). The OpenAPI document's info.license names MIT but it is ambiguous whether
+  this covers the data or only the spec, so data_license stays unknown. The dataset is an aggregation of third-party vendor pricing pages. Marketing text says the API is free, open and keyless, which is
+  not a licence grant for commercial storage or display. Redirect /api -> /api/docs.
+evidence:
+- field: rate_limits
+  url: https://agentdeals.dev/developers
+  quote: No API key, no signup, and no rate limits on the read endpoints.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

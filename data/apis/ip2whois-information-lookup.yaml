@@ -19,7 +19,7 @@ sources:
 link_status: alive
 data_license: unknown
 commercial_use: unknown
-storage_caching: unknown
+storage_caching: limited
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
@@ -27,3 +27,31 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://www.ip2location.io/terms-of-service
+cache_limit: 30 days from original query, then purge/refresh
+rate_limits: 'Free API: 500 WHOIS domain lookups per month'
+notes: ip2whois.com says to sign up for the free API at ip2location.io; the only applicable terms found
+  are the IP2Location.io Web API Terms of Service (Hexasoft), whose definition of "Data" speaks of IP
+  geolocation/proxy/threat data, so applicability to WHOIS responses is assumed, not confirmed. Grant
+  is for "internal business operations or integration into Customer's software applications"; no explicit
+  commercial-use, public-display or attribution statement, so those stay unknown. Bans reselling raw responses
+  as a standalone service and building a competing database. Underlying WHOIS record data is registrant/registry
+  data with its own rights (not assessed). The IP2Location downloadable-database licence (ip2location.com/terms)
+  is a different product and was not applied.
+evidence:
+- field: storage_caching
+  url: https://www.ip2location.io/terms-of-service
+  quote: Customer is permitted to cache API response Data locally within its application architecture
+    strictly to optimize query efficiency and lower latency.
+  checked_at: '2026-11-21'
+- field: cache_limit
+  url: https://www.ip2location.io/terms-of-service
+  quote: Cached Data must not be retained for more than thirty (30) consecutive calendar days from the
+    original query timestamp.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://www.ip2whois.com/developers-api
+  quote: IP2WHOIS Free API allows you to query up to 500 WHOIS domain name per month
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

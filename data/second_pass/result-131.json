@@ -1,0 +1,242 @@
+[
+ {
+  "id": "abstract-api",
+  "outcome": "confirmed",
+  "reasons": [
+   "Only generic site ToS; no API licence terms found"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read /legal/legal: only site Terms (bans reselling Content, no API clause); /data-attribution 404. Pricing page lists a Commercial license row for paid tiers. Unknown stands; ambiguity unresolved, leaning restrictive for bulk-published results."
+ },
+ {
+  "id": "agent-nexus",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToS bans redistributing data feeds; llms.txt invites mirroring"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "ToS s5 (re-read, BrainPath.io, 16 Sep 2026) forbids reselling or redistributing the Service or its data feeds; llms.txt only 'welcomes' mirroring with citation. Binding ToS outweighs it, so evidence leans restrictive. Entry is a registry of third-party APIs, each with own terms."
+ },
+ {
+  "id": "amazonscraperapi",
+  "outcome": "confirmed",
+  "reasons": [
+   "Provider ToS silent; upstream Amazon terms unread (403)"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "ToS re-read: data remains customer property but customer must comply with source ToS; bans reselling the Service. Amazon Conditions of Use returned 403 to curl, so upstream could not be checked; scraped Amazon content is a likely blocker for a public site. Yellow/ambiguous stands."
+ },
+ {
+  "id": "apifreaks",
+  "outcome": "confirmed",
+  "reasons": [
+   "Standard licence: display only to individual end users, no storage"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read via Playwright. Commercial/storage/redistribution only through enterprise agreement; paid-only yellow stands."
+ },
+ {
+  "id": "apis-guru",
+  "outcome": "confirmed",
+  "reasons": [
+   "Mixed CC0 / fair-use licensing stands"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "README re-read: contributed definitions CC0, others 'acquired from public sources under the Fair use principle'; no per-spec flag. Yellow stands."
+ },
+ {
+  "id": "appgoat",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms ban reselling raw data; nothing on display"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read via Playwright (curl empty). Store data from public App Store/Google Play listings, 'as is'. Unknown stands."
+ },
+ {
+  "id": "clair",
+  "outcome": "confirmed",
+  "reasons": [
+   "Own-product use allowed; upstream rights not granted"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read: results usable in own products, no competing feed/dataset resale; Clair grants no rights in scraped source material. Yellow/ambiguous stands."
+ },
+ {
+  "id": "digmyname",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms minimal; no commercial clause; link-back requested"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read /api, /terms: availability/prices as-is from third-party sources, buy links without affiliate tag. Page shows project listed for sale (stability risk). Unknown stands."
+ },
+ {
+  "id": "domaindb-info",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms generic; derivative-works and scrape bans"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read via Playwright (updated 11/21/2026): bans reselling API access, competing service, 'Scrape or extract data beyond API usage', derivative works. No commercial/caching clause. Unknown stands; leaning restrictive."
+ },
+ {
+  "id": "english-random-words",
+  "outcome": "confirmed",
+  "reasons": [
+   "API live; data origin still unstated"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Endpoint returns 200 and JSON. MIT covers code only. Sample definitions read like Webster 1913 text (likely public domain) but no source is stated, so cannot be confirmed. Yellow/ambiguous stands."
+ },
+ {
+  "id": "github",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToS has no commercial ban; content is per-repo licensed"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Same ToS and AUP as github-developer; no blocker for metadata, but spam/recruiter-data bans and per-repo content licences apply. Duplicate of github-developer (same API). Yellow stands."
+ },
+ {
+  "id": "github-developer",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToS has no commercial ban; content is per-repo licensed"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Same ToS/AUP re-checked; AUP bans reselling/exploiting the Service. Duplicate of github entry. Yellow stands."
+ },
+ {
+  "id": "google-fonts",
+  "outcome": "confirmed",
+  "reasons": [
+   "Google APIs ToS 5e limits are 'unless content owner permits'"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Fonts API ToS (modified 9 Nov 2021) just defers to Google APIs ToS. Font files are OFL/Apache so owner permission exists for the fonts themselves; evidence leans yes for font files, ambiguous only for API metadata. Yellow stands."
+ },
+ {
+  "id": "ipapi-is",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToS: internal use only, free tier included"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read s1.2/2.2 (3 Oct 2026): API data licensed 'for your own internal use only', free tier included; product for third parties prohibited with contractual penalty. Red stands."
+ },
+ {
+  "id": "ipinfo",
+  "outcome": "confirmed",
+  "reasons": [
+   "External commercial use needs separate OEM agreement"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read via Playwright: internal business use allowed, resale prohibited, 'external commercial purposes' need OEM paperwork. A public ad-supported site likely falls there; leans restrictive. Free IPinfo Lite licence not read."
+ },
+ {
+  "id": "keirolabs",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms ban resale of raw access; display not addressed"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read via Playwright (effective 14 Nov 2026): results from third parties, not stored. Unknown stands."
+ },
+ {
+  "id": "mobileapi",
+  "outcome": "disputed",
+  "reasons": [
+   "Terms explicitly ban publishing content on public websites",
+   "Display licence limited to own application or internal workflow",
+   "Caching limited to strictly necessary"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://mobileapi.dev/legal/terms-of-service/",
+    "quote": "publish, distribute, or syndicate Content (including images) on public websites, marketplaces, or content platforms unless explicitly permitted in writing",
+    "field": "redistribution_display"
+   }
+  ],
+  "suggested": {
+   "redistribution_display": "no"
+  },
+  "note": "Ambiguity resolved: the specific public-website prohibition overrides the generic 'display within your application' grant; bulk-published pages would breach it. Expanded caching needs a written addendum. Would give red."
+ },
+ {
+  "id": "npm-registry",
+  "outcome": "confirmed",
+  "reasons": [
+   "Replication allowed; security data internal-only"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Open Source Terms re-read: commercial use and replication via Public APIs allowed; vulnerability/audit data personal or internal only; package metadata per-publisher licence. Yellow stands."
+ },
+ {
+  "id": "openapps",
+  "outcome": "confirmed",
+  "reasons": [
+   "AUP: credit required; >1,000 rows or feed needs licence"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "AUP s4 re-read (22 Oct 2026): quoting/charting with credit fine; whole chart, feed, raw API output or >1,000 rows needs written licence; no competing database. Leans allowed only for small cited excerpts, not bulk pages. Unknown stands."
+ },
+ {
+  "id": "serpkite",
+  "outcome": "confirmed",
+  "reasons": [
+   "Own-product use fine; public bulk datasets banned"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Terms/AUP re-read: AUP bans republishing copyrighted content and public search engine/bulk dataset substitute; storage/publishing responsibility on user. Yellow stands (commercial yes; storage/display ambiguous)."
+ },
+ {
+  "id": "serply",
+  "outcome": "confirmed",
+  "reasons": [
+   "Only generic site ToS (2022), personal non-commercial site licence"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read: terms cover the Site, never mention API or results; no API terms page found. Ambiguity unresolved; scraped Google results carry upstream risk. Yellow with low confidence stands."
+ },
+ {
+  "id": "serpstack",
+  "outcome": "confirmed",
+  "reasons": [
+   "Display only to end users for personal reference; no public posting"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read: display allowed to end users for personal use, no transfer outside the application, no posting in any public forum including the internet. Apilayer template (same as apifreaks). Leans restrictive for bulk-published pages; ambiguous stands."
+ },
+ {
+  "id": "what-the-commit",
+  "outcome": "confirmed",
+  "reasons": [
+   "Service alive; no terms for message list"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "index.txt returns 200. MIT covers code; messages are community contributed with no licence stated. Yellow/ambiguous stands."
+ }
+]

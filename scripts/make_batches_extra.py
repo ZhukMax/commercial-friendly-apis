@@ -10,7 +10,7 @@ USEFUL = sys.argv[1].split("|") if len(sys.argv) > 1 else ["Cryptocurrency", "Cu
 SIZE = 25
 E = [yaml.safe_load(open(f)) for f in glob.glob(str(ROOT / "data/apis/*.yaml"))]
 queued = {l.strip() for f in glob.glob(str(ROOT / "data/batches/batch-*.txt")) for l in open(f)}
-elig = [e for e in E if e["category"] in USEFUL and e.get("link_status") != "dead" and not e.get("checked_at") and e["id"] not in queued]
+elig = [e for e in E if e["category"] in USEFUL and e.get("link_status") != "dead" and not e.get("checked_at") and e.get("applicable") is not False and e["id"] not in queued]
 host = lambda e: (urlsplit(e["url"]).hostname or "").replace("www.", "")
 elig.sort(key=lambda e: (USEFUL.index(e["category"]), host(e), e["name"].lower()))
 start = 1 + max(int(Path(f).stem.split("-")[1]) for f in glob.glob(str(ROOT / "data/batches/batch-*.txt")))

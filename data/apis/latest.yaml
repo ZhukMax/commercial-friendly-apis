@@ -13,13 +13,38 @@ sources:
   url: https://latestat.com/api
   category: Development
 link_status: alive
-data_license: unknown
-commercial_use: unknown
+data_license: free to use (site statement); some dates derived from endoflife.date dataset (MIT)
+commercial_use: 'yes'
 storage_caching: unknown
 redistribution_display: unknown
-attribution_required: unknown
+attribution_required: 'no'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
+verdict: yellow
 confidence: low
 link_checked_at: '2026-11-21'
+data_license_url: https://latestat.com/licenses
+commercial_use_scope: any
+attribution_text: A link back is appreciated (not required)
+rate_limits: Free, no key; please cache responses for at least a few minutes
+notes: 'No formal terms page found (/terms is 404). The only statement is one line in the GitHub README
+  (MaskUp/latestat): data is "free to use; a link back is appreciated". The /api page says free, no key,
+  CORS enabled, please cache responses for at least a few minutes. /licenses reproduces the MIT notice
+  of the endoflife.date dataset that part of the data derives from. Informal, so commercial_use yes is
+  low confidence; storage and display are not explicitly addressed (unknown).'
+evidence:
+- field: commercial_use
+  url: https://raw.githubusercontent.com/MaskUp/latestat/main/README.md
+  quote: The data on latestat.com is free to use; a link back is appreciated.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://raw.githubusercontent.com/MaskUp/latestat/main/README.md
+  quote: The data on latestat.com is free to use; a link back is appreciated.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://latestat.com/licenses
+  quote: Some release and support dates shown on latestat.com are derived from an open-source dataset
+    published under the MIT License.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

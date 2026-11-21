@@ -2,8 +2,7 @@ id: agentpay-domain-lookup
 name: AgentPay Domain Lookup
 url: https://agentpay-lookup.agentpay-apis.workers.dev
 category: Development
-description: DNS records, WHOIS/RDAP, IP ownership and domain reports for AI agents, paid per call via
-  x402
+description: DNS records, WHOIS/RDAP, IP ownership and domain reports for AI agents, paid per call via x402
 description_source: upstream
 auth: none
 https: true
@@ -24,3 +23,10 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://agentpay-lookup.agentpay-apis.workers.dev/llms.txt
+rate_limits: 'Pay per call (x402 USDC): DNS $0.005, WHOIS/IP $0.01, domain report $0.02; free trial credit $0.05'
+notes: 'Pages read: landing page, /llms.txt, /openapi.json, GitHub repo README and LICENSE (MIT, covers the repo code only). No terms of service or data-licence page exists (/terms returns 404). Responses
+  are derived from third-party sources (Cloudflare DNS over HTTPS, registry RDAP servers, IP RDAP), whose own terms (e.g. registry RDAP terms of use, personal-data rules) were not checked. All commercial
+  fields unknown. Paid per call, so no free tier to compare.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

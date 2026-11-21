@@ -23,3 +23,13 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+rate_limits: Rate limit counts requests; POST /check carries up to 10 domains; about 120 requests/minute
+evidence:
+- field: rate_limits
+  url: https://dotsweep.com/docs
+  quote: 120 requests a minute is 1,200 domains a minute.
+  checked_at: '2026-11-21'
+notes: Read the docs/llms reference and the privacy page. No terms of use or licence page exists (/terms is not a terms page; privacy page describes logging only). Docs say no key or account and that answers
+  are cached at the edge; prices come from registrars (Porkbun, Dynadot, Cloudflare, INWX) whose rights are not addressed. No statement on commercial use, storage or display, so all core fields unknown.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

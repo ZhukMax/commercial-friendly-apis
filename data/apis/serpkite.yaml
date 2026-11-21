@@ -15,12 +15,48 @@ sources:
   category: Development
 link_status: alive
 data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
+commercial_use: 'yes'
+storage_caching: ambiguous
+redistribution_display: ambiguous
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://serpkite.com/legal/terms
+commercial_use_scope: any
+notes: 'Read Terms (28 Oct 2026) https://serpkite.com/legal/terms and Acceptable Use Policy https://serpkite.com/legal/acceptable-use.
+  Own products built on results are allowed; resale or raw API access, public SERP-like search engines
+  and bulk substitute datasets are forbidden. Results are third-party search engine content; SerpKite
+  grants no rights in it beyond the law and the user is responsible for storing/publishing it, so storage
+  and display are ambiguous (no express yes). Other AUP bans: people-search, cold outreach lists, republishing
+  copyrighted content. SerpKite states no indemnity for its collection method (see /legal/how-we-collect,
+  not read). Attribution not mentioned: unknown.'
+evidence:
+- field: commercial_use
+  url: https://serpkite.com/legal/acceptable-use
+  quote: Using results inside your own product, where results are part of a larger service you provide,
+    is fine.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://serpkite.com/legal/terms
+  quote: You are responsible for how you use, store and publish results, including any personal data or
+    copyrighted material they contain.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://serpkite.com/legal/acceptable-use
+  quote: Build a public search engine or bulk dataset of results that substitutes for the underlying search
+    engine
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://serpkite.com/legal/terms
+  quote: We don't grant you any rights in that content beyond what the law allows.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Terms/AUP re-read: AUP bans republishing copyrighted content and public search engine/bulk
+  dataset substitute; storage/publishing responsibility on user. Yellow stands (commercial yes; storage/display
+  ambiguous).'

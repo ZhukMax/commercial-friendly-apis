@@ -16,10 +16,22 @@ link_status: alive
 data_license: unknown
 commercial_use: unknown
 storage_caching: unknown
-redistribution_display: unknown
+redistribution_display: 'yes'
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://computecomparison.com/terms
+notes: 'Pages read: /api-docs, /terms, /privacy. The API docs invite embedding live-price widgets into your own website (production use with a free key) which supports displaying the data on your site,
+  but only the widget route is explicitly covered. The Terms of Use are generic site terms (user content licence, content standards) with no clause on API data licence, commercial use, caching or attribution;
+  the commercial and storage fields therefore stay unknown. Data is aggregated from each provider''s public pricing API (third-party facts, per-provider terms not checked). Site carries ads and affiliate
+  links itself (footer).'
+evidence:
+- field: redistribution_display
+  url: https://computecomparison.com/api-docs
+  quote: Copy and paste any widget below directly into your website's HTML.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

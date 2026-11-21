@@ -23,4 +23,9 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
-link_note: HTTP 403 (blocked for bots, assumed alive)
+link_note: ipfind.io/terms returned 403 (Cloudflare bot check) and the home page showed Cloudflare error
+  526 (invalid origin SSL certificate) in a browser on 2026-11-21
+notes: Terms page blocked for curl and for the browser (Cloudflare challenge; home page 526 origin SSL
+  error). Did not try to bypass. All terms unknown; service may be degraded.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

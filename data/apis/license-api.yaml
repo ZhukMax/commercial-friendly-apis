@@ -16,7 +16,7 @@ sources:
   name: License-API
   url: https://github.com/cmccandless/license-api/blob/master/README.md
   category: Development
-link_status: alive
+link_status: dead
 data_license: unknown
 commercial_use: unknown
 storage_caching: unknown
@@ -25,5 +25,10 @@ attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+link_note: Hosted instance https://licenseapi.herokuapp.com returns 404 (Heroku app gone); GitHub repo archived
+notes: Hosted API is gone (licenseapi.herokuapp.com/licenses returns 404) and the repo cmccandless/license-api is archived. Repo code is MIT, which does not state terms for any API data; underlying data
+  are choosealicense.com licence texts (not read). Terms left unknown.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

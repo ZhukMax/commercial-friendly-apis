@@ -14,12 +14,38 @@ sources:
   category: Development
 link_status: alive
 data_license: unknown
-commercial_use: unknown
+commercial_use: 'yes'
 storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+redistribution_display: 'yes'
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://liveordown.com/terms-of-use
+commercial_use_scope: any
+attribution_text: Visible link back to LiveOrDown where the data is shown
+notes: 'Read /developers and Terms of use. Developers page: public endpoints free, no key, only condition
+  is a visible link back where data is shown (commercial use not mentioned separately, inferred from "free
+  to use" with a single condition: medium-low confidence). Terms of use: no bulk copying of site data
+  (use the API), no automated mirroring of pages; status data may be late or wrong. Storage/caching not
+  addressed (responses cached 60 s server-side), so unknown. Upstream official status pages not assessed.'
+evidence:
+- field: commercial_use
+  url: https://liveordown.com/developers
+  quote: Everything below is free to use. The only condition is a visible link back to LiveOrDown where
+    you show the data.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://liveordown.com/developers
+  quote: Everything below is free to use. The only condition is a visible link back to LiveOrDown where
+    you show the data.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://liveordown.com/developers
+  quote: Everything below is free to use. The only condition is a visible link back to LiveOrDown where
+    you show the data.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

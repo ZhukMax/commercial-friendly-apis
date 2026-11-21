@@ -13,13 +13,50 @@ sources:
   url: https://apifreaks.com/docs
   category: Development
 link_status: alive
-data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
+data_license: proprietary (APIFreaks Terms of Service; extended licence via enterprise agreement)
+commercial_use: paid-only
+storage_caching: ambiguous
+redistribution_display: ambiguous
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://apifreaks.com/terms
+commercial_use_scope: paid
+notes: 'Page read: https://apifreaks.com/terms (full ToS). The standard licence only lets you process
+  and display API data to individual end users of your application for their own personal use, with no
+  end-user storing or distribution and no transfer of the data outside your application. Commercial use,
+  storage and redistribution of API data within products are described as an extended Commercial & Distribution
+  License available only under a custom enterprise agreement; hence paid-only (enterprise) and storage/redistribution
+  ambiguous (standard licence silent on own caching but forbids end-user storage). The hub covers many
+  APIs (IP geolocation, WHOIS, DNS, weather, currency, scraping); upstream third-party data licences per
+  API (e.g. IP geolocation databases) were not read.'
+evidence:
+- field: commercial_use
+  url: https://apifreaks.com/terms
+  quote: Extended licensing terms that permit commercial use, storage, and redistribution of API data
+    within your products and services, beyond the standard license scope
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://apifreaks.com/terms
+  quote: you are hereby permitted to receive, process, and display information retrieved from the APIFreaks
+    APIs or database to individual end users of your application(s)
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://apifreaks.com/terms
+  quote: You do not permit your end users to store, distribute, or otherwise exploit the APIFreaks APIs
+    for any other purposes.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://apifreaks.com/terms
+  quote: non-transferable, non-exclusive, revocable, and limited license for the term of this Agreement
+    to access the APIFreaks APIs
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read via Playwright. Commercial/storage/redistribution only through enterprise agreement;
+  paid-only yellow stands.

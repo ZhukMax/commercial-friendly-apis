@@ -13,13 +13,43 @@ sources:
   url: https://www.timezone.io/docs/worldtimeapi
   category: Development
 link_status: alive
-data_license: unknown
-commercial_use: unknown
+data_license: Compilation by timezone.io; underlying open data (IANA tz, GeoNames, OpenStreetMap ODbL)
+  under their own licences
+commercial_use: 'yes'
 storage_caching: unknown
-redistribution_display: unknown
+redistribution_display: 'yes'
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://www.timezone.io/legal/terms
+commercial_use_scope: any
+rate_limits: 60 requests per minute per IP address (no key)
+notes: 'Read Terms of Service https://www.timezone.io/legal/terms (28 Sep 2026; covers the website, boards
+  and API) and the WorldTimeAPI-replacement docs page. Terms allow commercial products and showing results
+  to users of your own products; forbidden: reselling/sharing API access or keys, and a product whose
+  main purpose is bulk republishing of the data (e.g. a mirror). Caching/storage is not addressed (unknown).
+  The service is a replacement for the shut-down worldtimeapi.org; timezone.io states it is not affiliated
+  with it. Underlying data may need attribution under its own licences (OSM ODbL has share-alike), per
+  section 10; not assessed; /api/ip geolocation source unknown.'
+evidence:
+- field: commercial_use
+  url: https://www.timezone.io/legal/terms
+  quote: 'Commercial use: you may use the API in commercial products and services.'
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.timezone.io/legal/terms
+  quote: You may show API results to the users of your own products and services.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.timezone.io/legal/terms
+  quote: Much of the underlying data comes from open sources, such as the IANA Time Zone Database, GeoNames
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://www.timezone.io/docs/worldtimeapi
+  quote: 'Rate limit: 60 requests per minute per IP address.'
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

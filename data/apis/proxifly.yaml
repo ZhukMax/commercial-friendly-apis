@@ -4,7 +4,7 @@ url: https://proxifly.dev
 category: Development
 description: Rotating proxy API that returns tested HTTP, SOCKS4 and SOCKS5 proxies, filterable by country
 description_source: upstream
-auth: none
+auth: apiKey
 https: true
 cors: 'yes'
 sources:
@@ -14,12 +14,28 @@ sources:
   category: Development
 link_status: alive
 data_license: unknown
-commercial_use: unknown
+commercial_use: 'no'
 storage_caching: unknown
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: red
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://proxifly.dev/terms
+commercial_use_scope: any
+notes: Read https://proxifly.dev/terms (generic Proxifly Terms of Service, effective 2017) and the homepage.
+  The terms forbid commercial use (and resale/redistribution) unless written permission is obtained; the
+  page does not distinguish free from paid plans, so no commercial scope is carved out. The terms also
+  say attempting to copy, resell or trade Proxifly resources is prohibited. Homepage code samples use
+  an apiKey, so auth changed from none to apiKey. No separate data licence or caching clause found; those
+  fields stay unknown. Proxy lists are public third-party proxies.
+evidence:
+- field: commercial_use
+  url: https://proxifly.dev/terms
+  quote: You may not use Proxifly for commercial purposes or for the purpose of resale or redistribution,
+    whether or not you charge a fee
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

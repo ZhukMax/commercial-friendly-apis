@@ -17,13 +17,50 @@ sources:
   url: https://api.cdnjs.com/libraries/jquery
   category: Development
 link_status: alive
-data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
+data_license: MIT (cdnjs/packages metadata repository); each hosted library under its own licence
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
 attribution_required: unknown
-bulk_download: unknown
+bulk_download: 'yes'
 self_host_option: unknown
-verdict: unknown
+verdict: yellow
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://cdnjs.com/api
+data_license_url: https://github.com/cdnjs/packages
+commercial_use_scope: any
+share_alike: 'no'
+verdict_override: yellow
+override_reason: No API terms page; MIT is stated for the packages repo that drives the API metadata (mapping inferred) and every library carries its own licence.
+notes: 'Pages read: cdnjs.com/about, /api, cdnjs/cdnjs and cdnjs/packages READMEs. There is no terms-of-service page for the API; the site only links Cloudflare''s privacy policy. The cdnjs.com site says
+  it is a free, open-source CDN; the MIT licence is stated for the cdnjs and cdnjs/packages repositories (the library manifests the API metadata is generated from); that API output equals this repo content
+  is an inference, hence low confidence and yellow override. Each library is released under its own licence (reported in the API''s license field), so a site must check the licence of each library it reuses.
+  Mirrors are explicitly welcomed (read-only R2 credentials on request) so bulk_download yes.'
+evidence:
+- field: data_license
+  url: https://github.com/cdnjs/packages
+  quote: Each library is released under its own license. This cdnjs repository is published under MIT license.
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://cdnjs.com/api
+  quote: If you run a mirror of cdnjs and would like read-only S3 credentials to our Cloudflare R2 bucket for faster syncing
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://raw.githubusercontent.com/cdnjs/packages/master/LICENSE
+  quote: Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://raw.githubusercontent.com/cdnjs/packages/master/LICENSE
+  quote: to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://raw.githubusercontent.com/cdnjs/packages/master/LICENSE
+  quote: to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://raw.githubusercontent.com/cdnjs/packages/master/LICENSE
+  quote: Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

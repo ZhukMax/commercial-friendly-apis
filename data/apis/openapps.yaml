@@ -15,11 +15,47 @@ sources:
 link_status: alive
 data_license: unknown
 commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+storage_caching: limited
+redistribution_display: ambiguous
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://theopenapps.com/legal/acceptable-use
+cache_limit: Reusing a substantial part (whole chart or country grid, a feed, raw API output, more than
+  1,000 rows) needs a written license
+attribution_text: Credit OpenApps when you quote or chart our data.
+rate_limits: 'No key: 1,000 requests/hour per IP (top 200 rows of a list, US only); free key 3,000/hour;
+  Pro 5,000/hour'
+notes: Read API docs https://theopenapps.com/docs/api, Terms https://theopenapps.com/legal/terms (22 Oct
+  2026) and Acceptable Use Policy (section 4 Using our data responsibly). Quoting, charting and building
+  on the data with credit is encouraged; copying data to build a competing database or service, reselling
+  it, and removing credit/dates/labels are banned; substantial reuse needs a written licence. Commercial
+  use is not stated explicitly (unknown). Terms say the data is public app-directory info, with app names,
+  listings and trademarks owned by their owners, and may be incomplete or wrong. No data licence stated.
+evidence:
+- field: storage_caching
+  url: https://theopenapps.com/legal/acceptable-use
+  quote: a feed, raw API output or more than 1,000 rows, needs a written license
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://theopenapps.com/legal/acceptable-use
+  quote: Use OpenApps to research, compare, cite and build on what AI app stores publish.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://theopenapps.com/legal/acceptable-use
+  quote: Credit OpenApps when you quote or chart our data.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://theopenapps.com/docs/api
+  quote: No key is needed for up to 1,000 requests an hour by default per IP address
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'AUP s4 re-read (22 Oct 2026): quoting/charting with credit fine; whole chart, feed,
+  raw API output or >1,000 rows needs written licence; no competing database. Leans allowed only for small
+  cited excerpts, not bulk pages. Unknown stands.'

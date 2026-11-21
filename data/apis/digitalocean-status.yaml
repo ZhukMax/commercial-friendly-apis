@@ -27,3 +27,9 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+notes: 'Read https://status.digitalocean.com/api: it is an Atlassian Statuspage-hosted status site that
+  links only to Google reCAPTCHA terms, Atlassian cloud terms/privacy and DigitalOcean privacy. No page
+  specific to the public status JSON API (licence, commercial use, caching, display, rate limits) was
+  found; DigitalOcean main ToS and the Atlassian Statuspage terms were not read. All core fields unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -14,7 +14,7 @@ First pass found terms; a second, adversarial pass looked for reasons the API ca
 
 ## Disputed by the second check
 
-222 entries.
+223 entries.
 
 ### ⚪ 0x (`0x`)
 - https://docs.0x.org/
@@ -685,6 +685,11 @@ First pass found terms; a second, adversarial pass looked for reasons the API ca
 - https://www.mixcloud.com/developers/
 - Reason: User Agreement covers the API and restricts to personal non-commercial use; No paid or commercial API tier on developer page; Music rights held by labels/publishers
 - Counter-evidence (commercial_use): “not to use the Platform other than for your own personal, private, non-commercial use” — https://www.mixcloud.com/terms/
+
+### 🔴 MobileAPI (`mobileapi`)
+- https://mobileapi.dev/docs/
+- Reason: Terms explicitly ban publishing content on public websites; Display licence limited to own application or internal workflow; Caching limited to strictly necessary
+- Counter-evidence (redistribution_display): “publish, distribute, or syndicate Content (including images) on public websites, marketplaces, or content platforms unless explicitly permitted in writing” — https://mobileapi.dev/legal/terms-of-service/
 
 ### 🟡 MostExpensiveWatches (`mostexpensivewatches`)
 - https://mostexpensivewatches.net/api

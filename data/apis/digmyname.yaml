@@ -16,10 +16,38 @@ link_status: alive
 data_license: unknown
 commercial_use: unknown
 storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+redistribution_display: 'yes'
+attribution_required: ambiguous
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://digmyname.com/terms
+attribution_text: Please link back to digmyname.com when you surface the data to users
+rate_limits: 60 requests per 60 seconds per IP
+notes: 'Pages read: /api, /terms, /privacy, /llms.txt. The API page expects you to surface the data to
+  users and asks (politely, not as a licence condition) for a link back, so display is yes and attribution
+  ambiguous. The Terms of Use are a few sentences: a free tool, prices and availability provided as-is
+  from third-party sources (registrar pricing pages, RDAP/DNS). No clause on commercial use, storage/caching
+  or a data licence, so commercial_use stays unknown (verdict unknown). Underlying registrar price data
+  is third-party and its terms were not checked.'
+evidence:
+- field: redistribution_display
+  url: https://digmyname.com/api
+  quote: Please link back to digmyname.com when you surface the data to users.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://digmyname.com/api
+  quote: Please link back to digmyname.com when you surface the data to users.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://digmyname.com/api
+  quote: 'Rate limit: 60 requests per 60 seconds per IP.'
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read /api, /terms: availability/prices as-is from third-party sources, buy links
+  without affiliate tag. Page shows project listed for sale (stability risk). Unknown stands.'

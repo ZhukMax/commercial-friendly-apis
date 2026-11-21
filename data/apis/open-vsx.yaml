@@ -23,3 +23,10 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://open-vsx.org/terms-of-use
+notes: Read Open VSX website Terms of Use (Eclipse Foundation, 11 Feb 2021, via browser). They state Content
+  comes from third-party publishers under their own licences (including proprietary), and that the Eclipse
+  Foundation grants no licence to Content. No terms for API metadata use, rate limits, caching, mirroring
+  or display; the site menu has a "Commercial usage" item that was not read. Core fields unknown.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

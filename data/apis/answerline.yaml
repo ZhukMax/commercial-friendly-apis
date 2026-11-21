@@ -17,13 +17,40 @@ sources:
   url: https://answerline.dev/docs
   category: Machine Learning
 link_status: alive
-data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
+data_license: proprietary (results usable by customer under the provider Terms, subject to the rights of the underlying engines)
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://answerline.dev/legal/terms/
+commercial_use_scope: any
+share_alike: unknown
+verdict_override: yellow
+override_reason: Provider terms allow commercial use, retention and display, but expressly subject to the rights of the engines (ChatGPT, Google etc.) whose output is relayed, which were not reviewed.
+notes: 'Page read: https://answerline.dev/legal/terms/ (section 9 on results; section 5 acceptable use). Provider grants commercial use, retention and showing results to own customers, but the results are
+  third-party engine output (ChatGPT, Gemini, Perplexity, Google surfaces) and the terms say those services'' own terms may restrict use and the customer is responsible for complying; engines'' terms not
+  read. Raw API access may not be resold. No attribution clause found.'
+evidence:
+- field: commercial_use
+  url: https://answerline.dev/legal/terms/
+  quote: you may use the results we return for your internal or commercial purposes, subject to section 5 and the rights of the engines
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://answerline.dev/legal/terms/
+  quote: that includes keeping them for as long as you choose, building your own analytics on them
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://answerline.dev/legal/terms/
+  quote: showing or exporting them to your own customers in your products and reports
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://answerline.dev/legal/terms/
+  quote: Third-party services' own terms may restrict what their content may be used for; complying with those terms is your responsibility.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

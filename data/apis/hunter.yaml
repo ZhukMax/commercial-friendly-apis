@@ -23,3 +23,11 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://hunter.io/terms-of-service
+notes: 'Read Hunter Terms of Service (hunter.io/terms-of-service) and API docs. Terms are a generic website/service
+  agreement: no statement on commercial use of returned data, storage/caching, display or attribution,
+  so all core fields stay unknown. Only relevant restriction: no building a similar or competitive service
+  without consent. Account-scoped email-finder (API key, usage quotas per plan); returned data is personal
+  data (privacy policy / DPA apply).'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

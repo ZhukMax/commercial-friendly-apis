@@ -18,12 +18,48 @@ sources:
   category: Development
 link_status: alive
 data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: green
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://nationalize.io/terms
+commercial_use_scope: any
+rate_limits: 'Free key: 1,000 names/month'
+notes: Read Demografix Terms of Service (7 Apr 2026; covers genderize.io, agify.io, nationalize.io). Any
+  lawful commercial use allowed; caching allowed with no time limit; predictions may be incorporated into
+  own products but not resold as a standalone dataset, and no competing service. Attribution not mentioned
+  (unknown). Predictions are statistical estimates and must not be presented as facts about individuals
+  or used for discrimination. Terms speak of subscription tiers including a free tier; the keyless/unauthenticated
+  access that auth=none reflects is not described on the pages read (docs now push free API key), so auth
+  may be stale.
+evidence:
+- field: commercial_use
+  url: https://nationalize.io/terms
+  quote: You may use the Services for any lawful commercial or non-commercial purpose
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://nationalize.io/terms
+  quote: You may cache API responses locally. This is encouraged where it reduces redundant requests for
+    the same input.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://nationalize.io/terms
+  quote: You may, however, incorporate predictions into your own products, services, reports, and research.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://nationalize.io
+  quote: Register for a free account to get an API key with 1,000 names/month
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Doubts as for genderize/agify: standalone-dataset resale ban for bulk name->nationality
+  pages; predictions must not be used for discrimination or shown as facts about individuals (nationality
+  predictions are sensitive); upstream data origin ''publicly available sources''. Docs push a free key
+  but keyless still answers.'

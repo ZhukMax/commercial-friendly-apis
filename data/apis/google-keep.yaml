@@ -24,3 +24,6 @@ verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
 link_note: -> https://developers.google.com/workspace/keep/api/reference/rest
+applicable: false
+not_applicable_reason: 'Triage by name and description only (terms not read): not a data source. Developer
+  tool, utility or account-scoped service'

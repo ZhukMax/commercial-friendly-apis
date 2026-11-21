@@ -12,15 +12,65 @@ sources:
   name: GitHub
   url: https://developer.github.com/v3/
   category: Development
+- list: public-apis
+  name: GitHub
+  url: https://docs.github.com/en/free-pro-team@latest/rest
+  category: Development
 link_status: redirect
-data_license: unknown
-commercial_use: unknown
+data_license: 'none uniform: content owned by its authors, each repository under its own licence'
+commercial_use: ambiguous
 storage_caching: unknown
-redistribution_display: unknown
+redistribution_display: ambiguous
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
 link_note: -> https://docs.github.com/en/rest
+api_terms_url: https://docs.github.com/en/site-policy/github-terms/github-terms-of-service
+commercial_use_scope: any
+rate_limits: 60 requests/hour unauthenticated; 5,000/hour authenticated user
+notes: 'Pages read: GitHub Terms of Service (Section H API Terms, D User-Generated Content), Acceptable
+  Use Policies (section 6 services usage limits, 7 information usage restrictions), REST rate-limit docs.
+  The API has no general commercial-use ban, but Section H says all API use is subject to the ToS, bars
+  using data for spamming or selling users'' personal information, and says subscription access is for
+  uses that would result in resale of the service. The AUP forbids reselling or exploiting the Service
+  without written permission. API output is mostly user content owned by individual authors under their
+  own repository licences (e.g. MIT, GPL, or none), so there is no single data licence. Hence ambiguous
+  (yellow), not green; storage/caching not addressed in the pages read. Link redirects to docs.github.com/en/rest.
+  Merged duplicate entry `github`.'
+evidence:
+- field: commercial_use
+  url: https://docs.github.com/en/site-policy/github-terms/github-terms-of-service
+  quote: You may not use the API to download data or Content from GitHub for spamming purposes
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://docs.github.com/en/site-policy/acceptable-use-policies/github-acceptable-use-policies
+  quote: You will not reproduce, duplicate, copy, sell, resell or exploit any portion of the Service,
+    use of the Service, or access to the Service
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://docs.github.com/en/site-policy/github-terms/github-terms-of-service
+  quote: You may grant additional rights by adopting a license .
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://docs.github.com/en/rest/using-the-rest-api/rate-limits-for-the-rest-api
+  quote: The primary rate limit for unauthenticated requests is 60 requests per hour.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://docs.github.com/en/site-policy/github-terms/github-terms-of-service
+  quote: access that would result in resale of GitHub's Service
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://docs.github.com/en/site-policy/github-terms/github-terms-of-service
+  quote: You may grant additional rights by adopting a license.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Same ToS/AUP re-checked; AUP bans reselling/exploiting the Service. Duplicate of github
+  entry. Yellow stands.
+aliases:
+- github

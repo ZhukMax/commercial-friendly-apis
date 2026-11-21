@@ -24,3 +24,6 @@ verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
 link_note: -> https://heine.familiedeelstra.com/
+applicable: false
+not_applicable_reason: 'Triage by name and description only (terms not read): not a data source. Developer
+  tool, utility, scraper or account/platform service'

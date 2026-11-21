@@ -12,7 +12,7 @@ sources:
   name: Sonar
   url: https://github.com/Cgboal/SonarSearch
   category: Development
-link_status: alive
+link_status: dead
 data_license: unknown
 commercial_use: unknown
 storage_caching: unknown
@@ -21,5 +21,10 @@ attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+link_note: README says the public API was taken offline after Rapid7 revoked public access to Project Sonar datasets
+notes: README of Cgboal/SonarSearch states the hosted API (sonar.omnisint.io) was taken offline because Rapid7 revoked public dataset access and changed licensing; sonar.omnisint.io now serves an unrelated
+  page. Repo is MIT (code only). Terms left unknown.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

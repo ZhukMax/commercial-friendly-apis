@@ -23,3 +23,7 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+notes: Read proxy.golang.org service page, go.dev/ref/mod and go.dev/copyright. The module mirror/index is a Google-run service with only a privacy page; no usage terms, commercial-use, caching or redistribution
+  statement for the proxy or index data. Module contents are under each module licence. All core fields unknown; the listed URL is the go command documentation, not a terms page.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

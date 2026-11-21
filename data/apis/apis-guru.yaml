@@ -17,13 +17,55 @@ sources:
   url: https://apis.guru/api-doc/
   category: Development
 link_status: alive
-data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
+data_license: CC0-1.0 for contributed definitions; other definitions acquired from public sources under
+  fair use
+commercial_use: ambiguous
+storage_caching: ambiguous
+redistribution_display: ambiguous
 attribution_required: unknown
-bulk_download: unknown
+bulk_download: 'yes'
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://github.com/APIs-guru/openapi-directory#licenses
+data_license_url: https://github.com/APIs-guru/openapi-directory/blob/main/LICENSE
+commercial_use_scope: any
+share_alike: 'no'
+notes: 'Pages read: GitHub repo page, README (Licenses section) and LICENSE of APIs-guru/openapi-directory;
+  apis.guru and apis.guru/api-doc are JS-rendered and returned no text via curl. Mixed licensing: definitions
+  contributed by authors are CC0 1.0, but definitions acquired from public sources are held only under
+  a fair-use claim, so a given spec may belong to either group and third-party rights (vendor documentation)
+  are not cleared. Hence ambiguous (yellow), not green. The whole collection is downloadable from the
+  repo (bulk). No separate terms of use for the REST API.'
+evidence:
+- field: data_license
+  url: https://github.com/APIs-guru/openapi-directory
+  quote: All API definitions contributed to project by authors are covered by the CC01.0 license.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://github.com/APIs-guru/openapi-directory
+  quote: All API definitions acquired from public sources under the Fair use principle.
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://github.com/APIs-guru/openapi-directory
+  quote: Directory of API definitions in OpenAPI(fka Swagger) 2.0 and 3.x formats.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://github.com/APIs-guru/openapi-directory
+  quote: All API definitions acquired from public sources under the Fair use principle.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://github.com/APIs-guru/openapi-directory
+  quote: All API definitions acquired from public sources under the Fair use principle.
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://github.com/APIs-guru/openapi-directory
+  quote: All API definitions contributed to project by authors are covered by the CC01.0 license.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'README re-read: contributed definitions CC0, others ''acquired from public sources
+  under the Fair use principle''; no per-spec flag. Yellow stands.'

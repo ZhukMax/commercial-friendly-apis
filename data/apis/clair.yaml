@@ -14,13 +14,55 @@ sources:
   url: https://clair.im
   category: Development
 link_status: alive
-data_license: unknown
-commercial_use: unknown
+data_license: none granted (provider grants use of results in own products; underlying source rights remain
+  with source owners)
+commercial_use: ambiguous
 storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+redistribution_display: ambiguous
+attribution_required: ambiguous
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://clair.im/legal/terms
+commercial_use_scope: any
+attribution_text: Keep source attribution and links to the original page wherever the context reasonably
+  permits
+notes: 'Page read: https://clair.im/legal/terms (Serin Technologies, LLC; updated 2026-11-20). The provider
+  lets you use results in your own products and applications but forbids reselling or redistributing results
+  in whole or substantial part as a competing feed/dataset/API. It states that the scraped pages (Google
+  search, Maps, Amazon, Glassdoor, Indeed, Trustpilot etc.) belong to their owners, that Clair grants
+  no rights in that material and makes no representation that any downstream use or republication is permitted;
+  the customer must comply with copyright and database law. Source-site terms (e.g. Google''s) were not
+  read. Personal data in results makes the customer an independent controller. Storage/caching not addressed.
+  Ambiguous, never green.'
+evidence:
+- field: commercial_use
+  url: https://clair.im/legal/terms
+  quote: you may call the APIs and use the results in your own products, internal workflows, analysis,
+    and applications.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://clair.im/legal/terms
+  quote: Clair API makes no representation that any particular downstream use is permitted.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://clair.im/legal/terms
+  quote: resell, sublicense, or redistribute the Service itself, or results in whole or in substantial
+    part, as a competing data feed, dataset, archive, or API
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://clair.im/legal/terms
+  quote: Keep source attribution and links to the original page wherever the context reasonably permits.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://clair.im/legal/terms
+  quote: Clair API does not own that material and grants you no rights in it.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read: results usable in own products, no competing feed/dataset resale; Clair grants
+  no rights in scraped source material. Yellow/ambiguous stands.'

@@ -23,3 +23,14 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://apizone.io/terms
+rate_limits: 60 requests/minute per IP; responses cached 60 s
+notes: 'Pages read: /terms, /privacy, /api-docs. Terms say the status site, JSON API, MCP server and badges are free to use and limit the free API to 60 req/min/IP; they contain no clause on commercial
+  use, storage/caching of the data, display, attribution or a data licence. Data is APIzone''s own probe results about third-party APIs. All commercial fields unknown.'
+evidence:
+- field: rate_limits
+  url: https://apizone.io/terms
+  quote: The free JSON API is rate-limited (currently 60 requests per minute per IP).
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

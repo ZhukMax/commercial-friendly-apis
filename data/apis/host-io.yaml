@@ -14,12 +14,28 @@ sources:
   category: Development
 link_status: alive
 data_license: unknown
-commercial_use: unknown
+commercial_use: paid-only
 storage_caching: unknown
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://host.io/terms
+commercial_use_scope: paid
+evidence:
+- field: commercial_use
+  url: https://host.io/terms
+  quote: When using a free version of the Services, this license is strictly limited to your personal, non-commercial use, in the manner permitted by these Terms.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://host.io/terms
+  quote: When using a paid version for the Services, this license is extended to include your commercial use, subject to these Terms.
+  checked_at: '2026-11-21'
+notes: Read Host.io Terms of Service (last updated 2018-05-01) and pricing/docs. Free version is personal non-commercial only; paid version extends the licence to commercial use. Terms also forbid scraping/data
+  mining the Services and collecting Content for sale or resale without written consent, so storage and redisplay are unclear and left unknown. The terms text speaks of a licence to use the software/Services;
+  applying it to API data is the natural but not explicit reading.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

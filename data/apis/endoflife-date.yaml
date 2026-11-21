@@ -13,13 +13,53 @@ sources:
   url: https://endoflife.date/docs/api
   category: Development
 link_status: alive
-data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+data_license: MIT
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: green
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://endoflife.date/docs/api/v1/
+data_license_url: https://raw.githubusercontent.com/endoflife-date/endoflife.date/master/LICENSE
+commercial_use_scope: any
+attribution_text: Keep the MIT copyright notice (endoflife.date contributors)
+evidence:
+- field: data_license
+  url: https://github.com/endoflife-date/endoflife.date
+  quote: Licensed under the MIT License.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://raw.githubusercontent.com/endoflife-date/endoflife.date/master/LICENSE
+  quote: to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://raw.githubusercontent.com/endoflife-date/endoflife.date/master/LICENSE
+  quote: to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://raw.githubusercontent.com/endoflife-date/endoflife.date/master/LICENSE
+  quote: to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://raw.githubusercontent.com/endoflife-date/endoflife.date/master/LICENSE
+  quote: The above copyright notice and this permission notice shall be included in all copies or substantial
+    portions of the Software.
+  checked_at: '2026-11-21'
+notes: 'Read the repo README/LICENSE and the API v1 OpenAPI spec (info.license is MIT License). The whole
+  project, including the lifecycle data files the API is generated from, is MIT; the API spec says 429
+  is used to prevent abuse and gives no numeric limit. Caveats: the licence text speaks of the Software
+  (data in the repo is covered by the project licence by README statement, not by a separate data licence),
+  and product descriptions are adapted from English Wikipedia under CC BY-SA 3.0 (README), so descriptions
+  may be share-alike; share_alike left unknown. API is in Beta per README.'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Caveats: MIT text speaks of ''Software'', data covered by README statement; product
+  descriptions adapted from English Wikipedia under CC BY-SA 3.0 (README), so descriptions in API output
+  may be share-alike; v1 API is Beta; v0 API deprecated. Use the lifecycle dates, not the descriptions,
+  to stay clean.'

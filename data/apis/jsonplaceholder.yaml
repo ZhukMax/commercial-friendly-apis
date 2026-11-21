@@ -31,3 +31,6 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: 'Triage by name and description only (terms not read): not a data source. Fake
+  test API'

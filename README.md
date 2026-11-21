@@ -4,7 +4,7 @@ Public API lists tell you whether an API needs a key, HTTPS or CORS. They don't 
 
 > ⚠️ **Not legal advice.** Terms change. Always re-read the linked terms before you ship.
 
-**2392** APIs listed (376 more kept for reference as not applicable) · **1701** checked · 🟢 181 · 🟡 736 · 🔴 136 · ⚪ 1339 · last check: 2026-11-21
+**2051** APIs listed (716 more kept for reference as not applicable) · **1791** checked · 🟢 187 · 🟡 761 · 🔴 139 · ⚪ 964 · last check: 2026-11-21
 
 ## Legend
 
@@ -27,6 +27,7 @@ Scenario judged: a public website with ads and affiliate links that stores and r
 | [administrative-divisons-db](https://github.com/kamikazechaser/administrative-divisions-db) | Get all administrative divisions of a country | 🟢 | ✅ | ✅ | required | [terms](https://raw.githubusercontent.com/kamikazechaser/administrative-divisions-db/master/README.md) | 2026-11-21 |
 | [adresse.data.gouv.fr](https://adresse.data.gouv.fr) | Address database of France, geocoding and reverse | 🟢 | ✅ | ✅ | required | [terms](https://adresse.data.gouv.fr/cgu) | 2026-11-21 |
 | [Aemet](https://opendata.aemet.es/centrodedescargas/inicio) | Weather and forecast data from Spain | 🟢 | ✅ | ✅ | required | [terms](https://www.aemet.es/es/nota_legal) | 2026-11-21 |
+| [Agify.io](https://agify.io) | Estimates the age from a first name | 🟢 | ✅ | ✅ | — | [terms](https://agify.io/legal/terms-and-conditions) | 2026-11-21 |
 | [AI Model Watch](https://aimodelwatch.dev/api) | Daily-updated prices, context windows & deprecation/EOL dates for 190+ AI/LLM models, sourced from official provider docs | 🟢 | ✅ | ✅ | not required | [terms](https://aimodelwatch.dev/api) | 2026-11-21 |
 | [AI Trainer Work](https://aitrainer.work/open-data) | Open AI training jobs (RLHF, data annotation, expert evaluation) from 20+ platforms, with pay | 🟢 | ✅ | ✅ | required | [terms](https://aitrainer.work/terms) | 2026-11-21 |
 | [AirportMiles](https://airportmiles.com/api) | Airport codes, distances, routes and passenger numbers as static JSON files | 🟢 | ✅ | ✅ | not required | [terms](https://airportmiles.com/api) | 2026-11-21 |
@@ -73,6 +74,7 @@ Scenario judged: a public website with ads and affiliate links that stores and r
 | [EIA Open Data](https://www.eia.gov/opendata/) | US energy statistics: electricity, petroleum, gas | 🟢 | ✅ | ✅ | required | [terms](https://www.eia.gov/opendata/terms-of-service.php) | 2026-11-21 |
 | [ek litre](https://eklitre.pk/data/) | Pakistan's petrol, diesel and kerosene prices since 2006, with OGRA's line-by-line price build-up | 🟢 | ✅ | ✅ | required | [terms](https://eklitre.pk/data/) | 2026-11-21 |
 | [ENA](https://www.ebi.ac.uk/ena/browser/api/swagger-ui/index.html) | Nucleotide sequences, genomes and raw reads archive | 🟢 | ✅ | ✅ | required | [terms](https://www.ebi.ac.uk/about/terms-of-use/) | 2026-11-21 |
+| [EndOfLife.date](https://endoflife.date/docs/api) | Software end-of-life dates and support lifecycles | 🟢 | ✅ | ✅ | required | [terms](https://endoflife.date/docs/api/v1/) | 2026-11-21 |
 | [EOSL](https://eosl.ai/api/) | Hardware end-of-sale and end-of-service-life dates by part number, source-linked | 🟢 | ✅ | ✅ | required | [terms](https://eosl.ai/terms/) | 2026-11-21 |
 | [EstimateTax](https://estimatetax.net/api/) | US federal, state and local income tax calculation for 2026, with the source of every figure | 🟢 | ✅ | ✅ | required | [terms](https://estimatetax.net/terms/) | 2026-11-21 |
 | [EU VAT Rates by Commodity Code](https://github.com/humora2504/eu-vat-by-commodity-code) | EU VAT rates mapped to CN and CPA commodity codes, all 27 member states | 🟢 | ✅ | ✅ | required | [terms](https://humora2504.github.io/eu-vat-by-commodity-code/commercial.html) | 2026-11-21 |
@@ -85,6 +87,7 @@ Scenario judged: a public website with ads and affiliate links that stores and r
 | [FoodData Central](https://fdc.nal.usda.gov/) | National Nutrient Database for Standard Reference | 🟢 | ✅ | ✅ | not required | [terms](https://fdc.nal.usda.gov/api-guide/) | 2026-11-21 |
 | [French Address Search](https://geo.api.gouv.fr/adresse) | Address search via the French Government | 🟢 | ✅ | ✅ | required | [terms](https://adresse.data.gouv.fr/cgu) | 2026-11-21 |
 | [FuelEconomy](https://www.fueleconomy.gov/feg/ws/index.shtml) | US EPA fuel economy data by year, make and model | 🟢 | ✅ | ✅ | not required | [terms](https://www.fueleconomy.gov/feg/disclaimer.shtml) | 2026-11-21 |
+| [Genderize.io](https://genderize.io) | Estimates a gender from a first name | 🟢 | ✅ | ✅ | — | [terms](https://genderize.io/legal/terms-and-conditions) | 2026-11-21 |
 | [GENESIS](https://www.destatis.de/EN/Service/OpenData/api-webservice.html) | Federal Statistical Office Germany | 🟢 | ✅ | ✅ | required | [terms](https://www.destatis.de/EN/Service/OpenData/api-webservice.html) | 2026-11-21 |
 | [GeoNames](http://www.geonames.org/export/web-services.html) | Place names and other geographical data | 🟢 | ✅ | ✅ | required | [terms](https://www.geonames.org/export/) | 2026-11-21 |
 | [Greek Mythology](https://acenes-of-sparta.pages.dev/api/) | Greek gods, monsters, heroes, places and Spartan customs, with ancient source citations | 🟢 | ✅ | ✅ | required | [terms](https://acenes-of-sparta.pages.dev/api/) | 2026-11-21 |
@@ -92,6 +95,7 @@ Scenario judged: a public website with ads and affiliate links that stores and r
 | [Hebrew Calendar](https://www.hebcal.com/home/developer-apis) | Convert between Gregorian and Hebrew, fetch Shabbat and Holiday times, etc | 🟢 | ✅ | ✅ | required | [terms](https://www.hebcal.com/home/developer-apis) | 2026-11-21 |
 | [hexplace](https://hexplace.org/developers/) | Climate by month, rents, home prices, amenities and rankings for 800 towns in Portugal | 🟢 ⚠️ | ✅ | ✅ | required | [terms](https://hexplace.org/developers/) | 2026-11-21 |
 | [Hong Kong Observatory](https://www.hko.gov.hk/en/abouthko/opendata_intro.htm) | Provide weather information, earthquake information, and climate data | 🟢 | ✅ | ✅ | required | [terms](https://data.gov.hk/en/terms-and-conditions) | 2026-11-21 |
+| [Hourora](https://hourora.app/en/developers) | Current time, DST-aware conversion, all IANA zones with clock changes, city and coordinate lookup | 🟢 | ✅ | ✅ | not required | [terms](https://hourora.app/en/developers) | 2026-11-21 |
 | [India GST HSN & SAC](https://gst-hsn-sac-api.vercel.app/docs) | Indian GST HSN and SAC classification code lookup and search | 🟢 | ✅ | ✅ | required | [terms](https://gst-hsn-sac-api.vercel.app/docs) | 2026-11-21 |
 | [ITIS](https://www.itis.gov/ws_description.html) | Integrated Taxonomic Information System | 🟢 | ✅ | ✅ | not required | [terms](https://www.itis.gov/privacy.html) | 2026-11-21 |
 | [Japan Neighborhoods](https://japanneighborhoods.com/developers) | Tokyo neighborhood crime statistics, safety scores, and station data (5,078 areas, 2018-2024) | 🟢 | ✅ | ✅ | required | [terms](https://japanneighborhoods.com/terms) | 2026-11-21 |
@@ -113,6 +117,7 @@ Scenario judged: a public website with ads and affiliate links that stores and r
 | [Modelfax](https://bytebrujo.github.io/modelfax/) | LLM pricing, context windows and deprecation dates, schema-validated and updated daily | 🟢 | ✅ | ✅ | required | [terms](https://raw.githubusercontent.com/bytebrujo/modelfax/main/README.md) | 2026-11-21 |
 | [Mother's Day Calendar](https://mothersdaycalendar.com/en/api/) | Mother's Day dates, country rules, sources and confidence as static JSON and CSV | 🟢 ⚠️ | ✅ | ✅ | required | [terms](https://mothersdaycalendar.com/en/api/) | 2026-11-21 |
 | [National Vulnerability Database](https://nvd.nist.gov/vuln/Data-Feeds/JSON-feed-changelog) | U.S. National Vulnerability Database | 🟢 | ✅ | ✅ | required | [terms](https://nvd.nist.gov/developers/start-here) | 2026-11-21 |
+| [Nationalize.io](https://nationalize.io) | Estimate the nationality of a first name | 🟢 | ✅ | ✅ | — | [terms](https://nationalize.io/terms) | 2026-11-21 |
 | [NHTSA](https://vpic.nhtsa.dot.gov/api/) | NHTSA Product Information Catalog and Vehicle Listing | 🟢 | ✅ | ✅ | — | [terms](https://www.nhtsa.gov/about-nhtsa/terms-use) | 2026-11-21 |
 | [NHTSA Edge VIN Decoder](https://data.ai-kit.net) | Decode US VINs offline from the NHTSA vPIC dataset, served from edge locations | 🟢 | ✅ | ✅ | — | [terms](https://github.com/AIKitLLC/nhtsa-edge-api) | 2026-11-21 |
 | [NOAA CO-OPS](https://api.tidesandcurrents.noaa.gov/api/prod/) | US coastal tides, water levels, currents and meteorological observations | 🟢 | ✅ | ✅ | not required | [terms](https://tidesandcurrents.noaa.gov/disclaimers.html) | 2026-11-21 |
@@ -164,6 +169,7 @@ Scenario judged: a public website with ads and affiliate links that stores and r
 | [Rijksmuseum](https://data.rijksmuseum.nl/) | RijksMuseum Data | 🟢 | ✅ | ✅ | ❓ unclear | [terms](https://data.rijksmuseum.nl/policy/) | 2026-11-21 |
 | [Rope Drop News](https://ropedropnews.com/developers) | Live Disney and Universal theme park wait times, ride reliability, crowds, and Lightning Lane prices | 🟢 | ✅ | ✅ | required | [terms](https://ropedropnews.com/terms) | 2026-11-21 |
 | [SEC EDGAR Data](https://www.sec.gov/edgar/sec-api-documentation) | API to access annual reports of public US companies | 🟢 | ✅ | ✅ | not required | [terms](https://www.sec.gov/search-filings/edgar-search-assistance/accessing-edgar-data) | 2026-11-21 |
+| [seodata](https://www.seodata.dev/) | Keyword search volume, CPC and competition by country, no key needed | 🟢 | ✅ | ✅ | — | [terms](https://www.seodata.dev/terms) | 2026-11-21 |
 | [SLF](https://github.com/slftool/slftool.github.io/blob/master/API.md) | German city, country, river, database | 🟢 | ✅ | ✅ | required | [terms](https://github.com/slftool/slftool.github.io/blob/master/API.md) | 2026-11-21 |
 | [Social Casino Index](https://socialcasinoindex.com/data/) | Daily-checked US social casino toplist: signup bonuses, payout times, minimums, sources | 🟢 | ✅ | ✅ | required | [terms](https://socialcasinoindex.com/data/) | 2026-11-21 |
 | [SoldSignal](https://www.aiplannermail.com/free-resale-price-api/) | Weekly resale prices for sneakers, consoles and watches with sample size and fees | 🟢 | ✅ | ✅ | required | [terms](https://www.aiplannermail.com/terms/) | 2026-11-21 |
@@ -221,12 +227,12 @@ Scenario judged: a public website with ads and affiliate links that stores and r
 | [Cryptocurrency](categories/cryptocurrency.md) | 112 | 1 | 40 | 10 | 61 |
 | [Currency Exchange](categories/currency-exchange.md) | 40 | 0 | 25 | 1 | 14 |
 | [Data Validation](categories/data-validation.md) | 13 | 0 | 6 | 1 | 6 |
-| [Development](categories/development.md) | 302 | 0 | 0 | 0 | 302 |
+| [Development](categories/development.md) | 107 | 6 | 23 | 3 | 75 |
 | [Dictionaries](categories/dictionaries.md) | 17 | 0 | 8 | 2 | 7 |
 | [Disasters](categories/disasters.md) | 3 | 0 | 1 | 2 | 0 |
-| [Documents & Productivity](categories/documents-productivity.md) | 75 | 0 | 0 | 0 | 75 |
+| [Documents & Productivity](categories/documents-productivity.md) | 8 | 0 | 0 | 0 | 8 |
 | [Education](categories/education.md) | 4 | 1 | 0 | 0 | 3 |
-| [Email](categories/email.md) | 48 | 0 | 0 | 0 | 48 |
+| [Email](categories/email.md) | 3 | 0 | 0 | 0 | 3 |
 | [Entertainment](categories/entertainment.md) | 21 | 1 | 6 | 0 | 14 |
 | [Environment](categories/environment.md) | 37 | 5 | 10 | 4 | 18 |
 | [Events](categories/events.md) | 7 | 0 | 5 | 0 | 2 |
@@ -252,7 +258,7 @@ Scenario judged: a public website with ads and affiliate links that stores and r
 | [Shopping](categories/shopping.md) | 32 | 3 | 13 | 1 | 15 |
 | [Social](categories/social.md) | 39 | 0 | 11 | 8 | 20 |
 | [Sports & Fitness](categories/sports-fitness.md) | 78 | 8 | 34 | 5 | 31 |
-| [Test Data](categories/test-data.md) | 47 | 0 | 0 | 0 | 47 |
+| [Test Data](categories/test-data.md) | 13 | 0 | 2 | 0 | 11 |
 | [Text Analysis](categories/text-analysis.md) | 5 | 0 | 0 | 0 | 5 |
 | [Tracking](categories/tracking.md) | 3 | 0 | 1 | 0 | 2 |
 | [Transportation](categories/transportation.md) | 110 | 13 | 42 | 6 | 49 |

@@ -17,13 +17,52 @@ sources:
   url: https://genderize.io
   category: Development
 link_status: alive
-data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
+data_license: proprietary (API responses licensed under subscription and Terms)
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: green
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://genderize.io/legal/terms-and-conditions
+commercial_use_scope: any
+share_alike: unknown
+rate_limits: Free tier 1,000 names/month; paid plans from $20/month
+evidence:
+- field: commercial_use
+  url: https://genderize.io/legal/terms-and-conditions
+  quote: You may use the Services for any lawful commercial or non-commercial purpose
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://genderize.io/legal/terms-and-conditions
+  quote: You may cache API responses locally.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://genderize.io/legal/terms-and-conditions
+  quote: You may, however, incorporate predictions into your own products, services, reports, and research.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://genderize.io/legal/terms-and-conditions
+  quote: API responses are licensed to you for use in accordance with your subscription and these Terms.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://genderize.io
+  quote: Free 1,000 names/month — no credit card required
+  checked_at: '2026-11-21'
+notes: 'Read Demografix Terms and Conditions (sections 4 Permitted Use, 5 Restrictions, 6 Caching, 7 IP).
+  Commercial use is allowed. Restrictions: no building a competing name-to-gender service and no reselling
+  API results as a standalone dataset (predictions may be an ingredient in your own product); results
+  are estimates and must not be presented as verified facts. Bulk-publishing every name lookup as a dataset-like
+  page set could fall under the resale ban, hence medium confidence. No attribution clause found. The
+  site now offers a free API key (1,000 names/month); keyless calls still worked on 2026-11-21.'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Doubt: mass-publishing name->gender pages may brush against ''do not resell API results
+  as a standalone dataset''; keep predictions as one element of the page. Data origin is ''publicly available
+  sources across the web'' (agify/genderize FAQ), upstream rights unnamed. Must not present results as
+  verified facts about individuals.'

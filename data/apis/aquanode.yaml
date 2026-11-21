@@ -23,3 +23,13 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+rate_limits: No published limit; docs ask users to be reasonable about polling frequency
+evidence:
+- field: rate_limits
+  url: https://docs.aquanode.io/docs/api/marketplace
+  quote: Be reasonable about polling frequency.
+  checked_at: '2026-11-21'
+notes: Only the docs page for the free unauthenticated marketplace endpoint was read; it states no terms of use, licence, caching or commercial-use rule. No terms/privacy page found on aquanode.io (/terms
+  returned 404). Data are live GPU offers aggregated from nine third-party clouds, whose own rights are not addressed. All core fields unknown.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

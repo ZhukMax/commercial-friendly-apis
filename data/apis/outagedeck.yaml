@@ -17,9 +17,22 @@ data_license: unknown
 commercial_use: unknown
 storage_caching: unknown
 redistribution_display: unknown
-attribution_required: unknown
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://outagedeck.com/terms
+notes: Read OutageDeck Terms of Service (5 Nov 2026) and API page. Free tier = anonymous read-only API
+  at published rate limits. Acceptable use forbids republishing data without source attribution, scraping
+  HTML at volume, and reselling/redistributing bulk data without written agreement; keys may not be shared/resold.
+  No explicit statement on commercial use, caching or display, so unknown. Data is aggregated from providers'
+  official status feeds (their terms not assessed); provider names/logos are third-party trademarks.
+evidence:
+- field: attribution_required
+  url: https://outagedeck.com/terms
+  quote: republish our data while removing source attribution or misrepresenting where it came from
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

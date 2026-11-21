@@ -23,3 +23,11 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://www.nuget.org/policies/Terms
+notes: 'Read NuGet Terms of Use (nuget.org/policies/Terms) and the NuGet API overview. The Terms cover
+  the NuGet sites/APIs generally: forbid harvesting/scraping other than through publicly supported interfaces
+  (the V3 API is one) and overburdening servers, but give no licence for registry metadata and say nothing
+  on commercial use, caching/mirroring or display. Package metadata/content carries each publisher''s
+  licence. All core fields unknown.'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

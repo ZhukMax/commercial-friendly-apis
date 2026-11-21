@@ -24,3 +24,6 @@ verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
 link_note: -> https://docs.netlify.com/api-and-cli-guides/api-guides/get-started-with-api/
+applicable: false
+not_applicable_reason: 'Triage by name and description only (terms not read): not a data source. Developer
+  tool, utility, scraper or account/platform service'

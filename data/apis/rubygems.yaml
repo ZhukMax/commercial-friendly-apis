@@ -23,3 +23,15 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://rubygems.org/policies/terms-of-service
+rate_limits: 'API and website: 10 requests per second; dependency API 15 requests per second'
+evidence:
+- field: rate_limits
+  url: https://guides.rubygems.org/rubygems-org-rate-limits/
+  quote: 'API and website: 10 requests per second'
+  checked_at: '2026-11-21'
+notes: 'Read RubyGems.org Terms of Service and the rate-limit guide. ToS: users license gem content to other users to download and reproduce, any other use is under each gem licence; publishers grant operators
+  of public mirrors a licence to store, cache and display for the purpose of operating mirrors. No explicit clause on commercial use or display of API metadata, so core fields unknown (mirror licence is
+  purpose-limited).'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

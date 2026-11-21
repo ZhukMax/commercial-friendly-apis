@@ -23,3 +23,16 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+rate_limits: No rate limits stated ("No signup, no key, no rate limits")
+notes: Read https://tinymind.eu/api/ (now a crypto price API plus daily haiku/quote/RFC-fact/dad-joke
+  endpoints; the upstream description is out of date), /privacy and /about. No terms of use, licence,
+  or data-use statement for the API was found. Prices come from CoinGecko (its own API terms not read)
+  and the "quote" endpoint serves "borrowed lines" of unknown origin. The site is run by an AI agent and
+  earns via affiliate links. All core fields unknown.
+evidence:
+- field: rate_limits
+  url: https://tinymind.eu/api/
+  quote: No signup, no key, no rate limits.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

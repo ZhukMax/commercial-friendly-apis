@@ -4,7 +4,7 @@ url: https://api.domainsdb.info/
 category: Development
 description: Domain name search to find all domains containing particular words/phrases/etc
 description_source: upstream
-auth: none
+auth: apiKey
 https: true
 cors: unknown
 sources:
@@ -16,10 +16,33 @@ link_status: alive
 data_license: unknown
 commercial_use: unknown
 storage_caching: unknown
-redistribution_display: unknown
+redistribution_display: ambiguous
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://domainsdb.info/terms
+notes: 'Pages read via Playwright (JS-rendered, fresh context): domainsdb.info home, /terms, /privacy.
+  The service now needs a key (Sign in with Google to get an API key), so auth changed from none to apiKey.
+  The terms are generic: they do not mention commercial use, caching/storage or attribution, and prohibit
+  reselling/redistributing API access, creating derivative works and building a competing service, while
+  calling the data informational and as-is. Commercial use, storage and data licence stay unknown; display
+  is ambiguous because of the derivative-works clause. Underlying domain-list sources are not disclosed.'
+evidence:
+- field: redistribution_display
+  url: https://domainsdb.info/terms
+  quote: Not reverse engineer or create derivative works
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://domainsdb.info/terms
+  quote: Resell or redistribute our API access to third parties
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read via Playwright (updated 11/21/2026): bans reselling API access, competing
+  service, ''Scrape or extract data beyond API usage'', derivative works. No commercial/caching clause.
+  Unknown stands; leaning restrictive.'

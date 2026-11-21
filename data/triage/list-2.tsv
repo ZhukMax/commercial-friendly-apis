@@ -1,0 +1,144 @@
+macadress	Development	macadress	https://macadress.com/mac-address-api	MAC address and OUI vendor lookup synced from IEEE, with randomized-MAC detection
+macvendorcheck	Development	MacVendorCheck	https://macvendorcheck.com/mac-address-lookup-api	MAC address and OUI vendor lookup from the IEEE MA-L, MA-M and MA-S registries
+micro-saas-ai-suite	Development	Micro-SaaS AI Suite	https://microsaas-agent-api.vercel.app/openapi.json	8 serverless AI APIs for sentiment analysis, copy generation, email verification, & OCR
+microenv	Development	MicroENV	https://microenv.com/	Fake Rest API for developers
+mobileapi	Development	MobileAPI	https://mobileapi.dev/docs/	Smartphone, tablet, and wearable device specifications, images, and pricing
+msgboard	Development	msgboard	https://msgboard.dev	Public message board for agent-to-agent messaging, no account or key
+mxverify	Development	mxverify	https://bklink.uk/docs/api	Dollar value of one followed backlink from any website, with the published model behind it
+my-ip	Development	MY IP	https://www.myip.com/api-docs/	Get IP address information
+myiprightnow	Development	MyIPRightNow	https://myiprightnow.com	Public IP address with network, location, and connection details
+myjson-online	Development	MyJSON.online	https://myjson.online	A RESTful API for flexible storage of JSON data
+namegender	Development	NameGender	https://namegender.com/docs	Gender from a first name, full name, email or username, with probability
+nationalize-io	Development	Nationalize.io	https://nationalize.io	Estimate the nationality of a first name
+nerdulator	Development	Nerdulator	https://nerdulator.com/api	Everything derivable from one value: numbers, dates, colours, UUIDs, cron expressions
+netlify	Development	Netlify	https://docs.netlify.com/api/get-started/	Netlify is a hosting service for the programmable web
+networkcalc	Development	NetworkCalc	https://networkcalc.com/api/docs	Network calculators, including subnets, DNS, binary, and security tools
+npm-registry	Development	npm Registry	https://github.com/npm/registry/blob/master/docs/REGISTRY-API.md	Query information about your favorite Node.js libraries programatically
+nuget	Development	NuGet	https://learn.microsoft.com/en-us/nuget/api/overview	.NET package versions, metadata and search
+octocrawl	Development	Octocrawl	https://octocrawl.dev/docs/reference/	Web pages as Markdown or JSON with an Evidence Record: final URL, HTTP status, robots.txt, hashes
+onesignal	Development	OneSignal	https://developers.onesignal.com/	Self-serve customer engagement solution for Push Notifications, Email, SMS & In-App
+oopspam	Development	OOPSpam	https://oopspam.com/	Multiple spam filtering service
+open-page-rank	Development	Open Page Rank	https://www.domcop.com/openpagerank/	API for calculating and comparing metrics of different websites using Page Rank algorithm
+open-vsx	Development	Open VSX	https://open-vsx.org/	Search and access VS Code extensions from the Open VSX registry
+openapihub	Development	OpenAPIHub	https://hub.openapihub.com/	The All-in-one API Platform
+openapps	Development	OpenApps	https://theopenapps.com/docs/api	Rankings, launches and featuring across the ChatGPT, Claude, Cursor and Grok Bot app stores
+opengraphr	Development	OpenGraphr	https://opengraphr.com/docs/1.0/overview	Really simple API to retrieve Open Graph data from an URL
+openqr	Development	OpenQR	https://openqr.uk/api	Generate QR codes and manage dynamic (editable) QR codes with scan analytics
+openunfurl	Development	OpenUnfurl	https://github.com/SolvoHQ/openunfurl	No-signup link unfurl API returning Open Graph, Twitter Card and oEmbed metadata
+orca-scan	Development	Orca Scan	https://orcascan.com/guides/free-barcode-image-api-0e4a4fa6	Generate barcode images (QR, Code 128, EAN, Data Matrix and more) in SVG, PNG, JPG or PDF
+outagedeck	Development	OutageDeck	https://outagedeck.com/developers/api	Live status and incidents for 170+ cloud and SaaS providers from official feeds
+oyyi	Development	oyyi	https://oyyi.xyz/docs/1.0	API for Fake Data, image/video conversion, optimization, pdf optimization and thumbnail generation
+packagist	Development	Packagist	https://packagist.org/apidoc	PHP Composer package versions and dist metadata
+pagecdn	Development	PageCDN	https://pagecdn.com/docs/public-api	Public API for javascript, css and font libraries on PageCDN
+peak	Development	Peak	https://peak.fo/docs	Cloudflare Turnstile and 5-second challenge solving, pay per successful solve, 1,000 free solves
+phphub	Development	PHPhub	https://phphub.net/linter/	Validate PHP code
+postman	Development	Postman	https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a	Tool for testing APIs
+postman-docs	Development	Postman	https://docs.api.getpostman.com/	Tool for testing APIs
+prismix	Development	Prismix	https://prismix.dev/api/v1/statuses	Real-time uptime for 77 AI APIs (OpenAI, Anthropic, Cursor, Gemini) — free JSON endpoint, no auth required
+proxifly	Development	Proxifly	https://proxifly.dev	Rotating proxy API that returns tested HTTP, SOCKS4 and SOCKS5 proxies, filterable by country
+proxycrawl	Development	ProxyCrawl	https://proxycrawl.com	Scraping and crawling anticaptcha service
+proxyforge	Development	ProxyForge	https://proxyforge.dev	Free auto-updating list of live-tested proxies (HTTP/HTTPS/SOCKS4/SOCKS5), refreshed every 6 h
+public-apis	Development	Public APIs	https://github.com/davemachado/public-api	A collective list of free JSON APIs for use in web development
+pusher-beams	Development	Pusher Beams	https://pusher.com/beams	Push notifications for Android & iOS
+pythonium	Development	Pythonium	https://pythonium.net/linter	Validate Python code
+qr-code	Development	QR code	https://www.qrtag.net/api/	Create an easy to read QR code and URL shortener
+qr-code-by-lifestep	Development	QR Code by LifeStep	https://qr.lifestep.io	Generate QR codes as PNG or SVG with size, border and color options
+qr-code-crafter	Development	QR Code Crafter	https://qrcodecrafter.com/qr-code-api	Generate static QR codes in SVG, PNG, JPG, WebP, PDF, or EPS
+qr-code-fungenerators	Development	QR Code	https://fungenerators.com/api/qrcode/	Create new QR Code or decode existing one
+qr-code-goqr	Development	QR code	http://goqr.me/api/	Generate and decode / read QR code graphics
+qr-codes	Development	QR Codes	https://qr-api.62-238-102-93.sslip.io/docs	Generate QR codes via a single GET request, with logo embedding and custom colors
+qr-kept	Development	QR Kept	https://qrkept.com/free-qr-code-api	Free QR code API: one GET request returns an SVG, no key or account
+qrcode-monkey	Development	Qrcode Monkey	https://www.qrcode-monkey.com/qr-code-api-with-logo/	Integrate custom and unique looking QR codes into your system or workflow
+qrdx	Development	QRdx	https://qrdx.dev/docs/developers/image-api	Styled QR codes as SVG, PNG or EPS from a URL, with gradients, frames and logos
+qrx	Development	QRX	https://qrx.codes/developers	Artistic, branded QR codes from a text prompt and a link, checked to scan
+quickchart	Development	QuickChart	https://quickchart.io/	Generate chart and graph images
+quotable	Development	Quotable	https://github.com/lukePeavey/quotable	Random quotes with authors and tags
+realuptime	Development	RealUptime	https://realuptime.io/docs/api	Manage uptime monitors, heartbeat checks, incidents and status pages with an API key
+rendlet	Development	Rendlet	https://rendlet.com/docs.md	HTML or JSON templates (invoice, itinerary) to PDF; free tier 100 docs/month
+replynodes	Development	ReplyNodes	https://replynodes.com/markdown-api/	Convert a public web page into clean Markdown
+reqres	Development	ReqRes	https://reqres.in/	A hosted REST-API ready to respond to your AJAX requests
+rubygems	Development	RubyGems	https://guides.rubygems.org/rubygems-org-api/	Ruby gem metadata, versions, dependencies and search
+savepage-io	Development	SavePage.io	https://www.savepage.io	A free, RESTful API used to screenshot any desktop, or mobile website
+scrapeninja	Development	ScrapeNinja	https://scrapeninja.net	Scraping API with Chrome fingerprint and residential proxies
+scraperapi	Development	ScraperApi	https://www.scraperapi.com	Easily build scalable web scrapers
+scraperbox	Development	scraperBox	https://scraperbox.com/	Undetectable web scraping API
+scrapestack	Development	scrapestack	https://scrapestack.com/	Real-time, Scalable Proxy & Web Scraping REST API
+scrapingant	Development	ScrapingAnt	https://scrapingant.com	Headless Chrome scraping with a simple API
+scrapingbot	Development	ScrapingBot	https://scrapingbot.io	Web scraping, AI extraction, and public TikTok, Instagram, Google and Amazon data as JSON
+scrapingdog	Development	ScrapingDog	https://www.scrapingdog.com/	Proxy API for Web scraping
+scrappa	Development	Scrappa	https://scrappa.co/docs	Google Search, Maps, Jobs, YouTube and review site results as structured JSON
+scrax	Development	Scrax	https://rapidapi.com/mtaahoperators/api/scrax	Web scraping API that only bills for successful scrapes
+screenshot	Development	Screenshot	https://www.abstractapi.com/website-screenshot-api	Take programmatic screenshots of web pages from any website
+screenshot-happy	Development	Screenshot Happy	https://screenshot-api-production-ffd7.up.railway.app/docs	Website screenshot API (PNG/JPEG/PDF) with full-page capture and visual-diff monitors
+screenshotapi	Development	ScreenshotAPI	https://screenshotapi.to/docs	Website screenshots, PDFs, HTML rendering, caching, and webhooks
+screenshotapi-net	Development	ScreenshotAPI.net	https://screenshotapi.net/	Create pixel-perfect website screenshots
+screenurl	Development	ScreenURL	https://screenurl.com/docs	Capture screenshots and PDFs of any webpage via REST API
+segmentlite	Development	SegmentLite	https://segmentlite-api-dfru.fly.dev	Lightweight event routing and webhook fan-out API alternative to Segment
+seodata	Development	seodata	https://www.seodata.dev/	Keyword search volume, CPC and competition by country, no key needed
+serialif-color	Development	Serialif Color	https://color.serialif.com/	Color conversion, complementary, grayscale and contrasted text
+serpapi	Development	SerpApi	https://serpapi.com/	Scrape Google and other search engines with a simple API
+serpkite	Development	SerpKite	https://serpkite.com/docs	Google Search, News, Maps, Images, Scholar and Patents results as JSON or Markdown for AI agents
+serply	Development	Serply	https://serply.io/docs	Google, Bing, News, Scholar and Maps search results and page scraping as JSON
+serpstack	Development	serpstack	https://serpstack.com/	Real-Time & Accurate Google Search Results API
+shadify	Development	Shadify	https://github.com/cheatsnake/shadify	Service for generating data and executing logic to create various games and puzzles
+shareglint	Development	Shareglint	https://shareglint.com/en/docs	Open Graph and social images from HTML/CSS templates, page screenshots, GIF and MP4; free tier
+sheetsu	Development	Sheetsu	https://sheetsu.com/	Easy google sheets integration
+shotanvil	Development	Shotanvil	https://shotanvil.com	Screenshot, PDF and HTML rendering API with a free tier, API key or x402 auth
+shotkiln	Development	Shotkiln	https://shotkiln.com/docs	Screenshots, PDFs and Open Graph images from a URL or HTML, with a free tier
+shotlane	Development	Shotlane	https://shotlane.dev/docs	Screenshots, PDFs and Markdown of any web page in Chrome, with a free tier
+shoutcloud	Development	SHOUTCLOUD	http://shoutcloud.io/	ALL-CAPS AS A SERVICE
+site-shot	Development	Site-Shot	https://www.site-shot.com/start/	Website screenshots in real Chromium: full-page, country proxies, ad and cookie removal; free plan
+siteintel	Development	SiteIntel	https://siteintel.duckdns.org	Extract metadata, tech stack, emails, and screenshots from any URL
+snaprender	Development	SnapRender	https://snap-render.com/docs	Website screenshots as PNG, JPEG, WebP or PDF, and page content as markdown, with a free tier
+snoopscan	Development	SnoopScan	https://snoopscan.com/docs	Scrape, crawl, map and search the web as clean markdown or JSON, with a free monthly tier
+solidping	Development	SolidPing	https://docs.solidping.io/docs/api	Create and run uptime checks, read results and incidents, manage status pages, with a free tier
+sonar	Development	Sonar	https://github.com/Cgboal/SonarSearch	Project Sonar DNS Enumeration API
+sonarqube	Development	SonarQube	https://sonarcloud.io/web_api	SonarQube REST APIs to detect bugs, code smells & security vulnerabilities
+sprytools-screenshot	Development	SpryTools Screenshot	https://sprytools.com/apis/screenshot	Capture full-page or viewport website screenshots (PNG/JPEG/WebP)
+sprytools-web-scraping	Development	SpryTools Web Scraping	https://sprytools.com/apis/scraping	Extract HTML/text/CSS-selector data, Cloudflare-bypass
+sqlable	Development	SQLable	https://sqlable.com/validator/	Validate SQL query
+stackexchange	Development	StackExchange	https://api.stackexchange.com/	Q&A forum for developers
+statically	Development	Statically	https://statically.io/	A free CDN for developers
+stophy	Development	Stophy	https://docs.stophy.dev	One API to search the web, read what people say, and look up products, places, jobs and homes
+suprsend	Development	SuprSend	https://docs.suprsend.com/reference/overview	Multi-channel notifications: workflows, templates and preferences for email, SMS, push and in-app
+suprsonic	Development	Suprsonic	https://suprsonic.ai	Unified agent API: search, scrape, enrich, image gen, TTS, STT, messaging. One key, 20+ capabilities
+talordata	Development	Talordata	https://docs.talordata.com/	SERP data from major search engines with a free trial
+talordata-talordata	Development	TalorData	https://talordata.com/	Get structured SERP results from Google, Bing, Yandex, and others via one API
+the-networkery	Development	The Networkery	https://thenetworkery.com/api	DNS, email authentication, TLS, BGP/RPKI, WHOIS and subnet checks with plain-English findings
+theqrcode	Development	TheQRCode	https://theqrcode.io/qr-code-api	Generate QR codes for URLs, WiFi, contact cards, email and text, with custom colors and styling
+thunder-client	Development	Thunder Client	https://www.thunderclient.com/	API testing tool
+thunderbit	Development	Thunderbit	https://thunderbit.com/docs/introduction	Extract web pages as Markdown or structured data for AI apps
+tidytools	Development	TidyTools	https://tools.yukai.uk/llms.txt	Web page to clean Markdown and AI crawler robots.txt checks, free without a key (rate limited)
+timefoo	Development	TimeFoo	https://time.foo/api/	Current time, timestamp format conversion and IANA time zone conversion, no key needed
+timezone-worldtime	Development	Timezone WorldTime	https://www.timezone.io/docs/worldtimeapi	Current time, UTC offset and DST for any time zone or IP, a drop-in WorldTimeAPI replacement
+timezones	Development	Timezones	https://timezones.in/api	Time now, conversions and DST changes for every IANA time zone, no key needed
+tinymind-agent-tools	Development	TinyMind Agent Tools	https://tinymind.eu/api/	Free APIs by an AI agent on a VPS: actor lookup, word-of-the-day, poems, jokes, ping
+toolforte	Development	ToolForte	https://toolforte.com/developers	Deterministic utilities: IBAN/VAT validation, cron parsing, regex, diffs, Dutch holidays, test data
+toolsfox-utils	Development	ToolsFox Utils	https://cf-workers-demo.pianfox345.workers.dev	Free developer utility API: UUID, timestamps, SHA-256, Base64, URL encode/decode, random strings
+tyk	Development	Tyk	https://tyk.io/open-source-api-gateway/	Api and service management platform
+unfurlr	Development	unfurlr	https://unfurlr.onrender.com/docs	Link-preview metadata for any URL: title, Open Graph, Twitter tags, favicon, oEmbed
+urlpipe	Development	URLpipe	https://urlpipe.dev/docs	Turn a URL into Markdown, screenshots, metadata or Lighthouse audits, rendered in real Chrome
+userstack	Development	Userstack	https://userstack.com/	Secure User-Agent String Lookup JSON API
+utilorax	Development	Utilorax	https://utilorax.com/api	203 JSON endpoints: hashing, encoding, unit conversion, text, dates and file conversion
+v-recipes-dns-accelerator	Development	v.recipes DNS Accelerator	https://v.recipes/dns/	The Accelerator variant can be used to test & accelerate any DoH providers
+v-recipes-get-ip	Development	v.recipes Get IP	https://v.recipes/get-ip	A simple API to get information such as IP, ISP name, Location, etc. based on user request
+vornamencheck	Development	Vornamencheck	https://vornamencheck.de/	Gender probability for a first name, optionally per country; documentation in German
+w3c-validator	Development	W3C Validator	https://validator.w3.org/docs/api.html	Validate HTML and check markup errors
+web-metadata-and-contact-extractor	Development	Web Metadata & Contact Extractor	https://rapidapi.com/josejuanjocoding/api/web-metadata-and-contact-extractor	Extract SEO metadata, contact emails, social links, and tech stack (<200ms)
+webclaw	Development	Webclaw	https://webclaw.io/docs/api	Web content extraction for LLMs with scrape, crawl, search, and summarize
+webcrawlerapi	Development	WebCrawlerAPI	https://webcrawlerapi.com/	Easily extract content from websites
+webscraping-ai	Development	WebScraping.AI	https://webscraping.ai/	Web Scraping API with built-in proxies and JS rendering
+weinc	Development	WeInc	https://my.we.inc/docs/api	AI website builder: manage clients, website projects, templates and webhooks
+what-is-my-ip-by-rahakit	Development	What Is My IP by RahaKit	https://rahakit.com/what-is-my-ip/	Free IP lookup API returning IPv4/IPv6, geolocation, ASN and network details as JSON
+xlsx-inspector	Development	XLSX Inspector	https://api.lifestep.io	Inspect XLSX/XLSM structure: sheets, formulas, macros and external links
+xmlable	Development	XMLable	https://xmlable.com/validator/	Validate XML
+yamline	Development	Yamline	https://yamline.com/k8s/	Validate Kubernetes manifests
+yumi-wheel-evidence	Development	Yumi Wheel Evidence	https://noqt.no-qt.chatgpt.site/yumi/wheel-evidence	Intersect wheel tags for explicit PyPI releases with caller-supplied tags
+zenrows	Development	ZenRows	https://www.zenrows.com/	Web Scraping API that bypasses anti-bot solutions while offering JS rendering, and rotating proxies
+zuplo	Development	Zuplo	https://zuplo.com/	API platform for Development, Deployment, and Docs - add auth, rate-limiting, and monetization fast
+agentpay-doc-tools	Documents & Productivity	AgentPay Doc Tools	https://agentpay-tools.agentpay-apis.workers.dev	PDF to text, RSS/Atom/JSON feeds to JSON and sitemaps to URL lists, paid per call via x402
+ai-form	Documents & Productivity	AI Form	https://aiformapi.com/docs/quickstart	Create forms, share a link and read responses as JSON or CSV
+airtable	Documents & Productivity	Airtable	https://airtable.com/api	Integrate with Airtable
+api2convert	Documents & Productivity	Api2Convert	https://www.api2convert.com/	Online File Conversion API
+apilayer-pdflayer	Documents & Productivity	apilayer pdflayer	https://pdflayer.com	HTML/URL to PDF
+asana	Documents & Productivity	Asana	https://developers.asana.com/docs	Programmatic access to all data in your asana system

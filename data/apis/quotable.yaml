@@ -16,7 +16,7 @@ sources:
   name: Quotable Quotes
   url: https://github.com/lukePeavey/quotable
   category: Personality
-link_status: alive
+link_status: dead
 data_license: unknown
 commercial_use: unknown
 storage_caching: unknown
@@ -25,5 +25,10 @@ attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+link_note: Hosted API api.quotable.io no longer resolves (DNS failure); GitHub repo last pushed 2024-01
+notes: api.quotable.io does not resolve (curl 2026-11-21); only the MIT-licensed source repo remains. Code licence does not say anything about the quote data (quotes copyright not assessed). Terms left
+  unknown.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

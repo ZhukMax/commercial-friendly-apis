@@ -23,3 +23,16 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://kiprio.com/terms
+rate_limits: 'Free plan: 500 requests/day'
+notes: 'Read Kiprio Terms of Service (updated 1 Apr 2026) and the ip-api page. Terms are generic: no resale/sublicensing
+  without permission, no bulk scraping that competes with Kiprio; they do not address commercial use of
+  the data, storage/caching, display or attribution. Upstream geolocation database sources are not disclosed
+  on pages read. All core fields unknown.'
+evidence:
+- field: rate_limits
+  url: https://kiprio.com/ip-api
+  quote: 500 requests / day
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

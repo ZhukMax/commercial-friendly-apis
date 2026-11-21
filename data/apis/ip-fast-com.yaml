@@ -12,7 +12,7 @@ sources:
   name: ip-fast.com
   url: https://ip-fast.com/docs/
   category: Development
-link_status: alive
+link_status: redirect
 data_license: unknown
 commercial_use: unknown
 storage_caching: unknown
@@ -23,3 +23,10 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+link_note: docs page is a JS shell ("Loading...") for curl; in a browser https://ip-fast.com/docs/ redirected
+  to an unrelated advertising/quiz page on 2026-11-21
+notes: 'No terms could be read: curl returned only a "Loading..." shell for /docs/ and /terms, and the
+  browser landed on an unrelated third-party ad page (copytradingdaily.com), so the domain behaviour looks
+  unreliable. Nothing assumed; all terms unknown.'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

@@ -23,3 +23,16 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+rate_limits: 1 request per second per IP (bursts up to 5); no key needed currently
+notes: Read https://vornamencheck.de/ (German; one-page API description). It says the API needs no sign-up
+  or key at present and keys with higher limits for production are planned. Unknown names are determined
+  once by an AI model (Claude) per country and stored; so the data is AI-generated, not a sourced dataset.
+  No terms, licence, commercial-use, caching or attribution statement found; the imprint at jakoubek.net
+  was not read. All core fields unknown.
+evidence:
+- field: rate_limits
+  url: https://vornamencheck.de/
+  quote: Pro IP-Adresse gilt ein Limit von einer Anfrage pro Sekunde, kurzzeitig bis zu fünf.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

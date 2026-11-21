@@ -13,13 +13,50 @@ sources:
   url: https://ipapi.is/developers.html
   category: Development
 link_status: alive
-data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
+data_license: proprietary (licensed for internal use)
+commercial_use: ambiguous
+storage_caching: limited
+redistribution_display: 'no'
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: red
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://ipapi.is/terms.html
+cache_limit: 30 days, then refresh or delete
+rate_limits: free tier without key is reduced (see ipapi.is free tier page; not read)
+notes: Read ipapi.is Terms of Service (last update 3 Oct 2026), section 2. API data (free tier included)
+  is licensed solely for the Customer's internal purposes (internal decision-making, analytics, fraud
+  prevention, personalization); passing data on or using it for a product/service offered to third parties
+  is prohibited, public display must be illustrative/aggregated only, caching max 30 days, no resale.
+  A public commercial site showing the data to visitors does not fit; internal use in a commercial business
+  is allowed, hence commercial_use ambiguous. The separately offered free IP geolocation database (CC
+  BY-SA 4.0 with attribution) is a different product whose page was not read. rate_limits for the unauthenticated
+  tier not read.
+evidence:
+- field: redistribution_display
+  url: https://ipapi.is/terms.html
+  quote: Publicly displayed data must remain purely illustrative, aggregated, or sampled, and must never
+    enable interactive querying of the underlying ipapi.is dataset.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://ipapi.is/terms.html
+  quote: Caching API query results for up to 30 days solely for resiliency or performance reasons, after
+    which the data must be refreshed or deleted.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://ipapi.is/terms.html
+  quote: Passing them on, using them for a product or service offered to third parties, or obtaining them
+    for a provider of IP data is prohibited
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://ipapi.is/terms.html
+  quote: our databases and API data are licensed, not sold , for your own internal use only.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read s1.2/2.2 (3 Oct 2026): API data licensed ''for your own internal use only'',
+  free tier included; product for third parties prohibited with contractual penalty. Red stands.'

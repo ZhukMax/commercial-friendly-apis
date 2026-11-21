@@ -17,13 +17,50 @@ sources:
   url: https://api.stackexchange.com/
   category: Development
 link_status: alive
-data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+data_license: CC-BY-SA-4.0 (user contributions); Stack Exchange-owned material and logos excluded
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://stackoverflow.com/legal/api-terms-of-use
+data_license_url: https://stackoverflow.com/legal/terms-of-service/public
+commercial_use_scope: any
+attribution_text: Visually indicate the Stack Exchange Network as the source (link back; per-post author and CC BY-SA attribution rules of the Terms of Service apply to indexable pages)
+share_alike: 'yes'
+notes: 'Pages read: API Terms of Use (stackoverflow.com/legal/api-terms-of-use), Public Network Terms of Service, api.stackexchange.com/docs. User posts are CC BY-SA 4.0 (share-alike, attribution, link
+  to the post and author); the API terms require a visible Stack Exchange source indication, and apps that can be indexed by search engines must follow the full attribution rules of the Terms of Service
+  (not reproduced in detail here). Non-commercial restriction in the Public Network ToS carves out Subscriber Content and API-delivered content. Logos/brand and Stack Exchange-owned content are not CC licensed
+  (trademark guidelines apply). API docs: apps register on Stack Apps for a key; responses are heavily cached and polling the same request faster than once a minute is abusive. Share-alike makes this yellow.
+  Content ingested for AI/LLM use falls under separate Stack Data Licensing terms (not assessed). Auth is optional for read methods (key/OAuth raises quota), but upstream lists OAuth.'
+evidence:
+- field: commercial_use
+  url: https://stackoverflow.com/legal/terms-of-service/public
+  quote: (other than Subscriber Content or content made available via the Stack Overflow API) for other than personal, noncommercial use is expressly prohibited
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://stackoverflow.com/legal/terms-of-service/public
+  quote: (other than Subscriber Content or content made available via the Stack Overflow API) for other than personal, noncommercial use is expressly prohibited
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://stackoverflow.com/legal/terms-of-service/public
+  quote: licensed to Stack Overflow on a worldwide, royalty-free, non-exclusive basis pursuant to Creative Commons licensing terms ( CC BY-SA 4.0 )
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://stackoverflow.com/legal/terms-of-service/public
+  quote: all Public Content you contribute is available for public copy and redistribution, and all such Public Content must have appropriate attribution
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://stackoverflow.com/legal/api-terms-of-use
+  quote: All Applications must ensure they visually indicate that the Stack Exchange Network is the source of the content provided through the API Services.
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://stackoverflow.com/legal/terms-of-service/public
+  quote: licensed to Stack Overflow on a worldwide, royalty-free, non-exclusive basis pursuant to Creative Commons licensing terms ( CC BY-SA 4.0 )
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

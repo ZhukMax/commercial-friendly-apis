@@ -24,7 +24,7 @@ PAIRS = [("nasdaq-data-link", "quandl"), ("graphhopper", "graphhopper-graphhoppe
          ("pandascore", "pandascore-api"), ("cross-universe", "cross-universe-crossuniverse"),
          ("urlhaus-urlhaus", "urlhaus"), ("web-of-trust", "web-of-trust-wot"), ("onedrive", "onedrive-dev"), ("discord", "discord-discordapp"),
          ("watson-natural-language-understanding", "watson-natural-language-understanding-ibm"), ("full-contact", "full-contact-fullcontact"),
-         ("codeship", "codeship-apidocs"), ("postnord", "sweden")]
+         ("codeship", "codeship-apidocs"), ("postnord", "sweden"), ("github-developer", "github")]
 SEV = {"red": 0, "yellow": 1, "unknown": 2, "green": 3}
 merged = []
 for a, b in PAIRS:

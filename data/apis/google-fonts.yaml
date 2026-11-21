@@ -13,13 +13,53 @@ sources:
   url: https://developers.google.com/fonts/docs/developer_api
   category: Development
 link_status: alive
-data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
+data_license: Per-font open licences (mostly SIL OFL 1.1; some Apache-2.0 or Ubuntu Font Licence); API
+  metadata governed by Google APIs ToS
+commercial_use: 'yes'
+storage_caching: ambiguous
+redistribution_display: ambiguous
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://developers.google.com/fonts/terms
+data_license_url: https://fonts.google.com/faq
+commercial_use_scope: any
+share_alike: unknown
+notes: 'Pages read: developers.google.com/fonts/terms (API ToS, defers to Google APIs ToS), developers.google.com/terms
+  (Section 5e Prohibitions on Content), fonts.google.com/faq (read via Playwright in a fresh context because
+  JS-rendered), Developer API page. Two levels: the fonts themselves are open source and free for commercial
+  use under their licences (OFL etc.), but the Developer API metadata falls under the Google APIs ToS,
+  which, unless the content owner permits, bars building databases or permanent copies, keeping cache
+  longer than the cache header, and distributing/publicly displaying API content to third parties. Because
+  the font licences (content owner permission) and the API ToS pull in different directions for storing/showing
+  the metadata, storage and display are ambiguous (yellow). Per-font licence still has to be honoured
+  (OFL has a reserved-name rule and no selling fonts alone).'
+evidence:
+- field: commercial_use
+  url: https://fonts.google.com/faq
+  quote: Yes, you can use them commercially, and even include them within a product that is sold commercially.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://fonts.google.com/faq
+  quote: The most common license is the SIL Open Font License.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://developers.google.com/terms
+  quote: Scrape, build databases, or otherwise create permanent copies of such content, or keep cached
+    copies longer than permitted by the cache header
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://developers.google.com/terms
+  quote: Copy, translate, modify, create a derivative work of, sell, lease, lend, convey, distribute,
+    publicly display, or sublicense to any third party
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Fonts API ToS (modified 9 Nov 2021) just defers to Google APIs ToS. Font files are
+  OFL/Apache so owner permission exists for the fonts themselves; evidence leans yes for font files, ambiguous
+  only for API metadata. Yellow stands.

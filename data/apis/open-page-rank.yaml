@@ -23,4 +23,16 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
-link_note: -> https://keywordseverywhere.com/openpagerank
+link_note: https://www.domcop.com/openpagerank/ -> https://keywordseverywhere.com/openpagerank (Open Page Rank by Keywords Everywhere; docs say old DomCop keys no longer work, i.e. same service moved)
+api_terms_url: https://keywordseverywhere.com/terms.html
+rate_limits: 'Free plan: 30,000 domains per month; up to 100 domains per request; higher limits on paid plans'
+evidence:
+- field: rate_limits
+  url: https://keywordseverywhere.com/openpagerank
+  quote: 30,000 domains every month on the free plan
+  checked_at: '2026-11-21'
+notes: 'Service moved from DomCop to Keywords Everywhere (the new page is titled Open Page Rank by Keywords Everywhere and the API docs say old DomCop keys are retired). Read the landing page, methodology,
+  API docs and Keywords Everywhere Terms (https://keywordseverywhere.com/terms.html): the general terms have no clause on commercial use, caching or redisplay of Open Page Rank scores. Scores are computed
+  from Common Crawl web graph (method page), but no data licence is stated. All core fields unknown. API key required.'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

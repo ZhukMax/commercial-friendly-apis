@@ -12,7 +12,7 @@ sources:
   name: Blague.xyz
   url: https://blague.xyz/
   category: Development
-link_status: alive
+link_status: dead
 data_license: unknown
 commercial_use: unknown
 storage_caching: unknown
@@ -23,3 +23,7 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+link_note: Domain blague.xyz now serves a 'This domain is for sale' parking page (2026-11-21); the API docs and terms are gone.
+notes: https://blague.xyz/ and its /cgu, /terms and docs.blague.xyz paths all return a domain-for-sale parking page, so the service appears shut down. No terms could be read; all fields unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

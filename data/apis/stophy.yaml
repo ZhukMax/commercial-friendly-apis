@@ -24,3 +24,9 @@ verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
 link_note: -> https://docs.stophy.dev/introduction
+api_terms_url: https://stophy.dev/tos
+notes: Read https://stophy.dev/tos (revised 2026-11-08) and docs intro. Terms are generic (acceptable use, outputs provided as is) and say the user is solely responsible for complying with applicable third-party
+  terms; no statement on commercial use, caching, display or data licence. The service retrieves public web content (search, products, places, jobs, homes), so upstream rights are unaddressed. All core
+  fields unknown. docs.stophy.dev redirects to /introduction.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

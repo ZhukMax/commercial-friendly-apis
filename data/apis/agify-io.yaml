@@ -17,13 +17,54 @@ sources:
   url: https://agify.io
   category: Development
 link_status: alive
-data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
+data_license: proprietary (Demografix; API responses licensed under the Terms)
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: green
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://agify.io/legal/terms-and-conditions
+commercial_use_scope: any
+share_alike: unknown
+rate_limits: Free tier 1,000 names/month, no rate limiting; paid from 250,000 names/month ($60)
+notes: 'Pages read: /legal/terms-and-conditions, /pricing, home. Terms (Demografix, same family as genderize.io
+  and nationalize.io) apply to all tiers incl. the free tier, and say any lawful commercial use is allowed.
+  Restrictions: do not resell raw predictions as a standalone dataset, do not use output to build a competing
+  name-to-demographics service, do not present results as verified facts about individuals. A programmatic-SEO
+  site publishing bulk name->age tables could be read as a standalone dataset or competing service, so
+  keep the output as one ingredient of a page (doubt). No attribution clause found in the terms (attribution_required
+  left unknown). Licence for responses is non-exclusive, valid while the subscription is active; cached
+  results may be used after it ends.'
+evidence:
+- field: commercial_use
+  url: https://agify.io/legal/terms-and-conditions
+  quote: You may use the Services for any lawful commercial or non-commercial purpose
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://agify.io/legal/terms-and-conditions
+  quote: You may cache API responses locally. This is encouraged where it reduces redundant requests for
+    the same input.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://agify.io/legal/terms-and-conditions
+  quote: You may, however, incorporate predictions into your own products, services, reports, and research.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://agify.io/legal/terms-and-conditions
+  quote: API responses are licensed to you for use in accordance with your subscription and these Terms.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://agify.io/pricing
+  quote: Explore with 1,000 names / month , no credit card required.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Residual doubt: bulk-published name->age tables could be read as a standalone dataset
+  (clause 5 ''Resell raw predictions''). FAQ says data comes from ''publicly available sources across
+  the web'' with no upstream licence named. No attribution clause. Same Demografix terms as genderize/nationalize.'

@@ -23,3 +23,7 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+notes: Read /ai/ agent guide, openapi.json, methodology, about, privacy and auth.md. Service is a read-only lookup of hosting price records captured from official provider pages (each record links the provider
+  source and capture time). No terms of use, licence or reuse statement found (/terms, /license, /legal are 404). Prices are third-party provider data, so rights are unaddressed. All core fields unknown.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

@@ -1,0 +1,866 @@
+[
+ {
+  "id": "macadress",
+  "class": "data",
+  "reason": "IEEE OUI vendor registry data",
+  "confidence": "medium"
+ },
+ {
+  "id": "macvendorcheck",
+  "class": "data",
+  "reason": "IEEE MA-L/M/S vendor registry data",
+  "confidence": "medium"
+ },
+ {
+  "id": "micro-saas-ai-suite",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "microenv",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "mobileapi",
+  "class": "data",
+  "reason": "Device specs, images and pricing records",
+  "confidence": "medium"
+ },
+ {
+  "id": "msgboard",
+  "class": "data",
+  "reason": "Public message board content",
+  "confidence": "low"
+ },
+ {
+  "id": "mxverify",
+  "class": "data",
+  "reason": "Backlink value dataset/model figures",
+  "confidence": "low"
+ },
+ {
+  "id": "my-ip",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "medium"
+ },
+ {
+  "id": "myiprightnow",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "medium"
+ },
+ {
+  "id": "myjson-online",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "namegender",
+  "class": "data",
+  "reason": "Name-gender probability statistics dataset",
+  "confidence": "medium"
+ },
+ {
+  "id": "nationalize-io",
+  "class": "data",
+  "reason": "Name-nationality statistics dataset",
+  "confidence": "medium"
+ },
+ {
+  "id": "nerdulator",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "netlify",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "networkcalc",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "npm-registry",
+  "class": "data",
+  "reason": "Package metadata registry",
+  "confidence": "medium"
+ },
+ {
+  "id": "nuget",
+  "class": "data",
+  "reason": "Package metadata registry",
+  "confidence": "medium"
+ },
+ {
+  "id": "octocrawl",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "onesignal",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "oopspam",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "open-page-rank",
+  "class": "data",
+  "reason": "Website rank metrics dataset",
+  "confidence": "medium"
+ },
+ {
+  "id": "open-vsx",
+  "class": "data",
+  "reason": "Extension marketplace metadata",
+  "confidence": "medium"
+ },
+ {
+  "id": "openapihub",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "openapps",
+  "class": "data",
+  "reason": "App store rankings and launches data",
+  "confidence": "low"
+ },
+ {
+  "id": "opengraphr",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "medium"
+ },
+ {
+  "id": "openqr",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "openunfurl",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "medium"
+ },
+ {
+  "id": "orca-scan",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "outagedeck",
+  "class": "data",
+  "reason": "Provider status and incident data",
+  "confidence": "medium"
+ },
+ {
+  "id": "oyyi",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "packagist",
+  "class": "data",
+  "reason": "Package metadata registry",
+  "confidence": "medium"
+ },
+ {
+  "id": "pagecdn",
+  "class": "data",
+  "reason": "Library catalogue listing",
+  "confidence": "low"
+ },
+ {
+  "id": "peak",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "phphub",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "postman",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "postman-docs",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "prismix",
+  "class": "data",
+  "reason": "Uptime status data for AI APIs",
+  "confidence": "low"
+ },
+ {
+  "id": "proxifly",
+  "class": "data",
+  "reason": "Tested proxy lists by country",
+  "confidence": "low"
+ },
+ {
+  "id": "proxycrawl",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "proxyforge",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "public-apis",
+  "class": "data",
+  "reason": "Catalogue listing of public APIs",
+  "confidence": "low"
+ },
+ {
+  "id": "pusher-beams",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "pythonium",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "qr-code",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "qr-code-by-lifestep",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "qr-code-crafter",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "qr-code-fungenerators",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "qr-code-goqr",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "qr-codes",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "qr-kept",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "qrcode-monkey",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "qrdx",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "qrx",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "quickchart",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "quotable",
+  "class": "data",
+  "reason": "Quotes text corpus with authors",
+  "confidence": "medium"
+ },
+ {
+  "id": "realuptime",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "rendlet",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "replynodes",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "reqres",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "rubygems",
+  "class": "data",
+  "reason": "Gem metadata registry",
+  "confidence": "medium"
+ },
+ {
+  "id": "savepage-io",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "scrapeninja",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "scraperapi",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "scraperbox",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "scrapestack",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "scrapingant",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "scrapingbot",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "scrapingdog",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "scrappa",
+  "class": "data",
+  "reason": "Structured search, maps, jobs, review results",
+  "confidence": "low"
+ },
+ {
+  "id": "scrax",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "screenshot",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "screenshot-happy",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "screenshotapi",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "screenshotapi-net",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "screenurl",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "segmentlite",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "seodata",
+  "class": "data",
+  "reason": "Keyword volume, CPC, competition data",
+  "confidence": "low"
+ },
+ {
+  "id": "serialif-color",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "serpapi",
+  "class": "data",
+  "reason": "Structured SERP results",
+  "confidence": "low"
+ },
+ {
+  "id": "serpkite",
+  "class": "data",
+  "reason": "SERP result data",
+  "confidence": "low"
+ },
+ {
+  "id": "serply",
+  "class": "data",
+  "reason": "SERP result data",
+  "confidence": "low"
+ },
+ {
+  "id": "serpstack",
+  "class": "data",
+  "reason": "SERP result data",
+  "confidence": "low"
+ },
+ {
+  "id": "shadify",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "shareglint",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "sheetsu",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "shotanvil",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "shotkiln",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "shotlane",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "shoutcloud",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "site-shot",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "siteintel",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "medium"
+ },
+ {
+  "id": "snaprender",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "snoopscan",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "solidping",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "sonar",
+  "class": "data",
+  "reason": "Project Sonar DNS dataset",
+  "confidence": "low"
+ },
+ {
+  "id": "sonarqube",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "sprytools-screenshot",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "sprytools-web-scraping",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "sqlable",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "stackexchange",
+  "class": "data",
+  "reason": "Q&A content records",
+  "confidence": "medium"
+ },
+ {
+  "id": "statically",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "stophy",
+  "class": "data",
+  "reason": "Search, products, places, jobs, homes lookup",
+  "confidence": "low"
+ },
+ {
+  "id": "suprsend",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "suprsonic",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "talordata",
+  "class": "data",
+  "reason": "SERP data",
+  "confidence": "low"
+ },
+ {
+  "id": "talordata-talordata",
+  "class": "data",
+  "reason": "SERP data",
+  "confidence": "low"
+ },
+ {
+  "id": "the-networkery",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "theqrcode",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "thunder-client",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "thunderbit",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "tidytools",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "timefoo",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "medium"
+ },
+ {
+  "id": "timezone-worldtime",
+  "class": "data",
+  "reason": "Time zone offset/DST data",
+  "confidence": "low"
+ },
+ {
+  "id": "timezones",
+  "class": "data",
+  "reason": "IANA time zone data and DST changes",
+  "confidence": "low"
+ },
+ {
+  "id": "tinymind-agent-tools",
+  "class": "data",
+  "reason": "Word of day, poems, jokes content",
+  "confidence": "low"
+ },
+ {
+  "id": "toolforte",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "toolsfox-utils",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "tyk",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "unfurlr",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "urlpipe",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "userstack",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "utilorax",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "v-recipes-dns-accelerator",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "v-recipes-get-ip",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "vornamencheck",
+  "class": "data",
+  "reason": "First-name gender probability statistics",
+  "confidence": "medium"
+ },
+ {
+  "id": "w3c-validator",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "web-metadata-and-contact-extractor",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "webclaw",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "webcrawlerapi",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "webscraping-ai",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "weinc",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "what-is-my-ip-by-rahakit",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "xlsx-inspector",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "xmlable",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "yamline",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "yumi-wheel-evidence",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "medium"
+ },
+ {
+  "id": "zenrows",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "zuplo",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "agentpay-doc-tools",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "ai-form",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "airtable",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "api2convert",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "apilayer-pdflayer",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ },
+ {
+  "id": "asana",
+  "class": "not-data",
+  "reason": "Developer tool, utility, scraper or account/platform service",
+  "confidence": "high"
+ }
+]

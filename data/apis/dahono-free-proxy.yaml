@@ -23,3 +23,17 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://router.dahono.com/terms
+rate_limits: 30 requests per minute per IP, no API key
+notes: Read the free proxy page (Indonesian) and the general Dahono Router Terms of Service https://router.dahono.com/terms
+  (85k chars; covers VPS, residential proxy, reseller programme etc.). Neither mentions the free proxy
+  list/API licence, commercial use, caching or display. The page says the proxies are public proxies from
+  open community feeds, copied every 60 seconds, not operated by Dahono, and recommends them for testing
+  only. Upstream feed licence unknown.
+evidence:
+- field: rate_limits
+  url: https://router.dahono.com/proxy/free
+  quote: Tanpa API key; batasnya 30 request per menit per IP.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

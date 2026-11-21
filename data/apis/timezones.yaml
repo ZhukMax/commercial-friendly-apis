@@ -14,12 +14,38 @@ sources:
   category: Development
 link_status: alive
 data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
+commercial_use: 'yes'
+storage_caching: limited
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://timezones.in/terms
+commercial_use_scope: any
+cache_limit: Docs advise caching /v1/timezones (changes only with the IANA database); other endpoints
+  not addressed
+rate_limits: 60 requests/minute per IP without a key; 600/minute per key
+notes: 'Read Terms https://timezones.in/terms (version 2026-10-20) and API docs https://timezones.in/api.
+  Free for personal and commercial use within rate limits; forbidden: circumventing limits, reselling
+  raw API access as your own service without attribution, removing the backlink from the embed widget
+  (the backlink duty applies to the embed, not stated for the API). Display of results on own pages and
+  attribution for the API are not addressed, so those fields stay unknown. Storage only addressed by the
+  doc advice to cache the zone list.'
+evidence:
+- field: commercial_use
+  url: https://timezones.in/terms
+  quote: The API and embed widget are free for personal and commercial use within the published rate limits.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://timezones.in/api
+  quote: Cache /v1/timezones on your side
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://timezones.in/api
+  quote: 60 requests per minute per IP without a key; 600 per minute per key.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

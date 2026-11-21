@@ -14,12 +14,49 @@ sources:
   category: Development
 link_status: alive
 data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://scrappa.co/legal/terms-of-service
+commercial_use_scope: any
+verdict_override: yellow
+override_reason: Scrappa grants application use of API output, but expressly does not license third-party
+  content in the output (e.g. Google results) and leaves the right to reuse to the user.
+notes: 'Read https://scrappa.co/legal/terms-of-service (updated 8 Sep 2026; section 8 Data and Content).
+  Provider permission: commercial/non-commercial applications, storing, caching, display to users. Reselling
+  API output as a standalone dataset/feed or reselling access needs written authorization. The permission
+  governs only the relationship with Scrappa: output may contain third-party content, no third-party licence
+  is granted, and the user must clear attribution, retention, redistribution and AI/TDM restrictions of
+  sources (Google, Maps, review sites). Hence verdict_override yellow. attribution_required left unknown
+  (no attribution clause found). Requires API key.'
+evidence:
+- field: commercial_use
+  url: https://scrappa.co/legal/terms-of-service
+  quote: we permit you to use API output lawfully obtained through your account in your own commercial
+    or non-commercial applications, websites, and reports
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://scrappa.co/legal/terms-of-service
+  quote: This includes storing and caching output, displaying it to your users, linking to original sources
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://scrappa.co/legal/terms-of-service
+  quote: This includes storing and caching output, displaying it to your users, linking to original sources
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://scrappa.co/legal/terms-of-service
+  quote: Public availability and delivery through the API do not, by themselves, establish a right to
+    reuse content.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://scrappa.co/legal/terms-of-service
+  quote: Rate limits may vary based on your account tier and usage patterns.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

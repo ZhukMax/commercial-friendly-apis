@@ -13,13 +13,53 @@ sources:
   url: https://bklink.uk/docs/api
   category: Development
 link_status: alive
-data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
-bulk_download: unknown
+data_license: proprietary (API terms; figures usable in own product with attribution)
+commercial_use: 'yes'
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: 'no'
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://bklink.uk/docs/api/attribution-and-terms
+commercial_use_scope: any
+cache_limit: 30 days
+attribution_text: BV by mxverify (working link to the site's report_url, next to each figure; nofollow allowed)
+rate_limits: 'Free key: 1,000 lookups/day, 25 new valuations/day; partner key 50,000 lookups/day (paid wallet)'
+notes: 'Pages read: https://bklink.uk/docs/api, /docs/api/attribution-and-terms, /docs/api/errors-and-limits (the site /terms page is behind a sign-in redirect and was not read). Terms apply to free and
+  partner keys alike. Commercial use is inferred from the permission to show BV in your own product to your own users plus a paid partner tier for marketplaces and tools; there is no explicit commercial-use
+  sentence, hence medium confidence. Cache max 30 days (limited, so yellow). Bulk resale or redistribution as dataset/feed is forbidden. Attribution is plain credit with any working link; nofollow explicitly
+  allowed. The service is a model estimate (not a price). Note the API base is mxverify.uk/api/v1/bv.'
+evidence:
+- field: commercial_use
+  url: https://bklink.uk/docs/api/attribution-and-terms
+  quote: Show BV in your own product, to your own users.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://bklink.uk/docs/api/attribution-and-terms
+  quote: You may keep answers for up to 30 days , then look them up again.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://bklink.uk/docs/api/attribution-and-terms
+  quote: Do not sell, license or redistribute BV figures in bulk, for example as a downloadable dataset or a data feed.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://bklink.uk/docs/api/attribution-and-terms
+  quote: Wherever you show a BV from this API, show the words BV by mxverify beside it, as a working link
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://bklink.uk/docs/api/attribution-and-terms
+  quote: Using the BV API means accepting these terms.
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://bklink.uk/docs/api/attribution-and-terms
+  quote: Do not sell, license or redistribute BV figures in bulk, for example as a downloadable dataset or a data feed.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://bklink.uk/docs/api/errors-and-limits
+  quote: Lookups (each target is one) 1,000 50,000, or your account's own limit
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

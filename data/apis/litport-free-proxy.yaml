@@ -23,3 +23,10 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://litport.net/terms-of-use
+notes: Read Litport Terms of Use, Appropriate Use Policy and the Free proxy API docs. Terms are for paying
+  proxy customers; neither they nor the free-proxy API docs say anything about licence, commercial use,
+  storage or display of the free proxy list data (proxy observations). Free proxies are third-party open
+  proxies. All core fields unknown.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

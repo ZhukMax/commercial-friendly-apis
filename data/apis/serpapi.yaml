@@ -23,3 +23,14 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://serpapi.com/legal
+notes: Read https://serpapi.com/legal (Terms of Service, last updated 27 Aug 2026, plus privacy policy).
+  The terms contain no grant or restriction about commercial use of results, storage/caching or display
+  of results; they only forbid to reproduce, duplicate, copy, sell, resell or exploit any portion of the
+  Service without written permission, which is generic and does not clearly address use of search results.
+  Section 13 describes a U.S. Legal Shield (up to $2M liability coverage on paid recurring plans above
+  Developer) for scraping, not a data-use licence. FAQ and pricing pages did not state terms for results.
+  Results are scraped third-party search engine content (rights of the search engines not addressed).
+  All core fields unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -15,11 +15,43 @@ sources:
 link_status: alive
 data_license: unknown
 commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
+storage_caching: ambiguous
+redistribution_display: ambiguous
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://serpstack.com/terms
+rate_limits: 'Free plan: up to 100 requests per month'
+notes: Read https://serpstack.com/terms (Terms of Service & License Agreement, apilayer, last modified
+  2019) and the homepage. The licence allows displaying API data to individual end users of your applications
+  for their personal use only, bans end-user storage and distribution, and bans posting API data in any
+  public forum including the internet and reproducing, copying or distributing the data. Whether a public
+  website that shows results is allowed is therefore unclear (ambiguous). Commercial use of the data is
+  not addressed explicitly (unknown); the licence is revocable and use/storage after termination is banned.
+  The Idera/apilayer legal hub https://www.ideracorp.com/legal/APILayer is a company imprint and has no
+  API terms. Results are scraped Google content (rights of the search engine not addressed).
+evidence:
+- field: redistribution_display
+  url: https://serpstack.com/terms
+  quote: permitted to receive, process, and display serpstack API Data & Services to individual end-users
+    of your application(s)
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://serpstack.com/terms
+  quote: You do not permit Your end users to store, distribute, or otherwise exploit serpstack API Data
+    & Services for any other purposes
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://serpstack.com/
+  quote: Up to 100 monthly requests are free.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read: display allowed to end users for personal use, no transfer outside the application,
+  no posting in any public forum including the internet. Apilayer template (same as apifreaks). Leans
+  restrictive for bulk-published pages; ambiguous stands.'

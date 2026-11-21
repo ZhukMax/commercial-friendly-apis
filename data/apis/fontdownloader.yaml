@@ -23,3 +23,7 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+notes: 'Read the homepage: states the tool and JSON API are open source and public, no authentication, rate limits may apply, and data are Google Fonts. No terms page, no licence for the API data; font
+  licences are per font (Google Fonts, OFL/Apache) and were not checked. All core fields unknown.'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

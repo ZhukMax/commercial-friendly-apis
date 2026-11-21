@@ -15,11 +15,35 @@ sources:
 link_status: alive
 data_license: unknown
 commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
+storage_caching: 'yes'
+redistribution_display: 'yes'
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://www.iplocate.io/legal/terms
+rate_limits: 'Free: 1,000 requests/day'
+notes: 'Read IPLocate Terms of Service (/legal/terms) and pricing. API licence grants right to access/query
+  the API and to "receive, store, process, and display the data returned by the API" (plan quota applies,
+  free tier included). The Terms do not state explicitly whether commercial use is allowed or whether
+  attribution is needed for API data, so commercial_use and attribution stay unknown (verdict unknown).
+  Separate rules: paid downloadable databases are internal-use only; free downloadable databases are CC
+  BY-SA 4.0 with attribution; WHOIS/ASN/Abuse Contact fields must not be used for advertising or marketing.
+  Docs page /docs needs an API key for full use; unauthenticated tier details not verified.'
+evidence:
+- field: storage_caching
+  url: https://www.iplocate.io/legal/terms
+  quote: Receive, store, process, and display the data returned by the API.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.iplocate.io/legal/terms
+  quote: Receive, store, process, and display the data returned by the API.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://www.iplocate.io/pricing
+  quote: free up to 1,000 requests per day
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

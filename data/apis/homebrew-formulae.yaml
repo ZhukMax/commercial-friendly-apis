@@ -13,13 +13,39 @@ sources:
   url: https://formulae.brew.sh/api/
   category: Development
 link_status: alive
-data_license: unknown
-commercial_use: unknown
+data_license: BSD-2-Clause
+commercial_use: 'yes'
 storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+redistribution_display: 'yes'
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://github.com/Homebrew/formulae.brew.sh
+data_license_url: https://raw.githubusercontent.com/Homebrew/formulae.brew.sh/HEAD/LICENSE.txt
+commercial_use_scope: any
+attribution_text: Retain the BSD 2-Clause copyright notice (Homebrew contributors)
+evidence:
+- field: data_license
+  url: https://raw.githubusercontent.com/Homebrew/formulae.brew.sh/HEAD/LICENSE.txt
+  quote: BSD 2-Clause License
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://raw.githubusercontent.com/Homebrew/formulae.brew.sh/HEAD/LICENSE.txt
+  quote: 'Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:'
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://raw.githubusercontent.com/Homebrew/formulae.brew.sh/HEAD/LICENSE.txt
+  quote: 'Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:'
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://raw.githubusercontent.com/Homebrew/formulae.brew.sh/HEAD/LICENSE.txt
+  quote: Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+  checked_at: '2026-11-21'
+notes: 'Read formulae.brew.sh JSON API docs and README, and the BSD-2-Clause LICENSE of Homebrew/formulae.brew.sh (same text in homebrew-core). The API JSON is generated from homebrew-core/cask files; no
+  separate data or API terms page exists, so applying the BSD licence to the JSON is an inference (medium confidence). Storage/caching not stated: unknown. The JSON includes upstream package descriptions,
+  homepages and licences that belong to each project. Site hosted on GitHub Pages; no rate limit published.'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

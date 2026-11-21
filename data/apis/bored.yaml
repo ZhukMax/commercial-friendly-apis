@@ -23,3 +23,14 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://bored-api.appbrewery.com/
+rate_limits: 100 requests per 15 minutes
+notes: 'Page read: https://bored-api.appbrewery.com/ (documentation only). It describes itself as a teaching tool of The App Brewery for its students (a copy/continuation of the original Bored API); no
+  terms, licence, caching or attribution statement exists on the page, and no repo licence was found. All terms fields unknown.'
+evidence:
+- field: rate_limits
+  url: https://bored-api.appbrewery.com/
+  quote: API Requests are rate limited to 100 requests every 15 minutes.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

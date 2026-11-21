@@ -14,12 +14,39 @@ sources:
   category: Development
 link_status: alive
 data_license: unknown
-commercial_use: unknown
+commercial_use: ambiguous
 storage_caching: unknown
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
+verdict: yellow
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://amazonscraperapi.com/terms
+commercial_use_scope: any
+rate_limits: Per plan, measured in requests per second; PAYG $0.90 per 1,000 requests; 1000 free credits
+notes: Read https://amazonscraperapi.com/terms (short ToS) and the blog link on legality exists but was
+  not read. The provider says extracted data remains the customer's property but puts responsibility for
+  compliance with the data source's terms on the customer; the data is scraped Amazon product/search content
+  (Amazon's own rights and Conditions of Use apply; Amazon's page returned 403 so was not read). The ToS
+  also bans reselling/distributing the Service. Nothing on caching/storage, display or attribution. Commercial
+  use is therefore ambiguous (provider terms silent, upstream source restrictive in practice), not a green
+  candidate.
+evidence:
+- field: commercial_use
+  url: https://amazonscraperapi.com/terms
+  quote: Data you extract using the Service remains your property.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://amazonscraperapi.com/terms
+  quote: solely responsible for ensuring that your use of the extracted data complies with applicable
+    laws and the terms of service of the data source
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'ToS re-read: data remains customer property but customer must comply with source ToS;
+  bans reselling the Service. Amazon Conditions of Use returned 403 to curl, so upstream could not be
+  checked; scraped Amazon content is a likely blocker for a public site. Yellow/ambiguous stands.'

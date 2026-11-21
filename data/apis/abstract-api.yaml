@@ -17,10 +17,30 @@ link_status: alive
 data_license: unknown
 commercial_use: unknown
 storage_caching: unknown
-redistribution_display: unknown
+redistribution_display: ambiguous
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://www.abstractapi.com/legal/legal
+notes: 'Read the only legal page (Terms of Use + Privacy, https://www.abstractapi.com/legal/legal; /terms
+  and /legal/terms-of-service 404). It is a generic Site terms text with no API-specific licence, caching
+  or attribution clause for returned data; the resale/third-party clause may or may not reach API output,
+  hence ambiguous for display. Commercial use is not addressed, so unknown. A DATA ATTRIBUTION section
+  refers to upstream open-source licences for some content (e.g. IP geolocation datasets) without naming
+  them here: not checked. Per-API pages (IP geolocation, exchange rates, email/phone validation) not read.'
+evidence:
+- field: redistribution_display
+  url: https://www.abstractapi.com/legal/legal
+  quote: otherwise commercially exploit as a standalone product, or make available to any third party,
+    the Site, or any Content not owned by you
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read /legal/legal: only site Terms (bans reselling Content, no API clause); /data-attribution
+  404. Pricing page lists a Commercial license row for paid tiers. Unknown stands; ambiguity unresolved,
+  leaning restrictive for bulk-published results.'

@@ -16,10 +16,28 @@ link_status: alive
 data_license: unknown
 commercial_use: unknown
 storage_caching: unknown
-redistribution_display: unknown
+redistribution_display: ambiguous
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://keirolabs.cloud/terms
+evidence:
+- field: redistribution_display
+  url: https://keirolabs.cloud/terms
+  quote: Do not resell raw access to the Service or its index, circumvent published rate limits, or attempt
+    to reverse engineer the Service.
+  checked_at: '2026-11-21'
+notes: 'Read https://keirolabs.cloud/terms (effective 2026-11-14). Terms: user is responsible for having
+  the right to use retrieved content downstream, results come from third parties (search engines, sites)
+  and the user must respect those sites terms; reselling raw access is banned. Nothing explicit on commercial
+  use, caching or display, and the upstream search-engine rights are not addressed, so those stay unknown.
+  Free 1,000 credits, paid plans on the pricing page (not read in detail).'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read via Playwright (effective 14 Nov 2026): results from third parties, not stored.
+  Unknown stands.'

@@ -21,5 +21,15 @@ attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: 'Account-scoped time-tracking service: the API submits and reads a logged-in user''s
+  own coding XP via personal machine tokens; it is not a public data source.'
+api_terms_url: https://codestats.net/tos
+notes: 'Read https://codestats.net/tos (privacy policy and short terms of service: free service, no SLA,
+  do not hammer the API, do not insert fake XP, be nice) and https://codestats.net/api-docs (token auth
+  per machine, pulses, profile endpoint). No licence or data-reuse terms are stated; user data is personal
+  data of Code::Stats users. Terms fields left unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

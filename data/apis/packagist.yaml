@@ -23,3 +23,12 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://packagist.org/apidoc
+notes: 'Read Packagist API docs (best-practice rules: send User-Agent with contact, max 10 concurrent
+  requests, prefer static metadata files, JSON API cached 12 h), /mirrors and packagist.com/about/terms.
+  The only ToS found belongs to Private Packagist (Packagist Conductors GmbH) and does not govern public
+  packagist.org metadata; no licence, commercial-use or redistribution statement for registry metadata
+  found. Mirrors page lists third-party community mirrors, but this is not a licence. Package contents
+  carry per-package licences. Core fields unknown.'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

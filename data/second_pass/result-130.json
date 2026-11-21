@@ -1,0 +1,80 @@
+[
+ {
+  "id": "agify-io",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms of Service (7 Apr 2026) allow any lawful commercial use, caching and incorporation into own products",
+   "Restrictions (no standalone-dataset resale, no competing service) not breached by pages that use predictions as one ingredient",
+   "Keyless API call still returns data (checked 2026-11-21); free tier not restricted to non-commercial"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Residual doubt: bulk-published name->age tables could be read as a standalone dataset (clause 5 'Resell raw predictions'). FAQ says data comes from 'publicly available sources across the web' with no upstream licence named. No attribution clause. Same Demografix terms as genderize/nationalize."
+ },
+ {
+  "id": "endoflife-date",
+  "outcome": "confirmed",
+  "reasons": [
+   "Repo LICENSE is MIT (sell/distribute permitted); OpenAPI info.license is MIT",
+   "No separate ToS or AUP restricting API use found",
+   "Only duty is keeping the copyright notice"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Caveats: MIT text speaks of 'Software', data covered by README statement; product descriptions adapted from English Wikipedia under CC BY-SA 3.0 (README), so descriptions in API output may be share-alike; v1 API is Beta; v0 API deprecated. Use the lifecycle dates, not the descriptions, to stay clean."
+ },
+ {
+  "id": "genderize-io",
+  "outcome": "confirmed",
+  "reasons": [
+   "Demografix ToS: any lawful commercial use, caching encouraged, predictions may be incorporated into own products",
+   "No non-commercial restriction on free tier; keyless call still works",
+   "Resale/competing-service bans do not hit normal page use"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Doubt: mass-publishing name->gender pages may brush against 'do not resell API results as a standalone dataset'; keep predictions as one element of the page. Data origin is 'publicly available sources across the web' (agify/genderize FAQ), upstream rights unnamed. Must not present results as verified facts about individuals."
+ },
+ {
+  "id": "hourora",
+  "outcome": "confirmed",
+  "reasons": [
+   "Developer API page: free for personal and commercial use, attribution optional, caching asked for",
+   "Website /en/terms: free for commercial purposes; tzdata and Natural Earth are public domain",
+   "API live and keyless (checked 2026-11-21)"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://hourora.app/en/terms",
+    "quote": "Time-zone data: IANA tzdata, public domain. Places: Natural Earth, public domain.",
+    "field": "data_license"
+   }
+  ],
+  "suggested": {},
+  "note": "First pass left data_license unknown; /en/terms resolves it to public domain (tzdata, Natural Earth). Minor doubts: one-person service, as-is with no SLA; website terms ask not to overload /api with automated requests (API page allows 120 req/min); do not present Hourora's pages as your own. Not safe for safety-critical use."
+ },
+ {
+  "id": "nationalize-io",
+  "outcome": "confirmed",
+  "reasons": [
+   "Same Demografix ToS: any lawful commercial use, unlimited-duration caching, incorporation into own products",
+   "Keyless call to api.nationalize.io still works, so auth none holds",
+   "No non-commercial clause on free tier"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Doubts as for genderize/agify: standalone-dataset resale ban for bulk name->nationality pages; predictions must not be used for discrimination or shown as facts about individuals (nationality predictions are sensitive); upstream data origin 'publicly available sources'. Docs push a free key but keyless still answers."
+ },
+ {
+  "id": "seodata",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms (16 Oct 2026): results usable in own products, content and datasets, including commercially",
+   "Pricing FAQ repeats commercial use is allowed; free tier not restricted",
+   "Only bans: reselling raw API as competing service, volume scraping of website"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Doubts: terms say figures are 'estimates gathered from third-party sources', upstream not named and its licence could be stricter (not demonstrable); very new one-person service, can end service with 30 days notice. Storage is implied by 'datasets', no explicit caching clause. Anonymous limit is 20 lookups/day per IP, so real use needs a key or Unlimited plan. Keyless API works (docs: api.seodata.dev/v1/keyword). Confidence medium or lower."
+ }
+]

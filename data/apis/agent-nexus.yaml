@@ -15,11 +15,43 @@ sources:
 link_status: alive
 data_license: unknown
 commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+storage_caching: ambiguous
+redistribution_display: ambiguous
+attribution_required: ambiguous
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://agentnexus.app/terms
+rate_limits: 100 calls/day anonymous, 1,000/day with free key, 50,000/day on Agent Pro
+notes: 'Pages read: /terms, /privacy, /pricing, /llms.txt, home. Conflicting signals: llms.txt invites
+  registries/datasets to mirror its surfaces and cite agentnexus.app (a request, not a stated licence),
+  while the Terms of Service forbid reselling or redistributing the Service or its data feeds. No explicit
+  statement on commercial use or data licence, so commercial_use and data_license stay unknown (verdict
+  unknown). Catalogue entries describe third-party services, each under its own terms.'
+evidence:
+- field: redistribution_display
+  url: https://agentnexus.app/terms
+  quote: reverse engineer, resell or redistribute the Service or its data feeds
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://agentnexus.app/llms.txt
+  quote: Registries, observatories and datasets are welcome to mirror these surfaces instead of re-probing
+    765 services — please cite agentnexus.app as the source.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://agentnexus.app/llms.txt
+  quote: please cite agentnexus.app as the source
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://agentnexus.app/llms.txt
+  quote: 'Quotas: 100 calls/day anonymous, 1000/day with a free key, 50000/day on Agent Pro'
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: ToS s5 (re-read, BrainPath.io, 16 Sep 2026) forbids reselling or redistributing the
+  Service or its data feeds; llms.txt only 'welcomes' mirroring with citation. Binding ToS outweighs it,
+  so evidence leans restrictive. Entry is a registry of third-party APIs, each with own terms.

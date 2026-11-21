@@ -1,0 +1,866 @@
+[
+ {
+  "id": "24-pull-requests",
+  "class": "data",
+  "reason": "Open source contribution project data",
+  "confidence": "low"
+ },
+ {
+  "id": "abacus",
+  "class": "not-data",
+  "reason": "Developer tool, utility or account-scoped service",
+  "confidence": "high"
+ },
+ {
+  "id": "abstract-api",
+  "class": "data",
+  "reason": "Suite incl. exchange rates, geolocation data",
+  "confidence": "low"
+ },
+ {
+  "id": "aether-bridge",
+  "class": "not-data",
+  "reason": "Developer tool, utility or account-scoped service",
+  "confidence": "high"
+ },
+ {
+  "id": "agent-nexus",
+  "class": "data",
+  "reason": "Registry of APIs and MCP servers",
+  "confidence": "high"
+ },
+ {
+  "id": "agentdeals",
+  "class": "data",
+  "reason": "Searchable free tiers, credits and pricing changes dataset",
+  "confidence": "medium"
+ },
+ {
+  "id": "agentpay-domain-lookup",
+  "class": "data",
+  "reason": "WHOIS/RDAP and IP ownership records",
+  "confidence": "low"
+ },
+ {
+  "id": "agify-io",
+  "class": "data",
+  "reason": "Name-to-age statistical dataset lookups",
+  "confidence": "low"
+ },
+ {
+  "id": "ai-sense",
+  "class": "not-data",
+  "reason": "Developer tool, utility or account-scoped service",
+  "confidence": "high"
+ },
+ {
+  "id": "allscreenshots",
+  "class": "not-data",
+  "reason": "Developer tool, utility or account-scoped service",
+  "confidence": "high"
+ },
+ {
+  "id": "amazonscraperapi",
+  "class": "data",
+  "reason": "Amazon product and search data",
+  "confidence": "medium"
+ },
+ {
+  "id": "amberone",
+  "class": "not-data",
+  "reason": "Developer tool, utility or account-scoped service",
+  "confidence": "high"
+ },
+ {
+  "id": "answerline",
+  "class": "data",
+  "reason": "Answers and citations from AI/Google",
+  "confidence": "low"
+ },
+ {
+  "id": "api-gr-tis",
+  "class": "not-data",
+  "reason": "Developer tool, utility or account-scoped service",
+  "confidence": "high"
+ },
+ {
+  "id": "api-snap",
+  "class": "not-data",
+  "reason": "Developer tool, utility or account-scoped service",
+  "confidence": "high"
+ },
+ {
+  "id": "api-status-check",
+  "class": "data",
+  "reason": "Service status data for APIs",
+  "confidence": "medium"
+ },
+ {
+  "id": "api-tool-calls",
+  "class": "data",
+  "reason": "Cost planners, recalls data",
+  "confidence": "low"
+ },
+ {
+  "id": "apicagent",
+  "class": "not-data",
+  "reason": "User-agent parsing computation",
+  "confidence": "medium"
+ },
+ {
+  "id": "apiflash",
+  "class": "not-data",
+  "reason": "Developer tool, utility or account-scoped service",
+  "confidence": "high"
+ },
+ {
+  "id": "apifreaks",
+  "class": "data",
+  "reason": "Weather, commodity, currency, geo data hub",
+  "confidence": "medium"
+ },
+ {
+  "id": "apis-guru",
+  "class": "data",
+  "reason": "Directory of API OpenAPI specs",
+  "confidence": "high"
+ },
+ {
+  "id": "apizone",
+  "class": "data",
+  "reason": "Uptime status data for APIs",
+  "confidence": "medium"
+ },
+ {
+  "id": "appgoat",
+  "class": "data",
+  "reason": "App store listings, reviews, rankings data",
+  "confidence": "high"
+ },
+ {
+  "id": "aquanode",
+  "class": "data",
+  "reason": "GPU rental prices and availability",
+  "confidence": "high"
+ },
+ {
+  "id": "aruljohn-com",
+  "class": "not-data",
+  "reason": "Returns caller IP only",
+  "confidence": "high"
+ },
+ {
+  "id": "azure-devops",
+  "class": "not-data",
+  "reason": "Developer tool, utility or account-scoped service",
+  "confidence": "high"
+ },
+ {
+  "id": "beeceptor",
+  "class": "not-data",
+  "reason": "Mock API tool",
+  "confidence": "high"
+ },
+ {
+  "id": "bettermeta",
+  "class": "not-data",
+  "reason": "Developer tool, utility or account-scoped service",
+  "confidence": "high"
+ },
+ {
+  "id": "bitbucket",
+  "class": "not-data",
+  "reason": "Git hosting platform API",
+  "confidence": "medium"
+ },
+ {
+  "id": "blague-xyz",
+  "class": "data",
+  "reason": "Jokes text corpus",
+  "confidence": "high"
+ },
+ {
+  "id": "blitapp",
+  "class": "not-data",
+  "reason": "Developer tool, utility or account-scoped service",
+  "confidence": "high"
+ },
+ {
+  "id": "blynk-cloud",
+  "class": "not-data",
+  "reason": "Developer tool, utility or account-scoped service",
+  "confidence": "high"
+ },
+ {
+  "id": "bored",
+  "class": "data",
+  "reason": "Activity ideas dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "bountycheck",
+  "class": "data",
+  "reason": "Bounty issue verdicts and stats",
+  "confidence": "low"
+ },
+ {
+  "id": "brainshop-ai",
+  "class": "not-data",
+  "reason": "Developer tool, utility or account-scoped service",
+  "confidence": "high"
+ },
+ {
+  "id": "brewpage",
+  "class": "not-data",
+  "reason": "Developer tool, utility or account-scoped service",
+  "confidence": "high"
+ },
+ {
+  "id": "browsercat",
+  "class": "not-data",
+  "reason": "Developer tool, utility or account-scoped service",
+  "confidence": "high"
+ },
+ {
+  "id": "browshot",
+  "class": "not-data",
+  "reason": "Developer tool, utility or account-scoped service",
+  "confidence": "high"
+ },
+ {
+  "id": "cdnjs",
+  "class": "data",
+  "reason": "Library metadata catalogue",
+  "confidence": "high"
+ },
+ {
+  "id": "chartbytes",
+  "class": "not-data",
+  "reason": "Developer tool, utility or account-scoped service",
+  "confidence": "high"
+ },
+ {
+  "id": "ciprand",
+  "class": "not-data",
+  "reason": "Developer tool, utility or account-scoped service",
+  "confidence": "high"
+ },
+ {
+  "id": "citedby",
+  "class": "not-data",
+  "reason": "Developer tool, utility or account-scoped service",
+  "confidence": "high"
+ },
+ {
+  "id": "clair",
+  "class": "data",
+  "reason": "Web data as JSON: search, maps, news, jobs",
+  "confidence": "medium"
+ },
+ {
+  "id": "claudecookie",
+  "class": "not-data",
+  "reason": "Developer tool, utility or account-scoped service",
+  "confidence": "high"
+ },
+ {
+  "id": "cloudflare",
+  "class": "not-data",
+  "reason": "Developer tool, utility or account-scoped service",
+  "confidence": "high"
+ },
+ {
+  "id": "cloudflare-trace",
+  "class": "not-data",
+  "reason": "Returns caller request info",
+  "confidence": "high"
+ },
+ {
+  "id": "codeberg",
+  "class": "not-data",
+  "reason": "Git hosting platform API",
+  "confidence": "medium"
+ },
+ {
+  "id": "codex",
+  "class": "not-data",
+  "reason": "Developer tool, utility or account-scoped service",
+  "confidence": "high"
+ },
+ {
+  "id": "compute-comparison",
+  "class": "data",
+  "reason": "GPU rental prices and history",
+  "confidence": "high"
+ },
+ {
+  "id": "contentful-images",
+  "class": "not-data",
+  "reason": "Image transformation service",
+  "confidence": "high"
+ },
+ {
+  "id": "cors-proxy",
+  "class": "not-data",
+  "reason": "Developer tool, utility or account-scoped service",
+  "confidence": "high"
+ },
+ {
+  "id": "corsfix",
+  "class": "not-data",
+  "reason": "Developer tool, utility or account-scoped service",
+  "confidence": "high"
+ },
+ {
+  "id": "crawl-readiness",
+  "class": "not-data",
+  "reason": "Developer tool, utility or account-scoped service",
+  "confidence": "high"
+ },
+ {
+  "id": "crawlbrulee",
+  "class": "not-data",
+  "reason": "Developer tool, utility or account-scoped service",
+  "confidence": "high"
+ },
+ {
+  "id": "cueapi",
+  "class": "not-data",
+  "reason": "Developer tool, utility or account-scoped service",
+  "confidence": "high"
+ },
+ {
+  "id": "curlshot",
+  "class": "not-data",
+  "reason": "Developer tool, utility or account-scoped service",
+  "confidence": "high"
+ },
+ {
+  "id": "dahono-free-proxy",
+  "class": "data",
+  "reason": "Proxy list records with geolocation",
+  "confidence": "low"
+ },
+ {
+  "id": "databricks",
+  "class": "not-data",
+  "reason": "Developer tool, utility or account-scoped service",
+  "confidence": "high"
+ },
+ {
+  "id": "diagrams-so",
+  "class": "not-data",
+  "reason": "Developer tool, utility or account-scoped service",
+  "confidence": "high"
+ },
+ {
+  "id": "digitalocean-status",
+  "class": "data",
+  "reason": "Service status data",
+  "confidence": "medium"
+ },
+ {
+  "id": "digmyname",
+  "class": "data",
+  "reason": "Domain availability and registrar pricing data",
+  "confidence": "medium"
+ },
+ {
+  "id": "discord-timestamp-generator",
+  "class": "not-data",
+  "reason": "Developer tool, utility or account-scoped service",
+  "confidence": "high"
+ },
+ {
+  "id": "docker-hub",
+  "class": "not-data",
+  "reason": "Developer tool, utility or account-scoped service",
+  "confidence": "high"
+ },
+ {
+  "id": "doczillla",
+  "class": "not-data",
+  "reason": "Developer tool, utility or account-scoped service",
+  "confidence": "high"
+ },
+ {
+  "id": "domain-info-by-lifestep",
+  "class": "not-data",
+  "reason": "DNS/TLS check utility",
+  "confidence": "medium"
+ },
+ {
+  "id": "domaindb-info",
+  "class": "data",
+  "reason": "Domain name search database",
+  "confidence": "high"
+ },
+ {
+  "id": "dotsweep",
+  "class": "data",
+  "reason": "Domain availability and TLD prices",
+  "confidence": "medium"
+ },
+ {
+  "id": "downstatus",
+  "class": "data",
+  "reason": "Service status data",
+  "confidence": "medium"
+ },
+ {
+  "id": "endoflife-date",
+  "class": "data",
+  "reason": "Software lifecycle dates dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "enterno",
+  "class": "not-data",
+  "reason": "Network check utility",
+  "confidence": "medium"
+ },
+ {
+  "id": "extendsclass-json-storage",
+  "class": "not-data",
+  "reason": "Developer tool, utility or account-scoped service",
+  "confidence": "high"
+ },
+ {
+  "id": "extracto",
+  "class": "not-data",
+  "reason": "Developer tool, utility or account-scoped service",
+  "confidence": "high"
+ },
+ {
+  "id": "faceplusplus",
+  "class": "not-data",
+  "reason": "Developer tool, utility or account-scoped service",
+  "confidence": "high"
+ },
+ {
+  "id": "fair-draw",
+  "class": "not-data",
+  "reason": "Developer tool, utility or account-scoped service",
+  "confidence": "high"
+ },
+ {
+  "id": "fontdownloader",
+  "class": "data",
+  "reason": "Web font files from Google Fonts",
+  "confidence": "low"
+ },
+ {
+  "id": "gcrawlai",
+  "class": "not-data",
+  "reason": "Developer tool, utility or account-scoped service",
+  "confidence": "high"
+ },
+ {
+  "id": "geekflare",
+  "class": "not-data",
+  "reason": "Developer tool, utility or account-scoped service",
+  "confidence": "high"
+ },
+ {
+  "id": "genderize-io",
+  "class": "data",
+  "reason": "Name-to-gender statistical dataset",
+  "confidence": "low"
+ },
+ {
+  "id": "geracode",
+  "class": "not-data",
+  "reason": "Developer tool, utility or account-scoped service",
+  "confidence": "high"
+ },
+ {
+  "id": "ghost",
+  "class": "not-data",
+  "reason": "CMS for own content",
+  "confidence": "high"
+ },
+ {
+  "id": "github",
+  "class": "data",
+  "reason": "Repository and user records",
+  "confidence": "low"
+ },
+ {
+  "id": "github-developer",
+  "class": "data",
+  "reason": "Repository and user records",
+  "confidence": "low"
+ },
+ {
+  "id": "githubtrends",
+  "class": "data",
+  "reason": "Trending repos and star history data",
+  "confidence": "high"
+ },
+ {
+  "id": "gitlab",
+  "class": "not-data",
+  "reason": "Git hosting platform API",
+  "confidence": "medium"
+ },
+ {
+  "id": "gitter-github",
+  "class": "not-data",
+  "reason": "Developer tool, utility or account-scoped service",
+  "confidence": "high"
+ },
+ {
+  "id": "go-module-proxy",
+  "class": "data",
+  "reason": "Go module versions and metadata",
+  "confidence": "high"
+ },
+ {
+  "id": "google-docs",
+  "class": "not-data",
+  "reason": "Developer tool, utility or account-scoped service",
+  "confidence": "high"
+ },
+ {
+  "id": "google-firebase",
+  "class": "not-data",
+  "reason": "Developer tool, utility or account-scoped service",
+  "confidence": "high"
+ },
+ {
+  "id": "google-fonts",
+  "class": "data",
+  "reason": "Font family metadata",
+  "confidence": "high"
+ },
+ {
+  "id": "google-keep",
+  "class": "not-data",
+  "reason": "Developer tool, utility or account-scoped service",
+  "confidence": "high"
+ },
+ {
+  "id": "google-pagespeed-insights",
+  "class": "not-data",
+  "reason": "Developer tool, utility or account-scoped service",
+  "confidence": "high"
+ },
+ {
+  "id": "google-sheets",
+  "class": "not-data",
+  "reason": "Developer tool, utility or account-scoped service",
+  "confidence": "high"
+ },
+ {
+  "id": "google-slides",
+  "class": "not-data",
+  "reason": "Developer tool, utility or account-scoped service",
+  "confidence": "high"
+ },
+ {
+  "id": "gorest",
+  "class": "not-data",
+  "reason": "Test/prototyping API",
+  "confidence": "high"
+ },
+ {
+  "id": "hasura",
+  "class": "not-data",
+  "reason": "Developer tool, utility or account-scoped service",
+  "confidence": "high"
+ },
+ {
+  "id": "heroku",
+  "class": "not-data",
+  "reason": "Developer tool, utility or account-scoped service",
+  "confidence": "high"
+ },
+ {
+  "id": "hex",
+  "class": "data",
+  "reason": "Package versions and docs",
+  "confidence": "high"
+ },
+ {
+  "id": "hipsum",
+  "class": "not-data",
+  "reason": "Placeholder text generator",
+  "confidence": "high"
+ },
+ {
+  "id": "homebrew-formulae",
+  "class": "data",
+  "reason": "Package and cask data",
+  "confidence": "high"
+ },
+ {
+  "id": "host-io",
+  "class": "data",
+  "reason": "Domains data API",
+  "confidence": "high"
+ },
+ {
+  "id": "host-t-com",
+  "class": "not-data",
+  "reason": "DNS query utility",
+  "confidence": "medium"
+ },
+ {
+  "id": "hostdealradar",
+  "class": "data",
+  "reason": "Hosting prices and provider records",
+  "confidence": "high"
+ },
+ {
+  "id": "hourora",
+  "class": "data",
+  "reason": "Time zones, DST data, city lookup",
+  "confidence": "low"
+ },
+ {
+  "id": "http2-pro",
+  "class": "not-data",
+  "reason": "Developer tool, utility or account-scoped service",
+  "confidence": "high"
+ },
+ {
+  "id": "httpbin",
+  "class": "not-data",
+  "reason": "HTTP testing service",
+  "confidence": "high"
+ },
+ {
+  "id": "hunter",
+  "class": "not-data",
+  "reason": "Developer tool, utility or account-scoped service",
+  "confidence": "high"
+ },
+ {
+  "id": "ibm-text-to-speech",
+  "class": "not-data",
+  "reason": "Text-to-speech service",
+  "confidence": "high"
+ },
+ {
+  "id": "ibm-text-to-speech-console",
+  "class": "not-data",
+  "reason": "Text-to-speech service",
+  "confidence": "high"
+ },
+ {
+  "id": "icanhazepoch",
+  "class": "not-data",
+  "reason": "Developer tool, utility or account-scoped service",
+  "confidence": "high"
+ },
+ {
+  "id": "icanhazip",
+  "class": "not-data",
+  "reason": "Returns caller IP only",
+  "confidence": "high"
+ },
+ {
+  "id": "ifttt",
+  "class": "not-data",
+  "reason": "Developer tool, utility or account-scoped service",
+  "confidence": "high"
+ },
+ {
+  "id": "ilmenite",
+  "class": "not-data",
+  "reason": "Developer tool, utility or account-scoped service",
+  "confidence": "high"
+ },
+ {
+  "id": "image-charts",
+  "class": "not-data",
+  "reason": "Developer tool, utility or account-scoped service",
+  "confidence": "high"
+ },
+ {
+  "id": "image-charts-image-charts",
+  "class": "not-data",
+  "reason": "Developer tool, utility or account-scoped service",
+  "confidence": "high"
+ },
+ {
+  "id": "import-io",
+  "class": "not-data",
+  "reason": "Developer tool, utility or account-scoped service",
+  "confidence": "high"
+ },
+ {
+  "id": "index-agentica",
+  "class": "data",
+  "reason": "Directory of skills, MCP servers, APIs",
+  "confidence": "high"
+ },
+ {
+  "id": "ip-fast-com",
+  "class": "data",
+  "reason": "IP country and city lookup",
+  "confidence": "medium"
+ },
+ {
+  "id": "ip2whois-information-lookup",
+  "class": "data",
+  "reason": "WHOIS records",
+  "confidence": "high"
+ },
+ {
+  "id": "ipapi-is",
+  "class": "data",
+  "reason": "IP geolocation and ASN dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "ipfind-io",
+  "class": "data",
+  "reason": "IP geolocation dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "ipify",
+  "class": "not-data",
+  "reason": "Returns caller IP only",
+  "confidence": "high"
+ },
+ {
+  "id": "ipinfo",
+  "class": "data",
+  "reason": "IP geolocation dataset",
+  "confidence": "high"
+ },
+ {
+  "id": "iplocate-io",
+  "class": "data",
+  "reason": "IP geolocation and threat data",
+  "confidence": "high"
+ },
+ {
+  "id": "ipv4-network-tools",
+  "class": "not-data",
+  "reason": "Network lookup utilities",
+  "confidence": "medium"
+ },
+ {
+  "id": "ironfang-render",
+  "class": "not-data",
+  "reason": "Developer tool, utility or account-scoped service",
+  "confidence": "high"
+ },
+ {
+  "id": "jmespath-free-api",
+  "class": "not-data",
+  "reason": "Developer tool, utility or account-scoped service",
+  "confidence": "high"
+ },
+ {
+  "id": "jsdelivr",
+  "class": "data",
+  "reason": "Package info and download stats",
+  "confidence": "high"
+ },
+ {
+  "id": "json-2-jsonp",
+  "class": "not-data",
+  "reason": "Developer tool, utility or account-scoped service",
+  "confidence": "high"
+ },
+ {
+  "id": "jsonbin-io",
+  "class": "not-data",
+  "reason": "Developer tool, utility or account-scoped service",
+  "confidence": "high"
+ },
+ {
+  "id": "jsonplaceholder",
+  "class": "not-data",
+  "reason": "Fake test API",
+  "confidence": "high"
+ },
+ {
+  "id": "jstash",
+  "class": "not-data",
+  "reason": "Developer tool, utility or account-scoped service",
+  "confidence": "high"
+ },
+ {
+  "id": "keirolabs",
+  "class": "data",
+  "reason": "Web search results and extracted content",
+  "confidence": "low"
+ },
+ {
+  "id": "keyvalue",
+  "class": "not-data",
+  "reason": "Developer tool, utility or account-scoped service",
+  "confidence": "high"
+ },
+ {
+  "id": "kiprio-ip-lookup",
+  "class": "data",
+  "reason": "IP geolocation and reputation data",
+  "confidence": "high"
+ },
+ {
+  "id": "kiprio-og-image",
+  "class": "not-data",
+  "reason": "Developer tool, utility or account-scoped service",
+  "confidence": "high"
+ },
+ {
+  "id": "kiprio-screenshot",
+  "class": "not-data",
+  "reason": "Developer tool, utility or account-scoped service",
+  "confidence": "high"
+ },
+ {
+  "id": "kroki",
+  "class": "not-data",
+  "reason": "Developer tool, utility or account-scoped service",
+  "confidence": "high"
+ },
+ {
+  "id": "labelixa",
+  "class": "not-data",
+  "reason": "Developer tool, utility or account-scoped service",
+  "confidence": "high"
+ },
+ {
+  "id": "latest",
+  "class": "data",
+  "reason": "Software versions and EOL dates",
+  "confidence": "high"
+ },
+ {
+  "id": "let-s-validate",
+  "class": "not-data",
+  "reason": "Developer tool, utility or account-scoped service",
+  "confidence": "high"
+ },
+ {
+  "id": "license-api",
+  "class": "data",
+  "reason": "Open source license texts and metadata",
+  "confidence": "high"
+ },
+ {
+  "id": "litport-free-proxy",
+  "class": "data",
+  "reason": "Proxy list records with geolocation",
+  "confidence": "low"
+ },
+ {
+  "id": "liveordown",
+  "class": "data",
+  "reason": "Service status records",
+  "confidence": "medium"
+ },
+ {
+  "id": "logs-to",
+  "class": "not-data",
+  "reason": "Log generator",
+  "confidence": "medium"
+ }
+]

@@ -23,3 +23,19 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://macadress.com/terms
+rate_limits: 'Free: 1,000 lookups/month keyed, 30 requests/min; keyless vendor endpoint 1,000/day per
+  IP'
+notes: 'Read macadress Terms (updated 22 Aug 2026), pricing, docs and data-sources page. Terms: use within
+  plan limits; no scraping of web UI, no wholesale redistribution of the IEEE data as a competing lookup
+  service; "Reasonable, good-faith use ... is always fine". Pricing page labels the free plan "Prototypes,
+  personal projects, one-off scripts" and Growth "Production apps" but there is no explicit commercial-use,
+  caching, display or attribution clause. Data is synced from IEEE public registries (IEEE terms not read).
+  Core fields unknown.'
+evidence:
+- field: rate_limits
+  url: https://macadress.com/pricing
+  quote: 1,000 lookups / month
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

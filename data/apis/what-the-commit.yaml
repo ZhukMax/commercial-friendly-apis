@@ -13,13 +13,40 @@ sources:
   url: http://whatthecommit.com/index.txt
   category: Test Data
 link_status: alive
-data_license: unknown
-commercial_use: unknown
+data_license: MIT (source code repository; licence of the message list not separately stated)
+commercial_use: ambiguous
 storage_caching: unknown
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
-self_host_option: unknown
-verdict: unknown
+self_host_option: 'yes'
+verdict: yellow
 confidence: low
 link_checked_at: '2026-11-21'
+data_license_url: https://raw.githubusercontent.com/ngerakines/commitment/main/LICENSE
+notes: The site has no terms page. Its HTML source contains the comment "Like what you see? https://github.com/ngerakines/commitment"
+  and humans.txt names the same author; the repo is MIT licensed (LICENSE read on GitHub, copyright 2010-2024
+  Nick Gerakines). MIT covers the software and files in the repo; the commit-message list is community-contributed
+  and no separate licence for it is stated, so commercial use of the messages is ambiguous. Self-hosting
+  possible. Endpoint is plain http (https false upstream).
+evidence:
+- field: data_license
+  url: https://raw.githubusercontent.com/ngerakines/commitment/main/LICENSE
+  quote: Permission is hereby granted, free of charge, to any person obtaining a copy of this software
+    and associated documentation files
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://raw.githubusercontent.com/ngerakines/commitment/main/LICENSE
+  quote: Permission is hereby granted, free of charge, to any person obtaining a copy of this software
+    and associated documentation files
+  checked_at: '2026-11-21'
+- field: self_host_option
+  url: https://raw.githubusercontent.com/ngerakines/commitment/main/LICENSE
+  quote: to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: index.txt returns 200. MIT covers code; messages are community contributed with no
+  licence stated. Yellow/ambiguous stands.

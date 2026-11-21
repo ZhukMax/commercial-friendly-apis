@@ -14,13 +14,41 @@ sources:
   category: Development
 link_status: redirect
 data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: ambiguous
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
 link_note: -> https://github.com/npm/registry/blob/main/docs/REGISTRY-API.md
+api_terms_url: https://docs.npmjs.com/policies/open-source-terms
+commercial_use_scope: any
+evidence:
+- field: commercial_use
+  url: https://docs.npmjs.com/policies/open-source-terms
+  quote: You are free to use npm Open Source for commercial projects, to advance your career, and for
+    other business purposes.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://docs.npmjs.com/policies/open-source-terms
+  quote: You may replicate data from the Public Registry using the Public APIs per this Agreement.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://docs.npmjs.com/policies/open-source-terms
+  quote: You may not provide others access to, copies of, or use of npm data about the security of Packages
+  checked_at: '2026-11-21'
+notes: Read npm Open-Source Terms (use of the public registry and Public APIs). Commercial use of npm
+  Open Source is allowed and replicating registry data through Public APIs is allowed. Package content
+  and metadata remain under each publisher licence; npm security data (audit/vulnerability reports) may
+  be used only for personal or internal business purposes and not provided to others. Display of arbitrary
+  package metadata is therefore ambiguous. Abuse of the API may lead to suspension; no numeric rate limit
+  read. URL in the entry is a GitHub docs page, the registry is registry.npmjs.org.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Open Source Terms re-read: commercial use and replication via Public APIs allowed;
+  vulnerability/audit data personal or internal only; package metadata per-publisher licence. Yellow stands.'

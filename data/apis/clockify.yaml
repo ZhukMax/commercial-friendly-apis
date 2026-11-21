@@ -25,3 +25,6 @@ verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
 link_note: -> https://docs.clockify.me/
+applicable: false
+not_applicable_reason: 'Triage by name and description only (terms not read): not a data source. Document/productivity
+  tool or account-scoped API, not a dataset'
