@@ -77,8 +77,8 @@
 | [CoinCap](https://docs.coincap.io/) | Real time Cryptocurrency prices through a RESTful API | ⚪ | — | — | — | [terms](https://pro.coincap.io/api-docs) | 2026-11-21 |
 | [CoinDesk](http://www.coindesk.com/api/) 🔗† | Bitcoin Price Index | ⚪ | — | — | — | — | 2026-11-21 |
 | [CoinNudge](https://coinnudge.site/data/api-docs) 🔗† | Current crypto market breadth, funding and open-interest research datasets | ⚪ | — | — | — | — | — |
-| [CoinRanking](https://docs.coinranking.com/) | Live Cryptocurrency data | ⚪ | — | — | required | [terms](https://support.coinranking.com/article/131-api-terms-conditions) | 2026-11-21 |
 | [CoinRanking](https://developers.coinranking.com/api/documentation) | Live Cryptocurrency data | ⚪ | — | — | required | [terms](https://support.coinranking.com/article/131-api-terms-conditions) | 2026-11-21 |
+| [CoinRanking](https://docs.coinranking.com/) | Live Cryptocurrency data | ⚪ | — | — | required | [terms](https://support.coinranking.com/article/131-api-terms-conditions) | 2026-11-21 |
 | [CryptingUp](https://www.cryptingup.com/apidoc/) 🔗† | Cryptocurrency data | ⚪ | — | — | — | — | 2026-11-21 |
 | [Crypto Fear & Greed Index (qiaobax)](https://qiaobax.com/en/tools/fear-greed-index/) 🔗† | Live crypto market sentiment index (0-100) computed hourly from momentum, trend, volatility and volume | ⚪ | — | — | — | — | — |
 | [Crypto Vision](https://cryptocurrency.cv/developers) | Free crypto news aggregator with market context, JSON REST and RSS | ⚪ | — | — | not required | [terms](https://cryptocurrency.cv/terms) | 2026-11-21 |

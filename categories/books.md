@@ -22,8 +22,8 @@
 | [Rig Veda](https://aninditabasu.github.io/indica/) | Gods and poets, their categories, and the verse meters, with the mandal and sukta number | 🔴 | ❌ | — | required | [terms](https://aninditabasu.github.io/indica/) | 2026-11-21 |
 | [A Bíblia Digital](https://www.abibliadigital.com.br/en) 🔗† | Do not worry about managing the multiple versions of the Bible | ⚪ | — | — | — | — | — |
 | [Amanah Sunnah](https://sunnah.amanahagent.cloud/developers) | Semantic search across Quran, Hadith, Tafsir & 18K+ Rijal narrators | ⚪ | — | — | — | [terms](https://sunnah.llm-kita.com/developers) | 2026-11-21 |
-| [Bhagavad Gita](https://bhagavadgita.io/api) 🔗† | Bhagavad Gita text | ⚪ | — | — | — | — | — |
 | [Bhagavad Gita](https://docs.bhagavadgitaapi.in) 🔗† | Open Source Shrimad Bhagavad Gita API including 21+ authors translation in Sanskrit/English/Hindi | ⚪ | — | — | — | — | 2026-11-21 |
+| [Bhagavad Gita](https://bhagavadgita.io/api) 🔗† | Bhagavad Gita text | ⚪ | — | — | — | — | — |
 | [Bhagavad Gita telugu](https://gita-api.vercel.app) | Bhagavad Gita API in telugu and odia languages | ⚪ | — | — | — | — | 2026-11-21 |
 | [British National Bibliography](http://bnb.data.bl.uk/) 🔗† | Books | ⚪ | — | — | — | — | — |
 | [Ganjoor](https://api.ganjoor.net) | Classic Persian poetry works including access to related manuscripts, recitations and music tracks | ⚪ | — | — | — | — | 2026-11-21 |

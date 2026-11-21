@@ -90,12 +90,12 @@
 | [GeraCode](https://www.geracodigo.com.br/api-codigo-de-barras) | Barcode (EAN-13, UPC-A, Code 128, ITF-14) and QR code images, PNG or SVG. Docs in Portuguese | ⚪ | — | — | — | — | — |
 | [GETPing](https://www.getping.info) 🔗† | Trigger an email notification with a simple GET request | ⚪ | — | — | — | — | — |
 | [Ghost](https://ghost.org/) | Get Published content into your Website, App or other embedded media | ⚪ | — | — | — | — | — |
-| [GitHub](https://developer.github.com/v3/) | Make use of GitHub repositories, code and user info programmatically | ⚪ | — | — | — | — | — |
 | [GitHub](https://docs.github.com/en/free-pro-team@latest/rest) | Make use of GitHub repositories, code and user info programmatically | ⚪ | — | — | — | — | — |
+| [GitHub](https://developer.github.com/v3/) | Make use of GitHub repositories, code and user info programmatically | ⚪ | — | — | — | — | — |
 | [GithubTrends](https://githubtrends.app/api/) | GitHub Trending repositories with star history and open-source alternatives to paid tools | ⚪ | — | — | — | — | — |
 | [Gitlab](https://docs.gitlab.com/ee/api/) | Automate GitLab interaction programmatically | ⚪ | — | — | — | — | — |
-| [Gitter](https://github.com/gitterHQ/docs) | Chat for GitHub | ⚪ | — | — | — | — | — |
 | [Gitter](https://developer.gitter.im/docs/welcome) 🔗† | Chat for Developers | ⚪ | — | — | — | — | — |
+| [Gitter](https://github.com/gitterHQ/docs) | Chat for GitHub | ⚪ | — | — | — | — | — |
 | [Glitterly](https://developers.glitterly.app) 🔗† | Image generation API | ⚪ | — | — | — | — | — |
 | [Go Module Proxy](https://go.dev/ref/mod) | Go module versions and source metadata | ⚪ | — | — | — | — | — |
 | [Google Docs](https://developers.google.com/docs/api/reference/rest) | API to read, write, and format Google Docs documents | ⚪ | — | — | — | — | — |
@@ -118,14 +118,14 @@
 | [HTTP2.Pro](https://http2.pro/doc/api) | Test endpoints for client and server HTTP/2 protocol support | ⚪ | — | — | — | — | — |
 | [Httpbin](https://httpbin.org/) | A Simple HTTP Request & Response Service | ⚪ | — | — | — | — | — |
 | [Hunter](https://hunter.io/api) | API for domain search, professional email finder, author finder and email verifier | ⚪ | — | — | — | — | — |
-| [IBM Text to Speech](https://console.bluemix.net/docs/services/text-to-speech/getting-started.html) | Convert text to speech | ⚪ | — | — | — | — | — |
 | [IBM Text to Speech](https://cloud.ibm.com/docs/text-to-speech/getting-started.html) | Convert text to speech | ⚪ | — | — | — | — | — |
+| [IBM Text to Speech](https://console.bluemix.net/docs/services/text-to-speech/getting-started.html) | Convert text to speech | ⚪ | — | — | — | — | — |
 | [Icanhazepoch](https://icanhazepoch.com) | Get Epoch time | ⚪ | — | — | — | — | — |
 | [Icanhazip](https://major.io/icanhazip-com-faq/) | IP Address API | ⚪ | — | — | — | — | — |
 | [IFTTT](https://platform.ifttt.com/docs/connect_api) | IFTTT Connect API | ⚪ | — | — | — | — | — |
 | [Ilmenite](https://ilmenite.dev/docs) | Rust web data API: scrape, crawl, extract, screenshots, PDFs, and discover hidden site APIs | ⚪ | — | — | — | — | — |
-| [Image-Charts](https://www.image-charts.com/) | Generate charts, QR codes and graph images | ⚪ | — | — | — | — | — |
 | [Image-Charts](https://documentation.image-charts.com/) | Generate charts, QR codes and graph images | ⚪ | — | — | — | — | — |
+| [Image-Charts](https://www.image-charts.com/) | Generate charts, QR codes and graph images | ⚪ | — | — | — | — | — |
 | [import.io](http://api.docs.import.io/) | Retrieve structured data from a website or RSS feed | ⚪ | — | — | — | — | — |
 | [Index Agentica](https://indexagentica.com/agents/) | Agent-first directory of skills, MCP servers, tools, protocols and APIs as JSON, markdown, llms.txt | ⚪ | — | — | — | — | — |
 | [ip-fast.com](https://ip-fast.com/docs/) | IP address, country and city | ⚪ | — | — | — | — | — |
@@ -206,9 +206,9 @@
 | [Pusher Beams](https://pusher.com/beams) | Push notifications for Android & iOS | ⚪ | — | — | — | — | — |
 | [Pythonium](https://pythonium.net/linter) | Validate Python code | ⚪ | — | — | — | — | — |
 | [QR & Barcode](https://solsigs.com/qrapi/) 🔗† | QR codes and barcodes (Code 128, EAN-13, Data Matrix, PDF417 + more). SVG or PNG output | ⚪ | — | — | — | — | — |
-| [QR code](http://goqr.me/api/) | Generate and decode / read QR code graphics | ⚪ | — | — | — | — | — |
 | [QR code](https://www.qrtag.net/api/) | Create an easy to read QR code and URL shortener | ⚪ | — | — | — | — | — |
 | [QR Code](https://fungenerators.com/api/qrcode/) | Create new QR Code or decode existing one | ⚪ | — | — | — | — | — |
+| [QR code](http://goqr.me/api/) | Generate and decode / read QR code graphics | ⚪ | — | — | — | — | — |
 | [QR Code by LifeStep](https://qr.lifestep.io) | Generate QR codes as PNG or SVG with size, border and color options | ⚪ | — | — | — | — | — |
 | [QR Code Crafter](https://qrcodecrafter.com/qr-code-api) | Generate static QR codes in SVG, PNG, JPG, WebP, PDF, or EPS | ⚪ | — | — | — | — | — |
 | [QR Codes](https://qr-api.62-238-102-93.sslip.io/docs) | Generate QR codes via a single GET request, with logo embedding and custom colors | ⚪ | — | — | — | — | — |
@@ -271,8 +271,8 @@
 | [Supportivekoala](https://developers.supportivekoala.com/) 🔗† | Autogenerate images with template | ⚪ | — | — | — | — | — |
 | [SuprSend](https://docs.suprsend.com/reference/overview) | Multi-channel notifications: workflows, templates and preferences for email, SMS, push and in-app | ⚪ | — | — | — | — | — |
 | [Suprsonic](https://suprsonic.ai) | Unified agent API: search, scrape, enrich, image gen, TTS, STT, messaging. One key, 20+ capabilities | ⚪ | — | — | — | — | — |
-| [TalorData](https://talordata.com/) | Get structured SERP results from Google, Bing, Yandex, and others via one API | ⚪ | — | — | — | — | — |
 | [Talordata](https://docs.talordata.com/) | SERP data from major search engines with a free trial | ⚪ | — | — | — | — | — |
+| [TalorData](https://talordata.com/) | Get structured SERP results from Google, Bing, Yandex, and others via one API | ⚪ | — | — | — | — | — |
 | [The Networkery](https://thenetworkery.com/api) | DNS, email authentication, TLS, BGP/RPKI, WHOIS and subnet checks with plain-English findings | ⚪ | — | — | — | — | — |
 | [TheQRCode](https://theqrcode.io/qr-code-api) | Generate QR codes for URLs, WiFi, contact cards, email and text, with custom colors and styling | ⚪ | — | — | — | — | — |
 | [Thunder Client](https://www.thunderclient.com/) | API testing tool | ⚪ | — | — | — | — | — |

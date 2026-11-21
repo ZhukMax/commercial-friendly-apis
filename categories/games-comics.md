@@ -27,8 +27,8 @@
 | [Cross Universe](https://crossuniverse.psychpsyo.com/apiDocs.html) | Cross Universe Card Data | ⚪ | — | — | — | — | — |
 | [Cross Universe](https://crossuniverse.net/apiDocs) | Cross Universe Card Data | ⚪ | — | — | — | — | — |
 | [Deck of Cards](http://deckofcardsapi.com/) | Deck of Cards | ⚪ | — | — | — | — | — |
-| [Destiny The Game](https://github.com/Bungie-net/api) | Bungie Platform API | ⚪ | — | — | — | — | — |
 | [Destiny The Game](https://bungie-net.github.io/multi/index.html) | Bungie Platform API | ⚪ | — | — | — | — | — |
+| [Destiny The Game](https://github.com/Bungie-net/api) | Bungie Platform API | ⚪ | — | — | — | — | — |
 | [Digimon Information](https://digimon-api.vercel.app/) | Provides information about digimon creatures | ⚪ | — | — | — | — | — |
 | [Digimon TCG](https://documenter.getpostman.com/view/14059948/TzecB4fH) | Search for Digimon cards in digimoncard.io | ⚪ | — | — | — | — | — |
 | [Disney](https://disneyapi.dev) | Information of Disney characters | ⚪ | — | — | — | — | — |
@@ -85,8 +85,8 @@
 | [NeoSatoshi Card Recognition](https://neosatoshi.com/developers/detection-api) | Recognize Pokémon, One Piece, Lorcana, Yu-Gi-Oh! and Magic cards from photos | ⚪ | — | — | — | — | — |
 | [Online Sudoku - Sudokumax](https://sudokumax.com/developers) | Free Sudoku puzzles, printable Sudoku worksheets and online play: https://sudokumax.com | ⚪ | — | — | — | — | — |
 | [Open Trivia](https://opentdb.com/api_config.php) | Trivia Questions | ⚪ | — | — | — | — | — |
-| [PandaScore](https://api.pandascore.co) | E-sports games and results | ⚪ | — | — | — | — | — |
 | [PandaScore](https://developers.pandascore.co/) | E-sports games and results | ⚪ | — | — | — | — | — |
+| [PandaScore](https://api.pandascore.co) | E-sports games and results | ⚪ | — | — | — | — | — |
 | [Path of Exile](https://www.pathofexile.com/developer/docs) | Path of Exile Game Information | ⚪ | — | — | — | — | — |
 | [PlayerDB](https://playerdb.co/) | Query Minecraft, Steam and XBox Accounts | ⚪ | — | — | — | — | — |
 | [PlayerUnknown's Battlegrounds](https://tracker.gg/developers) | PUBG Stats | ⚪ | — | — | — | — | — |
@@ -116,8 +116,8 @@
 | [Social Casino Index](https://socialcasinoindex.com/data/) | Daily-checked US social casino toplist: signup bonuses, payout times, minimums, sources | ⚪ | — | — | — | — | — |
 | [SpaceTradersAPI](https://spacetraders.io?rel=pub-apis) | A playable inter-galactic space trading MMOAPI | ⚪ | — | — | — | — | — |
 | [Steam](https://steamapi.xpaw.me/) | Steam Web API documentation | ⚪ | — | — | — | — | — |
-| [Steam](https://github.com/Revadike/InternalSteamWebAPI/wiki) | Internal Steam Web API documentation | ⚪ | — | — | — | — | — |
 | [Steam](https://developer.valvesoftware.com/wiki/Steam_Web_API) | Steam Client Interaction | ⚪ | — | — | — | — | — |
+| [Steam](https://github.com/Revadike/InternalSteamWebAPI/wiki) | Internal Steam Web API documentation | ⚪ | — | — | — | — | — |
 | [SteamGPT](https://steamgpt.net) | Steam profiles, SteamID conversion, VAC/game bans, FACEIT stats and friends | ⚪ | — | — | — | — | — |
 | [Sudoku100](https://www.sudoku100.com/api) | Free Sudoku puzzle generation and embedding with images, solver links and interactive games | ⚪ | — | — | — | — | — |
 | [SuperDuperBundle](https://superduperbundle.com/tools/api/) | Lowest listed PC game key prices across official and key stores, by name or Steam app ID | ⚪ | — | — | — | — | — |

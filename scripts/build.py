@@ -17,7 +17,7 @@ def slug(c): return re.sub(r"[^a-z0-9]+", "-", c.lower()).strip("-")
 
 def load():
     return sorted((yaml.safe_load(f.read_text(encoding="utf-8")) for f in (ROOT / "data" / "apis").glob("*.yaml")),
-                  key=lambda e: e["name"].lower())
+                  key=lambda e: (e["name"].lower(), e["id"]))
 
 def vicon(e):
     return ICON[e["verdict"]] + (" ⚠️" if e.get("license_scope") == "portal-default" else "")
@@ -54,7 +54,7 @@ def build():
         lines = [f"# {c}", "", f"> Generated file. {len(es)} APIs: 🟢 {cc['green']} · 🟡 {cc['yellow']} · 🔴 {cc['red']} · ⚪ {cc['unknown']}. "
                  "[Back to README](../README.md)", "", HEAD]
         order = {"green": 0, "yellow": 1, "red": 2, "unknown": 3}
-        lines += [row(e) for e in sorted(es, key=lambda e: (order[e["verdict"]], e["name"].lower()))]
+        lines += [row(e) for e in sorted(es, key=lambda e: (order[e["verdict"]], e["name"].lower(), e["id"]))]
         lines += ["", "† = link did not respond when last checked."]
         out[f"categories/{slug(c)}.md"] = "\n".join(lines) + "\n"
     green = [e for e in E if e["verdict"] == "green"]

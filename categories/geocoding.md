@@ -86,8 +86,8 @@
 | [Ducks Unlimited](https://gis.ducks.org/datasets/du-university-chapters/api) | API explorer that gives a query URL with a JSON response of locations and cities | 🔴 | ❌ | — | — | [terms](https://gis.ducks.org/api/search/v1/collections/all/items?q=university%20chapters) | 2026-11-21 |
 | [Postali](https://postali.app/api) | Mexico Zip Codes API | 🔴 | ❌ | — | required | [terms](https://postali.app/terminos) | 2026-11-21 |
 | [Actinia Grass GIS](https://actinia.mundialis.de/api_docs/) | Actinia is an open source REST API for geographical data that uses GRASS GIS | ⚪ | — | — | — | [terms](https://actinia.mundialis.de/) | 2026-11-21 |
-| [Airtel IP](https://aether.epias.ltd/ip2country/1.1.1.1/?full=true) | IP Geolocation API. Collecting data from multiple sources | ⚪ | — | — | — | — | 2026-11-21 |
 | [Airtel IP](https://sys.airtel.lv/ip2country/1.1.1.1/?full=true) | IP Geolocation API. Collecting data from multiple sources | ⚪ | — | — | — | — | 2026-11-21 |
+| [Airtel IP](https://aether.epias.ltd/ip2country/1.1.1.1/?full=true) | IP Geolocation API. Collecting data from multiple sources | ⚪ | — | — | — | — | 2026-11-21 |
 | [Battuta](http://battuta.medunes.net) | A (country/region/city) in-cascade location API | ⚪ | — | — | — | [terms](http://battuta.medunes.net) | 2026-11-21 |
 | [BdAPIs](https://bdapis.com/) | Get divisions, districts, and upazzilas of Bangladesh | ⚪ | — | — | — | — | 2026-11-21 |
 | [Bing Maps](https://www.microsoft.com/maps/) | Create/customize digital maps based on Bing Maps data | ⚪ | — | — | — | — | 2026-11-21 |

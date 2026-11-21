@@ -21,8 +21,8 @@
 | [Facebook](https://developers.facebook.com/) | Facebook Login, Share on FB, Social Plugins, Analytics and more | ⚪ | — | — | — | — | — |
 | [FastSocial Instagram Data](https://fastsocial.co/instagram-api/docs) | Public Instagram data: profiles, posts, reels, stories, comments and a daily top-accounts ranking | ⚪ | — | — | — | — | — |
 | [Foursquare](https://developer.foursquare.com/) | Interact with Foursquare users and places (geolocation-based checkins, photos, tips, events, etc) | ⚪ | — | — | — | — | — |
-| [Full Contact](https://www.fullcontact.com/developer/docs/) | Get Social Media profiles and contact Information | ⚪ | — | — | — | — | — |
 | [Full Contact](https://docs.fullcontact.com/) | Get Social Media profiles and contact Information | ⚪ | — | — | — | — | — |
+| [Full Contact](https://www.fullcontact.com/developer/docs/) | Get Social Media profiles and contact Information | ⚪ | — | — | — | — | — |
 | [GetXAPI](https://www.getxapi.com/) | Read Twitter / X data and post tweets, likes, retweets, follows, DMs via REST | ⚪ | — | — | — | — | — |
 | [GramScraper](https://gramscraper.com) 🔗† | Instagram and TikTok data API with 91 endpoints for profiles, posts, stories, reels, and comments | ⚪ | — | — | — | — | — |
 | [HackerNews](https://github.com/HackerNews/API) | Social news for CS and entrepreneurship | ⚪ | — | — | — | — | — |

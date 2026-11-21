@@ -3085,40 +3085,6 @@
    "link_note": "-> https://airtable.com/developers/web/"
   },
   {
-   "id": "airtel-ip-aether",
-   "name": "Airtel IP",
-   "url": "https://aether.epias.ltd/ip2country/1.1.1.1/?full=true",
-   "category": "Geocoding",
-   "description": "IP Geolocation API. Collecting data from multiple sources",
-   "description_source": "upstream",
-   "auth": "none",
-   "https": true,
-   "cors": "unknown",
-   "sources": [
-    {
-     "list": "public-api-lists",
-     "name": "Airtel IP",
-     "url": "https://aether.epias.ltd/ip2country/1.1.1.1/?full=true",
-     "category": "Geocoding"
-    }
-   ],
-   "link_status": "alive",
-   "data_license": "unknown",
-   "commercial_use": "unknown",
-   "storage_caching": "unknown",
-   "redistribution_display": "unknown",
-   "attribution_required": "unknown",
-   "bulk_download": "unknown",
-   "self_host_option": "unknown",
-   "verdict": "unknown",
-   "confidence": "low",
-   "link_checked_at": "2026-11-21",
-   "evidence": [],
-   "notes": "Only the bare JSON endpoint (ip2country/<ip>/?full=true) responds; the site root returns an empty page and /docs, /api return HTTP 500. No terms, licence, data-source statement or rate limit found. All terms fields unknown.",
-   "checked_at": "2026-11-21",
-   "checked_by": "claude-sonnet-5-5"
-  },
-  {
    "id": "airtel-ip",
    "name": "Airtel IP",
    "url": "https://sys.airtel.lv/ip2country/1.1.1.1/?full=true",
@@ -3150,6 +3116,40 @@
    "link_note": "sys.airtel.lv now returns {\"error\":\"use https://aether.epias.ltd/ip2country/{IP}\"}; HTTP 403 for curl, read in browser",
    "evidence": [],
    "notes": "Opened in Playwright (fresh context): the endpoint now answers with a JSON error pointing to https://aether.epias.ltd/ip2country/{IP}; the new host root serves no page (curl returns an empty body, /ip2country/1.1.1.1 returns a bare country code). No terms, licence, data source or usage policy found anywhere, so all terms fields unknown. The description says data is collected from multiple sources, which are not named.",
+   "checked_at": "2026-11-21",
+   "checked_by": "claude-sonnet-5-5"
+  },
+  {
+   "id": "airtel-ip-aether",
+   "name": "Airtel IP",
+   "url": "https://aether.epias.ltd/ip2country/1.1.1.1/?full=true",
+   "category": "Geocoding",
+   "description": "IP Geolocation API. Collecting data from multiple sources",
+   "description_source": "upstream",
+   "auth": "none",
+   "https": true,
+   "cors": "unknown",
+   "sources": [
+    {
+     "list": "public-api-lists",
+     "name": "Airtel IP",
+     "url": "https://aether.epias.ltd/ip2country/1.1.1.1/?full=true",
+     "category": "Geocoding"
+    }
+   ],
+   "link_status": "alive",
+   "data_license": "unknown",
+   "commercial_use": "unknown",
+   "storage_caching": "unknown",
+   "redistribution_display": "unknown",
+   "attribution_required": "unknown",
+   "bulk_download": "unknown",
+   "self_host_option": "unknown",
+   "verdict": "unknown",
+   "confidence": "low",
+   "link_checked_at": "2026-11-21",
+   "evidence": [],
+   "notes": "Only the bare JSON endpoint (ip2country/<ip>/?full=true) responds; the site root returns an empty page and /docs, /api return HTTP 500. No terms, licence, data-source statement or rate limit found. All terms fields unknown.",
    "checked_at": "2026-11-21",
    "checked_by": "claude-sonnet-5-5"
   },
@@ -10015,37 +10015,6 @@
    "link_checked_at": "2026-11-21"
   },
   {
-   "id": "bhagavad-gita-bhagavadgita",
-   "name": "Bhagavad Gita",
-   "url": "https://bhagavadgita.io/api",
-   "category": "Books",
-   "description": "Bhagavad Gita text",
-   "description_source": "upstream",
-   "auth": "OAuth",
-   "https": true,
-   "cors": "yes",
-   "sources": [
-    {
-     "list": "public-api-lists",
-     "name": "Bhagavad Gita",
-     "url": "https://bhagavadgita.io/api",
-     "category": "Books"
-    }
-   ],
-   "link_status": "dead",
-   "data_license": "unknown",
-   "commercial_use": "unknown",
-   "storage_caching": "unknown",
-   "redistribution_display": "unknown",
-   "attribution_required": "unknown",
-   "bulk_download": "unknown",
-   "self_host_option": "unknown",
-   "verdict": "unknown",
-   "confidence": "low",
-   "link_checked_at": "2026-11-21",
-   "link_note": "HTTP 404"
-  },
-  {
    "id": "bhagavad-gita",
    "name": "Bhagavad Gita",
    "url": "https://docs.bhagavadgitaapi.in",
@@ -10078,6 +10047,37 @@
    "notes": "docs.bhagavadgitaapi.in now serves a generic 'domain may be for sale' parking page (title 'bhagavadgitaapi.in'; browsers are further redirected to an unrelated ad article), so the service/documentation is gone. No terms to read; core fields unknown. Other Bhagavad Gita APIs are separate services and were not used.",
    "checked_at": "2026-11-21",
    "checked_by": "claude-sonnet-5-5"
+  },
+  {
+   "id": "bhagavad-gita-bhagavadgita",
+   "name": "Bhagavad Gita",
+   "url": "https://bhagavadgita.io/api",
+   "category": "Books",
+   "description": "Bhagavad Gita text",
+   "description_source": "upstream",
+   "auth": "OAuth",
+   "https": true,
+   "cors": "yes",
+   "sources": [
+    {
+     "list": "public-api-lists",
+     "name": "Bhagavad Gita",
+     "url": "https://bhagavadgita.io/api",
+     "category": "Books"
+    }
+   ],
+   "link_status": "dead",
+   "data_license": "unknown",
+   "commercial_use": "unknown",
+   "storage_caching": "unknown",
+   "redistribution_display": "unknown",
+   "attribution_required": "unknown",
+   "bulk_download": "unknown",
+   "self_host_option": "unknown",
+   "verdict": "unknown",
+   "confidence": "low",
+   "link_checked_at": "2026-11-21",
+   "link_note": "HTTP 404"
   },
   {
    "id": "bhagavad-gita-telugu",
@@ -11454,6 +11454,49 @@
    "not_applicable_reason": "Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility API); kept for reference."
   },
   {
+   "id": "bitquery",
+   "name": "Bitquery",
+   "url": "https://graphql.bitquery.io/ide",
+   "category": "Blockchain",
+   "description": "Onchain GraphQL APIs & DEX APIs",
+   "description_source": "upstream",
+   "auth": "apiKey",
+   "https": true,
+   "cors": "yes",
+   "sources": [
+    {
+     "list": "public-apis",
+     "name": "Bitquery",
+     "url": "https://graphql.bitquery.io/ide",
+     "category": "Blockchain"
+    }
+   ],
+   "link_status": "redirect",
+   "data_license": "unknown",
+   "commercial_use": "yes",
+   "storage_caching": "unknown",
+   "redistribution_display": "unknown",
+   "attribution_required": "unknown",
+   "bulk_download": "unknown",
+   "self_host_option": "unknown",
+   "verdict": "yellow",
+   "confidence": "low",
+   "link_checked_at": "2026-11-21",
+   "link_note": "-> https://ide.bitquery.io",
+   "api_terms_url": "https://bitquery.io/terms-of-service",
+   "evidence": [
+    {
+     "field": "commercial_use",
+     "url": "https://bitquery.io/terms-of-service",
+     "quote": "Subscriber may use the Services and any data or results obtained through the Services for any lawful commercial or non-commercial purpose",
+     "checked_at": "2026-11-21"
+    }
+   ],
+   "notes": "Read https://bitquery.io/terms-of-service (subscription agreement). Commercial use of data/results is allowed within the Scope Limitations in the applicable Service Order; use that substitutes for Bitquery or competes with it is banned. Terms are for subscribers; whether the free developer plan is covered by the same clause not confirmed (scope left unset). Caching/storage and public display/redistribution not addressed. Bitquery says it relies on third-party data sources (upstream terms not checked). Pricing/plan pages and IDE page not read.",
+   "checked_at": "2026-11-21",
+   "checked_by": "claude-sonnet-5-5"
+  },
+  {
    "id": "bitquery-bitquery",
    "name": "Bitquery",
    "url": "https://bitquery.io/",
@@ -11505,49 +11548,6 @@
     }
    ],
    "notes": "Read Terms of Service (Subscriber agreement) and the pricing page. Pricing: Personal plan ($29/mo) is 'Personal-use license, no commercial use'; Pro/Scale plans list a 'Commercial-use license'; free tier is a 7-day trial only. ToS 3.2-3.3: paid subscribers may use data for any lawful commercial purpose incl. inclusion in own products/applications, within Scope Limitations; forbidden: using the Services in a way that directly substitutes for the Services for a third party or competes with Bitquery. Caching/storage and attribution not addressed. Blockchain data is public chain data; Prediction-market/perps feeds may have upstream terms. Aggregator of chain data. data_license left unknown: proprietary terms, no named licence.",
-   "checked_at": "2026-11-21",
-   "checked_by": "claude-sonnet-5-5"
-  },
-  {
-   "id": "bitquery",
-   "name": "Bitquery",
-   "url": "https://graphql.bitquery.io/ide",
-   "category": "Blockchain",
-   "description": "Onchain GraphQL APIs & DEX APIs",
-   "description_source": "upstream",
-   "auth": "apiKey",
-   "https": true,
-   "cors": "yes",
-   "sources": [
-    {
-     "list": "public-apis",
-     "name": "Bitquery",
-     "url": "https://graphql.bitquery.io/ide",
-     "category": "Blockchain"
-    }
-   ],
-   "link_status": "redirect",
-   "data_license": "unknown",
-   "commercial_use": "yes",
-   "storage_caching": "unknown",
-   "redistribution_display": "unknown",
-   "attribution_required": "unknown",
-   "bulk_download": "unknown",
-   "self_host_option": "unknown",
-   "verdict": "yellow",
-   "confidence": "low",
-   "link_checked_at": "2026-11-21",
-   "link_note": "-> https://ide.bitquery.io",
-   "api_terms_url": "https://bitquery.io/terms-of-service",
-   "evidence": [
-    {
-     "field": "commercial_use",
-     "url": "https://bitquery.io/terms-of-service",
-     "quote": "Subscriber may use the Services and any data or results obtained through the Services for any lawful commercial or non-commercial purpose",
-     "checked_at": "2026-11-21"
-    }
-   ],
-   "notes": "Read https://bitquery.io/terms-of-service (subscription agreement). Commercial use of data/results is allowed within the Scope Limitations in the applicable Service Order; use that substitutes for Bitquery or competes with it is banned. Terms are for subscribers; whether the free developer plan is covered by the same clause not confirmed (scope left unset). Caching/storage and public display/redistribution not addressed. Bitquery says it relies on third-party data sources (upstream terms not checked). Pricing/plan pages and IDE page not read.",
    "checked_at": "2026-11-21",
    "checked_by": "claude-sonnet-5-5"
   },
@@ -20284,9 +20284,9 @@
    "link_checked_at": "2026-11-21"
   },
   {
-   "id": "codeship-apidocs",
+   "id": "codeship",
    "name": "Codeship",
-   "url": "https://apidocs.codeship.com/",
+   "url": "https://docs.cloudbees.com/docs/cloudbees-codeship/latest/api-overview/",
    "category": "Continuous Integration",
    "description": "Codeship is a Continuous Integration Platform in the cloud",
    "description_source": "upstream",
@@ -20295,9 +20295,9 @@
    "cors": "unknown",
    "sources": [
     {
-     "list": "public-api-lists",
+     "list": "public-apis",
      "name": "Codeship",
-     "url": "https://apidocs.codeship.com/",
+     "url": "https://docs.cloudbees.com/docs/cloudbees-codeship/latest/api-overview/",
      "category": "Continuous Integration"
     }
    ],
@@ -20315,9 +20315,9 @@
    "link_note": "-> https://docs.cloudbees.com/docs/cloudbees-common/latest/cloudbees-codeship-eol"
   },
   {
-   "id": "codeship",
+   "id": "codeship-apidocs",
    "name": "Codeship",
-   "url": "https://docs.cloudbees.com/docs/cloudbees-codeship/latest/api-overview/",
+   "url": "https://apidocs.codeship.com/",
    "category": "Continuous Integration",
    "description": "Codeship is a Continuous Integration Platform in the cloud",
    "description_source": "upstream",
@@ -20326,9 +20326,9 @@
    "cors": "unknown",
    "sources": [
     {
-     "list": "public-apis",
+     "list": "public-api-lists",
      "name": "Codeship",
-     "url": "https://docs.cloudbees.com/docs/cloudbees-codeship/latest/api-overview/",
+     "url": "https://apidocs.codeship.com/",
      "category": "Continuous Integration"
     }
    ],
@@ -21397,6 +21397,55 @@
    "second_check_note": "Plans table: Redistribution is only on Enterprise; FAQ: only Enterprise allows data to be redistributed or shared; Showing prices publicly on own site is sharing, so needs Enterprise contract | applied: redistribution_display=no"
   },
   {
+   "id": "coinranking",
+   "name": "CoinRanking",
+   "url": "https://developers.coinranking.com/api/documentation",
+   "category": "Cryptocurrency",
+   "description": "Live Cryptocurrency data",
+   "description_source": "upstream",
+   "auth": "apiKey",
+   "https": true,
+   "cors": "unknown",
+   "sources": [
+    {
+     "list": "public-apis",
+     "name": "CoinRanking",
+     "url": "https://developers.coinranking.com/api/documentation",
+     "category": "Cryptocurrency"
+    }
+   ],
+   "link_status": "redirect",
+   "data_license": "unknown",
+   "commercial_use": "unknown",
+   "storage_caching": "unknown",
+   "redistribution_display": "yes",
+   "attribution_required": "yes",
+   "bulk_download": "unknown",
+   "self_host_option": "unknown",
+   "verdict": "unknown",
+   "confidence": "medium",
+   "link_checked_at": "2026-11-21",
+   "link_note": "-> https://coinranking.com/api/documentation",
+   "api_terms_url": "https://support.coinranking.com/article/131-api-terms-conditions",
+   "evidence": [
+    {
+     "field": "redistribution_display",
+     "url": "https://support.coinranking.com/article/131-api-terms-conditions",
+     "quote": "solely for the purpose of accessing, analyzing, or displaying cryptocurrency market data",
+     "checked_at": "2026-11-21"
+    },
+    {
+     "field": "attribution_required",
+     "url": "https://support.coinranking.com/article/131-api-terms-conditions",
+     "quote": "must also clearly indicate within their application that the data originates from Coinranking",
+     "checked_at": "2026-11-21"
+    }
+   ],
+   "notes": "Read API Terms & Conditions (support.coinranking.com article 131; developers.* redirects to coinranking.com/api/documentation). Data may be displayed and shared publicly with Coinranking credited; reselling needs written consent (reseller rules with per-party keys); competing apps barred; Coinranking can order data removed. The terms do not state commercial use explicitly (mention \"internal applications\"); caching not addressed, so those stay unknown; plan-specific licences on pricing page not read.",
+   "checked_at": "2026-11-21",
+   "checked_by": "claude-sonnet-5-5"
+  },
+  {
    "id": "coinranking-docs",
    "name": "CoinRanking",
    "url": "https://docs.coinranking.com/",
@@ -21453,55 +21502,6 @@
    "second_check_at": "2026-11-21",
    "second_check": "disputed",
    "second_check_note": "API Terms (read in full) require attribution within the application that data originates from Coinranking; Terms permit displaying market data and say data may be shared publicly; first pass missed both | applied: attribution_required=yes, redistribution_display=yes"
-  },
-  {
-   "id": "coinranking",
-   "name": "CoinRanking",
-   "url": "https://developers.coinranking.com/api/documentation",
-   "category": "Cryptocurrency",
-   "description": "Live Cryptocurrency data",
-   "description_source": "upstream",
-   "auth": "apiKey",
-   "https": true,
-   "cors": "unknown",
-   "sources": [
-    {
-     "list": "public-apis",
-     "name": "CoinRanking",
-     "url": "https://developers.coinranking.com/api/documentation",
-     "category": "Cryptocurrency"
-    }
-   ],
-   "link_status": "redirect",
-   "data_license": "unknown",
-   "commercial_use": "unknown",
-   "storage_caching": "unknown",
-   "redistribution_display": "yes",
-   "attribution_required": "yes",
-   "bulk_download": "unknown",
-   "self_host_option": "unknown",
-   "verdict": "unknown",
-   "confidence": "medium",
-   "link_checked_at": "2026-11-21",
-   "link_note": "-> https://coinranking.com/api/documentation",
-   "api_terms_url": "https://support.coinranking.com/article/131-api-terms-conditions",
-   "evidence": [
-    {
-     "field": "redistribution_display",
-     "url": "https://support.coinranking.com/article/131-api-terms-conditions",
-     "quote": "solely for the purpose of accessing, analyzing, or displaying cryptocurrency market data",
-     "checked_at": "2026-11-21"
-    },
-    {
-     "field": "attribution_required",
-     "url": "https://support.coinranking.com/article/131-api-terms-conditions",
-     "quote": "must also clearly indicate within their application that the data originates from Coinranking",
-     "checked_at": "2026-11-21"
-    }
-   ],
-   "notes": "Read API Terms & Conditions (support.coinranking.com article 131; developers.* redirects to coinranking.com/api/documentation). Data may be displayed and shared publicly with Coinranking credited; reselling needs written consent (reseller rules with per-party keys); competing apps barred; Coinranking can order data removed. The terms do not state commercial use explicitly (mention \"internal applications\"); caching not addressed, so those stay unknown; plan-specific licences on pricing page not read.",
-   "checked_at": "2026-11-21",
-   "checked_by": "claude-sonnet-5-5"
   },
   {
    "id": "coinremitter",
@@ -29309,9 +29309,9 @@
    "checked_by": "claude-sonnet-5-5"
   },
   {
-   "id": "destiny-the-game-github",
+   "id": "destiny-the-game",
    "name": "Destiny The Game",
-   "url": "https://github.com/Bungie-net/api",
+   "url": "https://bungie-net.github.io/multi/index.html",
    "category": "Games & Comics",
    "description": "Bungie Platform API",
    "description_source": "upstream",
@@ -29320,9 +29320,9 @@
    "cors": "unknown",
    "sources": [
     {
-     "list": "public-api-lists",
+     "list": "public-apis",
      "name": "Destiny The Game",
-     "url": "https://github.com/Bungie-net/api",
+     "url": "https://bungie-net.github.io/multi/index.html",
      "category": "Games & Comics"
     }
    ],
@@ -29339,9 +29339,9 @@
    "link_checked_at": "2026-11-21"
   },
   {
-   "id": "destiny-the-game",
+   "id": "destiny-the-game-github",
    "name": "Destiny The Game",
-   "url": "https://bungie-net.github.io/multi/index.html",
+   "url": "https://github.com/Bungie-net/api",
    "category": "Games & Comics",
    "description": "Bungie Platform API",
    "description_source": "upstream",
@@ -29350,9 +29350,9 @@
    "cors": "unknown",
    "sources": [
     {
-     "list": "public-apis",
+     "list": "public-api-lists",
      "name": "Destiny The Game",
-     "url": "https://bungie-net.github.io/multi/index.html",
+     "url": "https://github.com/Bungie-net/api",
      "category": "Games & Comics"
     }
    ],
@@ -30842,11 +30842,11 @@
    "link_checked_at": "2026-11-21"
   },
   {
-   "id": "dog-facts-kinduff",
+   "id": "dog-facts",
    "name": "Dog Facts",
-   "url": "https://kinduff.github.io/dog-api/",
+   "url": "https://dukengn.github.io/Dog-facts-API/",
    "category": "Animals",
-   "description": "Random facts of Dogs",
+   "description": "Random dog facts",
    "description_source": "upstream",
    "auth": "none",
    "https": true,
@@ -30855,7 +30855,7 @@
     {
      "list": "public-apis",
      "name": "Dog Facts",
-     "url": "https://kinduff.github.io/dog-api/",
+     "url": "https://dukengn.github.io/Dog-facts-API/",
      "category": "Animals"
     }
    ],
@@ -30872,11 +30872,11 @@
    "link_checked_at": "2026-11-21"
   },
   {
-   "id": "dog-facts",
+   "id": "dog-facts-kinduff",
    "name": "Dog Facts",
-   "url": "https://dukengn.github.io/Dog-facts-API/",
+   "url": "https://kinduff.github.io/dog-api/",
    "category": "Animals",
-   "description": "Random dog facts",
+   "description": "Random facts of Dogs",
    "description_source": "upstream",
    "auth": "none",
    "https": true,
@@ -30885,7 +30885,7 @@
     {
      "list": "public-apis",
      "name": "Dog Facts",
-     "url": "https://dukengn.github.io/Dog-facts-API/",
+     "url": "https://kinduff.github.io/dog-api/",
      "category": "Animals"
     }
    ],
@@ -32558,37 +32558,6 @@
    "second_check_note": "Correct rate_limits in the YAML (first pass attributed Pro's 60 req/min, 250,000/month to Free and Business to $199/mo; pricing page shows Pro $49/month). Verdict unaffected."
   },
   {
-   "id": "ebay-go",
-   "name": "eBay",
-   "url": "https://go.developer.ebay.com/",
-   "category": "Shopping",
-   "description": "Sell and Buy on eBay",
-   "description_source": "upstream",
-   "auth": "OAuth",
-   "https": true,
-   "cors": "unknown",
-   "sources": [
-    {
-     "list": "public-api-lists",
-     "name": "eBay",
-     "url": "https://go.developer.ebay.com/",
-     "category": "Shopping"
-    }
-   ],
-   "link_status": "dead",
-   "data_license": "unknown",
-   "commercial_use": "unknown",
-   "storage_caching": "unknown",
-   "redistribution_display": "unknown",
-   "attribution_required": "unknown",
-   "bulk_download": "unknown",
-   "self_host_option": "unknown",
-   "verdict": "unknown",
-   "confidence": "low",
-   "link_checked_at": "2026-11-21",
-   "link_note": "HTTP 404"
-  },
-  {
    "id": "ebay",
    "name": "eBay",
    "url": "https://developer.ebay.com/",
@@ -32657,6 +32626,37 @@
    "second_check_at": "2026-11-21",
    "second_check": "confirmed",
    "second_check_note": "Re-read via Playwright (fresh context). Additional blockers not in first pass: Prohibited list says not to 'Use eBay Content or Developer Tools to compete with eBay Services or to design, build, promote or augment any site or service competitive to eBay Services' and Public Display must be visually isolated from non-eBay content. An ads/affiliate catalog site is at best a weak fit; ambiguity stays"
+  },
+  {
+   "id": "ebay-go",
+   "name": "eBay",
+   "url": "https://go.developer.ebay.com/",
+   "category": "Shopping",
+   "description": "Sell and Buy on eBay",
+   "description_source": "upstream",
+   "auth": "OAuth",
+   "https": true,
+   "cors": "unknown",
+   "sources": [
+    {
+     "list": "public-api-lists",
+     "name": "eBay",
+     "url": "https://go.developer.ebay.com/",
+     "category": "Shopping"
+    }
+   ],
+   "link_status": "dead",
+   "data_license": "unknown",
+   "commercial_use": "unknown",
+   "storage_caching": "unknown",
+   "redistribution_display": "unknown",
+   "attribution_required": "unknown",
+   "bulk_download": "unknown",
+   "self_host_option": "unknown",
+   "verdict": "unknown",
+   "confidence": "low",
+   "link_checked_at": "2026-11-21",
+   "link_note": "HTTP 404"
   },
   {
    "id": "ebird",
@@ -34327,6 +34327,37 @@
    "link_checked_at": "2026-11-21"
   },
   {
+   "id": "enigma-public",
+   "name": "Enigma Public",
+   "url": "https://developers.enigma.com/docs",
+   "category": "Open Data",
+   "description": "Broadest collection of public data",
+   "description_source": "upstream",
+   "auth": "apiKey",
+   "https": true,
+   "cors": "yes",
+   "sources": [
+    {
+     "list": "public-apis",
+     "name": "Enigma Public",
+     "url": "https://developers.enigma.com/docs",
+     "category": "Open Data"
+    }
+   ],
+   "link_status": "dead",
+   "data_license": "unknown",
+   "commercial_use": "unknown",
+   "storage_caching": "unknown",
+   "redistribution_display": "unknown",
+   "attribution_required": "unknown",
+   "bulk_download": "unknown",
+   "self_host_option": "unknown",
+   "verdict": "unknown",
+   "confidence": "low",
+   "link_checked_at": "2026-11-21",
+   "link_note": "HTTP 404"
+  },
+  {
    "id": "enigma-public-docs",
    "name": "Enigma Public",
    "url": "http://docs.enigma.com/public/public_v20_api_about",
@@ -34360,37 +34391,6 @@
    "notes": "docs.enigma.com now redirects to documentation.enigma.com, docs for Enigma's current commercial products (KYB verification API, GraphQL API, Console; credentials/packages). No mention of 'Enigma Public' or the free public-data API found on the landing page, so the listed service may be discontinued (not confirmed, link_status left as redirect). No terms or licence read; all unknown.",
    "checked_at": "2026-11-21",
    "checked_by": "claude-sonnet-5-5"
-  },
-  {
-   "id": "enigma-public",
-   "name": "Enigma Public",
-   "url": "https://developers.enigma.com/docs",
-   "category": "Open Data",
-   "description": "Broadest collection of public data",
-   "description_source": "upstream",
-   "auth": "apiKey",
-   "https": true,
-   "cors": "yes",
-   "sources": [
-    {
-     "list": "public-apis",
-     "name": "Enigma Public",
-     "url": "https://developers.enigma.com/docs",
-     "category": "Open Data"
-    }
-   ],
-   "link_status": "dead",
-   "data_license": "unknown",
-   "commercial_use": "unknown",
-   "storage_caching": "unknown",
-   "redistribution_display": "unknown",
-   "attribution_required": "unknown",
-   "bulk_download": "unknown",
-   "self_host_option": "unknown",
-   "verdict": "unknown",
-   "confidence": "low",
-   "link_checked_at": "2026-11-21",
-   "link_note": "HTTP 404"
   },
   {
    "id": "enterno",
@@ -40572,6 +40572,77 @@
    "link_note": "HTTP 503"
   },
   {
+   "id": "frankfurter",
+   "name": "Frankfurter",
+   "url": "https://frankfurter.dev",
+   "category": "Currency Exchange",
+   "description": "Exchange rates, currency conversion and time series",
+   "description_source": "upstream",
+   "auth": "none",
+   "https": true,
+   "cors": "yes",
+   "sources": [
+    {
+     "list": "public-apis",
+     "name": "Frankfurter",
+     "url": "https://frankfurter.dev",
+     "category": "Currency Exchange"
+    }
+   ],
+   "link_status": "alive",
+   "data_license": "public reference rates from central banks and official sources; per-provider terms apply (Frankfurter code is MIT)",
+   "commercial_use": "yes",
+   "storage_caching": "yes",
+   "redistribution_display": "ambiguous",
+   "attribution_required": "unknown",
+   "bulk_download": "unknown",
+   "self_host_option": "yes",
+   "verdict": "yellow",
+   "confidence": "medium",
+   "link_checked_at": "2026-11-21",
+   "data_license_url": "https://frankfurter.dev/license",
+   "commercial_use_scope": "any",
+   "api_terms_url": "https://frankfurter.dev/license",
+   "evidence": [
+    {
+     "field": "commercial_use",
+     "url": "https://frankfurter.dev",
+     "quote": "Is the API free for commercial use? Yes.",
+     "checked_at": "2026-11-21"
+    },
+    {
+     "field": "storage_caching",
+     "url": "https://frankfurter.dev",
+     "quote": "Storing daily observations locally for caching or historical analytics is encouraged to keep API traffic light.",
+     "checked_at": "2026-11-21"
+    },
+    {
+     "field": "redistribution_display",
+     "url": "https://frankfurter.dev/license",
+     "quote": "Frankfurter doesn't own the rates, so it can't give you rights the provider doesn't.",
+     "checked_at": "2026-11-21"
+    },
+    {
+     "field": "data_license",
+     "url": "https://frankfurter.dev/license",
+     "quote": "If a provider publishes terms of use, they apply.",
+     "checked_at": "2026-11-21"
+    },
+    {
+     "field": "self_host_option",
+     "url": "https://frankfurter.dev",
+     "quote": "The project is open source, so you can also self-host for full control.",
+     "checked_at": "2026-11-21"
+    }
+   ],
+   "notes": "Homepage FAQ: free for commercial use (blended rates are Frankfurter's own calculation; direct provider-endpoint queries remain subject to each provider's terms), storing rates locally encouraged. License page: data are public reference rates from ~112 central banks/official sources; Frankfurter 'can't give you rights the provider doesn't' and lists each provider's terms (many 'None published', some with Terms links, not individually checked). Hence display/redistribution = ambiguous (depends on upstream provider), attribution unknown (the 'Provider Attribution' heading only describes the expand=providers option). Code MIT, self-hosting possible.",
+   "checked_at": "2026-11-21",
+   "checked_by": "claude-sonnet-5-5",
+   "second_check_at": "2026-11-21",
+   "second_check": "confirmed",
+   "second_check_note": "Re-read homepage FAQ and /license. Providers list includes ECB, Bank of England, FRED etc. with own terms; many 'None published'. Display of provider-direct data depends on upstream; blended rates are Frankfurter's own calculation. Ambiguity on display stands."
+  },
+  {
    "id": "frankfurter-frankfurter",
    "name": "Frankfurter",
    "url": "https://frankfurter.dev/",
@@ -40657,77 +40728,6 @@
    "second_check_at": "2026-11-21",
    "second_check": "disputed",
    "second_check_note": "No single data licence: Frankfurter says provider terms apply, 112 providers, many unchecked; ECB terms add conditions (accurate reproduction, cite source, notice to buyers if sold); Direct provider endpoints stay under provider terms | applied: commercial_use=ambiguous, attribution_required=yes"
-  },
-  {
-   "id": "frankfurter",
-   "name": "Frankfurter",
-   "url": "https://frankfurter.dev",
-   "category": "Currency Exchange",
-   "description": "Exchange rates, currency conversion and time series",
-   "description_source": "upstream",
-   "auth": "none",
-   "https": true,
-   "cors": "yes",
-   "sources": [
-    {
-     "list": "public-apis",
-     "name": "Frankfurter",
-     "url": "https://frankfurter.dev",
-     "category": "Currency Exchange"
-    }
-   ],
-   "link_status": "alive",
-   "data_license": "public reference rates from central banks and official sources; per-provider terms apply (Frankfurter code is MIT)",
-   "commercial_use": "yes",
-   "storage_caching": "yes",
-   "redistribution_display": "ambiguous",
-   "attribution_required": "unknown",
-   "bulk_download": "unknown",
-   "self_host_option": "yes",
-   "verdict": "yellow",
-   "confidence": "medium",
-   "link_checked_at": "2026-11-21",
-   "data_license_url": "https://frankfurter.dev/license",
-   "commercial_use_scope": "any",
-   "api_terms_url": "https://frankfurter.dev/license",
-   "evidence": [
-    {
-     "field": "commercial_use",
-     "url": "https://frankfurter.dev",
-     "quote": "Is the API free for commercial use? Yes.",
-     "checked_at": "2026-11-21"
-    },
-    {
-     "field": "storage_caching",
-     "url": "https://frankfurter.dev",
-     "quote": "Storing daily observations locally for caching or historical analytics is encouraged to keep API traffic light.",
-     "checked_at": "2026-11-21"
-    },
-    {
-     "field": "redistribution_display",
-     "url": "https://frankfurter.dev/license",
-     "quote": "Frankfurter doesn't own the rates, so it can't give you rights the provider doesn't.",
-     "checked_at": "2026-11-21"
-    },
-    {
-     "field": "data_license",
-     "url": "https://frankfurter.dev/license",
-     "quote": "If a provider publishes terms of use, they apply.",
-     "checked_at": "2026-11-21"
-    },
-    {
-     "field": "self_host_option",
-     "url": "https://frankfurter.dev",
-     "quote": "The project is open source, so you can also self-host for full control.",
-     "checked_at": "2026-11-21"
-    }
-   ],
-   "notes": "Homepage FAQ: free for commercial use (blended rates are Frankfurter's own calculation; direct provider-endpoint queries remain subject to each provider's terms), storing rates locally encouraged. License page: data are public reference rates from ~112 central banks/official sources; Frankfurter 'can't give you rights the provider doesn't' and lists each provider's terms (many 'None published', some with Terms links, not individually checked). Hence display/redistribution = ambiguous (depends on upstream provider), attribution unknown (the 'Provider Attribution' heading only describes the expand=providers option). Code MIT, self-hosting possible.",
-   "checked_at": "2026-11-21",
-   "checked_by": "claude-sonnet-5-5",
-   "second_check_at": "2026-11-21",
-   "second_check": "confirmed",
-   "second_check_note": "Re-read homepage FAQ and /license. Providers list includes ECB, Bank of England, FRED etc. with own terms; many 'None published'. Display of provider-direct data depends on upstream; blended rates are Frankfurter's own calculation. Ambiguity on display stands."
   },
   {
    "id": "fraudcoins",
@@ -41735,6 +41735,36 @@
    "second_check_note": "Live web service responds (menu/year). Photographs are owned by manufacturers and excluded. Wording is 'unless otherwise noted, we will not assert its rights' (work sponsored under contract with UT-Battelle) not a formal licence; no API-specific terms page."
   },
   {
+   "id": "full-contact",
+   "name": "Full Contact",
+   "url": "https://docs.fullcontact.com/",
+   "category": "Social",
+   "description": "Get Social Media profiles and contact Information",
+   "description_source": "upstream",
+   "auth": "OAuth",
+   "https": true,
+   "cors": "unknown",
+   "sources": [
+    {
+     "list": "public-apis",
+     "name": "Full Contact",
+     "url": "https://docs.fullcontact.com/",
+     "category": "Social"
+    }
+   ],
+   "link_status": "alive",
+   "data_license": "unknown",
+   "commercial_use": "unknown",
+   "storage_caching": "unknown",
+   "redistribution_display": "unknown",
+   "attribution_required": "unknown",
+   "bulk_download": "unknown",
+   "self_host_option": "unknown",
+   "verdict": "unknown",
+   "confidence": "low",
+   "link_checked_at": "2026-11-21"
+  },
+  {
    "id": "full-contact-fullcontact",
    "name": "Full Contact",
    "url": "https://www.fullcontact.com/developer/docs/",
@@ -41764,36 +41794,6 @@
    "confidence": "low",
    "link_checked_at": "2026-11-21",
    "link_note": "-> https://docs.fullcontact.com/"
-  },
-  {
-   "id": "full-contact",
-   "name": "Full Contact",
-   "url": "https://docs.fullcontact.com/",
-   "category": "Social",
-   "description": "Get Social Media profiles and contact Information",
-   "description_source": "upstream",
-   "auth": "OAuth",
-   "https": true,
-   "cors": "unknown",
-   "sources": [
-    {
-     "list": "public-apis",
-     "name": "Full Contact",
-     "url": "https://docs.fullcontact.com/",
-     "category": "Social"
-    }
-   ],
-   "link_status": "alive",
-   "data_license": "unknown",
-   "commercial_use": "unknown",
-   "storage_caching": "unknown",
-   "redistribution_display": "unknown",
-   "attribution_required": "unknown",
-   "bulk_download": "unknown",
-   "self_host_option": "unknown",
-   "verdict": "unknown",
-   "confidence": "low",
-   "link_checked_at": "2026-11-21"
   },
   {
    "id": "fullhunt",
@@ -44919,9 +44919,9 @@
    "link_note": "HTTP 404"
   },
   {
-   "id": "github-developer",
+   "id": "github",
    "name": "GitHub",
-   "url": "https://developer.github.com/v3/",
+   "url": "https://docs.github.com/en/free-pro-team@latest/rest",
    "category": "Development",
    "description": "Make use of GitHub repositories, code and user info programmatically",
    "description_source": "upstream",
@@ -44930,9 +44930,9 @@
    "cors": "yes",
    "sources": [
     {
-     "list": "public-api-lists",
+     "list": "public-apis",
      "name": "GitHub",
-     "url": "https://developer.github.com/v3/",
+     "url": "https://docs.github.com/en/free-pro-team@latest/rest",
      "category": "Development"
     }
    ],
@@ -44950,9 +44950,9 @@
    "link_note": "-> https://docs.github.com/en/rest"
   },
   {
-   "id": "github",
+   "id": "github-developer",
    "name": "GitHub",
-   "url": "https://docs.github.com/en/free-pro-team@latest/rest",
+   "url": "https://developer.github.com/v3/",
    "category": "Development",
    "description": "Make use of GitHub repositories, code and user info programmatically",
    "description_source": "upstream",
@@ -44961,9 +44961,9 @@
    "cors": "yes",
    "sources": [
     {
-     "list": "public-apis",
+     "list": "public-api-lists",
      "name": "GitHub",
-     "url": "https://docs.github.com/en/free-pro-team@latest/rest",
+     "url": "https://developer.github.com/v3/",
      "category": "Development"
     }
    ],
@@ -45162,36 +45162,6 @@
    "link_note": "-> https://docs.gitlab.com/api/"
   },
   {
-   "id": "gitter-github",
-   "name": "Gitter",
-   "url": "https://github.com/gitterHQ/docs",
-   "category": "Development",
-   "description": "Chat for GitHub",
-   "description_source": "upstream",
-   "auth": "OAuth",
-   "https": true,
-   "cors": "unknown",
-   "sources": [
-    {
-     "list": "public-api-lists",
-     "name": "Gitter",
-     "url": "https://github.com/gitterHQ/docs",
-     "category": "Development"
-    }
-   ],
-   "link_status": "alive",
-   "data_license": "unknown",
-   "commercial_use": "unknown",
-   "storage_caching": "unknown",
-   "redistribution_display": "unknown",
-   "attribution_required": "unknown",
-   "bulk_download": "unknown",
-   "self_host_option": "unknown",
-   "verdict": "unknown",
-   "confidence": "low",
-   "link_checked_at": "2026-11-21"
-  },
-  {
    "id": "gitter",
    "name": "Gitter",
    "url": "https://developer.gitter.im/docs/welcome",
@@ -45221,6 +45191,36 @@
    "confidence": "low",
    "link_checked_at": "2026-11-21",
    "link_note": "ConnectError"
+  },
+  {
+   "id": "gitter-github",
+   "name": "Gitter",
+   "url": "https://github.com/gitterHQ/docs",
+   "category": "Development",
+   "description": "Chat for GitHub",
+   "description_source": "upstream",
+   "auth": "OAuth",
+   "https": true,
+   "cors": "unknown",
+   "sources": [
+    {
+     "list": "public-api-lists",
+     "name": "Gitter",
+     "url": "https://github.com/gitterHQ/docs",
+     "category": "Development"
+    }
+   ],
+   "link_status": "alive",
+   "data_license": "unknown",
+   "commercial_use": "unknown",
+   "storage_caching": "unknown",
+   "redistribution_display": "unknown",
+   "attribution_required": "unknown",
+   "bulk_download": "unknown",
+   "self_host_option": "unknown",
+   "verdict": "unknown",
+   "confidence": "low",
+   "link_checked_at": "2026-11-21"
   },
   {
    "id": "glitterly",
@@ -48606,40 +48606,6 @@
    "second_check_note": "Re-read API landing and Partner Guide: pricing tiers $1 demo / $99 / $299, approval not guaranteed, 'Do not redistribute payloads beyond the use cases covered in your partner agreement', cache at least one rate-limit window. Terms private; unknown stands."
   },
   {
-   "id": "helium-heliumtrades",
-   "name": "Helium",
-   "url": "https://heliumtrades.com/mcp-page/",
-   "category": "Finance",
-   "description": "News with media bias scoring, balanced news synthesis, live market data, AI options pricing",
-   "description_source": "upstream",
-   "auth": "none",
-   "https": true,
-   "cors": "yes",
-   "sources": [
-    {
-     "list": "public-apis",
-     "name": "Helium",
-     "url": "https://heliumtrades.com/mcp-page/",
-     "category": "Finance"
-    }
-   ],
-   "link_status": "alive",
-   "data_license": "unknown",
-   "commercial_use": "unknown",
-   "storage_caching": "unknown",
-   "redistribution_display": "unknown",
-   "attribution_required": "unknown",
-   "bulk_download": "unknown",
-   "self_host_option": "unknown",
-   "verdict": "unknown",
-   "confidence": "low",
-   "link_checked_at": "2026-11-21",
-   "api_terms_url": "https://heliumtrades.com/mcp-page/",
-   "notes": "Read the MCP landing page (pricing: 50 free queries per IP, then $0.02/query) and found only a privacy policy link; /terms, /tos return 403 to curl and no terms page was readable. Service mixes news, bias scores and live market data (upstream licensing unknown). All terms unknown.",
-   "checked_at": "2026-11-21",
-   "checked_by": "claude-sonnet-5-5"
-  },
-  {
    "id": "helium",
    "name": "Helium",
    "url": "https://docs.helium.com/api/blockchain/introduction/",
@@ -48671,6 +48637,40 @@
    "link_note": "-> https://docs.helium.com/network-data/legacy-blockchain-data/",
    "evidence": [],
    "notes": "docs.helium.com legacy blockchain data page read (redirect target): says Helium L1 snapshot is available requester-pays on AWS and via torrent; no licence or terms stated. Not a hosted API any more (L1 archive migrated to Solana in 2023). Terms of use for Helium network data not found.",
+   "checked_at": "2026-11-21",
+   "checked_by": "claude-sonnet-5-5"
+  },
+  {
+   "id": "helium-heliumtrades",
+   "name": "Helium",
+   "url": "https://heliumtrades.com/mcp-page/",
+   "category": "Finance",
+   "description": "News with media bias scoring, balanced news synthesis, live market data, AI options pricing",
+   "description_source": "upstream",
+   "auth": "none",
+   "https": true,
+   "cors": "yes",
+   "sources": [
+    {
+     "list": "public-apis",
+     "name": "Helium",
+     "url": "https://heliumtrades.com/mcp-page/",
+     "category": "Finance"
+    }
+   ],
+   "link_status": "alive",
+   "data_license": "unknown",
+   "commercial_use": "unknown",
+   "storage_caching": "unknown",
+   "redistribution_display": "unknown",
+   "attribution_required": "unknown",
+   "bulk_download": "unknown",
+   "self_host_option": "unknown",
+   "verdict": "unknown",
+   "confidence": "low",
+   "link_checked_at": "2026-11-21",
+   "api_terms_url": "https://heliumtrades.com/mcp-page/",
+   "notes": "Read the MCP landing page (pricing: 50 free queries per IP, then $0.02/query) and found only a privacy policy link; /terms, /tos return 403 to curl and no terms page was readable. Service mixes news, bias scores and live market data (upstream licensing unknown). All terms unknown.",
    "checked_at": "2026-11-21",
    "checked_by": "claude-sonnet-5-5"
   },
@@ -50838,6 +50838,36 @@
    "checked_by": "claude-sonnet-5-5"
   },
   {
+   "id": "ibm-text-to-speech",
+   "name": "IBM Text to Speech",
+   "url": "https://cloud.ibm.com/docs/text-to-speech/getting-started.html",
+   "category": "Development",
+   "description": "Convert text to speech",
+   "description_source": "upstream",
+   "auth": "apiKey",
+   "https": true,
+   "cors": "yes",
+   "sources": [
+    {
+     "list": "public-apis",
+     "name": "IBM Text to Speech",
+     "url": "https://cloud.ibm.com/docs/text-to-speech/getting-started.html",
+     "category": "Development"
+    }
+   ],
+   "link_status": "alive",
+   "data_license": "unknown",
+   "commercial_use": "unknown",
+   "storage_caching": "unknown",
+   "redistribution_display": "unknown",
+   "attribution_required": "unknown",
+   "bulk_download": "unknown",
+   "self_host_option": "unknown",
+   "verdict": "unknown",
+   "confidence": "low",
+   "link_checked_at": "2026-11-21"
+  },
+  {
    "id": "ibm-text-to-speech-console",
    "name": "IBM Text to Speech",
    "url": "https://console.bluemix.net/docs/services/text-to-speech/getting-started.html",
@@ -50867,36 +50897,6 @@
    "confidence": "low",
    "link_checked_at": "2026-11-21",
    "link_note": "-> https://cloud.ibm.com/docs/services/text-to-speech/getting-started.html"
-  },
-  {
-   "id": "ibm-text-to-speech",
-   "name": "IBM Text to Speech",
-   "url": "https://cloud.ibm.com/docs/text-to-speech/getting-started.html",
-   "category": "Development",
-   "description": "Convert text to speech",
-   "description_source": "upstream",
-   "auth": "apiKey",
-   "https": true,
-   "cors": "yes",
-   "sources": [
-    {
-     "list": "public-apis",
-     "name": "IBM Text to Speech",
-     "url": "https://cloud.ibm.com/docs/text-to-speech/getting-started.html",
-     "category": "Development"
-    }
-   ],
-   "link_status": "alive",
-   "data_license": "unknown",
-   "commercial_use": "unknown",
-   "storage_caching": "unknown",
-   "redistribution_display": "unknown",
-   "attribution_required": "unknown",
-   "bulk_download": "unknown",
-   "self_host_option": "unknown",
-   "verdict": "unknown",
-   "confidence": "low",
-   "link_checked_at": "2026-11-21"
   },
   {
    "id": "icanhazdadjoke",
@@ -51752,9 +51752,9 @@
    "link_note": "-> https://marketplace.apilayer.com/image_upload-api"
   },
   {
-   "id": "image-charts-image-charts",
+   "id": "image-charts",
    "name": "Image-Charts",
-   "url": "https://www.image-charts.com/",
+   "url": "https://documentation.image-charts.com/",
    "category": "Development",
    "description": "Generate charts, QR codes and graph images",
    "description_source": "upstream",
@@ -51763,9 +51763,9 @@
    "cors": "yes",
    "sources": [
     {
-     "list": "public-api-lists",
+     "list": "public-apis",
      "name": "Image-Charts",
-     "url": "https://www.image-charts.com/",
+     "url": "https://documentation.image-charts.com/",
      "category": "Development"
     }
    ],
@@ -51782,9 +51782,9 @@
    "link_checked_at": "2026-11-21"
   },
   {
-   "id": "image-charts",
+   "id": "image-charts-image-charts",
    "name": "Image-Charts",
-   "url": "https://documentation.image-charts.com/",
+   "url": "https://www.image-charts.com/",
    "category": "Development",
    "description": "Generate charts, QR codes and graph images",
    "description_source": "upstream",
@@ -51793,9 +51793,9 @@
    "cors": "yes",
    "sources": [
     {
-     "list": "public-apis",
+     "list": "public-api-lists",
      "name": "Image-Charts",
-     "url": "https://documentation.image-charts.com/",
+     "url": "https://www.image-charts.com/",
      "category": "Development"
     }
    ],
@@ -55098,37 +55098,6 @@
    "checked_by": "claude-sonnet-5-5"
   },
   {
-   "id": "ipgeolocation-ipgeolocation",
-   "name": "ipgeolocation",
-   "url": "https://ipgeolocation.com/",
-   "category": "Geocoding",
-   "description": "Find geolocation of any IP address with IP Geolocation API",
-   "description_source": "upstream",
-   "auth": "apiKey",
-   "https": true,
-   "cors": "yes",
-   "sources": [
-    {
-     "list": "public-api-lists",
-     "name": "ipgeolocation",
-     "url": "https://ipgeolocation.com/",
-     "category": "Geocoding"
-    }
-   ],
-   "link_status": "dead",
-   "data_license": "unknown",
-   "commercial_use": "unknown",
-   "storage_caching": "unknown",
-   "redistribution_display": "unknown",
-   "attribution_required": "unknown",
-   "bulk_download": "unknown",
-   "self_host_option": "unknown",
-   "verdict": "unknown",
-   "confidence": "low",
-   "link_checked_at": "2026-11-21",
-   "link_note": "ConnectError"
-  },
-  {
    "id": "ipgeolocation",
    "name": "ipgeolocation",
    "url": "https://ipgeolocation.io/",
@@ -55200,6 +55169,37 @@
    "second_check_at": "2026-11-21",
    "second_check": "confirmed",
    "second_check_note": "Re-read tos.html. Ambiguity on display resolved: evidence points to 'yes, but only per-visitor results inside your app' (not public lookup tools, not shared raw data). Storage by end users is forbidden ('do not permit your end users to store, distribute'); site-operator storage still not addressed, so storage_caching stays unknown. Free-plan commercial sentence is stronger than the first-pass home"
+  },
+  {
+   "id": "ipgeolocation-ipgeolocation",
+   "name": "ipgeolocation",
+   "url": "https://ipgeolocation.com/",
+   "category": "Geocoding",
+   "description": "Find geolocation of any IP address with IP Geolocation API",
+   "description_source": "upstream",
+   "auth": "apiKey",
+   "https": true,
+   "cors": "yes",
+   "sources": [
+    {
+     "list": "public-api-lists",
+     "name": "ipgeolocation",
+     "url": "https://ipgeolocation.com/",
+     "category": "Geocoding"
+    }
+   ],
+   "link_status": "dead",
+   "data_license": "unknown",
+   "commercial_use": "unknown",
+   "storage_caching": "unknown",
+   "redistribution_display": "unknown",
+   "attribution_required": "unknown",
+   "bulk_download": "unknown",
+   "self_host_option": "unknown",
+   "verdict": "unknown",
+   "confidence": "low",
+   "link_checked_at": "2026-11-21",
+   "link_note": "ConnectError"
   },
   {
    "id": "ipgeolocationapi",
@@ -57356,37 +57356,6 @@
    "second_check_note": "Generic site Terms (/terms-and-conditions) forbid 'publicly display ... commercially exploit' the Website/Services; read as site/software scope, API page grants explicit use, but a conflict risk remains. Public feed shows only last 7 days; employer logos/trademarks stay theirs."
   },
   {
-   "id": "jobs2careers-api",
-   "name": "Jobs2Careers",
-   "url": "http://api.jobs2careers.com/api/spec.pdf",
-   "category": "Jobs",
-   "description": "Job aggregator",
-   "description_source": "upstream",
-   "auth": "apiKey",
-   "https": true,
-   "cors": "unknown",
-   "sources": [
-    {
-     "list": "public-api-lists",
-     "name": "Jobs2Careers",
-     "url": "http://api.jobs2careers.com/api/spec.pdf",
-     "category": "Jobs"
-    }
-   ],
-   "link_status": "dead",
-   "data_license": "unknown",
-   "commercial_use": "unknown",
-   "storage_caching": "unknown",
-   "redistribution_display": "unknown",
-   "attribution_required": "unknown",
-   "bulk_download": "unknown",
-   "self_host_option": "unknown",
-   "verdict": "unknown",
-   "confidence": "low",
-   "link_checked_at": "2026-11-21",
-   "link_note": "HTTP 404"
-  },
-  {
    "id": "jobs2careers",
    "name": "Jobs2Careers",
    "url": "https://docs.talroo.com/api/search",
@@ -57437,6 +57406,37 @@
    "second_check_at": "2026-11-21",
    "second_check": "confirmed",
    "second_check_note": "Re-read publisher-program, how-to-apply and FAQ. Monetised use is the intended model but gated."
+  },
+  {
+   "id": "jobs2careers-api",
+   "name": "Jobs2Careers",
+   "url": "http://api.jobs2careers.com/api/spec.pdf",
+   "category": "Jobs",
+   "description": "Job aggregator",
+   "description_source": "upstream",
+   "auth": "apiKey",
+   "https": true,
+   "cors": "unknown",
+   "sources": [
+    {
+     "list": "public-api-lists",
+     "name": "Jobs2Careers",
+     "url": "http://api.jobs2careers.com/api/spec.pdf",
+     "category": "Jobs"
+    }
+   ],
+   "link_status": "dead",
+   "data_license": "unknown",
+   "commercial_use": "unknown",
+   "storage_caching": "unknown",
+   "redistribution_display": "unknown",
+   "attribution_required": "unknown",
+   "bulk_download": "unknown",
+   "self_host_option": "unknown",
+   "verdict": "unknown",
+   "confidence": "low",
+   "link_checked_at": "2026-11-21",
+   "link_note": "HTTP 404"
   },
   {
    "id": "jobspipe",
@@ -57566,6 +57566,36 @@
    "second_check_note": "Terms say 'internal business purposes' but docs promote job boards and storing in own DB; Docs resolve storage toward yes; commercial/display still conflicts with ToS | applied: storage_caching=yes"
   },
   {
+   "id": "jokeapi",
+   "name": "JokeAPI",
+   "url": "https://v2.jokeapi.dev/",
+   "category": "Entertainment",
+   "description": "Programmable jokes in multiple languages with filtering options",
+   "description_source": "upstream",
+   "auth": "none",
+   "https": true,
+   "cors": "yes",
+   "sources": [
+    {
+     "list": "public-apis",
+     "name": "JokeAPI",
+     "url": "https://v2.jokeapi.dev/",
+     "category": "Entertainment"
+    }
+   ],
+   "link_status": "alive",
+   "data_license": "unknown",
+   "commercial_use": "unknown",
+   "storage_caching": "unknown",
+   "redistribution_display": "unknown",
+   "attribution_required": "unknown",
+   "bulk_download": "unknown",
+   "self_host_option": "unknown",
+   "verdict": "unknown",
+   "confidence": "low",
+   "link_checked_at": "2026-11-21"
+  },
+  {
    "id": "jokeapi-sv443",
    "name": "JokeAPI",
    "url": "https://sv443.net/jokeapi/v2/",
@@ -57587,36 +57617,6 @@
      "name": "JokeAPI",
      "url": "https://sv443.net/jokeapi/v2/",
      "category": "Games & Comics"
-    }
-   ],
-   "link_status": "alive",
-   "data_license": "unknown",
-   "commercial_use": "unknown",
-   "storage_caching": "unknown",
-   "redistribution_display": "unknown",
-   "attribution_required": "unknown",
-   "bulk_download": "unknown",
-   "self_host_option": "unknown",
-   "verdict": "unknown",
-   "confidence": "low",
-   "link_checked_at": "2026-11-21"
-  },
-  {
-   "id": "jokeapi",
-   "name": "JokeAPI",
-   "url": "https://v2.jokeapi.dev/",
-   "category": "Entertainment",
-   "description": "Programmable jokes in multiple languages with filtering options",
-   "description_source": "upstream",
-   "auth": "none",
-   "https": true,
-   "cors": "yes",
-   "sources": [
-    {
-     "list": "public-apis",
-     "name": "JokeAPI",
-     "url": "https://v2.jokeapi.dev/",
-     "category": "Entertainment"
     }
    ],
    "link_status": "alive",
@@ -77633,64 +77633,6 @@
    "license_scope": "portal-default"
   },
   {
-   "id": "open-government-mexico-datos",
-   "name": "Open Government, Mexico",
-   "url": "https://datos.gob.mx/",
-   "category": "Government",
-   "description": "Mexico Government Open Data",
-   "description_source": "upstream",
-   "auth": "none",
-   "https": true,
-   "cors": "unknown",
-   "sources": [
-    {
-     "list": "public-apis",
-     "name": "Open Government, Mexico",
-     "url": "https://datos.gob.mx/",
-     "category": "Government"
-    }
-   ],
-   "link_status": "alive",
-   "data_license": "unknown",
-   "commercial_use": "yes",
-   "storage_caching": "unknown",
-   "redistribution_display": "unknown",
-   "attribution_required": "unknown",
-   "bulk_download": "unknown",
-   "self_host_option": "unknown",
-   "verdict": "yellow",
-   "confidence": "low",
-   "link_checked_at": "2026-11-21",
-   "link_note": "HTTP 403 (blocked for bots, assumed alive)",
-   "commercial_use_scope": "any",
-   "share_alike": "unknown",
-   "data_license_url": "https://www.gob.mx/terminos",
-   "api_terms_url": "https://www.gob.mx/terminos",
-   "evidence": [
-    {
-     "field": "commercial_use",
-     "url": "https://www.gob.mx/terminos",
-     "quote": "Se autoriza al Usuario a visualizar y descargar los materiales contenidos en el sitio solamente para su uso personal y no para un uso comercial.",
-     "checked_at": "2026-11-21"
-    },
-    {
-     "field": "commercial_use",
-     "url": "https://www.datos.gob.mx/api/3/action/package_search?rows=3",
-     "quote": "Creative Commons Attribution 4.0",
-     "checked_at": "2026-11-21"
-    }
-   ],
-   "notes": "datos.gob.mx footer links to the general gob.mx Terms (Spanish), which restrict materials of the site to personal, non-commercial use. Open datasets on the national open-data platform are supposed to be under a separate open licence, but the portal licence page (Libre Uso MX) returned 404 and the guideline PDFs were not retrievable, so that was not verified. Conflicting/unverified = ambiguous. Entry was HTTP 403 for upstream link check; pages here read via curl at www.datos.gob.mx. Check the licence on each dataset.",
-   "checked_at": "2026-11-21",
-   "checked_by": "claude-sonnet-5-5",
-   "second_check_at": "2026-11-21",
-   "second_check": "disputed",
-   "second_check_note": "Dataset-level licence is CC-BY-4.0 on the portal's own CKAN API (1929 of 1937 datasets); gob.mx personal-use terms cover site materials, not dataset licences | applied: commercial_use=yes",
-   "verdict_override": "yellow",
-   "override_reason": "Second check resolved some fields; unconfirmed storage/display keeps it at yellow.",
-   "license_scope": "portal-default"
-  },
-  {
    "id": "open-government-mexico",
    "name": "Open Government, Mexico",
    "url": "https://www.inegi.org.mx/datos/",
@@ -77762,6 +77704,64 @@
    "second_check_at": "2026-11-21",
    "second_check": "confirmed",
    "second_check_note": "INEGI Libre Uso terms verified. INEGI indicators API own terms/token not read."
+  },
+  {
+   "id": "open-government-mexico-datos",
+   "name": "Open Government, Mexico",
+   "url": "https://datos.gob.mx/",
+   "category": "Government",
+   "description": "Mexico Government Open Data",
+   "description_source": "upstream",
+   "auth": "none",
+   "https": true,
+   "cors": "unknown",
+   "sources": [
+    {
+     "list": "public-apis",
+     "name": "Open Government, Mexico",
+     "url": "https://datos.gob.mx/",
+     "category": "Government"
+    }
+   ],
+   "link_status": "alive",
+   "data_license": "unknown",
+   "commercial_use": "yes",
+   "storage_caching": "unknown",
+   "redistribution_display": "unknown",
+   "attribution_required": "unknown",
+   "bulk_download": "unknown",
+   "self_host_option": "unknown",
+   "verdict": "yellow",
+   "confidence": "low",
+   "link_checked_at": "2026-11-21",
+   "link_note": "HTTP 403 (blocked for bots, assumed alive)",
+   "commercial_use_scope": "any",
+   "share_alike": "unknown",
+   "data_license_url": "https://www.gob.mx/terminos",
+   "api_terms_url": "https://www.gob.mx/terminos",
+   "evidence": [
+    {
+     "field": "commercial_use",
+     "url": "https://www.gob.mx/terminos",
+     "quote": "Se autoriza al Usuario a visualizar y descargar los materiales contenidos en el sitio solamente para su uso personal y no para un uso comercial.",
+     "checked_at": "2026-11-21"
+    },
+    {
+     "field": "commercial_use",
+     "url": "https://www.datos.gob.mx/api/3/action/package_search?rows=3",
+     "quote": "Creative Commons Attribution 4.0",
+     "checked_at": "2026-11-21"
+    }
+   ],
+   "notes": "datos.gob.mx footer links to the general gob.mx Terms (Spanish), which restrict materials of the site to personal, non-commercial use. Open datasets on the national open-data platform are supposed to be under a separate open licence, but the portal licence page (Libre Uso MX) returned 404 and the guideline PDFs were not retrievable, so that was not verified. Conflicting/unverified = ambiguous. Entry was HTTP 403 for upstream link check; pages here read via curl at www.datos.gob.mx. Check the licence on each dataset.",
+   "checked_at": "2026-11-21",
+   "checked_by": "claude-sonnet-5-5",
+   "second_check_at": "2026-11-21",
+   "second_check": "disputed",
+   "second_check_note": "Dataset-level licence is CC-BY-4.0 on the portal's own CKAN API (1929 of 1937 datasets); gob.mx personal-use terms cover site materials, not dataset licences | applied: commercial_use=yes",
+   "verdict_override": "yellow",
+   "override_reason": "Second check resolved some fields; unconfirmed storage/display keeps it at yellow.",
+   "license_scope": "portal-default"
   },
   {
    "id": "open-government-netherlands",
@@ -83363,36 +83363,6 @@
    "not_applicable_reason": "Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility API); kept for reference."
   },
   {
-   "id": "owen-wilson-wow-owen-wilson-wow-api",
-   "name": "Owen Wilson Wow",
-   "url": "https://owen-wilson-wow-api.onrender.com/",
-   "category": "Video",
-   "description": "API for actor Owen Wilson's \"wow\" exclamations in movies",
-   "description_source": "upstream",
-   "auth": "none",
-   "https": true,
-   "cors": "yes",
-   "sources": [
-    {
-     "list": "public-api-lists",
-     "name": "Owen Wilson Wow",
-     "url": "https://owen-wilson-wow-api.onrender.com/",
-     "category": "Video"
-    }
-   ],
-   "link_status": "alive",
-   "data_license": "unknown",
-   "commercial_use": "unknown",
-   "storage_caching": "unknown",
-   "redistribution_display": "unknown",
-   "attribution_required": "unknown",
-   "bulk_download": "unknown",
-   "self_host_option": "unknown",
-   "verdict": "unknown",
-   "confidence": "low",
-   "link_checked_at": "2026-11-21"
-  },
-  {
    "id": "owen-wilson-wow",
    "name": "Owen Wilson Wow",
    "url": "https://owen-wilson-wow-api.herokuapp.com",
@@ -83422,6 +83392,36 @@
    "confidence": "low",
    "link_checked_at": "2026-11-21",
    "link_note": "HTTP 404"
+  },
+  {
+   "id": "owen-wilson-wow-owen-wilson-wow-api",
+   "name": "Owen Wilson Wow",
+   "url": "https://owen-wilson-wow-api.onrender.com/",
+   "category": "Video",
+   "description": "API for actor Owen Wilson's \"wow\" exclamations in movies",
+   "description_source": "upstream",
+   "auth": "none",
+   "https": true,
+   "cors": "yes",
+   "sources": [
+    {
+     "list": "public-api-lists",
+     "name": "Owen Wilson Wow",
+     "url": "https://owen-wilson-wow-api.onrender.com/",
+     "category": "Video"
+    }
+   ],
+   "link_status": "alive",
+   "data_license": "unknown",
+   "commercial_use": "unknown",
+   "storage_caching": "unknown",
+   "redistribution_display": "unknown",
+   "attribution_required": "unknown",
+   "bulk_download": "unknown",
+   "self_host_option": "unknown",
+   "verdict": "unknown",
+   "confidence": "low",
+   "link_checked_at": "2026-11-21"
   },
   {
    "id": "owo",
@@ -83923,36 +83923,6 @@
    "link_checked_at": "2026-11-21"
   },
   {
-   "id": "pandascore-api",
-   "name": "PandaScore",
-   "url": "https://api.pandascore.co",
-   "category": "Games & Comics",
-   "description": "E-sports games and results",
-   "description_source": "upstream",
-   "auth": "apiKey",
-   "https": true,
-   "cors": "unknown",
-   "sources": [
-    {
-     "list": "public-api-lists",
-     "name": "PandaScore",
-     "url": "https://api.pandascore.co",
-     "category": "Games & Comics"
-    }
-   ],
-   "link_status": "alive",
-   "data_license": "unknown",
-   "commercial_use": "unknown",
-   "storage_caching": "unknown",
-   "redistribution_display": "unknown",
-   "attribution_required": "unknown",
-   "bulk_download": "unknown",
-   "self_host_option": "unknown",
-   "verdict": "unknown",
-   "confidence": "low",
-   "link_checked_at": "2026-11-21"
-  },
-  {
    "id": "pandascore",
    "name": "PandaScore",
    "url": "https://developers.pandascore.co/",
@@ -83982,6 +83952,36 @@
    "confidence": "low",
    "link_checked_at": "2026-11-21",
    "link_note": "-> https://developers.pandascore.co/docs/introduction"
+  },
+  {
+   "id": "pandascore-api",
+   "name": "PandaScore",
+   "url": "https://api.pandascore.co",
+   "category": "Games & Comics",
+   "description": "E-sports games and results",
+   "description_source": "upstream",
+   "auth": "apiKey",
+   "https": true,
+   "cors": "unknown",
+   "sources": [
+    {
+     "list": "public-api-lists",
+     "name": "PandaScore",
+     "url": "https://api.pandascore.co",
+     "category": "Games & Comics"
+    }
+   ],
+   "link_status": "alive",
+   "data_license": "unknown",
+   "commercial_use": "unknown",
+   "storage_caching": "unknown",
+   "redistribution_display": "unknown",
+   "attribution_required": "unknown",
+   "bulk_download": "unknown",
+   "self_host_option": "unknown",
+   "verdict": "unknown",
+   "confidence": "low",
+   "link_checked_at": "2026-11-21"
   },
   {
    "id": "pandlens",
@@ -87442,6 +87442,41 @@
    "link_note": "HTTP 404"
   },
   {
+   "id": "poloniex",
+   "name": "Poloniex",
+   "url": "https://docs.poloniex.com",
+   "category": "Cryptocurrency",
+   "description": "US based digital asset exchange",
+   "description_source": "upstream",
+   "auth": "apiKey",
+   "https": true,
+   "cors": "unknown",
+   "sources": [
+    {
+     "list": "public-apis",
+     "name": "Poloniex",
+     "url": "https://docs.poloniex.com",
+     "category": "Cryptocurrency"
+    }
+   ],
+   "link_status": "redirect",
+   "data_license": "unknown",
+   "commercial_use": "unknown",
+   "storage_caching": "unknown",
+   "redistribution_display": "unknown",
+   "attribution_required": "unknown",
+   "bulk_download": "unknown",
+   "self_host_option": "unknown",
+   "verdict": "unknown",
+   "confidence": "low",
+   "link_checked_at": "2026-11-21",
+   "link_note": "-> https://api-docs.poloniex.com/",
+   "evidence": [],
+   "notes": "Read api-docs.poloniex.com (redirect target; Playwright): no terms or licence section. poloniex.com/terms-of-use and /terms-and-conditions return 404, so no applicable terms were found. All fields unknown.",
+   "checked_at": "2026-11-21",
+   "checked_by": "claude-sonnet-5-5"
+  },
+  {
    "id": "poloniex-api-docs",
    "name": "Poloniex",
    "url": "https://api-docs.poloniex.com/spot",
@@ -87487,41 +87522,6 @@
     }
    ],
    "notes": "Poloniex User Agreement (last revised April 1, 2026), section 9 API USE, read via Playwright (page is a JS SPA; curl returns an empty shell, so verify_quotes may report unfetchable). API licence is limited to trading on Poloniex; use of API data for any other commercial purpose is prohibited. Section 23 also bans web crawlers/data extraction. Exchange market data: not suitable for an ad/affiliate site. Docs site api-docs.poloniex.com has no separate terms; caching/display/attribution not addressed. data_license left unknown: proprietary terms, no named licence.",
-   "checked_at": "2026-11-21",
-   "checked_by": "claude-sonnet-5-5"
-  },
-  {
-   "id": "poloniex",
-   "name": "Poloniex",
-   "url": "https://docs.poloniex.com",
-   "category": "Cryptocurrency",
-   "description": "US based digital asset exchange",
-   "description_source": "upstream",
-   "auth": "apiKey",
-   "https": true,
-   "cors": "unknown",
-   "sources": [
-    {
-     "list": "public-apis",
-     "name": "Poloniex",
-     "url": "https://docs.poloniex.com",
-     "category": "Cryptocurrency"
-    }
-   ],
-   "link_status": "redirect",
-   "data_license": "unknown",
-   "commercial_use": "unknown",
-   "storage_caching": "unknown",
-   "redistribution_display": "unknown",
-   "attribution_required": "unknown",
-   "bulk_download": "unknown",
-   "self_host_option": "unknown",
-   "verdict": "unknown",
-   "confidence": "low",
-   "link_checked_at": "2026-11-21",
-   "link_note": "-> https://api-docs.poloniex.com/",
-   "evidence": [],
-   "notes": "Read api-docs.poloniex.com (redirect target; Playwright): no terms or licence section. poloniex.com/terms-of-use and /terms-and-conditions return 404, so no applicable terms were found. All fields unknown.",
    "checked_at": "2026-11-21",
    "checked_by": "claude-sonnet-5-5"
   },
@@ -90198,6 +90198,37 @@
    "checked_by": "claude-sonnet-5-5"
   },
   {
+   "id": "punkapi",
+   "name": "PunkAPI",
+   "url": "https://punkapi.com/",
+   "category": "Food & Drink",
+   "description": "Brewdog Beer Recipes",
+   "description_source": "upstream",
+   "auth": "none",
+   "https": true,
+   "cors": "unknown",
+   "sources": [
+    {
+     "list": "public-apis",
+     "name": "PunkAPI",
+     "url": "https://punkapi.com/",
+     "category": "Food & Drink"
+    }
+   ],
+   "link_status": "dead",
+   "data_license": "unknown",
+   "commercial_use": "unknown",
+   "storage_caching": "unknown",
+   "redistribution_display": "unknown",
+   "attribution_required": "unknown",
+   "bulk_download": "unknown",
+   "self_host_option": "unknown",
+   "verdict": "unknown",
+   "confidence": "low",
+   "link_checked_at": "2026-11-21",
+   "link_note": "ConnectError"
+  },
+  {
    "id": "punkapi-github",
    "name": "PunkAPI",
    "url": "https://github.com/alxiw/punkapi",
@@ -90237,37 +90268,6 @@
    "notes": "Read the GitHub README and LICENSE (https://github.com/alxiw/punkapi). The MIT licence covers the code (self-hostable). The served content is BrewDog's DIY Dog beer catalogue (recipes, descriptions, images from BrewDog's own catalogue PDF), whose rights belong to BrewDog and are not addressed; hosted API at punkapi.dev has no terms page that was read. Commercial use, storage, display, attribution unknown.",
    "checked_at": "2026-11-21",
    "checked_by": "claude-sonnet-5-5"
-  },
-  {
-   "id": "punkapi",
-   "name": "PunkAPI",
-   "url": "https://punkapi.com/",
-   "category": "Food & Drink",
-   "description": "Brewdog Beer Recipes",
-   "description_source": "upstream",
-   "auth": "none",
-   "https": true,
-   "cors": "unknown",
-   "sources": [
-    {
-     "list": "public-apis",
-     "name": "PunkAPI",
-     "url": "https://punkapi.com/",
-     "category": "Food & Drink"
-    }
-   ],
-   "link_status": "dead",
-   "data_license": "unknown",
-   "commercial_use": "unknown",
-   "storage_caching": "unknown",
-   "redistribution_display": "unknown",
-   "attribution_required": "unknown",
-   "bulk_download": "unknown",
-   "self_host_option": "unknown",
-   "verdict": "unknown",
-   "confidence": "low",
-   "link_checked_at": "2026-11-21",
-   "link_note": "ConnectError"
   },
   {
    "id": "purgomalum",
@@ -90745,42 +90745,6 @@
    "link_note": "HTTP 404"
   },
   {
-   "id": "qr-code-goqr",
-   "name": "QR code",
-   "url": "http://goqr.me/api/",
-   "category": "Development",
-   "description": "Generate and decode / read QR code graphics",
-   "description_source": "upstream",
-   "auth": "none",
-   "https": true,
-   "cors": "unknown",
-   "sources": [
-    {
-     "list": "public-apis",
-     "name": "QR code",
-     "url": "http://goqr.me/api/",
-     "category": "Development"
-    },
-    {
-     "list": "public-api-lists",
-     "name": "GoQR",
-     "url": "http://goqr.me/api/",
-     "category": "Development"
-    }
-   ],
-   "link_status": "alive",
-   "data_license": "unknown",
-   "commercial_use": "unknown",
-   "storage_caching": "unknown",
-   "redistribution_display": "unknown",
-   "attribution_required": "unknown",
-   "bulk_download": "unknown",
-   "self_host_option": "unknown",
-   "verdict": "unknown",
-   "confidence": "low",
-   "link_checked_at": "2026-11-21"
-  },
-  {
    "id": "qr-code",
    "name": "QR code",
    "url": "https://www.qrtag.net/api/",
@@ -90846,6 +90810,42 @@
    "confidence": "low",
    "link_checked_at": "2026-11-21",
    "link_note": "-> https://fungenerators.com/products/documentation/qrcode"
+  },
+  {
+   "id": "qr-code-goqr",
+   "name": "QR code",
+   "url": "http://goqr.me/api/",
+   "category": "Development",
+   "description": "Generate and decode / read QR code graphics",
+   "description_source": "upstream",
+   "auth": "none",
+   "https": true,
+   "cors": "unknown",
+   "sources": [
+    {
+     "list": "public-apis",
+     "name": "QR code",
+     "url": "http://goqr.me/api/",
+     "category": "Development"
+    },
+    {
+     "list": "public-api-lists",
+     "name": "GoQR",
+     "url": "http://goqr.me/api/",
+     "category": "Development"
+    }
+   ],
+   "link_status": "alive",
+   "data_license": "unknown",
+   "commercial_use": "unknown",
+   "storage_caching": "unknown",
+   "redistribution_display": "unknown",
+   "attribution_required": "unknown",
+   "bulk_download": "unknown",
+   "self_host_option": "unknown",
+   "verdict": "unknown",
+   "confidence": "low",
+   "link_checked_at": "2026-11-21"
   },
   {
    "id": "qr-code-by-lifestep",
@@ -93182,40 +93182,6 @@
    "link_checked_at": "2026-11-21"
   },
   {
-   "id": "razorpay-ifsc-ifsc",
-   "name": "Razorpay IFSC",
-   "url": "https://ifsc.razorpay.com/",
-   "category": "Finance",
-   "description": "Indian Financial Systems Code (Bank Branch Codes)",
-   "description_source": "upstream",
-   "auth": "none",
-   "https": true,
-   "cors": "unknown",
-   "sources": [
-    {
-     "list": "public-api-lists",
-     "name": "Razorpay IFSC",
-     "url": "https://ifsc.razorpay.com/",
-     "category": "Finance"
-    }
-   ],
-   "link_status": "alive",
-   "data_license": "unknown",
-   "commercial_use": "unknown",
-   "storage_caching": "unknown",
-   "redistribution_display": "unknown",
-   "attribution_required": "unknown",
-   "bulk_download": "unknown",
-   "self_host_option": "unknown",
-   "verdict": "unknown",
-   "confidence": "low",
-   "link_checked_at": "2026-11-21",
-   "api_terms_url": "https://ifsc.razorpay.com/",
-   "notes": "Read the toolkit landing page and the GitHub repo (razorpay/ifsc): the repository code is MIT-licensed, but that licence covers the software; no licence or terms were found for the hosted API at ifsc.razorpay.com or for the dataset (compiled from RBI and NPCI public lists named in the README; their own terms were not checked). Dataset downloads are offered on GitHub releases and a Docker image exists, but self-hosting terms for the data are unstated. All terms unknown.",
-   "checked_at": "2026-11-21",
-   "checked_by": "claude-sonnet-5-5"
-  },
-  {
    "id": "razorpay-ifsc",
    "name": "Razorpay IFSC",
    "url": "https://razorpay.com/docs/",
@@ -93293,6 +93259,40 @@
    "second_check_at": "2026-11-21",
    "second_check": "disputed",
    "second_check_note": "Public-domain claim is only a self-declaration; dataset is compiled from RBI and NPCI lists whose licence was not read; RBI site states all rights reserved; Hosted API is in a separate repo (ifsc-api) with no stated terms or SLA | applied: storage_caching=ambiguous, commercial_use=ambiguous"
+  },
+  {
+   "id": "razorpay-ifsc-ifsc",
+   "name": "Razorpay IFSC",
+   "url": "https://ifsc.razorpay.com/",
+   "category": "Finance",
+   "description": "Indian Financial Systems Code (Bank Branch Codes)",
+   "description_source": "upstream",
+   "auth": "none",
+   "https": true,
+   "cors": "unknown",
+   "sources": [
+    {
+     "list": "public-api-lists",
+     "name": "Razorpay IFSC",
+     "url": "https://ifsc.razorpay.com/",
+     "category": "Finance"
+    }
+   ],
+   "link_status": "alive",
+   "data_license": "unknown",
+   "commercial_use": "unknown",
+   "storage_caching": "unknown",
+   "redistribution_display": "unknown",
+   "attribution_required": "unknown",
+   "bulk_download": "unknown",
+   "self_host_option": "unknown",
+   "verdict": "unknown",
+   "confidence": "low",
+   "link_checked_at": "2026-11-21",
+   "api_terms_url": "https://ifsc.razorpay.com/",
+   "notes": "Read the toolkit landing page and the GitHub repo (razorpay/ifsc): the repository code is MIT-licensed, but that licence covers the software; no licence or terms were found for the hosted API at ifsc.razorpay.com or for the dataset (compiled from RBI and NPCI public lists named in the README; their own terms were not checked). Dataset downloads are offered on GitHub releases and a Docker image exists, but self-hosting terms for the data are unstated. All terms unknown.",
+   "checked_at": "2026-11-21",
+   "checked_by": "claude-sonnet-5-5"
   },
   {
    "id": "rblxdb",
@@ -95641,86 +95641,6 @@
    "second_check_note": "Grant is plain-language only, no named licence; content is law summaries by site owner. Storage/display inferred from general grant; 'no rate limit as of this writing' may change."
   },
   {
-   "id": "rijksmuseum-rijksmuseum",
-   "name": "Rijksmuseum",
-   "url": "https://www.rijksmuseum.nl/en/api",
-   "category": "Art & Design",
-   "description": "Art",
-   "description_source": "upstream",
-   "auth": "apiKey",
-   "https": true,
-   "cors": "unknown",
-   "sources": [
-    {
-     "list": "public-api-lists",
-     "name": "Rijksmuseum",
-     "url": "https://www.rijksmuseum.nl/en/api",
-     "category": "Art & Design"
-    }
-   ],
-   "link_status": "redirect",
-   "data_license": "CC0-1.0 / Public Domain (most items); CC-BY-4.0 where copyright applies; some items restricted",
-   "commercial_use": "yes",
-   "storage_caching": "ambiguous",
-   "redistribution_display": "ambiguous",
-   "attribution_required": "ambiguous",
-   "bulk_download": "unknown",
-   "self_host_option": "unknown",
-   "verdict": "yellow",
-   "confidence": "medium",
-   "link_checked_at": "2026-11-21",
-   "link_note": "-> https://www.rijksmuseum.nl/en/research/conduct-research/data",
-   "data_license_url": "https://data.rijksmuseum.nl/policy",
-   "api_terms_url": "https://data.rijksmuseum.nl/policy",
-   "commercial_use_scope": "any",
-   "attribution_text": "Credit the Rijksmuseum as source (requested; mandatory only for CC BY items)",
-   "share_alike": "unknown",
-   "notes": "Read data.rijksmuseum.nl/policy (Information and Data Policy summary) and the Rijksmuseum Data landing page the old /en/api URL redirects to. Policy: much of the data is free incl. commercial, with per-item exceptions (copyright photos, CC BY items), so storage/display/attribution are item-dependent (ambiguous). The old key-based API (auth: apiKey) is superseded by the new data services at data.rijksmuseum.nl; whether keys are still needed was not verified (auth left as is). Full policy PDF not read.",
-   "evidence": [
-    {
-     "field": "commercial_use",
-     "url": "https://data.rijksmuseum.nl/policy",
-     "quote": "can be freely used, including for commercial purposes, without needing to request permission.",
-     "checked_at": "2026-11-21"
-    },
-    {
-     "field": "data_license",
-     "url": "https://data.rijksmuseum.nl/policy",
-     "quote": "you will find a Public Domain or Creative Commons Zero (CC0) Public Domain Dedication under the copyright notice",
-     "checked_at": "2026-11-21"
-    },
-    {
-     "field": "storage_caching",
-     "url": "https://data.rijksmuseum.nl/policy",
-     "quote": "In some cases, however, usage restrictions apply, which are clearly indicated on our collection website.",
-     "checked_at": "2026-11-21"
-    },
-    {
-     "field": "redistribution_display",
-     "url": "https://data.rijksmuseum.nl/policy",
-     "quote": "In some cases, however, usage restrictions apply, which are clearly indicated on our collection website.",
-     "checked_at": "2026-11-21"
-    },
-    {
-     "field": "attribution_required",
-     "url": "https://data.rijksmuseum.nl/policy",
-     "quote": "If so, a Creative Commons BY 4.0 (CC BY 4.0) licence is indicated.",
-     "checked_at": "2026-11-21"
-    },
-    {
-     "field": "attribution_required",
-     "url": "https://data.rijksmuseum.nl/policy",
-     "quote": "you credit the Rijksmuseum (and, where possible, our staff) as the original creator, even if this is not required.",
-     "checked_at": "2026-11-21"
-    }
-   ],
-   "checked_at": "2026-11-21",
-   "checked_by": "claude-sonnet-5-5",
-   "second_check_at": "2026-11-21",
-   "second_check": "confirmed",
-   "second_check_note": "Re-read data.rijksmuseum.nl/policy: commercial use free for much of the data, CC0/CC BY items, some copyright photos restricted. Item-dependent so ambiguity stands; auth/key status not verified."
-  },
-  {
    "id": "rijksmuseum",
    "name": "Rijksmuseum",
    "url": "https://data.rijksmuseum.nl/",
@@ -95804,6 +95724,86 @@
    "second_check_at": "2026-11-21",
    "second_check": "confirmed",
    "second_check_note": "Re-read /policy/ and full English policy (3.3: commercial parties same conditions; 3.7 licensing principles; 3.8 credit is good practice). Caveat kept: some objects/photos under third-party copyright, check per-object notice; Dutch text prevails on conflict. No API key needed."
+  },
+  {
+   "id": "rijksmuseum-rijksmuseum",
+   "name": "Rijksmuseum",
+   "url": "https://www.rijksmuseum.nl/en/api",
+   "category": "Art & Design",
+   "description": "Art",
+   "description_source": "upstream",
+   "auth": "apiKey",
+   "https": true,
+   "cors": "unknown",
+   "sources": [
+    {
+     "list": "public-api-lists",
+     "name": "Rijksmuseum",
+     "url": "https://www.rijksmuseum.nl/en/api",
+     "category": "Art & Design"
+    }
+   ],
+   "link_status": "redirect",
+   "data_license": "CC0-1.0 / Public Domain (most items); CC-BY-4.0 where copyright applies; some items restricted",
+   "commercial_use": "yes",
+   "storage_caching": "ambiguous",
+   "redistribution_display": "ambiguous",
+   "attribution_required": "ambiguous",
+   "bulk_download": "unknown",
+   "self_host_option": "unknown",
+   "verdict": "yellow",
+   "confidence": "medium",
+   "link_checked_at": "2026-11-21",
+   "link_note": "-> https://www.rijksmuseum.nl/en/research/conduct-research/data",
+   "data_license_url": "https://data.rijksmuseum.nl/policy",
+   "api_terms_url": "https://data.rijksmuseum.nl/policy",
+   "commercial_use_scope": "any",
+   "attribution_text": "Credit the Rijksmuseum as source (requested; mandatory only for CC BY items)",
+   "share_alike": "unknown",
+   "notes": "Read data.rijksmuseum.nl/policy (Information and Data Policy summary) and the Rijksmuseum Data landing page the old /en/api URL redirects to. Policy: much of the data is free incl. commercial, with per-item exceptions (copyright photos, CC BY items), so storage/display/attribution are item-dependent (ambiguous). The old key-based API (auth: apiKey) is superseded by the new data services at data.rijksmuseum.nl; whether keys are still needed was not verified (auth left as is). Full policy PDF not read.",
+   "evidence": [
+    {
+     "field": "commercial_use",
+     "url": "https://data.rijksmuseum.nl/policy",
+     "quote": "can be freely used, including for commercial purposes, without needing to request permission.",
+     "checked_at": "2026-11-21"
+    },
+    {
+     "field": "data_license",
+     "url": "https://data.rijksmuseum.nl/policy",
+     "quote": "you will find a Public Domain or Creative Commons Zero (CC0) Public Domain Dedication under the copyright notice",
+     "checked_at": "2026-11-21"
+    },
+    {
+     "field": "storage_caching",
+     "url": "https://data.rijksmuseum.nl/policy",
+     "quote": "In some cases, however, usage restrictions apply, which are clearly indicated on our collection website.",
+     "checked_at": "2026-11-21"
+    },
+    {
+     "field": "redistribution_display",
+     "url": "https://data.rijksmuseum.nl/policy",
+     "quote": "In some cases, however, usage restrictions apply, which are clearly indicated on our collection website.",
+     "checked_at": "2026-11-21"
+    },
+    {
+     "field": "attribution_required",
+     "url": "https://data.rijksmuseum.nl/policy",
+     "quote": "If so, a Creative Commons BY 4.0 (CC BY 4.0) licence is indicated.",
+     "checked_at": "2026-11-21"
+    },
+    {
+     "field": "attribution_required",
+     "url": "https://data.rijksmuseum.nl/policy",
+     "quote": "you credit the Rijksmuseum (and, where possible, our staff) as the original creator, even if this is not required.",
+     "checked_at": "2026-11-21"
+    }
+   ],
+   "checked_at": "2026-11-21",
+   "checked_by": "claude-sonnet-5-5",
+   "second_check_at": "2026-11-21",
+   "second_check": "confirmed",
+   "second_check_note": "Re-read data.rijksmuseum.nl/policy: commercial use free for much of the data, CC0/CC BY items, some copyright photos restricted. Item-dependent so ambiguity stands; auth/key status not verified."
   },
   {
    "id": "riot-games",
@@ -104805,36 +104805,6 @@
    "link_checked_at": "2026-11-21"
   },
   {
-   "id": "steam-github",
-   "name": "Steam",
-   "url": "https://github.com/Revadike/InternalSteamWebAPI/wiki",
-   "category": "Games & Comics",
-   "description": "Internal Steam Web API documentation",
-   "description_source": "upstream",
-   "auth": "none",
-   "https": true,
-   "cors": "no",
-   "sources": [
-    {
-     "list": "public-apis",
-     "name": "Steam",
-     "url": "https://github.com/Revadike/InternalSteamWebAPI/wiki",
-     "category": "Games & Comics"
-    }
-   ],
-   "link_status": "alive",
-   "data_license": "unknown",
-   "commercial_use": "unknown",
-   "storage_caching": "unknown",
-   "redistribution_display": "unknown",
-   "attribution_required": "unknown",
-   "bulk_download": "unknown",
-   "self_host_option": "unknown",
-   "verdict": "unknown",
-   "confidence": "low",
-   "link_checked_at": "2026-11-21"
-  },
-  {
    "id": "steam-developer",
    "name": "Steam",
    "url": "https://developer.valvesoftware.com/wiki/Steam_Web_API",
@@ -104864,6 +104834,36 @@
    "confidence": "low",
    "link_checked_at": "2026-11-21",
    "link_note": "-> https://developer.valvesoftware.com/.within.website/?redir=https://developer.valvesoftware.com/wiki/Steam_Web_API"
+  },
+  {
+   "id": "steam-github",
+   "name": "Steam",
+   "url": "https://github.com/Revadike/InternalSteamWebAPI/wiki",
+   "category": "Games & Comics",
+   "description": "Internal Steam Web API documentation",
+   "description_source": "upstream",
+   "auth": "none",
+   "https": true,
+   "cors": "no",
+   "sources": [
+    {
+     "list": "public-apis",
+     "name": "Steam",
+     "url": "https://github.com/Revadike/InternalSteamWebAPI/wiki",
+     "category": "Games & Comics"
+    }
+   ],
+   "link_status": "alive",
+   "data_license": "unknown",
+   "commercial_use": "unknown",
+   "storage_caching": "unknown",
+   "redistribution_display": "unknown",
+   "attribution_required": "unknown",
+   "bulk_download": "unknown",
+   "self_host_option": "unknown",
+   "verdict": "unknown",
+   "confidence": "low",
+   "link_checked_at": "2026-11-21"
   },
   {
    "id": "steamgpt",
@@ -107358,20 +107358,20 @@
    "checked_by": "claude-sonnet-5-5"
   },
   {
-   "id": "talordata-talordata",
-   "name": "TalorData",
-   "url": "https://talordata.com/",
+   "id": "talordata",
+   "name": "Talordata",
+   "url": "https://docs.talordata.com/",
    "category": "Development",
-   "description": "Get structured SERP results from Google, Bing, Yandex, and others via one API",
+   "description": "SERP data from major search engines with a free trial",
    "description_source": "upstream",
    "auth": "apiKey",
    "https": true,
-   "cors": "no",
+   "cors": "unknown",
    "sources": [
     {
-     "list": "public-api-lists",
-     "name": "TalorData",
-     "url": "https://talordata.com/?utm_source=publicapilists&utm_term=publicapilists",
+     "list": "public-apis",
+     "name": "Talordata",
+     "url": "https://docs.talordata.com/",
      "category": "Development"
     }
    ],
@@ -107388,20 +107388,20 @@
    "link_checked_at": "2026-11-21"
   },
   {
-   "id": "talordata",
-   "name": "Talordata",
-   "url": "https://docs.talordata.com/",
+   "id": "talordata-talordata",
+   "name": "TalorData",
+   "url": "https://talordata.com/",
    "category": "Development",
-   "description": "SERP data from major search engines with a free trial",
+   "description": "Get structured SERP results from Google, Bing, Yandex, and others via one API",
    "description_source": "upstream",
    "auth": "apiKey",
    "https": true,
-   "cors": "unknown",
+   "cors": "no",
    "sources": [
     {
-     "list": "public-apis",
-     "name": "Talordata",
-     "url": "https://docs.talordata.com/",
+     "list": "public-api-lists",
+     "name": "TalorData",
+     "url": "https://talordata.com/?utm_source=publicapilists&utm_term=publicapilists",
      "category": "Development"
     }
    ],
@@ -113068,6 +113068,36 @@
    "link_checked_at": "2026-11-21"
   },
   {
+   "id": "trakt",
+   "name": "Trakt",
+   "url": "https://trakt.docs.apiary.io/",
+   "category": "Video",
+   "description": "Movie and TV Data",
+   "description_source": "upstream",
+   "auth": "apiKey",
+   "https": true,
+   "cors": "yes",
+   "sources": [
+    {
+     "list": "public-apis",
+     "name": "Trakt",
+     "url": "https://trakt.docs.apiary.io/",
+     "category": "Video"
+    }
+   ],
+   "link_status": "alive",
+   "data_license": "unknown",
+   "commercial_use": "unknown",
+   "storage_caching": "unknown",
+   "redistribution_display": "unknown",
+   "attribution_required": "unknown",
+   "bulk_download": "unknown",
+   "self_host_option": "unknown",
+   "verdict": "unknown",
+   "confidence": "low",
+   "link_checked_at": "2026-11-21"
+  },
+  {
    "id": "trakt-trakt",
    "name": "Trakt",
    "url": "https://trakt.tv/b/api-docs",
@@ -113097,36 +113127,6 @@
    "confidence": "low",
    "link_checked_at": "2026-11-21",
    "link_note": "HTTP 404"
-  },
-  {
-   "id": "trakt",
-   "name": "Trakt",
-   "url": "https://trakt.docs.apiary.io/",
-   "category": "Video",
-   "description": "Movie and TV Data",
-   "description_source": "upstream",
-   "auth": "apiKey",
-   "https": true,
-   "cors": "yes",
-   "sources": [
-    {
-     "list": "public-apis",
-     "name": "Trakt",
-     "url": "https://trakt.docs.apiary.io/",
-     "category": "Video"
-    }
-   ],
-   "link_status": "alive",
-   "data_license": "unknown",
-   "commercial_use": "unknown",
-   "storage_caching": "unknown",
-   "redistribution_display": "unknown",
-   "attribution_required": "unknown",
-   "bulk_download": "unknown",
-   "self_host_option": "unknown",
-   "verdict": "unknown",
-   "confidence": "low",
-   "link_checked_at": "2026-11-21"
   },
   {
    "id": "tranco",
@@ -122779,6 +122779,36 @@
    "link_note": "ConnectError"
   },
   {
+   "id": "virustotal",
+   "name": "VirusTotal",
+   "url": "https://docs.virustotal.com/reference/overview",
+   "category": "Anti-Malware",
+   "description": "VirusTotal File/URL Analysis",
+   "description_source": "upstream",
+   "auth": "apiKey",
+   "https": true,
+   "cors": "unknown",
+   "sources": [
+    {
+     "list": "public-apis",
+     "name": "VirusTotal",
+     "url": "https://docs.virustotal.com/reference/overview",
+     "category": "Anti-Malware"
+    }
+   ],
+   "link_status": "alive",
+   "data_license": "unknown",
+   "commercial_use": "unknown",
+   "storage_caching": "unknown",
+   "redistribution_display": "unknown",
+   "attribution_required": "unknown",
+   "bulk_download": "unknown",
+   "self_host_option": "unknown",
+   "verdict": "unknown",
+   "confidence": "low",
+   "link_checked_at": "2026-11-21"
+  },
+  {
    "id": "virustotal-virustotal",
    "name": "VirusTotal",
    "url": "https://www.virustotal.com/en/documentation/public-api/",
@@ -122808,36 +122838,6 @@
    "confidence": "low",
    "link_checked_at": "2026-11-21",
    "link_note": "HTTP 404"
-  },
-  {
-   "id": "virustotal",
-   "name": "VirusTotal",
-   "url": "https://docs.virustotal.com/reference/overview",
-   "category": "Anti-Malware",
-   "description": "VirusTotal File/URL Analysis",
-   "description_source": "upstream",
-   "auth": "apiKey",
-   "https": true,
-   "cors": "unknown",
-   "sources": [
-    {
-     "list": "public-apis",
-     "name": "VirusTotal",
-     "url": "https://docs.virustotal.com/reference/overview",
-     "category": "Anti-Malware"
-    }
-   ],
-   "link_status": "alive",
-   "data_license": "unknown",
-   "commercial_use": "unknown",
-   "storage_caching": "unknown",
-   "redistribution_display": "unknown",
-   "attribution_required": "unknown",
-   "bulk_download": "unknown",
-   "self_host_option": "unknown",
-   "verdict": "unknown",
-   "confidence": "low",
-   "link_checked_at": "2026-11-21"
   },
   {
    "id": "visual-crossing",

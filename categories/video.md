@@ -34,8 +34,8 @@
 | [Movie Quote](https://github.com/F4R4N/movie-quote/) | Random Movie and Series Quotes | ⚪ | — | — | — | — | — |
 | [Open Movie Database](http://www.omdbapi.com/) | Movie information | ⚪ | — | — | — | — | — |
 | [OpenSubtitles](https://www.opensubtitles.com/) | Search and download subtitles for movies and TV shows | ⚪ | — | — | — | — | — |
-| [Owen Wilson Wow](https://owen-wilson-wow-api.onrender.com/) | API for actor Owen Wilson's "wow" exclamations in movies | ⚪ | — | — | — | — | — |
 | [Owen Wilson Wow](https://owen-wilson-wow-api.herokuapp.com) 🔗† | API for actor Owen Wilson's "wow" exclamations in movies | ⚪ | — | — | — | — | — |
+| [Owen Wilson Wow](https://owen-wilson-wow-api.onrender.com/) | API for actor Owen Wilson's "wow" exclamations in movies | ⚪ | — | — | — | — | — |
 | [Potter DB](https://potterdb.com) | Data from the Harry Potter Universe: Characters, Movies, Books, Spells and Potions | ⚪ | — | — | — | — | — |
 | [RankFabrik Captions](https://rankfabrik.com/produits/transcription) | Extract transcripts and captions from YouTube videos | ⚪ | — | — | — | — | — |
 | [Rendi](https://rendi.dev/) | FFmpeg API | ⚪ | — | — | — | — | — |
@@ -59,8 +59,8 @@
 | [The Vampire Diaries](https://vampire-diaries-api.netlify.app/) | TV Show Data | ⚪ | — | — | — | — | — |
 | [ThronesApi](https://thronesapi.com/) | Game Of Thrones Characters Data with imagery | ⚪ | — | — | — | — | — |
 | [TrailerAddict](https://www.traileraddict.com/trailerapi) 🔗† | Easily embed trailers from TrailerAddict | ⚪ | — | — | — | — | — |
-| [Trakt](https://trakt.tv/b/api-docs) 🔗† | Movie and TV Data | ⚪ | — | — | — | — | — |
 | [Trakt](https://trakt.docs.apiary.io/) | Movie and TV Data | ⚪ | — | — | — | — | — |
+| [Trakt](https://trakt.tv/b/api-docs) 🔗† | Movie and TV Data | ⚪ | — | — | — | — | — |
 | [Transcript Dock](https://www.transcriptdock.com/docs) | Transcripts of YouTube, TikTok and Instagram videos, with timing and SRT or VTT exports | ⚪ | — | — | — | — | — |
 | [TranscriptFetch](https://transcriptfetch.com/docs) | Transcripts for YouTube, TikTok, Instagram videos and podcasts as clean text or timestamped JSON | ⚪ | — | — | — | — | — |
 | [TranscriptYT](https://transcript-yt.com/docs) | YouTube transcripts as JSON, text, SRT or VTT in 150+ languages, with AI fallback | ⚪ | — | — | — | — | — |

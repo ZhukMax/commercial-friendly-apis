@@ -20,8 +20,8 @@
 | [Exchangerate.host](https://exchangerate.host) | Foreign exchange & crypto rates API (keyless access ended 2023) | 🟡 | ❓ ambiguous | ❓ ambiguous | not required | [terms](https://exchangerate.host/terms) | 2026-11-21 |
 | [Exchangeratesapi.io](https://exchangeratesapi.io) | Exchange rates with currency conversion | 🟡 | 💲 paid | — | — | [terms](https://exchangeratesapi.io/terms/) | 2026-11-21 |
 | [Fixer](https://fixer.io) | Exchange rates and currency conversion | 🟡 | 💲 paid | — | — | [terms](https://fixer.io/terms) | 2026-11-21 |
-| [Frankfurter](https://frankfurter.dev/) | Exchange rates, currency conversion and time series | 🟡 | ❓ ambiguous | ✅ | required | [terms](https://frankfurter.dev/license/) | 2026-11-21 |
 | [Frankfurter](https://frankfurter.dev) | Exchange rates, currency conversion and time series | 🟡 | ✅ | ✅ | — | [terms](https://frankfurter.dev/license) | 2026-11-21 |
+| [Frankfurter](https://frankfurter.dev/) | Exchange rates, currency conversion and time series | 🟡 | ❓ ambiguous | ✅ | required | [terms](https://frankfurter.dev/license/) | 2026-11-21 |
 | [FreeCurrency](https://freecurrencyapi.com) | Real-time and historical foreign exchange rates | 🟡 | 💲 paid | — | — | [terms](https://freecurrencyapi.com/terms-of-service) | 2026-11-21 |
 | [FXMacroData](https://fxmacrodata.com) | Real-time forex macroeconomic data from central bank announcements | 🟡 | 💲 paid | ⚠️ limited | required | [terms](https://fxmacrodata.com/terms) | 2026-11-21 |
 | [FXpeek](https://fxpeek.com/en/api) | Source-linked historical reference exchange rates with CSV, JSON and an MCP server | 🟡 | 💲 paid | — | — | [terms](https://fxpeek.com/en/terms) | 2026-11-21 |

@@ -95,8 +95,8 @@
 | [CARTO](https://carto.com/) | Location Information Prediction | ⚪ | — | — | — | — | 2026-11-21 |
 | [CivicFeed](https://developers.civicfeed.com/) | News articles and public datasets | ⚪ | — | — | — | — | 2026-11-21 |
 | [CollegeScoreCard.ed.gov](https://collegescorecard.ed.gov/data/) | Data on higher education institutions in the United States | ⚪ | — | — | — | [terms](https://collegescorecard.ed.gov/data/api-documentation/) | 2026-11-21 |
-| [Enigma Public](http://docs.enigma.com/public/public_v20_api_about) | Broadest collection of public data | ⚪ | — | — | — | — | 2026-11-21 |
 | [Enigma Public](https://developers.enigma.com/docs) 🔗† | Broadest collection of public data | ⚪ | — | — | — | — | — |
+| [Enigma Public](http://docs.enigma.com/public/public_v20_api_about) | Broadest collection of public data | ⚪ | — | — | — | — | 2026-11-21 |
 | [Fruits](https://fruits-api.netlify.app/graphql) 🔗† | Information of fruit trees of the world | ⚪ | — | — | — | — | 2026-11-21 |
 | [Lottizen](https://lottizen.com/api) | Lottery draw history and stats (Canada, US, Europe) and Canadian scratch-ticket remaining prizes | ⚪ | — | — | required | [terms](https://lottizen.com/terms) | 2026-11-21 |
 | [Monitly](https://monit.ly/api-docs) | Official statistics from Eurostat, World Bank, OECD, IMF and WHO for 150+ countries | ⚪ | — | — | — | [terms](https://monit.ly/terms) | 2026-11-21 |

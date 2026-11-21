@@ -35,8 +35,8 @@
 | [Kroger](https://developer.kroger.com/reference) | Supermarket Data | ⚪ | — | — | — | — | 2026-11-21 |
 | [LCBO](https://lcboapi.com/) 🔗† | Alcohol | ⚪ | — | — | — | — | — |
 | [Noms](https://noms.sh/docs) 🔗† | Nutrition data for 3.7M foods and 298K brands across 230 countries, with barcodes and images | ⚪ | — | — | — | — | — |
-| [PunkAPI](https://github.com/alxiw/punkapi) | BrewDog's DIY Dog beer catalogue as an API | ⚪ | — | — | — | [terms](https://raw.githubusercontent.com/alxiw/punkapi/HEAD/LICENSE) | 2026-11-21 |
 | [PunkAPI](https://punkapi.com/) 🔗† | Brewdog Beer Recipes | ⚪ | — | — | — | — | — |
+| [PunkAPI](https://github.com/alxiw/punkapi) | BrewDog's DIY Dog beer catalogue as an API | ⚪ | — | — | — | [terms](https://raw.githubusercontent.com/alxiw/punkapi/HEAD/LICENSE) | 2026-11-21 |
 | [Rustybeer](https://rustybeer.herokuapp.com/) 🔗† | Beer brewing tools | ⚪ | — | — | — | — | — |
 | [Systembolaget](https://api-portal.systembolaget.se) 🔗† | Government owned liquor store in Sweden | ⚪ | — | — | — | — | — |
 | [Tasty](https://rapidapi.com/apidojo/api/tasty/) | API to query data about recipe, plan, ingredients | ⚪ | — | — | — | — | 2026-11-21 |

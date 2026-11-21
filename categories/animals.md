@@ -12,8 +12,8 @@
 | [Cataas](https://cataas.com/) | Cat as a service (cats pictures and gifs) | ⚪ | — | — | — | — | — |
 | [Cats](https://docs.thecatapi.com/) | Pictures of cats from Tumblr | ⚪ | — | — | — | — | — |
 | [Dog API](https://dogapi.dog) | Fun facts on dog breeds and groups | ⚪ | — | — | — | — | — |
-| [Dog Facts](https://kinduff.github.io/dog-api/) | Random facts of Dogs | ⚪ | — | — | — | — | — |
 | [Dog Facts](https://dukengn.github.io/Dog-facts-API/) | Random dog facts | ⚪ | — | — | — | — | — |
+| [Dog Facts](https://kinduff.github.io/dog-api/) | Random facts of Dogs | ⚪ | — | — | — | — | — |
 | [Dogs](https://dog.ceo/dog-api/) | Based on the Stanford Dogs Dataset | ⚪ | — | — | — | — | — |
 | [eBird](https://documenter.getpostman.com/view/664302/S1ENwy59) | Retrieve recent or notable birding observations within a region | ⚪ | — | — | — | — | — |
 | [FishWatch](https://www.fishwatch.gov/developers) | Information and pictures about individual fish species | ⚪ | — | — | — | — | — |
