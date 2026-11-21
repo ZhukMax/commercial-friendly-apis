@@ -14,12 +14,26 @@ sources:
   category: URL Shorteners
 link_status: alive
 data_license: unknown
-commercial_use: unknown
+commercial_use: 'yes'
 storage_caching: unknown
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://lix.li/terms-of-service
+applicable: false
+not_applicable_reason: URL shortener tool; account-scoped API, not a public data source.
+commercial_use_scope: any
+evidence:
+- field: commercial_use
+  url: https://lix.li/terms-of-service
+  quote: Personal and commercial use; API integration (according to the selected plan).
+  checked_at: '2026-11-21'
+notes: Read LIX Service Terms of Use (last updated Jan 15 2026). Commercial use and API integration are
+  listed as allowed uses of the shortening service, subject to the selected plan. Caching/display of data
+  not addressed; unknown.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

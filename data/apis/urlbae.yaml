@@ -23,3 +23,11 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://urlbae.com/page/terms
+applicable: false
+not_applicable_reason: URL shortener tool; account-scoped API, not a public data source.
+notes: Read https://urlbae.com/page/terms (Cloudshift Technologies Ltd). Content and Marks of the site
+  are licensed for personal or internal business use only; no clause specific to API output, commercial
+  use of short links, caching or display found. Unknown.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

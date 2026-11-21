@@ -23,3 +23,9 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://spyse-dev.readme.io/reference/quick-start
+notes: 'Only the readme.io API docs (quick start, llms.txt) were read: token-based API for an internet-assets
+  registry. No terms of service, licence or commercial-use text is on the docs, and spyse.com did not
+  respond to curl, so terms could not be read. All fields unknown; service status not verified.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

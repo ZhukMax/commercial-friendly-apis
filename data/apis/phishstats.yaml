@@ -23,3 +23,9 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+link_note: phishstats.info returned HTTP 502 (Cloudflare bad gateway) via curl and Playwright on 2026-11-21;
+  terms could not be read.
+notes: Site unreachable during the check (502 from both curl and a fresh browser context), so no terms,
+  licence or API page could be read. All terms fields unknown; re-check when the host is back.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

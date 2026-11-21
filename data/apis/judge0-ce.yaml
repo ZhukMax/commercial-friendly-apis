@@ -13,13 +13,31 @@ sources:
   url: https://ce.judge0.com/
   category: Programming
 link_status: alive
-data_license: unknown
+data_license: GPL-3.0 (software licence of Judge0, not a data licence)
 commercial_use: unknown
 storage_caching: unknown
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
-self_host_option: unknown
+self_host_option: 'yes'
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Code-execution engine/tool (executes submitted code); no data source. Self-hostable
+  open-source software.
+api_terms_url: https://ce.judge0.com/
+evidence:
+- field: self_host_option
+  url: https://ce.judge0.com/
+  quote: Judge0 is a robust, scalable, and open-source online code execution system.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://ce.judge0.com/
+  quote: Judge0 is licensed under the GNU General Public License v3.0.
+  checked_at: '2026-11-21'
+notes: API docs say Judge0 is GPL-3.0 open-source software and instance administrators configure authentication.
+  No terms of use for the ce.judge0.com public instance found (judge0.com/terms and /terms-of-service
+  return 404), so commercial_use and other terms stay unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

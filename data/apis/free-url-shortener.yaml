@@ -23,3 +23,11 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://ulvis.net/disclaimer.html
+applicable: false
+not_applicable_reason: URL shortener tool (ulvis.net); not a public data source.
+notes: Read https://ulvis.net/disclaimer.html and the API page https://ulvis.net/developer.html. Disclaimer
+  only says the service is for converting long URLs to short ones and that spam/illegal use is strictly
+  prohibited; no commercial-use, caching or display terms. Unknown.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

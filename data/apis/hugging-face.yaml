@@ -21,5 +21,10 @@ attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://huggingface.co/terms-of-service
+notes: 'Read https://huggingface.co/terms-of-service. Hub content (models, datasets) is user-contributed: each repository carries its own licence, and the ToS grants users a licence to public repos only
+  through the Hub services; no single licence for the platform, inference API or Hub data. Per-repository licences must be checked individually (not done). Core fields unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

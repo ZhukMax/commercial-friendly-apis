@@ -13,7 +13,7 @@ sources:
   url: https://docs.requesty.ai
   category: Machine Learning
 link_status: redirect
-data_license: unknown
+data_license: Customer retains IP in Customer Data incl. generated responses (not a data licence)
 commercial_use: unknown
 storage_caching: unknown
 redistribution_display: unknown
@@ -21,6 +21,18 @@ attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
 link_note: -> https://docs.requesty.ai/quickstart
+applicable: false
+not_applicable_reason: Inference/tool API tied to a customer account and key, not a public data source.
+api_terms_url: https://www.requesty.ai/terms
+evidence:
+- field: data_license
+  url: https://www.requesty.ai/terms
+  quote: You retain all intellectual property rights in Customer Data, subject to the licences in Section 8.
+  checked_at: '2026-11-21'
+notes: Read Requesty Terms of Service (Last Updated 14 August 2026) via Playwright (JS-rendered). Customer Data includes responses; the service routes to third-party model providers whose own terms apply
+  to each model. Free-plan Training Permitted Models may be trained on by providers/Requesty. Commercial-use permission for outputs not stated explicitly; core fields unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

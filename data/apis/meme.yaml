@@ -19,7 +19,18 @@ storage_caching: unknown
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
-self_host_option: unknown
+self_host_option: 'yes'
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Open-source scraper API redistributing third-party Reddit content; no data terms
+evidence:
+- field: self_host_option
+  url: https://github.com/D3vd/Meme_Api
+  quote: MIT license
+  checked_at: '2026-11-21'
+notes: GitHub repo of the Meme API (Go server, MIT licensed code). The README says memes are scraped from reddit and the hosted API moved to meme-api.com (root returns 404, no terms page). Content (meme
+  images and titles) belongs to reddit users/Reddit; no data licence stated. Terms unknown.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

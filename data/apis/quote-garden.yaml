@@ -19,7 +19,16 @@ storage_caching: unknown
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
-self_host_option: unknown
+self_host_option: 'yes'
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+evidence:
+- field: self_host_option
+  url: https://pprathameshmore.github.io/QuoteGarden/
+  quote: The MIT License (MIT)
+  checked_at: '2026-11-21'
+notes: 'Docs page and GitHub repo (pprathameshmore/QuoteGarden): the code is MIT licensed (self-hostable). No terms for the hosted API and no licence for the 5000+ quotes (third-party text, sources not
+  stated). Data terms unknown.'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

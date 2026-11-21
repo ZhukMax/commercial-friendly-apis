@@ -17,13 +17,44 @@ sources:
   url: https://developers.google.com/safe-browsing/
   category: Anti-Malware
 link_status: alive
-data_license: unknown
-commercial_use: unknown
+data_license: proprietary (Safe Browsing Terms + Google APIs Terms of Service)
+commercial_use: 'no'
 storage_caching: unknown
 redistribution_display: unknown
-attribution_required: unknown
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: red
+confidence: high
 link_checked_at: '2026-11-21'
+api_terms_url: https://developers.google.com/safe-browsing/terms
+commercial_use_scope: any
+attribution_text: Attribution to Google plus a notice that accuracy and reliability cannot be guaranteed,
+  shown with each warning
+evidence:
+- field: commercial_use
+  url: https://developers.google.com/safe-browsing/terms
+  quote: Unless you have a separate agreement with Google, you may not use the Safe Browsing API for commercial
+    purposes.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://developers.google.com/safe-browsing/v4/usage-limits
+  quote: The Safe Browsing API is for non-commercial use only
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://developers.google.com/safe-browsing/terms
+  quote: you will provide attribution and conspicuous notice that the reliability and accuracy of the
+    service cannot be guaranteed
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://developers.google.com/safe-browsing/terms
+  quote: By using this API, you consent to be bound by these terms in addition to the Google APIs Terms
+    of Service
+  checked_at: '2026-11-21'
+notes: 'Read Safe Browsing Terms of Service (last modified 20 Nov 2025) and v4 Usage Restrictions: commercial
+  use (meaning sale or revenue-generating purposes) is prohibited without a separate agreement; Google
+  points commercial users to the Web Risk API (a different product, not assessed here). Warnings need
+  Google attribution and a no-guarantee notice. Caching/storage and display of list data not assessed
+  (v4 Caching page not read).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

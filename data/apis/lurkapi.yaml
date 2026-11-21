@@ -14,12 +14,26 @@ sources:
   category: Social
 link_status: alive
 data_license: unknown
-commercial_use: unknown
+commercial_use: ambiguous
 storage_caching: unknown
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
+verdict: yellow
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://lurkapi.com/terms
+evidence:
+- field: commercial_use
+  url: https://lurkapi.com/terms
+  quote: Building your own products on top of LurkAPI is fine.
+  checked_at: '2026-11-21'
+notes: Read LurkAPI Terms (last updated September 30, 2026). Products may be built on the API, but "commercial"
+  use is not named, the data is scraped public content from other platforms, and the customer is responsible
+  for privacy law and the platforms' terms. Storage and display not addressed, so unknown.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Terms allow building products; commercial/storage unstated; unchanged

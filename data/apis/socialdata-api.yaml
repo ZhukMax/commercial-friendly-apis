@@ -23,3 +23,11 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://socialdata.tools/legal/terms-and-conditions
+evidence: []
+notes: 'Read Terms & Conditions: generic service terms (licence to use the service as designed, no sublicensing),
+  no clause on commercial use, caching, display or attribution of the extracted content. Footer says it
+  is an independent third-party service not affiliated with X Corp; X platform terms are not addressed.
+  All terms fields unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

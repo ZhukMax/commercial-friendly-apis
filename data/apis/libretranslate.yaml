@@ -4,7 +4,7 @@ url: https://libretranslate.com/docs
 category: Text Analysis
 description: Translation tool with 17 available languages
 description_source: upstream
-auth: none
+auth: apiKey
 https: true
 cors: unknown
 sources:
@@ -13,13 +13,32 @@ sources:
   url: https://libretranslate.com/docs
   category: Text Analysis
 link_status: alive
-data_license: unknown
+data_license: AGPL-3.0 (software)
 commercial_use: unknown
 storage_caching: unknown
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
-self_host_option: unknown
+self_host_option: 'yes'
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+data_license_url: https://github.com/LibreTranslate/LibreTranslate
+applicable: false
+not_applicable_reason: Machine-translation software/API (AGPL-3.0, self-hostable); translates the caller's
+  text, not a data source.
+evidence:
+- field: data_license
+  url: https://github.com/LibreTranslate/LibreTranslate
+  quote: License GNU Affero General Public License v3
+  checked_at: '2026-11-21'
+- field: self_host_option
+  url: https://github.com/LibreTranslate/LibreTranslate
+  quote: Free and Open Source Machine Translation API, entirely self-hosted.
+  checked_at: '2026-11-21'
+notes: Read the GitHub README and libretranslate.com. The hosted site now shows "Get API Key" and an api_key
+  parameter, so auth was changed from none to apiKey. No terms of service for the hosted API exist (/terms
+  and /privacy return 404); the AGPL covers the software only. Commercial use, storage and display of
+  hosted output are unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

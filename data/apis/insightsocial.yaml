@@ -23,3 +23,8 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+notes: No dedicated terms page exists (https://www.insightsocial.app/terms-of-service returns a 404 page);
+  only a Privacy Policy was found, which says users must comply with each platform's terms and that InsightSocial
+  is a tool. Docs page read for context only. All terms fields unknown.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

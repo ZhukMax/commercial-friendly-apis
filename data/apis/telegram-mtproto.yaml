@@ -18,12 +18,37 @@ sources:
   category: Social
 link_status: alive
 data_license: unknown
-commercial_use: unknown
+commercial_use: 'yes'
 storage_caching: unknown
 redistribution_display: unknown
-attribution_required: unknown
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Client-app API (MTProto) for building Telegram clients acting on the logged-in
+  user's account; not a data source.
+api_terms_url: https://core.telegram.org/api/terms
+commercial_use_scope: any
+attribution_text: App store description and in-app intro must prominently state the app uses the Telegram
+  API
+evidence:
+- field: commercial_use
+  url: https://core.telegram.org/api/terms
+  quote: Developers are allowed to monetize their coding efforts through advertising or other legitimate
+    means.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://core.telegram.org/api/terms
+  quote: your users must be aware of the fact that your app uses the Telegram API and is part of the Telegram
+    ecosystem
+  checked_at: '2026-11-21'
+notes: Read Telegram API Terms of Service (https://core.telegram.org/api/terms), which apply to third-party
+  client apps. Monetisation by ads is allowed, but monetisation methods must be named in store descriptions
+  and official sponsored messages must be supported when channel content is shown. Section 1.5 bans using
+  data from the platform to train AI/ML models. Nothing on caching/storage or redistribution of message
+  data, so those stay unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

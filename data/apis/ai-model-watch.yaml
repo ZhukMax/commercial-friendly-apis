@@ -14,13 +14,57 @@ sources:
   url: https://aimodelwatch.dev/api
   category: Machine Learning
 link_status: alive
-data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
-bulk_download: unknown
+data_license: MIT
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'no'
+bulk_download: 'yes'
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: green
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://aimodelwatch.dev/api
+commercial_use_scope: any
+share_alike: unknown
+rate_limits: No rate limit and no key; HTTP cache 1 hour
+attribution_text: Data by AI Model Watch — https://aimodelwatch.dev (appreciated, not required)
+evidence:
+- field: data_license
+  url: https://aimodelwatch.dev/api
+  quote: Free MIT, same as the open dataset.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://aimodelwatch.dev/api
+  quote: Use it in products, research, or agents — commercially too.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://aimodelwatch.dev/api
+  quote: Free MIT, same as the open dataset.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://aimodelwatch.dev/api
+  quote: Use it in products, research, or agents — commercially too.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://aimodelwatch.dev/api
+  quote: Attribution is appreciated, not required.
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://aimodelwatch.dev/api
+  quote: The full catalog — every model, all fields.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://aimodelwatch.dev/api
+  quote: There is no rate limit and no key
+  checked_at: '2026-11-21'
+notes: Read https://aimodelwatch.dev/api and /about. Free JSON feed, licence stated as MIT (also in feed
+  _meta.license). Storage/caching is inferred from the MIT licence statement (MIT permits copying); the
+  page only gives an HTTP cache hint (max-age 1 hour). Content is provider-published prices/lifecycle
+  dates (facts, compiled from official docs); provider docs themselves not assessed. Not a legal opinion.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Looked for ToS/privacy (404), AUP, rate limits, scraping clauses: none. Residual:
+  storage is inferred from MIT; provider docs not assessed.'

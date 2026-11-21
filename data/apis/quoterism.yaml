@@ -4,7 +4,7 @@ url: https://www.quoterism.com/developer
 category: Personality
 description: Inspirational Quotes
 description_source: upstream
-auth: none
+auth: apiKey
 https: true
 cors: unknown
 sources:
@@ -23,3 +23,14 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://www.quoterism.com/terms-of-use
+rate_limits: 'Free plan: 60 req/min, 300 req/day; keys exceeding the daily limit 100 times in 24h are suspended for 3 days'
+evidence:
+- field: rate_limits
+  url: https://www.quoterism.com/developer
+  quote: 'Plan: free · 60 req / min · 300 req / day'
+  checked_at: '2026-11-21'
+notes: Read the developer page (API key required via account; auth was none in the list) and the Terms of Use (effective 2024-08-01). The Terms are website-only boilerplate (licence to use the website,
+  disclaimers) and say nothing on commercial use, caching, display, attribution or the quote corpus. The older Dictum API migrated here (see dictum). Terms fields unknown.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

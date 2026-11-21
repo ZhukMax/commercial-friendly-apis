@@ -21,6 +21,18 @@ attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
 link_note: -> https://developers.buffer.com
+applicable: false
+not_applicable_reason: OAuth API acting on the user's own Buffer account (scheduling/publishing); not
+  a data source.
+api_terms_url: https://buffer.com/legal
+notes: 'Read Buffer Legal page (https://buffer.com/legal), section "API Terms" (last updated August 5,
+  2026). Licence is personal, non-exclusive, revocable, to develop and test an Application and make it
+  available to the public; rate limits are posted on the developer site. Brand rules: no Buffer name in
+  your product/domain, "integrates with Buffer" wording allowed. No explicit statement on commercial use,
+  caching/storage, data display or attribution was found, so core fields stay unknown. The old developers
+  URL now redirects to developers.buffer.com (GraphQL API).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

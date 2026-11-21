@@ -14,7 +14,7 @@ First pass found terms; a second, adversarial pass looked for reasons the API ca
 
 ## Disputed by the second check
 
-211 entries.
+222 entries.
 
 ### ⚪ 0x (`0x`)
 - https://docs.0x.org/
@@ -39,6 +39,11 @@ First pass found terms; a second, adversarial pass looked for reasons the API ca
 - Reason: Docs page restricts data to reference/dev/statistics use; Lottery content; terms forbid betting transactions
 - Counter-evidence (commercial_use): “数据仅供资料、开发和统计研究使用。” — https://api.181649.com/docs
 
+### 🔴 4chan (`4chan`)
+- https://github.com/4chan/4chan-API
+- Reason: ToS example describes exactly the ad-supported re-host case
+- Counter-evidence (storage_caching): “Don't suck down our JSON, host it elsewhere, and throw ads around it.” — https://github.com/4chan/4chan-API
+
 ### 🟡 AcesAPI (`acesapi`)
 - https://acesapi.com/docs
 - Reason: storage only while account is open; cannot keep serving a product on stored data after cancelling; no league rights granted; sources undisclosed, some sources limit use and limits must be passed on; grant is revocable and only 'to the extent we are allowed to give it'
@@ -50,6 +55,11 @@ First pass found terms; a second, adversarial pass looked for reasons the API ca
 - https://www.agenttoolbelt.live
 - Reason: Upstream Finnhub bans redistribution of derived results; ToS forbids violating upstream provider terms
 - Counter-evidence (redistribution_display): “not redistribute or share access to data or derived results from the data obtained from Finnhub with anyone or any 3rd party” — https://finnhub.io/terms-of-service
+
+### ⚪ AI Stupid Level (`ai-stupid-level`)
+- https://aistupidlevel.info/api-docs
+- Reason: Docs advise caching on your side; display with attribution allowed
+- Counter-evidence (storage_caching): “so cache on your side rather than polling.” — https://aistupidlevel.info/api-docs
 
 ### 🟡 AIS Trail (`ais-trail`)
 - https://aistrail.com/docs/
@@ -208,6 +218,11 @@ First pass found terms; a second, adversarial pass looked for reasons the API ca
 - Reason: Keyless API page: 100 requests/day 'for evaluation and personal use'; IPNOVA ToS: free allowances permit commercial use only where expressly stated; paid plans carry commercial licence
 - Counter-evidence (commercial_use): “Without a key this API answers 100 requests a day per IP address, for evaluation and personal use.” — https://cardbincheck.com/bin-lookup-api
 - Counter-evidence (commercial_use): “Paid plans from $19 a month for production volumes, with a commercial licence” — https://cardbincheck.com/bin-lookup-api
+
+### 🔴 Censys (`censys`)
+- https://search.censys.io/api
+- Reason: Even paying customers cannot put data into third-party-facing products without Enterprise
+- Counter-evidence (redistribution_display): “Under no circumstances may any Customer, including any Paying Customers, incorporate any Censys Data into its own software products or services” — https://censys.com/terms-of-service
 
 ### 🟡 ChargeAlong (`chargealong`)
 - https://chargealong.io/docs/
@@ -399,6 +414,11 @@ First pass found terms; a second, adversarial pass looked for reasons the API ca
 - Counter-evidence (storage_caching): “It doesn't cover a product that keeps serving users on the data” — https://fastballapi.com/docs/timing-and-rights
 - Counter-evidence (commercial_use): “league rights, marks and the league's own reports aren't ours to grant.” — https://fastballapi.com/docs/timing-and-rights
 - Counter-evidence (redistribution_display): “Some sources limit how their data may be used; you agree to pass those limits on to your own users” — https://fastballapi.com/terms
+
+### 🔴 FastSocial Instagram Data (`fastsocial-instagram-data`)
+- https://fastsocial.co/instagram-api/docs
+- Reason: Publishing returned data is barred; Instagram upstream data
+- Counter-evidence (redistribution_display): “Resell, sublicense or publish the raw data the API returns, or offer it as your own data feed or API.” — https://fastsocial.co/terms
 
 ### 🟡 FBI Wanted (`fbi-wanted`)
 - https://www.fbi.gov/wanted/api
@@ -894,6 +914,12 @@ First pass found terms; a second, adversarial pass looked for reasons the API ca
 - Reason: Developer policy bans transferring or distributing End User Data without Plaid permission; Not public data; unusable for public ad or affiliate site
 - Counter-evidence (redistribution_display): “transfer, syndicate, or otherwise distribute the Services or End User Data without express prior written permission from Plaid” — https://plaid.com/legal/
 
+### 🟡 PositiveQuotation (`positivequotation`)
+- https://positivequotation.com/developers/public-domain-quotes-api
+- Reason: No explicit commercial or licence grant for the API; only inference from public domain source; Site footer says all rights reserved; no ToS exists to resolve it; Public-domain scope is stated for USA only; dataset is the site's own selection
+- Counter-evidence (commercial_use): “© 2026 Positive Quotation. All rights reserved.” — https://positivequotation.com/developers/public-domain-quotes-api
+- Counter-evidence (storage_caching): “Copyright, trademark, privacy, and other rules may differ by country and use; this documentation is not legal advice.” — https://positivequotation.com/developers/public-domain-quotes-api
+
 ### 🟡 Potter DB (`potter-db`)
 - https://potterdb.com
 - Reason: Upstream wiki text licensed CC BY-SA requires attribution; Film/book IP stays with Warner Bros/Rowling
@@ -957,6 +983,11 @@ First pass found terms; a second, adversarial pass looked for reasons the API ca
 - Counter-evidence (redistribution_display): “resell raw API responses without transformation” — https://registrum.co.uk/terms
 - Counter-evidence (commercial_use): “Do not use it to contact, profile or track individuals in ways they would not reasonably expect from a public register entry.” — https://registrum.co.uk/terms
 
+### 🟡 Roboflow Universe (`roboflow-universe`)
+- https://universe.roboflow.com
+- Reason: ToS limits the Public Plan to non-commercial use; per-dataset licences still unread, so not no
+- Counter-evidence (commercial_use): “To the extent you have chosen the Public Plan, you will only use the Services for your own internal, non-commercial use” — https://roboflow.com/terms
+
 ### 🟡 Sabre for Developers (`sabre-for-developers`)
 - https://developer.sabre.com/
 - Reason: Developer Hub licence is for test/certification only and explicitly excludes resale or commercial use; content may not be transferred for use in any commercial enterprise.
@@ -965,6 +996,11 @@ First pass found terms; a second, adversarial pass looked for reasons the API ca
 ### 🟡 SearchPinCode (`searchpincode`)
 - https://searchpincode.in/api
 - Reason: Re-read via Playwright: /api says CC BY 4.0 commercial OK; /terms permits copying for business purposes, only bans abusive scraping and spam; Disclaimer says data curated from India Post open data
+
+### 🟡 Shodan (`shodan`)
+- https://developer.shodan.io/
+- Reason: 'Commercial Use' is listed as a feature only on paid plans; free/Membership plan do not list it
+- Counter-evidence (commercial_use): “Basic access to the Streaming API Commercial Use Grandfathered Pricing E-Mail support” — https://developer.shodan.io/pricing
 
 ### 🟡 Shoof Aflam (`shoof-aflam`)
 - https://shoofaflam.tv/api-docs/
@@ -1116,10 +1152,26 @@ First pass found terms; a second, adversarial pass looked for reasons the API ca
 - Counter-evidence (commercial_use): “Use Free Tier data for commercial purposes” — https://twelvedata.com/terms
 - Counter-evidence (redistribution_display): “Redistribute or provide external display of Data only if and as expressly authorized by a Redistribution Rights Add-On” — https://twelvedata.com/terms
 
+### 🟡 Twitter (`twitter`)
+- https://developer.twitter.com/en/docs
+- Reason: Commercial use beyond limited scale requires Enterprise plan; Agreement bans distributing Licensed Material; display only as permitted
+- Counter-evidence (commercial_use): “then you must apply (or already subscribe to) an Enterprise plan” — https://developer.x.com/en/developer-terms/agreement
+- Counter-evidence (redistribution_display): “You may not disclose, reproduce, license, or otherwise distribute the Licensed Material (including any derivatives thereof) that you retrieve through the X API” — https://developer.x.com/en/developer-terms/agreement
+
 ### 🟡 Urgences Québec (`urgences-qu-bec`)
 - https://sante.handled.tools/api
 - Reason: Upstream MSSS open data on Donnees Quebec is CC BY 4.0, which requires attribution; Author says no attribution required, but cannot waive the upstream licence
 - Counter-evidence (attribution_required): “Licence Attribution (CC-BY 4.0)” — https://www.donneesquebec.ca/recherche/dataset/fichier-cumulatif-des-donnees-des-urgences
+
+### 🟡 URLhaus (`urlhaus-urlhaus`)
+- https://urlhaus.abuse.ch/api/
+- Reason: Free access is for not-for-profit purposes; Commercial users need Spamhaus paid subscription
+- Counter-evidence (commercial_use): “Authenticated Users may access the Platforms for not-for-profit purposes, subject to usage limitations imposed by abuse.ch and/or Spamhaus.” — https://abuse.ch/terms-of-use/
+
+### 🟡 URLScan.io (`urlscan-io`)
+- https://urlscan.io/about-api/
+- Reason: ToS: commercial use of service requires written permission; Commercial customers have separate terms (unread)
+- Counter-evidence (commercial_use): “Commercial use of any part of our service requires express written permission.” — https://urlscan.io/terms/
 
 ### 🟡 US Mortgage Calculator (`us-mortgage-calculator`)
 - https://www.usmortgagecalc.com/developers/api
@@ -1172,6 +1224,11 @@ First pass found terms; a second, adversarial pass looked for reasons the API ca
 - https://api.wsystem.dev/docs
 - Reason: data-sources page shows per-source licences with required attributions (CC BY, OGL, NLOD, Etalab), so attribution is required rather than ambiguous; ToS read in full: no clause bans commercial use of results; only reselling raw access; paid plans are business-only; Open upstream licences found; UN list and ARES/Polish sources have no explicit open licence
 - Counter-evidence (attribution_required): “Source: Finnish Patent and Registration Office (PRH), YTJ open data, CC BY 4.0.” — https://wsystem.dev/data-sources
+
+### 🟡 Web of Trust (`web-of-trust`)
+- https://support.mywot.com/hc/en-us/sections/360004477734-API-
+- Reason: API terms say free only for non-commercial use; Commercial needs partnership or commercial offering
+- Counter-evidence (commercial_use): “The API is free for individuals and non-commercial use.” — https://www.mywot.com/api-terms
 
 ### 🟡 WhatsApp Rate Cards (`whatsapp-rate-cards`)
 - https://github.com/tobachat/whatsapp-api-rates

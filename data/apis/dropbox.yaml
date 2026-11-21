@@ -27,3 +27,15 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://www.dropbox.com/developers/reference/tos
+applicable: false
+not_applicable_reason: OAuth, user-account-scoped API for a user's own Dropbox files; not a public data
+  source.
+evidence: []
+notes: 'Dropbox Developer Terms read at https://www.dropbox.com/developers/reference/tos. Key points:
+  access to User Data only as authorised by the user; the terms do not grant rights in Dropbox products
+  or User Data (''These Developer Terms do not grant Developer any rights in any Dropbox products or services
+  or any User Data.''). No explicit statement on commercial use, caching or display of data, so core fields
+  stay unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

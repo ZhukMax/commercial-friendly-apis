@@ -13,13 +13,60 @@ sources:
   url: https://bytebrujo.github.io/modelfax/
   category: Machine Learning
 link_status: alive
-data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
-bulk_download: unknown
+data_license: CC-BY-4.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: 'yes'
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: green
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://raw.githubusercontent.com/bytebrujo/modelfax/main/README.md
+data_license_url: https://raw.githubusercontent.com/bytebrujo/modelfax/main/LICENSE-DATA
+commercial_use_scope: any
+attribution_text: Attribute "modelfax" with a link back
+share_alike: 'no'
+rate_limits: Static JSON files on GitHub Pages; no limits stated
+evidence:
+- field: data_license
+  url: https://raw.githubusercontent.com/bytebrujo/modelfax/main/README.md
+  quote: Data in `data/` is licensed under [CC-BY-4.0](LICENSE-DATA); attribute "modelfax" with a link
+    back.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://raw.githubusercontent.com/bytebrujo/modelfax/main/README.md
+  quote: Data in `data/` is licensed under [CC-BY-4.0](LICENSE-DATA); attribute "modelfax" with a link
+    back.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://raw.githubusercontent.com/bytebrujo/modelfax/main/README.md
+  quote: Data in `data/` is licensed under [CC-BY-4.0](LICENSE-DATA); attribute "modelfax" with a link
+    back.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://raw.githubusercontent.com/bytebrujo/modelfax/main/LICENSE-DATA
+  quote: reproduce and Share the Licensed Material, in whole or in part
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://raw.githubusercontent.com/bytebrujo/modelfax/main/LICENSE-DATA
+  quote: reproduce and Share the Licensed Material, in whole or in part
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://raw.githubusercontent.com/bytebrujo/modelfax/main/LICENSE-DATA
+  quote: Attribution 4.0 International
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://raw.githubusercontent.com/bytebrujo/modelfax/main/README.md
+  quote: The API is the data files, served as static files.
+  checked_at: '2026-11-21'
+notes: Read site footer (code MIT, data CC-BY-4.0), README and LICENSE-DATA (full CC BY 4.0 text). CC
+  BY has no non-commercial limit. Data = provider-published prices transcribed from OpenAI/Anthropic/Google
+  docs (facts; accuracy disclaimer in README); upstream provider docs not assessed.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Code MIT, data CC BY 4.0 with link-back attribution. Upstream provider pricing pages
+  not assessed.

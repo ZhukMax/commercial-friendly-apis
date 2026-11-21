@@ -27,3 +27,10 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Phone validation/carrier lookup tool (account-scoped API key), not a public dataset
+api_terms_url: https://veriphone.io/terms
+notes: 'Read Terms and Conditions (Epic Grove Ltd): subscription/account terms only; no data licence,
+  caching, display or commercial-use clause. Fields unknown.'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

@@ -13,13 +13,59 @@ sources:
   url: https://zenquotes.io/
   category: Personality
 link_status: alive
-data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+data_license: 'Not stated; site terms: material owned by Netidex, personal non-commercial use'
+commercial_use: ambiguous
+storage_caching: 'yes'
+redistribution_display: ambiguous
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://docs.zenquotes.io/terms-and-conditions/
+commercial_use_scope: free-tier
+attribution_text: Inspirational quotes provided by ZenQuotes API (link to https://zenquotes.io/); required
+  on the free version
+rate_limits: 'Free: 5 requests per 30 seconds per IP, cached data updated hourly; key or registered IP
+  for unlimited'
+evidence:
+- field: attribution_required
+  url: https://zenquotes.io/
+  quote: We require that you show attribution with a link back to https://zenquotes.io/ when using the
+    free version of this API.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://zenquotes.io/
+  quote: Requests are restricted to 5 per 30 second period
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://docs.zenquotes.io/zenquotes-documentation/
+  quote: This will keep a cache of quotes that you can loop locally rather than calling the server
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://docs.zenquotes.io/terms-and-conditions/
+  quote: Material on this website is made available solely for your personal, non-commercial use
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://docs.zenquotes.io/terms-and-conditions/
+  quote: Material on this website is made available solely for your personal, non-commercial use
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://docs.zenquotes.io/terms-and-conditions/
+  quote: is owned, controlled by, or licensed to Netidex and is protected by copyright, trademark, and
+    other intellectual property rights
+  checked_at: '2026-11-21'
+notes: Read the homepage, API docs (docs.zenquotes.io/zenquotes-documentation/) and the site Terms and
+  Conditions (docs.zenquotes.io/terms-and-conditions/). The API docs encourage caching batches of quotes
+  in your app and give a free tier with required link-back attribution, but the generic site terms say
+  site material is for personal, non-commercial use and may not be republished without consent. No API-specific
+  commercial clause was found, so commercial_use and display are ambiguous. Premium subscription removes
+  limits (terms of the paid plan not read). Mandatory link-back is more than plain credit. Quote texts
+  are third-party works whose rights ZenQuotes does not clear.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read homepage, docs and terms: genuine conflict, no API-specific commercial clause;
+  ambiguous stands.'

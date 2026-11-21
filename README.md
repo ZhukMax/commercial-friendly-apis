@@ -4,7 +4,7 @@ Public API lists tell you whether an API needs a key, HTTPS or CORS. They don't 
 
 > ⚠️ **Not legal advice.** Terms change. Always re-read the linked terms before you ship.
 
-**2612** APIs listed (164 more kept for reference as not applicable) · **1581** checked · 🟢 174 · 🟡 692 · 🔴 119 · ⚪ 1627 · last check: 2026-11-21
+**2392** APIs listed (376 more kept for reference as not applicable) · **1701** checked · 🟢 181 · 🟡 736 · 🔴 136 · ⚪ 1339 · last check: 2026-11-21
 
 ## Legend
 
@@ -27,6 +27,7 @@ Scenario judged: a public website with ads and affiliate links that stores and r
 | [administrative-divisons-db](https://github.com/kamikazechaser/administrative-divisions-db) | Get all administrative divisions of a country | 🟢 | ✅ | ✅ | required | [terms](https://raw.githubusercontent.com/kamikazechaser/administrative-divisions-db/master/README.md) | 2026-11-21 |
 | [adresse.data.gouv.fr](https://adresse.data.gouv.fr) | Address database of France, geocoding and reverse | 🟢 | ✅ | ✅ | required | [terms](https://adresse.data.gouv.fr/cgu) | 2026-11-21 |
 | [Aemet](https://opendata.aemet.es/centrodedescargas/inicio) | Weather and forecast data from Spain | 🟢 | ✅ | ✅ | required | [terms](https://www.aemet.es/es/nota_legal) | 2026-11-21 |
+| [AI Model Watch](https://aimodelwatch.dev/api) | Daily-updated prices, context windows & deprecation/EOL dates for 190+ AI/LLM models, sourced from official provider docs | 🟢 | ✅ | ✅ | not required | [terms](https://aimodelwatch.dev/api) | 2026-11-21 |
 | [AI Trainer Work](https://aitrainer.work/open-data) | Open AI training jobs (RLHF, data annotation, expert evaluation) from 20+ platforms, with pay | 🟢 | ✅ | ✅ | required | [terms](https://aitrainer.work/terms) | 2026-11-21 |
 | [AirportMiles](https://airportmiles.com/api) | Airport codes, distances, routes and passenger numbers as static JSON files | 🟢 | ✅ | ✅ | not required | [terms](https://airportmiles.com/api) | 2026-11-21 |
 | [Anycrap](https://anycrap.shop/developers) | 35,000+ absurdist AI-generated product concepts with names, descriptions, and images | 🟢 | ✅ | ✅ | not required | [terms](https://anycrap.shop/terms) | 2026-11-21 |
@@ -56,11 +57,13 @@ Scenario judged: a public website with ads and affiliate links that stores and r
 | [CropDen](https://github.com/geektao1024/social-media-image-sizes) | Image sizes, safe zones and upload limits for 14 social platforms and passport photos | 🟢 | ✅ | ✅ | required | [terms](https://github.com/geektao1024/social-media-image-sizes#license) | 2026-11-21 |
 | [Crossref Metadata Search](https://github.com/CrossRef/rest-api-doc) | Books & Articles Metadata | 🟢 | ✅ | ✅ | — | [terms](https://github.com/CrossRef/rest-api-doc) | 2026-11-21 |
 | [Cruise Itinerary](https://cruise-itinerary.com/docs) | Cruise sailings, day-by-day itineraries, weekly fare history, port traffic and a cruise price index | 🟢 | ✅ | ✅ | ❓ unclear | [terms](https://cruise-itinerary.com/terms) | 2026-11-21 |
+| [CVE.report](https://cve.report/api) | CVE records with NVD KEV and EPSS enrichment | 🟢 | ✅ | ✅ | required | [terms](https://cve.report/api) | 2026-11-21 |
 | [CycleCalcs](https://www.cyclecalcs.com/api.html) | Interpreted astronomy: sun and moon times, moon phases, planets, eclipses, seasons | 🟢 | ✅ | ✅ | not required | [terms](https://www.cyclecalcs.com/api/terms.html) | 2026-11-21 |
 | [Daily Food Recalls](https://dailyfoodrecalls.com/api/) | U.S. FDA and USDA food recalls, merged and normalized, updated daily | 🟢 | ✅ | ✅ | required | [terms](https://dailyfoodrecalls.com/api/) | 2026-11-21 |
 | [Danish data service Energi](https://www.energidataservice.dk/) | Open energy data from Energinet to society | 🟢 | ✅ | ✅ | required | [terms](https://www.energidataservice.dk/terms-and-conditions) | 2026-11-21 |
 | [Data.parliament.uk](https://explore.data.parliament.uk/?learnmore=Members) | Contains live datasets including information about petitions, bills, MP votes, attendance and more | 🟢 | ✅ | ✅ | required | [terms](https://developer.parliament.uk/) | 2026-11-21 |
 | [DataCite](https://support.datacite.org/docs/rest-api) | Search and retrieve DOI metadata for research datasets and publications | 🟢 | ✅ | ✅ | not required | [terms](https://support.datacite.org/docs/harvesting-datacite-doi-metadata) | 2026-11-21 |
+| [DefenceLevel Index](https://defencelevel.com/index/api) | Daily cyber threat level (DEFCON 5 to 1) with open method, history in JSON/CSV and a badge | 🟢 | ✅ | ✅ | required | [terms](https://defencelevel.com/terms) | 2026-11-21 |
 | [Deutscher Bundestag DIP](https://dip.bundestag.de/documents/informationsblatt_zur_dip_api_v01.pdf) | This API provides read access to DIP entities (e.g. activities, persons, printed material) | 🟢 | ✅ | ✅ | required | [terms](https://dip.bundestag.de/documents/nutzungsbedingungen_dip.pdf) | 2026-11-21 |
 | [Dino.markets](https://dino.markets/docs) | Matched Kalshi and Polymarket prediction-market data, cross-venue spreads | 🟢 | ✅ | ✅ | not required | [terms](https://dino.markets/terms/) | 2026-11-21 |
 | [Dungeons and Dragons](https://www.dnd5eapi.co/docs/) | Reference for 5th edition spells, classes, monsters, and more | 🟢 | ✅ | ✅ | required | [terms](https://www.dnd5eapi.co/) | 2026-11-21 |
@@ -107,7 +110,9 @@ Scenario judged: a public website with ads and affiliate links that stores and r
 | [MedlinePlus Genetics](https://medlineplus.gov/about/developers/geneticsdatafilesapi/) | Genetic conditions, genes, chromosomes and mtDNA data | 🟢 | ✅ | ✅ | not required | [terms](https://medlineplus.gov/about/developers/geneticsdatafilesapi/) | 2026-11-21 |
 | [Meteorologisk Institutt](https://api.met.no/weatherapi/documentation) | Weather and climate data | 🟢 | ✅ | ✅ | required | [terms](https://api.met.no/doc/TermsOfService) | 2026-11-21 |
 | [Metropolitan Museum of Art](https://metmuseum.github.io/) | Met Museum of Art | 🟢 | ✅ | ✅ | not required | [terms](https://metmuseum.github.io/) | 2026-11-21 |
+| [Modelfax](https://bytebrujo.github.io/modelfax/) | LLM pricing, context windows and deprecation dates, schema-validated and updated daily | 🟢 | ✅ | ✅ | required | [terms](https://raw.githubusercontent.com/bytebrujo/modelfax/main/README.md) | 2026-11-21 |
 | [Mother's Day Calendar](https://mothersdaycalendar.com/en/api/) | Mother's Day dates, country rules, sources and confidence as static JSON and CSV | 🟢 ⚠️ | ✅ | ✅ | required | [terms](https://mothersdaycalendar.com/en/api/) | 2026-11-21 |
+| [National Vulnerability Database](https://nvd.nist.gov/vuln/Data-Feeds/JSON-feed-changelog) | U.S. National Vulnerability Database | 🟢 | ✅ | ✅ | required | [terms](https://nvd.nist.gov/developers/start-here) | 2026-11-21 |
 | [NHTSA](https://vpic.nhtsa.dot.gov/api/) | NHTSA Product Information Catalog and Vehicle Listing | 🟢 | ✅ | ✅ | — | [terms](https://www.nhtsa.gov/about-nhtsa/terms-use) | 2026-11-21 |
 | [NHTSA Edge VIN Decoder](https://data.ai-kit.net) | Decode US VINs offline from the NHTSA vPIC dataset, served from edge locations | 🟢 | ✅ | ✅ | — | [terms](https://github.com/AIKitLLC/nhtsa-edge-api) | 2026-11-21 |
 | [NOAA CO-OPS](https://api.tidesandcurrents.noaa.gov/api/prod/) | US coastal tides, water levels, currents and meteorological observations | 🟢 | ✅ | ✅ | not required | [terms](https://tidesandcurrents.noaa.gov/disclaimers.html) | 2026-11-21 |
@@ -146,11 +151,13 @@ Scenario judged: a public website with ads and affiliate links that stores and r
 | [openSenseMap](https://api.opensensemap.org/) | Data from Personal Weather Stations called senseBoxes | 🟢 | ✅ | ✅ | not required | [terms](https://opensensemap.org/about) | 2026-11-21 |
 | [PatentRef](https://patentref.io/docs/) | PatentsView-compatible API for US patent grants since 1976: claims, citations, CPC, fee status | 🟢 | ✅ | ✅ | required | [terms](https://patentref.io/docs/legal/terms) | 2026-11-21 |
 | [PayCrunch](https://paycrunch.co/api.html) | US wages for 1,008 occupations and by state, from BLS OEWS May 2025, static JSON, CC BY 4.0 | 🟢 | ✅ | ✅ | required | [terms](https://paycrunch.co/api.html) | 2026-11-21 |
+| [Personality.fyi](https://personality.fyi/api) | Free MBTI personality types and OEJTS test scoring | 🟢 | ✅ | ✅ | not required | [terms](https://personality.fyi/api) | 2026-11-21 |
 | [PoetryDB](https://github.com/thundercomb/poetrydb) | Enables you to get instant data from our vast poetry collection | 🟢 | ✅ | ✅ | required | [terms](https://github.com/thundercomb/poetrydb/blob/main/DATA_LICENSE.md) | 2026-11-21 |
 | [PolyKal Fees](https://polymarket-kalshi.com/fee-schedule/) | Kalshi & Polymarket trading fee rates and formulas as verified JSON | 🟢 | ✅ | ✅ | required | [terms](https://polykal.net/fee-schedule/) | 2026-11-21 |
 | [PostalCodeCheck](https://postalcodecheck.com/postal-code-api) | City, region and coordinates for 887,000+ postal codes across 95 countries | 🟢 | ✅ | ✅ | ❓ unclear | [terms](https://postalcodecheck.com/terms) | 2026-11-21 |
 | [Probative Legal Marketing Data](https://probativegrowth.com/resources/rules-api/) | US lawyer advertising rules, court filings, fees and legal-market statistics, sourced, with DOIs | 🟢 | ✅ | ✅ | required | [terms](https://probativegrowth.com/resources/rules-api/) | 2026-11-21 |
 | [ProblemsByVin](https://problemsbyvin.com/data/) | Owner complaints, recalls and failure-mileage statistics by vehicle make, model and year | 🟢 | ✅ | ✅ | required | [terms](https://problemsbyvin.com/data/) | 2026-11-21 |
+| [QuelLLM](https://quelllm.fr/api/) | Open-weight language model catalogue with memory requirements and installation metadata | 🟢 | ✅ | ✅ | required | [terms](https://quelllm.fr/api/index.html) | 2026-11-21 |
 | [RCSB PDB](https://data.rcsb.org/) | 3D structures of proteins and nucleic acids | 🟢 | ✅ | ✅ | not required | [terms](https://www.rcsb.org/pages/usage-policy) | 2026-11-21 |
 | [RebateHub](https://rebatehub.ca/data) | Canadian home energy rebate, grant and loan programs with status, deadlines and official sources | 🟢 | ✅ | ✅ | required | [terms](https://rebatehub.ca/terms) | 2026-11-21 |
 | [Right to Disconnect](https://righttodisconnect.jdries.nl/api/) | Right-to-disconnect employment law by EU country: binding status, statute, and sanctions | 🟢 | ✅ | ✅ | not required | [terms](https://righttodisconnect.jdries.nl/api/) | 2026-11-21 |
@@ -203,15 +210,14 @@ Scenario judged: a public website with ads and affiliate links that stores and r
 |---|---|---|---|---|---|
 | [Animals](categories/animals.md) | 29 | 0 | 5 | 4 | 20 |
 | [Anime](categories/anime.md) | 23 | 0 | 3 | 3 | 17 |
-| [Anti-Malware](categories/anti-malware.md) | 21 | 0 | 0 | 0 | 21 |
+| [Anti-Malware](categories/anti-malware.md) | 15 | 0 | 8 | 2 | 5 |
 | [Art & Design](categories/art-design.md) | 26 | 3 | 15 | 2 | 6 |
-| [Authentication & Authorization](categories/authentication-authorization.md) | 8 | 0 | 0 | 0 | 8 |
+| [Authentication & Authorization](categories/authentication-authorization.md) | 1 | 0 | 0 | 0 | 1 |
 | [Blockchain](categories/blockchain.md) | 14 | 1 | 2 | 0 | 11 |
 | [Books](categories/books.md) | 33 | 5 | 9 | 2 | 17 |
 | [Business](categories/business.md) | 49 | 0 | 17 | 6 | 26 |
 | [Calendar](categories/calendar.md) | 29 | 5 | 13 | 1 | 10 |
-| [Cloud Storage & File Sharing](categories/cloud-storage-file-sharing.md) | 23 | 0 | 0 | 0 | 23 |
-| [Continuous Integration](categories/continuous-integration.md) | 7 | 0 | 0 | 0 | 7 |
+| [Cloud Storage & File Sharing](categories/cloud-storage-file-sharing.md) | 2 | 0 | 0 | 0 | 2 |
 | [Cryptocurrency](categories/cryptocurrency.md) | 112 | 1 | 40 | 10 | 61 |
 | [Currency Exchange](categories/currency-exchange.md) | 40 | 0 | 25 | 1 | 14 |
 | [Data Validation](categories/data-validation.md) | 13 | 0 | 6 | 1 | 6 |
@@ -226,32 +232,31 @@ Scenario judged: a public website with ads and affiliate links that stores and r
 | [Events](categories/events.md) | 7 | 0 | 5 | 0 | 2 |
 | [Finance](categories/finance.md) | 126 | 10 | 49 | 15 | 52 |
 | [Food & Drink](categories/food-drink.md) | 39 | 3 | 17 | 2 | 17 |
-| [Fraud Prevention](categories/fraud-prevention.md) | 2 | 0 | 0 | 0 | 2 |
 | [Games & Comics](categories/games-comics.md) | 128 | 4 | 44 | 11 | 69 |
 | [Geocoding](categories/geocoding.md) | 138 | 9 | 70 | 2 | 57 |
 | [Government](categories/government.md) | 156 | 38 | 62 | 5 | 51 |
 | [Health](categories/health.md) | 57 | 9 | 24 | 4 | 20 |
 | [Jobs](categories/jobs.md) | 48 | 5 | 13 | 0 | 30 |
-| [Machine Learning](categories/machine-learning.md) | 66 | 0 | 0 | 0 | 66 |
+| [Machine Learning](categories/machine-learning.md) | 22 | 3 | 3 | 1 | 15 |
 | [Music](categories/music.md) | 29 | 1 | 11 | 4 | 13 |
 | [News](categories/news.md) | 26 | 0 | 16 | 3 | 7 |
 | [Open Data](categories/open-data.md) | 105 | 21 | 51 | 13 | 20 |
 | [Open Source Projects](categories/open-source-projects.md) | 7 | 0 | 3 | 1 | 3 |
 | [Patent](categories/patent.md) | 5 | 1 | 2 | 0 | 2 |
-| [Personality](categories/personality.md) | 36 | 0 | 0 | 0 | 36 |
-| [Phone](categories/phone.md) | 10 | 0 | 0 | 0 | 10 |
+| [Personality](categories/personality.md) | 28 | 1 | 6 | 0 | 21 |
+| [Phone](categories/phone.md) | 2 | 0 | 0 | 0 | 2 |
 | [Photography](categories/photography.md) | 20 | 1 | 7 | 0 | 12 |
-| [Programming](categories/programming.md) | 7 | 0 | 0 | 0 | 7 |
+| [Programming](categories/programming.md) | 3 | 0 | 1 | 0 | 2 |
 | [Science & Math](categories/science-math.md) | 61 | 12 | 26 | 1 | 22 |
-| [Security](categories/security.md) | 76 | 0 | 0 | 0 | 76 |
+| [Security](categories/security.md) | 43 | 3 | 14 | 6 | 20 |
 | [Shopping](categories/shopping.md) | 32 | 3 | 13 | 1 | 15 |
-| [Social](categories/social.md) | 73 | 0 | 0 | 0 | 73 |
+| [Social](categories/social.md) | 39 | 0 | 11 | 8 | 20 |
 | [Sports & Fitness](categories/sports-fitness.md) | 78 | 8 | 34 | 5 | 31 |
 | [Test Data](categories/test-data.md) | 47 | 0 | 0 | 0 | 47 |
-| [Text Analysis](categories/text-analysis.md) | 24 | 0 | 0 | 0 | 24 |
-| [Tracking](categories/tracking.md) | 12 | 0 | 0 | 0 | 12 |
+| [Text Analysis](categories/text-analysis.md) | 5 | 0 | 0 | 0 | 5 |
+| [Tracking](categories/tracking.md) | 3 | 0 | 1 | 0 | 2 |
 | [Transportation](categories/transportation.md) | 110 | 13 | 42 | 6 | 49 |
-| [URL Shorteners](categories/url-shorteners.md) | 24 | 0 | 0 | 0 | 24 |
+| [URL Shorteners](categories/url-shorteners.md) | 6 | 0 | 0 | 0 | 6 |
 | [Vehicle](categories/vehicle.md) | 23 | 4 | 12 | 0 | 7 |
 | [Video](categories/video.md) | 57 | 0 | 14 | 3 | 40 |
 | [Weather](categories/weather.md) | 49 | 10 | 17 | 5 | 17 |

@@ -18,12 +18,54 @@ sources:
   category: Personality
 link_status: alive
 data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
-bulk_download: unknown
+commercial_use: ambiguous
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: 'no'
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://favqs.com/api_terms
+commercial_use_scope: free-tier
+cache_limit: '24 hours (author portraits: device only, not own servers)'
+attribution_text: Credit the quote author as FavQs shows it; link to the quote page on FavQs (or credit
+  FavQs where a link is not possible); do not change the words
+share_alike: unknown
+evidence:
+- field: commercial_use
+  url: https://favqs.com/api_terms
+  quote: We may charge for heavy or commercial use in the future
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://favqs.com/api_terms
+  quote: You may cache content for up to 24 hours to serve the people using your app; after that, fetch
+    it again.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://favqs.com/api_terms
+  quote: You can build apps, sites and agents that help people find, read, save and share quotes, as long
+    as you follow these terms.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://favqs.com/api_terms
+  quote: 'When you show a quote from FavQs: credit its author as FavQs shows it;'
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://favqs.com/api_terms
+  quote: Copy, republish or redistribute the FavQs collection, or large parts of it, or build a dataset
+    from it.
+  checked_at: '2026-11-21'
+notes: 'Read FavQs API Terms of Service (revised 2026-11-06) and the general Terms. Apps and sites showing
+  quotes are allowed with author credit and a link to the quote page on FavQs; cache max 24 hours; no
+  republishing of the collection, no AI training datasets, no replacing FavQs, no storing users favorites
+  outside FavQs, no reselling API access; portraits only with the author quotes and not stored on own
+  servers. Fees: API is free today, FavQs may charge for heavy or commercial use later; commercial use
+  is not forbidden but the clause makes the status ambiguous. Quotes are submitted by users and FavQs
+  says it cannot give rights in them. Most endpoints need an API key.'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: API ToS allows apps with credit, 24h cache; only future fee clause

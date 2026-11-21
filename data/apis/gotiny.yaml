@@ -23,3 +23,10 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: URL shortener tool (community GitHub project); not a public data source.
+notes: Only the GitHub README of robvanbakel/gotiny-api was read; no terms or data licence found. A POST
+  to https://gotiny.cc/api on 2026-11-21 returned a Vercel DEPLOYMENT_NOT_FOUND error, so the hosted API
+  may be down (not confirmed; link_status left as is).
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

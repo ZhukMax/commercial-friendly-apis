@@ -19,12 +19,31 @@ sources:
 link_status: redirect
 data_license: unknown
 commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
+storage_caching: limited
+redistribution_display: ambiguous
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
 link_note: -> https://developers.facebook.com/documentation/instagram-platform
+api_terms_url: https://developers.facebook.com/terms/
+applicable: false
+not_applicable_reason: Account-scoped Meta platform API (user-consent OAuth, business/creator accounts),
+  not a public data source.
+evidence:
+- field: storage_caching
+  url: https://developers.facebook.com/terms/
+  quote: When retaining the Platform Data is no longer necessary for a legitimate business purpose
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://developers.facebook.com/terms/
+  quote: Selling, licensing, or purchasing Platform Data.
+  checked_at: '2026-11-21'
+notes: Read Meta Platform Terms (last updated February 3, 2026); the old instagram.com/developer URL redirects
+  to developers.facebook.com/docs/instagram-platform, whose terms are the Meta Platform Terms. Platform
+  Data must be deleted once not needed and may not be sold or licensed; sharing only in listed cases.
+  Commercial use is governed by Meta Commercial Terms (not read), so commercial_use unknown.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

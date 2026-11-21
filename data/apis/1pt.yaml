@@ -23,3 +23,9 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: URL shortener tool (community GitHub project); not a public data source.
+notes: Only the GitHub README of 1pt-co/api was read; it contains no terms of use or data licence. Licence
+  of the repo not verified. Everything unknown.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

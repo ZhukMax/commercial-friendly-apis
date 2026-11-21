@@ -23,3 +23,15 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Self-hosted open-source scraper API of GSMArena data; author warns v1 will be terminated
+notes: GitHub README says the data is based on GSMArena (scraped); no LICENSE file in the repo (404) and
+  the README notes the original API version is about to be terminated. GSMArena terms not read, so all
+  terms unknown. Data rights belong to GSMArena, not the repo author.
+evidence:
+- field: data_license
+  url: https://raw.githubusercontent.com/azharimm/phone-specs-api/master/README.md
+  quote: The data is based on gsmarena site
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

@@ -2,8 +2,7 @@ id: hirak-faceapi
 name: Hirak FaceAPI
 url: https://faceapi.hirak.site/
 category: Machine Learning
-description: Face detection, face recognition with age estimation/gender estimation, accurate, no quota
-  limits
+description: Face detection, face recognition with age estimation/gender estimation, accurate, no quota limits
 description_source: upstream
 auth: apiKey
 https: true
@@ -24,3 +23,9 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Face-recognition inference API tied to an API key, not a public data source.
+notes: 'No terms found: https://faceapi.hirak.site/ returned an empty page via curl and in Playwright redirected to an ad-click domain (click-v4.plarclck.com), so no page was read. Not followed further.
+  All fields unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

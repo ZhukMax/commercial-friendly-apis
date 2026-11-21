@@ -12,7 +12,7 @@ sources:
   name: Shrtlnk
   url: https://shrtlnk.dev/
   category: URL Shorteners
-link_status: alive
+link_status: dead
 data_license: unknown
 commercial_use: unknown
 storage_caching: unknown
@@ -23,3 +23,9 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: URL shortener tool; not a public data source.
+link_note: shrtlnk.dev does not resolve (DNS lookup returns nothing; curl exit code 000) on 2026-11-21.
+notes: Domain does not resolve; no terms could be read. Set link_status dead.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

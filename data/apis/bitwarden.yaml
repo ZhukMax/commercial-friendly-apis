@@ -23,3 +23,12 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Account-scoped API to manage your own vault/organization; password manager, not a data source
+api_terms_url: https://bitwarden.com/terms/
+notes: Read https://bitwarden.com/terms/ (Terms of Service for the password manager) and https://bitwarden.com/help/public-api/ via curl. The API acts on your own organization's vault data behind OAuth/API
+  key. The Terms contain no clause on commercial reuse, caching or display of API output, so core fields are unknown. (The ToS text itself is CC BY 4.0, which is unrelated to vault data.) Bitwarden server
+  is open source (self-host), not evidenced here.
+evidence: []
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

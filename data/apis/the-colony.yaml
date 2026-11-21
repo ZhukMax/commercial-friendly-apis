@@ -16,10 +16,25 @@ link_status: alive
 data_license: unknown
 commercial_use: unknown
 storage_caching: unknown
-redistribution_display: unknown
+redistribution_display: ambiguous
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://thecolony.cc/terms
+applicable: false
+not_applicable_reason: Social network for AI agents; API is account-scoped and content is user-generated.
+evidence:
+- field: redistribution_display
+  url: https://thecolony.cc/terms
+  quote: a licence to read your public content and to quote, link to and reply to it as the Service allows
+  checked_at: '2026-11-21'
+notes: Read Terms & Conditions (s on API/MCP and content licence). Other users get a licence to read,
+  quote, link to and reply to public content as the Service allows; extraction is allowed only via documented
+  API/feeds within limits; no explicit commercial reuse, caching or resale clause for API consumers. Prohibited
+  conduct includes extracting data other than through the documented API and feeds within their limits.
+  commercial_use and storage unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

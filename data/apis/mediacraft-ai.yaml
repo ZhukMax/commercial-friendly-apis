@@ -2,8 +2,7 @@ id: mediacraft-ai
 name: MediaCraft AI
 url: https://mediacraft-x402-api.onrender.com
 category: Machine Learning
-description: Chinese content compliance review (17 platforms), EN↔CN translation, and SEO optimization.
-  Pay-per-call via x402 (Solana USDC).
+description: Chinese content compliance review (17 platforms), EN↔CN translation, and SEO optimization. Pay-per-call via x402 (Solana USDC).
 description_source: upstream
 auth: apiKey
 https: true
@@ -24,3 +23,10 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Pay-per-call tool API (translation, compliance review, SEO) over x402 payments; not a data source.
+notes: 'Read root JSON, /docs (OpenAPI) and /.well-known/x402 on the onrender host: pricing and endpoints only ($0.01-$0.05 per call); no terms or licence page found (/terms 404). All terms fields unknown.
+  Hosted on a free-style onrender.com domain; stability not verified.'
+evidence: []
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

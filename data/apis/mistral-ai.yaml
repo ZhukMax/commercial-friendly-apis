@@ -2,8 +2,7 @@ id: mistral-ai
 name: Mistral AI
 url: https://docs.mistral.ai/api/
 category: Machine Learning
-description: High-performance LLM API by Mistral AI including Mistral and Mixtral models, with a free
-  tier
+description: High-performance LLM API by Mistral AI including Mistral and Mixtral models, with a free tier
 description_source: upstream
 auth: apiKey
 https: true
@@ -14,7 +13,7 @@ sources:
   url: https://docs.mistral.ai/api/
   category: Machine Learning
 link_status: alive
-data_license: unknown
+data_license: Customer owns Output (not a data licence)
 commercial_use: unknown
 storage_caching: unknown
 redistribution_display: unknown
@@ -22,5 +21,17 @@ attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Inference/tool API tied to a customer account and key, not a public data source.
+api_terms_url: https://legal.mistral.ai/terms/commercial-terms-of-service/
+evidence:
+- field: data_license
+  url: https://legal.mistral.ai/terms/commercial-terms-of-service/
+  quote: Customer (i) retains all ownership rights in Customer Data and (ii) owns all Output.
+  checked_at: '2026-11-21'
+notes: Read Mistral Commercial Terms of Service. Customer owns Output to the extent permitted by law; Output may not be used to reverse engineer or build similar models; Mistral may use Customer Data/Outputs
+  to train models only as provided in the terms (opt-outs exist). Explicit commercial-use/storage/display permission and free-tier limits not found; core fields unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

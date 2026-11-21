@@ -13,7 +13,7 @@ sources:
   url: https://docs.pinata.cloud/
   category: Cloud Storage & File Sharing
 link_status: redirect
-data_license: unknown
+data_license: User-owned content; no data licence (IPFS pinning service)
 commercial_use: unknown
 storage_caching: unknown
 redistribution_display: unknown
@@ -24,3 +24,17 @@ verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
 link_note: -> https://docs.pinata.cloud/quickstart
+api_terms_url: https://pinata.cloud/terms
+applicable: false
+not_applicable_reason: IPFS pinning/storage service with account API key; not a public data source.
+evidence:
+- field: data_license
+  url: https://pinata.cloud/terms
+  quote: you retain any and all of your intellectual property rights to any Content you submit, post or
+    display on or through the Service
+  checked_at: '2026-11-21'
+notes: Pinata Terms (last updated June 28, 2023) read at https://pinata.cloud/terms. Customers keep rights
+  in what they upload and grant Pinata a licence to use/display/distribute it. No clause on commercial
+  use of the API or data. docs.pinata.cloud redirects to docs.pinata.cloud/quickstart (docs only).
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

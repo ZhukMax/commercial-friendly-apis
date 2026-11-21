@@ -27,3 +27,7 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+notes: 'Read the API documentation (icanhazdadjoke.com/api): it asks for a custom User-Agent header but has no terms, licence, or statement on commercial use, caching or attribution; /terms returns 404.
+  Jokes are user-submitted, site is ad-supported (AdSense). All terms unknown.'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

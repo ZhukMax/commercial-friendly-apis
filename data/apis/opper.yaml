@@ -23,3 +23,10 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Inference/tool API tied to a customer account and key, not a public data source.
+api_terms_url: https://opper.ai/terms-of-service
+notes: Read Opper Terms of Service (last updated 2026-07-07). Terms cover Opper platform ownership, Customer Data and confidentiality; nothing found on ownership/commercial use/display of model outputs
+  (outputs come from third-party providers with their own terms). Core fields unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

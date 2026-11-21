@@ -23,3 +23,13 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Fraud/VPN/proxy detection SaaS; account-scoped API (own API key) that scores the
+  customer's own traffic, not a public dataset.
+api_terms_url: https://maskbreak.com/terms
+notes: Read https://maskbreak.com/terms (Acceptable Use, Section 3). It forbids to "Resell or sublicense
+  API access without our prior written approval." and building a competing product; customer keeps rights
+  to the data it submits. Nothing found on commercial use of the returned signals, storage or display,
+  so fields stay unknown. Free plan and paid plans exist.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

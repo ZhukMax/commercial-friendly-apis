@@ -21,5 +21,12 @@ attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://www.getxapi.com/terms-of-service
+notes: Read GetXAPI Terms of Service. Independent third-party service over X data; acceptable use bars
+  scraping or collecting data in violation of Twitter/X terms and reselling API access without permission,
+  and says nothing on commercial use, storage or display of returned data. All core fields unknown. Note
+  the /terms URL is a 404; the page lives at /terms-of-service.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

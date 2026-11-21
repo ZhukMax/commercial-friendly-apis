@@ -23,3 +23,12 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Image/text moderation and fraud-scoring SaaS API used on the customer's own content;
+  not a public data source.
+api_terms_url: https://www.openshield.dev/legal/terms
+notes: 'Read https://www.openshield.dev/legal/terms. Keys are for the customer''s own servers: "Share
+  or resell keys." and "sell access to it" are prohibited. No clause on commercial use of outputs, storage
+  or display was found in the passages read; fields stay unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

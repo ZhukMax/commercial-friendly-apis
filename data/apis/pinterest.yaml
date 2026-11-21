@@ -19,11 +19,30 @@ sources:
 link_status: alive
 data_license: unknown
 commercial_use: unknown
-storage_caching: unknown
+storage_caching: 'no'
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: OAuth API acting on the authorised user's own boards/pins/ads account; not an open
+  data source.
+api_terms_url: https://developers.pinterest.com/terms/
+evidence:
+- field: storage_caching
+  url: https://developers.pinterest.com/terms/
+  quote: you may not store any information accessed through the Materials without Pinterest’s express
+    prior written consent
+  checked_at: '2026-11-21'
+notes: Read Pinterest Developer Terms (https://developers.pinterest.com/terms/). Except for the user's
+  own campaign analytics, no storage of API-accessed information without written consent; Pinterest Data
+  must be deleted within 30 days of termination, Pinterest request, user revocation or when no longer
+  necessary. Apps whose primary purpose is to collect, transfer, share or sell other users' User Content
+  are banned. Commercial use, display and attribution are not stated clearly (license is "limited, non-exclusive,
+  non-transferable and revocable"), so they stay unknown; storage=no would by itself rule out a data-driven
+  commercial site, but verdict.py yields unknown because commercial_use is unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

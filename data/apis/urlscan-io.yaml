@@ -14,13 +14,39 @@ sources:
   category: Anti-Malware
 link_status: redirect
 data_license: unknown
-commercial_use: unknown
+commercial_use: paid-only
 storage_caching: unknown
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
 link_note: -> https://docs.urlscan.io/pages/api-intro
+api_terms_url: https://urlscan.io/terms/
+commercial_use_scope: free-tier
+notes: Public ToS (last updated July 22, 2020) restricts commercial use of the Site/Content without approval
+  and says commercial customers get separate terms, which were not read, so no paid-only claim; ambiguous.
+  Scan results are public third-party page content. The site itself says the API terms redirect to docs.urlscan.io;
+  the ToS page was read at urlscan.io/terms/. Storage/display not addressed.
+evidence:
+- field: commercial_use
+  url: https://urlscan.io/terms/
+  quote: For our commercial customers we offer separate terms of service.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://urlscan.io/terms/
+  quote: The Site may not be used in connection with any commercial endeavors except those that are specifically
+    endorsed or approved by us.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://urlscan.io/terms/
+  quote: Commercial use of any part of our service requires express written permission.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'ToS: commercial use of service requires written permission; Commercial customers have
+  separate terms (unread) | applied: commercial_use=paid-only'

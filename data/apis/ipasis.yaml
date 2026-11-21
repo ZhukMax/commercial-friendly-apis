@@ -24,3 +24,16 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+notes: 'Read ipasis.com/docs (free key: 1,000 requests/day; email/IP risk scoring). No ToS page found:
+  /terms and /terms-of-service return 404 and only /legal/dpa is linked from the site. Terms left unknown.
+  Account-scoped risk-scoring tool, not a data source.'
+applicable: false
+not_applicable_reason: Account-scoped risk-scoring API (email/IP validation), not a public dataset
+rate_limits: 'Free key: 1,000 requests/day'
+evidence:
+- field: rate_limits
+  url: https://ipasis.com/docs
+  quote: Get your free API key — 1,000 requests/day, no credit card
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

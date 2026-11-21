@@ -23,3 +23,11 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Mobile CI/CD platform API; account-scoped (manages own apps/builds), no public
+  data.
+api_terms_url: https://go.bitrise.io/terms-of-service
+notes: 'Bitrise Terms of Service (go.bitrise.io/terms-of-service) read: a customer agreement for the CI
+  service with no data licence or caching/display clause for API output. All terms fields unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

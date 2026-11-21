@@ -23,3 +23,9 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: SMS/messaging service (account-scoped tool), not a data source
+api_terms_url: https://jointextkit.com/terms
+notes: 'Read TextKit terms: paid messaging platform; no dataset licence. Fields unknown.'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

@@ -23,3 +23,16 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Account-scoped API for your own Bugcrowd programs and submissions; not a public data source
+api_terms_url: https://docs.bugcrowd.com/api/getting-started/
+rate_limits: 60 requests per minute per IP address
+notes: Read https://docs.bugcrowd.com/api/getting-started/ (token auth per user, role-based access) and https://www.bugcrowd.com/website-terms-and-conditions/ via curl. The API exposes the user's own programs/submissions
+  behind per-user tokens. No API-specific terms page was found and the website terms do not mention API reuse, so commercial use, storage and display are unknown.
+evidence:
+- field: rate_limits
+  url: https://docs.bugcrowd.com/api/getting-started/
+  quote: Bugcrowd limits API requests to 60 requests per minute per IP Address.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

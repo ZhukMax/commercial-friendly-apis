@@ -21,5 +21,13 @@ attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://spam-hunter.ru/usage-policy
+applicable: false
+not_applicable_reason: ML spam classifier on the caller's text; not a data source.
+evidence: []
+notes: 'Read the Usage Policy (JS-rendered, via browser): as-is service, lawful use only, submitted data
+  may be used to train the classifier. No clause on commercial use or output rights, so unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

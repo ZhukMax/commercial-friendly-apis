@@ -23,3 +23,13 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://www.ideracorp.com/legal/filestack
+applicable: false
+not_applicable_reason: Commercial file upload/transformation SaaS with account API key; a tool, not a
+  data source.
+evidence: []
+notes: https://www.filestack.com/terms-of-service/ is a 404; /terms/ redirects to the Idera legal hub
+  https://www.ideracorp.com/legal/filestack, which only lists the Filestack Service Terms (a linked document
+  that was not opened). Marketing site only otherwise, so everything stays unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

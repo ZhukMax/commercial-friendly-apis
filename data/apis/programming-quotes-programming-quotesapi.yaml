@@ -24,3 +24,6 @@ verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
 link_note: HTTP 403 (blocked for bots, assumed alive)
+notes: programming-quotesapi.vercel.app answered HTTP 429 with a Vercel Security Checkpoint to curl; no page content or terms read. Not bypassed. All terms unknown.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

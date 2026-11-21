@@ -14,12 +14,28 @@ sources:
   category: Cloud Storage & File Sharing
 link_status: alive
 data_license: unknown
-commercial_use: unknown
+commercial_use: ambiguous
 storage_caching: unknown
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
+verdict: yellow
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://imgbb.com/tos
+applicable: false
+not_applicable_reason: Image upload/hosting API operating on the caller's own account; not a public data
+  source.
+evidence:
+- field: commercial_use
+  url: https://imgbb.com/tos
+  quote: The Site may not be used in connection with any commercial endeavors except those that are specifically
+    endorsed or approved by us.
+  checked_at: '2026-11-21'
+notes: ImgBB Terms of Service (https://imgbb.com/tos) and API page (https://api.imgbb.com/) read. The
+  ToS restricts commercial endeavours on the Site unless approved; it does not mention the API explicitly,
+  and the API page has no terms of its own, hence ambiguous. Content may not be exploited commercially
+  without permission (that is about site content). Image hosting for your own uploads, not a data source.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -23,3 +23,15 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+rate_limits: 'Free: 100 baskets per Pantry, max 1.44 MB per basket'
+applicable: false
+not_applicable_reason: Personal JSON storage (the caller's own data); not a public data source.
+evidence:
+- field: rate_limits
+  url: https://getpantry.cloud/
+  quote: Your Pantry can have 100 baskets (JSON objects), each with a max size of 1.44mb.
+  checked_at: '2026-11-21'
+notes: Only the homepage was readable (via Playwright); no terms of service or licence page was found,
+  so all terms fields stay unknown. Pantry is a user's own JSON storage.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

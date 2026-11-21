@@ -13,14 +13,31 @@ sources:
   url: https://dev.fingerprintjs.com/docs
   category: Security
 link_status: redirect
-data_license: unknown
+data_license: proprietary subscription licence; internal use only
 commercial_use: unknown
 storage_caching: unknown
-redistribution_display: unknown
+redistribution_display: 'no'
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: red
+confidence: medium
 link_checked_at: '2026-11-21'
 link_note: -> https://docs.fingerprint.com/docs/quick-start-guide
+applicable: false
+not_applicable_reason: Subscription fraud-detection SaaS applied to your own site's visitors; account-scoped, not a data source
+api_terms_url: https://docs.fingerprint.com/docs/terms-of-service
+notes: 'Listed URL dev.fingerprintjs.com redirects to docs.fingerprint.com (Fingerprint, formerly FingerprintJS; the terms are signed with FingerprintJS, Inc.). Read https://docs.fingerprint.com/docs/terms-of-service
+  (effective Nov 1, 2026) via curl. Subscription service: licence limited to internal use, no distribution/publication of the Service or components, no building a searchable database from it. Pricing/plans
+  govern commercial use; the terms page does not grant general commercial reuse of outputs, so commercial_use unknown.'
+evidence:
+- field: data_license
+  url: https://docs.fingerprint.com/docs/terms-of-service
+  quote: Such use is limited to Customer’s internal use.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://docs.fingerprint.com/docs/terms-of-service
+  quote: rent, lease, lend, sell, license, sublicense, assign, distribute, publish, transfer, or otherwise make available the Service or any component thereof
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -24,3 +24,7 @@ verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
 link_note: -> https://github.com/mudroljub/programming-quotes-api
+notes: Entry is a GitHub repo (redirects to mudroljub/programming-quotes-api). The repo page shows no licence in the sidebar and a LICENSE file was not found at raw.githubusercontent.com (404); README states
+  "Programming Quotes API for open source projects" without terms. Quotes are third-party text. All terms unknown.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

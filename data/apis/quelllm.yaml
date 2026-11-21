@@ -13,14 +13,63 @@ sources:
   url: https://quelllm.fr/api/
   category: Machine Learning
 link_status: redirect
-data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
-bulk_download: unknown
+data_license: CC-BY-4.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: 'yes'
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: green
+confidence: high
 link_checked_at: '2026-11-21'
 link_note: -> https://quelllm.fr/api/index.html
+data_license_url: https://creativecommons.org/licenses/by/4.0/
+api_terms_url: https://quelllm.fr/api/index.html
+commercial_use_scope: any
+share_alike: 'no'
+attribution_text: Clear attribution with a clickable link to https://quelllm.fr
+notes: Link redirects to /api/index.html (same site). The page states the API is CC BY 4.0, free to use
+  including commercially with a clickable attribution link to quelllm.fr. Storage/display/no-share-alike
+  derived from the CC BY 4.0 deed, which the site names as its licence (CC BY has no share-alike). Data
+  is generated from public sources (HuggingFace, Ollama, papers, community tests) with no per-source licence
+  review; model licences listed inside the data are the models' own. No key, CORS enabled. Only the API
+  page was read, not a separate ToS.
+evidence:
+- field: data_license
+  url: https://quelllm.fr/api/index.html
+  quote: L'API est sous licence CC BY 4.0
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://quelllm.fr/api/index.html
+  quote: y compris commerciaux — à condition d'attribuer clairement la source avec un lien cliquable vers
+    https://quelllm.fr
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://quelllm.fr/api/index.html
+  quote: à condition d'attribuer clairement la source avec un lien cliquable vers https://quelllm.fr
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://quelllm.fr/api/index.html
+  quote: 'GET /api/models.json Catalogue complet : 258 modèles avec ID, nom, auteur, VRAM, licence, contexte.'
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Mentions legales (updated 09/06/2026) says the public /api data is CC BY 4.0, consistent
+  with the API page. Same legal page reserves rights on editorial texts and site content, but carves out
+  the API. Model licences inside the data belong to the models; underlying sources (HuggingFace, Ollama)
+  not assessed.

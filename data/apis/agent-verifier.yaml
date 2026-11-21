@@ -23,3 +23,13 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Self-check diagnostic tool that echoes how the caller's own request looks (Web
+  Bot Auth verification); not a data source.
+api_terms_url: https://packet.guru/terms
+notes: Read https://packet.guru/terms (via Playwright). It only covers use of the packet.guru diagnostic
+  tools for lawful purposes and systems you are authorised to test, with outputs "for informational purposes
+  only". It does not mention commercial use, storage or display of results; fields stay unknown. Site
+  says it is independent and not affiliated with Packet Guru LLC.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

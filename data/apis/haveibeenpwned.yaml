@@ -17,13 +17,48 @@ sources:
   url: https://haveibeenpwned.com/API/v3
   category: Security
 link_status: alive
-data_license: unknown
-commercial_use: unknown
+data_license: CC-BY-4.0 (breach and paste APIs); Pwned Passwords has no licence or attribution requirement
+commercial_use: 'yes'
 storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+redistribution_display: ambiguous
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+data_license_url: https://haveibeenpwned.com/API/v3#License
+api_terms_url: https://haveibeenpwned.com/TermsOfUse
+attribution_text: Clear and visible attribution with a link to haveibeenpwned.com wherever the data is
+  used
+evidence:
+- field: data_license
+  url: https://haveibeenpwned.com/API/v3
+  quote: This work is licensed under a Creative Commons Attribution 4.0 International License.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://haveibeenpwned.com/API/v3
+  quote: you must identify Have I Been Pwned as the source of the data
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://haveibeenpwned.com/TermsOfUse
+  quote: modifying, reproducing, revising, transmitting, distributing, reverse engineering or altering
+    our Services or HIBP Data
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://haveibeenpwned.com/TermsOfUse
+  quote: may be used for any lawful purpose, including within commercial products and for the benefit
+    of third parties
+  checked_at: '2026-11-21'
+notes: 'Two pages read: API v3 docs (licence section) and Terms of Use. The quoted commercial-use sentence
+  in the Terms covers only Pwned Passwords and the unauthenticated breach-catalogue endpoints (/breaches,
+  /breach/{name}, /latestbreach, /dataclasses). The breached-account/paste APIs need a paid API key and
+  are limited to the ''Permitted Purpose''; the Terms forbid reselling HIBP data as a product, building
+  a similar breach search service, and displaying results without attribution. Whether showing the data
+  on your own pages counts as redistribution is not clear, hence ambiguous. Storage/caching not addressed
+  (unknown).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: yellow
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Commercial ok for catalogue/Pwned Passwords; account API limited, attribution required

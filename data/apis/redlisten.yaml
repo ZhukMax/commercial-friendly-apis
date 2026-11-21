@@ -14,12 +14,41 @@ sources:
   category: Social
 link_status: alive
 data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+commercial_use: ambiguous
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'no'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://redlisten.com/terms
+evidence:
+- field: commercial_use
+  url: https://redlisten.com/terms
+  quote: your use of it inside your own product is your responsibility
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://redlisten.com/terms
+  quote: store what you retrieve on your own systems, and use and display it inside your own product
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://redlisten.com/terms
+  quote: store what you retrieve on your own systems, and use and display it inside your own product
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://redlisten.com/terms
+  quote: We do not require you to credit Redlisten.
+  checked_at: '2026-11-21'
+notes: Read Redlisten Terms of service (last updated 6 Nov 2026). Storing and showing data inside your
+  own product is permitted, but raw posts and comments may not be redistributed in bulk as a dataset,
+  feed or API, and the service disclaims third-party rights in the underlying Reddit content (Reddit's
+  own Data API Terms require a separate agreement for commercial use). "Commercial" is not stated, hence
+  ambiguous.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read terms: store/display in own product allowed, no credit required, bulk redistribution
+  banned. Commercial not stated and Reddit content rights are the user''s responsibility; ambiguous stands.'

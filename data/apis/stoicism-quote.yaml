@@ -23,3 +23,7 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+notes: GitHub repo of a serverless quote API; no licence shown in the repo sidebar and no LICENSE file found (raw 404). No terms for the hosted API or the quote data (classical Stoic texts, translation
+  rights unknown). All terms unknown.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

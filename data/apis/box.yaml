@@ -27,3 +27,18 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://www.box.com/legal/termsofservice
+applicable: false
+not_applicable_reason: OAuth, account-scoped content-management API for a user's own Box files; not a
+  public data source.
+evidence:
+- field: data_license
+  url: https://www.box.com/legal/termsofservice
+  quote: All Content uploaded by you into your account is yours!
+  checked_at: '2026-11-21'
+notes: Box Terms of Service read via Playwright (curl blocked by Cloudflare). It bans resale/redistribution
+  of the Services and use of automated processes such as 'periodic caching of information stored by Box',
+  but this is the consumer/customer ToS; the separate Box developer terms were not found on developer.box.com,
+  so core fields stay unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -23,3 +23,11 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+applicable: true
+api_terms_url: https://kontests.net/api
+notes: 'API page (kontests.net/api) read: calls itself a free API for developers and lists endpoints for
+  contests aggregated from third-party sites (CodeForces, AtCoder, LeetCode, etc.). No terms of use, licence,
+  or caching/display statement found, and upstream contest data belongs to those sites; all terms fields
+  unknown. The site may no longer be actively maintained (not verified).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

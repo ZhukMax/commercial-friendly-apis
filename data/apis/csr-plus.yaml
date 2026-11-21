@@ -21,5 +21,18 @@ attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Developer tool API (CSR generation, SSL checks); outputs are computed per request, not a dataset
+api_terms_url: https://csr.plus/en/terms
+rate_limits: /api/generate 10 req/min per IP; ssl-check, ct, caa 30/min; revocation, ssl-tracer, openssl-trace 20/min
+notes: Read https://csr.plus/en/terms (updated 2026-11-08) and https://csr.plus/docs/api via curl. Terms are short (as-is, fair use, no misuse, unlawful use banned) and do not say anything about commercial
+  use, caching or redistribution of outputs; the API page calls it free, unauthenticated, rate-limited per IP. Core terms fields therefore unknown.
+evidence:
+- field: rate_limits
+  url: https://csr.plus/docs/api
+  quote: /api/generate 10 requests per minute per IP
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

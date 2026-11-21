@@ -23,3 +23,16 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://www.levelblue.com/terms/otx-eula
+notes: Read the LevelBlue (ex AT&T/AlienVault) OTX EULA at levelblue.com/terms/otx-eula (linked from levelblue.com/legal).
+  It says OTX is free for non-commercial use and restricts the OTX/endpoint software; it does not state
+  terms for commercial use, pulse data caching or redistribution. The page /legal/otx-terms-of-use rendered
+  empty and otx.alienvault.com/terms-of-use returns 404. User-contributed pulses carry their own provenance.
+  No page says a paid plan permits commercial use, so commercial_use unknown.
+evidence:
+- field: commercial_use
+  url: https://www.levelblue.com/terms/otx-eula
+  quote: OTX is free to end users for non-commercial use.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

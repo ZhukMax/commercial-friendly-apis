@@ -27,3 +27,8 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+notes: 'Read https://nothumansearch.ai/about and the openapi.yaml (description: ''Free neutral search for AI agents''). No terms of service, licence or data-use page found (/terms 404; no legal links);
+  the index is a scored list of third-party sites. All terms fields unknown.'
+evidence: []
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

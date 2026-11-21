@@ -21,5 +21,16 @@ attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Login/messaging platform APIs returning consented user data of app users; not an
+  open data source.
+api_terms_url: https://terms2.line.me/LINE_Developers_Agreement?lang=en
+notes: 'Read LINE Developers Agreement (https://terms2.line.me/LINE_Developers_Agreement?lang=en). Section
+  8: "In no event may you use a user''s data obtained through any API outside your Application" and user
+  data may be processed only as permitted by the LINE User Data Policy (not read); section 7.2 bans selling
+  or distributing third-party content accessed through apps without owner permission. No clause on commercial
+  use of API data, caching or attribution found, so core fields stay unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

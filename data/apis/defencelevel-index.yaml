@@ -13,13 +13,60 @@ sources:
   url: https://defencelevel.com/index/api
   category: Security
 link_status: alive
-data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+data_license: CC-BY-4.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: green
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://defencelevel.com/terms
+data_license_url: https://defencelevel.com/index/api
+commercial_use_scope: any
+attribution_text: DefenceLevel Index (defencelevel.com) with a link to defencelevel.com
+share_alike: 'no'
+rate_limits: No key; reading at most once every 5 minutes is enough; abusive automated access may be limited
+notes: Read https://defencelevel.com/index/api and https://defencelevel.com/terms (section 9) via curl.
+  Only the public Index data (current level, daily levels/trend, badge, Atom feeds) is CC BY 4.0; the
+  briefing texts and alerts are subscriber-only and may not be republished (internal use only). Public
+  CVE pages list only CVE ID, title, level and days. The Index is a derived DEFCON score built from public
+  vulnerability sources (KEV/EPSS etc.); their own licences were not checked. Storage/display rest on
+  the CC BY grant stated by the site.
+evidence:
+- field: data_license
+  url: https://defencelevel.com/index/api
+  quote: Index data is published under the Creative Commons Attribution 4.0 licence (CC BY 4.0)
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://defencelevel.com/index/api
+  quote: you can use it freely, including for commercial purposes, citing the source with a link to defencelevel.com
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://defencelevel.com/terms
+  quote: with attribution to “DefenceLevel Index (defencelevel.com)” and a link
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://defencelevel.com/index/api
+  quote: Index data is published under the Creative Commons Attribution 4.0 licence (CC BY 4.0)
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://defencelevel.com/terms
+  quote: freely reusable, including for commercial purposes, under the CC BY 4.0 licence
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://defencelevel.com/index/api
+  quote: reading them at most once every 5 minutes is enough
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://defencelevel.com/index/api
+  quote: Index data is published under the Creative Commons Attribution 4.0 licence (CC BY 4.0)
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: ToS and API page agree. ToS allows limiting abusive automated access. Briefings/alerts
+  must not be republished; keep to public Index endpoints/badge.

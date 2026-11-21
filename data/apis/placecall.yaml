@@ -23,3 +23,12 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: AI outbound-calling service (account-scoped action API), not a data source
+api_terms_url: https://voygr.tech/terms-api
+notes: Read VOYGR API Terms (updated Oct 23, 2026). PlaceCall (Outbound Calling API) places calls on the
+  customer's behalf; it is a service, not a dataset. For Voygr Location Data (a different API) terms allow
+  use for internal business purposes and own applications but forbid resale or standalone distribution,
+  bulk extraction restricted. Not applied to PlaceCall. Fields left unknown.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

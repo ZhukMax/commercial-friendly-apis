@@ -24,3 +24,14 @@ verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
 link_note: -> https://quip.com/dev/automation/documentation/current
+api_terms_url: https://quip.com/about/terms
+applicable: false
+not_applicable_reason: Account-scoped API for Quip (Salesforce) customers' own documents; not a public
+  data source.
+evidence: []
+notes: Quip Terms of Use (https://quip.com/about/terms) and the Automation API docs (https://quip.com/dev/automation/documentation/current)
+  read. Docs say API access is for companies using specific Quip/Salesforce products ('License Requirements').
+  Terms are a generic customer agreement with no clause on commercial use or caching of API data, so everything
+  stays unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

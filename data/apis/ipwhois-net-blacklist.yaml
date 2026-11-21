@@ -13,13 +13,39 @@ sources:
   url: https://ipwhois.net/blacklist/docs
   category: Anti-Malware
 link_status: alive
-data_license: unknown
+data_license: proprietary (IPWhois.net databases, Terms of Use s13)
 commercial_use: unknown
 storage_caching: unknown
-redistribution_display: unknown
+redistribution_display: ambiguous
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://ipwhois.net/terms-of-use
+rate_limits: 'Public API: 500 free requests per day per source IP; higher limits with an API key'
+evidence:
+- field: redistribution_display
+  url: https://ipwhois.net/terms-of-use
+  quote: The resulting databases are proprietary to IPWhois.net and may not be copied, redistributed or
+    used to build competing products without written permission.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://ipwhois.net/blacklist/docs
+  quote: The public API allows 500 free requests per day per source IP.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://ipwhois.net/terms-of-use
+  quote: The resulting databases are proprietary to IPWhois.net and may not be copied, redistributed or
+    used to build competing products without written permission.
+  checked_at: '2026-11-21'
+notes: 'Read site Terms of Use and blacklist docs. No blacklist-specific licence: the site terms (which
+  say compiled databases are proprietary, no copying/redistribution without permission, and to contact
+  them about commercial arrangements for high volume) are the only terms found, and it is unclear that
+  they cover the community blacklist. Commercial use, caching and attribution not stated.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Only site terms (proprietary DBs); nothing blacklist-specific; unknown stands

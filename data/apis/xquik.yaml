@@ -16,10 +16,26 @@ link_status: alive
 data_license: unknown
 commercial_use: unknown
 storage_caching: unknown
-redistribution_display: unknown
+redistribution_display: ambiguous
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://xquik.com/terms
+evidence:
+- field: redistribution_display
+  url: https://xquik.com/terms
+  quote: Do not resell data or Xquik access unless you hold every required permission.
+  checked_at: '2026-11-21'
+notes: Read Xquik Terms of Service. Third-party X (Twitter) data service, not affiliated with X Corp;
+  terms say public availability does not remove IP, contractual or platform restrictions, and that access
+  grants no licence to third-party data. No commercial/storage/display grant stated, so unknown. X's own
+  developer terms were not checked.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read own terms and X ToS/Developer Agreement (stricter upstream: scraping banned,
+  commercial use needs Enterprise). Existing unknown/ambiguous fields stand.'

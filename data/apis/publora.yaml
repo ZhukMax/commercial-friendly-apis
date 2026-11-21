@@ -21,6 +21,14 @@ attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
 link_note: -> https://docs.publora.com/getting-started
+applicable: false
+not_applicable_reason: Account-scoped publishing/scheduling API for the user's own connected social accounts,
+  not a data source.
+notes: 'Read Publora Terms of Service (https://publora.com/terms): it is a posting tool; each connected
+  platform''s own terms also apply, resale of the Service is barred except per plan. No terms about reuse
+  of data returned by the API, so all core fields stay unknown.'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

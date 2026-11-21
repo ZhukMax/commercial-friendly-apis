@@ -12,14 +12,47 @@ sources:
   name: Web of Trust
   url: https://support.mywot.com/hc/en-us/sections/360004477734-API-
   category: Anti-Malware
+- list: public-api-lists
+  name: Web Of Trust (WOT)
+  url: https://www.mywot.com/developers/
+  category: Anti-Malware
 link_status: alive
 data_license: unknown
-commercial_use: unknown
+commercial_use: paid-only
 storage_caching: unknown
 redistribution_display: unknown
-attribution_required: unknown
+attribution_required: ambiguous
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://www.mywot.com/api-terms
+rate_limits: 25000 requests per 24 hours, max 10 requests per second (free)
+notes: Read WOT API Terms of Service (rendered with Playwright; plain curl returns a JS shell). Page says
+  "The API is free for individuals and non-commercial use" and points to "partnership or commercial offering"
+  without terms, so commercial_use stays unknown (no page says a paid plan permits it). Credit is only
+  "recommended"; local caching is recommended for repeated requests (not requesting the same info more
+  than once per 30 minutes) but no storage limit is stated, so storage_caching unknown. Same service/terms
+  as the sibling entry web-of-trust-wot. Merged duplicate entry `web-of-trust-wot`.
+evidence:
+- field: rate_limits
+  url: https://www.mywot.com/api-terms
+  quote: You must not make more than 25000 API requests during any 24 hour period.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.mywot.com/api-terms
+  quote: You should credit WOT in your application.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.mywot.com/api-terms
+  quote: The API is free for individuals and non-commercial use.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+aliases:
+- web-of-trust-wot
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'API terms say free only for non-commercial use; Commercial needs partnership or commercial
+  offering | applied: commercial_use=paid-only'

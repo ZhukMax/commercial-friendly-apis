@@ -23,3 +23,10 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: URL shortener tool; not a public data source.
+notes: https://shrtco.de/docs and /terms render empty pages (HTTP 200, no text, also in Playwright) and
+  the page script reports the domain through an elitedomains.de redirector; no terms available and service
+  may be defunct (not confirmed). All unknown.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

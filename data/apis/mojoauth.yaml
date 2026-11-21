@@ -23,3 +23,11 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://mojoauth.com/terms/
+applicable: false
+not_applicable_reason: Passwordless authentication platform; account-scoped API, not a data source.
+notes: Read https://mojoauth.com/terms/. Terms restrict selling, reselling or leasing the Services and
+  say the Services are not intended as storage/backup; the customer keeps rights in its Content. No terms
+  on commercial use of API output as data; unknown.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

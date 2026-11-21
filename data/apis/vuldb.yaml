@@ -24,3 +24,9 @@ verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
 link_note: HTTP 403 (blocked for bots, assumed alive)
+api_terms_url: https://vuldb.com/?doc.api
+notes: vuldb.com serves a "secure access for authorized requests" bot-check page to curl and to a fresh
+  browser context (no content, no terms visible), so nothing could be read; no bypass attempted. All terms
+  fields unknown. Link status unchanged.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

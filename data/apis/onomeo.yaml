@@ -2,8 +2,7 @@ id: onomeo
 name: onomeo
 url: https://onomeo.com/docs
 category: Machine Learning
-description: OpenAI-compatible, about 30 free LLMs, 30 calls per 5 hours, optional pay-as-you-go, public
-  beta
+description: OpenAI-compatible, about 30 free LLMs, 30 calls per 5 hours, optional pay-as-you-go, public beta
 description_source: upstream
 auth: apiKey
 https: true
@@ -25,3 +24,11 @@ verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
 link_note: -> https://onomeo.com/integrations#docs
+applicable: false
+not_applicable_reason: OpenAI-compatible LLM gateway (inference API), public beta; not a data source.
+api_terms_url: https://onomeo.com/terms
+notes: 'Docs URL redirects to https://onomeo.com/integrations. Read https://onomeo.com/terms (updated Nov 21, 2026): says ''Do not resell keys or bypass limits'', free models have separate call limits,
+  chat/images are paid by balance, beta may change or stop. Nothing on ownership/commercial use of outputs, so terms fields unknown.'
+evidence: []
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

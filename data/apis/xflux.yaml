@@ -23,3 +23,10 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://www.xfluxapi.com/terms
+evidence: []
+notes: 'Read Terms of Service and Acceptable Use Policy: users are responsible for ensuring their use
+  of X/Twitter data complies with laws and platform policies; resale of API access needs written permission;
+  nothing on commercial use, caching, display or attribution. All terms fields unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

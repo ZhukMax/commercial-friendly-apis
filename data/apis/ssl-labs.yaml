@@ -14,12 +14,31 @@ sources:
   category: Security
 link_status: alive
 data_license: unknown
-commercial_use: unknown
+commercial_use: 'no'
 storage_caching: unknown
-redistribution_display: unknown
+redistribution_display: 'no'
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+confidence: high
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Assessment service meant for testing the caller's own infrastructure; not a public data source
+api_terms_url: https://www.ssllabs.com/downloads/Qualys_SSL_Labs_Terms_of_Use.pdf
+commercial_use_scope: any
+evidence:
+- field: commercial_use
+  url: https://github.com/ssllabs/ssllabs-scan/blob/master/ssllabs-api-docs-v3.md
+  quote: Commercial use is generally not allowed, except with an explicit permission from Qualys.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.ssllabs.com/downloads/Qualys_SSL_Labs_Terms_of_Use.pdf
+  quote: publish any information received from us via the APIs
+  checked_at: '2026-11-21'
+notes: API docs state the APIs are free, subject to Qualys SSL Labs terms (PDF, read with pdftotext). The PDF forbids,
+  without express permission, using the API for commercial purposes, using it on a public web site, publishing information
+  received via the API without the owner's permission, and proxying/redistributing it. Only non-commercial open-source
+  tool integration with prescribed notices is allowed.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: red

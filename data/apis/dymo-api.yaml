@@ -15,11 +15,34 @@ sources:
 link_status: alive
 data_license: unknown
 commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
+storage_caching: limited
+redistribution_display: ambiguous
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://dymo.tpeoficial.com/legal/terms-of-service
+cache_limit: Only individual user-level storage (e.g. a user record/CRM); no reuse of stored responses
+  for other users or later requests
+applicable: false
+not_applicable_reason: Fraud/scam-detection and validation tool API (account-scoped inference service),
+  not a data source.
+evidence:
+- field: storage_caching
+  url: https://dymo.tpeoficial.com/legal/terms-of-service
+  quote: Individual user-level storage is permitted (e.g., storing a user's validated data in their own
+    account or CRM)
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://dymo.tpeoficial.com/legal/terms-of-service
+  quote: serving, displaying, or otherwise making available stored or cached API responses to your own
+    end users or to any third party
+  checked_at: '2026-11-21'
+notes: 'Read Terms of Service s6.2-6.3: storing API responses to build derivative services is prohibited
+  except per-user storage; serving or displaying stored/cached responses to end users or third parties
+  (even reusing a prior verdict) counts as a prohibited derivative service; wrappers/resale of the Dymo
+  functionality need a commercial or Enterprise licence. Commercial use as such is not stated (unknown).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -15,11 +15,30 @@ sources:
 link_status: alive
 data_license: unknown
 commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
+storage_caching: ambiguous
+redistribution_display: ambiguous
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://www.twitterapis.com/terms-of-service
+evidence:
+- field: storage_caching
+  url: https://www.twitterapis.com/terms-of-service
+  quote: scrape or collect data in violation of Twitter/X's terms
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.twitterapis.com/terms-of-service
+  quote: resell API access to third parties without permission
+  checked_at: '2026-11-21'
+notes: 'Read Terms of Service: prohibits resale of API access and collecting data in violation of Twitter/X
+  terms; silent on commercial use, caching, display and attribution. Storage/display therefore depend
+  on X terms (not read): ambiguous. Independent service not affiliated with X Corp.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read own terms and X ToS/Developer Agreement (stricter upstream: scraping banned,
+  commercial use needs Enterprise). Existing unknown/ambiguous fields stand.'

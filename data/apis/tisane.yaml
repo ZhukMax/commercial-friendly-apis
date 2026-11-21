@@ -21,5 +21,13 @@ attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://tisane.ai/terms
+applicable: false
+not_applicable_reason: Text-analytics inference API on the caller's text; not a data source.
+evidence: []
+notes: 'Read the Terms of Service Agreement: a non-sublicensable licence to use the API, forbids reselling
+  or time-sharing the API. Nothing on commercial use of results, storage or display, so unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

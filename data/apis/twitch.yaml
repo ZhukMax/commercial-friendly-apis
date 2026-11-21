@@ -18,12 +18,37 @@ sources:
   category: Social
 link_status: alive
 data_license: unknown
-commercial_use: unknown
+commercial_use: 'no'
 storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+redistribution_display: 'no'
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: red
+confidence: high
 link_checked_at: '2026-11-21'
+api_terms_url: https://www.twitch.tv/p/en/legal/developer-agreement/
+commercial_use_scope: any
+evidence:
+- field: commercial_use
+  url: https://www.twitch.tv/p/en/legal/developer-agreement/
+  quote: may not be sold, licensed, monetized, distributed for commercial purposes, made available to,
+    or otherwise shared with, any affiliates or third parties
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.twitch.tv/p/en/legal/developer-agreement/
+  quote: may not be sold, licensed, monetized, distributed for commercial purposes, made available to,
+    or otherwise shared with, any affiliates or third parties
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.twitch.tv/p/en/legal/developer-agreement/
+  quote: Appropriately attribute uses of Program Materials or Twitch Content.
+  checked_at: '2026-11-21'
+notes: 'Read Twitch Developer Services Agreement (last modified 12/04/2024), section VI Data Policy: "Twitch
+  Data" (data from the Twitch API/Extensions/Drops and insights derived from it) may only be used for
+  narrow purposes and may not be sold, licensed, monetized or shared with third parties without Twitch''s
+  prior written permission. A site with ads/affiliate links that republishes Twitch data is therefore
+  not covered. Section VII also requires a clear path back to the source and attribution. Caching/storage
+  rules not stated, left unknown. Written permission from Twitch could change the outcome.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

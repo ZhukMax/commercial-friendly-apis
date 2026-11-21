@@ -13,13 +13,43 @@ sources:
   url: https://iplogs.com/docs
   category: Security
 link_status: alive
-data_license: unknown
-commercial_use: unknown
+data_license: Detection verdicts free to use in own product; location/network fields from DB-IP (CC-BY-4.0)
+commercial_use: 'yes'
 storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+redistribution_display: 'yes'
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://iplogs.com/terms
+attribution_text: IP Geolocation by DB-IP (for location and network fields)
+rate_limits: 60 requests/min per source IP without a key or with a free key; 2,000 live checks/day per IP without
+  key
+evidence:
+- field: commercial_use
+  url: https://iplogs.com/terms
+  quote: Detection verdicts and API responses returned to you may be used freely in your own product, including
+    commercial products.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://iplogs.com/terms
+  quote: Detection verdicts and API responses returned to you may be used freely in your own product, including
+    commercial products.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://iplogs.com/terms
+  quote: Detection verdicts and API responses returned to you may be used freely in your own product, including
+    commercial products.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://iplogs.com/terms
+  quote: Location and network fields (country, city, ASN, organisation) use
+  checked_at: '2026-11-21'
+notes: Terms page (JS-rendered, read via Playwright) has a License section allowing API responses to be used freely
+  in your own product including commercial ones. Location and network fields come from DB-IP under CC BY 4.0, so
+  attribution applies at least to those fields. Storage/caching of responses is not addressed (unknown), so verdict
+  is yellow. Display is inferred from 'used freely in your own product', not an explicit display clause (doubt).
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: yellow

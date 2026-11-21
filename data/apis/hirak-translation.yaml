@@ -12,7 +12,7 @@ sources:
   name: Hirak Translation
   url: https://translate.hirak.site/
   category: Text Analysis
-link_status: alive
+link_status: dead
 data_license: unknown
 commercial_use: unknown
 storage_caching: unknown
@@ -23,3 +23,12 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+link_note: Domain redirects to an ad/parking page; no API or docs
+applicable: false
+not_applicable_reason: Service appears defunct; and an OCR/translation inference API is not a data source
+  anyway.
+evidence: []
+notes: translate.hirak.site returns only a "Loading..." script that redirects to an advertising/parking
+  page (no API, docs or terms visible, checked with curl and a browser). Treated as dead; all terms unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

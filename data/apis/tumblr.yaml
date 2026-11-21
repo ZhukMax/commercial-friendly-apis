@@ -17,10 +17,11 @@ sources:
   url: https://www.tumblr.com/docs/en/api/v2
   category: Social
 link_status: redirect
-data_license: unknown
+data_license: user content owned by users; users license Tumblr, Tumblr gives a limited licence to other
+  users
 commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
+storage_caching: ambiguous
+redistribution_display: ambiguous
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
@@ -28,3 +29,27 @@ verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
 link_note: -> https://www.tumblr.com/privacy/consent/begin?redirect=https%3A%2F%2Fwww.tumblr.com%2Fdocs%2Fen%2Fapi%2Fv2&v=2
+api_terms_url: https://www.tumblr.com/policy/en/terms-of-service
+applicable: false
+not_applicable_reason: OAuth, account-scoped social platform API with user-generated content.
+evidence:
+- field: data_license
+  url: https://www.tumblr.com/policy/en/terms-of-service
+  quote: You retain ownership you have of any intellectual property you post to Tumblr.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.tumblr.com/policy/en/terms-of-service
+  quote: license to download, store, view, display, perform, redistribute, and create derivative works
+    of Content solely in connection with your use of
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.tumblr.com/policy/en/terms-of-service
+  quote: license to download, store, view, display, perform, redistribute, and create derivative works
+    of Content solely in connection with your use of
+  checked_at: '2026-11-21'
+notes: Read Tumblr Terms of Service (the API docs URL redirects to a consent page; no separate API terms
+  page found). Users get a revocable, non-sublicensable licence to store/display/redistribute Content
+  only in connection with use of the Services and in accordance with the Terms; automated access is limited
+  to published interfaces and scraping is barred. Commercial use not addressed.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

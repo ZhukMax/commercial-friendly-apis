@@ -13,13 +13,44 @@ sources:
   url: https://completecriminalchecks.com/Developers
   category: Security
 link_status: alive
-data_license: unknown
-commercial_use: unknown
+data_license: proprietary; aggregated public records, personal non-commercial licence
+commercial_use: ambiguous
 storage_caching: unknown
-redistribution_display: unknown
+redistribution_display: 'no'
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: red
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://completecriminalchecks.com/Terms/
+notes: 'Read https://completecriminalchecks.com/Terms/ (effective Nov 13, 2025) and /Developers/ (pay-per-credit
+  API, 25 free credits) via curl. Platform licence is personal non-commercial; copying/distributing data
+  and resale are prohibited; Terms do not separately address the paid API, so commercial use is ambiguous.
+  Not an FCRA consumer reporting agency: no employment, tenant, credit or insurance use. Mugshot/personal
+  data of private individuals; high legal risk for a public site.'
+evidence:
+- field: commercial_use
+  url: https://completecriminalchecks.com/Terms/
+  quote: a limited, non-exclusive, non-transferable, revocable license to access and use our Platform
+    for personal, non-commercial purposes
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://completecriminalchecks.com/Terms/
+  quote: You may not copy, modify, distribute, reproduce, reverse-engineer, decompile, frame, or remove
+    any proprietary notices without written permission.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://completecriminalchecks.com/Terms/
+  quote: 'Commercial Resale: Reselling data without authorization'
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://completecriminalchecks.com/Terms/
+  quote: All content on the Platform — text, graphics, logos, images, software, code, and data — is the
+    property of Complete Criminal Checks or its licensors
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Personal non-commercial licence, no API terms; red stands

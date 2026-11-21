@@ -17,7 +17,7 @@ sources:
   url: https://keen.io/
   category: Machine Learning
 link_status: alive
-data_license: unknown
+data_license: customer-owned data (account-scoped)
 commercial_use: unknown
 storage_caching: unknown
 redistribution_display: unknown
@@ -25,5 +25,17 @@ attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Account-scoped analytics platform; the data is the customer's own events, not a public data source.
+api_terms_url: https://keen.io/tos/
+notes: Read https://keen.io/tos/ (the /terms paths 404). Keen is an event-streaming/analytics SaaS; you query your own stored events. Customer owns its data; Keen may aggregate it. No public dataset is
+  offered, so commercial/storage/display questions about third-party data do not arise. Retention is per plan (12 months default).
+evidence:
+- field: data_license
+  url: https://keen.io/tos/
+  quote: As between you and Keen, you own and retain ownership and all rights in Your Data
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

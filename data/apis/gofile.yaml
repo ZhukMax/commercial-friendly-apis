@@ -13,7 +13,7 @@ sources:
   url: https://gofile.io/api
   category: Cloud Storage & File Sharing
 link_status: alive
-data_license: unknown
+data_license: User-owned uploads; no data licence
 commercial_use: unknown
 storage_caching: unknown
 redistribution_display: unknown
@@ -23,3 +23,16 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://gofile.io/terms
+applicable: false
+not_applicable_reason: File hosting service with account token API; not a public data source.
+evidence:
+- field: data_license
+  url: https://gofile.io/terms
+  quote: The User retains full ownership of all Content they upload to the Service.
+  checked_at: '2026-11-21'
+notes: Terms of Service read via Playwright (page is JS-rendered). Gofile only gets a licence to store
+  and serve uploaded content. The terms do not address commercial use of the API, caching or display,
+  so those stay unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -15,7 +15,7 @@ sources:
 link_status: alive
 data_license: unknown
 commercial_use: unknown
-storage_caching: unknown
+storage_caching: 'yes'
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
@@ -23,3 +23,22 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+applicable: true
+api_terms_url: https://leekcf-hinter-api.leekcf.workers.dev
+rate_limits: about 60 requests/minute per client address
+evidence:
+- field: storage_caching
+  url: https://leekcf-hinter-api.leekcf.workers.dev
+  quote: Answers are cacheable; please cache them on your side.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://leekcf-hinter-api.leekcf.workers.dev
+  quote: Each client address may make about 60 requests per minute
+  checked_at: '2026-11-21'
+notes: Only the API landing page was read; it has no licence or terms of use. It encourages caching answers
+  (storage_caching yes on that basis, loosely), asks clients to link back to the problem on codeforces.com
+  and to show hints one at a time. Hints are AI-generated from Codeforces statements and editorials, so
+  upstream Codeforces rights are unresolved (Codeforces site Terms forbid commercializing Website material).
+  Commercial use, display and attribution unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -12,7 +12,7 @@ sources:
   name: MySocialApp
   url: https://mysocialapp.io
   category: Social
-link_status: alive
+link_status: dead
 data_license: unknown
 commercial_use: unknown
 storage_caching: unknown
@@ -21,5 +21,12 @@ attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+link_note: Domain now serves an unrelated blog; the social-networking API service is no longer present
+  (checked 2026-11-21).
+notes: mysocialapp.io now serves an unrelated Thai-language blog (title "my socialapp -", posts about
+  chillers and carpets) with only a Privacy Policy link; no API, docs or terms remain. Treated as dead.
+  No terms read, all fields unknown.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

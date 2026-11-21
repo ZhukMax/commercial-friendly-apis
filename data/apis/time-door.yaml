@@ -23,3 +23,10 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Listed URL is a web time zone converter tool; no public API or data-terms page found
+notes: Read https://timedoor.io (home) and probed /terms, /api, /docs, /privacy (all 404). The site is a time zone converter/guide, not a time series analysis API as the listing claims; no terms page exists.
+  Footer credits IANA Time Zone Database and GeoNames place data (CC BY 4.0), which is an upstream remark only. Terms left unknown.
+evidence: []
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

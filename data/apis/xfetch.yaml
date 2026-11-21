@@ -23,3 +23,10 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://xfetch.io/legal/terms
+evidence: []
+notes: 'Read Terms of service (updated 5 June 2026): short; acceptable use bars resale that violates third-party
+  terms, otherwise silent on commercial use, storage, display, attribution and the licence of the X data.
+  All terms fields unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

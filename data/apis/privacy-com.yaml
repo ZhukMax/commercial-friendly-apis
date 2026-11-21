@@ -24,3 +24,12 @@ verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
 link_note: -> https://developers.privacy.com/docs/getting-started
+applicable: false
+not_applicable_reason: Account-scoped card-issuing API (create virtual cards for your own Privacy account);
+  not a data source.
+api_terms_url: https://privacy.com/terms
+notes: 'Read https://privacy.com/terms (Lithic, Inc. d/b/a Privacy.com): users may not "resell the Services
+  to any third party" nor act as a payment facilitator. Developer docs moved to https://developers.privacy.com/docs/getting-started.
+  Nothing relevant to data reuse; fields unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -1,0 +1,112 @@
+[
+ {
+  "id": "ai-model-watch",
+  "outcome": "confirmed",
+  "reasons": [
+   "No own ToS page (404); /api states MIT, commercial use, no key",
+   "GitHub data repo LICENSE is MIT; README says free to use, attribution appreciated",
+   "Content is provider-published price/date facts"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Looked for ToS/privacy (404), AUP, rate limits, scraping clauses: none. Residual: storage is inferred from MIT; provider docs not assessed."
+ },
+ {
+  "id": "cve-report",
+  "outcome": "confirmed",
+  "reasons": [
+   "MITRE licence grants reproduce/display/sublicense, no field-of-use limit",
+   "Site has no ToS (404), only AS-IS disclaimer",
+   "NVD public domain; KEV CC0; EPSS free and open"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Attribution duty is real: reproduce MITRE copyright designation and licence in copies. Legacy QID mappings and EPSS licence text not located verbatim; EPSS page says data is freely and openly accessible."
+ },
+ {
+  "id": "defencelevel-index",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToS s.9 says public Index data freely reusable commercially under CC BY 4.0",
+   "Subscriber briefings excluded (no external republishing) - not part of public Index",
+   "Sources page: upstream inputs are facts, Index publishes numbers only"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "ToS and API page agree. ToS allows limiting abusive automated access. Briefings/alerts must not be republished; keep to public Index endpoints/badge."
+ },
+ {
+  "id": "modelfax",
+  "outcome": "confirmed",
+  "reasons": [
+   "README and LICENSE-DATA: data CC-BY-4.0, no NC term",
+   "Static files on GitHub Pages, no extra ToS",
+   "Data are provider-published prices (facts)"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Code MIT, data CC BY 4.0 with link-back attribution. Upstream provider pricing pages not assessed."
+ },
+ {
+  "id": "national-vulnerability-database",
+  "outcome": "confirmed",
+  "reasons": [
+   "NVD API Terms of Use: intended for building services; no commercial or caching ban",
+   "Attribution notice only 'asked', not mandatory; no-endorsement rule",
+   "Public domain statement on start-here page"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Read via Playwright (fresh context): start-here, terms-of-use, legal-disclaimer. Note first-pass attribution_required=yes is stricter than the page ('are asked to display'); TOU also bars attributing modified content to NVD. Third-party CNA/CPE content terms not assessed; rate limit 5/30s without key."
+ },
+ {
+  "id": "personality-fyi",
+  "outcome": "confirmed",
+  "reasons": [
+   "API page: data CC0, use however you want; local copy fine",
+   "Site ToS targets site abuse/AI features, silent on commercial use",
+   "Tension: ToS says do not scrape at scale or submit automated queries"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Read /terms (effective 2026-04-22): 'Don't use the site to ... scrape content at scale, submit automated queries'. API page explicitly invites programmatic use; the specific API page should prevail but a small conflict remains. Recommend fetching once and caching rather than heavy polling. MBTI is a trademark."
+ },
+ {
+  "id": "positivequotation",
+  "outcome": "disputed",
+  "reasons": [
+   "No explicit commercial or licence grant for the API; only inference from public domain source",
+   "Site footer says all rights reserved; no ToS exists to resolve it",
+   "Public-domain scope is stated for USA only; dataset is the site's own selection"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://positivequotation.com/developers/public-domain-quotes-api",
+    "quote": "© 2026 Positive Quotation. All rights reserved.",
+    "field": "commercial_use"
+   },
+   {
+    "url": "https://positivequotation.com/developers/public-domain-quotes-api",
+    "quote": "Copyright, trademark, privacy, and other rules may differ by country and use; this documentation is not legal advice.",
+    "field": "storage_caching"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "ambiguous",
+   "storage_caching": "ambiguous"
+  },
+  "note": "/terms, /privacy, /about, /license return 404 (only Privacy Policy link in footer). The proverbs come from a PD source but the API compilation, IDs and attribution fields are the site's, under an all-rights-reserved notice. Beta, 30 records, no uptime guarantee. Page does invite 'republishing' with source fields kept, so display stays yes; verdict should drop to at best yellow."
+ },
+ {
+  "id": "quelllm",
+  "outcome": "confirmed",
+  "reasons": [
+   "API page and Mentions legales both state API data is CC BY 4.0",
+   "No ToS limiting scraping or commercial use found (cgu/conditions 404)",
+   "Commercial use explicitly allowed with clickable link attribution"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Mentions legales (updated 09/06/2026) says the public /api data is CC BY 4.0, consistent with the API page. Same legal page reserves rights on editorial texts and site content, but carves out the API. Model licences inside the data belong to the models; underlying sources (HuggingFace, Ollama) not assessed."
+ }
+]

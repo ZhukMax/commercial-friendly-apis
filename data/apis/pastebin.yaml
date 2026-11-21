@@ -18,12 +18,33 @@ sources:
   category: Cloud Storage & File Sharing
 link_status: alive
 data_license: unknown
-commercial_use: unknown
+commercial_use: paid-only
 storage_caching: unknown
-redistribution_display: unknown
+redistribution_display: 'no'
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: red
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://pastebin.com/doc_terms_of_service
+commercial_use_scope: paid
+applicable: false
+not_applicable_reason: API to manage the caller's own pastes (dev key plus user key); not a public data
+  source.
+evidence:
+- field: commercial_use
+  url: https://pastebin.com/doc_terms_of_service
+  quote: If you wish to acquire commercial usage rights of Content or the Pastebin Service
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://pastebin.com/doc_terms_of_service
+  quote: you may not (a) display to third parties and agree not to transfer or sell any Content (other
+    than Your Content) to third parties
+  checked_at: '2026-11-21'
+notes: Pastebin Terms of Service read (section on User Generated Content and section G Developer API).
+  Third-party pastes may not be displayed to others or redistributed without written permission of the
+  owner; commercial usage rights are available only via a paid Enterprise API subscription (contact required);
+  developer API access is per paying user and may not be resold. Scraping is separately restricted.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

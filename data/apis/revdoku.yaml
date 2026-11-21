@@ -21,6 +21,16 @@ attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
 link_note: -> https://docs.revdoku.com/api.md
+api_terms_url: https://revdoku.com/terms
+applicable: false
+not_applicable_reason: Account-scoped cloud file storage/email service; API manages the customer's own
+  files, not a public data source.
+notes: Read https://revdoku.com/terms (docs URL https://revdoku.com/api.md redirects to docs.revdoku.com/api.md;
+  API docs not read for terms). Terms say users retain rights in their own content; Revdoku gets a licence
+  only to provide the service. No clause found on commercial use of the API itself, caching or redistribution
+  of service data, so those stay unknown.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

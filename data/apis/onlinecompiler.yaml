@@ -14,12 +14,31 @@ sources:
   category: Programming
 link_status: alive
 data_license: unknown
-commercial_use: unknown
+commercial_use: 'yes'
 storage_caching: unknown
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Code-execution API (tool; runs submitted code), no data source.
+api_terms_url: https://onlinecompiler.io/terms
+commercial_use_scope: free-tier
+rate_limits: 'Free plan: 100,000 runs/month'
+evidence:
+- field: commercial_use
+  url: https://onlinecompiler.io/docs
+  quote: 100,000 runs a month on the Free plan, commercial use allowed and no card.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://onlinecompiler.io/terms
+  quote: Free tier accounts are limited to 100,000 requests per month.
+  checked_at: '2026-11-21'
+notes: Docs page states the free plan permits commercial use; Terms of Service (last updated Nov 5, 2026)
+  forbid reselling access to the Service without written permission and require an account/API key. As
+  an execution tool it has no data licence, caching or display terms (unknown).
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

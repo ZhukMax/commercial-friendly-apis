@@ -13,13 +13,47 @@ sources:
   url: https://google.github.io/osv.dev/api/
   category: Security
 link_status: alive
-data_license: unknown
-commercial_use: unknown
+data_license: mixed per source (mostly CC-BY-4.0, CC0, Apache-2.0, MIT; some CC-BY-SA, CC-BY-NC-ND)
+commercial_use: ambiguous
 storage_caching: unknown
-redistribution_display: unknown
+redistribution_display: ambiguous
 attribution_required: unknown
-bulk_download: unknown
+bulk_download: 'yes'
 self_host_option: unknown
-verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://google.github.io/osv.dev/data/
+rate_limits: No limit on the API (per FAQ); 32MiB response size limit on HTTP/1.1
+evidence:
+- field: data_license
+  url: https://google.github.io/osv.dev/data/
+  quote: Chainguard License for Commercial Scanners
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://google.github.io/osv.dev/data/
+  quote: Chainguard License for Commercial Scanners
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://google.github.io/osv.dev/data/
+  quote: Chainguard License for Commercial Scanners
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://google.github.io/osv.dev/data/
+  quote: This is the easiest way to download the entire OSV database.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://google.github.io/osv.dev/faq/
+  quote: Currently there is not a limit on the API.
+  checked_at: '2026-11-21'
+notes: 'OSV.dev aggregates advisories from many databases and publishes no single data licence for the
+  API. The data sources page lists per-source licences: mostly CC-BY 4.0, CC0, Apache 2.0 or MIT, but
+  Ubuntu and Alpine are CC-BY-SA 4.0 and Chainguard/Wolfi is CC-BY-NC-ND 4.0 with a separate commercial-scanner
+  licence. No site-level terms found covering API use, storage or display, so storage_caching is unknown
+  and commercial use ambiguous (depends on which source records you show). The osv.dev software is Apache-2.0
+  (not the data). Data dumps are available at gs://osv-vulnerabilities.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: yellow
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Per-source licences incl. CC-BY-NC-ND Chainguard; no site terms; ambiguous

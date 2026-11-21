@@ -13,7 +13,7 @@ sources:
   url: https://www.edenai.co/docs/v3/quickstart/first-llm-call
   category: Machine Learning
 link_status: alive
-data_license: unknown
+data_license: Customer retains rights in inputs and outputs, subject to provider terms
 commercial_use: unknown
 storage_caching: unknown
 redistribution_display: unknown
@@ -21,5 +21,16 @@ attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Inference/tool API tied to a customer account and key, not a public data source.
+api_terms_url: https://www.edenai.co/terms
+evidence:
+- field: data_license
+  url: https://www.edenai.co/terms
+  quote: you retain all rights in your inputs and, to the extent permitted by law and by the applicable provider terms
+  checked_at: '2026-11-21'
+notes: Read Eden AI Terms (https://www.edenai.co/terms). Outputs are owned by customer only to the extent permitted by the underlying provider terms, which vary per model (not checked). Core fields unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

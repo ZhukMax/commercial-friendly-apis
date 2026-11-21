@@ -14,12 +14,46 @@ sources:
   category: Security
 link_status: alive
 data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+commercial_use: paid-only
+storage_caching: limited
+redistribution_display: ambiguous
+attribution_required: ambiguous
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://threatcluster.io/terms
+commercial_use_scope: paid
+notes: 'Terms last updated 2026-11-06. Keyed API: internal use only on every plan; embedding or serving
+  data to your own customers needs a Business agreement (terms not public) -> paid-only/ambiguous. Public
+  no-key feeds (RSS, ransomware feed, IOC blocklist, MISP): free in your own environment and for non-commercial
+  community defence with attribution; redistribution in a commercial product needs a licence. Bulk replication
+  of the corpus is forbidden; normal caching not addressed (marked limited). Incident records, scores
+  and graph are proprietary; original articles belong to their publishers.'
+evidence:
+- field: commercial_use
+  url: https://threatcluster.io/terms
+  quote: Keyed API responses are licensed for your own internal use and your own tooling on any plan,
+    including Free.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://threatcluster.io/terms
+  quote: including serving it to your customers through your own platform, requires a Business agreement.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://threatcluster.io/terms
+  quote: Systematically replicate the corpus or a substantial part of it, whether over the API, the feeds
+    or the website
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://threatcluster.io/terms
+  quote: free to use in your own environment and in non-commercial community defence work, with attribution
+    to ThreatCluster.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read: ''Embedding or redistributing the data in a product or service you sell ...
+  requires a Business agreement''. paid-only/limited stands.'

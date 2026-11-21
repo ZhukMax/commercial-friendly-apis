@@ -27,3 +27,15 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+evidence:
+- field: self_host_option
+  url: https://github.com/PostmonAPI/postmon
+  quote: 'This program is free software: you can redistribute it and/or modify it under the terms of the
+    GNU General Public License'
+  checked_at: '2026-11-21'
+notes: Read postmon.com.br (GitHub Pages home) and the GitHub repo README. The site says the API is free
+  ("gratuita") but states no terms of use, licence or data licence for the data (CEP data upstream from
+  Correios, not checked). The server code is GPL-3.0, so self-hosting is possible; that licence covers
+  the software, not the data. No page addresses commercial use, so unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

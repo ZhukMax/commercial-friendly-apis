@@ -25,3 +25,10 @@ verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
 link_note: -> https://documentation.jumio.ai
+applicable: false
+not_applicable_reason: Commercial KYC/identity verification service, account-scoped, no public data
+notes: documentation.jumio.ai (read via Playwright) is a developer portal for a paid identity-verification
+  service; jumio.com legal pages were blocked by Cloudflare for curl, so terms left unknown. Not a data
+  source.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

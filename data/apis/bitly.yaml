@@ -25,6 +25,20 @@ attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
 link_note: -> https://dev.bitly.com/
+api_terms_url: https://bitly.com/pages/terms-of-service
+applicable: false
+not_applicable_reason: URL shortener/link management tool; account-scoped API, not a public data source.
+evidence:
+- field: rate_limits
+  url: https://bitly.com/pages/terms-of-service
+  quote: You will not exceed the number and/or frequency of API calls
+  checked_at: '2026-11-21'
+notes: Read Bitly Terms of Service (dev.bitly.com redirect target not needed). API access is under the
+  same agreement and plan tier limits; competitors may not use the services for competitive purposes or
+  build a competing URL shortener. No explicit commercial-use, caching or display clause for API data
+  found; unknown.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

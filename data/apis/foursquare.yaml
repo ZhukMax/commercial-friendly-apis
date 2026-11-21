@@ -19,13 +19,49 @@ sources:
   category: Social
 link_status: redirect
 data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+commercial_use: 'yes'
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
 link_note: -> https://foursquare.com/developer/
+api_terms_url: https://foursquare.com/legal/terms/apilicenseagreement/
+commercial_use_scope: paid
+cache_limit: Per Foursquare Places API caching limits for Self-Service Pay-as-you-go accounts (Usage Guidelines
+  not read)
+attribution_text: Powered by Foursquare on any page/screen where Places Data appears
+evidence:
+- field: commercial_use
+  url: https://foursquare.com/legal/terms/apilicenseagreement/
+  quote: develop, implement and integrate with application(s), website(s), product(s) and/or service(s)
+    owned or controlled by you
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://foursquare.com/legal/terms/apilicenseagreement/
+  quote: use, reproduce, distribute, transmit, display and perform Places Data as part of Your Service
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://foursquare.com/legal/terms/apilicenseagreement/
+  quote: You must comply with the Places API caching and query rate limitations applicable to your Account-type
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://foursquare.com/legal/terms/apilicenseagreement/
+  quote: You must provide Foursquare with branded attribution (i.e., ‘Powered by Foursquare’) on any page
+    or screen within Your Service where Places Data may appear.
+  checked_at: '2026-11-21'
+notes: Read Foursquare Places API (Self-Service) End User License Agreement (last updated Feb 29, 2024),
+  plus Developer Master Terms and the Platform & Acceptable Use Policy. The EULA allows displaying Places
+  Data in your own website/product but with mandatory "Powered by Foursquare" credit, no bulk/systematic
+  access for third parties, pages must be reasonably protected from crawling, "Calculated Scores" attributes
+  may only be used internally, and the AUP bans trial/evaluation credentials for commercial use and share-alike
+  open-data mixing. Caching limits live in the developer Usage Guidelines (docs page returned no readable
+  text), so storage is limited/unknown in detail. The EULA does not explicitly say "commercial use is
+  allowed"; it licenses any site/product/service you own and is pay-as-you-go, so commercial_use=yes is
+  an inference from that grant (medium confidence). Enterprise agreements override these terms. Foursquare's
+  separate open-source Places dataset was not assessed.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -20,6 +20,15 @@ redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: TLS certificate analysis tool for user-supplied hostnames; not a public data source
+api_terms_url: https://kiprio.com/terms
+evidence: []
+notes: 'Terms of Service (updated 1 Apr 2026): forbids reselling or sublicensing API access and bulk scraping that
+  competes with Kiprio; says the APIs, documentation and content may not be reproduced or redistributed without
+  permission. No statements on commercial use of results, caching, display or attribution, so core fields unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: unknown

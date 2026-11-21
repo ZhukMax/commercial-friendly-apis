@@ -24,3 +24,9 @@ verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
 link_note: -> https://github.blog/news-insights/the-library/git-io-github-url-shortener/
+applicable: false
+not_applicable_reason: URL shortener utility for GitHub URLs; not a data source.
+notes: Only the GitHub blog announcement post was read (no terms of use or API terms on it); git.io terms
+  unknown. Service status not verified from the page.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

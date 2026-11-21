@@ -4,7 +4,7 @@ url: https://astro-agent.dev/llms.txt
 category: Personality
 description: 'Deterministic Western and Vedic astrology: natal charts, transits, kundli, dashas, panchang'
 description_source: upstream
-auth: none
+auth: apiKey
 https: true
 cors: 'yes'
 sources:
@@ -14,12 +14,37 @@ sources:
   category: Personality
 link_status: alive
 data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
+commercial_use: paid-only
+storage_caching: 'yes'
+redistribution_display: 'yes'
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://astro-agent.dev/terms
+commercial_use_scope: paid
+rate_limits: 'Free key: 1,000 calls a month (up to 100 on premium data routes); paid plans, prepaid credits or pay per call (x402/MPP)'
+evidence:
+- field: commercial_use
+  url: https://astro-agent.dev/terms
+  quote: The Free plan is for personal, research and evaluation use only, not for commercial use. Paid plans may be used in commercial products.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://astro-agent.dev/terms
+  quote: Within the licence of your plan, you may use, store and redistribute the results you receive, including inside your own products on a paid plan.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://astro-agent.dev/terms
+  quote: Within the licence of your plan, you may use, store and redistribute the results you receive, including inside your own products on a paid plan.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://astro-agent.dev/llms.txt
+  quote: Free (1,000 calls a month, up to 100 of them on the premium data routes)
+  checked_at: '2026-11-21'
+notes: 'Terms of Service read at astro-agent.dev/terms. Free plan is personal/research/evaluation only; commercial products need a paid plan (card plans, prepaid credits or pay-per-call USDC). Within the
+  plan licence results may be used, stored and redistributed, so storage/display are yes on paid scope only. Attribution not mentioned (only: do not claim results come from a different provider), left unknown.
+  Computed ephemeris/astrology data, no LLM. auth set to apiKey (free key or keyless pay-per-call).'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

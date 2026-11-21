@@ -21,5 +21,19 @@ attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://lecto.ai/terms
+rate_limits: 1 request/second on the RapidAPI free plan
+applicable: false
+not_applicable_reason: Machine-translation API on the caller's text; not a data source.
+evidence:
+- field: rate_limits
+  url: https://rapidapi.com/lecto-lecto-default/api/lecto-translation/
+  quote: Note that this API is free to use but has a limit of 1 requests per second.
+  checked_at: '2026-11-21'
+notes: Read the RapidAPI listing and lecto.ai/terms (both JS-rendered, read via browser). The Terms of
+  Use are short (accounts, plan limits, Stripe payments) and say translation content is deleted after
+  processing; no clause on commercial use or output rights, so unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

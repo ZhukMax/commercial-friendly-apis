@@ -21,5 +21,17 @@ attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: OAuth/API-key API over Blogger blogs owned by third parties; content rights stay
+  with each blog author, so it is not a licensed data source.
+api_terms_url: https://developers.google.com/terms
+notes: Read Google APIs Terms of Service (https://developers.google.com/terms, last modified November
+  9, 2021), which govern the Blogger API; the Blogger docs page itself links only to Google terms. Section
+  5 says content accessible through the APIs is third-party content and "may be subject to intellectual
+  property rights ... you may not use it unless you are licensed to do so by the owner", and users' non-public
+  content may not be exposed to others without opt-in. No Blogger-specific clause on caching, display
+  or commercial use was found, so core fields stay unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

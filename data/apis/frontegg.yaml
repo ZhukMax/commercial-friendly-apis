@@ -23,3 +23,11 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://frontegg.com/terms-of-use
+applicable: false
+not_applicable_reason: Customer-identity (CIAM) platform; account-scoped API, not a data source.
+notes: Read https://frontegg.com/terms-of-use, which covers the website ("Scraping, copying, reselling,
+  or duplicating Site content without written permission" is prohibited). Subscription/API service terms
+  not read; unknown.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

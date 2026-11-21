@@ -15,12 +15,32 @@ sources:
 link_status: redirect
 data_license: unknown
 commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
+storage_caching: 'no'
+redistribution_display: ambiguous
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
 link_note: -> https://learn.microsoft.com/en-us/linkedin/?context=linkedin/context
+api_terms_url: https://www.linkedin.com/legal/l/api-terms-of-use
+applicable: false
+not_applicable_reason: Member-consent OAuth API for building apps on LinkedIn data; content may not be
+  stored or shared beyond your own app users, not a public data source.
+evidence:
+- field: storage_caching
+  url: https://www.linkedin.com/legal/l/api-terms-of-use
+  quote: You may not store any Content, except in the specific circumstances outlined.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.linkedin.com/legal/l/api-terms-of-use
+  quote: share (with the exception of making the Content available to Users through the Application)
+  checked_at: '2026-11-21'
+notes: Read LinkedIn API Terms of Use. Docs URL now redirects to learn.microsoft.com/en-us/linkedin. Content
+  may only be shown to Users through the Application, not sold or passed to third parties; storage only
+  for the time needed to serve your Application users, segregated and deletable. Terms do not state a
+  commercial-use rule in the text read, so commercial_use stays unknown; access is per approved app and
+  per member consent.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

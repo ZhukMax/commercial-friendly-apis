@@ -13,13 +13,31 @@ sources:
   url: https://banks.complianceassessmenttool.com/docs
   category: Security
 link_status: alive
-data_license: unknown
-commercial_use: unknown
+data_license: proprietary; customer data stays with customer
+commercial_use: ambiguous
 storage_caching: unknown
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Partner-only white-label SaaS API (PCI SAQ generation) under an MSA; account-scoped, not a data source
+api_terms_url: https://complianceassessmenttool.com/legal/terms-of-service
+commercial_use_scope: paid
+notes: Read https://complianceassessmenttool.com/legal/terms-of-service (2026-05-15) via curl; docs at banks.complianceassessmenttool.com/docs are a templated shell. Fees come from an Order Form under an
+  MSA (partner model). Use is licensed for internal business and delivering compliance services to merchants; no clause on public display, caching or redistribution of outputs. Commercial use for the partner's
+  own service is allowed but not for general reuse, so ambiguous.
+evidence:
+- field: commercial_use
+  url: https://complianceassessmenttool.com/legal/terms-of-service
+  quote: we grant you a non-exclusive, non-transferable, revocable license to access the Service for your internal business purposes
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://complianceassessmenttool.com/legal/terms-of-service
+  quote: You retain ownership of all Customer Data you submit.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

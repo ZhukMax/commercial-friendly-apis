@@ -20,6 +20,15 @@ redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://intelx.io/terms
+evidence: []
+notes: Read https://intelx.io/terms (Agreement on provision of search engine services; JS-rendered, read via Playwright).
+  It says free users may not make bulk requests or implement the API into any services without prior written consent,
+  and that 'Commercial use beyond trial purposes with a free license is prohibited'. Paid users get a licence by
+  subscription, but the page does not state what paid licences permit for commercial display or storage, so commercial_use
+  stays unknown. The API doc PDF linked as the URL was not parsed for terms.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: unknown

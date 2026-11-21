@@ -2,8 +2,7 @@ id: tanvo
 name: Tanvo
 url: https://tanvo.ai/developers/api
 category: Machine Learning
-description: Image, video and song generation on 30 AI models (Nano Banana, Kling, Veo, Suno), with a
-  free tier
+description: Image, video and song generation on 30 AI models (Nano Banana, Kling, Veo, Suno), with a free tier
 description_source: upstream
 auth: apiKey
 https: true
@@ -15,12 +14,33 @@ sources:
   category: Machine Learning
 link_status: alive
 data_license: unknown
-commercial_use: unknown
+commercial_use: paid-only
 storage_caching: unknown
-redistribution_display: unknown
+redistribution_display: ambiguous
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: AI image/video/song generation service (account-scoped inference API); not a data source.
+api_terms_url: https://tanvo.ai/terms-of-service
+commercial_use_scope: paid
+notes: 'Read https://tanvo.ai/terms-of-service. Rights in output are assigned to you only for paid plans/credits; free runs are personal non-commercial and may be watermarked. API: you may build products
+  on it but not resell raw access, scrape, or present outputs as your own model. Models are third-party (WaveSpeed and its vendors), whose own terms may also apply.'
+evidence:
+- field: commercial_use
+  url: https://tanvo.ai/terms-of-service
+  quote: What you generate is yours to use, including commercially, to the extent the law allows.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://tanvo.ai/terms-of-service
+  quote: output from free runs is licensed to you for personal, non-commercial use and may carry a watermark
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://tanvo.ai/terms-of-service
+  quote: you may not resell raw access, scrape the service, or present our output as your own model
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

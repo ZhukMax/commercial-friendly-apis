@@ -23,3 +23,10 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Inference/tool API tied to a customer account and key, not a public data source.
+api_terms_url: https://imagga.com/terms
+notes: Read https://imagga.com/terms (Imagga Commercial API terms). They cover subscription, account and acceptable-use rules (no unlawful content, no pornography/violence/gambling applications, no destabilising
+  use); no statement found on ownership, caching or display of tagging results, so core fields unknown. Free plan limits not read.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

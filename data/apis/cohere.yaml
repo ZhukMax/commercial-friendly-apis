@@ -2,8 +2,7 @@ id: cohere
 name: Cohere
 url: https://docs.cohere.com/reference/about
 category: Machine Learning
-description: NLP API for text generation, embeddings, classification and summarization with a free trial
-  tier
+description: NLP API for text generation, embeddings, classification and summarization with a free trial tier
 description_source: upstream
 auth: apiKey
 https: true
@@ -22,5 +21,12 @@ attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Inference/tool API tied to a customer account and key, not a public data source.
+api_terms_url: https://cohere.com/saas-agreement
+notes: Read https://cohere.com/terms-of-use and https://cohere.com/saas-agreement. SaaS agreement bars using the services or Output to build competing models; Customer Data (retained by customer) is defined
+  to exclude content received from the API, so ownership/commercial rights in Outputs are not stated there. Trial-key limits live in docs/dashboard (not read). Core fields unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -23,3 +23,18 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Single-purpose SSL/WHOIS/DNS check tool offered through RapidAPI; computes checks
+  on domains you submit, not a dataset.
+api_terms_url: https://rapidapi.com/page/terms
+rate_limits: 'Basic (free): 100 requests/month, 5 requests/minute'
+notes: Read the RapidAPI listing/pricing pages (Playwright) and RapidAPI Terms of Service. The provider
+  shows no own terms or licence. RapidAPI terms only say Rapid is a platform and consumers may not resell
+  the Service. Terms fields unknown.
+evidence:
+- field: rate_limits
+  url: https://rapidapi.com/goktugbk/api/ssl-domain-health-check/pricing
+  quote: 5 requests per minute
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

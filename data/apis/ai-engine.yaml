@@ -2,8 +2,7 @@ id: ai-engine
 name: AI Engine
 url: https://ai-engine.net/apis/all-in-one
 category: Machine Learning
-description: '36+ AI endpoints: OCR, face detection, background removal, object detection, NSFW moderation,
-  face swap, image generation'
+description: '36+ AI endpoints: OCR, face detection, background removal, object detection, NSFW moderation, face swap, image generation'
 description_source: upstream
 auth: apiKey
 https: true
@@ -22,5 +21,18 @@ attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Inference/tool API tied to a customer account and key, not a public data source.
+api_terms_url: https://ai-engine.net/terms
+rate_limits: Per RapidAPI plan (free plan on each API)
+evidence:
+- field: rate_limits
+  url: https://ai-engine.net/terms
+  quote: Each API plan has defined rate limits and monthly quotas.
+  checked_at: '2026-11-21'
+notes: Read https://ai-engine.net/terms (distributed via RapidAPI; key comes from RapidAPI). Terms prohibit reselling API access or building a competing wrapper service; they say users retain rights in
+  submitted images but say nothing about rights in or commercial use of outputs, caching or display, so core fields stay unknown. RapidAPI terms not read.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

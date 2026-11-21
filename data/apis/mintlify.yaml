@@ -24,3 +24,11 @@ verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
 link_note: -> https://www.mintlify.com/docs
+applicable: false
+not_applicable_reason: Documentation-generation SaaS API; account-scoped, not a data source.
+api_terms_url: https://www.mintlify.com/legal/terms
+notes: 'Mintlify Terms of Service (mintlify.com/legal/terms, updated June 2026) read: customer agreement
+  for the hosted docs service, no data licence or caching/display clause for API output. Docs URL redirects
+  to mintlify.com/docs. All terms fields unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

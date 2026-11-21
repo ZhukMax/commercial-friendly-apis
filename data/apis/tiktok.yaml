@@ -14,13 +14,32 @@ sources:
   category: Social
 link_status: redirect
 data_license: unknown
-commercial_use: unknown
+commercial_use: 'no'
 storage_caching: unknown
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: red
+confidence: medium
 link_checked_at: '2026-11-21'
 link_note: -> https://developers.tiktok.com/docs/en/login-kit-web
+applicable: false
+not_applicable_reason: OAuth Login Kit/Display APIs returning the authorising user's own profile and videos;
+  not an open data source.
+api_terms_url: https://www.tiktok.com/legal/page/global/tik-tok-developer-terms-of-service/en
+commercial_use_scope: any
+evidence:
+- field: commercial_use
+  url: https://www.tiktok.com/legal/page/global/tik-tok-developer-terms-of-service/en
+  quote: use the TikTok Developer Services or TikTok Services, without TikTok’s express written consent,
+    for any commercial or unauthorized purpose
+  checked_at: '2026-11-21'
+notes: Read TikTok Developer Terms of Service. Section III.3(c) bans using the Developer Services for
+  any commercial purpose without TikTok's express written consent, and II.1 limits use of TikTok Information
+  to developing, maintaining and supporting the Application and to making it available to End Users on
+  a personal, non-sublicensable basis. Written consent (e.g. business agreement) could change this. Caching/storage
+  and attribution rules not stated, left unknown. The Terms also incorporate the TikTok For Business Commercial
+  Terms (not read).
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

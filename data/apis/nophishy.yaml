@@ -12,7 +12,7 @@ sources:
   name: NoPhishy
   url: https://rapidapi.com/Amiichu/api/exerra-phishing-check/
   category: Anti-Malware
-link_status: alive
+link_status: dead
 data_license: unknown
 commercial_use: unknown
 storage_caching: unknown
@@ -23,3 +23,12 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+link_note: rapidapi.com listing returns "API not found"; nophishy.com does not resolve
+applicable: false
+not_applicable_reason: Listing no longer exists on RapidAPI; no terms available
+notes: https://rapidapi.com/Amiichu/api/exerra-phishing-check/ redirects to a RapidAPI "API not found"
+  error page; nophishy.com does not resolve and phish.exerra.xyz returned Cloudflare 525. The vendor site
+  exerra.xyz/tos has only generic terms (own IP not to be used without consent) with no data-use clause.
+  Terms left unknown.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

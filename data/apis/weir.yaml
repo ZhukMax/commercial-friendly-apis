@@ -16,10 +16,28 @@ link_status: alive
 data_license: unknown
 commercial_use: unknown
 storage_caching: unknown
-redistribution_display: unknown
+redistribution_display: ambiguous
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://weirapp.io/terms
+evidence:
+- field: redistribution_display
+  url: https://weirapp.io/acceptable-use
+  quote: Do not resell the Service, or offer the content you retrieve as a competing data feed or API,
+    without a written agreement with us.
+  checked_at: '2026-11-21'
+notes: Read Weir Terms of Service and Acceptable Use Policy. Weir retrieves public Reddit and X content;
+  ToS section 6 puts responsibility for lawful use of retrieved content on the customer and grants no
+  licence to the underlying content, and Reddit/X own terms are not addressed. Reselling as a competing
+  feed is barred; commercial use, storage and display are not stated, so unknown/ambiguous. Upstream Reddit
+  Data API Terms forbid commercial use without a separate agreement.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read own terms and X ToS/Developer Agreement (stricter upstream: scraping banned,
+  commercial use needs Enterprise). Existing unknown/ambiguous fields stand.'

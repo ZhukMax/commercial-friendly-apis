@@ -19,11 +19,28 @@ sources:
 link_status: alive
 data_license: unknown
 commercial_use: unknown
-storage_caching: unknown
+storage_caching: limited
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Bot platform API operating within the bot's own chats/users; not a data source.
+api_terms_url: https://telegram.org/tos/bot-developers
+cache_limit: Only data essential for the service; delete on user/Telegram request or when no longer needed
+evidence:
+- field: storage_caching
+  url: https://telegram.org/tos/bot-developers
+  quote: You agree not to use your TPA to collect, store, aggregate or process data beyond what is essential
+    for the operation of your services.
+  checked_at: '2026-11-21'
+notes: Read Telegram Bot Platform Developer Terms of Service (https://telegram.org/tos/bot-developers).
+  Section 4.3 bans collecting data into large datasets, ML/AI products or scraping public group/channel
+  content; section 4.2 imposes deletion duties (on user/Telegram request, when no longer needed, when
+  the bot stops). No clause on commercial use of bot data, display or attribution found, so those stay
+  unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -16,7 +16,7 @@ link_status: alive
 data_license: unknown
 commercial_use: unknown
 storage_caching: unknown
-redistribution_display: unknown
+redistribution_display: ambiguous
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
@@ -24,3 +24,19 @@ verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
 link_note: HTTP 403 (blocked for bots, assumed alive)
+api_terms_url: https://www.udemy.com/terms/terms-of-use/
+applicable: false
+not_applicable_reason: Account-scoped API for Udemy instructors to manage their own courses, Q&A and reviews;
+  not a public data source.
+evidence:
+- field: redistribution_display
+  url: https://www.udemy.com/terms/terms-of-use/
+  quote: This also applies to content you can access via any of our APIs.
+  checked_at: '2026-11-21'
+notes: Instructor API page opened via Playwright (curl gets 403) and Udemy Terms of Use read. The quoted
+  sentence follows a ban on reproducing/redistributing course content; the Instructor API itself returns
+  an instructor's own Q&A/review data, so how the ban applies is unclear (ambiguous). The terms refer
+  to separate 'API terms and conditions' that were not found. API is in maintenance mode per its docs.
+  Not a public data source (needs an instructor account and API key).
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -14,12 +14,46 @@ sources:
   category: Social
 link_status: alive
 data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+commercial_use: ambiguous
+storage_caching: 'no'
+redistribution_display: 'no'
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: red
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://github.com/4chan/4chan-API
+rate_limits: Max 1 request/second; thread updates at least 10 seconds apart; use If-Modified-Since
+evidence:
+- field: commercial_use
+  url: https://github.com/4chan/4chan-API
+  quote: Don't suck down our JSON, host it elsewhere, and throw ads around it.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://github.com/4chan/4chan-API
+  quote: You may not clone 4chan or its existing features/functionality.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://github.com/4chan/4chan-API
+  quote: You must disclose the source of the information shown by your application, product, or service
+    as 4chan, and provide a link.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://github.com/4chan/4chan-API
+  quote: Do not make more than one request per second.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://github.com/4chan/4chan-API
+  quote: Don't suck down our JSON, host it elsewhere, and throw ads around it.
+  checked_at: '2026-11-21'
+notes: Read the API Terms of Service in the 4chan-API README (terms may change without notice). No licence
+  for the posts, which are user-generated content; ads are not banned outright but the example forbids
+  a clone that re-hosts the JSON with ads. Must not use the 4chan name/logo to promote your app. Storage
+  not addressed, so unknown.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'ToS example describes exactly the ad-supported re-host case | applied: storage_caching=no,
+  redistribution_display=no'

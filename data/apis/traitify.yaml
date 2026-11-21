@@ -4,7 +4,7 @@ url: https://app.traitify.com/developer
 category: Personality
 description: Assess, collect and analyze Personality
 description_source: upstream
-auth: none
+auth: apiKey
 https: true
 cors: unknown
 sources:
@@ -19,11 +19,29 @@ sources:
 link_status: alive
 data_license: unknown
 commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
+storage_caching: 'yes'
+redistribution_display: 'no'
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: red
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://app.traitify.com/developer/api-license
+applicable: false
+not_applicable_reason: Account-scoped assessment API (keys, per-user results); not a public data source
+evidence:
+- field: storage_caching
+  url: https://app.traitify.com/developer/api-license
+  quote: any Traitify Data and Content is stored on computers or servers you own or control
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://app.traitify.com/developer/api-license
+  quote: you make the Traitify Data and Content related to a User solely available to that User
+  checked_at: '2026-11-21'
+notes: 'Account-scoped personality assessment API (developer account, public/secret keys; order agreement may override). The API License (Woofound, Inc. t/a Traitify) lets you use results only to serve
+  each assessed user: data stored on servers you control, shown only to that user (or users they authorise); you may not replicate the Traitify service or distort the data; Traitify marks must follow its
+  guidelines. Not a public data source, so applicable=false; redistribution_display=no reflects the per-user restriction. The licence does not state commercial/non-commercial status (pricing is by order).
+  Terms of Use page also bans reselling, framing or mirroring the service. auth was none in the list but the API requires keys.'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

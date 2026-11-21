@@ -27,3 +27,10 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://policy.medium.com/medium-api-terms-of-use-a82e9bf0a23b
+applicable: false
+not_applicable_reason: Account-scoped publishing API (OAuth), officially no longer supported; not a public data source
+notes: The API docs repository says "Medium API is no longer supported. We do not recommend using it." The API is write-oriented (publish posts for an authenticated account, OAuth or integration token),
+  not a data source. The linked Medium terms pages (policy.medium.com, medium.com/policy) return a Cloudflare challenge (403) to curl; not bypassed, so terms stay unknown.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

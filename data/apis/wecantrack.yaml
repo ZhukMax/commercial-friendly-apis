@@ -14,7 +14,7 @@ sources:
   url: https://docs.wecantrack.com
   category: Tracking
 link_status: alive
-data_license: unknown
+data_license: proprietary (Results owned by WeCanTrack, licensed to customer)
 commercial_use: unknown
 storage_caching: unknown
 redistribution_display: unknown
@@ -22,5 +22,21 @@ attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://wecantrack.com/terms/
+applicable: false
+not_applicable_reason: 'Account-scoped affiliate tracking service: the API returns the customer''s own
+  click and conversion data, not a public data source.'
+evidence:
+- field: data_license
+  url: https://wecantrack.com/terms/
+  quote: All Intellectual Property Rights relating to Service and the Results are owned by we can track
+    and/or its licensors.
+  checked_at: '2026-11-21'
+notes: 'Read the Terms of Service at wecantrack.com/terms (docs.wecantrack.com is a docsify shell with
+  no terms). The terms are a B2B service agreement: Results are owned by WeCanTrack, the customer gets
+  only a licence "as described in these Terms"; nothing on commercial use, storage, display or attribution
+  of the Results was found, so those stay unknown. Not usable as a public data source.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

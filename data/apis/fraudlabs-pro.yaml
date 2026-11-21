@@ -20,10 +20,26 @@ link_status: alive
 data_license: unknown
 commercial_use: unknown
 storage_caching: unknown
-redistribution_display: unknown
+redistribution_display: 'no'
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Account-scoped fraud-screening service for a merchant's own orders (paid/licence-key API);
+  not a public data source
+api_terms_url: https://www.fraudlabspro.com/terms-of-service
+evidence:
+- field: redistribution_display
+  url: https://www.fraudlabspro.com/terms-of-service
+  quote: intentionally make available to any third party information received from FraudLabs Pro in any form without
+    the express written approval of FraudLabs Pro
+  checked_at: '2026-11-21'
+notes: Read the Terms of Service. Users must not make information received from FraudLabs Pro available to third
+  parties without written approval, and may not display, publish or sublicense the Services. It is a per-merchant
+  order screening tool (API licence key; free Micro plan 500 queries/month per pricing page), so the verdict is
+  of limited relevance for a data catalogue. Commercial use, storage and attribution not addressed (unknown).
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: red

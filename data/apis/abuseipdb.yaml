@@ -18,12 +18,43 @@ sources:
   category: Anti-Malware
 link_status: alive
 data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
+commercial_use: paid-only
+storage_caching: ambiguous
+redistribution_display: ambiguous
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://www.abuseipdb.com/legal
+commercial_use_scope: paid
+evidence:
+- field: commercial_use
+  url: https://www.abuseipdb.com/legal
+  quote: You may not use Free plans for commercial purposes
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.abuseipdb.com/legal
+  quote: you must subscribe to a Basic or higher Paid Plan.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.abuseipdb.com/legal
+  quote: You agree not to reproduce, duplicate, copy, sell, resell or exploit any portion of the Website
+    (including the API and associated data)
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.abuseipdb.com/legal
+  quote: You agree not to reproduce, duplicate, copy, sell, resell or exploit any portion of the Website
+    (including the API and associated data)
+  checked_at: '2026-11-21'
+notes: Read Terms of Service (abuseipdb.com/legal). Free plans are non-commercial only; commercial use
+  requires a Basic or higher paid plan. The "No Resale of the Website or Data" clause bars reproducing,
+  copying or exploiting the API data without express permission, so storage and public display are ambiguous
+  (permission may be part of paid plans; paid-plan terms and attribution not found). Data licence not
+  stated.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Free non-commercial, paid ok; resale/exploit clause keeps storage/display ambiguous

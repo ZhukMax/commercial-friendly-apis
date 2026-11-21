@@ -18,13 +18,34 @@ sources:
   category: Security
 link_status: alive
 data_license: unknown
-commercial_use: unknown
+commercial_use: 'no'
 storage_caching: unknown
-redistribution_display: unknown
+redistribution_display: 'no'
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: red
+confidence: medium
 link_checked_at: '2026-11-21'
 link_note: HTTP 403 (blocked for bots, assumed alive)
+api_terms_url: https://www.recordedfuture.com/legal/terms-of-use
+commercial_use_scope: any
+notes: securitytrails.com/corp/terms-of-service redirects to the Recorded Future Terms of Use (read via
+  Playwright); the page defines Recorded Future to include SecurityTrails, LLC and mentions a free version
+  (DNS-Trails) limited to "internal, non-commercial security purposes". Use is limited to the customer's
+  own internal security purposes and output may not be disclosed to third parties except limited representatives,
+  which rules out displaying results on a public commercial site. Separate order forms ("Other Agreement")
+  could grant wider rights; not visible. Storage/caching not addressed (unknown).
+evidence:
+- field: commercial_use
+  url: https://www.recordedfuture.com/legal/terms-of-use
+  quote: Customer’s access and use of the Service, its Output, and Documentation shall be limited to solely
+    its own internal security purposes
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.recordedfuture.com/legal/terms-of-use
+  quote: Customer is prohibited from reselling or otherwise distributing or disclosing Recorded Future
+    Output, delivered directly or as a derived product or service
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

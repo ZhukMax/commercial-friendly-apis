@@ -13,7 +13,7 @@ sources:
   url: https://ai.google.dev/gemini-api/docs
   category: Machine Learning
 link_status: redirect
-data_license: unknown
+data_license: 'Generated content: Google claims no ownership (not a data licence)'
 commercial_use: unknown
 storage_caching: unknown
 redistribution_display: unknown
@@ -21,6 +21,19 @@ attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
 link_note: -> https://aistudio.google.com/docs
+applicable: false
+not_applicable_reason: Inference/tool API tied to a customer account and key, not a public data source.
+api_terms_url: https://ai.google.dev/gemini-api/terms
+evidence:
+- field: data_license
+  url: https://ai.google.dev/gemini-api/terms
+  quote: Google won't claim ownership over that content.
+  checked_at: '2026-11-21'
+notes: Read Gemini API Additional Terms (https://ai.google.dev/gemini-api/terms). Google claims no ownership of generated content, may generate similar content for others, and unpaid services let Google
+  use submitted content to improve products. Commercial use, storage and display of outputs are not stated explicitly on this page (the referenced Google APIs Terms / Cloud terms not read), so core fields
+  unknown. Docs URL redirects to aistudio.google.com/docs.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

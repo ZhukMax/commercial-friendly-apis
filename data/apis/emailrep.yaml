@@ -4,7 +4,7 @@ url: https://docs.emailrep.io/
 category: Security
 description: Email address threat and risk prediction
 description_source: upstream
-auth: none
+auth: apiKey
 https: true
 cors: unknown
 sources:
@@ -20,7 +20,16 @@ redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
 link_note: -> https://docs.sublime.security/reference/emailrep-introduction
+api_terms_url: https://docs.sublime.security/reference/emailrep-introduction
+evidence: []
+notes: Docs moved to Sublime Security (redirect). The page says EmailRep is a separate free service outside the
+  Sublime platform, not under active development, unauthenticated API disabled and new keys not being issued (existing
+  keys keep working), so auth is now apiKey. No EmailRep-specific terms of use, licence or commercial-use statement
+  found on the docs page; emailrep.io/terms returns 404 and Sublime's platform terms (sublime.security/legal/terms)
+  do not mention EmailRep, so they were not applied. All terms fields unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: unknown

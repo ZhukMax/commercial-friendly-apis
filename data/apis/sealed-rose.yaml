@@ -23,3 +23,13 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: AI media forensics / deepfake-verification service; account-scoped inference API
+  on files you upload, not a data source.
+api_terms_url: https://sealedrose.com/legal/privacy
+notes: Only the privacy policy (https://sealedrose.com/legal/privacy) and contact page exist in the site
+  legal section; guessed terms URLs (/legal/terms, /legal/tos, /legal/terms-of-service) are 404. Privacy
+  policy says uploaded files are not used to train models; no commercial-use/output terms found. Fields
+  unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

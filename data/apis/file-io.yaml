@@ -17,7 +17,7 @@ sources:
   url: https://www.file.io
   category: Documents & Productivity
 link_status: alive
-data_license: unknown
+data_license: User-owned uploads; no data licence
 commercial_use: unknown
 storage_caching: unknown
 redistribution_display: unknown
@@ -27,3 +27,16 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://www.file.io/tos
+applicable: false
+not_applicable_reason: Anonymous file-transfer service (uploads expire); not a public data source.
+evidence:
+- field: data_license
+  url: https://www.file.io/tos
+  quote: You keep all rights to the files you upload.
+  checked_at: '2026-11-21'
+notes: Terms of Use read at https://www.file.io/tos (updated 12 Nov 2026; service now part of LimeWire).
+  Free no-account transfers up to 4 GB with links active 3 days; paid plans via limewire.com under LimeWire
+  Terms (not read). The terms do not address commercial use of the API.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

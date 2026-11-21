@@ -13,13 +13,64 @@ sources:
   url: https://positivequotation.com/developers/public-domain-quotes-api
   category: Personality
 link_status: alive
-data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
-bulk_download: unknown
+data_license: public domain source (Preston, A Dictionary of English Proverbs; Project Gutenberg, USA)
+commercial_use: ambiguous
+storage_caching: ambiguous
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: 'yes'
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://positivequotation.com/developers/public-domain-quotes-api
+commercial_use_scope: any
+attribution_text: Preserve the supplied attribution and source fields when republishing
+rate_limits: Beta, no uptime guarantee; 30 records only
+evidence:
+- field: data_license
+  url: https://positivequotation.com/developers/public-domain-quotes-api
+  quote: Project Gutenberg marks this source edition public domain in the USA.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://positivequotation.com/developers/public-domain-quotes-api
+  quote: Project Gutenberg marks this source edition public domain in the USA.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://positivequotation.com/developers/public-domain-quotes-api
+  quote: Project Gutenberg marks this source edition public domain in the USA.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://positivequotation.com/developers/public-domain-quotes-api
+  quote: Please preserve the supplied attribution and source fields when republishing.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://positivequotation.com/developers/public-domain-quotes-api
+  quote: Please preserve the supplied attribution and source fields when republishing.
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://positivequotation.com/developers/public-domain-quotes-api
+  quote: Browse or download the dataset
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://positivequotation.com/developers/public-domain-quotes-api
+  quote: © 2026 Positive Quotation. All rights reserved.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://positivequotation.com/developers/public-domain-quotes-api
+  quote: Copyright, trademark, privacy, and other rules may differ by country and use; this documentation
+    is not legal advice.
+  checked_at: '2026-11-21'
+notes: The API doc page describes a free read-only JSON API of 30 English proverbs matched to a public-domain
+  source edition (US scope) and asks to keep attribution and source fields when republishing. There is
+  no explicit commercial-use or licence statement for the API itself (no ToS read; the site only has a
+  privacy policy link); commercial/storage/display are inferred from the public-domain claim and the republishing
+  invitation, and the page warns copyright rules may differ by country. Beta, no uptime guarantee, only
+  30 records.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'No explicit commercial or licence grant for the API; only inference from public domain
+  source; Site footer says all rights reserved; no ToS exists to resolve it; Public-domain scope is stated
+  for USA only; dataset is the site''s own selection | applied: commercial_use=ambiguous, storage_caching=ambiguous'

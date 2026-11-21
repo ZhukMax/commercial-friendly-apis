@@ -23,3 +23,10 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Fax sending service (account-scoped tool), not a data source
+api_terms_url: https://faxforagents.com/terms/
+notes: Terms page read (faxforagents.com/terms/); a messaging/fax service with sandbox, no data-use clauses
+  relevant to a data catalog. Fields unknown.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

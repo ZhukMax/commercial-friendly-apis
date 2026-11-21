@@ -12,7 +12,7 @@ sources:
   name: Laya Decision Gateway
   url: https://laya.harshad.eu.org
   category: Machine Learning
-link_status: alive
+link_status: dead
 data_license: unknown
 commercial_use: unknown
 storage_caching: unknown
@@ -21,5 +21,13 @@ attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Prompt-injection/moderation gateway (inference tool), and discontinued.
+link_note: Homepage states the Laya AI Decision Gateway was discontinued and all public endpoints decommissioned (November 2026).
+notes: 'Read https://laya.harshad.eu.org: notice says the public pilot concluded in Nov 2026 and all public cloud API endpoints, edge proxies and marketplace gateways are decommissioned. /terms shows the
+  same notice. No terms available; all terms fields unknown. Weights remain on Hugging Face (convaiinnovations/laya, licence not checked).'
+evidence: []
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

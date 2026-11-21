@@ -23,3 +23,8 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Inference/tool API tied to a customer account and key, not a public data source.
+notes: 'Could not read any terms: https://gen.pro/terms and /terms-of-service return a 404 page, gen.pro docs are JS-rendered and timed out in Playwright. All fields unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

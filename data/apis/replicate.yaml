@@ -18,12 +18,30 @@ sources:
   category: Machine Learning
 link_status: alive
 data_license: unknown
-commercial_use: unknown
+commercial_use: 'yes'
 storage_caching: unknown
-redistribution_display: unknown
+redistribution_display: ambiguous
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Hosted model-inference platform; outputs are generated from your inputs, not a data source.
+api_terms_url: https://replicate.com/terms
+commercial_use_scope: any
+notes: Read https://replicate.com/terms (last update April 1, 2026). Replicate assigns its rights in Output to the customer, including commercial use such as sale or publication, but expressly subject to
+  the Third Party Terms of each model used (e.g. Stability, Flux, Ideogram licences have their own conditions), so display/redistribution is ambiguous per model. Reselling or making the Services available
+  to others is banned. Storage of outputs and attribution not addressed at service level.
+evidence:
+- field: commercial_use
+  url: https://replicate.com/terms
+  quote: all right, title and interest, if any, in and to Output, including your use of Output for commercial purposes such as sale or publication
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://replicate.com/terms
+  quote: subject to any Third Party Terms (as determined by the Models you use to generate the Output) which may apply to such Output
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

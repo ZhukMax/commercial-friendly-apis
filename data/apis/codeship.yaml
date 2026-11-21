@@ -12,7 +12,11 @@ sources:
   name: Codeship
   url: https://docs.cloudbees.com/docs/cloudbees-codeship/latest/api-overview/
   category: Continuous Integration
-link_status: redirect
+- list: public-api-lists
+  name: Codeship
+  url: https://apidocs.codeship.com/
+  category: Continuous Integration
+link_status: dead
 data_license: unknown
 commercial_use: unknown
 storage_caching: unknown
@@ -24,3 +28,18 @@ verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
 link_note: -> https://docs.cloudbees.com/docs/cloudbees-common/latest/cloudbees-codeship-eol
+applicable: false
+not_applicable_reason: Account-scoped CI API; the CodeShip product has reached end-of-life.
+api_terms_url: https://docs.cloudbees.com/docs/cloudbees-common/latest/cloudbees-codeship-eol
+evidence:
+- field: link_status
+  url: https://docs.cloudbees.com/docs/cloudbees-common/latest/cloudbees-codeship-eol
+  quote: As of January 2026, CloudBees no longer supports the CloudBees CodeShip product.
+  checked_at: '2026-11-21'
+notes: 'URL redirects to the CloudBees end-of-life notice: CodeShip is no longer supported as of January
+  2026 (CloudBees recommends CloudBees Unify). Marked link_status dead; terms unknown. Merged duplicate
+  entry `codeship-apidocs`.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+aliases:
+- codeship-apidocs

@@ -23,3 +23,16 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Phone validation/carrier lookup tool (account-scoped API key), not a public dataset
+api_terms_url: https://numlookupapi.com/terms-of-service
+notes: 'Generic ToS: no reselling of the service without written approval; content may not be copied,
+  shared or sublicensed unless explicitly allowed. No API data licence, caching or commercial-use clause,
+  so unknown.'
+evidence:
+- field: redistribution_display
+  url: https://numlookupapi.com/terms-of-service
+  quote: Users may not reproduce or resell the service unless given prior written approval by the Owner.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

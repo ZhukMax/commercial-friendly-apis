@@ -16,10 +16,22 @@ link_status: alive
 data_license: unknown
 commercial_use: unknown
 storage_caching: unknown
-redistribution_display: unknown
+redistribution_display: ambiguous
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: AI-text detection tool API (inference); not a data source.
+api_terms_url: https://kiprio.com/terms
+notes: Read https://kiprio.com/terms (updated 1 Apr 2026). Customers retain rights to submitted data; reselling or sublicensing API access is banned; the free plan is one account per person/organisation
+  with quotas. Terms do not state whether detection results may be stored or displayed publicly, nor mention commercial use explicitly.
+evidence:
+- field: redistribution_display
+  url: https://kiprio.com/terms
+  quote: The Kiprio APIs, documentation, and all associated content are owned by or licensed to Kiprio. You may not reproduce or redistribute them without permission.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

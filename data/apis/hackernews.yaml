@@ -18,12 +18,38 @@ sources:
   category: Social
 link_status: alive
 data_license: unknown
-commercial_use: unknown
+commercial_use: ambiguous
 storage_caching: unknown
-redistribution_display: unknown
+redistribution_display: ambiguous
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
+verdict: yellow
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://www.ycombinator.com/legal/
+rate_limits: No rate limit stated ("currently no rate limit")
+evidence:
+- field: commercial_use
+  url: https://www.ycombinator.com/legal/
+  quote: modify, sell, resell, exploit, transfer or upload for any commercial purposes, any portion of
+    the Site
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://github.com/HackerNews/API
+  quote: we're making the public Hacker News data available in near real time.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://github.com/HackerNews/API
+  quote: There is currently no rate limit.
+  checked_at: '2026-11-21'
+notes: Read the official HN API README (MIT licence covers the documentation repo only, no data licence)
+  and the Y Combinator Terms of Use, which cover all ycombinator.com subdomains, forbid scraping/data
+  mining and commercial exploitation of Site content but never mention the official API. Conflict between
+  "public data made available" and the site terms, so ambiguous; user comments/submissions belong to their
+  authors. Consider asking hn@ycombinator.com.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Site ToS bars commercial exploitation/scraping, never mentions API; ambiguous

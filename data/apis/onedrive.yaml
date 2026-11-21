@@ -12,11 +12,15 @@ sources:
   name: OneDrive
   url: https://developer.microsoft.com/onedrive
   category: Cloud Storage & File Sharing
+- list: public-api-lists
+  name: OneDrive
+  url: https://dev.onedrive.com/
+  category: Cloud Storage & File Sharing
 link_status: redirect
 data_license: unknown
 commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
+storage_caching: limited
+redistribution_display: ambiguous
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
@@ -24,3 +28,29 @@ verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
 link_note: -> https://developer.microsoft.com/en-us/onedrive
+api_terms_url: https://learn.microsoft.com/en-us/legal/microsoft-apis/terms-of-use
+cache_limit: Copies only as necessary for the intended usage scenario of the application
+applicable: false
+not_applicable_reason: OAuth, user-account-scoped API (a user's own OneDrive files); not a public data
+  source.
+evidence:
+- field: storage_caching
+  url: https://learn.microsoft.com/en-us/legal/microsoft-apis/terms-of-use
+  quote: Scrape, build databases or otherwise create copies of any data accessed or obtained using the
+    Microsoft APIs
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://learn.microsoft.com/en-us/legal/microsoft-apis/terms-of-use
+  quote: Redistribute or resell, or sublicense access to, the Microsoft APIs, any data obtained using
+    the Microsoft APIs
+  checked_at: '2026-11-21'
+notes: 'https://developer.microsoft.com/onedrive redirects to https://developer.microsoft.com/en-us/onedrive
+  (OneDrive Dev Center). Governing terms: Microsoft APIs Terms of Use (OneDrive listed in section 1.d),
+  read in full. Copying of data allowed only as needed for the app''s intended scenario; redistribution/resale
+  of data obtained via the APIs is prohibited, which presumably targets resale not an app showing a user''s
+  own files (ambiguous). Commercial use of the API is not addressed explicitly. Merged duplicate entry
+  `onedrive-dev`.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+aliases:
+- onedrive-dev

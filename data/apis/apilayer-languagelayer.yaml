@@ -17,13 +17,49 @@ sources:
   url: https://languagelayer.com
   category: Data Validation
 link_status: alive
-data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+data_license: proprietary
+commercial_use: paid-only
+storage_caching: ambiguous
+redistribution_display: ambiguous
+attribution_required: 'no'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+data_license_url: https://languagelayer.com/terms
+api_terms_url: https://languagelayer.com/terms
+commercial_use_scope: paid
+applicable: false
+not_applicable_reason: Language-detection inference API on the caller's text; not a data source.
+evidence:
+- field: commercial_use
+  url: https://languagelayer.com/
+  quote: Batch Requests Secure Datastreams Commercial Use
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://languagelayer.com/terms
+  quote: apilayer hereby grants to You a non-transferable, non-exclusive, revocable, and limited license
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://languagelayer.com/terms
+  quote: You do not permit Your end users to store, distribute, or otherwise exploit languagelayer API
+    Data & Services
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://languagelayer.com/terms
+  quote: You are hereby permitted to receive, process, and display languagelayer API Data & Services to
+    individual end-users of your application(s)
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://languagelayer.com/terms
+  quote: While usage of the languagelayer API is not subject to Your end users being made aware by You
+    that apilayer is supplying the functionality
+  checked_at: '2026-11-21'
+notes: 'Pricing page: free plan labelled "Non-Commercial Use", paid plans labelled "Commercial Use", so
+  commercial_use is paid-only. The Terms of Use & API License Agreement (2018) allow displaying results
+  to end users for their personal reference but forbid reproducing, copying, distributing, reselling or
+  posting the data in any public forum and forbid end-user storage, so storage and display are ambiguous.
+  Attribution link is only "highly appreciated".'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

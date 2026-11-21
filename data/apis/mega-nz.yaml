@@ -4,7 +4,7 @@ url: https://mega.io/developers
 category: Cloud Storage & File Sharing
 description: File Sharing And Storage
 description_source: upstream
-auth: none
+auth: other
 https: true
 cors: unknown
 sources:
@@ -21,5 +21,17 @@ attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://mega.io/terms
+applicable: false
+not_applicable_reason: Account-based encrypted storage SDK/API requiring developer registration and app
+  approval; not a data source.
+evidence: []
+notes: Terms of Service read at https://mega.io/terms. It says you may use the API only after registering
+  at the developer page and publishing the app only after MEGA approves it under a licence agreement available
+  on request (api@mega.io); MEGA may revoke or change the API without notice. The agreement itself is
+  not public, so commercial use stays unknown. auth changed from none to other (registration and approval
+  needed).
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

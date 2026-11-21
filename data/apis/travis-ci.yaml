@@ -27,3 +27,10 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: CI API; account-scoped (repos and builds tied to GitHub accounts).
+api_terms_url: https://docs.travis-ci.com/api/
+notes: API reference read (docs.travis-ci.com/api/); no licence/terms for API data on it. The terms-of-service
+  page linked from travis-ci.com returned 404 (www.travis-ci.com/terms-of-service). All terms fields unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

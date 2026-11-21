@@ -18,12 +18,50 @@ sources:
   category: Security
 link_status: alive
 data_license: unknown
-commercial_use: unknown
+commercial_use: paid-only
 storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+redistribution_display: ambiguous
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
+verdict: yellow
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://developer.shodan.io/pricing
+commercial_use_scope: paid
+attribution_text: Attribute the data to Shodan
+rate_limits: 'All API plans: 1 request per second'
+notes: 'Read https://developer.shodan.io/ and https://developer.shodan.io/pricing via curl. No Terms of
+  Service page could be found (account.shodan.io/legal, /legal/terms, developer.shodan.io/terms return
+  soft 404 pages, the site footers link no terms), so only the pricing FAQ is evidence: API data may be
+  integrated into products with attribution; paid plans list ''Commercial Use'' among features while the
+  free plan''s commercial status is not stated. Bulk data/local copy requires the separate Enterprise
+  Data License. Storage/caching and public display of raw scan data not addressed. Needs an API key (free
+  tier exists).'
+evidence:
+- field: commercial_use
+  url: https://developer.shodan.io/pricing
+  quote: Yes, you can integrate the API in your products as long as the data is attributed to Shodan.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://developer.shodan.io/pricing
+  quote: as long as the data is attributed to Shodan
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://developer.shodan.io/pricing
+  quote: All API plans are subject to a rate limit of 1 request per second
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://developer.shodan.io/pricing
+  quote: Yes, you can integrate the API in your products as long as the data is attributed to Shodan.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://developer.shodan.io/pricing
+  quote: Basic access to the Streaming API Commercial Use Grandfathered Pricing E-Mail support
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: '''Commercial Use'' is listed as a feature only on paid plans; free/Membership plan
+  do not list it | applied: commercial_use=paid-only'

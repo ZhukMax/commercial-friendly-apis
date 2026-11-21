@@ -12,7 +12,7 @@ sources:
   name: Clico
   url: https://cli.com/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config
   category: URL Shorteners
-link_status: alive
+link_status: dead
 data_license: unknown
 commercial_use: unknown
 storage_caching: unknown
@@ -23,3 +23,10 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Service appears gone; not a public data source (URL shortener tool).
+link_note: cli.com redirects to /lander and then to a GoDaddy "domain is for sale" page (checked 2026-11-21
+  with Playwright).
+notes: Domain cli.com is parked for sale; no terms exist to read. Set link_status dead.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

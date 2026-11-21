@@ -14,13 +14,54 @@ sources:
   category: Security
 link_status: alive
 data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
+commercial_use: paid-only
+storage_caching: limited
+redistribution_display: 'no'
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: red
+confidence: medium
 link_checked_at: '2026-11-21'
 link_note: HTTP 403 (blocked for bots, assumed alive)
+api_terms_url: https://censys.com/terms-of-service
+commercial_use_scope: paid
+cache_limit: Paying customers may store Censys Data only for authorised use of the Service
+notes: Read the current Censys Terms of Service on censys.com (via Playwright; search.censys.io/api returned
+  403 to curl). Free, Researcher and unregistered users may not use the data commercially, "including
+  internal business purposes". Paying customers get a licence for their own commercial purposes, restricted
+  by the licence (no service-bureau use or benefit of third parties; Researchers may not redistribute
+  to third parties). Public display of Censys data on an ad-supported site is not addressed explicitly,
+  hence ambiguous. Censys Data licence is proprietary.
+evidence:
+- field: commercial_use
+  url: https://censys.com/terms-of-service
+  quote: Paying Customers are authorized to use Censys Data for their own commercial purposes, subject
+    at all times to the license restrictions herein.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://censys.com/terms-of-service
+  quote: are expressly prohibited from using the Service and Censys Data for commercial purposes of any
+    kind
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://censys.com/terms-of-service
+  quote: license to access, use, copy, process and store the Censys Data solely for the purpose of authorized
+    use of the Service
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://censys.com/terms-of-service
+  quote: make available or use the Service or any Censys Property in any service bureau arrangement or
+    otherwise for the benefit of any third party
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://censys.com/terms-of-service
+  quote: Under no circumstances may any Customer, including any Paying Customers, incorporate any Censys
+    Data into its own software products or services
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Even paying customers cannot put data into third-party-facing products without Enterprise
+  | applied: redistribution_display=no'

@@ -18,12 +18,28 @@ sources:
   category: Text Analysis
 link_status: alive
 data_license: unknown
-commercial_use: unknown
+commercial_use: ambiguous
 storage_caching: unknown
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://detectlanguage.com/terms
+applicable: false
+not_applicable_reason: Language-detection inference API on the caller's text; not a data source.
+evidence:
+- field: commercial_use
+  url: https://detectlanguage.com/terms
+  quote: derive income from the use or provision of the detectlanguage.com APIs, whether for direct commercial
+    or monetary gain or otherwise
+  checked_at: '2026-11-21'
+notes: Read the Terms of Use. The prohibitions say you shall not "sell, lease, share, transfer, or sublicense
+  the APIs ... or derive income from the use or provision of the APIs ... without prior, express, written
+  permission". That is boilerplate possibly aimed at reselling the API, yet it literally covers income
+  derived from use; paid plans exist but the pricing page was not readable, so commercial use is ambiguous.
+  Storage, display and attribution are not addressed.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

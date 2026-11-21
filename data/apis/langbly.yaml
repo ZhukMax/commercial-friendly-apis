@@ -21,5 +21,14 @@ attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://langbly.com/terms/
+applicable: false
+not_applicable_reason: Translation (machine-learning) API on the caller's text; not a data source.
+evidence: []
+notes: Read the Terms of Service. They say "You retain all rights to your content" and forbid reselling
+  or redistributing the Service without authorization; nothing on commercial use of translations, storage
+  or display, so all unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

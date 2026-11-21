@@ -13,13 +13,49 @@ sources:
   url: https://www.shortsintel.com/docs
   category: Social
 link_status: alive
-data_license: unknown
-commercial_use: unknown
+data_license: 'proprietary (ShortsIntel Terms s5: derived output; raw records are public posts from TikTok/Instagram/YouTube)'
+commercial_use: 'yes'
 storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+redistribution_display: ambiguous
+attribution_required: ambiguous
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://www.shortsintel.com/terms
+commercial_use_scope: any
+evidence:
+- field: commercial_use
+  url: https://www.shortsintel.com/terms
+  quote: you may distribute and commercialise the results — reports, dashboards, scores, recommendations,
+    editorial analysis
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.shortsintel.com/terms
+  quote: Incidental display of individual raw records in your own product
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.shortsintel.com/terms
+  quote: Reselling the raw data is not permitted.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.shortsintel.com/terms
+  quote: remove, obscure or misrepresent the provenance of data obtained through the Service where you
+    are permitted to display it
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.shortsintel.com/terms
+  quote: Reselling the raw data is not permitted.
+  checked_at: '2026-11-21'
+notes: Read ShortsIntel Terms (s5 API Data). Derived output may be commercialised; bulk/raw republication,
+  datasets and mirroring are banned; incidental display of single raw records is allowed. Upstream platform/provider
+  restrictions on use, retention and redistribution pass through and the more restrictive applies, so
+  storage_caching stays unknown (not addressed directly) and display is ambiguous. Provenance must not
+  be removed (no explicit attribution text), so attribution is ambiguous.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read s5: derived works commercialisable, raw resale banned, more restrictive upstream
+  terms apply. Fields stand.'

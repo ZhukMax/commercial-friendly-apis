@@ -23,3 +23,16 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: 'Self-check tool: scans only the requester''s own IP; results are not a dataset'
+api_terms_url: https://portscan.com/terms
+rate_limits: Fast scan 2000 per ASN/hour; deep scan 1 per IP per 5 min, 200 per ASN/hour; edge 30 requests per IP per minute
+notes: 'Read https://api.portscan.com (API docs) via curl: no key, scans only the requesting IP, results expire after 24 hours, usage ''subject to the portscan.com Terms of Service and Privacy Policy''.
+  The Terms page https://portscan.com/terms returns 403 (Cloudflare challenge) to curl and to Playwright; not bypassed, so terms fields stay unknown.'
+evidence:
+- field: rate_limits
+  url: https://api.portscan.com/
+  quote: Fast scan 2000 per ASN 1 hour
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -20,6 +20,19 @@ redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://ipguardian.net/terms
+rate_limits: 'Free tier: 1,000 API requests per day'
+evidence:
+- field: rate_limits
+  url: https://ipguardian.net/terms
+  quote: Free tier users are limited to 1,000 API requests per day.
+  checked_at: '2026-11-21'
+notes: Terms of Service (short generic page) say the service aggregates data from multiple public blocklist sources,
+  that the service content is owned by IPGuardian, and give the free-tier limit. They say nothing about commercial
+  use, caching, display or attribution, and the licences of the underlying 140+ blocklists were not checked. All
+  core fields unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: unknown

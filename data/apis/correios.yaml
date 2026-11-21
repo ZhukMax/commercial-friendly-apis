@@ -24,3 +24,9 @@ verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
 link_note: -> https://cas.correios.com.br/login?service=https%3A%2F%2Fcws.correios.com.br%2Flogin%2Fcas
+applicable: false
+not_applicable_reason: Account-scoped postal integration API (login required), no public data
+notes: cws.correios.com.br/ajuda redirects to the idCorreios login (cas.correios.com.br); terms are behind
+  login, so all fields unknown.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

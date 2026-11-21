@@ -13,14 +13,38 @@ sources:
   url: https://tweetapi.com/docs
   category: Social
 link_status: redirect
-data_license: unknown
-commercial_use: unknown
+data_license: X content; TweetAPI grants no rights in it
+commercial_use: ambiguous
 storage_caching: unknown
-redistribution_display: unknown
+redistribution_display: ambiguous
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
 link_note: -> https://tweetapi.com/docs/getting-started/overview
+api_terms_url: https://tweetapi.com/terms
+evidence:
+- field: commercial_use
+  url: https://tweetapi.com/aup
+  quote: Building your own app or product that uses the data is fine; reselling raw API access is not.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://tweetapi.com/terms
+  quote: we don't grant you any rights in X's content
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://tweetapi.com/aup
+  quote: Using the data in ways that break X's terms or policies.
+  checked_at: '2026-11-21'
+notes: Read Terms of Service (updated 28 Oct 2026) and AUP. Building own app/product on the data is fine,
+  resale of raw API access is not; the service passes X data through, grants no rights in X content and
+  leaves compliance with X terms to the user (so commercial use of X data is ambiguous). TweetAPI does
+  not store returned content. Storage/attribution not addressed.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'X ToS: ''crawling or scraping the Services in any form, for any purpose without our
+  prior written consent is expressly prohibited''. Ambiguous stands, leaning risky.'

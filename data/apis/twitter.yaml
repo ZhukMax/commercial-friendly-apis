@@ -18,13 +18,54 @@ sources:
   category: Social
 link_status: redirect
 data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
+commercial_use: paid-only
+storage_caching: limited
+redistribution_display: ambiguous
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
 link_note: -> https://docs.x.com/overview
+api_terms_url: https://developer.x.com/en/developer-terms/agreement
+cache_limit: A "reasonable amount" of X Content; delete or modify within 24 hours of an X or user request
+evidence:
+- field: commercial_use
+  url: https://developer.x.com/en/developer-terms/agreement
+  quote: Use the X API to integrate X Content into your Services or conduct analysis of the X Content,
+    as explicitly approved by X;
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://developer.x.com/en/developer-terms/agreement
+  quote: Copy a reasonable amount of and display the X Content on and through your Services to Users,
+    as permitted by this Agreement;
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://developer.x.com/en/developer-terms/agreement
+  quote: Copy a reasonable amount of and display the X Content on and through your Services to Users,
+    as permitted by this Agreement;
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://developer.x.com/en/developer-terms/agreement
+  quote: then you must apply (or already subscribe to) an Enterprise plan
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://developer.x.com/en/developer-terms/agreement
+  quote: You may not disclose, reproduce, license, or otherwise distribute the Licensed Material (including
+    any derivatives thereof) that you retrieve through the X API
+  checked_at: '2026-11-21'
+notes: 'Read X Developer Agreement (last updated April 27, 2026) and X Developer Policy. The licence allows
+  integrating and displaying X Content on your Services, but only as approved by X for your use case,
+  under paid access, with a "reasonable amount" copy limit and removal within 24 hours after an X/user
+  request. Redistribution is banned: the Agreement forbids selling, sublicensing, distributing or syndicating
+  the Licensed Material to third parties. Display Requirements, Restricted Use Rules and pricing pages
+  were not read in detail, so commercial_use is ambiguous (the Policy says X may examine commercial use
+  against the approved use case). Training or fine-tuning foundation models on X data is banned. Old developer.twitter.com
+  URL redirects to docs.x.com.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Commercial use beyond limited scale requires Enterprise plan; Agreement bans distributing
+  Licensed Material; display only as permitted | applied: commercial_use=paid-only, redistribution_display=ambiguous'

@@ -23,3 +23,11 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Account-scoped publishing API (create and edit your own pages), not a data source.
+evidence: []
+notes: 'Read the Telegraph API page and Telegram Terms of Service (telegram.org/tos): no data-use, commercial,
+  caching or display terms for the Telegraph API. Telegram ToS mentions a separate Content Licensing and
+  AI Scraping Terms (not read). All terms fields unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

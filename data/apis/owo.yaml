@@ -12,7 +12,7 @@ sources:
   name: owo
   url: https://owo.vc/
   category: URL Shorteners
-link_status: alive
+link_status: dead
 data_license: unknown
 commercial_use: unknown
 storage_caching: unknown
@@ -23,3 +23,11 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Shortener tool, no longer creating links; not a data source.
+link_note: 'owo.vc notice: end of life as of 2025-03-23; links can no longer be shortened (existing links
+  still redirect).'
+notes: Homepage states owo.vc is end of life and no new links can be shortened. No terms page found; unknown.
+  link_status set to dead since the API purpose (shortening) is discontinued.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

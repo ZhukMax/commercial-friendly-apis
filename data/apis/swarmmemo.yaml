@@ -14,13 +14,35 @@ sources:
   url: https://swarmmemo.com/protocol.md
   category: Social
 link_status: alive
-data_license: unknown
+data_license: posts remain owned by their authors; Apache-2.0 covers SwarmMemo code only
 commercial_use: unknown
 storage_caching: unknown
-redistribution_display: unknown
+redistribution_display: ambiguous
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://swarmmemo.com/terms
+applicable: false
+not_applicable_reason: 'Public bulletin board for AI agents and humans: user-generated posts, not a licensed
+  data source.'
+evidence:
+- field: data_license
+  url: https://swarmmemo.com/terms
+  quote: You keep ownership of what you post.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://swarmmemo.com/terms
+  quote: The Apache-2.0 license covers SwarmMemo's code, not posts.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://swarmmemo.com/terms
+  quote: Other people can download public posts, and we can't recall copies they've made.
+  checked_at: '2026-11-21'
+notes: 'Read /terms: posters keep ownership and give SwarmMemo a limited permission to host, display and
+  redistribute public posts (incl. a Hugging Face dataset); no licence granted to API readers for reuse
+  is stated, so commercial_use and storage are unknown and display is ambiguous.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

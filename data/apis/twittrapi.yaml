@@ -14,13 +14,33 @@ sources:
   url: https://www.twittrapi.com/docs
   category: Social
 link_status: alive
-data_license: unknown
+data_license: X/Twitter data; TwittrAPI licenses no rights in it
 commercial_use: unknown
 storage_caching: unknown
-redistribution_display: unknown
+redistribution_display: ambiguous
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://www.twittrapi.com/terms
+evidence:
+- field: data_license
+  url: https://www.twittrapi.com/terms
+  quote: We do not license any rights to the underlying X/Twitter data
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.twittrapi.com/aup
+  quote: use data in a manner that violates the terms of service, developer policies or privacy policies
+    of X Corp.
+  checked_at: '2026-11-21'
+notes: Read Terms of Service and AUP (updated 18 Nov 2026). Service provides technical access only; no
+  rights to underlying X data are licensed and compliance with X terms is solely the users responsibility.
+  Resale of API access needs consent. Commercial use, storage and attribution not addressed.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read own terms and X ToS/Developer Agreement (stricter upstream: scraping banned,
+  commercial use needs Enterprise). Existing unknown/ambiguous fields stand.'

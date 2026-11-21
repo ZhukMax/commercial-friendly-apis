@@ -13,13 +13,30 @@ sources:
   url: https://classifinder.ai
   category: Security
 link_status: alive
-data_license: unknown
+data_license: proprietary; Content provided for internal business purpose only
 commercial_use: unknown
 storage_caching: unknown
-redistribution_display: unknown
+redistribution_display: ambiguous
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Stateless secret-scanning tool API run on your own text; not a data source
+api_terms_url: https://classifinder.ai/terms-of-service
+notes: Read https://classifinder.ai/terms-of-service (updated March 27, 2026) via curl. Service Content may be used for internal business purposes only; public display or commercial exploitation needs written
+  permission. Terms have a 'no-storage architecture' section (about ClassiFinder not storing inputs). The API only returns scan results about the caller's own input, so the restriction's reach on outputs
+  is unclear (ambiguous); commercial use stays unknown.
+evidence:
+- field: redistribution_display
+  url: https://classifinder.ai/terms-of-service
+  quote: no part of the Services and no Content or Marks may be copied, reproduced, aggregated, republished, uploaded, posted, publicly displayed
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://classifinder.ai/terms-of-service
+  quote: provided in or through the Services "AS IS" for your internal business purpose only
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

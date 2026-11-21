@@ -14,12 +14,44 @@ sources:
   category: Social
 link_status: alive
 data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
+commercial_use: 'no'
+storage_caching: limited
 redistribution_display: unknown
-attribution_required: unknown
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: red
+confidence: high
 link_checked_at: '2026-11-21'
+api_terms_url: https://developers.naver.com/products/terms/
+commercial_use_scope: any
+cache_limit: 'Search API: device 24 hours or until next query; server max 21 days for history lookup;
+  otherwise copying/storing/caching is prohibited'
+attribution_text: Search results must be labelled as NAVER search results per the NAVER BI guide, with
+  source shown and link to the original
+evidence:
+- field: commercial_use
+  url: https://developers.naver.com/products/terms/
+  quote: API의 결과화면과 함께 광고를 노출하는 행위
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://developers.naver.com/products/terms/
+  quote: 검색결과가 표시되는 페이지에 광고를 표시하거나, 기타 검색 API 서비스를 활용하여 수익을 얻는 행위
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://developers.naver.com/products/terms/
+  quote: '서버 보관: 이력 조회 목적으로 최대 21일.'
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://developers.naver.com/products/terms/
+  quote: 이용자는 네이버의 BI 가이드 에 따라 애플리케이션 등에 해당 데이터가 네이버 검색결과임을 표시하여야 합니다.
+  checked_at: '2026-11-21'
+notes: 'Read NAVER API service terms (Korean, revised 2026-10-07). Clause 7.3(4) bans showing ads together
+  with API result screens for all NAVER APIs; the Search API supplement (2.3) additionally bans copying/storing/caching
+  data, providing or selling it to third parties, feeding it to AI, and showing ads on pages with results
+  or otherwise earning revenue from the Search API. Only short caching is allowed (2.4). Terms also say
+  Search, Search Trend and Shopping Insight are moving to NAVER API HUB (new sign-ups closed from 2026-07-30;
+  Shopping/Books/Academic search ended 2026-07-31). Result: a monetised (ads/affiliate) site cannot use
+  it. Quotes are Korean text from the terms page.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -21,5 +21,23 @@ attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://vedintelastroapi.com/terms
+rate_limits: 'Free plan: 7-day trial with 500 API calls; paid plans by subscription'
+applicable: false
+not_applicable_reason: Paid computation API (Swiss Ephemeris based Vedic astrology calculations from user
+  input); not a public data source.
+evidence:
+- field: rate_limits
+  url: https://vedintelastroapi.com/terms
+  quote: The Free plan is a 7-day trial providing 500 API calls at no charge, from the date of account
+    creation.
+  checked_at: '2026-11-21'
+notes: Terms of Service read (updated 17 April 2026). Licence is a non-exclusive, revocable right to use
+  the API per the selected plan; reselling or sublicensing the API without written permission and building
+  a competing astrology API are banned; 'You retain ownership of any applications you build using the
+  API.' The terms say nothing explicit about commercial use of outputs, caching or display, so those stay
+  unknown. Docs mention API key needed (apiKey).
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

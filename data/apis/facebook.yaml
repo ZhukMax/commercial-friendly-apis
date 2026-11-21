@@ -25,5 +25,16 @@ attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Login/social-plugin platform APIs returning consented user data of app users; not
+  an open data source.
+api_terms_url: https://developers.facebook.com/terms/
+notes: Read Meta Platform Terms (https://developers.facebook.com/terms/). Platform Data is user-consented
+  data; section 3.a.iv forbids "Selling, licensing, or purchasing Platform Data", section 3.c limits sharing
+  with third parties, and the licence is limited, non-sublicensable and non-transferable ("You will not
+  sell, transfer, or sublicense Platform to anyone"). Retention/caching rules and display rules sit in
+  separate Developer Policies and docs, not read. Core fields left unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

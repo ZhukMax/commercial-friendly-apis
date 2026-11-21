@@ -13,7 +13,7 @@ sources:
   url: https://tokenroute.app/docs/quickstart
   category: Machine Learning
 link_status: alive
-data_license: unknown
+data_license: model outputs governed by the underlying provider's terms
 commercial_use: unknown
 storage_caching: unknown
 redistribution_display: unknown
@@ -21,5 +21,17 @@ attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Paid LLM gateway/reseller (inference API), not a data source
+api_terms_url: https://tokenroute.app/terms
+notes: Read https://tokenroute.app/terms (updated July 4, 2026) via curl. It is a prepaid pay-as-you-go gateway to third-party LLMs; the terms say nothing explicit about commercial use of outputs, storage
+  or display, and say model outputs follow each upstream provider's terms. Resale of access is restricted ('resell access in violation of these Terms'). Core fields left unknown.
+evidence:
+- field: data_license
+  url: https://tokenroute.app/terms
+  quote: rights in model outputs are subject to the applicable provider's terms
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

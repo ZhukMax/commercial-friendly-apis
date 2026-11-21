@@ -5,7 +5,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 core = ["commercial_use", "storage_caching", "redistribution_display", "attribution_required"]
 E = [yaml.safe_load(open(f)) for f in glob.glob(str(ROOT / "data/apis/*.yaml"))]
-E = [e for e in E if e.get("checked_at") and not e.get("second_check")]
+E = [e for e in E if e.get("checked_at") and not e.get("second_check") and e.get("applicable") is not False]
 green = sorted(e["id"] for e in E if e["verdict"] == "green")
 amb = sorted(e["id"] for e in E if e["verdict"] != "green" and any(e.get(k) == "ambiguous" for k in core))
 out = ROOT / "data" / "second_pass"; out.mkdir(exist_ok=True)

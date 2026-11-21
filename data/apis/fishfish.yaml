@@ -2,8 +2,8 @@ id: fishfish
 name: FishFish
 url: https://fishfish.gg/
 category: Security
-description: A volunteer cybersecurity project focused on providing resources and services that improve
-  safety across Discord
+description: A volunteer cybersecurity project focused on providing resources and services that improve safety across
+  Discord
 description_source: upstream
 auth: none
 https: true
@@ -21,6 +21,12 @@ redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+evidence: []
+notes: fishfish.gg homepage and /terms (JS-rendered, read via Playwright) contain only a one-line description and
+  a contact email; the API docs at api.fishfish.gg/v1/docs describe endpoints and say only GET endpoints are public.
+  No terms of service, licence or usage policy found. All terms fields unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: unknown

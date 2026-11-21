@@ -23,3 +23,10 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: NSFW-moderation inference API for images and video; a tool, not a data source.
+notes: 'Read https://safereel.ai/docs, /trust and /security: no retention of submitted media (frames deleted after verdict), keys revoked for misuse (''violates our terms''), but no terms-of-service or
+  licence page was found (/terms, /terms-of-service 404; footer links only about/trust/security). All terms fields unknown.'
+evidence: []
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

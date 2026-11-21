@@ -24,3 +24,13 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Pay-per-call (x402/USDC) scanning and conversion tools run on your input (smart
+  contracts, addresses, MCP packages); not a dataset.
+api_terms_url: https://tanod.dev/terms
+notes: 'Read https://tanod.dev/terms (effective 2026-10-12): you keep rights in what you send, output
+  files are stored 24 hours, results are heuristic and some come from third-party sources with no accuracy
+  guarantee. No clause about commercial reuse, storage or display of results. Free daily allowance per
+  IP, otherwise paid per call. Fields unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

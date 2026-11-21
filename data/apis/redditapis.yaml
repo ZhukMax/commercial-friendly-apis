@@ -15,12 +15,35 @@ sources:
   category: Social
 link_status: alive
 data_license: unknown
-commercial_use: unknown
+commercial_use: ambiguous
 storage_caching: unknown
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+commercial_use_scope: paid
+api_terms_url: https://www.redditapis.com/terms
+evidence:
+- field: commercial_use
+  url: https://www.redditapis.com/terms
+  quote: You may use data you retrieve through the service in your commercial products.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.redditapis.com/acceptable-use-policy
+  quote: Any conduct that would violate Reddit's User Agreement or Content Policy if performed directly
+  checked_at: '2026-11-21'
+notes: Read RedditAPIs Terms (last updated November 2026) and Acceptable Use Policy. ToS 06A explicitly
+  allows commercial products and puts compliance with third-party terms on the customer, but AUP 3.11
+  forbids anything that would violate Reddit's User Agreement/Content Policy, and Reddit's own Data API
+  Terms require a separate agreement for commercial use. Unofficial third-party reseller of Reddit data;
+  storage/display not addressed.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Conflict between own terms and upstream stands; ambiguous is the honest value, leaning
+  risky. Reddit Data API Terms: ''derive revenues from the use or provision of the Data APIs ... unless
+  there is express written approval from Reddit''.'

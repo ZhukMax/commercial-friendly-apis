@@ -13,13 +13,25 @@ sources:
   url: https://github.com/mozilla/tls-observatory#api-endpoints
   category: Security
 link_status: alive
-data_license: unknown
+data_license: MPL-2.0 (software repository)
 commercial_use: unknown
 storage_caching: unknown
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: TLS scanner tool (code repo archived Dec 2025); scans a user-supplied host, not a data source
+evidence:
+- field: data_license
+  url: https://github.com/mozilla/tls-observatory/blob/master/LICENSE
+  quote: Mozilla Public License, version 2.0
+  checked_at: '2026-11-21'
+notes: Repo archived by Mozilla on Dec 1, 2025 (read-only); the public API host tls-observatory.services.mozilla.com
+  did not connect when checked with curl, so the hosted service appears gone. Only the MPL-2.0 software licence
+  is recorded.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: unknown

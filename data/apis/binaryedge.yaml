@@ -24,3 +24,8 @@ verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
 link_note: HTTP 403 (blocked for bots, assumed alive)
+notes: docs.binaryedge.io and www.binaryedge.io (incl. /terms, /terms-of-service) return 403 to curl and 'Sorry, you have been blocked' (Cloudflare) to a Playwright browser; not bypassed. No terms page
+  was read, so every terms field is unknown.
+evidence: []
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

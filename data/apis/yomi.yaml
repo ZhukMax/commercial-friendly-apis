@@ -13,13 +13,40 @@ sources:
   url: https://github.com/ookii-tsuki/yomi
   category: Text Analysis
 link_status: alive
-data_license: unknown
-commercial_use: unknown
+data_license: MIT (software)
+commercial_use: 'yes'
 storage_caching: unknown
 redistribution_display: unknown
-attribution_required: unknown
+attribution_required: 'yes'
 bulk_download: unknown
-self_host_option: unknown
-verdict: unknown
-confidence: low
+self_host_option: 'yes'
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+data_license_url: https://raw.githubusercontent.com/ookii-tsuki/yomi/master/LICENCE
+commercial_use_scope: self-hosted
+applicable: false
+not_applicable_reason: Self-hosted open-source tokenizer software (MIT); no data set, the hosted instance
+  has no stated terms.
+evidence:
+- field: data_license
+  url: https://raw.githubusercontent.com/ookii-tsuki/yomi/master/LICENCE
+  quote: MIT License
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://raw.githubusercontent.com/ookii-tsuki/yomi/master/LICENCE
+  quote: to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://raw.githubusercontent.com/ookii-tsuki/yomi/master/LICENCE
+  quote: The above copyright notice and this permission notice shall be included in all copies
+  checked_at: '2026-11-21'
+- field: self_host_option
+  url: https://raw.githubusercontent.com/ookii-tsuki/yomi/master/LICENCE
+  quote: Permission is hereby granted, free of charge, to any person obtaining a copy
+  checked_at: '2026-11-21'
+notes: 'Read the GitHub README and LICENCE file: the code is MIT. That licence covers the software only;
+  no terms for any hosted instance and nothing on the tokenizer dictionary data were read, so storage/display
+  of output stays unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

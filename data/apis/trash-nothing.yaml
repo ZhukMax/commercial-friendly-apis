@@ -18,12 +18,32 @@ sources:
   category: Social
 link_status: alive
 data_license: unknown
-commercial_use: unknown
+commercial_use: ambiguous
 storage_caching: unknown
-redistribution_display: unknown
+redistribution_display: ambiguous
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
+verdict: yellow
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://trashnothing.com/terms
+applicable: false
+not_applicable_reason: OAuth, account-scoped API of a freecycling community; content is user-submitted
+  posts.
+evidence:
+- field: commercial_use
+  url: https://trashnothing.com/terms
+  quote: Trash Nothing is made available for your personal use only
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://trashnothing.com/terms
+  quote: you may not resell or redistribute content from Trash Nothing other than by means made available
+    by Trash Nothing
+  checked_at: '2026-11-21'
+notes: 'Read Terms of Use (2 April 2025); the developer page (trashnothing.com/developer) has no separate
+  API terms, and the OpenAPI file points to /terms as termsOfService. Site terms say personal use only
+  and no resale/redistribution except via means Trash Nothing provides (the API may be such a means):
+  ambiguous for commercial sites. Caching/storage, attribution not addressed.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

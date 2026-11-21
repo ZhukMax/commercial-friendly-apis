@@ -24,3 +24,12 @@ verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
 link_note: -> https://www.abstractapi.com/api/phone-validation-api
+applicable: false
+not_applicable_reason: Phone validation tool (account-scoped API key), not a public dataset
+api_terms_url: https://www.abstractapi.com/legal/legal
+notes: 'Abstract API site terms of use read (abstractapi.com/legal/legal): site content may not be exploited
+  commercially without permission and the terms forbid reselling or making available Content not owned
+  by you to third parties, but these are general site terms, not API data terms; no API output licence,
+  caching or display clause found, so unknown.'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

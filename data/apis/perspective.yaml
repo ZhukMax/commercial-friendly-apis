@@ -15,11 +15,29 @@ sources:
 link_status: alive
 data_license: unknown
 commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
+storage_caching: limited
+redistribution_display: ambiguous
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Toxicity-scoring inference API over text you submit; not a data source. Service is sunsetting.
+api_terms_url: https://developers.google.com/terms/
+cache_limit: only as permitted by the cache header (Google APIs ToS)
+notes: 'perspectiveapi.com states Perspective API is sunsetting: service remains active until December 31, 2026 and ends after 2026 (no extensions). The site''s ''API Terms'' link points to the generic
+  Google APIs Terms of Service (https://developers.google.com/terms/, modified Nov 9, 2021), read here; those clauses apply to content returned from Google APIs and may not map cleanly onto Perspective''s
+  scores, so cache/display marked limited/ambiguous. Commercial use not addressed. The developers.perspectiveapi.com site is JS-rendered and contained no separate API terms (read via Playwright).'
+evidence:
+- field: storage_caching
+  url: https://developers.google.com/terms/
+  quote: Scrape, build databases, or otherwise create permanent copies of such content, or keep cached copies longer than permitted by the cache header
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://developers.google.com/terms/
+  quote: Copy, translate, modify, create a derivative work of, sell, lease, lend, convey, distribute, publicly display, or sublicense to any third party
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

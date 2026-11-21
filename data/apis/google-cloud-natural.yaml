@@ -28,3 +28,14 @@ verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
 link_note: -> https://docs.cloud.google.com/natural-language/docs
+api_terms_url: https://cloud.google.com/terms
+applicable: false
+not_applicable_reason: Machine-learning inference API (sentiment/entity analysis of the caller's text);
+  not a data source.
+evidence: []
+notes: 'Original docs URL redirects to docs.cloud.google.com/natural-language/docs (same service). Read
+  the Google Cloud Platform Terms of Service: the customer retains IP in Customer Data and Customer Applications,
+  but the terms say nothing specific on using or storing API output on a commercial site, and service-specific
+  terms were not located. All unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

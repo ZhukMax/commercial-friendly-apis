@@ -24,3 +24,11 @@ verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
 link_note: -> https://docs.pulsedive.com/
+api_terms_url: https://docs.pulsedive.com/api/limits
+notes: 'pulsedive.com (terms, plans, /about/api) timed out for curl and for Playwright, so no terms of
+  service or licence text was read. Only the docs (docs.pulsedive.com, reached by the redirect from /api/)
+  were read: they list Free, Pro, Commercial API and Enterprise plans but say nothing on commercial use,
+  storage or redistribution of the data, and note that feeds carry third-party intelligence with their
+  own provenance. All terms fields unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

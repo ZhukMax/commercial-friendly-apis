@@ -23,3 +23,12 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://cutt.ly/terms
+applicable: false
+not_applicable_reason: URL shortener tool; API manages the account holder's own links, not a public data
+  source.
+notes: Read https://cutt.ly/terms (Terms of Service, Polish operator). It lists API use with own domain
+  among permitted features and prohibits spam/crawling, but no clear statement on commercial use, caching
+  or redistribution was found; fields stay unknown.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

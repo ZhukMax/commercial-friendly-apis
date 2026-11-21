@@ -28,3 +28,11 @@ verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
 link_note: -> https://semantria-docs.lexalytics.com/docs/obtain-your-creds
+applicable: false
+not_applicable_reason: Text-analytics inference API (sentiment, entities); not a data source.
+evidence: []
+notes: semantria.readme.io redirects to semantria-docs.lexalytics.com, which presents itself as the Lexalytics
+  Semantria API documentation (same service). No terms link on the docs; lexalytics.com legal pages return
+  a Cloudflare 403 to curl, not bypassed. All unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

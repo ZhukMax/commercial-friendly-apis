@@ -12,6 +12,10 @@ sources:
   name: Watson Natural Language Understanding
   url: https://cloud.ibm.com/apidocs/natural-language-understanding
   category: Text Analysis
+- list: public-api-lists
+  name: Watson Natural Language Understanding
+  url: https://www.ibm.com/watson/developercloud/natural-language-understanding/api/v1/
+  category: Text Analysis
 link_status: redirect
 data_license: unknown
 commercial_use: unknown
@@ -24,3 +28,15 @@ verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
 link_note: -> https://cloud.ibm.com/docs/apis/natural-language-understanding
+applicable: false
+not_applicable_reason: Machine-learning inference API (text analytics on the caller's text); not a data
+  source.
+evidence: []
+notes: Docs URL redirects to the IBM Cloud API docs for Natural Language Understanding (same service).
+  The IBM terms pages (csol/terms) are JavaScript-rendered and returned no readable text; no terms were
+  read, so all fields unknown. Duplicate listing of watson-natural-language-understanding-ibm. Merged
+  duplicate entry `watson-natural-language-understanding-ibm`.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+aliases:
+- watson-natural-language-understanding-ibm

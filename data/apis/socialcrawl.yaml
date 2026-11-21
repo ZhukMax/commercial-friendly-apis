@@ -13,13 +13,40 @@ sources:
   url: https://www.socialcrawl.dev/docs
   category: Social
 link_status: alive
-data_license: unknown
-commercial_use: unknown
+data_license: third-party (platform content; not owned by SocialCrawl)
+commercial_use: ambiguous
 storage_caching: unknown
-redistribution_display: unknown
+redistribution_display: ambiguous
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://www.socialcrawl.dev/legal/terms-and-conditions
+evidence:
+- field: commercial_use
+  url: https://www.socialcrawl.dev/legal/terms-and-conditions
+  quote: we grant you a limited, non-exclusive, non-transferable, revocable licence to access and use
+    the Service for your internal business or personal purposes
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.socialcrawl.dev/legal/terms-and-conditions
+  quote: You may not redistribute, resell, or sublicense raw Platform Data retrieved through the Service
+    without adding meaningful transformation, analysis, or value.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.socialcrawl.dev/legal/terms-and-conditions
+  quote: We do not own, control, or endorse the Platform Data returned by the Service.
+  checked_at: '2026-11-21'
+notes: Read Terms and Conditions (s7 AUP, s8 third-party data, s9 IP). Permitted uses include integrating
+  social media data into applications; licence is for internal business or personal purposes (public-facing
+  commercial site not explicitly addressed, hence ambiguous). Raw redistribution needs meaningful transformation;
+  users must comply with source platforms terms and creators IP rights. Own caching text (s8.5) describes
+  SocialCrawl cache, not a customer storage right.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read s7/s8: no explicit public-site grant; platform ToS (X, TikTok etc.) prohibit
+  scraping; ambiguous stands.'

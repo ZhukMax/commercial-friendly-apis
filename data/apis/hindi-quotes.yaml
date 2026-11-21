@@ -24,3 +24,6 @@ verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
 link_note: HTTP 403 (blocked for bots, assumed alive)
+notes: hindi-quotes.vercel.app returned HTTP 403 to curl (Vercel security checkpoint); no terms read. Not bypassed. All terms unknown.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

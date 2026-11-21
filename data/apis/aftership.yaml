@@ -24,3 +24,18 @@ verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
 link_note: -> https://www.aftership.com/docs/tracking/quickstart/api-quick-start
+applicable: false
+not_applicable_reason: Account-scoped paid shipment tracking API for the customer's own shipments
+api_terms_url: https://www.aftership.com/legal/terms-of-service
+notes: AfterShip Terms of Service (updated 13 Nov 2026; read via Playwright) govern customers; the API
+  is covered by a separate Application Developer and API Agreement whose page was empty when rendered.
+  ToS prohibits reselling/distributing the Services to third parties without written approval. No terms
+  on commercial display or storage of tracking data were read, so fields unknown.
+evidence:
+- field: redistribution_display
+  url: https://www.aftership.com/legal/terms-of-service
+  quote: license, sublicense, sell, resell, rent, lease, transfer, assign, distribute or time share any
+    rights granted by these Terms to any third party
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

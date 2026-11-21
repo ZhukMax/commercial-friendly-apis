@@ -16,10 +16,26 @@ link_status: alive
 data_license: unknown
 commercial_use: unknown
 storage_caching: unknown
-redistribution_display: unknown
+redistribution_display: ambiguous
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://hashnode.com/terms
+applicable: false
+not_applicable_reason: Publication-scoped GraphQL API meant for headless blogs on your own Hashnode content;
+  harvesting other publications is barred.
+evidence:
+- field: redistribution_display
+  url: https://hashnode.com/terms
+  quote: Integrate Hashnode content into your own applications and websites.
+  checked_at: '2026-11-21'
+notes: 'Read Hashnode Terms of Use (effective February 15, 2026), section 8 API terms: the API is for
+  your own publication data, and users must not "collect or harvest data from publications you do not
+  own or have authorization to access" nor redistribute or resell API access. Commercial use and caching
+  are not addressed; authors keep rights to their posts. auth in the upstream list is none, but a personal
+  access token is needed for non-public calls (not verified here).'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

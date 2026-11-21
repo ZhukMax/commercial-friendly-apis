@@ -1,0 +1,8 @@
+ai-model-watch
+cve-report
+defencelevel-index
+modelfax
+national-vulnerability-database
+personality-fyi
+positivequotation
+quelllm

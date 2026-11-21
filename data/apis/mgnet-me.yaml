@@ -24,3 +24,10 @@ verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
 link_note: HTTP 403 (blocked for bots, assumed alive)
+api_terms_url: http://mgnet.me/api.html
+applicable: false
+not_applicable_reason: Torrent URL shortener tool; not a public data source.
+notes: Site returns HTTP 403 to curl and to a fresh Playwright context (2026-11-21); terms could not be
+  read, no bypass attempted. All unknown.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

@@ -27,3 +27,9 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://api.adviceslip.com/
+notes: Only the API documentation page (https://api.adviceslip.com/) was read. It says the API is provided for free but contains no terms of use, licence, or statement on commercial use, caching, display
+  or attribution; footer only has a copyright line (Tom Kiss 2013-2026). The 2-second advice cache on the page is a server-side response cache, not a rule for clients. No separate terms page found. All
+  terms fields left unknown.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

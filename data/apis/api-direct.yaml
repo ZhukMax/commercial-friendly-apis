@@ -22,6 +22,22 @@ attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
 link_note: -> https://apidirect.io/docs/introduction
+api_terms_url: https://apidirect.io/terms
+rate_limits: 5,000 requests/hour per IP, max 10 concurrent requests per endpoint per user; 50 free requests
+  per endpoint per month, then pay-per-request
+evidence:
+- field: rate_limits
+  url: https://apidirect.io/terms
+  quote: 5,000 requests per hour per IP address and a maximum of 10 concurrent requests per endpoint per
+    user
+  checked_at: '2026-11-21'
+notes: Read API Direct Terms of Service (https://apidirect.io/terms, last updated October 2026). The terms
+  say nothing about commercial use, caching/storage, redistribution or attribution of the returned data;
+  section 10 says data comes from third-party platforms (X, LinkedIn, Reddit, YouTube, Instagram ...)
+  and that the user must comply with the underlying platforms' own terms, which are not assessed here.
+  Acceptable use also bans scraping the service itself. All core fields therefore stay unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

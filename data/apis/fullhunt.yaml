@@ -13,14 +13,41 @@ sources:
   url: https://api-docs.fullhunt.io/#introduction
   category: Security
 link_status: alive
-data_license: unknown
-commercial_use: unknown
+data_license: proprietary (internal security operations licence)
+commercial_use: ambiguous
 storage_caching: unknown
-redistribution_display: unknown
+redistribution_display: 'no'
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: red
+confidence: medium
 link_checked_at: '2026-11-21'
 link_note: HTTP 403 (blocked for bots, assumed alive)
+api_terms_url: https://fullhunt.io/terms-and-conditions/
+notes: Read https://fullhunt.io/terms-and-conditions/ (updated Aug 11, 2026) via curl; api-docs.fullhunt.io/docs.fullhunt.io
+  return 403 to curl (not bypassed). Licence is for internal security operations, or under a specific
+  OEM/commercial agreement; resale and redistribution need a written partner/API agreement. Showing data
+  on a public ad/affiliate site is outside that licence, hence red via redistribution=no. Commercial use
+  for own business security is not clearly stated (ambiguous). Data is aggregated from third-party sources
+  (EPSS, CISA KEV, public sources) whose terms were not checked.
+evidence:
+- field: commercial_use
+  url: https://fullhunt.io/terms-and-conditions/
+  quote: a limited, non-exclusive, non-transferable, revocable license to access and use the Services
+    strictly for your internal security operations
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://fullhunt.io/terms-and-conditions/
+  quote: You may not resell, redistribute, reverse-engineer, decompile, create derivative works from,
+    or extract the underlying data pipeline of the Services
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://fullhunt.io/terms-and-conditions/
+  quote: FullHunt and its licensors own all right, title, and interest in and to the Services
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Internal-security licence; public display outside it; red stands

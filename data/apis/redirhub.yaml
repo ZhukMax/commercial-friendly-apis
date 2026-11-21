@@ -23,3 +23,10 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://redirhub.com/legal/terms-of-service
+applicable: false
+not_applicable_reason: Redirect-management SaaS; account-scoped REST API, not a public data source.
+notes: Read https://redirhub.com/legal/terms-of-service (subscriber agreement for the hosted URL redirection
+  platform). No clause found on commercial use of the API, caching or display of API data; unknown.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

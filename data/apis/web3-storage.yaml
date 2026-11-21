@@ -24,3 +24,12 @@ verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
 link_note: -> https://www.fil.one/
+api_terms_url: https://www.fil.one/terms
+applicable: false
+not_applicable_reason: Account-scoped cloud storage; not a public data source.
+notes: web3.storage redirects to https://www.fil.one/ (Fil One, S3 object storage). Fil One Terms of Use
+  read (website terms only, effective Mar 3 2026); the page does not say it replaces web3.storage, so
+  no terms were transferred and everything stays unknown. Terms page also forbids unauthorized scraping
+  of the website.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

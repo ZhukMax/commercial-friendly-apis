@@ -23,3 +23,12 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Code compile/run API (execution tool) tied to a HackerEarth account; not a data
+  source.
+api_terms_url: https://www.hackerearth.com/terms-of-service/
+notes: 'HackerEarth Terms of Service (last updated June 8, 2024) read: SaaS subscription agreement for
+  the recruitment platform, nothing on API data licence, caching or display. The v4 developer docs page
+  returned only a script shell to curl. All terms fields unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

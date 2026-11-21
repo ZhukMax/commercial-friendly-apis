@@ -15,12 +15,33 @@ sources:
   category: Social
 link_status: alive
 data_license: unknown
-commercial_use: unknown
+commercial_use: ambiguous
 storage_caching: unknown
-redistribution_display: unknown
+redistribution_display: 'no'
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
+verdict: red
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://fastsocial.co/terms
+evidence:
+- field: commercial_use
+  url: https://fastsocial.co/terms
+  quote: If you need Instagram data for a business or in bulk, use the Instagram Data API.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://fastsocial.co/terms
+  quote: Resell, sublicense or publish the raw data the API returns, or offer it as your own data feed
+    or API.
+  checked_at: '2026-11-21'
+notes: Read FastSocial Terms & Conditions. The free tools are personal/non-commercial only and the page
+  points business users to the paid API, which suggests business use is intended, but the API terms never
+  state a commercial grant, forbid publishing the raw returned data, and put compliance with Instagram's
+  terms on the customer. Storage of returned data is left to the customer ("you decide what to do with
+  it") so storage_caching stays unknown.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Publishing returned data is barred; Instagram upstream data | applied: redistribution_display=no'

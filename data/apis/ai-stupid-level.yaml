@@ -13,13 +13,48 @@ sources:
   url: https://aistupidlevel.info/api-docs
   category: Machine Learning
 link_status: alive
-data_license: unknown
+data_license: 'Custom: attribution required, no resale/republishing as own leaderboard'
 commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+storage_caching: limited
+redistribution_display: ambiguous
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://aistupidlevel.info/api-docs
+attribution_text: Cite aistupidlevel.info as the source with a link
+rate_limits: 'Free key: 10/day, 1/min; Pro 10,000/day'
+evidence:
+- field: data_license
+  url: https://aistupidlevel.info/api-docs
+  quote: Attribution is required. Anywhere you display this data, cite aistupidlevel.info as the source
+    with a link.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://aistupidlevel.info/api-docs
+  quote: Attribution is required. Anywhere you display this data, cite aistupidlevel.info as the source
+    with a link.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://aistupidlevel.info/api-docs
+  quote: Do not republish the rankings as your own leaderboard, and do not resell the data.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://aistupidlevel.info/api-docs
+  quote: Tier Per day Per minute How to get it Free 10 1 Sign up and create a key
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://aistupidlevel.info/api-docs
+  quote: so cache on your side rather than polling.
+  checked_at: '2026-11-21'
+notes: Read https://aistupidlevel.info/api-docs section 9 Terms of use. Displaying with attribution is
+  implied; republishing rankings as own leaderboard and reselling are forbidden; commercial redistribution
+  needs a separate licence from the operator ("Enterprise"). Commercial use of the data for an ad-supported
+  site and storage are not stated, so unknown/ambiguous. Free key is very low volume (10 calls/day).
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Docs advise caching on your side; display with attribution allowed | applied: storage_caching=limited'

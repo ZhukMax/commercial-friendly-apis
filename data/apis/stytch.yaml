@@ -23,3 +23,18 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Authentication/user-infrastructure API; account-scoped, returns no public data.
+api_terms_url: https://stytch.com/legal/terms-of-service
+evidence:
+- field: api_terms_url
+  url: https://stytch.com/legal/terms-of-service
+  quote: If you are a Stytch customer, the most recent prior version of the Stytch Terms of Service is
+    available here.
+  checked_at: '2026-11-21'
+notes: stytch.com/terms returned an empty shell to curl; stytch.com/legal/terms-of-service now serves
+  the Twilio Terms of Service (page says the prior Stytch ToS is available separately; this page treats
+  Stytch customers as covered). Twilio ToS read for commercial/resale wording, but it is a customer service
+  agreement with no data licence or caching/display clause for API output, so all terms fields stay unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

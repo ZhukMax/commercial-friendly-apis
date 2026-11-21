@@ -13,13 +13,66 @@ sources:
   url: https://personality.fyi/api
   category: Personality
 link_status: alive
-data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
-bulk_download: unknown
+data_license: CC0-1.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'no'
+bulk_download: 'yes'
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: green
+confidence: medium
 link_checked_at: '2026-11-21'
+data_license_url: https://personality.fyi/api
+api_terms_url: https://personality.fyi/api
+commercial_use_scope: any
+share_alike: 'no'
+rate_limits: No hard rate limits; IP-based limiting may be added above ~1k req/min sustained
+evidence:
+- field: data_license
+  url: https://personality.fyi/api
+  quote: 'License: Data is CC0 (public domain).'
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://personality.fyi/api
+  quote: Use however you want, attribution appreciated but not required.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://personality.fyi/api
+  quote: Use however you want, attribution appreciated but not required.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://personality.fyi/api
+  quote: attribution appreciated but not required
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://personality.fyi/api
+  quote: 'License: Data is CC0 (public domain).'
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://personality.fyi/api
+  quote: pulling the JSON once and keeping a local copy works fine for most use cases
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://personality.fyi/api
+  quote: pulling the JSON once and keeping a local copy works fine for most use cases
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://personality.fyi/api
+  quote: No hard rate limits today.
+  checked_at: '2026-11-21'
+notes: API page states the data (16 MBTI types, OEJTS test items and scoring) is CC0 and free of attribution
+  duty; static data, no LLM. The separate site Terms of Service (personality.fyi/terms) tell users not
+  to scrape content at scale or submit automated queries, which is about the consumer site and AI features;
+  the API page invites use, but this slight tension keeps confidence medium. Only the small static API
+  (/api/v1) is covered, not the AI career/compatibility features. MBTI is a trademark; the data here is
+  descriptive text by the site (not checked for third-party sources beyond its own OEJTS public-domain
+  note).
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Read /terms (effective 2026-04-22): ''Don''t use the site to ... scrape content at
+  scale, submit automated queries''. API page explicitly invites programmatic use; the specific API page
+  should prevail but a small conflict remains. Recommend fetching once and caching rather than heavy polling.
+  MBTI is a trademark.'

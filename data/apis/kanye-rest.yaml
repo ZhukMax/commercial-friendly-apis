@@ -23,7 +23,16 @@ storage_caching: unknown
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
-self_host_option: unknown
+self_host_option: 'yes'
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+evidence:
+- field: self_host_option
+  url: https://github.com/ajzbc/kanye.rest
+  quote: License MIT
+  checked_at: '2026-11-21'
+notes: Read kanye.rest and the GitHub repo (ajzbc/kanye.rest, Cloudflare Worker, code under MIT). No terms for the hosted API or licence for the quote data (quotes of a real person, third-party text). Only
+  the code licence is known; data terms unknown.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

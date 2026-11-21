@@ -24,3 +24,12 @@ verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
 link_note: -> https://storj.dev/
+api_terms_url: https://www.storj.io/legal/terms-of-use
+applicable: false
+not_applicable_reason: Account-based object storage service; not a public data source.
+evidence: []
+notes: Storj Terms of Use read (https://www.storj.io/legal/terms-of-use); it is a customer storage agreement
+  without relevant clauses on commercial use, caching or display of data obtained via the API, so everything
+  stays unknown. docs.storj.io/dcs redirects to storj.dev (documentation only).
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

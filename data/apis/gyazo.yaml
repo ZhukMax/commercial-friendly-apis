@@ -27,3 +27,14 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://gyazo.com/doc/terms
+applicable: false
+not_applicable_reason: Screenshot-sharing service with OAuth access token API for the user's own captures;
+  not a public data source.
+evidence: []
+notes: API docs (https://gyazo.com/api/docs) and Terms (https://gyazo.com/doc/terms) read. API docs say
+  only that access may be blocked if an app 'continuously uploads illegal or inappropriate images, or
+  puts excessive strain on our servers'. Terms do not mention commercial use of API data, so all stays
+  unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

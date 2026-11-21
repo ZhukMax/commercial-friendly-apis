@@ -13,13 +13,30 @@ sources:
   url: https://fixragent.com/docs
   category: Machine Learning
 link_status: alive
-data_license: unknown
+data_license: Proprietary API output; usable in own product with conditions
 commercial_use: unknown
 storage_caching: unknown
-redistribution_display: unknown
+redistribution_display: 'yes'
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Inference/tool API tied to a customer account and key, not a public data source.
+api_terms_url: https://fixragent.com/api-terms
+evidence:
+- field: redistribution_display
+  url: https://fixragent.com/api-terms
+  quote: You may use the JSON we return inside your own product or workflow, and show it to your users.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://fixragent.com/api-terms
+  quote: You may use the JSON we return inside your own product or workflow, and show it to your users.
+  checked_at: '2026-11-21'
+rate_limits: 'Free key: 10 requests/UTC day; 20/IP/hour'
+notes: Read https://fixragent.com/api-terms (effective 2026-09-13) and /terms. Free keys are for evaluation; "a production key follows a written agreement". Reselling raw output or using it to train competing
+  models is forbidden; urgency/hazard text must be kept with cards. Commercial use of free keys, storage not addressed, so unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

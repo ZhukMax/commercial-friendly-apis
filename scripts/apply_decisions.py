@@ -21,7 +21,10 @@ PAIRS = [("nasdaq-data-link", "quandl"), ("graphhopper", "graphhopper-graphhoppe
          ("us-extract", "us-extract-smartystreets"), ("us-street-address", "us-street-address-smartystreets"),
          ("us-zipcode", "us-zipcode-smartystreets"), ("iqair", "airvisual"), ("zornade", "zornade-zornade"),
          ("mapbox", "mapbox-mapbox"), ("nager-date", "nager-date-nagerholidays"), ("filingrail", "filingrail-filingrail"),
-         ("pandascore", "pandascore-api"), ("cross-universe", "cross-universe-crossuniverse")]
+         ("pandascore", "pandascore-api"), ("cross-universe", "cross-universe-crossuniverse"),
+         ("urlhaus-urlhaus", "urlhaus"), ("web-of-trust", "web-of-trust-wot"), ("onedrive", "onedrive-dev"), ("discord", "discord-discordapp"),
+         ("watson-natural-language-understanding", "watson-natural-language-understanding-ibm"), ("full-contact", "full-contact-fullcontact"),
+         ("codeship", "codeship-apidocs"), ("postnord", "sweden")]
 SEV = {"red": 0, "yellow": 1, "unknown": 2, "green": 3}
 merged = []
 for a, b in PAIRS:

@@ -16,7 +16,7 @@ sources:
   name: Fuck Off as a Service
   url: https://www.foaas.com
   category: Social
-link_status: alive
+link_status: dead
 data_license: unknown
 commercial_use: unknown
 storage_caching: unknown
@@ -27,3 +27,8 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+link_note: foaas.com now serves an unrelated generic WordPress blog about REST APIs; /off/a/b returns 404; no API or terms found
+notes: 'The domain foaas.com no longer hosts the Fuck Off As A Service API: the home page is an unrelated blog and the endpoint /off/{name}/{from} returns 404 (checked 2026-11-21). Only a generic privacy
+  policy link exists. Terms unknown.'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

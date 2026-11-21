@@ -4,7 +4,7 @@ url: https://www.meetup.com/api/guide
 category: Social
 description: Data about Meetups from Meetup.com
 description_source: upstream
-auth: apiKey
+auth: OAuth
 https: true
 cors: unknown
 sources:
@@ -14,13 +14,37 @@ sources:
   category: Social
 link_status: redirect
 data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
+commercial_use: 'no'
+storage_caching: limited
 redistribution_display: unknown
-attribution_required: unknown
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: red
+confidence: medium
 link_checked_at: '2026-11-21'
 link_note: -> https://www.meetup.com/graphql/guide/
+commercial_use_scope: any
+api_terms_url: https://help.meetup.com/hc/en-us/articles/360028705532-Meetup-API-license-terms
+evidence:
+- field: commercial_use
+  url: https://help.meetup.com/hc/en-us/articles/360028705532-Meetup-API-license-terms
+  quote: Not use the Meetup API for any commercial purpose without the express written consent of Meetup
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://help.meetup.com/hc/en-us/articles/360028705532-Meetup-API-license-terms
+  quote: Cache or store data you receive via the Meetup API consistent with, and only for the time permitted
+    under, applicable laws, including data protection laws
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://help.meetup.com/hc/en-us/articles/360028705532-Meetup-API-license-terms
+  quote: Clearly indicate in the application that the application uses the Meetup API but is not verified
+    by Meetup
+  checked_at: '2026-11-21'
+notes: Read Meetup API license terms (published May 10, 2021, read via Playwright because help.meetup.com
+  blocks curl) and the GraphQL API intro. API access needs a Meetup Pro subscription and registration;
+  commercial use needs Meetup's written consent, and replicating the Platform is barred. Display on third-party
+  pages is not expressly addressed, so redistribution_display unknown. Auth is OAuth2 access tokens (upstream
+  said apiKey). The attribution duty is a disclosure that the app is unverified, not a credit line.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

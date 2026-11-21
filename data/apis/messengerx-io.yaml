@@ -24,3 +24,10 @@ verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
 link_note: -> https://messengerx.readthedocs.io/en/latest/
+applicable: false
+not_applicable_reason: Chatbot developer platform / marketplace (account-scoped tool), not a data source.
+notes: 'Docs URL redirects to https://messengerx.readthedocs.io/en/latest/ (read): says the platform is free for developers to build chatbots; no terms/licence there. messengerx.io homepage now promotes
+  consumer AI-companion apps and has no terms page found (/terms 404); portal.messengerx.io not read. All terms fields unknown.'
+evidence: []
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

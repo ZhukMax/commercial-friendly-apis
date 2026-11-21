@@ -13,13 +13,40 @@ sources:
   url: https://tensorfeed.ai/developers
   category: Machine Learning
 link_status: alive
-data_license: unknown
-commercial_use: unknown
+data_license: proprietary compilation; third-party source material keeps its own licence
+commercial_use: ambiguous
 storage_caching: unknown
-redistribution_display: unknown
+redistribution_display: ambiguous
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://tensorfeed.ai/terms
+commercial_use_scope: free-tier
+notes: 'Read tensorfeed.ai/terms (Sections: API and Data Usage, 17.1, 20) and /developers via curl. Free
+  API says only that data should not be resold standalone; no explicit commercial-use grant or ban, so
+  ambiguous. Output is TensorFeed''s compilation; aggregated news snippets and per-endpoint upstream data
+  (CVE, CISA KEV, NASA POWER, openFDA) keep their own licences and terms. Premium responses are inference-only
+  (no ML training). Developers page says ''Cache responses appropriately'' with per-endpoint cache hints
+  but no storage licence, so storage unknown. Branding may not be used without permission.'
+evidence:
+- field: commercial_use
+  url: https://tensorfeed.ai/terms
+  quote: Data obtained from our API should not be resold as a standalone product
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://tensorfeed.ai/terms
+  quote: The output we publish and sell is a derived work and a compilation
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://tensorfeed.ai/terms
+  quote: A license to our derived output is not a license to any upstream provider's content
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read s17 and s20: no commercial ban; derived output is TensorFeed''s compilation,
+  third-party snippets keep own terms. Ambiguous stands.'

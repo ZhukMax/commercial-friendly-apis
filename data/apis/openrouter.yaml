@@ -16,11 +16,28 @@ link_status: redirect
 data_license: unknown
 commercial_use: unknown
 storage_caching: unknown
-redistribution_display: unknown
+redistribution_display: ambiguous
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
 link_note: -> https://openrouter.ai/docs/quickstart
+applicable: false
+not_applicable_reason: Inference gateway to third-party LLMs, not a data source; output rights are set per model provider.
+api_terms_url: https://openrouter.ai/terms
+notes: 'Read https://openrouter.ai/terms (last updated Aug 31, 2026). It is an LLM routing/inference API: outputs belong under each Model Provider''s own terms, so no blanket licence for the output exists
+  at service level. The ToS prohibits reselling API access or building a competing service; it does not say outright whether commercial use of outputs is allowed, so commercial_use stays unknown. Free tier
+  / paid scope not distinguished in the terms. Docs URL redirects to /docs/quickstart.'
+evidence:
+- field: redistribution_display
+  url: https://openrouter.ai/terms
+  quote: Your ownership rights in the Output are set forth in the Model Terms for each Model you use.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://openrouter.ai/terms
+  quote: access the Site or Service for purposes of reselling API access to Models or otherwise developing a competing service
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

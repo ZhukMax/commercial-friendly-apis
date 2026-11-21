@@ -13,13 +13,34 @@ sources:
   url: https://audexum.com/docs
   category: Machine Learning
 link_status: alive
-data_license: unknown
-commercial_use: unknown
+data_license: Customer owns Output (as between parties); free plan personal/evaluation licence only
+commercial_use: paid-only
 storage_caching: unknown
-redistribution_display: unknown
+redistribution_display: 'yes'
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Text-to-speech/speech-to-text service API tied to a customer account and credits, not a public data source.
+api_terms_url: https://audexum.com/terms
+commercial_use_scope: paid
+evidence:
+- field: commercial_use
+  url: https://audexum.com/terms
+  quote: Commercial use needs a paid plan.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://audexum.com/terms
+  quote: 'On any paid plan the licence is unrestricted: publish it, sell it, put it in a client''s advert.'
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://audexum.com/terms
+  quote: As between you and us, you own the Output.
+  checked_at: '2026-11-21'
+notes: Read https://audexum.com/terms (v3.10, 2026-11-18). Output (audio, transcripts) is owned by the customer; free plan licence is personal/evaluation only and free output carries an audible attribution
+  tag; paid plans unrestricted. Terms also forbid reselling raw API access. Storage/caching of outputs is not separately addressed (unknown).
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

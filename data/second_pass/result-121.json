@@ -1,0 +1,285 @@
+[
+ {
+  "id": "4chan",
+  "outcome": "disputed",
+  "reasons": [
+   "ToS example describes exactly the ad-supported re-host case"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://github.com/4chan/4chan-API",
+    "quote": "Don't suck down our JSON, host it elsewhere, and throw ads around it.",
+    "field": "storage_caching"
+   }
+  ],
+  "suggested": {
+   "storage_caching": "no",
+   "redistribution_display": "no"
+  },
+  "note": "Re-read README: the cloning rule with its ads/re-host example targets the catalogue use case. Verdict should be red."
+ },
+ {
+  "id": "abuseipdb",
+  "outcome": "confirmed",
+  "reasons": [
+   "Free non-commercial, paid ok; resale/exploit clause keeps storage/display ambiguous"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Free non-commercial, paid ok; resale/exploit clause keeps storage/display ambiguous"
+ },
+ {
+  "id": "ai-stupid-level",
+  "outcome": "disputed",
+  "reasons": [
+   "Docs advise caching on your side; display with attribution allowed"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://aistupidlevel.info/api-docs",
+    "quote": "so cache on your side rather than polling.",
+    "field": "storage_caching"
+   }
+  ],
+  "suggested": {
+   "storage_caching": "limited"
+  },
+  "note": "Mirror-like keys can be revoked; commercial use still unstated, verdict stays unknown."
+ },
+ {
+  "id": "astroway",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToS allows commercial use per plan; free key shows texts only; confirmed"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "ToS allows commercial use per plan; free key shows texts only; confirmed"
+ },
+ {
+  "id": "bewary",
+  "outcome": "confirmed",
+  "reasons": [
+   "Own-product use allowed; republishing as list/feed barred; re-read, no new blocker"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Own-product use allowed; republishing as list/feed barred; re-read, no new blocker"
+ },
+ {
+  "id": "censys",
+  "outcome": "disputed",
+  "reasons": [
+   "Even paying customers cannot put data into third-party-facing products without Enterprise"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://censys.com/terms-of-service",
+    "quote": "Under no circumstances may any Customer, including any Paying Customers, incorporate any Censys Data into its own software products or services",
+    "field": "redistribution_display"
+   }
+  ],
+  "suggested": {
+   "redistribution_display": "no"
+  },
+  "note": "Page continues: must upgrade to a Censys Enterprise Account; reports/materials based on data may be shared. Public ad-supported display needs Enterprise."
+ },
+ {
+  "id": "codeforces",
+  "outcome": "confirmed",
+  "reasons": [
+   "Site terms forbid commercializing/advertising use; applicability to API unclear; stays ambiguous"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Site terms forbid commercializing/advertising use; applicability to API unclear; stays ambiguous"
+ },
+ {
+  "id": "complete-criminal-checks",
+  "outcome": "confirmed",
+  "reasons": [
+   "Personal non-commercial licence, no API terms; red stands"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Personal non-commercial licence, no API terms; red stands"
+ },
+ {
+  "id": "disdex",
+  "outcome": "confirmed",
+  "reasons": [
+   "Re-read terms: no mirroring, third-party owners; no commercial clause; unknown stands"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read terms: no mirroring, third-party owners; no commercial clause; unknown stands"
+ },
+ {
+  "id": "echoes",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms bar reuse without permission vs home page invites integration; ambiguous"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Terms bar reuse without permission vs home page invites integration; ambiguous"
+ },
+ {
+  "id": "fastsocial-instagram-data",
+  "outcome": "disputed",
+  "reasons": [
+   "Publishing returned data is barred; Instagram upstream data"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://fastsocial.co/terms",
+    "quote": "Resell, sublicense or publish the raw data the API returns, or offer it as your own data feed or API.",
+    "field": "redistribution_display"
+   }
+  ],
+  "suggested": {
+   "redistribution_display": "no"
+  },
+  "note": "Showing API results on public pages is publishing the returned data; derived displays unclear."
+ },
+ {
+  "id": "favqs-com",
+  "outcome": "confirmed",
+  "reasons": [
+   "API ToS allows apps with credit, 24h cache; only future fee clause"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "API ToS allows apps with credit, 24h cache; only future fee clause"
+ },
+ {
+  "id": "full-contact",
+  "outcome": "confirmed",
+  "reasons": [
+   "Re-read via browser: paid B2B, no resale/redistribution; red stands"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read via browser: paid B2B, no resale/redistribution; red stands"
+ },
+ {
+  "id": "fullhunt",
+  "outcome": "confirmed",
+  "reasons": [
+   "Internal-security licence; public display outside it; red stands"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Internal-security licence; public display outside it; red stands"
+ },
+ {
+  "id": "greynoise",
+  "outcome": "confirmed",
+  "reasons": [
+   "EULA internal/noncommercial, no making Platform available to third parties; red stands"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "EULA internal/noncommercial, no making Platform available to third parties; red stands"
+ },
+ {
+  "id": "hackernews",
+  "outcome": "confirmed",
+  "reasons": [
+   "Site ToS bars commercial exploitation/scraping, never mentions API; ambiguous"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Site ToS bars commercial exploitation/scraping, never mentions API; ambiguous"
+ },
+ {
+  "id": "haveibeenpwned",
+  "outcome": "confirmed",
+  "reasons": [
+   "Commercial ok for catalogue/Pwned Passwords; account API limited, attribution required"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Commercial ok for catalogue/Pwned Passwords; account API limited, attribution required"
+ },
+ {
+  "id": "ip-intelligence",
+  "outcome": "confirmed",
+  "reasons": [
+   "Vague ToS; upstream licences vendor-claimed; ambiguous stands"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Vague ToS; upstream licences vendor-claimed; ambiguous stands"
+ },
+ {
+  "id": "ipwhois-net-blacklist",
+  "outcome": "confirmed",
+  "reasons": [
+   "Only site terms (proprietary DBs); nothing blacklist-specific; unknown stands"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Only site terms (proprietary DBs); nothing blacklist-specific; unknown stands"
+ },
+ {
+  "id": "ismalicious",
+  "outcome": "confirmed",
+  "reasons": [
+   "Re-read via browser: internal-use licence, bulk republishing barred; ambiguous"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read via browser: internal-use licence, bulk republishing barred; ambiguous"
+ },
+ {
+  "id": "lurkapi",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms allow building products; commercial/storage unstated; unchanged"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Terms allow building products; commercial/storage unstated; unchanged"
+ },
+ {
+  "id": "malshare",
+  "outcome": "confirmed",
+  "reasons": [
+   "Commercial ok with notification; third-party distribution clause keeps display ambiguous"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Commercial ok with notification; third-party distribution clause keeps display ambiguous"
+ },
+ {
+  "id": "open-collective",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToS personal-use only but silent on API; no new evidence; ambiguous"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "ToS personal-use only but silent on API; no new evidence; ambiguous"
+ },
+ {
+  "id": "osv",
+  "outcome": "confirmed",
+  "reasons": [
+   "Per-source licences incl. CC-BY-NC-ND Chainguard; no site terms; ambiguous"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Per-source licences incl. CC-BY-NC-ND Chainguard; no site terms; ambiguous"
+ },
+ {
+  "id": "reddit",
+  "outcome": "confirmed",
+  "reasons": [
+   "Commercial use needs separate Reddit agreement; red stands"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Commercial use needs separate Reddit agreement; red stands"
+ }
+]

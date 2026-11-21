@@ -13,13 +13,32 @@ sources:
   url: https://capev2.readthedocs.io/en/latest/usage/api.html
   category: Anti-Malware
 link_status: alive
-data_license: unknown
+data_license: GPL-3.0 (software code only)
 commercial_use: unknown
 storage_caching: unknown
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
-self_host_option: unknown
+self_host_option: 'yes'
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Open-source malware sandbox software (self-hosted); the documentation describes
+  installing and running it, not a data source.
+evidence:
+- field: data_license
+  url: https://github.com/kevoreilly/CAPEv2/blob/master/LICENSE
+  quote: Cuckoo Sandbox is copyrighted by the Cuckoo Foundation and is licensed under the following GNU
+    General Public License version 3.
+  checked_at: '2026-11-21'
+- field: self_host_option
+  url: https://capev2.readthedocs.io/en/latest/usage/api.html
+  quote: To enable the REST API, we use django-rest-framework
+  checked_at: '2026-11-21'
+notes: CAPEv2 is GPLv3 software with a REST API you run yourself; the public instance capesandbox.com
+  sits behind a Cloudflare challenge and its terms could not be read (not bypassed). No terms found for
+  hosted-service output, so commercial_use/storage/display/attribution stay unknown; GPL applies to the
+  software, not to analysis data.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

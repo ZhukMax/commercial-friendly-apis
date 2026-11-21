@@ -23,3 +23,17 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Authorization/access-control API (account-scoped); product has moved to WorkOS
+  FGA.
+api_terms_url: https://warrant.dev/
+evidence:
+- field: api_terms_url
+  url: https://warrant.dev/
+  quote: Warrant —> Now WorkOS FGA
+  checked_at: '2026-11-21'
+notes: warrant.dev/terms is empty; the homepage only says Warrant is now WorkOS FGA. WorkOS Terms of Service
+  (workos.com/legal/terms-of-service) were read but are NOT transferred to Warrant, since the page does
+  not state it replaces the Warrant service. All terms fields unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

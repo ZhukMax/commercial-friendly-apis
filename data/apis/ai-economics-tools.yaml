@@ -13,13 +13,50 @@ sources:
   url: https://piszczek.pl/tools/api
   category: Machine Learning
 link_status: alive
-data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+data_license: CC-BY-4.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: ambiguous
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: green
+confidence: medium
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Calculator endpoints returning illustrative computations; a tool API, not a data source.
+data_license_url: https://creativecommons.org/licenses/by/4.0/
+api_terms_url: https://piszczek.pl/tools/api
+commercial_use_scope: any
+share_alike: 'no'
+attribution_text: Concepts and calculators by Michał Piszczek, https://piszczek.pl/tools (each response has a cite_as sentence)
+notes: Read https://piszczek.pl/tools/api (machine API description JSON). The API states CC BY 4.0; I applied the CC BY 4.0 deed for commercial use/copying (CC BY itself requires attribution though the
+  page says 'appreciated', hence ambiguous). Responses are illustrative calculations with fixed example prices, not real data. No separate ToS page (/terms 404). Only a licence statement was read, hence
+  medium.
+evidence:
+- field: data_license
+  url: https://piszczek.pl/tools/api
+  quote: Concepts and calculators by Michał Piszczek — https://piszczek.pl/tools (CC BY 4.0, attribution appreciated)
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://piszczek.pl/tools/api
+  quote: If you quote a number, quote the source with it.
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

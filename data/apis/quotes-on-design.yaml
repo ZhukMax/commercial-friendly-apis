@@ -27,3 +27,7 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+notes: 'Read quotesondesign.com/api/: API 5.0 is just the built-in WordPress REST API (wp-json/wp/v2/posts?orderby=rand); all older APIs shut down. Maintained by Chris Coyier as a free hobby site; no terms,
+  licence or commercial-use statement found. Quotes are third-party text. All terms unknown.'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

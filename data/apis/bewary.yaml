@@ -13,13 +13,47 @@ sources:
   url: https://bewary.app/docs
   category: Anti-Malware
 link_status: alive
-data_license: unknown
-commercial_use: unknown
+data_license: proprietary (Bewary Terms; bulk files carry a notice)
+commercial_use: 'yes'
 storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
-bulk_download: unknown
+redistribution_display: ambiguous
+attribution_required: ambiguous
+bulk_download: 'yes'
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://bewary.app/terms
+evidence:
+- field: commercial_use
+  url: https://bewary.app/terms
+  quote: You may use API answers and bulk files inside your own products and systems, for example to block,
+    score or flag.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://bewary.app/terms
+  quote: Do not resell, republish or sublicense the answers or the files as a list, feed or service of
+    your own.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://bewary.app/terms
+  quote: Keep the notice each bulk file carries with any copy you make.
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://bewary.app/terms
+  quote: You may use API answers and bulk files inside your own products and systems, for example to block,
+    score or flag.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://bewary.app/terms
+  quote: Keep the notice each bulk file carries with any copy you make.
+  checked_at: '2026-11-21'
+notes: 'Read Terms of Service (1 Nov 2026). API answers and bulk files may be used inside own products
+  and systems; resale/republication as a list, feed or service is barred and redistribution rights need
+  a written agreement. Bulk file notice must be kept on copies (not a general attribution duty). Storage/caching
+  duration not stated, so unknown. Verdicts can be wrong: decision-aid disclaimer.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Own-product use allowed; republishing as list/feed barred; re-read, no new blocker

@@ -12,14 +12,56 @@ sources:
   name: URLhaus
   url: https://urlhaus.abuse.ch/api/
   category: Security
+- list: public-apis
+  name: URLhaus
+  url: https://urlhaus-api.abuse.ch/
+  category: Anti-Malware
 link_status: alive
 data_license: unknown
-commercial_use: unknown
+commercial_use: paid-only
 storage_caching: unknown
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://abuse.ch/terms-of-use/
+commercial_use_scope: paid
+rate_limits: Free under fair use; volumes reasonably expected for non-commercial or non-profit purposes
+notes: 'abuse.ch Terms of Use (Spamhaus Technology is primary licensee): section 4.1 lists URLhaus, MalwareBazaar
+  and ThreatFox as platforms where commercial or for-profit users "may require" a paid subscription via
+  Spamhaus; 4.2 lets commercial users qualify for free use through six months of contribution plus review.
+  Only Feodo Tracker, SSL Blacklist and YARAify are stated to be CC0 (commercial allowed); URLhaus is
+  not in that list, so no data licence is claimed. The URLhaus API page (urlhaus.abuse.ch/api) also says
+  the free Community API is under fair use and commercial users may need the paid API. Storage, display
+  and attribution not addressed. Merged duplicate entry `urlhaus`.'
+evidence:
+- field: commercial_use
+  url: https://abuse.ch/terms-of-use/
+  quote: may require a paid subscription, which will be managed by Spamhaus, and will be subject to separate
+    terms and conditions.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://abuse.ch/terms-of-use/
+  quote: defined as volumes of Queries and Exports reasonably expected for non-commercial or non-profit
+    purposes
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://abuse.ch/terms-of-use/
+  quote: Authenticated Users may access the Platforms for not-for-profit purposes, subject to usage limitations
+    imposed by abuse.ch and/or Spamhaus.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://abuse.ch/terms-of-use/
+  quote: may require a paid subscription, which will be managed by Spamhaus
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+aliases:
+- urlhaus
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Free access is for not-for-profit purposes; Commercial users need Spamhaus paid subscription
+  | applied: commercial_use=paid-only'

@@ -15,12 +15,33 @@ sources:
   category: Personality
 link_status: alive
 data_license: unknown
-commercial_use: unknown
+commercial_use: paid-only
 storage_caching: unknown
-redistribution_display: unknown
+redistribution_display: 'yes'
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://vedika.io/terms
+commercial_use_scope: paid
+applicable: false
+not_applicable_reason: Paid AI/computation API generating astrology readings from user-supplied birth
+  data; outputs are generated, not a public dataset.
+evidence:
+- field: commercial_use
+  url: https://vedika.io/terms
+  quote: Subject to these Terms and payment, you may use, show and adapt the outputs in your products.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://vedika.io/terms
+  quote: Subject to these Terms and payment, you may use, show and adapt the outputs in your products.
+  checked_at: '2026-11-21'
+notes: Terms read at https://vedika.io/terms (Part B Commercial Terms). Outputs may be used and shown
+  in your own products subject to payment; raw API access must not be resold ('You must not resell raw
+  API access or let others use your keys outside your products'). Terms add that outputs may be similar
+  for similar inputs, so no exclusive rights. Caching/storage and attribution are not addressed. Free-tier
+  terms not read, so scope recorded as paid.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

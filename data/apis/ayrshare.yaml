@@ -14,12 +14,30 @@ sources:
   category: Social
 link_status: alive
 data_license: unknown
-commercial_use: unknown
+commercial_use: 'yes'
 storage_caching: unknown
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Social publishing/management API acting on the customer's own connected accounts;
+  a tool, not a data source.
+api_terms_url: https://www.ayrshare.com/terms/
+commercial_use_scope: any
+evidence:
+- field: commercial_use
+  url: https://www.ayrshare.com/terms/
+  quote: The Company grants a non-transferable, non-exclusive, revocable, limited license to use the site
+    for personal or commercial use only.
+  checked_at: '2026-11-21'
+notes: Read Ayrshare Terms of Use (https://www.ayrshare.com/terms/, revised August 20, 2026). Licence
+  covers personal or commercial use of the site/Services, but bans commercially exploiting, distributing
+  or republishing the site or its content. Nothing on data storage, display or attribution; the API docs/pricing
+  and data-processing agreement were not read. Data accessed (own and end users' social accounts) is governed
+  by each social network's terms.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

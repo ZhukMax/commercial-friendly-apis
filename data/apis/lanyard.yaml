@@ -19,7 +19,20 @@ storage_caching: unknown
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
-self_host_option: unknown
+self_host_option: 'yes'
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Open-source (MIT) service exposing a user's own Discord presence; the data is per-user
+  and private to Discord, not a data source.
+evidence:
+- field: self_host_option
+  url: https://github.com/Phineas/lanyard
+  quote: if you want to self host it, you have the option to
+  checked_at: '2026-11-21'
+notes: Read the Lanyard GitHub README (MIT licence for the software). The hosted api.lanyard.rest has
+  no terms page found; presence data comes from Discord whose developer terms were not checked. Core fields
+  unknown.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

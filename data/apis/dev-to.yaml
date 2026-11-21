@@ -14,12 +14,33 @@ sources:
   category: Personality
 link_status: alive
 data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
+commercial_use: ambiguous
+storage_caching: ambiguous
+redistribution_display: ambiguous
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
+verdict: yellow
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://dev.to/terms
+applicable: false
+not_applicable_reason: Account-scoped platform API serving user-generated posts; per-author rights and site terms limit reuse
+evidence:
+- field: commercial_use
+  url: https://dev.to/terms
+  quote: use the materials for any commercial purpose, or for any public display (commercial or non-commercial)
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://dev.to/terms
+  quote: use the materials for any commercial purpose, or for any public display (commercial or non-commercial)
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://dev.to/terms
+  quote: transfer the materials to another person or "mirror" the materials on any other server.
+  checked_at: '2026-11-21'
+notes: 'Read the DEV Community web-site terms (dev.to/terms) and the Forem API docs (developers.forem.com/api, which carry no licence or terms). The site terms grant only personal, non-commercial transitory
+  viewing of the web site materials and forbid commercial use, public display, copying and mirroring; whether this binds API output is not stated, hence ambiguous. Content is user-generated: each author
+  keeps rights in articles. API needs an api-key for most endpoints (v1). Not a data source for third-party reuse.'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

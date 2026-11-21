@@ -14,12 +14,24 @@ sources:
   category: Security
 link_status: alive
 data_license: unknown
-commercial_use: unknown
+commercial_use: paid-only
 storage_caching: unknown
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://internetdb.shodan.io/
+commercial_use_scope: paid
+evidence:
+- field: commercial_use
+  url: https://internetdb.shodan.io/
+  quote: If you're using the InternetDB API to make money then you need an enterprise license.
+  checked_at: '2026-11-21'
+notes: Homepage of InternetDB (read via Playwright) says it is free for non-commercial use and that earning money
+  with it needs a Shodan enterprise licence. No separate terms page, data licence, storage or display rules found,
+  so those stay unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: yellow

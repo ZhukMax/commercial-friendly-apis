@@ -24,3 +24,9 @@ verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
 link_note: HTTP 403 (blocked for bots, assumed alive)
+evidence: []
+notes: Both curl and a fresh Playwright context got HTTP 403 ('This request was blocked', Vercel) for
+  https://riddles-api.vercel.app/ and its subpaths; no terms or licence page could be read and no bypass
+  was attempted. All terms fields stay unknown. Riddle texts are likely third-party content (unverified).
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

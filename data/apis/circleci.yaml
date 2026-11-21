@@ -28,3 +28,11 @@ verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
 link_note: -> https://circleci.com/docs/guides/toolkit/api-intro/
+applicable: false
+not_applicable_reason: CI/CD platform API; account-scoped (own pipelines/projects).
+api_terms_url: https://circleci.com/terms-of-service/
+notes: 'CircleCI Software as a Service Agreement (circleci.com/terms-of-service/) read: customer agreement
+  for the service, no data licence or caching/display clause for API output. API docs page redirects to
+  /docs/guides/toolkit/api-intro/. All terms fields unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -13,13 +13,40 @@ sources:
   url: https://ismalicious.com/api-docs
   category: Security
 link_status: alive
-data_license: unknown
-commercial_use: unknown
+data_license: proprietary (isMalicious ToS); third-party feed entries keep their providers licences
+commercial_use: ambiguous
 storage_caching: unknown
-redistribution_display: unknown
+redistribution_display: ambiguous
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://ismalicious.com/terms
+evidence:
+- field: commercial_use
+  url: https://ismalicious.com/terms
+  quote: solely for your internal security, fraud prevention, risk management, and related lawful business
+    purposes
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://ismalicious.com/terms
+  quote: Outputs are licensed for your use in accordance with these Terms and your plan
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://ismalicious.com/legal
+  quote: Entries that come from third-party sources remain under their providers’ licences, listed on
+    the sources page.
+  checked_at: '2026-11-21'
+notes: 'Terms (JS-rendered, read via Playwright): licence limited to internal security, fraud prevention
+  and risk-management business purposes (commercial in nature but internal); public republishing of bulk
+  data or APIs that would effectively redistribute the commercial offering is forbidden without written
+  permission. Showing individual results on public pages is not addressed. The legal page says third-party-sourced
+  entries keep their providers'' licences (sources page not read). Storage/caching and attribution not
+  addressed (unknown).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: yellow
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read via browser: internal-use licence, bulk republishing barred; ambiguous'

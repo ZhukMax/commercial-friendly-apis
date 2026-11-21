@@ -18,13 +18,28 @@ sources:
   category: URL Shorteners
 link_status: redirect
 data_license: unknown
-commercial_use: unknown
+commercial_use: 'yes'
 storage_caching: unknown
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
+verdict: yellow
 confidence: low
 link_checked_at: '2026-11-21'
 link_note: -> https://developers.rebrandly.com/docs/get-started
+api_terms_url: https://rebrandly.com/terms-conditions
+applicable: false
+not_applicable_reason: Branded URL shortener tool; account-scoped API, not a public data source.
+commercial_use_scope: any
+evidence:
+- field: commercial_use
+  url: https://rebrandly.com/terms-conditions
+  quote: The Services are intended primarily for commercial use.
+  checked_at: '2026-11-21'
+notes: Read Rebrandly Terms of Use (https://rebrandly.com/terms-conditions; the developer docs link to
+  "Terms of Use"). They state the Services are intended primarily for commercial use, with plan Usage
+  Volumes including API calls. Statement is about using the link-management service, not about caching/display
+  of any data set; other fields unknown.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

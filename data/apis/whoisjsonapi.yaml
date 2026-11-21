@@ -14,13 +14,37 @@ sources:
   url: https://whoisjsonapi.com/
   category: Security
 link_status: alive
-data_license: unknown
-commercial_use: unknown
+data_license: proprietary
+commercial_use: 'yes'
 storage_caching: unknown
-redistribution_display: unknown
+redistribution_display: 'yes'
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://whoisjsonapi.com/page/terms
+notes: Terms of Service updated 2026-04-17 (curl). The licence is granted subject to "the applicable plan"
+  and plan limits; whether free-tier keys are included is not stated. OEM, reseller, marketplace, white-label
+  or standalone resale need a separate written agreement. Storage/caching beyond use inside the customer's
+  product, and attribution, are not addressed. Contact data in WHOIS results may not be used for unlawful
+  marketing/spam.
+evidence:
+- field: commercial_use
+  url: https://whoisjsonapi.com/page/terms
+  quote: Customer may use the API within Customer's applications, websites, internal tools, commercial
+    products, and hosted services.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://whoisjsonapi.com/page/terms
+  quote: Customer may provide access to API-powered functionality and results to Customer's end users
+    as part of Customer's own product or service
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://whoisjsonapi.com/page/terms
+  quote: Whois JSON API owns and shall continue to own the Services, all underlying software making the
+    Services operable, the Data, Parsed Data
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

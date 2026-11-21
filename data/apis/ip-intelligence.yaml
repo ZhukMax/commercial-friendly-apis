@@ -14,13 +14,44 @@ sources:
   url: https://dataandapis.com/apis/ip-intelligence
   category: Security
 link_status: alive
-data_license: unknown
-commercial_use: unknown
+data_license: proprietary API; built on iptoasn (public domain), DB-IP Lite (CC-BY) and operators' published
+  ranges
+commercial_use: ambiguous
 storage_caching: unknown
-redistribution_display: unknown
+redistribution_display: ambiguous
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://dataandapis.com/terms-of-service
+rate_limits: 'Free key: 500 tokens/month (1 token per call)'
+notes: 'Read https://dataandapis.com/terms-of-service (platform-wide, updated 11/21/2026) and the product
+  page via curl. Terms are short and vague: ''unauthorized commercial purposes'' is not defined and ''copying
+  or distributing any part of the Services'' is prohibited, so commercial use and display are ambiguous.
+  Product page says data is built from free redistributable sources (RouteViews/iptoasn public domain;
+  DB-IP Lite CC-BY, which itself requires attribution; operators'' published ranges) but that is a vendor
+  claim, upstream licences were not opened. Storage not addressed.'
+evidence:
+- field: commercial_use
+  url: https://dataandapis.com/terms-of-service
+  quote: Using the Services for unauthorized commercial purposes
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://dataandapis.com/terms-of-service
+  quote: Copying or distributing any part of the Services
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://dataandapis.com/apis/ip-intelligence
+  quote: Built entirely on free, redistributable sources
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://dataandapis.com/apis/ip-intelligence
+  quote: A free key includes 500 tokens a month, no card required.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Vague ToS; upstream licences vendor-claimed; ambiguous stands

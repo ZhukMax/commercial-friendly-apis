@@ -23,3 +23,9 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: URL shortener tool; not a public data source.
+notes: The wiki page https://wiki.drivet.xyz/en/url-shortener/add-links returns an almost empty JS shell
+  (12 characters of text); no terms found. Unknown.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

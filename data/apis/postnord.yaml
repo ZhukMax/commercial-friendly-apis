@@ -12,6 +12,10 @@ sources:
   name: PostNord
   url: https://developer.postnord.com/api
   category: Tracking
+- list: public-api-lists
+  name: Sweden
+  url: https://developer.postnord.com/docs2
+  category: Tracking
 link_status: alive
 data_license: unknown
 commercial_use: unknown
@@ -23,3 +27,15 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Account-scoped parcel tracking API (API key); tracking data of own/consignment
+  parcels
+notes: 'developer.postnord.com is a JS portal (read via Playwright): the pages read cover API versioning
+  and guides only; /terms returns 404 and no developer terms or data licence were found, so all fields
+  unknown. Auth is an API key; `https: false` in the list is stale (portal is HTTPS) but left unchanged.
+  Merged duplicate entry `sweden`.'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+evidence: []
+aliases:
+- sweden

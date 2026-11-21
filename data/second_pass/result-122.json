@@ -1,0 +1,309 @@
+[
+ {
+  "id": "redditapis",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToS 06A grants commercial use but AUP requires compliance with Reddit API Terms",
+   "Reddit Data API Terms demand a separate agreement for revenue use"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Conflict between own terms and upstream stands; ambiguous is the honest value, leaning risky. Reddit Data API Terms: 'derive revenues from the use or provision of the Data APIs ... unless there is express written approval from Reddit'."
+ },
+ {
+  "id": "redlisten",
+  "outcome": "confirmed",
+  "reasons": [
+   "Own terms allow storing and displaying in own product",
+   "No blocker in own terms; Reddit rights disclaimed"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read terms: store/display in own product allowed, no credit required, bulk redistribution banned. Commercial not stated and Reddit content rights are the user's responsibility; ambiguous stands."
+ },
+ {
+  "id": "roboflow-universe",
+  "outcome": "disputed",
+  "reasons": [
+   "ToS limits the Public Plan to non-commercial use",
+   "per-dataset licences still unread, so not no"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://roboflow.com/terms",
+    "quote": "To the extent you have chosen the Public Plan, you will only use the Services for your own internal, non-commercial use",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "ambiguous"
+  },
+  "note": "Public Plan is internal non-commercial and bars scraping; paid plans lack that limit; datasets carry contributor licences (often CC BY). Universe site 403s curl, not bypassed."
+ },
+ {
+  "id": "scanmalware",
+  "outcome": "confirmed",
+  "reasons": [
+   "Grant limited to protection, research, teaching, incident response",
+   "Ad-supported publishing neither allowed nor forbidden; bulk resale needs agreement"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read ToS s7: use 'to protect yourself, your organisation or your customers, and for research, teaching and incident response'. Leans negative for a public ad site but not explicit; ambiguous stands."
+ },
+ {
+  "id": "shodan",
+  "outcome": "disputed",
+  "reasons": [
+   "'Commercial Use' is listed as a feature only on paid plans",
+   "free/Membership plan do not list it"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://developer.shodan.io/pricing",
+    "quote": "Basic access to the Streaming API Commercial Use Grandfathered Pricing E-Mail support",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "paid-only"
+  },
+  "note": "Pricing page lists Commercial Use under Freelancer/Small Business/Corporate; free and $49 Membership lack it. No ToS page found. Integration FAQ requires attribution to Shodan."
+ },
+ {
+  "id": "shortsintel",
+  "outcome": "confirmed",
+  "reasons": [
+   "s5 allows commercialising derived output",
+   "Incidental raw display allowed; upstream restrictions pass through"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read s5: derived works commercialisable, raw resale banned, more restrictive upstream terms apply. Fields stand."
+ },
+ {
+  "id": "socialcrawl",
+  "outcome": "confirmed",
+  "reasons": [
+   "Permitted uses include integrating social data into applications",
+   "Must comply with source platform ToS; raw resale needs transformation"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read s7/s8: no explicit public-site grant; platform ToS (X, TikTok etc.) prohibit scraping; ambiguous stands."
+ },
+ {
+  "id": "statlyte",
+  "outcome": "confirmed",
+  "reasons": [
+   "No grant and no ban on commercial use",
+   "Only resale of raw feed as competing product barred"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read terms: attribution 'appreciated and not required'; fields unknown/ambiguous stand."
+ },
+ {
+  "id": "tensorfeed",
+  "outcome": "confirmed",
+  "reasons": [
+   "Only standalone resale barred",
+   "Section 20 keeps upstream licences for source material"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read s17 and s20: no commercial ban; derived output is TensorFeed's compilation, third-party snippets keep own terms. Ambiguous stands."
+ },
+ {
+  "id": "threatcluster",
+  "outcome": "confirmed",
+  "reasons": [
+   "Keyed API licensed for internal use only",
+   "Serving data to customers needs Business agreement"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read: 'Embedding or redistributing the data in a product or service you sell ... requires a Business agreement'. paid-only/limited stands."
+ },
+ {
+  "id": "trendsmcp",
+  "outcome": "confirmed",
+  "reasons": [
+   "s11 allows Output in reports, dashboards, product features",
+   "Standalone resale and customer keys banned; licence revocable"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read: attribution only requested ('ask (but do not require...)'), though 'except where otherwise stated'. Commercial yes stands."
+ },
+ {
+  "id": "tweetapi",
+  "outcome": "confirmed",
+  "reasons": [
+   "Own app or product allowed per AUP",
+   "X ToS bans scraping and TweetAPI passes compliance to user"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "X ToS: 'crawling or scraping the Services in any form, for any purpose without our prior written consent is expressly prohibited'. Ambiguous stands, leaning risky."
+ },
+ {
+  "id": "twitter",
+  "outcome": "disputed",
+  "reasons": [
+   "Commercial use beyond limited scale requires Enterprise plan",
+   "Agreement bans distributing Licensed Material; display only as permitted"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://developer.x.com/en/developer-terms/agreement",
+    "quote": "then you must apply (or already subscribe to) an Enterprise plan",
+    "field": "commercial_use"
+   },
+   {
+    "url": "https://developer.x.com/en/developer-terms/agreement",
+    "quote": "You may not disclose, reproduce, license, or otherwise distribute the Licensed Material (including any derivatives thereof) that you retrieve through the X API",
+    "field": "redistribution_display"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "paid-only",
+   "redistribution_display": "ambiguous"
+  },
+  "note": "Agreement also bars using X Content to target advertising outside X Applications; Commercial Use defined to include website advertising. Paid access required; Enterprise beyond prototype scale."
+ },
+ {
+  "id": "twitterapi",
+  "outcome": "confirmed",
+  "reasons": [
+   "Unofficial X data reseller; passes X terms compliance to user",
+   "X ToS bans scraping without consent; no commercial grant"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read own terms and X ToS/Developer Agreement (stricter upstream: scraping banned, commercial use needs Enterprise). Existing unknown/ambiguous fields stand."
+ },
+ {
+  "id": "twitterapis",
+  "outcome": "confirmed",
+  "reasons": [
+   "Unofficial X data reseller; passes X terms compliance to user",
+   "X ToS bans scraping without consent; no commercial grant"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read own terms and X ToS/Developer Agreement (stricter upstream: scraping banned, commercial use needs Enterprise). Existing unknown/ambiguous fields stand."
+ },
+ {
+  "id": "twittrapi",
+  "outcome": "confirmed",
+  "reasons": [
+   "Unofficial X data reseller; passes X terms compliance to user",
+   "X ToS bans scraping without consent; no commercial grant"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read own terms and X ToS/Developer Agreement (stricter upstream: scraping banned, commercial use needs Enterprise). Existing unknown/ambiguous fields stand."
+ },
+ {
+  "id": "urlhaus-urlhaus",
+  "outcome": "disputed",
+  "reasons": [
+   "Free access is for not-for-profit purposes",
+   "Commercial users need Spamhaus paid subscription"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://abuse.ch/terms-of-use/",
+    "quote": "Authenticated Users may access the Platforms for not-for-profit purposes, subject to usage limitations imposed by abuse.ch and/or Spamhaus.",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "paid-only"
+  },
+  "note": "s4.1 lists URLhaus among platforms where commercial use may require paid subscription; paid terms unread; CC0 applies only to Feodo, SSL Blacklist, YARAify."
+ },
+ {
+  "id": "urlscan-io",
+  "outcome": "disputed",
+  "reasons": [
+   "ToS: commercial use of service requires written permission",
+   "Commercial customers have separate terms (unread)"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://urlscan.io/terms/",
+    "quote": "Commercial use of any part of our service requires express written permission.",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "paid-only"
+  },
+  "note": "Free community tier is non-commercial; paid commercial plans exist (pricing page) so paid-only, not no. ToS also bars public display of content for commercial purposes without permission."
+ },
+ {
+  "id": "vpndetection",
+  "outcome": "confirmed",
+  "reasons": [
+   "Free plan lookups may be used commercially",
+   "Answers may not be redistributed or resold"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read ToS s4/s5: confirmed. Open databases CC BY-SA 4.0. Display to site visitors undefined, ambiguous stands."
+ },
+ {
+  "id": "web-of-trust",
+  "outcome": "disputed",
+  "reasons": [
+   "API terms say free only for non-commercial use",
+   "Commercial needs partnership or commercial offering"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://www.mywot.com/api-terms",
+    "quote": "The API is free for individuals and non-commercial use.",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "paid-only"
+  },
+  "note": "Free tier non-commercial; commercial offering exists by contact, its terms unread. Not 'no'."
+ },
+ {
+  "id": "weir",
+  "outcome": "confirmed",
+  "reasons": [
+   "Reddit/X reseller; ToS puts upstream compliance on user",
+   "X ToS bans scraping without consent; no commercial grant"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read own terms and X ToS/Developer Agreement (stricter upstream: scraping banned, commercial use needs Enterprise). Existing unknown/ambiguous fields stand."
+ },
+ {
+  "id": "xquik",
+  "outcome": "confirmed",
+  "reasons": [
+   "Unofficial X data reseller; passes X terms compliance to user",
+   "X ToS bans scraping without consent; no commercial grant"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read own terms and X ToS/Developer Agreement (stricter upstream: scraping banned, commercial use needs Enterprise). Existing unknown/ambiguous fields stand."
+ },
+ {
+  "id": "zen-quotes",
+  "outcome": "confirmed",
+  "reasons": [
+   "API docs promote caching and free use with attribution link",
+   "Site terms say personal non-commercial use only"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read homepage, docs and terms: genuine conflict, no API-specific commercial clause; ambiguous stands."
+ }
+]

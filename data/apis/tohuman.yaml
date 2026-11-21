@@ -13,7 +13,7 @@ sources:
   url: https://tohuman.io/ai-humanizer-api
   category: Text Analysis
 link_status: alive
-data_license: unknown
+data_license: Customer owns submitted text and output
 commercial_use: unknown
 storage_caching: unknown
 redistribution_display: unknown
@@ -21,5 +21,18 @@ attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://tohuman.io/terms
+applicable: false
+not_applicable_reason: AI text-rewriting service on the caller's text; not a data source.
+evidence:
+- field: data_license
+  url: https://tohuman.io/terms
+  quote: You retain full ownership of all text you submit to the Service and all humanized output.
+  checked_at: '2026-11-21'
+notes: Read the Terms of Service (2026-03-23). Users own the output; resale of access is forbidden without
+  permission; service currently free with possible paid plans later. No explicit statement on commercial
+  use, storage or display, so those stay unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

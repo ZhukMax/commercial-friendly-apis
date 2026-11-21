@@ -14,12 +14,34 @@ sources:
   category: Machine Learning
 link_status: alive
 data_license: unknown
-commercial_use: unknown
+commercial_use: 'yes'
 storage_caching: unknown
-redistribution_display: unknown
+redistribution_display: ambiguous
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Embedding/reranking/reader tool API (inference service), not a data source; Reader/Search outputs restructure third-party web content.
+api_terms_url: https://jina.ai/legal
+commercial_use_scope: any
+notes: Read https://jina.ai/legal (Terms and Conditions, last modified May 04, 2026; Jina AI GmbH now part of Elastic). Terms give no ownership claim or restriction on Output, except it may not be used
+  to build competing applications and scraping the Services is banned. Where Output is extracted third-party material (Reader/search), third-party IP stays; hence redistribution ambiguous. Storage/caching
+  of outputs and attribution not addressed (unknown). Free-tier key limits not verified.
+evidence:
+- field: commercial_use
+  url: https://jina.ai/legal
+  quote: claims no rights to such Output and imposes no restrictions on the Customer regarding the use of the Output
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://jina.ai/legal
+  quote: any third party intellectual property rights in the underlying Material remain unaffected
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://jina.ai/legal
+  quote: use any Output from the Services to develop applications or services that compete with the Services offered by Jina AI
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

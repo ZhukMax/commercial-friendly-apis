@@ -24,3 +24,13 @@ verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
 link_note: -> https://learn.microsoft.com/en-us/rest/api/resourcehealth
+applicable: false
+not_applicable_reason: Azure Resource Health REST API reports health of the caller's own Azure resources;
+  account-scoped.
+api_terms_url: https://www.microsoft.com/en-us/legal/terms-of-use
+notes: Redirects to learn.microsoft.com/en-us/rest/api/resourcehealth, a stub page ("Azure Resource health
+  REST API") requiring Azure authorization; it is not an Azure DevOps API, and the https:false in the
+  upstream entry is stale. Page carries no licence or terms for API output; Microsoft Online Services
+  terms for Azure not assessed. All terms fields unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

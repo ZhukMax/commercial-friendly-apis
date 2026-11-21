@@ -23,3 +23,11 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Content-scoring tool analysing the caller's own text/URL; not a data source.
+evidence: []
+notes: 'Read the home page (pricing: free 50 analyses/month, paid tiers). No terms or legal page found
+  (/terms, /legal, /terms-of-service return 404; only API docs and a RapidAPI link are linked), so all
+  unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

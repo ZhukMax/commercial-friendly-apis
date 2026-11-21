@@ -14,12 +14,59 @@ sources:
   category: Personality
 link_status: alive
 data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
-bulk_download: unknown
+commercial_use: ambiguous
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: 'no'
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://api.astroway.info/terms/
+commercial_use_scope: any
+attribution_text: Paid reports using AstroWay reference texts must carry an AstroWay authorship line and
+  the entertainment disclaimer
+rate_limits: 'Free plan: 10,000 credits/month (per pricing page)'
+evidence:
+- field: commercial_use
+  url: https://api.astroway.info/terms/
+  quote: Використовувати отримані дані для комерційних цілей згідно з обраним тарифом.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://api.astroway.info/terms/
+  quote: Кешувати відповіді API та зберігати розрахункові дані у власній системі без обмеження строку
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://api.astroway.info/terms/
+  quote: Безкоштовний ключ сайту дає право лише показувати тексти на вашому сайті.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://api.astroway.info/terms/
+  quote: Кожен платний звіт із цими текстами містить рядок авторства AstroWay і застереження, що контент
+    має розважальний характер.
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://api.astroway.info/terms/
+  quote: Використовувати API для bulk scraping або reverse engineering алгоритмів.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://api.astroway.info/pricing/
+  quote: Free ($0, 10 000 кредитів) на старті, без банківської картки.
+  checked_at: '2026-11-21'
+notes: 'API ToS (Ukrainian, effective 2026-04-12, read at api.astroway.info/terms/) allow commercial use
+  "according to the chosen plan", unlimited caching of calculated data, building paid products on top.
+  Reference texts (/v1/natal-texts) stay AstroWay property: a free site key only lets you show them on
+  your site; paid products (reports, PDFs, subscriptions) with those texts need a paid plan from Indie;
+  translated/edited texts must not be republished as a collection; paid reports must carry an AstroWay
+  authorship line and the entertainment disclaimer; AI disclaimers must not be removed. Resale of API
+  access (white-label proxy) and bulk scraping are forbidden. commercial_use is ambiguous because which
+  activities the free plan covers is plan-dependent and not spelled out; a plain ad-supported site showing
+  results is probably fine but not stated. The separate consumer-site terms (astroway.info) were not used.
+  Calculations rest on NASA JPL ephemerides (upstream not checked). auth set to apiKey (key-based plans;
+  a few public no-key endpoints exist).'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: ToS allows commercial use per plan; free key shows texts only; confirmed

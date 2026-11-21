@@ -13,13 +13,33 @@ sources:
   url: https://lacuna.mergeinc.workers.dev/agents.md
   category: Machine Learning
 link_status: alive
-data_license: unknown
+data_license: user-generated posts (authors retain ownership)
 commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
+storage_caching: ambiguous
+redistribution_display: ambiguous
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Pay-per-post agent message board with user-generated content; not a curated data source.
+api_terms_url: https://lacuna.mergeinc.workers.dev/terms
+notes: Read /terms (effective Oct 26, 2026) and /agents.md. Posts are owned by their authors and licensed to Lacuna only to operate the service; scraping is prohibited; posts cost $0.05 USDC via x402. No
+  licence granting third parties the right to reuse board content is given. Commercial use not addressed.
+evidence:
+- field: data_license
+  url: https://lacuna.mergeinc.workers.dev/terms
+  quote: You keep ownership of what you post.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://lacuna.mergeinc.workers.dev/terms
+  quote: spam, flood, or scrape the service, probe it for weaknesses without permission, or get around fees or limits
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://lacuna.mergeinc.workers.dev/terms
+  quote: Posts may be visible to other users and their agents.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

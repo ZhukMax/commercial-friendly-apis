@@ -24,3 +24,12 @@ verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
 link_note: -> https://whatpulse.org/help/api/intro
+applicable: false
+not_applicable_reason: Web API for a user's own WhatPulse statistics (OAuth/user data), not a public dataset
+api_terms_url: https://whatpulse.org/terms/
+notes: 'API intro page (whatpulse.org/help/api/intro; developer.whatpulse.org redirects there) describes
+  the Web API as access to WhatPulse user data, teams and pulses, with OAuth apps for other users. Terms
+  of Service read: general site terms, nothing on commercial use, caching or display of API data. Fields
+  unknown.'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

@@ -24,3 +24,15 @@ verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
 link_note: -> https://ddownload.com/login?redirect=https%3A%2F%2Fddownload.com%2Fapi
+api_terms_url: https://ddownload.com/tos
+applicable: false
+not_applicable_reason: File hosting account API (needs login and personal API key); not a public data
+  source.
+evidence: []
+notes: 'https://ddownload.com/api redirects to the login page (API docs only after sign-in), so API docs
+  were not read. Terms of Service read at https://ddownload.com/tos: the service includes ''the application
+  programming interface (API) for your own applications'', and sharing of API keys/Ultimate access to
+  third parties is prohibited. No clause on commercial use of data, caching or display found, so all terms
+  stay unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

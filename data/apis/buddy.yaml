@@ -23,3 +23,12 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: CI/CD platform API; account-scoped (manages own projects/pipelines).
+api_terms_url: https://buddy.works/terms-of-service
+notes: Buddy Terms of Service (buddy.works/terms-of-service) and API overview read. Terms are a customer
+  agreement for the hosted CI/CD service; its clause against commercial exploitation of Buddy-held content
+  concerns Buddy's own content, not API data. No data licence, caching or display clause; all terms fields
+  unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

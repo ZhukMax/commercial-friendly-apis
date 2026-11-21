@@ -14,12 +14,26 @@ sources:
   category: Anti-Malware
 link_status: alive
 data_license: unknown
-commercial_use: unknown
+commercial_use: paid-only
 storage_caching: unknown
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://docs.virustotal.com/reference/public-vs-premium-api
+commercial_use_scope: paid
+evidence:
+- field: commercial_use
+  url: https://docs.virustotal.com/reference/public-vs-premium-api
+  quote: The Public API must not be used in commercial products or services.
+  checked_at: '2026-11-21'
+notes: 'Read Public vs Premium API page: the free Public API (500 requests/day, 4/min) is barred from
+  commercial products or services; the Premium API is a licensed professional service (its licence terms
+  and anything on caching/redistribution/attribution were not readable: docs.virustotal.com/docs/terms-of-service
+  redirects to generic Google Cloud terms). paid-only is inferred from the Public API ban plus the existence
+  of the Premium tier, not from an explicit statement that Premium permits commercial use.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

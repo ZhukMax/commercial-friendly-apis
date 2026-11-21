@@ -18,12 +18,42 @@ sources:
   category: Social
 link_status: alive
 data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+commercial_use: 'no'
+storage_caching: limited
+redistribution_display: ambiguous
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: red
+confidence: high
 link_checked_at: '2026-11-21'
+commercial_use_scope: any
+api_terms_url: https://redditinc.com/policies/data-api-terms
+evidence:
+- field: commercial_use
+  url: https://redditinc.com/policies/data-api-terms
+  quote: If you are interested in using the Data APIs for commercial purposes, research in excess of rate
+    limits
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://redditinc.com/policies/data-api-terms
+  quote: you must immediately delete any data not required for it
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://redditinc.com/policies/data-api-terms
+  quote: solely as necessary to develop, deploy, distribute, and run your App to your App Users
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://redditinc.com/policies/data-api-terms
+  quote: You agree to display any attribution(s) required by Reddit as described in the Developer Documentation
+    for the Data APIs.
+  checked_at: '2026-11-21'
+notes: Read Reddit Data API Terms. Commercial use (including deriving revenue from the Data APIs) needs
+  a separate written agreement with Reddit, so a site with ads/affiliate links does not qualify under
+  the standard terms. The licence lets an App copy and display User Content to App Users, with deletion
+  of cached content on termination and on request. User Content stays subject to its owners' rights.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Commercial use needs separate Reddit agreement; red stands

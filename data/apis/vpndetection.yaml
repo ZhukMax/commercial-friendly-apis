@@ -13,13 +13,49 @@ sources:
   url: https://docs.vpndetection.io/api
   category: Security
 link_status: alive
-data_license: unknown
-commercial_use: unknown
+data_license: proprietary (VPNDetection ToS; Open databases CC-BY-SA-4.0)
+commercial_use: 'yes'
 storage_caching: unknown
-redistribution_display: unknown
+redistribution_display: ambiguous
 attribution_required: unknown
-bulk_download: unknown
+bulk_download: 'yes'
 self_host_option: unknown
-verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://vpndetection.io/terms
+commercial_use_scope: free-tier
+rate_limits: 'Free plan: no daily or monthly cap (per docs overview)'
+evidence:
+- field: commercial_use
+  url: https://vpndetection.io/terms
+  quote: the free plan, with an API key or without one, and those of its trial may be used for any purpose,
+    commercial included
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://vpndetection.io/terms
+  quote: their answers may not be redistributed, resold or used in a service that competes with ours,
+    such as another IP intelligence API or database
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://vpndetection.io/terms
+  quote: we grant you a limited, non-exclusive, non-transferable license to use the Service and its output
+    for your own business purposes
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://vpndetection.io/terms
+  quote: every account may download it at no charge
+  checked_at: '2026-11-21'
+notes: 'Read ToS (updated 20 Nov 2026, page is JS-rendered; read via Playwright). Free plan lookups may
+  be used for any purpose including commercial, but answers may not be redistributed or resold. Whether
+  showing an IP verdict to site visitors counts as redistribution is not defined, so redistribution_display
+  is ambiguous. A standard (paid) licence covers internal use only; serving per-address answers to outsiders
+  needs a redistribution licence by agreement. Only databases marked Open are CC BY-SA 4.0 (bulk_download
+  applies to those). Storage/caching of free-plan answers not addressed (unknown). Docs: free plan has
+  no daily or monthly cap.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: yellow
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read ToS s4/s5: confirmed. Open databases CC BY-SA 4.0. Display to site visitors
+  undefined, ambiguous stands.'

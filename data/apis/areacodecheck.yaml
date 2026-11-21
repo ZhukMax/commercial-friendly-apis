@@ -15,11 +15,28 @@ sources:
 link_status: alive
 data_license: unknown
 commercial_use: unknown
-storage_caching: unknown
+storage_caching: 'yes'
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://areacodecheck.com/terms
+rate_limits: 100 requests a day per IP address (keyless)
+notes: 'Terms of Use (updated Sept 27, 2026): free keyless API, 100 requests/day per IP, caching encouraged;
+  "No reselling of the free keyless API as your own service." Terms say nothing on commercial use or display,
+  so commercial_use and redistribution_display stay unknown. Data comes from public/open sources "each
+  used under its own licence" (About page lists them; not read), so upstream licences may impose attribution.'
+evidence:
+- field: storage_caching
+  url: https://areacodecheck.com/terms
+  quote: Please cache responses where you can.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://areacodecheck.com/terms
+  quote: currently 100 requests a day per IP address
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

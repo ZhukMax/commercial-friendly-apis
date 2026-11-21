@@ -13,7 +13,7 @@ sources:
   url: https://voxell.ai/docs/#forge
   category: Machine Learning
 link_status: alive
-data_license: unknown
+data_license: you retain rights to input data and resulting embeddings
 commercial_use: unknown
 storage_caching: unknown
 redistribution_display: unknown
@@ -21,5 +21,17 @@ attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Text embedding inference API (tool on your own input), not a data source
+api_terms_url: https://voxell.ai/terms/
+notes: Read https://voxell.ai/terms/ (updated Sept 3, 2026) via curl. Embeddings belong to the customer; input text is not stored by Voxell after the job. Terms bar reselling API access without written
+  agreement and reverse-engineering models. Nothing explicit about commercial use or caching of outputs, so those stay unknown.
+evidence:
+- field: data_license
+  url: https://voxell.ai/terms/
+  quote: You retain all rights to your input data and the resulting embeddings.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

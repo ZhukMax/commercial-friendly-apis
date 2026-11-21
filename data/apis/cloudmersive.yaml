@@ -25,5 +25,12 @@ attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Inference/tool API tied to a customer account and key, not a public data source.
+api_terms_url: https://portal.cloudmersive.com/terms-of-service
+notes: Read https://portal.cloudmersive.com/terms-of-service. API prohibitions include sublicensing an API to third parties and building an API client that is substantially the same as the APIs; outputs
+  may be inaccurate and the customer is responsible for them. No explicit statement on commercial use, storage or display of outputs, so core fields unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

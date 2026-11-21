@@ -2,8 +2,7 @@ id: hackerone
 name: HackerOne
 url: https://api.hackerone.com/
 category: Security
-description: The industry’s first hacker API that helps increase productivity towards creative bug bounty
-  hunting
+description: The industry’s first hacker API that helps increase productivity towards creative bug bounty hunting
 description_source: upstream
 auth: apiKey
 https: true
@@ -14,7 +13,7 @@ sources:
   url: https://api.hackerone.com/
   category: Security
 link_status: alive
-data_license: unknown
+data_license: proprietary; customer data and platform content under Customer Terms
 commercial_use: unknown
 storage_caching: unknown
 redistribution_display: unknown
@@ -24,3 +23,16 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Account-scoped API for a customer's or hacker's own programs and reports; not a public data source
+api_terms_url: https://www.hackerone.com/terms
+notes: 'Read https://api.hackerone.com/ (docs home: pull your program''s reports, award bounties, import findings) and https://www.hackerone.com/terms (Customer Terms and Conditions) via curl. The API operates
+  on your own program data behind credentials; terms give customers a licence to access and view platform content, not to republish it. No API-specific terms page was found, so commercial/storage/display
+  fields stay unknown.'
+evidence:
+- field: data_license
+  url: https://www.hackerone.com/terms
+  quote: HackerOne hereby grants to the Customer a non-exclusive, non-transferable, non-sublicensable, worldwide, royalty-free license to access and view the content
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

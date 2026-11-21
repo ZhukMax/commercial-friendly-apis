@@ -2,8 +2,7 @@ id: ipscanner
 name: IPScanner
 url: https://ipscanner.io/api-documentation
 category: Security
-description: IP network class (residential, mobile, hosting, VPN, residential proxy, Tor) with a confidence
-  score
+description: IP network class (residential, mobile, hosting, VPN, residential proxy, Tor) with a confidence score
 description_source: upstream
 auth: apiKey
 https: true
@@ -15,12 +14,26 @@ sources:
   category: Security
 link_status: alive
 data_license: unknown
-commercial_use: unknown
+commercial_use: paid-only
 storage_caching: unknown
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://ipscanner.io/terms
+commercial_use_scope: paid
+evidence:
+- field: commercial_use
+  url: https://ipscanner.io/terms
+  quote: We may ask an account that appears to be in commercial production use without credits to add a card and
+    credits
+  checked_at: '2026-11-21'
+notes: 'Terms of Service: the Free plan is for evaluation and personal or non-commercial projects; commercial production
+  use (including screening signups, logins, orders or reselling or redistributing results) requires prepaid credits.
+  Credits are pay-as-you-go, so commercial use is paid-only. Caching, display and attribution rules not found; reselling/redistributing
+  results is listed as commercial production use.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: yellow

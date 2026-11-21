@@ -23,3 +23,10 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Thai NLP inference API processing the caller's text; not a data source.
+evidence: []
+notes: 'Read the Swagger docs (JS-rendered, via browser): they list endpoints and contact dev@insightera.co.th
+  but contain no terms, licence or pricing statement. No terms page found; all unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

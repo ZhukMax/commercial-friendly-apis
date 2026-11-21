@@ -14,12 +14,24 @@ sources:
   category: Social
 link_status: alive
 data_license: unknown
-commercial_use: unknown
+commercial_use: 'no'
 storage_caching: unknown
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: red
+confidence: medium
 link_checked_at: '2026-11-21'
+commercial_use_scope: any
+api_terms_url: https://api.producthunt.com/v2/docs
+notes: API docs state the API must not be used for commercial purposes and direct business use to hello@producthunt.com
+  (a licence on request). OAuth2 token required; Product Hunt may rate-limit apps not following fair use.
+  Separate site Terms of Service were not read. Storage/display/attribution not addressed in the docs.
+evidence:
+- field: commercial_use
+  url: https://api.producthunt.com/v2/docs
+  quote: The Product Hunt API must not be used for commercial purposes.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

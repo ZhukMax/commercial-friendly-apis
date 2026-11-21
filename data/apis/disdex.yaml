@@ -15,11 +15,34 @@ sources:
 link_status: alive
 data_license: unknown
 commercial_use: unknown
-storage_caching: unknown
+storage_caching: ambiguous
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://disdex.io/terms
+rate_limits: No rate limit or key today; "a few requests a second is plenty"
+evidence:
+- field: storage_caching
+  url: https://disdex.io/terms
+  quote: Don't try to bypass the API's and MCP server's limits, overload the service, or mirror the index
+    wholesale.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://disdex.io/api
+  quote: No rate limit, no key.
+  checked_at: '2026-11-21'
+notes: Read disdex Terms of service (last updated November 20, 2026) and the API page. The terms forbid
+  mirroring the index wholesale and say server names, descriptions, icons and other details "come from
+  Discord and belong to their owners" (third-party content, so a data licence from disdex alone is not
+  sufficient). No statement on commercial use, display or attribution; storage is ambiguous (wholesale
+  mirroring banned, partial caching not addressed). Data is collected automatically from Discord and may
+  be wrong or outdated.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read terms: no mirroring, third-party owners; no commercial clause; unknown stands'

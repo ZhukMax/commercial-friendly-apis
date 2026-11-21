@@ -23,4 +23,11 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
-link_note: -> https://neurotechnologycloud.com/
+link_note: skybiometry.com redirects (302) to https://neurotechnologycloud.com/ which is a different AI-infrastructure services site with no mention of SkyBiometry.
+applicable: false
+not_applicable_reason: Face detection/recognition inference API; a tool, not a data source.
+notes: The documentation URL redirects to neurotechnologycloud.com; its homepage does not say it replaces or is the same service as SkyBiometry (no mention of the name), so no terms were transferred. Only
+  the homepage and its privacy-policy link were seen; no API terms found. All terms fields unknown; service status unclear.
+evidence: []
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

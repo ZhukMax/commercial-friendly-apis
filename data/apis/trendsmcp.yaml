@@ -13,13 +13,45 @@ sources:
   url: https://www.trendsmcp.ai/docs
   category: Social
 link_status: alive
-data_license: unknown
-commercial_use: unknown
+data_license: proprietary (Output is normalised/aggregated/derived from third-party signals)
+commercial_use: 'yes'
 storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+redistribution_display: ambiguous
+attribution_required: 'no'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://www.trendsmcp.ai/terms
+attribution_text: Data via Trends MCP (link to trendsmcp.ai), requested not required
+evidence:
+- field: commercial_use
+  url: https://www.trendsmcp.ai/terms
+  quote: You may include insights, scores, and excerpts from Output in work you create (for example a
+    report, dashboard, or product feature).
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.trendsmcp.ai/terms
+  quote: resell, sublicense, lease, white-label, republish, or redistribute the Output or the Service,
+    in whole or in substantial part, as a standalone product
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.trendsmcp.ai/terms
+  quote: we ask (but do not require, except where otherwise stated) that you attribute it
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.trendsmcp.ai/terms
+  quote: All rights not expressly granted to you are reserved.
+  checked_at: '2026-11-21'
+notes: Read Terms of Service (ss5-8, IP). Licence covers use of Output for own lawful purposes incl. dashboards/product
+  features; standalone resale/redistribution, ML training and giving customers keys are banned. Output
+  derives from third-party sources and users must comply with those sources terms (e.g. when displaying
+  next to branded content); pricing page lists a Redistribution licence on the custom plan. Storage not
+  addressed. Free-tier (100 requests/month) commercial status not separately stated.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read: attribution only requested (''ask (but do not require...)''), though ''except
+  where otherwise stated''. Commercial yes stands.'

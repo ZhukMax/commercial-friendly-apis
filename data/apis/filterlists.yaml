@@ -13,13 +13,25 @@ sources:
   url: https://filterlists.com
   category: Security
 link_status: alive
-data_license: unknown
+data_license: MIT (repository LICENSE; whether it covers directory data is not stated)
 commercial_use: unknown
 storage_caching: unknown
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+evidence:
+- field: data_license
+  url: https://github.com/collinbarrett/FilterLists/blob/main/LICENSE
+  quote: Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
+    documentation files
+  checked_at: '2026-11-21'
+notes: FilterLists is a directory of third-party filter/host lists. The GitHub repo (collinbarrett/FilterLists)
+  is MIT licensed, but that is a software licence; no data licence or API terms for filterlists.com were found (site
+  is a JS app, read GitHub README and LICENSE). The lists it points to carry their own licences, which were not
+  checked. Commercial use, storage and display of the directory data left unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: unknown

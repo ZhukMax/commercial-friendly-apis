@@ -13,14 +13,45 @@ sources:
   url: https://universe.roboflow.com
   category: Machine Learning
 link_status: alive
-data_license: unknown
-commercial_use: unknown
+data_license: per-project licences set by contributors; Roboflow ToS public-content licence is portal
+  default
+commercial_use: ambiguous
 storage_caching: unknown
-redistribution_display: unknown
+redistribution_display: ambiguous
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
+verdict: yellow
 confidence: low
 link_checked_at: '2026-11-21'
 link_note: HTTP 403 (blocked for bots, assumed alive)
+license_scope: portal-default
+api_terms_url: https://roboflow.com/terms
+notes: Read https://roboflow.com/terms (covers universe.roboflow.com; the Universe site itself returns
+  403 to curl, not bypassed) and docs.roboflow.com Universe page (no licence text). ToS Section 23 gives
+  every user a licence to content in public workspaces, but each Universe dataset/model carries its own
+  licence chosen by the contributor (not read), and ToS bars 'excessive downloads with ill-intent'. Commercial
+  use and storage never stated, so unknown. Model inference via API is account/key scoped. Portal default
+  only; per-dataset licences must be checked.
+evidence:
+- field: redistribution_display
+  url: https://roboflow.com/terms
+  quote: non-exclusive, perpetual license to access your User Content through the Website and Mobile Apps,
+    and to use, edit, modify, reproduce, distribute
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://roboflow.com/terms
+  quote: If you contribute or upload User Content to an existing project or dataset that is subject to
+    an open source or other open/public content license
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://roboflow.com/terms
+  quote: To the extent you have chosen the Public Plan, you will only use the Services for your own internal,
+    non-commercial use
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'ToS limits the Public Plan to non-commercial use; per-dataset licences still unread,
+  so not no | applied: commercial_use=ambiguous'

@@ -4,7 +4,7 @@ url: https://github.com/fingerprintjs/botd
 category: Security
 description: Botd is a browser library for JavaScript bot detection
 description_source: upstream
-auth: apiKey
+auth: none
 https: true
 cors: 'yes'
 sources:
@@ -13,13 +13,26 @@ sources:
   url: https://github.com/fingerprintjs/botd
   category: Security
 link_status: alive
-data_license: unknown
+data_license: MIT (software)
 commercial_use: unknown
 storage_caching: unknown
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Client-side JavaScript bot-detection library (MIT), not a data source
+evidence:
+- field: data_license
+  url: https://github.com/fingerprintjs/botd/blob/main/LICENSE
+  quote: Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
+    documentation files
+  checked_at: '2026-11-21'
+notes: README says the open-source Botd library runs 100% on the client, no server required, MIT licence with no
+  usage restrictions, so auth is none (the old apiKey refers to Fingerprint's paid server product, not assessed).
+  It is software, not a data feed.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: unknown

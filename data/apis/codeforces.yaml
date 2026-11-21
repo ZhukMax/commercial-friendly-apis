@@ -14,12 +14,41 @@ sources:
   category: Programming
 link_status: alive
 data_license: unknown
-commercial_use: unknown
+commercial_use: ambiguous
 storage_caching: unknown
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+applicable: true
+api_terms_url: https://codeforces.com/terms
+commercial_use_scope: any
+rate_limits: 1 request per 2 seconds
+evidence:
+- field: commercial_use
+  url: https://codeforces.com/terms
+  quote: selling, sublicensing and/or otherwise commercializing any Website material
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://codeforces.com/terms
+  quote: using this Website to engage in any advertising or marketing
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://codeforces.com/apiHelp
+  quote: API may be requested at most 1 time per two seconds.
+  checked_at: '2026-11-21'
+notes: 'Read /apiHelp (via Playwright in a fresh context: curl gets a Cloudflare challenge) and the site
+  Terms and Conditions (curl). apiHelp has no licence or usage terms; only the site-wide Terms apply,
+  whose Restrictions list forbids commercializing Website material and using the Website for advertising
+  or marketing. Whether API data falls under "Website material" is unclear, hence ambiguous. Storage,
+  display and attribution are not addressed: unknown. Problem statements and user data may also carry
+  third-party rights.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Site terms forbid commercializing/advertising use; applicability to API unclear; stays
+  ambiguous

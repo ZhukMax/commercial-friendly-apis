@@ -2,8 +2,7 @@ id: compliapi
 name: CompliAPI
 url: https://docs.compliapi.com
 category: Security
-description: Screen crypto addresses, emails, websites, IDs and countries against OFAC, EU, UK sanctions
-  lists
+description: Screen crypto addresses, emails, websites, IDs and countries against OFAC, EU, UK sanctions lists
 description_source: upstream
 auth: apiKey
 https: true
@@ -14,14 +13,41 @@ sources:
   url: https://docs.compliapi.com
   category: Security
 link_status: redirect
-data_license: unknown
-commercial_use: unknown
+data_license: proprietary; Content for internal business purpose only (underlying lists are government publications, not checked)
+commercial_use: ambiguous
 storage_caching: unknown
-redistribution_display: unknown
+redistribution_display: 'no'
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: red
+confidence: medium
 link_checked_at: '2026-11-21'
 link_note: -> https://docs.compliapi.com/introduction
+applicable: false
+not_applicable_reason: Screening/lookup tool (checks your inputs against sanctions lists) with account-scoped keys, not a redistributable dataset
+api_terms_url: https://compliapi.com/legal/terms
+commercial_use_scope: any
+notes: 'Listed URL docs.compliapi.com redirects to docs.compliapi.com/introduction (same service). Read https://compliapi.com/legal/terms (Turbo Labs LLC d/b/a CompliAPI, updated Oct 25, 2026) and the docs
+  introduction via curl. Terms are a generic template: Content is for internal business purposes only; public display, republishing and building a database from retrieved data need written permission; commercial
+  endeavours need approval, which sits oddly with paid plans, hence ambiguous. Storage = no systematic compilation is allowed, but ordinary per-request caching is not addressed, so left unknown. Free tier
+  exists. Underlying sanctions lists (OFAC, EU, UK, etc.) have their own public terms, not read.'
+evidence:
+- field: commercial_use
+  url: https://compliapi.com/legal/terms
+  quote: The Services may not be used in connection with any commercial endeavors except those that are specifically endorsed or approved by us.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://compliapi.com/legal/terms
+  quote: no part of the Services and no Content or Marks may be copied, reproduced, aggregated, republished, uploaded, posted, publicly displayed
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://compliapi.com/legal/terms
+  quote: Systematically retrieve data or other content from the Services to create or compile, directly or indirectly, a collection
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://compliapi.com/legal/terms
+  quote: The Content and Marks are provided in or through the Services "AS IS" for your internal business purpose only.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -16,10 +16,35 @@ link_status: alive
 data_license: unknown
 commercial_use: unknown
 storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+redistribution_display: ambiguous
+attribution_required: 'no'
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://statlyte.com/terms
+rate_limits: 'Fair use: 1,000 requests/day on open endpoints, 50,000/day on Pro'
+notes: Read https://statlyte.com/terms (updated 7 Aug 2026). Data is a record of providers' public list
+  prices read from their pricing pages (factual, but upstream pages not licence-checked). Terms bar reselling
+  the raw feed as a competing product and give no explicit grant for commercial use, storage or display
+  of the data, so those stay unknown/ambiguous. Pro $5/month, Business $99/month.
+evidence:
+- field: attribution_required
+  url: https://statlyte.com/terms
+  quote: Attribution is appreciated and not required.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://statlyte.com/terms
+  quote: Don't resell the raw feed as a competing product.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://statlyte.com/terms
+  quote: Fair use is 1,000 requests a day on open endpoints and 50,000 a day on Pro.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read terms: attribution ''appreciated and not required''; fields unknown/ambiguous
+  stand.'

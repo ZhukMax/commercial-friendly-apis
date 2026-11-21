@@ -14,12 +14,25 @@ sources:
   category: Security
 link_status: alive
 data_license: unknown
-commercial_use: unknown
+commercial_use: 'no'
 storage_caching: unknown
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+confidence: high
 link_checked_at: '2026-11-21'
+api_terms_url: https://hybrid-analysis.com/terms
+commercial_use_scope: any
+evidence:
+- field: commercial_use
+  url: https://hybrid-analysis.com/terms
+  quote: you shall not, use the Service, Content, or Reports for commercial purposes or for the benefit of any third
+    party
+  checked_at: '2026-11-21'
+notes: 'Terms of use (JS-rendered, read via Playwright) grant a licence solely for internal business security or
+  legitimate research purposes and forbid commercial use or use for the benefit of third parties. Pages read: /terms
+  and API docs; commercial or partner licences, if any, are outside the public terms.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: red

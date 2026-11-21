@@ -27,3 +27,19 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Free security/developer utility API (hashing, URL cleaning, malware/vulnerability/WHOIS
+  lookups) that wraps third-party sources; not a dataset of its own.
+api_terms_url: https://presend.pages.dev/api
+rate_limits: Fair use only; no SLA; heavy or automated traffic may be throttled
+notes: Read /api, /about and /privacy; /terms is a 404 and no licence statement or commercial-use clause
+  exists. Endpoints relay upstream sources (e.g. MalwareBazaar/abuse.ch, OSV.dev, GitHub, spam-network
+  lists) whose own terms apply and were not checked. Code is open source on GitHub (licence not read).
+  Terms fields unknown.
+evidence:
+- field: rate_limits
+  url: https://presend.pages.dev/api
+  quote: Fair-use only — no official SLA, and heavy or automated traffic may be throttled without notice.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

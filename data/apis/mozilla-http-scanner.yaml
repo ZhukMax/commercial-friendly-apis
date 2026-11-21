@@ -13,14 +13,28 @@ sources:
   url: https://github.com/mozilla/http-observatory/blob/master/httpobs/docs/api.md
   category: Security
 link_status: redirect
-data_license: unknown
+data_license: MPL-2.0 (software repository)
 commercial_use: unknown
 storage_caching: unknown
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
-link_note: -> https://github.com/mozilla/http-observatory/blob/main/httpobs/docs/api.md
+link_note: -> https://github.com/mozilla/http-observatory/blob/main/httpobs/docs/api.md (repo archived Nov 2024;
+  README points to MDN HTTP Observatory as replacement)
+applicable: false
+not_applicable_reason: Website security scanner tool (code repo archived/deprecated); scans a user-supplied site,
+  not a data source
+evidence:
+- field: data_license
+  url: https://github.com/mozilla/http-observatory/blob/main/LICENSE
+  quote: Mozilla Public License, version 2.0
+  checked_at: '2026-11-21'
+notes: The linked repo is archived and its README says it is deprecated in favour of a Node/JavaScript replacement
+  that backs the HTTP Observatory service on MDN. Terms of the MDN-hosted service were not read, so nothing is transferred.
+  Only the MPL-2.0 software licence of this repo is recorded.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: unknown

@@ -23,3 +23,12 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: 'Account-scoped carrier API: requires a UPS account and returns the customer''s
+  own shipment/address data.'
+evidence: []
+notes: UPS blocks curl (Access Denied). In a browser, developer.ups.com loaded and its legal page lists
+  the UPS Technology Agreement and End User Rights as a PDF; the PDF could not be read as text in this
+  session, so no terms field is confirmed. All unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

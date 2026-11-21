@@ -12,14 +12,63 @@ sources:
   name: Full Contact
   url: https://docs.fullcontact.com/
   category: Social
+- list: public-api-lists
+  name: Full Contact
+  url: https://www.fullcontact.com/developer/docs/
+  category: Social
 link_status: alive
-data_license: unknown
+data_license: proprietary (licensed for Permitted Uses in the Order Form during the Subscription Term)
 commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
+storage_caching: limited
+redistribution_display: ambiguous
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: red
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://www.fullcontact.com/privacy/services-agreement/
+data_license_url: https://www.fullcontact.com/privacy/services-agreement/
+cache_limit: Licence lasts for the Subscription Term; delete all FullContact Data within 30 days after
+  termination (Derived Insights may stay)
+evidence:
+- field: data_license
+  url: https://www.fullcontact.com/privacy/services-agreement/
+  quote: limited, non-exclusive, non-transferable, non-sublicensable license, during the applicable Subscription
+    Term, to use the FullContact Data solely for the Permitted Uses
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.fullcontact.com/privacy/services-agreement/
+  quote: no later than thirty (30) days following such termination or expiration, Customer will irrecoverably
+    delete
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.fullcontact.com/privacy/services-agreement/
+  quote: (vi) to not resell or redistribute any FullContact Data.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.fullcontact.com/privacy/services-agreement/
+  quote: at the end of the applicable Subscription Term, Customer must either renew the license to the
+    applicable FullContact Data or delete the FullContact Data
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.fullcontact.com/privacy/services-agreement/
+  quote: to not resell or redistribute any FullContact Data
+  checked_at: '2026-11-21'
+notes: 'Read FullContact Services Agreement (https://www.fullcontact.com/privacy/services-agreement/)
+  and Terms of Use. A paid B2B contract: use is limited to the Permitted Uses in each Order Form (not
+  public), the licence ends with the subscription (data deleted within 30 days), "Third Party End Users"
+  may use data through the Customer Application but reselling/redistributing FullContact Data is banned,
+  and training or improving AI models on it is banned. Commercial use cannot be judged without an Order
+  Form, so commercial_use stays unknown. Identity-resolution data about individuals also carries heavy
+  privacy/consent restrictions. Site www.fullcontact.com returns 403 to curl; pages read with a headless
+  browser. Merged duplicate entry `full-contact-fullcontact`.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+aliases:
+- full-contact-fullcontact
+verdict_override: red
+override_reason: 'Merged with full-contact-fullcontact: more cautious verdict kept.'
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read via browser: paid B2B, no resale/redistribution; red stands'

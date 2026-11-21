@@ -14,12 +14,28 @@ sources:
   category: URL Shorteners
 link_status: alive
 data_license: unknown
-commercial_use: unknown
+commercial_use: ambiguous
 storage_caching: unknown
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
+verdict: yellow
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://tinyurl.com/app/terms
+applicable: false
+not_applicable_reason: URL shortener tool; account-scoped API, not a public data source.
+commercial_use_scope: any
+evidence:
+- field: commercial_use
+  url: https://tinyurl.com/app/terms
+  quote: You agree not to reproduce, duplicate, copy, sell, resell, or exploit for any commercial purposes
+    any aspect of the Site or Service.
+  checked_at: '2026-11-21'
+notes: Read TinyURL Terms of Use and Service Agreement (effective Sept 17 2024) via Playwright (JS-rendered).
+  Clause bars exploiting "any aspect of the Site or Service" commercially, yet the paid plans are sold
+  to businesses; scope unclear, so commercial_use ambiguous. Caching/display of API data not addressed.
+  User content gets a broad licence to TinyURL.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

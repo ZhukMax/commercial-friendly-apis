@@ -13,13 +13,42 @@ sources:
   url: https://docs.greynoise.io/reference/getcommunityip
   category: Security
 link_status: alive
-data_license: unknown
-commercial_use: unknown
+data_license: proprietary (GreyNoise EULA)
+commercial_use: ambiguous
 storage_caching: unknown
-redistribution_display: unknown
+redistribution_display: 'no'
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://www.greynoise.io/terms
+commercial_use_scope: free-tier
+evidence:
+- field: commercial_use
+  url: https://www.greynoise.io/terms
+  quote: such use is limited to your internal business purposes or noncommercial purposes such as academic
+    research, if applicable.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.greynoise.io/terms
+  quote: sell, license, sublicense, assign, distribute, publish, transfer, or otherwise make available
+    the Platform to any third party except for Authorized Users
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.greynoise.io/terms
+  quote: the GreyNoise Data constitutes trade secrets of GreyNoise
+  checked_at: '2026-11-21'
+notes: Read the GreyNoise EULA (last modified May 7, 2025). Use of free and paid products is limited to
+  internal business or noncommercial purposes; the Platform (defined to include the GreyNoise API and
+  GreyNoise Data) may not be published or made available to third parties, and creating Derived Products
+  (applications relying on the Platform) is only allowed per the Quotation. Showing data on a public ad-supported
+  site is therefore not covered. commercial_use is ambiguous because internal business use is allowed.
+  The Community API page (docs.greynoise.io) only says it is a free tool giving a subset of IP context;
+  no separate community terms found.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: red
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: EULA internal/noncommercial, no making Platform available to third parties; red stands

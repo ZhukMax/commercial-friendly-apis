@@ -21,5 +21,15 @@ attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://github.com/a-know/Pixela/wiki/Terms-of-Service
+applicable: false
+not_applicable_reason: 'Account-scoped habit/graph tracker: stores the registered user''s own daily values,
+  not a public data source.'
+evidence: []
+notes: Read the Terms of Service (GitHub wiki, edited Dec 2021, linked as Pixela's terms) and the pixe.la
+  home page. The terms cover registration, token handling, prohibited acts and liability; they contain
+  no clause on commercial use, storage, display or data licence, so all stay unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

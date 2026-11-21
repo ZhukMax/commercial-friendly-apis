@@ -24,3 +24,6 @@ verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
 link_note: HTTP 403 (blocked for bots, assumed alive)
+notes: Site returned HTTP 403 Forbidden (Apache) to curl; no terms or licence page could be read, so everything stays unknown. Not retried through a browser to avoid bypassing the block.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

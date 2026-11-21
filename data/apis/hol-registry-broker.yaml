@@ -14,12 +14,33 @@ sources:
   category: Machine Learning
 link_status: alive
 data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
+commercial_use: ambiguous
+storage_caching: ambiguous
+redistribution_display: ambiguous
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
+verdict: yellow
 confidence: low
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Account/API-key registry search service for AI agents and MCP servers; terms cover HOL data selectively.
+api_terms_url: https://hol.org/points/legal/terms
+evidence:
+- field: redistribution_display
+  url: https://hol.org/points/legal/terms
+  quote: Sell, sublicense, redistribute, or supply HOL Plugin Data to third parties, or incorporate it into a commercial product
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://hol.org/points/legal/terms
+  quote: Systematically extract, scrape, download, or accumulate HOL Plugin Data, including through repeated small requests
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://hol.org/points/legal/terms
+  quote: A citation, attribution, publicly accessible URL, free endpoint, or ability to download a response does not itself grant permission
+  checked_at: '2026-11-21'
+notes: 'hol.org returns 403 to curl; read https://hol.org/points/legal/terms (Terms v2026-10-15.2, section 9A) via Playwright. Section 9A restricts "HOL Plugin Data" (scores, normalized catalog records
+  via APIs/feeds): bulk extraction, redistribution, or incorporation into commercial products need prior written permission; a published Hugging Face dataset is Apache-2.0. Unclear whether registry-broker
+  agent/MCP records are "HOL Plugin Data", hence ambiguous.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

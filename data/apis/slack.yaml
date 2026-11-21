@@ -18,13 +18,38 @@ sources:
   category: Social
 link_status: redirect
 data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
+commercial_use: ambiguous
+storage_caching: limited
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
 link_note: -> https://docs.slack.dev/
+applicable: false
+not_applicable_reason: Workspace-scoped messaging platform API; data belongs to customer organisations,
+  not an open data source.
+api_terms_url: https://slack.com/terms-of-service/api
+cache_limit: Only temporary handling essential for immediate operation of the app; delete promptly when
+  no longer needed
+evidence:
+- field: commercial_use
+  url: https://slack.com/terms-of-service/api
+  quote: You may not Commercially Distribute an Application that integrates with the Slack APIs unless
+    you are authorized to do so under a separate agreement
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://slack.com/terms-of-service/api
+  quote: Limited and temporary handling, caching, or storage of other organizations’ API Data retrieved
+    is allowed only to the extent it is essential
+  checked_at: '2026-11-21'
+notes: Read Slack API Terms of Service (slack.com/terms-of-service/api). The API only serves workspace
+  data to installed apps, so it is not a data source for a public commercial site. Commercial Distribution
+  (any app where users could pay, incl. freemium or a free app tied to a paid product) needs a Marketplace
+  listing or separate Salesforce/Slack agreement, hence ambiguous. The same page also forbids selling,
+  renting, redistributing or syndicating access to the APIs. Data licence and attribution not stated on
+  that page.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

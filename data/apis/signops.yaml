@@ -22,5 +22,13 @@ attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://signops.dev/terms/
+applicable: false
+not_applicable_reason: Authentication/notification platform; account-scoped API, not a data source.
+notes: 'Read https://signops.dev/terms/ (Veritas Tech Solutions, updated 2 Nov 2026): terms cover use
+  of SignOps, its API, SDKs and dashboard; customer keeps API keys secret and sends only to users of its
+  own app under the acceptable use policy. Nothing on caching/display of data as a data source; unknown.'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

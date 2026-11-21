@@ -2,8 +2,7 @@ id: application-environment-verification
 name: Application Environment Verification
 url: https://github.com/fingerprintjs/aev
 category: Security
-description: Android library and API to verify the safety of user devices, detect rooted devices and other
-  risks
+description: Android library and API to verify the safety of user devices, detect rooted devices and other risks
 description_source: upstream
 auth: apiKey
 https: true
@@ -14,13 +13,27 @@ sources:
   url: https://github.com/fingerprintjs/aev
   category: Security
 link_status: alive
-data_license: unknown
+data_license: MIT (repository, archived software)
 commercial_use: unknown
 storage_caching: unknown
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Android device-integrity library, archived and merged into Fingerprint Pro; not a public
+  data source
+evidence:
+- field: data_license
+  url: https://github.com/fingerprintjs/aev/blob/main/LICENSE
+  quote: Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
+    documentation files
+  checked_at: '2026-11-21'
+notes: 'README: the repository is archived and AEV features were merged into Fingerprint Pro for Android (paid commercial
+  product whose terms were not assessed). Only the MIT software licence of the archived repo is recorded; commercial
+  use/storage/display not applicable to a client library.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: unknown

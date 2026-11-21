@@ -25,3 +25,10 @@ verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
 link_note: -> https://trybrowserling.com/?from=sawolabs.com
+applicable: false
+not_applicable_reason: Passwordless authentication platform; account-scoped API, not a data source.
+notes: sawolabs.com redirects to https://trybrowserling.com/ (Browserling, a virtual browser product);
+  the page does not say it replaces Sawo Labs, so Browserling terms were not transferred. Terms for Sawo
+  Labs not found; unknown.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

@@ -23,4 +23,11 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
-link_note: -> https://snyk.io/platform/deepcode-ai/
+link_note: -> https://snyk.io/platform/deepcode-ai/ (now part of Snyk; auth none in source list is stale/unverified)
+applicable: false
+not_applicable_reason: AI code-review product (now Snyk DeepCode AI), a tool tied to Snyk accounts, not a public data source.
+api_terms_url: https://snyk.io/policies/terms-of-service/
+notes: 'deepcode.ai redirects to Snyk DeepCode AI; read Snyk Terms of Service (generic for Snyk services): customers may not make the Services available to third parties or commercially exploit them. Nothing
+  addresses a public data feed. Core fields unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

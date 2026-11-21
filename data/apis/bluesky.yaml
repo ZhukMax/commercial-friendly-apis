@@ -19,8 +19,22 @@ storage_caching: unknown
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
-self_host_option: unknown
+self_host_option: 'yes'
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
 link_note: -> https://bsky.network/
+api_terms_url: https://bsky.social/about/support/tos
+evidence:
+- field: self_host_option
+  url: https://bsky.network/
+  quote: Free and hostable.
+  checked_at: '2026-11-21'
+notes: 'docs.bsky.app now redirects to bsky.network (Bluesky Protocol Services, operated by Bluesky PBC).
+  Read Bluesky Terms of Service (last updated 14 August 2025): they state they "only apply to social networking
+  that happens on Bluesky" and not to other AT Protocol apps, and cover user accounts and posts, not API/data
+  reuse. The bsky.network page says the endpoints are open, free and hostable but links no data-use, caching
+  or commercial-use terms. Posts are user content (rights stay with users). All core fields unknown; not
+  assessed: atproto.com policies.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

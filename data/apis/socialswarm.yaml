@@ -24,3 +24,12 @@ verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
 link_note: -> https://social-swarm-main-aa77a19.zuplo.site/api
+applicable: false
+not_applicable_reason: Thread-draft generator (article to X thread), a tool API, not a data source; the
+  listed URL is a Zuplo developer portal.
+evidence: []
+notes: The listed URL is a Zuplo-hosted developer portal that shows only a sample Todo API template plus
+  a Generate threads endpoint; no terms of service, licence or usage policy found on it (/terms returns
+  404). All terms fields unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

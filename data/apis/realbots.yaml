@@ -13,13 +13,40 @@ sources:
   url: https://aibots.kaderagha.com/api-docs
   category: Security
 link_status: alive
-data_license: unknown
-commercial_use: unknown
+data_license: proprietary; results licensed for own websites, products and analytics
+commercial_use: 'yes'
 storage_caching: unknown
-redistribution_display: unknown
+redistribution_display: ambiguous
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Per-request verification tool (is this IP a real crawler); results about your own traffic, not a redistributable dataset
+api_terms_url: https://aibots.kaderagha.com/terms
+commercial_use_scope: any
+rate_limits: 'Free: 10,000 calls/month; Pro $19/month: 1,000,000 calls/month'
+notes: Read /api-docs and /terms (BotLedger, updated Oct 28, 2026; API host botledger.website) via curl. Commercial use of results in your own products is allowed; republishing/reselling the data or results,
+  bulk-downloading, and using outputs to build a competing dataset/AI model are barred. 'Do not mirror our data feed as a standalone competing feed'. Underlying data is crawler operators' published IP ranges
+  (their own terms not checked). Storage/caching of results not addressed.
+evidence:
+- field: commercial_use
+  url: https://aibots.kaderagha.com/terms
+  quote: Our free tools and published data files are free to use, including commercially, in your own websites, products and analytics.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://aibots.kaderagha.com/terms
+  quote: a personal, non-exclusive, non-transferable, revocable licence to use the Service and the results it returns to you for your own websites, products and analytics
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://aibots.kaderagha.com/terms
+  quote: copy, republish, resell, sublicense or otherwise commercially exploit our content, data or results, other than as part of your own products and services
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://aibots.kaderagha.com/terms
+  quote: 'Each plan has a monthly call quota (currently Free: 10,000 calls; Pro: 1,000,000 calls)'
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

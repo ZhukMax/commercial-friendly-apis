@@ -23,3 +23,12 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Account-scoped file/malware scanning service (customer data in, verdict out), not
+  a data source.
+evidence: []
+notes: 'Read Software Services Agreement (docs.scanii.com/article/143-terms-of-service): a licence to
+  use the Services for paying/free-tier customers; scanned files are Your Data. No terms on reuse of scan
+  results as published data. All data-use fields unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

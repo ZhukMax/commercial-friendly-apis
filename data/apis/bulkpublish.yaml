@@ -21,5 +21,21 @@ attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Social scheduling/publishing SaaS with an API for the customer's own accounts;
+  a tool, not a data source.
+api_terms_url: https://www.bulkpublish.com/terms
+rate_limits: Defined per plan (number of API keys, posts per day, storage)
+evidence:
+- field: rate_limits
+  url: https://www.bulkpublish.com/terms
+  quote: API usage is subject to rate limits and quotas defined by your plan
+  checked_at: '2026-11-21'
+notes: Read BulkPublish Terms of Service (last updated September 2, 2026). Users keep ownership of the
+  content they publish; reselling, sublicensing or white-labelling the service without written consent
+  is banned. No statement on commercial use of API output, caching, display or attribution, so core fields
+  stay unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

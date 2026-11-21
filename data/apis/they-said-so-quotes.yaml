@@ -4,7 +4,7 @@ url: https://theysaidso.com/api/
 category: Personality
 description: Quotes Trusted by many fortune brands around the world
 description_source: upstream
-auth: none
+auth: apiKey
 https: true
 cors: unknown
 sources:
@@ -13,13 +13,44 @@ sources:
   url: https://theysaidso.com/api/
   category: Personality
 link_status: alive
-data_license: unknown
+data_license: Not stated; API terms only. Quotes belong to their authors or estates
 commercial_use: unknown
 storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+redistribution_display: 'yes'
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://theysaidso.com/terms
+attribution_text: Attribute "They Said So" or link back to theysaidso.com when displaying quotes in publicly
+  accessible products
+evidence:
+- field: attribution_required
+  url: https://theysaidso.com/terms
+  quote: Attribute “They Said So” or link back to theysaidso.com when displaying quotes in publicly accessible
+    products
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://theysaidso.com/terms
+  quote: Attribute “They Said So” or link back to theysaidso.com when displaying quotes in publicly accessible
+    products
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://theysaidso.com/terms
+  quote: Not resell or redistribute raw API data or our quote database as a standalone product
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://theysaidso.com/terms
+  quote: Quotes displayed on the platform are the intellectual property of their respective authors or
+    their estates.
+  checked_at: '2026-11-21'
+notes: Terms of Service read at https://theysaidso.com/terms (section 3 'API Usage'). The API now requires
+  a valid API key (upstream list said auth none), so auth set to apiKey. Display in public products is
+  contemplated with attribution; resale or redistribution of raw data/quote database as a standalone product
+  is forbidden. The terms never say whether commercial/ad-supported use is permitted or how long data
+  may be cached, and plan terms were not read, so commercial_use and storage_caching stay unknown. The
+  terms also say the quotes are IP of their authors (third-party text rights not cleared by the service).
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -24,3 +24,12 @@ verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
 link_note: -> https://developer.webex.com/
+applicable: false
+not_applicable_reason: Team-collaboration platform API acting on user/org accounts; not a data source.
+notes: developer.ciscospark.com 301-redirects to developer.webex.com. The Webex for Developers Terms of
+  Service page (https://developer.webex.com/terms-of-service) was read but does not state that it replaces
+  the Cisco Spark service (it only mentions a spark-java-sdk repository), so no terms are transferred
+  to this entry; all fields stay unknown. For information only, that page bans using Cisco/others' data
+  in advertisements or ad targeting and bans reselling the Services outside an App.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

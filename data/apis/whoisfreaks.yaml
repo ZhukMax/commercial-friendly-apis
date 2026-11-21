@@ -15,12 +15,31 @@ sources:
   category: Security
 link_status: alive
 data_license: unknown
-commercial_use: unknown
+commercial_use: 'yes'
 storage_caching: unknown
-redistribution_display: unknown
+redistribution_display: 'yes'
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://whoisfreaks.com/terms
+notes: Read https://whoisfreaks.com/terms (Playwright; /terms-and-conditions is a 404). Display to end-users
+  of your application is allowed provided they use it only for their own personal use and you do not let
+  them store or distribute it; resale/OEM and redistribution of database editions need a separate licence;
+  database licences prohibit offering competing IP/geo API services. The "commercial use" sentence is
+  a general statement and free vs paid plan scope is not distinguished. Storage/caching by the licensee
+  not addressed. Attribution not mentioned.
+evidence:
+- field: commercial_use
+  url: https://whoisfreaks.com/terms
+  quote: Our services are intended for civilian and commercial use only.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://whoisfreaks.com/terms
+  quote: you are hereby permitted to receive, process, and display information retrieved from WhoisFreaks
+    API or Database to individual end-users of your application(s)
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -20,10 +20,28 @@ link_status: alive
 data_license: unknown
 commercial_use: unknown
 storage_caching: unknown
-redistribution_display: unknown
+redistribution_display: ambiguous
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Comment-platform API serving the publisher's own forums/threads; the comment content
+  belongs to users and publishers.
+api_terms_url: https://help.disqus.com/en/articles/1717102-terms-of-service
+evidence:
+- field: redistribution_display
+  url: https://help.disqus.com/en/articles/1717102-terms-of-service
+  quote: You may not use these or any other features of the Service itself to allow the display of any
+    portion of the Disqus database
+  checked_at: '2026-11-21'
+notes: Read Disqus Terms of Service (help.disqus.com article 1717102), section "Feeds and API", and the
+  Publisher Terms of Service. The API is part of the Service; it may not be used to display any portion
+  of the Disqus database or copy the service, and the Publisher terms ban harvesting/reading data in bulk
+  or passing the API through to third parties. The clause is aimed at mirroring the service, but it is
+  wide enough that display of API output on other sites is ambiguous. No explicit statement on commercial
+  use, caching or attribution, so those stay unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

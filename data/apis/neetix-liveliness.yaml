@@ -20,6 +20,16 @@ redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Face liveness / identity verification API processing the customer's own end-user images;
+  not a data source
+api_terms_url: https://liveliness.neetix.in/terms/
+evidence: []
+notes: 'Terms (JS-rendered, read via Playwright; effective 10 Aug 2026): prepaid credits, free trial for evaluation
+  only, forbids scraping, resale of raw API access and building a competing dataset; verification scores are inputs
+  to the customer''s decisions. No data licence, caching or display clauses. Core fields unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: unknown

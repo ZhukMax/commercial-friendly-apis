@@ -12,15 +12,39 @@ sources:
   name: Discord
   url: https://discord.com/developers/docs/intro
   category: Social
+- list: public-api-lists
+  name: Discord
+  url: https://discordapp.com/developers/docs/intro
+  category: Social
 link_status: redirect
 data_license: unknown
 commercial_use: unknown
-storage_caching: unknown
+storage_caching: limited
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
 link_note: -> https://docs.discord.com/developers/intro
+applicable: false
+not_applicable_reason: Bot/OAuth platform API acting on servers and users that authorise the app; not
+  an open data source.
+api_terms_url: https://support-dev.discord.com/hc/en-us/articles/8562894815383-Discord-Developer-Terms-of-Service
+cache_limit: API Data may be kept only while necessary for the app's approved functionality; delete on
+  Discord/user request or when the app stops
+evidence:
+- field: storage_caching
+  url: https://support-dev.discord.com/hc/en-us/articles/8562894815383-Discord-Developer-Terms-of-Service
+  quote: 'promptly delete the API Data when: (a) retaining it is no longer necessary for your Application’s
+    stated'
+  checked_at: '2026-11-21'
+notes: 'Read Discord Developer Terms of Service (support-dev.discord.com, redirect target of discord.com/developers/docs/policies-and-agreements/developer-terms-of-service).
+  Section 5.b: no sharing API Data with third parties except service providers, legal requirement or user
+  direction; deletion duties apply. Section 3 bars selling/redistributing/syndicating access to the APIs.
+  No explicit clause on commercial use or attribution, so those stay unknown. Merged duplicate entry `discord-discordapp`.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+aliases:
+- discord-discordapp

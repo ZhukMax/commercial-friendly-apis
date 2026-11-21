@@ -13,14 +13,54 @@ sources:
   url: https://airatecard.com/docs
   category: Machine Learning
 link_status: redirect
-data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
-bulk_download: unknown
+data_license: CC-BY-4.0 (per card; no bulk dataset redistribution)
+commercial_use: 'yes'
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: 'no'
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: high
 link_checked_at: '2026-11-21'
 link_note: -> https://airatecard.com/en/docs
+api_terms_url: https://airatecard.com/en/data-license
+commercial_use_scope: any
+cache_limit: One card at a time; no bulk copying/scraping of catalog or price history beyond published downloads/API limits
+attribution_text: 'Source: AI Rate Card (airatecard.com) with a link to the model/offer/seller page used'
+share_alike: 'no'
+rate_limits: Free/anonymous API limits per Connect page; lists max 50 rows per page; 429 over limit
+evidence:
+- field: data_license
+  url: https://airatecard.com/en/data-license
+  quote: may be used and quoted under the Creative Commons Attribution 4.0 International license (CC BY 4.0), including for commercial use
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://airatecard.com/en/data-license
+  quote: may be used and quoted under the Creative Commons Attribution 4.0 International license (CC BY 4.0), including for commercial use
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://airatecard.com/en/data-license
+  quote: may be used and quoted under the Creative Commons Attribution 4.0 International license (CC BY 4.0), including for commercial use
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://airatecard.com/en/data-license
+  quote: no bulk copying, scraping or redistribution of the dataset, through the site's pages, the API, or any other means
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://airatecard.com/en/data-license
+  quote: There is no bulk export of the catalog or its price history, through the API or otherwise
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://airatecard.com/en/data-license
+  quote: Name AI Rate Card as the source and link to the page of the model, offer or seller you used
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://airatecard.com/en/data-license
+  quote: Creative Commons Attribution 4.0 International license (CC BY 4.0)
+  checked_at: '2026-11-21'
+notes: Read /en/terms and /en/data-license. Individual cards (model/offer/seller) are CC BY 4.0 incl. commercial; the catalog/price history as a whole may not be bulk copied, scraped or redistributed, so
+  storing the full dataset is not allowed (limited). Downloads need a signed-in account. Names/logos of models and companies excluded from licence. Prices themselves are provider facts; users must show
+  the check date.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

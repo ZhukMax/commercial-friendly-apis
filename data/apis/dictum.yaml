@@ -19,8 +19,19 @@ storage_caching: unknown
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
-self_host_option: unknown
+self_host_option: 'yes'
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
 link_note: -> https://github.com/bitcldr/dictum
+applicable: false
+not_applicable_reason: GitHub repository of self-hostable software; the hosted API moved to quoterism.com
+evidence:
+- field: self_host_option
+  url: https://github.com/bitcldr/dictum
+  quote: License MIT
+  checked_at: '2026-11-21'
+notes: Entry points to a GitHub repo (redirect to github.com/bitcldr/dictum). Its README states the hosted API migrated to quoterism.com (see the quoterism entry; its terms say nothing about API use of
+  quotes). The repository code is MIT licensed (self-hostable); that does not license the quote data. Quote corpus rights unknown (third-party sayings).
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

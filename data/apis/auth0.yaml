@@ -23,3 +23,12 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://www.okta.com/terms-of-service
+applicable: false
+not_applicable_reason: Authentication platform; account-scoped API for managing own users/tenants, not
+  a data source.
+notes: Read Okta website Terms of Service (https://www.okta.com/terms-of-service, linked from auth0.com);
+  it covers the website only (no scraping/harvesting) and not the Auth0 subscription agreement (auth0.com/legal
+  URLs I tried returned "Not found"). Service terms for the API not read; unknown.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

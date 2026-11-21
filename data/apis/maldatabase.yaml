@@ -14,12 +14,24 @@ sources:
   category: Anti-Malware
 link_status: alive
 data_license: unknown
-commercial_use: unknown
+commercial_use: 'no'
 storage_caching: unknown
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: red
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://maldatabase.com/api-doc.html
+commercial_use_scope: any
+notes: Only the API documentation page was read (no separate ToS page found; /terms returns 404). Its
+  notice forbids commercial services and use for a third-party business, with partnership offers on request.
+  Dataset/feed licence, caching and display not stated, so unknown.
+evidence:
+- field: commercial_use
+  url: https://maldatabase.com/api-doc.html
+  quote: Maldatabase API must not be used in commercial services or for the benefit of a third party business
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

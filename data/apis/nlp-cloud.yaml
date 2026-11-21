@@ -2,8 +2,7 @@ id: nlp-cloud
 name: NLP Cloud
 url: https://nlpcloud.io
 category: Machine Learning
-description: NLP API using spaCy and transformers for NER, sentiments, classification, summarization,
-  and more
+description: NLP API using spaCy and transformers for NER, sentiments, classification, summarization, and more
 description_source: upstream
 auth: apiKey
 https: true
@@ -15,13 +14,27 @@ sources:
   category: Machine Learning
 link_status: redirect
 data_license: unknown
-commercial_use: unknown
+commercial_use: 'yes'
 storage_caching: unknown
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
 link_note: -> https://nlpcloud.com/
+applicable: false
+not_applicable_reason: Hosted NLP inference API (spaCy/transformers); a tool, not a data source.
+api_terms_url: https://nlpcloud.com/tos.html
+commercial_use_scope: any
+notes: Homepage redirects to https://nlpcloud.com/ . Terms at /tos.html (General Terms and Conditions of NLP Cloud, Alpine Connection LLC); curl gets 403 from Cloudflare so the page was read via Playwright
+  in a fresh context. The licence covers use of the Service itself for personal or commercial purposes; terms say nothing on ownership of outputs, storage or display of results, so those fields stay unknown.
+  Site says user data is not stored or used for training.
+evidence:
+- field: commercial_use
+  url: https://nlpcloud.com/tos.html
+  quote: to electronically access and use the Service for your personal or commercial purposes
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

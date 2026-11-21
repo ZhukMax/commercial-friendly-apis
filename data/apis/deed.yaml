@@ -13,7 +13,7 @@ sources:
   url: https://deed.page/docs
   category: Cloud Storage & File Sharing
 link_status: alive
-data_license: unknown
+data_license: User-owned content; no data licence (hosting service)
 commercial_use: unknown
 storage_caching: unknown
 redistribution_display: unknown
@@ -21,5 +21,19 @@ attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://deed.page/terms
+applicable: false
+not_applicable_reason: Static-file publishing/hosting service for the caller's own content; not a data
+  source.
+evidence:
+- field: data_license
+  url: https://deed.page/terms
+  quote: You keep all rights to what you publish.
+  checked_at: '2026-11-21'
+notes: Terms of service read at https://deed.page/terms (updated 4 Nov 2026). Free-plan sites carry a
+  'Published with deed.page' link; Hobby/Pro remove it. Acceptable use bans e.g. gambling, adult content
+  and spam. No statement on commercial use of the API itself was found, so unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

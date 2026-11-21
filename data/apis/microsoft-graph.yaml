@@ -15,12 +15,32 @@ sources:
 link_status: redirect
 data_license: unknown
 commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
+storage_caching: limited
+redistribution_display: 'no'
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: red
+confidence: medium
 link_checked_at: '2026-11-21'
 link_note: -> https://learn.microsoft.com/en-us/graph/api/overview
+api_terms_url: https://learn.microsoft.com/en-us/legal/microsoft-apis/terms-of-use
+applicable: false
+not_applicable_reason: Account-scoped API over a tenant's Microsoft 365 data, not a public data source.
+evidence:
+- field: storage_caching
+  url: https://learn.microsoft.com/en-us/legal/microsoft-apis/terms-of-use
+  quote: build databases or otherwise create copies of any data accessed or obtained using the Microsoft
+    APIs
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://learn.microsoft.com/en-us/legal/microsoft-apis/terms-of-use
+  quote: Redistribute or resell, or sublicense access to, the Microsoft APIs, any data obtained using
+    the Microsoft APIs
+  checked_at: '2026-11-21'
+notes: Read Microsoft APIs Terms of Use (last updated October 2025). The prohibition on creating copies
+  carries an exception "except as necessary to enable an intended usage scenario for your Application";
+  data belongs to the customer tenant. Commercial use of the API itself is not addressed in the part read,
+  so commercial_use is unknown.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

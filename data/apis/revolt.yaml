@@ -19,8 +19,24 @@ storage_caching: unknown
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
-self_host_option: unknown
+self_host_option: 'yes'
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
 link_note: -> https://developers.stoat.chat/
+applicable: false
+not_applicable_reason: Chat platform (bot/client API for Stoat, formerly Revolt) acting on accounts and
+  servers; not a data source.
+api_terms_url: https://stoat.chat/legal/terms
+evidence:
+- field: self_host_option
+  url: https://stoat.chat/legal/terms-stoat-supplement
+  quote: Stoat is not responsible for any content shared on self-hosted instances.
+  checked_at: '2026-11-21'
+notes: 'developers.revolt.chat redirects to developers.stoat.chat, whose FAQ states "Stoat (formerly Revolt)",
+  so Stoat''s terms are used. Read Stoat Terms of Service (last updated 30 Jun 2026) and the Stoat supplement:
+  they cover user content, community rules and self-hosted instances, but contain no clause on API/bot
+  use, data caching, commercial reuse or attribution. Core fields unknown. Source code is open on GitHub
+  (stoatchat).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

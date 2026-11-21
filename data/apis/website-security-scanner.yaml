@@ -23,3 +23,17 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Passive website security audit tool offered through RapidAPI; scans sites you submit,
+  not a dataset.
+api_terms_url: https://rapidapi.com/page/terms
+rate_limits: 'Basic (free): 2 requests/month hard limit, 1000 requests/hour'
+notes: Read the RapidAPI listing/pricing pages (Playwright) and RapidAPI Terms of Service. The provider
+  shows no own terms or licence. Terms fields unknown.
+evidence:
+- field: rate_limits
+  url: https://rapidapi.com/Hitler-HlDevZDwP/api/website-security-scanner-api/pricing
+  quote: 1000 requests per hour
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
