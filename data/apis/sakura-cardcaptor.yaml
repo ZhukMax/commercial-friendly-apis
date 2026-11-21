@@ -12,7 +12,7 @@ sources:
   name: Sakura CardCaptor
   url: https://github.com/JessVel/sakura-card-captor-api
   category: Games & Comics
-link_status: alive
+link_status: dead
 data_license: unknown
 commercial_use: unknown
 storage_caching: unknown
@@ -23,3 +23,9 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+link_note: Hosted API (protected-taiga-89091.herokuapp.com) returns Heroku "No such app"; only source code remains on GitHub
+notes: Read README of JessVel/sakura-card-captor-api; the repo has no licence file and states no terms. The hosted instance named in the README (protected-taiga-89091.herokuapp.com) returns Heroku "No such
+  app", so link_status is dead. Card data and images are hotlinked from the Sakura Cardcaptor fandom wiki (static.wikia.nocookie.net) and the underlying characters/art belong to CLAMP and licensors; the
+  API grants no rights to them. All terms unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

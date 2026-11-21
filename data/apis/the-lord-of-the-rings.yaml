@@ -14,12 +14,34 @@ sources:
   category: Video
 link_status: alive
 data_license: unknown
-commercial_use: unknown
+commercial_use: ambiguous
 storage_caching: unknown
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
+verdict: yellow
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://the-one-api.dev/documentation
+evidence:
+- field: commercial_use
+  url: https://the-one-api.dev/documentation
+  quote: You are welcome to use the data in your own apps, mixups and (fun) projects
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://the-one-api.dev/documentation
+  quote: This project is totally non-profit and fan-made!
+  checked_at: '2026-11-21'
+notes: No formal terms of use. Documentation says you are welcome to use the data in your own apps and
+  (fun) projects and that the project is non-profit and fan-made; About page calls it a non-commercial,
+  open-source project (this describes the project, not an explicit ban on commercial users). An access
+  key is required (free sign-up). Data was scraped from Kaggle datasets and covers books and Peter Jackson
+  films; Tolkien estate/Middle-earth Enterprises/studio rights apply and are not granted. Caching, display
+  and attribution are not addressed. Pages read via Playwright (JS-rendered).
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Docs say 'welcome to use' and fan-made non-profit; no terms, Tolkien/studio rights
+  not granted. Ambiguity stands.

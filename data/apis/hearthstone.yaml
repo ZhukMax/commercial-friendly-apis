@@ -16,7 +16,7 @@ sources:
   name: Hearthstone
   url: http://hearthstoneapi.com/
   category: Games & Comics
-link_status: alive
+link_status: dead
 data_license: unknown
 commercial_use: unknown
 storage_caching: unknown
@@ -27,3 +27,8 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+link_note: hearthstoneapi.com redirects to /lander and then a GoDaddy "for sale" page (Access Denied from GoDaddy)
+notes: http://hearthstoneapi.com/ serves a stub that redirects to /lander, which forwards to forsale.godaddy.com; the domain is for sale and the service is gone, so link_status is dead and terms unknown.
+  Hearthstone card data and art belong to Blizzard Entertainment; no API grants rights to them.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

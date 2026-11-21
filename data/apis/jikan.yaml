@@ -27,3 +27,8 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+notes: 'Jikan is an unofficial scraper API of MyAnimeList.net (docs: "Jikan is not affiliated with MyAnimeList.net"). Its docs link to https://jikan.moe/terms, which now returns 404, and the repo LICENSE
+  (MIT) covers the software only. The data originates from MyAnimeList, whose own API agreement restricts commercial use; that is a different service and was not transferred here. No terms for the Jikan
+  data were found, so all fields stay unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

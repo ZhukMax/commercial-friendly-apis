@@ -17,13 +17,47 @@ sources:
   url: https://developer.jamendo.com/v3.0/docs
   category: Music
 link_status: alive
-data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
+data_license: Creative Commons (licence set per track by each artist)
+commercial_use: paid-only
+storage_caching: limited
 redistribution_display: unknown
-attribution_required: unknown
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://devportal.jamendo.com/api_terms_of_use
+commercial_use_scope: paid
+cache_limit: No caching designed into the app or offline access; caching only as reasonably necessary for operation
+attribution_text: Credit Jamendo members as creators, credit JAMENDO as provider, direct backlink from each content item to
+  its Jamendo page
+evidence:
+- field: data_license
+  url: https://devportal.jamendo.com/api_terms_of_use
+  quote: Each Content available through the API is published on the JAMENDO Platform under a Creative Commons license.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://devportal.jamendo.com/api_terms_of_use
+  quote: The API may be used freely for non-commercial uses.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://devportal.jamendo.com/api_terms_of_use
+  quote: For any other type of use including but not limited to commercial uses please contact our sales team at licensing@jamendo.com
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://devportal.jamendo.com/api_terms_of_use
+  quote: Applications must not be specifically designed to cache the content nor offering an offline access to the content.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://devportal.jamendo.com/api_terms_of_use
+  quote: credits JAMENDO as the provider of the Content and provide a direct backlink from each Content in the Application
+    to the relevant Content's page
+  checked_at: '2026-11-21'
+notes: API Terms of Use read at https://devportal.jamendo.com/api_terms_of_use (last modified 2013; linked from the v3.0 docs).
+  Free use is non-commercial only; 'commercial use' is defined to include revenue from affiliation programs or advertising,
+  and commercial use needs a quoted licence from licensing@jamendo.com, so paid-only (price not published). Each track carries
+  its own Creative Commons licence chosen by the artist (some are NC), and the app must also respect it. Apps must not replicate
+  the Jamendo experience. Redistribution/display not separately stated beyond the CC licences, so unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

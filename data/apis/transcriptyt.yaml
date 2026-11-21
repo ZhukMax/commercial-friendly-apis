@@ -13,7 +13,7 @@ sources:
   url: https://transcript-yt.com/docs
   category: Video
 link_status: alive
-data_license: unknown
+data_license: third-party (YouTube content); service grants no rights in transcripts
 commercial_use: unknown
 storage_caching: unknown
 redistribution_display: unknown
@@ -21,5 +21,18 @@ attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://transcript-yt.com/terms
+evidence:
+- field: data_license
+  url: https://transcript-yt.com/terms
+  quote: Mention of YouTube does not give us or you any ownership of YouTube content, trademarks, or services
+  checked_at: '2026-11-21'
+notes: 'Read https://transcript-yt.com/terms (SPA, read via Playwright) and the docs page. The ToS puts all rights clearance
+  on the customer (copyright, YouTube ToS, storing and distributing output) and grants no licence to the transcript text,
+  which comes from YouTube captions of third-party creators. Commercial use, storage, display and attribution are not addressed,
+  so unknown. Quote: ''You are responsible for ensuring you have all rights, permissions, and legal grounds needed to submit
+  a link, retrieve data, store it, and use or distribute any output.'' Plans are credit-based; free plan is a one-time trial.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

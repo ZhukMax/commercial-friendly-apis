@@ -13,14 +13,71 @@ sources:
   url: https://www.opensubtitles.com/
   category: Video
 link_status: alive
-data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
-bulk_download: unknown
+data_license: none granted (user-submitted subtitles; rights-holder permission needed)
+commercial_use: 'yes'
+storage_caching: limited
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: 'no'
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: high
 link_checked_at: '2026-11-21'
 link_note: HTTP 403 (blocked for bots, assumed alive)
+api_terms_url: https://opensubtitles.stoplight.io/docs/opensubtitles-api/f43c0749230b3-terms-of-use-for-integrators
+commercial_use_scope: any
+attribution_text: Subtitles provided by OpenSubtitles.com (link to https://opensubtitles.com); required
+  on a free key, not on paid plans
+cache_limit: Only a copy kept for the user who requested it (their device or own server, no time limit);
+  no shared server-side copy served to other users, no pre-fetching to fill a cache or mirror
+rate_limits: 'Free key: 5 downloads per IP per 24h without login, then the signed-in user''s own quota;
+  paid plans from 2000 downloads/24h'
+evidence:
+- field: commercial_use
+  url: https://opensubtitles.stoplight.io/docs/opensubtitles-api/f43c0749230b3-terms-of-use-for-integrators
+  quote: Commercial use is allowed. No approval and no separate contract are needed.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://opensubtitles.stoplight.io/docs/opensubtitles-api/f43c0749230b3-terms-of-use-for-integrators
+  quote: Keep a copy on your servers and serve it to your other users
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://opensubtitles.stoplight.io/docs/opensubtitles-api/f43c0749230b3-terms-of-use-for-integrators
+  quote: Fetch subtitles nobody asked for, to fill a cache, a dataset or a mirror
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://opensubtitles.stoplight.io/docs/opensubtitles-api/f43c0749230b3-terms-of-use-for-integrators
+  quote: If you redistribute subtitles, sell them or train a model on them, you need the permission of
+    the rights holders, not ours.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://opensubtitles.stoplight.io/docs/opensubtitles-api/f43c0749230b3-terms-of-use-for-integrators
+  quote: Access to the API is not a licence to the subtitles.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://opensubtitles.stoplight.io/docs/opensubtitles-api/f43c0749230b3-terms-of-use-for-integrators
+  quote: 'Applications on a free key must show this credit:'
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://opensubtitles.stoplight.io/docs/opensubtitles-api/f43c0749230b3-terms-of-use-for-integrators
+  quote: Bulk downloading through the API.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://opensubtitles.stoplight.io/docs/opensubtitles-api/f43c0749230b3-terms-of-use-for-integrators
+  quote: On a free key, 5 downloads per IP address per 24 hours work without login.
+  checked_at: '2026-11-21'
+notes: 'Read ''Terms of use for integrators'' (last updated 13 October 2026) and the API Subscription
+  prices page on the Stoplight docs via Playwright (opensubtitles.com itself returned 403 to curl; /en/terms
+  is 404). Commercial use, including ad-supported apps, is allowed: a free key works when each user signs
+  in with their own account, a paid plan (from $20/month) is needed when one key serves anonymous users.
+  Subtitles are user-submitted and the API is explicitly not a licence to them; a commercial site cannot
+  keep a shared server-side library of subtitles or redistribute/sell them, and AI training is prohibited,
+  so display/redistribution of the subtitle text itself is ambiguous (rights holders'' permission needed).
+  Metadata exports may be copied.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read Terms of use for integrators via Playwright. Commercial use allowed (free key
+  if each user signs in; paid plan for anonymous). Servers may not keep shared copies for other users;
+  redistribution needs rights-holder permission. Yellow stands.

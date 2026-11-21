@@ -24,6 +24,14 @@ redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://anapioficeandfire.com/
+evidence: []
+notes: 'Site and README give no API terms; repo LICENSE.md (BSD-style, code) states: ''The A Song of Ice
+  And Fire series and its data is the property of George R.R. Martin. The data is used without claim of
+  ownership.'' So no rights to the underlying data are granted. Docs page returned an HTTP error; homepage
+  read.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: unknown

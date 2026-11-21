@@ -21,5 +21,11 @@ attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Account-scoped image hosting/CDN API that manages the customer's own uploaded files; it exposes no third-party dataset to reuse.
+notes: 'Read https://sirv.com/terms/ and the API docs. Sirv is an image hosting, optimisation and CDN service: the API operates on files in your own Sirv account (Sirv "does not claim ownership rights in
+  any digital content contained in your account"), so there is no data source to assess. Terms fields left unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

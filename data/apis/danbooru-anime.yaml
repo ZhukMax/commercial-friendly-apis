@@ -23,3 +23,7 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+notes: https://danbooru.donmai.us/terms_of_service and /wiki_pages/help:api returned HTTP 403 to curl and to a headless browser (bot block); not bypassed, so no terms were read. Danbooru hosts user-uploaded
+  fan art and anime images that belong to third-party artists/licensors; the API would not grant rights to them. Terms left unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

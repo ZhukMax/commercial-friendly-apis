@@ -17,13 +17,45 @@ sources:
   url: https://unsplash.com/developers
   category: Photography
 link_status: alive
-data_license: unknown
+data_license: 'Unsplash License (not read: unsplash.com/license is behind a bot challenge)'
 commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://help.unsplash.com/en/articles/2511245-unsplash-api-guidelines
+cache_limit: Images must be served from the API hotlinked URLs (photo.urls); self-hosting copies is not allowed under the guidelines
+attribution_text: Photo by <photographer> on Unsplash, with links to the photographer profile and Unsplash using ?utm_source=your_app_name&utm_medium=referral
+rate_limits: Demo mode 50 requests/hour; 1000 requests/hour after production approval
+evidence:
+- field: data_license
+  url: https://help.unsplash.com/en/articles/2511315-guideline-attribution
+  quote: While the Unsplash License doesn’t require attribution because some uses may make it hard or impossible to attribute in a meaningful way
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://help.unsplash.com/en/articles/2511245-unsplash-api-guidelines
+  quote: All API uses must use the hotlinked image URLs returned by the API under the photo.urls properties.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://help.unsplash.com/en/articles/2511245-unsplash-api-guidelines
+  quote: When displaying a photo from Unsplash, your application must attribute Unsplash, the Unsplash photographer, and contain a link back to their Unsplash profile.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://help.unsplash.com/en/articles/2511245-unsplash-api-guidelines
+  quote: When displaying a photo from Unsplash, your application must attribute Unsplash, the Unsplash photographer, and contain a link back to their Unsplash profile.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://unsplash.com/documentation
+  quote: For applications in demo mode, the Unsplash API currently places a limit of 50 requests per hour.
+  checked_at: '2026-11-21'
+notes: 'Read https://unsplash.com/developers and /documentation, and the API Guidelines articles on help.unsplash.com (attribution, hotlinking, download tracking) via Playwright. unsplash.com/api-terms,
+  /license and /terms are behind a proof-of-work bot challenge that was not bypassed, so the API Terms and the Unsplash License themselves were NOT read: commercial_use stays unknown (verdict unknown) although
+  nothing read forbids commercial apps. Guidelines read: images must be hotlinked from the API URLs, a download event must be sent to download_location when a user picks a photo, photographer + Unsplash
+  credit with profile link and utm parameters is mandatory, no unaltered resale (prints, products), no replicating Unsplash (wallpaper apps), API for non-automated authentic experiences, no Unsplash name
+  in the app name. Photos may show people, brands or artworks with rights the licence does not clear. Demo-mode apps need production approval for higher limits.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

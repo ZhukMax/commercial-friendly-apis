@@ -1,0 +1,235 @@
+[
+ {
+  "id": "shoof-aflam",
+  "outcome": "disputed",
+  "reasons": [
+   "Upstream TMDB forbids commercial use/sublicensing without written agreement",
+   "Own ToS forbids storing/copying content without written permission, conflicting with API page"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://www.themoviedb.org/api-terms-of-use",
+    "quote": "The license in Paragraph 1.A above does not permit any commercial use of TMDB, the TMDB APIs, or TMDB Content.",
+    "field": "commercial_use"
+   },
+   {
+    "url": "https://shoofaflam.tv/terms/",
+    "quote": "لا يجوز نسخ أي جزء من هذه المحتويات أو تخزينه أو إعادة نشره دون إذن خطّي مسبق",
+    "field": "storage_caching"
+   }
+  ],
+  "suggested": {
+   "storage_caching": "no"
+  },
+  "note": "API page says data is refreshed daily via TMDB and the site footer says it uses the TMDB API. Titles/posters/descriptions are TMDB content, and TMDB bars commercial use and sublicensing without a commercial agreement, so the 'free for commercial use' claim on shoofaflam.tv cannot be relied on. commercial_use stays ambiguous (suggest keeping it, or unknown); storage is forbidden by the site ToS without written permission. Verdict stays yellow at best."
+ },
+ {
+  "id": "shutterstock",
+  "outcome": "confirmed",
+  "reasons": [
+   "Paid licence only; 'gallery' display ban and no resale confirmed; dedicated API ToS not public, ambiguity stands."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Paid licence only; 'gallery' display ban and no resale confirmed; dedicated API ToS not public, ambiguity stands."
+ },
+ {
+  "id": "simkl",
+  "outcome": "disputed",
+  "reasons": [
+   "API rules page encourages caching, incl. 'forever for images', so storage is allowed",
+   "Per-item link back to Simkl is the display condition"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://api.simkl.org/api-rules",
+    "quote": "Cache by URL on the device — minutes for user data, hours for catalogs, forever for images.",
+    "field": "storage_caching"
+   },
+   {
+    "url": "https://api.simkl.org/api-rules",
+    "quote": "Wherever Simkl data appears in your app, link back to the Simkl page for that specific item",
+    "field": "redistribution_display"
+   }
+  ],
+  "suggested": {
+   "storage_caching": "yes",
+   "redistribution_display": "yes"
+  },
+  "note": "Re-read api.simkl.org/api-rules. commercial_use stays ambiguous: free under $150/month revenue, commercial licence at or above. Caching guidance is performance advice, not a licence grant, so 'limited' is also defensible. Posters/metadata are third-party studio rights; Simkl itself points developers to TVDB/TMDB for raw metadata."
+ },
+ {
+  "id": "songkick",
+  "outcome": "disputed",
+  "reasons": [
+   "Public API terms allow non-commercial use only and ban advertising-related products",
+   "Developer page requires a paid partnership licence, so no free commercial path"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://www.songkick.com/developer/api-terms-of-use",
+    "quote": "use the Songkick Data for non-commercial and informational use only.",
+    "field": "commercial_use"
+   },
+   {
+    "url": "https://www.songkick.com/developer/api-terms-of-use",
+    "quote": "involve sales such as contests, sweepstakes, barter, advertising, or pyramid schemes",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "no"
+  },
+  "note": "Re-read the API Terms (2022-01-26) in a fresh browser context. Section 3 defines commercial use broadly (monetary or other reward by any exploitation) and 4.8(d) lists advertising among prohibited activities. Only escape is a negotiated paid partnership whose terms are not public (developer page); if Max prefers, paid-only is the hedge. Not red merely for the free plan: the standard licence itself bans commercial use."
+ },
+ {
+  "id": "steam",
+  "outcome": "confirmed",
+  "reasons": [
+   "Valve terms re-read: licence limits display to end users' personal use via a registered app; commercial use neither granted nor banned. Ambiguity stands; SSA not read."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Valve terms re-read: licence limits display to end users' personal use via a registered app; commercial use neither granted nor banned. Ambiguity stands; SSA not read."
+ },
+ {
+  "id": "stromberg-quotes",
+  "outcome": "confirmed",
+  "reasons": [
+   "Re-read home page and Impressum: only generic private/non-commercial copy notice, no API terms; quotes are third-party TV content. Ambiguity stands."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read home page and Impressum: only generic private/non-commercial copy notice, no API terms; quotes are third-party TV content. Ambiguity stands."
+ },
+ {
+  "id": "sudoku100",
+  "outcome": "confirmed",
+  "reasons": [
+   "API page FAQ re-read: commercial use and any website explicitly allowed; only attribution is vague. Separate terms page not readable (app shell). Confirmed."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "API page FAQ re-read: commercial use and any website explicitly allowed; only attribution is vague. Separate terms page not readable (app shell). Confirmed."
+ },
+ {
+  "id": "tastedive",
+  "outcome": "confirmed",
+  "reasons": [
+   "Re-read API Terms in a fresh Playwright context (curl blocked by Cloudflare): licence for integration only, caching banned, Qloo owns API Data. Verdict stays unknown/poor fit."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read API Terms in a fresh Playwright context (curl blocked by Cloudflare): licence for integration only, caching banned, Qloo owns API Data. Verdict stays unknown/poor fit."
+ },
+ {
+  "id": "tetr-io",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms re-read: bars automated systematic extraction of Content and competing products; no API data licence. Ambiguity stands."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Terms re-read: bars automated systematic extraction of Content and competing products; no API data licence. Ambiguity stands."
+ },
+ {
+  "id": "the-lord-of-the-rings",
+  "outcome": "confirmed",
+  "reasons": [
+   "Docs say 'welcome to use' and fan-made non-profit; no terms, Tolkien/studio rights not granted. Ambiguity stands."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Docs say 'welcome to use' and fan-made non-profit; no terms, Tolkien/studio rights not granted. Ambiguity stands."
+ },
+ {
+  "id": "theaudiodb",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms re-read: free tier for development projects only, paid tier for apps and services; third-party content needs owner permission; artwork mostly user-made. Ambiguity stands."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Terms re-read: free tier for development projects only, paid tier for apps and services; third-party content needs owner permission; artwork mostly user-made. Ambiguity stands."
+ },
+ {
+  "id": "traveller-map",
+  "outcome": "confirmed",
+  "reasons": [
+   "API doc only states Mongoose copyright and links the non-commercial Fair Use Policy; ambiguity stands, treat as poor fit."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "API doc only states Mongoose copyright and links the non-commercial Fair Use Policy; ambiguity stands, treat as poor fit."
+ },
+ {
+  "id": "tvdb",
+  "outcome": "confirmed",
+  "reasons": [
+   "API page and ToS re-read: commercial allowed with attribution, Data may not be resold/distributed, images/trailers unlicensed. Display ambiguous stands."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "API page and ToS re-read: commercial allowed with attribution, Data may not be resold/distributed, images/trailers unlicensed. Display ambiguous stands."
+ },
+ {
+  "id": "ugcdrop",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms re-read: licence is for buyer's own marketing use, redistribution/scraping banned; not a catalogue data source. Yellow at best."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Terms re-read: licence is for buyer's own marketing use, redistribution/scraping banned; not a catalogue data source. Yellow at best."
+ },
+ {
+  "id": "vimeo",
+  "outcome": "confirmed",
+  "reasons": [
+   "Developer addendum re-read: content only to power app, not for advertising/profiling; no ads in player, no user fees without approval. Ambiguity stands."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Developer addendum re-read: content only to power app, not for advertising/profiling; no ads in player, no user fees without approval. Ambiguity stands."
+ },
+ {
+  "id": "wargaming-net",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms re-read: permanent copies forbidden, commercial exploitation of API Data needs written consent, ads allowed in free apps. Red verdict stands."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Terms re-read: permanent copies forbidden, commercial exploitation of API Data needs written consent, ads allowed in free apps. Red verdict stands."
+ },
+ {
+  "id": "wok",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms re-read: commercial integration allowed 'within the purchased limits'; free key coverage unclear; upstream Steam/FACEIT rights. Ambiguity stands."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Terms re-read: commercial integration allowed 'within the purchased limits'; free key coverage unclear; upstream Steam/FACEIT rights. Ambiguity stands."
+ },
+ {
+  "id": "xeno-canto",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms re-read in Playwright: per-recording CC, BY-NC-ND/NC-SA barred for commercial use; only BY/BY-SA safe. Ambiguity stands."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Terms re-read in Playwright: per-recording CC, BY-NC-ND/NC-SA barred for commercial use; only BY/BY-SA safe. Ambiguity stands."
+ },
+ {
+  "id": "yes-or-no-oracle",
+  "outcome": "confirmed",
+  "reasons": [
+   "API page explicitly grants commercial use; site ToS copy restriction is generic and conflict only affects display. Ambiguity stands."
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "API page explicitly grants commercial use; site ToS copy restriction is generic and conflict only affects display. Ambiguity stands."
+ }
+]

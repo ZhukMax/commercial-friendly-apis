@@ -4,7 +4,7 @@ Public API lists tell you whether an API needs a key, HTTPS or CORS. They don't 
 
 > ⚠️ **Not legal advice.** Terms change. Always re-read the linked terms before you ship.
 
-**2670** APIs listed (108 more kept for reference as not applicable) · **1311** checked · 🟢 167 · 🟡 604 · 🔴 94 · ⚪ 1805 · last check: 2026-11-21
+**2612** APIs listed (164 more kept for reference as not applicable) · **1581** checked · 🟢 174 · 🟡 692 · 🔴 119 · ⚪ 1627 · last check: 2026-11-21
 
 ## Legend
 
@@ -29,6 +29,7 @@ Scenario judged: a public website with ads and affiliate links that stores and r
 | [Aemet](https://opendata.aemet.es/centrodedescargas/inicio) | Weather and forecast data from Spain | 🟢 | ✅ | ✅ | required | [terms](https://www.aemet.es/es/nota_legal) | 2026-11-21 |
 | [AI Trainer Work](https://aitrainer.work/open-data) | Open AI training jobs (RLHF, data annotation, expert evaluation) from 20+ platforms, with pay | 🟢 | ✅ | ✅ | required | [terms](https://aitrainer.work/terms) | 2026-11-21 |
 | [AirportMiles](https://airportmiles.com/api) | Airport codes, distances, routes and passenger numbers as static JSON files | 🟢 | ✅ | ✅ | not required | [terms](https://airportmiles.com/api) | 2026-11-21 |
+| [Anycrap](https://anycrap.shop/developers) | 35,000+ absurdist AI-generated product concepts with names, descriptions, and images | 🟢 | ✅ | ✅ | not required | [terms](https://anycrap.shop/terms) | 2026-11-21 |
 | [ARC](https://www.arcreport.ai/developers) | Open data on whether AI shopping agents can reach checkout at specific online stores | 🟢 | ✅ | ✅ | required | [terms](https://www.arcreport.ai/terms) | 2026-11-21 |
 | [arXiv](https://info.arxiv.org/help/api/user-manual.html) | Curated research-sharing platform: physics, mathematics, quantitative finance, and economics | 🟢 | ✅ | ✅ | not required | [terms](https://info.arxiv.org/help/api/tou.html) | 2026-11-21 |
 | [AviationWeather](https://www.aviationweather.gov/dataserver) | NOAA aviation weather forecasts and observations | 🟢 | ✅ | ✅ | not required | [terms](https://www.weather.gov/disclaimer) | 2026-11-21 |
@@ -43,6 +44,7 @@ Scenario judged: a public website with ads and affiliate links that stores and r
 | [Buku Indonesia](https://github.com/khrlanamm/buku-indonesia) | Open data for Indonesian books by ISBN, author, and category | 🟢 | ✅ | ✅ | not required | [terms](https://github.com/khrlanamm/buku-indonesia) | 2026-11-21 |
 | [Bureau of Labor Statistics](https://www.bls.gov/developers/) | US labor statistics: inflation, unemployment, wages and productivity | 🟢 | ✅ | ✅ | required | [terms](https://www.bls.gov/developers/termsOfService.htm) | 2026-11-21 |
 | [CalcBloc](https://calcbloc.com/developers) | Take-home pay, employer cost and official tax tables for US, UK, AU, NZ, CA, IE, IN | 🟢 | ✅ | ✅ | required | [terms](https://calcbloc.com/developers/terms) | 2026-11-21 |
+| [CardZ Marketcap](https://cardzmarketcap.com/data) | Daily PSA 10 market cap, prices and population for Pokémon and One Piece cards | 🟢 | ✅ | ✅ | required | [terms](https://cardzmarketcap.com/data) | 2026-11-21 |
 | [City, Toronto Open Data](https://open.toronto.ca/) | Toronto (CA) City Open Data | 🟢 ⚠️ | ✅ | ✅ | required | [terms](https://open.toronto.ca/open-data-licence/) | 2026-11-21 |
 | [Clutch](https://clutchledger.com/data/) | Pregame NBA win probabilities for every game, graded after the final, as JSON and CSV | 🟢 | ✅ | ✅ | required | [terms](https://clutchledger.com/data/) | 2026-11-21 |
 | [CMS.gov](https://data.cms.gov/provider-data/) | Access to the data from the CMS - medicare.gov | 🟢 | ✅ | ✅ | not required | [terms](https://data.cms.gov/about) | 2026-11-21 |
@@ -51,6 +53,7 @@ Scenario judged: a public website with ads and affiliate links that stores and r
 | [ContaCLT](https://contaclt.com/dados/api/) | Brazilian payroll and labor calculations: net salary, INSS, IRRF, unemployment insurance | 🟢 | ✅ | ✅ | required | [terms](https://contaclt.com/dados/api/) | 2026-11-21 |
 | [Coronavirus in the UK](https://coronavirus.data.gov.uk/details/developers-guide) | UK Government coronavirus data, including deaths and cases by region | 🟢 | ✅ | ✅ | required | [terms](https://ukhsa-dashboard.data.gov.uk/access-our-data) | 2026-11-21 |
 | [COVID-19 Tracker Canada](https://api.covid19tracker.ca/docs/1.0/overview) | Details on Covid-19 cases across Canada | 🟢 | ✅ | ✅ | required | [terms](https://covid19tracker.ca/licensing.html) | 2026-11-21 |
+| [CropDen](https://github.com/geektao1024/social-media-image-sizes) | Image sizes, safe zones and upload limits for 14 social platforms and passport photos | 🟢 | ✅ | ✅ | required | [terms](https://github.com/geektao1024/social-media-image-sizes#license) | 2026-11-21 |
 | [Crossref Metadata Search](https://github.com/CrossRef/rest-api-doc) | Books & Articles Metadata | 🟢 | ✅ | ✅ | — | [terms](https://github.com/CrossRef/rest-api-doc) | 2026-11-21 |
 | [Cruise Itinerary](https://cruise-itinerary.com/docs) | Cruise sailings, day-by-day itineraries, weekly fare history, port traffic and a cruise price index | 🟢 | ✅ | ✅ | ❓ unclear | [terms](https://cruise-itinerary.com/terms) | 2026-11-21 |
 | [CycleCalcs](https://www.cyclecalcs.com/api.html) | Interpreted astronomy: sun and moon times, moon phases, planets, eclipses, seasons | 🟢 | ✅ | ✅ | not required | [terms](https://www.cyclecalcs.com/api/terms.html) | 2026-11-21 |
@@ -60,6 +63,7 @@ Scenario judged: a public website with ads and affiliate links that stores and r
 | [DataCite](https://support.datacite.org/docs/rest-api) | Search and retrieve DOI metadata for research datasets and publications | 🟢 | ✅ | ✅ | not required | [terms](https://support.datacite.org/docs/harvesting-datacite-doi-metadata) | 2026-11-21 |
 | [Deutscher Bundestag DIP](https://dip.bundestag.de/documents/informationsblatt_zur_dip_api_v01.pdf) | This API provides read access to DIP entities (e.g. activities, persons, printed material) | 🟢 | ✅ | ✅ | required | [terms](https://dip.bundestag.de/documents/nutzungsbedingungen_dip.pdf) | 2026-11-21 |
 | [Dino.markets](https://dino.markets/docs) | Matched Kalshi and Polymarket prediction-market data, cross-venue spreads | 🟢 | ✅ | ✅ | not required | [terms](https://dino.markets/terms/) | 2026-11-21 |
+| [Dungeons and Dragons](https://www.dnd5eapi.co/docs/) | Reference for 5th edition spells, classes, monsters, and more | 🟢 | ✅ | ✅ | required | [terms](https://www.dnd5eapi.co/) | 2026-11-21 |
 | [Dwellir](https://www.dwellir.com/docs) | RPC endpoints for 150+ blockchain networks, including Ethereum, Solana, Polkadot and Hyperliquid | 🟢 | ✅ | ✅ | — | [terms](https://www.dwellir.com/terms-of-service) | 2026-11-21 |
 | [Edgepedia](https://www.edgechat.ai/developers) | Search and read Edgepedia, a free and growing encyclopedia with citations | 🟢 | ✅ | ✅ | required | [terms](https://www.edgepedia.org/edgepedia/license) | 2026-11-21 |
 | [eeemoji](https://eeemoji.com/api) | Emoji metadata: names, keywords, categories, shortcodes and skin tones | 🟢 | ✅ | ✅ | ❓ unclear | [terms](https://eeemoji.com/api) | 2026-11-21 |
@@ -110,6 +114,7 @@ Scenario judged: a public website with ads and affiliate links that stores and r
 | [Nobel Prize](https://www.nobelprize.org/about/developer-zone-2/) | Open data about nobel prizes and events | 🟢 | ✅ | ✅ | not required | [terms](https://www.nobelprize.org/about/terms-of-use-for-api-nobelprize-org-and-data-nobelprize-org/) | 2026-11-21 |
 | [Oliver's mTOR Atlas](https://mtor-atlas.org/api/) | Curated mTOR research: studies by evidence type, pathway claims, open questions | 🟢 | ✅ | ✅ | required | [terms](https://mtor-atlas.org/terms/) | 2026-11-21 |
 | [One Map, Singapore](https://www.onemap.gov.sg/docs/) | Singapore Land Authority REST API services for Singapore addresses | 🟢 | ✅ | ✅ | required | [terms](https://www.onemap.gov.sg/legal/apitermsofservice.html) | 2026-11-21 |
+| [Online Sudoku - Sudokumax](https://sudokumax.com/developers) | Free Sudoku puzzles, printable Sudoku worksheets and online play: https://sudokumax.com | 🟢 | ✅ | ✅ | required | [terms](https://sudokumax.com/developers/terms) | 2026-11-21 |
 | [Open Data Minneapolis](https://opendata.minneapolismn.gov/) | Spatial (GIS) and non-spatial city data for Minneapolis | 🟢 ⚠️ | ✅ | ✅ | — | [terms](https://www.minneapolismn.gov/government/charter-and-code-of-ordinances/city-policies/open-data-policy/) | 2026-11-21 |
 | [Open Data NHS Scotland](https://www.opendata.nhs.scot) | Medical reference data and statistics by Public Health Scotland | 🟢 ⚠️ | ✅ | ✅ | required | [terms](https://www.opendata.nhs.scot/about) | 2026-11-21 |
 | [Open Ephemeris](https://openephemeris.com/docs) | Sub-arcsecond planetary positions, natal charts, transits, and Human Design from NASA JPL DE440 | 🟢 | ✅ | ✅ | — | [terms](https://openephemeris.com/terms) | 2026-11-21 |
@@ -133,6 +138,7 @@ Scenario judged: a public website with ads and affiliate links that stores and r
 | [Open Government, South Australian Government](https://data.sa.gov.au/) | South Australian Government Open Data | 🟢 ⚠️ | ✅ | ✅ | required | [terms](https://data.sa.gov.au/copyright) | 2026-11-21 |
 | [Open Government, Spain](https://datos.gob.es/en) | Spain Government Open Data | 🟢 ⚠️ | ✅ | ✅ | required | [terms](https://datos.gob.es/en/legal-notice) | 2026-11-21 |
 | [Open Government, Sweden](https://www.dataportal.se/en/dataservice/91_29789/api-for-the-statistical-database) | Sweden Government Open Data | 🟢 | ✅ | ✅ | not required | [terms](https://www.scb.se/en/services/open-data-api/) | 2026-11-21 |
+| [Open Guitar Chords](https://openguitarchords.com/data) | Free JSON data for guitar chords, scales and fretboard positions | 🟢 | ✅ | ✅ | not required | [terms](https://openguitarchords.com/data) | 2026-11-21 |
 | [Open Scholarships](https://scholarships.grudged.io) | Free, openly-licensed directory of US scholarships and student aid from official sources | 🟢 | ✅ | ✅ | required | [terms](https://scholarships.grudged.io) | 2026-11-21 |
 | [OpenChainBench](https://openchainbench.com/api/openapi.json) | Open dataset of crypto infrastructure benchmarks: RPC latency, oracles, bridges, prediction markets | 🟢 | ✅ | ✅ | required | [terms](https://openchainbench.com/terms) | 2026-11-21 |
 | [openFDA](https://open.fda.gov) | Public FDA data about drugs, devices and foods | 🟢 | ✅ | ✅ | not required | [terms](https://open.fda.gov/terms/) | 2026-11-21 |
@@ -152,6 +158,7 @@ Scenario judged: a public website with ads and affiliate links that stores and r
 | [Rope Drop News](https://ropedropnews.com/developers) | Live Disney and Universal theme park wait times, ride reliability, crowds, and Lightning Lane prices | 🟢 | ✅ | ✅ | required | [terms](https://ropedropnews.com/terms) | 2026-11-21 |
 | [SEC EDGAR Data](https://www.sec.gov/edgar/sec-api-documentation) | API to access annual reports of public US companies | 🟢 | ✅ | ✅ | not required | [terms](https://www.sec.gov/search-filings/edgar-search-assistance/accessing-edgar-data) | 2026-11-21 |
 | [SLF](https://github.com/slftool/slftool.github.io/blob/master/API.md) | German city, country, river, database | 🟢 | ✅ | ✅ | required | [terms](https://github.com/slftool/slftool.github.io/blob/master/API.md) | 2026-11-21 |
+| [Social Casino Index](https://socialcasinoindex.com/data/) | Daily-checked US social casino toplist: signup bonuses, payout times, minimums, sources | 🟢 | ✅ | ✅ | required | [terms](https://socialcasinoindex.com/data/) | 2026-11-21 |
 | [SoldSignal](https://www.aiplannermail.com/free-resale-price-api/) | Weekly resale prices for sneakers, consoles and watches with sample size and fees | 🟢 | ✅ | ✅ | required | [terms](https://www.aiplannermail.com/terms/) | 2026-11-21 |
 | [Spotwatts](https://spotwatts.com/en/api) | Nordic and Baltic day-ahead electricity prices, 15-minute and hourly, with VAT, for 15 price areas | 🟢 | ✅ | ✅ | required | [terms](https://spotwatts.com/en/api) | 2026-11-21 |
 | [StackRates](https://stackrates.ai/ask/) | VPS and cloud server prices from 46 providers, read daily from their own pricing pages and APIs | 🟢 | ✅ | ✅ | required | [terms](https://stackrates.ai/terms/) | 2026-11-21 |
@@ -194,8 +201,8 @@ Scenario judged: a public website with ads and affiliate links that stores and r
 
 | Category | APIs | 🟢 | 🟡 | 🔴 | ⚪ |
 |---|---|---|---|---|---|
-| [Animals](categories/animals.md) | 29 | 0 | 0 | 0 | 29 |
-| [Anime](categories/anime.md) | 23 | 0 | 0 | 0 | 23 |
+| [Animals](categories/animals.md) | 29 | 0 | 5 | 4 | 20 |
+| [Anime](categories/anime.md) | 23 | 0 | 3 | 3 | 17 |
 | [Anti-Malware](categories/anti-malware.md) | 21 | 0 | 0 | 0 | 21 |
 | [Art & Design](categories/art-design.md) | 26 | 3 | 15 | 2 | 6 |
 | [Authentication & Authorization](categories/authentication-authorization.md) | 8 | 0 | 0 | 0 | 8 |
@@ -214,26 +221,26 @@ Scenario judged: a public website with ads and affiliate links that stores and r
 | [Documents & Productivity](categories/documents-productivity.md) | 75 | 0 | 0 | 0 | 75 |
 | [Education](categories/education.md) | 4 | 1 | 0 | 0 | 3 |
 | [Email](categories/email.md) | 48 | 0 | 0 | 0 | 48 |
-| [Entertainment](categories/entertainment.md) | 21 | 0 | 0 | 0 | 21 |
+| [Entertainment](categories/entertainment.md) | 21 | 1 | 6 | 0 | 14 |
 | [Environment](categories/environment.md) | 37 | 5 | 10 | 4 | 18 |
 | [Events](categories/events.md) | 7 | 0 | 5 | 0 | 2 |
 | [Finance](categories/finance.md) | 126 | 10 | 49 | 15 | 52 |
 | [Food & Drink](categories/food-drink.md) | 39 | 3 | 17 | 2 | 17 |
 | [Fraud Prevention](categories/fraud-prevention.md) | 2 | 0 | 0 | 0 | 2 |
-| [Games & Comics](categories/games-comics.md) | 139 | 0 | 0 | 0 | 139 |
+| [Games & Comics](categories/games-comics.md) | 128 | 4 | 44 | 11 | 69 |
 | [Geocoding](categories/geocoding.md) | 138 | 9 | 70 | 2 | 57 |
 | [Government](categories/government.md) | 156 | 38 | 62 | 5 | 51 |
 | [Health](categories/health.md) | 57 | 9 | 24 | 4 | 20 |
 | [Jobs](categories/jobs.md) | 48 | 5 | 13 | 0 | 30 |
 | [Machine Learning](categories/machine-learning.md) | 66 | 0 | 0 | 0 | 66 |
-| [Music](categories/music.md) | 39 | 0 | 1 | 0 | 38 |
+| [Music](categories/music.md) | 29 | 1 | 11 | 4 | 13 |
 | [News](categories/news.md) | 26 | 0 | 16 | 3 | 7 |
 | [Open Data](categories/open-data.md) | 105 | 21 | 51 | 13 | 20 |
 | [Open Source Projects](categories/open-source-projects.md) | 7 | 0 | 3 | 1 | 3 |
 | [Patent](categories/patent.md) | 5 | 1 | 2 | 0 | 2 |
 | [Personality](categories/personality.md) | 36 | 0 | 0 | 0 | 36 |
 | [Phone](categories/phone.md) | 10 | 0 | 0 | 0 | 10 |
-| [Photography](categories/photography.md) | 42 | 0 | 0 | 0 | 42 |
+| [Photography](categories/photography.md) | 20 | 1 | 7 | 0 | 12 |
 | [Programming](categories/programming.md) | 7 | 0 | 0 | 0 | 7 |
 | [Science & Math](categories/science-math.md) | 61 | 12 | 26 | 1 | 22 |
 | [Security](categories/security.md) | 76 | 0 | 0 | 0 | 76 |
@@ -246,7 +253,7 @@ Scenario judged: a public website with ads and affiliate links that stores and r
 | [Transportation](categories/transportation.md) | 110 | 13 | 42 | 6 | 49 |
 | [URL Shorteners](categories/url-shorteners.md) | 24 | 0 | 0 | 0 | 24 |
 | [Vehicle](categories/vehicle.md) | 23 | 4 | 12 | 0 | 7 |
-| [Video](categories/video.md) | 72 | 0 | 1 | 0 | 71 |
+| [Video](categories/video.md) | 57 | 0 | 14 | 3 | 40 |
 | [Weather](categories/weather.md) | 49 | 10 | 17 | 5 | 17 |
 
 ## Data

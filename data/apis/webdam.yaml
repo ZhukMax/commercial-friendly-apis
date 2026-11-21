@@ -21,5 +21,11 @@ attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: 'Account-scoped digital-asset-management API: needs a customer admin account and exposes only that customer''s own assets.'
+notes: 'Read https://www.damsuccess.com/hc/en-us/articles/202134055-REST-API: "In order to use the API, you''ll need to create and use an admin account within the system." Webdam (now Acquia DAM) API reads/writes
+  an organisation''s own files; no public dataset. Terms fields left unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

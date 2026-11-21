@@ -21,9 +21,30 @@ data_license: unknown
 commercial_use: unknown
 storage_caching: unknown
 redistribution_display: unknown
-attribution_required: unknown
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://www.animenewsnetwork.com/encyclopedia/api.php
+attribution_text: List Anime News Network as the source and link to the relevant Encyclopedia entry (e.g.
+  "full details at Anime News Network")
+rate_limits: 1 request per second per IP; max 50 titles per batch
+notes: 'Read the Encyclopedia API page, which has a short Terms of Service: free of charge but you must
+  credit ANN as source and link to the Encyclopedia entry on any page displaying details. Suggests caching
+  details for a week as a usage pattern (a suggestion, not a licence). No statement on commercial use,
+  storage or redistribution; the ANN copyright policy page covers reposting of news only, and says images
+  belong to the copyright owners of the titles. Licensor/third-party rights in anime/manga data and images
+  not granted. Core terms unknown.'
+evidence:
+- field: attribution_required
+  url: https://www.animenewsnetwork.com/encyclopedia/api.php
+  quote: list Anime News Network as the source of the data
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://www.animenewsnetwork.com/encyclopedia/api.php
+  quote: The API is rate-limited to 1 request per second per IP address;
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

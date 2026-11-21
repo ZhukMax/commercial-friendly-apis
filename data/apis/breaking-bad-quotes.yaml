@@ -24,6 +24,13 @@ redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://github.com/shevabam/breaking-bad-quotes
+evidence: []
+notes: Repo has no licence file (GitHub API reports none) and the README has no terms for the hosted API
+  (api.breakingbadquotes.xyz). Quotes are third-party TV (AMC/Sony) script text; no rights granted. README
+  read.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: unknown

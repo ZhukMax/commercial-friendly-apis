@@ -13,13 +13,46 @@ sources:
   url: https://api-reference.shutterstock.com/
   category: Photography
 link_status: alive
-data_license: unknown
-commercial_use: unknown
+data_license: proprietary (per-asset Shutterstock licence)
+commercial_use: paid-only
 storage_caching: unknown
-redistribution_display: unknown
+redistribution_display: ambiguous
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
+verdict: yellow
 confidence: low
 link_checked_at: '2026-11-21'
+data_license_url: https://www.shutterstock.com/license
+api_terms_url: https://www.shutterstock.com/license
+commercial_use_scope: paid
+evidence:
+- field: commercial_use
+  url: https://www.shutterstock.com/license
+  quote: 'A STANDARD IMAGE LICENSE grants you the right to use Images: As a digital reproduction, including
+    on websites, in online advertising'
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.shutterstock.com/license
+  quote: the foregoing prohibits displaying Content as, or as part of, a "gallery" of content through
+    which third parties may search and select
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.shutterstock.com/license
+  quote: Resell, redistribute, provide access to, share or transfer any Visual Content except as specifically
+    provided herein.
+  checked_at: '2026-11-21'
+notes: 'Read the API reference (https://api-reference.shutterstock.com/, overview and subscription table)
+  and the Shutterstock License Agreement (https://www.shutterstock.com/license, general TOS; pages return
+  403 to bots but render in a browser, read with Playwright). The dedicated API terms of service (accepted
+  when registering an app) were NOT read: no public URL found. Content is third-party (contributors) and
+  sold per licence: commercial use of the images needs a paid licence/subscription; the API itself returns
+  watermarked previews. The licence forbids reselling/redistributing content and displaying it as a searchable
+  "gallery" for third parties, so a catalogue/affiliate site built on the previews is at best ambiguous.
+  Caching/storage of metadata and previews unknown. Editorial-only content cannot be used commercially.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Paid licence only; 'gallery' display ban and no resale confirmed; dedicated API ToS
+  not public, ambiguity stands.

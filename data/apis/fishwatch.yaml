@@ -13,7 +13,8 @@ sources:
   url: https://www.fishwatch.gov/developers
   category: Animals
 link_status: redirect
-data_license: unknown
+data_license: US federal government work, not subject to copyright in the United States (third-party content
+  excepted)
 commercial_use: unknown
 storage_caching: unknown
 redistribution_display: unknown
@@ -23,4 +24,30 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
-link_note: -> https://www.fisheries.noaa.gov/topic/sustainable-seafood
+link_note: fishwatch.gov/developers 301-redirects to fisheries.noaa.gov/topic/sustainable-seafood; no
+  API documentation found there, API appears discontinued
+commercial_use_scope: any
+api_terms_url: https://www.fisheries.noaa.gov/website-policies-and-disclaimers
+notes: 'fishwatch.gov and its /developers page now redirect to the NOAA Fisheries sustainable seafood
+  topic page; no API docs or endpoint found (fishwatch.gov/api/species also redirects), so the API looks
+  discontinued. Applied the NOAA Fisheries website copyright policy: government-created text and NOAA
+  photos are not copyrighted and NOAA photos may be used without permission with a request to credit "NOAA";
+  other images are used with permission of third-party holders and need their permission. Policy "encourages"
+  non-commercial/scientific/educational use, hence ambiguous. Storage/display/attribution left unknown
+  because the API terms themselves were not found.'
+evidence:
+- field: data_license
+  url: https://www.fisheries.noaa.gov/website-policies-and-disclaimers
+  quote: Information created by the U.S. government and presented on U.S. government websites is not subject
+    to copyright in the United States.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.fisheries.noaa.gov/website-policies-and-disclaimers
+  quote: We encourage the use of such information for non-commercial, scientific, and educational purposes.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'API endpoints now redirect to NOAA topic page; API appears discontinued; Terms applied
+  are website policy, not API terms | applied: commercial_use=unknown'

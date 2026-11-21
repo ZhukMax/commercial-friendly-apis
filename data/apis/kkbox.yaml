@@ -27,3 +27,8 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+notes: https://developer.kkbox.com is a JS single-page app; the Terms of Use link (https://developer.kkbox.com/#/tos) rendered
+  empty in Playwright (only header/footer, 'Copyright 2017'), so the terms could not be read. Catalogue content is licensed
+  music metadata and artwork from KKBOX's labels. All terms unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

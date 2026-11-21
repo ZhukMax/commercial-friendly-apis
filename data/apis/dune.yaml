@@ -24,6 +24,13 @@ redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://github.com/ywalia01/dune-api
+evidence: []
+notes: Repo has no licence (GitHub API reports none); README has no terms for the Heroku-hosted API (the-dune-api.herokuapp.com,
+  likely defunct as Heroku free tier ended; not tested). Quotes, books and film data are third-party copyrighted
+  material (Herbert estate, studios); no rights granted.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: unknown

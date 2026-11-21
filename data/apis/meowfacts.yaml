@@ -23,3 +23,8 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+notes: 'Read the GitHub repo: MIT licence for code only; README documents the endpoint but gives no terms
+  of use or licence for the facts, and the hosted instance (heroku) has no stated usage policy. Terms
+  fields left unknown.'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

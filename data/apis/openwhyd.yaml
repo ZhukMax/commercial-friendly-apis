@@ -23,7 +23,25 @@ storage_caching: unknown
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
-self_host_option: unknown
+self_host_option: 'yes'
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+evidence:
+- field: self_host_option
+  url: https://openwhyd.org/
+  quote: Openwhyd is maintained collaboratively, under the MIT License.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://openwhyd.github.io/openwhyd/API
+  quote: 'Please use these URLs responsibly: add a reasonable delay between requests, in order to not
+    put too much pressure on our server.'
+  checked_at: '2026-11-21'
+rate_limits: No numeric limit; "reasonable delay between requests" requested
+notes: API doc describes a Data Export API (no auth) for publicly posted playlists/tracks. The site terms
+  link (/tos) redirects to the privacy policy, which contains no data-reuse, commercial-use, caching or
+  attribution clause. The data is user-curated lists of links to third-party streams (YouTube, SoundCloud,
+  etc.) with track titles; the API grants no rights to the underlying music or platform content. Source
+  code is MIT (self-hostable). Core terms unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -23,3 +23,7 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+notes: 'No terms, licence or usage-policy page found: the site (attackontitanquotes.vercel.app, endpoint https://aot-api.vercel.app/quote) has only Documentation/Demo/About sections (read via headless browser).
+  The content is quotes from the Attack on Titan series, which carry third-party rights (author/licensors); the API grants no rights to them. Nothing confirmed, so all terms stay unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

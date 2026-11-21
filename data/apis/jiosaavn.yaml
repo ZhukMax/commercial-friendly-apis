@@ -21,5 +21,18 @@ attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Unofficial open-source scraper wrapper (Flask app) for JioSaavn, to be self-hosted;
+  not a hosted data service with its own terms.
+notes: Repo README calls itself unofficial; repo code is MIT (same licence text as the Gaana repo), which
+  covers the code only. Song metadata, lyrics, download links and artwork belong to JioSaavn and rights
+  holders (labels/publishers); no grant of rights to that content and JioSaavn terms were not read.
+evidence:
+- field: notes
+  url: https://raw.githubusercontent.com/cyberboysumanjay/JioSaavnAPI/master/README.md
+  quote: JioSaavn API [Unofficial]
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -20,6 +20,15 @@ redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://github.com/F4R4N/movie-quote
+applicable: false
+not_applicable_reason: Self-hosted open-source software (Django app run locally); no hosted API or data
+  terms.
+evidence: []
+notes: Django REST app, README only shows how to run it locally (no hosted instance named); GPL-3.0 code.
+  Self-hosted software, not a hosted data service; quotes are third-party film/TV text.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: unknown

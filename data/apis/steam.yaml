@@ -13,13 +13,64 @@ sources:
   url: https://steamapi.xpaw.me/
   category: Games & Comics
 link_status: alive
-data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+data_license: proprietary (Valve Steam Web API Terms of Use)
+commercial_use: ambiguous
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://steamcommunity.com/dev/apiterms
+commercial_use_scope: any
+cache_limit: Only data about a user as requested by that user; inform the user what is stored and where;
+  100,000 calls/day
+attribution_text: Valve name, logo and links per Steam Web API branding requirements; links must not be
+  nofollow
+rate_limits: 100,000 calls per day
+verdict_override: yellow
+override_reason: Terms require Valve brand and links (no nofollow) on pages using the data; licence is
+  for presenting data to end users for personal use and silent on commercial use
+evidence:
+- field: redistribution_display
+  url: https://steamcommunity.com/dev/apiterms
+  quote: distribute Steam Data to end users for their personal use via your Application
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://steamcommunity.com/dev/apiterms
+  quote: You will inform the end user about any Steam Data you will store
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://steamcommunity.com/dev/apiterms
+  quote: You shall not tag links to Valve hereunder with a "nofollow" attribute
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://steamcommunity.com/dev/apiterms
+  quote: You are limited to one hundred thousand (100,000) calls to the Steam Web API per day.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://steamcommunity.com/dev/apiterms
+  quote: Valve makes the Steam Web API available free, and you understand that Valve may change or terminate
+    the Steam Web API entirely
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://steamcommunity.com/dev/apiterms
+  quote: The Steam Web APIs are Valve's service allowing licensees to retrieve certain data regarding
+    Steam and games available via Steam
+  checked_at: '2026-11-21'
+notes: The entry URL (steamapi.xpaw.me) is a community documentation site by xPaw for Valve's Steam Web
+  API; terms are Valve's Steam Web API Terms of Use (last updated July 2010), which I read at steamcommunity.com/dev/apiterms.
+  The licence lets you present Steam Data to end users for their personal use via a registered Application,
+  with an API key personal to you; user data may only be retrieved as requested by the user and stored
+  with notice; 100,000 calls/day; Valve brand and links (no nofollow) required; terms also point to the
+  Steam Subscriber Agreement and Web API documentation (not read). Commercial use is neither granted nor
+  forbidden, hence ambiguous. Game metadata/artwork belongs to publishers and developers; the API grants
+  no rights to it.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: yellow
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Valve terms re-read: licence limits display to end users'' personal use via a registered
+  app; commercial use neither granted nor banned. Ambiguity stands; SSA not read.'

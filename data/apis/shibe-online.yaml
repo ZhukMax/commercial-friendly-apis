@@ -12,7 +12,7 @@ sources:
   name: Shibe.Online
   url: http://shibe.online/
   category: Animals
-link_status: alive
+link_status: dead
 data_license: unknown
 commercial_use: unknown
 storage_caching: unknown
@@ -23,3 +23,9 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+link_note: shibe.online serves a parked-domain redirect page (parklogic); API endpoint /api/shibes returns
+  nothing
+notes: http://shibe.online/ returns a generic "Redirecting..." parked-domain page and the API endpoint
+  returned no data, so the service appears gone. Terms unknown.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

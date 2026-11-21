@@ -20,6 +20,14 @@ redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+evidence: []
+notes: 'Read via Playwright: this is an unofficial third-party RapidAPI listing (provider Fabio Theophilo,
+  ''get-bundles'' endpoint, BASIC plan $0) that exposes Humble Bundle data; it is not an official Humble
+  Bundle API. The listing page names a ''Terms of Use'' link but I could not read the provider''s terms;
+  RapidAPI''s general marketplace terms and Humble Bundle''s own terms/ownership of bundle data and artwork
+  were not assessed. All core terms unknown. Requires a RapidAPI key.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: unknown

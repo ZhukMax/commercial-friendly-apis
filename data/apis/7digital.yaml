@@ -24,3 +24,12 @@ verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
 link_note: -> https://docs.massivemusic.com/reference/introduction
+api_terms_url: https://docs.massivemusic.com/reference/introduction
+notes: 'Catalogued URL redirects to https://docs.massivemusic.com/reference/introduction; the page itself says ''MassiveMusic
+  previously traded as 7digital'' and the API base URL is still api.7digital.com, so it is the same service (read via Playwright).
+  The docs are technical only: a B2B licensed-catalogue platform (download/streaming/radio services, usage-type licensing,
+  partner credentials); no public terms, licence or commercial-use clause is published there. The caching page says responses
+  can be cached locally using HTTP cache headers, which is technical guidance and not a licence grant. Catalogue metadata,
+  artwork and audio belong to labels. All terms unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -14,12 +14,39 @@ sources:
   category: Entertainment
 link_status: alive
 data_license: unknown
-commercial_use: unknown
+commercial_use: 'yes'
 storage_caching: unknown
 redistribution_display: unknown
-attribution_required: unknown
+attribution_required: ambiguous
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
+verdict: yellow
 confidence: low
 link_checked_at: '2026-11-21'
+commercial_use_scope: any
+attribution_text: justmeme.wtf (requested when possible)
+rate_limits: 60 requests per minute per IP address
+evidence:
+- field: commercial_use
+  url: https://justmeme.wtf/api-docs
+  quote: The API is free for personal and commercial use.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://justmeme.wtf/api-docs
+  quote: Please include attribution to justmeme.wtf when possible.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://justmeme.wtf/api-docs
+  quote: 60 requests per minute per IP address.
+  checked_at: '2026-11-21'
+notes: 'Read only the API docs/FAQ page (https://justmeme.wtf/api-docs); /terms returns 404, so there
+  is no formal terms page. The FAQ says free for personal and commercial use and asks for attribution
+  when possible (a request, so ambiguous). The 2400+ templates are well-known meme images (studio stills,
+  photographers, meme authors) and the docs grant no rights to them; caching, storage and redistribution
+  of templates are not addressed (unknown). Low confidence: one FAQ line, no ToS.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-fetched api-docs: still no terms page or rights statement; templates are third-party
+  meme images. Consider downgrading commercial_use to ambiguous if strict about missing ToS.'

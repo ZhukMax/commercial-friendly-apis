@@ -15,11 +15,36 @@ sources:
 link_status: alive
 data_license: unknown
 commercial_use: unknown
-storage_caching: unknown
+storage_caching: 'yes'
 redistribution_display: unknown
-attribution_required: unknown
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://steamgpt.net/terms
+attribution_text: SteamGPT (steamgpt.net)
+rate_limits: Soft limit 120 requests/min per IP (600 with free token)
+evidence:
+- field: storage_caching
+  url: https://steamgpt.net/terms
+  quote: Caching responses in your application is fine.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://steamgpt.net/terms
+  quote: 'Attribution when you publish data obtained here: SteamGPT (steamgpt.net).'
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://steamgpt.net/terms
+  quote: 'Soft limit: 120 requests per minute per IP address'
+  checked_at: '2026-11-21'
+notes: Read /terms (effective 2026-10-31) and the homepage. Independent aggregator of public Steam and
+  FACEIT player data; terms allow caching and ask for attribution, forbid reselling the service as your
+  own, and restrict use to lawful purposes such as vetting, moderation, research and tooling (no harassment,
+  doxxing or automated decisions with legal effect). Commercial use and display on own pages are not addressed,
+  so those stay unknown. Data comes from Valve's Steam Web API and FACEIT, whose terms also apply (Steam's
+  terms limit retrieving user data to what the user requested) and were not cleared here. Player data
+  is personal data (names, avatars, friend lists).
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: unknown

@@ -1,0 +1,129 @@
+[
+ {
+  "id": "anycrap",
+  "outcome": "confirmed",
+  "reasons": [
+   "terms s5 grants use for any purpose, attribution optional",
+   "no API-specific terms or restrictions found"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Read /terms (updated 2026-10-28), /developers, /privacy. Only caveats: s10 avoid overloading scraping, 60 req/min per key, AI-generated fictional content, no copyright claim so legal protectability unclear; images served from cdn.crapify.me."
+ },
+ {
+  "id": "cardz-marketcap",
+  "outcome": "confirmed",
+  "reasons": [
+   "terms s3 and /data grant CC BY 4.0 incl. commercial",
+   "no extra conditions beyond credit with effective date"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read /terms, /data, /methodology. Population is taken from PSA's population report and prices from sales evidence; PSA terms were unreachable (403/404 even in browser), so upstream not assessed. s4 forbids bulk scraping at unreasonable rate, reselling raw feed as-is, misrepresenting source; card names/artwork stay with rights holders (no images are in the API). Very new site (terms 2026-10-26); keep confidence medium."
+ },
+ {
+  "id": "cropden",
+  "outcome": "confirmed",
+  "reasons": [
+   "LICENSE-DATA.md: CC BY 4.0, commercial ok, link credit enough",
+   "specs are facts about other platforms, no third-party content"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read LICENSE-DATA.md, README, cropden.com/terms-of-service (no conflict; tools free for commercial work; bars scraping the site at scale, not the static JSON), HTTP headers of the hosted JSON (200, CORS *, 1h cache). Paid AI tools/MCP are separate and out of scope."
+ },
+ {
+  "id": "dungeons-and-dragons",
+  "outcome": "confirmed",
+  "reasons": [
+   "MIT repo licence plus SRD content; WotC publishes SRD 5.1 under OGL and CC",
+   "no hosted-API ToS found that restricts use"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Upstream is not stricter: dnd.wizards.com SRD page says SRD 5.1 was originally published under both OGL 1.0a and Creative Commons, and the overview table lists 'print and sell' for SRD 5.1. Hosted API has no ToS (docs.dnd5eapi.co, www.dnd5eapi.co, repo README only licence). Stale first-pass fields: the API is served over HTTPS (HTTP/2 200 on https://www.dnd5eapi.co/api/2014/spells/acid-arrow) and returns access-control-allow-origin: *, so https should be true and cors yes. Attribution means MIT notice (+ OGL s15 notice if relying on OGL)."
+ },
+ {
+  "id": "online-sudoku-sudokumax",
+  "outcome": "confirmed",
+  "reasons": [
+   "API terms allow commercial use, storage and resale of outputs",
+   "credit is a plain visible link, no dofollow or logo"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read /developers/terms (updated 6 Oct 2026) and /developers/pricing. Condition: visible clickable hyperlink to sudokumax.com alongside every published output (hidden link not accepted); key may be revoked for missing attribution; terms take precedence over general ToU for API outputs. Does not allow scraping the website. Borderline for 'mandatory backlink' but it is a credit link, so green kept."
+ },
+ {
+  "id": "open-guitar-chords",
+  "outcome": "confirmed",
+  "reasons": [
+   "/data states free to use including commercially, no attribution required",
+   "files contain chord and scale facts only"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read /data (updated 2026-11-04). No separate terms/licence page; statement is informal (no SPDX licence), so medium confidence stays. Site diagrams, page text and recordings are expressly the site's own work and not covered."
+ },
+ {
+  "id": "pixabay",
+  "outcome": "disputed",
+  "reasons": [
+   "Content License forbids distributing Content on a Standalone basis; unmodified galleries risk breach",
+   "API only allows temporary display of returned URLs; must download first",
+   "terms say Pixabay may cancel or change the licences at sole discretion"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://pixabay.com/service/terms/",
+    "quote": "You cannot sell or distribute the Content (either in digital or physical form) on a Standalone basis.",
+    "field": "redistribution_display"
+   },
+   {
+    "url": "https://pixabay.com/api/docs/",
+    "quote": "permanent hotlinking of images (using Pixabay URLs in your app) is not allowed.",
+    "field": "redistribution_display"
+   }
+  ],
+  "suggested": {
+   "redistribution_display": "ambiguous"
+  },
+  "note": "Terms (updated 20 Oct 2026) define Standalone as content in substantially the same form (resizing, cropping, filters stay Standalone). A programmatic site that shows Pixabay images unaltered as a gallery/search result is arguably Standalone distribution; using them as illustrations inside new creative works is fine. Other prohibited uses: political context, dating, adult-related, trademarks/logos for commercial goods, recognisable people. Also: API images need full-API approval for originals; 24h cache of API responses; no mass downloads. Commercial use itself is fine, no attribution needed for the images (API asks for a plain 'source' credit when showing search results). Suggest yellow-ish treatment: ambiguous display depending on use."
+ },
+ {
+  "id": "pubg",
+  "outcome": "disputed",
+  "reasons": [
+   "API licence is limited to software benefiting PUBG players, data only inside own software product",
+   "monetization can be forced off case by case at PUBG's discretion",
+   "affiliate links not mentioned; ToU last modified 2019"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://developer.pubg.com/tos?locale=en",
+    "quote": "for the purpose of developing software that will benefit the Company’s players’ gaming experiences.",
+    "field": "commercial_use"
+   },
+   {
+    "url": "https://developer.pubg.com/tos?locale=en",
+    "quote": "we reserve the right to require any form of monetization (including donations) be removed from a project",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "ambiguous"
+  },
+  "note": "Ads are explicitly allowed ('Ads are the PUBG-preferred method of monetization') and storing/displaying Data is allowed in connection with your software product, so storage and display look right. But the grant is purpose-limited, revocable, forbids selling or distributing Data stand-alone, forbids creating a competing API, and monetization is discretionary; a programmatic-SEO or affiliate site is not clearly covered. Verdict should drop from green to yellow (ambiguous core field)."
+ },
+ {
+  "id": "social-casino-index",
+  "outcome": "confirmed",
+  "reasons": [
+   "/data states CC BY 4.0 with credit and link to the data page",
+   "no separate terms page; no conflicting restrictions found"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read /data, /disclaimer, /disclosure (/terms is 404). Operator names and offer terms belong to the operators; values dated. Subject matter is US sweepstakes casinos (state-regulated; ad networks may restrict), which is a use-case risk, not a licence blocker. Site itself earns affiliate commissions."
+ }
+]

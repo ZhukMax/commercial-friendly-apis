@@ -17,13 +17,43 @@ sources:
   url: https://apidocs.imgur.com/
   category: Photography
 link_status: alive
-data_license: unknown
-commercial_use: unknown
+data_license: proprietary (user-generated content; rights stay with uploaders)
+commercial_use: ambiguous
 storage_caching: unknown
-redistribution_display: unknown
+redistribution_display: ambiguous
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://api.imgur.com/
+rate_limits: approx. 1,250 uploads or 12,500 requests per day per application (non-commercial)
+evidence:
+- field: commercial_use
+  url: https://apidocs.imgur.com/
+  quote: Your application is commercial if you're making any money with it (which includes in-app advertising)
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://imgur.com/tos
+  quote: You may not use UGC for non-journalistic commercial purposes
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://imgur.com/tos
+  quote: By downloading an image or copying other user-generated content (UGC) from Imgur, you agree that
+    you do not claim any rights to it.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://apidocs.imgur.com/
+  quote: approximately 1,250 uploads per day or approximately 12,500 requests per day
+  checked_at: '2026-11-21'
+notes: 'Read the API docs (https://apidocs.imgur.com/, Commercial Usage and Rate Limits sections) and
+  the Imgur Terms of Service (https://imgur.com/tos). Docs: any ad-supported or money-making app is commercial
+  and must register and sign up with RapidAPI, choosing a pricing plan (the page does not say the plan
+  is paid, hence not paid-only). ToS conflicts: UGC may be used solely for personal non-commercial purposes,
+  and commercial/AI use of the service or UGC needs express signed written consent. Images are uploaded
+  by users, so third-party rights apply. Caching/storage not addressed. Two pages conflict, so ambiguous.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed

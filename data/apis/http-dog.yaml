@@ -27,3 +27,7 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+notes: 'Read http.dog: usage instructions and a footer disclaimer link only; no licence or terms for the
+  dog images found. No rights to the underlying images granted. Terms fields left unknown.'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

@@ -18,12 +18,27 @@ sources:
   category: Music
 link_status: alive
 data_license: unknown
-commercial_use: unknown
+commercial_use: 'no'
 storage_caching: unknown
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: red
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://genius.com/static/terms
+commercial_use_scope: any
+evidence:
+- field: commercial_use
+  url: https://docs.genius.com/
+  quote: Commercial use of the Genius API is not allowed without a license.
+  checked_at: '2026-11-21'
+notes: 'Read https://docs.genius.com/ (Getting Started): ''Commercial use of the Genius API is not allowed without a license.
+  Please reach out to api-sales@genius.com to discuss commercial usage.'' So the public API is non-commercial; a paid/negotiated
+  licence is possible but its terms are not published. Genius ToS at https://genius.com/static/terms read (general; no API
+  data clause found). The API returns song/artist metadata and annotations; lyrics text itself is copyrighted by third parties
+  and is not served by the API. Caching, display and attribution terms for the API not found, so unknown. Site blocks plain
+  curl (bot check); read via Playwright.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -13,13 +13,56 @@ sources:
   url: https://sudokumax.com/developers
   category: Games & Comics
 link_status: alive
-data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+data_license: 'proprietary (Sudokumax API terms: outputs usable commercially with credit)'
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: green
+confidence: high
 link_checked_at: '2026-11-21'
+api_terms_url: https://sudokumax.com/developers/terms
+commercial_use_scope: any
+attribution_text: Created with Sudokumax (visible, clickable link to https://sudokumax.com)
+share_alike: unknown
+rate_limits: 6,000 authenticated requests per account per minute; up to 20 puzzles per request
+notes: Read the Sudokumax API terms page (updated 6 Oct 2026; supplements the general Terms of Use and
+  takes precedence for authorized API use). Free API key required. Outputs (puzzles, worksheets) may be
+  used commercially, stored and redistributed provided a visible clickable credit link to sudokumax.com
+  is shown (hidden link or source-only credit not accepted); offline, print sudokumax.com. Plain credit
+  link, no dofollow requirement stated, so no override. Key may be revoked for missing attribution. Does
+  not authorize scraping the website. Developer kit has a separate MIT licence.
+evidence:
+- field: commercial_use
+  url: https://sudokumax.com/developers/terms
+  quote: You may use API-generated puzzles, solutions and worksheet outputs commercially or non-commercially.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://sudokumax.com/developers/terms
+  quote: storing, copying, modifying, embedding, redistributing and selling them in apps, websites, books,
+    courses and other products
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://sudokumax.com/developers/terms
+  quote: storing, copying, modifying, embedding, redistributing and selling them in apps, websites, books,
+    courses and other products
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://sudokumax.com/developers/terms
+  quote: Include a visible, clickable hyperlink to https://sudokumax.com alongside the puzzle or game.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://sudokumax.com/developers/terms
+  quote: Free access is conditional on meeting the attribution requirement and following the service limits.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read /developers/terms (updated 6 Oct 2026) and /developers/pricing. Condition:
+  visible clickable hyperlink to sudokumax.com alongside every published output (hidden link not accepted);
+  key may be revoked for missing attribution; terms take precedence over general ToU for API outputs.
+  Does not allow scraping the website. Borderline for ''mandatory backlink'' but it is a credit link,
+  so green kept'

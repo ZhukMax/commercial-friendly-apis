@@ -20,6 +20,15 @@ redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Playable programmable game (agents, ships, universe resets); account/token-scoped,
+  not a data source
+evidence: []
+notes: Read spacetraders.io and docs pages (largely client-rendered). It is a space-trading game played
+  through an HTTP API with agent tokens, so it is a game rather than a reusable data source. No terms
+  of service or licence page found (/terms-of-service and /privacy are 404); all terms unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: unknown

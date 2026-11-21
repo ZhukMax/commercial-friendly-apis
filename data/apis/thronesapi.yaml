@@ -23,3 +23,8 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+notes: Home page and Swagger UI (thronesapi.com/swagger, Playwright) show a Game of Thrones character
+  list with images but no terms of use, licence or attribution statement. Character images and names derive
+  from HBO's series and George R.R. Martin's books; no rights to them are granted. All terms fields unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

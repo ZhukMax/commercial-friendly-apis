@@ -17,14 +17,63 @@ sources:
   url: https://www.discogs.com/developers/
   category: Music
 link_status: alive
-data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+data_license: CC0 for part of the data (release/artist/label metadata); other content is Restricted Data
+  under the API Terms
+commercial_use: ambiguous
+storage_caching: limited
+redistribution_display: ambiguous
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
 link_note: HTTP 403 (blocked for bots, assumed alive)
+data_license_url: https://support.discogs.com/hc/en-us/articles/360009334593-API-Terms-of-Use
+api_terms_url: https://support.discogs.com/hc/en-us/articles/360009334593-API-Terms-of-Use
+commercial_use_scope: any
+cache_limit: Content may not be cached or stored longer than necessary to serve your app's users; do not
+  display Content more than 6 hours older than Discogs
+attribution_text: Display 'Data provided by Discogs.' next to any data, hyperlinked to the discogs.com
+  page (no nofollow), plus the non-affiliation notice and trademark line
+evidence:
+- field: commercial_use
+  url: https://support.discogs.com/hc/en-us/articles/360009334593-API-Terms-of-Use
+  quote: Commercial use of Our API and the Content is generally permitted, but may not be permitted, if,
+    in Our sole discretion
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://support.discogs.com/hc/en-us/articles/360009334593-API-Terms-of-Use
+  quote: Using Our API or the Content with the intent to drive traffic to other non-Discogs websites or
+    services.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://support.discogs.com/hc/en-us/articles/360009334593-API-Terms-of-Use
+  quote: 'CC0 Data: CC0 Data is made available under the CC0 No Rights Reserved license.'
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://support.discogs.com/hc/en-us/articles/360009334593-API-Terms-of-Use
+  quote: You may not cache or store the Content longer than is necessary
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://support.discogs.com/hc/en-us/articles/360009334593-API-Terms-of-Use
+  quote: You must display the following notice directly next to any data You use from the Discogs API
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://support.discogs.com/hc/en-us/articles/360009334593-API-Terms-of-Use
+  quote: You may not display in any format or to any audience the Content if it is more than six (6) hours
+    older
+  checked_at: '2026-11-21'
+notes: 'API Terms of Use (last updated May 27 2025) read via Playwright (Zendesk page); the developers
+  page https://www.discogs.com/developers/ also read. Two tiers: CC0 data (release titles, track lists,
+  credits, artist/label names) and Restricted Data (user data, marketplace data, images etc.) which may
+  not be used for any commercial purpose or transferred to third parties. Commercial use of the API is
+  ''generally permitted'' but listed prohibited uses include selling access to the API/Content and driving
+  traffic to non-Discogs sites (affiliate links are a risk), at Discogs'' sole discretion, hence ambiguous.
+  Content older than 6 hours must not be displayed and may not be stored longer than needed; a mandatory
+  dofollow backlink is required, so at best yellow. Unauthenticated use ends 1 Dec per the developers
+  page. Images are mostly third-party (cover art) and not CC0.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed

@@ -24,3 +24,10 @@ verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
 link_note: -> https://shikimori.io/api/doc
+rate_limits: 5 requests/second and 90 requests/minute; User-Agent with OAuth app name required
+notes: 'API doc (shikimori.io/api/doc) gives limits and a User-Agent requirement but no licence or commercial-use terms. The site user agreement (shikimori.io/terms, Russian, last updated 2012) has no API/data
+  licence: it only bars commercial copying of information that violates other users'' rights, and states the site deals with third-party materials. That does not settle commercial use of the anime/manga
+  data, so all terms fields stay unknown; titles and posters carry licensor rights.'
+evidence: []
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

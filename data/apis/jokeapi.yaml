@@ -13,7 +13,7 @@ sources:
   url: https://v2.jokeapi.dev/
   category: Entertainment
 link_status: alive
-data_license: unknown
+data_license: MIT (JokeAPI source code)
 commercial_use: unknown
 storage_caching: unknown
 redistribution_display: unknown
@@ -23,3 +23,20 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+data_license_url: https://v2.jokeapi.dev/#license
+rate_limits: 120 requests per minute per client; tokens for businesses needing more
+evidence:
+- field: data_license
+  url: https://v2.jokeapi.dev/
+  quote: JokeAPI is licensed under the MIT License.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://v2.jokeapi.dev/
+  quote: JokeAPI doesn't require any API token, authorization or payment to work, although there is a hard limit of 120 requests per minute
+  checked_at: '2026-11-21'
+notes: Read the docs page https://v2.jokeapi.dev/ (Legal Stuff, Getting Started, API Tokens). It states JokeAPI is MIT-licensed (source code); I could not retrieve the LICENSE text itself, so commercial
+  use/redistribution/caching of the hosted API and of the joke content are left unknown. The page says businesses needing more than 120 req/min can get a token, and that to fetch all jokes one should use
+  the GitHub repo rather than the API. Jokes include categories flagged NSFW/religious/political/racist/sexist/explicit; their authorship and any third-party rights are not stated. No separate hosted-API
+  terms page.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

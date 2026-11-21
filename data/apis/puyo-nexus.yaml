@@ -12,7 +12,7 @@ sources:
   name: Puyo Nexus
   url: https://github.com/deltadex7/puyodb-api-deno
   category: Games & Comics
-link_status: alive
+link_status: dead
 data_license: unknown
 commercial_use: unknown
 storage_caching: unknown
@@ -21,5 +21,17 @@ attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://github.com/deltadex7/puyodb-api-deno
+link_note: Hosted API (puyodb-api-deno.herokuapp.com) returns Heroku "No such app"; only source code remains on GitHub
+evidence:
+- field: commercial_use
+  url: https://raw.githubusercontent.com/deltadex7/puyodb-api-deno/main/readme.md
+  quote: unofficial and permission for further use is pending.
+  checked_at: '2026-11-21'
+notes: Read the repo readme and LICENSE. The code is MIT, but the readme says the API fetches wiki pages from Puyo Nexus Wiki and that it is "unofficial and permission for further use is pending", i.e.
+  the author has no confirmed permission for the wiki data. The hosted instance (puyodb-api-deno.herokuapp.com) is gone (Heroku "No such app"), so link_status is dead. Puyo Nexus Wiki licence page was not
+  found; Puyo Puyo characters belong to Sega. All terms unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

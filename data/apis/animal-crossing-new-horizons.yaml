@@ -12,7 +12,7 @@ sources:
   name: 'Animal Crossing: New Horizons'
   url: http://acnhapi.com/
   category: Games & Comics
-link_status: alive
+link_status: dead
 data_license: unknown
 commercial_use: unknown
 storage_caching: unknown
@@ -21,5 +21,13 @@ attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: high
 link_checked_at: '2026-11-21'
+link_note: Domain acnhapi.com now redirects to unrelated spam/advertising pages; /v1/* endpoints return
+  an ad-redirect page, no JSON.
+notes: 'Checked 2026-11-21: http(s)://acnhapi.com/ serves a "Redirecting..." script page that lands (via
+  browser) on an unrelated third-party tarot article; /v1/villagers/1 and /v1/fish/1 return the same page,
+  not data. The original project (alexislours/ACNHAPI on GitHub, MIT code) README could not be fetched.
+  Underlying game data and art belong to Nintendo; no rights granted. All terms unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

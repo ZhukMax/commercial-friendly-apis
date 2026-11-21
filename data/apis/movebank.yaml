@@ -17,13 +17,40 @@ sources:
   url: https://github.com/movebank/movebank-api-doc
   category: Animals
 link_status: alive
-data_license: unknown
-commercial_use: unknown
+data_license: per-study licence (CC0, CC BY, CC BY-NC or study-specific terms)
+commercial_use: ambiguous
 storage_caching: unknown
 redistribution_display: unknown
-attribution_required: unknown
+attribution_required: ambiguous
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+commercial_use_scope: any
+api_terms_url: https://www.movebank.org/cms/movebank-content/general-movebank-terms-of-use
+notes: Read the API doc repo README (says data access and use are subject to the Movebank user agreement
+  and General Terms of Use) and the General Movebank Terms of Use. Licence is set per study by the data
+  owner (CC0, CC BY, CC BY-NC or custom, some need owner permission), so commercial use depends on each
+  dataset; no blanket answer. Storage/display not addressed. The user agreement page itself was not read.
+evidence:
+- field: commercial_use
+  url: https://www.movebank.org/cms/movebank-content/general-movebank-terms-of-use
+  quote: To follow the terms defined in the License Type or License Terms for each study from which data
+    are accessed.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.movebank.org/cms/movebank-content/general-movebank-terms-of-use
+  quote: the License Type or License Terms for each study from which data are accessed
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.movebank.org/cms/movebank-content/general-movebank-terms-of-use
+  quote: Citation is required for data with CC BY or CC BY-NC licenses and if specified in the study’s
+    License Terms.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Terms re-read: licence set per study (CC0/CC BY/CC BY-NC/custom); user agrees to follow
+  each study licence and may need owner permission. No blanket answer; ambiguous stands.'

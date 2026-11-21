@@ -13,7 +13,7 @@ sources:
   url: https://placekeanu.com/
   category: Photography
 link_status: alive
-data_license: unknown
+data_license: unknown (photos of Keanu Reeves; photo owners not granting any licence on the page)
 commercial_use: unknown
 storage_caching: unknown
 redistribution_display: unknown
@@ -23,3 +23,15 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://placekeanu.com/
+rate_limits: Images cached on the client side for 1 day
+evidence:
+- field: data_license
+  url: https://placekeanu.com/
+  quote: All Keanus belong to their respective owners.
+  checked_at: '2026-11-21'
+notes: Read https://placekeanu.com/. The service returns random photos of the actor Keanu Reeves as placeholder images; the page says all the photos belong to their respective owners (photo attributions
+  on a separate list, not read) and only the service source code is open source. No licence to the photos, no terms of use and no statement on commercial use. The photos also depict a real person (publicity/likeness
+  rights not cleared).
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

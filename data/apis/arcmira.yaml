@@ -14,13 +14,48 @@ sources:
   url: https://arcmira.com/docs
   category: Video
 link_status: alive
-data_license: unknown
+data_license: proprietary (Arcmira Terms of Service; some rankings CC BY 4.0)
 commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+storage_caching: ambiguous
+redistribution_display: ambiguous
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://arcmira.com/terms
+attribution_text: Attribute to Arcmira with a link to arcmira.com or the page where the data appears
+share_alike: unknown
+evidence:
+- field: attribution_required
+  url: https://arcmira.com/terms
+  quote: If you publish, display, or share Arcmira Data, in any medium, you must attribute it to Arcmira
+    and include a link to arcmira.com
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://arcmira.com/terms
+  quote: resell, sublicense, redistribute, or publish Arcmira Data in bulk, whether or not you attribute
+    it
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://arcmira.com/terms
+  quote: extract, scrape, crawl, or download Arcmira Data in bulk, or systematically collect it by any
+    means
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://arcmira.com/terms
+  quote: Arcmira publishes some rankings, such as the public Famous lists and badges, under the Creative
+    Commons Attribution 4.0 International license
+  checked_at: '2026-11-21'
+notes: 'Arcmira ToS s.7A: publishing/displaying Arcmira Data is allowed with visible attribution, but
+  bulk extraction, bulk republishing, AI training and competing datasets need a separate written licence;
+  data obtained through the API remains under these Terms (CC BY 4.0 only for items marked so). Commercial
+  use is not addressed explicitly (no sentence allowing or forbidding it), plan limits not read, so commercial_use
+  unknown. Data derives from YouTube (YouTube API Services terms apply; underlying videos are third-party
+  content Arcmira does not own). Read via Playwright.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: unknown
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Fresh read of /terms confirms unknown/ambiguous fields.

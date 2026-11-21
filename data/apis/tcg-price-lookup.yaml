@@ -14,13 +14,37 @@ sources:
   url: https://tcgpricelookup.com/tcg-api
   category: Games & Comics
 link_status: alive
-data_license: unknown
-commercial_use: unknown
+data_license: proprietary (TCG Price Lookup Terms of Service)
+commercial_use: paid-only
 storage_caching: unknown
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://tcgpricelookup.com/terms
+commercial_use_scope: paid
+rate_limits: Free 200 requests/day; Trader 10,000/day; Business 100,000/day
+notes: Read the API/pricing page (FAQ) and Terms of Service. Free tier non-commercial; Trader/Business
+  plans include commercial use. Terms forbid to "Resell, sublicense, or redistribute our data without
+  explicit written authorization" and creating a competing service; no clause on caching/storage or on
+  displaying data was found, so those stay unknown. Terms say all TCG names, logos and card imagery are
+  trademarks and copyright of their owners; API grants no rights to them. Prices are TCGPlayer/eBay-derived
+  (upstream rights not assessed).
+evidence:
+- field: commercial_use
+  url: https://tcgpricelookup.com/tcg-api
+  quote: The Free tier is for non-commercial use; commercial use requires the Trader or Business plan.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://tcgpricelookup.com/tcg-api
+  quote: 'Free: 200 requests/day. Trader: 10,000 requests/day. Business: 100,000 requests/day.'
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://tcgpricelookup.com/terms
+  quote: Resell, sublicense, or redistribute our data without explicit written authorization
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -17,13 +17,65 @@ sources:
   url: https://www.last.fm/api
   category: Music
 link_status: alive
-data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+data_license: proprietary (all rights in Last.fm Data remain with Last.fm; limited licence under API ToS)
+commercial_use: ambiguous
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+data_license_url: https://www.last.fm/api/tos
+api_terms_url: https://www.last.fm/api/tos
+cache_limit: 'Reasonable Usage Cap: max 100 MB of Last.fm Data at any time (larger volumes need written
+  consent)'
+attribution_text: Credit Last.fm, use a "powered by AudioScrobbler" button linking to Last.fm and link
+  artist/album/track pages to their Last.fm catalogue pages
+share_alike: unknown
+evidence:
+- field: commercial_use
+  url: https://www.last.fm/api/tos
+  quote: You are permitted to use the Last.fm Data solely for non-commercial purposes and for no other
+    purpose
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.last.fm/api/tos
+  quote: If at any time you wish to use the Last.fm Data for commercial purposes, you must apply for a
+    commercial use agreement.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.last.fm/api/tos
+  quote: The "Reasonable Usage Cap" is a maximum of 100 MB, as may be updated by Last.fm from time to
+    time.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.last.fm/api/tos
+  quote: publish, distribute or otherwise communicate the Last.fm Data or the Last.fm Data as incorporated
+    in any Derivative Work or Collective Work to the public
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.last.fm/api/tos
+  quote: You must credit Last.fm and include links to the Last.fm site when You use the Last.fm Data.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.last.fm/api/tos
+  quote: all rights in and to the Last.fm Data (including all copyright and database rights) remain vested
+    in Last.fm
+  checked_at: '2026-11-21'
+notes: 'Read the API Terms of Service. Default licence is non-commercial only; commercial use needs a
+  separate commercial use agreement via partners@last.fm (terms not public; Last.fm reserves a right to
+  share in revenue), hence commercial_use=ambiguous (not paid-only: no page says a paid plan). Storage
+  is capped at a 100 MB Reasonable Usage Cap, and caching must follow HTTP headers. Public pages using
+  the API need prior written approval from Last.fm (clause 2.7) and a mandatory "powered by AudioScrobbler"
+  button (more than plain credit). Data includes artwork and tags tied to third-party music rights; the
+  API grants no rights in the underlying music. Rate limits are set at Last.fm discretion (clause 4.4),
+  no number given.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: API ToS 3.1 allows non-commercial use only; commercial needs a separate agreement (partners@last.fm).
+  Licence clause 4.1 does grant publish/distribute, 2.7 requires AudioScrobbler button. No blocker beyond
+  what first pass recorded.

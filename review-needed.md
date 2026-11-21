@@ -14,7 +14,7 @@ First pass found terms; a second, adversarial pass looked for reasons the API ca
 
 ## Disputed by the second check
 
-197 entries.
+211 entries.
 
 ### ⚪ 0x (`0x`)
 - https://docs.0x.org/
@@ -176,6 +176,11 @@ First pass found terms; a second, adversarial pass looked for reasons the API ca
 - https://www.receitaws.com.br/
 - Reason: Terms restrict returned data to the user's own benefit and ban any commercialisation through other sites; Even the paid Commercial API is covered by the same clause
 - Counter-evidence (redistribution_display): “Os dados retornados através das APIs podem ser utilizados apenas para benefício próprio do usuário, não sendo permitida qualquer comercialização através de outros sites” — https://www.receitaws.com.br/terms.pdf
+
+### 🟡 BulkTranscripts (`bulktranscripts`)
+- https://bulktranscripts.co/docs
+- Reason: ToS limits transcripts to personal research; third-party YouTube captions; not usable for commercial site
+- Counter-evidence (commercial_use): “Transcripts of other people's content are for your personal research, study, and analysis.” — https://bulktranscripts.co/terms
 
 ### 🟡 caldays (`caldays`)
 - https://caldays.com/api
@@ -422,6 +427,11 @@ First pass found terms; a second, adversarial pass looked for reasons the API ca
 - Counter-evidence (redistribution_display): “Displaying or redistributing data sourced from FMP requires a specific Data Display and Licensing Agreement with FMP.” — https://site.financialmodelingprep.com/pricing-plans
 - Counter-evidence (redistribution_display): “Without a specific agreement with FMP, customers are prohibited from showcasing FMP Services or Data on platforms including but not limited to websites” — https://site.financialmodelingprep.com/terms-of-service
 
+### ⚪ FishWatch (`fishwatch`)
+- https://www.fishwatch.gov/developers
+- Reason: API endpoints now redirect to NOAA topic page; API appears discontinued; Terms applied are website policy, not API terms
+- Counter-evidence (commercial_use): “We encourage the use of such information for non-commercial, scientific, and educational purposes.” — https://www.fisheries.noaa.gov/website-policies-and-disclaimers
+
 ### 🔴 Fitbit (`fitbit`)
 - https://dev.fitbit.com/
 - Reason: Platform terms bar making User Data public; Legacy Web API scheduled to be turned off 30 Oct 2026 (past)
@@ -574,6 +584,10 @@ First pass found terms; a second, adversarial pass looked for reasons the API ca
 - Counter-evidence (redistribution_display): “Licența nu include dreptul de a revinde, sublicenția, închiria sau redistribui către terți serviciul Leadgen, compilația noastră” — https://leadgen.adrianhomelab.com/terms
 - Counter-evidence (redistribution_display): “extrase de cel mult 50 de firme într-un raport sau articol” — https://leadgen.adrianhomelab.com/terms
 
+### ⚪ Lightdrift (`lightdrift`)
+- https://docs.lightdrift.ai
+- Reason: could not re-verify: service ToS unreadable (TLS mismatch); Per-image licences mix NC and permissive
+
 ### 🟡 LiquiLens (`liquilens`)
 - https://liquilens.in/developers/
 - Reason: Terms limit public endpoints to research and evaluation; A commercial feed is explicitly a separate product to ask for; Monetised site is therefore not permitted by the free/public tier
@@ -647,6 +661,11 @@ First pass found terms; a second, adversarial pass looked for reasons the API ca
 - Counter-evidence (redistribution_display): “You are responsible for the URLs you send to the Services and for how you use the results.” — https://microlink.io/terms
 - Counter-evidence (storage_caching): “break any law, or infringe the rights of others, including intellectual property and privacy rights” — https://microlink.io/terms
 
+### 🟡 Mixcloud (`mixcloud`)
+- https://www.mixcloud.com/developers/
+- Reason: User Agreement covers the API and restricts to personal non-commercial use; No paid or commercial API tier on developer page; Music rights held by labels/publishers
+- Counter-evidence (commercial_use): “not to use the Platform other than for your own personal, private, non-commercial use” — https://www.mixcloud.com/terms/
+
 ### 🟡 MostExpensiveWatches (`mostexpensivewatches`)
 - https://mostexpensivewatches.net/api
 - Reason: Free tier is for prototypes/evaluation; apps and dashboards go to a paid commercial licence; Only the auction ledger is CC BY 4.0
@@ -681,6 +700,11 @@ First pass found terms; a second, adversarial pass looked for reasons the API ca
 - https://newsdata.io/docs
 - Reason: Terms grant external business use, but pricing labels free plan 'testing & personal projects'; Aggregator: third-party content rights not granted
 - Counter-evidence (commercial_use): “For testing & personal projects” — https://newsdata.io/pricing
+
+### 🟡 NexWall (`nexwall`)
+- https://nexwall.kodnextech.com/wallpaper-api/docs
+- Reason: Commercial right limited to content NexWall owns or may sublicense; Wallpapers include third-party marks/likenesses with no rights granted
+- Counter-evidence (commercial_use): “only for content that NexWall owns or is authorized to sublicense and only while you comply with this license.” — https://nexwall.kodnextech.com/wallpaper-api/license
 
 ### 🟡 Non-Working Days (`non-working-days`)
 - https://github.com/gadael/icsdb
@@ -825,6 +849,12 @@ First pass found terms; a second, adversarial pass looked for reasons the API ca
 - Reason: page itself says commercial integrations should contact the operator, conflicting with 'any purpose' CC BY; rate is a median of Binance/Bybit/Bitget P2P quotes, upstream terms unread; licence stated only on docs page, no ToS
 - Counter-evidence (commercial_use): “Para integraciones comerciales o límites más altos, escríbanos” — https://paralelo.bo/api
 
+### 🟡 Pexafy (`pexafy`)
+- https://docs.pexafy.com
+- Reason: AUP caps caching at 24 hours so storage is limited; Licences page states commercial use allowed for all sources; Terms bar reselling raw data as competing search service
+- Counter-evidence (storage_caching): “Cache API responses to serve them in place of live API calls beyond a reasonable period (max 24 hours for search results)” — https://pexafy.com/legal/terms/
+- Counter-evidence (commercial_use): “All sources in our index offer free licenses allowing broad commercial use without mandatory attribution.” — https://pexafy.com/legal/licenses/
+
 ### 🟡 Pharos API (`pharos-api`)
 - https://pharos.watch/about/api/
 - Reason: MIT lane is only keyless Safety grades and datasets; keyed routes gated by plan; supporter key is non-commercial; commercial products need paid $250/month key; third-party market data keeps original terms (CoinGecko, DefiLlama etc.)
@@ -848,6 +878,12 @@ First pass found terms; a second, adversarial pass looked for reasons the API ca
 - Reason: Repo README states the data licence is CC BY-SA, which the first pass did not find; Share-alike applies; FAQ bans large-scale clone of the site
 - Counter-evidence (data_license): “Amongst other things, this license requires attribution when using the data.” — https://raw.githubusercontent.com/scottwainstock/pbm/master/README.md
 
+### 🟡 Pixabay (`pixabay`)
+- https://pixabay.com/sk/service/about/api/
+- Reason: Content License forbids distributing Content on a Standalone basis; unmodified galleries risk breach; API only allows temporary display of returned URLs; must download first; terms say Pixabay may cancel or change the licences at sole discretion
+- Counter-evidence (redistribution_display): “You cannot sell or distribute the Content (either in digital or physical form) on a Standalone basis.” — https://pixabay.com/service/terms/
+- Counter-evidence (redistribution_display): “permanent hotlinking of images (using Pixabay URLs in your app) is not allowed.” — https://pixabay.com/api/docs/
+
 ### 🟡 PixelGust Soil (`pixelgust-soil`)
 - https://pixelgust.com/docs
 - Reason: Terms say they do not limit what CC BY 4.0 allows for SoilGrids values; Resale ban carved out for the SoilGrids layer; credit ISRIC required
@@ -858,10 +894,21 @@ First pass found terms; a second, adversarial pass looked for reasons the API ca
 - Reason: Developer policy bans transferring or distributing End User Data without Plaid permission; Not public data; unusable for public ad or affiliate site
 - Counter-evidence (redistribution_display): “transfer, syndicate, or otherwise distribute the Services or End User Data without express prior written permission from Plaid” — https://plaid.com/legal/
 
+### 🟡 Potter DB (`potter-db`)
+- https://potterdb.com
+- Reason: Upstream wiki text licensed CC BY-SA requires attribution; Film/book IP stays with Warner Bros/Rowling
+- Counter-evidence (attribution_required): “Except where otherwise specified, the text on Wikia sites is licensed under the Creative Commons Attribution-Share Alike License 3.0 (Unported) (CC-BY-SA).” — https://harrypotter.fandom.com/wiki/Harry_Potter_Wiki:Copyrights
+
 ### 🟡 Present of AI (`present-of-ai`)
 - https://presentofai.com/developers
 - Reason: API relays third-party news, job postings and company logos under blanket CC BY; no separate ToS (404); facts only 'as reported' by sources
 - Counter-evidence (redistribution_display): “Facts are attributed to their sources and are as reported there; check the linked page before relying on a figure.” — https://presentofai.com/developers
+
+### 🟡 PUBG (`pubg`)
+- https://developer.pubg.com/
+- Reason: API licence is limited to software benefiting PUBG players, data only inside own software product; monetization can be forced off case by case at PUBG's discretion; affiliate links not mentioned; ToU last modified 2019
+- Counter-evidence (commercial_use): “for the purpose of developing software that will benefit the Company’s players’ gaming experiences.” — https://developer.pubg.com/tos?locale=en
+- Counter-evidence (commercial_use): “we reserve the right to require any form of monetization (including donations) be removed from a project” — https://developer.pubg.com/tos?locale=en
 
 ### 🟡 QiuXiaoCe Football (`qiuxiaoce-football`)
 - https://www.qiuxiaoce.com/data-docs/
@@ -880,6 +927,16 @@ First pass found terms; a second, adversarial pass looked for reasons the API ca
 - Reason: only catalogue metadata is CC BY; summaries and preview images describe third-party fonts; font files 'many free for personal use only', site footer says personal use unless author's licence differs, home page says personal and commercial; conflicting pages
 - Counter-evidence (redistribution_display): “many fonts are free for personal use only.” — https://rafont.com/data
 - Counter-evidence (data_license): “Font files keep their own licenses.” — https://rafont.com/data
+
+### 🟡 Raider (`raider`)
+- https://raider.io/api
+- Reason: Blizzard API terms forbid marketing/monetization use of Data; Raider.IO: community and personal use; commercial by contact
+- Counter-evidence (commercial_use): “You May Not Use The Blizzard Developer APIs Or Data For Marketing Or Monetization Purposes.” — https://www.blizzard.com/en-us/legal/a2989b50-5f16-43b1-abec-2ae17cc09dd6/blizzard-developer-api-terms-of-use
+
+### 🟡 RAWG.io (`rawg-io`)
+- https://rawg.io/apidocs
+- Reason: Current pricing page: Free = non-commercial only; Conflicts with older ToS (2021); Business plan lists commercial use
+- Counter-evidence (commercial_use): “Non-commercial projects only 500,000+ video games data up to 20,000 requests per month” — https://rawg.io/apidocs
 
 ### 🟡 Razorpay IFSC (`razorpay-ifsc`)
 - https://razorpay.com/docs/
@@ -909,6 +966,18 @@ First pass found terms; a second, adversarial pass looked for reasons the API ca
 - https://searchpincode.in/api
 - Reason: Re-read via Playwright: /api says CC BY 4.0 commercial OK; /terms permits copying for business purposes, only bans abusive scraping and spam; Disclaimer says data curated from India Post open data
 
+### 🟡 Shoof Aflam (`shoof-aflam`)
+- https://shoofaflam.tv/api-docs/
+- Reason: Upstream TMDB forbids commercial use/sublicensing without written agreement; Own ToS forbids storing/copying content without written permission, conflicting with API page
+- Counter-evidence (commercial_use): “The license in Paragraph 1.A above does not permit any commercial use of TMDB, the TMDB APIs, or TMDB Content.” — https://www.themoviedb.org/api-terms-of-use
+- Counter-evidence (storage_caching): “لا يجوز نسخ أي جزء من هذه المحتويات أو تخزينه أو إعادة نشره دون إذن خطّي مسبق” — https://shoofaflam.tv/terms/
+
+### 🟡 Simkl (`simkl`)
+- https://simkl.docs.apiary.io
+- Reason: API rules page encourages caching, incl. 'forever for images', so storage is allowed; Per-item link back to Simkl is the display condition
+- Counter-evidence (storage_caching): “Cache by URL on the device — minutes for user data, hours for catalogs, forever for images.” — https://api.simkl.org/api-rules
+- Counter-evidence (redistribution_display): “Wherever Simkl data appears in your app, link back to the Simkl page for that specific item” — https://api.simkl.org/api-rules
+
 ### 🟡 Smithsonian Open Access (`smithsonian-open-access`)
 - https://github.com/Smithsonian/smithsonian-openaccess
 - Reason: Could not re-verify: si.edu and terms pages blocked/unavailable; API's own terms (api.si.edu / api.data.gov) unread; listed URL is a third-party Python wrapper
@@ -920,6 +989,12 @@ First pass found terms; a second, adversarial pass looked for reasons the API ca
 - Counter-evidence (commercial_use): “copy and redistribute the material in any medium or format for any purpose, even commercially.” — https://creativecommons.org/licenses/by/4.0/
 - Counter-evidence (storage_caching): “copy and redistribute the material in any medium or format for any purpose, even commercially.” — https://creativecommons.org/licenses/by/4.0/
 - Counter-evidence (redistribution_display): “copy and redistribute the material in any medium or format for any purpose, even commercially.” — https://creativecommons.org/licenses/by/4.0/
+
+### 🟡 Songkick (`songkick`)
+- https://www.songkick.com/developer/
+- Reason: Public API terms allow non-commercial use only and ban advertising-related products; Developer page requires a paid partnership licence, so no free commercial path
+- Counter-evidence (commercial_use): “use the Songkick Data for non-commercial and informational use only.” — https://www.songkick.com/developer/api-terms-of-use
+- Counter-evidence (commercial_use): “involve sales such as contests, sweepstakes, barter, advertising, or pyramid schemes” — https://www.songkick.com/developer/api-terms-of-use
 
 ### 🟡 Spaceflight News (`spaceflight-news`)
 - https://spaceflightnewsapi.net

@@ -4,7 +4,7 @@ url: https://docs.opendota.com/
 category: Games & Comics
 description: Provides information about Player stats , Match stats, Rankings for Dota 2
 description_source: upstream
-auth: apiKey
+auth: none
 https: true
 cors: unknown
 sources:
@@ -24,6 +24,17 @@ redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+rate_limits: 'Free tier (no key): 3000 calls/day, 60/min; Premium: $0.01 per 100 calls, 3000/min'
+notes: 'OpenDota API. Pages read: docs.opendota.com / api.opendota.com/api OpenAPI intro (API usable without a key; a key raises limits), opendota.com/api-keys (free vs premium pricing), blog FAQ (code
+  is MIT; data comes from public sources such as the Steam WebAPI and replay files; terms: "provided on a best-effort basis"). No data licence or commercial-use clause found; the data originates from Valve/Steam,
+  so Valve terms likely apply but were not read. Upstream auth value apiKey is stale: a key is optional. All core terms unknown.'
+evidence:
+- field: rate_limits
+  url: https://www.opendota.com/api-keys
+  quote: You're charged $0.0001 per call, rounded up to the nearest cent.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: unknown

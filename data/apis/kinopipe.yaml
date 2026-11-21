@@ -14,12 +14,33 @@ sources:
   category: Video
 link_status: alive
 data_license: unknown
-commercial_use: unknown
+commercial_use: 'yes'
 storage_caching: unknown
-redistribution_display: unknown
+redistribution_display: 'yes'
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: 'Not a data source: hosted media-processing/tool service, terms cover use of the
+  service, not licensing of data.'
+api_terms_url: https://kinopipe.com/terms
+commercial_use_scope: any
+evidence:
+- field: commercial_use
+  url: https://kinopipe.com/terms
+  quote: Building your product on our API is fine and encouraged
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://kinopipe.com/terms
+  quote: You own the media and prompts you send and the outputs KinoPipe produces from them.
+  checked_at: '2026-11-21'
+notes: 'FFmpeg-as-a-service (tool, not a data source). Terms of Service (last updated 27 August 2026):
+  building products on the API, including paid SaaS, is allowed; reselling raw capacity or API keys as
+  your own API is not. User owns inputs and outputs; you must have rights to the media you send. Output
+  download links expire after 12 months at the latest. Storage/caching of outputs and attribution not
+  stated as terms, so unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

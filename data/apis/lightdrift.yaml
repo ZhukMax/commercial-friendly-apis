@@ -13,13 +13,43 @@ sources:
   url: https://docs.lightdrift.ai
   category: Photography
 link_status: alive
-data_license: unknown
+data_license: 'Per image: CC0, Creative Commons and public domain images from 17 sources, each with its
+  own licence (some NC)'
 commercial_use: unknown
 storage_caching: unknown
 redistribution_display: unknown
-attribution_required: unknown
+attribution_required: ambiguous
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://docs.lightdrift.ai/guides/rights
+rate_limits: 'Free plan: 500 credits/month, 30 requests/minute, 1,000 requests/day'
+evidence:
+- field: data_license
+  url: https://docs.lightdrift.ai/guides/rights
+  quote: Hosting a file does not change its license or remove its conditions.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://docs.lightdrift.ai/guides/rights
+  quote: 'Set filters.commercial: true to select images whose reported licenses permit commercial use.'
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://docs.lightdrift.ai/guides/rights
+  quote: attribution A ready-to-use attribution string (title, author, source, license). null when not
+    required.
+  checked_at: '2026-11-21'
+notes: 'Read https://docs.lightdrift.ai (welcome), /guides/rights and /guides/plans-and-limits. The lightdrift.ai
+  main site (terms, FAQ, pricing) failed with a TLS certificate name mismatch in the browser and returned
+  nothing to curl, so the service own Terms of Service were NOT read. Rights are reported per image as
+  declared by the source: licences range from CC0/PDM to CC BY, CC BY-SA and NC variants; a filters.commercial=true
+  parameter selects images whose reported licence permits commercial use. Rights beyond copyright (people,
+  logos, artworks) are left to the user. Because the legal conditions vary per image and the service ToS
+  is unread, commercial_use is ambiguous and storage/display are unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'could not re-verify: service ToS unreadable (TLS mismatch); Per-image licences mix
+  NC and permissive | applied: commercial_use=unknown'

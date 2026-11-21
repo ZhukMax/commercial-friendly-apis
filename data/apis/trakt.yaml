@@ -13,13 +13,62 @@ sources:
   url: https://trakt.docs.apiary.io/
   category: Video
 link_status: alive
-data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
-bulk_download: unknown
+data_license: proprietary (Trakt data; images and other third-party content not owned by Trakt)
+commercial_use: 'yes'
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: 'no'
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: high
 link_checked_at: '2026-11-21'
+data_license_url: https://developer.trakt.tv/docs/api-use-policy
+api_terms_url: https://developer.trakt.tv/docs/api-use-policy
+commercial_use_scope: any
+cache_limit: Caching allowed to support app features (no fixed maximum duration); images must be cached,
+  not hotlinked; no reusable copy of the catalog and no continued use of Trakt-sourced metadata/artwork
+  after the integration ends
+attribution_text: '"[App name] uses Trakt but is not endorsed or certified by Trakt" on an About/credits
+  page; no per-item credit needed'
+evidence:
+- field: commercial_use
+  url: https://developer.trakt.tv/docs/api-use-policy
+  quote: Standard API access is free for commercial and noncommercial use.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://developer.trakt.tv/docs/api-use-policy
+  quote: apps supported by advertising, subscriptions, lifetime purchases, tips, or cosmetic purchases
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://developer.trakt.tv/docs/api-use-policy
+  quote: Caching does not permit building a reusable copy of Trakt's catalog or continuing to use Trakt-sourced
+    catalog metadata and artwork after your integration ends.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://developer.trakt.tv/docs/api-use-policy
+  quote: Your app may display search results, title and person details, images, ratings, vote counts,
+    and public discovery lists
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://developer.trakt.tv/docs/api-use-policy
+  quote: uses Trakt but is not endorsed or certified by Trakt
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://developer.trakt.tv/docs/api-use-policy
+  quote: Scraping, bulk harvesting, or mirroring Trakt data to build a reusable copy of its catalog
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://developer.trakt.tv/docs/api-use-policy
+  quote: This policy does not grant ownership of Trakt data, content, or trademarks.
+  checked_at: '2026-11-21'
+notes: 'Read the current API Use Policy on developer.trakt.tv (updated October 2026; the Apiary docs at
+  the listed URL are deprecated) and the Images/Caching pages. Standard access is free for commercial
+  use including ad-supported apps, no approval needed; Premium (paid) only raises limits. Display of titles,
+  images and ratings is allowed; caching is allowed for app features but a reusable copy of the catalog,
+  resale/redistribution as a dataset, and keeping Trakt metadata/artwork after the integration ends are
+  not. Not for apps promoting piracy. Trakt''s general Terms of Use (personal non-commercial) govern user-facing
+  services, not the API. Images/artwork are third-party (studio) content: ''API access does not grant
+  ownership of images or other third-party content''. Verdict yellow because caching is limited.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

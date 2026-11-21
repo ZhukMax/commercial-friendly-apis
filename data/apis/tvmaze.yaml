@@ -17,13 +17,56 @@ sources:
   url: http://www.tvmaze.com/api
   category: Video
 link_status: alive
-data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+data_license: CC-BY-SA-4.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+data_license_url: http://creativecommons.org/licenses/by-sa/4.0/
+api_terms_url: https://www.tvmaze.com/api
+commercial_use_scope: any
+attribution_text: Credit TVmaze as source with a link back (e.g. the URLs available in the API); share-alike applies
+share_alike: 'yes'
+rate_limits: At least 20 calls every 10 seconds per IP address; output cached 60 minutes
+evidence:
+- field: data_license
+  url: https://www.tvmaze.com/api
+  quote: Use of the TVmaze API is licensed by CC BY-SA.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.tvmaze.com/api
+  quote: the data can freely be used for any purpose, as long as TVmaze is properly credited as source
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.tvmaze.com/api
+  quote: the data can freely be used for any purpose, as long as TVmaze is properly credited as source
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.tvmaze.com/api
+  quote: You can satisfy the attribution requirement by linking back to TVmaze from within your application or website
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.tvmaze.com/api
+  quote: for performance reasons we recommend to cache the images on your end
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://www.tvmaze.com/api
+  quote: your usage complies with the ShareAlike provision
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://www.tvmaze.com/api
+  quote: API calls are rate limited to allow at least 20 calls every 10 seconds per IP address.
+  checked_at: '2026-11-21'
+notes: 'Data licence CC BY-SA (link on the API page points to by-sa/4.0): commercial use allowed, but share-alike means derivative
+  datasets must be shared under the same licence, so yellow. Storage: the page recommends caching images locally and the licence
+  permits copying; no explicit cap on text data. Rights caveat: show posters, descriptions and cast photos can carry third-party
+  studio rights; TVmaze''s copyright policy says it only accepts facts, press material, CC-licensed or user-created content
+  (https://www.tvmaze.com/site/copyright) but the API licence grants no rights beyond TVmaze''s own. A paid Enterprise API
+  exists for other needs. Site is reachable over HTTPS although the catalogued URL is http. Pages read: /api, /site/tos, /site/copyright.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

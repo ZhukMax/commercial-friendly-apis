@@ -13,13 +13,31 @@ sources:
   url: https://github.com/Bungie-net/api
   category: Games & Comics
 link_status: alive
-data_license: unknown
-commercial_use: unknown
+data_license: proprietary (Bungie game data and content; non-commercial unless written permission)
+commercial_use: 'no'
 storage_caching: unknown
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: red
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://www.bungie.net/7/en/Legal/terms
+data_license_url: https://www.bungie.net/7/en/Legal/terms
+commercial_use_scope: any
+evidence:
+- field: commercial_use
+  url: https://www.bungie.net/7/en/Legal/terms
+  quote: Your use of our data and content must be non-commercial, unless you obtain Bungie’s prior written permission.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.bungie.net/7/en/Legal/terms
+  quote: Your use of our data and content must be non-commercial, unless you obtain Bungie’s prior written permission.
+  checked_at: '2026-11-21'
+notes: Terms read at https://www.bungie.net/7/en/Legal/terms (JS-rendered, read via Playwright; curl gets a shell). Section "Game Content Usage Rules" limits use of Bungie data and content to non-commercial
+  use unless Bungie gives prior written permission; the same page says Service Provided Content may not be transferred or resold for commercial gain. This is the Bungie.net/Services terms; a separate API-key/application
+  agreement at bungie.net/en/Application was not read. The GitHub repo (Bungie-net/api) only holds API specs and changelog. Underlying Destiny content (names, art, text) is Bungie intellectual property.
+  Storage, display and attribution are not addressed on the pages read, so unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

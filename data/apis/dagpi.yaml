@@ -12,7 +12,7 @@ sources:
   name: Dagpi
   url: https://dagpi.xyz
   category: Photography
-link_status: alive
+link_status: dead
 data_license: unknown
 commercial_use: unknown
 storage_caching: unknown
@@ -23,3 +23,9 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Image manipulation/processing API (tool), not a data source.
+link_note: dagpi.xyz does not resolve (NXDOMAIN); dagpi.dev unreachable
+notes: dagpi.xyz does not resolve in DNS and the alternative dagpi.dev did not respond, so no page could be read. Listing describes it as image manipulation and processing, i.e. a tool API. All terms unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

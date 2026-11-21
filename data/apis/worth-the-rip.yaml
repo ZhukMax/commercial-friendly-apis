@@ -17,9 +17,26 @@ data_license: unknown
 commercial_use: unknown
 storage_caching: unknown
 redistribution_display: unknown
-attribution_required: unknown
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+attribution_text: Link back to worththerip.com when building something public with the data
+rate_limits: Data changes about every 2 hours; do not poll faster
+notes: Read the API page only (short "Fair use" section); no separate terms/licence page found. It asks
+  for a link back and polling no faster than every 2 hours and says "prices are TCGPlayer market snapshots
+  owned by their respective sources" (upstream rights not granted by this page). Offers an embeddable
+  leaderboard widget. Commercial use, storage and redistribution not addressed, so unknown.
+evidence:
+- field: attribution_required
+  url: https://worththerip.com/api/
+  quote: 'Attribution: if you build something public with this data, link back to worththerip.com.'
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://worththerip.com/api/
+  quote: the data only changes every ~2 hours
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

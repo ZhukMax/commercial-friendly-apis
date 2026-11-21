@@ -20,6 +20,15 @@ redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: AI video/image generation tool API processing the user's own inputs; not a data
+  source.
+evidence: []
+notes: 'KPainter generates video, image and app outputs from the user''s prompts/files; an account-scoped
+  generation service. Terms page https://kpainter.ai/policies/terms-of-use read: AI output may be inaccurate,
+  user must hold rights to input; no data licence for third-party reuse. Read via Playwright.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: unknown

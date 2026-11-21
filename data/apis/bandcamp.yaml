@@ -21,5 +21,12 @@ attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Account-scoped API for labels and merchandise partners (own sales/orders); no public catalogue data
+notes: 'Read https://bandcamp.com/developer (Playwright): ''Labels and merchandise fulfillment partners can interact with
+  their accounts via the Bandcamp API.'' Access is by contacting Bandcamp; endpoints are Account, Sales Report and Merch Orders
+  APIs. No public music catalogue API and no data terms stated.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

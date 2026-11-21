@@ -24,3 +24,9 @@ verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
 link_note: -> https://github.com/DiljotSG/MCU-Countdown/blob/main/docs/API.md
+api_terms_url: https://github.com/DiljotSG/MCU-Countdown/blob/main/docs/API.md
+notes: Read docs/API.md, README and LICENSE (GPL-3.0) on the main branch (the listed develop path redirects to main). The /api endpoint is a wrapper over a TMDB list ("Returns a JSON object detailing the
+  next production from a TMDB list"), and poster URLs point to image.tmdb.org; README credits TMDB. The code is GPL-3.0, which does not cover film metadata or posters. Underlying data is TMDB-sourced (TMDB
+  terms not assessed here and not transferred) and posters/titles belong to Marvel/Disney. No terms for the hosted service (whenisthenextmcufilm.com, responds 200) are stated. All terms unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

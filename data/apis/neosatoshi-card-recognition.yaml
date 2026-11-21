@@ -13,13 +13,55 @@ sources:
   url: https://neosatoshi.com/developers/detection-api
   category: Games & Comics
 link_status: alive
-data_license: unknown
+data_license: proprietary (third-party card rights remain with rights holders)
 commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
+storage_caching: limited
+redistribution_display: ambiguous
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Account-scoped card-recognition service (photos in, card IDs out, paid credits);
+  not an open data source
+api_terms_url: https://neosatoshi.com/termsofuse
+cache_limit: Prices and images stored must be refreshed or deleted after at most 30 days; only for cards
+  in own stock or listings
+evidence:
+- field: storage_caching
+  url: https://neosatoshi.com/termsofuse
+  quote: Prices and images you store must be refreshed or deleted after at most 30 days.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://neosatoshi.com/termsofuse
+  quote: Card images are provided for display in your own listings and tools. You may not pass them on
+    as a collection.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://neosatoshi.com/termsofuse
+  quote: You may use the API to recognise, correct, price and list cards you own, sell or handle for your
+    customers
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://neosatoshi.com/termsofuse
+  quote: You may not use the API to build, extend or refresh a card database, price database or catalog
+    that is offered to third parties
+  checked_at: '2026-11-21'
+notes: 'Read https://neosatoshi.com/termsofuse (incl. ''API terms'' section) and the API docs page. The
+  API recognises cards from the user''s own photos and is account/credit based, so it is a tool rather
+  than a general data source (applicable: false). Purpose clause limits use to recognising, pricing and
+  listing cards you own/sell or handle for customers; catalog copying, bulk reading, ML training and passing
+  images on as a collection are forbidden; stored prices/images must be refreshed or deleted within 30
+  days. Commercial use for sellers looks intended but the terms do not state it generally for ad/affiliate
+  sites, so commercial_use left unknown. Card data and artwork belong to rights holders (The Pokemon Company,
+  Wizards of the Coast, Konami etc.); the API grants no rights to them, and some data comes from third
+  parties (Cardmarket, TCGplayer, Scryfall, Yugipedia CC BY-SA) whose terms apply in addition.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: unknown
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Terms re-read: commercial use for own stock/customers allowed, 30-day cache limit,
+  no catalog copying, images not to be passed on as a collection. Not an open data source; unknown/not
+  applicable stands.'

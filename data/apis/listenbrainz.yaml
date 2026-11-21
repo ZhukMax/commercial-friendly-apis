@@ -13,13 +13,66 @@ sources:
   url: https://listenbrainz.readthedocs.io/en/latest/users/api/index.html
   category: Music
 link_status: alive
-data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
-bulk_download: unknown
+data_license: CC0-1.0 (ListenBrainz data dumps)
+commercial_use: ambiguous
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'no'
+bulk_download: 'yes'
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+data_license_url: https://metabrainz.org/datasets/postgres-dumps
+api_terms_url: https://listenbrainz.readthedocs.io/en/latest/users/api/index.html
+share_alike: 'no'
+rate_limits: Max ONE call per second per client application; header-based limits, higher with a user token
+evidence:
+- field: data_license
+  url: https://metabrainz.org/datasets/postgres-dumps
+  quote: 'Licenses: Creative Commons Zero (CC0)'
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://metabrainz.org/datasets/postgres-dumps
+  quote: 'Commercial use: Allowed, but financial support strongly urged, even for CC0 data.'
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://metabrainz.org/datasets/postgres-dumps
+  quote: even when a dataset is available under the Creative Commons Zero (CC0) license (public domain)
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://listenbrainz.readthedocs.io/en/latest/users/api/index.html
+  quote: All users of the API must ensure that each of their client applications never make more than
+    ONE call per second.
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://metabrainz.org/datasets
+  quote: The MetaBrainz core mission is to curate and maintain public datasets that anyone can download
+    and use.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://metabrainz.org/datasets/postgres-dumps
+  quote: even when a dataset is available under the Creative Commons Zero (CC0) license (public domain)
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://metabrainz.org/datasets/postgres-dumps
+  quote: even when a dataset is available under the Creative Commons Zero (CC0) license (public domain)
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://metabrainz.org/datasets/postgres-dumps
+  quote: even when a dataset is available under the Creative Commons Zero (CC0) license (public domain)
+  checked_at: '2026-11-21'
+notes: 'Two levels: the ListenBrainz database dumps are CC0 and the MetaBrainz dumps page says commercial
+  use is allowed but financial support from commercial users is strongly urged. The API documentation
+  (read) contains no licence or commercial-use clause, so commercial_use for the live API is ambiguous;
+  storage/display/attribution are inferred from the CC0 dump licence only. Data is user-submitted listening
+  history (personal data, GDPR). API doc requires a meaningful User-Agent. auth: public reads need no
+  token, submissions need a user token.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: API docs have no licence clause; MetaBrainz datasets page says commercial use allowed
+  for CC0 dumps with financial support urged. Related MusicBrainz API page says commercial use of the
+  hosted web service needs a plan, so hosted ListenBrainz API may be similar; no ListenBrainz-specific
+  statement found. commercial_use ambiguous stands.

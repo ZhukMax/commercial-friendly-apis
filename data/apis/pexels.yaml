@@ -17,14 +17,47 @@ sources:
   url: https://www.pexels.com/api/
   category: Photography
 link_status: alive
-data_license: unknown
-commercial_use: unknown
+data_license: Pexels License (custom, proprietary)
+commercial_use: 'yes'
 storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+redistribution_display: 'yes'
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
 link_note: HTTP 403 (blocked for bots, assumed alive)
+data_license_url: https://www.pexels.com/license/
+api_terms_url: https://www.pexels.com/api/documentation/
+commercial_use_scope: any
+attribution_text: Photos provided by Pexels (prominent text link to https://www.pexels.com or logo link); credit the photographer where possible
+rate_limits: Default 200 requests/hour and 20,000 requests/month; higher limits free if attribution is shown
+evidence:
+- field: data_license
+  url: https://www.pexels.com/license/
+  quote: All photos and videos on Pexels can be downloaded and used for free.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.pexels.com/license/
+  quote: Create unique ads, banners and marketing campaigns with photos from Pexels and promote your product.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.pexels.com/license/
+  quote: Use the photos and videos online – whether it’s a website, e-commerce shop, newsletter, e-book, presentation, blog or a template you sell.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.pexels.com/api/documentation/
+  quote: Whenever you are doing an API request make sure to show a prominent link to Pexels.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://www.pexels.com/api/documentation/
+  quote: By default, the API is rate-limited to 200 requests per hour and 20,000 requests per month.
+  checked_at: '2026-11-21'
+notes: 'Read /license/, /api/ (FAQ) and /api/documentation/ (Guidelines) via Playwright (curl gets a Cloudflare challenge). Two levels: the Pexels License lets content be used commercially (ads, websites,
+  apps) but forbids redistributing/selling it on other stock or wallpaper platforms, selling unaltered copies, and implying endorsement by people/brands shown; identifiable people and brands carry third-party
+  rights the licence does not clear. API guidelines require a prominent link to Pexels next to results (text link or logo) and credit to photographers when possible: this is a mandatory link, but it is
+  a plain credit link, not a logo-only or dofollow demand. Do not copy the core functionality of Pexels (no wallpaper apps). Storage/caching is not addressed on the pages read, so unknown. The /api/ page
+  currently says new API key issuance is paused. Terms of Use prohibit scraping outside the API.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

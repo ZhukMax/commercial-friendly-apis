@@ -14,13 +14,36 @@ sources:
   url: https://travellermap.com/doc/api
   category: Games & Comics
 link_status: alive
-data_license: unknown
-commercial_use: unknown
+data_license: proprietary (Traveller IP owned by Mongoose Publishing; Fair Use Policy is non-commercial)
+commercial_use: ambiguous
 storage_caching: unknown
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
+verdict: yellow
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://travellermap.com/doc/api
+notes: Read the Traveller Map API doc (free, "no charge", asks to be emailed, donations welcome) and the
+  Mongoose Traveller Fair Use Policy PDF (read with pdftotext) that the doc footer links to next to the
+  Mongoose copyright notice. The API doc itself states no licence or commercial terms; the linked policy
+  allows non-commercial use only ("If you are selling what you copy or reproduce, then you violate Fair
+  Use") and requires a copyright disclaimer, which suggests ads/affiliate sites are not covered. Whether
+  the policy governs API data (world/sector data, maps) is not stated, so ambiguous. Storage, display
+  and attribution left unknown.
+evidence:
+- field: commercial_use
+  url: https://cdn.shopify.com/s/files/1/0609/6139/0839/files/Traveller_Fair_Use_Policy_2024.pdf?v=1725357857
+  quote: The key word is non-commercial.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://travellermap.com/doc/api
+  quote: The Traveller game in all forms is owned by Mongoose Publishing.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: API doc only states Mongoose copyright and links the non-commercial Fair Use Policy;
+  ambiguity stands, treat as poor fit.

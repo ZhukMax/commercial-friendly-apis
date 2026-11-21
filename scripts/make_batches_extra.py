@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """Queue for the 'useful' non-priority categories (agreed with the maintainer): batch-037+ (existing batches untouched)."""
-import yaml, glob, collections
+import yaml, glob, collections, sys
 from pathlib import Path
 from urllib.parse import urlsplit
 ROOT = Path(__file__).resolve().parent.parent
-USEFUL = ["Cryptocurrency", "Currency Exchange", "Blockchain", "News", "Jobs", "Education", "Events", "Sports & Fitness",
+USEFUL = sys.argv[1].split("|") if len(sys.argv) > 1 else ["Cryptocurrency", "Currency Exchange", "Blockchain", "News", "Jobs", "Education", "Events", "Sports & Fitness",
           "Patent", "Disasters", "Vehicle", "Dictionaries", "Shopping", "Open Source Projects", "Data Validation",
           "Calendar", "Art & Design"]
 SIZE = 25

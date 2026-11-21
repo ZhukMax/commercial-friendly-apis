@@ -12,7 +12,7 @@ sources:
   name: AmiiboAPI
   url: https://amiiboapi.com/
   category: Games & Comics
-link_status: alive
+link_status: dead
 data_license: unknown
 commercial_use: unknown
 storage_caching: unknown
@@ -23,3 +23,16 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+link_note: Home page loads but /api/* returns 404; /docs/ and /faq/ now serve unrelated spam pages (2026-11-21).
+evidence:
+- field: notes
+  url: https://amiiboapi.com/
+  quote: For education purposes only!
+  checked_at: '2026-11-21'
+notes: Home page tagline says "For education purposes only!" and asks for donations; the API endpoints
+  (/api/, /api/amiibo/) return 404 and the /docs/ and /faq/ pages serve unrelated Indonesian gambling-spam
+  content (site apparently compromised or abandoned) - could be transient. Repo N3evin/AmiiboAPI is MIT
+  (code). Amiibo names, images and release data relate to Nintendo products and carry Nintendo rights;
+  no grant. All terms unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

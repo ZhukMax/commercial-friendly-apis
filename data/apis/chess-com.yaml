@@ -13,13 +13,55 @@ sources:
   url: https://www.chess.com/news/view/published-data-api
   category: Games & Comics
 link_status: alive
-data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
+data_license: unknown (no data licence stated for PubAPI; Chess.com User Agreement applies to game records)
+commercial_use: ambiguous
+storage_caching: limited
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://www.chess.com/news/view/published-data-api
+data_license_url: https://www.chess.com/legal/user-agreement
+commercial_use_scope: any
+cache_limit: HTTP caching per Cache-Control/ETag (endpoints refresh at most every 12h); User Agreement
+  bars downloading game records other than page caching
+share_alike: unknown
+rate_limits: Serial access unlimited; parallel requests may get 429; descriptive User-Agent with contact
+  recommended
+evidence:
+- field: commercial_use
+  url: https://www.chess.com/legal/user-agreement
+  quote: 'does not include any right to: (a) sell, resell or use it commercially'
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.chess.com/legal/user-agreement
+  quote: (d) download (other than page caching) any portion of the UGA
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.chess.com/news/view/published-data-api
+  quote: it is safe and correct to use your cached version.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://www.chess.com/news/view/published-data-api
+  quote: Your serial access rate is unlimited.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.chess.com/news/view/published-data-api
+  quote: 'we do require that you respect our IP: board color palettes, piece designs, sound effects, move
+    classification glyphs'
+  checked_at: '2026-11-21'
+notes: Read the PubAPI docs (/news/view/published-data-api) and the Chess.com User Agreement. The PubAPI
+  page has no licence, commercial-use or attribution clause, only brand/IP rules (do not reuse Chess.com
+  palettes, pieces, sounds) and a request to write to legal@chess.com if unsure. The User Agreement, section
+  on User Game Activity (UGA = game records, which PubAPI serves), grants a licence that excludes selling
+  or commercial use, data mining/robots and downloading beyond page caching; it also restricts AI training
+  without written authorisation. Because the API page invites use but the agreement restricts commercial
+  use, commercial_use is ambiguous; display/attribution not stated -> unknown. Profile data and avatars
+  are user content.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+second_check_at: '2026-11-21'
+second_check: confirmed

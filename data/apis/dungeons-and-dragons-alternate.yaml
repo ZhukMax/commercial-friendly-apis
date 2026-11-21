@@ -14,13 +14,33 @@ sources:
   url: https://open5e.com/
   category: Games & Comics
 link_status: alive
-data_license: unknown
+data_license: 'mixed per source document: Open Gaming License (most), CC-BY-4.0 (a5e), ORC (blackflag)'
 commercial_use: unknown
 storage_caching: unknown
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+data_license_url: https://api.open5e.com/v1/documents/
+api_terms_url: https://open5e.com/legal
+evidence:
+- field: data_license
+  url: https://api.open5e.com/v1/documents/
+  quote: Creative Commons Attribution 4.0 International License
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://api.open5e.com/v1/documents/
+  quote: Open Gaming License
+  checked_at: '2026-11-21'
+notes: 'Read api.open5e.com root, /v1/documents/ (JSON listing 17 source documents with per-document licence:
+  OGL for most, CC BY 4.0 for A5E SRD, ORC for Black Flag), open5e.com/legal (client-rendered, only says
+  material is published under open licences) and the GitHub README (v1 in maintenance, no API keys). No
+  API terms of service, no statement on commercial use, caching or display found, and I did not read the
+  OGL/ORC texts here, so all core terms stay unknown. Content is third-party game material (Wizards of
+  the Coast SRD 5.1, Open Design, Green Ronin, Kobold etc.) with per-source licences and attribution/notice
+  requirements (OGL requires copying its section 15 notice). Verdict stays unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: unknown

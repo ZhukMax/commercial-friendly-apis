@@ -19,7 +19,18 @@ storage_caching: unknown
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
-self_host_option: unknown
+self_host_option: 'yes'
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://github.com/gadhagod/Hyrule-Compendium-API
+evidence:
+- field: self_host_option
+  url: https://raw.githubusercontent.com/gadhagod/Hyrule-Compendium-API/master/LICENSE
+  quote: Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files
+  checked_at: '2026-11-21'
+notes: 'Read README and LICENSE of the repo. Code is MIT (Aarav Borthakur). The README says you can "embed it into your own application" but states no terms for the hosted API (api.hyrule-compendium.com,
+  responds 200) and no licence for the data. The data describes in-game items of The Legend of Zelda: Breath of the Wild / Tears of the Kingdom, texts and names belong to Nintendo; the API grants no rights
+  to that content. Commercial use, storage and display stay unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

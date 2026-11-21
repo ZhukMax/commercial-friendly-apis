@@ -20,7 +20,11 @@ redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
 link_note: HTTP 403 (blocked for bots, assumed alive)
+notes: www.giantbomb.com/api/documentation is blocked by Cloudflare for curl; the bare giantbomb.com host returned a JSON "Route not found". The browser page could not be read, so the terms were not seen
+  and nothing is claimed (no bypass attempted). Giant Bomb data and images are user-contributed wiki content plus third-party game art. All unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: unknown

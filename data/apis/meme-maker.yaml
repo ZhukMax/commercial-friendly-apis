@@ -12,7 +12,7 @@ sources:
   name: Meme Maker
   url: https://mememaker.github.io/API/
   category: Entertainment
-link_status: alive
+link_status: dead
 data_license: unknown
 commercial_use: unknown
 storage_caching: unknown
@@ -23,3 +23,8 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+link_note: API host alpha-meme-maker.herokuapp.com returns HTTP 404 "No such app"; only the GitHub Pages docs remain
+notes: Read the docs page https://mememaker.github.io/API/ (alive) and probed the host it documents, http://alpha-meme-maker.herokuapp.com/, which is a Heroku "No such app" 404, so the hosted API is gone.
+  The docs page has no licence or terms (its only licence line is for the HTML5 UP page template). Meme images in the sample output are hotlinked from imgflip.com, i.e. third-party content. All terms unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

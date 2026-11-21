@@ -17,7 +17,7 @@ sources:
   url: https://wallhaven.cc/help/api
   category: Photography
 link_status: alive
-data_license: unknown
+data_license: unknown (images remain property of original owners; no licence stated)
 commercial_use: unknown
 storage_caching: unknown
 redistribution_display: unknown
@@ -27,3 +27,19 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://wallhaven.cc/help/api
+rate_limits: 45 API calls per minute
+evidence:
+- field: data_license
+  url: https://wallhaven.cc/help/api
+  quote: All images remain property of their original owners.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://wallhaven.cc/help/api
+  quote: API calls are currently limited to 45 per minute.
+  checked_at: '2026-11-21'
+notes: Read the API page (https://wallhaven.cc/help/api, curl) and the Terms of Service (https://wallhaven.cc/terms, last updated 2016, Playwright). The API page says the API is free and as-is, and that
+  wallpapers belong to their original owners; the ToS covers user-uploaded content (uploader keeps rights, other users may use it subject to the Terms) but says nothing about API use, commercial use, caching
+  or display. User-uploaded wallpapers frequently contain third-party artwork, characters and photos. No usable grant found, so every core field is unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

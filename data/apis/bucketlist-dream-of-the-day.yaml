@@ -23,3 +23,8 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+notes: The partner page (bucketlist.nl/samenwerken) offers a free "Dream of the day" widget and says apps can use the same selection via a public CORS-enabled JSON API with image, canonical URL and attribution
+  fields, but states no licence, commercial-use, caching or attribution requirement. Its footer links to Terms (/algemene-voorwaarden) and Disclaimer (/disclaimer) which render a "page not found" message,
+  so no terms could be read. Images may carry third-party rights. Terms left unknown. Page text was read from the Next.js payload via curl.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

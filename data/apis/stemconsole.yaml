@@ -21,5 +21,23 @@ attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Account-scoped AI audio-processing service (stem splitter), not a data source;
+  API acts on your own account, plan and uploaded audio.
+rate_limits: 'Free account: 5 splits per month; Pro: 100 per month'
+evidence:
+- field: rate_limits
+  url: https://stemconsole.ai/terms
+  quote: Free accounts include a monthly number of splits (currently 5)
+  checked_at: '2026-11-21'
+- field: notes
+  url: https://stemconsole.ai/terms
+  quote: separating stems does not grant you any rights in the underlying recording or composition
+  checked_at: '2026-11-21'
+notes: 'Terms of Service (2026-11-10) read: you keep rights in uploaded audio; ToS warns that using extracted
+  stems commercially generally requires permission from rights holders. Stored stems are deleted after
+  7-90 days depending on plan. No data-licence or API-specific terms page found (/api-terms is 404).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

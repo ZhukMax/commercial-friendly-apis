@@ -23,3 +23,7 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+notes: 'Read https://uselessfacts.jsph.pl/ (API docs only: endpoints, languages en/de, v1 deprecated). It states only "This project was created by jsph.pl with no other intention than fun."; no terms, licence,
+  rate limit or attribution rule. The API returns each fact with a source and source_url (e.g. djtech.net), i.e. facts are curated from third-party sites with unknown licences. All terms unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

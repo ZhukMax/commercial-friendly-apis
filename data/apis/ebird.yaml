@@ -14,12 +14,33 @@ sources:
   category: Animals
 link_status: alive
 data_license: unknown
-commercial_use: unknown
+commercial_use: 'no'
 storage_caching: unknown
 redistribution_display: unknown
-attribution_required: unknown
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: red
+confidence: high
 link_checked_at: '2026-11-21'
+commercial_use_scope: any
+api_terms_url: https://www.birds.cornell.edu/home/ebird-api-terms-of-use/
+attribution_text: Attribute eBird.org as the source wherever the data is used or displayed, with a link
+  to eBird.org where possible.
+notes: Read eBird API Terms of Use (page needed a real browser, curl got 403; used Playwright in a fresh
+  context) and eBird Data Access Terms. API licence is for non-commercial use; "commercial purposes" includes
+  any use by or for a for-profit entity and revenue generation by non-profits, unless prior written permission
+  is given by the Cornell Lab (ebird@cornell.edu). Data Access Terms also forbid publishing eBird data
+  in original format. API key tied to an eBird account.
+evidence:
+- field: commercial_use
+  url: https://www.birds.cornell.edu/home/ebird-api-terms-of-use/
+  quote: You will not use the API or API Content, either whole or in part, for commercial purposes whatsoever
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.birds.cornell.edu/home/ebird-api-terms-of-use/
+  quote: You agree to attribute eBird.org as the source of the data accessed via the API wherever it is
+    used or displayed.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

@@ -21,5 +21,12 @@ attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Utility/generator that turns a YouTube URL into a markdown thumbnail link; not a data source
+notes: 'Read https://video-to-markdown.com/api (via Playwright): POST endpoint returns a markdown snippet with a cached thumbnail
+  and the YouTube title. Footer says ''Free and open source'' but no data terms or licence are stated; titles and thumbnails
+  belong to YouTube creators. Terms unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -13,7 +13,7 @@ sources:
   url: https://cataas.com/
   category: Animals
 link_status: alive
-data_license: unknown
+data_license: 'not licensed: cat images and user uploads remain with their authors (code is MIT)'
 commercial_use: unknown
 storage_caching: unknown
 redistribution_display: unknown
@@ -23,3 +23,15 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+notes: 'Read cataas.com (landing/usage page: "Free · No API key · Open source", suggests use for testing,
+  placeholders, monitoring, education) and the official GitHub repo. No terms of use page found on the
+  site. Repo states the MIT licence covers source code only; images and user uploads keep their authors''
+  rights, so the API grants no rights to the underlying images. Terms fields left unknown.'
+evidence:
+- field: data_license
+  url: https://github.com/cataas/cataas
+  quote: 'The content (cat images, user uploads and other media) is not covered by this license: all rights
+    remain with their respective authors.'
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

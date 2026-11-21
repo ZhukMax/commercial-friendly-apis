@@ -13,13 +13,23 @@ sources:
   url: https://github.com/arufars/api-blue-archive
   category: Games & Comics
 link_status: alive
-data_license: unknown
+data_license: MIT (code only); game data sourced from public, rights belong to game publisher
 commercial_use: unknown
 storage_caching: unknown
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+data_license_url: https://github.com/arufars/api-blue-archive
+notes: 'GitHub README: "This information is sourced from the public, i do not claim to own it." MIT licence applies to the project code. Blue Archive characters, names and art belong to the publishers (Nexon
+  Games/Yostar) and are not licensed by this API. No hosted-service terms. commercial_use, storage, display, attribution unknown.'
+evidence:
+- field: data_license
+  url: https://github.com/arufars/api-blue-archive
+  quote: This project is licensed under the MIT License - see the LICENSE file for details
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: unknown

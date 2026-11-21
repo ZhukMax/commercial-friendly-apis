@@ -17,14 +17,42 @@ sources:
   url: https://github.com/AniList/ApiV2-GraphQL-Docs
   category: Anime
 link_status: redirect
-data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
+data_license: proprietary (AniList terms of use; media data and artwork carry third-party rights)
+commercial_use: ambiguous
+storage_caching: ambiguous
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
 link_note: -> https://github.com/AniList/docs
+api_terms_url: https://docs.anilist.co/guide/terms-of-use
+commercial_use_scope: free-tier
+notes: 'Terms of Use (docs.anilist.co): free for non-commercial usage; commercial apps earning under $150/month
+  may use the API free without permission, above that a commercial licence from contact@anilist.co is
+  required (hence ambiguous, not yes/paid-only). Storing is restricted: using the API as a backup/data-storage
+  service and mass collection are prohibited; plain display caching is not addressed (ambiguous). Competing
+  anime/manga list or tracker services are barred. Naming rule: apps using "AniList" in the name must
+  say UNOFFICIAL. Redistribution/display of media data and cover art was not addressed (third-party licensor
+  rights); left unknown. The upstream link redirects to github.com/AniList/docs.'
+evidence:
+- field: commercial_use
+  url: https://docs.anilist.co/guide/terms-of-use
+  quote: The AniList API may be used within commercial applications or services operating at less than
+    $150 of revenue per month free of charge
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://docs.anilist.co/guide/terms-of-use
+  quote: Using the AniList API as a backup or data storage service is strictly prohibited.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://docs.anilist.co/guide/terms-of-use
+  quote: Free for non-commercial usage.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read first-pass terms evidence; third-party artwork rights unaddressed.

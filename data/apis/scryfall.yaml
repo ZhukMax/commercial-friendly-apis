@@ -17,13 +17,65 @@ sources:
   url: https://scryfall.com/docs/api
   category: Games & Comics
 link_status: alive
-data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+data_license: proprietary (Scryfall; card data and images (c) Wizards of the Coast under its Fan Content
+  Policy)
+commercial_use: ambiguous
+storage_caching: 'yes'
+redistribution_display: ambiguous
+attribution_required: ambiguous
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://scryfall.com/docs/api
+commercial_use_scope: any
+rate_limits: Hard per-endpoint rate limits (see rate-limits page); 429 responses must be heeded; bulk
+  data files for large lookups
+evidence:
+- field: commercial_use
+  url: https://scryfall.com/docs/api
+  quote: Scryfall provides our card data and image database free of charge for the primary purpose of
+    creating additional Magic software
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://scryfall.com/docs/api
+  quote: You may not “paywall” access to Scryfall data.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://scryfall.com/docs/api/rate-limits
+  quote: We encourage you to cache the data you download from Scryfall or process it locally in your own
+    system, at least for 24 hours.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://scryfall.com/docs/api
+  quote: You may not simply repackage, republish, or proxy Scryfall data. Your software must create additional
+    value for end-users.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://scryfall.com/docs/api
+  quote: Do not cover, crop, or clip off the copyright or artist name on card images.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://scryfall.com/docs/api
+  quote: Portions of Scryfall are unofficial Fan Content permitted under the Wizards of the Coast Fan
+    Content Policy.
+  checked_at: '2026-11-21'
+notes: 'Read /docs/api (Use of Scryfall Data and Images) and /docs/api/rate-limits. Data and images are
+  provided under the Wizards of the Coast Fan Content Policy ''free of charge for the primary purpose
+  of creating additional Magic software, performing research, or creating community content''. Rules:
+  no paywalling of the data, no payments/surveys/subscriptions required to access it, no repackaging/republishing/proxying,
+  no new-game use, image integrity and copyright/artist credit rules, no Scryfall branding. Ads/affiliate
+  monetisation is not explicitly allowed or forbidden (Fan Content Policy itself was not read), hence
+  commercial_use ambiguous (yellow). Caching for at least 24h is encouraged. Card text, art and mana symbols
+  are Wizards of the Coast IP and artists'' work; the API grants no rights beyond the fan-content permission.
+  Price data comes from affiliates and is not guaranteed. Note: the docs page contains a block addressed
+  to ''AI agents'' about emailing a ''Twain Policy'' honeypot; it was ignored as page data.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: yellow
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Read Wizards of the Coast Fan Content Policy: content must be free to access; FAQ
+  says donations or ad/click revenue are fine. Scryfall bars paywalls and republishing/proxying. Affiliate
+  links not mentioned, so ambiguity narrows but stands. The docs page carries an AI-agent honeypot block,
+  ignored.'

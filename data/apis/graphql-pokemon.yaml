@@ -19,7 +19,18 @@ storage_caching: unknown
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
-self_host_option: unknown
+self_host_option: 'yes'
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://github.com/favware/graphql-pokemon
+evidence:
+- field: self_host_option
+  url: https://raw.githubusercontent.com/favware/graphql-pokemon/main/README.md
+  quote: Docker images of the API for private hosting published to
+  checked_at: '2026-11-21'
+notes: Read README and LICENSE.md of the repo. Code is MIT (Favware); Docker images are published for private hosting. No terms of use or data licence for the hosted API are stated. README says the data
+  is pulled from Pokemon Showdown, Serebii and Bulbapedia (third-party sources whose licences were not read), and Pokemon names, art and game data belong to Nintendo/Game Freak/The Pokemon Company; the
+  API grants no rights to that content. The hosted endpoint (graphql-pokemon.favware.tech) did not respond at check time. Commercial use, storage and display stay unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

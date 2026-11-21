@@ -21,6 +21,14 @@ redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://www.bobsburgersapi.com/documentation
+evidence: []
+notes: No terms of use or data licence for the data found on the pages read. Docs only ask for coffee
+  support. Characters, episodes and images are owned by the show's rights holders (Fox/Loren Bouchard);
+  the API grants no rights. Hosted on herokuapp; the source repo zachspiel/bobsburgers-api shows no licence
+  in the GitHub API.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: unknown

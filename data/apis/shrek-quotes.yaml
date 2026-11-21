@@ -23,3 +23,9 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+notes: The API home page (shREST, read via curl) lists endpoints for Shrek movie quotes and top cast and
+  shows only '(c) 2024 shREST API. All rights reserved.'; no terms of use, data licence or attribution
+  statement found. Quotes and cast data come from DreamWorks/Universal films; the API grants no rights
+  to the underlying content. All terms fields unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

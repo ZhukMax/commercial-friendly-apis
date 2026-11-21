@@ -12,7 +12,7 @@ sources:
   name: SearchLy
   url: https://www.github.com/AlbertSuarez/searchly
   category: Music
-link_status: alive
+link_status: dead
 data_license: unknown
 commercial_use: unknown
 storage_caching: unknown
@@ -21,5 +21,18 @@ attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+applicable: false
+link_note: 'README: public API no longer deployed; only self-deployment of the code remains.'
+not_applicable_reason: Open-source self-hosted software (MIT code); the public deployment has been shut
+  down.
+notes: README states the public API is no longer deployed. Lyrics database was scraped from AZLyrics (150k
+  songs), so lyrics carry third-party copyright; repo MIT licence covers only the code. Terms left unknown.
+evidence:
+- field: link_status
+  url: https://raw.githubusercontent.com/AlbertSuarez/searchly/master/README.md
+  quote: This API is no longer deployed for its public usage. Run your own deployment for using it.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

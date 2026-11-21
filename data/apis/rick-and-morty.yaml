@@ -17,13 +17,30 @@ sources:
   url: https://rickandmortyapi.com
   category: Games & Comics
 link_status: alive
-data_license: unknown
+data_license: unknown (API code under BSD; show data and images belong to their owners)
 commercial_use: unknown
 storage_caching: unknown
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://rickandmortyapi.com/about
+evidence:
+- field: data_license
+  url: https://rickandmortyapi.com/about
+  quote: The data and images are used without claim of ownership and belong to their respective owners.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://rickandmortyapi.com/about
+  quote: This API is open source and uses a BSD license.
+  checked_at: '2026-11-21'
+notes: Read /about and /documentation. The 'Copyright?' section says the data and images are used without
+  claim of ownership and belong to their owners (Rick and Morty is by Justin Roiland and Dan Harmon for
+  Adult Swim, so Warner Bros. Discovery/Adult Swim rights), and that the API (software) is open source
+  under a BSD licence. No terms of use, rate-limit rules, caching or commercial statements found; the
+  BSD licence covers code, not the character data or images. All core terms unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: unknown

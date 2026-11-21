@@ -1,0 +1,324 @@
+[
+ {
+  "id": "krakenkeys",
+  "outcome": "confirmed",
+  "reasons": [
+   "Site terms personal/non-commercial vs API docs invite sites",
+   "IGDB upstream needs commercial partnership; ambiguity stands"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read /terms and /api-docs. Site terms limit use to personal non-commercial purposes while the API section and docs invite building sites; ambiguity is real. Game metadata and covers come from IGDB (igdb_id and images.igdb.com URLs); IGDB docs say its API is free for non-commercial use and commercial needs a partnership with user-facing attribution, so downstream commercial rights are unconfirmed."
+ },
+ {
+  "id": "lastfm",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToS non-commercial only, commercial agreement unpublished",
+   "Ambiguous kept, no paid plan stated"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "API ToS 3.1 allows non-commercial use only; commercial needs a separate agreement (partners@last.fm). Licence clause 4.1 does grant publish/distribute, 2.7 requires AudioScrobbler button. No blocker beyond what first pass recorded."
+ },
+ {
+  "id": "lightdrift",
+  "outcome": "disputed",
+  "reasons": [
+   "could not re-verify: service ToS unreadable (TLS mismatch)",
+   "Per-image licences mix NC and permissive"
+  ],
+  "counter_evidence": [],
+  "suggested": {
+   "commercial_use": "unknown"
+  },
+  "note": "Docs rights guide re-read: per-image licences, NC images exist (come back commercial:false). Service ToS on lightdrift.ai still unreadable (TLS name mismatch; did not bypass). Docs plans page has no commercial/caching clause."
+ },
+ {
+  "id": "listenbrainz",
+  "outcome": "confirmed",
+  "reasons": [
+   "No API-specific licence; MusicBrainz sibling needs commercial plan",
+   "Dump CC0 supports storage/display"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "API docs have no licence clause; MetaBrainz datasets page says commercial use allowed for CC0 dumps with financial support urged. Related MusicBrainz API page says commercial use of the hosted web service needs a plan, so hosted ListenBrainz API may be similar; no ListenBrainz-specific statement found. commercial_use ambiguous stands."
+ },
+ {
+  "id": "lotterydata-io",
+  "outcome": "confirmed",
+  "reasons": [
+   "No express commercial grant; generic IP clause"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Terms read: no express grant of commercial use/storage; generic no-copy/distribute clause. Docs and homepage add nothing. Unknown stands."
+ },
+ {
+  "id": "memeidea",
+  "outcome": "confirmed",
+  "reasons": [
+   "No commercial statement; third-party image rights remain"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "API page asks to cache and credit; says data comes from Imgflip, Wikimedia, Reddit, YouTube and to respect their terms; terms page says meme images belong to owners. Commercial rights not stated; unknown stands."
+ },
+ {
+  "id": "memesio",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToS silent on commercial reuse of API output",
+   "oEmbed page denies reuse licence for images"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "ToS re-read (Playwright): no grant of commercial reuse; section 7 says additional commercial/API terms may apply; attribution in provided embeds must stay. oEmbed page says no licence to commercially reuse the image. Unknown/ambiguous stand."
+ },
+ {
+  "id": "mixcloud",
+  "outcome": "disputed",
+  "reasons": [
+   "User Agreement covers the API and restricts to personal non-commercial use",
+   "No paid or commercial API tier on developer page",
+   "Music rights held by labels/publishers"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://www.mixcloud.com/terms/",
+    "quote": "not to use the Platform other than for your own personal, private, non-commercial use",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "no"
+  },
+  "note": "The User Agreement defines Services as including the Mixcloud API, and limits use to personal, private, non-commercial. Developer page reviewed: no commercial tier, no ad/monetisation allowance, no paid API plan. Widgets also barred from commercial use. Evidence points to no."
+ },
+ {
+  "id": "mmo-games",
+  "outcome": "confirmed",
+  "reasons": [
+   "API page vs site ToU conflict unresolved"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "API page says free for everyone without restrictions with MMOBomb attribution; site ToU limits to personal noncommercial use. Conflict remains, and the API page is the more specific statement. Game assets belong to publishers. Ambiguous stands."
+ },
+ {
+  "id": "movebank",
+  "outcome": "confirmed",
+  "reasons": [
+   "Per-study licences incl. NC; no blanket commercial answer"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Terms re-read: licence set per study (CC0/CC BY/CC BY-NC/custom); user agrees to follow each study licence and may need owner permission. No blanket answer; ambiguous stands."
+ },
+ {
+  "id": "musicbrainz",
+  "outcome": "confirmed",
+  "reasons": [
+   "Hosted API commercial needs paid tier; CC0 core data"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read MusicBrainz API page: non-commercial free, commercial plan needed; supporters page lists paid tiers from $100/month. Core data CC0, supplementary CC BY-NC-SA. No further blocker; cover art licences remain separate."
+ },
+ {
+  "id": "nekosbest",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToS and FAQ explicitly prohibit commercial use"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "ToS section 4 lists commercial purpose, rehosting/reselling/monetising as forbidden; FAQ confirms commercial use prohibited. Red stands."
+ },
+ {
+  "id": "neosatoshi-card-recognition",
+  "outcome": "confirmed",
+  "reasons": [
+   "Tool for card sellers; catalog reuse prohibited"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Terms re-read: commercial use for own stock/customers allowed, 30-day cache limit, no catalog copying, images not to be passed on as a collection. Not an open data source; unknown/not applicable stands."
+ },
+ {
+  "id": "nexwall",
+  "outcome": "disputed",
+  "reasons": [
+   "Commercial right limited to content NexWall owns or may sublicense",
+   "Wallpapers include third-party marks/likenesses with no rights granted"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://nexwall.kodnextech.com/wallpaper-api/license",
+    "quote": "only for content that NexWall owns or is authorized to sublicense and only while you comply with this license.",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "ambiguous"
+  },
+  "note": "License section 2 permits ad/subscription monetisation but only for content NexWall owns or may sublicense; wallpapers include third-party characters, brands and likenesses with no rights granted (Terms section 7). So commercial_use yes is overstated."
+ },
+ {
+  "id": "opensubtitles",
+  "outcome": "confirmed",
+  "reasons": [
+   "Commercial ok; shared server copies and redistribution not allowed"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read Terms of use for integrators via Playwright. Commercial use allowed (free key if each user signs in; paid plan for anonymous). Servers may not keep shared copies for other users; redistribution needs rights-holder permission. Yellow stands."
+ },
+ {
+  "id": "pandascore",
+  "outcome": "confirmed",
+  "reasons": [
+   "Display allowed on own site; marketing of data excluded; unclear for ads"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Terms Article 6 re-read: reproduction only on customer website for information, excluding marketing of the data, but it may charge its own customers for site access; raw data not passable to third parties; Source credit required. Ambiguity stands."
+ },
+ {
+  "id": "pexafy",
+  "outcome": "disputed",
+  "reasons": [
+   "AUP caps caching at 24 hours so storage is limited",
+   "Licences page states commercial use allowed for all sources",
+   "Terms bar reselling raw data as competing search service"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://pexafy.com/legal/terms/",
+    "quote": "Cache API responses to serve them in place of live API calls beyond a reasonable period (max 24 hours for search results)",
+    "field": "storage_caching"
+   },
+   {
+    "url": "https://pexafy.com/legal/licenses/",
+    "quote": "All sources in our index offer free licenses allowing broad commercial use without mandatory attribution.",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "yes",
+   "storage_caching": "limited"
+  },
+  "note": "Service terms and licences pages are readable now (pexafy.com/legal/terms, /legal/licenses): caching of search results is capped at 24 hours (AUP), and the licences page says all indexed sources allow broad commercial use. Unsplash/Pexels API guidelines may still ask for credit, so attribution stays ambiguous."
+ },
+ {
+  "id": "potter-db",
+  "outcome": "disputed",
+  "reasons": [
+   "Upstream wiki text licensed CC BY-SA requires attribution",
+   "Film/book IP stays with Warner Bros/Rowling"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://harrypotter.fandom.com/wiki/Harry_Potter_Wiki:Copyrights",
+    "quote": "Except where otherwise specified, the text on Wikia sites is licensed under the Creative Commons Attribution-Share Alike License 3.0 (Unported) (CC-BY-SA).",
+    "field": "attribution_required"
+   }
+  ],
+  "suggested": {
+   "attribution_required": "yes"
+  },
+  "note": "Upstream is the Harry Potter Wiki on Fandom, whose text is CC BY-SA 3.0, which requires attribution (and share-alike for derivatives). Potter DB's MIT claim cannot override that. First pass left attribution unknown."
+ },
+ {
+  "id": "raider",
+  "outcome": "disputed",
+  "reasons": [
+   "Blizzard API terms forbid marketing/monetization use of Data",
+   "Raider.IO: community and personal use; commercial by contact"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://www.blizzard.com/en-us/legal/a2989b50-5f16-43b1-abec-2ae17cc09dd6/blizzard-developer-api-terms-of-use",
+    "quote": "You May Not Use The Blizzard Developer APIs Or Data For Marketing Or Monetization Purposes.",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "no"
+  },
+  "note": "Raider.IO data comes from Blizzard's WoW API. Blizzard Developer API Terms forbid using Blizzard APIs or Data for marketing or monetization, so an ad/affiliate site is blocked upstream, plus Raider.IO says community and personal use only; commercial only by separate licence."
+ },
+ {
+  "id": "random-facts",
+  "outcome": "confirmed",
+  "reasons": [
+   "Website licence bars commercial/public display vs API clause",
+   "8-hour cache cap"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Terms: website licence forbids commercial/public display; section 9 says paid API subscribers need not credit; 8-hour cache cap. Conflict between clauses remains; no explicit paid-plan commercial grant found. Ambiguous stands."
+ },
+ {
+  "id": "rawg-io",
+  "outcome": "disputed",
+  "reasons": [
+   "Current pricing page: Free = non-commercial only",
+   "Conflicts with older ToS (2021)",
+   "Business plan lists commercial use"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://rawg.io/apidocs",
+    "quote": "Non-commercial projects only 500,000+ video games data up to 20,000 requests per month",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "paid-only"
+  },
+  "note": "Pricing page (apidocs) states Free plan is for non-commercial projects only and lists commercial use under the paid Business plan; ToS is dated 1 March 2021 and says Free allows commercial use under 20,000 requests. The current pricing page is the more recent offer, so evidence leans paid-only for commercial use."
+ },
+ {
+  "id": "rendi",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms limit to own sites, no resale; vague on commercial site"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Terms grant use for your own sites and apps 'not for further commercialization or resale'. Tool, not a data source (not applicable). Ambiguous stands."
+ },
+ {
+  "id": "rowatcher",
+  "outcome": "confirmed",
+  "reasons": [
+   "Personal licence vs CC BY CSV; Roblox data rights"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Terms re-read via Playwright: personal revocable licence for intended purpose, no reselling as your own, Roblox data belongs to Roblox. Only history.csv is CC BY 4.0. Ambiguous stands."
+ },
+ {
+  "id": "runescape",
+  "outcome": "confirmed",
+  "reasons": [
+   "Wiki licence NC-SA; Jagex API terms not found"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Page footer: wiki content CC BY-NC-SA 3.0 with additional terms; Jagex trademarks used with permission. Jagex endpoint terms not found, so wiki portion looks non-commercial and the rest unknown. Ambiguous stands."
+ },
+ {
+  "id": "scryfall",
+  "outcome": "confirmed",
+  "reasons": [
+   "Fan Content Policy allows ad revenue but no paywall",
+   "Affiliate monetisation and WotC IP not clear"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Read Wizards of the Coast Fan Content Policy: content must be free to access; FAQ says donations or ad/click revenue are fine. Scryfall bars paywalls and republishing/proxying. Affiliate links not mentioned, so ambiguity narrows but stands. The docs page carries an AI-agent honeypot block, ignored."
+ }
+]

@@ -27,3 +27,7 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+notes: 'Read random.dog and its GitHub repo: code is MIT; no terms or licence for the media (user-submitted
+  dog images/videos). Terms fields left unknown.'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

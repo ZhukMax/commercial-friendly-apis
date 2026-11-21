@@ -19,7 +19,18 @@ storage_caching: unknown
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
-self_host_option: unknown
+self_host_option: 'yes'
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://github.com/sameerkumar18/geek-joke-api
+evidence:
+- field: self_host_option
+  url: https://github.com/sameerkumar18/geek-joke-api/blob/master/LICENSE
+  quote: Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files
+  checked_at: '2026-11-21'
+notes: Read the repo README and LICENSE (raw.githubusercontent.com). The source code is MIT, which covers running your own copy of the Flask app (self-host yes). Neither the README nor any page read states
+  terms for the hosted API (geek-jokes.sameerkumar.website, responds 200) or a licence for the joke texts themselves (origin of jokes not stated, may be third-party). README only says the API is "for use
+  in all sorts of applications", which is not a licence statement, so commercial use, storage and display stay unknown. The MIT licence of the code does not extend to the data.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -17,13 +17,31 @@ sources:
   url: https://pokeapi.co
   category: Games & Comics
 link_status: alive
-data_license: unknown
+data_license: unknown (code is BSD-3-Clause; Pokemon content is Nintendo property)
 commercial_use: unknown
-storage_caching: unknown
+storage_caching: 'yes'
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://pokeapi.co/docs/v2
+evidence:
+- field: storage_caching
+  url: https://pokeapi.co/docs/v2
+  quote: Locally cache resources whenever you request them.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://pokeapi.co/docs/v2
+  quote: Pokémon and Pokémon character names are trademarks of Nintendo.
+  checked_at: '2026-11-21'
+notes: Read the API v2 docs (Fair Use Policy) and /about. The policy says the API is 'free and open to
+  use' and asks developers to cache locally (so storage_caching=yes), but states nothing about commercial
+  use, display or attribution, and gives no data licence (the GitHub repo's LICENSE is BSD-3 for the code
+  only). Pokemon names, characters and any sprites/artwork belong to Nintendo/The Pokemon Company; the
+  API grants no rights to them. Fair-use violators may be IP-banned. Core commercial/display terms unknown,
+  so verdict unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: unknown

@@ -13,13 +13,59 @@ sources:
   url: https://thetvdb.com/api-information
   category: Video
 link_status: alive
-data_license: unknown
-commercial_use: unknown
+data_license: proprietary (community-contributed metadata; images, trailers and programming not licensed)
+commercial_use: 'yes'
 storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+redistribution_display: ambiguous
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+data_license_url: https://thetvdb.com/tos
+api_terms_url: https://thetvdb.com/api-information
+commercial_use_scope: any
+attribution_text: Metadata provided by TheTVDB. Please consider adding missing information or subscribing.
+  (with a direct link to TheTVDB.com)
+evidence:
+- field: commercial_use
+  url: https://thetvdb.com/api-information
+  quote: Our API is available for both commercial projects and to individual developers.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://thetvdb.com/api-information/signup
+  quote: Free - requires attribution. Please see our API page for more information.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://thetvdb.com/api-information
+  quote: Unless approved by TheTVDB, attribution with a direct link to TheTVDB.com must be displayed to
+    end users viewing metadata from our API.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://thetvdb.com/api-information
+  quote: We do not claim ownership of any of the images or data in the API.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://thetvdb.com/tos
+  quote: license, sublicense, resell, distribute, lease, rent, lend, transfer, assign or otherwise dispose
+    of the API or the Data
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://thetvdb.com/tos
+  quote: THE TERMS OF THE API LICENSE DO NOT GIVE YOU AUTHORIZATION TO USE OR DISPLAY IMAGES, TRAILERS
+    OR PROGRAMMING ASSOCIATED WITH THE API
+  checked_at: '2026-11-21'
+notes: 'API and Data Licensing page plus Terms of Service (TheTVDB, a Whip Media company). Pricing is
+  by project revenue: free with attribution under $50k/year, $1,000/yr for $50k-$250k, $10,000/yr for
+  $250k-$1M, custom above (signup page), so commercial use is allowed on all tiers. The ToS API licence
+  is limited to the approved product; displaying metadata with attribution is clearly intended, but distributing/reselling
+  the Data is prohibited, hence display ambiguous. Images, trailers and programming are explicitly NOT
+  licensed: you must clear rights with the content owners. Caching/storage not addressed. Film/TV metadata
+  and artwork carry third-party (studio) rights.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'API page and ToS re-read: commercial allowed with attribution, Data may not be resold/distributed,
+  images/trailers unlicensed. Display ambiguous stands.'

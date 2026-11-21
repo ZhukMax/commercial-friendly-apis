@@ -17,14 +17,51 @@ sources:
   url: https://developers.deezer.com/api
   category: Music
 link_status: redirect
-data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
+data_license: proprietary (Deezer and its rights holders; no rights granted)
+commercial_use: 'no'
+storage_caching: 'no'
+redistribution_display: ambiguous
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: red
+confidence: high
 link_checked_at: '2026-11-21'
 link_note: -> https://developers.deezer.com/login?redirect=/api
+api_terms_url: https://developers.deezer.com/termsofuse
+commercial_use_scope: any
+evidence:
+- field: commercial_use
+  url: https://developers.deezer.com/termsofuse
+  quote: the exclusive use of the Webpages or Applications for non-commercial purposes
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://developers.deezer.com/termsofuse
+  quote: shall not receive, generate or derive, directly or indirectly, any revenue, income or other consideration
+    from its use of the Services or of the Content
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://developers.deezer.com/termsofuse
+  quote: The Developer is not authorised either to make any local copy of any Content available through
+    the Services
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://developers.deezer.com/termsofuse
+  quote: Access by users to sound recordings (whether excerpts or full-length sound recordings) through
+    the Developer's Webpages and/or Applications is only authorised through the Deezer Widget
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://developers.deezer.com/termsofuse
+  quote: The Developer acknowledges that it obtains no right, title or interest in or to the DEEZER API,
+    the DEEZER Plugins, the Content
+  checked_at: '2026-11-21'
+notes: Terms of Use of Deezer for Developers read at https://developers.deezer.com/termsofuse (last updated
+  27 Oct 2026; the catalogued /api URL redirects to a login page). Access is limited to approved developers
+  for private non-commercial use, with no revenue (advertising or subscription), no content database or
+  local copy, no combination of Content with visual/audiovisual images, and audio only through the Deezer
+  widget; exceptions need a separate written agreement with Deezer, so commercial use is not available
+  on the public API. Content belongs to Deezer and its rights holders (labels).
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed

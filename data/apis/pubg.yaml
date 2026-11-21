@@ -13,13 +13,69 @@ sources:
   url: https://developer.pubg.com/
   category: Games & Comics
 link_status: alive
-data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+data_license: Proprietary (PUBG Developer Portal Terms of Use incl. Monetization Policy)
+commercial_use: ambiguous
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: ambiguous
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+data_license_url: https://developer.pubg.com/tos?locale=en
+api_terms_url: https://developer.pubg.com/tos?locale=en
+commercial_use_scope: any
+attribution_text: Keep copyright/trademark notices; trademark guidelines require PUBG trademark attribution
+  text when marks are used
+share_alike: unknown
+evidence:
+- field: commercial_use
+  url: https://developer.pubg.com/tos?locale=en
+  quote: Ads are the PUBG-preferred method of monetization for you to offset your costs.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://developer.pubg.com/tos?locale=en
+  quote: publicly display, publicly perform, republish, download, store or transmit any of the Data in
+    connection with your software product.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://developer.pubg.com/tos?locale=en
+  quote: publicly display, publicly perform, republish, download, store or transmit any of the Data in
+    connection with your software product.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://developer.pubg.com/tos?locale=en
+  quote: You may not delete or alter any copyright, trademark or other proprietary rights notices from
+    the Data
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://developer.pubg.com/tos?locale=en
+  quote: You also may not sell, lease, license or otherwise distribute the Data on a stand-alone basis
+    or apart from your own software product.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://developer.pubg.com/tos?locale=en
+  quote: for the purpose of developing software that will benefit the Company’s players’ gaming experiences.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://developer.pubg.com/tos?locale=en
+  quote: we reserve the right to require any form of monetization (including donations) be removed from
+    a project
+  checked_at: '2026-11-21'
+notes: 'Read the PUBG Developer Portal Terms of Use (last modified 2019-03-05; page /tos, which includes
+  a Monetization Policy and Trademark Guidelines). Allowed: ads (preferred), paid ad removal, donations,
+  subscriptions that do not gate API-based features. Forbidden: charging for exclusive access to features
+  based on API data, crowdfunding with perks; PUBG may require removal of any monetization case by case.
+  Data may be shown/stored only inside your own software product, not sold or distributed stand-alone;
+  purpose must benefit PUBG players. Affiliate links are not mentioned (unknown). Attribution is only
+  required for PUBG trademarks and by keeping notices -> ambiguous. API is for player/match data of PUBG;
+  game IP stays with KRAFTON. Green is computed but medium confidence because the monetization rules are
+  discretionary.'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'API licence is limited to software benefiting PUBG players, data only inside own software
+  product; monetization can be forced off case by case at PUBG''s discretion; affiliate links not mentioned;
+  ToU last modified 2019 | applied: commercial_use=ambiguous'

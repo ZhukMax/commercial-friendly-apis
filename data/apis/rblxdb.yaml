@@ -15,11 +15,37 @@ sources:
 link_status: alive
 data_license: unknown
 commercial_use: unknown
-storage_caching: unknown
+storage_caching: 'yes'
 redistribution_display: unknown
-attribution_required: unknown
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://rblxdb.com/terms
+attribution_text: Roblox ID data from rblxdb (link to https://rblxdb.com)
+rate_limits: No hard limits for reasonable use; responses cached for an hour
+evidence:
+- field: storage_caching
+  url: https://rblxdb.com/developers
+  quote: Please cache responses on your side (they only change hourly) and link back to rblxdb.com where
+    you show the data.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://rblxdb.com/developers
+  quote: link back to rblxdb.com where you show the data
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://rblxdb.com/terms
+  quote: Commercial or high-volume use requires written permission
+  checked_at: '2026-11-21'
+notes: 'Read /developers and /terms. Free API is ''free for non-commercial projects'' and the terms say
+  commercial or high-volume use requires written permission (email); no commercial plan or price is stated,
+  so commercial_use stays unknown (not no, not paid-only). Caching is requested (storage_caching yes,
+  but stated in the non-commercial context) and a link back is requested where data is shown (treated
+  as attribution yes). No data licence given. Independent fan-made database of Roblox platform data (music/decal
+  IDs, codes, stats): not affiliated with Roblox Corporation; the audio and decals are third-party creator
+  uploads and Roblox assets, and the API grants no rights to that underlying content.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: unknown

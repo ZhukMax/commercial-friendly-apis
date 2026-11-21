@@ -13,13 +13,57 @@ sources:
   url: https://openguitarchords.com/data
   category: Music
 link_status: alive
-data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
-bulk_download: unknown
+data_license: no named licence; site states data is free to use, including commercially (chord and scale
+  facts only)
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'no'
+bulk_download: 'yes'
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: green
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://openguitarchords.com/data
+commercial_use_scope: any
+attribution_text: 'Optional: link back to Open Guitar Chords'
+share_alike: unknown
+evidence:
+- field: commercial_use
+  url: https://openguitarchords.com/data
+  quote: The data is free to use, including commercially.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://openguitarchords.com/data
+  quote: No license requires attribution, but a link back to Open Guitar Chords is appreciated
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://openguitarchords.com/data
+  quote: No key, no account, no tracking — fetch, cache and cite.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://openguitarchords.com/data
+  quote: Three read-only JSON endpoints power the tools on this site and are free for anyone else to use
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://openguitarchords.com/data
+  quote: 'All three are static files on this domain, served with Access-Control-Allow-Origin: * and a
+    one-day cache lifetime.'
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://openguitarchords.com/data
+  quote: The data is free to use, including commercially.
+  checked_at: '2026-11-21'
+notes: 'Developer data page (section "Use and attribution") grants free use including commercially, no
+  attribution required. No formal licence text (SPDX) is named and no separate terms page exists (/terms
+  and /license are 404), so data_license is free text and confidence is medium. The files contain chord
+  and scale facts only: no lyrics, tablature or audio; the site states diagrams, page text and recordings
+  are its own work and are not covered by the data statement. Static JSON files (3 endpoints), cached
+  one day.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read /data (updated 2026-11-04). No separate terms/licence page; statement is informal
+  (no SPDX licence), so medium confidence stays. Site diagrams, page text and recordings are expressly
+  the site's own work and not covered.

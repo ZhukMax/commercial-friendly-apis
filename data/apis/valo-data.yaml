@@ -14,13 +14,56 @@ sources:
   url: https://valotcg.com/developers/api/pokemon
   category: Games & Comics
 link_status: alive
-data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+data_license: proprietary (Valo.Data API terms; database right asserted by ValoTCG)
+commercial_use: paid-only
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: high
 link_checked_at: '2026-11-21'
+api_terms_url: https://valotcg.com/developers/terms
+commercial_use_scope: paid
+cache_limit: Cache allowed for the duration of access; delete stored Data within 30 days after access
+  ends; no rebuilding of catalogue or price histories
+attribution_text: 'Data: ValoTCG (with a link to https://valotcg.com)'
+share_alike: unknown
+rate_limits: Sandbox 500 credits/month, 10 req/min; Starter 10,000 credits/month, 60 req/min
+notes: 'Read the Valo.Data and Valo.Vision API Terms (last updated 11/13/2026). Free Sandbox is non-commercial
+  (development/prototypes); paid plans from EUR 19/month include commercial use. Licence lasts for the
+  subscription; reselling, bulk redistribution, public/machine-readable exposure and systematic extraction
+  are prohibited. Mandatory credit "Data: ValoTCG" with link. Terms: "Trademarks and game names belong
+  to their respective owners"; card imagery rights not granted. Prices aggregated from third-party sources
+  (Cardmarket, eBay, etc.; upstream rights not assessed).'
+evidence:
+- field: commercial_use
+  url: https://valotcg.com/developers/terms
+  quote: 'Sandbox and Trial: development, testing and prototypes only, no commercial use.'
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://valotcg.com/developers/terms
+  quote: commercial use allowed within Customer Products (display to end users, calculations, estimates,
+    alerts, inventory management, photo-based entry).
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://valotcg.com/developers/terms
+  quote: The Customer may store the Data received in a cache or a database reserved to its Products
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://valotcg.com/developers/terms
+  quote: commercial use allowed within Customer Products (display to end users, calculations, estimates,
+    alerts, inventory management, photo-based entry).
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://valotcg.com/developers/terms
+  quote: When prices are displayed to end users, the Customer shows
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://valotcg.com/developers/terms
+  quote: Reselling, renting or redistributing the Data as a feed or in bulk, including as files, exports
+    or datasets.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

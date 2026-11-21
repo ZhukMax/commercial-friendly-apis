@@ -23,3 +23,10 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: GitHub wiki documenting Valve's undocumented internal Steam Web API; not a data source or service of its own
+notes: Read README of Revadike/InternalSteamWebAPI. It is a documentation wiki (MIT) of unofficial/internal Valve endpoints and explicitly excludes the official API. The endpoints and data belong to Valve
+  and are governed by Valve's own terms, not by this repo; the official Steam Web API Terms of Use (steamcommunity.com/dev/apiterms, last updated July 2010) are a different agreement for API-key users and
+  were not applied here. Terms for using the internal endpoints are not granted by this wiki, so everything stays unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

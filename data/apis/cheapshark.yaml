@@ -13,14 +13,58 @@ sources:
   url: https://www.cheapshark.com/api
   category: Games & Comics
 link_status: redirect
-data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+data_license: Proprietary (free API, conditions on CheapShark docs)
+commercial_use: 'yes'
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: 'no'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: high
 link_checked_at: '2026-11-21'
 link_note: -> https://apidocs.cheapshark.com/
+data_license_url: https://apidocs.cheapshark.com/
+api_terms_url: https://apidocs.cheapshark.com/
+commercial_use_scope: any
+cache_limit: API intended for live queries; building a cached catalog by excessive automated requests
+  leads to rate limiting or permanent block
+share_alike: unknown
+rate_limits: Rate limited (HTTP 429, Retry-After); User-Agent header required
+evidence:
+- field: redistribution_display
+  url: https://apidocs.cheapshark.com/
+  quote: We offer a fully documented public API for developers to use CheapShark pricing data on their
+    own app or website.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://apidocs.cheapshark.com/
+  quote: you are free to monetize using other methods (Display Ads, Subscriptions, Patreon, etc.)
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://apidocs.cheapshark.com/
+  quote: you may not make use of our API if you use your own affiliate links for ANY of the stores we
+    track.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://apidocs.cheapshark.com/
+  quote: Excessive automated requests to build a cached catalog of data will run into rate limiting issues
+    (including a permenant block) and should be avoided.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://apidocs.cheapshark.com/
+  quote: while not a requirement, it is always appreciated if you mention somewhere that your app or site
+    is making use of the CheapShark API.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://apidocs.cheapshark.com/
+  quote: you are free to monetize using other methods (Display Ads, Subscriptions, Patreon, etc.)
+  checked_at: '2026-11-21'
+notes: 'Read apidocs.cheapshark.com (Postman docs, via Playwright; www.cheapshark.com/api redirects there)
+  and the site terms footer. Free, no key. Condition: deal links must go through CheapShark redirect links;
+  use of your own affiliate links for any tracked store is forbidden, but ads, subscriptions and donations
+  are allowed. So an affiliate-link site cannot use it with its own affiliate IDs. Not designed for bulk
+  caching (permanent block risk) -> storage limited. Prices belong to the stores; site states "Copyrights
+  and trademarks are the property of their respective owners". Attribution only appreciated.'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

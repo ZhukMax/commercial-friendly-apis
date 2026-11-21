@@ -13,13 +13,53 @@ sources:
   url: https://runescape.wiki/w/Application_programming_interface
   category: Games & Comics
 link_status: alive
-data_license: unknown
-commercial_use: unknown
+data_license: CC-BY-NC-SA-3.0 (RuneScape Wiki content; additional terms apply); game data from Jagex APIs
+  not covered
+commercial_use: ambiguous
 storage_caching: unknown
 redistribution_display: unknown
-attribution_required: unknown
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+license_scope: portal-default
+data_license_url: https://runescape.wiki/w/RuneScape:Copyrights
+share_alike: 'yes'
+evidence:
+- field: data_license
+  url: https://runescape.wiki/w/RuneScape:Copyrights
+  quote: RuneScape and RuneScape Old School are the trademarks of Jagex Limited and are used with the
+    permission of Jagex.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://runescape.wiki/w/RuneScape:Copyrights
+  quote: Content on this site is licensed under CC BY-NC-SA 3.0
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://runescape.wiki/w/RuneScape:Copyrights
+  quote: Content on this site is licensed under CC BY-NC-SA 3.0
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://runescape.wiki/w/RuneScape:Copyrights
+  quote: Content on this site is licensed under CC BY-NC-SA 3.0
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://runescape.wiki/w/RuneScape:Copyrights
+  quote: Content on this site is licensed under CC BY-NC-SA 3.0
+  checked_at: '2026-11-21'
+notes: 'The entry URL is a RuneScape Wiki page that documents several APIs: the wiki''s own MediaWiki
+  API plus Jagex''s official endpoints (Grand Exchange database, hiscores, RuneMetrics etc. on secure.runescape.com).
+  Read via Playwright (curl hits a Weird Gloop bot check). The only licence found is the wiki-wide default:
+  CC BY-NC-SA 3.0 with additional terms, i.e. non-commercial and share-alike for wiki content (license_scope
+  portal-default). Jagex''s own API terms were not found or read, so commercial use for the official endpoints
+  is unknown; overall ambiguous (yellow). Storage/display of Jagex data unknown. Game data and art belong
+  to Jagex Limited.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: yellow
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Page footer: wiki content CC BY-NC-SA 3.0 with additional terms; Jagex trademarks
+  used with permission. Jagex endpoint terms not found, so wiki portion looks non-commercial and the rest
+  unknown. Ambiguous stands.'

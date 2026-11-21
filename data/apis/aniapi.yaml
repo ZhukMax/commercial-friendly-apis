@@ -12,7 +12,7 @@ sources:
   name: AniAPI
   url: https://aniapi.com/docs/
   category: Anime
-link_status: alive
+link_status: dead
 data_license: unknown
 commercial_use: unknown
 storage_caching: unknown
@@ -23,3 +23,10 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+link_note: aniapi.com/docs now redirects to an unrelated online-casino ad page; aniapi.com/terms redirects
+  to an adult site
+notes: Both https://aniapi.com/docs/ and /terms redirected (in a fresh Playwright context) to unrelated
+  gambling/adult advertising pages, so the original service appears gone or the domain hijacked. No terms
+  read; all unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

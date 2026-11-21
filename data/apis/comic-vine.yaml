@@ -4,7 +4,7 @@ url: https://comicvine.gamespot.com/api/documentation
 category: Games & Comics
 description: Comics
 description_source: upstream
-auth: none
+auth: apiKey
 https: true
 cors: unknown
 sources:
@@ -17,13 +17,54 @@ sources:
   url: https://comicvine.gamespot.com/api/documentation
   category: Games & Comics
 link_status: alive
-data_license: unknown
-commercial_use: unknown
+data_license: Proprietary (Comic Vine API Terms of Use; non-commercial only)
+commercial_use: 'no'
 storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+redistribution_display: ambiguous
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: red
+confidence: high
 link_checked_at: '2026-11-21'
+data_license_url: https://comicvine.gamespot.com/api/
+api_terms_url: https://comicvine.gamespot.com/api/
+commercial_use_scope: any
+attribution_text: On any page you use the data, link back to Comic Vine
+share_alike: unknown
+rate_limits: 200 requests per resource per hour; velocity detection may temporarily block
+evidence:
+- field: commercial_use
+  url: https://comicvine.gamespot.com/api/
+  quote: The API is strictly for non-commercial use only.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://comicvine.gamespot.com/api/
+  quote: Commercial use will result in your API key being revoked.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://comicvine.gamespot.com/api/
+  quote: On any page you use our data, please link back to us.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://comicvine.gamespot.com/api/
+  quote: Do not edit, manipulate or reproduce on any other medium.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://comicvine.gamespot.com/api/
+  quote: We officially support 200 requests per resource, per hour.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://comicvine.gamespot.com/api/
+  quote: The API is strictly for non-commercial use only.
+  checked_at: '2026-11-21'
+notes: Read the Terms of Use block on comicvine.gamespot.com/api/ (Fandom-owned) and the documentation
+  page. Non-commercial use only; commercial use gets the key revoked, so a site with ads or affiliate
+  links is out. The docs suggest caching responses in the app, but that does not override the non-commercial
+  rule. Auth fixed to apiKey (docs list status 100 Invalid API Key). Comic data and images are from publishers/artists
+  (Marvel, DC, etc.); no rights in them are granted. Fandom "API Terms of Use" link in the footer was
+  not separately opened.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+second_check_at: '2026-11-21'
+second_check: confirmed

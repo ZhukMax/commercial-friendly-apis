@@ -19,7 +19,22 @@ storage_caching: unknown
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
-self_host_option: unknown
+self_host_option: 'yes'
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+evidence:
+- field: self_host_option
+  url: https://raw.githubusercontent.com/NTag/lyrics.ovh/main/README.md
+  quote: docker build -t lyrics.ovh .
+  checked_at: '2026-11-21'
+- field: notes
+  url: https://raw.githubusercontent.com/NTag/lyrics.ovh/main/README.md
+  quote: When it has nothing, the other sources are queried in parallel and the first result wins
+  checked_at: '2026-11-21'
+notes: 'No terms of use, licence or API policy found: the Apiary page is an empty shell, lyrics.ovh home
+  has no terms, repo code is MIT (code only). The service is a scraper/aggregator: per its README it queries
+  LRCLIB, NetEase, Genius, AZLyrics etc., and lyrics are copyrighted works of songwriters/publishers;
+  the API grants no rights to them. All terms unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

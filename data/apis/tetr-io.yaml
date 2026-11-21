@@ -14,12 +14,41 @@ sources:
   category: Games & Comics
 link_status: alive
 data_license: unknown
-commercial_use: unknown
+commercial_use: ambiguous
 storage_caching: unknown
-redistribution_display: unknown
+redistribution_display: ambiguous
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
+verdict: yellow
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://tetr.io/about/api/
+rate_limits: About 1 request per second; honor cache headers
+notes: Read the Tetra Channel API doc and the TETR.IO Terms of Service. The API doc says "Do not use the
+  API in ways that break the TETR.IO Terms of Service" and asks to honor cache times (re-request rule,
+  not a storage licence). The ToS restricts exploiting game "Content" outside intended use without permission;
+  it is unclear whether API player/leaderboard data counts, and there is no explicit API data licence,
+  so commercial use and display are ambiguous. Main game API (tetr.io/api) is not allowed without written
+  consent. Storage and attribution left unknown.
+evidence:
+- field: commercial_use
+  url: https://tetr.io/about/terms/
+  quote: Copy, reproduce, extract, download, redistribute, publish, sell, license, sublicense, or otherwise
+    exploit any Content
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://tetr.io/about/terms/
+  quote: Copy, reproduce, extract, download, redistribute, publish, sell, license, sublicense, or otherwise
+    exploit any Content
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://tetr.io/about/api/
+  quote: once a second should be fine for most cases, short bursts are OK.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Terms re-read: bars automated systematic extraction of Content and competing products;
+  no API data licence. Ambiguity stands.'

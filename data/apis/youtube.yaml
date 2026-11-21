@@ -18,12 +18,44 @@ sources:
   category: Video
 link_status: alive
 data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+commercial_use: 'yes'
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+confidence: high
 link_checked_at: '2026-11-21'
+api_terms_url: https://developers.google.com/youtube/terms/developer-policies
+commercial_use_scope: any
+cache_limit: 'Non-authorized API data: not more than 30 calendar days, then delete or refresh; audiovisual
+  content must not be cached or stored'
+attribution_text: Display YouTube Brand Features per the YouTube Branding Guidelines
+evidence:
+- field: commercial_use
+  url: https://developers.google.com/youtube/terms/developer-policies
+  quote: You may distribute or sell API Clients subject to the restrictions defined in the following "Prohibited
+    Actions" subsection
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://developers.google.com/youtube/terms/developer-policies
+  quote: you may distribute and display YouTube audiovisual content and accompanying metadata to users
+    through your API Clients
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://developers.google.com/youtube/terms/developer-policies
+  quote: an API Client must not store statistics retrieved as Non-Authorized Data for more than 30 days.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://developers.google.com/youtube/terms/api-services-terms-of-service
+  quote: All API Clients must provide proper attribution in accordance with the YouTube Branding Guidelines
+  checked_at: '2026-11-21'
+notes: 'YouTube API Services Terms and Developer Policies: commercial API clients allowed, but ad sales
+  on a page with YouTube API Data are restricted unless other independent-value content is on the same
+  page, sales of ads on/within YouTube content or the player need written approval, no redistribution/sale
+  of the API Services, no caching of audiovisual content, non-authorized data max 30 days. Videos and
+  metadata remain the uploaders'' content (copyright). Mandatory branding/ToS links also apply. Read via
+  Playwright. Verdict yellow due to the 30-day cache limit and ad restrictions.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: yellow

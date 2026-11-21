@@ -20,7 +20,15 @@ redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
-link_note: HTTP 401 (blocked for bots, assumed alive)
+link_note: 'Netlify site is private: sign-in with an invited Netlify account required (read via Playwright)'
+evidence: []
+notes: The site https://psychonauts-api.netlify.app/ currently redirects to Netlify's 'This site is private.
+  Sign in with an invited Netlify account to view it' page (seen via Playwright, fresh context), so no
+  docs, terms or licence were readable and the API may not be publicly usable at all. All terms unknown.
+  Psychonauts characters and PSI powers are game IP of Double Fine/Xbox Game Studios (Microsoft); no rights
+  could be confirmed.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: unknown

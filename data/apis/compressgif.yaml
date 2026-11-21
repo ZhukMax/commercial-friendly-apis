@@ -21,5 +21,12 @@ attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: GIF compression tool/API that processes the caller's own files; not a data source.
+api_terms_url: https://compressgif.net/terms
+notes: 'Read https://compressgif.net/docs and https://compressgif.net/terms (Playwright). Terms: "Use CompressGIF only for GIF files you own or are allowed to process." Credit-based processing tool; no
+  dataset returned.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

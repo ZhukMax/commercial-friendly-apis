@@ -21,13 +21,50 @@ sources:
   url: https://tastedive.com/read/api
   category: Music
 link_status: alive
-data_license: unknown
+data_license: proprietary (Qloo owns API data)
 commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
+storage_caching: 'no'
+redistribution_display: ambiguous
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://tastedive.com/read/api-terms
+rate_limits: 300 requests per hour per access key
+evidence:
+- field: storage_caching
+  url: https://tastedive.com/read/api-terms
+  quote: Retain, store, or cache API Data beyond the period required for real-time processing unless explicitly
+    authorized.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://tastedive.com/read/api-terms
+  quote: may not sell, redistribute, or modify API Data for purposes competitive with Qloo.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://tastedive.com/read/api-terms
+  quote: Qloo retains all right, title, and interest in and to the API, all associated data, and all learning
+    derived from API usage.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://tastedive.com/read/api
+  quote: Using this key, you can perform 300 requests per hour.
+  checked_at: '2026-11-21'
+notes: 'Read https://tastedive.com/read/api (legacy API docs; page says TasteDive joined Qloo and the
+  legacy API is supported until migration), the TasteDive Developer API Terms of Use (https://tastedive.com/read/api-terms,
+  1.27.2025) and the site ToS (/read/terms). Pages are Cloudflare-protected for curl, read with Playwright.
+  API Terms: access licence is "solely for the purpose of integrating TasteDive functionality into your
+  application, website, or service" (no explicit commercial grant or ban, so commercial_use unknown),
+  caching beyond real-time processing is prohibited (storage=no), and redistribution/modification is barred
+  only for competing purposes (ambiguous). Terms also forbid building a competing service. Recommendations
+  name movies, music, games, books (third-party titles; no rights to underlying media). verdict.py gives
+  unknown because commercial_use is unconfirmed, but the caching ban alone makes this a poor fit for storing
+  results: consider red.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read API Terms in a fresh Playwright context (curl blocked by Cloudflare): licence
+  for integration only, caching banned, Qloo owns API Data. Verdict stays unknown/poor fit.'

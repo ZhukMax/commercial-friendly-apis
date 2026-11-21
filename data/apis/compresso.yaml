@@ -21,5 +21,11 @@ attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Image compression tool/API that processes the caller's own images; not a data source.
+api_terms_url: https://compresso.space/terms
+notes: 'Read https://compresso.space/developers and https://compresso.space/terms (Playwright): "Compresso is a free image compression tool provided as-is." Tool API, no dataset returned.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

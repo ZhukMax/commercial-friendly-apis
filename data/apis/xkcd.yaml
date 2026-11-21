@@ -17,13 +17,37 @@ sources:
   url: https://xkcd.com/json.html
   category: Games & Comics
 link_status: alive
-data_license: unknown
-commercial_use: unknown
+data_license: CC-BY-NC-2.5
+commercial_use: 'no'
 storage_caching: unknown
 redistribution_display: unknown
-attribution_required: unknown
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: red
+confidence: medium
 link_checked_at: '2026-11-21'
+data_license_url: https://xkcd.com/license.html
+api_terms_url: https://xkcd.com/license.html
+commercial_use_scope: any
+attribution_text: Link back to xkcd.com/license (credit where the drawings are from)
+notes: Read the json.html page (no terms there) and xkcd.com/license.html. Comics are CC BY-NC 2.5, so
+  a site with ads or affiliate links is commercial and not covered without the author's permission (the
+  author invites emails when unsure). The page speaks of the drawings; the JSON metadata/transcripts are
+  presumed to fall under the same licence (not stated; transcripts may be community-contributed). Storage
+  and display left unknown.
+evidence:
+- field: data_license
+  url: https://xkcd.com/license.html
+  quote: This work is licensed under a Creative Commons Attribution-NonCommercial 2.5 License.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://xkcd.com/license.html
+  quote: you are free to copy and reuse any of my drawings (noncommercially)
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://xkcd.com/license.html
+  quote: as long as you tell people where they're from.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

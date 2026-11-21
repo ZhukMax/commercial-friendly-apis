@@ -14,12 +14,55 @@ sources:
   category: Video
 link_status: alive
 data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+commercial_use: ambiguous
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://api.simkl.org/api-rules
+attribution_text: Link back to the Simkl page of each item wherever Simkl data appears; trending lists
+  must name Simkl
+rate_limits: 10 GET/sec and 1 POST/sec per client_id and per user token
+evidence:
+- field: commercial_use
+  url: https://api.simkl.org/api-rules
+  quote: Commercial apps and services that generate less than $150 / month in revenue.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://api.simkl.org/api-rules
+  quote: you must obtain a commercial license before continuing to use the API
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://api.simkl.org/api-rules
+  quote: Wherever Simkl data appears in your app, link back to the Simkl page for that specific item
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://api.simkl.org/api-rules
+  quote: The Simkl API caps every app at 10 GET/sec and 1 POST/sec per client_id and per user token
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://api.simkl.org/api-rules
+  quote: Cache by URL on the device — minutes for user data, hours for catalogs, forever for images.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://api.simkl.org/api-rules
+  quote: Wherever Simkl data appears in your app, link back to the Simkl page for that specific item
+  checked_at: '2026-11-21'
+notes: Read the API rules page on the new docs site api.simkl.org (the old Apiary docs at the listed URL
+  say they have moved). Free for non-commercial apps and for commercial apps earning less than $150/month;
+  at $150/month or more a commercial licence (negotiated via Discord) is required, so commercial_use is
+  ambiguous rather than yes/paid-only. Mandatory per-item link back to Simkl (and a Simkl-named title
+  for trending lists). Competing trackers must also offer Simkl sync; for raw metadata Simkl points developers
+  to TVDB/TMDB. Caching is encouraged in the best-practices section but no storage licence is stated,
+  so unknown. Film/TV/anime data and posters are third-party rights; no rights granted to underlying content.
+  The full Simkl Terms (simkl.com/about/policies/terms) were behind a Cloudflare check and not read.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'API rules page encourages caching, incl. ''forever for images'', so storage is allowed;
+  Per-item link back to Simkl is the display condition | applied: storage_caching=yes, redistribution_display=yes'

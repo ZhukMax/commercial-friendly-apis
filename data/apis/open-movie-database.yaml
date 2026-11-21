@@ -18,12 +18,42 @@ sources:
   category: Video
 link_status: alive
 data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
+commercial_use: 'no'
+storage_caching: 'no'
+redistribution_display: 'no'
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: red
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://www.omdbapi.com/legal.htm
+evidence:
+- field: commercial_use
+  url: https://www.omdbapi.com/legal.htm
+  quote: you may not use the Site or any Contributions or Materials in connection with any commercial
+    endeavors
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.omdbapi.com/legal.htm
+  quote: You may not build a business utilizing the Contributions, whether or not for profit.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.omdbapi.com/legal.htm
+  quote: copy, download, reproduce, duplicate, archive, distribute, upload, publish, modify, translate,
+    broadcast, perform, display, sell
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.omdbapi.com/legal.htm
+  quote: copy, download, reproduce, duplicate, archive, distribute, upload, publish, modify, translate,
+    broadcast, perform, display, sell
+  checked_at: '2026-11-21'
+notes: 'Generic OMDb Terms of Use (omdbapi.com/legal.htm): Site and Services are for personal use only;
+  Contributions (the user-contributed movie data and images, per the home page) may not be used in connection
+  with commercial endeavors, built into a business, archived, published or displayed except personal non-commercial
+  use (4.1/4.2). The wording is site-wide boilerplate and the home page lists Patreon-funded API tiers
+  and many third-party sites using the key, so how it is applied to API customers is unclear; read literally
+  it excludes a commercial site. Poster API is patrons-only (home page). Film metadata and posters are
+  also owned by studios/third parties; the API grants no rights to them. No attribution clause found.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

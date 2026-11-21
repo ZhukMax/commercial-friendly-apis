@@ -23,3 +23,8 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+notes: 'Read place.dog: placeholder dog image service with community-submitted photos via GitHub (joshghent/placedogs);
+  no terms, licence or attribution statement found. Photo rights belong to contributors. Terms fields
+  left unknown.'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

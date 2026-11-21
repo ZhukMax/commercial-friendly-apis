@@ -23,3 +23,7 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+notes: nekosia.cat, its /terms page and api.nekosia.cat answered 403 with a Cloudflare "Sorry, you have been blocked" page to curl and a headless browser; not bypassed, so no terms were read. Images are
+  anime artwork with third-party artist/licensor rights. Terms left unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

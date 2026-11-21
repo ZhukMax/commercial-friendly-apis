@@ -12,15 +12,72 @@ sources:
   name: PandaScore
   url: https://developers.pandascore.co/
   category: Games & Comics
-link_status: redirect
-data_license: unknown
-commercial_use: unknown
+- list: public-api-lists
+  name: PandaScore
+  url: https://api.pandascore.co
+  category: Games & Comics
+link_status: alive
+data_license: Proprietary (PandaScore database rights; licence under subscription T&Cs)
+commercial_use: ambiguous
 storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+redistribution_display: 'yes'
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
 link_note: -> https://developers.pandascore.co/docs/introduction
+data_license_url: https://pandascore.co/terms-and-condition
+api_terms_url: https://pandascore.co/terms-and-condition
+commercial_use_scope: any
+attribution_text: 'Source: PandaScore'
+share_alike: unknown
+rate_limits: 'Free Fixtures plan: max 1,000 requests/hour; Historical and Live plans: 10,000/hour'
+evidence:
+- field: redistribution_display
+  url: https://pandascore.co/terms-and-condition
+  quote: authorises the Customer to reproduce the data to which it has had access through Subscription
+    but only on its website, for information purposes
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://pandascore.co/terms-and-condition
+  quote: and to the exclusion of any marketing of said data.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://pandascore.co/terms-and-condition
+  quote: 'the Customer shall affix to any document and any medium reproducing all or part of the PandaScore
+    data, the source as follows: "Source: PandaScore".'
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://pandascore.co/terms-and-condition
+  quote: This Database is and remains the property of PandaScore, which holds both the copyright and the
+    sui generis right of the database producer.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://pandascore.co/terms-and-condition
+  quote: the Customer will immediately cease all use of the PandaScore database
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://pandascore.co/terms-and-condition
+  quote: A maximum rate of one thousand (1k) requests per hour.
+  checked_at: '2026-11-21'
+notes: 'Read PandaScore T&Cs (pandascore.co/terms-and-condition, Articles 2 and 6) and developers.pandascore.co/docs/introduction
+  (Fixtures plan free). Proprietary database licence, not open: data may be reproduced only on the customer''s
+  own website for information purposes, excluding "marketing of said data"; raw data may not be passed
+  on to third parties; only separately processed results may be marketed; "Source: PandaScore" must be
+  shown. Whether an ad/affiliate site counts as marketing the data is unclear -> commercial_use ambiguous.
+  Low Latency subscription data may NOT be shown publicly at all; odds products are forbidden. Storage/caching
+  is not addressed (only that use ceases on termination) -> unknown. Free Fixtures plan (1k req/h) falls
+  under the same T&Cs. Esports data also derives from game publishers/tournament organisers; no rights
+  to underlying content (logos, game art) are granted by this page. Entry covers the same service as the
+  other PandaScore entry (pandascore / pandascore-api). Merged duplicate entry `pandascore-api`.'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+aliases:
+- pandascore-api
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Terms Article 6 re-read: reproduction only on customer website for information, excluding
+  marketing of the data, but it may charge its own customers for site access; raw data not passable to
+  third parties; Source credit required. Ambiguity stands.'

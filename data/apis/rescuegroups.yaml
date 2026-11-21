@@ -4,7 +4,7 @@ url: https://userguide.rescuegroups.org/display/APIDG/API+Developers+Guide+Home
 category: Animals
 description: Adoption
 description_source: upstream
-auth: none
+auth: apiKey
 https: true
 cors: unknown
 sources:
@@ -19,12 +19,42 @@ sources:
 link_status: redirect
 data_license: unknown
 commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
-bulk_download: unknown
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: 'no'
+bulk_download: 'yes'
 self_host_option: unknown
-verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
-link_note: -> https://guides.rescuegroups.org/s/4a2c57ff-3678-4bc0-8cf0-d6d45df023da
+link_note: -> https://guides.rescuegroups.org/s/4a2c57ff-3678-4bc0-8cf0-d6d45df023da (support guides home; the API Developers Guide is the separate share f17c33c2-51dd-4af1-9649-93573035ef0e)
+api_terms_url: https://guides.rescuegroups.org/s/f17c33c2-51dd-4af1-9649-93573035ef0e
+cache_limit: 'Pet data must be kept in sync: delete pets no longer listed in petlist.csv; append trackerImageUrl to descriptions'
+rate_limits: No limitations on total requests, records per request, or number of results (per vendor claim)
+evidence:
+- field: attribution_required
+  url: https://guides.rescuegroups.org/s/f17c33c2-51dd-4af1-9649-93573035ef0e
+  quote: No requirement to say "powered by"
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://guides.rescuegroups.org/s/f17c33c2-51dd-4af1-9649-93573035ef0e/doc/complete-adoptable-pet-data-download-via-ftp-3387ZZVaG1
+  quote: Import the data from orgs_n.json and pets_n.json into your database.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://guides.rescuegroups.org/s/f17c33c2-51dd-4af1-9649-93573035ef0e/doc/complete-adoptable-pet-data-download-via-ftp-3387ZZVaG1
+  quote: You are welcome to use the image URLs from the data on your own website.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://guides.rescuegroups.org/s/f17c33c2-51dd-4af1-9649-93573035ef0e
+  quote: No limitations on total requests, records per request, or the number of results, etc.
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://guides.rescuegroups.org/s/f17c33c2-51dd-4af1-9649-93573035ef0e/doc/complete-adoptable-pet-data-download-via-ftp-3387ZZVaG1
+  quote: Included with your API key is the ability to download the complete animal and organization database via FTP.
+  checked_at: '2026-11-21'
+notes: 'Read the API Developers Guide intro, the FTP bulk-download page and the v5 page (guides.rescuegroups.org), plus rescuegroups.org/terms-of-service (that ToS is for shelters that upload data, not
+  API consumers; it grants RescueGroups a licence to shelter-uploaded data and pictures). No page read states whether commercial use of the API data is permitted, so commercial_use stays unknown and verdict
+  unknown. Auth fixed: an API key is required (request form). FTP download is announced to be discontinued in 2026. Data and pictures are owned by the individual shelters/rescues; no licence from them to
+  API users was found. Test-environment data may not be used in production. Entry url redirects to the support-guides home; the API guide lives at the share linked in api_terms_url.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: unknown

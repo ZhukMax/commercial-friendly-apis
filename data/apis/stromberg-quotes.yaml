@@ -14,12 +14,34 @@ sources:
   category: Video
 link_status: alive
 data_license: unknown
-commercial_use: unknown
+commercial_use: ambiguous
 storage_caching: unknown
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
+verdict: yellow
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://stromberg-api.de/impressum
+evidence:
+- field: commercial_use
+  url: https://stromberg-api.de/impressum
+  quote: Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.stromberg-api.de/
+  quote: Dazu eine kostenlose JSON-API für deine eigenen Projekte.
+  checked_at: '2026-11-21'
+notes: 'No dedicated API terms. The home page offers a free JSON-API ''for your own projects'' (no key);
+  the Impressum (legal notice) says downloads and copies of the page are allowed only for private, non-commercial
+  use and that operator-created content is under German copyright. The notice is generic site boilerplate,
+  so whether it applies to API use is unclear: ambiguous. The quotes, character data and episode info
+  come from the TV series Stromberg (producer/broadcaster rights); no rights to that content are granted.
+  The site itself carries an Amazon affiliate link. Caching, display and attribution are not addressed.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read home page and Impressum: only generic private/non-commercial copy notice,
+  no API terms; quotes are third-party TV content. Ambiguity stands.'

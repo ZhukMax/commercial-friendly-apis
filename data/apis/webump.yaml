@@ -21,5 +21,21 @@ attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Account-scoped player-consent platform (OAuth, per-player profiles and game saves,
+  approved-project access); not a catalogue data source
+evidence:
+- field: applicable
+  url: https://developer.webump.app/
+  quote: Live connections require an approved project, player consent in the compatible weBump iPhone
+    app, a verified HTTPS callback, and PKCE.
+  checked_at: '2026-11-21'
+notes: Read the weBump developer home page (playground, developer agreement dated 2026-09-10, privacy).
+  It is a preview platform where an approved app gets per-player delegated access to profiles, small game
+  saves and visitor lists with player consent; the agreement forbids selling player data or using it for
+  advertising or tracking. Not a data source for a commercial content site; no data licence stated ->
+  terms unknown.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

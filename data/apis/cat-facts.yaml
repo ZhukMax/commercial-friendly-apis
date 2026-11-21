@@ -23,7 +23,18 @@ storage_caching: unknown
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
-self_host_option: unknown
+self_host_option: 'yes'
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+notes: Read project page and GitHub repo (code is Apache-2.0, which covers code, not the facts). Page
+  only says "Cat Facts is ad free and available to use without cost"; no terms of use or data licence
+  for the facts (user-submitted) found. All terms fields left unknown. Hosted docs point to a free Heroku
+  dyno, so availability is not guaranteed.
+evidence:
+- field: self_host_option
+  url: https://alexwohlbruck.github.io/cat-facts/
+  quote: If you want to set up your own version of Cat Facts, follow the instructions in this guide
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

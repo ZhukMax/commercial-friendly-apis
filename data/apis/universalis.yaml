@@ -24,3 +24,15 @@ verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
 link_note: -> https://docs.universalis.app
+rate_limits: 25 req/s (50 req/s burst) on the API; 8 simultaneous connections per IP
+notes: Read docs.universalis.app (original docs URL redirects there). It states rate limits and asks heavy
+  users to donate but gives no licence, commercial-use, caching or attribution terms; universalis.app/about
+  returned 502 and /terms,/privacy 404. Market data is crowd-sourced from FFXIV client uploads; FINAL
+  FANTASY XIV is (c) Square Enix and the API grants no rights to game content. All core terms unknown.
+evidence:
+- field: rate_limits
+  url: https://docs.universalis.app
+  quote: There is a rate limit of 25 req/s (50 req/s burst) on the API
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

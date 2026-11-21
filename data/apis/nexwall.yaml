@@ -13,13 +13,68 @@ sources:
   url: https://nexwall.kodnextech.com/wallpaper-api/docs
   category: Photography
 link_status: alive
-data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
-bulk_download: unknown
+data_license: proprietary (NexWall Developer API License; wallpapers may depict third-party characters
+  or trademarks)
+commercial_use: ambiguous
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: ambiguous
+bulk_download: 'no'
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+data_license_url: https://nexwall.kodnextech.com/wallpaper-api/license
+api_terms_url: https://nexwall.kodnextech.com/wallpaper-api/license
+cache_limit: Reasonable temporary caching only; removed content must be deleted within 7 days; no mirroring
+  of the catalogue
+attribution_text: Show any attribution or rights notice returned by the service
+evidence:
+- field: data_license
+  url: https://nexwall.kodnextech.com/wallpaper-api/license
+  quote: This license covers only the right to display API-delivered images.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://nexwall.kodnextech.com/wallpaper-api/license
+  quote: may monetize that application with advertising, subscriptions, or in-app purchases
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://nexwall.kodnextech.com/wallpaper-api/license
+  quote: You may render API responses for end users and use reasonable temporary caching needed for application
+    performance.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://nexwall.kodnextech.com/wallpaper-api/license
+  quote: grants you a limited, non-exclusive, non-transferable, revocable license to access the API and
+    display API-delivered content inside an application or website that you operate.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://nexwall.kodnextech.com/wallpaper-api/license
+  quote: You must honor content removals, updated URLs, access restrictions, and any attribution or rights
+    notice returned by the service.
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://nexwall.kodnextech.com/wallpaper-api/license
+  quote: Do not resell raw files, mirror the catalog, publish a bulk download archive, or offer the API
+    under your own brand.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://nexwall.kodnextech.com/wallpaper-api/license
+  quote: only for content that NexWall owns or is authorized to sublicense and only while you comply with
+    this license.
+  checked_at: '2026-11-21'
+notes: 'Read https://nexwall.kodnextech.com/wallpaper-api/license (NexWall Developer API License, 2026-10-09),
+  /terms and the docs page via Playwright/curl. The Developer API License controls for API use and permits
+  ad/subscription/in-app-purchase monetisation, but only for content NexWall owns or may sublicense, and
+  only with an active plan (a Free plan exists; plan quotas not recorded). Display is allowed; storage
+  is limited to temporary caching, content removals must be honoured and retained copies deleted within
+  7 days. Wallpapers include third-party themes, characters and likenesses: the licence grants no right
+  in any third-party trademark, character, logo or real persons name or likeness, and the app Terms say
+  other commercial use or redistribution needs the rights holder permission. Attribution is only required
+  where the service returns an attribution/rights notice.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Commercial right limited to content NexWall owns or may sublicense; Wallpapers include
+  third-party marks/likenesses with no rights granted | applied: commercial_use=ambiguous'

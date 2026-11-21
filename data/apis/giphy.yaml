@@ -17,13 +17,39 @@ sources:
   url: https://developers.giphy.com/docs/
   category: Photography
 link_status: alive
-data_license: unknown
+data_license: proprietary (Giphy and its licensors own the content)
 commercial_use: unknown
-storage_caching: unknown
+storage_caching: 'no'
 redistribution_display: unknown
-attribution_required: unknown
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://support.giphy.com/hc/en-us/articles/360028134111-GIPHY-API-Terms-of-Service
+attribution_text: '"Powered By GIPHY" mark/logo plus creator/source attribution'
+evidence:
+- field: storage_caching
+  url: https://developers.giphy.com/docs/
+  quote: Do not cache API responses or media URLs or cache or store copies of GIPHY's media assets.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://developers.giphy.com/docs/
+  quote: We require all apps that use the GIPHY API to conspicuously display "Powered By GIPHY" attribution marks where the API is utilized
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://support.giphy.com/hc/en-us/articles/360028134111-GIPHY-API-Terms-of-Service
+  quote: you won’t display any content in your applications without Giphy user and/or source attribution where available.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://support.giphy.com/hc/en-us/articles/360028134111-GIPHY-API-Terms-of-Service
+  quote: The API, and all intellectual property rights therein, are and shall at all times remain our and our licensors’ sole and exclusive property.
+  checked_at: '2026-11-21'
+notes: 'Read the developer docs (https://developers.giphy.com/docs/, via curl) and the GIPHY API Terms of Service (Playwright, effective 2018-05-23). API ToS grant a limited licence "solely to allow for
+  the creation of software applications that interface with Giphy" (no explicit commercial grant or ban: commercial_use unknown; a production-key upgrade is required before launch). Docs forbid caching/storing
+  responses or media and proxying; ToS forbid building a GIF database/index and commingling results with other providers. Mandatory "Powered By GIPHY" logo plus creator attribution (more than plain credit).
+  GIFs and stickers are user/brand/studio content with third-party rights; no rights to the underlying content are granted. verdict.py gives unknown because commercial_use is unconfirmed; the storage ban
+  makes it unsuitable for stored data (consider red).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

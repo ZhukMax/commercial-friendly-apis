@@ -13,13 +13,53 @@ sources:
   url: https://woksteamapi.com/docs
   category: Games & Comics
 link_status: alive
-data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
+data_license: proprietary (WOK API terms; upstream Steam/Valve/FACEIT data)
+commercial_use: ambiguous
+storage_caching: limited
+redistribution_display: ambiguous
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://woksteamapi.com/terms
+commercial_use_scope: paid
+cache_limit: Only where the documentation permits
+rate_limits: 'Free Developer: 1,000 units per 30 days, 100/day, 30/min'
+notes: Read WOK terms (section 5 Permitted use) and the pricing page. Commercial or non-commercial integration
+  is allowed "within the purchased limits"; unclear whether the free key (not purchased) is covered, hence
+  ambiguous. Caching only where documentation permits; display of "derived results" is mentioned, raw
+  data display not. Data comes from Steam, FACEIT and marketplaces (upstream terms, Valve content rights
+  not assessed). Attribution not mentioned.
+evidence:
+- field: commercial_use
+  url: https://woksteamapi.com/terms
+  quote: You may use WOK API in your own commercial or non-commercial integration within the purchased
+    limits.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://woksteamapi.com/terms
+  quote: You may cache results where the documentation permits and show derived results to users of your
+    product.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://woksteamapi.com/terms
+  quote: You may cache results where the documentation permits and show derived results to users of your
+    product.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://woksteamapi.com/pricing
+  quote: FREE DEVELOPER - Free 1 000 units / 30 days 100 units / day 30 units / minute
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://woksteamapi.com/terms
+  quote: You may use WOK API in your own commercial or non-commercial integration within the purchased
+    limits.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Terms re-read: commercial integration allowed ''within the purchased limits''; free
+  key coverage unclear; upstream Steam/FACEIT rights. Ambiguity stands.'

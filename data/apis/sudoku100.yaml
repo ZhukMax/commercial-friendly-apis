@@ -14,12 +14,39 @@ sources:
   category: Games & Comics
 link_status: alive
 data_license: unknown
-commercial_use: unknown
+commercial_use: 'yes'
 storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+redistribution_display: 'yes'
+attribution_required: ambiguous
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://www.sudoku100.com/api
+commercial_use_scope: any
+attribution_text: Attribute Sudoku100 when possible
+evidence:
+- field: commercial_use
+  url: https://www.sudoku100.com/api
+  quote: Yes, the Sudoku API is completely free for both personal and commercial use.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.sudoku100.com/api
+  quote: You can use our API on any website, including commercial projects.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.sudoku100.com/api
+  quote: We simply ask that you attribute Sudoku100 when possible.
+  checked_at: '2026-11-21'
+notes: Read the API page FAQ only; no separate terms page was read. Free for personal and commercial use,
+  no key, usable on any website including commercial ones; attribution is requested 'when possible' (ambiguous);
+  the image embed includes a link to the solver page. Storage/caching is not addressed (images/embeds
+  are generated per request), so storage_caching unknown (yellow). Puzzles themselves are generic logic
+  puzzles, but no data licence is stated.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: yellow
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'API page FAQ re-read: commercial use and any website explicitly allowed; only attribution
+  is vague. Separate terms page not readable (app shell). Confirmed.'

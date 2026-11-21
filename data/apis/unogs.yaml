@@ -23,3 +23,9 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+notes: 'RapidAPI listing (freemium: Basic $0, Pro $10) for an unofficial Netflix catalogue search. Only
+  the RapidAPI listing overview and the RapidAPI marketplace Terms of Service were opened; the listing
+  contains no provider terms of use or data licence. The data describes Netflix titles and is unaffiliated
+  with Netflix; no rights to the underlying content or artwork are granted. All terms fields unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

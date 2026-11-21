@@ -13,13 +13,30 @@ sources:
   url: https://starwarsgallery.netlify.app/swapi-image-api/
   category: Video
 link_status: alive
-data_license: unknown
-commercial_use: unknown
+data_license: unknown (images copyright Lucasfilm Ltd., collected from Wookieepedia)
+commercial_use: 'no'
 storage_caching: unknown
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: red
+confidence: high
 link_checked_at: '2026-11-21'
+api_terms_url: https://starwarsgallery.netlify.app/swapi-image-api/
+commercial_use_scope: any
+evidence:
+- field: commercial_use
+  url: https://starwarsgallery.netlify.app/swapi-image-api/
+  quote: Please use the images for non-commercial, educational and portfolio purposes.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://starwarsgallery.netlify.app/swapi-image-api/
+  quote: Star Wars and all associated names and images are copyright Lucasfilm Ltd.
+  checked_at: '2026-11-21'
+notes: 'Single-page terms: unofficial fan project, not affiliated with Lucasfilm or Disney; images are
+  Lucasfilm copyright, collected from Wookieepedia; free for personal, educational and portfolio projects
+  and to be used non-commercially. Storage/display/attribution not otherwise addressed (unknown). The
+  API grants no rights to the underlying images.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -18,12 +18,35 @@ sources:
   category: Anime
 link_status: alive
 data_license: unknown
-commercial_use: unknown
+commercial_use: 'no'
 storage_caching: unknown
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
-self_host_option: unknown
-verdict: unknown
-confidence: low
+self_host_option: 'yes'
+verdict: red
+confidence: medium
 link_checked_at: '2026-11-21'
+data_license_url: https://github.com/soruly/trace.moe-api/blob/master/docs/terms.md
+api_terms_url: https://github.com/soruly/trace.moe-api/blob/master/docs/terms.md
+commercial_use_scope: free-tier
+rate_limits: 100 requests/min per IP; free tier 100 searches/day, concurrency 1
+notes: 'Terms and Agreements (docs/terms.md of soruly/trace.moe-api, the source of the docs site soruly.github.io/trace.moe-api): commercial purposes such as reselling are forbidden unless explicitly approved;
+  the API is not a paid service and sponsor tiers only add quota. "Such as reselling" leaves a gap for ad-funded use but the sentence names commercial purposes generally, so treated as no. The API server
+  code is MIT (self-hostable, but the index needs your own anime video files). The service is an image-to-scene search tool returning data about third-party anime (studio rights). Storage/display not addressed:
+  unknown.'
+evidence:
+- field: commercial_use
+  url: https://github.com/soruly/trace.moe-api/blob/master/docs/terms.md
+  quote: Using this API for commercial purposes (such as reselling) is forbidden, unless explicitly approved.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://github.com/soruly/trace.moe-api/blob/master/docs/limits.md
+  quote: The API server has a global request rate limit of 100 requests/min per IP address
+  checked_at: '2026-11-21'
+- field: self_host_option
+  url: https://raw.githubusercontent.com/soruly/trace.moe-api/master/LICENSE
+  quote: Permission is hereby granted, free of charge, to any person obtaining a copy of this software
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

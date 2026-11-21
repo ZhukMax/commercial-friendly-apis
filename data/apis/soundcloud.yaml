@@ -2,8 +2,7 @@ id: soundcloud
 name: SoundCloud
 url: https://developers.soundcloud.com/docs/api/guide
 category: Music
-description: With SoundCloud API you can build applications that will give more power to control your
-  content
+description: With SoundCloud API you can build applications that will give more power to control your content
 description_source: upstream
 auth: OAuth
 https: true
@@ -18,13 +17,42 @@ sources:
   url: https://developers.soundcloud.com/
   category: Music
 link_status: alive
-data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
+data_license: proprietary (user-uploaded content owned by uploaders; no rights granted)
+commercial_use: 'no'
+storage_caching: 'no'
 redistribution_display: unknown
-attribution_required: unknown
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: red
+confidence: high
 link_checked_at: '2026-11-21'
+api_terms_url: https://developers.soundcloud.com/docs/api/terms-of-use
+commercial_use_scope: any
+attribution_text: Credit the uploader as creator and SoundCloud as source, with a visible backlink to the sound's permalink_url
+evidence:
+- field: commercial_use
+  url: https://developers.soundcloud.com/docs/api/terms-of-use
+  quote: any app that features any advertising, sponsorship or promotion around User Content
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://developers.soundcloud.com/docs/api/terms-of-use
+  quote: Your app must not include file-save functionality, or otherwise designed to cache, download or persistently store
+    any User Content.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://developers.soundcloud.com/docs/api/terms-of-use
+  quote: credits the Uploader as the creator of that User Content; credits SoundCloud as the source of that User Content
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://developers.soundcloud.com/docs/api/terms-of-use
+  quote: SoundCloud does not grant you any rights in User Content
+  checked_at: '2026-11-21'
+notes: API Terms of Use read at https://developers.soundcloud.com/docs/api/terms-of-use. Commercial use is only allowed for
+  a short list (apps for creating/sharing own content, delivering own content to the uploader's own ad-enabled site, promoting
+  own content); apps with advertising, sponsorship or promotion around User Content are listed as unacceptable, so an ad/affiliate
+  site is not allowed. Only session-based caching, no offline copies, no AI training, no aggregation services. All audio and
+  metadata belong to third-party uploaders/rights holders. Display allowed only with attribution, so redistribution_display
+  left unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

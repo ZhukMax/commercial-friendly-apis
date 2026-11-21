@@ -5,8 +5,8 @@ category: Games & Comics
 description: Reference for 5th edition spells, classes, monsters, and more
 description_source: upstream
 auth: none
-https: false
-cors: 'no'
+https: true
+cors: 'yes'
 sources:
 - list: public-apis
   name: Dungeons and Dragons
@@ -17,14 +17,56 @@ sources:
   url: http://www.dnd5eapi.co/
   category: Games & Comics
 link_status: redirect
-data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+data_license: MIT (project and seed data); underlying SRD material under OGL-1.0a
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
 link_note: -> https://docs.dnd5eapi.co
+data_license_url: https://github.com/5e-bits/5e-srd-api/blob/main/packages/5e-database/README.md
+api_terms_url: https://www.dnd5eapi.co/
+commercial_use_scope: any
+share_alike: unknown
+attribution_text: Keep the MIT copyright/permission notice; OGL 1.0a (Section 15) notice for the SRD material
+notes: 'No terms page exists for the hosted API (dnd5eapi.co, docs.dnd5eapi.co carry no ToS); the verdict
+  rests on the repository licences: LICENSE.md (MIT) and packages/5e-database README (MIT for the project,
+  underlying material released under OGL 1.0a). The OGL 1.0a text itself was not read in this session,
+  so its conditions (Section 15 notice, no use of Product Identity) are not assessed. Only SRD content
+  is included; non-SRD D&D content and WotC trademarks are not licensed. The 2024 SRD endpoint (/api/2024)
+  was not checked separately. Docs URL redirects to www.dnd5eapi.co/docs.'
+evidence:
+- field: data_license
+  url: https://github.com/5e-bits/5e-srd-api/blob/main/packages/5e-database/README.md
+  quote: This project is licensed under the terms of the MIT license. The underlying material is released
+    using the Open Gaming License Version 1.0a
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://github.com/5e-bits/5e-srd-api/blob/main/LICENSE.md
+  quote: to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://github.com/5e-bits/5e-srd-api/blob/main/LICENSE.md
+  quote: to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://github.com/5e-bits/5e-srd-api/blob/main/LICENSE.md
+  quote: to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://github.com/5e-bits/5e-srd-api/blob/main/LICENSE.md
+  quote: The above copyright notice and this permission notice shall be included in all copies
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: green
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Upstream is not stricter: dnd.wizards.com SRD page says SRD 5.1 was originally published
+  under both OGL 1.0a and Creative Commons, and the overview table lists ''print and sell'' for SRD 5.1.
+  Hosted API has no ToS (docs.dnd5eapi.co, www.dnd5eapi.co, repo README only licence). Stale first-pass
+  fields: the API is served over HTTPS (HTTP/2 200 on https://www.dnd5eapi.co/api/2014/spells/acid-arrow)
+  and '

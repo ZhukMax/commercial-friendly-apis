@@ -14,12 +14,33 @@ sources:
   category: Video
 link_status: alive
 data_license: unknown
-commercial_use: unknown
+commercial_use: ambiguous
 storage_caching: unknown
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
+verdict: yellow
 confidence: low
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: 'Not a data source: hosted media-processing/tool service, terms cover use of the
+  service, not licensing of data.'
+api_terms_url: https://rendi.dev/terms-and-conditions
+evidence:
+- field: commercial_use
+  url: https://rendi.dev/terms-and-conditions
+  quote: solely for your personal use for websites, mobile applications and systems, owned or operated
+    by you, and not for further commercialization or resale
+  checked_at: '2026-11-21'
+notes: FFmpeg API (tool, not a data source). Terms & Conditions grant a right to use the Services 'solely
+  for your personal use' on systems you own or operate, 'not for further commercialization or resale'.
+  This is vague about running a commercial site on top of the service, so commercial_use=ambiguous. You
+  own your Contributed Content and generated output counts as Contributed Content. Storage/display/attribution
+  not addressed.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Terms grant use for your own sites and apps 'not for further commercialization or resale'.
+  Tool, not a data source (not applicable). Ambiguous stands.

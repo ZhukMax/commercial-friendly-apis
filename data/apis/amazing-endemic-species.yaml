@@ -13,13 +13,35 @@ sources:
   url: https://aes.shenlu.me
   category: Animals
 link_status: alive
-data_license: unknown
-commercial_use: unknown
+data_license: CC-BY-NC-SA-4.0
+commercial_use: 'no'
 storage_caching: unknown
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: red
+confidence: medium
 link_checked_at: '2026-11-21'
+commercial_use_scope: any
+share_alike: 'yes'
+api_terms_url: https://github.com/shenlu89/amazing-endemic-species
+notes: 'Read the GitHub README (the site aes.shenlu.me is a JS app with no terms text via curl). Content
+  (images and species data) is CC BY-NC-SA 4.0: non-commercial and share-alike, so unsuitable for an ad/affiliate
+  site. README also says the data is built on the IUCN Red List, whose own terms forbid commercial use
+  without written permission (see iucn entry). Code is MIT. Storage and display not addressed separately.'
+evidence:
+- field: commercial_use
+  url: https://github.com/shenlu89/amazing-endemic-species
+  quote: the content of all images and species data is licensed under CC BY-NC-SA 4.0
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://github.com/shenlu89/amazing-endemic-species
+  quote: the content of all images and species data is licensed under CC BY-NC-SA 4.0
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://github.com/shenlu89/amazing-endemic-species
+  quote: the content of all images and species data is licensed under CC BY-NC-SA 4.0
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

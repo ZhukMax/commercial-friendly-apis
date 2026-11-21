@@ -4,7 +4,7 @@ url: https://api.funtranslations.com/
 category: Games & Comics
 description: Translate Text into funny languages
 description_source: upstream
-auth: none
+auth: apiKey
 https: true
 cors: 'yes'
 sources:
@@ -21,6 +21,26 @@ attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
 link_note: HTTP 403 (blocked for bots, assumed alive)
+applicable: false
+not_applicable_reason: Text-translation generator (Yoda, pirate etc.), not a data source; output is produced
+  from the caller's own input.
+api_terms_url: https://funtranslations.com/terms
+evidence:
+- field: storage_caching
+  url: https://funtranslations.com/terms
+  quote: You should not cache, store, or persist the translations returned from our API for more than
+    8 hours.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://funtranslations.com/terms
+  quote: API subscribers must credit Fun Translations unless they are paid subscribers.
+  checked_at: '2026-11-21'
+notes: 'auth corrected: the API page now says API key auth with paid plans from $4.99/mo. Terms of Service
+  (read via curl; api.funtranslations.com itself returns 403 to bots) say site materials are for personal
+  non-commercial viewing, translations must not be cached for more than 8 hours, and free API users must
+  credit Fun Translations. Fields left unknown because the entry is not applicable (generator).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

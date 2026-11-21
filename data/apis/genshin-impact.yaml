@@ -13,13 +13,23 @@ sources:
   url: https://genshin.dev
   category: Games & Comics
 link_status: alive
-data_license: unknown
+data_license: OSL-3.0 (source code only); game content (c) miHoYo
 commercial_use: unknown
 storage_caching: unknown
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+data_license_url: https://github.com/genshindev/api
+notes: 'genshin.dev site: "Genshin Impact © miHoYo" and "isn''t endorsed by miHoYo". The GitHub repo genshindev/api states OSL-3.0 for the code only; the API serves miHoYo game data and images, for which
+  no licence is granted. No terms of service for the hosted API (api.genshin.dev returned HTTP 502 when probed). commercial_use, storage, display and attribution unknown.'
+evidence:
+- field: data_license
+  url: https://github.com/genshindev/api
+  quote: Licensed under Open Software License v3.0
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: unknown

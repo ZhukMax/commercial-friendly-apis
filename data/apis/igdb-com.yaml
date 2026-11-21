@@ -13,13 +13,62 @@ sources:
   url: https://api-docs.igdb.com
   category: Games & Comics
 link_status: alive
-data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+data_license: proprietary (IGDB data; Twitch Developer Service Agreement + commercial partnership)
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://api-docs.igdb.com
+data_license_url: https://api-docs.igdb.com
+commercial_use_scope: any
+attribution_text: Fair, visible, static user-facing attribution to IGDB.com (commercial partnership requirement)
+share_alike: unknown
+rate_limits: 4 requests per second, up to 8 open requests
+evidence:
+- field: commercial_use
+  url: https://api-docs.igdb.com
+  quote: Yes, we offer commercial partnerships for users looking to integrate the API in monetized products.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://api-docs.igdb.com
+  quote: The IGDB.com API is free for non-commercial usage under the terms of the Twitch Developer Service
+    Agreement
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://api-docs.igdb.com
+  quote: Yes. In fact, we prefer if you store and serve the data to your end users.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://api-docs.igdb.com
+  quote: Yes. In fact, we prefer if you store and serve the data to your end users.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://api-docs.igdb.com
+  quote: we ask for user facing attribution to IGDB.com from products integrating the IGDB API
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://api-docs.igdb.com
+  quote: There is a rate limit of 4 requests per second.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://api-docs.igdb.com
+  quote: The IGDB.com API is free for non-commercial usage under the terms of the Twitch Developer Service
+    Agreement
+  checked_at: '2026-11-21'
+verdict_override: yellow
+override_reason: Commercial use requires a commercial partnership agreement with IGDB (details not public)
+  on top of the Twitch Developer Service Agreement, which was not read; game images/artwork are third-party
+  content.
+notes: Read the IGDB API docs (Getting Started, Business FAQ). Free for non-commercial use under the Twitch
+  Developer Service Agreement (not read); commercial projects need a free commercial partnership via partner@igdb.com
+  with visible attribution. FAQ confirms local storage/caching is allowed and data may be kept after the
+  partnership ends. Auth is Twitch OAuth client credentials (Twitch account with 2FA). Covers, screenshots,
+  artworks and descriptions are publisher/developer content; the API does not grant rights to them. Without
+  the partnership, commercial use is not permitted, hence the override to yellow.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -20,11 +20,34 @@ link_status: redirect
 data_license: unknown
 commercial_use: unknown
 storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+redistribution_display: 'yes'
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
 link_note: -> https://www.ceskatelevize.cz/xml/tv-program/informace/
+api_terms_url: https://www.ceskatelevize.cz/xml/tv-program/informace/
+attribution_text: Do not remove hyperlinks to the Czech Television website
+rate_limits: Max 1 download of the XML file per minute; registration (user login) required
+evidence:
+- field: redistribution_display
+  url: https://www.ceskatelevize.cz/xml/tv-program/informace/
+  quote: Uživatel může pomocí poskytovaného XML souboru zobrazit a zveřejnit TV program ČT na svém webu
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.ceskatelevize.cz/xml/tv-program/informace/
+  quote: není dovoleno odstraňovat hypertextové odkazy směřující na web ČT
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://www.ceskatelevize.cz/xml/tv-program/informace/
+  quote: Uživatel je oprávněn načítat soubor s XML daty maximálně 1× za minutu.
+  checked_at: '2026-11-21'
+notes: 'Terms of use for the ČT XML TV-programme export (Czech): you may display and publish the ČT programme
+  on your website, only in connection with presenting the ČT programme, must not modify data or remove
+  links to ČT without consent, must not pass the XML file to third parties in machine-readable form, and
+  may fetch at most once per minute; access needs registration. Commercial use (ads) and storage are not
+  addressed, so unknown. Original URL redirects to /informace/. Read with Playwright (Czech text).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: unknown

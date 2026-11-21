@@ -12,7 +12,7 @@ sources:
   name: Songlink / Odesli
   url: https://www.notion.so/API-d0ebe08a5e304a55928405eb682f6741
   category: Music
-link_status: redirect
+link_status: dead
 data_license: unknown
 commercial_use: unknown
 storage_caching: unknown
@@ -21,6 +21,19 @@ attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: high
 link_checked_at: '2026-11-21'
-link_note: -> https://linktree.notion.site/API-d0ebe08a5e304a55928405eb682f6741
+link_note: Public API deprecated; scheduled retirement 2026-07-31, api.song.link now returns 401 PUBLIC_API_ACCESS_DEPRECATED.
+evidence:
+- field: link_status
+  url: https://linktree.notion.site/API-d0ebe08a5e304a55928405eb682f6741
+  quote: The entire v1-alpha.1 API namespace is deprecated and will be retired on July 31, 2026.
+  checked_at: '2026-11-21'
+notes: 'Documentation (Notion, read via browser) says the whole v1-alpha.1 public API is deprecated and
+  retired on July 31, 2026, API keys are no longer issued (allowlisting only for sustained legitimate
+  need). Live check on 2026-11-21: api.song.link/v1-alpha.1/links returns HTTP 401 {"code":"PUBLIC_API_ACCESS_DEPRECATED"}.
+  The doc asks for attribution ("powered by Songlink") and refers to separate API Terms of Service, which
+  are a login-gated Google Drive document and were not readable, so all terms unknown. Auth: key no longer
+  issued.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

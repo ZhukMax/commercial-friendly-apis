@@ -13,13 +13,38 @@ sources:
   url: https://kitsu.docs.apiary.io/
   category: Anime
 link_status: alive
-data_license: unknown
-commercial_use: unknown
+data_license: proprietary (Kitsu Content owned or licensed by Kitsu)
+commercial_use: ambiguous
 storage_caching: unknown
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
+verdict: yellow
 confidence: low
 link_checked_at: '2026-11-21'
+data_license_url: https://kitsu.app/terms
+api_terms_url: https://kitsu.app/terms
+notes: Kitsu Terms of Use section 1.3 bars commercial use of Kitsu Content "separate or apart from your
+  use of Kitsu Services", and section on API says use of Kitsu API is subject to a separate set of terms
+  available upon request, which were not found or read (docs at kitsu.docs.apiary.io are a JS Apiary page).
+  Hence commercial_use ambiguous, likely unsuitable without agreement; anime/manga metadata and artwork
+  also carry licensor rights. Terms page read via headless browser (curl got 403).
+evidence:
+- field: commercial_use
+  url: https://kitsu.app/terms
+  quote: You may not, under any circumstances, make commercial use of, copy, access or otherwise use Kitsu
+    content
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://kitsu.app/terms
+  quote: such use will be subject to a separate set of terms available upon request
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://kitsu.app/terms
+  quote: is the property of Kitsu or its content suppliers
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed

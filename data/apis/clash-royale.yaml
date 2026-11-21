@@ -17,13 +17,67 @@ sources:
   url: https://developer.clashroyale.com
   category: Games & Comics
 link_status: alive
-data_license: unknown
-commercial_use: unknown
+data_license: Proprietary (Supercell Fan Content Policy; non-commercial with ads/donations/coaching exceptions)
+commercial_use: ambiguous
 storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+redistribution_display: ambiguous
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+data_license_url: https://supercell.com/en/fan-content-policy/
+api_terms_url: https://supercell.com/en/fan-content-policy/
+commercial_use_scope: any
+attribution_text: 'This material is unofficial and is not endorsed by Supercell. For more information
+  see Supercell''s Fan Content Policy: www.supercell.com/fan-content-policy.'
+share_alike: unknown
+evidence:
+- field: api_terms_url
+  url: https://developer.clashroyale.com/#/getting-started
+  quote: See the Fan Content Policy page for detailed information.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://supercell.com/en/fan-content-policy/
+  quote: You are not permitted to charge a fee of any kind (including in-app functionalities) from customers
+    or visitors to your Fan Content
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://supercell.com/en/fan-content-policy/
+  quote: The three exceptions to this rule are generally monetization of your Fan Content through ads,
+    by donations or by coaching.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://supercell.com/en/fan-content-policy/
+  quote: Can I show promotions or ads on my content? Yes.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://supercell.com/en/fan-content-policy/
+  quote: This material is unofficial and is not endorsed by Supercell.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://supercell.com/en/fan-content-policy/
+  quote: You are not permitted to charge a fee of any kind (including in-app functionalities) from customers
+    or visitors to your Fan Content
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://supercell.com/en/fan-content-policy/
+  quote: Your use of Supercell Assets in Fan Content must be limited to displaying, identifying and discussing
+    only Supercell's products as permitted by this Policy.
+  checked_at: '2026-11-21'
+notes: The Clash Royale API (developer portal is an SPA; read via Playwright) points to the Supercell
+  Fan Content Policy as its "API Terms and Conditions" (same pointer on the Clash of Clans, Clash Royale
+  and Brawl Stars portals). The policy requires Fan Content to be non-commercial and forbids charging
+  fees, except monetization through ads, donations or coaching; promotions/ads are allowed. It is unclear
+  whether affiliate links or a data-driven commercial site count, so commercial_use is ambiguous. An unofficiality
+  disclaimer must be shown. The policy governs use of Supercell Assets (copyrights/trademarks from the
+  games); display of API data is not separately addressed and storage is not mentioned. Supercell may
+  revoke the licence at any time. The general Supercell Terms of Service restrict the Service to non-commercial
+  personal entertainment (not an API term). API keys are IP-bound and rate limited. No rights in game
+  art/IP are granted beyond the policy.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Same Supercell policy for all three portals; game IP stays with Supercell.

@@ -13,13 +13,51 @@ sources:
   url: https://breedhealthscore.com/developers/
   category: Animals
 link_status: alive
-data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+data_license: CC-BY-4.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+data_license_url: https://creativecommons.org/licenses/by/4.0/
+api_terms_url: https://breedhealthscore.com/terms/
+commercial_use_scope: any
+attribution_text: Breed Health Score (breedhealthscore.com); lifespan data from McMillan et al. 2024,
+  CC-BY 4.0. Visible link back to breedhealthscore.com wherever the data appears.
+verdict_override: yellow
+override_reason: Attribution asks for a visible link back to breedhealthscore.com (backlink beyond plain
+  credit); breed photos come from Pexels and are not covered by the data licence.
+notes: Read developers page, terms page and the CC BY 4.0 deed. API licence is CC BY 4.0 (stated by the
+  operator); the terms page repeats "please attribute Breed Health Score and respect the underlying data
+  licence". Underlying lifespan data is McMillan et al. 2024 (CC BY 4.0); conditions are compiled from
+  RVC VetCompass/AKC/PDSA (indicative, licences not checked); breed photos are via Pexels (Pexels licence
+  not checked, not part of the CC BY grant). Attribution is phrased as a request ("we ask") but is also
+  a field in the JSON; treated as required. Share-alike not stated (CC BY has none) but left unknown.
+evidence:
+- field: data_license
+  url: https://breedhealthscore.com/developers/
+  quote: The API is free to use under CC-BY-4.0
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: copy and redistribute the material in any medium or format for any purpose, even commercially
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: copy and redistribute the material in any medium or format for any purpose, even commercially
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://creativecommons.org/licenses/by/4.0/
+  quote: copy and redistribute the material in any medium or format for any purpose, even commercially
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://breedhealthscore.com/developers/
+  quote: we ask that you credit Breed Health Score with a visible link back to breedhealthscore.com wherever
+    the data appears
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

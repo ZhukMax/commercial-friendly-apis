@@ -21,5 +21,10 @@ attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Image optimisation/resizing service for the caller's own images; not a data source.
+notes: Read the docs page https://cheetaho.com/docs/getting-started/ (photo optimisation and resize via API key). The terms-of-service URL tried returned 404. Tool API, no dataset; terms fields left unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

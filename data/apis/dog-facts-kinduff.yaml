@@ -23,3 +23,9 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+notes: kinduff.github.io/dog-api is the old project page for the Dog Facts API (Slack bot + facts API);
+  it has no terms. The old API host dog-api.kinduff.com now 301-redirects to dogapi.dog, whose Terms of
+  Use (non-commercial) are covered by the dog-api entry; the old page does not say those terms replace
+  it, so none transferred. Terms fields left unknown.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

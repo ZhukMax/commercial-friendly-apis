@@ -23,3 +23,10 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+notes: No terms of use or data licence found on the API home page, the readme.io docs or the GitHub README.
+  The GitHub repository (amamenko/owen-wilson-wow-api) is MIT-licensed per GitHub's licence metadata,
+  which covers the code, not the data. The API serves clips (video/audio), movie posters and quote text
+  from third-party films owned by studios; the API grants no rights to that underlying content. All terms
+  fields unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

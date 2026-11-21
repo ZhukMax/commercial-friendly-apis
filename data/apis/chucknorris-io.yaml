@@ -27,3 +27,7 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+notes: api.chucknorris.io shows only the endpoint documentation; no terms of use, licence or usage policy was found (/terms is 404). The GitHub repo chucknorris-io/chuck-api is GPL-3.0 (software only, not
+  a data licence). The jokes concern a real person (Chuck Norris name/persona) and are partly third-party, so silence is not a grant. Terms left unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

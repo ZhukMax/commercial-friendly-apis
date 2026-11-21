@@ -21,5 +21,19 @@ attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Unofficial open-source scraper wrapper (Flask app) for Gaana, to be self-hosted;
+  not a hosted data service with its own terms.
+notes: Repo README calls itself unofficial; repo code is MIT (LICENSE read via GitHub API/raw), which
+  covers the code only. The returned song data, lyrics, audio links and album art belong to Gaana and
+  its labels/publishers; no grant of rights to that content and Gaana terms were not read. Not usable
+  as a commercial data source.
+evidence:
+- field: notes
+  url: https://raw.githubusercontent.com/cyberboysumanjay/GaanaAPI/master/README.md
+  quote: Gaana API [Unofficial]
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

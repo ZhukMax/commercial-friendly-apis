@@ -13,13 +13,60 @@ sources:
   url: https://humorapi.com
   category: Games & Comics
 link_status: alive
-data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+data_license: proprietary (Humor API terms of use)
+commercial_use: ambiguous
+storage_caching: 'no'
+redistribution_display: 'yes'
+attribution_required: ambiguous
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+data_license_url: https://humorapi.com/terms
+api_terms_url: https://humorapi.com/terms
+commercial_use_scope: any
+attribution_text: 'Free plan: backlink to Humor API required (exact form not specified on pages read)'
+rate_limits: 'Free: 10 points/day, 1 request/s; paid plans $3-$29/month (pricing on humorapi.com)'
+evidence:
+- field: data_license
+  url: https://humorapi.com/terms
+  quote: You may not resell any data received via the Humor API.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://humorapi.com/terms
+  quote: You may use the data provided by the Humor API as part of your website, application, or other
+    project
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://humorapi.com/terms
+  quote: You may not scrape the Humor API or in any way attempt to copy or store the information it provides
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://humorapi.com
+  quote: Backlink Required
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://humorapi.com
+  quote: 10 points/day then no more calls 1 request/s
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://humorapi.com/terms
+  quote: You may use the data provided by the Humor API as part of your website, application, or other
+    project
+  checked_at: '2026-11-21'
+notes: 'Read humorapi.com/terms (last updated Sept 1, 2021) and the pricing block on humorapi.com. Storage
+  is forbidden: no copying/storing of API data; with prior written permission, user-requested data may
+  be cached for max 1 hour, and all data must be deleted if access ends (so storage_caching=no, cache_limit
+  1 hour with permission). Display on your own website/app is allowed, but you may not build something
+  providing the same experience or competing. No explicit commercial/non-commercial clause: the terms
+  are for paying subscribers and the free plan carries "Backlink Required" (a mandatory backlink on the
+  free plan; paid plans say "No Backlink"), so attribution is ambiguous per plan and commercial use is
+  ambiguous. Humor API may add its logo, links or ads to the API. Jokes/memes/gifs are largely third-party
+  content: the terms disclaim responsibility for any text or images shown even if from the API, and grant
+  no rights to underlying content.'
+cache_limit: None without permission; max 1 hour with Humor API prior written permission
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed

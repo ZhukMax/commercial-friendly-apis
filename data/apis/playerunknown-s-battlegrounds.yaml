@@ -12,7 +12,7 @@ sources:
   name: PlayerUnknown's Battlegrounds
   url: https://tracker.gg/developers
   category: Games & Comics
-link_status: alive
+link_status: dead
 data_license: unknown
 commercial_use: unknown
 storage_caching: unknown
@@ -23,4 +23,10 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
-link_note: HTTP 403 (blocked for bots, assumed alive)
+link_note: https://tracker.gg/developers returns 404 (read via Playwright; curl 403)
+notes: The listed developer page https://tracker.gg/developers returns 404 on tracker.gg (Tracker Network),
+  and the guessed ToS/docs URLs also 404; no terms could be read, so all fields stay unknown. Not verified
+  whether a PUBG stats API still exists elsewhere (e.g. the official PUBG developer portal, which is a
+  different service and was not assessed).
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

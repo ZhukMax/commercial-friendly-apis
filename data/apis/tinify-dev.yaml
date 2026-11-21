@@ -21,5 +21,13 @@ attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: 'Tool: image compression/resize/crop API for the users own images; not a data source'
+notes: Read https://tinify.dev/developers and https://tinify.dev/terms (Terms of Service, 2026-08-02; independent of Tinify B.V./TinyPNG). Processes your uploaded images and results expire automatically;
+  no data set to display.
+api_terms_url: https://tinify.dev/terms
+evidence: []
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

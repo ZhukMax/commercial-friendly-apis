@@ -20,7 +20,15 @@ redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
 link_note: -> https://docs.scalereach.ai/docs
+applicable: false
+not_applicable_reason: Video clipping/processing service working on the user's own uploads or YouTube
+  links; not a data source.
+evidence: []
+notes: 'ScaleReach turns videos into short clips with captions; account-scoped processing API. Terms https://www.scalereach.ai/terms/
+  read: users keep ownership of their content, must follow YouTube ToS. Read via Playwright.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: unknown

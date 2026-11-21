@@ -23,3 +23,8 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+notes: Read the project README (raw.githubusercontent.com/rubensayshi/gw2spidy). The repo has no licence file and states no terms for the data or API. The project records Guild Wars 2 Trade Market data
+  scraped from ArenaNet's site; the author writes only that ArenaNet is okay with him doing it. Underlying game and trading-post data belongs to ArenaNet/NCSoft and this API grants no rights to it (ArenaNet's
+  own content terms were not read). The hosted site gw2spidy.com did not respond at check time. All terms unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

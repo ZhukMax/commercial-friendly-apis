@@ -13,13 +13,57 @@ sources:
   url: https://ugcdrop.com/api
   category: Video
 link_status: alive
-data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
+data_license: proprietary (clips licensed to subscribers/buyers; creators retain ownership)
+commercial_use: paid-only
+storage_caching: 'no'
+redistribution_display: ambiguous
 attribution_required: unknown
-bulk_download: unknown
+bulk_download: 'no'
 self_host_option: unknown
-verdict: unknown
+verdict: yellow
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://ugcdrop.com/terms
+commercial_use_scope: paid
+evidence:
+- field: commercial_use
+  url: https://ugcdrop.com/terms
+  quote: allows subscribers to browse, discover, and download these clips for use in their marketing,
+    advertising, and content creation activities
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://ugcdrop.com/terms
+  quote: Resell, relicense, redistribute, or sublicense downloaded content to any third party, whether
+    directly or as part of a bundled product or service.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://ugcdrop.com/terms
+  quote: Scrape, bulk download, or systematically collect content from UGCdrop via automated tools, bots,
+    scripts, or any method not explicitly provided by the platform's standard interface.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://ugcdrop.com/terms
+  quote: Creators who upload content to UGCdrop retain ownership of their original work.
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://ugcdrop.com/terms
+  quote: Scrape, bulk download, or systematically collect content from UGCdrop via automated tools, bots,
+    scripts, or any method not explicitly provided by the platform's standard interface.
+  checked_at: '2026-11-21'
+notes: 'Stock-video marketplace: the keyless API only searches clip metadata; clips are bought at about
+  $2 each (API page) or via a subscription, under a limited non-transferable licence for the buyer''s
+  own marketing, advertising and content use. Terms (/terms, read via Playwright/curl) forbid reselling,
+  redistributing, scraping or bulk-collecting clips and building a competing library, so a catalogue/aggregation
+  site is not covered; whether showing search previews on a third-party page is allowed is not stated
+  (ambiguous). Clips are creator-owned third-party content. Not a data source for storing/showing on own
+  pages; yellow at best. Terms page also bans use for certain categories (gambling, adult, etc.). Public
+  API rate limit stated on https://ugcdrop.com/api: 60 requests a minute per IP.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+applicable: false
+not_applicable_reason: Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility
+  API); kept for reference.
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Terms re-read: licence is for buyer''s own marketing use, redistribution/scraping
+  banned; not a catalogue data source. Yellow at best.'

@@ -17,13 +17,63 @@ sources:
   url: https://developer.haloapi.com/
   category: Games & Comics
 link_status: alive
-data_license: unknown
-commercial_use: unknown
+data_license: Proprietary (Halo Game Data Terms of Use, Microsoft)
+commercial_use: ambiguous
 storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+redistribution_display: 'yes'
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+data_license_url: https://developer.haloapi.com/terms-of-use
+api_terms_url: https://developer.haloapi.com/terms-of-use
+commercial_use_scope: any
+attribution_text: This application is offered by <you>, which is solely responsible for its content. It
+  is not sponsored or endorsed by Microsoft. This application uses the Halo Game Data API. Halo (c) Microsoft
+  Corporation. All rights reserved.
+share_alike: unknown
+evidence:
+- field: commercial_use
+  url: https://developer.haloapi.com/terms-of-use
+  quote: Except as provided in this section, your use of the Game Data and API must be non-commercial.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://developer.haloapi.com/terms-of-use
+  quote: displaying non-restricted advertisements in connection with the display of the Game Data
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://developer.haloapi.com/terms-of-use
+  quote: You also may not bundle a third party product or service with your Application in exchange for
+    consideration offered by that third party.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://developer.haloapi.com/terms-of-use
+  quote: to reproduce, distribute, publicly display, publicly perform, transmit, and communicate to the
+    public the Game Data by means of a limited commercial Application
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://developer.haloapi.com/terms-of-use
+  quote: display the following notice prominently
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://developer.haloapi.com/terms-of-use
+  quote: Upon request by Microsoft, you will immediately purge any Game Data in your possession
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://developer.haloapi.com/terms-of-use
+  quote: Except as provided in this section, your use of the Game Data and API must be non-commercial.
+  checked_at: '2026-11-21'
+notes: 'Read the Halo Game Data Terms of Use on developer.haloapi.com (Azure API Management portal; last
+  updated 2018-05-22, API is labelled Beta). Use must be non-commercial except three listed cases: crowdfunding
+  to build the app, non-restricted advertisements shown with the Game Data, and an in-app purchase solely
+  to remove ads; no fees for download/access/features; no bundling third-party products/services for consideration
+  (this likely excludes affiliate links). A mandatory Microsoft notice must be displayed and Game Data
+  may not be commingled with other games'' data. Microsoft can demand purge of Game Data at any time (storage
+  conditions unclear -> unknown). Entry covers Halo 5 and Halo Wars 2 data; whether the beta API is still
+  maintained was not verified. No rights in Halo IP beyond the licence.'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+second_check_at: '2026-11-21'
+second_check: confirmed

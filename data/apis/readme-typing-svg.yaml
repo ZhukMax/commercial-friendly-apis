@@ -21,5 +21,13 @@ attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: 'Tool/generator: renders a typing-animation SVG from URL parameters; no data set'
+notes: Read the GitHub README and LICENSE (MIT, Jonah Lawrence 2021). The hosted demo (readme-typing-svg.demolab.com) just generates SVG from the text you pass in; the code is MIT and meant to be self-hosted.
+  No data licence applies.
+api_terms_url: https://raw.githubusercontent.com/DenverCoder1/readme-typing-svg/main/LICENSE
+evidence: []
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -13,13 +13,53 @@ sources:
   url: https://api.greenscreenmemes.app/docs
   category: Entertainment
 link_status: alive
-data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
+data_license: proprietary (Green Screen Memes API terms; original footage is third-party)
+commercial_use: paid-only
+storage_caching: limited
+redistribution_display: ambiguous
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+data_license_url: https://api.greenscreenmemes.app/terms
+api_terms_url: https://api.greenscreenmemes.app/terms
+commercial_use_scope: paid
+cache_limit: catalog data (names, tags, descriptions) kept as long as you like; media links expire after
+  ~6 hours; downloaded clips only for the work they are used in
+rate_limits: 'Free Sandbox key: 30,000 calls/month, 50 video downloads; paid plans from $49/month'
+notes: Commercial use needs a paid plan; Sandbox keys are for building/testing only. Clips may be put
+  in apps, websites and videos incl. commercial, but the library may not be resold/redistributed as a
+  collection or used to build a competing library. The service explicitly does not own or license the
+  original footage, sound or likenesses (internet memes from TV, films, creators), the user is responsible
+  for rights, clips of identifiable people are barred from paid ads, and removed clips must be dropped
+  (GET /v1/removed). Display is therefore ambiguous (permitted by the licence but not cleared at source).
+  Terms page read with curl (api.greenscreenmemes.app/terms, updated Nov 19, 2026).
+evidence:
+- field: commercial_use
+  url: https://api.greenscreenmemes.app/terms
+  quote: On a paid plan, you can use the clips in apps and in videos you make for yourself and your clients,
+    including commercial ones.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://api.greenscreenmemes.app/terms
+  quote: Use a paid plan for anything you publish or ship to users.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://api.greenscreenmemes.app/terms
+  quote: Media links expire after about six hours, so don't store those.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://api.greenscreenmemes.app/terms
+  quote: We don't own or license the original footage, its sound, or the likeness of the people in it
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://api.greenscreenmemes.app/terms
+  quote: put clips in apps, websites and videos you make for yourself or for your clients, and publish
+    them, including commercially
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed

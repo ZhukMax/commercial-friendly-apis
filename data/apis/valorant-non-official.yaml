@@ -23,3 +23,10 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+notes: Read valorant-api.com home and dash.valorant-api.com (docs/dashboard). No terms of use, licence
+  or commercial/caching statement found (/terms is 404 on both hosts). Site says it is unofficial, not
+  endorsed by Riot Games, and that "Riot Games, VALORANT and all associated properties are trademarks
+  or registered trademarks of Riot Games, Inc."; data and artwork come from the game files and belong
+  to Riot, so the API grants no rights to them. All terms unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

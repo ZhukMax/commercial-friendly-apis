@@ -21,5 +21,18 @@ attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+share_alike: unknown
+rate_limits: 'POST /api/team: 500 teams/hour/client; random-team save: 30/hour; feedback: 5/hour'
+evidence:
+- field: rate_limits
+  url: https://crob.at/api
+  quote: 'POST /api/team : 500 created teams per hour per client'
+  checked_at: '2026-11-21'
+notes: Read /api, /about and /privacy; no terms of service, licence or commercial-use statement found
+  (/terms is 404). Docs say the API is free to use with no key. Content is user-created Pokemon team exports
+  (public teams visible to anyone) built on Nintendo/Game Freak/TPC IP; the API grants no rights in that
+  content. Site shows advertising. Terms unknown.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

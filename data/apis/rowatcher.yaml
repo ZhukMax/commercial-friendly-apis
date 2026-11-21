@@ -13,13 +13,50 @@ sources:
   url: https://rowatcher.com/docs/api
   category: Games & Comics
 link_status: alive
-data_license: unknown
-commercial_use: unknown
+data_license: CC-BY-4.0 for history.csv only; other data derived from Roblox public APIs (owned by Roblox/creators)
+commercial_use: ambiguous
 storage_caching: unknown
 redistribution_display: unknown
-attribution_required: unknown
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://rowatcher.com/terms
+rate_limits: No key 500/day per IP; free key 1,000/day; 60 requests/minute
+evidence:
+- field: data_license
+  url: https://rowatcher.com/docs/api
+  quote: Daily average, minimum and maximum players as CSV, free to reuse under CC BY 4.0 with attribution.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://rowatcher.com/terms
+  quote: We grant you a personal, non-exclusive, revocable licence to use the Service for its intended
+    purpose.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://rowatcher.com/docs/api
+  quote: There is also a short-term cap of 60 requests a minute
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://rowatcher.com/terms
+  quote: Underlying Roblox data belongs to Roblox Corporation and the respective creators.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://rowatcher.com/docs/api
+  quote: free to reuse under CC BY 4.0 with attribution.
+  checked_at: '2026-11-21'
+notes: Read via Playwright (fresh context; curl got an empty JS shell) /docs/api and /terms. Only the
+  history.csv endpoint (daily average/min/max players) is explicitly CC BY 4.0 with attribution; the terms
+  otherwise grant a 'personal ... licence ... for its intended purpose', forbid reselling/redistributing
+  data as your own without permission and scraping beyond the API, and say underlying Roblox data belongs
+  to Roblox and creators. So commercial use is ambiguous (CC BY CSV vs personal licence for the rest);
+  caching and display not addressed beyond that. Fields like estimated revenue are model estimates. Not
+  affiliated with Roblox.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: yellow
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Terms re-read via Playwright: personal revocable licence for intended purpose, no
+  reselling as your own, Roblox data belongs to Roblox. Only history.csv is CC BY 4.0. Ambiguous stands.'

@@ -23,3 +23,7 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+notes: Read README of 15Dkatz/official_joke_api. The repo has no licence file and states no terms. README says most jokes were contributed by community members via pull requests, so jokes may have unclear
+  authorship. The hosted endpoint official-joke-api.appspot.com returned HTTP 503 at check time. All terms unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

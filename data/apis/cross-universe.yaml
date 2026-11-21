@@ -12,15 +12,62 @@ sources:
   name: Cross Universe
   url: https://crossuniverse.psychpsyo.com/apiDocs.html
   category: Games & Comics
+- list: public-api-lists
+  name: Cross Universe
+  url: https://crossuniverse.net/apiDocs
+  category: Games & Comics
 link_status: redirect
-data_license: unknown
-commercial_use: unknown
+data_license: Proprietary (Cross Universe site terms; images non-commercial plus limited commercial uses)
+commercial_use: ambiguous
 storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+redistribution_display: ambiguous
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
 link_note: -> https://crossuniverse.net/apiDocs/
+data_license_url: https://crossuniverse.jp/%e5%88%a9%e7%94%a8%e8%a6%8f%e7%b4%84/
+api_terms_url: https://crossuniverse.net/tos
+commercial_use_scope: any
+attribution_text: Credit Cross Universe (crossuniverse.jp) and link to the site where possible
+share_alike: unknown
+evidence:
+- field: commercial_use
+  url: https://crossuniverse.jp/%e5%88%a9%e7%94%a8%e8%a6%8f%e7%b4%84/
+  quote: 当サイトにて公開されているカード画像は以下の規約を守っていただくことを条件に非商用利用、一部商用利用を許可いたします。
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://crossuniverse.jp/%e5%88%a9%e7%94%a8%e8%a6%8f%e7%b4%84/
+  quote: 実際のカードやグッズ等の印刷物への商用利用は一切許可いたしません。
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://crossuniverse.jp/%e5%88%a9%e7%94%a8%e8%a6%8f%e7%b4%84/
+  quote: 配布画像の改変を禁止します。
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://crossuniverse.jp/%e5%88%a9%e7%94%a8%e8%a6%8f%e7%b4%84/
+  quote: 使用する際には当サイト名の記載をお願いいたします。
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://crossuniverse.net/tos
+  quote: The Cross Universe game and materials are copyright Cross Universe ( crossuniverse.jp )
+  checked_at: '2026-11-21'
+notes: 'The API (crossuniverse.net/apiDocs, run by a fan translator, Psychpsyo) serves card images and
+  metadata of the indie card game Cross Universe; the site says "All content belongs to Cross Universe".
+  Read the English TOS page (which defers to the official Japanese terms) and the official Japanese terms
+  at crossuniverse.jp (利用規約, read in Japanese). Terms: card images may be used non-commercially and for
+  some commercial uses only (videos or games with ads, donations; never selling the video/game itself);
+  physical cards/goods are not allowed; commercial media need the author''s permission; companies must
+  get permission even for non-commercial use; images may not be modified except cut-outs for explanations;
+  credit the site name (link requested). A card database site with ads/affiliate links is not among the
+  listed cases, so commercial_use is ambiguous. No statement on storing API data -> unknown. The two catalog
+  entries (cross-universe, cross-universe-crossuniverse) are the same service: the older psychpsyo.com
+  URL 301-redirects to crossuniverse.net/apiDocs/. Merged duplicate entry `cross-universe-crossuniverse`.'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+aliases:
+- cross-universe-crossuniverse
+second_check_at: '2026-11-21'
+second_check: confirmed

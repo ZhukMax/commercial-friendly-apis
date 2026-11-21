@@ -14,12 +14,45 @@ sources:
   category: Entertainment
 link_status: alive
 data_license: unknown
-commercial_use: unknown
+commercial_use: 'yes'
 storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+redistribution_display: ambiguous
+attribution_required: 'no'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
+verdict: yellow
 confidence: low
 link_checked_at: '2026-11-21'
+commercial_use_scope: any
+api_terms_url: https://yesnooracle.app/terms
+rate_limits: soft per-IP limit, about 60 requests/minute (600 with format=text)
+evidence:
+- field: commercial_use
+  url: https://yesnooracle.app/api
+  quote: Free for any project — personal or commercial.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://yesnooracle.app/api
+  quote: If you build something with it, a link back to yesnooracle.app is always appreciated but never
+    required.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://yesnooracle.app/terms
+  quote: The design, written content, and artwork on this site are our property and may not be copied
+    or reproduced without permission
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://yesnooracle.app/api
+  quote: There is a soft per-IP rate limit (about 60 requests a minute
+  checked_at: '2026-11-21'
+notes: Read the API page (https://yesnooracle.app/api, "Fair use") and Terms of Use (Playwright, last
+  updated June 2026). API page grants free use for any project, personal or commercial, link back optional.
+  The Terms of Use say the site written content is the owner property and may not be copied without permission
+  except personal use; the answers are generated text, so API grant vs ToS conflict is flagged as ambiguous
+  for display. Caching/storage not addressed (unknown). Answers are for entertainment only.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: API page explicitly grants commercial use; site ToS copy restriction is generic and
+  conflict only affects display. Ambiguity stands.

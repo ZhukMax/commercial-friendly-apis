@@ -24,3 +24,10 @@ verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
 link_note: -> https://docs.sunor.cc/introduction
+applicable: false
+not_applicable_reason: AI music generation service (generates songs via Suno/Udio models for credits); not a data source
+notes: 'Read https://docs.sunor.cc/introduction (redirect target of the catalogued URL): pay-as-you-go credit API for generating
+  music with Suno and Udio models. It is a third-party reseller/wrapper, not the model owner; output rights depend on the
+  upstream providers and were not assessed. No terms page read.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -15,11 +15,40 @@ sources:
 link_status: alive
 data_license: unknown
 commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+storage_caching: 'yes'
+redistribution_display: ambiguous
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+attribution_text: Credit "memeidea.com" with a link
+api_terms_url: https://memeidea.com/terms
+evidence:
+- field: storage_caching
+  url: https://memeidea.com/api/
+  quote: Please cache, and credit "memeidea.com" with a link.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://memeidea.com/api/
+  quote: Please cache, and credit "memeidea.com" with a link.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://memeidea.com/terms
+  quote: Meme images belong to their owners; memeidea shows them for commentary and trend measurement,
+    and links to the original source.
+  checked_at: '2026-11-21'
+notes: 'Read the API page (https://memeidea.com/api/) and the Terms and copyright (DMCA) page. API page:
+  no key, CORS, daily JSON; asks to cache and to credit with a link (phrased as a request, treated as
+  yes for cache and credit). Commercial use is not stated anywhere (unknown). The API page says the data
+  comes from Imgflip, Wikimedia page views, Reddit and YouTube and tells users to respect their terms;
+  the terms page says meme images belong to their owners, so no rights to images/templates are granted
+  (display ambiguous). Captions and brand-safety flags are AI-written suggestions.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: API page asks to cache and credit; says data comes from Imgflip, Wikimedia, Reddit,
+  YouTube and to respect their terms; terms page says meme images belong to owners. Commercial rights
+  not stated; unknown stands.

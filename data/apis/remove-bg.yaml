@@ -21,5 +21,13 @@ attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: 'Tool: background-removal API for the users own images; not a data source'
+notes: Read https://www.remove.bg/api and https://www.remove.bg/tos (API terms, Playwright). The terms say the services may be used exclusively for non-commercial purposes unless the user has a subscription
+  plan or pay-as-you-go credits (so paid plans cover commercial use for processed output); there is no data set to display.
+api_terms_url: https://www.remove.bg/tos
+evidence: []
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -20,6 +20,12 @@ redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Account-scoped store/command-queue API for a webstore owner (secret key); not a public data source.
+notes: 'docs.tebex.io/plugin: "The Plugin API is for implementing command execution on game servers". It exposes the store owner''s own packages, payments and customers behind a secret key, so commercial
+  terms for a public data catalogue do not apply. Tebex terms were not assessed.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: unknown

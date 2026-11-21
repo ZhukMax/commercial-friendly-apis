@@ -24,3 +24,11 @@ verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
 link_note: HTTP 403 (blocked for bots, assumed alive)
+notes: petfinder.com/developers/ redirects to the home page and /developers/v2/docs/ returns 404 (curl
+  got 403 Access Denied; checked in a fresh Playwright context), so the API documentation and API terms
+  could not be read and the API may no longer be offered. Only the general Petfinder Terms of Service
+  were read; they restrict commercial reproduction of the website and cover listings, not the API. Pet
+  listings/photos belong to shelters and rescues. All terms fields left unknown; upstream auth value (none)
+  not verified.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

@@ -13,13 +13,57 @@ sources:
   url: https://docs.nekos.best
   category: Anime
 link_status: alive
-data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
-bulk_download: unknown
+data_license: proprietary (third-party images/GIFs; all rights remain with content owners)
+commercial_use: 'no'
+storage_caching: limited
+redistribution_display: 'no'
+attribution_required: ambiguous
+bulk_download: 'no'
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: red
+confidence: high
 link_checked_at: '2026-11-21'
+data_license_url: https://docs.nekos.best/legal/tos
+api_terms_url: https://docs.nekos.best/legal/tos
+commercial_use_scope: any
+cache_limit: private use only; must not be made public or redistributed; bulk download/scraping forbidden
+notes: 'ToS (updated 17.02.2026) forbids any commercial purpose and rehosting/reselling/monetising content;
+  the FAQ also says commercial use of the images/GIFs is prohibited. The images are third-party works
+  indexed and redistributed by nekos.best, which owns none of them. Attribution: the FAQ says it is not
+  required, but the ToS forbids removing credits, hence ambiguous. A User-Agent in the documented format
+  is required. Read via curl: docs.nekos.best/legal/tos and /getting-started/faq.'
+evidence:
+- field: commercial_use
+  url: https://docs.nekos.best/legal/tos
+  quote: Use the Service for any commercial purpose
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://docs.nekos.best/getting-started/faq
+  quote: No. Commercial use is prohibited as outlined in the Terms and Conditions.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://docs.nekos.best/legal/tos
+  quote: Rehost, resell, or monetize content obtained from the Service
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://docs.nekos.best/legal/tos
+  quote: Caching API responses is permitted only for private use and must not be made public or redistributed
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://docs.nekos.best/legal/tos
+  quote: We do not own the images, GIFs, or other media made available through the Service
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://docs.nekos.best/getting-started/faq
+  quote: No, attribution is not required, but it is appreciated.
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://docs.nekos.best/legal/tos
+  quote: Scraping, bulk downloading, or automated extraction of images or GIFs is strictly forbidden
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: ToS section 4 lists commercial purpose, rehosting/reselling/monetising as forbidden;
+  FAQ confirms commercial use prohibited. Red stands.

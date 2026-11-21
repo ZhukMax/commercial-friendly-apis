@@ -17,14 +17,75 @@ sources:
   url: https://pixabay.com/sk/service/about/api/
   category: Photography
 link_status: alive
-data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
-bulk_download: unknown
+data_license: Pixabay Content License (custom; some Content is CC0)
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: ambiguous
+attribution_required: 'yes'
+bulk_download: 'no'
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
 link_note: HTTP 403 (blocked for bots, assumed alive)
+data_license_url: https://pixabay.com/service/terms/
+api_terms_url: https://pixabay.com/api/docs/
+commercial_use_scope: any
+attribution_text: Show users that images and videos come from Pixabay whenever API search results are
+  displayed
+rate_limits: 100 requests per 60 seconds per API key; responses must be cached for 24 hours
+evidence:
+- field: data_license
+  url: https://pixabay.com/service/terms/
+  quote: right to download, use, copy, modify or adapt the Content for commercial or non-commercial purposes
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://pixabay.com/service/terms/
+  quote: right to download, use, copy, modify or adapt the Content for commercial or non-commercial purposes
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://pixabay.com/api/docs/
+  quote: If you intend to use the images, please download them to your server first.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://pixabay.com/api/docs/
+  quote: Returned image URLs may be used for temporarily displaying search results.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://pixabay.com/api/docs/
+  quote: If you make use of the API, show your users where the images and videos are from, whenever search
+    results are displayed.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://pixabay.com/api/docs/
+  quote: By default, you can make up to 100 requests per 60 seconds.
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://pixabay.com/api/docs/
+  quote: Systematic mass downloads are not allowed.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://pixabay.com/service/terms/
+  quote: You cannot sell or distribute the Content (either in digital or physical form) on a Standalone
+    basis.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://pixabay.com/api/docs/
+  quote: permanent hotlinking of images (using Pixabay URLs in your app) is not allowed.
+  checked_at: '2026-11-21'
+notes: 'Read https://pixabay.com/api/docs/ (curl) and /service/terms/ and /service/license-summary/ (Playwright,
+  curl is blocked). Content License allows commercial use without attribution for the images themselves,
+  but the API docs ask API users to show where images come from (plain source credit). Permanent hotlinking
+  of image URLs is forbidden: download images to your own server first (videos may be embedded); API responses
+  must be cached 24 hours. Prohibited: selling/distributing Content on a standalone basis, using it as
+  part of a trademark/business name, mass scraping, lots of automated queries. Content showing recognisable
+  people, logos or brands carries third-party rights (the licence says consent may be needed for commercial
+  use); Pixabay grants no rights in those. Free API key required. The listed URL is the Slovak-language
+  page; docs read in English.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Content License forbids distributing Content on a Standalone basis; unmodified galleries
+  risk breach; API only allows temporary display of returned URLs; must download first; terms say Pixabay
+  may cancel or change the licences at sole discretion | applied: redistribution_display=ambiguous'

@@ -13,14 +13,50 @@ sources:
   url: https://fungenerators.com/api/facts/
   category: Games & Comics
 link_status: redirect
-data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
+data_license: proprietary (Fun Generators Terms of Use)
+commercial_use: ambiguous
+storage_caching: limited
 redistribution_display: unknown
-attribution_required: unknown
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
 link_note: -> https://fungenerators.com/products/documentation/facts
+data_license_url: https://fungenerators.com/terms
+api_terms_url: https://fungenerators.com/terms
+commercial_use_scope: free-tier
+cache_limit: 8 hours
+attribution_text: API subscribers must credit Fun Generators unless they are paid subscribers
+notes: 'URL redirects to fungenerators.com/products/documentation/facts (same service). Terms of Use:
+  the website "Use License" is personal, non-commercial viewing only and forbids commercial purposes and
+  public display of the materials, but the API clause says free subscribers must credit and paid subscribers
+  need not, and the Facts API page distinguishes free-key and paid plans; the two clauses conflict, so
+  commercial_use=ambiguous. API caching limited to 8 hours. Whether paid plans expressly permit commercial
+  display was not confirmed.'
+evidence:
+- field: commercial_use
+  url: https://fungenerators.com/terms
+  quote: use the materials for any commercial purpose, or for any public display (commercial or non-commercial)
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://fungenerators.com/terms
+  quote: You should not cache, store, or persist the generated materials returned from our API for more
+    than 8 hours.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://fungenerators.com/terms
+  quote: API subscribers must credit Fun Generators unless they are paid subscribers.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://fungenerators.com/terms
+  quote: This is the grant of a license, not a transfer of title
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: yellow
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Terms: website licence forbids commercial/public display; section 9 says paid API
+  subscribers need not credit; 8-hour cache cap. Conflict between clauses remains; no explicit paid-plan
+  commercial grant found. Ambiguous stands.'

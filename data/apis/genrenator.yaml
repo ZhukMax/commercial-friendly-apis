@@ -27,3 +27,10 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Random music-genre/story text generator, not a data source
+notes: 'Read https://binaryjazz.us/genrenator-api/ : two endpoints returning random generated genre names or genre stories
+  built from fragments taken from Every Noise At Once; says ''play with the Genrenator API as much as you like'' but states
+  no licence or terms. Terms unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

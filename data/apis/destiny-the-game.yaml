@@ -13,13 +13,47 @@ sources:
   url: https://bungie-net.github.io/multi/index.html
   category: Games & Comics
 link_status: alive
-data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
+data_license: Proprietary (Bungie.net API Terms and Conditions; non-commercial)
+commercial_use: 'no'
+storage_caching: limited
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: red
+confidence: high
 link_checked_at: '2026-11-21'
+data_license_url: https://www.bungie.net/7/en/Legal/terms
+api_terms_url: https://www.bungie.net/7/en/Legal/terms
+commercial_use_scope: any
+cache_limit: Retention only for uses permitted under the licence (non-commercial)
+share_alike: unknown
+evidence:
+- field: commercial_use
+  url: https://www.bungie.net/7/en/Legal/terms
+  quote: You may not use the Bungie.net API for commercial purposes unless you obtain Bungie’s prior written
+    permission.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.bungie.net/7/en/Legal/terms
+  quote: Your site uses API Data to drive traffic and generate ad revenue.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.bungie.net/7/en/Legal/terms
+  quote: You may retain copies of API Data obtained through the Bungie.net API solely for uses permitted
+    under this license.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.bungie.net/7/en/Legal/terms
+  quote: You may not otherwise reproduce, modify, distribute, decompile, disassemble or reverse engineer
+    any portion of the Bungie.net API or API Data.
+  checked_at: '2026-11-21'
+notes: 'Read Bungie.net Terms of Use (section BUNGIE.NET API TERMS AND CONDITIONS) via Playwright (SPA;
+  the /en/View/Bungie/terms link redirects to /7/en/Legal/terms). Commercial use needs Bungie prior written
+  permission; the terms explicitly name ad-revenue sites as commercial. The BSD-3-Clause licence in the
+  Bungie-net/api GitHub repo covers the OpenAPI spec files, not the data. Display/attribution rules for
+  API Data are not stated beyond the Brand Feature licence -> unknown. Game content/art/music: Bungie
+  says it cannot extend third-party licences to users. Entry is the Bungie.net Platform API (Destiny 2
+  and Bungie.net accounts).'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

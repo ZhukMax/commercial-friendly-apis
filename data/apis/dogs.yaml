@@ -27,3 +27,10 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+notes: 'Read dog.ceo home and About pages and the project GitHub pages: no terms of use for the API or
+  its images. About says the original dataset is the Stanford Dogs Dataset (ImageNet-derived, research-oriented;
+  its terms were not read), and the image repo jigsawpieces/dog-api-images shows a GPL-3.0 licence label,
+  which does not clearly cover the photos themselves. Image rights belong to the photo authors; API grants
+  none explicitly. All terms fields left unknown.'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

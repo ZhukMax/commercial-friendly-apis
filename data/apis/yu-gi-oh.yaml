@@ -13,14 +13,45 @@ sources:
   url: https://db.ygoprodeck.com/api-guide/
   category: Games & Comics
 link_status: redirect
-data_license: unknown
+data_license: unknown (card text and images copyright 4K Media Inc / Konami; no API licence stated)
 commercial_use: unknown
-storage_caching: unknown
+storage_caching: 'yes'
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
 link_note: -> https://ygoprodeck.com/api-guide/
+api_terms_url: https://ygoprodeck.com/api-guide/
+commercial_use_scope: any
+share_alike: unknown
+rate_limits: 20 requests per second; exceeding blocks the IP for 1 hour
+evidence:
+- field: storage_caching
+  url: https://ygoprodeck.com/api-guide/
+  quote: Please download and store all data pulled from this API locally to keep the amount of API calls
+    used to a minimum.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://ygoprodeck.com/api-guide/
+  quote: Please download and re-host the images yourself.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://ygoprodeck.com/api-guide/
+  quote: The rate limit is 20 requests per 1 second .
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://ygoprodeck.com/api-guide/
+  quote: is copyright 4K Media Inc, a subsidiary of Konami Digital Entertainment, Inc.
+  checked_at: '2026-11-21'
+notes: Read the YGOPRODeck API guide (db.ygoprodeck.com/api-guide redirects to ygoprodeck.com/api-guide/).
+  It explicitly asks users to store API data locally and re-host card images (no hotlinking), so storage
+  is yes, but the guide has no licence, commercial-use or attribution statement and no terms of service
+  page was found (/terms and similar return 404). The site footer states card images, card text and symbols
+  are copyright 4K Media Inc / Konami and that the site is not affiliated with them, so no rights in the
+  card content are granted. Card price fields come from third-party marketplaces (tcgplayer_data removed
+  in v7). Commercial use unknown.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

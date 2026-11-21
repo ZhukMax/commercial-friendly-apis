@@ -17,13 +17,39 @@ sources:
   url: https://stapi.co
   category: Video
 link_status: alive
-data_license: unknown
-commercial_use: unknown
+data_license: CC-BY-NC-4.0 (mostly, from Memory Alpha); parts CC BY-SA 3.0 (Memory Beta), MIT, and copyrighted
+  card data
+commercial_use: 'no'
 storage_caching: unknown
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: red
+confidence: medium
 link_checked_at: '2026-11-21'
+data_license_url: https://stapi.co/licensing
+api_terms_url: https://stapi.co/terms-of-service
+commercial_use_scope: any
+evidence:
+- field: commercial_use
+  url: https://stapi.co/licensing
+  quote: it is safe to assume that most of STAPI'a content is licensed under CC-BY-NC 4.0
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://stapi.co/licensing
+  quote: it is safe to assume that most of STAPI'a content is licensed under CC-BY-NC 4.0
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://stapi.co/licensing
+  quote: Trading card sets and trading cards data come from StarTrekCards.com and should be considered
+    copyrighted.
+  checked_at: '2026-11-21'
+notes: 'Licensing page: content derives from Memory Alpha (CC BY-NC 4.0), some from Memory Beta (CC BY-SA
+  3.0), trading card data from StarTrekCards.com is copyrighted, only small code-derived parts are MIT.
+  The licence is stated hedged (''safe to assume''), so confidence medium. The Terms of Use (Polish with
+  English translation) describe the main purpose as non-commercial sharing and forbid copying/distributing
+  the service or its database without written consent. Star Trek names and trademarks belong to CBS/Paramount;
+  STAPI claims no ownership. Page read via Playwright (JS-rendered).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

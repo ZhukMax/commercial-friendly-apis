@@ -1,50 +1,28 @@
 # Photography
 
-> Generated file. 42 APIs: 🟢 0 · 🟡 0 · 🔴 0 · ⚪ 42. [Back to README](../README.md)
+> Generated file. 20 APIs: 🟢 1 · 🟡 7 · 🔴 0 · ⚪ 12. [Back to README](../README.md)
 
 | API | Description | Verdict | Commercial use | Storage | Attribution | Terms | Checked |
 |---|---|---|---|---|---|---|---|
-| [APITemplate.io](https://apitemplate.io) | Dynamically generate images and PDFs from templates with a simple API | ⚪ | — | — | — | — | — |
-| [CheetahO](https://cheetaho.com/docs/getting-started/) | Photo optimization and resize | ⚪ | — | — | — | — | — |
-| [CompressGIF](https://compressgif.net/docs) | Compress GIF files or HTTPS URLs with asynchronous jobs and target-size controls | ⚪ | — | — | — | — | — |
-| [Compresso](https://compresso.space/developers) | Visually lossless image compression for PNG, JPEG and WebP | ⚪ | — | — | — | — | — |
-| [CropDen](https://github.com/geektao1024/social-media-image-sizes) | Image sizes, safe zones and upload limits for 14 social platforms and passport photos | ⚪ | — | — | — | — | — |
-| [Dagpi](https://dagpi.xyz) | Image manipulation and processing | ⚪ | — | — | — | — | — |
+| [CropDen](https://github.com/geektao1024/social-media-image-sizes) | Image sizes, safe zones and upload limits for 14 social platforms and passport photos | 🟢 | ✅ | ✅ | required | [terms](https://github.com/geektao1024/social-media-image-sizes#license) | 2026-11-21 |
+| [Flickr](https://www.flickr.com/services/api/) | Flickr Services | 🟡 | ❓ ambiguous | ⚠️ limited | required | [terms](https://www.flickr.com/help/terms/api) | 2026-11-21 |
+| [Imgur](https://apidocs.imgur.com/) | Images | 🟡 | ❓ ambiguous | — | — | [terms](https://api.imgur.com/) | 2026-11-21 |
+| [NexWall](https://nexwall.kodnextech.com/wallpaper-api/docs) | Curated 4K portrait phone wallpapers across 50+ categories | 🟡 | ❓ ambiguous | ⚠️ limited | ❓ unclear | [terms](https://nexwall.kodnextech.com/wallpaper-api/license) | 2026-11-21 |
+| [Pexafy](https://docs.pexafy.com) | Semantic image search across 9+ free stock photo sources with a unified JSON schema | 🟡 | ✅ | ⚠️ limited | ❓ unclear | [terms](https://docs.pexafy.com) | 2026-11-21 |
+| [Pexels](https://www.pexels.com/api/) | Free Stock Photos and Videos | 🟡 | ✅ | — | required | [terms](https://www.pexels.com/api/documentation/) | 2026-11-21 |
+| [Pixabay](https://pixabay.com/sk/service/about/api/) | Photography | 🟡 | ✅ | ✅ | required | [terms](https://pixabay.com/api/docs/) | 2026-11-21 |
+| [shutterstock](https://api-reference.shutterstock.com/) | Stock Photos and Videos | 🟡 | 💲 paid | — | — | [terms](https://www.shutterstock.com/license) | 2026-11-21 |
 | [Duply](https://duply.co/docs) 🔗† | Generate, Edit, Scale and Manage Images and Videos Smarter & Faster | ⚪ | — | — | — | — | — |
-| [DynaPictures](https://dynapictures.com/docs/) | Generate Hundreds of Personalized Images in Minutes | ⚪ | — | — | — | — | — |
-| [Flickr](https://www.flickr.com/services/api/) | Flickr Services | ⚪ | — | — | — | — | — |
-| [Getty Images](http://developers.gettyimages.com/en/) | Build applications using the world's most powerful imagery | ⚪ | — | — | — | — | — |
+| [Getty Images](http://developers.gettyimages.com/en/) | Build applications using the world's most powerful imagery | ⚪ | — | — | — | [terms](https://www.gettyimages.com/eula) | 2026-11-21 |
 | [Gfycat](https://developers.gfycat.com/api/) 🔗† | Jiffier GIFs | ⚪ | — | — | — | — | — |
-| [Giphy](https://developers.giphy.com/docs/) | Get all your gifs | ⚪ | — | — | — | — | — |
-| [Google Photos](https://developers.google.com/photos) | Integrate Google Photos with your apps or devices | ⚪ | — | — | — | — | — |
-| [Image Upload](https://apilayer.com/marketplace/image_upload-api) | Image Optimization | ⚪ | — | — | — | — | — |
-| [Imgur](https://apidocs.imgur.com/) | Images | ⚪ | — | — | — | — | — |
+| [Giphy](https://developers.giphy.com/docs/) | Get all your gifs | ⚪ | — | ❌ | required | [terms](https://support.giphy.com/hc/en-us/articles/360028134111-GIPHY-API-Terms-of-Service) | 2026-11-21 |
 | [Imsea](https://imsea.herokuapp.com/) 🔗† | Free image search | ⚪ | — | — | — | — | — |
-| [isGenAI](https://isgenai.com/api) | Check images, URLs and text for C2PA Content Credentials, AI labels and saved prompts | ⚪ | — | — | — | — | — |
-| [Kavel](https://kavel.readthedocs.io/) | Generate and edit images with AI, no key or account required | ⚪ | — | — | — | — | — |
 | [launch.pics](https://launch.pics) 🔗† | AI-powered image processing API with 39 endpoints and workflow builder | ⚪ | — | — | — | — | — |
-| [Lightdrift](https://docs.lightdrift.ai) | Search 1.85M openly licensed images by text or image, with license and attribution per result | ⚪ | — | — | — | — | — |
-| [localscreenshot](https://localscreenshot.com) | Screenshot or PDF rendering of any public page, from 227 countries | ⚪ | — | — | — | — | — |
-| [Lorem Picsum](https://picsum.photos/) | Images from Unsplash | ⚪ | — | — | — | — | — |
-| [NexWall](https://nexwall.kodnextech.com/wallpaper-api/docs) | Curated 4K portrait phone wallpapers across 50+ categories | ⚪ | — | — | — | — | — |
-| [ObjectCut](https://objectcut.com/) | Image Background removal | ⚪ | — | — | — | — | — |
-| [Pexafy](https://docs.pexafy.com) | Semantic image search across 9+ free stock photo sources with a unified JSON schema | ⚪ | — | — | — | — | — |
-| [Pexels](https://www.pexels.com/api/) | Free Stock Photos and Videos | ⚪ | — | — | — | — | — |
-| [PhotoRoom](https://www.photoroom.com/api/) | Remove background from images | ⚪ | — | — | — | — | — |
-| [Pixabay](https://pixabay.com/sk/service/about/api/) | Photography | ⚪ | — | — | — | — | — |
-| [PixelVault](https://pixelvault.dev/docs) | Agent-first image hosting with instant CDN URLs | ⚪ | — | — | — | — | — |
-| [PlaceKeanu](https://placekeanu.com/) | Resizable Keanu Reeves placeholder images with grayscale and young Keanu options | ⚪ | — | — | — | — | — |
-| [Readme typing SVG](https://github.com/DenverCoder1/readme-typing-svg) | Customizable typing and deleting text SVG | ⚪ | — | — | — | — | — |
-| [Remove.bg](https://www.remove.bg/api) | Image Background removal | ⚪ | — | — | — | — | — |
+| [Lightdrift](https://docs.lightdrift.ai) | Search 1.85M openly licensed images by text or image, with license and attribution per result | ⚪ | — | — | ❓ unclear | [terms](https://docs.lightdrift.ai/guides/rights) | 2026-11-21 |
+| [Lorem Picsum](https://picsum.photos/) | Images from Unsplash | ⚪ | — | — | — | [terms](https://picsum.photos/) | 2026-11-21 |
+| [PlaceKeanu](https://placekeanu.com/) | Resizable Keanu Reeves placeholder images with grayscale and young Keanu options | ⚪ | — | — | — | [terms](https://placekeanu.com/) | 2026-11-21 |
 | [ReSmush.it](https://resmush.it/api) 🔗† | Photo optimization | ⚪ | — | — | — | — | — |
-| [Screenshot Studio](https://www.screenshot-studio.com/docs) | Capture web pages as images through a public HTTP API | ⚪ | — | — | — | — | — |
-| [Screenshotlayer](https://screenshotlayer.com) | URL to screenshot | ⚪ | — | — | — | — | — |
-| [shutterstock](https://api-reference.shutterstock.com/) | Stock Photos and Videos | ⚪ | — | — | — | — | — |
-| [Sirv](https://apidocs.sirv.com/) | Image management solutions like optimization, manipulation, hosting | ⚪ | — | — | — | — | — |
-| [snapWONDERS](https://snapwonders.com/developers) | Photo and video forensic analysis, steganography and media format conversion | ⚪ | — | — | — | — | — |
-| [Tinify.dev](https://tinify.dev/developers) | Image compression, resize and crop API with usage metadata | ⚪ | — | — | — | — | — |
-| [Unsplash](https://unsplash.com/developers) | Photography | ⚪ | — | — | — | — | — |
-| [Wallhaven](https://wallhaven.cc/help/api) | Wallpapers | ⚪ | — | — | — | — | — |
-| [Webdam](https://www.damsuccess.com/hc/en-us/articles/202134055-REST-API) | Images | ⚪ | — | — | — | — | — |
+| [Unsplash](https://unsplash.com/developers) | Photography | ⚪ | — | ⚠️ limited | required | [terms](https://help.unsplash.com/en/articles/2511245-unsplash-api-guidelines) | 2026-11-21 |
+| [Wallhaven](https://wallhaven.cc/help/api) | Wallpapers | ⚪ | — | — | — | [terms](https://wallhaven.cc/help/api) | 2026-11-21 |
 
 † = link did not respond when last checked.

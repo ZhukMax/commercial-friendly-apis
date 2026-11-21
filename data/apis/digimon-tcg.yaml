@@ -20,6 +20,16 @@ redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+rate_limits: 15 requests per 10 seconds (blocked for an hour if exceeded)
+notes: 'Postman docs read: describe search endpoints and rate limit only, no licence or terms. digimoncard.io footer: "DigimonCard is not affiliated with Bandai Namco Entertainment or Toei Animation"; card
+  names, text and art are Bandai/Toei property and the API grants no rights to them. The site has a "Terms of Content Use" page that returned 403 to curl and was not read. All core terms unknown.'
+evidence:
+- field: rate_limits
+  url: https://documenter.getpostman.com/view/14059948/TzecB4fH
+  quote: rate limited to 15 requests per 10 seconds otherwise you will be blocked from accessing for an hour
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: unknown

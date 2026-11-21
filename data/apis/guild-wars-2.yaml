@@ -17,13 +17,42 @@ sources:
   url: https://wiki.guildwars2.com/wiki/API:Main
   category: Games & Comics
 link_status: alive
-data_license: unknown
-commercial_use: unknown
+data_license: proprietary (ArenaNet Content Terms of Use / Content Use Policy)
+commercial_use: 'no'
 storage_caching: unknown
 redistribution_display: unknown
-attribution_required: unknown
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: red
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://www.arena.net/en/legal/content-terms-of-use
+commercial_use_scope: any
+notes: 'The wiki API:Main page says any use of the API must comply with ArenaNet''s Content Terms of Use
+  and Website Terms of Use; read the Content Terms of Use (updated 28 Oct 2025; the old guildwars2.com
+  URL redirects to arena.net) via Playwright. Policy covers fan projects by individuals only (no companies);
+  must be non-commercial, with narrow exceptions: passive non-intrusive website ad revenue on fan sites,
+  and application sales/limited in-app purchases. It forbids affiliate/commercial business use without
+  a separate written agreement, so a commercial site is red. API may not be sold, sublicensed or provided
+  to third parties. Game content/artwork is ArenaNet/NCSOFT IP. Storage and display left unknown (not
+  explicit). User Agreement not read.'
+evidence:
+- field: commercial_use
+  url: https://www.arena.net/en/legal/content-terms-of-use
+  quote: No, Fan Projects must be for non-commercial use only.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.arena.net/en/legal/content-terms-of-use
+  quote: Only individual fan creators acting in their capacity as natural persons (i.e., no companies).
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.arena.net/en/legal/content-terms-of-use
+  quote: Yes, you must include the corresponding notice below
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.arena.net/en/legal/content-terms-of-use
+  quote: Fan Projects must be for non-commercial use only.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -27,3 +27,15 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+rate_limits: 120 requests per minute per client
+notes: 'Read the JokeAPI docs page (Legal Stuff section): it says JokeAPI (the software) is MIT-licensed,
+  but gives no licence or usage terms for the joke content itself, which may be third-party and includes
+  a "Dark" category disclaimed by the author. Software licence is not treated as a data licence, so all
+  terms left unknown. Free, no key.'
+evidence:
+- field: rate_limits
+  url: https://sv443.net/jokeapi/v2/
+  quote: there is a hard limit of 120 requests per minute due to some DoS attacks I have been getting.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

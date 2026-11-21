@@ -14,12 +14,34 @@ sources:
   category: Games & Comics
 link_status: alive
 data_license: unknown
-commercial_use: unknown
+commercial_use: 'yes'
 storage_caching: unknown
 redistribution_display: unknown
-attribution_required: unknown
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://www.freetogame.com/api-doc
+commercial_use_scope: any
+attribution_text: Attribute FreeToGame.com as the source with an active hyperlink
+rate_limits: Please avoid doing more than 10 requests per second
+notes: 'API doc page (JS-rendered text read via Playwright in a fresh context) states free for personal and commercial use with an active-hyperlink attribution to FreeToGame.com (mandatory backlink, so
+  at best yellow). Caching/storage and display of the data are not addressed: unknown. Footer: "All trademarks are property of their respective owners" - game titles, descriptions, thumbnails belong to
+  the publishers and are not licensed by this API.'
+evidence:
+- field: commercial_use
+  url: https://www.freetogame.com/api-doc
+  quote: Free for personal and commercial use; attribution to FreeToGame required with an active hyperlink.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.freetogame.com/api-doc
+  quote: Free for personal and commercial use; attribution to FreeToGame required with an active hyperlink.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://www.freetogame.com/api-doc
+  quote: Please avoid doing more than 10 requests per second.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: yellow

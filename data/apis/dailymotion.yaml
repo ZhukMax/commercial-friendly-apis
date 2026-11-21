@@ -20,7 +20,18 @@ redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
 link_note: -> https://developers.dailymotion.com/docs/welcome
+api_terms_url: https://legal.dailymotion.com/en/terms-of-use/
+applicable: false
+not_applicable_reason: Account-scoped publisher API (authentication, upload and management of your own
+  videos and players), not a data source for third-party content.
+evidence: []
+notes: Developer docs (API v2) cover authenticating, uploading and managing your own videos, livestreams,
+  players and monetisation. Dailymotion Terms of Use restrict use of platform content to personal, non-commercial
+  streaming and prohibit scraping, so it is not a reusable data source. No dedicated developer terms found
+  on the pages read; nothing recorded as terms. Read via Playwright.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: unknown

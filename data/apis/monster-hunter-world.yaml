@@ -20,6 +20,10 @@ redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+notes: 'Docs (docs.mhw-db.com) read in full text: no licence or terms stated. The docs say events are "pulled from the official Capcom event pages"; game data, names and art belong to Capcom and no rights
+  to them are granted. No licence found on the project repo. All terms unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: unknown

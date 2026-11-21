@@ -13,13 +13,47 @@ sources:
   url: https://cosmyday.com/api-docs
   category: Entertainment
 link_status: alive
-data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+data_license: 'no named licence: free for any use incl. commercial with a mandatory visible link to cosmyday.com'
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+data_license_url: https://cosmyday.com/api-docs
+api_terms_url: https://cosmyday.com/api-docs
+commercial_use_scope: any
+attribution_text: Credit the data with a visible link to cosmyday.com wherever it appears
+share_alike: unknown
+rate_limits: No hard rate limit; cache responses, do not poll faster than data changes, identify app in User-Agent
+verdict_override: yellow
+override_reason: A visible link to cosmyday.com is mandatory ("required rather than appreciated"), i.e. a mandatory backlink beyond plain credit.
+notes: 'FAQ on the API docs page: free for any use including commercially on the one condition of a visible link to cosmyday.com; do not present the computed data as your own original astronomical research.
+  Fair-use text asks to cache what you can. No separate ToS page exists (cosmyday.com/terms is 404), so the docs page is the only terms source. Horoscope content is generated text; /search-location proxies
+  OpenStreetMap Nominatim (server-side only, its own licence) and place data is GeoNames CC BY 4.0, listed on the page footer.'
+evidence:
+- field: commercial_use
+  url: https://cosmyday.com/api-docs
+  quote: 'It is free for any use, including commercially, on one condition: credit the data to a visible link to cosmyday.com wherever it appears.'
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://cosmyday.com/api-docs
+  quote: 'It is free for any use, including commercially, on one condition: credit the data to a visible link to cosmyday.com wherever it appears.'
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://cosmyday.com/api-docs
+  quote: That link is what pays for the API, so it is required rather than appreciated.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://cosmyday.com/api-docs
+  quote: Cache what you can, do not poll faster than the data changes
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://cosmyday.com/api-docs
+  quote: 'It is free for any use, including commercially, on one condition: credit the data to a visible link to cosmyday.com wherever it appears.'
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

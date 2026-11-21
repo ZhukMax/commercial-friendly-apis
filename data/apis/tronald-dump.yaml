@@ -16,7 +16,7 @@ sources:
   name: tronalddump.io
   url: https://www.tronalddump.io
   category: Personality
-link_status: alive
+link_status: dead
 data_license: unknown
 commercial_use: unknown
 storage_caching: unknown
@@ -27,3 +27,9 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+link_note: tronalddump.io now serves an unrelated online-gambling site; api.tronalddump.io does not respond
+notes: https://www.tronalddump.io/ now shows an unrelated gambling/slot spam page (domain apparently taken
+  over) and api.tronalddump.io gave no response, so the original service appears gone. No terms read;
+  all unknown. Also, quotes are third-party statements.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

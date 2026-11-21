@@ -21,5 +21,13 @@ attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: 'Tool: photo/video forensic analysis, steganography and format conversion API for uploaded files; not a data source'
+notes: Read https://snapwonders.com/developers and the Terms of Service (https://snapwonders.com/terms-of-service). Users keep rights in content they submit. The terms separately say the published Device
+  Fingerprint Data is proprietary and only usable for personal, educational or non-commercial research with attribution, which is not the API output.
+api_terms_url: https://snapwonders.com/terms-of-service
+evidence: []
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

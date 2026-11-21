@@ -1,0 +1,269 @@
+[
+ {
+  "id": "anilist",
+  "outcome": "confirmed",
+  "reasons": [
+   "Free under $150/month revenue, licence above; storage as backup barred; ambiguity real"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-read first-pass terms evidence; third-party artwork rights unaddressed."
+ },
+ {
+  "id": "arcmira",
+  "outcome": "confirmed",
+  "reasons": [
+   "Re-read ToS via Playwright: no commercial clause; display allowed with attribution, bulk use needs licence"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Fresh read of /terms confirms unknown/ambiguous fields."
+ },
+ {
+  "id": "board-game-geek",
+  "outcome": "confirmed",
+  "reasons": [
+   "Free licence strictly non-commercial; commercial licence case by case; ambiguous stands"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": ""
+ },
+ {
+  "id": "brawl-stars",
+  "outcome": "confirmed",
+  "reasons": [
+   "Fan Content Policy: ads allowed, fees barred; affiliate/data-site status unclear"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Same Supercell policy for all three portals; game IP stays with Supercell."
+ },
+ {
+  "id": "clash-of-clans",
+  "outcome": "confirmed",
+  "reasons": [
+   "Fan Content Policy: ads allowed, fees barred; affiliate/data-site status unclear"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Same Supercell policy for all three portals; game IP stays with Supercell."
+ },
+ {
+  "id": "clash-royale",
+  "outcome": "confirmed",
+  "reasons": [
+   "Fan Content Policy: ads allowed, fees barred; affiliate/data-site status unclear"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Same Supercell policy for all three portals; game IP stays with Supercell."
+ },
+ {
+  "id": "bulktranscripts",
+  "outcome": "disputed",
+  "reasons": [
+   "ToS limits transcripts to personal research; third-party YouTube captions; not usable for commercial site"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://bulktranscripts.co/terms",
+    "quote": "Transcripts of other people's content are for your personal research, study, and analysis.",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "ambiguous"
+  },
+  "note": "Re-read terms (Aug 2026): personal-use wording is a likely blocker for ads/affiliate site; unknown is too optimistic. Verdict should stay unknown/not green."
+ },
+ {
+  "id": "chess-com",
+  "outcome": "confirmed",
+  "reasons": [
+   "User Agreement excludes commercial use of game records; PubAPI silent; ambiguous stands"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": ""
+ },
+ {
+  "id": "comic-vine",
+  "outcome": "confirmed",
+  "reasons": [
+   "Strictly non-commercial; red stands"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": ""
+ },
+ {
+  "id": "cross-universe",
+  "outcome": "confirmed",
+  "reasons": [
+   "Images non-commercial plus limited commercial cases; database site not listed"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": ""
+ },
+ {
+  "id": "deezer",
+  "outcome": "confirmed",
+  "reasons": [
+   "Non-commercial, no revenue, no local copy; red stands"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": ""
+ },
+ {
+  "id": "discogs",
+  "outcome": "confirmed",
+  "reasons": [
+   "CC0 tier vs restricted data, 6-hour display limit, traffic-driving clause; ambiguous stands"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": ""
+ },
+ {
+  "id": "dotasense-timings",
+  "outcome": "confirmed",
+  "reasons": [
+   "Site ToS personal non-commercial; endpoint invitation to cache; ambiguous stands"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": ""
+ },
+ {
+  "id": "eve-online",
+  "outcome": "confirmed",
+  "reasons": [
+   "Ads allowed, affiliate/monetization barred; non-commercial purpose; ambiguous stands"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": ""
+ },
+ {
+  "id": "fishwatch",
+  "outcome": "disputed",
+  "reasons": [
+   "API endpoints now redirect to NOAA topic page; API appears discontinued",
+   "Terms applied are website policy, not API terms"
+  ],
+  "counter_evidence": [
+   {
+    "url": "https://www.fisheries.noaa.gov/website-policies-and-disclaimers",
+    "quote": "We encourage the use of such information for non-commercial, scientific, and educational purposes.",
+    "field": "commercial_use"
+   }
+  ],
+  "suggested": {
+   "commercial_use": "unknown"
+  },
+  "note": "Re-fetched www.fishwatch.gov/api/species and /developers: both land on fisheries.noaa.gov/topic/sustainable-seafood. Suggest link_status dead, verdict unknown."
+ },
+ {
+  "id": "flickr",
+  "outcome": "confirmed",
+  "reasons": [
+   "Commercial key needed; per-photo CC licence required; caching limited"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Note: commercial_use_scope 'paid' is inconsistent with note (no page says plan is paid); consider 'any' or none."
+ },
+ {
+  "id": "freesound",
+  "outcome": "confirmed",
+  "reasons": [
+   "Free API non-commercial only; commercial negotiated; per-sound CC licence"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": ""
+ },
+ {
+  "id": "green-screen-memes",
+  "outcome": "confirmed",
+  "reasons": [
+   "Paid plan permits commercial; footage third-party; display ambiguous stands"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": ""
+ },
+ {
+  "id": "halo",
+  "outcome": "confirmed",
+  "reasons": [
+   "Re-read ToU: ads allowed, bundling third-party products barred; portal still online (Beta, 2018 terms)"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": ""
+ },
+ {
+  "id": "humor",
+  "outcome": "confirmed",
+  "reasons": [
+   "Storage forbidden, no explicit commercial clause, backlink on free plan; portal still live"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": ""
+ },
+ {
+  "id": "imgflip",
+  "outcome": "confirmed",
+  "reasons": [
+   "Docs silent; ToS requires owner permission for content; unknown stands"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": ""
+ },
+ {
+  "id": "imgur",
+  "outcome": "confirmed",
+  "reasons": [
+   "Docs say commercial apps need plan; ToS bars non-journalistic commercial UGC use; conflict stands"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": ""
+ },
+ {
+  "id": "jokes-one",
+  "outcome": "confirmed",
+  "reasons": [
+   "Terms contradict themselves on commercial/public display; ambiguous stands"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": ""
+ },
+ {
+  "id": "justmeme-wtf",
+  "outcome": "confirmed",
+  "reasons": [
+   "Only a one-line FAQ; yes rests on it, but verdict already yellow, low confidence"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": "Re-fetched api-docs: still no terms page or rights statement; templates are third-party meme images. Consider downgrading commercial_use to ambiguous if strict about missing ToS."
+ },
+ {
+  "id": "kitsu",
+  "outcome": "confirmed",
+  "reasons": [
+   "ToS bars commercial use of content; API terms separate on request; ambiguous stands"
+  ],
+  "counter_evidence": [],
+  "suggested": {},
+  "note": ""
+ }
+]

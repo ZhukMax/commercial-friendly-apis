@@ -19,7 +19,18 @@ storage_caching: unknown
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
-self_host_option: unknown
+self_host_option: 'yes'
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://github.com/mazipan/graphql-pokeapi
+evidence:
+- field: self_host_option
+  url: https://raw.githubusercontent.com/mazipan/graphql-pokeapi/master/LICENSE
+  quote: Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files
+  checked_at: '2026-11-21'
+notes: Read README and LICENSE of the repo. This is an unofficial GraphQL layer over PokeAPI; the code is MIT. No terms for the hosted GraphQL service or its data are stated. Do not transfer PokeAPI's own
+  terms to this proxy (it does not say it replaces or is the same service; PokeAPI terms were not read in this entry). Pokemon names, art and data are Nintendo/Game Freak/The Pokemon Company property; no
+  rights granted. Commercial use, storage, display stay unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

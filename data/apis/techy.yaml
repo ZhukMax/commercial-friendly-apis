@@ -12,7 +12,7 @@ sources:
   name: Techy
   url: https://techy-api.vercel.app/
   category: Entertainment
-link_status: alive
+link_status: dead
 data_license: unknown
 commercial_use: unknown
 storage_caching: unknown
@@ -23,3 +23,8 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+link_note: Homepage JS-redirects to an unrelated blogspot site; /api/json and /api/text return 404 (Vercel NOT_FOUND)
+notes: 'Probed https://techy-api.vercel.app/: the page only contains a redirect script to an unrelated "Animated Backgrounds" blogspot site, and the documented endpoints /api/json and /api/text return Vercel
+  404 NOT_FOUND. The service appears gone; no terms or licence found. All terms unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

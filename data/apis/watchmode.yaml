@@ -14,12 +14,51 @@ sources:
   category: Video
 link_status: alive
 data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+commercial_use: paid-only
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://www.watchmode.com/terms
+commercial_use_scope: paid
+cache_limit: 'Free (Developer) plan: refresh or delete cached data within 30 days; paid plans may keep
+  data stored while subscribed'
+attribution_text: Credit and link to Watchmode.com wherever its data is displayed (free plan only)
+rate_limits: 'Developer (free) plan: 2,500 credits a month'
+evidence:
+- field: commercial_use
+  url: https://api.watchmode.com/pricing
+  quote: Commercial use requires Startup, Business, or Enterprise.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://api.watchmode.com/pricing
+  quote: Free use must credit and link to Watchmode.com wherever its data is displayed.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://api.watchmode.com/pricing
+  quote: Developer-plan users should refresh or delete cached data within 30 days.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://api.watchmode.com/pricing
+  quote: Paid subscribers can keep Watchmode data stored in their own systems while the subscription is
+    active.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://api.watchmode.com/pricing
+  quote: Free use must credit and link to Watchmode.com wherever its data is displayed.
+  checked_at: '2026-11-21'
+notes: 'Pricing page: free Developer plan is non-commercial with attribution; Startup/Business/Enterprise
+  are commercial and need no attribution. Display is shown as allowed (the free plan only requires credit)
+  but no explicit display grant sentence was found, so confidence is medium. Terms page (www.watchmode.com/terms)
+  is the site/app EULA and says posters, photographs, artwork and logos may be third-party owned and ''No
+  license or right to reproduce, download, distribute or otherwise use any third-party media is granted'';
+  also the API-specific terms were not separate. data_license left unknown (no dataset licence found).
+  Service availability data may be inaccurate. Terms say personal non-commercial licence for the website/app
+  offerings; API commercial rights come from the paid plans per the pricing page. Pages read via Playwright
+  (JS pages).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: yellow

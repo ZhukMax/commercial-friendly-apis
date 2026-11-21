@@ -20,6 +20,10 @@ redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+notes: Docs site (disneyapi.dev) states no terms for the data; its footer says "Disney and Disney characters are trademarks of Walt Disney Company". Unofficial fan project (GitHub ManuCastrillonM/disney-api
+  carries a BSD-3-Clause licence for the code only). Character names/images are Disney property and the API grants no rights to them. All terms unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: unknown

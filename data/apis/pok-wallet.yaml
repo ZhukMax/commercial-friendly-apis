@@ -13,13 +13,44 @@ sources:
   url: https://pokewallet.io/api-docs
   category: Games & Comics
 link_status: alive
-data_license: unknown
-commercial_use: unknown
+data_license: proprietary (Terms and Conditions licence grant)
+commercial_use: 'yes'
 storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+redistribution_display: 'yes'
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://pokewallet.io/terms-conditions
+commercial_use_scope: any
+attribution_text: Data by PokéWallet / Powered by PokéWallet, visible, linking to https://pokewallet.io
+evidence:
+- field: commercial_use
+  url: https://pokewallet.io/terms-conditions
+  quote: we grant you a limited, non-exclusive, non-transferable, revocable license to access and use
+    our Services for your personal or commercial purposes
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://pokewallet.io/terms-conditions
+  quote: If you display data obtained through the PokéWallet API, SDKs or MCP server to other people
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://pokewallet.io/terms-conditions
+  quote: you must credit PokéWallet with visible text such as "Data by PokéWallet" or "Powered by PokéWallet",
+    linking to https://pokewallet.io
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://pokewallet.io/terms-conditions
+  quote: The Services, including all content, features, functionality, software, and design, are owned
+    by PokéWallet or our licensors
+  checked_at: '2026-11-21'
+notes: Read /terms-conditions and the API docs. Licence grant covers personal or commercial purposes;
+  public display requires visible credit with a link to pokewallet.io (plain credit, no logo). Terms say
+  nothing about storage/caching duration, so storage_caching unknown (yellow). Terms 4.2 forbid bots/scrapers
+  without permission and rate limits/quotas apply per plan (not quantified here). Pokemon and other TCG
+  IP belongs to its owners (5.2 says PokéWallet claims no ownership); prices come from TCGplayer/Cardmarket,
+  whose upstream terms were not assessed; the licence grants no rights in card images/artwork.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: yellow

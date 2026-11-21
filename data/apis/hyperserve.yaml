@@ -27,3 +27,13 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: 'Not a data source: hosted media-processing/tool service, terms cover use of the
+  service, not licensing of data.'
+api_terms_url: https://hyperserve.io/legal
+notes: Video hosting/transcoding backend (tool, not a data source). Only the site Terms of Service and
+  Privacy Policy at /legal (last revised July 11, 2026) were read; they cover the website, not API output,
+  and say nothing about commercial use of the API, storage or attribution. All terms fields left unknown.
+  No separate API terms found (/terms 404).
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

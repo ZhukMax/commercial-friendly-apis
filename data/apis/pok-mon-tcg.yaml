@@ -24,6 +24,20 @@ redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://docs.pokemontcg.io
+evidence:
+- field: api_terms_url
+  url: https://docs.pokemontcg.io
+  quote: The Pokémon TCG API is deprecated. New account registrations are no longer available.
+  checked_at: '2026-11-21'
+notes: 'Service is deprecated: docs banner says new registrations are closed and existing keys work through
+  March 1, 2027; pokemontcg.io now only shows a notice that it is part of Scrydex. No terms or licence
+  page of the Pokemon TCG API was read, and Scrydex''s terms were not read or transferred (the page does
+  not state that they are the same terms). Card text/images belong to The Pokemon Company/Nintendo (docs
+  footer: not affiliated). Auth ''none'' still works with lower limits, a key is optional. All core terms
+  unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: unknown

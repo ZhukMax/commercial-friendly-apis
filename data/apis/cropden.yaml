@@ -13,13 +13,62 @@ sources:
   url: https://github.com/geektao1024/social-media-image-sizes#json-over-http
   category: Photography
 link_status: alive
-data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
-bulk_download: unknown
+data_license: CC-BY-4.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+bulk_download: 'yes'
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: green
+confidence: high
 link_checked_at: '2026-11-21'
+data_license_url: https://raw.githubusercontent.com/geektao1024/social-media-image-sizes/main/LICENSE-DATA.md
+api_terms_url: https://github.com/geektao1024/social-media-image-sizes#license
+commercial_use_scope: any
+attribution_text: Image size data by CropDen (https://cropden.com), CC BY 4.0 (a link is enough on a website)
+share_alike: 'no'
+rate_limits: Static JSON endpoint, cached for an hour; no limit stated
+evidence:
+- field: data_license
+  url: https://raw.githubusercontent.com/geektao1024/social-media-image-sizes/main/LICENSE-DATA.md
+  quote: licensed under the Creative Commons Attribution 4.0 International License
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://raw.githubusercontent.com/geektao1024/social-media-image-sizes/main/LICENSE-DATA.md
+  quote: You can copy, change and use it, commercially too, as long as you credit CropDen.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://raw.githubusercontent.com/geektao1024/social-media-image-sizes/main/LICENSE-DATA.md
+  quote: You can copy, change and use it, commercially too, as long as you credit CropDen.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://raw.githubusercontent.com/geektao1024/social-media-image-sizes/main/LICENSE-DATA.md
+  quote: You can copy, change and use it, commercially too, as long as you credit CropDen.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://raw.githubusercontent.com/geektao1024/social-media-image-sizes/main/LICENSE-DATA.md
+  quote: On a website, a link like the one above is enough.
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://raw.githubusercontent.com/geektao1024/social-media-image-sizes/main/LICENSE-DATA.md
+  quote: licensed under the Creative Commons Attribution 4.0 International License
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://raw.githubusercontent.com/geektao1024/social-media-image-sizes/main/README.md
+  quote: const res = await fetch('https://cropden.com/data/social-media-image-sizes.json');
+  checked_at: '2026-11-21'
+notes: Read the GitHub repo README (JSON over HTTP, License sections) and LICENSE-DATA.md. The data (platform
+  image sizes, safe zones, upload limits, passport photo specs) is CC BY 4.0, the code is MIT; the same
+  data is also published as an npm package and a static JSON file at cropden.com/data/social-media-image-sizes.json.
+  The paid AI tools / MCP server of cropden.com (credits, API key) are a separate service and were not
+  assessed. The licence file speaks of the data in the repo and npm package; the hosted JSON file is described
+  as the same data. The specs describe other platforms rules (not their content), so no third-party content
+  rights are involved.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read LICENSE-DATA.md, README, cropden.com/terms-of-service (no conflict; tools free
+  for commercial work; bars scraping the site at scale, not the static JSON), HTTP headers of the hosted
+  JSON (200, CORS *, 1h cache). Paid AI tools/MCP are separate and out of scope.

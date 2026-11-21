@@ -13,13 +13,56 @@ sources:
   url: https://api.master-setter.com
   category: Games & Comics
 link_status: alive
-data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
+data_license: proprietary (Master Setter API Terms of Use; includes TCGdex MIT content; card artwork owned
+  by rights holders)
+commercial_use: paid-only
+storage_caching: limited
+redistribution_display: 'yes'
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://api.master-setter.com/terms
+data_license_url: https://api.master-setter.com/terms
+commercial_use_scope: paid
+cache_limit: Licence lasts while the paid plan is active; after it ends keep data 30 days, then delete
+  stored copies
+share_alike: unknown
+rate_limits: Free 250 requests/month; Indie 50,000/month; Studio 500,000/month
+evidence:
+- field: commercial_use
+  url: https://api.master-setter.com/terms
+  quote: Indie and Studio keys may be used commercially, inside your own products and services, within
+    your plan's monthly request limit.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://api.master-setter.com/terms
+  quote: The free tier is for personal, non-commercial use only.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://api.master-setter.com/terms
+  quote: When a paid plan ends, you may keep using data you already pulled for 30 days, then stop using
+    it and delete stored copies
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://api.master-setter.com/terms
+  quote: card images on the Studio plan are provided for display alongside the card data.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://api.master-setter.com/terms
+  quote: Pokémon card artwork belongs to its owners
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://api.master-setter.com
+  quote: Free $0 250 requests / mo
+  checked_at: '2026-11-21'
+notes: Read the API Terms of Use (version 2026-11-16) and the home/pricing page. Free tier personal non-commercial
+  only (English cards, no images); Indie ($29/mo) and Studio ($99/mo, with card images) allow commercial
+  use inside your own products. The data may not be resold or redistributed as a dataset or competing
+  API; the licence ends with the plan (30-day grace). Attribution not required in the terms (unknown).
+  Card artwork and Pokemon names belong to The Pokemon Company and others; the service is not affiliated
+  with them and grants no rights to that content. Card data partly from TCGdex (MIT).
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

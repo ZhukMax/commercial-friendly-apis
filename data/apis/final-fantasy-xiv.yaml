@@ -28,3 +28,9 @@ verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
 link_note: -> https://v2.xivapi.com/
+notes: Read v2.xivapi.com (the xivapi.com URL now redirects there) and its Welcome and Migration docs.
+  No terms, licence or commercial/caching statement found; the docs only say the API serves data found
+  in the FFXIV game client files, so content is Square Enix IP and no rights to it are granted. v1 is
+  no longer available. All terms unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

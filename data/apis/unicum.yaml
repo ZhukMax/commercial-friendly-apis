@@ -24,3 +24,17 @@ verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
 link_note: HTTP 403 (blocked for bots, assumed alive)
+api_terms_url: https://unicum.gg/terms
+rate_limits: Free within reasonable limits (no numeric limit published)
+notes: Read unicum.gg Terms of use (updated 18 Nov 2026) and the API docs landing page (via Playwright;
+  curl 403). The terms say the API is free within reasonable limits but say nothing about commercial use,
+  caching or display. Statistics are built from data Wargaming makes public through its official API (Wargaming
+  terms not read) and "World of Tanks content belongs to Wargaming.net". Site code is AGPL-3.0 (not a
+  data licence). All core terms unknown.
+evidence:
+- field: rate_limits
+  url: https://unicum.gg/terms
+  quote: The public API, the Discord bot and the game mod are free to use within reasonable limits.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

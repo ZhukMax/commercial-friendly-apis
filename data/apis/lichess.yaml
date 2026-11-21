@@ -13,13 +13,40 @@ sources:
   url: https://lichess.org/api
   category: Games & Comics
 link_status: alive
-data_license: unknown
-commercial_use: unknown
+data_license: 'CC0-1.0 (database exports only, database.lichess.org); API data: no separate data licence stated'
+commercial_use: 'yes'
 storage_caching: unknown
 redistribution_display: unknown
 attribution_required: unknown
-bulk_download: unknown
+bulk_download: 'yes'
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+data_license_url: https://database.lichess.org/
+api_terms_url: https://lichess.org/terms-of-service
+commercial_use_scope: any
+rate_limits: One request at a time; HTTP 429 means wait a minute; User-Agent header required
+evidence:
+- field: commercial_use
+  url: https://lichess.org/terms-of-service
+  quote: You can use our services for your own personal or commercial use, such as in your own applications, projects, research, or products.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://database.lichess.org/
+  quote: Database exports are released under the Creative Commons CC0 license.
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://database.lichess.org/
+  quote: You can download, modify and redistribute them, without asking for permission.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://raw.githubusercontent.com/lichess-org/api/master/doc/specs/lichess-api.yaml
+  quote: Only make one request at a time.
+  checked_at: '2026-11-21'
+notes: Read lichess.org/terms-of-service (modified 1 Aug 2026; Cloudflare blocks curl, read via Playwright), the database.lichess.org page and the API spec (lichess-org/api). ToS invites commercial use
+  of the services (API access listed) but says licences differ per service ("different licenses may apply to different services") and that Lichess can change licensing or revoke access. Only the database
+  exports are explicitly CC0; for live API responses storage, display and attribution are not stated, so those fields stay unknown (verdict yellow). User-submitted content (games, studies, blogs) stays
+  with its authors under the ToS content clause. Much of the API is account/OAuth-scoped; public endpoints (users, games, puzzles) are usable without a token.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

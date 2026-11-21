@@ -13,14 +13,55 @@ sources:
   url: https://developer.valvesoftware.com/wiki/Steam_Web_API
   category: Games & Comics
 link_status: redirect
-data_license: unknown
+data_license: Proprietary (Steam Web API Terms of Use)
 commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
-link_note: -> https://developer.valvesoftware.com/.within.website/?redir=https://developer.valvesoftware.com/wiki/Steam_Web_API
+link_note: developer.valvesoftware.com wiki redirects through an anti-bot gate; terms read at steamcommunity.com/dev/apiterms
+data_license_url: https://steamcommunity.com/dev/apiterms
+api_terms_url: https://steamcommunity.com/dev/apiterms
+cache_limit: Allowed with end-user notice and privacy policy; data stored in country named in privacy
+  policy
+attribution_text: Valve name/logo and links to Valve per Steam Web API documentation; links must not be
+  nofollow
+share_alike: unknown
+rate_limits: 100,000 calls per day
+evidence:
+- field: redistribution_display
+  url: https://steamcommunity.com/dev/apiterms
+  quote: distribute Steam Data to end users for their personal use via your Application
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://steamcommunity.com/dev/apiterms
+  quote: You will inform the end user about any Steam Data you will store
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://steamcommunity.com/dev/apiterms
+  quote: You shall not tag links to Valve hereunder with a "nofollow" attribute or otherwise prevent or
+    discourage search engines from following or scoring the link.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://steamcommunity.com/dev/apiterms
+  quote: You are limited to one hundred thousand (100,000) calls to the Steam Web API per day.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://steamcommunity.com/dev/apiterms
+  quote: distribute Steam Data to end users for their personal use via your Application
+  checked_at: '2026-11-21'
+notes: 'Read the Steam Web API Terms of Use (last updated July 2010) at steamcommunity.com/dev/apiterms;
+  the wiki URL in the catalog sits behind an anti-bot redirect. Terms say nothing explicit about commercial
+  or ad-supported use (only distribution of Steam Data to end users for their personal use via your Application)
+  -> commercial_use unknown. Conditions: privacy policy, store only what the user requested and tell them,
+  Valve name/logo/links required on pages using the data and links may not be nofollow (a mandatory dofollow
+  backlink would cap the verdict at yellow even if commercial use were confirmed), 100,000 calls/day,
+  no implying Valve endorsement, must also comply with the Steam Subscriber Agreement (not read). Game
+  names, images and store data belong to publishers/Valve. Part of the API is user-scoped (OAuth/OpenID
+  sign-in).'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

@@ -13,14 +13,58 @@ sources:
   url: https://develop.battle.net/documentation/guides/getting-started
   category: Games & Comics
 link_status: redirect
-data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
+data_license: Proprietary (Blizzard Developer API Terms of Use)
+commercial_use: 'no'
+storage_caching: limited
+redistribution_display: 'yes'
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: red
+confidence: high
 link_checked_at: '2026-11-21'
 link_note: -> https://community.developer.battle.net/documentation/guides/getting-started
+data_license_url: https://www.blizzard.com/en-us/legal/a2989b50-5f16-43b1-abec-2ae17cc09dd6/blizzard-developer-api-terms-of-use
+api_terms_url: https://www.blizzard.com/en-us/legal/a2989b50-5f16-43b1-abec-2ae17cc09dd6/blizzard-developer-api-terms-of-use
+commercial_use_scope: any
+cache_limit: Maximum 30-day TTL for all data obtained through the APIs
+share_alike: unknown
+rate_limits: 36,000 calls per hour
+evidence:
+- field: commercial_use
+  url: https://www.blizzard.com/en-us/legal/a2989b50-5f16-43b1-abec-2ae17cc09dd6/blizzard-developer-api-terms-of-use
+  quote: You may not use the Blizzard Developer APIs or Data to market or promote Your or a third party’s
+    products or services.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.blizzard.com/en-us/legal/a2989b50-5f16-43b1-abec-2ae17cc09dd6/blizzard-developer-api-terms-of-use
+  quote: You may not display, distribute, or otherwise disclose the Data in any advertising or promotion
+    or use the Data to target any advertising or promotion.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.blizzard.com/en-us/legal/a2989b50-5f16-43b1-abec-2ae17cc09dd6/blizzard-developer-api-terms-of-use
+  quote: You must implement a maximum 30-day TTL (time-to-live) policy for all Data obtained through our
+    APIs.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.blizzard.com/en-us/legal/a2989b50-5f16-43b1-abec-2ae17cc09dd6/blizzard-developer-api-terms-of-use
+  quote: (3) distribute the Data to end users for their personal use via Your Application.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://www.blizzard.com/en-us/legal/a2989b50-5f16-43b1-abec-2ae17cc09dd6/blizzard-developer-api-terms-of-use
+  quote: You are limited to thirty-six thousand (36,000) calls to the Blizzard Developer API per hour
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.blizzard.com/en-us/legal/a2989b50-5f16-43b1-abec-2ae17cc09dd6/blizzard-developer-api-terms-of-use
+  quote: You may not use the Blizzard Developer APIs or Data to market or promote Your or a third party’s
+    products or services.
+  checked_at: '2026-11-21'
+notes: Read the Blizzard Developer API Terms of Use (last updated 2019-10-01; the developer portal pages
+  are an SPA, the terms live on blizzard.com/legal). The licence allows distributing Data to end users
+  via a registered Application, but forbids using APIs/Data for marketing or monetization, displaying
+  Data in any advertising, selling/licensing Data, charging premiums for the app, and requires a 30-day
+  maximum data TTL and a privacy policy. A site with ads or affiliate links is outside the licence ->
+  red. Blizzard reserves the right to charge in future. Game data (WoW, Diablo III, Hearthstone, StarCraft
+  II) is Blizzard IP; the API terms grant no other IP rights. develop.battle.net 301-redirects to community.developer.battle.net.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

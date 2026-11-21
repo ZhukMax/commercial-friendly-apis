@@ -14,13 +14,51 @@ sources:
   url: https://raider.io/api
   category: Games & Comics
 link_status: alive
-data_license: unknown
-commercial_use: unknown
+data_license: proprietary (Raider.IO; underlying data from Blizzard Entertainment)
+commercial_use: ambiguous
 storage_caching: unknown
 redistribution_display: unknown
-attribution_required: unknown
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://raider.io/api
+rate_limits: Unauthenticated requests rate limited (limit not stated); higher limits by registering an
+  app
+evidence:
+- field: attribution_required
+  url: https://raider.io/api
+  quote: Public-facing applications that use data from this API must include a link back to raider.io.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://raider.io/api
+  quote: This API is provided for community and personal use.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://raider.io/api
+  quote: For commercial licensing or enterprise rate limits, please contact us below.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://raider.io/api
+  quote: Data is sourced from Blizzard Entertainment's World of Warcraft API, our Live Tracking system,
+    and community contributions.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.blizzard.com/en-us/legal/a2989b50-5f16-43b1-abec-2ae17cc09dd6/blizzard-developer-api-terms-of-use
+  quote: You May Not Use The Blizzard Developer APIs Or Data For Marketing Or Monetization Purposes.
+  checked_at: '2026-11-21'
+notes: Page is JS-rendered (Swagger UI); read via Playwright in a fresh context at raider.io/api. API
+  is for 'community and personal use'; no building competing services or reselling data; automated scraping
+  beyond published endpoints prohibited; commercial licensing via contact (no public paid plan stated),
+  hence commercial_use ambiguous (yellow). Public apps must link back to raider.io. Caching/display not
+  addressed (unknown). The Terms of Use page was not located (raider.io/terms is 404). Data originates
+  from Blizzard's WoW API, so Blizzard's API terms also apply (not read); WoW names/IP belong to Blizzard.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: yellow
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Blizzard API terms forbid marketing/monetization use of Data; Raider.IO: community
+  and personal use; commercial by contact | applied: commercial_use=ambiguous (suggested no, needs human
+  review)'

@@ -27,3 +27,15 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: 'Not a data source: hosted media-processing/tool service, terms cover use of the
+  service, not licensing of data.'
+api_terms_url: https://shotstack.io/terms/
+notes: 'Cloud video editing API (tool, not a data source). Service Agreement (last updated 6 October 2026)
+  read: Plans/Charges, Acceptable Use, IP and Content Use (section 9). Provided templates may only be
+  used together with Shotstack rendering; reselling or commercially exploiting the Platform without acknowledgement
+  is restricted. No clear sentence on commercial use of rendered output, caching or attribution was captured,
+  so all terms fields stay unknown. The /terms-of-service/ path returns an error; /terms/ is the live
+  page.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

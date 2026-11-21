@@ -16,14 +16,28 @@ sources:
   name: Deck of Cards
   url: http://deckofcardsapi.com/
   category: Games & Comics
-link_status: alive
+link_status: redirect
 data_license: unknown
 commercial_use: unknown
 storage_caching: unknown
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
-self_host_option: unknown
+self_host_option: 'yes'
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://deckofcardsapi.com/
+share_alike: unknown
+link_note: http -> https://deckofcardsapi.com/
+evidence:
+- field: self_host_option
+  url: https://github.com/crobertsbmw/deckofcards
+  quote: Feel free to fork and do whatever you want with the project, it's all under the MIT license.
+  checked_at: '2026-11-21'
+notes: Read the deckofcardsapi.com docs page (no terms, licence, rate-limit or commercial-use text; decks
+  are discarded after two weeks idle) and the GitHub README (MIT for the software, so self-hosting is
+  allowed; the LICENSE file itself returned 404 on the master branch). Terms of the hosted service are
+  unknown. Playing-card images are generic. Not a verdict-bearing source until the hosted terms are clarified.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

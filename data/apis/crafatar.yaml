@@ -17,9 +17,23 @@ data_license: unknown
 commercial_use: unknown
 storage_caching: unknown
 redistribution_display: unknown
-attribution_required: unknown
+attribution_required: 'no'
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+share_alike: unknown
+rate_limits: Not stated; skins re-checked every 20 minutes, responses cached 60 minutes
+attribution_text: 'Optional: Thank you to Crafatar for providing avatars (link to https://crafatar.com)'
+evidence:
+- field: attribution_required
+  url: https://crafatar.com
+  quote: Attribution is not required, but it is encouraged .
+  checked_at: '2026-11-21'
+notes: Read crafatar.com landing page only (no terms/ToS page exists) and the GitHub MIT licence (covers
+  the server source code, not the images). No statement on commercial use, storage or display of the images.
+  The images are Minecraft skins and capes created by players and owned by Mojang/Microsoft/users; the
+  service grants no rights in them and relies on Mojang servers. Terms unknown, so no verdict beyond unknown.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

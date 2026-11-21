@@ -24,3 +24,7 @@ verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
 link_note: HTTP 403 (blocked for bots, assumed alive)
+notes: wiki.anidb.net/HTTP_API_Definition returned HTTP 403 to curl and a headless browser (bot block); not bypassed, so no terms were read. AniDB data, descriptions and cover art are community-contributed
+  and carry third-party licensor rights; the HTTP API also requires a registered client. Terms left unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

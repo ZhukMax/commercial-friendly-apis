@@ -18,13 +18,33 @@ sources:
   category: Music
 link_status: redirect
 data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
+commercial_use: paid-only
+storage_caching: limited
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
+verdict: yellow
 confidence: low
 link_checked_at: '2026-11-21'
 link_note: -> https://developer.musixmatch.com/login
+commercial_use_scope: paid
+cache_limit: 'Lyrics caching only on the Enterprise plan; other plans: lyrics must not be cached'
+api_terms_url: https://www.musixmatch.com/pro/api/pricing
+evidence:
+- field: commercial_use
+  url: https://www.musixmatch.com/pro/api/pricing
+  quote: For growing apps generating revenue.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.musixmatch.com/pro/api/pricing
+  quote: Cache lyrics (licensed only).
+  checked_at: '2026-11-21'
+notes: developer.musixmatch.com redirects to a login page; sign-up leads to https://www.musixmatch.com/pro/api/pricing (read).
+  Paid plans from $49/mo; the Grow plan is described 'For growing apps generating revenue', Basic 'prototyping and small applications'.
+  Lyrics caching is listed as NOT INCLUDED in Basic, Grow and Scale and only included in Enterprise. No actual API terms of
+  service found (https://about.musixmatch.com/api-terms is 404; the EULA at /eula is a consumer licence), so confidence is
+  low. Lyrics are copyrighted by publishers/songwriters; the API sells access under Musixmatch's licences, not ownership.
+  Display/attribution terms unknown. redirect target of the catalogued URL is the login page.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

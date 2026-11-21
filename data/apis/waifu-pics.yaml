@@ -12,7 +12,7 @@ sources:
   name: Waifu.pics
   url: https://waifu.pics/docs
   category: Anime
-link_status: redirect
+link_status: dead
 data_license: unknown
 commercial_use: unknown
 storage_caching: unknown
@@ -23,4 +23,8 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
-link_note: -> https://sejarahjitu17.com/
+link_note: waifu.pics/docs now redirects to an unrelated gambling-spam page (sejarahjitu17.com); api.waifu.pics did not connect
+notes: 'The listed domain waifu.pics no longer serves the image API: it redirects to an unrelated spam site, and api.waifu.pics gave no connection, so the service looks gone or hijacked. No terms read.
+  Content would be third-party anime images in any case. Terms left unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

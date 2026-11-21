@@ -17,13 +17,63 @@ sources:
   url: https://www.flickr.com/services/api/
   category: Photography
 link_status: alive
-data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+data_license: Per photo, set by each photographer (all rights reserved by default, or a Creative Commons
+  licence)
+commercial_use: ambiguous
+storage_caching: limited
+redistribution_display: ambiguous
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://www.flickr.com/help/terms/api
+cache_limit: Only for reasonable periods needed to provide the service; private/removed photos must be
+  dropped, owner removal requests honoured within 24 hours
+attribution_text: This product uses the Flickr API but is not endorsed or certified by SmugMug, Inc.
+rate_limits: Max 30 Flickr photos displayed per page; no numeric API rate limit stated on the terms page
+evidence:
+- field: data_license
+  url: https://www.flickr.com/help/terms/api
+  quote: Flickr user photos are owned by the users (the photographers) and not by SmugMug.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.flickr.com/help/terms/api
+  quote: Your site is a "destination" site that uses Flickr photos to drive traffic and generate ad revenue.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.flickr.com/help/terms/api
+  quote: If you want to apply for a commercial API key, go to the following form to see what information
+    you need to provide
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.flickr.com/help/terms/api
+  quote: Cache or store any Flickr user photos other than for reasonable periods in order to provide the
+    service you are providing to Flickr users.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.flickr.com/help/terms/api
+  quote: If you use Flickr photos for a commercial purpose, the photos must be marked with a Creative
+    Commons license that allows for such use
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.flickr.com/help/terms/api
+  quote: 'You shall place the following notice prominently on your application: "This product uses the
+    Flickr API but is not endorsed or certified by SmugMug, Inc."'
+  checked_at: '2026-11-21'
+notes: 'Read https://www.flickr.com/services/api/tos/ (redirects to /help/terms/api) via Playwright; curl
+  returns an error page. An ad-supported site that uses Flickr photos is explicitly a commercial application
+  and needs a commercial API key (application form; SmugMug may charge fees, so commercial_use is ambiguous
+  rather than paid-only, and no page read says that paid plans permit it). Photos belong to the photographers:
+  commercial use is only allowed for photos carrying a Creative Commons licence that permits it, plus
+  that licence conditions (attribution etc.); all-rights-reserved photos cannot be used. Other limits:
+  max 30 photos per page, no caching beyond reasonable periods, remove content within 24 hours on owner
+  request, no replicating Flickr, mandatory disclaimer notice, no use of the Flickr logo without permission,
+  privacy/ad disclosure in footer. Auth listed as OAuth; the API terms do not cover this detail.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Note: commercial_use_scope ''paid'' is inconsistent with note (no page says plan is
+  paid); consider ''any'' or none.'

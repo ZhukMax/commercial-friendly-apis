@@ -4,7 +4,7 @@ url: https://imgflip.com/api
 category: Entertainment
 description: Gets an array of popular memes
 description_source: upstream
-auth: none
+auth: apiKey
 https: true
 cors: unknown
 sources:
@@ -16,10 +16,32 @@ link_status: alive
 data_license: unknown
 commercial_use: unknown
 storage_caching: unknown
-redistribution_display: unknown
+redistribution_display: ambiguous
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://imgflip.com/terms
+evidence:
+- field: auth
+  url: https://imgflip.com/api
+  quote: Auth uses the industry standard Bearer token in the HTTP Authorization header.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://imgflip.com/terms
+  quote: You may not use content from our Services unless you obtain permission from its owner or are
+    otherwise permitted by law.
+  checked_at: '2026-11-21'
+notes: 'Read the API docs page (https://imgflip.com/api) and the general Terms of Service (https://imgflip.com/terms).
+  Upstream auth was stale: every endpoint now requires an API key sent as a Bearer token (free and Premium
+  tiers; Premium from $9.99/month adds watermark removal, GIFs, search). The docs state nothing about
+  commercial use, caching or redistribution of template data; the general ToS says content from the services
+  needs the owner permission, and templates are user-uploaded third-party images (studios, photographers,
+  meme authors), so no rights are granted. Free tier adds an imgflip.com watermark to generated memes.
+  All core fields except display left unknown; display is ambiguous because of the third-party clause.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed

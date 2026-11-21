@@ -13,13 +13,67 @@ sources:
   url: https://cardzmarketcap.com/data
   category: Games & Comics
 link_status: alive
-data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+data_license: CC-BY-4.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: green
+confidence: medium
 link_checked_at: '2026-11-21'
+data_license_url: https://cardzmarketcap.com/terms
+api_terms_url: https://cardzmarketcap.com/data
+commercial_use_scope: any
+attribution_text: CardZ Marketcap, https://cardzmarketcap.com, data as of <effective date>
+share_alike: 'no'
+rate_limits: No key; reasonable use, one daily snapshot; excessive traffic may be rate limited; bulk access
+  on request
+evidence:
+- field: data_license
+  url: https://cardzmarketcap.com/terms
+  quote: made available under the Creative Commons Attribution 4.0 International (CC BY 4.0) licence.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://cardzmarketcap.com/terms
+  quote: You may share, adapt, and build upon the data for any purpose, including commercially, provided
+    you give appropriate credit to CardZ Marketcap
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://cardzmarketcap.com/data
+  quote: Figures may be quoted and republished under CC BY 4.0
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://cardzmarketcap.com/data
+  quote: Attribution must carry the effective date of the figure, because market cap is recomputed on
+    every daily update.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://cardzmarketcap.com/data
+  quote: read a page, cache it, and do not poll faster than the data changes.
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://cardzmarketcap.com/terms
+  quote: made available under the Creative Commons Attribution 4.0 International (CC BY 4.0) licence.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://cardzmarketcap.com/terms
+  quote: You may not use automated requests to scrape the full dataset in bulk at a rate that places unreasonable
+    load on the service
+  checked_at: '2026-11-21'
+notes: 'Read /data and /terms. Dataset (market cap, price, population figures) is CC BY 4.0 incl. commercial
+  use; credit with effective date required. Restrictions: no bulk scraping at unreasonable rate, no reselling
+  the raw feed as-is, no misrepresenting the source. Card names, set names, card artwork and imagery belong
+  to their rights holders (Pokemon Company, Bandai, etc.) and PSA population data is sourced from third
+  parties ("Market data is sourced from third-party platforms"); the licence grants no rights in those
+  underlying items and the upstream sources (PSA, sales platforms) were not assessed. Small new site;
+  terms dated 2026-10-26. Bulk access is available on request only (not verified further).'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read /terms, /data, /methodology. Population is taken from PSA's population report
+  and prices from sales evidence; PSA terms were unreachable (403/404 even in browser), so upstream not
+  assessed. s4 forbids bulk scraping at unreasonable rate, reselling raw feed as-is, misrepresenting source;
+  card names/artwork stay with rights holders (no images are in the API). Very new site (terms 2026-10-26);

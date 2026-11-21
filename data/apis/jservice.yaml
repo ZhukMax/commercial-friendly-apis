@@ -12,7 +12,7 @@ sources:
   name: Jservice
   url: http://jservice.io
   category: Games & Comics
-link_status: alive
+link_status: dead
 data_license: unknown
 commercial_use: unknown
 storage_caching: unknown
@@ -23,3 +23,8 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+link_note: jservice.io returns HTTP 410 Gone (http) and the TLS handshake fails (https)
+notes: 'http://jservice.io answers HTTP 410 Gone and HTTPS closes the connection, so the service is shut down: link_status dead, terms unknown. The underlying Jeopardy! clues are owned by Jeopardy Productions/Sony;
+  no terms were read.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

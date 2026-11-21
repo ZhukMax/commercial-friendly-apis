@@ -18,9 +18,28 @@ data_license: unknown
 commercial_use: unknown
 storage_caching: unknown
 redistribution_display: unknown
-attribution_required: unknown
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+attribution_text: 'Visible dofollow link: <a href="https://api.astroworldmc.com">Powered by Astroworld
+  API</a> on any page that uses the API (free tier)'
+rate_limits: 'Free tier: 100 requests per minute per IP'
+evidence:
+- field: attribution_required
+  url: https://api.astroworldmc.com
+  quote: The free tier requires a visible dofollow link on any page that uses this API
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://api.astroworldmc.com
+  quote: Free 100 requests per minute per IP
+  checked_at: '2026-11-21'
+notes: Only the API documentation page was found; no terms page, licence or commercial-use statement (/terms,
+  /docs, /license 404; the Astroworld server site terms concern its game server). The free tier demands
+  a visible dofollow backlink (more than plain credit); a paid tier is implied ("free tier") but not described.
+  Minecraft data and names belong to Mojang/Microsoft; the site says it is not affiliated with them. Commercial
+  use, storage and display unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

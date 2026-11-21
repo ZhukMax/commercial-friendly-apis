@@ -12,7 +12,7 @@ sources:
   name: Catboy
   url: https://catboys.com/api
   category: Anime
-link_status: alive
+link_status: dead
 data_license: unknown
 commercial_use: unknown
 storage_caching: unknown
@@ -23,3 +23,8 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+link_note: catboys.com/api now redirects to a GoDaddy for-sale page (forsale.godaddy.com/forsale/catboys.com)
+notes: Domain catboys.com appears parked/for sale (browser landed on forsale.godaddy.com; curl returned an empty page), so no terms could be read and the service looks gone. Images would in any case be
+  third-party anime fan art. Terms left unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

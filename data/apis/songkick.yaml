@@ -17,13 +17,64 @@ sources:
   url: https://www.songkick.com/developer
   category: Events
 link_status: alive
-data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+data_license: proprietary (Songkick API Terms of Use Agreement)
+commercial_use: ambiguous
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://www.songkick.com/developer/api-terms-of-use
+data_license_url: https://www.songkick.com/developer/api-terms-of-use
+cache_limit: Cached copies for a maximum of 24 hours
+attribution_text: Link to songkick.com via the response URI and show the "Concerts by Songkick" logo
+share_alike: unknown
+evidence:
+- field: commercial_use
+  url: https://www.songkick.com/developer/api-terms-of-use
+  quote: use the Songkick Data for non-commercial and informational use only.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.songkick.com/developer/
+  quote: Use of the Songkick API will be subject to the standard terms of our partnership agreement and
+    a license fee.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.songkick.com/developer/api-terms-of-use
+  quote: You may not retain any copies of the Songkick Data, except for the purposes of retaining cached
+    information for a maximum of 24 hours.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.songkick.com/developer/api-terms-of-use
+  quote: distributing the Songkick Data to end users on your website, immediately upon receipt by your
+    servers.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.songkick.com/developer/api-terms-of-use
+  quote: You agree to clearly display attribution on your website or application wherever Songkick Data
+    is used.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.songkick.com/developer/api-terms-of-use
+  quote: Songkick grants you a limited, non-exclusive, non-transferable, and non-sublicensable right to
+    access the Songkick API and use the Songkick Data
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.songkick.com/developer/api-terms-of-use
+  quote: involve sales such as contests, sweepstakes, barter, advertising, or pyramid schemes
+  checked_at: '2026-11-21'
+notes: 'Read the developer page and the API Terms of Use (last updated 2022-01-26; read via browser).
+  The standard terms allow non-commercial and informational use only, while the developer page says access
+  now needs a paid partnership agreement and licence fee (terms not public) and hobbyist/educational requests
+  are not approved: conflicting, so commercial_use=ambiguous. 24-hour cache cap; mandatory logo plus link
+  (more than plain credit); no competing products. Event data comes from Songkick (Suno Inc.).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Public API terms allow non-commercial use only and ban advertising-related products;
+  Developer page requires a paid partnership licence, so no free commercial path | applied: commercial_use=ambiguous
+  (suggested no, needs human review)'

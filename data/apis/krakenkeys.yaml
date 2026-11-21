@@ -13,13 +13,48 @@ sources:
   url: https://krakenkeys.com/api-docs
   category: Games & Comics
 link_status: alive
-data_license: unknown
-commercial_use: unknown
+data_license: proprietary (KrakenKeys terms of service)
+commercial_use: ambiguous
 storage_caching: unknown
-redistribution_display: unknown
+redistribution_display: ambiguous
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+data_license_url: https://krakenkeys.com/terms
+api_terms_url: https://krakenkeys.com/terms
+commercial_use_scope: free-tier
+rate_limits: Rate-limited per key (limits not stated on pages read)
+evidence:
+- field: commercial_use
+  url: https://krakenkeys.com/terms
+  quote: You may use KrakenKeys for personal, non-commercial purposes.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://krakenkeys.com/terms
+  quote: You may not use the API to build a product that resells, republishes, or redistributes KrakenKeys'
+    price data as a competing price-comparison service.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://krakenkeys.com/api-docs
+  quote: price links returned by the API must route through KrakenKeys' own redirect rather than a raw
+    store URL.
+  checked_at: '2026-11-21'
+notes: 'Read krakenkeys.com/terms (updated Oct 25, 2026) and krakenkeys.com/api-docs. Conflict: the general
+  terms say the site is for "personal, non-commercial purposes", while the API docs invite you to "Build
+  bots, tools, and sites on top of KrakenKeys" and say the API is free and intended to stay so. Mandatory
+  condition: price links must go through KrakenKeys'' affiliate redirect (/out/{id}); stripping or replacing
+  them with direct store links is forbidden and keys may be revoked. Resale or republication as a competing
+  price-comparison service is forbidden. Storage/caching and attribution are not addressed (unknown).
+  Game metadata and cover images are from IGDB and store prices come from third-party stores; no rights
+  to that content are granted by KrakenKeys. Needs a free account API key.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: Re-read /terms and /api-docs. Site terms limit use to personal non-commercial purposes
+  while the API section and docs invite building sites; ambiguity is real. Game metadata and covers come
+  from IGDB (igdb_id and images.igdb.com URLs); IGDB docs say its API is free for non-commercial use and
+  commercial needs a partnership with user-facing attribution, so downstream commercial rights are unconfirme

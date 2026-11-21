@@ -13,13 +13,43 @@ sources:
   url: https://dogapi.dog
   category: Animals
 link_status: alive
-data_license: unknown
-commercial_use: unknown
+data_license: 'mixed: breed images keep their Wikimedia Commons author licences (usually CC, credit required)'
+commercial_use: 'no'
 storage_caching: unknown
 redistribution_display: unknown
-attribution_required: unknown
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: red
+confidence: medium
 link_checked_at: '2026-11-21'
+commercial_use_scope: any
+attribution_text: Powered by Dog API (prominent location); plus the per-image author/licence credit returned
+  with each image.
+api_terms_url: https://dogapi.dog/terms
+rate_limits: 300 requests per minute per client
+notes: 'Read the Terms of Use page of dogapi.dog (current v2 site). The terms apply to the API as a whole
+  and have no paid tier, only "contact us for an API key" to exceed the rate limit, so commercial_use=no
+  (a site with ads/affiliate links is not personal use). Doubt: the operator may grant permission on request;
+  not stated. Images need author credit and Dog API grants no rights over them. Code is MIT (self-hosting
+  possible but data rights not assessed).'
+evidence:
+- field: commercial_use
+  url: https://dogapi.dog/terms
+  quote: You may use the API for personal, non-commercial purposes only.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://dogapi.dog/terms
+  quote: 'you must include the following attribution in a prominent location: "Powered by Dog API"'
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://dogapi.dog/terms
+  quote: Images served by the API are imported from Wikimedia Commons and remain under the licence their
+    author chose
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://dogapi.dog/terms
+  quote: The API is rate limited to 300 requests per minute per client.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

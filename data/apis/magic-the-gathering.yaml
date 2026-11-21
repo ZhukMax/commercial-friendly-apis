@@ -27,3 +27,15 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://docs.magicthegathering.io/
+rate_limits: 5000 requests/hour for third-party applications
+evidence:
+- field: rate_limits
+  url: https://docs.magicthegathering.io/
+  quote: Third-party applications are currently throttled to 5000 requests per hour.
+  checked_at: '2026-11-21'
+notes: 'Read magicthegathering.io and docs.magicthegathering.io. Docs banner: "The Magic The Gathering API is deprecated. API usage will continue to function through March 1, 2027" and the site says it
+  is now part of Scrydex (a different, commercial TCG API whose terms were not read and are not transferred). No terms of use or data licence are stated on the pages read. Card text, names and art belong
+  to Wizards of the Coast/Hasbro (card images link to gatherer.wizards.com); the API grants no rights to that content. Commercial use, storage, display stay unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

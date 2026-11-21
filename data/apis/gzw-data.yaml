@@ -13,14 +13,52 @@ sources:
   url: https://gzw-data.vercel.app/docs/
   category: Games & Comics
 link_status: redirect
-data_license: unknown
-commercial_use: unknown
+data_license: CC-BY-SA-3.0 (wiki text; individual records, images and assets may carry separate rights)
+commercial_use: 'yes'
 storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+redistribution_display: 'yes'
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
 link_note: -> https://gzw-data.dev/docs/
+data_license_url: https://gzw-data.dev/data-sources/
+api_terms_url: https://gzw-data.dev/terms-of-service/
+commercial_use_scope: any
+share_alike: 'yes'
+attribution_text: Credit the source wiki (Gray Zone Warfare Wiki on Fandom), link the licence, indicate changes
+rate_limits: 100 requests/minute (per docs home page)
+evidence:
+- field: commercial_use
+  url: https://gzw-data.dev/terms-of-service/
+  quote: If you reuse the data, including in commercial projects, you are responsible for following the applicable license
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://gzw-data.dev/data-sources/
+  quote: Wiki text is generally offered under CC BY-SA 3.0
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://gzw-data.dev/data-sources/
+  quote: Wiki text is generally offered under CC BY-SA 3.0
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://gzw-data.dev/data-sources/
+  quote: Credit the source wiki and link the license. Indicate that you modified the data if you did.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://gzw-data.dev/data-sources/
+  quote: Credit the source wiki and link the license.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://gzw-data.dev/
+  quote: 100 requests a minute is plenty for a bot, a dashboard or a loadout tool.
+  checked_at: '2026-11-21'
+notes: 'Read gzw-data.dev/terms-of-service/, /data-sources/ and the home page (the listed gzw-data.vercel.app redirects to gzw-data.dev). Code is MIT; game data is scraped from the Gray Zone Warfare Wiki
+  on Fandom, generally CC BY-SA 3.0, so share-alike applies (verdict yellow) and "individual records, images, and assets may be subject to separate rights". ToS: "Gray Zone Warfare, its logos, and related
+  game content are the property of their respective owners" (MADFINGER Games); the API grants no rights to the underlying game content. Some prices come from GZW Items under the maintainers'' permission.
+  Caching: ToS says "Automated clients should cache responses and make reasonable requests"; no explicit long-term storage statement, so storage_caching stays unknown. Display is inferred from the CC BY-SA
+  reuse-with-credit statement, hence medium confidence.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

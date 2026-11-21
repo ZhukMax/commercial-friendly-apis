@@ -21,6 +21,21 @@ attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
 link_note: -> https://github.com/Harry260/codm-api
+applicable: false
+not_applicable_reason: Unofficial third-party wrapper that reverse-engineers the CODM webstore for account-scoped
+  player lookup and daily reward claiming; no data licence from the game publisher
+evidence:
+- field: applicable
+  url: https://github.com/Harry260/codm-api
+  quote: by reverse engineering the official CODM webstore APIs.
+  checked_at: '2026-11-21'
+notes: Read the GitHub README (callofdutymobile.vercel.app redirects to github.com/Harry260/codm-api).
+  The MIT licence covers only the wrapper code. The data comes from the official CODM webstore (Codashop-hosted)
+  by reverse engineering, with no permission or terms from Activision/TiMi stated; endpoints are per-player
+  and include claiming an in-game reward (account-scoped). Not a data source usable for a commercial site;
+  terms unknown.
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

@@ -24,3 +24,14 @@ verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
 link_note: -> https://github.com/AnimechanOrg/animechan
+rate_limits: 'Free: 100 requests/day; Premium ($5/month): 1,000 requests/hour'
+notes: Docs (animechan.io/docs) say the API is free with a default limit of 100 requests per day and a $5/month Premium tier. The Terms page (animechan.io/terms) is a JavaScript page whose text could not
+  be read with curl or a headless browser, so no terms fields were filled. Anime quotes are third-party copyrighted text (series authors/licensors); no rights to them are granted by the API. The GitHub
+  repo is only an issue tracker with an old code snapshot (MPL-2.0) and says the API source is private.
+evidence:
+- field: rate_limits
+  url: https://animechan.io/docs
+  quote: All API endpoints are free to use with a default rate limit of 100 requests a day.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

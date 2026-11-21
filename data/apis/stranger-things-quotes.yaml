@@ -20,6 +20,12 @@ redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://github.com/shadowoff09/strangerthings-quotes
+evidence: []
+notes: Repo is MIT-licensed (code); quotes are lines from Stranger Things (Netflix); no rights granted.
+  No terms for the Vercel-hosted API in the README.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: unknown

@@ -17,14 +17,68 @@ sources:
   url: http://developer.marvel.com
   category: Games & Comics
 link_status: redirect
-data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+data_license: Proprietary (Marvel API Terms of Use; free apps only)
+commercial_use: 'no'
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: red
+confidence: medium
 link_checked_at: '2026-11-21'
-link_note: -> https://www.marvel.com
+link_note: developer.marvel.com now 301-redirects to https://www.marvel.com; terms read from Internet
+  Archive snapshot of 2025-10-08
+data_license_url: http://web.archive.org/web/20251008063626/https://developer.marvel.com/terms
+api_terms_url: http://web.archive.org/web/20251008063626/https://developer.marvel.com/terms
+commercial_use_scope: any
+cache_limit: No indefinite caching; caching for limited time OK (24 hours suggested)
+attribution_text: Data provided by Marvel. © 2014 Marvel (on every screen/page showing API results); link
+  to Marvel when showing more than title and small thumbnail
+share_alike: unknown
+rate_limits: Default 1000 calls per day
+evidence:
+- field: commercial_use
+  url: http://web.archive.org/web/20251008063626/https://developer.marvel.com/terms
+  quote: No advertising or sponsorship of any kind may appear on or be associated with any App
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: http://web.archive.org/web/20251008063626/https://developer.marvel.com/terms
+  quote: (i) use any Content, or the Marvel API or Tools for any commercial purpose; or (ii) redistribute
+    the Content or Tools except within your Apps.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: http://web.archive.org/web/20251008063626/https://developer.marvel.com/terms
+  quote: You may not indefinitely cache Content
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: http://web.archive.org/web/2025/https://developer.marvel.com/documentation/attribution
+  quote: caching API call results for limited amounts of time is OK. Caching calls for 24 hours is usually
+    a good amount.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: http://web.archive.org/web/2025/https://developer.marvel.com/documentation/attribution
+  quote: You must attribute Marvel as the source of data whenever you display any results from the Marvel
+    Comics API.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: http://web.archive.org/web/20251008063626/https://developer.marvel.com/terms
+  quote: You may not change or edit the Content (e.g., modify, augment).
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: http://web.archive.org/web/2025/https://developer.marvel.com/documentation/attribution
+  quote: Most services default to 1000 calls per day
+  checked_at: '2026-11-21'
+- field: data_license
+  url: http://web.archive.org/web/20251008063626/https://developer.marvel.com/terms
+  quote: No advertising or sponsorship of any kind may appear on or be associated with any App
+  checked_at: '2026-11-21'
+notes: 'The live developer portal (developer.marvel.com) now redirects to the marvel.com homepage and
+  returns 403 to scripts, so the terms were read from the Internet Archive snapshot (2025-10-08) of developer.marvel.com/terms
+  and the attribution page; current live status of the API and terms is unverified (gateway.marvel.com
+  returned a generic server error without a key). Under those terms: Apps must be free, no advertising
+  or sponsorship, no monetization or commercial purpose unless approved in writing by Marvel -> red for
+  an ads/affiliate site. Comic data, covers and characters are Marvel/Disney IP. Mandatory attribution
+  text and link.'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

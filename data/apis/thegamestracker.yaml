@@ -23,4 +23,15 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
-link_note: HTTP 403 (blocked for bots, assumed alive)
+link_note: HTTP 403 for curl; page read via Playwright (fresh context)
+rate_limits: 10 requests/min per API key; response cached 1 minute
+notes: Read the API docs page via Playwright (curl gets 403). No terms of service, licence or commercial-use
+  statement found (/terms and /tos return 404; only a privacy policy link). Data is user-submitted game
+  server listings including player names; no rights stated. All terms left unknown.
+evidence:
+- field: rate_limits
+  url: https://thegamestracker.com/server-info-api
+  quote: API is Rate Limited to 10 requests / min for an API Key.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

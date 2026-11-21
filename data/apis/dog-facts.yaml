@@ -23,3 +23,8 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+notes: 'The Pages site https://dukengn.github.io/Dog-facts-API/ returned an empty page to curl; read the
+  GitHub repo instead: MIT licence (code), marked deprecated and migrated to Dog-Facts-API-v2, Heroku
+  service "kept alive for a while". No terms or data licence for the facts. Terms fields left unknown.'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

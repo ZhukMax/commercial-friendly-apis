@@ -17,7 +17,7 @@ sources:
   url: https://vidwords.com/api-docs
   category: Video
 link_status: alive
-data_license: unknown
+data_license: third-party (YouTube content); transcripts belong to rights holders
 commercial_use: unknown
 storage_caching: unknown
 redistribution_display: unknown
@@ -25,5 +25,17 @@ attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://vidwords.com/terms
+evidence:
+- field: data_license
+  url: https://vidwords.com/terms
+  quote: Transcripts belong to their respective rights holders. You are responsible for how you use extracted content.
+  checked_at: '2026-11-21'
+notes: Read https://vidwords.com/terms (short ToS, curl and Playwright). It extracts public YouTube caption data, says transcripts
+  belong to rights holders, bans circumventing limits and says 'Don't resell raw API access without a written agreement'.
+  Commercial use, storage and display of extracted text are not addressed beyond 'you are responsible', so unknown. Plans
+  include monthly request allowances.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

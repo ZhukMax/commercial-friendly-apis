@@ -14,12 +14,23 @@ sources:
   category: Games & Comics
 link_status: alive
 data_license: unknown
-commercial_use: unknown
+commercial_use: 'no'
 storage_caching: unknown
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+confidence: high
 link_checked_at: '2026-11-21'
+api_terms_url: https://documenter.getpostman.com/view/1779678/TzXzDHM1
+commercial_use_scope: any
+notes: 'API docs (Postman, linked from ffxivcollect.com/api/docs): "Acceptable Use: ... This API is restricted to non-commercial use ... Attribution linking to FFXIV Collect is greatly appreciated" (attribution
+  requested, not required: left unknown). Site footer: "FINAL FANTASY XIV (c) SQUARE ENIX CO., LTD." - underlying game data/images belong to Square Enix and are not licensed by the API.'
+evidence:
+- field: commercial_use
+  url: https://documenter.getpostman.com/view/1779678/TzXzDHM1
+  quote: This API is restricted to non-commercial use.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: red

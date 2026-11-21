@@ -20,6 +20,14 @@ redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://www.galaxymovies.app/terms
+evidence: []
+notes: Terms of Use (https://www.galaxymovies.app/terms) only say the app is for personal, informational
+  use and forbid scraping/overloading; no API terms or data licence found. About page says metadata comes
+  from TMDB and prices/deep links/catalogue changes from Watchmode, so upstream terms of those providers
+  govern; none transferred here. Read via Playwright.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: unknown

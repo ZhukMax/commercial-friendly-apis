@@ -24,3 +24,10 @@ verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
 link_note: -> https://kavel.readthedocs.io/en/latest/
+applicable: false
+not_applicable_reason: 'Tool: AI image generation/editing service (SDKs call its free tier); not a data source'
+notes: Read https://kavel.readthedocs.io/en/latest/ (redirect target of the listed URL; SDK docs for the service at kavel.ai, free tier metered by a client id). https://www.kavel.ai/terms returned 404,
+  so no terms were located. Generated images are model output with no data licence stated.
+evidence: []
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

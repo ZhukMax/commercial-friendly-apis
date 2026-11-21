@@ -32,6 +32,7 @@ def save(e): (ROOT / "data/apis" / f"{e['id']}.yaml").write_text(
 disputed, confirmed, changes = [], 0, []
 for f in sorted(glob.glob(str(ROOT / "data/second_pass/result-*.json"))):
     for r in json.load(open(f)):
+        if not (ROOT / "data/apis" / f"{r['id']}.yaml").exists(): continue  # merged away
         e = load(r["id"])
         if e.get("second_check"): continue
         out = r["outcome"]

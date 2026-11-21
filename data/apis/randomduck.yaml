@@ -23,3 +23,8 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+notes: 'Read random-d.uk and its API docs: footer says "Copyright 2018-2019 Geoffrey Westhoff - All images
+  belong to their rightful owner!". The API returns an optional message "Powered by random-d.uk". No terms
+  of use or image licence found, so no rights to the images are granted. Terms fields left unknown.'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

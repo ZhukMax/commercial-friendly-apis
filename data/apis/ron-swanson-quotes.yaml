@@ -24,6 +24,13 @@ redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://github.com/jamesseanwright/ron-swanson-quotes
+evidence: []
+notes: Repo (Apache-2.0, code) archived 2026-01-19; README says no further code changes and the Heroku
+  instance may become unavailable. Quotes are lines from the TV show Parks and Recreation (NBC/Universal);
+  no rights granted, no terms for the hosted API.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: unknown

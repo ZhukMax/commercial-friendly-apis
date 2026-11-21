@@ -15,12 +15,46 @@ sources:
   category: Video
 link_status: alive
 data_license: unknown
-commercial_use: unknown
+commercial_use: paid-only
 storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+redistribution_display: 'yes'
+attribution_required: 'no'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: 'Not a data source: hosted media-processing/tool service, terms cover use of the
+  service, not licensing of data.'
+api_terms_url: https://json2video.com/legal/terms-of-use.html
+commercial_use_scope: paid
+evidence:
+- field: commercial_use
+  url: https://json2video.com/legal/terms-of-use.html
+  quote: Output rendered on a free plan may be used for personal, educational, internal evaluation, and
+    other non-commercial purposes only.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://json2video.com/legal/terms-of-use.html
+  quote: Output rendered while your account is on a paid plan is not watermarked and is not subject to
+    this Section 4(c).
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://json2video.com/legal/terms-of-use.html
+  quote: you may use, reproduce, modify, publish, and distribute the Output with no attribution requirement
+    and no obligation to pay any further fee
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://json2video.com/legal/terms-of-use.html
+  quote: you may use, reproduce, modify, publish, and distribute the Output with no attribution requirement
+    and no obligation to pay any further fee
+  checked_at: '2026-11-21'
+notes: 'Video rendering API (tool, not a data source): the terms govern the rendered Output, not a dataset.
+  Free plan: watermarked and non-commercial only; Output rendered on a paid plan may be used commercially.
+  Rights in Output are limited by rights in the material it contains (third-party stock, voices, music).
+  Storage of Output not addressed beyond retention periods (section 3(g), not read in detail), so unknown.
+  Reselling the API or exposing a general-purpose rendering API is prohibited. Page read: /legal/terms-of-use.html
+  (the /terms path 404s).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

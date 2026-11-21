@@ -18,12 +18,35 @@ sources:
   category: Animals
 link_status: alive
 data_license: unknown
-commercial_use: unknown
+commercial_use: 'yes'
 storage_caching: unknown
 redistribution_display: unknown
-attribution_required: unknown
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+commercial_use_scope: any
+api_terms_url: https://thecatapi.com/terms
+attribution_text: Disclose prominently (app store description and in-app intro/about page) that the app
+  uses The Cat API when monetised on the free plan.
+notes: Read the API Terms of Service (effective 2023-07-01, shared with The Dog API). Monetisation with
+  ads is allowed; on the free account the use of The Cat API must be disclosed prominently (the paid account
+  waives it, 3.3.b). No reselling; app title must not contain "Cat API"; official logo must not be used.
+  The terms say nothing on caching/storage or on rights in the images (many are user-uploaded; uploaders
+  warrant rights only to the API operator), so those stay unknown and the API grants no explicit rights
+  to the underlying photos. API key required (auth apiKey).
+evidence:
+- field: commercial_use
+  url: https://thecatapi.com/terms
+  quote: Developers are allowed to monetize their coding efforts through advertising or other legitimate
+    means.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://thecatapi.com/terms
+  quote: if you monetize it, your users must be aware of the fact that your app uses The Dog API or The
+    Cat API
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

@@ -17,13 +17,56 @@ sources:
   url: https://api.hypixel.net/
   category: Games & Comics
 link_status: alive
-data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
+data_license: proprietary (Hypixel API Policy and Terms of Service)
+commercial_use: 'yes'
+storage_caching: limited
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://developer.hypixel.net/policies/
+data_license_url: https://developer.hypixel.net/policies/
+commercial_use_scope: any
+cache_limit: Caching encouraged; no continuous polling to build stat histories or session tracking
+rate_limits: Per API key per 5-minute window (limit depends on application type; increases need approval)
+evidence:
+- field: commercial_use
+  url: https://developer.hypixel.net/policies/
+  quote: Monetized projects that use endpoints requiring an API key need a Production application.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://developer.hypixel.net/policies/
+  quote: You must provide a free tier of access for all users, this tier may include advertising.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://developer.hypixel.net/policies/
+  quote: Projects should utilize caching to the best of their abilities to reduce requests on the API.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://developer.hypixel.net/policies/
+  quote: you may not use the API for continuous polling of player data for detection of stats earned in-game
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://api.hypixel.net/
+  quote: API keys are limited to a maximum amount of requests per 5 minute intervals.
+  checked_at: '2026-11-21'
+- field: notes
+  url: https://developer.hypixel.net/policies/
+  quote: Your product must be clear that it is not affiliated or endorsed by Hypixel.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://developer.hypixel.net/policies/
+  quote: Usage of the Public API must also conform to our Terms of Service.
+  checked_at: '2026-11-21'
+notes: 'Read the API Policy (read via browser; last updated 2026-11-18) and the API docs. Monetization
+  (ads, donations, subscriptions) is allowed for Production applications (custom owned domain required);
+  monetized content behind a paywall must be transformative, a free tier must exist, no gambling/betting
+  features. The API is not meant for automated data collection at scale: no polling for stat histories
+  or session tracking, no proxying the API to third parties. Hypixel Terms of Service referenced but not
+  read. Display/redistribution and attribution not stated (only a not-affiliated disclaimer is required):
+  unknown. Player data (names/UUIDs) is personal data.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

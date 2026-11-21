@@ -14,12 +14,30 @@ sources:
   category: Anime
 link_status: alive
 data_license: unknown
-commercial_use: unknown
+commercial_use: 'no'
 storage_caching: unknown
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: red
+confidence: medium
 link_checked_at: '2026-11-21'
+data_license_url: https://myanimelist.net/static/apiagreement.html
+api_terms_url: https://myanimelist.net/static/apiagreement.html
+commercial_use_scope: any
+notes: 'API License and Developer Agreement: "Your Commercial Applications" (for profit, revenue generating, explicitly including advertising company applications) may not earn revenue without MAL written
+  authorization; "Non-Commercial Applications" may carry some ad networks only under conditions (no disruption of UX), so an ad/affiliate-funded site is on the commercial side. Written authorization is
+  available only via MAL Customer Support (so a negotiated route exists, but not self-serve). Other restrictions: MAL content may not be altered; no storing of user-generated content/personal data server-side.
+  Storage of anime metadata, display and attribution are not clearly granted: left unknown. Anime/manga data and artwork also carry licensor rights.'
+evidence:
+- field: commercial_use
+  url: https://myanimelist.net/static/apiagreement.html
+  quote: generate, charge or earn any fees, profits, revenues or other funds or amounts through Your Commercial Applications without the express authorization
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://myanimelist.net/static/apiagreement.html
+  quote: any of Your Applications that are for profit, revenue generating or otherwise commercial in nature
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

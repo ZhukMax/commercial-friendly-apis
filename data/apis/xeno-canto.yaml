@@ -4,7 +4,7 @@ url: https://xeno-canto.org/explore/api
 category: Animals
 description: Bird recordings
 description_source: upstream
-auth: none
+auth: apiKey
 https: true
 cors: unknown
 sources:
@@ -13,13 +13,53 @@ sources:
   url: https://xeno-canto.org/explore/api
   category: Animals
 link_status: alive
-data_license: unknown
-commercial_use: unknown
+data_license: Per-recording Creative Commons (BY-NC-ND, BY-NC-SA, BY-SA and others; chosen by each recordist)
+commercial_use: ambiguous
 storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+redistribution_display: ambiguous
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://xeno-canto.org/about/terms
+commercial_use_scope: any
+attribution_text: Recordist name, licence and XC catalogue number with each recording; mention www.xeno-canto.org
+share_alike: unknown
+evidence:
+- field: data_license
+  url: https://xeno-canto.org/about/terms
+  quote: Sounds are published on xeno-canto under one of several Creative Commons licenses.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://xeno-canto.org/about/terms
+  quote: they are not free to use them commercially or alter them in any way.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://xeno-canto.org/about/terms
+  quote: 'Honour the attibution clause in the CC licenses: always mention the recordist if you refer to
+    a recording.'
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://xeno-canto.org/about/terms
+  quote: Sounds can be embedded on other websites using a xeno-canto widget. This is allowed by the CC
+    licenses.
+  checked_at: '2026-11-21'
+- field: auth
+  url: https://xeno-canto.org/explore/api
+  quote: The API now requires an API key.
+  checked_at: '2026-11-21'
+notes: 'Read the Terms of Use and API v3 page (both behind an Anubis proof-of-work check; read in a fresh
+  Playwright context after it passed on its own, curl only gets the challenge page). Recordings carry
+  per-recording CC licences chosen by each recordist; some are NC (BY-NC-ND forbids commercial use and
+  alteration), BY-SA allows commercial use with share-alike for derivatives. A commercial site could only
+  safely use recordings filtered to BY/BY-SA-type licences, so commercial_use and display are ambiguous.
+  Caching/storage of API results not addressed (unknown); mass downloads are discouraged. Auth fixed:
+  API v3 requires a key (free for verified members). Rights belong to the individual recordists, not xeno-canto.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: yellow
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Terms re-read in Playwright: per-recording CC, BY-NC-ND/NC-SA barred for commercial
+  use; only BY/BY-SA safe. Ambiguity stands.'

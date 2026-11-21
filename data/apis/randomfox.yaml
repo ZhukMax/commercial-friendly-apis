@@ -27,3 +27,7 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+notes: 'Read randomfox.ca and its GitHub repo: images are submitted as links; the repo has a LICENSE file
+  but its type was not read; no terms for the images found. Terms fields left unknown.'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

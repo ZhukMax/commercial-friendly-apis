@@ -17,13 +17,35 @@ sources:
   url: https://docs.mod.io
   category: Games & Comics
 link_status: alive
-data_license: unknown
+data_license: proprietary (mod.io API Access Terms; mods are third-party user-generated content)
 commercial_use: unknown
 storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+redistribution_display: 'yes'
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+data_license_url: https://mod.io/apiterms
+api_terms_url: https://mod.io/apiterms
+attribution_text: Include mod.io's branding at all times when using the API (branding assets at https://mod.io/about)
+rate_limits: Usage limits at https://docs.mod.io/restapi/rate-limiting and in the Control Panel
+notes: 'Read mod.io API Access Terms (Sep 2024) and Terms of Use (Sep 2024). API is free for permitted users; licence is to distribute API data to End Users via your platform, with mandatory mod.io branding.
+  Terms say nothing explicit on commercial use or caching, so those stay unknown. Forbidden: competing/replacement product, scraping, spamming. The mods and their files are user-generated content owned
+  by creators (per-game/per-creator rights); the API grants no rights to them. Requires an API key tied to a user account.'
+evidence:
+- field: data_license
+  url: https://mod.io/apiterms
+  quote: mod.io retains ownership of all rights, title, interest and goodwill in its Intellectual Property Rights
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://mod.io/apiterms
+  quote: access, implement, and distribute the mod.io API data to End Users for their use via your platform
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://mod.io/apiterms
+  quote: You agree to include mod.io's branding at all times you are using the mod.io API.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: unknown

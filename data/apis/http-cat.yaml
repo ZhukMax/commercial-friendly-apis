@@ -27,3 +27,8 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+notes: 'Read http.cat and the GitHub repo: code is MIT; credits thank @girliemac for the status-cat images
+  but no licence or terms for the images were found on the pages read. Images are third-party creative
+  works, no rights granted by the API. Terms fields left unknown.'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

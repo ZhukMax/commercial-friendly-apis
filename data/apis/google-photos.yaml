@@ -21,5 +21,14 @@ attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: 'Account-scoped API: acts on a signed-in user''s own Google Photos library (OAuth); not a data source'
+notes: Read https://developers.google.com/photos (overview), /photos/overview/about and the Photos API User Data and Developer Policy (/photos/support/api-policy, Playwright). The Picker and Library APIs
+  only reach media the signed-in user selects or that the app itself created; the policy prohibits selling user data and using it for advertising, and forbids using the APIs to host website media or as
+  a CDN. There is no public data set to display on a commercial site. Library API scopes for reading the whole library were removed on 2025-04-01.
+api_terms_url: https://developers.google.com/photos/support/api-policy
+evidence: []
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

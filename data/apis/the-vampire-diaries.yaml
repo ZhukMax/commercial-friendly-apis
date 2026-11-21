@@ -23,3 +23,10 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+notes: 'Read https://vampire-diaries-api.netlify.app/ (React SPA via Playwright): only an API-key form and an example route
+  (https://vampire-diaries.herokuapp.com/api/episodes?key=...); no terms, licence or about page (/about and /documentation
+  return 404). The example Heroku backend returned HTTP 404 on a plain request, so the service may be defunct (not confirmed;
+  link_status left as alive). TV episode data and images carry third-party studio rights that the site does not address. All
+  terms fields unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

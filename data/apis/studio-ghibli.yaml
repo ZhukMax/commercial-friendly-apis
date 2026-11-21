@@ -23,3 +23,8 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+notes: ghibliapi.vercel.app is a ReDoc page with no terms or licence text (checked with curl and a headless browser); the API answers (e.g. /films). The original GitHub repo janaipakos/ghibliapi is archived
+  and has only an MIT LICENSE for the software (copyright typicode), not a data licence. The data describes Studio Ghibli films, characters and places, which are third-party (studio) rights; the API grants
+  none. Terms left unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

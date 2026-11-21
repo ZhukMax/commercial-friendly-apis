@@ -13,13 +13,39 @@ sources:
   url: https://www.pathofexile.com/developer/docs
   category: Games & Comics
 link_status: alive
-data_license: unknown
-commercial_use: unknown
+data_license: proprietary (Grinding Gear Games)
+commercial_use: 'no'
 storage_caching: unknown
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://www.pathofexile.com/developer/docs
+commercial_use_scope: any
+evidence:
+- field: commercial_use
+  url: https://www.pathofexile.com/developer/docs
+  quote: As a general rule, we cannot allow our Intellectual Property to be used to generate commercial
+    revenue.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.pathofexile.com/developer/docs
+  quote: This product isn't affiliated with or endorsed by Grinding Gear Games in any way.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.pathofexile.com/developer/docs
+  quote: As a general rule, we cannot allow our Intellectual Property to be used to generate commercial
+    revenue.
+  checked_at: '2026-11-21'
+notes: 'Read via Playwright (fresh context; curl is blocked by Cloudflare) the Developer Docs overview/Third-Party
+  Policy, which form the API policies together with the Terms of Service (not read). IP may not be used
+  to generate commercial revenue, which rules out ad/affiliate sites (red). Also: new OAuth app registrations
+  are currently closed (''We are currently unable to process new applications''), access may be removed
+  at any time, a non-affiliation statement is required on public apps, websites may cache on a broader
+  basis (no limit given, so storage left unknown). Game data and art belong to Grinding Gear Games; no
+  rights granted.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: red

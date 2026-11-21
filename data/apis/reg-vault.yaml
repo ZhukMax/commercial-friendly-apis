@@ -14,13 +14,49 @@ sources:
   url: https://regvault.org/docs/api
   category: Games & Comics
 link_status: alive
-data_license: unknown
-commercial_use: unknown
+data_license: proprietary (REG-Vault terms; descriptions AI-assisted from upstream sources; artwork owned
+  by third parties)
+commercial_use: 'no'
 storage_caching: unknown
 redistribution_display: unknown
-attribution_required: unknown
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://regvault.org/terms
+commercial_use_scope: any
+attribution_text: Credit "REG-Vault" with a link (non-commercial reuse of descriptions)
+rate_limits: 'Free: 1,000 req/day per IP, 100 req/min burst; Pro: unmetered (soft cap 60 req/sec)'
+evidence:
+- field: commercial_use
+  url: https://regvault.org/terms
+  quote: Use is for personal and non-commercial purposes. If you want to use REG-Vault in a commercial
+    product or service, contact us first.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://regvault.org/terms
+  quote: Because they draw on sources that have their own terms, commercial reuse is not permitted.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://regvault.org/terms
+  quote: You may reuse them for non-commercial purposes if you credit "REG-Vault" with a link.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://regvault.org/terms
+  quote: Box art, screenshots, logos, game titles and trademarks belong to their respective owners.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://regvault.org/terms
+  quote: Do not bulk-download, mirror, or republish the catalog or its artwork
+  checked_at: '2026-11-21'
+notes: Read /terms (updated 2026-10-31), /docs/api and the credits link. The service is described as a
+  free non-commercial catalog; descriptions may be reused only non-commercially (commercial reuse not
+  permitted because of upstream source terms), and any commercial product needs prior contact. Bulk download,
+  mirroring and republishing the catalog or artwork are forbidden. Box art, screenshots and logos belong
+  to their owners and the terms grant no rights in them. The API page mentions a 'Pro' tier (unmetered)
+  but nothing states it permits commercial use. Verdict red for commercial site; could change if the project
+  grants a commercial licence.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: red

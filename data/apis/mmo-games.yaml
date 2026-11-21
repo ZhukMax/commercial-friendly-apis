@@ -13,13 +13,47 @@ sources:
   url: https://www.mmobomb.com/api
   category: Games & Comics
 link_status: alive
-data_license: unknown
-commercial_use: unknown
+data_license: proprietary (MMOBomb API page; attribution required)
+commercial_use: ambiguous
 storage_caching: unknown
 redistribution_display: unknown
-attribution_required: unknown
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+data_license_url: https://www.mmobomb.com/api
+api_terms_url: https://www.mmobomb.com/api
+commercial_use_scope: any
+attribution_text: Attribute MMOBomb.com as the source of the data
+evidence:
+- field: commercial_use
+  url: https://www.mmobomb.com/api
+  quote: The MMO API (Powered by MMOBomb) is available for everyone to use without any restrictions.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.mmobomb.com/api
+  quote: Please note our API is free to use as long as you attribute MMOBomb.com as the source of the
+    data.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.mmobomb.com/terms-of-use
+  quote: MMOBomb grants you a non-transferable, non-exclusive, revocable, limited license to access the
+    Site solely for your own personal, noncommercial use.
+  checked_at: '2026-11-21'
+notes: Read mmobomb.com/api and mmobomb.com/terms-of-use. The API page says it is free for everyone "without
+  any restrictions" if MMOBomb.com is credited as the data source, but the site Terms of Use license is
+  limited to personal, noncommercial use and forbids commercially exploiting or copying/republishing the
+  Site (except as expressly stated). The API page is the express statement for the API, yet it does not
+  say "commercial" explicitly, so commercial use is ambiguous. Storage and display are not addressed (unknown).
+  The game records (titles, descriptions, thumbnails, screenshots, links) describe third-party games whose
+  publishers own the content, plus news and giveaways; the API grants no rights to publisher content.
+  How the attribution must look (link/dofollow) is not specified.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: API page says free for everyone without restrictions with MMOBomb attribution; site
+  ToU limits to personal noncommercial use. Conflict remains, and the API page is the more specific statement.
+  Game assets belong to publishers. Ambiguous stands.

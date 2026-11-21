@@ -23,3 +23,17 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+rate_limits: Responses cached 5 minutes; descriptive non-empty User-Agent header required (403 otherwise)
+evidence:
+- field: rate_limits
+  url: https://api.mcsrvstat.us
+  quote: A descriptive and non-empty User-Agent request header is required when querying the API, otherwise
+    you will get a 403 Forbidden response.
+  checked_at: '2026-11-21'
+notes: 'API documentation page read: only technical conditions (User-Agent required, 5-minute cache, ad-free
+  site, donations asked). No terms of use, licence or commercial-use statement found on api.mcsrvstat.us
+  or mcsrvstat.us (/terms and /privacy are 404). Responses are facts about third-party Minecraft servers
+  (MOTD, plugins, player names/UUIDs: personal data); Minecraft is a Mojang trademark. All core terms
+  unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

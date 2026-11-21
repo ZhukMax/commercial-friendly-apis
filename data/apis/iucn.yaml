@@ -13,14 +13,41 @@ sources:
   url: https://www.iucnredlist.org/en
   category: Animals
 link_status: redirect
-data_license: unknown
-commercial_use: unknown
+data_license: proprietary (IUCN Red List Terms and Conditions of Use v3.1)
+commercial_use: 'no'
 storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+redistribution_display: 'no'
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: red
+confidence: high
 link_checked_at: '2026-11-21'
 link_note: -> https://www.iucnredlist.org/
+commercial_use_scope: any
+api_terms_url: https://www.iucnredlist.org/terms/terms-of-use
+notes: Read the IUCN Red List Terms and Conditions of Use (v3.1, June 2024; needed Playwright, curl got
+  403). Commercial Use of data or derived works requires prior written permission; reposting/redistribution
+  (including through web services and the Red List APIs) is prohibited without written waiver. Viewing/querying
+  and use of the Red List Categories are unrestricted per section 3. api.iucnredlist.org docs returned
+  403 to curl and were not read separately; the main terms page names the APIs.
+evidence:
+- field: commercial_use
+  url: https://www.iucnredlist.org/terms/terms-of-use
+  quote: may be put to Commercial Use without the prior written permission of IUCN
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.iucnredlist.org/terms/terms-of-use
+  quote: in part, alone or combined with other data, including within Derivative Works, are strictly prohibited
+    without the prior written permission of IUCN
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.iucnredlist.org/terms/terms-of-use
+  quote: The recipient of the data will provide full acknowledgement and citation
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.iucnredlist.org/terms/terms-of-use
+  quote: IUCN and/or their collaborators are the sole and exclusive owners of all rights, titles and interests
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5

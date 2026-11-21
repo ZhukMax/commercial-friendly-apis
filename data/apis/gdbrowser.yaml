@@ -20,6 +20,10 @@ redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+notes: gdbrowser.com/api is behind a Cloudflare bot check that blocks curl and the browser; per policy no bypass attempted. Terms not read. It is an unofficial proxy of the Geometry Dash (RobTop) servers,
+  so the underlying data/levels belong to their creators. All unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: unknown

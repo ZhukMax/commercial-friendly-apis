@@ -22,5 +22,19 @@ attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Self-hosted open-source proxy/aggregator (Deno) over YouTube Music, YouTube, LRCLib
+  and Last.fm; no own data or terms.
+notes: Repo has no licence file (GitHub licence endpoint 404) and no terms. It scrapes/proxies YouTube
+  Music, YouTube search, Piped/Invidious streams, LRCLib lyrics and Last.fm, so upstream terms (YouTube
+  ToS, Last.fm API ToS which is non-commercial by default) and music copyright apply. Not a data source
+  to rely on commercially.
+evidence:
+- field: notes
+  url: https://raw.githubusercontent.com/Kirazul/Verome-API/master/README.md
+  quote: Music API for YouTube Music, Lyrics & Streaming
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

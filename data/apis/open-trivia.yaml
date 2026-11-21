@@ -17,13 +17,56 @@ sources:
   url: https://opentdb.com/api_config.php
   category: Games & Comics
 link_status: alive
-data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+data_license: CC-BY-SA-4.0
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+data_license_url: https://creativecommons.org/licenses/by-sa/4.0/
+api_terms_url: https://opentdb.com/api_config.php
+commercial_use_scope: any
+share_alike: 'yes'
+rate_limits: 1 request per 5 seconds per IP; max 50 questions per call
+evidence:
+- field: data_license
+  url: https://opentdb.com/api_config.php
+  quote: All data provided by the API is available under the Creative Commons Attribution-ShareAlike 4.0
+    International License.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://creativecommons.org/licenses/by-sa/4.0/
+  quote: copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://creativecommons.org/licenses/by-sa/4.0/
+  quote: copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://creativecommons.org/licenses/by-sa/4.0/
+  quote: copy and redistribute the material in any medium or format for any purpose, even commercially.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://creativecommons.org/licenses/by-sa/4.0/
+  quote: You must give appropriate credit , provide a link to the license, and indicate if changes were
+    made
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://creativecommons.org/licenses/by-sa/4.0/
+  quote: you must distribute your contributions under the same license as the original.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://opentdb.com/api_config.php
+  quote: Each IP can only access the API once every 5 seconds.
+  checked_at: '2026-11-21'
+notes: API page states all API data is CC BY-SA 4.0; commercial use, copying and display follow from the
+  licence deed (no separate API ToS page found; confidence medium). Share-alike applies to adapted material,
+  so verdict yellow per verdict rules. Questions are user-contributed (some about films, games, music
+  etc.); the licence only covers what the contributors/Open Trivia DB can license, and no rights to underlying
+  third-party content are granted. Operated by Pixeltail Games.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: yellow

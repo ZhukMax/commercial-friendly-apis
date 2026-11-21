@@ -13,13 +13,59 @@ sources:
   url: https://rawg.io/apidocs
   category: Games & Comics
 link_status: alive
-data_license: unknown
-commercial_use: unknown
+data_license: proprietary (RAWG API Terms of Service); RAWG claims no ownership of images/data
+commercial_use: paid-only
 storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+redistribution_display: ambiguous
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://rawg.io/tos_api
+commercial_use_scope: free-tier
+attribution_text: Credit RAWG as the data/image source with an active hyperlink on every page where RAWG
+  data is used
+verdict_override: yellow
+override_reason: Free plan requires an active backlink to RAWG on every page using the data; pricing page
+  and ToS conflict on commercial use; ToS limits copying to other servers and further distribution
+rate_limits: Free 20,000 requests/month (≤100,000 MAU or 500,000 page views/month for commercial); Business
+  50,000; Enterprise 1,000,000
+evidence:
+- field: commercial_use
+  url: https://rawg.io/tos_api
+  quote: is free for commercial use for projects and/or services within 20.000 requests per month
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://rawg.io/apidocs
+  quote: Non-commercial projects only 500,000+ video games data up to 20,000 requests per month
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://rawg.io/tos_api
+  quote: as long as you attribute RAWG as the source of the data and/or images and add an active hyperlink
+    from every page
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://rawg.io/tos_api
+  quote: not to use Services for the purposes of further distribution in any way
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://rawg.io/tos_api
+  quote: We do not claim ownership of any of the images or data provided by the API.
+  checked_at: '2026-11-21'
+notes: 'Read the API Terms of Service (last update 1 March 2021) and the apidocs pricing page. The ToS
+  says the Free plan is free for commercial use up to 20,000 requests/month and 100,000 MAU or 500,000
+  page views, but the pricing page says Free is ''non-commercial projects only'' and lists ''Commercial
+  use'' under the $149/month Business plan: conflicting, so commercial_use ambiguous. Backlink to RAWG
+  required on every page using the data (verdict_override yellow). ToS 4.3(5) forbids using the Services
+  ''for the purposes of further distribution'' and 6.2 forbids copying content to another server/website
+  for commercial purposes without written consent, so storage/caching is unclear (left ambiguous-leaning,
+  recorded unknown). Game metadata, screenshots and artwork belong to publishers/developers/third parties;
+  RAWG disclaims ownership and grants no rights to them.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: yellow
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Current pricing page: Free = non-commercial only; Conflicts with older ToS (2021);
+  Business plan lists commercial use | applied: commercial_use=paid-only'

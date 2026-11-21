@@ -17,14 +17,43 @@ sources:
   url: https://esi.evetech.net/ui
   category: Games & Comics
 link_status: redirect
-data_license: unknown
-commercial_use: unknown
+data_license: proprietary (CCP Developer License Agreement; Game Data owned by CCP)
+commercial_use: ambiguous
 storage_caching: unknown
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
 link_note: -> https://developers.eveonline.com/api-explorer
+data_license_url: https://developers.eveonline.com/license-agreement
+api_terms_url: https://developers.eveonline.com/license-agreement
+commercial_use_scope: any
+notes: Read the CCP Developer License Agreement (ESI). The Purpose is an Application for non-commercial,
+  non-profit use; the developer may not charge fees or otherwise monetize except in-game currency donations,
+  voluntary donations, and general advertisements (e.g. AdSense). Affiliate links or selling products
+  based on the Game Data are not permitted without separate agreement, so a commercial site is at best
+  ambiguous. Storage, display and attribution rules were not found as separate clauses (Game Data includes
+  CCP marks, images, etc.), left unknown. The ESI UI URL redirects to developers.eveonline.com docs; ESI
+  also needs OAuth for character data (static/public endpoints exist).
+evidence:
+- field: data_license
+  url: https://developers.eveonline.com/license-agreement
+  quote: CCP will grant you the right to access the CCP Tools and Game Data as a Developer
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://developers.eveonline.com/license-agreement
+  quote: The rights granted under this Agreement are intended for non-commercial and non-profit use solely
+    to improve the enjoyment of EVE.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://developers.eveonline.com/license-agreement
+  quote: Developer may generate revenue from displaying general advertisements that do not interfere with
+    a Player's access to, or use of, the Application.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: yellow
+second_check_at: '2026-11-21'
+second_check: confirmed

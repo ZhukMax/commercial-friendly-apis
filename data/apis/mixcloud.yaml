@@ -17,13 +17,48 @@ sources:
   url: https://www.mixcloud.com/developers/
   category: Music
 link_status: alive
-data_license: unknown
-commercial_use: unknown
+data_license: proprietary (Mixcloud User Agreement; third-party music/user content)
+commercial_use: ambiguous
 storage_caching: unknown
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://www.mixcloud.com/terms/
+data_license_url: https://www.mixcloud.com/terms/
+evidence:
+- field: commercial_use
+  url: https://www.mixcloud.com/terms/
+  quote: grants you a limited, personal, non-exclusive, non-commercial, revocable, non-assignable and
+    non-transferable license to
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.mixcloud.com/terms/
+  quote: You are strictly prohibited from using any of the Mixcloud widgets for any form of commercial
+    use or non personal / individual use
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.mixcloud.com/terms/
+  quote: Mixcloud and all rightsholders expressly reserve (unless agreed otherwise) their rights in such
+    text, media, data or content
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.mixcloud.com/terms/
+  quote: not to use the Platform other than for your own personal, private, non-commercial use
+  checked_at: '2026-11-21'
+notes: 'The User Agreement defines the Services as including the Mixcloud API, and grants only a limited,
+  personal, non-commercial licence; the widget policy forbids commercial use of widgets (selling advertising
+  or monetising a site). No API-specific commercial clause or paid tier was found on the developer page,
+  so ambiguous (likely not commercial-friendly). Developer page: audio streams are not available through
+  the API; reads need no key, OAuth only for writes. Content is user-uploaded music/DJ shows with label
+  and publisher rights. Storage/display/attribution not addressed for API data: unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'User Agreement covers the API and restricts to personal non-commercial use; No paid
+  or commercial API tier on developer page; Music rights held by labels/publishers | applied: commercial_use=ambiguous
+  (suggested no, needs human review)'

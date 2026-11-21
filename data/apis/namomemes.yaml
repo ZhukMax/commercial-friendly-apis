@@ -16,7 +16,7 @@ sources:
   name: NaMoMemes
   url: https://github.com/theIYD/NaMoMemes
   category: Personality
-link_status: alive
+link_status: dead
 data_license: unknown
 commercial_use: unknown
 storage_caching: unknown
@@ -27,3 +27,9 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+link_note: Hosted API https://namo-memes.herokuapp.com/ returns HTTP 404 (Heroku app gone); only the GitHub repo remains
+notes: Read GitHub repo and README (raw). The repo has no licence file (GitHub reports none) and no terms. README says the API uses keywords to scrape memes from Google Search, so the images are third-party
+  content (meme authors, photographers, the depicted person) and the project grants no rights to them. The hosted instance named in the README is down (HTTP 404), so this is at best a self-host-only code
+  repo. All terms fields left unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

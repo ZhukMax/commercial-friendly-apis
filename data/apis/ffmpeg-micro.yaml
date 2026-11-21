@@ -20,6 +20,15 @@ redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Hosted video/audio transcoding tool operating on the user's own files; not a data
+  source.
+evidence: []
+notes: 'FFmpeg Micro is a hosted FFmpeg processing API (user uploads files, files deleted after 7/30 days).
+  Terms https://www.ffmpeg-micro.com/legal/terms read: user keeps ownership of content; no reselling the
+  Service.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: unknown

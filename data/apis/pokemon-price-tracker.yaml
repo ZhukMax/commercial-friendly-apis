@@ -13,13 +13,53 @@ sources:
   url: https://www.pokemonpricetracker.com/pokemon-card-price-api
   category: Games & Comics
 link_status: alive
-data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+data_license: proprietary (PokePriceTracker Data licence; no rights in images/artwork)
+commercial_use: paid-only
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'no'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+confidence: high
 link_checked_at: '2026-11-21'
+api_terms_url: https://www.pokemonpricetracker.com/terms
+data_license_url: https://www.pokemonpricetracker.com/licensing
+commercial_use_scope: paid
+share_alike: unknown
+rate_limits: Free/API plans 60 requests/minute; Business 500/minute, 200,000 credits/day
+evidence:
+- field: commercial_use
+  url: https://www.pokemonpricetracker.com/licensing
+  quote: If your project earns money in any form, it needs a Business plan
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.pokemonpricetracker.com/terms
+  quote: Not use the API or PokePriceTracker Data for commercial purposes without an active Business or
+    Enterprise subscription
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.pokemonpricetracker.com/licensing
+  quote: Caching and storing responses to serve your own application is expected and fine
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://www.pokemonpricetracker.com/licensing
+  quote: Showing prices inside a shop, marketplace or storefront Business
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.pokemonpricetracker.com/terms
+  quote: Attribution is not required.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.pokemonpricetracker.com/licensing
+  quote: No license to any image or artwork is granted.
+  checked_at: '2026-11-21'
+notes: 'Read /licensing (updated Oct 13, 2026), /terms and the API page. Free and API tiers are personal/non-revenue
+  only; ads, affiliate links and any revenue need the Business plan ($99/mo), hence paid-only (yellow).
+  On Business: caching/storage for your own app is fine, showing prices in your own product is fine, attribution
+  optional. Never allowed on any plan: reselling/redistributing the data as a data product or running
+  a competing price API. No licence to card images/artwork (owned by rights holders); the provider also
+  says it makes no representation about where data comes from (TCGplayer/eBay-sourced prices) or whether
+  it holds rights in it, which is a residual upstream risk.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: yellow

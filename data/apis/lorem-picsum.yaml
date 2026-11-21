@@ -17,7 +17,7 @@ sources:
   url: https://picsum.photos/
   category: Photography
 link_status: alive
-data_license: unknown
+data_license: 'Images from Unsplash (Unsplash License not read: unsplash.com/license is behind a bot challenge); service code MIT'
 commercial_use: unknown
 storage_caching: unknown
 redistribution_display: unknown
@@ -27,3 +27,14 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://picsum.photos/
+evidence:
+- field: data_license
+  url: https://picsum.photos/
+  quote: Images from Unsplash
+  checked_at: '2026-11-21'
+notes: Read https://picsum.photos/ (docs and footer) and the GitHub README (service code is MIT). Picsum has no terms page (/terms, /about return nothing); the footer states the images come from Unsplash
+  and the /v2/list response links each photo author and Unsplash page. The Unsplash License and Unsplash API Terms could not be read (bot challenge), and the Unsplash API guidelines read (attribution, hotlinking)
+  are for the official API, not for Picsum. Photos can show people, brands or artworks; photographer credit and licence per image should be checked against the Unsplash page of each photo.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

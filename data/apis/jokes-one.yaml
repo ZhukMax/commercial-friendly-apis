@@ -17,13 +17,52 @@ sources:
   url: https://jokes.one/api/joke/
   category: Games & Comics
 link_status: alive
-data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+data_license: proprietary (Jokes One website and API terms)
+commercial_use: ambiguous
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+data_license_url: https://jokes.one/terms
+api_terms_url: https://jokes.one/terms
+commercial_use_scope: any
+cache_limit: 8 hours
+attribution_text: Credit Jokes One in your terms or about page
+evidence:
+- field: commercial_use
+  url: https://jokes.one/terms
+  quote: use the materials for any commercial purpose, or for any public display (commercial or non-commercial)
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://jokes.one/terms
+  quote: You can not cache / store / persist the jokes returned from our API for more than 8 hours.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://jokes.one/terms
+  quote: You can reproduce the jokes returned from the API in your applications
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://jokes.one/terms
+  quote: you need to credit Jokes One in your terms or about page.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://jokes.one/terms
+  quote: You may not use the API to scrap the contents of jokes.one to use in another website / software
+    or any digital / print product.
+  checked_at: '2026-11-21'
+notes: 'Read jokes.one/terms and the API page (jokes.one/api/joke/). Conflict: the general site licence
+  (section 2) grants only "personal, non-commercial transitory viewing" and forbids using the materials
+  "for any commercial purpose, or for any public display", and the API-use section says subscribers "agree
+  to all the restrictions listed under section #2", yet the same section lets you reproduce the jokes
+  in your applications with credit. That is contradictory for a commercial site, so commercial use is
+  ambiguous (verdict yellow, resolve with the owner before relying). Cache/store limit 8 hours. Scraping
+  jokes.one content for other products is forbidden. Jokes are user-submitted content of unclear authorship;
+  no rights granted to underlying content.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed

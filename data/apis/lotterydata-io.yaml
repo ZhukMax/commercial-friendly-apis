@@ -13,13 +13,37 @@ sources:
   url: https://lotterydata.io/
   category: Games & Comics
 link_status: alive
-data_license: unknown
+data_license: proprietary (LotteryData.io terms; no data licence stated)
 commercial_use: unknown
 storage_caching: unknown
-redistribution_display: unknown
+redistribution_display: ambiguous
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://lotterydata.io/terms
+evidence:
+- field: redistribution_display
+  url: https://lotterydata.io/terms
+  quote: You may not copy, modify, distribute, or create derivative works without our prior written consent.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://lotterydata.io/terms
+  quote: No rights are granted except as expressly stated.
+  checked_at: '2026-11-21'
+notes: Read lotterydata.io/terms (effective Sept 28, 2025), /docs, /legal disclaimer and the homepage;
+  the pricing page returned no readable text via curl. Terms are about paid API subscriptions (API key,
+  auto-renewing plans, no refunds). They state that no rights are granted except as expressly stated and
+  forbid copying, modifying, distributing or creating derivative works without written consent, but give
+  no express grant for commercial use, storage or display of results. Acceptable use also forbids scraping
+  beyond plan limits. Draw results originate from official lotteries (the service says it is not affiliated
+  with them and does not guarantee accuracy). Commercial use is unknown; display ambiguous because the
+  generic IP clause may or may not be meant to cover API results.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Terms read: no express grant of commercial use/storage; generic no-copy/distribute
+  clause. Docs and homepage add nothing. Unknown stands.'

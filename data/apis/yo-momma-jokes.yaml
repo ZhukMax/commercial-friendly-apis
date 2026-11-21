@@ -13,13 +13,47 @@ sources:
   url: https://github.com/beanboi7/yomomma-apiv2
   category: Entertainment
 link_status: alive
-data_license: unknown
-commercial_use: unknown
+data_license: MIT (source repository licence; jokes are stored in jokes.json in the same repo)
+commercial_use: 'yes'
 storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+redistribution_display: 'yes'
+attribution_required: 'yes'
 bulk_download: unknown
-self_host_option: unknown
-verdict: unknown
+self_host_option: 'yes'
+verdict: yellow
 confidence: low
 link_checked_at: '2026-11-21'
+data_license_url: https://github.com/beanboi7/yomomma-apiv2/blob/master/LICENSE
+commercial_use_scope: self-hosted
+attribution_text: Include the copyright notice (Copyright (c) 2021 Sriram J Vignesh M) and MIT permission notice in copies
+share_alike: unknown
+rate_limits: 5 calls/minute (per README, hosted instance)
+evidence:
+- field: data_license
+  url: https://github.com/beanboi7/yomomma-apiv2/blob/master/LICENSE
+  quote: MIT License
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://github.com/beanboi7/yomomma-apiv2/blob/master/LICENSE
+  quote: to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://github.com/beanboi7/yomomma-apiv2/blob/master/LICENSE
+  quote: to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://github.com/beanboi7/yomomma-apiv2/blob/master/LICENSE
+  quote: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+  checked_at: '2026-11-21'
+- field: self_host_option
+  url: https://github.com/beanboi7/yomomma-apiv2/blob/master/LICENSE
+  quote: to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://raw.githubusercontent.com/beanboi7/yomomma-apiv2/master/README.md
+  quote: 'P.S: API is rate limited to 5 calls/minute.'
+  checked_at: '2026-11-21'
+notes: Read README and LICENSE (raw GitHub). MIT covers the software and bundled jokes.json for a self-hosted copy; the hosted Heroku instance (yomomma-api.herokuapp.com) returned HTTP 404 on its root during
+  the check and has no terms page. The repo does not say where the jokes came from, so third-party authorship is possible (not assessed). Hosted caching/storage unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

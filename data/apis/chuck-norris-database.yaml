@@ -12,7 +12,7 @@ sources:
   name: Chuck Norris Database
   url: http://www.icndb.com/api/
   category: Games & Comics
-link_status: redirect
+link_status: dead
 data_license: unknown
 commercial_use: unknown
 storage_caching: unknown
@@ -23,4 +23,8 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
-link_note: -> https://icndb.com/
+link_note: icndb.com now serves an unrelated online-slot gambling spam site (ROYALTOGEL); the original API is gone
+notes: 'http://www.icndb.com/api/ redirects to icndb.com, which now shows an Indonesian online slot-gambling page (title "ROYALTOGEL Situs Slot Gacor...") instead of the Chuck Norris joke API. The domain
+  appears hijacked/expired, so the service is gone: link_status dead, terms unknown. Chuck Norris jokes are community-written; no terms were read.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

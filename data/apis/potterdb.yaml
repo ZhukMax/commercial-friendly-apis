@@ -23,3 +23,7 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+notes: docs.potterdb.com and potterdb.com describe the API ("unofficial database") but contain no terms, licence or usage policy. The repo danielschuster-muc/potter-db is MIT (software only, not a data
+  licence). Harry Potter characters, spells, books and films are Warner Bros./J.K. Rowling rights and the API grants none; film data and images are studio works. Terms left unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

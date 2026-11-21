@@ -13,13 +13,53 @@ sources:
   url: https://superduperbundle.com/tools/api/
   category: Games & Comics
 link_status: alive
-data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+data_license: proprietary (API terms on the API page; prices from third-party stores)
+commercial_use: 'yes'
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://superduperbundle.com/tools/api/#terms
+commercial_use_scope: any
+cache_limit: Answers cached 15 min; "show checked_at or refresh at least daily"; no mirroring as a price
+  database
+attribution_text: Prices by SuperDuperBundle (each price linked to the game url)
+share_alike: unknown
+rate_limits: 'No key: 600 uncached games per 10 min per address; Registered 2,500; Partner 10,000 per
+  key'
+notes: Read the Terms block on the API page (and /terms, which covers the website, not the API). Free
+  for any app/site; showing prices is the purpose, with a visible link/credit. Mirroring as a price database
+  and reselling are forbidden and prices must be refreshed at least daily, so storage is limited. Prices
+  come from store product feeds, Steam and GOG; game artwork/trademarks belong to their owners (site footer)
+  and the API grants no rights to them. Some store links are affiliate links of the operator.
+evidence:
+- field: commercial_use
+  url: https://superduperbundle.com/tools/api/
+  quote: Free for any app, site, bot or extension.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://superduperbundle.com/tools/api/
+  quote: Do not resell the data, mirror it as a price database, or present the prices as your own.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://superduperbundle.com/tools/api/
+  quote: 'Attribution: whenever you display our data, show a visible link to SuperDuperBundle'
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://superduperbundle.com/tools/api/
+  quote: 'Attribution: whenever you display our data, show a visible link to SuperDuperBundle'
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://superduperbundle.com/tools/api/
+  quote: Each address can look up 600 games per 10 minutes without cache hits
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://superduperbundle.com/tools/api/
+  quote: Free for any app, site, bot or extension.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

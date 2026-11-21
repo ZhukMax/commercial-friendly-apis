@@ -4,7 +4,7 @@ url: https://phish.in/api-docs
 category: Music
 description: A web-based archive of legal live audio recordings of the improvisational rock band Phish
 description_source: upstream
-auth: apiKey
+auth: none
 https: true
 cors: 'no'
 sources:
@@ -23,3 +23,15 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+evidence:
+- field: auth
+  url: https://phish.in/api-docs
+  quote: No API key is required to access v2 of the API.
+  checked_at: '2026-11-21'
+notes: 'auth corrected: API v2 needs no key (read via browser, the page is JS-rendered). The Terms of
+  Service page contains only a reserve-the-right-to-revoke clause and no licence, commercial-use, caching
+  or attribution terms; /about and /privacy have none either. FAQ says the audio is shared under Phish''s
+  official taping policy (not read), i.e. recordings are fan-taped live music with band/rights-holder
+  rights; the API grants no rights to them. Core terms unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

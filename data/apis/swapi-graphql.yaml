@@ -23,3 +23,12 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: 'Demo/wrapper: GraphiQL playground for a GraphQL schema over SWAPI (source code
+  is MIT per GitHub); no data terms of its own.'
+notes: graphql.org/swapi-graphql is a GraphiQL demo of an open-source (MIT, per the GitHub repository
+  graphql/swapi-graphql) GraphQL wrapper around SWAPI; the data is SWAPI's, so terms come from SWAPI (itself
+  without published terms, see swapi). No terms page for the hosted endpoint. Star Wars is a Lucasfilm/Disney
+  property; no rights to the underlying content are granted.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

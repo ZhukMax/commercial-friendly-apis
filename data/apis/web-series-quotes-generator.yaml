@@ -20,6 +20,13 @@ redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://github.com/yogeshwaran01/web-series-quotes
+evidence: []
+notes: Repo is MIT-licensed (code); the API returns web-series quotes and generates quote images (background
+  images may be third-party). Quotes belong to the series' rights holders; no rights granted. Hosted on
+  deta (api.seriesquotes.10cyrilc.me), which may be gone; not tested. README read.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: unknown

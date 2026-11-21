@@ -17,13 +17,55 @@ sources:
   url: https://freesound.org/docs/api/
   category: Music
 link_status: alive
-data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+data_license: 'Creative Commons (licence set per sound by the uploader: CC0, CC BY, CC BY-NC etc.)'
+commercial_use: ambiguous
+storage_caching: limited
+redistribution_display: ambiguous
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+data_license_url: https://freesound.org/help/tos_api/
+api_terms_url: https://freesound.org/help/tos_api/
+commercial_use_scope: any
+cache_limit: Only limited intermediate copies as necessary; no full copies of the database
+attribution_text: Credit Freesound and the sound creators in accordance with each sound's licence
+evidence:
+- field: commercial_use
+  url: https://freesound.org/docs/api/terms_of_use.html
+  quote: You can use the Freesound API for free only for non-commercial purposes.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://freesound.org/help/tos_api/
+  quote: Terms for commercial use of the API will be negotiated on a case by case basis with UPF
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://freesound.org/help/tos_api/
+  quote: sounds under Creative Commons licenses
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://freesound.org/help/tos_api/
+  quote: Make limited intermediate copies of Content only as necessary to perform an activity permitted
+    under these terms.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://freesound.org/help/tos_api/
+  quote: Process, analyse, rearrange, reorganize or present Content within your Application, in accordance
+    with the applicable Content license/s.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://freesound.org/docs/api/terms_of_use.html
+  quote: Credit Freesound and sound creators in accordance with
+  checked_at: '2026-11-21'
+notes: Read https://freesound.org/docs/api/terms_of_use.html and the full API terms https://freesound.org/help/tos_api/.
+  Free API access is for non-commercial purposes; commercial API use is negotiated case by case (price
+  not stated, 'We may charge'), so ambiguous rather than paid-only. Each sound has its own Creative Commons
+  licence from the uploader, so whether a given sound can be used commercially depends on that licence
+  (CC BY-NC sounds cannot). The API must not be used to replicate Freesound or make full copies of the
+  database.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed

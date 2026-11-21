@@ -27,3 +27,9 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+notes: Read superheroapi.com (docs page); it states no licence, terms of use, commercial-use or caching
+  rules (/about.html returns a not-found page). Access token via GitHub login. Character data and images
+  concern Marvel/DC and other publishers' characters; the API grants no rights to that underlying content.
+  All terms left unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -4,7 +4,7 @@ url: https://tickermint.cards/developers
 category: Games & Comics
 description: Daily card prices and history for Pokémon, One Piece, Lorcana, Riftbound, Yu-Gi-Oh and Gundam
 description_source: upstream
-auth: none
+auth: apiKey
 https: true
 cors: 'no'
 sources:
@@ -13,13 +13,54 @@ sources:
   url: https://tickermint.cards/developers
   category: Games & Comics
 link_status: alive
-data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+data_license: proprietary (TickerMint API terms; prices via TCGplayer market data)
+commercial_use: paid-only
+storage_caching: limited
+redistribution_display: 'yes'
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: high
 link_checked_at: '2026-11-21'
+api_terms_url: https://tickermint.cards/terms
+commercial_use_scope: paid
+cache_limit: Cache prices at least 1 hour and no longer than 24 hours; no mirroring of full catalog/history
+attribution_text: 'Prices: TickerMint (visible link to the card page; not needed on API Platform/Enterprise)'
+share_alike: unknown
+rate_limits: 'No key: 25 lookups/day per IP; Developer 50,000/month; API Pro 250,000/month'
+notes: 'Read the TickerMint terms page (effective 2026-11-10). Auth corrected: a key now comes with a
+  paid plan (7-day trial); keyless calls are a 25/day sample. Commercial use requires API Pro or above;
+  no plan may mirror the catalog or history as a dataset. Mandatory visible link on most plans (none for
+  Platform/Enterprise). Card names and images are owned by their respective owners and TickerMint is unaffiliated
+  with the publishers; no rights to them granted. Prices derive from TCGplayer/eBay data (upstream rights
+  not assessed).'
+evidence:
+- field: commercial_use
+  url: https://tickermint.cards/terms
+  quote: Showing the data inside a product, site or tool a business runs or sells needs API Pro ($49 a
+    month)
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://tickermint.cards/terms
+  quote: Cache prices for at least an hour and no longer than 24 hours.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://tickermint.cards/terms
+  quote: Every plan may show prices in your product.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://tickermint.cards/terms
+  quote: 'a visible "Prices: TickerMint" link to the card''s page next to the prices you show'
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://tickermint.cards/terms
+  quote: 'With no key: 25 lookups a day per IP address'
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://tickermint.cards/terms
+  quote: No plan may copy or mirror the full catalog or price history as a dataset for redistribution
+    or a competing price service
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

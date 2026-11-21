@@ -15,12 +15,54 @@ sources:
   category: Video
 link_status: alive
 data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+commercial_use: ambiguous
+storage_caching: 'no'
+redistribution_display: 'yes'
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
+verdict: yellow
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://shoofaflam.tv/terms/
+attribution_text: Credit "Shoof Aflam" with a link to shoofaflam.tv (source page)
+evidence:
+- field: commercial_use
+  url: https://shoofaflam.tv/api-docs/
+  quote: مجاني للاستخدام الشخصي والتجاري
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://shoofaflam.tv/api-docs/
+  quote: بيانات ثابتة بصيغة JSON يمكنك استخدامها مجانا في مشاريعك.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://shoofaflam.tv/api-docs/
+  quote: 'يُرجى ذكر المصدر برابط: shoofaflam.tv'
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://shoofaflam.tv/terms/
+  quote: لا يجوز نسخ أي جزء من هذه المحتويات أو تخزينه أو إعادة نشره دون إذن خطّي مسبق
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://shoofaflam.tv/terms/
+  quote: يجب أن يكون مصحوباً برابط نشط وبارز إلى الصفحة المصدر على shoofaflam.tv
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.themoviedb.org/api-terms-of-use
+  quote: The license in Paragraph 1.A above does not permit any commercial use of TMDB, the TMDB APIs,
+    or TMDB Content.
+  checked_at: '2026-11-21'
+notes: 'API docs page (Arabic) says the static JSON API is free for personal AND commercial use with source
+  credit and a link, no rate limit, data refreshed daily via TMDB. The site Terms of Use (shoofaflam.tv/terms,
+  updated 18 Oct 2026) conflict in part: copying/storing/republishing site content needs prior written
+  permission (except fair use), reuse needs a prominent active link plus the name, and resale of the compiled
+  databases or mirror sites needs permission; AI/search use allowed. Titles, posters and descriptions
+  come from TMDB (''uses the TMDB API but is not endorsed by TMDB''), whose own terms govern that metadata
+  and artwork and which Shoof Aflam cannot sublicense; films/posters are studio property. Hence commercial_use
+  and storage ambiguous. Page read: Arabic-language docs plus Terms.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Upstream TMDB forbids commercial use/sublicensing without written agreement; Own ToS
+  forbids storing/copying content without written permission, conflicting with API page | applied: storage_caching=no'

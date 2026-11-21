@@ -23,3 +23,8 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+notes: 'Read https://www.audiomack.com/data-api/docs (technical docs: OAuth 1.0a, endpoints for songs, artists, charts) and
+  the general site ToS https://audiomack.com/about/terms-of-service. No API terms, licence or commercial/caching clause found
+  (https://audiomack.com/about/api-terms is 404). Content is uploaded by third-party artists/labels. Everything left unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

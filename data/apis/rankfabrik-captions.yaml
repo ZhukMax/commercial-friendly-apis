@@ -23,3 +23,12 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://rankfabrik.com/conditions
+notes: 'Paid per-result API returning timestamped transcripts of public YouTube videos (existing captions
+  only). Terms of use (rankfabrik.com/conditions, last updated 17 August 2026) cover billing, availability
+  and that results are not stored by RankFabrik; they say the client remains responsible for how it uses
+  the collected data and that RankFabrik is not affiliated with the source platforms. They grant no licence
+  to the captions themselves: caption text belongs to video creators and is subject to the source platform''s
+  terms. Commercial use, caching, display and attribution are not addressed, so unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

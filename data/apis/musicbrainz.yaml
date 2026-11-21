@@ -17,14 +17,75 @@ sources:
   url: https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2
   category: Music
 link_status: redirect
-data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
-bulk_download: unknown
-self_host_option: unknown
-verdict: unknown
-confidence: low
+data_license: CC0-1.0 (core data); CC-BY-NC-SA-3.0 (supplementary data, Live Data Feed)
+commercial_use: paid-only
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: ambiguous
+bulk_download: 'yes'
+self_host_option: 'yes'
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
 link_note: -> https://musicbrainz.org/doc/MusicBrainz_API
+data_license_url: https://musicbrainz.org/doc/About/Data_License
+api_terms_url: https://musicbrainz.org/doc/MusicBrainz_API
+commercial_use_scope: paid
+share_alike: unknown
+rate_limits: Max ONE call per second per client application; meaningful User-Agent required; IP may be
+  blocked
+evidence:
+- field: commercial_use
+  url: https://musicbrainz.org/doc/MusicBrainz_API
+  quote: Non-commercial use of this web service is free; please see our commercial plans or contact us
+    if you would like to use this service commercially.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://musicbrainz.org/doc/About/Data_License
+  quote: The core data of the database is licensed under the CC0
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://musicbrainz.org/doc/About/Data_License
+  quote: The remaining portions of the database are released under the Creative Commons Attribution-NonCommercial-ShareAlike
+    3.0 license.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://musicbrainz.org/doc/About/Data_License
+  quote: This means that anyone can download and use the core data in any way they see fit.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://musicbrainz.org/doc/About/Data_License
+  quote: This means that anyone can download and use the core data in any way they see fit.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://musicbrainz.org/doc/MusicBrainz_API
+  quote: All users of the API must ensure that each of their client applications never make more than
+    ONE call per second.
+  checked_at: '2026-11-21'
+- field: bulk_download
+  url: https://metabrainz.org/datasets
+  quote: The MetaBrainz core mission is to curate and maintain public datasets that anyone can download
+    and use.
+  checked_at: '2026-11-21'
+- field: self_host_option
+  url: https://metabrainz.org/datasets
+  quote: everything needed to run your own copy of MusicBrainz is included
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://musicbrainz.org/doc/About/Data_License
+  quote: This allows for non-commercial use of the data as long as MusicBrainz is given credit
+  checked_at: '2026-11-21'
+notes: 'Two levels: data is mostly CC0 (core) with supplementary parts CC BY-NC-SA 3.0, but the hosted
+  web service is free for non-commercial use only; commercial use needs a paid MetaBrainz commercial plan
+  (tiers from $100/month on the supporters page; a non-profit/stealth tier at $0 exists). Storage/display/attribution
+  evidence applies to CC0 core data only; supplementary data needs credit, non-commercial and share-alike,
+  hence attribution ambiguous and share_alike unknown. Link redirects to /doc/MusicBrainz_API (read).
+  MusicBrainz metadata describes recordings but grants no rights to the music itself; cover art is hosted
+  by the Cover Art Archive with its own licences (not checked).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Re-read MusicBrainz API page: non-commercial free, commercial plan needed; supporters
+  page lists paid tiers from $100/month. Core data CC0, supplementary CC BY-NC-SA. No further blocker;
+  cover art licences remain separate.'

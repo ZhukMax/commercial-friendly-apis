@@ -27,3 +27,8 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+notes: GET https://l2calendar.com/api/servers returns an open JSON list (no key) of Lineage 2 private servers with name, website, rate, chronicle and opening date. No terms, API documentation or licence
+  page was found on the site (/terms, /api, /docs return nothing; the homepage links have no legal or API pages). Lineage 2 is a trademark of NCSoft; entries are submitted by server owners (VIP/paid placement),
+  so data rights are unclear. All terms unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

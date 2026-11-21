@@ -23,3 +23,9 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+notes: swapi.tech is a personal re-implementation of SWAPI by a teacher ('a way to provide a standard
+  API for my students'). Home, About and Documentation pages (JS-rendered, read via Playwright) contain
+  no terms of use or data licence; the site shows Google AdSense scripts and promo banners. Star Wars
+  content is owned by Lucasfilm/Disney; no rights granted. All terms fields unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

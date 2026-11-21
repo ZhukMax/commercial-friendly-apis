@@ -17,9 +17,29 @@ data_license: unknown
 commercial_use: unknown
 storage_caching: unknown
 redistribution_display: unknown
-attribution_required: unknown
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://api.mangaupdates.com/
+attribution_text: Credit MangaUpdates when using API data
+rate_limits: Reasonable spacing between requests; caching expected (no numeric limit)
+notes: 'Read the Acceptable Use Policy on the API docs page: credit required, reasonable request spacing,
+  use caching, no deceiving/illegal/spam/database-damaging use; no warranties. The policy does not address
+  commercial use, storage duration or redistribution/display, and the data (series info, covers) concerns
+  works whose rights belong to publishers/licensors and is partly user-contributed; none granted here.
+  Core terms unknown.'
+evidence:
+- field: attribution_required
+  url: https://api.mangaupdates.com/
+  quote: You will credit MangaUpdates when using data provided by this API.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://api.mangaupdates.com/
+  quote: You will use reasonable spacing between requests so as not to overwhelm the MangaUpdates servers,
+    and employ caching mechanisms when accessing data.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

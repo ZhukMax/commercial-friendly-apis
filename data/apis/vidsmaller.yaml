@@ -21,5 +21,14 @@ attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: Video compression service (processes the user's own files); not a data source
+api_terms_url: https://vidsmaller.com/terms-of-service
+notes: Read https://vidsmaller.com/api-docs and https://vidsmaller.com/terms-of-service (Playwright). The API compresses videos
+  you upload or link and returns a re-encoded file; it provides no content dataset. Terms say you keep your rights in your
+  files and ban reselling VidSmaller as a compression API. Only the free /platforms and /estimate endpoints return data (upload
+  limits of social platforms), with no licence stated.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

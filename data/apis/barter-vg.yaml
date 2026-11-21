@@ -20,6 +20,11 @@ redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+notes: 'Read the GitHub wiki (API v1 docs, "Getting started"; the wiki states it is focused on the API) and the repo README: the repo is MIT licensed with the remark "Data and files not included in this
+  repo may have different licenses." No page found that states terms for the API data (commercial use, caching, display). The data covers games, bundles, giveaways and user trade data (user-generated, store/publisher
+  content). All core terms unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: unknown

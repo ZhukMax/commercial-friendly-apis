@@ -12,7 +12,7 @@ sources:
   name: Fun Fact
   url: https://api.aakhilv.me
   category: Entertainment
-link_status: alive
+link_status: dead
 data_license: unknown
 commercial_use: unknown
 storage_caching: unknown
@@ -23,3 +23,7 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+link_note: api.aakhilv.me redirects (302) to unrelated third-party domain survey-twist.com
+notes: The listed domain api.aakhilv.me now redirects to an unrelated parked/advert domain, and no API or terms page could be read. Service looks gone. Terms left unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

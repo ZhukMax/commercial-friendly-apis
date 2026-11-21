@@ -14,12 +14,35 @@ sources:
   category: Games & Comics
 link_status: alive
 data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
+commercial_use: ambiguous
+storage_caching: 'yes'
 redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://dotasense.com/cheat-sheet
+commercial_use_scope: any
+notes: Cheat-sheet page invites tool builders to use the free JSON/CSV endpoints (no auth, CORS open)
+  and says to cache the response and link/cite the canonical page when quoting a timing (a suggestion,
+  not clearly mandatory). The site Terms of Service (dotasense.com/terms) are written for the app/website
+  and limit the publicly deployed version to "personal, non-commercial gaming purposes only"; the data
+  endpoints are not covered explicitly, hence commercial_use=ambiguous. No data licence stated; timings
+  are facts derived from Valve patch notes (Valve is not affiliated). The JSON endpoint returned usage_exceeded
+  when probed, so its fields were not seen.
+evidence:
+- field: commercial_use
+  url: https://dotasense.com/terms
+  quote: You may access and use the publicly deployed version of this software at https://dotasense.com
+    for personal, non-commercial gaming purposes only.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://dotasense.com/cheat-sheet
+  quote: Cache the response and check reviewedAt after major patches.
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: yellow
+second_check_at: '2026-11-21'
+second_check: confirmed

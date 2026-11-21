@@ -17,7 +17,7 @@ sources:
   url: http://developers.gettyimages.com/en/
   category: Photography
 link_status: redirect
-data_license: unknown
+data_license: proprietary (per-asset Getty Images licence)
 commercial_use: unknown
 storage_caching: unknown
 redistribution_display: unknown
@@ -28,3 +28,15 @@ verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
 link_note: -> https://developer.gettyimages.com/en/
+data_license_url: https://www.gettyimages.com/eula
+evidence:
+- field: data_license
+  url: https://www.gettyimages.com/eula
+  quote: This is a license agreement between you and Getty Images that explains how you can use photos, illustrations, vectors, and video clips
+  checked_at: '2026-11-21'
+notes: 'Read https://developer.gettyimages.com/ and /docs/ (API access is by contract: "Please contact your Getty Images account rep to discuss API access and licensing options"; keys are tied to the customer
+  licence agreement) and the Getty Images Content License Agreement (https://www.gettyimages.com/eula, general licence for licensed content). No public API terms of use found (developers.gettyimages.com/en/terms/
+  is 404). Content is third-party (photographers, agencies); rights come only with a negotiated licence. Rate limits are set per key. Commercial use, caching, display rights depend on the contract: all
+  unknown. Cache note: docs only describe HTTP response caching (e.g. 24 h for creative search).'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

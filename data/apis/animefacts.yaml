@@ -12,7 +12,7 @@ sources:
   name: AnimeFacts
   url: https://chandan-02.github.io/anime-facts-rest-api/
   category: Anime
-link_status: alive
+link_status: dead
 data_license: unknown
 commercial_use: unknown
 storage_caching: unknown
@@ -23,3 +23,8 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+link_note: documented endpoint https://anime-facts-rest-api.herokuapp.com/api/v1 returns Heroku "No such app"
+notes: Docs page (GitHub Pages) lists only a Heroku-hosted endpoint, which answers "No such app", so the hosted API is gone. The repo chandan-02/anime-facts-rest-api has an MIT LICENSE (software only; not
+  a data licence). No data terms found; the facts concern third-party anime works. Terms left unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -23,3 +23,8 @@ self_host_option: unknown
 verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+notes: Only the RapidAPI marketplace listing (rapidapi.com/pierre.carcellermeunier/api/mangapi3/) exists as the source; it is a JS app that returned no readable text via curl or a headless browser, so no
+  provider terms or RapidAPI plan terms were read. The description (translate manga pages you submit) suggests a processing tool rather than a data source, and manga pages are third-party licensor works.
+  Terms left unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5

@@ -18,12 +18,43 @@ sources:
   category: Photography
 link_status: alive
 data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
+commercial_use: 'yes'
+storage_caching: limited
 redistribution_display: unknown
-attribution_required: unknown
+attribution_required: ambiguous
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
+verdict: yellow
 confidence: low
 link_checked_at: '2026-11-21'
+api_terms_url: https://docs.pexafy.com
+evidence:
+- field: attribution_required
+  url: https://docs.pexafy.com
+  quote: Every photo is free to use, no attribution required.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://pexafy.com/legal/terms/
+  quote: Cache API responses to serve them in place of live API calls beyond a reasonable period (max
+    24 hours for search results)
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://pexafy.com/legal/licenses/
+  quote: All sources in our index offer free licenses allowing broad commercial use without mandatory
+    attribution.
+  checked_at: '2026-11-21'
+notes: 'Read https://docs.pexafy.com (curl and Playwright). The main site pexafy.com and /terms sit behind
+  a Cloudflare bot check and were not read, so the service own terms are unread. The docs claim every
+  photo is free to use with no attribution required, but the photos come from other libraries whose API/licence
+  terms differ: Unsplash API guidelines require photographer and Unsplash credit, and Pexels API guidelines
+  require a prominent link to Pexels. The claim therefore conflicts with the upstream rules (attribution_required
+  = ambiguous). Commercial use, caching and display rights are not stated on the pages read, so unknown.
+  Upstream libraries (data_license left unknown): Unsplash, Pexels, Pixabay, Kaboompics, Burst, StockSnap,
+  Picjumbo, Skitterphoto, NegativeSpace, each under its own licence.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'AUP caps caching at 24 hours so storage is limited; Licences page states commercial
+  use allowed for all sources; Terms bar reselling raw data as competing search service | applied: commercial_use=yes,
+  storage_caching=limited'

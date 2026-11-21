@@ -20,6 +20,18 @@ redistribution_display: unknown
 attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
 confidence: low
 link_checked_at: '2026-11-21'
+rate_limits: '"Very generous" limits (unspecified); 429 + Retry-After; identifying User-Agent requested'
+evidence:
+- field: rate_limits
+  url: https://playerdb.co/
+  quote: Very generous rate limits are in place, and normal usage should never come close to hitting them.
+  checked_at: '2026-11-21'
+notes: Only the playerdb.co landing/docs page was read; no terms of service, licence or usage policy found.
+  It proxies/caches account data (usernames, IDs, avatars) from Mojang/Minecraft, Hytale, Steam and Xbox;
+  footer says Minecraft content is trademark/copyright of Mojang AB and the site is not affiliated with
+  Mojang. The upstream platforms' terms apply and were not assessed. All core terms unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+verdict: unknown

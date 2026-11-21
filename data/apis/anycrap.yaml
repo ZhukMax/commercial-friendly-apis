@@ -13,13 +13,58 @@ sources:
   url: https://anycrap.shop/developers
   category: Entertainment
 link_status: alive
-data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+data_license: 'no formal licence: terms say the content is open for use for any purpose (AI-generated,
+  no exclusive rights claimed)'
+commercial_use: 'yes'
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'no'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: green
+confidence: medium
 link_checked_at: '2026-11-21'
+data_license_url: https://anycrap.shop/terms
+api_terms_url: https://anycrap.shop/terms
+commercial_use_scope: any
+attribution_text: 'Optional: a shout-out or link back to anycrap.shop'
+share_alike: unknown
+rate_limits: 60 requests/minute per API key
+notes: 'Terms of Use section 5 "Content and Open Usage" lets anyone use, share, reproduce or remix the
+  products, descriptions and images for any purpose, attribution not required. Caveats: the clause concerns
+  the website content and no separate API terms were found on anycrap.shop/developers (free API key, 60
+  req/min); section 10 asks to avoid scraping that overloads servers; the content is AI-generated and
+  fictional (and the site says it makes no copyright claim, so legal protectability is unclear). Storage/display
+  rest on the same "use, share, reproduce, or remix" clause.'
+evidence:
+- field: commercial_use
+  url: https://anycrap.shop/terms
+  quote: Feel free to use, share, reproduce, or remix any content from anycrap.shop.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://anycrap.shop/terms
+  quote: All the absurd products, descriptions, and images are available for anyone to use for any purpose.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://anycrap.shop/terms
+  quote: Feel free to use, share, reproduce, or remix any content from anycrap.shop.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://anycrap.shop/terms
+  quote: we'd appreciate a shout-out or link back to us, but it's not required
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://anycrap.shop/terms
+  quote: We don't claim exclusive rights to AI-generated content, so go wild with it!
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://anycrap.shop/developers
+  quote: 'Rate limit: 60 requests/minute per key.'
+  checked_at: '2026-11-21'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Read /terms (updated 2026-10-28), /developers, /privacy. Only caveats: s10 avoid overloading
+  scraping, 60 req/min per key, AI-generated fictional content, no copyright claim so legal protectability
+  unclear; images served from cdn.crapify.me.'

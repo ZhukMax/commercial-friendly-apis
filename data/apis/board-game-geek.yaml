@@ -4,7 +4,7 @@ url: https://boardgamegeek.com/wiki/page/BGG_XML_API2
 category: Games & Comics
 description: Board games, RPG and videogames
 description_source: upstream
-auth: none
+auth: apiKey
 https: true
 cors: 'no'
 sources:
@@ -13,14 +13,66 @@ sources:
   url: https://boardgamegeek.com/wiki/page/BGG_XML_API2
   category: Games & Comics
 link_status: alive
-data_license: unknown
-commercial_use: unknown
+data_license: Proprietary (BGG XML API licence; Wikipedia-sourced text CC BY-NC-SA 3.0)
+commercial_use: ambiguous
 storage_caching: unknown
-redistribution_display: unknown
-attribution_required: unknown
+redistribution_display: ambiguous
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
-link_note: HTTP 403 (blocked for bots, assumed alive)
+link_note: curl blocked by Cloudflare (403); pages read via Playwright
+data_license_url: https://boardgamegeek.com/wiki/page/XML_API_Terms_of_Use
+api_terms_url: https://boardgamegeek.com/wiki/page/XML_API_Terms_of_Use
+commercial_use_scope: any
+attribution_text: Credit BoardGameGeek by name as the source and show the "Powered by BGG" logo linked
+  back to BoardGameGeek
+share_alike: unknown
+rate_limits: Registration/authorization token required; usage limits apply (see Using the XML API)
+evidence:
+- field: commercial_use
+  url: https://boardgamegeek.com/using_the_xml_api
+  quote: All commercial applications will require a commercial license.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://boardgamegeek.com/using_the_xml_api
+  quote: we usually a free commercial license until you have 1000 users.
+  checked_at: '2026-11-21'
+- field: redistribution_display
+  url: https://boardgamegeek.com/wiki/page/XML_API_Terms_of_Use
+  quote: license to reproduce and display the data available through the BGG XML API, including User Submissions,
+    solely for strictly non-commercial purposes
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://boardgamegeek.com/wiki/page/XML_API_Terms_of_Use
+  quote: you shall credit BoardGameGeek by name as the source of the data.
+  checked_at: '2026-11-21'
+- field: attribution_text
+  url: https://boardgamegeek.com/wiki/page/XML_API_Terms_of_Use
+  quote: We require that you include the "Powered by BGG" logo (linked back to BoardGameGeek) in public-facing
+    uses
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://boardgamegeek.com/wiki/page/XML_API_Terms_of_Use
+  quote: You may not modify the data, including User Submissions, retrieved through the BGG XML API in
+    any way.
+  checked_at: '2026-11-21'
+- field: share_alike
+  url: https://boardgamegeek.com/wiki/page/XML_API_Terms_of_Use
+  quote: Creative Commons Attribution-NonCommercial-ShareAlike
+  checked_at: '2026-11-21'
+notes: 'Read XML API Terms of Use and "Using the XML API" via Playwright (curl gets a Cloudflare block).
+  Registration and an authorization token are mandatory (auth fixed from none to apiKey). Free licence
+  only for strictly non-commercial use; a site with ads or sales is "commercial" and needs a commercial
+  licence granted case by case (often free up to ~1000 users for ad-funded apps, paid for sales; BGG may
+  refuse apps it deems competing). So commercial_use is ambiguous, not a flat yes; mandatory "Powered
+  by BGG" logo means at best yellow. Data may not be modified; storage/caching is not addressed -> unknown.
+  Use to train AI/LLMs prohibited. Data includes user submissions, publisher cover art and Wikipedia text
+  under CC BY-NC-SA: BGG grants no rights in third-party game content. Terms may change at any time ("proceed
+  at your own risk").'
+checked_at: '2026-11-21'
+checked_by: Claude Sonnet 5.5
+second_check_at: '2026-11-21'
+second_check: confirmed

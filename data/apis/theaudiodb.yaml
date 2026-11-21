@@ -13,13 +13,57 @@ sources:
   url: https://www.theaudiodb.com/
   category: Music
 link_status: alive
-data_license: unknown
-commercial_use: unknown
-storage_caching: unknown
+data_license: proprietary / mixed (user-contributed, mostly custom artwork; per-artwork CC flag strCreativeCommons)
+commercial_use: ambiguous
+storage_caching: 'yes'
 redistribution_display: unknown
-attribution_required: unknown
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
-confidence: low
+verdict: yellow
+confidence: medium
 link_checked_at: '2026-11-21'
+api_terms_url: https://www.theaudiodb.com/docs_terms_of_use.php
+data_license_url: https://www.theaudiodb.com/docs_terms_of_use.php
+attribution_text: Mention TheAudioDB as the source of data/artwork (paid-plan clause); link back where
+  appropriate
+rate_limits: Free 30 requests/min; Premium 100/min; Business 120/min
+evidence:
+- field: commercial_use
+  url: https://www.theaudiodb.com/docs_terms_of_use.php
+  quote: You cannot publish apps to an appstore unless you are a paid subscriber.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://www.theaudiodb.com/docs_terms_of_use.php
+  quote: You may use our API to develop apps and services as long as you stay within the rate limit.
+  checked_at: '2026-11-21'
+- field: storage_caching
+  url: https://www.theaudiodb.com/docs_terms_of_use.php
+  quote: You can scrape, copy and modify any content returned from the API, as long as you use the official
+    end points.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://www.theaudiodb.com/docs_terms_of_use.php
+  quote: You can use our custom artwork in your projects but must mention us as the source of the data.
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://www.theaudiodb.com/docs_terms_of_use.php
+  quote: You can check the 'strCreativeCommons' tag on artist artwork to make sure its CC licensed.
+  checked_at: '2026-11-21'
+- field: rate_limits
+  url: https://www.theaudiodb.com/free_music_api
+  quote: Free users 30 requests per minute.
+  checked_at: '2026-11-21'
+notes: 'Read the Terms of Use (2025-07-01), the API guide and the pricing page. Free tier: "development
+  projects" only, no app-store publishing; paid tiers (EUR 8 / EUR 20 per month) may develop "apps and
+  services". The word commercial is never used, so commercial_use is ambiguous (not paid-only). Content
+  may be copied/stored via official endpoints; reselling the API is forbidden; third-party content needs
+  the owner''s permission; most artwork is user-created fan art with unclear rights and only some is flagged
+  CC (strCreativeCommons), and artist/album/track metadata concerns third-party music rights. Display/redistribution
+  not explicit: unknown.'
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: confirmed
+second_check_note: 'Terms re-read: free tier for development projects only, paid tier for apps and services;
+  third-party content needs owner permission; artwork mostly user-made. Ambiguity stands.'

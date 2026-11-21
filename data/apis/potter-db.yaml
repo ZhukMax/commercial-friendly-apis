@@ -13,13 +13,47 @@ sources:
   url: https://potterdb.com
   category: Video
 link_status: alive
-data_license: unknown
-commercial_use: unknown
+data_license: MIT (stated for Potter DB; underlying content from the Harry Potter Wiki and J.K. Rowling/Warner
+  Bros. works)
+commercial_use: ambiguous
 storage_caching: unknown
 redistribution_display: unknown
-attribution_required: unknown
+attribution_required: 'yes'
 bulk_download: unknown
 self_host_option: unknown
-verdict: unknown
+verdict: yellow
 confidence: low
 link_checked_at: '2026-11-21'
+data_license_url: https://potterdb.com/about
+api_terms_url: https://potterdb.com/about
+evidence:
+- field: data_license
+  url: https://potterdb.com/about
+  quote: Potter DB operates under the MIT License
+  checked_at: '2026-11-21'
+- field: data_license
+  url: https://potterdb.com/about
+  quote: Potter DB does not claim any ownership over the data displayed on this website.
+  checked_at: '2026-11-21'
+- field: commercial_use
+  url: https://potterdb.com/about
+  quote: Potter DB does not claim any ownership over the data displayed on this website.
+  checked_at: '2026-11-21'
+- field: attribution_required
+  url: https://harrypotter.fandom.com/wiki/Harry_Potter_Wiki:Copyrights
+  quote: Except where otherwise specified, the text on Wikia sites is licensed under the Creative Commons
+    Attribution-Share Alike License 3.0 (Unported) (CC-BY-SA).
+  checked_at: '2026-11-21'
+notes: Read potterdb.com/about (Copyright Information), the docs intro and the GitHub licence metadata
+  (MIT, code repository danielschuster-muc/potter-db). Potter DB states it operates under the MIT licence
+  but also that it does not own the data, which was scraped from open sources such as the Harry Potter
+  Wiki (Fandom, whose text is normally CC BY-SA, not verified here), and that it is not affiliated with
+  J.K. Rowling or Warner Bros. The MIT licence presumably covers the project's own code/compilation; rights
+  in the underlying Harry Potter content (characters, film material) stay with their owners and are not
+  granted. No explicit commercial-use, caching or attribution statement, hence ambiguous/unknown.
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
+second_check_at: '2026-11-21'
+second_check: disputed
+second_check_note: 'Upstream wiki text licensed CC BY-SA requires attribution; Film/book IP stays with
+  Warner Bros/Rowling | applied: attribution_required=yes'

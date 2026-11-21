@@ -4,7 +4,7 @@ url: https://screenshotlayer.com
 category: Photography
 description: URL to screenshot
 description_source: upstream
-auth: none
+auth: apiKey
 https: true
 cors: unknown
 sources:
@@ -25,5 +25,13 @@ attribution_required: unknown
 bulk_download: unknown
 self_host_option: unknown
 verdict: unknown
-confidence: low
+confidence: medium
 link_checked_at: '2026-11-21'
+applicable: false
+not_applicable_reason: 'Tool: URL-to-screenshot rendering API (apilayer); returns images of pages you submit, not a data set'
+notes: 'Read https://screenshotlayer.com (docs on the landing page) and https://screenshotlayer.com/terms (Terms of Use & API License Agreement with apilayer Data Products GmbH, last modified 2018-02-17).
+  Auth corrected from none to apiKey: every request needs access_key. Screenshots show third-party websites, which carry their owners rights.'
+api_terms_url: https://screenshotlayer.com/terms
+evidence: []
+checked_at: '2026-11-21'
+checked_by: claude-sonnet-5-5
