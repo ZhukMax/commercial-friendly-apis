@@ -4,7 +4,7 @@ Public API lists tell you whether an API needs a key, HTTPS or CORS. They don't 
 
 > ⚠️ **Not legal advice.** Terms change. Always re-read the linked terms before you ship.
 
-**2051** APIs listed (716 more kept for reference as not applicable) · **1791** checked · 🟢 187 · 🟡 761 · 🔴 139 · ⚪ 964 · last check: 2026-11-21
+**2054** APIs listed (716 more kept for reference as not applicable) · **1794** checked · 🟢 188 · 🟡 763 · 🔴 139 · ⚪ 964 · last check: 2026-11-22
 
 ## Legend
 
@@ -44,6 +44,7 @@ Scenario judged: a public website with ads and affiliate links that stores and r
 | [Boletín Oficial del Estado (BOE)](https://www.boe.es/datosabiertos/) | Official Spanish State Gazette open data: laws, summaries and XML/JSON APIs | 🟢 | ✅ | ✅ | required | [terms](https://www.boe.es/informacion/aviso_legal/index.php) | 2026-11-21 |
 | [BTU Graph](https://btugraph.com/data/) | Source-reviewed energy company knowledge graph and directory exports | 🟢 | ✅ | ✅ | required | [terms](https://btugraph.com/data/) | 2026-11-21 |
 | [Buku Indonesia](https://github.com/khrlanamm/buku-indonesia) | Open data for Indonesian books by ISBN, author, and category | 🟢 | ✅ | ✅ | not required | [terms](https://github.com/khrlanamm/buku-indonesia) | 2026-11-21 |
+| [Bureau of Economic Analysis](https://apps.bea.gov/API/signup/) | US economic accounts: GDP, personal income and regional price parities (cost of living) by state and metro area | 🟢 | ✅ | ✅ | required | [terms](https://apps.bea.gov/API/_pdf/bea_api_tos.pdf) | 2026-11-22 |
 | [Bureau of Labor Statistics](https://www.bls.gov/developers/) | US labor statistics: inflation, unemployment, wages and productivity | 🟢 | ✅ | ✅ | required | [terms](https://www.bls.gov/developers/termsOfService.htm) | 2026-11-21 |
 | [CalcBloc](https://calcbloc.com/developers) | Take-home pay, employer cost and official tax tables for US, UK, AU, NZ, CA, IE, IN | 🟢 | ✅ | ✅ | required | [terms](https://calcbloc.com/developers/terms) | 2026-11-21 |
 | [CardZ Marketcap](https://cardzmarketcap.com/data) | Daily PSA 10 market cap, prices and population for Pokémon and One Piece cards | 🟢 | ✅ | ✅ | required | [terms](https://cardzmarketcap.com/data) | 2026-11-21 |
@@ -240,7 +241,7 @@ Scenario judged: a public website with ads and affiliate links that stores and r
 | [Food & Drink](categories/food-drink.md) | 39 | 3 | 17 | 2 | 17 |
 | [Games & Comics](categories/games-comics.md) | 128 | 4 | 44 | 11 | 69 |
 | [Geocoding](categories/geocoding.md) | 138 | 9 | 70 | 2 | 57 |
-| [Government](categories/government.md) | 156 | 38 | 62 | 5 | 51 |
+| [Government](categories/government.md) | 159 | 39 | 64 | 5 | 51 |
 | [Health](categories/health.md) | 57 | 9 | 24 | 4 | 20 |
 | [Jobs](categories/jobs.md) | 48 | 5 | 13 | 0 | 30 |
 | [Machine Learning](categories/machine-learning.md) | 22 | 3 | 3 | 1 | 15 |
@@ -276,6 +277,8 @@ Machine-readable dataset: [`dist/apis.json`](dist/apis.json) (built from `data/a
 API names, URLs and descriptions were imported from two MIT-licensed lists (full notices in [NOTICE](NOTICE)):
 - [public-apis/public-apis](https://github.com/public-apis/public-apis) @ `867085c`
 - [public-api-lists/public-api-lists](https://github.com/public-api-lists/public-api-lists) @ `6491e2f`
+
+Entries whose `sources` list is `direct` were added to this catalog directly; their descriptions are our own.
 
 ## License
 

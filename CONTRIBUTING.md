@@ -4,7 +4,7 @@ Every verdict must be provable. A pull request that sets a terms field without e
 
 ## Add or update an API
 
-1. Create or edit `data/apis/<id>.yaml` (id = lowercase slug, equal to the file name). Schema: `schema/api.schema.json`.
+1. Create or edit `data/apis/<id>.yaml` (id = lowercase slug, equal to the file name). Schema: `schema/api.schema.json`. An API that is not in either source list gets `sources: [{list: direct, name: ..., url: ...}]` and its own description (`description_source: own`).
 2. Open the real terms page and fill: `commercial_use`, `storage_caching`, `redistribution_display`, `attribution_required`, `share_alike`, `data_license`.
 3. For **every** field that is not `unknown`, add an `evidence` entry:
    ```yaml

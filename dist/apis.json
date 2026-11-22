@@ -1,6 +1,6 @@
 {
- "generated_for": "2026-11-21",
- "count": 2767,
+ "generated_for": "2026-11-22",
+ "count": 2770,
  "apis": [
   {
    "id": "0x",
@@ -16331,6 +16331,81 @@
    "second_check_at": "2026-11-21",
    "second_check": "disputed",
    "second_check_note": "ToS limits transcripts to personal research; third-party YouTube captions; not usable for commercial site | applied: commercial_use=ambiguous"
+  },
+  {
+   "id": "bea",
+   "name": "Bureau of Economic Analysis",
+   "url": "https://apps.bea.gov/API/signup/",
+   "category": "Government",
+   "description": "US economic accounts: GDP, personal income and regional price parities (cost of living) by state and metro area",
+   "description_source": "own",
+   "auth": "apiKey",
+   "https": true,
+   "cors": "unknown",
+   "sources": [
+    {
+     "list": "direct",
+     "name": "Bureau of Economic Analysis",
+     "url": "https://apps.bea.gov/API/signup/",
+     "category": "Government"
+    }
+   ],
+   "link_status": "alive",
+   "link_checked_at": "2026-11-22",
+   "data_license": "public-domain (US government work)",
+   "api_terms_url": "https://apps.bea.gov/API/_pdf/bea_api_tos.pdf",
+   "commercial_use": "yes",
+   "commercial_use_scope": "any",
+   "storage_caching": "yes",
+   "redistribution_display": "yes",
+   "attribution_required": "yes",
+   "attribution_text": "This product uses the Bureau of Economic Analysis (BEA) Data API but is not endorsed or certified by BEA.",
+   "share_alike": "no",
+   "bulk_download": "unknown",
+   "self_host_option": "unknown",
+   "verdict": "green",
+   "confidence": "high",
+   "evidence": [
+    {
+     "field": "data_license",
+     "url": "https://www.bea.gov/about/policies-and-information/linking",
+     "quote": "unless stated otherwise, the information posted on the BEA Web site is in the public domain and may be used or reproduced without specific permission",
+     "checked_at": "2026-11-22"
+    },
+    {
+     "field": "commercial_use",
+     "url": "https://www.bea.gov/about/policies-and-information/linking",
+     "quote": "unless stated otherwise, the information posted on the BEA Web site is in the public domain and may be used or reproduced without specific permission",
+     "checked_at": "2026-11-22"
+    },
+    {
+     "field": "storage_caching",
+     "url": "https://www.bea.gov/about/policies-and-information/linking",
+     "quote": "unless stated otherwise, the information posted on the BEA Web site is in the public domain and may be used or reproduced without specific permission",
+     "checked_at": "2026-11-22"
+    },
+    {
+     "field": "redistribution_display",
+     "url": "https://apps.bea.gov/API/_pdf/bea_api_tos.pdf",
+     "quote": "You may use the BEA API to develop a service or service to search, display, analyze, retrieve, view and otherwise \"get\" information from BEA data.",
+     "checked_at": "2026-11-22"
+    },
+    {
+     "field": "attribution_required",
+     "url": "https://apps.bea.gov/API/_pdf/bea_api_tos.pdf",
+     "quote": "This product uses the Bureau of Economic Analysis (BEA) Data API but is not endorsed or certified by BEA.",
+     "checked_at": "2026-11-22"
+    },
+    {
+     "field": "share_alike",
+     "url": "https://www.bea.gov/about/policies-and-information/linking",
+     "quote": "unless stated otherwise, the information posted on the BEA Web site is in the public domain and may be used or reproduced without specific permission",
+     "checked_at": "2026-11-22"
+    }
+   ],
+   "notes": "Read the BEA API Terms of Service (PDF linked from the API sign-up page), the bea.gov Linking policy and Guidelines for Citing BEA. Data on bea.gov is public domain unless stated otherwise; the API ToS lets you build a service that displays and analyzes BEA data. Hard conditions: show the non-endorsement notice prominently, do not modify content while still naming BEA as the source, do not use the BEA name or logo to imply endorsement (the logo is allowed only as a link aid). A free API key (UserID) is required. The ToS quotes come from a PDF, so verify_quotes.py cannot check them automatically.",
+   "checked_at": "2026-11-22",
+   "checked_by": "claude-opus-5-5"
   },
   {
    "id": "bureau-of-labor-statistics",
@@ -41185,6 +41260,76 @@
    "not_applicable_reason": "Not a public data source (payment/e-mail/self-hosted software/account-scoped/demo/utility API); kept for reference."
   },
   {
+   "id": "fema-national-risk-index",
+   "name": "FEMA National Risk Index",
+   "url": "https://www.fema.gov/about/openfema/data-sets/national-risk-index-data",
+   "category": "Government",
+   "description": "Natural hazard risk scores and ratings for 18 hazards for every US county and census tract, as downloadable tables, shapefiles and geodatabases",
+   "description_source": "own",
+   "auth": "none",
+   "https": true,
+   "cors": "unknown",
+   "sources": [
+    {
+     "list": "direct",
+     "name": "FEMA National Risk Index",
+     "url": "https://www.fema.gov/about/openfema/data-sets/national-risk-index-data",
+     "category": "Government"
+    }
+   ],
+   "link_status": "alive",
+   "link_checked_at": "2026-11-22",
+   "data_license": "unknown",
+   "api_terms_url": "https://fema.maps.arcgis.com/home/item.html?id=9da4eeb936544335a6db0cd7a8448a51",
+   "commercial_use": "yes",
+   "commercial_use_scope": "any",
+   "storage_caching": "limited",
+   "cache_limit": "until FEMA asks you to stop using the data and destroy your copies",
+   "redistribution_display": "yes",
+   "attribution_required": "yes",
+   "attribution_text": "This product uses the Federal Emergency Management Agency's National Risk Index dataset API or downloadable datasets but is not endorsed by FEMA. The Federal Government or FEMA cannot vouch for the data or analyses derived from these data after the data have been retrieved from the Agency's website(s).",
+   "share_alike": "unknown",
+   "bulk_download": "yes",
+   "self_host_option": "unknown",
+   "verdict": "yellow",
+   "confidence": "medium",
+   "evidence": [
+    {
+     "field": "commercial_use",
+     "url": "https://www.arcgis.com/sharing/rest/content/items/9da4eeb936544335a6db0cd7a8448a51?f=json",
+     "quote": "Data accessed through the National Risk Index dataset API or downloadable datasets do not include controls over its end use.",
+     "checked_at": "2026-11-22"
+    },
+    {
+     "field": "redistribution_display",
+     "url": "https://www.arcgis.com/sharing/rest/content/items/9da4eeb936544335a6db0cd7a8448a51?f=json",
+     "quote": "Data accessed through the National Risk Index dataset API or downloadable datasets do not include controls over its end use.",
+     "checked_at": "2026-11-22"
+    },
+    {
+     "field": "storage_caching",
+     "url": "https://www.arcgis.com/sharing/rest/content/items/9da4eeb936544335a6db0cd7a8448a51?f=json",
+     "quote": "You agree you will cease using the data and destroy any copy you may have if requested by FEMA.",
+     "checked_at": "2026-11-22"
+    },
+    {
+     "field": "attribution_required",
+     "url": "https://www.arcgis.com/sharing/rest/content/items/9da4eeb936544335a6db0cd7a8448a51?f=json",
+     "quote": "National Risk Index dataset API or downloadable datasets but is not endorsed by FEMA.",
+     "checked_at": "2026-11-22"
+    },
+    {
+     "field": "bulk_download",
+     "url": "https://www.fema.gov/about/openfema/data-sets/national-risk-index-data",
+     "quote": "now available through the Resilience Analysis and Planning Tool (RAPT) or through data downloads from this page.",
+     "checked_at": "2026-11-22"
+    }
+   ],
+   "notes": "The OpenFEMA dataset page (fema.gov, read in a browser because curl gets HTTP 403) offers v1.20 (December 2025) downloads and says the NRI terms are on the National Risk Index Census Tracts item; those terms were read from that ArcGIS item (licenseInfo, via the ArcGIS REST URL used as evidence). End use is not controlled, but: the data are meant for planning purposes only and are not a substitute for a localized risk assessment (state this on pages); cite the dataset with its version and the retrieval date; show the non-endorsement notice; do not reverse engineer or derive the underlying input datasets; FEMA may rescind use and ask you to destroy copies, hence storage_caching limited and verdict yellow. The general OpenFEMA API terms (fema.gov/about/openfema/terms-conditions) add a no re-identification clause and say data are used \"solely for statistical research or as a reporting record\". hazards.fema.gov (the old NRI site) did not answer from curl or the browser on 2026-11-22. No data licence is stated.",
+   "checked_at": "2026-11-22",
+   "checked_by": "claude-opus-5-5"
+  },
+  {
    "id": "feriados-api",
    "name": "Feriados API",
    "url": "https://feriadosapi.com",
@@ -55313,6 +55458,69 @@
    "link_checked_at": "2026-11-21",
    "applicable": false,
    "not_applicable_reason": "Triage by name and description only (terms not read): not a data source. HTTP testing service"
+  },
+  {
+   "id": "hud-user",
+   "name": "HUD User",
+   "url": "https://www.huduser.gov/portal/dataset/fmr-api.html",
+   "category": "Government",
+   "description": "US Department of Housing and Urban Development data API with Fair Market Rents and Income Limits by county, metro area and ZIP code",
+   "description_source": "own",
+   "auth": "apiKey",
+   "https": true,
+   "cors": "unknown",
+   "sources": [
+    {
+     "list": "direct",
+     "name": "HUD User",
+     "url": "https://www.huduser.gov/portal/dataset/fmr-api.html",
+     "category": "Government"
+    }
+   ],
+   "link_status": "alive",
+   "link_checked_at": "2026-11-22",
+   "data_license": "unknown",
+   "api_terms_url": "https://www.huduser.gov/portal/dataset/api-terms-of-service.html",
+   "commercial_use": "ambiguous",
+   "storage_caching": "unknown",
+   "redistribution_display": "yes",
+   "attribution_required": "yes",
+   "attribution_text": "This product uses the HUD User Data API but is not endorsed or certified by HUD User.",
+   "share_alike": "unknown",
+   "rate_limits": "60 queries a minute",
+   "bulk_download": "unknown",
+   "self_host_option": "unknown",
+   "verdict": "yellow",
+   "confidence": "medium",
+   "evidence": [
+    {
+     "field": "redistribution_display",
+     "url": "https://www.huduser.gov/portal/dataset/api-terms-of-service.html",
+     "quote": "You may use the API to develop a service or service to search, display, analyze, retrieve, view and otherwise \"get\" information from HUD User.",
+     "checked_at": "2026-11-22"
+    },
+    {
+     "field": "attribution_required",
+     "url": "https://www.huduser.gov/portal/dataset/api-terms-of-service.html",
+     "quote": "\"This product uses the HUD User Data API but is not endorsed or certified by HUD User.\"",
+     "checked_at": "2026-11-22"
+    },
+    {
+     "field": "commercial_use",
+     "url": "https://www.huduser.gov/portal/dataset/api-terms-of-service.html",
+     "quote": "You may not use the HUD User name, or the like to imply endorsement of any product, service, or entity, not-for-profit, commercial or otherwise.",
+     "checked_at": "2026-11-22"
+    },
+    {
+     "field": "rate_limits",
+     "url": "https://www.huduser.gov/portal/dataset/api-terms-of-service.html",
+     "quote": "The limit on the maximum number of API calls is 60 queries a min.",
+     "checked_at": "2026-11-22"
+    }
+   ],
+   "notes": "Read the HUD User API Terms of Service, the FMR and Income Limits API page and the HUD User Disclaimer of Liability and Endorsement page. The ToS is the same template as the Census and BEA API terms: you may build a service that displays and analyzes the data, must show the non-endorsement notice prominently and must not modify content while naming HUD User as the source. It never says commercial use is allowed, says nothing on storage, and no public-domain or licence statement was found on huduser.gov, hud.gov Web Policies or the HUD ArcGIS items for Fair Market Rents (2026-11-22), hence commercial_use ambiguous and verdict yellow, like census-gov. Nothing forbids commercial display. A free access token is required.",
+   "checked_at": "2026-11-22",
+   "checked_by": "claude-opus-5-5"
   },
   {
    "id": "hugging-face",

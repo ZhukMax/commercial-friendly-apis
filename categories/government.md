@@ -1,12 +1,13 @@
 # Government
 
-> Generated file. 156 APIs: 🟢 38 · 🟡 62 · 🔴 5 · ⚪ 51. [Back to README](../README.md)
+> Generated file. 159 APIs: 🟢 39 · 🟡 64 · 🔴 5 · ⚪ 51. [Back to README](../README.md)
 
 | API | Description | Verdict | Commercial use | Storage | Attribution | Terms | Checked |
 |---|---|---|---|---|---|---|---|
 | [BCLaws](https://www.bclaws.gov.bc.ca/civix/template/complete/api/index.html) | Access to the laws of British Columbia | 🟢 | ✅ | ✅ | required | [terms](https://www.bclaws.gov.bc.ca/standards/Licence.html) | 2026-11-21 |
 | [Bidledger](https://jaydemks.github.io/bidledger/api.html) | Every open public tender in the European Union, rebuilt daily from the official TED data | 🟢 | ✅ | ✅ | ❓ unclear | [terms](https://jaydemks.github.io/bidledger/api.html) | 2026-11-21 |
 | [Boletín Oficial del Estado (BOE)](https://www.boe.es/datosabiertos/) | Official Spanish State Gazette open data: laws, summaries and XML/JSON APIs | 🟢 | ✅ | ✅ | required | [terms](https://www.boe.es/informacion/aviso_legal/index.php) | 2026-11-21 |
+| [Bureau of Economic Analysis](https://apps.bea.gov/API/signup/) | US economic accounts: GDP, personal income and regional price parities (cost of living) by state and metro area | 🟢 | ✅ | ✅ | required | [terms](https://apps.bea.gov/API/_pdf/bea_api_tos.pdf) | 2026-11-22 |
 | [Bureau of Labor Statistics](https://www.bls.gov/developers/) | US labor statistics: inflation, unemployment, wages and productivity | 🟢 | ✅ | ✅ | required | [terms](https://www.bls.gov/developers/termsOfService.htm) | 2026-11-21 |
 | [City, Toronto Open Data](https://open.toronto.ca/) | Toronto (CA) City Open Data | 🟢 ⚠️ | ✅ | ✅ | required | [terms](https://open.toronto.ca/open-data-licence/) | 2026-11-21 |
 | [ContaCLT](https://contaclt.com/dados/api/) | Brazilian payroll and labor calculations: net salary, INSS, IRRF, unemployment insurance | 🟢 | ✅ | ✅ | required | [terms](https://contaclt.com/dados/api/) | 2026-11-21 |
@@ -66,10 +67,12 @@
 | [EPA](https://www.epa.gov/developers/data-data-products) | Web services and data sets from the US Environmental Protection Agency | 🟡 | ❓ ambiguous | — | — | [terms](https://www.epa.gov/web-policies-and-procedures/epa-disclaimers) | 2026-11-21 |
 | [FBI Wanted](https://www.fbi.gov/wanted/api) | Access information on the FBI Wanted program | 🟡 | ✅ | ✅ | not required | [terms](https://www.fbi.gov/wanted/api) | 2026-11-21 |
 | [FEC](https://api.open.fec.gov/developers/) | Information on campaign donations in federal elections | 🟡 | ❓ ambiguous | — | — | [terms](https://api.open.fec.gov/developers/) | 2026-11-21 |
+| [FEMA National Risk Index](https://www.fema.gov/about/openfema/data-sets/national-risk-index-data) | Natural hazard risk scores and ratings for 18 hazards for every US county and census tract, as downloadable tables, shapefiles and geodataba | 🟡 | ✅ | ⚠️ limited | required | [terms](https://fema.maps.arcgis.com/home/item.html?id=9da4eeb936544335a6db0cd7a8448a51) | 2026-11-22 |
 | [FIRMSapi](https://docs.firmsapi.com/) | Look up, search and validate US CBP FIRMS facility codes for ports, warehouses and FTZs | 🟡 | ✅ | ⚠️ limited | — | [terms](https://firmsapi.com/terms/) | 2026-11-21 |
 | [gankdat](https://gankdat.com/docs) | UK & EU tenders, UK planning, UK sanctions, US exclusions, UK insolvency and incorporations as JSON | 🟡 ⚠️ | ✅ | — | required | [terms](https://gankdat.com/terms) | 2026-11-21 |
 | [Gazette Data, UK](https://www.thegazette.co.uk/data) | UK official public record API | 🟡 | ✅ | ⚠️ limited | required | [terms](https://www.thegazette.co.uk/data) | 2026-11-21 |
 | [GovContractScout](https://scout.govbidportals.com) | US state & local government contracts: search, details, NAICS lookup and AI match scoring | 🟡 | 💲 paid | ❓ ambiguous | — | [terms](https://scout.govbidportals.com/api-terms) | 2026-11-21 |
+| [HUD User](https://www.huduser.gov/portal/dataset/fmr-api.html) | US Department of Housing and Urban Development data API with Fair Market Rents and Income Limits by county, metro area and ZIP code | 🟡 | ❓ ambiguous | — | required | [terms](https://www.huduser.gov/portal/dataset/api-terms-of-service.html) | 2026-11-22 |
 | [MORVS](https://morvs.ai/api/) | Source-linked US regulatory and public records: SEC filings, enforcement actions, recalls | 🟡 ⚠️ | ❓ ambiguous | — | — | [terms](https://morvs.ai/terms) | 2026-11-21 |
 | [National Park Service, US](https://www.nps.gov/subjects/developer/) | Data from the US National Park Service | 🟡 | ✅ | ✅ | required | [terms](https://www.nps.gov/subjects/developer/) | 2026-11-21 |
 | [nu:legal Deutsches Recht](https://recht.nulegal.eu/developers) | German federal and state statutes and 640,000 court decisions as JSON, with citation links | 🟡 | ✅ | ✅ | required | [terms](https://recht.nulegal.eu/nutzungsbedingungen) | 2026-11-21 |
