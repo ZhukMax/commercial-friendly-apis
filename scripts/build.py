@@ -89,6 +89,7 @@ def build():
           "API names, URLs and descriptions were imported from two MIT-licensed lists (full notices in [NOTICE](NOTICE)):",
           f"- [public-apis/public-apis](https://github.com/public-apis/public-apis) @ `{SNAP['public-apis'][:7]}`",
           f"- [public-api-lists/public-api-lists](https://github.com/public-api-lists/public-api-lists) @ `{SNAP['public-api-lists'][:7]}`", "",
+          "Entries whose `sources` list is `direct` were added to this catalog directly; their descriptions are our own.", "",
           "## License", "", "Code: MIT ([LICENSE](LICENSE)). Data (the YAML records and the verdicts): CC BY 4.0 ([LICENSE-DATA](LICENSE-DATA)). Descriptions imported from the two source lists stay under their MIT notices ([NOTICE](NOTICE)).", ""]
     out["README.md"] = "\n".join(r)
     out["dist/apis.json"] = json.dumps({"generated_for": today, "count": len(ALL), "apis": ALL}, indent=1, ensure_ascii=False,
