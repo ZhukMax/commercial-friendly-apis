@@ -1,0 +1,69 @@
+id: bea
+name: Bureau of Economic Analysis
+url: https://apps.bea.gov/API/signup/
+category: Government
+description: 'US economic accounts: GDP, personal income and regional price parities (cost of living) by state and metro area'
+description_source: own
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: direct
+  name: Bureau of Economic Analysis
+  url: https://apps.bea.gov/API/signup/
+  category: Government
+link_status: alive
+link_checked_at: '2026-11-22'
+data_license: public-domain (US government work)
+api_terms_url: https://apps.bea.gov/API/_pdf/bea_api_tos.pdf
+commercial_use: 'yes'
+commercial_use_scope: any
+storage_caching: 'yes'
+redistribution_display: 'yes'
+attribution_required: 'yes'
+attribution_text: This product uses the Bureau of Economic Analysis (BEA) Data API but is not endorsed or certified
+  by BEA.
+share_alike: 'no'
+bulk_download: unknown
+self_host_option: unknown
+verdict: green
+confidence: high
+evidence:
+- field: data_license
+  url: https://www.bea.gov/about/policies-and-information/linking
+  quote: unless stated otherwise, the information posted on the BEA Web site is in the public domain and may
+    be used or reproduced without specific permission
+  checked_at: '2026-11-22'
+- field: commercial_use
+  url: https://www.bea.gov/about/policies-and-information/linking
+  quote: unless stated otherwise, the information posted on the BEA Web site is in the public domain and may
+    be used or reproduced without specific permission
+  checked_at: '2026-11-22'
+- field: storage_caching
+  url: https://www.bea.gov/about/policies-and-information/linking
+  quote: unless stated otherwise, the information posted on the BEA Web site is in the public domain and may
+    be used or reproduced without specific permission
+  checked_at: '2026-11-22'
+- field: redistribution_display
+  url: https://apps.bea.gov/API/_pdf/bea_api_tos.pdf
+  quote: You may use the BEA API to develop a service or service to search, display, analyze, retrieve, view
+    and otherwise "get" information from BEA data.
+  checked_at: '2026-11-22'
+- field: attribution_required
+  url: https://apps.bea.gov/API/_pdf/bea_api_tos.pdf
+  quote: 'This product uses the Bureau of Economic Analysis (BEA) Data API but is not endorsed or certified
+    by BEA.'
+  checked_at: '2026-11-22'
+- field: share_alike
+  url: https://www.bea.gov/about/policies-and-information/linking
+  quote: unless stated otherwise, the information posted on the BEA Web site is in the public domain and may
+    be used or reproduced without specific permission
+  checked_at: '2026-11-22'
+notes: 'Read the BEA API Terms of Service (PDF linked from the API sign-up page), the bea.gov Linking policy
+  and Guidelines for Citing BEA. Data on bea.gov is public domain unless stated otherwise; the API ToS lets
+  you build a service that displays and analyzes BEA data. Hard conditions: show the non-endorsement notice
+  prominently, do not modify content while still naming BEA as the source, do not use the BEA name or logo
+  to imply endorsement (the logo is allowed only as a link aid). A free API key (UserID) is required. The
+  ToS quotes come from a PDF, so verify_quotes.py cannot check them automatically.'
+checked_at: '2026-11-22'
+checked_by: claude-opus-5-5

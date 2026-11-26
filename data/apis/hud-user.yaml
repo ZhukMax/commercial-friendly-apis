@@ -1,0 +1,58 @@
+id: hud-user
+name: HUD User
+url: https://www.huduser.gov/portal/dataset/fmr-api.html
+category: Government
+description: US Department of Housing and Urban Development data API with Fair Market Rents and Income Limits
+  by county, metro area and ZIP code
+description_source: own
+auth: apiKey
+https: true
+cors: unknown
+sources:
+- list: direct
+  name: HUD User
+  url: https://www.huduser.gov/portal/dataset/fmr-api.html
+  category: Government
+link_status: alive
+link_checked_at: '2026-11-22'
+data_license: unknown
+api_terms_url: https://www.huduser.gov/portal/dataset/api-terms-of-service.html
+commercial_use: ambiguous
+storage_caching: unknown
+redistribution_display: 'yes'
+attribution_required: 'yes'
+attribution_text: This product uses the HUD User Data API but is not endorsed or certified by HUD User.
+share_alike: unknown
+rate_limits: 60 queries a minute
+bulk_download: unknown
+self_host_option: unknown
+verdict: yellow
+confidence: medium
+evidence:
+- field: redistribution_display
+  url: https://www.huduser.gov/portal/dataset/api-terms-of-service.html
+  quote: You may use the API to develop a service or service to search, display, analyze, retrieve, view and
+    otherwise "get" information from HUD User.
+  checked_at: '2026-11-22'
+- field: attribution_required
+  url: https://www.huduser.gov/portal/dataset/api-terms-of-service.html
+  quote: '"This product uses the HUD User Data API but is not endorsed or certified by HUD User."'
+  checked_at: '2026-11-22'
+- field: commercial_use
+  url: https://www.huduser.gov/portal/dataset/api-terms-of-service.html
+  quote: You may not use the HUD User name, or the like to imply endorsement of any product, service, or entity,
+    not-for-profit, commercial or otherwise.
+  checked_at: '2026-11-22'
+- field: rate_limits
+  url: https://www.huduser.gov/portal/dataset/api-terms-of-service.html
+  quote: The limit on the maximum number of API calls is 60 queries a min.
+  checked_at: '2026-11-22'
+notes: 'Read the HUD User API Terms of Service, the FMR and Income Limits API page and the HUD User Disclaimer
+  of Liability and Endorsement page. The ToS is the same template as the Census and BEA API terms: you may
+  build a service that displays and analyzes the data, must show the non-endorsement notice prominently and
+  must not modify content while naming HUD User as the source. It never says commercial use is allowed, says
+  nothing on storage, and no public-domain or licence statement was found on huduser.gov, hud.gov Web Policies
+  or the HUD ArcGIS items for Fair Market Rents (2026-11-22), hence commercial_use ambiguous and verdict yellow,
+  like census-gov. Nothing forbids commercial display. A free access token is required.'
+checked_at: '2026-11-22'
+checked_by: claude-opus-5-5
