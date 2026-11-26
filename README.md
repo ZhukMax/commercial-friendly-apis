@@ -4,7 +4,7 @@ Public API lists tell you whether an API needs a key, HTTPS or CORS. They don't 
 
 > ⚠️ **Not legal advice.** Terms change. Always re-read the linked terms before you ship.
 
-**2054** APIs listed (716 more kept for reference as not applicable) · **1794** checked · 🟢 188 · 🟡 763 · 🔴 139 · ⚪ 964 · last check: 2026-11-22
+**2054** APIs listed (716 more kept for reference as not applicable) · **1794** checked · 🟢 187 · 🟡 763 · 🔴 140 · ⚪ 964 · last check: 2026-11-26
 
 ## Legend
 
@@ -175,7 +175,6 @@ Scenario judged: a public website with ads and affiliate links that stores and r
 | [Social Casino Index](https://socialcasinoindex.com/data/) | Daily-checked US social casino toplist: signup bonuses, payout times, minimums, sources | 🟢 | ✅ | ✅ | required | [terms](https://socialcasinoindex.com/data/) | 2026-11-21 |
 | [SoldSignal](https://www.aiplannermail.com/free-resale-price-api/) | Weekly resale prices for sneakers, consoles and watches with sample size and fees | 🟢 | ✅ | ✅ | required | [terms](https://www.aiplannermail.com/terms/) | 2026-11-21 |
 | [Spotwatts](https://spotwatts.com/en/api) | Nordic and Baltic day-ahead electricity prices, 15-minute and hourly, with VAT, for 15 price areas | 🟢 | ✅ | ✅ | required | [terms](https://spotwatts.com/en/api) | 2026-11-21 |
-| [StackRates](https://stackrates.ai/ask/) | VPS and cloud server prices from 46 providers, read daily from their own pricing pages and APIs | 🟢 | ✅ | ✅ | required | [terms](https://stackrates.ai/terms/) | 2026-11-21 |
 | [Strait of Hormuz Ship Monitor](https://hormuz.data-tracking.net/llms.txt) | Live AIS vessel traffic, crossings and oil flow through the Strait of Hormuz | 🟢 | ✅ | ✅ | required | [terms](https://hormuz.data-tracking.net/llms.txt) | 2026-11-21 |
 | [StrikerAPI](https://strikerapi.com/docs) | Football from 16 leagues incl. Premier League and MLS: lineups, shot maps, xG and odds | 🟢 | ✅ | ✅ | — | [terms](https://strikerapi.com/terms) | 2026-11-21 |
 | [The Deploy Log](https://github.com/dotcomjack/the-deploy-log) | 1,000+ AI deployments, each linked to the publisher's own page, JSON and CSV, CC BY 4.0 | 🟢 | ✅ | ✅ | required | [terms](https://deployedbyai.com/log/) | 2026-11-21 |
@@ -247,7 +246,7 @@ Scenario judged: a public website with ads and affiliate links that stores and r
 | [Machine Learning](categories/machine-learning.md) | 22 | 3 | 3 | 1 | 15 |
 | [Music](categories/music.md) | 29 | 1 | 11 | 4 | 13 |
 | [News](categories/news.md) | 26 | 0 | 16 | 3 | 7 |
-| [Open Data](categories/open-data.md) | 105 | 21 | 51 | 13 | 20 |
+| [Open Data](categories/open-data.md) | 105 | 20 | 51 | 14 | 20 |
 | [Open Source Projects](categories/open-source-projects.md) | 7 | 0 | 3 | 1 | 3 |
 | [Patent](categories/patent.md) | 5 | 1 | 2 | 0 | 2 |
 | [Personality](categories/personality.md) | 28 | 1 | 6 | 0 | 21 |
