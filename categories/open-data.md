@@ -1,6 +1,6 @@
 # Open Data
 
-> Generated file. 105 APIs: 🟢 21 · 🟡 51 · 🔴 13 · ⚪ 20. [Back to README](../README.md)
+> Generated file. 105 APIs: 🟢 20 · 🟡 51 · 🔴 14 · ⚪ 20. [Back to README](../README.md)
 
 | API | Description | Verdict | Commercial use | Storage | Attribution | Terms | Checked |
 |---|---|---|---|---|---|---|---|
@@ -20,7 +20,6 @@
 | [PayCrunch](https://paycrunch.co/api.html) | US wages for 1,008 occupations and by state, from BLS OEWS May 2025, static JSON, CC BY 4.0 | 🟢 | ✅ | ✅ | required | [terms](https://paycrunch.co/api.html) | 2026-11-21 |
 | [RebateHub](https://rebatehub.ca/data) | Canadian home energy rebate, grant and loan programs with status, deadlines and official sources | 🟢 | ✅ | ✅ | required | [terms](https://rebatehub.ca/terms) | 2026-11-21 |
 | [Rope Drop News](https://ropedropnews.com/developers) | Live Disney and Universal theme park wait times, ride reliability, crowds, and Lightning Lane prices | 🟢 | ✅ | ✅ | required | [terms](https://ropedropnews.com/terms) | 2026-11-21 |
-| [StackRates](https://stackrates.ai/ask/) | VPS and cloud server prices from 46 providers, read daily from their own pricing pages and APIs | 🟢 | ✅ | ✅ | required | [terms](https://stackrates.ai/terms/) | 2026-11-21 |
 | [The Deploy Log](https://github.com/dotcomjack/the-deploy-log) | 1,000+ AI deployments, each linked to the publisher's own page, JSON and CSV, CC BY 4.0 | 🟢 | ✅ | ✅ | required | [terms](https://deployedbyai.com/log/) | 2026-11-21 |
 | [Universities List](https://github.com/Hipo/university-domains-list) | University names, countries and domains | 🟢 | ✅ | ✅ | required | [terms](https://raw.githubusercontent.com/Hipo/university-domains-list/master/README.md) | 2026-11-21 |
 | [University of Oslo](https://data.uio.no/) | Courses, lecture videos, detailed information for courses etc. for the University of Oslo (Norway) | 🟢 | ✅ | ✅ | required | [terms](https://data.uio.no/) | 2026-11-21 |
@@ -88,6 +87,7 @@
 | [Nasdaq Data Link](https://data.nasdaq.com/) | Stock market data | 🔴 | 💲 paid | ⚠️ limited | — | [terms](https://data.nasdaq.com/termsandconditions) | 2026-11-21 |
 | [Pan Africa Data](https://panafricadata.com) | Macroeconomic and subnational income distribution data for all 54 African countries | 🔴 | 💲 paid | ❓ ambiguous | required | [terms](https://panafricadata.com/terms) | 2026-11-21 |
 | [Scoop.it](http://www.scoop.it/dev) | Content Curation Service | 🔴 | ❌ | — | — | [terms](https://www.scoop.it/terms-of-use) | 2026-11-21 |
+| [StackRates](https://stackrates.ai/ask/) | VPS and cloud server price comparison, 99 providers; open dataset and API withdrawn in Nov 2026, collection may not be copied | 🔴 | — | ❌ | required | [terms](https://stackrates.ai/terms/) | 2026-11-26 |
 | [Tickerz](https://tickerz.com/docs) | Daily indexes of real-world activity from public data, each reading timestamped in Bitcoin | 🔴 | ❌ | — | required | [terms](https://tickerz.com/terms) | 2026-11-21 |
 | [APIllow](https://apillow.co/docs.html) | Zillow property data: 50+ fields per listing by address, URL, ZPID or ZIP, with sold data and comps | ⚪ | — | ❓ ambiguous | — | [terms](https://apillow.co/terms.html) | 2026-11-21 |
 | [Archive.org](https://archive.readme.io/docs) | The Internet Archive | ⚪ | — | — | — | [terms](https://archive.org/developers/) | 2026-11-21 |

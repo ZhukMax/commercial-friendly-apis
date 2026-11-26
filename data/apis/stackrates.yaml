@@ -2,9 +2,9 @@ id: stackrates
 name: StackRates
 url: https://stackrates.ai/ask/
 category: Open Data
-description: VPS and cloud server prices from 46 providers, read daily from their own pricing pages and
-  APIs
-description_source: upstream
+description: VPS and cloud server price comparison, 99 providers; open dataset and API withdrawn in Nov
+  2026, collection may not be copied
+description_source: own
 auth: none
 https: true
 cors: 'yes'
@@ -14,53 +14,57 @@ sources:
   url: https://stackrates.ai/ask/
   category: Open Data
 link_status: alive
-data_license: CC-BY-4.0 (compilation); prices are provider-published facts
-commercial_use: 'yes'
-storage_caching: 'yes'
-redistribution_display: 'yes'
+data_license: Proprietary compilation, no reuse licence (was CC BY 4.0 until Nov 2026); prices are provider-published
+  facts
+commercial_use: unknown
+storage_caching: 'no'
+redistribution_display: 'no'
 attribution_required: 'yes'
-bulk_download: 'yes'
+bulk_download: 'no'
 self_host_option: unknown
-verdict: green
+verdict: red
 confidence: high
-link_checked_at: '2026-11-21'
-data_license_url: https://stackrates.ai/data/
+link_checked_at: '2026-11-26'
+data_license_url: https://stackrates.ai/terms/
 api_terms_url: https://stackrates.ai/terms/
-commercial_use_scope: any
-attribution_text: Credit StackRates with a link to https://stackrates.ai/data/
+attribution_text: Quote single figures only, with a link to the StackRates page each figure is on
 share_alike: unknown
 evidence:
 - field: data_license
-  url: https://stackrates.ai/data/
-  quote: Our compilation is released under CC BY 4.0
-  checked_at: '2026-11-21'
-- field: commercial_use
-  url: https://stackrates.ai/data/
-  quote: use it, including commercially, with a link to https://stackrates.ai/data/.
-  checked_at: '2026-11-21'
+  url: https://stackrates.ai/terms/
+  quote: The collection, its dates and checks, and the words on this site are ours.
+  checked_at: '2026-11-26'
 - field: redistribution_display
   url: https://stackrates.ai/terms/
-  quote: 'The open data is free to reuse under CC BY 4.0: credit StackRates and link to the source.'
-  checked_at: '2026-11-21'
+  quote: You may not copy or republish the collection, in whole or in large part, by any means, including
+    programs.
+  checked_at: '2026-11-26'
 - field: storage_caching
   url: https://stackrates.ai/terms/
-  quote: 'The open data is free to reuse under CC BY 4.0: credit StackRates and link to the source.'
-  checked_at: '2026-11-21'
+  quote: You may not copy or republish the collection, in whole or in large part, by any means, including
+    programs.
+  checked_at: '2026-11-26'
 - field: attribution_required
   url: https://stackrates.ai/terms/
-  quote: credit StackRates and link to the source.
-  checked_at: '2026-11-21'
+  quote: You may quote figures with a link to the page they are on.
+  checked_at: '2026-11-26'
 - field: bulk_download
   url: https://stackrates.ai/data/
-  quote: Open VPS and cloud hosting price dataset (CSV and JSON, CC BY 4.0)
-  checked_at: '2026-11-21'
-notes: 'Pages read: /ask/ (API: /api/ask, MCP, no key), /data/ and /terms/. Compilation is CC BY 4.0 with
-  commercial use explicitly allowed; terms add: do not overload the site or present the dataset as your
-  own work. Prices are facts from providers; confirm at the source before buying (site itself carries
-  affiliate/deal content, disclosed). Rate limits not stated on pages read.'
-checked_at: '2026-11-21'
-checked_by: claude-sonnet-5-5
-second_check_at: '2026-11-21'
-second_check: confirmed
-second_check_note: Site has affiliate links but terms do not restrict user-side ads. /ask API has no separate
-  terms page. Prices are provider facts; no rate limit stated.
+  quote: Copying the collection, by hand or by program, is not allowed.
+  checked_at: '2026-11-26'
+notes: 'Re-checked 2026-11-26 after a licence change; the 2026-11-21 check (green) found CC BY 4.0 on
+  /data/ ("use it, including commercially") and on /terms/ section 6, with CSV/JSON downloads and a keyless
+  /api/ask. Now /data/prices.json, prices.csv, offers.json, changes.json and /api/ask return HTTP 403
+  "Not available."; /data/ became a page on where prices come from (99 hosts) with no licence or download,
+  and /terms/ section 6 keeps only quoting single figures with a link and bans copying or republishing
+  the collection, including by programs. The terms still say "Effective 6 November 2026", yet a Wayback
+  snapshot of /terms/ (2026-11-15) with that same date, and one of /data/ (2026-11-17), still carry the
+  CC BY wording, so the clause was rewritten without a new effective date. Data obtained under CC BY 4.0
+  before the change stays licensed for that copy (CC BY is irrevocable), but nothing current may be stored
+  or shown in bulk. Commercial use is not addressed separately (left unknown); the verdict follows from
+  the copying ban. Prices themselves are provider facts: read them from each provider''s own pricing page
+  or API instead.'
+checked_at: '2026-11-26'
+checked_by: claude-opus-5-5
+cache_limit: Quoting figures with a link is allowed; copying the collection in whole or in large part,
+  by any means, is not
